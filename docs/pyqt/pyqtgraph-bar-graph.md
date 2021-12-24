@@ -1,0 +1,75 @@
+# pyqtgraph–bar graph
+
+的图形
+
+> 原文:[https://www.geeksforgeeks.org/pyqtgraph-bar-graph/](https://www.geeksforgeeks.org/pyqtgraph-bar-graph/)
+
+在本文中，我们将看到如何在 PyQtGraph 模块中创建条形图。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。)第二是提供工具来帮助快速应用程序开发(例如，属性树，如在 Qt Designer 中使用的属性树)。
+
+条形图是一种可视化一组数据的方法。简单条形图将数据与一个独立变量进行比较，并且可以与数据的设定点或范围相关联。复杂条形图比较两个独立变量的数据。任何一种图形都可以水平或垂直定向。条形图是借助 PyQtGraph 中的 BarGraphItem 类创建的。
+
+> 为了在 PyQtGraph 中绘制条形图，我们必须执行以下操作
+> 1。导入 PyQtgraph 模块
+> 2。创建一个绘图窗口
+> 3。创建或获取绘图数据，即水平和垂直数据
+> 4。创建一个条形图对象来绘制数据之间的条形图
+> 5。将条形图项目对象附加到绘图窗口
+
+下面是实现
+
+```
+# importing pyqtgraph as pg
+import pyqtgraph as pg
+
+# importing QtCore and QtGui from 
+# the pyqtgraph module
+from pyqtgraph.Qt import QtCore, QtGui
+
+# importing numpy as np
+import numpy as np
+
+import time
+
+# creating a pyqtgraph plot window
+window = pg.plot()
+
+# setting window geometry
+# left = 100, top = 100
+# width = 600, height = 500
+window.setGeometry(100, 100, 600, 500)
+
+# title for the plot window
+title = "GeeksforGeeks PyQtGraph"
+
+# setting window title to plot window
+window.setWindowTitle(title)
+
+# create list for y-axis
+y1 = [5, 5, 7, 10, 3, 8, 9, 1, 6, 2]
+
+# create horizontal list i.e x-axis
+x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# create pyqt5graph bar graph item
+# with width = 0.6
+# with bar colors = green
+bargraph = pg.BarGraphItem(x = x, height = y1, width = 0.6, brush ='g')
+
+# add item to plot window
+# adding bargraph item to the window
+window.addItem(bargraph)
+
+# main method
+if __name__ == '__main__':
+
+    # importing system
+    import sys
+
+    # Start Qt event loop unless running in interactive mode or using
+    if (sys.flags.interactive != 1) or not hasattr(QtCore, 'PYQT_VERSION'):
+        QtGui.QApplication.instance().exec_()
+```
+
+**输出:**
+
+![pyqtgraph-bar-graph](img/c078ca8ec5f23f5e7c1700a285350368.png)

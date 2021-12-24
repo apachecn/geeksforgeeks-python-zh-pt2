@@ -1,0 +1,73 @@
+# PyQt5 QSpinBox–如何覆盖标志
+
+> 原文:[https://www . geesforgeks . org/pyqt5-qspinbox-如何覆盖标志/](https://www.geeksforgeeks.org/pyqt5-qspinbox-how-to-override-the-flags/)
+
+在本文中，我们将看到如何覆盖旋转框的窗口标志。旋转框有特定的标志，标志指定小部件属性，所以覆盖标志意味着改变属性。例如，如果用户设置 Qt。封面窗口标志为旋转框，旋转框将不可见。
+
+为了做到这一点，我们对旋转框对象使用`overrideWindowFlags`方法。
+
+> **语法:**spin _ box . overridedwindowflags(flag)
+> 
+> **参数:**它以 Qt 标志作为参数
+> 
+> **返回:**返回无
+
+下面是实现
+
+```
+# importing libraries
+from PyQt5.QtWidgets import * 
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtGui import * 
+from PyQt5.QtCore import * 
+import sys
+
+class Window(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        # setting title
+        self.setWindowTitle("Python ")
+
+        # setting geometry
+        self.setGeometry(100, 100, 600, 400)
+
+        # calling method
+        self.UiComponents()
+
+        # showing all the widgets
+        self.show()
+
+        # method for widgets
+    def UiComponents(self):
+        # creating spin box
+        self.spin = QSpinBox(self)
+
+        # setting geometry to spin box
+        self.spin.setGeometry(100, 100, 250, 40)
+
+        # setting range to the spin box
+        self.spin.setRange(1, 999999)
+
+        # setting prefix to spin
+        self.spin.setPrefix("PREFIX ")
+
+        # setting suffix to spin
+        self.spin.setSuffix(" SUFFIX")
+
+        # overriding the spin box's window flags
+        self.spin.overrideWindowFlags(Qt.CoverWindow)
+
+# create pyqt5 app
+App = QApplication(sys.argv)
+
+# create the instance of our Window
+window = Window()
+
+# start the app
+sys.exit(App.exec())
+```
+
+**输出:**
+![](img/fd4e8d7882cae754a96eb88c40926edf.png)

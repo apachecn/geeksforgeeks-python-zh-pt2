@@ -1,0 +1,69 @@
+# wx 的 wxPython–GetSelection()方法。无线电盒
+
+> 原文:[https://www . geesforgeks . org/wxpython-getselection-method-of-wx-radio box/](https://www.geeksforgeeks.org/wxpython-getselection-method-of-wx-radiobox/)
+
+在本文中，我们将学习与 wx 相关联的 GetSelection()方法。wxPython 的 RadioBox 类。GetSelection()函数只是用来返回所选项目的索引，如果没有选择任何项目，则返回 NOT_FOUND。
+
+GetSelection()函数不需要任何参数。
+
+> **语法:** wx。RadioBox.GetSelection(自我)
+> 
+> **参数**GetSelection()函数不需要参数。
+> 
+> **返回:**当前选择的位置。
+> 
+> **返回类型:** int
+
+**代码示例:**
+
+```
+import wx
+
+class FrameUI(wx.Frame):
+
+    def __init__(self, parent, title):
+        super(FrameUI, self).__init__(parent, title = title, size =(300, 200))
+
+        # function for in-frame components
+        self.InitUI()
+
+    def InitUI(self):
+        # parent panel for radio box
+        pnl = wx.Panel(self)
+
+        # list of choices
+        lblList = ['Radio One', 'Radio Two']
+
+        # create radio boc containing above list
+        self.rbox = wx.RadioBox(pnl, label ='RadioBox', pos =(80, 10), choices = lblList,
+                                          majorDimension = 1, style = wx.RA_SPECIFY_ROWS)
+
+        # set tooltip for first tool
+        self.rbox.SetItemToolTip(0, "Item One")
+
+        # print the index of the selected item
+        print (self.rbox.GetSelection())
+
+        # set frame in centre
+        self.Centre()
+        # set size of frame
+        self.SetSize((400, 250))
+        # show output frame
+        self.Show(True)
+
+# wx App instance
+ex = wx.App()
+# Example instance
+FrameUI(None, 'RadioButton and RadioBox')
+ex.MainLoop()
+```
+
+**控制台输出:**
+
+```
+0
+
+```
+
+**输出窗口:**
+![](img/7f9789de9d7df84117d24eec864cd95f.png)

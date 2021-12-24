@@ -1,0 +1,84 @@
+# PyQt5–设置皮肤以查看组合框的一部分
+
+> 原文:[https://www . geeksforgeeks . org/pyqt 5-设置-皮肤到视图-组合框的一部分/](https://www.geeksforgeeks.org/pyqt5-set-skin-to-view-part-of-combobox/)
+
+在本文中，我们将看到如何为组合框的视图部分设置皮肤。视图部分是所有项目显示的地方，当组合框被按下时，视图部分显示它自己。皮肤基本上是根据视图部分的大小来调整自身的背景图像。`setView`和`view`方法用于设置和获取组合框的视图对象，默认组合框有 QListView 类型对象。下面是视图部件外观的图示。
+
+![](img/d18b09efeefc83e3f786540ccf19c3de.png)
+
+为此，我们必须更改与组合框关联的样式表代码，下面是样式表代码
+
+```
+QListView
+{
+border-image : url(image.png);
+}
+
+```
+
+下面是实现
+
+```
+# importing libraries
+from PyQt5.QtWidgets import * 
+from PyQt5 import QtCore, QtGui
+from PyQt5.QtGui import * 
+from PyQt5.QtCore import *
+import sys
+
+class Window(QMainWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        # setting title
+        self.setWindowTitle("Python ")
+
+        # setting geometry
+        self.setGeometry(100, 100, 600, 400)
+
+        # calling method
+        self.UiComponents()
+
+        # showing all the widgets
+        self.show()
+
+    # method for widgets
+    def UiComponents(self):
+        # creating a check-able combo box object
+        self.combo_box = QComboBox(self)
+
+        # setting geometry of combo box
+        self.combo_box.setGeometry(200, 150, 200, 80)
+
+        # making combo box editable
+        # self.combo_box.setEditable(True)
+
+        # geek list
+        geek_list = ["Sayian", "Super Sayian", "Super Sayian 2", "Super Sayian B"]
+
+        # adding list of items to combo box
+        self.combo_box.addItems(geek_list)
+
+        # setting style sheet
+        # adding skin to list view
+        self.combo_box.setStyleSheet("QListView"
+                                     "{"
+                                     "border-image : url(image.png);"
+                                     "border : 1px solid black;"
+                                     "}")
+
+# create pyqt5 app
+App = QApplication(sys.argv)
+
+# create the instance of our Window
+window = Window()
+
+window.show()
+
+# start the app
+sys.exit(App.exec())
+```
+
+**输出:**
+![](img/a9fec75efe48d466bdaeeca741b91782.png)

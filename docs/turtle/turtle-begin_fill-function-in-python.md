@@ -1,0 +1,51 @@
+# Python 中的 turtle.begin_fill()函数
+
+> 原文:[https://www . geesforgeks . org/turtle-begin _ fill-function-in-python/](https://www.geeksforgeeks.org/turtle-begin_fill-function-in-python/)
+
+海龟模块以面向对象和面向过程的方式提供海龟图形原语。因为它使用 Tkinter 作为底层图形，所以它需要安装一个支持 Tk 的 Python 版本。
+
+## turtle.begin_fill()
+
+此方法用于在绘制要填充的形状之前调用。这不需要任何争论。
+
+**语法:**
+
+```
+turtle.begin_fill()
+```
+
+下面是上述方法的一个示例实现:
+
+**示例:**
+
+## 蟒蛇 3
+
+```
+# importing package
+import turtle
+
+# set turtle position
+# and color
+turtle.up()
+turtle.goto(0,-30)
+turtle.down()
+turtle.color("yellow")
+
+# start fill block
+turtle.begin_fill()
+
+# all instruction within this
+# block are filled with turtle
+# color as set above
+turtle.circle(60)
+
+# end fill block
+turtle.end_fill()
+
+# hide the turtle
+turtle.hideturtle()
+```
+
+**输出:**
+
+![](img/ee3402ee6394a70ecd46cea571a9cd03.png)

@@ -1,0 +1,85 @@
+# 蟒蛇 PRAW–挡住红魔
+
+> 原文:[https://www . geesforgeks . org/python-praw-blocking-a-redditor/](https://www.geeksforgeeks.org/python-praw-blocking-a-redditor/)
+
+在 Reddit 中，redditor 是给用户的术语。在这里，我们将看到如何使用 PRAW 阻止一个作为认证用户的 redditor。我们将使用`Redditor`类的`block()`方法来阻止 redditor。
+
+## 块()
+
+> **语法:** Redditor.block()
+> 
+> **参数:**无
+> 
+> **返回:**无
+
+**例 1 :** 考虑以下 redditor :
+![](img/60e5b09bcc9c0497565b34e02bcac732.png)
+
+redditor 的用户名是:spez
+
+```
+# importing the module
+import praw
+
+# initialize with appropriate values
+client_id = ""
+client_secret = ""
+username = ""
+password = ""
+user_agent = ""
+
+# creating an authorized reddit instance
+reddit = praw.Reddit(client_id = client_id, 
+                     client_secret = client_secret, 
+                     username = username, 
+                     password = password,
+                     user_agent = user_agent) 
+
+# the redditor to be blocked
+redditor_name = "spez"
+
+# instantiating the Redditor class
+redditor = reddit.redditor(redditor_name)
+
+# blocking the redditor
+redditor.block()
+```
+
+**输出:**
+![](img/20ec190f11f16064b287ed9ea2e14c70.png)
+
+**例 2 :** 考虑以下 redditor :
+![](img/c80c93faa6b2e754176bf9034d2fa3e5.png)
+
+redditor 的用户名是:自动编码器
+
+```
+# importing the module
+import praw
+
+# initialize with appropriate values
+client_id = ""
+client_secret = ""
+username = ""
+password = ""
+user_agent = ""
+
+# creating an authorized reddit instance
+reddit = praw.Reddit(client_id = client_id, 
+                     client_secret = client_secret, 
+                     username = username, 
+                     password = password,
+                     user_agent = user_agent) 
+
+# the redditor to be blocked
+redditor_name = "AutoModerator"
+
+# instantiating the Redditor class
+redditor = reddit.redditor(redditor_name)
+
+# blocking the redditor
+redditor.block()
+```
+
+**输出:**
+![](img/255143dd7d279e3f3c3cea9e57b1c4e8.png)
