@@ -7,7 +7,7 @@
 **方法#1 : `join() + sorted() + reverse`键**
 上述功能的组合可以潜在地解决这个特定的问题。这个任务分两步执行，在第一步中，我们得到字符的反向排序列表，然后我们连接结果以得到结果排序字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Reverse Sort a String
 # using join() + sorted() + reverse
@@ -28,7 +28,7 @@ print("String after reverse sorting : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geekforgeeks
 String after reverse sorting : srokkggfeeee
 

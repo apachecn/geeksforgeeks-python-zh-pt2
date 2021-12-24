@@ -17,7 +17,7 @@
 
 **Code:** Use of shutil.disk_usage() method
 
-```
+```py
 # Python program to explain shutil.disk_usage() method 
 
 # importing shutil module 
@@ -37,7 +37,7 @@ print(stat)
 
 **Output:**
 
-```
+```py
 Disk usage statistics:
 usage(total=244934381568, used=13350301696, free=219070689280)
 

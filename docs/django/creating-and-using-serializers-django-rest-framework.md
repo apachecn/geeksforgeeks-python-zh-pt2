@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -34,7 +34,7 @@ class CommentSerializer(serializers.Serializer):
 
 ## 蟒蛇 3
 
-```
+```py
 # import datetime object
 from datetime import datetime
 
@@ -50,13 +50,13 @@ comment = Comment(email ='leila@example.com', content ='foo bar')
 
 现在我们的对象已经准备好了，让我们试着序列化这个注释对象。运行以下命令，
 
-```
+```py
 Python manage.py shell
 ```
 
 现在运行以下代码
 
-```
+```py
 # import comment serializer
 >>> from apis.serializers import CommentSerializer
 
@@ -89,7 +89,7 @@ Python manage.py shell
 
 ## 蟒蛇 3
 
-```
+```py
 # import JSON Renderer
 from rest_framework.renderers import JSONRenderer
 
@@ -104,7 +104,7 @@ json = JSONRenderer().render(serializer.data)
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 from rest_framework.parsers import JSONParser
 
@@ -116,7 +116,7 @@ data = JSONParser().parse(stream)
 
 ## 蟒蛇 3
 
-```
+```py
 serializer = CommentSerializer(data = data)
 serializer.is_valid()
 # True

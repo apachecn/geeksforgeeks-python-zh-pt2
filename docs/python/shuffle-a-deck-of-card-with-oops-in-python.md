@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 from random import shuffle
 

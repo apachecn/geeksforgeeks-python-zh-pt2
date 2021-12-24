@@ -7,7 +7,7 @@
 **方法#1:使用天真的方法**
 在天真的方法中，我们只需构建包含 prev 乘积的新列表。值，直到出现 False，并在遇到 True 值时重新启动过程。
 
-```
+```py
 # Python3 code to demonstrate 
 # Multiplication till Null value
 # using naive method 
@@ -32,7 +32,7 @@ print ("The computed modified new list : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 4, False, 4, 5, False, 7, 8]
 The computed modified new list : [1, 3, 12, 1, 4, 20, 1, 7, 56]
 

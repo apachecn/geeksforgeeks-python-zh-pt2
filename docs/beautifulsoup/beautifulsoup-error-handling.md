@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import requests
 from urllib.error import HTTPError
@@ -41,7 +41,7 @@ else:
 
 ## 计算机编程语言
 
-```
+```py
 # importing modules
 import requests
 from urllib.error import HTTPError
@@ -70,7 +70,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import requests
 from urllib.error import URLError
@@ -96,7 +96,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import requests
 from urllib.error import URLError
@@ -125,7 +125,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import requests
 import bs4
@@ -164,7 +164,7 @@ print(soup.NoneExistingTag.SomeTag)
 
 ## 计算机编程语言
 
-```
+```py
 import requests
 import bs4
 

@@ -8,7 +8,7 @@ Go 语言提供了运行时反射的内置支持实现，并允许程序在反�
 
 > **语法:**
 > 
-> ```
+> ```py
 > func (v Value) IsNil() bool
 > 
 > ```
@@ -21,7 +21,7 @@ Go 语言提供了运行时反射的内置支持实现，并允许程序在反�
 
 **例 1:**
 
-```
+```py
 // Golang program to illustrate
 // reflect.IsNil() Function
 
@@ -41,14 +41,14 @@ func main() {
 
 **输出:**
 
-```
+```py
 main(): body == nil ? true
 
 ```
 
 **例 2:**
 
-```
+```py
 // Golang program to illustrate
 // reflect.IsNil() Function 
 
@@ -88,7 +88,7 @@ func main() {
 
 **输出:**
 
-```
+```py
 false
 
 ```

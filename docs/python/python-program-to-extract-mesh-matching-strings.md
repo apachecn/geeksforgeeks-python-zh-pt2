@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Mesh matching Strings
 # Using len() + loop + zip() + all()
@@ -48,7 +48,7 @@ print("The extracted strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeks', 'best', 'peeks', 'for', 'seeks']
 The extracted strings : ['geeks', 'peeks', 'seeks']
 
@@ -60,7 +60,7 @@ The extracted strings : ['geeks', 'peeks', 'seeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract Mesh matching Strings
 # Using list comprehension
@@ -84,7 +84,7 @@ print("The extracted strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeks', 'best', 'peeks', 'for', 'seeks']
 The extracted strings : ['geeks', 'peeks', 'seeks']
 

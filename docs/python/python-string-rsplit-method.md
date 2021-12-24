@@ -25,7 +25,7 @@ python String***rsplit()***方法通过指定的分隔符从右侧断开给定�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to split a string
 # using rsplit.
 
@@ -48,7 +48,7 @@ print(word.rsplit('@', 1))
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ['geeks, for, ', 'eeks']
 ['geeks@for', 'geeks']
@@ -58,7 +58,7 @@ print(word.rsplit('@', 1))
 
 ## 蟒蛇 3
 
-```
+```py
 word = 'geeks, for, geeks, pawan'
 
 # maxsplit: 0
@@ -78,7 +78,7 @@ print(word.rsplit('@', 2))
 
 **输出:**
 
-```
+```py
 ['geeks, for, geeks, pawan']
 ['geeks', 'for', 'geeks', 'pawan']
 ['geeks@for@geeks@for', 'geeks']
@@ -89,7 +89,7 @@ print(word.rsplit('@', 2))
 
 ## 蟒蛇 3
 
-```
+```py
 word = 'geeks for geeks'
 
 # Since separator is 'None', 
@@ -107,7 +107,7 @@ print('@@@@@geeks@for@geeks'.rsplit('@', 5))
 
 **输出:**
 
-```
+```py
 ['geeks for', 'geeks']
 ['geeks', 'for', 'geeks']
 ['', '', '', '', '', 'geeks', 'for', 'geeks']

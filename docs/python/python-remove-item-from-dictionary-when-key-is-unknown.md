@@ -10,7 +10,7 @@
 
 `del`关键字可用于就地删除字典中存在的关键字。使用这种方法的一个缺点是，如果找不到密钥，就会引发异常，因此必须处理密钥不存在的问题。
 
-```
+```py
 # Python code to demonstrate how to remove 
 # an item from the dictionary without knowing 
 # a key using naive + del method
@@ -36,7 +36,7 @@ print ("Dictionary after remove is : " + str(test1))
 
 **Output:**
 
-```
+```py
 Original Dictionary : {'akshat': 21, 'manjeet': 27, 'nikhil': 22, 'akash': 23}
 Dictionary after remove is : {'akshat': 21, 'manjeet': 27, 'nikhil': 22}
 
@@ -44,7 +44,7 @@ Dictionary after remove is : {'akshat': 21, 'manjeet': 27, 'nikhil': 22}
 
 **方法二:**利用字典理解。
 
-```
+```py
 # Python code to demonstrate how to remove 
 # item from dictionary without knowing key
 # using dictionary comprehension
@@ -68,7 +68,7 @@ print ("Dictionary after remove is : " + str(res))
 
 **Output:**
 
-```
+```py
 Original Dictionary : {'nikhil': 22, 'akash': 23, 'akshat': 21, 'manjeet': 27}
 Dictionary after remove is : {'nikhil': 22, 'manjeet': 27, 'akshat': 21}
 
@@ -78,7 +78,7 @@ Dictionary after remove is : {'nikhil': 22, 'manjeet': 27, 'akshat': 21}
 
 Python 语言为几乎所有容器指定了`pop()`，无论是列表、集合等。
 
-```
+```py
 # Python code to demonstrate how to remove
 # item from dictionary without knowing key
 # using naive + pop()
@@ -104,7 +104,7 @@ print ("Dictionary after remove is : " + str(test1))
 
 **Output:**
 
-```
+```py
 Original dictionary : {'manjeet': 27, 'nikhil': 22, 'akshat': 21, 'akash': 23}
 Dictionary after remove is : {'manjeet': 27, 'nikhil': 22, 'akshat': 21}
 

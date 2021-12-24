@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("Is " + redditor_name + " friends with the authenticated user? : " +
 
 **输出:**
 
-```
+```py
 Is spez friends with the authenticated user? : False
 
 ```
@@ -49,7 +49,7 @@ Is spez friends with the authenticated user? : False
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -79,7 +79,7 @@ print("Is " + redditor_name + " friends with the authenticated user? : " +
 
 **输出:**
 
-```
+```py
 Is AutoModerator friends with the authenticated user? : False
 
 ```

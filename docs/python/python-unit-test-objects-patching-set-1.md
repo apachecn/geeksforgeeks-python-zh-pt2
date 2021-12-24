@@ -8,7 +8,7 @@
 
 **Code #1: Using `unittest.mock.patch` as a decorator**
 
-```
+```py
 from unittest.mock import patch
 import example
 @patch('example.func')
@@ -21,7 +21,7 @@ def test1(x, mock_func):
 
 **代码#2:用`unittest.mock.patch`做装饰**
 
-```
+```py
 with patch('example.func') as mock_func:
     example.func(x) 
     mock_func.assert_called_with(x)
@@ -29,7 +29,7 @@ with patch('example.func') as mock_func:
 
 **代码#3:使用 `unittest.mock.patch`手动修补东西。**
 
-```
+```py
 p = patch('example.func')
 mock_func = p.start()
 example.func(x)
@@ -39,7 +39,7 @@ p.stop()
 
 **代码#4:堆叠装饰器和上下文管理器来修补多个对象**
 
-```
+```py
 @patch('example.func1')
 @patch('example.func2')
 @patch('example.func3')
@@ -57,7 +57,7 @@ def test2():
 
 **代码#5:示例**
 
-```
+```py
 x = 42
 with patch('__main__.x'):
     print(x)

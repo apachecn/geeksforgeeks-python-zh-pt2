@@ -31,7 +31,7 @@ maketrans()函数用于构造转换表，即指定需要在整个字符串中替
 
 **代码#1 :** 使用 translate()和 maketrans()进行翻译的代码。
 
-```
+```py
 # Python3 code to demonstrate 
 # translations using 
 # maketrans() and translate()
@@ -64,7 +64,7 @@ print (trg.translate(table))
 
 输出:
 
-```
+```py
 The string before translating is : weeksyourweeks
 The string after translating is : geeksforgeeks
 
@@ -76,7 +76,7 @@ The string after translating is : geeksforgeeks
 
 **代码#2 :** 无需 maketrans()即可翻译的代码。
 
-```
+```py
 # Python3 code to demonstrate 
 # translations without
 # maketrans() 
@@ -99,7 +99,7 @@ print (trg.translate(table))
 
 输出:
 
-```
+```py
 The string before translating is : weeksyourweeks
 The string after translating is : geeksforgeeks
 

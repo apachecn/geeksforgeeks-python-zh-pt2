@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import User
 from PIL import Image
@@ -41,7 +41,7 @@ class Profile(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -88,7 +88,7 @@ def profile(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
@@ -118,7 +118,7 @@ class ProfileUpdateForm(forms.ModelForm):
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 from django.db.models.signals import post_save, pre_delete
 from django.contrib.auth.models import User

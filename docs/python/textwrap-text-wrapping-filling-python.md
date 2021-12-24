@@ -22,7 +22,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
 1.  **textwrap.wrap(text, width=70, **kwargs)**: This function wraps the input paragraph such that each line in the paragraph is at most width characters long. The wrap method returns a list of output lines. The returned list is empty if the wrapped output has no content. Default width is taken as 70.
 
-    ```
+    ```py
     import textwrap
 
     value = """This function wraps the input paragraph such that each line
@@ -43,7 +43,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **输出:**
 
-    ```
+    ```py
     This function wraps the input paragraph such that
     each line in the paragraph is at most width
     characters long. The wrap method returns a list of
@@ -54,7 +54,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
 2.  **textwrap.fill(text, width=70, **kwargs):** The fill() convenience function works similar to textwrap.wrap except it returns the data joined into a single, newline-separated string. This function wraps the input single paragraph in text, and returns a single string containing the wrapped paragraph.
 
-    ```
+    ```py
     import textwrap
 
     value = """This function returns the answer as STRING and not LIST."""
@@ -69,7 +69,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **输出:**
 
-    ```
+    ```py
     This function returns the answer as STRING and not LIST.
 
     ```
@@ -78,7 +78,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **示例:**
 
-    ```
+    ```py
     import textwrap
 
     wrapper = textwrap.TextWrapper(width=50)
@@ -95,7 +95,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **输出:**
 
-    ```
+    ```py
     '    hello\n      world\n    '
     'hello\n  world\n'
 
@@ -103,7 +103,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
 4.  **textwrap.shorten(text, width, **kwargs)**: This function truncates the input string so that the length of the string becomes equal to the given width. At first, all the whitespaces are collapsed in the string by removing the whitespaces with a single space. If the modified string fits in the given string, then it is returned otherwise, the characters from the end are dropped so that the remaining words plus the placeholder fit within width.
 
-    ```
+    ```py
     import textwrap
 
     sample_text = """This function wraps the input paragraph such that each line
@@ -129,7 +129,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **输出:**
 
-    ```
+    ```py
     Original:
 
     This function wraps the input paragraph such that
@@ -147,7 +147,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
 5.  **textwrap.indent(text, prefix, predicate=None)**: This function is used to add the given prefix to the beginning of the selected lines of the text. The predicate argument can be used to control which lines are indented.
 
-    ```
+    ```py
     import textwrap
 
     s = 'hello\n\n \nworld'
@@ -162,7 +162,7 @@ TextWrapper 实例属性(以及构造函数的关键字参数)如下:
 
     **输出:**
 
-    ```
+    ```py
     hello
 
     world

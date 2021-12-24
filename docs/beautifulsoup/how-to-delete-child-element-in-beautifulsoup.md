@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -67,7 +67,7 @@ print(div_bs4)
 
 **输出:**
 
-```
+```py
 <div id="parent"></div>
 ```
 
@@ -75,7 +75,7 @@ print(div_bs4)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -119,7 +119,7 @@ print(div_bs4)
 
 **输出:**
 
-```
+```py
 <None></None>
 ```
 
@@ -127,7 +127,7 @@ print(div_bs4)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -171,7 +171,7 @@ print(div_bs4)
 
 **输出:**
 
-```
+```py
 <div id="parent">
 <p>
     This is child of div with id = "parent".

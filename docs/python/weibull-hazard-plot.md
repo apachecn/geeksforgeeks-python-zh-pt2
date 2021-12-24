@@ -14,7 +14,7 @@
 
 </center>
 
-```
+```py
 where, 
 H(t) -> failure rate
 t -> failure at time t
@@ -77,7 +77,7 @@ t -> failure at time t
 
 下面是显示威布尔图和相应威布尔危险图的代码实现。
 
-```
+```py
 import weibull as wb
 # Creating a custom random data for failure points.
 fails = [5002.7, 6203.4, 14367.2, 11144.6, 7332.0,

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if any set element exists in List
 # Using any()
@@ -49,7 +49,7 @@ print("Any set element is in list ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {1, 2, 4, 6, 7, 9}
 Any set element is in list ? : True
 ```
@@ -60,7 +60,7 @@ Any set element is in list ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if any set element exists in List
 # Using & operator
@@ -83,7 +83,7 @@ print("Any set element is in list ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {1, 2, 4, 6, 7, 9}
 Any set element is in list ? : True
 ```

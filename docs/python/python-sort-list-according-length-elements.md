@@ -5,7 +5,7 @@
 在这个程序中，我们需要接受一个列表，并根据其中元素的长度进行排序。
 示例:
 
-```
+```py
 Input : list = ["rohan", "amy", "sapna", "muhammad",
                 "aakash", "raunak", "chinmoy"]
 Output : ['amy', 'rohan', 'sapna', 'aakash', 'raunak', 
@@ -27,11 +27,11 @@ length.
 
 **通过创建新列表进行排序的语法是:**
 
-```
+```py
 sorted_list = sorted(unsorted_list, key=len)
 ```
 
-```
+```py
 # Python code to sort a list by creating 
 # another list Use of sorted()
 def Sorting(lst):
@@ -46,11 +46,11 @@ print(Sorting(lst))
 
 **不创建新列表进行排序的语法为:**
 
-```
+```py
 unsorted_list.sort(key=len)
 ```
 
-```
+```py
 # Python code to sort a list without 
 # creating another list Use of sort()
 def Sorting(lst):
@@ -65,7 +65,7 @@ print(Sorting(lst))
 
 输出:
 
-```
+```py
 ['amy', 'rohan', 'sapna', 'aakash', 'raunak', 'chinmoy', 'muhammad']
 
 ```
@@ -79,7 +79,7 @@ Python 在排序时实现的这些关键功能被称为**修饰-排序-非修饰
 
 **通过创建新的虚拟列表进行排序的代码为:**
 
-```
+```py
 import numpy
 
 def Sorting(lst):
@@ -115,7 +115,7 @@ print(Sorting(lst))
 
 输出:
 
-```
+```py
 ['amy', 'rohan', 'sapna', 'aakash', 'raunak', 'chinmoy', 'muhammad']
 
 ```

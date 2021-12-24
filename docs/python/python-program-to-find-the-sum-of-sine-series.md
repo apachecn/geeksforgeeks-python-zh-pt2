@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 Input: n = 10
         x = 30
 Output: sum of sine series is 0.5 
@@ -26,7 +26,7 @@ Output: sum of sine series is 0.87
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import math
 
@@ -53,6 +53,6 @@ print(round(sin(x,n),2))
 
 **输出:**
 
-```
+```py
 0.17
 ```

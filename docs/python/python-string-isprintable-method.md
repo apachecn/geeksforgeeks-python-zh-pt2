@@ -31,7 +31,7 @@ Python String isprintable()是一种用于字符串处理的内置方法。如�
 
 ### 例 1
 
-```
+```py
 Input : string = 'My name is Ayush'
 Output : True
 
@@ -44,7 +44,7 @@ Output : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for implementation of isprintable()
 
 # checking for printable characters
@@ -62,7 +62,7 @@ print( string.isprintable())
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -72,7 +72,7 @@ True
 
 在 python 中给定一个字符串，计算该字符串中不可打印的字符数，并用空格替换不可打印的字符。
 
-```
+```py
 Input : string = 'My name is Ayush'
 Output : 0
          My name is Ayush
@@ -92,7 +92,7 @@ Output : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to count 
 # non-printable characters in a string
 
@@ -123,7 +123,7 @@ print(newstring)
 
 **输出:**
 
-```
+```py
 3
 GeeksforGeeks name is CS portal
 ```

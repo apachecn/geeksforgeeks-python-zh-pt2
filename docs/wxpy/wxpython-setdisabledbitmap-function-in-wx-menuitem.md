@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.SetDisabledItem(self, disabled)
 > 
 > ```
@@ -19,7 +19,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

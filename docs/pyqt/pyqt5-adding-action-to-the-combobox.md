@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -81,7 +81,7 @@ sys.exit(App.exec())
 
 当我们选择任何项目时，就会打印出来
 
-```
+```py
 Something Something
 Something Something
 

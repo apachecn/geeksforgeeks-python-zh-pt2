@@ -17,7 +17,7 @@
 
 **代码:**使用`***os._exit()***`方法
 
-```
+```py
 # Python program to explain os._exit() method 
 
 # importing os module  
@@ -68,7 +68,7 @@ else :
 
 **Output:**
 
-```
+```py
 In child process
 Process ID: 15240
 Hello! Geeks

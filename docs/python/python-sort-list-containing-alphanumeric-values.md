@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ['k', 5, 'e', 3, 'g', 7, 0, 't']
 Output : [0, 3, 5, 7, 'e', 'g', 'k', 't']
 
@@ -22,7 +22,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 *   **方法一:**列表理解
     Python 列表理解可以简单的将列表的每个元素转换成字符串类型。我们对它进行排序，因为现在所有的值都是 str 类型，所以我们将最终的列表更改回它的原始形式。
 
-    ```
+    ```py
     # Python3 program to Sort list 
     # containing alpha and numeric values
 
@@ -39,7 +39,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
     **输出:**
 
-    ```
+    ```py
     [0, 3, 5, 7, 'e', 'g', 'k', 't']
 
     ```
@@ -48,7 +48,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
     Key 函数用作排序比较的键，在我们的例子中等于 *str* 。
 
-    ```
+    ```py
     # Python3 program to Sort list 
     # containing alpha and numeric values
     def sort(lst):
@@ -63,7 +63,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
     **Output:**
 
-    ```
+    ```py
     [0, 3, 5, 7, 'e', 'g', 'k', 't']
 
     ```
@@ -74,7 +74,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
 *   **方法#1 :** 使用按键功能
 
-    ```
+    ```py
     # Python3 program to Sort list 
     # containing alpha and numeric values
 
@@ -89,14 +89,14 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
     **输出:**
 
-    ```
+    ```py
     [0, 3, 5, 7, 'e', 'g', 'k', 't']
 
     ```
 
 *   **方法# 2:***λ*
 
-    ```
+    ```py
     # Python3 program to Sort list 
     # containing alpha and numeric values
 
@@ -111,7 +111,7 @@ Output : [1, 2, 3, 'a', 'b', 'c']
 
     **输出:**
 
-    ```
+    ```py
     [0, 3, 5, 7, 'e', 'g', 'k', 't']
 
     ```

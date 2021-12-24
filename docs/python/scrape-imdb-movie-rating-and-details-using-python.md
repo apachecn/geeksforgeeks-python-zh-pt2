@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 import re
@@ -30,7 +30,7 @@ import re
 
 ## 蟒蛇 3
 
-```
+```py
 # Downloading imdb top 250 movie's data
 url = 'http://www.imdb.com/chart/top'
 response = requests.get(url)
@@ -41,7 +41,7 @@ soup = BeautifulSoup(response.text, 'lxml')
 
 ## 蟒蛇 3
 
-```
+```py
 movies = soup.select('td.titleColumn')
 links = [a.attrs.get('href') for a in soup.select('td.titleColumn a')]
 crew = [a.attrs.get('title') for a in soup.select('td.titleColumn a')]
@@ -53,7 +53,7 @@ votes = [b.attrs.get('data-value') for b in soup.select('td.ratingColumn strong'
 
 ## 蟒蛇 3
 
-```
+```py
 # create a empty list for storing
 # movie information
 list = []
@@ -84,7 +84,7 @@ for index in range(0, len(movies)):
 
 ## 蟒蛇 3
 
-```
+```py
 for movie in list:
     print(movie['place'], '-', movie['movie_title'], '('+movie['year'] +
           ') -', 'Starring:', moive['star_cast'], movie['rating'])
@@ -94,7 +94,7 @@ for movie in list:
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 import re

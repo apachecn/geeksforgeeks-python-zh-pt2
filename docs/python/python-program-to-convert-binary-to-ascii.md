@@ -24,7 +24,7 @@ Binascii 帮助在二进制和各种 ascii 编码的二进制表示之间进行�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of Binary to ASCII
 
@@ -44,7 +44,7 @@ print(Ascii)
 
 **输出:**
 
-```
+```py
 b"21T9'(&ES(&$@0U,@4&]R=&%L\n"
 ```
 
@@ -58,7 +58,7 @@ b"21T9'(&ES(&$@0U,@4&]R=&%L\n"
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of Binary to ASCII
 
@@ -81,6 +81,6 @@ print(ascii_text)
 
 **输出:**
 
-```
+```py
 abc
 ```

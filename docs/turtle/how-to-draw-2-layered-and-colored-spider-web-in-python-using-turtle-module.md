@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle as t
 
 # define turtle speed

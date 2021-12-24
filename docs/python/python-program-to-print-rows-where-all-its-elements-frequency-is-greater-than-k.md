@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rows with all Elements frequency greater than K
 # Using list comprehension + count() + all()
@@ -55,7 +55,7 @@ print("Filtered rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rows with all Elements frequency greater than K
 # Using filter() + lambda + all() + count()

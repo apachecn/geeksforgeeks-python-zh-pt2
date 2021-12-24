@@ -33,7 +33,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to explain time.localtime() method
 
 # importing time module
@@ -62,7 +62,7 @@ print(t)
 
 ****Output:** 
 
-```
+```py
 time.struct_time(tm_year=2019, tm_mon=8, tm_mday=22, tm_hour=10, tm_min=3,
 tm_sec=15, tm_wday=3, tm_yday=234, tm_isdst=0)
 Thu Aug 22 10:03:15 2019
@@ -72,7 +72,7 @@ Thu Aug 22 10:03:15 2019
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to explain time.localtime() method
 
 # importing time module
@@ -115,7 +115,7 @@ print(obj)
 
 ****Output:** 
 
-```
+```py
 time.struct_time object for seconds = 950000000
 time.struct_time(tm_year=2000, tm_mon=2, tm_mday=8, tm_hour=14, tm_min=23,
 tm_sec=20, tm_wday=1, tm_yday=39, tm_isdst=0)

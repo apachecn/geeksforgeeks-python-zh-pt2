@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `extend() + enumerate()`**
 上述功能的组合可以用来解决这个问题。在本文中，我们对列表进行迭代，并使用 extend()将相似的元素追加到相似的键中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Pair lists elements to Dictionary
 # Using loop + extend() + enumerate()

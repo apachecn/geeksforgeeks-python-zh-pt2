@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries using import keyword
 import numpy as np
 import matplotlib.pyplot as plt
@@ -98,7 +98,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries using import function
 import numpy as np
 import matplotlib.pyplot as plt

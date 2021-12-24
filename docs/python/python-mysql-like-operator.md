@@ -47,7 +47,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import mysql.connector module
 import mysql.connector
 
@@ -88,7 +88,7 @@ database.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import mysql.connector module
 import mysql.connector
 
@@ -129,7 +129,7 @@ database.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import mysql.connector module
 import mysql.connector
 

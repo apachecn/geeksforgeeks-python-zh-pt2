@@ -7,7 +7,7 @@
 **方法#1:使用字典理解**
 这个问题可以通过使用字典理解的速记来解决，该速记执行经典的朴素方法，即在字典中单行循环。
 
-```
+```py
 # Python3 code to demonstrate
 # Tuple key dictionary conversion
 # using list comprehension
@@ -28,7 +28,7 @@ print("The dictionary after conversion : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('Nikhil', 21, 'JIIT'), ('Akash', 22, 'JIIT'), ('Akshat', 22, 'JIIT')]
 The dictionary after conversion : {('Akash', 22): ('JIIT', ), ('Akshat', 22): ('JIIT', ), ('Nikhil', 21): ('JIIT', )}
 

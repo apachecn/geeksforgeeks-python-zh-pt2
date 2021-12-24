@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input : geeks for geeks
 Output : geeks 
          geeks
@@ -28,7 +28,7 @@ Output : No match
 
 下面是实现:
 
-```
+```py
 # Python program that matches a word
 # containing ‘g’ followed by one or
 # more e’s using regex
@@ -74,7 +74,7 @@ if __name__ == '__main__' :
 
 **输出:**
 
-```
+```py
 geeks
 geeks
 ```

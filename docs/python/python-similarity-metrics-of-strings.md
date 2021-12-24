@@ -7,7 +7,7 @@
 **方法#1:使用朴素方法(`sum() + zip()` )**
 我们可以使用朴素方法执行这个特定的任务，使用 sum 和 zip 函数，我们可以制定一个实用函数来计算两个字符串的相似度。
 
-```
+```py
 # Python3 code to demonstrate 
 # similarity between strings
 # using naive method (sum() + zip())
@@ -33,7 +33,7 @@ print ("The similarity between 2 strings is : " + str(res))
 
 **Output :**
 
-```
+```py
 The similarity between 2 strings is : 0.38461538461538464
 
 ```

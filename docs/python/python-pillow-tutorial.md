@@ -12,7 +12,7 @@
 
 Python 枕头没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pillow
 ```
 
@@ -32,7 +32,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Location of the image
@@ -61,7 +61,7 @@ img.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Location of the image
@@ -76,7 +76,7 @@ print(img.format)
 
 **输出:**
 
-```
+```py
 (287, 70)
 JPEG
 ```
@@ -106,7 +106,7 @@ JPEG
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Location of the image
@@ -118,7 +118,7 @@ print(img.mode)
 
 **输出:**
 
-```
+```py
 RGB
 ```
 
@@ -138,7 +138,7 @@ RGB
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing Image module from
 # PIL package
 from PIL import Image
@@ -180,7 +180,7 @@ im1.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing PIL Module
 from PIL import Image
 
@@ -219,7 +219,7 @@ vertical_img.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Importing Image class from PIL module
 from PIL import Image
 
@@ -268,7 +268,7 @@ im1.show()
 
 ## **蟒蛇 3**
 
-```
+```py
 from PIL import Image
 
 size = (40, 40)
@@ -292,7 +292,7 @@ print(img.size)
 
 ****输出:****
 
-```
+```py
 Original size of the image
 (287, 70)
 
@@ -324,7 +324,7 @@ New size of the image
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing Image class from PIL package
 from PIL import Image
 
@@ -357,7 +357,7 @@ im1.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from PIL import Image
 
 img_01 = Image.open("digit-number-img-0.jpg")
@@ -411,7 +411,7 @@ new_im.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing Image class from PIL package
 from PIL import Image
 
@@ -450,7 +450,7 @@ image.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Importing Image class from PIL module
 from PIL import Image
 
@@ -503,7 +503,7 @@ im1.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Importing Image class from PIL module
 from PIL import Image
 
@@ -533,7 +533,7 @@ im1.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Importing Image class from PIL module
 from PIL import Image
 
@@ -563,7 +563,7 @@ im1.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Importing Image class from PIL module
 from PIL import Image
 
@@ -597,7 +597,7 @@ im1.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import all the libraries
 from PIL import Image
 from PIL import ImageFont
@@ -650,7 +650,7 @@ watermark_image.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Importing Image and ImageFont, ImageDraw
 # module from PIL package
 from PIL import Image, ImageFont, ImageDraw
@@ -689,7 +689,7 @@ image.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing image object from PIL
 import math
 from PIL import Image, ImageDraw
@@ -722,7 +722,7 @@ img.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing image object from PIL
 import math
 from PIL import Image, ImageDraw
@@ -755,7 +755,7 @@ img.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import math
 from PIL import Image, ImageDraw
 from PIL import ImagePath
@@ -798,7 +798,7 @@ img.show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# This will import Image and ImageEnhance modules
 from PIL import Image, ImageEnhance
 
@@ -828,7 +828,7 @@ im3.enhance(5.0).show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# This will import Image and ImageEnhance modules
 from PIL import Image, ImageEnhance
 
@@ -866,7 +866,7 @@ im3.enhance(5.0).show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# This will import Image and ImageEnhance modules
 from PIL import Image, ImageEnhance
 
@@ -896,7 +896,7 @@ im3.enhance(1.5).show()**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# This will import Image and ImageChops modules
 from PIL import Image, ImageEnhance
 

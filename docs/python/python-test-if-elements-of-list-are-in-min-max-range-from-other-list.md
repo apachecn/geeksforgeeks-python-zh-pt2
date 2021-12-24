@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Min/Max range test from other list
 # Using loop + min() + max()
@@ -48,7 +48,7 @@ print("Are all elements in min/max range? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 8, 10, 9]
 Are all elements in min/max range? : True
 ```
@@ -59,7 +59,7 @@ Are all elements in min/max range? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Min/Max range test from other list
 # Using all() + min() + max()
@@ -83,7 +83,7 @@ print("Are all elements in min/max range? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 8, 10, 9]
 Are all elements in min/max range? : True
 ```

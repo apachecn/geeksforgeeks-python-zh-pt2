@@ -16,7 +16,7 @@ Django 中的模型继承的工作方式几乎与 python 中普通类继承的�
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Student(models.Model):  # STUDENT
@@ -36,7 +36,7 @@ class Teacher(models.Model):  # TEACHER
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class common(models.Model):  # COMM0N
@@ -52,7 +52,7 @@ class common(models.Model):  # COMM0N
 
 ## 蟒蛇 3
 
-```
+```py
 class Student(common):  # STUDENT
     rollno = models.IntegerField()
 
@@ -62,11 +62,11 @@ class Teacher(common):  # TEACHER
 
 人的本质
 
-```
+```py
 python3 manage.py makemigrations
 ```
 
-```
+```py
 python3 manage.py migrate
 ```
 

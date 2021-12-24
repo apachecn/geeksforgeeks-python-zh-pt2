@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # nonlocal keyword
 
@@ -53,7 +53,7 @@ geek_func()
 
 **输出:**
 
-```
+```py
 GeekForGeeks
 GeekForGeeks   
 ```
@@ -62,7 +62,7 @@ GeekForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # nonlocal keyword
 
@@ -92,7 +92,7 @@ geek_func()
 
 **输出:**
 
-```
+```py
 SyntaxError: no binding for nonlocal 'geek_name' found
 ```
 
@@ -102,7 +102,7 @@ SyntaxError: no binding for nonlocal 'geek_name' found
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # nonlocal keyword
 
@@ -141,7 +141,7 @@ geek_func()
 
 **输出:**
 
-```
+```py
 GEEKSFORGEEKS
 geekforgeeks
 ```

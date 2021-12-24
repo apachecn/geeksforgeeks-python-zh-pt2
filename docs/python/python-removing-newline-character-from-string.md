@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以使用蛮力来执行，在蛮力中，我们检查字符串中的字符串“\n”，并使用循环从每个字符串中替换它。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing newline character from string
 # using loop
@@ -30,7 +30,7 @@ print("List after newline character removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gf\ng', 'i\ns', 'b\nest', 'fo\nr', 'geeks\n']
 List after newline character removal : ['gfg', 'is', 'best', 'for', 'geeks']
 

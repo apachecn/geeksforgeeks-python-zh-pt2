@@ -17,7 +17,7 @@
 
 **代码#1:创建截断正态连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import truncnorm 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)   
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D9C2FF08
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:截断正态连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.56227576 0.2513349  0.66393458 0.7453009  0.79215974 0.67208054
  0.23809535 0.29203442 0.37395318 0.36091493]
@@ -68,7 +68,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -80,7 +80,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.04081633 0.08163265 0.12244898 0.16326531 0.20408163
  0.24489796 0.28571429 0.32653061 0.36734694 0.40816327 0.44897959
@@ -98,7 +98,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

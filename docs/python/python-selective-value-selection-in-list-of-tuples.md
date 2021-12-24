@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + get()` +列表理解**
 我们可以执行这个特定的任务，首先将列表转换成字典，然后使用列表理解使用 get 函数获取特定键的值。
 
-```
+```py
 # Python3 code to demonstrate  
 # Selective Value selection in list of tuples
 # using dict() + get() + list comprehension

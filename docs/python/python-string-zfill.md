@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 str.zfill(length)
 
 ```
@@ -17,7 +17,7 @@ str.zfill(length)
 
 **返回:**
 
-```
+```py
 Returns a copy of the string with '0' characters   
 padded to the leftside of the given string.
 
@@ -25,7 +25,7 @@ padded to the leftside of the given string.
 
 **代码 1**
 
-```
+```py
 text = "geeks for geeks"
 
 print(text.zfill(25))
@@ -39,7 +39,7 @@ print(text.zfill(10))
 
 输出:
 
-```
+```py
 0000000000geeks for geeks
 00000geeks for geeks
 geeks for geeks
@@ -48,7 +48,7 @@ geeks for geeks
 
 **代码 2**
 
-```
+```py
 number = "6041"
 print(number.zfill(8))
 
@@ -61,7 +61,7 @@ print(text.zfill(20))
 
 输出:
 
-```
+```py
 00006041
 +0006041
 -0-anything%(&%(%)*^

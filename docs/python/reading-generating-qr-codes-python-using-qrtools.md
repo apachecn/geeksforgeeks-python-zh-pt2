@@ -12,7 +12,7 @@
 
 1.  **Debian Linux:** qrtools can be installed on debian based linux systems with the following commands
 
-    ```
+    ```py
     sudo apt-get update
     sudo apt-get install python-qrtools
 
@@ -20,7 +20,7 @@
 
     还必须安装以下依赖项
 
-    ```
+    ```py
     [sudo] pip install pypng
     [sudo] pip install zbar
     [sudo] pip install pillow
@@ -29,7 +29,7 @@
 
 2.  **Windows:** 可以从[这里](https://pypi.python.org/pypi/qrtools/0.0.1)下载文件，在 Windows 上安装 qrtools。在下载和提取时，从文件夹
 
-    ```
+    ```py
     python setup.py install
 
     ```
@@ -48,7 +48,7 @@ qrtools 包含一个类 QR(可以在源代码中查看)，为此我们必须首�
 
 要创建具有默认设置的二维码，我们必须在创建对象时简单地指定数据。请注意，如果要使用非 ASCII 对象，数据必须是 unicode 对象。
 
-```
+```py
 # Python program to generate QR code
 from qrtools
 import QR
@@ -62,14 +62,14 @@ my_QR.encode()
 
 如果程序运行成功，则返回值 0，二维码存储在 tmp 文件夹中。要知道确切的位置，请使用以下命令
 
-```
+```py
 print (my_QR.filename)
 
 ```
 
 **样本输出**
 
-```
+```py
 /tmp/qr-1496334996.385343/7489ebbcc2a00056ddaaaac190bce473e5c03696ea1bd8ed83cf59a174283862.png
 
 ```
@@ -78,7 +78,7 @@ print (my_QR.filename)
 
 根据我们的方便，这个文件现在可以移动到另一个文件夹
 
-```
+```py
 # Python program to generate QR code
 from qrtools import QR
 
@@ -92,7 +92,7 @@ os.system("sudo mv " + my_QR.filename + " ~/Desktop")
 
 二维码的像素值也可以通过在二维码对象创建期间指定该值来改变。对于使用智能手机上的扫描仪进行阅读来说，默认大小往往会小一点，因此 10 左右的大小对于这种目的来说是理想的，例如:
 
-```
+```py
 my_QR = QR(data = u"example", pixel_size = 10)
 
 ```
@@ -103,7 +103,7 @@ my_QR = QR(data = u"example", pixel_size = 10)
 
 我们还可以在二维码中添加电子邮件数据、短信数据、彩信数据、书签等。下面的代码摘录取自源代码，它指定了可以使用的各种数据类型以及使用这些数据所需的数据格式:
 
-```
+```py
 # use these for custom data formats eg. url, phone number, VCARD
 # data should be an unicode object or a list of unicode objects
 data_encode = {
@@ -131,7 +131,7 @@ data_encode = {
 
 从上面的代码中，我们观察到了在创建二维码时可以分配和使用的各种数据类型。例如，要使用书签作为数据，我们必须以列表的形式提供数据，包括标题和 url。要做到这一点，我们必须做到以下几点
 
-```
+```py
 # Python program to generate QR code
 from qrtools import QR
 
@@ -147,7 +147,7 @@ my_QR.encode()
 
 扫描和读取二维码相对简单。创建二维码对象时，我们必须简单地指定二维码的路径作为参数。假设我们正在尝试解码文章开头创建的二维码。
 
-```
+```py
 # Python program to Scan and Read a QR code
 from qrtools import QR
 my_QR = QR(filename = "home/user/Desktop/qr.png")
@@ -161,7 +161,7 @@ print (my_QR.data)
 
 **输出:**
 
-```
+```py
 Example
 
 ```
@@ -170,7 +170,7 @@ Example
 
 我们还可以打印在创建 QR 对象时传递的其他参数的值，以生成 QR 码，例如，使用文章开头生成的相同 QR 码，另外添加这些打印语句将提供以下附加输出
 
-```
+```py
 print (my_QR.data_type)
 print (my_QR.pixel_size)
 print (my_QR.margin_size)
@@ -179,7 +179,7 @@ print (my_QR.margin_size)
 
 **输出:**
 
-```
+```py
 text
 3
 4

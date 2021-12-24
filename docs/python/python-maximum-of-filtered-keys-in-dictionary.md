@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `get() + max()`**
 以上功能的组合可以用来执行这个特定的任务。在本文中，我们使用 get 方法访问值，并使用列表理解遍历字典。我们使用 max()执行最大化。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum of filtered Keys
 # Using list comprehension + get() + max() 
@@ -31,7 +31,7 @@ print("The maximum of Selective keys : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'for': 4, 'gfg': 1, 'is': 2, 'best': 3, 'CS': 5}
 The maximum of Selective keys : 5
 

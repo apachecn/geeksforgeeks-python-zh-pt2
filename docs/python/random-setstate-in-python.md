@@ -12,7 +12,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -48,7 +48,7 @@ print("The random number of the previously captured state: "+ str(num))
 
 **例 2:**
 
-```
+```py
 # import the random module
 import random
 
@@ -73,7 +73,7 @@ print(random.sample(list1, 3)) 
 
 **输出:**
 
-```
+```py
 [5, 2, 4]
 [5, 2, 4]
 ```

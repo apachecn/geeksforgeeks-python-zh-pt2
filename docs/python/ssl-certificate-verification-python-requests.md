@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -30,7 +30,7 @@ print(response)
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -53,7 +53,7 @@ print(response)
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -70,20 +70,20 @@ print(response)
 
 您还可以指定一个本地证书作为客户端证书、单个文件(包含私钥和证书)或两个文件路径的元组:
 
-```
+```py
 >>> requests.get('https://kennethreitz.org', cert=('/path/client.cert', '/path/client.key'))
 ```
 
 或者持久的:
 
-```
+```py
 s = requests.Session()
 s.cert = '/path/client.cert'
 ```
 
 如果您指定了错误的路径或无效的证书，您将得到一个错误:
 
-```
+```py
 >>> requests.get('https://kennethreitz.org', cert='/wrong_path/client.pem')
 SSLError: [Errno 336265225] _ssl.c:347: error:140B0009:SSL routines:SSL_CTX_use_PrivateKey_file:PEM lib
 ```

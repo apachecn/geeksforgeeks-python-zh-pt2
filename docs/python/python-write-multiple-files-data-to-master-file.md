@@ -8,7 +8,7 @@
 
 以三个输入文件为例，命名为 *emp_1.txt* 、 *emp_2.txt* 、 *emp_3.txt* ，输出将包含所有输入文件的数据。
 
-```
+```py
 Input: 
 
 Output: 
@@ -17,7 +17,7 @@ Output:
 
 **方法#1:** 使用`os module`
 
-```
+```py
 import os
 # list the files in directory
 lis = os.listdir('D:\\python'
@@ -75,7 +75,7 @@ except:
 
 **方法 2:** 利用熊猫
 
-```
+```py
 import pandas as pd
 # pd.read_csv creates dataframes
 df1 = pd.read_csv('D:\python\data_files\data_files\emp_1.txt')

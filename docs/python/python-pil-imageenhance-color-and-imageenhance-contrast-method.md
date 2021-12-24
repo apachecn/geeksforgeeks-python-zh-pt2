@@ -12,7 +12,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 > 
 > 首先，为了增强图像，需要创建相应类别的对象。
 
-```
+```py
 # This will import Image and ImageEnhance modules
 from PIL import Image, ImageEnhance
 
@@ -43,7 +43,7 @@ im3.enhance(0.0).show()
 > 
 > 首先，为了增强图像，需要创建相应类别的对象。
 
-```
+```py
 # This will import Image and ImageEnhance modules
 from PIL import Image, ImageEnhance
 

@@ -9,7 +9,7 @@
 
 reddit 的用户名是:spez，spez 是 Reddit 的创始人，所以他是 Reddit 的员工。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("Is " + redditor_name + " an employee of Reddit? : " +
 
 **输出:**
 
-```
+```py
 Is spez an employee of Reddit? : True
 ```
 
@@ -48,7 +48,7 @@ Is spez an employee of Reddit? : True
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -78,6 +78,6 @@ print("Is " + redditor_name + " an employee of Reddit? : " +
 
 **输出:**
 
-```
+```py
 Is AutoModerator an employee of Reddit? : False
 ```

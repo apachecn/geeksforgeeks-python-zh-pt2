@@ -10,7 +10,7 @@
 
 为此，我们必须更改与旋转框相关联的样式表代码，下面是样式表代码
 
-```
+```py
 QSpinBox::down-arrow
 {
 border : 4px solid green;
@@ -20,7 +20,7 @@ border : 4px solid green;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

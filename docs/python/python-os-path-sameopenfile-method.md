@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.sameopenfile() method
 
 # importing os module
@@ -78,7 +78,7 @@ close(fd3)
 
 **Output:** 
 
-```
+```py
 True
 False
 ```

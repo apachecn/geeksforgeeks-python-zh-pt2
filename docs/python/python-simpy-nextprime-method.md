@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.nextprime()函数得到给定数 n 的下一个素数。对于 n < 2^64 the answer is definitive; larger n values have a small probability of actually being pseudoprimes. 
 
-```
+```py
 Syntax:  sympy.nextprime()
 Parameter:  n; number to be tested
 Return:  next prime value
@@ -14,7 +14,7 @@ Return:  next prime value
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get next prime number
 # using sympy.nextprime() method
 
@@ -29,7 +29,7 @@ nextprime(2)
 
 输出:
 
-```
+```py
 11
 17
 3
@@ -39,7 +39,7 @@ nextprime(2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check prime number
 # using sympy.isprime() method
 
@@ -54,7 +54,7 @@ nt.nextprime(2)
 
 输出:
 
-```
+```py
 31
 17
 3

@@ -23,7 +23,7 @@
 
 **Code:** Use of shutil.get_unpack_formats() method
 
-```
+```py
 # Python program to explain shutil.get_unpack_formats() method 
 
 # importing shutil module 
@@ -39,7 +39,7 @@ print("Supported unpacking formats:\n", formats)
 
 **Output:**
 
-```
+```py
 Supported unpacking formats:
 Supported unpacking formats:
  [('bztar', ['.tar.bz2', '.tbz2'], "bzip2'ed tar-file"), ('gztar', ['.tar.gz', '.tgz'], "gzip'ed tar-file"), ('tar', ['.tar'], 'uncompressed tar file'), ('xztar', ['.tar.xz', '.txz'], "xz'ed tar-file"), ('zip', ['.zip'], 'ZIP file')]

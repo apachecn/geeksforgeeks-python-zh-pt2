@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -30,13 +30,13 @@ print(random.paretovariate(alpha))
 
 **输出:**
 
-```
+```py
 1.0333528834896462
 ```
 
 **例 2:** 我们可以多次生成这个数，并绘制一个图来观察帕累托分布。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 
@@ -60,7 +60,7 @@ plt.show()
 
 **例 3:** 我们可以创建一个直方图来观察帕累托分布的密度。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 

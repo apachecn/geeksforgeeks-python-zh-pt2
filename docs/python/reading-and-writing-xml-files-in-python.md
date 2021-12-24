@@ -15,13 +15,13 @@
 
 为了读写 xml 文件，我们将使用一个名为 BeautifulSoup 的 Python 库。为了安装库，在终端中键入以下命令。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
 美丽汤支持 Python 标准库中包含的 HTML 解析器，但它也支持许多第三方 Python 解析器。一个是 lxml 解析器(用于解析 XML/HTML 文档)。可以通过在操作系统的命令处理器中运行以下命令来安装 lxml:
 
-```
+```py
 pip install lxml
 ```
 
@@ -42,7 +42,7 @@ pip install lxml
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 
 # Reading the data inside the xml

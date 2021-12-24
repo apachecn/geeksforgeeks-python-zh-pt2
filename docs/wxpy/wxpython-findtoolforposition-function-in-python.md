@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.FindToolForPosition(self, x, y)
 > 
 > ```
@@ -20,14 +20,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -66,14 +66,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 <wx._core.ToolBarToolBase object at 0x0000009B92B041F0>
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 twoTool
 
 ```

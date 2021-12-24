@@ -6,14 +6,14 @@
 
 借助下面给出的命令，我们可以创建一个图像视图对象:
 
-```
+```py
 # creating a pyqtgraph image view object
 imv = pg.ImageView()
 ```
 
 为了触发这个信号，我们必须改变图像视图类，下面是该类的语法:
 
-```
+```py
 # Image View class
 class ImageView(pg.ImageView):
 
@@ -33,7 +33,7 @@ class ImageView(pg.ImageView):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 
@@ -184,7 +184,7 @@ sys.exit(App.exec())
 
 <video class="wp-video-shortcode" id="video-501959-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20201003023802/PyQtGraph-2020-10-03-02-36-53.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20201003023802/PyQtGraph-2020-10-03-02-36-53.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20201003023802/PyQtGraph-2020-10-03-02-36-53.mp4)</video>
 
-```
+```py
 ROI Changed
 ROI Changed
 ROI Changed

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings by Punctuation count
 # Using string.punctuation + sort()
@@ -53,7 +53,7 @@ print("Sorted Strings list : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings by Punctuation count
 # Using sorted() + punctuation + lambda

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 0
 Output: 01-01-1947
 
@@ -23,7 +23,7 @@ Output: 12-22-2259
 
 ## 计算机编程语言
 
-```
+```py
 # function to get number of
 # days in the year
 # if leap year then 366
@@ -50,7 +50,7 @@ def dayInYear(year):
 
 ## 蟒蛇 3
 
-```
+```py
 # counting the years after 1947 
 def getYear(days):
     year = 1946
@@ -70,7 +70,7 @@ def getYear(days):
 
 ## 蟒蛇 3
 
-```
+```py
 # counting the number of months
 def monthCnt(days, year):
 
@@ -100,7 +100,7 @@ def monthCnt(days, year):
 
 ## 蟒蛇 3
 
-```
+```py
 # getting date using number of seconds
 def getDate(num_sec):
 
@@ -147,7 +147,7 @@ def getDate(num_sec):
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver Code
 
 # returns 01-01-1970
@@ -167,7 +167,7 @@ print(date_format)
 
 ## 蟒蛇 3
 
-```
+```py
 # function to get num of 
 # days in the year
 # if leap year then 366
@@ -273,7 +273,7 @@ print(date_format)
 
 **输出:**
 
-```
+```py
 01-01-1947
 11-29-1950
 12-22-2259

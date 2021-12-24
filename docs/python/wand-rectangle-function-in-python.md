@@ -22,7 +22,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import different modules of wand
 from wand.image import Image
 from wand.drawing import Drawing
@@ -45,7 +45,7 @@ with Drawing() as draw:
 **示例#2:**
 设置矩形的角半径。
 
-```
+```py
 # Import different modules of wand
 from wand.image import Image
 from wand.drawing import Drawing

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 turtle.numinput("title","prompt")
@@ -45,7 +45,7 @@ turtle.numinput("title","prompt")
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -63,6 +63,6 @@ print(num)
 
 ![](img/036dde6fab9ce1d30bbbdd3588664e14.png)
 
-```
+```py
 9897347846
 ```

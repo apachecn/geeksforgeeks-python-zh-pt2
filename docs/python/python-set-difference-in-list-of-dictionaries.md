@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 迭代列表和提取差异的幼稚方法可以缩短为使用列表理解来缩短代码和增加可读性的方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # set difference in dictionary list 
 # using list comprehension
@@ -38,7 +38,7 @@ print ("The set difference of list is : " +  str(res))
 **方法 2:使用`itertools.filterfalse()`**
 这是一种不同的方式，使用内置的 python 函数可以执行这个特定的任务。filterfalse 方法过滤一个列表中不存在的元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # set difference in dictionary list 
 # using itertools.filterfalse()

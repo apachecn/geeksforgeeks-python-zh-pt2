@@ -10,7 +10,7 @@
 
 **代码#1 :** 演示使用天真方法查找列表长度
 
-```
+```py
 # Python code to demonstrate
 # length of list
 # using naive method
@@ -36,7 +36,7 @@ print ("Length of list using naive method is : " + str(counter))
 
 **输出:**
 
-```
+```py
 The list is : [1, 4, 5, 7, 8]
 Length of list using naive method is : 5
 
@@ -46,7 +46,7 @@ Length of list using naive method is : 5
 
 `len()`方法提供了最常用和最简单的方法来查找任何列表的长度。这是当今所有程序员采用的最传统的技术。
 
-```
+```py
 # Python program to demonstrate working
 # of len()
 a = []
@@ -59,12 +59,12 @@ print("The length of list is: ", len(a))
 
 **Output:**
 
-```
+```py
 The length of list is:  4
 
 ```
 
-```
+```py
 # Python program to demonstrate working
 # of len()
 n = len([10, 20, 30])
@@ -73,7 +73,7 @@ print("The length of list is: ", n)
 
 **Output:**
 
-```
+```py
 The length of list is:  3
 
 ```
@@ -84,7 +84,7 @@ The length of list is:  3
 
 **代码#2 :** 演示使用`len()`和`length_hint()`查找列表长度
 
-```
+```py
 # Python code to demonstrate
 # length of list
 # using len() and length_hint
@@ -111,7 +111,7 @@ print ("Length of list using length_hint() is : " + str(list_len_hint))
 
 **输出:**
 
-```
+```py
 The list is : [1, 4, 5, 7, 8]
 Length of list using len() is : 5
 Length of list using length_hint() is : 5
@@ -124,7 +124,7 @@ Length of list using length_hint() is : 5
 
 **代码#3 :** 性能分析
 
-```
+```py
 # Python code to demonstrate
 # length of list
 # Performance Analysis
@@ -168,7 +168,7 @@ print ("Time taken using length_hint() is : " + end_time_hint)
 
 **输出:**
 
-```
+```py
 The list is : [1, 4, 5, 7, 8]
 Time taken using naive method is : 2.6226043701171875e-06
 Time taken using len() is : 1.1920928955078125e-06

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮力方法。在这种情况下，如果我们在元组中的第 Kt 个位置找到特定记录，我们将进行检查并追加到列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records with Value at K index
 # Using loop
@@ -38,7 +38,7 @@ print("The tuples of element at Kth position : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 1, 5), (1, 3, 6), (2, 5, 7), (5, 2, 8), (6, 3, 0)]
 The tuples of element at Kth position : [(1, 3, 6), (6, 3, 0)]
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum uppercase run
 # Using isupper() + loop
@@ -55,7 +55,7 @@ print("Maximum Uppercase Run : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : GeEKSForGEEksISBESt
 Maximum Uppercase Run : 5
 ```

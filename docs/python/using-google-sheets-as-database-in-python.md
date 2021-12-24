@@ -60,7 +60,7 @@ creds.json
 
 *   现在我们将回到 *Pycharm* 现在，创建一个 python 文件 **sheets.py.** 现在我们没有编写任何代码，但是我们将使用 *pip* 安装两个包或模块，这样我们就可以实际使用该 API，为此，在 *Pycharm* 中，我们只需打开内置终端，或者我们可以打开命令提示符并键入以下命令:
 
-```
+```py
 pip install gspread oauth2client 
 ```
 
@@ -70,7 +70,7 @@ pip install gspread oauth2client
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials

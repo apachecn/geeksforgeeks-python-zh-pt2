@@ -22,7 +22,7 @@
 
 **示例:**
 
-```
+```py
 Plain Text: I am studying Data Encryption
 Key: 4
 Output: M eq wxyhCmrk Hexe IrgvCtxmsr
@@ -50,7 +50,7 @@ Output: EFGHIJKLMNOPQRSTUVWXYZabcd
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Substitution Cipher
 
@@ -114,7 +114,7 @@ print("Recovered plain text :", decrypt_txt)
 
 **输出:**
 
-```
+```py
 Cipher Text is:  M eq wxyhCmrk Hexe IrgvCtxmsr
 Recovered plain text : I am studying Data Encryption
 ```

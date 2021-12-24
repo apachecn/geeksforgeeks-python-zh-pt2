@@ -9,7 +9,7 @@ Python 就是这样一种编程语言，它让一切都变得简单直接。任�
 
 ## 计算机编程语言
 
-```
+```py
 # Code to find top 3 elements and their counts
 # using most_common
 from collections import Counter
@@ -22,7 +22,7 @@ print(top_three)
 
 1.  输出:
 
-```
+```py
 [(1, 5), (3, 4), (4, 3)]
 ```
 
@@ -32,7 +32,7 @@ print(top_three)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to find 3 largest and 4 smallest
 # elements of a list.
 import heapq
@@ -44,7 +44,7 @@ print(heapq.nsmallest(4, grades))
 
 1.  输出:
 
-```
+```py
 [110, 95, 90]
 [20, 25, 33, 38]
 ```
@@ -56,7 +56,7 @@ print(heapq.nsmallest(4, grades))
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate use of zip.
 import heapq
 
@@ -80,7 +80,7 @@ print(sorted(zipped_2))
 
 1.  输出:
 
-```
+```py
 [(39.28, 'yhoo'), (76.45, 'FB'), (99.76, 'APPL'), (306.21, 'AMZN'), (520.54, 'Goog')]
 [('AMZN', 306.21), ('APPL', 99.76), ('FB', 76.45), ('Goog', 520.54), ('yhoo', 39.28)]
 ```
@@ -90,7 +90,7 @@ print(sorted(zipped_2))
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to apply a function on a list
 income = [10, 30, 75]
 
@@ -103,7 +103,7 @@ print(new_income)
 
 1.  输出:
 
-```
+```py
 [20, 60, 150]
 ```
 
@@ -114,7 +114,7 @@ print(new_income)
 
 ## 计算机编程语言
 
-```
+```py
 string = ""
 lst = ["Geeks", "for", "Geeks"]
 for i in lst:
@@ -126,7 +126,7 @@ print(string)
 
 ## 计算机编程语言
 
-```
+```py
 lst = ["Geeks", "for", "Geeks"]
 string = ''.join(lst)
 print(string)

@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the required modules
 from selenium import webdriver
 from browsermobproxy import Server

@@ -7,28 +7,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.GetKind(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required in GetKind() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ItemKind
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -68,14 +68,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 2 //2 corresponds to wx.ITEM_RADIO
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -113,7 +113,7 @@ if __name__ == '__main__':
     main()
 ```
 
-```
+```py
 0 //0 corresponds to wx.ITEM_RADIO
 
 ```

@@ -8,14 +8,14 @@ Python 有一个名为 as type 的内置方法，通常在计算运行时程序�
 
 **Syntax:**
 
-```
+```py
 type(object)
 type(name, bases, dict)
 ```
 
 1.  **type() With a Single Object Parameter**
 
-    ```
+    ```py
     # Python code type() with a single object parameter
     x = 5
     s = "geeksforgeeks"
@@ -27,7 +27,7 @@ type(name, bases, dict)
 
     **输出:**
 
-    ```
+    ```py
     class 'int'
     class 'str'
     class 'list'
@@ -36,7 +36,7 @@ type(name, bases, dict)
 
 2.  **type() With a name, bases and dict Parameter**
 
-    ```
+    ```py
     # Python code for type() with a name, 
     # bases and dict parameter
 
@@ -56,7 +56,7 @@ type(name, bases, dict)
 
     **输出:**
 
-    ```
+    ```py
     {'b': 12, 'a': 'Foo', '__dict__': , '__doc__': None, '__weakref__': }
     {'b': 12, 'a': 'Foo', '__doc__': None}
 
@@ -70,7 +70,7 @@ isinstance()函数检查对象(第一个参数)是否是 classinfo 类(第二个
 
 **语法:**
 
-```
+```py
 isinstance(object, classinfo) 
 isinstance()接受两个参数:**对象:**要检查的对象**类信息**:类、类型或类和类型的元组
 ```
@@ -78,7 +78,7 @@ isinstance()接受两个参数:**对象:**要检查的对象**类信息**:类、
 **返回值:**
 **true** 如果对象是类的实例或子类，或者元组的任何元素 **false** 否则。如果类信息不是类型或类型元组，则会引发类型错误异常。
 
-```
+```py
 # Python code for  isinstance()
 class Test:
     a = 5
@@ -92,7 +92,7 @@ print(isinstance(TestInstance, (list, tuple, Test)))
 
 输出:
 
-```
+```py
 True
 False
 True
@@ -106,7 +106,7 @@ True
 *   type(), on the other hand, simply returns the type object of an object and comparing what it returns to another type object will only yield True when you use the exact same type object on both sides.
     In Python, it’s preferable to use Duck Typing( type checking be deferred to run-time, and is implemented by means of dynamic typing or reflection) rather than inspecting the type of an object.
 
-    ```
+    ```py
     #Python code to illustrate duck typing
 
     class User(object):
@@ -133,7 +133,7 @@ True
 
     输出:
 
-    ```
+    ```py
     Geeksforgeeks
     Fox
     Bear
@@ -141,7 +141,7 @@ True
 
 *   不使用 type()的下一个原因是缺乏对继承的支持。
 
-    ```
+    ```py
     #python code to illustrate the lack of
     #support for inheritance in type()
 
@@ -161,7 +161,7 @@ True
 
     **输出:**
 
-    ```
+    ```py
     False
     True
     True
@@ -172,7 +172,7 @@ True
     MyDict 类具有 Dict 的所有属性，没有任何新方法。它的行为将完全像一本字典。但是 type()不会返回预期的结果。
     在这种情况下，使用 isinstance()更好，因为它会给出预期的结果:
 
-    ```
+    ```py
     #python code to show isintance() support
     #inheritance
     class MyDict(dict):
@@ -191,7 +191,7 @@ True
 
     输出:
 
-    ```
+    ```py
     True
     True
     False

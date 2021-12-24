@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiple Sets Intersection
 # Using intersection() + * operator
@@ -54,7 +54,7 @@ print("Intersected Sets : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiple Sets Intersection
 # Using reduce() + and_ operator

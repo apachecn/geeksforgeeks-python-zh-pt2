@@ -7,7 +7,7 @@
 **方法一:使用`split()`**
 这是我们可以解决这个问题的方法之一。我们分开了？并返回结果的第一部分。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split URL from Query Parameters
 # Using split()
@@ -28,7 +28,7 @@ print("The base URL is : " + res) 
 
 **Output :**
 
-```
+```py
 The original string is : www.geeksforgeeks.org?is=best
 The base URL is : www.geeksforgeeks.org
 

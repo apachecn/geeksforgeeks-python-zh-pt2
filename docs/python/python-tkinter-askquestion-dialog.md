@@ -14,7 +14,7 @@
 
 **消息框函数的语法:**
 
-```
+```py
   messagebox.name_of_function(Title, Message, [, options])
 ```
 
@@ -33,7 +33,7 @@
 
 **语法:**
 
-```
+```py
 messagebox.askfunction((Title, Message, [, options])
 ```
 
@@ -41,7 +41,7 @@ messagebox.askfunction((Title, Message, [, options])
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from tkinter import messagebox
 
@@ -75,7 +75,7 @@ main.mainloop() 
 **1。导入库**
 要使用 python 中的图形用户界面功能，我们必须导入库。第一行我们导入 Tkinter，第二行我们导入 messagebox 库
 
-```
+```py
 from tkinter import *
 from tkinter import messagebox
 ```
@@ -83,21 +83,21 @@ from tkinter import messagebox
 **2。主窗口实例**
 我们要为窗口创建一个实例或者对象来 TK()；Tk()是 Tkinter 的一个函数，它创建了一个可以从主变量引用的窗口
 
-```
+```py
 main = Tk()  
 ```
 
 **3。设置尺寸**
 我们设置窗口的尺寸我们可以通过各种方式进行设置，在这里我们设置的是通过几何()函数的尺寸“100X100”。
 
-```
+```py
 top.geometry("100x100")  
 ```
 
 **4。应用其他小部件和函数**
 在我们的示例中，我们创建了一个名为提交的方法，并调用 askquestion()和 Creating Button，并通过 Pack()函数对其进行设置
 
-```
+```py
 def Submit():
    messagebox.askquestion("Form", "Do you want to Submit")
 
@@ -120,7 +120,7 @@ B1.pack()
 
 **错误**
 
-```
+```py
  messagebox.function_name(Title, Message, icon='error')
 ```
 
@@ -128,7 +128,7 @@ B1.pack()
 
 ## 蟒蛇 3
 
-```
+```py
 # illustration of icon - Error
 from tkinter import *
 from tkinter import messagebox
@@ -153,7 +153,7 @@ main.mainloop()
 
 **信息**
 
-```
+```py
  messagebox.function_name(Title, Message, icon='info')
 ```
 
@@ -161,7 +161,7 @@ main.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # illustration of icon - Info
 from tkinter import *
 from tkinter import messagebox
@@ -186,7 +186,7 @@ main.mainloop()
 
 **问题**
 
-```
+```py
  messagebox.function_name(Title, Message, icon='question')
 ```
 
@@ -194,7 +194,7 @@ main.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # illustration of icon - question
 from tkinter import *
 from tkinter import messagebox
@@ -219,7 +219,7 @@ main.mainloop()
 
 **警告**
 
-```
+```py
 messagebox.function_name(Title, Message, icon='warning')
 ```
 
@@ -227,7 +227,7 @@ messagebox.function_name(Title, Message, icon='warning')
 
 ## 蟒蛇 3
 
-```
+```py
 # illustration of icon - Warning
 from tkinter import *
 from tkinter import messagebox

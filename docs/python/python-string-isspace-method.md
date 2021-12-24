@@ -26,7 +26,7 @@ Python String **isspace()** 是一种用于字符串处理的内置方法。如�
 
 ### **例 1**
 
-```
+```py
 Input : string = 'Geeksforgeeks'
 Output : False
 
@@ -39,7 +39,7 @@ Output : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for implementation of isspace()
 
 # checking for whitespace characters
@@ -58,7 +58,7 @@ print( string.isspace())
 
 **输出:**
 
-```
+```py
 False
 True
 False
@@ -68,7 +68,7 @@ False
 
 给定 python 中的一个字符串，计算该字符串中空白字符的数量。
 
-```
+```py
 Input : string = 'My name is Ayush'
 Output : 3
 
@@ -84,7 +84,7 @@ Output : 8
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to count whitespace characters in a string
 # Given string
 # Initialising the counter to 0
@@ -109,7 +109,7 @@ print(count)
 
 **输出:**
 
-```
+```py
 3
 8
 ```

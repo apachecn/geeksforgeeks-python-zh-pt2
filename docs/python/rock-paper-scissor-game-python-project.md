@@ -147,7 +147,7 @@ Selection.jpg
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 from PIL import ImageTk, Image
 import random

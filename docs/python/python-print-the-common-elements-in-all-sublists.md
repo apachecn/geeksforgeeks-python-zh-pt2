@@ -8,7 +8,7 @@
 
 **方法#1:** 使用器械包
 
-```
+```py
 # Python code to find duplicate element in all 
 # sublist from list of list
 
@@ -31,14 +31,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [40, 30]
 
 ```
 
 **方法 2:** 使用`reduce` 和`map`
 
-```
+```py
 # Python code to find duplicate element in all 
 # sublist from list of list
 import operator
@@ -62,14 +62,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 [40, 30]
 
 ```
 
 **方法 3:** 使用 `set.intersection`
 
-```
+```py
 # Python code to find duplicate element in all 
 # sublist from list of list
 
@@ -95,7 +95,7 @@ print(out)
 
 **Output:**
 
-```
+```py
 [40, 30]
 
 ```

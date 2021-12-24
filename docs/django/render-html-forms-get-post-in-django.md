@@ -31,7 +31,7 @@ Django 还提供了内置的 **Django 表单**功能，就像 [Django 模型](ht
 
 ## 超文本标记语言
 
-```
+```py
 <form action = "" method = "get">
     <label for="your_name">Your name: </label>
     <input id="your_name" type="text" name="your_name">
@@ -44,7 +44,7 @@ Django 还提供了内置的 **Django 表单**功能，就像 [Django 模型](ht
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -59,7 +59,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # Create your views here.

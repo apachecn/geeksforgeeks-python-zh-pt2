@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -52,7 +52,7 @@ print(turtle.pen())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

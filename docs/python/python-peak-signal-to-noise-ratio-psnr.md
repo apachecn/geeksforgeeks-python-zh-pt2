@@ -26,7 +26,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 from math import log10, sqrt
 import cv2
 import numpy as np
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 PSNR value is 43.862955653517126 dB 
 ```
 

@@ -6,7 +6,7 @@
 **先决条件:** [美人汤安装](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#installing-beautiful-soup)。
 **语法:**
 
-```
+```py
  tag.string 
 
 ```
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 

@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 import unittest
 class MyTest(unittest.TestCase):
     ...
@@ -20,7 +20,7 @@ if __name__ == '__main__':
 
 **代码#2 :**
 
-```
+```py
 import sys
 
 def main(out = sys.stderr, verbosity = 2):

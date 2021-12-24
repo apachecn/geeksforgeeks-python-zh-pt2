@@ -25,7 +25,7 @@ Selenium 是一个用于测试 web 应用程序的可移植框架。Selenium 为
 
 Selenium 网络驱动程序像真正的用户一样，在本地或远程机器上驱动浏览器。要启动网络浏览器，python 硒模块需要网络驱动程序。铬浏览器可以从[这里](https://chromedriver.chromium.org/downloads)下载
 
-```
+```py
 # Python program to demonstrate
 # Webdriver For Firefox
 from selenium import webdriver
@@ -35,7 +35,7 @@ driver.get("https://mbasic.facebook.com")
 
 #### 如何使用其他网络驱动程序
 
-```
+```py
 # Firefox 
 driver = webdriver.Firefox()
 # Google Chrome 
@@ -46,7 +46,7 @@ driver = webdriver.Chrome()
 
 通过使用这个可以得到当前打开的网址/网页的完整的网页源代码。
 
-```
+```py
 # Python program Continued
 # Webdriver For Firefox
 from selenium import webdriver
@@ -72,7 +72,7 @@ print(html)
 HTML 元素有一些属性“id”，可以用来定位这些元素。
 例如:-查找电子邮件字段的输入框
 
-```
+```py
 # Python program Continued
 
 # Finding Input Box For Email Field
@@ -86,7 +86,7 @@ driver.find_element_by_id("m_login_email") 
 HTML 元素有关联的属性“名称”，可以用来定位这些元素。
 例如:-查找密码字段的输入框
 
-```
+```py
 # Python program Continued
 
 # Finding Input Box For Password Field
@@ -100,7 +100,7 @@ driver.find_element_by_name("pass")    
 实际上是到另一个页面的链接的 HTML 元素可以使用特定的链接文本来定位。
 例如:-查找忘记的密码链接字段
 
-```
+```py
 # Python program Continued
 
 # Finding Forgotten Password Link Field
@@ -113,7 +113,7 @@ driver.find_element_by_link_text("Forgotten password?")
 实际上是到另一个页面的链接的 HTML 元素可以使用特定的部分链接文本来定位。
 例如:-查找忘记的密码链接字段
 
-```
+```py
 # Python program Continued
 
 # Finding Forgotten Password Link Field
@@ -126,7 +126,7 @@ driver.find_element_by_partial_link_text("Forgotten password?")
 使用此
 可以轻松找到 HTML 元素，例如:-查找电子邮件和密码输入字段
 
-```
+```py
 # Python program Continued
 
 # Creating a Reference of Form For Finding Email and Password
@@ -144,7 +144,7 @@ password = form.find_element_by_name("pass") 
 使用标签名
 可以很容易地找到 Html 元素，例如:-使用标签名找到元素，如 Title、Head、Body、HTML、a、div 等。
 
-```
+```py
 # Python program Continued
 
 # Finding Title of Facebook Login Page
@@ -159,7 +159,7 @@ print(title)
 使用 CSS
 可以轻松找到 HTML 元素例如:-使用类、样式等找到元素。
 
-```
+```py
 # Python program Continued
 
 # Finding Password Input Field Using Class Name "bl bm bo bp"
@@ -172,7 +172,7 @@ password = driver.find_element_by_css_selector('input.bl.bm.bo.bp')
 使用类名
 可以很容易的找到 HTML 元素例如:-使用类名找到元素。
 
-```
+```py
 # Python program Continued
 
 # Finding Password Input Field Using Class Name "bl bm bo bp"
@@ -184,7 +184,7 @@ password = driver.find_element_by_class_name('bl bm bo bp')
 
 它用于使用内置函数 send _ keys 将输入插入输入字段。
 
-```
+```py
 # Python program Continued
 
 # Creating a Reference of Form For Finding Email and Password
@@ -208,7 +208,7 @@ password.send_keys("Your Facebook Password")   
 
 它用于定位用于提交表单的提交按钮
 
-```
+```py
 # Python program Continued
 
 # Creating a Reference of Form For Finding Email and Password
@@ -230,7 +230,7 @@ submit_button.click()  # Button Click
 
 #### 11.演示登录脸书的完整代码
 
-```
+```py
 # Python program to demonstrate Facebook Login
 from selenium import webdriver
 

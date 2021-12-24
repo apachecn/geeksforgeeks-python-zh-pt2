@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +生成器表达式**
 以上功能的组合可用于执行该任务。在这种情况下，我们使用生成器表达式执行取模任务，每个元组的映射索引由 zip()完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple modulo
 # using zip() + generator expression
@@ -30,7 +30,7 @@ print("The modulus tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5, 6)
 The original tuple 2 : (5, 6, 7, 5)
 The modulus tuple : (0, 4, 5, 1)

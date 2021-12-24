@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list1 = [12, -7, 5, 64, -14]
 Output: -7, -14
 
@@ -18,7 +18,7 @@ Output: -95
 
 使用 for 循环迭代列表中的每个元素，并检查数字是否小于 0。如果条件满足，则只打印数字。
 
-```
+```py
 # Python program to print negative Numbers in a List
 
 # list of numbers
@@ -34,13 +34,13 @@ for num in list1:
 
 **输出:**
 
-```
+```py
 -21 -93 
 ```
 
 **示例#2:** 使用 while 循环
 
-```
+```py
 # Python program to print negative Numbers in a List
 
 # list of numbers
@@ -61,13 +61,13 @@ while(num < len(list1)):
 
 **输出:**
 
-```
+```py
 -10 -4 -45 -66 
 ```
 
 **例 3:** 使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
 
-```
+```py
 # Python program to print negative Numbers in a List
 
 # list of numbers
@@ -81,13 +81,13 @@ print("Negative numbers in the list: ", *neg_nos)
 
 **输出:**
 
-```
+```py
 Negative numbers in the list:  -10 -21 -4 -66
 ```
 
 **示例#4:** 使用[λ表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)
 
-```
+```py
 # Python program to print negative Numbers in a List
 
 # list of numbers 
@@ -101,6 +101,6 @@ print("Negative numbers in the list: ", *neg_nos) 
 
 **输出:**
 
-```
+```py
 Negative numbers in the list:  -10 -45 -66 -11
 ```

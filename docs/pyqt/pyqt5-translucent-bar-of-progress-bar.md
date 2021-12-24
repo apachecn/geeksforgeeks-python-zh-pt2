@@ -9,7 +9,7 @@
 
 为了更改 alpha 级别，我们必须更改 CSS 样式表，下面是 bar 的样式表代码。
 
-```
+```py
 QProgressBar::chunk
 {
 background : rgba(0, 255, 0, 100);
@@ -19,7 +19,7 @@ background : rgba(0, 255, 0, 100);
 
 本表采用哪种`setStyleSheet`方法，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

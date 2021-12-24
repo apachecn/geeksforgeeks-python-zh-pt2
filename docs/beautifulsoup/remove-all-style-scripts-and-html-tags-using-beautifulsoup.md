@@ -13,14 +13,14 @@ beauty Soap 是一个 Python 库，用于从 HTML 和 XML 文件中拉出数据�
 *   **bs4:** 美人汤(bs4)是一个 python 库，主要用于从 HTML、XML 和其他标记语言中提取数据。这是最常用的网页抓取库之一。
     在终端运行以下命令安装此库-
 
-```
+```py
 pip install bs4
 ```
 
 *   **请求:**该库用于在 python 中进行 HTTP 请求。
     在终端运行以下命令安装此库-
 
-```
+```py
 pip install requests
 ```
 
@@ -37,7 +37,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -75,7 +75,7 @@ print(remove_tags(HTML_DOC))
 
 **输出:**
 
-```
+```py
 Geeksforgeeks is a Computer Science portal.
 ```
 
@@ -94,7 +94,7 @@ Geeksforgeeks is a Computer Science portal.
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 import requests

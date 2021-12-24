@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.polaroid(angle, caption, font, method)
 > 
 > ```
@@ -25,7 +25,7 @@
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ="koala.jpeg") as img:
 **示例 2:**
 为图像添加标题和角度
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

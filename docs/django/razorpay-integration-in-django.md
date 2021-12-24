@@ -16,7 +16,7 @@
 
 ~~确保您已经完成了 django 的安装。创建一个名为 *dj_razorpay* 的新项目，然后启动一个名为*支付*的新应用。在*设置. py* 文件中的*已安装 _ 应用程序*列表中添加“支付”。另外，应用*迁移。*~~
 
-```
+```py
 INSTALLED_APPS = [
     ...
     'payment',
@@ -38,14 +38,14 @@ INSTALLED_APPS = [
 
 ~~现在将*密钥 Id* 和*密钥秘密添加到设置. py 文件中。*~~
 
-```
+```py
 RAZOR_KEY_ID = YOUR_KEY_ID
 RAZOR_KEY_SECRET = YOUR_KEY_SECRET
 ```
 
 ~~在我们继续之前，让我们安装 razorpay 的 python 包。~~
 
-```
+```py
 pip install razorpay
 ```
 
@@ -68,7 +68,7 @@ pip install razorpay
 
 ## ~~蟒蛇 3~~
 
-```
+```py
 from django.shortcuts import render
 import razorpay
 from django.conf import settings
@@ -157,7 +157,7 @@ def paymenthandler(request):
 
 ## ~~蟒蛇 3~~
 
-```
+```py
 # dj_razorpay/urls.py
 
 from django.contrib import admin
@@ -179,7 +179,7 @@ urlpatterns = [
 
 ## ~~超文本标记语言~~
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -288,7 +288,7 @@ urlpatterns = [
 
 ~~现在让我们启动服务器，检查是否一切正常！~~
 
-```
+```py
 python manage.py runserver
 ```
 

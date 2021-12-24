@@ -18,7 +18,7 @@ Python 的 List***extend()****方法迭代像字符串、列表、元组等可�
 
 ## *计算机编程语言*
 
-```
+```py
 *# my_list
 my_list = ['geeks', 'for']
 
@@ -33,7 +33,7 @@ print my_list*
 
 ***输出:***
 
-```
+```py
 *['geeks', 'for', 6, 0, 4, 1]*
 ```
 
@@ -41,7 +41,7 @@ print my_list*
 
 ## *计算机编程语言*
 
-```
+```py
 *# My List
 my_list = ['geeks', 'for', 'geeks']
 
@@ -64,7 +64,7 @@ print(my_list)*
 
 ***输出:***
 
-```
+```py
 *['geeks', 'for', 'geeks', 'DSA', 'Java']
 ['geeks', 'for', 'geeks', 'DSA', 'Java', 'Android', 'Flutter']*
 ```
@@ -75,7 +75,7 @@ print(my_list)*
 
 ## *计算机编程语言*
 
-```
+```py
 *# My list
 my_list = ['geeks', 'for', 6, 0, 4, 1]
 
@@ -87,6 +87,6 @@ print my_list*
 
 ***输出:***
 
-```
+```py
 *['geeks', 'for', 6, 0, 4, 1, 'g', 'e', 'e', 'k', 's']*
 ```

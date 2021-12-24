@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui
@@ -101,7 +101,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 Accpeted Signal
 Accpeted Signal
 ```

@@ -8,7 +8,7 @@
 
 为了给处于未选中状态的指示器添加背景色，我们必须为处于未选中状态的指示器更改样式表。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:unchecked
 {
 background-color : yellow;
@@ -18,7 +18,7 @@ background-color : yellow;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

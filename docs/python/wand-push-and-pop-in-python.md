@@ -13,7 +13,7 @@ push()函数用于增长上下文堆栈，pop()是另一个函数，用于将堆
 
 > **语法:**
 > 
-> ```
+> ```py
 > # for push()
 > wand.drawing.push()
 > 
@@ -27,7 +27,7 @@ push()函数用于增长上下文堆栈，pop()是另一个函数，用于将堆
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color
@@ -60,7 +60,7 @@ with Drawing() as ctx:
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.color import Color
 from wand.image import Image
 from wand.drawing import Drawing

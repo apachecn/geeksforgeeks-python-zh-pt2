@@ -20,7 +20,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Import random module
 import random
 print('Snake - Water - Gun')
@@ -101,7 +101,7 @@ else:
 
 ## *C*
 
-```
+```py
 *#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>

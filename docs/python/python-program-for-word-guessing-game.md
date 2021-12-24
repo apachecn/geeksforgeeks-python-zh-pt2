@@ -13,7 +13,7 @@ Python 是一种强大的多用途编程语言，被多个巨头公司使用。�
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 # library that we use in order to choose
 # on random words from a list of words
@@ -94,7 +94,7 @@ while turns > 0:
 
 **输出:**
 
-```
+```py
 What is your name? Gautam
 Good Luck!  Gautam
 Guess the characters

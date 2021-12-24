@@ -22,7 +22,7 @@ Django REST 框架允许我们利用权限来定义哪些内容可以被访问�
 
 allowyy 权限类将允许不受限制的访问，不管请求是经过身份验证的还是未经身份验证的。这里权限设置默认为无限制访问
 
-```
+```py
 'DEFAULT_PERMISSION_CLASSES': [
    'rest_framework.permissions.AllowAny',
 ]
@@ -32,7 +32,7 @@ allowyy 权限类将允许不受限制的访问，不管请求是经过身份验
 
 ## python 3
 
-```
+```py
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -51,7 +51,7 @@ class ClassBasedView(APIView):
 
 ## python 3
 
-```
+```py
 from rest_framework.decorators import api_view, permission_classes
 from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
@@ -69,13 +69,13 @@ def function_view(request, format=None):
 
 IsAuthenticated 权限类拒绝未经身份验证的用户使用 API 进行任何操作。这确保了只有注册用户才能访问 API。让我们在 RESTful web 服务中使用 IsAuthenticated 类。在这里，我们可以基于每个视图设置权限策略。让我们在我们的机器人细节和机器人列表类中导入并添加权限类。代码如下:
 
-```
+```py
 from rest_framework.permissions import IsAuthenticated
 ```
 
 ## 蟒 3
 
-```
+```py
 class RobotDetail(generics.RetrieveUpdateDestroyAPIView):
     permission_classes = [IsAuthenticated]
     queryset = Robot.objects.all()

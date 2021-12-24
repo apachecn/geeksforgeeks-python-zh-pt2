@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from google.colab import files
 
 uploaded = files.upload()
@@ -30,7 +30,7 @@ uploaded = files.upload()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import io
 
@@ -48,7 +48,7 @@ print(df)
 
 ## 蟒蛇 3
 
-```
+```py
 url = 'copied_raw_github_link'
 df = pd.read_csv(url)
 ```
@@ -68,7 +68,7 @@ df = pd.read_csv(url)
 
 ## 蟒蛇 3
 
-```
+```py
 !pip install -U -q PyDrive
 
 from pydrive.auth import GoogleAuth
@@ -93,7 +93,7 @@ drive = GoogleDrive(gauth)
 
 ## 蟒蛇 3
 
-```
+```py
 link = 'https://drive.google.com/file/d/1KiYk09VqGI6tjNpalom5wI90GrC2p-lz/view'
 
 import pandas as pd
@@ -119,7 +119,7 @@ print(df)
 *   在此文件夹中上传 CSV 文件。
 *   在你的 Colab 笔记本上写下以下代码:
 
-```
+```py
 from google.colab import drive
 
 drive.mount(‘/content/drive’)
@@ -128,7 +128,7 @@ drive.mount(‘/content/drive’)
 
 就像前面的方法一样，这些命令将带您进入谷歌认证步骤。稍后完成验证，就像我们在上一个方法中所做的那样。现在在笔记本中，左上角有*文件*菜单，然后点击*定位在驱动*，然后找到你的数据。然后将 CSV 文件的路径复制到笔记本中的一个变量中，并使用 read_csv()读取该文件。
 
-```
+```py
 path = "copied path"
 df_bonus = pd.read_csv(path)
 
@@ -138,7 +138,7 @@ df_bonus = pd.read_csv(path)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv("file_path")

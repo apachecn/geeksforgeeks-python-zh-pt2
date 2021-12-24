@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Minimum value pairing for dictionary keys
 # Using dict() + sorted() + zip() + lambda
@@ -43,7 +43,7 @@ print("The minimum paired dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 7, 4, 8, 7, 9]
 The original list 2 : [5, 7, 2, 9, 3, 4]
 The minimum paired dictionary : {8: 9, 7: 3, 4: 2, 9: 4}
@@ -56,7 +56,7 @@ The minimum paired dictionary : {8: 9, 7: 3, 4: 2, 9: 4}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Minimum value pairing for dictionary keys
 # Using groupby() + itemgetter() + zip()
@@ -85,7 +85,7 @@ print("The minimum paired dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 7, 4, 8, 7, 9]
 The original list 2 : [5, 7, 2, 9, 3, 4]
 The minimum paired dictionary : {4: 2, 7: 3, 8: 9, 9: 4}

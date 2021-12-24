@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 # getting view part of combo box
 view = self.combo_box.view()
 
@@ -26,7 +26,7 @@ view.setHidden(True)
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

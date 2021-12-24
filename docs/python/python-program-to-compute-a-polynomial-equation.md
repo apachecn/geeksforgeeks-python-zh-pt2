@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Evaluate value of 2x3 - 6x2 + 2x - 1 for x = 3
 Input: poly[] = {2, -6, 2, -1}, x = 3
 Output: 5
@@ -45,7 +45,7 @@ Output: 15
 
 ## 蟒蛇 3
 
-```
+```py
 # 2x3 - 6x2 + 2x - 1 for x = 3
 poly = [2, -6, 2, -1]
 x = 3
@@ -74,7 +74,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 5
 
 ```
@@ -87,7 +87,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # + poly[1]x(n-2) + .. + poly[n-1]
 def horner(poly, n, x):
 
@@ -116,7 +116,7 @@ print("Value of polynomial is:", horner(poly, n, x))
 
 **输出:**
 
-```
+```py
 Value of polynomial is: 5
 
 ```

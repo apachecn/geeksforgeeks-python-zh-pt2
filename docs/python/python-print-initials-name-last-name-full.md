@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : geeks for geeks
 Output : G.F.Geeks
 
@@ -19,7 +19,7 @@ Output : M.K.Gandhi
 
 在内置函数中使用 **python，我们可以[将](https://www.geeksforgeeks.org/how-to-split-a-string-in-cc-python-and-java/)单词拆分成一个列表，然后遍历到第二个最后一个单词，并使用 Python 中的 [upper()](https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/) 函数打印大写的第一个字符，然后使用 Python 中的 [title()](https://www.geeksforgeeks.org/python-string-methods-set-1-find-rfind-startwith-endwith-islower-isupper-lower-upper-swapcase-title/) 函数添加最后一个单词，该函数会自动将第一个字母表转换为大写。**
 
-```
+```py
 # python program to print initials of a name 
 def name(s):
 
@@ -48,7 +48,7 @@ print(name(s))        
 
 **输出:**
 
-```
+```py
 M.K.Gandhi
 
 ```

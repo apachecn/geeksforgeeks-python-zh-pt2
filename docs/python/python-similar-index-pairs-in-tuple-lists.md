@@ -17,7 +17,7 @@
 **方法:使用列表理解+ `zip()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 zip()执行压缩相似索引元素的任务，并使用列表理解来编译所有对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Similar index pairs in Tuple lists
 # Using list comprehension + zip()
@@ -40,7 +40,7 @@ print("The paired tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list 1 is : [(5, 6), (1, 2), (8, 9), (10, 33)]
 The original list 2 is : [(8, 7), (1, 3), (11, 23), (9, 4)]
 The paired tuples : [[(5, 8), (6, 7)], [(1, 1), (2, 3)], [(8, 11), (9, 23)], [(10, 9), (33, 4)]]

@@ -9,7 +9,7 @@ Python 中的[统计](https://www.geeksforgeeks.org/statistical-functions-in-pyt
 ***标准差*** 是统计学中对价差的度量。它用于量化一组数据值的传播和变化的度量。它非常类似于方差，给出偏差的度量，而方差提供平方值。
 标准偏差的低测量值表示数据的分散程度较低，而标准偏差的高值表示一组数据与其平均值的分散程度不同。标准差的一个有用特性是，与方差不同，它是用与数据相同的单位表示的。
 
-```
+```py
 Standard Deviation is calculated by :
 
 where x1, x2, x3.....xn are observed values in sample data,
@@ -30,7 +30,7 @@ N is the number of sample observations.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate stdev() function
 
 # importing Statistics module
@@ -47,7 +47,7 @@ print("Standard Deviation of sample is % s "
 
 **输出:**
 
-```
+```py
 Standard Deviation of the sample is 1.5811388300841898 
 ```
 
@@ -55,7 +55,7 @@ Standard Deviation of the sample is 1.5811388300841898
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate stdev() 
 # function on various range of datasets
 
@@ -96,7 +96,7 @@ print("The Standard Deviation of Sample4 is % s"
 
 **输出:**
 
-```
+```py
 The Standard Deviation of Sample1 is 3.9761191895520196
 The Standard Deviation of Sample2 is 1.8708286933869707
 The Standard Deviation of Sample3 is 7.8182478855559445
@@ -107,7 +107,7 @@ The Standard Deviation of Sample4 is 0.41967844833872525
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate difference
 # in results of stdev() and variance()
 
@@ -130,7 +130,7 @@ print("Variance of the sample is % s"
 
 **输出:**
 
-```
+```py
 Standard Deviation of the sample is 1.5811388300841898 
 Variance of the sample is 2.5
 ```
@@ -139,7 +139,7 @@ Variance of the sample is 2.5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate use of xbar
 # parameter while using stdev() function
 
@@ -162,7 +162,7 @@ print("Standard Deviation of Sample set is % s"
 
 **输出:**
 
-```
+```py
 Standard Deviation of Sample set is 0.6047037842337906
 ```
 
@@ -170,7 +170,7 @@ Standard Deviation of Sample set is 0.6047037842337906
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate StatisticsError
 
 # importing the statistics module
@@ -185,7 +185,7 @@ print(statistics.stdev(sample))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/f921f9269b061f1cc4e5fc74abf6ce10.py", line 12, in 
     print(statistics.stdev(sample))

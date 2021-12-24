@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个问题可以通过使用循环使用天真的方法来解决。在这种情况下，我们对每个键和值进行循环，然后分别对键和值进行类型转换，并返回所需的整数容器。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Type conversion of dictionary items
 # Using loop

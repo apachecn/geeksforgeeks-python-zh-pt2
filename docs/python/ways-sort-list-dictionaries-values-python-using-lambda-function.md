@@ -16,7 +16,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code demonstrate the working of
 # sorted() with lambda
 
@@ -48,7 +48,7 @@ print sorted(lis, key = lambda i: i['age'],reverse=True)
 
 输出:
 
-```
+```py
 The list printed sorting by age: 
 [{'age': 19, 'name': 'Nikhil'}, {'age': 20, 'name': 'Nandini'}, {'age': 20, 'name': 'Manjeet'}]
 

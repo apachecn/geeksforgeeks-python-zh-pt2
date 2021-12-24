@@ -15,7 +15,7 @@
 **方法:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们试图在整个列表遍历之后获得最佳的合适的下一个更高的元素，并执行必要的重排。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rearrange elements second index greater than first
 # Using loop
@@ -49,7 +49,7 @@ print("List 2 after conversion : " + str(res2))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [14, 16, 18, 110]
 The original list 2 is : [13, 15, 17, 19, 111]
 List 2 after conversion : [15, 17, 19, 111]

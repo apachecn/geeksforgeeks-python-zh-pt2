@@ -19,7 +19,7 @@ Python [zip()](https://www.geeksforgeeks.org/zip-in-python/) 方法接受 iterab
 
 **语法:**
 
-```
+```py
 zip(*iterators) 
 ```
 
@@ -27,7 +27,7 @@ zip(*iterators)
 
 **语法**:
 
-```
+```py
 enumerate(zip(list1,list2,.,list n))
 ```
 
@@ -35,7 +35,7 @@ enumerate(zip(list1,list2,.,list n))
 
 **语法:**
 
-```
+```py
 for var1,var2,.,var n in enumerate(zip(list1,list2,..,list n))
 ```
 
@@ -48,7 +48,7 @@ for var1,var2,.,var n in enumerate(zip(list1,list2,..,list n))
 
 ## py S3
 
-```
+```py
 # create a list of names
 names = ['sravan', 'bobby', 'ojaswi', 'rohith', 'gnanesh']
 
@@ -66,7 +66,7 @@ for i, (names, subjects, marks) in enumerate(zip(names, subjects, marks)):
 
 **输出**:
 
-```
+```py
 0 sravan java 78
 1 bobby python 100
 2 ojaswi R 97
@@ -78,7 +78,7 @@ for i, (names, subjects, marks) in enumerate(zip(names, subjects, marks)):
 
 **语法:**
 
-```
+```py
 for i, t in enumerate(zip(names, subjects,marks))
 ```
 
@@ -88,7 +88,7 @@ for i, t in enumerate(zip(names, subjects,marks))
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of names
 names = ['sravan', 'bobby', 'ojaswi', 'rohith', 'gnanesh']
 
@@ -106,7 +106,7 @@ for i, t in enumerate(zip(names, subjects, marks)):
 
 **输出:**
 
-```
+```py
 0 ('sravan', 'java', 78)
 1 ('bobby', 'python', 100)
 2 ('ojaswi', 'R', 97)
@@ -120,7 +120,7 @@ for i, t in enumerate(zip(names, subjects, marks)):
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of names
 names = ['sravan', 'bobby', 'ojaswi', 'rohith', 'gnanesh']
 
@@ -138,7 +138,7 @@ for i, t in enumerate(zip(names, subjects, marks)):
 
 **输出:**
 
-```
+```py
 0 sravan java 78
 1 bobby python 100
 2 ojaswi R 97

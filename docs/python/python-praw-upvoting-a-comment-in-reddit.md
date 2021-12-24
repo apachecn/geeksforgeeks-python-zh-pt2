@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import praw
 
@@ -52,7 +52,7 @@ print("Score after upvoting : " + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before upvoting : 25
 Score after upvoting : 26
 ```
@@ -65,7 +65,7 @@ Score after upvoting : 26
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import praw
 
@@ -99,7 +99,7 @@ print("Score after upvoting : " + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before upvoting : 4
 Score after upvoting : 5
 ```

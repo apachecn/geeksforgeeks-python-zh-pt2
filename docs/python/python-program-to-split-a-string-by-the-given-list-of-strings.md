@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Separate specific Strings
 # Using re.split() + | operator
@@ -44,7 +44,7 @@ print("The segmented String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeksisbestforgeeks
 The segmented String : ['geekforgeeksis', 'best', 'forgeeks']
 

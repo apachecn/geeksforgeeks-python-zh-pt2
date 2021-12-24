@@ -6,7 +6,7 @@ Python 数据库应用编程接口是标准 Python 的数据库接口。大多�
 
 下面是一个连接 MySQL 数据库的程序`geeks`。
 
-```
+```py
 # importing required library 
 import mysql.connector
 
@@ -34,13 +34,13 @@ dataBase.close() 
 
 *   为了从表中选择特定的属性列，我们编写属性名。
 
-    ```
+    ```py
     SELECT attr1, attr2 FROM table_name
     ```
 
 *   为了从表中选择所有属性列，我们使用星号“*”符号。
 
-    ```
+    ```py
     SELECT * FROM table_name
     ```
 
@@ -50,7 +50,7 @@ dataBase.close() 
 
 下面是一个从数据库表中选择查询的程序。
 
-```
+```py
 # importing required library 
 import mysql.connector 
 
@@ -85,7 +85,7 @@ dataBase.close()
 
 **示例 2:** 让我们看另一个在表中选择查询的示例。
 
-```
+```py
 # importing required library 
 import mysql.connector 
 

@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function which converts decimal to binary
 def decToBin(num):
 
@@ -91,6 +91,6 @@ print(convert(Number))
 
 **输出:**
 
-```
+```py
 101000010101111
 ```

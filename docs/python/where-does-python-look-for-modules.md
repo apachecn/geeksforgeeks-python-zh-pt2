@@ -18,7 +18,7 @@ Python 分三步寻找模块:-
 
 ## 计算机编程语言
 
-```
+```py
 # importing os module
 import os       
 
@@ -32,7 +32,7 @@ print(os.getcwd())
 
 ## 计算机编程语言
 
-```
+```py
 # importing the sys module
 import sys        
 
@@ -46,7 +46,7 @@ print(sys.path)
 
 ## 计算机编程语言
 
-```
+```py
 # importing the sys module
 import sys        
 

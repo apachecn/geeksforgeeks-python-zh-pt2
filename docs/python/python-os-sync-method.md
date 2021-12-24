@@ -16,7 +16,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Python program to explain os.sync() method
 
 # importing os module
@@ -65,7 +65,7 @@ os.close(fd3)
 
 ******Output:** 
 
-```
+```py
 Force write of everything committed successfully
 ```**** 
 

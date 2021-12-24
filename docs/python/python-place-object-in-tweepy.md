@@ -25,7 +25,7 @@ Tweepy 模块中的 **`Place`** 对象包含一个地方的信息。
 
 **例:**用`geo_id()`法取地方。以伦敦为例。
 
-```
+```py
 # import the module
 import tweepy
 

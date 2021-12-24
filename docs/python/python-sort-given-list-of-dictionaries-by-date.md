@@ -6,7 +6,7 @@
 
 **方法#1:使用天真的方法**
 
-```
+```py
 # Python code to demonstrate
 # sort a list of dictionary
 # where value date is in string

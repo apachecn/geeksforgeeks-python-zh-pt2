@@ -6,7 +6,7 @@
 
 为了设置外观，我们必须选中样式表代码的复选框，下面是样式表代码。
 
-```
+```py
 QCheckBox::checked::hover
 {
 border-image : url(image.png);
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

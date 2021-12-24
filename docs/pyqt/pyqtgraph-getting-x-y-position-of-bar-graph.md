@@ -8,7 +8,7 @@
 我们可以借助下面给出的命令
 创建一个绘图窗口和条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -25,7 +25,7 @@ bargraph = pg.BarGraphItem(x=x, height=y1, width=0.6, brush='g')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing QtGui to use QIcon
 from PyQt5.QtGui import * from PyQt5.QtCore import Qt
 
@@ -104,6 +104,6 @@ if __name__ == '__main__':
 
 ![](img/53e7c4dbf2f780c55b6f9a0bebd248d1.png)
 
-```
+```py
 X & Y Position : 200.0 | 10000.0
 ```

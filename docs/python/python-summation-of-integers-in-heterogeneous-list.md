@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of integers in heterogeneous list
 # using type caste and exception handling
@@ -35,7 +35,7 @@ print("Summation of integers in list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 'gfg', 8, (5, 7), 'is', 9]
 Summation of integers in list : 28
 ```
@@ -45,7 +45,7 @@ Summation of integers in list : 28
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of integers in heterogeneous list
 # using sum() + isinstance()
@@ -66,7 +66,7 @@ print("Summation of integers in list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 'gfg', 8, (5, 7), 'is', 9]
 Summation of integers in list : 28
 ```

@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge Dictionaries List with duplicate Keys
 # Using loop + keys()

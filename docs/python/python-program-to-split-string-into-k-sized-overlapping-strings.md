@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Overlapping consecutive K splits
 # Using islice() + generator function + join() 

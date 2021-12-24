@@ -5,14 +5,14 @@
 在本文中，我们将看到如何在 PyQTGaph 中触发图像视图对象的菜单点击信号。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).用于显示和分析图像数据的小部件。实现许多功能，如显示 2D 和三维图像数据。对于 3D 数据，显示 z 轴滑块，允许用户选择显示哪个帧。显示图像数据的直方图，可移动区域定义暗/亮级别，可编辑渐变提供颜色查找表，还可以使用左/右箭头键以及 pgup、pgdn、home 和 end 移动帧滑块。当单击图像视图上的菜单按钮时，会发出此信号。
 我们可以借助下面给出的命令创建一个图像视图。
 
-```
+```py
 # creating a pyqtgraph image view object
 imv = pg.ImageView()
 ```
 
 为了触发这个信号，我们必须改变图像视图类，下面是这个类的语法。
 
-```
+```py
 # Image View class
 class ImageView(pg.ImageView):
 
@@ -32,7 +32,7 @@ class ImageView(pg.ImageView):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 
@@ -183,7 +183,7 @@ sys.exit(App.exec())
 
 <video class="wp-video-shortcode" id="video-501182-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20201003024710/PyQtGraph-2020-10-03-02-46-41.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20201003024710/PyQtGraph-2020-10-03-02-46-41.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20201003024710/PyQtGraph-2020-10-03-02-46-41.mp4)</video>
 
-```
+```py
 Menu Clicked
 Menu Clicked
 Menu Clicked

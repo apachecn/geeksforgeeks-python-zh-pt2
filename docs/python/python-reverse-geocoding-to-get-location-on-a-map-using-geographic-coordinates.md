@@ -5,7 +5,7 @@
 反向地理编码是从给定的一对地理坐标(纬度和经度)中查找地点或位置地址的过程。
 **所需模块:**
 
-```
+```py
 reverse_geocoder: A Python library for offline reverse geocoding.
 pprint: A module which helps to "pretty-print" any arbitrary python data structure.
 ```
@@ -13,14 +13,14 @@ pprint: A module which helps to "pretty-print" any arbitrary python data structu
 **安装:**
 使用 **pip** 可以轻松安装模块。
 
-```
+```py
 pip install reverse_geocoder
 pip install pprint
 ```
 
 **例:**
 
-```
+```py
 Input : (36.778259, -119.417931)
 Output : 
 Loading formatted geocoded file...
@@ -45,7 +45,7 @@ Loading formatted geocoded file...
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for reverse geocoding.
 
 # importing necessary libraries
@@ -69,7 +69,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 Loading formatted geocoded file...
 [{'admin1': 'NCT',
   'admin2': 'New Delhi',

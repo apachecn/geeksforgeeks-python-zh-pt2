@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `get()`**
 以上功能的组合可以用来执行这个特定的任务。在这种情况下，我们使用 `get`方法访问值，并使用列表理解遍历字典。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Selective key values in dictionary
 # Using list comprehension + get()

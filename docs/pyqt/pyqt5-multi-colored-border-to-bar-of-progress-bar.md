@@ -9,7 +9,7 @@
 ![](img/d27ca6c869285ba3c5f6dbf8c39be1c6.png) ![](img/c433dd8512bc35c0f314f93c8c8f782e.png)
 为了这个我们在 CSS 样式表中改变了进度条每个边框的颜色，下面是边框样式表的代码。
 
-```
+```py
 QProgressBar
 {
 border : 1px solid black;
@@ -27,7 +27,7 @@ border-bottom-color : blue;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

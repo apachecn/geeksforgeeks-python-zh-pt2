@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 123.5
 Output: 1 1 1 1 0 1 1 . 1
 
@@ -27,7 +27,7 @@ Output: .01
 
     **编程步骤:**
 
-    ```
+    ```py
     def intpartbinary(m):
 
         a=[]
@@ -50,7 +50,7 @@ Output: .01
 
     **编程步骤:**
 
-    ```
+    ```py
     def decimalpartbinary(m):
 
         a=[]
@@ -69,7 +69,7 @@ Output: .01
 
 现在最后组合，下面给定格式的所有二进制转换将是输入实数的二进制表示。首先写出余数和一个点(点)的逆序，然后写出整数部分序列，这是我们通过将分数部分乘以 2 并只提取整数部分而得到的。
 
-```
+```py
 def binarycode(m):
 
     a = intpartbinary(m)
@@ -94,7 +94,7 @@ def binarycode(m):
 
 下面是实现。
 
-```
+```py
 # defining a function to convert 
 # integer part to binary
 def intpartbinary(m):
@@ -153,7 +153,7 @@ binarycode(123.5)
 
 **输出:**
 
-```
+```py
 Binary code of given function is
 
 1 1 1 1 0 1 1 . 1 

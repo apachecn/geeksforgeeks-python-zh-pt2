@@ -6,13 +6,13 @@
 
 **在窗口:**
 
-```
+```py
 pip install psutil
 ```
 
 **在**T2【Linux:
 
-```
+```py
 sudo apt-get install gcc python3-dev
 sudo pip3 install psutil
 ```
@@ -21,7 +21,7 @@ sudo pip3 install psutil
 
 ## 蟒蛇 3
 
-```
+```py
 import psutil
 import datetime
 
@@ -34,7 +34,7 @@ print(datetime.datetime.fromtimestamp(last_reboot))
 
 **输出:**
 
-```
+```py
 2020-08-20 16:46:48
 ```
 

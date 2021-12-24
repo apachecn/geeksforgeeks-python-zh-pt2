@@ -7,7 +7,7 @@ GetToolByPos()函数接受一个参数，即 Pos(刀具位置)。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolByPos(self, pos)
 > 
 > ```
@@ -20,14 +20,14 @@ GetToolByPos()函数接受一个参数，即 Pos(刀具位置)。
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -70,14 +70,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Tooltwo
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Toolone
 
 ```

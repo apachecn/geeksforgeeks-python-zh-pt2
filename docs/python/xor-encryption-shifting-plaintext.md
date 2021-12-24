@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```py
 Input : a1d0a1d
 Output : abcd
 abcd once coded will return a1d0a1d
@@ -48,7 +48,7 @@ Output : 636f646572
 
 ******以下是上述方法的实施:******
 
-```
+```py
 **# Implementation in Python 3
 
 # Hex String variable
@@ -79,7 +79,7 @@ print(plain)**
 
 ******Output:**
 
-```
+```py
 636f646572
 
 ```****

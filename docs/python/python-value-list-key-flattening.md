@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们迭代每个键的值，并将其分配给它的键，并构造新的键-值对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value List Key Flattening
 # Using loop
@@ -31,7 +31,7 @@ print("The flattened dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'best': [10, 12], 'gfg': [4, 5, 7]}
 The flattened dictionary : [{'value': 10, 'key': 'best'}, {'value': 12, 'key': 'best'}, {'value': 4, 'key': 'gfg'}, {'value': 5, 'key': 'gfg'}, {'value': 7, 'key': 'gfg'}]
 

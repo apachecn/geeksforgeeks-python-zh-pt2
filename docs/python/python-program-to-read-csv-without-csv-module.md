@@ -27,7 +27,7 @@ CSV 文件可以使用名为`[Pandas](https://www.geeksforgeeks.org/python-progr
 
 **示例:**
 
-```
+```py
 # PYthon program to read 
 # CSV file without csv module
 

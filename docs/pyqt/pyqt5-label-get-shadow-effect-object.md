@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```py
 # creating a shadow effect
 color_effect = QGraphicsDropShadowEffec()
 
@@ -30,7 +30,7 @@ object = label.graphicsEffect()
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

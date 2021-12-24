@@ -12,7 +12,7 @@
 
 **代码#1 : 2D 阵**
 
-```
+```py
 from scipy.spatial.distance import pdist
 
 arr1 = pdist([[1, 3, 27], 
@@ -23,14 +23,14 @@ print("Arithmetic Mean is :", arr1) 
 
 **输出:**
 
-```
+```py
 Value of pdist is : [19.33907961]
 
 ```
 
 **代码#2 : 3D 阵列**
 
-```
+```py
 from scipy.spatial.distance import pdist
 
 arr1 = [[1, 3, 27],  
@@ -43,7 +43,7 @@ print("Arithmetic Mean is :", pdist(arr1))  
 
 **输出:**
 
-```
+```py
 Value of pdist is : [21.11871208 24.91987159 19.33907961  
                     5.38516481  2.82842712  6.40312424]
 

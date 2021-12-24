@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to flatten a nested list
 
 # explicit function to flatten a
@@ -57,7 +57,7 @@ print("Flattened List:\n", flattenList(nestedList))
 
 **输出:**
 
-```
+```py
 Nested List:
  [[8, 9], [10, 11, 'geeks'], [13]]
 Flattened List:
@@ -68,7 +68,7 @@ Flattened List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to flatten a nested list
 
 # explicit function to flatten a
@@ -97,7 +97,7 @@ print("Flattened List:\n", flattenList(nestedList))
 
 **输出:**
 
-```
+```py
 Nested List:
  [['A', 'B', 'C'], ['D', 'E', 'F']]
 Flattened List:
@@ -108,7 +108,7 @@ Flattened List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to flatten a nested list
 
 # explicit function to flatten a
@@ -137,7 +137,7 @@ print("Flattened List:\n", flattenList(nestedList))
 
 **输出:**
 
-```
+```py
 Nested List:
  [[1], [2], [3], [4], [5]]
 Flattened List:

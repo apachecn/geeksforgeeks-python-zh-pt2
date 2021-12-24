@@ -14,7 +14,7 @@
 
 **执行此操作的样式表代码–**
 
-```
+```py
 QRadioButton
 {
 border : 3px solid black;
@@ -25,7 +25,7 @@ border-radius : 60px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

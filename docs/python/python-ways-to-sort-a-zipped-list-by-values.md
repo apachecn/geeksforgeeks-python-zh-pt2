@@ -8,7 +8,7 @@
 
 **方法#1:** 使用λ和排序
 
-```
+```py
 # Python code to demonstrate
 # sort zipped list by values
 # using lambda and sorted
@@ -33,7 +33,7 @@ print("final list - ", str(res))
 
 **Output:**
 
-```
+```py
 Initial zipped list -  [('geeks', 3), ('for', 2), ('Geeks', 1)]
 final list -  [('Geeks', 1), ('for', 2), ('geeks', 3)]
 
@@ -41,7 +41,7 @@ final list -  [('Geeks', 1), ('for', 2), ('geeks', 3)]
 
 **方法 2:** 使用运算符和排序
 
-```
+```py
 # Python code to demonstrate
 # sort zipped list by values
 # using operator and sorted
@@ -67,7 +67,7 @@ print("final list - ", str(res))
 
 **Output:**
 
-```
+```py
 Initial zipped list -  [('akshat', 3), ('Manjeet', 2), ('nikhil', 1)]
 final list -  [('nikhil', 1), ('Manjeet', 2), ('akshat', 3)]
 

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.iris()
@@ -54,7 +54,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -76,7 +76,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -98,7 +98,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 df = px.data.tips()
@@ -120,7 +120,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import pandas as pd
 

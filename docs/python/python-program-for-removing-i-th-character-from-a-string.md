@@ -6,7 +6,7 @@
 
 在任何字符串中，索引总是从 0 开始。假设我们有一个字符串极客，那么它的索引将是–
 
-```
+```py
 g e e k s
 0 1 2 3 4
 
@@ -14,7 +14,7 @@ g e e k s
 
 **示例:**
 
-```
+```py
 Input : Geek
         i = 1
 Output : Gek 
@@ -29,7 +29,7 @@ Output : Pete
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 program for removing i-th 
 # indexed character from a string
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 geeksORgeeks
 
 ```
@@ -70,7 +70,7 @@ geeksORgeeks
 **方法 2 :** 想法是使用 Python 中的[字符串替换
 T4】](https://www.geeksforgeeks.org/python-string-replace/)
 
-```
+```py
 # Python3 program for removing i-th 
 # indexed character from a string
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 geeksORgeeks
 
 ```

@@ -28,7 +28,7 @@ Python 列表 **remove()** 是 Python 编程语言中的一个内置函数，用
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of
 # remove() method
 
@@ -45,7 +45,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 [2, 1, 1, 4, 5]
 ['b', 'c', 'd']
 ```
@@ -54,7 +54,7 @@ print(list2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for the error in
 # remove() method
 
@@ -67,7 +67,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/e35b642d8d5c06d24e9b31c7e7b9a7fa.py", line 8, in 
     list2.remove('e') 
@@ -78,7 +78,7 @@ ValueError: list.remove(x): x not in list
 
 ## 蟒蛇 3
 
-```
+```py
 # My List
 list2 = [ 'a', 'b', 'c', 'd', 'd', 'e', 'd' ]
 
@@ -90,7 +90,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 ['a', 'b', 'c', 'd', 'e', 'd']
 ```
 
@@ -100,7 +100,7 @@ print(list2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for practical application
 # of removing 1 until all 1 are removed from the list
 
@@ -115,7 +115,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 [2, 3, 4, 4, 5]
 ```
 
@@ -123,7 +123,7 @@ print(list1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for practical application
 # of removing 2 until all 2 are removed from the list
 
@@ -137,6 +137,6 @@ print(mylist)
 
 **输出:**
 
-```
+```py
 [1, 3]
 ```

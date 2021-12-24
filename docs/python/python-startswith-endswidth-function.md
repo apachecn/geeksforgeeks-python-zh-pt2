@@ -8,7 +8,7 @@ Python 库提供了许多内置方法，其中一个是用于字符串相关操�
 
 **语法**
 
-```
+```py
 str.startswith(search_string, start, end)
 ```
 
@@ -31,7 +31,7 @@ str.startswith(search_string, start, end)
 
 **语法:**
 
-```
+```py
 str.endswith( search_string, start, end)
 ```
 
@@ -52,7 +52,7 @@ str.endswith( search_string, start, end)
 
 下面是解释 ***开始于()*** 和 ***结束于()*** 的代码:
 
-```
+```py
 # Python code to implement startswith()
 # and endswith() function.
 
@@ -73,7 +73,7 @@ print(str.endswith("for", 5, 8))
 
 输出:
 
-```
+```py
 True
 False
 True

@@ -7,7 +7,7 @@
 **方法一:使用 max()+min()+“`+`”运算符**
 最大值和最小值可以通过 python 常规的 max 和 min 函数来确定，一个到两个列表的扩展可以使用“`+`”运算符来处理。
 
-```
+```py
 # Python3 code to demonstrate
 # maximum and minimum values in two lists 
 # using max() + min() + "+" operator
@@ -32,7 +32,7 @@ print ("The minimum of both lists is : " + str(min_all))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [1, 3, 4, 5, 2, 6]
 The original list 2 is : [3, 4, 8, 3, 10, 1]
 The maximum of both lists is : 10
@@ -43,7 +43,7 @@ The minimum of both lists is : 1
 **方法#2:使用`max() + min() + chain()`**
 另一种执行特定任务的方法是使用链函数，该函数执行类似于“+”运算符的任务，但使用迭代器，因此速度更快。
 
-```
+```py
 # Python3 code to demonstrate
 # maximum and minimum values in two lists 
 # using max() + min() + "+" operator
@@ -69,7 +69,7 @@ print ("The minimum of both lists is : " + str(min_all))
 
 **Output:**
 
-```
+```py
 The original list 1 is : [1, 3, 4, 5, 2, 6]
 The original list 2 is : [3, 4, 8, 3, 10, 1]
 The maximum of both lists is : 10

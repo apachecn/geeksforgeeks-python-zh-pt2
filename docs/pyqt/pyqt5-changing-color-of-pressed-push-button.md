@@ -6,7 +6,7 @@
 
 为了改变按钮的颜色，我们必须改变按钮的样式表，下面是与按钮对象一起使用的样式表代码。
 
-```
+```py
 QPushButton::clicked
 {
 background-color : red;
@@ -16,7 +16,7 @@ background-color : red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -10,7 +10,7 @@
 给定示例检索与查询字符串 Python Programming 关联的前 5 个直播。`type parameter`必须设置为仅视频值。
 `eventType`参数可以从给定的一组值中取任何值-已完成(这将仅包括已完成的广播)、直播(这将仅包括活动的广播)、即将到来(这将仅包括即将到来的广播)。
 
-```
+```py
 from apiclient.discovery import build
 
 # Arguments that need to passed to the build function
@@ -58,7 +58,7 @@ if __name__ == "__main__":
 
 **按相关视频搜索:**这将有助于检索参数列表中视频标识指定的视频相关的视频。`type parameter`只能拍价值视频。
 
-```
+```py
 from apiclient.discovery import build
 
 # Arguments that need to passed
@@ -123,11 +123,11 @@ if __name__ == "__main__":
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
-```
+```py
 # importing libraries
 import os
 import google.oauth2.credentials

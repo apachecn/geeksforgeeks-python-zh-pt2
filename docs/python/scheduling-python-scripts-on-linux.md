@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/env python3
 
 # importing libraries
@@ -53,7 +53,7 @@ for i in range(2):
 
 **第三步:**在终端运行以下命令，打开 crontab 配置文件。
 
-```
+```py
 crontab -e
 ```
 
@@ -71,7 +71,7 @@ crontab -e
 
 要检查日志以查看它是否工作，请运行以下命令:
 
-```
+```py
 sudo tail -f /var/log/syslog
 ```
 

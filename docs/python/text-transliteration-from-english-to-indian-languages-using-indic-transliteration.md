@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : namaskaara
 Output : 
 Transliterating from English(Latin) to Hindi(Devanagari)
@@ -21,7 +21,7 @@ Transliterating from English(Latin) to Telugu(Telugu)
 
 **安装:**
 
-```
+```py
 pip install indic-transliteration
 ```
 
@@ -60,7 +60,7 @@ pip install indic-transliteration
 
 **例 1:** 从拉丁文音译为梵文。
 
-```
+```py
 # import the module
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate
@@ -77,7 +77,7 @@ print(transliterate(text, sanscript.ITRANS, sanscript.DEVANAGARI))
 
 **例 2:** 从拉丁语音译为古吉拉特语。
 
-```
+```py
 # import the module
 from indic_transliteration import sanscript
 from indic_transliteration.sanscript import transliterate

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : a = 806, b = 91
 Output : 80691
 
@@ -17,7 +17,7 @@ Output : 51091
 
 **方法 1:** 实现这一点的一种方法可以是计算第二个数字的位数。然后将第一个数字与 10^digits 相乘，并将两个数字相加。下面是实现。
 
-```
+```py
 # Python program to concatenate
 # two numbers
 
@@ -42,14 +42,14 @@ print(numConcat(a, b))
 
 **Output:**
 
-```
+```py
 90691
 
 ```
 
 **方法 2:** 另一种方法是将两个数字都转换成字符串。然后将它们连接起来并转换回整数。下面是实现。
 
-```
+```py
 # Python program to concatenate
 # two numbers
 
@@ -73,7 +73,7 @@ print(numConcat(a, b))
 
 **输出:**
 
-```
+```py
 90691
 
 ```

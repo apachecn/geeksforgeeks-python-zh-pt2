@@ -68,7 +68,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template, request, redirect, session
 import mysql.connector
 from sentiments import second
@@ -158,7 +158,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Blueprint, render_template, request
 import matplotlib.pyplot as plt
 import os
@@ -361,7 +361,7 @@ def visualize():
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
    <head>

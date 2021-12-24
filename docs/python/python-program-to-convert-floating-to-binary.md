@@ -20,7 +20,7 @@ Python 没有提供任何内置的方法来轻松地将浮点十进制数转换�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert float
 # decimal to binary number
 
@@ -82,7 +82,7 @@ print(float_bin(n, places = p))
 
 **输出:**
 
-```
+```py
 Enter your floating point value : 
 1.234
 Enter the number of decimal places of the result :
@@ -91,7 +91,7 @@ Enter the number of decimal places of the result :
 1.0011
 ```
 
-```
+```py
 Enter your floating point value : 
 11.234
 Enter the number of decimal places of the result : 

@@ -24,7 +24,7 @@
 
 **下面是上述方法的 Python 代码实现。**
 
-```
+```py
 # Python3 program to find percentage increase 
 # in the volume of the hemisphere 
 # if the radius is increased by a given percentage 
@@ -42,6 +42,6 @@ newvol(x) 
 
 **输出:**
 
-```
+```py
 percentage increase in the volume of the hemisphere is  33.1 %
 ```

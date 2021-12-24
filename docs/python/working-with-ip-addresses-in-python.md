@@ -12,7 +12,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import module
 import ipaddress
 

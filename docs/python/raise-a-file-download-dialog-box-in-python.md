@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # python_script.py
 
 # HTTP Header
@@ -36,7 +36,7 @@ my_file.close()
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 <body>
 <form enctype = "multipart/form-data" action = "python_script.py" method = "get">

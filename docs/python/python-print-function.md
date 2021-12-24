@@ -18,7 +18,7 @@ python print()函数，顾名思义，用于打印 python 中的 python 对象�
 
 ## 蟒蛇 3
 
-```
+```py
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
@@ -30,7 +30,7 @@ print(list,tuple,string)
 
 **输出:**
 
-```
+```py
 [1, 2, 3] ('A', 'B') Geeksforgeeks
 ```
 
@@ -38,7 +38,7 @@ print(list,tuple,string)
 
 ## 蟒蛇 3
 
-```
+```py
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
@@ -50,7 +50,7 @@ print(list,tuple,string, sep="<<..>>")
 
 **输出:**
 
-```
+```py
 [1, 2, 3]<<..>>('A', 'B')<<..>>Geeksforgeeks
 ```
 
@@ -58,7 +58,7 @@ print(list,tuple,string, sep="<<..>>")
 
 ## 蟒蛇 3
 
-```
+```py
 # sample python objects
 list = [1,2,3]
 tuple = ("A","B")
@@ -70,7 +70,7 @@ print(list,tuple,string, end="<<..>>")
 
 **输出:**
 
-```
+```py
 [1, 2, 3] ('A', 'B') Geeksforgeeks<<..>>
 ```
 
@@ -84,7 +84,7 @@ print(list,tuple,string, end="<<..>>")
 
 ## 蟒蛇 3
 
-```
+```py
 # open and read the file
  my_file = open("geeksforgeeks.txt","r")
 
@@ -100,7 +100,7 @@ print(my_file.read())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for printing to stderr
 
 # importing the package
@@ -118,6 +118,6 @@ print(Company, Location, Email, file=sys.stderr)
 
 **输出:**
 
-```
+```py
 Geeksofrgeeks.org Noida contact@geeksforgeeks.org
 ```

@@ -17,7 +17,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。图
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"C:\Users\System-Pc\Desktop\tree.jpg")
@@ -39,7 +39,7 @@ T3】图片使用:
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"C:\Users\System-Pc\Desktop\tree.jpg")

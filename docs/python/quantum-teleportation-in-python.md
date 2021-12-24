@@ -34,7 +34,7 @@
 
 **安装** **:**
 
-```
+```py
 pip install qiskit
 ```
 
@@ -46,7 +46,7 @@ QuantumCircuit 接受两个参数，即我们想要取的量子比特数和我�
 
 ## 计算机编程语言
 
-```
+```py
 from qiskit import *
 
 circuit = QuantumCircuit(3, 3)
@@ -70,7 +70,7 @@ circuit.draw(output='mpl')
 
 ## 计算机编程语言
 
-```
+```py
 circuit.x(0)  # used to apply an X gate.
 
 # This is done to make the circuit look more 

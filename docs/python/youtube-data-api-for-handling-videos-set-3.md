@@ -10,7 +10,7 @@
 
 **查找有效视频类别:**
 
-```
+```py
 # importing library
 from apiclient.discovery import build
 
@@ -78,7 +78,7 @@ if __name__ == "__main__":
 
 使用`pip`命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
@@ -89,7 +89,7 @@ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 1.  文件最大大小为 128 兆字节
 2.  可接受的媒体 MIME 类型只有视频/*、应用程序/八位字节流
 
-```
+```py
 # importing necessary libraries
 import os
 import urllib.request, urllib.parse, urllib.error

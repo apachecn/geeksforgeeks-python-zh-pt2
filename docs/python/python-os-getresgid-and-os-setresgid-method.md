@@ -22,7 +22,7 @@ Python 中的`***os.getresgid()***`方法用于获取当前流程的真实、有
 
 **Code #1:** Use of os.getresgid() method
 
-```
+```py
 # Python program to explain os.getresgid() method 
 
 # importing os module 
@@ -56,7 +56,7 @@ print("Saved group id of the current process:", sgid)
 
 **Code #2:** Use of os.setresgid() method
 
-```
+```py
 # Python program to explain os.setresgid() method 
 
 # importing os module 

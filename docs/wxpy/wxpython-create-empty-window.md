@@ -11,7 +11,7 @@
 > 3。为 wx 创建对象。框架
 > 4。使用 Show()函数显示框架
 
-```
+```py
 # Import wx module
 import wx
 

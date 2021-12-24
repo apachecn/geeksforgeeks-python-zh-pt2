@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Business days in range
 # Using timedelta() + sum() + weekday()
@@ -49,7 +49,7 @@ print("Total business days in range : " + str(res))
 
 **输出:**
 
-```
+```py
 The original range : 2015-06-03 00:00:00 2015-07-01 00:00:00
 Total business days in range : 20
 ```
@@ -60,7 +60,7 @@ Total business days in range : 20
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Business days in range
 # Using np.busday_count
@@ -83,7 +83,7 @@ print("Total business days in range : " + str(res))
 
 **输出:**
 
-```
+```py
 The original range : 2015-06-03 00:00:00 2015-07-01 00:00:00
 Total business days in range : 20
 ```
@@ -94,7 +94,7 @@ Total business days in range : 20
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Business days in range
 # Using pd.bdate_range
@@ -119,7 +119,7 @@ print("Total business days in range : " + str(res))
 
 **输出:**
 
-```
+```py
 The original range : 2015-06-03 00:00:00 2015-06-30 00:00:00
 Total business days in range : 20
 ```

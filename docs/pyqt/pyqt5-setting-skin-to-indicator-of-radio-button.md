@@ -11,7 +11,7 @@
 **注意:**当我们改变样式表时，指示器的形状变为方形。
 为了做到这一点，我们必须改变与单选按钮对象相关的指示器的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 border-image : url(image.png);
@@ -22,7 +22,7 @@ border-image : url(image.png);
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

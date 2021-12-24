@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 2
 Output :
@@ -43,7 +43,7 @@ Output :
 
 下面是实现。
 
-```
+```py
 def print_diamond(size):
 
     # print the first triangle
@@ -165,7 +165,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 --------5--------
 ------5-4-5------
 ----5-4-3-4-5----

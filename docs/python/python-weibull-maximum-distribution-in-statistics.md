@@ -17,7 +17,7 @@
 
 **代码#1:创建威布尔最大连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import weibull_max 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9DA07FDC8
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:威布尔最大连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [ 7.99998841e-01  7.96362853e-01 -1.36808367e+00 -5.04876338e-01
  -8.07612996e+03  2.47694796e-01  7.80624490e-01  7.99996977e-01
@@ -71,7 +71,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -81,7 +81,7 @@ print("Distribution : \n", distribution) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0.
  0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0\. 0.
@@ -93,7 +93,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

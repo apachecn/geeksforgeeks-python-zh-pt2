@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings by maximum frequency character
 # Using sort() + Counter() + max()
@@ -44,7 +44,7 @@ print("Sorted List : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : ['geekforgeeks', 'bettered', 'for', 'geeks']
 Sorted List : ['for', 'geeks', 'bettered', 'geekforgeeks']
 ```
@@ -55,7 +55,7 @@ Sorted List : ['for', 'geeks', 'bettered', 'geekforgeeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings by maximum frequency character
 # Using sorted() + lambda + Counter()
@@ -84,7 +84,7 @@ print("Sorted List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['geekforgeeks', 'bettered', 'for', 'geeks']
 Sorted List : ['for', 'geeks', 'bettered', 'geekforgeeks']
 ```

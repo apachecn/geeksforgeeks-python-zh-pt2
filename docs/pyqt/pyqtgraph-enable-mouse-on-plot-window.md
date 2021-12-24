@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 

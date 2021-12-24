@@ -17,7 +17,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。
 > 
 > **遮罩:**可选的遮罩图像。
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -56,7 +56,7 @@ im1.show()
 > 
 > **返回值:**返回旋转图像的副本。
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 import PIL

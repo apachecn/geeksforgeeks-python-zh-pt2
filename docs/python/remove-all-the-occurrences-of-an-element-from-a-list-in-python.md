@@ -30,7 +30,7 @@
 **方法 1 :** 使用列表理解
 列表理解可以用来执行这个任务，在这个任务中，我们只需要检查匹配并重建没有目标元素的列表。我们可以为列表中满足特定条件的元素创建一个子列表。
 
-```
+```py
 # Python 3 code to demonstrate
 # the removal of all occurrences of a 
 # given item using list comprehension
@@ -63,7 +63,7 @@ if __name__=="__main__":
 
 **输出**
 
-```
+```py
 The original list is : [1, 3, 4, 6, 5, 1]
 The list after performing the remove operation is : [3, 4, 6, 5]
 
@@ -72,7 +72,7 @@ The list after performing the remove operation is : [3, 4, 6, 5]
 **方法 2 :** 使用过滤器()和 __ne__
 我们过滤列表中那些不等于 __ne__ 的项目。
 
-```
+```py
 # Python 3 code to demonstrate
 # the removal of all occurrences of
 # a given item using filter() and __ne__
@@ -105,7 +105,7 @@ if __name__=="__main__":
 
 **输出**
 
-```
+```py
 The original list is : [1, 3, 4, 6, 5, 1]
 The list after performing the remove operation is : [3, 4, 6, 5]
 
@@ -114,7 +114,7 @@ The list after performing the remove operation is : [3, 4, 6, 5]
 **方法 3 :** 使用 remove()
 在这个方法中，我们遍历列表中的每个项目，当我们找到要移除的项目的匹配项时，我们将在列表中调用 remove()函数。
 
-```
+```py
 # Python 3 code to demonstrate
 # the removal of all occurrences of
 # a given item using remove()
@@ -149,7 +149,7 @@ if __name__=="__main__":
 
 **输出**
 
-```
+```py
 The original list is : [1, 3, 4, 6, 5, 1]
 The list after performing the remove operation is : [3, 4, 6, 5]
 

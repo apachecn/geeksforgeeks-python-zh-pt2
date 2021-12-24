@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 print(math.nextafter(2, math.inf))
@@ -26,7 +26,7 @@ print(math.nextafter(2, math.inf))
 
 **输出:**
 
-```
+```py
 2.0000000000000004
 
 ```
@@ -35,7 +35,7 @@ print(math.nextafter(2, math.inf))
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 print(math.nextafter(2, -math.inf))
@@ -43,7 +43,7 @@ print(math.nextafter(2, -math.inf))
 
 **输出:**
 
-```
+```py
 1.9999999999999998
 
 ```
@@ -52,7 +52,7 @@ print(math.nextafter(2, -math.inf))
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 print(math.nextafter(2, 0.0))
@@ -60,7 +60,7 @@ print(math.nextafter(2, 0.0))
 
 **输出:**
 
-```
+```py
 2.0000000000000004
 
 ```

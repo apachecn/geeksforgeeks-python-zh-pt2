@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Workbook from openpyxl
 from openpyxl import Workbook
 
@@ -80,7 +80,7 @@ wb.save("doughnut.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 # import Workbook from openpyxl
 from openpyxl import Workbook
 
@@ -160,7 +160,7 @@ wb.save("Radar.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 # import Workbook from openpyxl
 from openpyxl import Workbook
 
@@ -231,7 +231,7 @@ wb.save("Surface.xlsx")
 
 ## 蟒蛇 3
 
-```
+```py
 # import Workbook from openpyxl
 from openpyxl import Workbook
 

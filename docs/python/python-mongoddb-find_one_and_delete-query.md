@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient
 
@@ -75,7 +75,7 @@ for data in Collection.find():
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient
 

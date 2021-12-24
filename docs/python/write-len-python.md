@@ -8,7 +8,7 @@
 
 **Python 实现:**
 
-```
+```py
 # Function which return length of string
 def findLength(string):
 
@@ -28,7 +28,7 @@ print(findLength(string))
 
 输出:
 
-```
+```py
 13
 
 ```

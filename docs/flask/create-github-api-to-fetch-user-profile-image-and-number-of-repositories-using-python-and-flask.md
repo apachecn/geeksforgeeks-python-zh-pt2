@@ -18,13 +18,13 @@ GitHub 是开发者塑造软件未来的地方，一起，为开源社区做贡�
 
 **第二步:**设置虚拟环境。这里我们创造了一个环境。包封/包围（动词 envelop 的简写）
 
-```
+```py
 python -m venv .env
 ```
 
 **第三步:**激活环境。
 
-```
+```py
 .env\Scripts\activate
 ```
 
@@ -34,7 +34,7 @@ python -m venv .env
 
 **第一步:**在 Python 中，我们有美人汤，这是一个从 HTML 文件中拉出数据的库。要安装美丽的汤，运行一个简单的命令；
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -42,7 +42,7 @@ pip install beautifulsoup4
 
 **第二步:**安装 Python 的 Requests 模块。[请求](https://www.geeksforgeeks.org/python-requests-tutorial/)允许极其轻松地发送 HTTP/1.1 请求。
 
-```
+```py
 pip install requests
 ```
 
@@ -50,13 +50,13 @@ pip install requests
 
 **步骤 3:** 以下是从网页中抓取数据的步骤。从网页中获取 HTML 文本；
 
-```
+```py
 github_html = requests.get(f'https://github.com/{username}').text
 ```
 
 {username}将具有所需用户的 GitHub 用户名。为了将解析后的对象作为一个整体来表示，我们使用了美丽的输出对象，
 
-```
+```py
 soup = BeautifulSoup(github_html, "html.parser")
 ```
 
@@ -64,7 +64,7 @@ soup = BeautifulSoup(github_html, "html.parser")
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -85,7 +85,7 @@ print(soup)
 
 ## 蟒蛇 3
 
-```
+```py
 avatar_block = soup.find_all('img',class_='avatar')
 print(avatar_block)
 ```
@@ -98,7 +98,7 @@ print(avatar_block)
 
 ## 蟒蛇 3
 
-```
+```py
 img_url = avatar_block[4].get('src')
 print(img_url)
 ```
@@ -111,7 +111,7 @@ print(img_url)
 
 **find():**find()方法查看标签的后代，并检索与过滤器匹配的单个后代。这里我们的过滤器是一个 span 标签，类是 Counter。
 
-```
+```py
 repos = soup.find('span',class_="Counter").text
 ```
 
@@ -119,7 +119,7 @@ repos = soup.find('span',class_="Counter").text
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -137,7 +137,7 @@ print(repos)
 
 **输出:**
 
-```
+```py
 https://avatars.githubusercontent.com/u/59017652?v=4
 33
 ```
@@ -146,7 +146,7 @@ https://avatars.githubusercontent.com/u/59017652?v=4
 
 我们将使用 Flask，这是一个用 Python 编写的微型网络框架。
 
-```
+```py
 pip install Flask
 ```
 
@@ -154,7 +154,7 @@ pip install Flask
 
 ## 蟒蛇 3
 
-```
+```py
 # We import the Flask Class, an instance of
 # this class will be our WSGI application.
 from flask import Flask
@@ -192,7 +192,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 
 app = Flask(__name__)
@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask
@@ -247,7 +247,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask

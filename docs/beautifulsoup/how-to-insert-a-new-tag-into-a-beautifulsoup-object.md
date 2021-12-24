@@ -32,7 +32,7 @@
 
 **beauty sup(bs4):**它是一个用于从 HTML 和 XML 文件中提取数据的 Python 库。这个模块没有内置 Python。在终端运行以下命令安装该库-
 
-```
+```py
 pip install bs4
 or
 pip install beautifulsoup4
@@ -48,7 +48,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -96,7 +96,7 @@ addTag(HTML_DOC)
 
 使用此方法，新标记不会附加到父标记的末尾，而是插入到给定的数字位置。它的工作原理与[相同。Python 列表的 insert()](https://www.geeksforgeeks.org/python-list-insert/) 方法。例如，如果我们想在 div 1 和 div 2 之间插入新的 div，我们可以使用
 
-```
+```py
 soup.html.body.insert(2, new_div)
 ```
 
@@ -104,7 +104,7 @@ soup.html.body.insert(2, new_div)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 

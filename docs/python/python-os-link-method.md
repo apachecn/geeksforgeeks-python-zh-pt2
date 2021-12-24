@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.link() method
 
 # importing os module
@@ -44,7 +44,7 @@ print("Hard link created successfully")
 
 **Output:** 
 
-```
+```py
 Hard link created successfully
 ```
 

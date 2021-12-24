@@ -26,7 +26,7 @@ timetuple()方法返回一个 time.struct time 对象，它是一个命名元组
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 
 # creating current date object
@@ -75,7 +75,7 @@ for value in currentDateTimeTuple:
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 
 # creating xmas date object
@@ -91,6 +91,6 @@ print(xmasTimeTuple)
 
 **输出:**
 
-```
+```py
 time.struct_time(tm_year=2021, tm_mon=12, tm_mday=25, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=5, tm_yday=359, tm_isdst=-1)
 ```

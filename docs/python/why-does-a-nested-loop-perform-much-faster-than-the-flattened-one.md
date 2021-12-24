@@ -10,7 +10,7 @@ Python 提供了三种执行循环的方法。虽然所有的方法都提供类�
 
 **语法:**
 
-```
+```py
 for [iter_1] in [sequence_1]:
     for [iter_2] in [sequence_2]:
 
@@ -25,7 +25,7 @@ for [iter_1] in [sequence_1]:
 
 **语法:**
 
-```
+```py
 for [iter] in sequence:
      statements(s)
 ```
@@ -36,7 +36,7 @@ for [iter] in sequence:
 
 ## 蟒 3
 
-```
+```py
 # import module
 import time
 
@@ -66,7 +66,7 @@ for i in range(10, 100, 10):
 
 **输出:**
 
-```
+```py
 For flattened loop: 2.7894973754882812e-05
 For nested loop: 4.9114227294921875e-05
 

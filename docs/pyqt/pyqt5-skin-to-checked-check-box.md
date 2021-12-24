@@ -6,7 +6,7 @@
 
 为了给选中状态复选框添加外观，我们必须更改样式表代码，下面是样式表代码。
 
-```
+```py
 QCheckBox::checked
 {
 border-image : url(image.png)
@@ -16,7 +16,7 @@ border-image : url(image.png)
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

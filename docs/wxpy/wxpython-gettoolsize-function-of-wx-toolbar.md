@@ -6,28 +6,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolSize(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > GetToolSize() function takes no parameters.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Size
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,14 +69,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (39, 38)
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (31, 30)
 
 ```

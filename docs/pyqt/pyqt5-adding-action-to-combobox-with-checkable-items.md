@@ -7,7 +7,7 @@
 
 为了做到这一点，我们必须创建一个新的可编辑的组合框类，它继承了组合框，并添加了一个新的可检查的组合框功能。下面是新类的语法，当组合框被选中时必须添加一个方法。
 
-```
+```py
 # new check-able combo box
 class CheckableComboBox(QComboBox):
 
@@ -49,7 +49,7 @@ class CheckableComboBox(QComboBox):
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

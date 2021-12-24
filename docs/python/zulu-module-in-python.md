@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install zulu
 ```
 
@@ -20,7 +20,7 @@ pip install zulu
 
     **1。now()** :-它以祖鲁语对象的形式返回当前 UTC 日期和时间。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.now()
@@ -33,7 +33,7 @@ pip install zulu
 
     **2。解析(obj，format=None，default_tz=None) :-** 默认情况下，它会查找 ISO8601 格式的字符串或 POSIX 时间戳。假设世界协调时时区，如果没有给出时区。它从 obj 返回祖鲁对象解析。
 
-    ```
+    ```py
     import zulu
 
     print("Zulu object when timezone is passed:",
@@ -63,7 +63,7 @@ pip install zulu
 
     **3。格式(format=None，tz=None，locale='en_US_POSIX') :** 使用字符串格式的格式返回字符串日期时间。当转换到时区 tz 时，可以选择首先。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -92,7 +92,7 @@ pip install zulu
 
     **4。范围(帧、开始、结束):**祖鲁实例的范围从开始到结束以给定时间范围的步长返回。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -117,7 +117,7 @@ pip install zulu
 
     **5。shift(other=None，years=0，months=0，weeks=0，days=0，hours=0，minutes=0，seconds=0，微秒=0) :** 它可以使用通过传递的参数创建的 timedelta 向前或向后移动日期时间，并返回一个新的 Zulu 实例。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -132,7 +132,7 @@ pip install zulu
 
     **输出:**
 
-    ```
+    ```py
     The shifted time is: 2020-04-17T11:20:15.708064+00:00
     The new shifted time is: 2020-04-17T17:05:26.708074+00:00
 
@@ -140,7 +140,7 @@ pip install zulu
 
     **6。add(other=None，years=0，months=0，weeks=0，days=0，hours=0，minutes=0，seconds=0，微秒=0) :** 它使用从传递的参数创建的 timedelta 添加时间，并返回一个新的 Zulu 实例。第一个参数是“timedelta”或 dateutil.relativedelta 对象，在这种情况下，其他参数将被忽略，而在这个 datetime 对象中会添加其他参数。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -155,7 +155,7 @@ pip install zulu
 
     **7。减法(其他=无，年=0，月=0，周=0，天=0，小时=0，分钟=0，秒=0，微秒=0):** 它使用从传递的参数创建的时间增量减去时间，并返回一个新的祖鲁实例。祖鲁语、datetime、timedelta 或 dateutil.relativedelta 对象可以是第一个参数，在这种情况下，其他参数将被忽略，并且在这个 datetime 对象中将被减去。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -174,7 +174,7 @@ pip install zulu
 
     **8。替换(年=无，月=无，日=无，小时=无，分钟=无，秒=无，微秒=无，tzinfo =无，*折叠=无):**它替换日期时间属性，并返回一个新的祖鲁实例。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -196,7 +196,7 @@ pip install zulu
     **返回**
     祖鲁
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -211,7 +211,7 @@ pip install zulu
 
     **10。span(frame，count=1) :** 返回的两个新祖鲁对象与该对象和给定时间范围之间的时间跨度相关。默认情况下，正在跨越的帧数为 1。它返回一个元组(帧开始，帧结束)。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -232,7 +232,7 @@ pip install zulu
 
     **11 时。span_range(帧、开始、结束):**返回给定时间帧中从给定开始到结束的时间跨度范围。
 
-    ```
+    ```py
     import zulu
 
     start = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -252,7 +252,7 @@ pip install zulu
 
     **13。start_of_day() :** 对于这个日期时间，它返回一个新的祖鲁对象/设置为一天的开始。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -262,7 +262,7 @@ pip install zulu
 
     **输出:**
 
-    ```
+    ```py
     The start of month is: 2020-04-01T00:00:00+00:00
     The start of day is: 2020-04-17T00:00:00+00:00
 
@@ -285,7 +285,7 @@ pip install zulu
     **15。end_of_day(count=1) :** 对于这个日期时间，它返回一个新的祖鲁对象/设置为一天的结束。
     默认情况下，正在跨越的帧数为 1。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -326,7 +326,7 @@ pip install zulu
 
     **19。time _ to _ now(* *选项):**它以“time to”返回该日期时间和现在之间的差值。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064+00:00')
@@ -355,7 +355,7 @@ pip install zulu
 
     **20。astimezone(tz='local') :** 它返回移动到给定时区的本机日期时间对象。默认情况下，时区是本地的。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -374,7 +374,7 @@ pip install zulu
 
     **21。timetuple() :** 返回时间元组。
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -391,7 +391,7 @@ pip install zulu
 
     **24。utctimetuple() :** 它返回与 time.localtime()协调的 UTC 时间元组
 
-    ```
+    ```py
     import zulu
 
     dt = zulu.parse('2020-04-17T16:10:15.708064 + 00:00')
@@ -450,7 +450,7 @@ pip install zulu
 
     **1。parse_delta(obj) :** 它返回从给定 obj 解析的 delta 对象。
 
-    ```
+    ```py
     import zulu
 
     delta1 = zulu.parse_delta('4h 45m')
@@ -462,7 +462,7 @@ pip install zulu
 
     **输出:**
 
-    ```
+    ```py
     The delta is: 4:45:00
     The delta is: -1 day, 19:15:00
 
@@ -470,7 +470,7 @@ pip install zulu
 
     **2。格式(格式='long '，粒度='second '，阈值=0.85，add_direction=False，locale=None) :** 以格式化字符串形式返回 timedelta。
 
-    ```
+    ```py
     import zulu
 
     delta = zulu.parse_delta('4h 45m')
@@ -501,7 +501,7 @@ pip install zulu
 
     **3。从时间增量(增量):**从本机时间增量对象返回增量对象。
 
-    ```
+    ```py
     import zulu
 
     delta = zulu.parse_delta('4h 45m')
@@ -512,7 +512,7 @@ pip install zulu
 
     **输出:**
 
-    ```
+    ```py
     The timedelta is: 6:42:11
 
     ```

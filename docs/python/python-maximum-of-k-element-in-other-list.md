@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of K element in other list
 # Using loop + max()
@@ -49,7 +49,7 @@ print("Extracted Maximum element : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [4, 3, 6, 2, 9]
 The original list 2 is : [3, 6, 3, 4, 3]
 Extracted Maximum element : 9
@@ -61,7 +61,7 @@ Extracted Maximum element : 9
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of K element in other list
 # Using list comprehension + max() + zip()
@@ -86,7 +86,7 @@ print("Extracted Maximum element : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 is : [4, 3, 6, 2, 9]
 The original list 2 is : [3, 6, 3, 4, 3]
 Extracted Maximum element : 9

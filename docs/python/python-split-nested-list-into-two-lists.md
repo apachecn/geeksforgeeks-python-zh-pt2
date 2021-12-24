@@ -6,7 +6,7 @@
 
 **方法一:使用`map, zip()`**
 
-```
+```py
 # Python code to demonstrate
 # splitting nested list
 # into 2 lists
@@ -26,7 +26,7 @@ print("final lists", res1, "\n", res2)
 
 **输出:**
 
-```
+```py
 initial list [[1, 2], [4, 3], [45, 65], [223, 2]]
 final lists [1, 4, 45, 223] 
  [2, 3, 65, 2]

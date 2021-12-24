@@ -20,7 +20,7 @@ int (Integers) 为整数，包括负数但不包括分数。在 Python 中，整
 
 ## python 3
 
-```
+```py
 num = -8
 
 # print the data type
@@ -29,7 +29,7 @@ print(type(num))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 ```
 
@@ -39,7 +39,7 @@ print(type(num))
 
 ## Python3
 
-```
+```py
 a = 5
 b = 6
 
@@ -86,7 +86,7 @@ print("Exponent:",r)
 
 **输出:**
 
-```
+```py
 Addition: 11
 Subtraction: 3
 Division: 4
@@ -105,7 +105,7 @@ Exponent: 36
 
 ## 蟒蛇 3
 
-```
+```py
 num = 3/4
 
 # print the data type
@@ -114,7 +114,7 @@ print(type(num))
 
 **输出:**
 
-```
+```py
 <class 'float'>
 ```
 
@@ -124,7 +124,7 @@ print(type(num))
 
 T2T4
 
-```
+```py
 num = 6 * 7.0
 
 print(type(num))
@@ -134,7 +134,7 @@ T5
 
 **输出:**
 
-```
+```py
 <class 'float'>
 ```
 
@@ -144,7 +144,7 @@ T5
 
 ## python 3
 
-```
+```py
 a = 5.5
 b = 3.2
 
@@ -167,7 +167,7 @@ print("Multiplication:", c)
 
 **输出**
 
-```
+```py
 Addition: 8.7
 Subtraction: 2.3
 Division: 1.71875
@@ -184,7 +184,7 @@ Multiplication: 17.6
 
 ## python 3
 
-```
+```py
 num = 6 + 9j
 
 print(type(num))
@@ -192,7 +192,7 @@ print(type(num))
 
 **输出:**
 
-```
+```py
 <class 'complex'>
 ```
 
@@ -202,7 +202,7 @@ print(type(num))
 
 ## Python3
 
-```
+```py
 a = 1 + 5j
 b = 2 + 3j
 
@@ -234,7 +234,7 @@ print("Multiplication:",l)
 
 **输出:**
 
-```
+```py
 Addition: (3+8j)
 Subtraction: (-1+8j)
 Division: (1.307692307692308+0.5384615384615384j)
@@ -251,7 +251,7 @@ Multiplication: (-13+13j)
 
 ## python 3
 
-```
+```py
 a = 1.6
 b = 5
 
@@ -262,7 +262,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 6.6
 ```
 
@@ -272,7 +272,7 @@ print(c)
 
 ## python 3
 
-```
+```py
 a = 2
 print(float(a))
 
@@ -294,7 +294,7 @@ print(complex(f))
 
 **输出:**
 
-```
+```py
 2.0
 5
 <class 'int'>
@@ -318,7 +318,7 @@ print(complex(f))
 
 ## 蟒 3
 
-```
+```py
 a = 1.1
 b = 2.2
 c = a+b
@@ -328,7 +328,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 3.3000000000000003
 ```
 
@@ -338,7 +338,7 @@ print(c)
 
 ## 蟒 3
 
-```
+```py
 a = 1.2
 b = 1.0
 c = a-b
@@ -348,7 +348,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 0.19999999999999996
 ```
 
@@ -356,13 +356,13 @@ print(c)
 
 在这种情况下，以 1.2 为例，0.2 在二进制中的表示为 0.00110011001100110011001100……以此类推。很难在内部存储这个无限小数。通常，浮点对象的值以固定精度(通常为 53 位)存储在二进制浮点中。所以我们在内部将 1.2 表示为，
 
-```
+```py
 1.0011001100110011001100110011001100110011001100110011  
 ```
 
 正好等于:
 
-```
+```py
 1.1999999999999999555910790149937383830547332763671875
 ```
 
@@ -372,7 +372,7 @@ print(c)
 
 ## 蟒蛇 3
 
-```
+```py
 import decimal
 
 a = decimal.Decimal('1.1')
@@ -384,7 +384,7 @@ print(c)
 
 **Output**
 
-```
+```py
 3.3
 ```
 
@@ -403,7 +403,7 @@ Python 提供了一个[随机模块](https://www.geeksforgeeks.org/python-random
 
 T5】python 3T7
 
-```
+```py
 import random
 
 print(random.random())
@@ -415,7 +415,7 @@ T8T10**输出**T1
 
 T5】python 3T0T10**输出**
 
-```
+```py
 f
 0
 ```
@@ -432,7 +432,7 @@ Python 的[数学模块](https://www.geeksforgeeks.org/python-math-module/)帮�
 
 ## 蟒 3
 
-```
+```py
 # importing "math" for mathematical operations
 import math
 
@@ -465,7 +465,7 @@ print (math.sin(a))
 
 **输出**
 
-```
+```py
 The ceil of 3.5 is : 4
 The floor of 3.5 is : 3
 The value of 3.5**2 is : 12.25

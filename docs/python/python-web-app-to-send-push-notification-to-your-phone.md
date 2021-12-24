@@ -29,7 +29,7 @@
 
 *   **安装下列模块**
 
-```
+```py
 # Used for sending the Push notifications.
 pip install pushbullet.py==0.9.1
 
@@ -58,7 +58,7 @@ pip install pywebio
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the following modules
 from pushbullet import PushBullet
 from pywebio.input import *
@@ -109,7 +109,7 @@ hold()
 
 ****语法:****
 
-```
+```py
 TOKEN = 'Your Access Token'
 ```
 
@@ -135,7 +135,7 @@ TOKEN = 'Your Access Token'
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the following modules
 import requests
 import json
@@ -236,7 +236,7 @@ pushbullet_noti("Hey", "How you doing?")
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the following modules
 import json
 import sys

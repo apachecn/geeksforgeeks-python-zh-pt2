@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst =[1, 5, 3, 7, 9]
         K = 12
 Output : [(5, 7), (3, 9)]
@@ -21,7 +21,7 @@ Output : [(2, 4), (1, 5), (7, -1)]
 
 这是解决上述问题的一种幼稚的方法。首先，我们取一个空列表“res”，开始一个循环，遍历给定整数列表的每个元素。在每次迭代中，弹出元素，将其存储在‘num’中，找到总和 K 的剩余差值，并检查该差值是否存在于给定列表中。
 
-```
+```py
 # Python3 program to find all pairs in 
 # a list of integers with given sum 
 
@@ -44,7 +44,7 @@ print(findPairs(lst, K))
 
 **Output:**
 
-```
+```py
 [(5, 7), (3, 9)]
 
 ```
@@ -53,7 +53,7 @@ print(findPairs(lst, K))
 
 这种方法遵循与上面使用`collections.Counter`讨论的方法相同的方法。
 
-```
+```py
 # Python3 program to find all pairs in 
 # a list of integers with given sum 
 from collections import Counter
@@ -78,7 +78,7 @@ print(findPairs(lst, K))
 
 **Output:**
 
-```
+```py
 [(5, 7), (3, 9)]
 
 ```
@@ -87,7 +87,7 @@ print(findPairs(lst, K))
 
 这是一种天真的使用`itertools.combinations`的方法。我们使用 for 循环遍历每个组合，找出想要的组合。
 
-```
+```py
 # Python3 program to find all pairs in 
 # a list of integers with given sum 
 
@@ -109,14 +109,14 @@ print(findPairs(lst, K))
 
 **Output:**
 
-```
+```py
 [(5, 7), (3, 9)]
 
 ```
 
 **方法#4 :** `itertools.combinations`(高效方法)
 
-```
+```py
 # Python3 program to find all pairs in 
 # a list of integers with given sum 
 from itertools import combinations
@@ -133,7 +133,7 @@ print(findPairs(lst, K))
 
 **Output:**
 
-```
+```py
 [(5, 7), (3, 9)]
 
 ```

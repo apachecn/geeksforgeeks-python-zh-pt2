@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.sysconf() method
 
 # importing os module 
@@ -80,7 +80,7 @@ print("Configuration value corresponding to % s :" % name, value)
 
 **Output:** 
 
-```
+```py
 SC_PAGE_SIZE : 4096
 SC_INT_MIN : -2147483648
 SC_INT_MAX : 2147483647
@@ -93,7 +93,7 @@ Configuration value corresponding to 105 : -2147483648
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.sysconf() method
 
 # importing os module 
@@ -119,7 +119,7 @@ print("% s:" % name, value)
 
 **Output:** 
 
-```
+```py
 Traceback (most recent call last):
   File "sysconf.py", line 15, in 
     value = os.sysconf(name)
@@ -130,7 +130,7 @@ ValueError: unrecognized configuration name
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.sysconf() method
 
 # importing os module 
@@ -163,6 +163,6 @@ except OSError :
 
 **Output:** 
 
-```
+```py
 'PAGE_SIZE' is not a configuration variable
 ```

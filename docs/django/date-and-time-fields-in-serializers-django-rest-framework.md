@@ -16,7 +16,7 @@ DateTimeField 是用于日期和时间表示的序列化程序字段。它与–
 
 **语法–**
 
-```
+```py
 field_name = serializers.DateTimeField(*args, **kwargs)
 ```
 
@@ -30,7 +30,7 @@ field_name = serializers.DateTimeField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DateField(*args, **kwargs)
 ```
 
@@ -44,7 +44,7 @@ Timefield 是用于时间表示的序列化程序字段。通常，人们需要�
 
 **语法–**
 
-```
+```py
 field_name = serializers.TimeField(*args, **kwargs)
 ```
 
@@ -58,7 +58,7 @@ field_name = serializers.TimeField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DurationField(*args, **kwargs)
 ```
 
@@ -69,7 +69,7 @@ field_name = serializers.DurationField(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -91,13 +91,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行，–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from datetime
 >>> from datetime import *
 
@@ -125,7 +125,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 DateField 只验证到目前为止的数据。让我们检查这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data={}
 >>> data['date_time'] = "invalid_date_time"

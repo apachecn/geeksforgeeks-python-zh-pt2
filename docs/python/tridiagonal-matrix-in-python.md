@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # if you enter number n it will automatically 
 # be considered as a square matrix of size n by n
 size_of_a_matrix = int(input("Enter size the matrix that you want : "))

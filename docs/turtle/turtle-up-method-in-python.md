@@ -8,7 +8,7 @@
 
 turtle.up()方法用于将笔从屏幕上拉起。它没有给出移动到另一个位置或方向的图形。
 
-```
+```py
 turtle.up() or turtle.pu() or turtle.penup()
 
 ```
@@ -21,7 +21,7 @@ turtle.up() or turtle.pu() or turtle.penup()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -49,7 +49,7 @@ turtle.forward(50)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

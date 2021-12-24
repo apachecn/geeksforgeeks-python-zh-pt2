@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input :  l1 = [[4, 5, 3, 9],
                [7, 1, 8, 2],
                [5, 6, 4, 7]]
@@ -22,7 +22,7 @@ Output : lt = [[4, 7, 5],
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get transpose
 # elements of two dimension list
 def transpose(l1, l2):
@@ -46,7 +46,7 @@ print(transpose(l1, l2))
 
 **Output**
 
-```
+```py
 [[4, 7, 5], [5, 1, 6], [3, 8, 4], [9, 2, 7]]
 
 ```
@@ -55,7 +55,7 @@ print(transpose(l1, l2))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get transpose
 # elements of two dimension list
 def transpose(l1, l2):
@@ -75,7 +75,7 @@ print(transpose(l1, l2))
 
 **Output**
 
-```
+```py
 [[4, 7, 5], [5, 1, 6], [3, 8, 4], [9, 2, 7]]
 
 ```
@@ -84,7 +84,7 @@ print(transpose(l1, l2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get transpose
 # elements of two dimension list
 import numpy
@@ -95,7 +95,7 @@ print(numpy.transpose(l1))
 
 **输出:**
 
-```
+```py
 [[4 7 5]
  [5 1 6]
  [3 8 4]
@@ -106,7 +106,7 @@ print(numpy.transpose(l1))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get transpose
 # elements of two dimension list
 def transpose(l1, l2):
@@ -131,7 +131,7 @@ print(transpose(l1, l2))
 
 **Output**
 
-```
+```py
 [[4, 7, 5], [5, 1, 6], [3, 8, 4], [9, 2, 7]]
 
 ```

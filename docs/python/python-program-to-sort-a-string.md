@@ -7,7 +7,7 @@
 **方法#1 : `join() + sorted()`**
 上述功能的结合有可能解决这个特殊问题。这个任务分两步执行，在第一步中，我们得到字符的排序列表，然后将结果连接起来，得到排序后的字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Sorting a string 
 # using join() + sorted()
@@ -28,7 +28,7 @@ print("String after sorting : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geekforgeeks
 String after sorting : eeeefggkkors
 

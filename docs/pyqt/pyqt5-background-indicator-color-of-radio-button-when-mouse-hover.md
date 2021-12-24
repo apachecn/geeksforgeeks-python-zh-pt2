@@ -6,7 +6,7 @@
 
 为了改变鼠标悬停在指示器上时指示器的背景颜色，我们必须更改单选按钮的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator:hover
 {
 background-color : light green;
@@ -16,7 +16,7 @@ background-color : light green;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

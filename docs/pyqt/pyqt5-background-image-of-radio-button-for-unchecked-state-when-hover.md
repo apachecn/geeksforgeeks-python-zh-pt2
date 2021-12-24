@@ -6,7 +6,7 @@
 
 为了将背景图像设置为未选中状态的单选按钮，并将鼠标悬停在其上，我们必须更改未选中状态的样式表，当鼠标悬停在单选按钮上时，下面是样式表代码。
 
-```
+```py
 QRadioButton::unchecked:hover
 {
 background-image : url(image.png);   
@@ -16,7 +16,7 @@ background-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

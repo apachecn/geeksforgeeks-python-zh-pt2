@@ -7,7 +7,7 @@
 **方法#1:使用`zip() + sort() + keys() + values()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 zip()执行配对任务，排序由 sort()处理。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sorted order Dictionary items pairing
 # Using zip() + sort() + keys() + values()
@@ -32,7 +32,7 @@ print("The sorted order pairing : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {65: 90, 98: 4, 7: 8, 10: 12, 45: 3, 15: 19}
 The sorted order pairing : {65: 19, 98: 90, 7: 3, 10: 4, 45: 12, 15: 8}
 

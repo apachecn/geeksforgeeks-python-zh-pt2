@@ -75,7 +75,7 @@ Python 知识和 Django 框架基础。
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls.static import static
@@ -99,7 +99,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Category(models.Model):
@@ -119,7 +119,7 @@ class Category(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Customer(models.Model):
@@ -153,7 +153,7 @@ class Customer(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from .category import Category
 
@@ -187,7 +187,7 @@ class Products(models.Model):
 
 ## 计算机编程语言
 
-```
+```py
 from django.db import models
 from .product import Products
 from .customer import Customer
@@ -221,7 +221,7 @@ class Order(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from .views.home import Index, store
@@ -252,7 +252,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect, HttpResponseRedirect
 from store.models.product import Products
 from store.models.category import Category
@@ -314,7 +314,7 @@ def store(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect, HttpResponseRedirect
 from django.contrib.auth.hashers import check_password
 from store.models.customer import Customer
@@ -359,7 +359,7 @@ def logout(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.contrib.auth.hashers import make_password
 from store.models.customer import Customer
@@ -433,7 +433,7 @@ class Signup (View):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from .product import Products
 from .customer import Customer
@@ -463,7 +463,7 @@ class Order(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 
 from django.contrib.auth.hashers import check_password
@@ -500,7 +500,7 @@ class CheckOut(View):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.contrib.auth.hashers import check_password
 from store.models.customer import Customer

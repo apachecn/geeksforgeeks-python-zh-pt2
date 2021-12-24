@@ -26,7 +26,7 @@ Python 中的`***os.read()***`方法用于从与给定文件描述符相关联�
 
 **Code:** Use of os.read() method to read n bytes from a given file descriptor
 
-```
+```py
 # Python program to explain os.read() method 
 
 # importing os module 
@@ -57,7 +57,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'Python is a widely used general-purpose, high leve'
 
 ```

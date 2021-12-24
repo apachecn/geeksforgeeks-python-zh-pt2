@@ -36,7 +36,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Required Library
 from tkinter import *
 import random

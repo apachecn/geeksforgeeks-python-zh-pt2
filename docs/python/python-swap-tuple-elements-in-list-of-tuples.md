@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这只是一个蛮力的方法来执行交换元素的较长的循环方法。在这种情况下，会创建一个新的元组列表，而不是就地交换。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Swap tuple elements in list of tuples
 # Using list comprehension
@@ -28,7 +28,7 @@ print("The swapped tuple list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (6, 5), (7, 8)]
 The swapped tuple list is : [(4, 3), (5, 6), (8, 7)]
 

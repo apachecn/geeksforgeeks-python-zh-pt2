@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Conditional Uppercase by size
 # Using upper() + loop
@@ -53,7 +53,7 @@ print("Modified Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best', 'for', 'geeks']
 Modified Strings : ['Gfg', 'is', 'BEST', 'for', 'GEEKS']
 ```
@@ -64,7 +64,7 @@ Modified Strings : ['Gfg', 'is', 'BEST', 'for', 'GEEKS']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Conditional Uppercase by size
 # Using list comprehension
@@ -87,7 +87,7 @@ print("Modified Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best', 'for', 'geeks']
 Modified Strings : ['Gfg', 'is', 'BEST', 'for', 'GEEKS']
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 n = 10
 m = 3
@@ -31,7 +31,7 @@ Remainder 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # quotient and remainder
 
@@ -52,7 +52,7 @@ find(99, 5)
 
 **输出:**
 
-```
+```py
 Quotient:  3
 Remainder 1
 Quotient:  19
@@ -68,7 +68,7 @@ Divmod()方法将两个数字作为参数，并返回包含商和余数的元组
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # quotient and remainder using
 # divmod() method
@@ -84,7 +84,7 @@ print("Remainder: ", r)
 
 **输出:**
 
-```
+```py
 Quotient:  3
 Remainder 1
 Quotient:  19

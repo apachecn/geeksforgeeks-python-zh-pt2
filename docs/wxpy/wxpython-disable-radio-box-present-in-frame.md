@@ -16,7 +16,7 @@ Disable()函数不接受参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):

@@ -8,7 +8,7 @@
 
 **安装**
 
-```
+```py
  $ pip install schedule 
 ```
 
@@ -48,7 +48,7 @@
 
 让我们看看实现
 
-```
+```py
 # Schedule Library imported
 import schedule
 import time

@@ -15,7 +15,7 @@ Python 中的`***os.path.isfile()***`方法用于检查指定的路径是否是�
 
 **代码#1:** 使用 os.path.isfile()方法
 
-```
+```py
 # Python program to explain os.path.isfile() method 
 
 # importing os module 
@@ -42,7 +42,7 @@ print(isFile)
 
 **Output:**
 
-```
+```py
 True
 False
 

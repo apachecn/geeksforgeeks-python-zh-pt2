@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.sysconf_names object
 
 # importing os module
@@ -37,7 +37,7 @@ pprint.pprint(names, width = 1, height = 1)
 
 **Output:** 
 
-```
+```py
 The list of names known to the operating system:
 {'SC_2_CHAR_TERM': 95,
  'SC_2_C_BIND': 47,

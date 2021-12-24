@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import absolute_import, division,
                        print_function, unicode_literals
 
@@ -32,7 +32,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 # Changing the working location to the location of the text file
 cd C:\Users\Dev\Desktop\Kaggle\New York Times
 
@@ -51,7 +51,7 @@ print(text)
 
 ## 蟒蛇 3
 
-```
+```py
 # Storing all the unique characters present in the text
 vocabulary = sorted(list(set(text)))
 
@@ -68,7 +68,7 @@ print(vocabulary)
 
 ## 蟒蛇 3
 
-```
+```py
 # Dividing the text into subsequences of length max_length
 # So that at each time step the next max_length characters
 # are fed into the network
@@ -93,7 +93,7 @@ for i, sentence in enumerate(sentences):
 
 ## 蟒蛇 3
 
-```
+```py
 # Building the LSTM network for the task
 model = Sequential()
 model.add(LSTM(128, input_shape =(max_length, len(vocabulary))))
@@ -109,7 +109,7 @@ a) **辅助函数采样下一个字符:**](https://github.com/keras-team/keras/b
 
 ## 蟒蛇 3
 
-```
+```py
 # Helper function to sample an index from a probability array
 def sample_index(preds, temperature = 1.0):
     preds = np.asarray(preds).astype('float64')
@@ -124,7 +124,7 @@ b) **帮助器功能生成每个纪元后的文本**
 
 ## 蟒蛇 3
 
-```
+```py
 # Helper function to generate text after the end of each epoch
 def on_epoch_end(epoch, logs):
     print()
@@ -162,7 +162,7 @@ c) **帮助器功能，在损耗减少的每个时期后保存模型**
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a helper function to save the model after each epoch
 # in which the loss decreases
 filepath = "weights.hdf5"
@@ -175,7 +175,7 @@ d) **帮助器功能降低每次学习停滞时的学习率**
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a helper function to reduce the learning rate each time
 # the learning plateaus
 reduce_alpha = ReduceLROnPlateau(monitor ='loss', factor = 0.2,
@@ -187,7 +187,7 @@ callbacks = [print_callback, checkpoint, reduce_alpha]
 
 ## 蟒蛇 3
 
-```
+```py
 # Training the LSTM model
 model.fit(X, y, batch_size = 128, epochs = 500, callbacks = callbacks)
 ```
@@ -198,7 +198,7 @@ model.fit(X, y, batch_size = 128, epochs = 500, callbacks = callbacks)
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining a utility function to generate new and random text based on the
 # network's learnings
 def generate_text(length, diversity):

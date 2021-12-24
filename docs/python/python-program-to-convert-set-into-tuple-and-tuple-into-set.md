@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input: {'a', 'b', 'c', 'd', 'e'}
 Output: ('a', 'c', 'b', 'e', 'd')
 Explanation: converting Set to tuple
@@ -25,7 +25,7 @@ Explanation: Converting tuple to set
 
 ## 计算机编程语言
 
-```
+```py
 #   program to convert set to tuple
 # create set
 s = {'a', 'b', 'c', 'd', 'e'}
@@ -43,7 +43,7 @@ print(type(t), " ", t)
 
 **输出:**
 
-```
+```py
 <class 'set'>   {'a', 'c', 'b', 'e', 'd'}
 <class 'tuple'>   ('a', 'c', 'b', 'e', 'd')
 
@@ -53,7 +53,7 @@ print(type(t), " ", t)
 
 ## 计算机编程语言
 
-```
+```py
 #program to convert tuple into set
 
 # create tuple
@@ -71,7 +71,7 @@ print(type(s), "  ", s)
 
 **输出:**
 
-```
+```py
 <class 'tuple'>    ('x', 'y', 'z')
 <class 'set'>    {'z', 'x', 'y'}
 

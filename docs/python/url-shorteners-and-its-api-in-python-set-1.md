@@ -24,32 +24,32 @@
     在这篇文章中，我们将使用 bitly-api-python 库，它也是官方 python 客户端。
 2.  安装 python 模块的一种方法是使用 **pip** 命令
 
-```
+```py
 pip install bitly_api
 ```
 
 2.  如果使用 pip 命令的安装显示错误，请使用以下命令卸载 bitly _ API:
 
-```
+```py
 pip uninstall bitly_api
 ```
 
 1.  使用以下链接下载 Bitly API 模块 [bitly_api](https://github.com/bitly/bitly-api-python)
 2.  解压缩下载的文件夹，然后使用以下命令导航到 bitly-api-python-master 文件夹:
 
-```
+```py
 cd bitly-api-python-master
 ```
 
 1.  现在使用以下命令安装 bitly_api 模块:
 
-```
+```py
 python setup.py install
 ```
 
 1.  在命令提示符下输入以下一组命令，检查模块安装是否成功
 
-```
+```py
 python
 import bitly_api
 ```
@@ -61,7 +61,7 @@ import bitly_api
 1.  或者，您可以使用命令
     执行 test_bitly_api.py 文件
 
-```
+```py
 python test_bitly_api.py
 ```
 
@@ -71,7 +71,7 @@ python test_bitly_api.py
 
 ## 蟒蛇 3
 
-```
+```py
 import bitly_api
 
 API_USER = "username"
@@ -95,7 +95,7 @@ print(response)
 
 ## 蟒蛇 3
 
-```
+```py
 import bitly_api
 
 BITLY_ACCESS_TOKEN ="ACCESS_TOKEN"
@@ -111,7 +111,7 @@ print(response)
 **Pyshortner:****Pyshortner**是一个 Python 模块，为市场上提供的各种 URL 缩短服务提供实现。
 使用 **pip** 命令安装模块:
 
-```
+```py
 pip install pyshorteners
 ```
 
@@ -135,7 +135,7 @@ pip install pyshorteners
 
 ## 蟒蛇 3
 
-```
+```py
 from pyshorteners import Shortener
 
 long_url = 'http://www.google.com'
@@ -154,7 +154,7 @@ print ("Short URL is {}".format(url_shortener.short(long_url)))
 
 ## 蟒蛇 3
 
-```
+```py
 from pyshorteners import Shortener
 
 short_url ='https://goo.gl/fbsS'

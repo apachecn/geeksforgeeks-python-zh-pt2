@@ -16,7 +16,7 @@
 
 上述模块没有预装 Python。要安装它们，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 pip install beautifulsoup4
 pip install openpyxl
@@ -28,13 +28,13 @@ pip install openpyxl
 
 **步骤 1:** 导入所需的库
 
-```
+```py
 import requests, bs4, openpyxl
 ```
 
 **步骤 2:** 使用请求创建响应对象。我们将使用存档页面作为我们的来源
 
-```
+```py
 # Replace "YEAR" by the year you
 #  want to get data from. Eg. "2018"
 url = 'https://summerofcode.withgoogle.com/archive/YEAR/organizations/'
@@ -53,7 +53,7 @@ res.raise_for_status()
 
 从存档页面的源代码:
 
-```
+```py
 <li class="organization-card__container"
     layout
     flex-xs="100"
@@ -76,7 +76,7 @@ res.raise_for_status()
 
 使用 BS4，我们可以在 HTML 代码中搜索这个特定的标签，并将文本存储在列表中。
 
-```
+```py
 # Specify the language you
 #  want to search for
 language = 'python'
@@ -99,7 +99,7 @@ orgURL = ['none'] * len(orgElem)
 
 **第 4 步:**打开每个组织的 GSoC 页面，找到使用的语言
 
-```
+```py
 item = 0
 # Loop to go through each organisation
 for link in orgLink:
@@ -132,7 +132,7 @@ for link in orgLink:
 
 使用`openpyxl`库，我们首先创建一个工作簿。在本工作簿中，我们使用 wb['Sheet']打开一个工作表，实际上我们将在其中写入数据。使用`cell().value`功能，我们可以直接向每个单元格写入值。最后我们使用`save()`功能保存工作簿。
 
-```
+```py
 wb = openpyxl.Workbook()
 sheet = wb['Sheet']
 
@@ -151,7 +151,7 @@ wb.save('gsocOrgsList.xlsx')
 由于对网站的重复请求，服务器可能会在多次尝试后阻止您的 IP 地址。使用虚拟专用网将解决这个问题。
 如果问题仍然存在，请在代码中添加以下内容:
 
-```
+```py
 from fake_useragent import UserAgent
 
 ua = UserAgent()

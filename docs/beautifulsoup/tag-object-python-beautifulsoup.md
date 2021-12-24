@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 Object.tag_name
 ```
 
@@ -17,7 +17,7 @@ Object.tag_name
 **下面给出的例子解释了《美丽的汤》中 Tag 对象的概念。**
 **示例 1:** 在本例中，我们将仅提取 *h1* 标记元素。
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -37,13 +37,13 @@ print(tag)
 
 **输出:**
 
-```
+```py
 <h1>a web page</h1>
 ```
 
 **示例 2:** 在本例中，我们将只看到*强*标记元素的类型。
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -63,13 +63,13 @@ print(type(tag))
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.Tag'>
 ```
 
 **示例 3:** 在本例中，我们将看到带有多个标签的 HTML 的输出。
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -91,6 +91,6 @@ print(tag)
 
 **输出:**
 
-```
+```py
 <strong>the first strong tag</strong>
 ```

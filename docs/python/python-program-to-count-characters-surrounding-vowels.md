@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geeksforgeeksforgeeks'
 
@@ -58,7 +58,7 @@ print("Characters around vowels count : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geeksforgeeksforgeeks'
 

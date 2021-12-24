@@ -8,7 +8,7 @@
 
 **第 1 步:**使用两个主库创建命令–单击并使用烧瓶的 _appcontext 库。现在让我们创建一个名为“**烧瓶创建**”的命令，该命令将启动一个数据库，并在该数据库中创建一个简单的表
 
-```
+```py
 import click
 from flask.cli import with_appcontext
 ```
@@ -17,14 +17,14 @@ from flask.cli import with_appcontext
 
 **步骤 2:** 添加数据库配置–
 
-```
+```py
 from flask_sqlalchemy import SQLAlchemy
 app.config['SQLALCHEMY_DATABASE_URI']="sqlite://db.sqlite3"
 ```
 
 **第三步:**然后我们创建一个简单的表格，如图所示:
 
-```
+```py
 class MyTable(db.Model):
     id = db.Column(db.Integer, primary_key=True)
 ```
@@ -37,7 +37,7 @@ class MyTable(db.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from flask import Flask
 import click

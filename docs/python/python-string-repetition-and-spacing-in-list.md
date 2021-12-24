@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String Repetition and spacing in List
 # Using loop
@@ -37,7 +37,7 @@ print("List after performing operations : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 List after performing operations : ['gfg-gfg-gfg-', 'is-is-is-', 'best-best-best-']
 ```
@@ -47,7 +47,7 @@ List after performing operations : ['gfg-gfg-gfg-', 'is-is-is-', 'best-best-best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String Repetition and spacing in List
 # Using join() + list comprehension
@@ -76,7 +76,7 @@ print("List after performing operations : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 List after performing operations : ['gfg-gfg-gfg', 'is-is-is', 'best-best-best']
 ```

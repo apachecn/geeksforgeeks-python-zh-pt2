@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : str = geeks quiz practice code
 Output : str = code practice quiz geeks
 
@@ -18,7 +18,7 @@ Output : str = code practice quiz geeks
 *   Invert the word separated list.
 *   Print the words in the list, connect each word with a space in the form of a string and use ["". Join ()](https://www.geeksforgeeks.org/python-string-methods-set-2-len-count-center-ljust-rjust-isalpha-isalnum-isspace-join/) method in python.
 
-```
+```py
 # Function to reverse words of string 
 
 def rev_sentence(sentence): 
@@ -39,7 +39,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 code practice quiz geeks
 
 ```

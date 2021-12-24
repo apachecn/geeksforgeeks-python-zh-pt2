@@ -27,7 +27,7 @@
 1.  按字母顺序显示按键:
     **示例:**
 
-```
+```py
 Input:
 key_value[2] = '64'       
 key_value[1] = '69'
@@ -44,7 +44,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Function calling
 def dictionairy():
  # Declare hash function     
@@ -77,7 +77,7 @@ if __name__=="__main__":     
 
 **Output:** 
 
-```
+```py
 Task 1:-
 
 Keys are
@@ -87,7 +87,7 @@ Keys are
 2.  使用键按字母顺序对键和值进行排序。
     **例:**
 
-```
+```py
 Input:
 key_value[2] = '64'       
 key_value[1] = '69'
@@ -104,7 +104,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # function calling
 def dictionairy():
 
@@ -138,7 +138,7 @@ if __name__=="__main__":    
 
 **Output:** 
 
-```
+```py
 Task 2:-
 Keys and Values sorted in alphabetical order by the key  
 (1, 2) (2, 56) (3, 323) (4, 24) (5, 12) (6, 18)
@@ -147,7 +147,7 @@ Keys and Values sorted in alphabetical order by the key
 2.  使用值
     **按字母顺序对键和值进行排序示例:**
 
-```
+```py
 Input:
 key_value[2] = '64'       
 key_value[1] = '69'
@@ -164,7 +164,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Function calling
 def dictionairy():
 
@@ -198,7 +198,7 @@ if __name__=="__main__":     
 
 **Output:** 
 
-```
+```py
 Task 3:-
 Keys and Values sorted in alphabetical order by the value
 [(1, 2), (5, 12), (6, 18), (4, 24), (2, 56), (3, 323)]
@@ -211,7 +211,7 @@ Keys and Values sorted in alphabetical order by the value
 
 ## 蟒蛇 3
 
-```
+```py
 # Creates a sorted dictionary (sorted by key)
 from collections import OrderedDict
 

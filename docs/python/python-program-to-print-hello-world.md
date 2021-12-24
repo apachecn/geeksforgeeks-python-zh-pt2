@@ -20,14 +20,14 @@
 
 ## 蟒 3
 
-```
+```py
 # python program to print "Hello World"
 print("Hello World")
 ```
 
 **输出:**
 
-```
+```py
 Hello World
 ```
 
@@ -43,7 +43,7 @@ Hello World
 
 ## 蟒 3
 
-```
+```py
 import sys
 
 sys.stdout.write("Hello World")
@@ -51,6 +51,6 @@ sys.stdout.write("Hello World")
 
 **输出:**
 
-```
+```py
 Hello World
 ```

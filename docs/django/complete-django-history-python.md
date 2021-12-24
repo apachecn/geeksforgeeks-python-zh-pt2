@@ -10,7 +10,7 @@ Django 于 2003 年由 Lawrence journal world 设计和开发，并于 2005 年 
 
 最新的官方版本是 2.2.5 (LTS)。阅读 2.2.5 发行说明，然后用 pip 安装:
 
-```
+```py
 pip install Django==2.2.5
 ```
 
@@ -18,7 +18,7 @@ pip install Django==2.2.5
 
 用 pip 安装 alpha:
 
-```
+```py
 pip install --pre django
 ```
 

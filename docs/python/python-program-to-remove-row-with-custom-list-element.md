@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = [[5, 3, 1], [7, 8, 9], [1, 10, 22], [12, 18, 21]]
 
@@ -54,7 +54,7 @@ print("The omitted rows matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = [[5, 3, 1], [7, 8, 9], [1, 10, 22], [12, 18, 21]]
 

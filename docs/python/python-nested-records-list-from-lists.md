@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +循环**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 zip 执行配对，手动添加密钥是以暴力的方式完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested Records List from Lists
 # Using zip() + loop

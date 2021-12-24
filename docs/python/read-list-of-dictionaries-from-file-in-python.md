@@ -12,7 +12,7 @@ Python 中的 [**字典**](https://www.geeksforgeeks.org/python-dictionary/) 是
 
 我们可以从文本文件中读取字符串形式的数据，并将这些数据转换成 Python 中的字典。假设我们的数据存储在以下格式的文本文件中–
 
-```
+```py
 {'geek': 10, 'geeky': True}
 {'GeeksforGeeks': 'Education', 'geekgod': 101.0, 3: 'gfg'}
 {'supergeek': 5}
@@ -32,7 +32,7 @@ Python 中的 pickle 模块主要用于数据持久性至关重要的数据科�
 *   以读取二进制模式打开文件
 *   使用 pickle 模块的转储方法将数据加载到变量中
 
-```
+```py
 list_dictionary = pickle.load(filehandler)
 
 ```
@@ -47,7 +47,7 @@ list_dictionary = pickle.load(filehandler)
 
 ## 蟒蛇 3
 
-```
+```py
 def parse(d):
     dictionary = dict()
     # Removes curly braces and splits the pairs into a list
@@ -71,7 +71,7 @@ except:
 
 **输出:**
 
-```
+```py
 {'geek': '10', 'geeky': 'True'}
 {'GeeksforGeeks': 'Education', 'geekgod': '101.0', '3': 'gfg'}
 {'supergeek': '5'}
@@ -81,7 +81,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 import pickle
 
 try:

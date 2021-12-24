@@ -4,7 +4,7 @@
 
 **range() :** Python range 函数生成一个数字列表，这些数字通常用于许多迭代情况，如 for 循环或许多其他情况。在 python 中，范围对象不是迭代器。range 是不可变对象列表中的一个类。range 的迭代行为类似于 list 中 list 的迭代行为，range 我们不能直接调用 next 函数。如果我们使用 iter 得到一个迭代器，我们可以调用 next。
 
-```
+```py
 # Python program to understand range
 # this creates a list of 0 to 5
 # integers
@@ -20,14 +20,14 @@ print(next(demo))
 
 **输出:**
 
-```
+```py
  range(0, 6)
 
 ```
 
 **运行时错误:**
 
-```
+```py
  Traceback (most recent call last):
   File "/home/6881218331a293819d2a4c16029084f9.py", line 13, in 
     print(next(demo))
@@ -39,7 +39,7 @@ TypeError: list object is not an iterator
 
 因为**范围是可迭代的**，所以我们可以在它们的帮助下得到一个迭代器，但是我们不能直接在 next 中调用 next。下面的例子解释得很清楚
 
-```
+```py
 # Python program to understand range
 
 # creates an iterator
@@ -54,7 +54,7 @@ print(next(demo))
 
 **输出:**
 
-```
+```py
 <listiterator object at 0x7f3f32a46450 >
 0
 
@@ -68,7 +68,7 @@ print(next(demo))
 
 **例**
 
-```
+```py
 # Python program to understand range
 
 # creates a demo range
@@ -92,7 +92,7 @@ print(demo.index(30))
 
 **输出:**
 
-```
+```py
 range(1, 31, 2)
 1
 2
@@ -102,7 +102,7 @@ range(1, 31, 2)
 
 **运行时错误:**由于元素 30 不存在，它将产生一个错误
 
-```
+```py
  Traceback (most recent call last):
   File "/home/cddaae6552d1d9288d7c5ab503c54642.py", line 19, in 
     print(demo.index(30))

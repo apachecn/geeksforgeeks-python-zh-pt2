@@ -10,7 +10,7 @@ Pygal 是一个 Python 模块，主要用于构建 SVG(标量矢量图形)图形
 
 **语法:**
 
-```
+```py
 line_chart = pygal.StackedBar()
 
 ```
@@ -19,7 +19,7 @@ line_chart = pygal.StackedBar()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -47,7 +47,7 @@ bar_chart
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 
@@ -75,7 +75,7 @@ bar_chart
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 import pandas

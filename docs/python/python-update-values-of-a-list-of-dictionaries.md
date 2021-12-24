@@ -25,7 +25,7 @@ append 函数用于在字典列表中插入一个新值，我们将使用 [pop()
 
 ## 蟒蛇 3
 
-```
+```py
 # create a list of dictionaries
 # with student data
 data = [
@@ -45,7 +45,7 @@ data
 
 **输出:**
 
-```
+```py
 {'name': 'sravan', 'subjects': ['java', 'python']}
 [{'name': 'sravan', 'subjects': ['java', 'python']},
  {'name': 'bobby', 'subjects': ['c/cpp', 'java']},
@@ -58,7 +58,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # update first student python subject
 # to html
 data[0]['subjects'].append('html')
@@ -80,7 +80,7 @@ data
 
 **输出:**
 
-```
+```py
 [{'name': 'sravan', 'subjects': ['java', 'html']},
  {'name': 'bobby', 'subjects': ['c/cpp', 'java']},
  {'name': 'ojsawi', 'subjects': ['iot', 'dbms']},
@@ -110,7 +110,7 @@ data
 
 ## 蟒蛇 3
 
-```
+```py
 # update first student python subject
 # to html
 data[0]['subjects'].insert(0, 'html')
@@ -132,7 +132,7 @@ data
 
 **输出:**
 
-```
+```py
 [{'name': 'sravan', 'subjects': ['html', 'python']},
  {'name': 'bobby', 'subjects': ['c/cpp', 'java']},
  {'name': 'ojsawi', 'subjects': ['dbms', 'cloud']},

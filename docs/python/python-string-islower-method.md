@@ -21,7 +21,7 @@ Python String islower()方法检查字符串中的所有字符是否都是小写
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # working of islower()
 
@@ -37,7 +37,7 @@ print ("Is Geeksforgeeks full lower ? : " + str(not_islow.islower()))
 
 **输出:**
 
-```
+```py
 Is geeksforgeeks full lower ? : True
 Is Geeksforgeeks full lower ? : False
 ```
@@ -48,7 +48,7 @@ Is Geeksforgeeks full lower ? : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # application of islower() method
 
@@ -75,6 +75,6 @@ print ("Number of proper nouns in this sentence is : "
 
 **输出:**
 
-```
+```py
 Number of proper nouns in this sentence is : 3
 ```

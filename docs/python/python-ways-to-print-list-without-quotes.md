@@ -6,7 +6,7 @@
 
 **方法一:使用`map()`**
 
-```
+```py
 # Python code to demonstrate 
 # printing list in a proper way
 
@@ -22,7 +22,7 @@ print ("List in proper method", '[%s]' % ', '.join(map(str, ini_list)))
 
 **输出:**
 
-```
+```py
 List with str ['a', 'b', 'c', 'd']
 List in proper method [a, b, c, d]
 

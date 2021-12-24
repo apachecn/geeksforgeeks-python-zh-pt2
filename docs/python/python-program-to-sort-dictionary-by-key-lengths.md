@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Key Lengths
 # Using len() + sort() + dictionary comprehension + items()
@@ -55,7 +55,7 @@ print("The sorted dictionary : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Key Lengths
 # Using sorted() + lambda function + items() + dictionary comprehension

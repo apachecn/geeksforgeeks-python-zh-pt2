@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort String by Custom Substrings
 # Using sorted() + zip() + lambda + regex()
@@ -48,7 +48,7 @@ print("The sorted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Good at 4', 'Wake at 7', 'Work till 6', 'Sleep at 11']
 The sorted list : ['Work till 6', 'Wake at 7', 'Good at 4', 'Sleep at 11']
 ```
@@ -59,7 +59,7 @@ The sorted list : ['Work till 6', 'Wake at 7', 'Good at 4', 'Sleep at 11']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort String by Custom Substrings
 # Using sorted() + comparator + regex()
@@ -91,7 +91,7 @@ print("The sorted list : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : ['Good at 4', 'Wake at 7', 'Work till 6', 'Sleep at 11']
 The sorted list : ['Good at 4', 'Work till 6', 'Wake at 7', 'Sleep at 11']
 ```

@@ -6,7 +6,7 @@
 
 下面是当主窗口变大时获得新旋转框大小的公式。
 
-```
+```py
 width = baseSize().width() + i * sizeIncrement().width()
 height = baseSize().height() + j * sizeIncrement().height()
 
@@ -24,7 +24,7 @@ Here i, j are the size increment in the main window
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

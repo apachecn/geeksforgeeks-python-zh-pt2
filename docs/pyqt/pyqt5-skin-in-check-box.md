@@ -10,7 +10,7 @@
 
 为了做到这一点，我们必须改变样式表，并且必须设置皮肤，它与复选框对象一起使用。下面是样式表代码。
 
-```
+```py
 QCheckBox
 {
 border-image : url(skin.png);
@@ -20,7 +20,7 @@ border-image : url(skin.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

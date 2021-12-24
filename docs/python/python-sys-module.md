@@ -8,7 +8,7 @@ Python 中的 **sys 模块**提供了各种函数和变量，用于操作 Python
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 print(sys.version)
@@ -16,7 +16,7 @@ print(sys.version)
 
 **输出:**
 
-```
+```py
 3.6.9 (default, Oct  8 2020, 12:12:24) 
 [GCC 8.4.0]
 ```
@@ -37,7 +37,7 @@ sys 模块提供变量，以便更好地控制输入或输出。我们甚至可�
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 for line in sys.stdin:
@@ -58,7 +58,7 @@ print("Exit")
 
 ## **蟒蛇 3**
 
-```
+```py
 import sys
 
 sys.stdout.write('Geeks')
@@ -66,7 +66,7 @@ sys.stdout.write('Geeks')
 
 ****Output**
 
-```
+```py
 Geeks
 ```** 
 
@@ -76,7 +76,7 @@ Geeks
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import sys
 
 def print_to_stderr(*a):
@@ -104,7 +104,7 @@ print_to_stderr("Hello World")**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Python program to demonstrate
 # command line arguments
 
@@ -144,7 +144,7 @@ print("\n\nResult:", Sum)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Python program to demonstrate
 # sys.exit()
 
@@ -162,7 +162,7 @@ else:
 
 ******输出:******
 
-```
+```py
 **An exception has occurred, use %tb to see the full traceback.
 
 SystemExit: Age less than 18**
@@ -180,7 +180,7 @@ SystemExit: Age less than 18**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import sys
 
 print(sys.path)**
@@ -194,7 +194,7 @@ print(sys.path)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import sys
 
 # Removing the values
@@ -207,7 +207,7 @@ import pandas**
 
 ******输出:******
 
-```
+```py
 **ModuleNotFoundError: No module named 'pandas'**
 ```
 
@@ -217,7 +217,7 @@ import pandas**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import sys
 
 print(sys.modules)**
@@ -235,7 +235,7 @@ print(sys.modules)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **import sys
 
 a = 'Geeks'
@@ -245,7 +245,7 @@ print(sys.getrefcount(a))**
 
 ******Output**
 
-```
+```py
 4
 ```**** 
 

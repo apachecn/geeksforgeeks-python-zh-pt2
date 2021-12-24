@@ -8,7 +8,7 @@
 
  **## 蟒 3** 
 
-```
+```py
 # Import required module
 import numpy as np
 

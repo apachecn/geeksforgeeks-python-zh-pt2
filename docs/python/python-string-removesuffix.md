@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.9 code explaining
 # str.removesuffix()
 
@@ -31,7 +31,7 @@ print('GeeksforGeeks'.removesuffix('for'))
 
 **输出:**
 
-```
+```py
 Computer
 GeeksforGeeks
 
@@ -41,7 +41,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.9 code explaining
 # str.removesuffix()
 
@@ -67,7 +67,7 @@ print("New string : ", result)
 
 **输出:**
 
-```
+```py
 Original String 1 :  Welcome to python 3.9
 New string :  Welcome to python 
 Original String 2 :  Welcome Geek

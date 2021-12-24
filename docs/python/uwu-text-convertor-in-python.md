@@ -8,7 +8,7 @@ UwU text 是一种隐语类型，其中原始文本已被“UwUfied”。UwU 文
 
 **示例:**
 
-```
+```py
 Input :  The quick brown fox jumps over the lazy dog.
 Output : The quick bwown fox jumps ovew the wazy dog.
 
@@ -25,7 +25,7 @@ Output : Nyooo! I was nyot wate to wowk!
 
 ## 蟒 3
 
-```
+```py
 # Function to convert into UwU text
 def generateUwU(input_text):
 
@@ -78,7 +78,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 The quick bwown fox jumps ovew the wazy dog.
 Nyooo! I was nyot wate to wowk!
 ```

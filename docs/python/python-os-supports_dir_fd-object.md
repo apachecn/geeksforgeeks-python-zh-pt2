@@ -10,7 +10,7 @@
 **例如:**
 下面的表达式检查 [os.stat()](https://www.geeksforgeeks.org/python-os-stat-method/) 方法的 *dir_fd* 参数在本地是否可用*
 
-```
+```py
 os.stat in os.supports_dir_fd
 
 ```
@@ -23,7 +23,7 @@ os.stat in os.supports_dir_fd
 
 **Code #1:** Use of os.supports_dir_fd object to get the list of methods which permits the use of their dir_fd parameter
 
-```
+```py
 # Python program to explain os.supports_dir_fd object  
 
 # importing os module 
@@ -40,7 +40,7 @@ print(methodList)
 
 **Output:**
 
-```
+```py
 {<built-in function symlink>, <built-in function stat>, <built-in function chown>,
 <built-in function link>, <built-in function readlink>, <built-in function access>,
 <built-in function rename>, <built-in function chmod>, <built-in function utime>,
@@ -51,7 +51,7 @@ print(methodList)
 
 **Code #2:** Use of os.supports_dir_fd object to check if a particular method permits the use of its dir_fd parameter or not
 
-```
+```py
 # Python program to explain os.supports_dir_fd object  
 
 # importing os module 
@@ -76,7 +76,7 @@ print(support)
 
 **Output:**
 
-```
+```py
 True
 False
 

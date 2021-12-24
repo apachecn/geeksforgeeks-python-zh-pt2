@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + sum() + get()` +列表理解**
 我们可以执行这个特定的任务，首先将列表转换成字典，然后使用列表理解使用 get 函数获取特定键的值。使用 sum()执行值的求和。
 
-```
+```py
 # Python3 code to demonstrate 
 # Selective Records Value Summation
 # using dict() + get() + list comprehension + sum()
@@ -35,7 +35,7 @@ print ("The selective values summation of keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('Nikhil', 1), ('Akash', 2), ('Akshat', 3), ('Manjeet', 4)]
 The selection list is : ['Nikhil', 'Akshat']
 The selective values summation of keys : 4

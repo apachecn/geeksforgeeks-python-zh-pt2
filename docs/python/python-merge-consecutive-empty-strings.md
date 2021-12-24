@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在本文中，我们使用循环查找空字符串，并在创建新列表时忽略连续字符串。
 
-```
+```py
 # Python3 code to demonstrate 
 # Merge consecutive empty Strings
 # using loop
@@ -37,7 +37,7 @@ print ("List after removal of consecutive empty strings : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg', '', '', '', 'is', '', '', 'best', '']
 List after removal of consecutive empty strings : ['Gfg', '', 'is', '', 'best', '']
 

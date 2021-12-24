@@ -17,13 +17,13 @@
     给出匹配列产生的记录。JOIN 和 INNER JOIN 的工作原理相同。
     **语法:**
 
-    ```
+    ```py
     SELECT column1, column2...
     FROM tablename
     JOIN tablename ON condition;
     ```
 
-    ```
+    ```py
     SELECT column1, column2...
     FROM tablename
     INNER JOIN tablename ON condition;
@@ -33,7 +33,7 @@
     给出表 1 中的那些记录，删除 2
     **的独占内容语法:**
 
-    ```
+    ```py
     SELECT column1, column2...
     FROM tablename
     LEFT JOIN tablename ON condition;
@@ -43,7 +43,7 @@
     去掉 1 的独占记录后，给出表 2 的所有记录。
     **语法:**
 
-    ```
+    ```py
     SELECT column1, column2...
     FROM tablename
     RIGHT JOIN tablename ON condition;
@@ -58,7 +58,7 @@
 
 **程序 1:** 使用内部连接
 
-```
+```py
 import mysql.connector
 
 # Conencting to the database
@@ -88,7 +88,7 @@ for x in result_set:
 
 **程序 2:** 使用左连接
 
-```
+```py
 import mysql.connector
 
 # Conencting to the database
@@ -118,7 +118,7 @@ for x in result_set:
 
 **程序 3 :** 使用右连接
 
-```
+```py
 import mysql.connector
 
 # Conencting to the database

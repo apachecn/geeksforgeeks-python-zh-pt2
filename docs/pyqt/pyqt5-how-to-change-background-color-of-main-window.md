@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 
@@ -58,7 +58,7 @@ sys.exit(App.exec())
 
 **例 2:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 

@@ -17,7 +17,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -51,7 +51,7 @@ for trophy in trophies:
 
 **输出:**
 
-```
+```py
 15-Year Club
 Inciteful Comment
 Inciteful Link
@@ -86,7 +86,7 @@ ComboCommenter
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -120,7 +120,7 @@ for trophy in trophies:
 
 **输出:**
 
-```
+```py
 Eight-Year Club
 Undead | Zombie
 Inciteful Comment

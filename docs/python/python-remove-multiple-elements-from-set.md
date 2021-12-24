@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_set = {6, 4, 2, 7, 9}, rem_ele = [2, 4, 8]
 Output : {9, 6, 7}
 
@@ -24,7 +24,7 @@ Explanation : 4 is removed from set.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove multiple elements from Set
 # Using "-" operator
@@ -47,7 +47,7 @@ print("Set after removal : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Set after removal : {9, 6, 7}
 ```
@@ -58,7 +58,7 @@ Set after removal : {9, 6, 7}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove multiple elements from Set
 # Using difference_update()
@@ -81,7 +81,7 @@ print("Set after removal : " + str(test_set))
 
 **输出:**
 
-```
+```py
 The original set is : {2, 4, 6, 7, 9}
 Set after removal : {9, 6, 7}
 ```

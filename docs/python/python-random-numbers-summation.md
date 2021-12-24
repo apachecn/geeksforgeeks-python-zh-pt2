@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `randrange() + sum()`**
 执行这个特定任务的幼稚方法可以使用列表理解来缩短。randrange 函数用于执行生成随机数的任务。执行求和的任务是使用 sum()完成的。
 
-```
+```py
 # Python3 code to demonstrate 
 # Random Numbers Summation
 # using list comprehension + randrange() + sum()
@@ -23,7 +23,7 @@ print ("Random number summation list is : " + str(res))
 
 **Output :**
 
-```
+```py
 Random number summation list is : 187
 
 ```

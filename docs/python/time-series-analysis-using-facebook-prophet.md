@@ -55,14 +55,14 @@ Prophet 为我们提供了两种模型(不过，更新的模型可以根据具�
 
 为数据操作和数据框架数据结构安装熊猫。
 
-```
+```py
 pip install pandas
 
 ```
 
 安装预言家进行时间序列分析和预测。
 
-```
+```py
 pip install fbprophet
 
 ```
@@ -71,7 +71,7 @@ pip install fbprophet
 **实现:**
 **代码:导入所有需要的模块**
 
-```
+```py
 import pandas as pd
 from fbprophet import Prophet
 from fbprophet.plot import add_changepoints_to_plot
@@ -79,7 +79,7 @@ from fbprophet.plot import add_changepoints_to_plot
 
 **代码:阅读。先前下载的 csv 文件并显示它。**
 
-```
+```py
 data = pd.read_csv('https://raw.githubusercontent.com/rahulhegde99/Time-Series-Analysis-and-Forecasting-of-Air-Passengers/master/airpassengers.csv')
 data.head()
 ```
@@ -92,7 +92,7 @@ data.head()
 
 **代码:**
 
-```
+```py
 df = pd.DataFrame()
 df['ds'] = pd.to_datetime(data['Month'])
 df['y'] = data['#Passengers']
@@ -103,7 +103,7 @@ df.head()
 
 **代码:初始化一个模型，并使我们的数据框 *df* 适合它。**
 
-```
+```py
 m = Prophet()
 m.fit(df)
 ```
@@ -111,14 +111,14 @@ m.fit(df)
 我们希望我们的模型能够预测未来 5 年，也就是到 1965 年。我们的数据频率是 1 个月，因此对于 5 年来说，是 12*5=60 个月。因此，我们需要在一个数据框中添加 60 到更多行的月度数据。
 **代号:**
 
-```
+```py
 future = m.make_future_dataframe(periods=12 * 5, freq='M')
 ```
 
 现在在*未来*数据帧中，我们只有 *ds* 值，我们应该预测 *y* 值。
 **代码:**
 
-```
+```py
 forecast = m.predict(future)
 forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper', 'trend', 'trend_lower', 'trend_upper']].tail()
 ```
@@ -131,7 +131,7 @@ forecast[['ds', 'yhat', 'yhat_lower', 'yhat_upper', 'trend', 'trend_lower', 'tre
 
 **编码:绘制预测数据。**
 
-```
+```py
 fig1 = m.plot(forecast)
 ```
 
@@ -139,7 +139,7 @@ fig1 = m.plot(forecast)
 
 <center>![](img/33fbaf5be63591eabd4e7098071eb32d.png)</center>
 
-```
+```py
 fig2 = m.plot_components(forecast)
 ```
 
@@ -147,7 +147,7 @@ fig2 = m.plot_components(forecast)
 
 <center>![](img/1627af984a26cb6a81f170847de19f25.png)</center>
 
-```
+```py
 fig = m.plot(forecast)
 a = add_changepoints_to_plot(fig.gca(), m, forecast)
 ```

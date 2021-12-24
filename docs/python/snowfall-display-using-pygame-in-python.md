@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initialize
 pygame.init()
 
@@ -40,7 +40,7 @@ GREEN = [0, 255, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # specify the size
 
 SIZE = [400, 400]
@@ -53,7 +53,7 @@ screen = pygame.display.set_mode(SIZE)
 
 ## 蟒蛇 3
 
-```
+```py
 # caption for output window
 
 pygame.display.set_caption("Programming World of GFG")
@@ -63,7 +63,7 @@ pygame.display.set_caption("Programming World of GFG")
 
 ## 蟒蛇 3
 
-```
+```py
 snowFall = []
 ```
 
@@ -73,7 +73,7 @@ snowFall = []
 
 ## 蟒蛇 3
 
-```
+```py
 for i in range(50):
     x = random.randrange(0, 400)
     y = random.randrange(0, 400)

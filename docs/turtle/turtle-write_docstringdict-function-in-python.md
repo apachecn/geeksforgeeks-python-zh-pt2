@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.write_docstringdict(filename='turtle_docstringdict')
 
 ```
@@ -21,7 +21,7 @@ turtle.write_docstringdict(filename='turtle_docstringdict')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

@@ -7,7 +7,7 @@
 **方法:使用`re.findall()`**
 可以使用特定的正则表达式来执行该任务。在本文中，我们使用不同的元素，如数字、单词标点符号等来构造正则表达式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Selective Split in Strings
 # Using regex
@@ -29,7 +29,7 @@ print("The splitted string is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : print("geeks");
 The splitted string is : ['print', '(', '"', 'geeks', '"', ')', ';']
 

@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```py
 Input:  192.168.0.1
 Output: Valid Ip address
 
@@ -24,7 +24,7 @@ Output: Invalid Ip address
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to verify IP without using RegEx
 
 # explicit function to verify IP
@@ -49,7 +49,7 @@ print(isValidIP('666.1.2.2'))
 
 **Output**
 
-```
+```py
 Invalid Ip address
 
 ```
@@ -58,7 +58,7 @@ Invalid Ip address
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to verify IP without using RegEx
 
 # explicit function to verify IP
@@ -102,7 +102,7 @@ print(isValidIP('110.234.52.124'))
 
 **Output**
 
-```
+```py
 Valid Ip address
 
 ```

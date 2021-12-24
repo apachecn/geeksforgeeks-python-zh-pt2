@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to finding number of
 # leap years in list of years.
 
@@ -36,7 +36,7 @@ print("No of leap years are:", Answer)
 
 **Output:** 
 
-```
+```py
 No of leap years are: 3
 ```
 
@@ -44,7 +44,7 @@ No of leap years are: 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to finding number of
 # leap years in list of years.
 
@@ -71,6 +71,6 @@ print("No of leap years are:", Output)
 
 **Output:** 
 
-```
+```py
 No of leap years are: 2
 ```

@@ -26,7 +26,7 @@
 
 **Code:** Use of os.sched_get_priority_max() method
 
-```
+```py
 # Python program to explain os.sched_get_priority_max() method  
 
 # importing os module 
@@ -80,7 +80,7 @@ print("Scheduling policy for CPU-intensive processes:", priority_max)
 
 **Output:**
 
-```
+```py
 Below are the maximum priority value for different scheduling policy
 First In First Out scheduling policy: 99
 Round-robin scheduling policy: 99

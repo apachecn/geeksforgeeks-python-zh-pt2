@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove characters greater than K
 # Using loop + ord()
@@ -57,7 +57,7 @@ print("Filtered List " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove characters greater than K
 # Using join() + list comprehension + ord()

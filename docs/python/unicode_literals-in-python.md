@@ -16,7 +16,7 @@ Unicode 也称为通用字符集。ASCII 使用 8 位(1 字节)来表示一个�
 
 ## 计算机编程语言
 
-```
+```py
 import sys
 
 # checking the default encoding of string
@@ -26,7 +26,7 @@ sys.getdefaultencoding()
 
 **输出:**
 
-```
+```py
 The default encoding for python2 is: ascii
 ```
 
@@ -34,7 +34,7 @@ The default encoding for python2 is: ascii
 
 ## 计算机编程语言
 
-```
+```py
 from __future__ import unicode_literals
 
 # creating variables to holds
@@ -53,7 +53,7 @@ print(p+y+t+h+o+n).encode("utf-8")
 
 **Output**
 
-```
+```py
 ℙƴ☂ℌøἤ
 ```
 
@@ -61,7 +61,7 @@ print(p+y+t+h+o+n).encode("utf-8")
 
 ## 蟒蛇 3
 
-```
+```py
 # In python3
 # By default the encoding is "utf-8"
 import sys

@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color
@@ -36,7 +36,7 @@ with Drawing() as draw:
 
 **例 2:**
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color

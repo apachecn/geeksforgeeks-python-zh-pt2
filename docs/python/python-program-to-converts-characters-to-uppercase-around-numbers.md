@@ -17,7 +17,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing string
 test_str = 'geeks4geeks is best1 for ge8eks'
 
@@ -50,7 +50,7 @@ print("Transformed String : " + str(res))*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing string
 test_str = 'geeks4geeks is best1 for ge8eks'
 

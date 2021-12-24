@@ -6,7 +6,7 @@
 
 **方法一:使用`ljust()`**
 
-```
+```py
 # Python code to demonstrate
 # pad spaces in string
 # upto fixed length
@@ -27,7 +27,7 @@ print ("final string : ", res, len(res))
 
 **输出:**
 
-```
+```py
 initial string :  123abcjw 8
 final string :  123abcjw        15
 

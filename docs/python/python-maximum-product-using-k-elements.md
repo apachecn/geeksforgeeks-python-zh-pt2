@@ -7,7 +7,7 @@
 **方法一:使用`max() + sort()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们执行排序，然后通过使用 max()使用最佳的初始或尾部元素提取最大值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Maximum product using K elements
 # using max() + sort() + list comprehension
@@ -32,7 +32,7 @@ print ("Maximum product using K elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [8, 5, 9, 11, 3, 7]
 Maximum product using K elements : 792
 

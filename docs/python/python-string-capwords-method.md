@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # imports string module
 import string
 
@@ -26,7 +26,7 @@ print(formatted)
 
 **Output:** 
 
-```
+```py
 Python Is One Of The Best Programming Languages.
 ```
 
@@ -34,7 +34,7 @@ Python Is One Of The Best Programming Languages.
 
 ## 蟒蛇 3
 
-```
+```py
 # imports string module
 import string
 
@@ -51,7 +51,7 @@ print('When sep = "o"', formatted)
 
 **Output:** 
 
-```
+```py
 When sep = "g" Python is one of the best progRamming langUagEs.
 When sep = "o" PythoN is oNe oF the best proGramming languages.
 ```

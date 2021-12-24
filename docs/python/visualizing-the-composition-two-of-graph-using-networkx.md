@@ -83,7 +83,7 @@ G 和 H 的合成结果:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing networkx module 
 import networkx as nx 
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next different element in list
 # Using set() + sorted() + index()
@@ -68,7 +68,7 @@ print("Next different element : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next different element in list
 # Using next() + iter() + sorted() + set()

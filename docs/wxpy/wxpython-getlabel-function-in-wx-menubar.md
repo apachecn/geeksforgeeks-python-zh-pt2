@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.GetLabel(self, id)
 > 
 > ```
@@ -23,7 +23,7 @@
 
 让我们返回菜单栏中菜单一和菜单二中的菜单项标签。
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

@@ -6,7 +6,7 @@
 
 **这样行吗？**
 
-```
+```py
 # Create a list in a range of 10-20
 My_list = [range(10, 20, 1)]
 
@@ -20,7 +20,7 @@ print(My_list)
 
 **代码#1:** 我们可以使用参数拆包运算符，即 ***** 。
 
-```
+```py
 # Create a list in a range of 10-20
 My_list = [*range(10, 21, 1)]
 
@@ -34,7 +34,7 @@ print(My_list)
 
 **代码#2 :** 我们可以使用`[extend()](https://www.geeksforgeeks.org/append-extend-python/)`函数来解包范围函数的结果。
 
-```
+```py
 # Create an empty list
 My_list = []
 

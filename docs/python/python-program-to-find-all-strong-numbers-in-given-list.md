@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 2, 5, 145, 654, 34] 
 Output : [1, 2, 145]
 
@@ -26,7 +26,7 @@ Output : [145, 2]
 
 下面是 Python 实现:
 
-```
+```py
 # Python program to find all 
 # Strong Numbers in given list
 def factorial(number):
@@ -61,7 +61,7 @@ print(strong_num_list)
 
 **Output:**
 
-```
+```py
 [1, 2, 145]
 
 ```

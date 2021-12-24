@@ -7,7 +7,7 @@
 **方法#1:使用列表切片+ del 操作符**
 del 操作符可以通过切片操作来删除列表中除前后元素之外的所有元素，从而获得列表的裁剪版本。
 
-```
+```py
 # Python3 code to demonstrate 
 # Retain K Front and Rear elements
 # using del operator + list slicing
@@ -32,7 +32,7 @@ print ("The cropped list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [2, 3, 5, 7, 9, 10, 8, 6]
 The cropped list is : [2, 3, 8, 6]
 

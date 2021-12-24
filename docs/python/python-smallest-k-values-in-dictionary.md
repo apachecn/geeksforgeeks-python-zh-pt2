@@ -7,7 +7,7 @@
 **方法#1 : `itemgetter() + items() + sorted()`**
 上述方法的组合用于执行这一特定任务。在本文中，我们只是对使用 itemsgetter()表示并使用 item()访问的字典值进行排序。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Smallest K values in Dictionary
 # Using sorted() + itemgetter() + items()
@@ -32,7 +32,7 @@ print("The minimum K value pairs are " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'geeks': 3, 'is': 4, 'for': 7, 'best': 6, 'gfg': 1}
 The minimum K value pairs are {'geeks': 3, 'gfg': 1}
 

@@ -16,7 +16,7 @@
 
 **Code:** Use of os.pipe2() method to create a pipe with flags set automatically
 
-```
+```py
 # Python program to explain os.pipe2() method 
 
 # importing os module 
@@ -71,7 +71,7 @@ else:
 
 **Output:**
 
-```
+```py
 Parent process is writing
 Text written: Hello child process
 

@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何改变单选按钮的颜色，当它处于未选中状态时，默认情况下没有颜色设置为单选的任何状态。为了将单选按钮的颜色设置为未选中状态，我们必须更改单选按钮的选中状态的样式表。下面是样式表代码。
 
-```
+```py
 QRadioButton::unchecked
 {
 background-color : red;   
@@ -14,7 +14,7 @@ background-color : red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

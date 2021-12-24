@@ -28,7 +28,7 @@ List 是 Python 的内置数据结构，可以用作队列。使用 append()和 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate queue implementation
 # using list
@@ -60,7 +60,7 @@ print(queue)
 
 **输出:**
 
-```
+```py
 Initial queue
 ['a', 'b', 'c']
 
@@ -74,7 +74,7 @@ Queue after removing elements
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/ef51acf025182ccd69d906e58f17b6de.py", line 25, in 
     print(queue.pop(0))
@@ -88,7 +88,7 @@ Python 中的队列可以使用集合模块中的 deque 类来实现。在我们
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate queue implementation
 # using collections.dequeue
@@ -122,7 +122,7 @@ print(q)
 
 **输出:**
 
-```
+```py
 Initial queue
 deque(['a', 'b', 'c'])
 
@@ -136,7 +136,7 @@ deque([])
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/b2fa8ce438c2a9f82d6c3e5da587490f.py", line 23, in 
     q.popleft()
@@ -160,7 +160,7 @@ IndexError: pop from an empty deque
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate implementation of
 # queue using queue module
@@ -204,7 +204,7 @@ print("Full: ", q.full())
 
 **输出:**
 
-```
+```py
 0
 
 Full:  True

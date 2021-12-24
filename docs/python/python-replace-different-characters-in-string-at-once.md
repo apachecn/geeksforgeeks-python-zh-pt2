@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace Different characters in String at Once
 # using join() + generator expression
@@ -41,7 +41,7 @@ print("The converted string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best
 The converted string : g11ksforg11ks 4s 61st
 ```
@@ -52,7 +52,7 @@ The converted string : g11ksforg11ks 4s 61st
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace Different characters in String at Once
 # using regex + lambda
@@ -76,7 +76,7 @@ print("The converted string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best
 The converted string : g11ksforg11ks 4s 61st
 ```

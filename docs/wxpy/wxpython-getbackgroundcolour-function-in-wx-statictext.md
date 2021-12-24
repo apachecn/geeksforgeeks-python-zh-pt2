@@ -13,7 +13,7 @@ getbackground color()函数中不需要参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

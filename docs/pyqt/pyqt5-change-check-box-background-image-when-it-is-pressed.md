@@ -6,7 +6,7 @@
 
 为了给复选框添加背景图像，我们必须更改样式表代码，下面是这样做的样式表代码。
 
-```
+```py
 QCheckBox::pressed
 {
 background-image : url(image.png);
@@ -16,7 +16,7 @@ background-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

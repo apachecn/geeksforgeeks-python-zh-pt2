@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `startswith()`**
 以上功能的组合可以用来执行这个任务。在本例中，我们对列表中的每个字符串运行一个循环，并使用 start with()来获取以特定前缀开头的字符串。
 
-```
+```py
 # Python3 code to demonstrate 
 # Prefix frequency in List
 # using loop + startswith()

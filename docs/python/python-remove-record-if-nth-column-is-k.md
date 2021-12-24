@@ -9,7 +9,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们对列表中的每个元素进行迭代，如果它的第 N 列等于 k，则排除它。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove Record if Nth Column is K
 # using loop
@@ -39,7 +39,7 @@ print ("List after removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 7), (6, 7, 8), (7, 8, 10), (7, 1)]
 List after removal : [(7, 8, 10), (7, 1)]
 

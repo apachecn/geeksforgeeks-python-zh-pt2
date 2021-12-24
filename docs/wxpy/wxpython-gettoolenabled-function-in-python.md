@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolEnabled(self, toolid)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > True if the tool is enabled, False otherwise.
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,14 +69,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 True
 
 ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -119,7 +119,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 False
 
 ```

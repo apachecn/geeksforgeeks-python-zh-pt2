@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -28,13 +28,13 @@ print(random.betavariate(alpha, beta))
 
 **输出:**
 
-```
+```py
 0.5148685287422776
 ```
 
 **例 2:** 我们可以多次生成这个数，并绘制一个图来观察β分布。
 
-```
+```py
 # import the required libraries
 import random
 import matplotlib.pyplot as plt

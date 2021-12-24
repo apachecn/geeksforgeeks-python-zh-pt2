@@ -23,7 +23,7 @@ python String**is identifier()**方法用于检查字符串是否是有效的标
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate 
 # the working of isidentifier()
 
@@ -50,7 +50,7 @@ print(string.isidentifier())
 
 **输出:**
 
-```
+```py
 False
 True
 False

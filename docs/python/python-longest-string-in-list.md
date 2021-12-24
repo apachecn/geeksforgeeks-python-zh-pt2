@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的蛮力方法。在这种情况下，我们运行一个循环来保存最长字符串长度的内存，并返回列表中最大长度的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Longest String in list
 # using loop
@@ -32,7 +32,7 @@ print("Maximum length string is : " + res)
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 Maximum length string is : geeks
 

@@ -6,14 +6,14 @@ Streamlit 是一个 python 语言的开源应用框架。它帮助我们在短�
 
 **在命令提示符下键入以下内容，安装流线–**
 
-```
+```py
 pip install streamlit
 
 ```
 
 **创建一个简单的应用程序(Hello World)–**
 
-```
+```py
 *The 'hello, world!' script in Streamlit:*
 streamlit hello
 
@@ -36,7 +36,7 @@ streamlit run myFirstStreamlitApp.py
 
 **1。添加标题**
 
-```
+```py
 # myFirstStreamlitApp.py
 
 #import the library
@@ -52,7 +52,7 @@ stl.title("Geeks for Geeks")
 
 **2。添加一些文字**
 
-```
+```py
 # myFirstStreamlitApp.py
 
 #import the library

@@ -8,7 +8,7 @@
 
 **目录树:**
 
-```
+```py
 root :
 |
 |__Sibling_1:
@@ -32,7 +32,7 @@ root :
 
 ## 计算机编程语言
 
-```
+```py
 # importing os module
 import os
 
@@ -43,7 +43,7 @@ print(path)
 
 **输出:**
 
-```
+```py
 'D:\root\Sibling_1\demo.py'
 ```
 
@@ -51,7 +51,7 @@ print(path)
 
 ## 计算机编程语言
 
-```
+```py
 import os
 
 # gives the path of demo.py

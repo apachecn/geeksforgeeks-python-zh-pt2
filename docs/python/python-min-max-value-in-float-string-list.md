@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Min / Max value in float string list
 # using min()/max() + float() + generator
@@ -31,7 +31,7 @@ print("The max value of list : " + str(res_max))
 
 **Output**
 
-```
+```py
 The original list is : ['4.5', '7.8', '9.8', '10.3']
 The min value of list : 4.5
 The max value of list : 10.3

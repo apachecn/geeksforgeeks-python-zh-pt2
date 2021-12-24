@@ -20,7 +20,7 @@ Python 中的`***os.getgid()***`方法用于获取当前进程的真实组 id，
 
 **Code #1:** Use of os.getgid() method
 
-```
+```py
 # Python program to explain os.getgid() method 
 
 # importing os module 
@@ -38,7 +38,7 @@ print("Group id of the current process:", gid)
 
 **Output:**
 
-```
+```py
 Group id of the current process: 1000
 
 ```
@@ -56,7 +56,7 @@ Group id of the current process: 1000
 
 **Code #2:** Use of os.setgid() method
 
-```
+```py
 # Python program to explain os.setgid() method 
 
 # importing os module 
@@ -86,7 +86,7 @@ print("Group id of the current process:", gid)
 
 **Output:**
 
-```
+```py
 Group id of the current process: 0
 Group id changed
 Group id of the current process: 23

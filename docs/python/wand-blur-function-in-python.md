@@ -9,7 +9,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.blur(radius="radius_value", 
 >                   sigma="sigma_value",  
 >     channel = "optional_channel_value")
@@ -28,7 +28,7 @@
 **输入图像–**
 ![](img/a1d5dabac07efe8de363e0c440a198d8.png)
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -50,7 +50,7 @@ with Image(filename ="koala.jpeg") as img:
 **输入图像–**
 ![](img/ca5337d17d2ab30925ee33a8535fc0d5.png)
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 from wand.display import display

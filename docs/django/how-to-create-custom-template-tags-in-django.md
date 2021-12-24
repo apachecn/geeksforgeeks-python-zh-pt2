@@ -24,7 +24,7 @@ Django 提供了以下助手函数，允许您以简单的方式创建自己的�
 
 在 django 应用程序(geeks app)目录中，创建一个新目录，将其命名为 templatetags，并添加一个空的 __init__。py 文件，以确保目录被视为 Python 包。在同一个文件夹中创建另一个文件，并将其命名为 custom_tags.py。模块文件的名称是您稍后加载标签时将使用的名称，因此请注意选择一个不会与另一个应用程序中的自定义标签和过滤器冲突的名称。django 应用程序的文件结构应该如下所示:
 
-```
+```py
 geeks/
       __init__.py
       models.py
@@ -36,7 +36,7 @@ geeks/
 
 在您的模板中，您将使用以下内容:
 
-```
+```py
 {% load custom_tags %}
 ```
 
@@ -44,7 +44,7 @@ geeks/
 
 要成为有效的标记库，模块(custom_tags.py)必须包含一个名为 register 的模块级变量，该变量是一个模板库实例，所有的标记都在该实例中注册。因此，在模块顶部附近，放置以下内容:
 
-```
+```py
 from django import template
 
 register = template.Library()
@@ -54,7 +54,7 @@ register = template.Library()
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -67,7 +67,7 @@ class YourModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 
 Python manage.py migrate
@@ -77,7 +77,7 @@ Python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django import template
 register = template.Library()
 
@@ -92,7 +92,7 @@ def any_function():
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from django.views.generic.base import TemplateView
@@ -107,7 +107,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% load custom_tag %}
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -123,7 +123,7 @@ urlpatterns = [
 
 现在快跑，
 
-```
+```py
 python manage.py runserver
 ```
 

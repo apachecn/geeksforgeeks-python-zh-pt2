@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.sched_rr_get_interval() method 
 
 # importing os module
@@ -37,7 +37,7 @@ print("Round Robin time quantum (in seconds):", quantum)
 
 **Output:** 
 
-```
+```py
 Round Robin time quantum (in seconds): 0.016
 ```
 

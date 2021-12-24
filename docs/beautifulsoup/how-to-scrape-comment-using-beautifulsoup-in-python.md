@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 <!-- COMMENT --> 
 
 ```
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -35,7 +35,7 @@ print(comment)
 
 **输出:**
 
-```
+```py
 <b><!-- COMMENT --></b>
 
 ```
@@ -44,7 +44,7 @@ print(comment)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -63,7 +63,7 @@ print(type(comment))
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.Comment'> 
 
 ```

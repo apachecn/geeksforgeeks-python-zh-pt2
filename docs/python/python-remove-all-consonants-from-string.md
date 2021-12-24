@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行该任务的方法之一。在这种情况下，我们遍历列表，然后检查元音和过滤器是否存在。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove all consonents from string
 # Using loop
@@ -32,7 +32,7 @@ print("String after consonents removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Gfg is best for geeks
 String after consonents removal : ieoee
 

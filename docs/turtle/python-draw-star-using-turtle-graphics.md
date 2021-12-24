@@ -21,14 +21,14 @@
 
 *   首先在你正在使用的闲置或编辑器中**导入龟**模块。
 
-```
+```py
 import turtle
 
 ```
 
 *   找一块画板，乌龟会在上面画画。
 
-```
+```py
 ws=turtle.Screen()
 
 ```
@@ -49,7 +49,7 @@ ws=turtle.Screen()
 
 ## 蟒蛇 3
 
-```
+```py
 # import for turtle
 import turtle
 
@@ -79,7 +79,7 @@ for i in range(5):
 
 ## 蟒蛇 3
 
-```
+```py
 #import turtle
 import turtle
 

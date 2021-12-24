@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.showturtle() 
 or 
 turtle.st()
@@ -23,7 +23,7 @@ turtle.st()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

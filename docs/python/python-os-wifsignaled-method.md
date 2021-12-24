@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.WIFSIGNALED() method
 
 # importing os module 
@@ -62,7 +62,7 @@ else :
 
 **Output:** 
 
-```
+```py
 In Child process
 Process ID: 10224
 Hello! Geeks
@@ -76,7 +76,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.WIFSIGNALED() method
 
 # importing os and signal module 
@@ -150,7 +150,7 @@ else :
 
 **Output:** 
 
-```
+```py
 In First child process
 Process ID: 3752
 Hello! Geeks

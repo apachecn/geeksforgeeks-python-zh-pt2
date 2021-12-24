@@ -13,20 +13,20 @@
 *   **请求:**
     请求让你可以极其轻松地发送 HTTP/1.1 请求。没有必要手动添加查询字符串到你的网址。
 
-    ```
+    ```py
     pip install requests
     ```
 
 *   **美人汤:**
     美人汤是一个很容易从网页上抓取信息的库。它位于 HTML 或 XML 解析器之上，为迭代、搜索和修改解析树提供了 Pythonic 习惯用法。
 
-    ```
+    ```py
     pip install beautifulsoup4
     ```
 
 **代码:**
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 

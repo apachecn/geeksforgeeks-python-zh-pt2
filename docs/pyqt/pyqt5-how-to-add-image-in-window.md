@@ -6,7 +6,7 @@
 
 为了使用 Qpixmap 和其他东西，我们必须导入以下库:
 
-```
+```py
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QPixmap
 import sys
@@ -15,7 +15,7 @@ import sys
 > **用于加载图像:**
 > **语法:**
 > 
-> ```
+> ```py
 > pixmap = QPixmap('image.png')
 > ```
 > 
@@ -24,7 +24,7 @@ import sys
 > **用于向标签添加图像:**
 > **语法:**
 > 
-> ```
+> ```py
 > label.setPixmap(pixmap)
 > ```
 > 
@@ -34,7 +34,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import *

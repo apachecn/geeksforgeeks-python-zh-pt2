@@ -7,7 +7,7 @@
 **方法:使用`keys() + random.randint()` +计算**
 这个问题可以通过以上函数的组合来解决。在本文中，我们使用 randint()从使用 key()提取的密钥中执行随机密钥提取任务。执行逻辑计算以获得分离的测试和训练数据。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random Sample Training and Test Data
 # Using keys() + randint() + computations

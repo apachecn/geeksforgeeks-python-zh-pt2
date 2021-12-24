@@ -22,7 +22,7 @@ Python 中的`***os.setgroups()***`方法用于将当前进程关联的补充组
 
 **Code:** Use of os.setgroups() method
 
-```
+```py
 # Python program to explain os.setgroups() method 
 
 # importing os module 
@@ -57,7 +57,7 @@ print(sgid)
 
 **Output:**
 
-```
+```py
 Supplemental group IDs associated with the current process:
 [0]
 New supplemental group IDs associated with the current process:

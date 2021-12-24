@@ -26,7 +26,7 @@ Python 中的 assertNotAlmostEqual ()是一个[单元测试库](https://www.geek
 
 ## 蟒 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 FF..
 ======================================================================
 FAIL: test_negativeWithDelta (__main__.TestStringMethods)

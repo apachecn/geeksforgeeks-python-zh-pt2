@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python Function to print leaders in array 
 
 def printLeaders(arr,size): 
@@ -31,7 +31,7 @@ printLeaders(arr, len(arr)) 
 
 **输出:**
 
-```
+```py
 17 5 2
 ```
 
@@ -46,7 +46,7 @@ printLeaders(arr, len(arr)) 
 
 ## 计算机编程语言
 
-```
+```py
 # Python function to print leaders in array
 def printLeaders(arr, size):
 
@@ -66,7 +66,7 @@ printLeaders(arr, len(arr))
 
 **输出:**
 
-```
+```py
 2 5 17
 ```
 

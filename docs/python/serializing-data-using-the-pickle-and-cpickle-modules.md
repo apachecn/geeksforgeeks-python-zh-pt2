@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 try:
 
     # In python 2.x it is available as default
@@ -74,7 +74,7 @@ Pickle 模块对于 python 对象非常强大。但是它只能保存数据，�
 
 ## 蟒蛇 3
 
-```
+```py
 try:
     # In python 2.x it is available as default
     import cPickle as pickle
@@ -106,7 +106,7 @@ print('Weights of model', new_model.get_weights())
 
 ## 蟒蛇 3
 
-```
+```py
 try:
 
     # In python 2.x it is available as default
@@ -152,7 +152,7 @@ print('Weights of model', new_model.get_weights())
 
 ## 蟒蛇 3
 
-```
+```py
 try:
 
     # In python 2.x it is available as default

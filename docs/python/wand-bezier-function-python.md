@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > bezier(points)
 > ```
 > 
@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries from the wand 
 from wand.image import Image
 from wand.drawing import Drawing

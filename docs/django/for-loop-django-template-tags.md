@@ -9,7 +9,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% for i in list %}
 {% endfor %}
 ```
@@ -20,7 +20,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 <ul>
 {% for athlete in athlete_list %}
     <li>{{ athlete.name }}</li>
@@ -41,7 +41,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -59,7 +59,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -74,7 +74,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% for i in data %}
     <div class="row">
         {{ i }}
@@ -94,7 +94,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% for o in some_list %}
     <tr class="{% cycle rowvalue1 rowvalue2 %}">
         ...
@@ -107,7 +107,7 @@ urlpatterns = [
 人们可以通过使用{% for obj in list reversed %}，反向循环一个列表。
 如果需要遍历列表，可以将每个子列表中的值解包为单个变量。例如，如果您的上下文包含一个称为点的(x，y)坐标列表，您可以使用以下命令输出点列表:
 
-```
+```py
 {% for x, y in points %}
     There is a point at {{ x }}, {{ y }}
 {% endfor %}
@@ -115,7 +115,7 @@ urlpatterns = [
 
 如果您需要访问字典中的项目，这也很有用。例如，如果您的上下文包含字典数据，下面将显示字典的键和值:
 
-```
+```py
 {% for key, value in data.items %}
     {{ key }}: {{ value }}
 {% endfor %}

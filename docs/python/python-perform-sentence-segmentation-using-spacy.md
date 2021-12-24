@@ -10,7 +10,7 @@
 
 安装此库的命令:
 
-```
+```py
 pip install spacy
 python -m spacy download en_core_web_sm
 Here en_core_web_sm  means core English Language available online of small size.
@@ -18,7 +18,7 @@ Here en_core_web_sm  means core English Language available online of small size.
 
 **示例:**
 
-```
+```py
 we have the following paragraph:
 "I Love Coding. Geeks for Geeks helped me in this regard very much. I Love Geeks for Geeks."
 here there are 3 sentences.
@@ -31,7 +31,7 @@ here there are 3 sentences.
 
 **代码:**
 
-```
+```py
 #import spacy library
 import spacy
 
@@ -53,7 +53,7 @@ for sent in doc.sents:
 
 **代码:为了克服这个错误，我们首先需要使用 list 函数将这个生成器转换成一个列表。**
 
-```
+```py
 #converting the generator object result in to list
 doc1 = list(doc.sents)
 

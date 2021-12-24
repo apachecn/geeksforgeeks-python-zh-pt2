@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolState(self, toolId)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > bool
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -100,7 +100,7 @@ if __name__ == '__main__':
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -169,7 +169,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 True
 False
 

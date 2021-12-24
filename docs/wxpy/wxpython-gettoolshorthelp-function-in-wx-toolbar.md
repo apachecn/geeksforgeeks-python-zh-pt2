@@ -6,7 +6,7 @@
 
 > **语法**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolShortHelp(self, toolId)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > string
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -68,14 +68,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 short help string one
 
 ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -117,7 +117,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 short help string one short help string two
 
 ```

@@ -8,7 +8,7 @@
 
 这是实现解决这一任务的最基本方法。在这种情况下，我们使用生成器表达式迭代整个嵌套列表，并使用`min()`获得最小元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum element in tuple list
 # using min() + generator expression
@@ -29,7 +29,7 @@ print("The Minimum element of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The Minimum element of list is : 1
 
@@ -39,7 +39,7 @@ The Minimum element of list is : 1
 
 上述方法的组合也可用于执行该任务。在这种情况下，求最小值的扩展是通过组合 `map() and from_iterable()`来完成的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum element in tuple list
 # using min() + map() + chain.from_iterable()
@@ -61,7 +61,7 @@ print("The Minimum element of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The Minimum element of list is : 1
 

@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python program to explain os.chroot() ethod
 
 import os, sys
@@ -25,13 +25,13 @@ print ("root path successfully changed.")
 
 输出:
 
-```
+```py
 root path successfully changed.
 ```
 
 **代码#2:**
 
-```
+```py
 # Function to Change root directory of the process.
 def change_root_directory(path):
 

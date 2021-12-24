@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # from datetime libraray import datetime method
 from datetime import datetime
 

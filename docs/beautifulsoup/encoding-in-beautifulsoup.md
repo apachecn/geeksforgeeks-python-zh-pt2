@@ -54,7 +54,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 from bs4 import BeautifulSoup
 
 # HTML element with content
@@ -85,7 +85,7 @@ print("Encoding method :", parsed.original_encoding)
 
 ## **蟒蛇 3**
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -103,7 +103,7 @@ print("Encoded method :", soup.original_encoding)
 
 ****输出****
 
-```
+```py
 Enoded method : utf-8
 ```
 
@@ -111,7 +111,7 @@ Enoded method : utf-8
 
 ## **蟒蛇 3**
 
-```
+```py
 from bs4 import BeautifulSoup
 
 soup=BeautifulSoup(page.content,"html.parser")

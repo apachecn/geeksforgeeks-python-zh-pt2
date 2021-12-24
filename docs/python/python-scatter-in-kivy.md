@@ -17,7 +17,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 分散大小对其子代的大小没有影响。如果您想要调整它的大小，您可以使用缩放，这将同时变换散布及其子对象，但不会改变大小。
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -40,7 +40,7 @@ Basic Approach:
 
 **。py 文件**
 
-```
+```py
 # Program to explain how to use Scatter in kivy  
 
 # import kivy module     
@@ -91,7 +91,7 @@ if __name__=='__main__':
 
 **。kv 文件**
 
-```
+```py
 # .kv file implementation
 
 # Create the square to show scatter

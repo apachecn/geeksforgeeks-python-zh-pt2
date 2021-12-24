@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [5, 6, 3, 2, 7, 1, 9, 10, 8]
 
@@ -58,7 +58,7 @@ print("Stepped splitted List : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [5, 6, 3, 2, 7, 1, 9, 10, 8]
 

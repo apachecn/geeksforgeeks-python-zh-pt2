@@ -6,7 +6,7 @@ difference_update()方法有助于就地区分集合。前面讨论的[集合差
 如果 A 和 B 是两套。set difference()方法将获得(A–B)并将返回一个新的集合。set difference_update()方法修改现有的集合。如果执行(A–B)，则 A 被修改为(A–B)，如果执行(B–A)，则 B 被修改为(B–A)。
 **语法:**
 
-```
+```py
 A.difference_update(B) for (A - B)
 B.difference_update(A) for (B - A)
 ```
@@ -18,7 +18,7 @@ B.difference_update(A) for (B - A)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to get the difference between two sets
 # using difference_update() between set A and set B
 
@@ -35,6 +35,6 @@ print (A)
 
 输出:
 
-```
+```py
 {20, 10}
 ```

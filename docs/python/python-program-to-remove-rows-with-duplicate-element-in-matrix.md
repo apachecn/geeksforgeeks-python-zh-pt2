@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, 3, 2], [7, 6, 7], [2, 4, 5], [8, 9, 9]]
 
@@ -35,7 +35,7 @@ print("Rows after removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 3, 2], [7, 6, 7], [2, 4, 5], [8, 9, 9]]
 Rows after removal : [[4, 3, 2], [2, 4, 5]]
 
@@ -47,7 +47,7 @@ Rows after removal : [[4, 3, 2], [2, 4, 5]]
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, 3, 2], [7, 6, 7], [2, 4, 5], [8, 9, 9]]
 
@@ -64,7 +64,7 @@ print("Rows after removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 3, 2], [7, 6, 7], [2, 4, 5], [8, 9, 9]]
 Rows after removal : [[4, 3, 2], [2, 4, 5]]
 

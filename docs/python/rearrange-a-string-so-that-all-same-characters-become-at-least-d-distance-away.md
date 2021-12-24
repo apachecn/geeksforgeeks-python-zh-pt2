@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input:  "abb", d = 2
 Output: "bab"
 
@@ -35,7 +35,7 @@ Output: Cannot be rearranged
 
 ## C
 
-```
+```py
 // C program to rearrange a string so that all same
 // characters become at least d distance away
 #include <stdio.h>
@@ -166,7 +166,7 @@ int main()
 
 ## C++
 
-```
+```py
 // C++ program to rearrange a string so that all same
 // characters become at least d distance away using STL
 #include <bits/stdc++.h>
@@ -242,7 +242,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to rearrange a string so that all same
 # characters become at least d distance away
 MAX = 256
@@ -370,7 +370,7 @@ print (rearrange(toList(string), 3))
 
 **Output**
 
-```
+```py
 abcabc
 ```
 

@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `replace()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 replace()执行多个字符串的替换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove substring list from String
 # Using loop + replace()
@@ -32,7 +32,7 @@ print("The string after substring removal : " + test_str) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg is best for all geeks
 The string after substring removal : gfg is for geeks
 

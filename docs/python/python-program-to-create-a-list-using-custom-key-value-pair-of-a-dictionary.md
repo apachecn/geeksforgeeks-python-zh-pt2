@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [{'gfg': 1, 'is': 4, 'best': 6},
              {'gfg': 10, 'is': 3, 'best': 7},
@@ -74,7 +74,7 @@ print("Dictionary values : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [{'gfg': 1, 'is': 4, 'best': 6},
              {'gfg': 10, 'is': 3, 'best': 7},

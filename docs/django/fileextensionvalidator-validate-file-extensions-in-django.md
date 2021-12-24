@@ -10,17 +10,17 @@ Django 是一个高级 Python Web 框架，它鼓励快速开发和干净、实�
 
 首先创建新项目。
 
-```
+```py
 django-admin startproject fileuploader
 ```
 
-```
+```py
 cd fileuploader
 ```
 
 然后在项目中创建新的应用程序
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -30,7 +30,7 @@ python manage.py startapp main
 
 **语法:-**
 
-```
+```py
 FileExtensionValidator(allowed_extensions, message, code)
 ```
 
@@ -40,7 +40,7 @@ FileExtensionValidator(allowed_extensions, message, code)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.core.validators import FileExtensionValidator
 class Post(models.Model):
     PDF = models.FileField(null=True, 
@@ -52,7 +52,7 @@ class Post(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.forms import ModelForm
 from .models import *
 from django import forms
@@ -67,7 +67,7 @@ class PostForm(ModelForm):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render,HttpResponse
 from .forms import *
 # Create your views here.
@@ -81,7 +81,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>

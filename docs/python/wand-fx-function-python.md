@@ -8,7 +8,7 @@ FX 特效是一种强大的“微型”语言。简单的函数和操作符提�
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.fx(fx_string)
 > 
 > ```
@@ -25,7 +25,7 @@ FX 特效是一种强大的“微型”语言。简单的函数和操作符提�
 
 **例 1:**
 
-```
+```py
 # import IMage from wand.image module
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:**
 
-```
+```py
 # import IMage from wand.image module
 from wand.image import Image
 

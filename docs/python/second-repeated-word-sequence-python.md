@@ -5,7 +5,7 @@
 给定一个字符串序列，任务是找出给定序列中第二个重复(或最频繁)的字符串。(考虑到没有两个单词是重复次数第二多的，总会有一个单词)。
 示例:
 
-```
+```py
 Input : {"aaa", "bbb", "ccc", "bbb", 
          "aaa", "aaa"}
 Output : bbb
@@ -24,7 +24,7 @@ Output : for
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to print Second most repeated
 # word in a sequence in Python
 from collections import Counter
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 bbb
 ```
 
@@ -64,7 +64,7 @@ bbb
 
 ## 蟒蛇 3
 
-```
+```py
 # returns the second most repeated word
 from collections import Counter
 class Solution:
@@ -93,7 +93,7 @@ contributed by Pratyush Pratap Singh
 
 **Output**
 
-```
+```py
 bbb
 
 ```

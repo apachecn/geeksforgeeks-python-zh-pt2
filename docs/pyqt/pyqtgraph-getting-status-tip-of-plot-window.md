@@ -6,7 +6,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个绘图窗口
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -22,7 +22,7 @@ window = pg.plot()
 
 下面是实现
 
-```
+```py
 # importing QtGui to use QIcon
 from PyQt5.QtGui import * 
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 **输出:**
 ![](img/d928ea4847b0d4c4f33902e24714df18.png)
 
-```
+```py
 Status Tip : It is status tip
 
 ```

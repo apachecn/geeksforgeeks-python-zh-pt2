@@ -8,7 +8,7 @@ n PyQt5 有许多小部件和栏，当我们倾向于制作一个应用程序时
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.statusBar().setWhatsThis()
 > self.statusBar().whatsThis()
 > 
@@ -24,7 +24,7 @@ n PyQt5 有许多小部件和栏，当我们倾向于制作一个应用程序时
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

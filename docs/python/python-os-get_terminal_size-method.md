@@ -15,7 +15,7 @@ Python 中的`***os.get_terminal_size()***`方法用于查询终端的大小。�
 
 **代码:**使用 os.get_terminal_size()方法
 
-```
+```py
 # Python program to explain os.get_terminal_size() method 
 
 # importing os module 
@@ -32,7 +32,7 @@ print(size)
 
 **Output:**
 
-```
+```py
 os.terminal_size(columns=80, lines=24)
 
 ```

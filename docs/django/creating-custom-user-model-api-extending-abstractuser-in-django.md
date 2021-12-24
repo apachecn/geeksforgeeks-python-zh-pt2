@@ -22,7 +22,7 @@
 
 **命令–**
 
-```
+```py
 $ cd ~/Desktop
 $ mkdir code && cd code
 $ pipenv install django
@@ -35,7 +35,7 @@ $ pipenv install rest_framework
 
 现在，在 settings.py 中添加以下代码，
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
    'django.contrib.auth',
@@ -65,7 +65,7 @@ REST_FRAMEWORK = {
 
 之后，我们需要创建一个定制的用户模型。为此，请更改您的 models.py 文件，如下所示。在这里，我们扩展了抽象用户，并将身份验证凭据更改为电子邮件。我们还在自定义用户中添加了一些额外的字段
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.utils.translation import ugettext_lazy as _
@@ -84,7 +84,7 @@ class User(AbstractUser):
 
 之后，我们还需要将这些更改保存到管理面板中。将此代码添加到管理副本中
 
-```
+```py
 from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
@@ -115,7 +115,7 @@ admin.site.register(User, UserAdmin)
 
 现在在你的应用程序中创建一个 serializers.py 文件。将以下代码添加到序列化程序中。巴拉圭
 
-```
+```py
 rom rest_framework import serializers
 from api.models import  User
 class UserSerializer(serializers.ModelSerializer):
@@ -126,7 +126,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 现在在你的应用程序中创建一个 API/URL . py 文件，并添加以下行
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
@@ -137,7 +137,7 @@ urlpatterns = [
 
 现在将以下代码添加到项目的登录/URL . py 中
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 
@@ -149,7 +149,7 @@ urlpatterns = [
 
 我们都设置了自定义用户模型。现在将这些更改保存到您的项目中，并通过 CLI 进行迁移
 
-```
+```py
 $ python manage.py makemigrations users
 $ python manage.py migrate
 
@@ -157,7 +157,7 @@ $ python manage.py migrate
 
 现在创建一个超级用户
 
-```
+```py
 $ python manage.py createsuperuser
 Email address: test@test.com
 Password:
@@ -168,7 +168,7 @@ Superuser created successfully.
 
 现在使用运行服务器。
 
-```
+```py
 $ python manage.py runserver
 
 ```

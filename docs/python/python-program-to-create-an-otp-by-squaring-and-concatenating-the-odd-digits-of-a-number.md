@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: 4365188
 Output: 9256
 
@@ -21,7 +21,7 @@ Output: 4163
 
 下面是实现。
 
-```
+```py
 # python program to generate
 # an OTP from the squares of the
 # odd digits
@@ -53,7 +53,7 @@ OTP(number)
 
 **输出:**
 
-```
+```py
 9256
 
 ```

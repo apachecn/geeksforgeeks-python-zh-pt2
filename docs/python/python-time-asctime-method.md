@@ -4,7 +4,7 @@
 
 **Python time 方法 time . as time()**用于将元组或 **time.struct_time** 对象转换为以下形式的字符串，该对象表示由 **time.gmtime()** 或 **time.localtime()** 方法返回的时间:
 
-```
+```py
 Day Mon Date Hour:Min:Sec Year
 For example:
 Thu 08 22 10:46:56 2019
@@ -28,7 +28,7 @@ Thu 08 22 10:46:56 2019
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain time.asctime() method
 
 # importing time module
@@ -104,7 +104,7 @@ print(time_str)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain time.asctime() method
 
 # importing time module
@@ -130,7 +130,7 @@ print(time_str)
 
 **输出:**
 
-```
+```py
 Thu Oct  7 21:01:45 2021
 ```
 
@@ -138,7 +138,7 @@ Thu Oct  7 21:01:45 2021
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain time.asctime() method
 
 # importing time module
@@ -160,6 +160,6 @@ print(time_str)
 
 **输出:**
 
-```
+```py
 Thu Aug 22 11:21:48 2019
 ```

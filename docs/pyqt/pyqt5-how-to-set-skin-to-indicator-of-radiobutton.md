@@ -6,7 +6,7 @@
 
 皮肤是一个背景图像，它会根据指示器的大小自行调整。为了给指示器设置外观，我们必须更改单选按钮的样式表。下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 border-image : url(image.png);
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

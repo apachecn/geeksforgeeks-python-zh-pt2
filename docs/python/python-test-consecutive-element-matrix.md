@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test Consecutive Element Matrix
 # Using loop
@@ -52,7 +52,7 @@ print("Is Matrix Consecutive ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 5, 6], [7], [8, 9, 10], [11, 12]]
 Is Matrix Consecutive ? : True
 ```
@@ -63,7 +63,7 @@ Is Matrix Consecutive ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test Consecutive Element Matrix
 # Using chain.from_iterable() + all()
@@ -88,7 +88,7 @@ print("Is Matrix Consecutive ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 5, 6], [7], [8, 9, 10], [11, 12]]
 Is Matrix Consecutive ? : True
 ```

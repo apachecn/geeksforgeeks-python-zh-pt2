@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```py
 Input: GCTAA
 Output: CGAUU
 
@@ -33,7 +33,7 @@ Output: CG
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function
 # for transcription
 def transcript(x) :
@@ -72,7 +72,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Translated DNA : CGAUU
 
 ```

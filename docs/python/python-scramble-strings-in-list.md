@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `sample() + join()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们需要将字符串分解成字符列表，使用 sample()进行加扰，使用 join()重新连接它们，然后使用列表理解重新制作列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Scramble strings in list
 # using list comprehension + sample() + join()
@@ -29,7 +29,7 @@ print("Scrambled strings in lists are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 Scrambled strings in lists are : ['fgg', 'is', 'btse', 'rof', 'sgeke']
 

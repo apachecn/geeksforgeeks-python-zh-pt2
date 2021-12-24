@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of next()
 
@@ -46,7 +46,7 @@ while (1):
 
 **输出:**
 
-```
+```py
 The contents of list are : 
 1
 2
@@ -60,7 +60,7 @@ list end
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4, 5]
 
 # converting list to iterator
@@ -74,7 +74,7 @@ print(next(list1))
 
 **输出:**
 
-```
+```py
 <list_iterator object at 0x0000021D7C801D88>
 1
 2
@@ -85,7 +85,7 @@ print(next(list1))
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4, 5]
 
 # converting list to iterator
@@ -103,7 +103,7 @@ print(next(list1, -1))
 
 **输出:**
 
-```
+```py
 <list_iterator object at 0x0000021D7AE08908>
 1
 2
@@ -118,7 +118,7 @@ print(next(list1, -1))
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [1, 2, 3, 4, 5]
 
 # converting list to iterator
@@ -135,7 +135,7 @@ print(next(list1))
 
 **输出:**
 
-```
+```py
 <list_iterator object at 0x0000021D7ADF55C8>
 1
 2
@@ -158,7 +158,7 @@ StopIteration:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # next() vs for loop
 import time
@@ -194,7 +194,7 @@ print("Time taken for loop is : " + str(time.time() - start_for))
 
 **输出:**
 
-```
+```py
 The contents of list are : 
 1
 2

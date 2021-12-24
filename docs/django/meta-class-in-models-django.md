@@ -16,7 +16,7 @@ Django 是一个高级 Python Web 框架，它鼓励快速开发和干净、实�
 
 要使用模型元，你必须像这样在你的模型中添加类元
 
-```
+```py
 class student(models.Model):
     class Meta:
         options........
@@ -32,7 +32,7 @@ class student(models.Model):
 
 ## python 3
 
-```
+```py
 class student(models.Model):
   class Meta:
       abstract = True

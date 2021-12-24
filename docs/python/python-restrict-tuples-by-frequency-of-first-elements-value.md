@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Restrict Tuples by frequency of first element's value
 # Using loop + keys() + conditional statements
@@ -69,7 +69,7 @@ print("Filtered tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Restrict Tuples by frequency of first element's value
 # Using defaultdict() + filter() + lambda

@@ -12,7 +12,7 @@
 
 **步骤 2:** 检查 pip3 和 python3 是否安装正确。
 
-```
+```py
 python3 --version
 pip3 --version
 ```
@@ -21,7 +21,7 @@ pip3 --version
 
 **第三步:**升级 pip，避免安装时出错。
 
-```
+```py
 pip3 install --upgrade pip
 ```
 
@@ -29,7 +29,7 @@ pip3 install --upgrade pip
 
 **第 4 步:**输入以下命令，使用 pip 安装美人汤。
 
-```
+```py
 pip3 install beautifulsoup4
 ```
 
@@ -45,7 +45,7 @@ pip3 install beautifulsoup4
 
 **步骤 2:** 使用以下命令提取下载的包。
 
-```
+```py
 tar -xzvf bs.tar.gz 
 ```
 
@@ -53,7 +53,7 @@ tar -xzvf bs.tar.gz
 
 **第三步:**进入文件夹输入以下命令安装软件包。
 
-```
+```py
 cd beautifulsoup4-4.10.0
 python3 setup.py install
 ```
@@ -64,7 +64,7 @@ python3 setup.py install
 
 在 Python 终端中导入模块，检查美丽汤是否安装正确
 
-```
+```py
 from bs4 import BeautifulSoup
 ```
 

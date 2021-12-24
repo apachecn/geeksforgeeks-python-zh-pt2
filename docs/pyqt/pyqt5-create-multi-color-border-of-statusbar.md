@@ -12,7 +12,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.statusBar().setStyleSheet("border :5px solid ;"
 >                                "border-top-color : pink; "
 >                                "border-left-color :green;"
@@ -27,7 +27,7 @@
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

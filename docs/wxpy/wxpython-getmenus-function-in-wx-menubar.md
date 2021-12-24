@@ -11,7 +11,7 @@ getMenus()函数中不需要参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
 **控制台输出:**
 
-```
+```py
 [(<wx._core.Menu object at 0x00000075049250D0>, '&File'), (<wx._core.Menu object at 0x0000007504925160>, '&Info')]
 
 ```

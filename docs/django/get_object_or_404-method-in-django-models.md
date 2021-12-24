@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import get_object_or_404()
 from django.shortcuts import get_object_or_404
 
@@ -29,7 +29,7 @@ retrieving product (pk is primary key)
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http404
 from django.http import Http404
 
@@ -47,13 +47,13 @@ def product_view(request):
 
 QuerySet 实例用于在从数据库提取数据时过滤数据。例如，我们想只取鞋，那么我们可以写:
 
-```
+```py
 queryset = Products.objects.filter(type='shoes')
 get_object_or_404(queryset)
 ```
 
 我们可以用一行来简化上面的例子:
 
-```
+```py
 get_object_or_404(Products, type='shoes') 
 ```

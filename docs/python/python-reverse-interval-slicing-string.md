@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Interval Slicing String
 # Using String Slicing 1
@@ -32,7 +32,7 @@ print("The reverse Interval Slice : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks
 The reverse Interval Slice : segoseg
 ```
@@ -42,7 +42,7 @@ The reverse Interval Slice : segoseg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Interval Slicing String
 # Using String Slicing 2
@@ -66,7 +66,7 @@ print("The reverse Interval Slice : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks
 The reverse Interval Slice : segoseg
 ```

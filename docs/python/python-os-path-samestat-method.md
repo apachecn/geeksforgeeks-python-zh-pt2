@@ -16,7 +16,7 @@ Python 中的 ***方法用于检查给定的 *stat* 元组是否引用同一个�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.samestat() method
 
 # importing os module
@@ -89,7 +89,7 @@ print(sameFile)
 
 **Output:** 
 
-```
+```py
 True
 True
 False

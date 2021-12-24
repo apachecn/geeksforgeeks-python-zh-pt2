@@ -16,7 +16,7 @@
 
 **例 1 :**
 
-```
+```py
 # import package
 import turtle
 
@@ -38,7 +38,7 @@ turtle.clear()
 
 **例 2 :**
 
-```
+```py
 # import package
 import turtle
 

@@ -22,7 +22,7 @@
 
 为了实现它，我们将使用 Python 3.3 的 ipaddress 模块的 **ip_network** 和 **network_address** 方法。
 
-```
+```py
 # importing ip_network from ipaddress module
 from ipaddress import ip_network
 
@@ -50,7 +50,7 @@ if __name__ == '__main__' : 
 
 **输出:**
 
-```
+```py
 Same Network
 Different Network
 ```

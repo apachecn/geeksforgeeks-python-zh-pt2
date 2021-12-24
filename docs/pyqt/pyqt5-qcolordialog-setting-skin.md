@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须借助 set 样式表方法将样式表设置为 QColorDialog 对象，下面是样式表代码
 
-```
+```py
 border-image : url(image.png);
 ```
 
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

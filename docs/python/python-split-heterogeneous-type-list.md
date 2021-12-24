@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split heterogeneous type list
 # using list comprehension + isinstance
@@ -32,7 +32,7 @@ print("String list : " + str(res_str))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 1, 2, 'is', 'best']
 Integer list : [1, 2]
 String list : ['gfg', 'is', 'best']
@@ -43,7 +43,7 @@ String list : ['gfg', 'is', 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split heterogeneous type list
 # using defaultdict() + loop
@@ -68,7 +68,7 @@ print("String list : " + str(res[str]))
 
 **Output : **
 
-```
+```py
 The original list : ['gfg', 1, 2, 'is', 'best']
 Integer list : [1, 2]
 String list : ['gfg', 'is', 'best']

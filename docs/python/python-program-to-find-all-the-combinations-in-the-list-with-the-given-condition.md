@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Optional Elements Combinations
 # Using loop

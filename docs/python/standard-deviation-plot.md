@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary modeules
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -61,7 +61,7 @@ graph.axhline(df[" _tempm"].std(), color='red')
 plt.show()
 ```
 
-```
+```py
 datetime_utc    _conds    _dewptm    _fog    _hail    _heatindexm    _hum    _precipm    _pressurem    _rain    _snow    _tempm    _thunder    _tornado    _vism    _wdird    _wdire    _wgustm    _windchillm    _wspdm
 0    1996-11-01    Smoke    9.0    0    0    NaN    27.0    NaN    1010.0    0    0    30.0    0    0    5.0    280.0    West    NaN    NaN    7.4
 1    1996-11-01    Smoke    10.0    0    0    NaN    32.0    NaN    -9999.0    0    0    28.0    0    0    NaN    0.0    North    NaN    NaN    NaN
@@ -70,7 +70,7 @@ datetime_utc    _conds    _dewptm    _fog    _hail    _heatindexm    _hum    _pr
 4    1996-11-01    Smoke    11.0    0    0    NaN    47.0    NaN    1011.0    0    0    23.0    0    0    1.2    0.0    North    NaN    NaN    0.0
 ```
 
-```
+```py
 datetime_utc
 April        5.817769
 August       2.928722

@@ -24,7 +24,7 @@ Django 内置的认证系统很棒。在很大程度上，我们可以开箱即�
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
@@ -38,7 +38,7 @@ class Post(models.Model):
 
 通过在 admin.py 中添加以下代码来注册这个模型。
 
-```
+```py
 from django.contrib import admin
 from .models import Post
 
@@ -65,7 +65,7 @@ Django 允许您通过为 AUTH_USER_MODEL 设置提供一个引用自定义模�
 
 如果您已经在名为 user 的应用程序中创建了一个自定义用户模型，那么您应该在您的 settings.py 文件中引用它，如下所示:
 
-```
+```py
 #settings.py
 
 AUTH_USER_MODEL = 'users.CustomUser'
@@ -75,7 +75,7 @@ AUTH_USER_MODEL = 'users.CustomUser'
 
 ## 蟒蛇 3
 
-```
+```py
 # blog/models.py
 from django.conf import settings
 from django.db import models
@@ -88,7 +88,7 @@ class Post(models.Model):
 
 通过在 admin.py 中添加以下代码来注册这个模型。
 
-```
+```py
 from django.contrib import admin
 from .models import Post
 
@@ -106,7 +106,7 @@ admin.site.register(Post)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.contrib.auth import get_user_model
 User=get_user_model()
@@ -121,7 +121,7 @@ class Post(models.Model):
 
 通过在 admin.py 中添加以下代码来注册这个模型。
 
-```
+```py
 from django.contrib import admin
 from .models import Post
 

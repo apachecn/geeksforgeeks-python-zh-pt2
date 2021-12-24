@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 del list_name[index]  # To delete single value
 del list_name        # To delete whole list
 ```
@@ -19,7 +19,7 @@ del list_name        # To delete whole list
 
 ## 蟒蛇 3
 
-```
+```py
 # program to demonstrate use of del keyword
 
 # assign list
@@ -46,7 +46,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [1, 2, 2, 3, 4, 5]
 [1, 2, 2, 3, 4]
 [2, 2, 3, 4]
@@ -58,7 +58,7 @@ print(numbers)
 
 **语法:**
 
-```
+```py
 list_name.remove(value)
 ```
 
@@ -66,7 +66,7 @@ list_name.remove(value)
 
 ## 蟒蛇 3
 
-```
+```py
 # program to demonstrate use of remove() method
 
 # assign list
@@ -93,7 +93,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [1, 2, 2, 3, 4, 5]
 [1, 2, 3, 4, 5]
 [1, 2, 3, 4]
@@ -105,7 +105,7 @@ print(numbers)
 
 **语法:**
 
-```
+```py
 list_name.pop(index)
 ```
 
@@ -113,7 +113,7 @@ list_name.pop(index)
 
 ## 蟒蛇 3
 
-```
+```py
 # program to demonstrate use of pop() method
 
 # assign list
@@ -140,7 +140,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 3, 4, 5]
 [1, 2, 3, 3, 4]
 [2, 3, 3, 4]

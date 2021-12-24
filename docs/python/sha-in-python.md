@@ -4,7 +4,7 @@
 
 SHA(安全散列算法)是由语言定义的一组加密散列函数，用于各种应用，如密码安全等。Python 在“ **hashlib** ”库中支持它的一些变体。这些可以使用 hashlib 的“algorithms _ guaranteed”函数找到。
 
-```
+```py
 # Python 3 code to check 
 # available algorithms
 
@@ -17,7 +17,7 @@ print (hashlib.algorithms_guaranteed)
 
 输出:
 
-```
+```py
 The available algorithms are : {'sha256', 'sha384', 'sha224', 'sha512', 'sha1', 'md5'}
 
 ```
@@ -41,7 +41,7 @@ The available algorithms are : {'sha256', 'sha384', 'sha224', 'sha512', 'sha1', 
 
 下面的代码实现了这些散列函数。
 
-```
+```py
 # Python 3 code to demonstrate
 # SHA hash algorithms.
 
@@ -113,7 +113,7 @@ print(result.hexdigest())
 
 输出:
 
-```
+```py
 The hexadecimal equivalent of SHA256 is : 
 f6071725e7ddeb434fb6b32b8ec4a2b14dd7db0d785347b2fb48f9975126178f
 

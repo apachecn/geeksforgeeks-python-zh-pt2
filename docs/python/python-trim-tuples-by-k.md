@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Trim tuples by K
 # Using loop + slicing
@@ -57,7 +57,7 @@ print("Converted Tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Trim tuples by K
 # Using list comprehension + slicing

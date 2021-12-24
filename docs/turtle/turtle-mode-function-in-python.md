@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -34,7 +34,7 @@ print(turtle.mode())
 
 **输出:**
 
-```
+```py
 standard
 
 ```
@@ -43,7 +43,7 @@ standard
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

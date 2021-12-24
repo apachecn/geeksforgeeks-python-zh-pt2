@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove strings with any non-required character
 # Using list comprehension + any()
@@ -42,7 +42,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Filtered Strings : ['best', 'geeks']
 
@@ -54,7 +54,7 @@ Filtered Strings : ['best', 'geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove strings with any non-required character
 # Using filter() + lambda + any()
@@ -79,7 +79,7 @@ print("Filtered Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Filtered Strings : ['best', 'geeks']
 

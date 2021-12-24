@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace to K at ith Index in String
 # using string slicing
@@ -44,7 +44,7 @@ print("The constructed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks5geeks
 The constructed string : geeks4geeks
 
@@ -56,7 +56,7 @@ The constructed string : geeks4geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace to K at ith Index in String
 # using join() + generator expression
@@ -82,7 +82,7 @@ print("The constructed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks5geeks
 The constructed string : geeks4geeks
 

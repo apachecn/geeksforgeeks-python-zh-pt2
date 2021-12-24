@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 4
 Output: 16
 
@@ -31,7 +31,7 @@ Output: 100
 
 ## 蟒蛇 3
 
-```
+```py
 # Declaring the number.
 n = 4
 
@@ -45,7 +45,7 @@ print(square)
 
 **输出:**
 
-```
+```py
 16
 ```
 
@@ -61,7 +61,7 @@ print(square)
 
 ## 蟒蛇 3
 
-```
+```py
 # Declaring the number.
 n = 4
 
@@ -75,7 +75,7 @@ print(square)
 
 **输出:**
 
-```
+```py
 16
 ```
 
@@ -98,7 +98,7 @@ print(square)
 
 ## 蟒蛇 3
 
-```
+```py
 # Declaring the number.
 n = 4
 
@@ -112,6 +112,6 @@ print(square)
 
 **输出:**
 
-```
+```py
 16.0
 ```

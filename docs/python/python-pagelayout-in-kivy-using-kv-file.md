@@ -15,7 +15,7 @@ PageLayout 类用于创建一个简单的多页布局，允许使用边框轻松
 
 要使用页面布局，您必须通过以下命令导入它:
 
-```
+```py
 from kivy.uix.pagelayout import PageLayout
 ```
 
@@ -24,7 +24,7 @@ from kivy.uix.pagelayout import PageLayout
 
 **示例:**
 
-```
+```py
 PageLayout:
     Button:
         text: 'page1'
@@ -44,7 +44,7 @@ PageLayout:
 
 **使用创建页面布局的基本方法。kv 文件**
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import Pagelayout
@@ -67,7 +67,7 @@ PageLayout:
 
 ## 蟒蛇 3
 
-```
+```py
 ## Sample Python application demonstrating the
 ## working of PageLayout in Kivy using .kv file
 
@@ -113,7 +113,7 @@ plApp.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating simple Pagelayout using.kv
 
 <PageLayout>:
@@ -151,7 +151,7 @@ plApp.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating simple Pagelayout using.kv
 
 # creating page Layout

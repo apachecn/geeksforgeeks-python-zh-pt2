@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # reversed()
 
@@ -39,7 +39,7 @@ print(list(reversed(seqRange)))
 
 ****输出:****
 
-```
+```py
 ['s', 'k', 'e', 'e', 'g']
 [4, 3, 2, 1]
 ```
@@ -48,7 +48,7 @@ print(list(reversed(seqRange)))
 
 ## **蟒蛇 3**
 
-```
+```py
 class gfg:
     vowels = ['a', 'e', 'i', 'o', 'u']
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
 ****输出:****
 
-```
+```py
 ['u', 'o', 'i', 'e', 'a']
 ```
 
@@ -72,14 +72,14 @@ if __name__ == '__main__':
 
 ## **蟒蛇 3**
 
-```
+```py
 vowels = ['a', 'e', 'i', 'o', 'u']
 print(list(reversed(vowels)))
 ```
 
 ****输出:****
 
-```
+```py
 ['u', 'o', 'i', 'e', 'a']
 ```
 
@@ -87,14 +87,14 @@ print(list(reversed(vowels)))
 
 ## **蟒蛇 3**
 
-```
+```py
 str = "Geeksforgeeks"
 print(list(reversed(str)))
 ```
 
 ****输出:****
 
-```
+```py
 ['s', 'k', 'e', 'e', 'g', 'r', 'o', 'f', 's', 'k', 'e', 'e', 'G']
 ```
 
@@ -102,7 +102,7 @@ print(list(reversed(str)))
 
 ## **蟒蛇 3**
 
-```
+```py
 # For list
 seqList = [1, 2, 4, 3, 5]
 print(list(reversed(seqList)))
@@ -110,6 +110,6 @@ print(list(reversed(seqList)))
 
 ****输出:****
 
-```
+```py
 [5, 3, 4, 2, 1]
 ```

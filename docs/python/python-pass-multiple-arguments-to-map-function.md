@@ -21,7 +21,7 @@ map()函数是 Python 中的一个内置函数，它将一个给定的函数应�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show working
 # of map() function
 
@@ -37,7 +37,7 @@ print(list(res))
 
 **输出:**
 
-```
+```py
 [8, 64, 216, 512]
 
 ```
@@ -64,7 +64,7 @@ print(list(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # passing of multiple iterable arguments to map()
 # using 2 lists
@@ -85,7 +85,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 [3, 7, 11, 15]
 
 ```
@@ -103,7 +103,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # passing of multiple iterable arguments to map()
 # using 3 lists
@@ -127,7 +127,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 [4, 36, 150, 392, 990, 1716, 3570]
 
 ```
@@ -145,7 +145,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # passing of multiple iterable arguments to map()
 # using list and tuple

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings by Case difference
 # Using sort() + islower() + isupper() + abs()
@@ -56,7 +56,7 @@ print("Sorted Strings by case difference : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Python3 code to demonstrate working of
 # Sort Strings by Case difference

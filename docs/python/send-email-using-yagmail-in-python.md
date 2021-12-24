@@ -8,7 +8,7 @@
 
 #### 安装:
 
-```
+```py
 pip install yagmail
 ```
 
@@ -36,7 +36,7 @@ pip install yagmail
 
 ## 蟒蛇 3
 
-```
+```py
 # importing yagmail and its packages
 import yagmail
 
@@ -59,7 +59,7 @@ yag.send("Receiver's Email Address", 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing yagmail and its packages
 import yagmail
 
@@ -86,7 +86,7 @@ yag.send("Receiver@gmail.com","Subject Of Mail","Content Of Mail",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing yagmail and its packages
 import yagmail
 
@@ -113,7 +113,7 @@ yag.send(to=["recipient1@gmail.com","recipient2@gmail.com",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing yagmail and its packages
 import yagmail
 
@@ -140,7 +140,7 @@ yag.send(to = "Receiver1@gmail.com", cc = "Receiver2@gmail.com",
 
 ## 蟒蛇 3
 
-```
+```py
 # importing yagmail and its packages
 import yagmail
 

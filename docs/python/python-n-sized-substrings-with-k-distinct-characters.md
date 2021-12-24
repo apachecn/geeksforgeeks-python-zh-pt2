@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # N sized substrings with K distinct characters
 # Using slicing + set() + loop
@@ -50,7 +50,7 @@ print("Extracted Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeksforgeeks
 Extracted Strings : ['gee', 'eek', 'gee', 'eek', 'gee', 'eek']
 ```
@@ -61,7 +61,7 @@ Extracted Strings : ['gee', 'eek', 'gee', 'eek', 'gee', 'eek']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # N sized substrings with K distinct characters
 # Using list comprehension + len() + set() + slicing
@@ -89,7 +89,7 @@ print("Extracted Strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeksforgeeks
 Extracted Strings : ['gee', 'eek', 'gee', 'eek', 'gee', 'eek']
 ```

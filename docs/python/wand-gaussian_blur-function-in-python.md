@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.gaussian_blur(radius="radius_value", 
 >                            sigma="sigma_value", 
 >             channel = "optional_channel_value")
@@ -27,7 +27,7 @@
 
 **示例#1:**
 
-```
+```py
 # import display() to show final image
 from wand.display import display
 
@@ -52,7 +52,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 半径和σ减小
 
-```
+```py
 # import display() to show final image
 from wand.display import display
 

@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何将多个 CSV 文件读入单独的数据帧。对于只读取一个数据帧，我们可以使用熊猫的 [pd.read_csv()](https://www.geeksforgeeks.org/python-read-csv-using-pandas-read_csv/) 功能。它以一条路径作为输入，返回类似
 
-```
+```py
 df = pd.read_csv("file path")
 ```
 
@@ -16,7 +16,7 @@ df = pd.read_csv("file path")
 
 T5
 
-```
+```py
 # import module
 import pandas as pd
 

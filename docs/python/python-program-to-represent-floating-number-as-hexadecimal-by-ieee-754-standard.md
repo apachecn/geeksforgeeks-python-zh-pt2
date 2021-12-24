@@ -10,7 +10,7 @@ IEEE 浮点运算标准(IEEE 754)是电气和电子工程师协会(IEEE)于 1985
 
 **例:**
 
-```
+```py
 Input :  -6744.90
 Output :  C5D2C733
 
@@ -32,7 +32,7 @@ Output :  C383A666
 
 ## 蟒蛇 3
 
-```
+```py
 # Function for converting decimal to binary
 def float_bin(my_number, places = 3):
     my_whole, my_dec = str(my_number).split(".")
@@ -94,7 +94,7 @@ if __name__ == "__main__" :
 
 **Output:** 
 
-```
+```py
 4383A666
 C383A666
 ```

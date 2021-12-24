@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Frame(parent, id=ID_ANY, title="", pos=DefaultPosition,
 >          size=DefaultSize, style=DEFAULT_FRAME_STYLE, name=FrameNameStr)
 > ```
@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import wxPython
 import wx
 

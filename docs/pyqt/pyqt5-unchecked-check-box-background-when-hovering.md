@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须改变复选框的样式表，当鼠标悬停在复选框上时，必须为选中状态添加背景色。下面是样式表代码。
 
-```
+```py
 QCheckBox::checked:hover
 {
 background-color : pink;
@@ -17,7 +17,7 @@ background-color : pink;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

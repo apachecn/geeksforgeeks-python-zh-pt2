@@ -9,7 +9,7 @@
 
 **算法:**
 
-```
+```py
 printReverse(head)
   1\. call print reverse for head->next
   2\. print head->data
@@ -19,7 +19,7 @@ printReverse(head)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to print reverse
 # of a linked list 
 
@@ -68,7 +68,7 @@ llist.printrev(llist.head)
 
 **输出:**
 
-```
+```py
 4 3 2 1
 ```
 

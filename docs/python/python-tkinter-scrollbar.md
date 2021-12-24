@@ -13,7 +13,7 @@ Python 为开发图形用户界面提供了多种选择。在所有的 GUI 方�
 **语法:**
 使用滚动条小部件的语法如下。
 
-```
+```py
 w = Scrollbar(master, options) 
 ```
 
@@ -50,7 +50,7 @@ w = Scrollbar(master, options)
 
 **示例:**
 
-```
+```py
 from tkinter import *
 
 root = Tk()

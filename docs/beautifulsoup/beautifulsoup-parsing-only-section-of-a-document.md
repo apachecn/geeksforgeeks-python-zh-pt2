@@ -10,19 +10,19 @@
 
 *   ****美化程序:**我们的主模块包含一个通过 HTTP 访问网页的方法。**
 
-```
+```py
 pip install bs4
 ```
 
 *   ****lxml:** 处理 python 语言网页的助手库。**
 
-```
+```py
 pip install lxml
 ```
 
 *   ****请求:**使发送 HTTP 请求的过程完美无缺。函数的输出**
 
-```
+```py
 pip install requests
 ```
 
@@ -32,7 +32,7 @@ pip install requests
 
 ## **蟒蛇 3**
 
-```
+```py
 from bs4 import BeautifulSoup,SoupStrainer 
 import requests 
 
@@ -52,7 +52,7 @@ webpage = requests.get(URL, headers= HEADERS) 
 
 ## **蟒蛇 3**
 
-```
+```py
 soup = BeautifulSoup(webpage.content, "lxml",
                      parse_only = SoupStrainer(
                        'span', class_ = 'mw-headline'))
@@ -64,7 +64,7 @@ print(soup.prettify())
 
 ## **蟒蛇 3**
 
-```
+```py
 from bs4 import BeautifulSoup,SoupStrainer 
 import requests 
 

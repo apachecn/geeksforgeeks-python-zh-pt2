@@ -4,7 +4,7 @@
 
 [JSON](https://www.geeksforgeeks.org/javascript-json/) 是一种轻量级的数据交换数据格式，人类可以轻松读写，机器可以轻松解析生成。这是一种完全独立于语言的文本格式。为了处理 json 数据，Python 有一个名为 JSON 的内置包。
 
-```
+```py
 Example:
 s = '{"id":01, "name": "Emily", "language": ["C++", "Python"]}'
 ```
@@ -24,7 +24,7 @@ JSON 的语法被认为是 JavaScript 语法的子集，包括以下内容:
 *   布尔代数学体系的
 *   空
 
-```
+```py
 Example:
  {
    "employee": [
@@ -49,7 +49,7 @@ Example:
 json.loads()方法可以解析一个 json 字符串，结果将是一个 Python 字典。
 **语法:**
 
-```
+```py
 json.loads(json_string)
 ```
 
@@ -57,7 +57,7 @@ json.loads(json_string)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert JSON to Python
 
 import json
@@ -74,7 +74,7 @@ print(employee_dict['name'])
 
 **输出:**
 
-```
+```py
 {'id': '09', 'department': 'Finance', 'name': 'Nitin'}
 Nitin
 ```
@@ -84,7 +84,7 @@ Nitin
 方法可以读取包含 json 对象的文件。考虑一个名为 employee.json 的文件，其中包含一个 json 对象。
 **语法:**
 
-```
+```py
 json.load(file_object)
 ```
 
@@ -96,7 +96,7 @@ json.load(file_object)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read
 # json file
 

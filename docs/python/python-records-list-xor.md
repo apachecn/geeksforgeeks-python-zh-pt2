@@ -7,7 +7,7 @@
 **方法#1:使用`reduce() + lambda + “^” operator` +循环**
 以上功能可以组合执行此任务。我们可以首先使用循环展平元组列表，然后使用 reduce()来累加 lambda 函数指定的异或逻辑的结果。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of 
 # Records list XOR
 # Using reduce() + lambda + "^" operator + loops
@@ -32,7 +32,7 @@ print("The Bitwise XOR of records list elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 6), (2, ), (3, 8, 9)]
 The Bitwise XOR of records list elements are : 2
 

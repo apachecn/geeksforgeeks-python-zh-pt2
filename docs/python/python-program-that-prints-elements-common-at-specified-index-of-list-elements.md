@@ -18,7 +18,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing Matrix
 test_list = ["geeks", "weak", "beak", "peek"]
 
@@ -57,7 +57,7 @@ print("Extracted similar characters : " + str(res))*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing Matrix
 test_list = ["geeks", "weak", "beak", "peek"]
 

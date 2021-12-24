@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import time
 import hashlib

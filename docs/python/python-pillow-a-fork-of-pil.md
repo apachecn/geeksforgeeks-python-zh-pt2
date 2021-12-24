@@ -5,7 +5,7 @@
 Python 图像库(PIL 的扩展)是 Python 语言事实上的图像处理包。它集成了轻量级图像处理工具，有助于编辑、创建和保存图像。对 Python 图像库的支持在 2011 年停止了，但是一个名为枕头的项目分叉了最初的 PIL 项目，并增加了对 Python3.x 的支持。枕头被宣布为 PIL 未来使用的替代品。枕头支持大量的图像文件格式，包括 BMP、PNG、JPEG 和 TIFF。该库鼓励通过创建新的文件解码器来增加对库中新格式的支持。
 本模块未预装 Python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -21,7 +21,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # test.png => location_of_image
@@ -34,7 +34,7 @@ img = Image.open(r"test.png")  
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"test.png")
@@ -65,7 +65,7 @@ img.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"test.png")
@@ -74,7 +74,7 @@ print(img.mode)
 
 **输出:**
 
-```
+```py
 RGBA
 ```
 
@@ -86,7 +86,7 @@ RGBA
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"test.png")
@@ -95,7 +95,7 @@ print(img.size)
 
 **输出:**
 
-```
+```py
 (180, 263)
 ```
 
@@ -103,7 +103,7 @@ print(img.size)
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open(r"test.png")
@@ -112,7 +112,7 @@ print(img.format)
 
 **输出:**
 
-```
+```py
 PNG
 ```
 
@@ -122,7 +122,7 @@ PNG
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 angle = 40
@@ -140,7 +140,7 @@ r_img = img.rotate(angle)
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 size = (40, 40)
@@ -158,7 +158,7 @@ r_img.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 size = (40, 40)
@@ -175,7 +175,7 @@ print(img.size)
 
 **输出:**
 
-```
+```py
 (40, 40)
 
 ```

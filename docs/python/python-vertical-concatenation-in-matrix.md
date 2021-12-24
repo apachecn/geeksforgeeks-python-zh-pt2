@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Vertical Concatenation in Matrix
 # Using loop
@@ -50,7 +50,7 @@ print("List after column Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [['Gfg', 'good'], ['is', 'for'], ['Best']]
 List after column Concatenation : ['GfgisBest', 'goodfor']
 
@@ -62,7 +62,7 @@ List after column Concatenation : ['GfgisBest', 'goodfor']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Vertical Concatenation in Matrix
 # Using join() + list comprehension + zip_longest()
@@ -84,7 +84,7 @@ print("List after column Concatenation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [['Gfg', 'good'], ['is', 'for'], ['Best']]
 List after column Concatenation : ['GfgisBest', 'goodfor']
 

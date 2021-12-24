@@ -18,7 +18,7 @@ Python 中有许多可选项，如列表、元组等。 **range()** 给出了另
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # working of range() without step
 
@@ -42,7 +42,7 @@ print("List generated using 2 parameters with negatives : " + str(lis3))
 
 **输出:**
 
-```
+```py
 List generated using 1 parameter : [0, 1, 2, 3, 4, 5]
 List generated using 2 parameters : [3, 4, 5]
 List generated using 2 parameters with negatives : [-6, -5, -4, -3, -2, -1, 0, 1]
@@ -53,7 +53,7 @@ List generated using 2 parameters with negatives : [-6, -5, -4, -3, -2, -1, 0, 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate the
 # working of range() with step
 
@@ -82,7 +82,7 @@ print("List generated using 0 step : " +
 
 **输出:**
 
-```
+```py
 List generated using step : [3, 5, 7, 9]
 List generated using negative step : [10, 7, 4, 1, -2]
 List generated using step, value constraints fail : []
@@ -90,7 +90,7 @@ List generated using step, value constraints fail : []
 
 例外:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/bdae725dff7b38d3681eee38f6a6d434.py", line 23, in 
     print("List generated using 0 step : " + str(list(range(3, 7, 0))))

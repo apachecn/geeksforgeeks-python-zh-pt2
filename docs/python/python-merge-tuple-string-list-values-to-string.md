@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join()`**
 上述功能的组合可用于实现上述任务的求解。在这种情况下，我们使用列表理解获得字符列表，转换任务由`join()`执行。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge Tuple String List values to String
 # using list comprehension + join()

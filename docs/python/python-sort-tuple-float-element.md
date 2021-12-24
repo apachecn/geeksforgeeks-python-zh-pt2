@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : tuple = [('lucky', '18.265'), ('nikhil', '14.107'), 
                   ('akash', '24.541'), ('anand', '4.256'), ('gaurav', '10.365')]
 Output : [('akash', '24.541'), ('lucky', '18.265'), 
@@ -34,7 +34,7 @@ Sorted()对元组进行排序，并始终以排序的方式返回包含元素的
 
 为了按升序排序，我们可以忽略第三个参数。
 
-```
+```py
 # Python code to sort the tuples using float element
 # Function to sort using sorted()
 def Sort(tup):
@@ -51,7 +51,7 @@ print(Sort(tup))
 
 输出:
 
-```
+```py
 [('akash', '24.541'), ('lucky', '18.265'), ('nikhil', '14.107'),
  ('gaurav', '10.365'), ('anand', '4.256')]
 
@@ -61,7 +61,7 @@ print(Sort(tup))
 
 当通过这种方法排序时，元组的实际内容被改变，而在先前的方法中，原始元组的内容保持不变。
 
-```
+```py
 # Python code to sort the tuples using float element
 # Inplace way to sort using sort()
 def Sort(tup):
@@ -79,7 +79,7 @@ Sort(tup)
 
 输出:
 
-```
+```py
 [('akash', '24.541'), ('lucky', '18.265'), ('nikhil', '14.107'), 
  ('gaurav', '10.365'), ('anand', '4.256')]
 

@@ -10,7 +10,7 @@ Python 是一种成熟的语言，在加密货币领域得到了广泛的应用�
 
 加密货币的例子很少:
 
-```
+```py
 bitcoin
 ethereum
 ripple
@@ -56,7 +56,7 @@ Python 中的代码实现
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from datetime import date, timedelta, datetime
 from pymongo import MongoClient

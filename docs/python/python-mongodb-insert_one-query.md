@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -59,7 +59,7 @@ rec_id1 = collection.insert_one(record)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 

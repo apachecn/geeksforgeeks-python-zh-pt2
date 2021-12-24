@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `max() + combination()` + lambda**
 这个特定的任务可以使用上述函数的组合来执行，其中我们使用列表理解来绑定所有功能和 max 函数来获得最大和，组合函数在内部找到所有和，lambda 函数用于计算和。
 
-```
+```py
 # Python3 code to demonstrate 
 # Maximum Aggretation Pair in List
 # using list comprehension + max() + combinations() + lambda 
@@ -29,7 +29,7 @@ print("The maximum sum pair is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The maximum sum pair is : (7, 9)
 

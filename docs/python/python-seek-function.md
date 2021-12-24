@@ -32,13 +32,13 @@
 **注意:**除了偏移量等于 0 时，在文本模式下无法设置文件当前位置/结尾的参考点。
 **示例 1:** 假设我们必须读取一个名为“GfG.txt”的文件，该文件包含以下文本:
 
-```
+```py
 "Code is like humor. When you have to explain it, it’s bad."    
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # seek() method
 
@@ -59,20 +59,20 @@ f.close()
 
 **Output:**
 
-```
+```py
 20
 When you have to explain it, it’s bad.
 ```
 
 **例 2:** 负偏移量 Seek()函数仅在文件以二进制模式打开时有效。让我们假设二进制文件包含以下文本。
 
-```
+```py
 b'Code is like humor. When you have to explain it, its bad.'
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # use of seek() function
 
@@ -96,7 +96,7 @@ f.close()
 
 **Output:** 
 
-```
+```py
 47
 , its bad.
 ```

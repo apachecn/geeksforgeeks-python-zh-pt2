@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -72,7 +72,7 @@ sys.exit(App.exec())
 
 <video class="wp-video-shortcode" id="video-439130-1" width="640" height="512" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200625031445/Python-2020-06-25-03-14-18.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200625031445/Python-2020-06-25-03-14-18.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200625031445/Python-2020-06-25-03-14-18.mp4)</video>
 
-```
+```py
 Toggled Signal Emitted
 Toggled Signal Emitted
 Toggled Signal Emitted

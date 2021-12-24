@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+`max() + combination()`+λ**
 这个特殊的任务可以使用上述函数的组合来执行，其中我们使用列表理解来绑定所有功能和 max 函数来获得最大产品，组合函数在内部查找所有产品，λ函数用于计算产品。
 
-```
+```py
 # Python3 code to demonstrate
 # Pair with Maximum product
 # using list comprehension + max() + combinations() + lambda
@@ -29,7 +29,7 @@ print("The maximum product pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The maximum product pair is : (7, 9)
 

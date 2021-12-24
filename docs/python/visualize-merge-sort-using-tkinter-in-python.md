@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 from tkinter import *
 from tkinter import ttk

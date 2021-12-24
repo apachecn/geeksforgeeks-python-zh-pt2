@@ -8,25 +8,25 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 用法:
 
-```
+```py
 img_b64 = element.screenshot_as_base64
 ```
 
 **Syntax –**
 
-```
+```py
 element.screenshot_as_base64
 ```
 
 **示例–**
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -34,13 +34,13 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 现在可以获得这个元素的截图，基数为 64–
 
-```
+```py
 element.screenshot_as_base64
 ```
 
@@ -49,7 +49,7 @@ element.screenshot_as_base64
 让我们尝试使用**截图 _as_base64** 方法在 geeksforgeeks 获取元素及其截图。
 T3】计划–
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

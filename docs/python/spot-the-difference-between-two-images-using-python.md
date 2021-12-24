@@ -17,7 +17,7 @@
 
 **第一步:**所以，今天我们将使用 python 构建这个神奇的工具，同样只用 8 行代码。但是，在此之前，我们必须使用这个命令安装 python 的枕头包
 
-```
+```py
 pip install pillow
 ```
 
@@ -35,7 +35,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from PIL import Image, ImageChops
 

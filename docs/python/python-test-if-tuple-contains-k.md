@@ -7,7 +7,7 @@
 **方法#1:使用 `any() + map()` + lambda**
 组合上述功能可执行此任务。在本例中，我们使用 any()检查任何元素，逻辑的扩展由 map()和 lambda 完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if Tuple contains K
 # using any() + map() + lambda
@@ -31,7 +31,7 @@ print("Does tuple contain any K value ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (10, 4, 5, 6, 8)
 Does tuple contain any K value ? : True
 

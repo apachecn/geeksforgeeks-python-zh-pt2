@@ -7,7 +7,7 @@
 **方法 1:朴素方法+循环**
 在朴素方法中，我们只需遍历列表，在新列表中追加元素的第一次出现，并忽略该特定元素的所有其他出现。使用循环执行产品任务。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Unique values Multiplication
 # using naive methods + loop
@@ -38,7 +38,7 @@ print ("The unique elements product : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 The unique elements product : 90
 

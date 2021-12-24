@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:  1->10->30->14,  index = 2
 Output: 30  
 The node at index 2 is 30
@@ -14,7 +14,7 @@ The node at index 2 is 30
 
 **算法:**
 
-```
+```py
 1\. Initialize count = 0
 2\. Loop through the link list
      a. If count is equal to the passed index then return
@@ -27,7 +27,7 @@ The node at index 2 is 30
 
 ## 计算机编程语言
 
-```
+```py
 # A complete working Python program to 
 # find n'th node in a linked list
 
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Element at index 3 is 4
 ```
 
@@ -118,7 +118,7 @@ Element at index 3 is 4
 
 **算法:**
 
-```
+```py
 getnth(node,n)
 1\. Initialize count = 0
 2\. if count==n
@@ -131,7 +131,7 @@ getnth(node,n)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find n'th node in
 # linked list using recursion
 
@@ -202,7 +202,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Element at index 3 is 4
 ```
 

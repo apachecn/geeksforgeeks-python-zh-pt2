@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.kill() method
 
 # importing os and signal module 
@@ -71,7 +71,7 @@ else :
 
 **Output:** 
 
-```
+```py
 In child process
 
 In parent process

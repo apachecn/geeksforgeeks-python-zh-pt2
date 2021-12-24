@@ -16,7 +16,7 @@ Python 中的`***os.getloadavg()***`方法用于获取最近 1 分钟、5 分钟
 
 **Code:** Use of os.getloadavg() method to get the load average over the last 1, 5, and 15 minutes.
 
-```
+```py
 # Python program to explain os.getloadavg() method  
 
 # importing os module 
@@ -36,7 +36,7 @@ print("Load average over the last 15 minute:", load15)
 
 **Output:**
 
-```
+```py
 Load average over the last 1 minute: 0.34
 Load average over the last 5 minute: 0.42
 Load average over the last 15 minute: 0.46

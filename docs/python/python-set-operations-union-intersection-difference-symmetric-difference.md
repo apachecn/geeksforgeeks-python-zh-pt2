@@ -5,7 +5,7 @@
 本文演示了在 [Python 集合](https://www.geeksforgeeks.org/sets-in-python/)上的不同操作。
 例子:
 
-```
+```py
 Input :
 A = {0, 2, 4, 6, 8}
 B = {1, 2, 3, 4, 5}
@@ -25,7 +25,7 @@ Output :
 > –对于差异
 > ^对于对称差异
 
-```
+```py
 # Program to perform different set operations
 # as we do in  mathematics
 
@@ -48,7 +48,7 @@ print("Symmetric difference :", A ^ B)
 
 **输出:**
 
-```
+```py
 ('Union :', set([0, 1, 2, 3, 4, 5, 6, 8]))
 ('Intersection :', set([2, 4]))
 ('Difference :', set([8, 0, 6]))

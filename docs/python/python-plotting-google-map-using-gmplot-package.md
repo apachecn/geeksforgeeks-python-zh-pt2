@@ -6,13 +6,13 @@
 
 命令安装 **`gmplot`** :
 
-```
+```py
 pip install gmplot
 ```
 
 **代码#1 :** 创建基础地图
 
-```
+```py
 # import gmplot package
 import gmplot
 
@@ -31,7 +31,7 @@ gmap1.draw( "C:\\Users\\user\\Desktop\\map11.html" )
 
 **代码#2 :** 创建基础地图的另一种方法
 
-```
+```py
 # import gmplot package
 import gmplot
 
@@ -47,7 +47,7 @@ gmap2.draw( "C:\\Users\\user\\Desktop\\map12.html" )
 
 **代码#3 :** 在谷歌地图上分散点，并在它们之间画一条线。
 
-```
+```py
 # import gmplot package
 import gmplot
 
@@ -75,7 +75,7 @@ gmap3.draw( "C:\\Users\\user\\Desktop\\map13.html" )
 
 **代码#4 :** 显示热图图
 
-```
+```py
 # import gmplot package
 import gmplot
 
@@ -103,7 +103,7 @@ gmap4.draw( "C:\\Users\\user\\Desktop\\map14.html" )
 
 **代码#5 :** 在谷歌地图上画一个多边形
 
-```
+```py
 # import gmplot package
 import gmplot
 

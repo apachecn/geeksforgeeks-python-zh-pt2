@@ -8,7 +8,7 @@
 
 我们可以使用列表理解方法来执行这个特殊的任务，与 *len* 和 count 函数的组合一起检查与列表长度相等的相似性元素计数器。
 
-```
+```py
 # Python3 code to demonstrate
 # removing False rows in matrix 
 # using list comprehension + count() + len()
@@ -38,7 +38,7 @@ print("The list after removal of False rows : " + str(res))
 
 也可以通过将整行转换为一个集合，然后检查单个值 False 集合是否相等并在找到匹配项时移除来执行此特定任务。
 
-```
+```py
 # Python3 code to demonstrate
 # removing False rows in matrix 
 # using list comprehension + set()

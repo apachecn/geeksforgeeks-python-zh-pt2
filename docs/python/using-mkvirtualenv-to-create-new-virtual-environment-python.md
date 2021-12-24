@@ -12,21 +12,21 @@
 
 确保安装了 pip。
 
-```
+```py
 $ sudo apt-get install python3-pip
 
 ```
 
 安装虚拟包装器
 
-```
+```py
 $ sudo pip3 install virtualenvwrapper
 
 ```
 
 通过–
 
-```
+```py
 $ sudo gedit ~/.bashrc
 
 ```
@@ -35,7 +35,7 @@ $ sudo gedit ~/.bashrc
 
 打开后，添加以下几行:
 
-```
+```py
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
@@ -50,14 +50,14 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 语法为:
 
-```
+```py
 $ mkvirtualenv venv_name
 
 ```
 
 如果你想在另一个版本的 python 上工作，试试这个:
 
-```
+```py
 $ mkvirtualenv -p python3.x venv_name
 $(venv_name) // You will see something like this
 
@@ -67,20 +67,20 @@ $(venv_name) // You will see something like this
 
 要在现有虚拟环境中工作，
 
-```
+```py
 $ workon venv_name
 
 ```
 
 走出虚拟环境–
 
-```
+```py
 $(venv_name) deactivate
 
 ```
 
 要查看您的虚拟环境列表，请转至-
 
-```
+```py
 Home/.virtualenvs
 ```

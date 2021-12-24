@@ -13,7 +13,7 @@ T3】返回: ( borderTop，borderrother)
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):
@@ -51,7 +51,7 @@ ex.MainLoop()
 
 **控制台输出:**
 
-```
+```py
 (0, 0)
 ```
 

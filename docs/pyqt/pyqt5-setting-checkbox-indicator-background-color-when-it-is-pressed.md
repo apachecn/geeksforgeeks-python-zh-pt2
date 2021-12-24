@@ -6,7 +6,7 @@
 
 为了给指示器复选框添加背景色，我们必须更改样式表代码，下面是这样做的样式表代码。
 
-```
+```py
 QCheckBox::indicator:pressed
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -10,7 +10,7 @@ Python 能够使用文件“ **statistics** ”操作一些统计数据，并计
 
 **2。模式()** :-该功能返回出现次数最多的**号**。如果传递的参数为空，则会出现**统计错误**。
 
-```
+```py
 # Python code to demonstrate the working of
 # mean() and mode()
 
@@ -31,7 +31,7 @@ print (statistics.mode(li))
 
 输出:
 
-```
+```py
 The average of list values is : 2.0
 The maximum occurring element is  : 2
 
@@ -43,7 +43,7 @@ The maximum occurring element is  : 2
 
 **5。median_high()** :-该函数返回奇数元素情况下的数据中值，但偶数元素情况下，**返回中间两个**元素中较高的一个。如果传递的参数为空，则会出现**统计错误**。
 
-```
+```py
 # Python code to demonstrate the working of
 # median(), median_low() and median_high()
 
@@ -68,7 +68,7 @@ print (statistics.median_high(li))
 
 输出:
 
-```
+```py
 The median of list element is : 2.5
 The lower median of list element is : 2
 The higher median of list element is : 3
@@ -77,7 +77,7 @@ The higher median of list element is : 3
 
 **6。中位数 _ group()**:-该函数用于计算组中位数，即数据的**第 50 百分位**。如果传递的参数为空，则会出现**统计错误**。
 
-```
+```py
 # Python code to demonstrate the working of
 # median_grouped()
 
@@ -94,7 +94,7 @@ print (statistics.median_grouped(li))
 
 输出:
 
-```
+```py
 The 50th percentile of data is : 2.5
 
 ```

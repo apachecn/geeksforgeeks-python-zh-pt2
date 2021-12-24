@@ -16,7 +16,7 @@ Plotly 在幕后使用 javascript，用于制作交互式绘图，我们可以�
 
 Plotly 没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install plotly
 ```
 
@@ -35,7 +35,7 @@ plotly 安装图像小部件
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Creating the Figure instance
@@ -65,7 +65,7 @@ print(fig)
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the iris dataset
@@ -96,7 +96,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the iris dataset
@@ -117,7 +117,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the iris dataset
@@ -147,7 +147,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the data
@@ -173,7 +173,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the data
@@ -202,7 +202,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the dataset
@@ -229,7 +229,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the dataset
@@ -260,7 +260,7 @@ A [直方图](https://www.geeksforgeeks.org/histogram-using-plotly-in-python/)�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the dataset
@@ -294,7 +294,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the dataset
@@ -325,7 +325,7 @@ A [饼状图](https://www.geeksforgeeks.org/pie-plot-using-plotly-in-python/)是
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset
@@ -349,7 +349,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Loading the iris dataset
@@ -377,7 +377,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # using the dataset

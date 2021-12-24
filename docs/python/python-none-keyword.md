@@ -10,14 +10,14 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # we will check the type of None
 print(type(None))
 ```
 
 **Output**
 
-```
+```py
 <class 'NoneType'>
 
 ```
@@ -26,7 +26,7 @@ print(type(None))
 
 ## 蟒 3
 
-```
+```py
 # declaring a variable as None
 var = None
 
@@ -39,7 +39,7 @@ else:
 
 **输出**
 
-```
+```py
 var has a value of None
 
 ```

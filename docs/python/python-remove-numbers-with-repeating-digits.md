@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove numbers with repeating digits
 # Using set() + len() + list comprehension
@@ -44,7 +44,7 @@ print("List after removing repeating digit numbers : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4252, 6578, 3421, 6545, 6676]
 List after removing repeating digit numbers : [6578, 3421]
 ```
@@ -55,7 +55,7 @@ List after removing repeating digit numbers : [6578, 3421]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove numbers with repeating digits
 # Using regex()
@@ -77,7 +77,7 @@ print("List after removing repeating digit numbers : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4252, 6578, 3421, 6545, 6676]
 List after removing repeating digit numbers : [6578, 3421]
 ```

@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 tur = turtle.Turtle()
@@ -58,7 +58,7 @@ turtle.done()
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 # Set initial position

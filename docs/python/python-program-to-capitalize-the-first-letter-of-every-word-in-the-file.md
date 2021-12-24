@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Content of the file serves as input
 Input: hello world
 Output: Hello World
@@ -33,7 +33,7 @@ gfg.txt 文件的内容
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read a file and capitalize
 # the first letter of every word in the file.
 

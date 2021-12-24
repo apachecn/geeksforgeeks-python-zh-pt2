@@ -12,7 +12,7 @@ Tkinter 是 Python 的标准图形用户界面库。Python 中的 Tkinter 附带
 
 **语法:**
 
-```
+```py
 listbox = Listbox(root, bg, fg, bd, height, width, font, ..)
 ```
 
@@ -25,7 +25,7 @@ listbox = Listbox(root, bg, fg, bd, height, width, font, ..)
 **语法:**
 使用滚动条小部件的语法如下。
 
-```
+```py
 w = Scrollbar(master, options) 
 ```
 
@@ -40,7 +40,7 @@ w = Scrollbar(master, options)
 
 为此，我们需要将滚动条附加到 Listbox 上，要附加，我们使用函数`listbox.config()`并将其命令参数设置为滚动条的 set 方法，然后将滚动条的命令参数设置为指向当滚动条位置改变时将被调用的方法
 
-```
+```py
 from tkinter import *
 
 # Creating the root window

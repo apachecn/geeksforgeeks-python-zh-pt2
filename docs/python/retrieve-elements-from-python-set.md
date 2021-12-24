@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # create a set with integer elements
 data = {7058, 7059, 7072, 7074, 7076}
 
@@ -34,7 +34,7 @@ for i in data1:
 
 **输出**:
 
-```
+```py
 7072
 7074
 7076
@@ -54,7 +54,7 @@ jyothika
 
 ## 蟒蛇 3
 
-```
+```py
 # create a set with integer elements
 data = {7058, 7059, 7072, 7074, 7076}
 
@@ -70,7 +70,7 @@ print(list(data)[-1])
 
 **输出**:
 
-```
+```py
 7072
 7058
 7059
@@ -84,7 +84,7 @@ print(list(data)[-1])
 
 ## 蟒蛇 3
 
-```
+```py
 # create a set with integer elements
 data = {7058, 7059, 7072, 7074, 7076}
 
@@ -97,7 +97,7 @@ print(list(data).pop())
 
 **输出**:
 
-```
+```py
 7076
 7076
 ```
@@ -112,7 +112,7 @@ print(list(data).pop())
 
 ## 蟒蛇 3
 
-```
+```py
 # create a set with integer elements
 data = {7058, 7059, 7072, 7074, 7076}
 
@@ -122,7 +122,7 @@ print(next(iter(data)))
 
 **输出**:
 
-```
+```py
 7058
 ```
 
@@ -134,7 +134,7 @@ print(next(iter(data)))
 
 ## 蟒蛇 3
 
-```
+```py
 # impport iteration_utilities
 from iteration_utilities import first
 
@@ -147,7 +147,7 @@ print(first(data))
 
 **输出**:
 
-```
+```py
 7058
 ```
 
@@ -159,7 +159,7 @@ print(first(data))
 
 ## 蟒蛇 3
 
-```
+```py
 # import random module
 import random
 
@@ -178,7 +178,7 @@ print(random.sample(data, 4))
 
 **输出**:
 
-```
+```py
 [7058, 7074]
 [7072]
 [7059, 7074, 7058, 7076]

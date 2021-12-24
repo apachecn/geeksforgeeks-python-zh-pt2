@@ -12,7 +12,7 @@
 
 第一步是创建虚拟环境，然后安装依赖项。所以我们将使用`venv`:
 
-```
+```py
 mkdir google-login && cd google-login
 
 python3.5 -m venv myvenv
@@ -22,25 +22,25 @@ source myvenv/bin/activate
 
 这个命令将创建一个文件夹`myvenv` ，通过它我们刚刚激活了虚拟环境。现在打字
 
-```
+```py
 pip freeze
 ```
 
 那么您必须看到其中没有安装任何依赖项。现在首先让我们安装 Django:
 
-```
+```py
 pip install Django==2.0.7
 ```
 
 这是我们使用的姜戈版本，但也可以使用任何其他版本。现在下一步是创建一个项目，让我们将其命名为`gfglogin`:
 
-```
+```py
 django-admin startproject gfglogin .
 ```
 
 因为我们在谷歌登录目录中，这就是为什么我们希望 django 项目只在当前目录中，以便您需要使用。在当前目录指示的末尾。然后创建一个 app，将逻辑从主项目中分离出来，所以创建一个名为`gfgauth`的 app:
 
-```
+```py
 django-admin startapp gfgauth
 ```
 
@@ -49,7 +49,7 @@ django-admin startapp gfgauth
 
 因为我们创建了一个应用程序。将该应用名称添加到`INSTALLED_APP` 列表中的`settings.py`中。现在我们已经运行了 Django 项目，所以让我们先迁移它，然后检查是否有任何错误。
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -64,19 +64,19 @@ python manage.py runserver
 
 要安装:
 
-```
+```py
 pip install google-api-python-client==1.6.4
 ```
 
 现在第二个模块是`oauth2client`，这将确保所有的认证、凭证、流程和许多更复杂的东西，所以使用这个很重要。
 
-```
+```py
 pip install oauth2client==4.1.2
 ```
 
 最后安装`jsonpickle`(以防没安装)因为制作`CredentalsField`时会被`oauth2client` 使用。
 
-```
+```py
 pip install jsonpickle==0.9.6
 ```
 
@@ -86,7 +86,7 @@ pip install jsonpickle==0.9.6
 
 使用模型来存储我们从应用编程接口获得的凭证，因此只需要处理两个主要字段。第一个是`id` ，它将是 ForeignKey，第二个是`credential` ，它将等于 CredentialsField。此字段需要从 oauth2client 导入。所以我们的`models.py`会是这样的:
 
-```
+```py
 from django.contrib import admin
 from django.contrib.auth.models import User
 from django.db import models
@@ -119,7 +119,7 @@ class CredentialsAdmin(admin.ModelAdmin):
 
 创建这些模型后:
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 
@@ -133,7 +133,7 @@ python manage.py migrate
 
 所以现在我们需要指定到 API 的流程，我们需要询问什么权限，我的密钥和重定向 url 是什么。为此，请输入:
 
-```
+```py
 FLOW = flow_from_clientsecrets(
     settings.GOOGLE_OAUTH2_CLIENT_SECRETS_JSON,
     scope='https://www.googleapis.com/auth/gmail.readonly',
@@ -144,7 +144,7 @@ FLOW = flow_from_clientsecrets(
 
 如你所见`settings.GOOGLE_OAUTH2_CLIENT_SECRETS_JSON`，进入`settings.py`文件，输入:
 
-```
+```py
 GOOGLE_OAUTH2_CLIENT_SECRETS_JSON = 'client_secrets.json'
 ```
 
@@ -152,7 +152,7 @@ GOOGLE_OAUTH2_CLIENT_SECRETS_JSON = 'client_secrets.json'
 
 每当我们需要查看某人是否被授权时，我们首先检查我们的数据库该用户凭证是否已经存在。如果没有，那么我们向 API url 发出请求，然后获取凭据。
 
-```
+```py
 def gmail_authenticate(request):
     storage = DjangoORMStorage(CredentialsModel, 'id', request.user, 'credential')
     credential = storage.get()
@@ -178,7 +178,7 @@ def gmail_authenticate(request):
 
 现在我们需要处理回调 url，为此:
 
-```
+```py
 def auth_return(request):
     get_state = bytes(request.GET.get('state'), 'utf8')
     if not xsrfutil.validate_token(settings.SECRET_KEY, get_state,
@@ -199,7 +199,7 @@ def auth_return(request):
 
 现在让我们创建一个主页，它将告诉用户是否登录。
 
-```
+```py
 def home(request):
     status = True
 
@@ -227,7 +227,7 @@ def home(request):
 
 现在来看模板，让我们创建一个。首先进入根文件夹，创建一个名为“模板”的文件夹，然后在里面创建`index.html`:
 
-```
+```py
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
@@ -257,7 +257,7 @@ def home(request):
 
 在 *js* 里面创建一个 javascript 文件`main.js`:
 
-```
+```py
 function gmailAuthenticate(){
     $.ajax({
         type: "GET",
@@ -276,7 +276,7 @@ function gmailAuthenticate(){
 
 在主项目 URL 中的意思是`gfglogin/urls.py`编辑并放:
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 
@@ -288,7 +288,7 @@ urlpatterns = [
 
 因为我们需要测试 gfgauth 应用的工作情况。现在里面`gfgauth/urls.py` 类型:
 
-```
+```py
 from django.conf.urls import url
 from . import views
 
@@ -306,7 +306,7 @@ urlpatterns = [
 1.  在模板列表中，在 DIRS 列表中添加“模板”。
 2.  最后的设置. py 文件添加:
 
-    ```
+    ```py
     STATIC_URL = '/static/'
     STATICFILES_DIRS = (
         os.path.join(BASE_DIR, 'static'),
@@ -322,7 +322,7 @@ urlpatterns = [
 
 前往[谷歌开发者控制台页面](https://console.developers.google.com/cloud-resource-manager)，创建一个项目，并命名为任何你喜欢的项目。创建后，前往项目仪表板，点击左上角的导航菜单。然后点击 API 服务，然后点击凭证页面。单击创建凭据(在继续之前，您可能需要设置产品名称，因此请首先进行设置)。现在选择网络应用程序，因为我们正在使用 Django。在此之后指定名称，然后简单地转到重定向 URIs，在那里键入:
 
-```
+```py
 http://127.0.0.1:8000/oauth2callback
 
 ```
@@ -333,13 +333,13 @@ http://127.0.0.1:8000/oauth2callback
 
 现在再检查一下是否一切正确。请确保您已经迁移了它。此外，在继续之前，创建一个超级用户，这样您就不会再匿名了:
 
-```
+```py
 python3.5 manage.py createsuperuser
 ```
 
 键入所有必要的详细信息，然后执行以下操作:
 
-```
+```py
 python3.5 manage.py runserver
 ```
 

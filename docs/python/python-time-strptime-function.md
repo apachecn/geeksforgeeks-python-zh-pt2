@@ -6,7 +6,7 @@ Python 中的 strptime()函数用于格式化和返回日期和时间的字符�
 
 **语法:**
 
-```
+```py
 time.strptime(date_time_srting,directive)
 ```
 
@@ -54,7 +54,7 @@ time.strptime(date_time_srting,directive)
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 formatted_date = time.strptime(" 02 Dec 1996",
@@ -70,7 +70,7 @@ print(formatted_date)
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.strptime("02/12/1996 5:53","%m/%d/%Y %H:%M"))
@@ -86,7 +86,7 @@ print(time.strptime("02/12/1996 5:53","%m/%d/%Y %H:%M"))
 
 ## 蟒蛇 3
 
-```
+```py
 import time as datetime
 
 datetime_str = '08/1/18 3:55:6'
@@ -106,7 +106,7 @@ except ValueError as e:
 
 **输出:**
 
-```
+```py
 ValueError Raised: unconverted data remains:  3:55:6
 ValueError: time data '25::55::26' does not match format '%H::%M::%S'
 ```

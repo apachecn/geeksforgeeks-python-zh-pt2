@@ -6,13 +6,13 @@ IP(互联网协议)地址是分配给连接到 TCP/IP 网络的每台计算机�
 本文重点介绍如何用 python 获取自己电脑的 IP 地址。
 首先要导入套接字库，然后使用
 
-```
+```py
 IP = socket.gethostbyname(hostname) 
 ```
 
 然后将 ip 的值打印到 print()函数中，您的 IP 地址作为输出显示在下面给出的程序中。
 
-```
+```py
 # Python Program to Get IP Address
 import socket   
 hostname = socket.gethostname()   
@@ -23,7 +23,7 @@ print("Your Computer IP Address is:" + IPAddr)   
 
 输出:
 
-```
+```py
 Your Computer Name is:pppContainer
 Your Computer IP Address is:10.98.162.168
 

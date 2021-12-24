@@ -60,7 +60,7 @@
 
 现在，我希望你已经在姜戈创建了一个项目。如果没有，那么参考[如何使用姜戈的 MVT 创建一个基础项目？](https://www.geeksforgeeks.org/how-to-create-a-basic-project-using-mvt-in-django/?ref=lbp)由于我们使用 firebase 作为数据库，我们需要安装 pyrebase。为此，在终端中键入以下命令
 
-```
+```py
 $pip install pyrebase4
 ```
 
@@ -72,7 +72,7 @@ $pip install pyrebase4
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from . import views
@@ -87,7 +87,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 import pyrebase
 
@@ -115,7 +115,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -141,7 +141,7 @@ Day {{ day }}
 
 现在转到您的项目目录，并使用给定的命令运行我们的项目:
 
-```
+```py
 python manage.py runserver
 ```
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :  3, 4, 1, 3, 4, 5
 Output :  The maximum is at position 6
           The minimum is at position 3
@@ -16,7 +16,7 @@ Output :  The maximum is at position 6
 **天真的方法**是遍历列表，跟踪最小值和最大值以及它们的索引。我们必须为最小值做 N 次比较，同时为最大值做 N 次比较。
 下面是天真方法的实现。
 
-```
+```py
 #Naive approach
 #to find index of maximum and
 #minimum element in the array.
@@ -35,7 +35,7 @@ print('Maximum Element in the list',gfg_list,'is',max_ele)
 
 **Output:**
 
-```
+```py
 Minimum Element in the list [8, 1, 7, 10, 5] is 1
 Maximum Element in the list [8, 1, 7, 10, 5] is 10
 
@@ -46,7 +46,7 @@ Maximum Element in the list [8, 1, 7, 10, 5] is 10
 
 下面是上述方法的实现:
 
-```
+```py
 # function to find minimum and maximum position in list
 def minimum(a, n):
 
@@ -67,7 +67,7 @@ minimum(a, len(a))
 
 **Output:**
 
-```
+```py
 The maximum is at position 6
 The minimum is at position 3
 

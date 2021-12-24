@@ -7,7 +7,7 @@ T3】相似度= (A.B) / (||A||。||B||) 其中 A 和 B 是向量。
 
 本程序采用余弦相似性和 nltk 工具包模块。要执行此程序，nltk 必须安装在您的系统中。要安装 *nltk 模块*，请执行以下步骤–
 
-```
+```py
 1\. Open terminal(Linux).
 2\. sudo pip3 install nltk
 3\. python3
@@ -23,7 +23,7 @@ T3】相似度= (A.B) / (||A||。||B||) 其中 A 和 B 是向量。
 
 Below is the Python implementation –
 
-```
+```py
 # Program to measure the similarity between 
 # two sentences using cosine similarity.
 from nltk.corpus import stopwords
@@ -64,7 +64,7 @@ print("similarity: ", cosine)
 
 **输出:**
 
-```
+```py
 similarity:  0.2886751345948129
 
 ```

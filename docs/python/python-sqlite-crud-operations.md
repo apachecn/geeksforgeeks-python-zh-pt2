@@ -22,7 +22,7 @@ create 命令用于在数据库中创建表。首先我们将浏览它的语法�
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to create a relation 
 # using SQLite3
 
@@ -57,7 +57,7 @@ ACCURACY REAL);''')
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Code to insert data into
 # the database
 
@@ -97,7 +97,7 @@ cnt.commit()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to read data from a table
 
 print('Name, Points and Accuracy from '
@@ -139,7 +139,7 @@ for i in cursor:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to update records in a database
 
 # Print records before updation
@@ -178,7 +178,7 @@ for i in cursor:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to delete records from database
 
 # Print records before deletion

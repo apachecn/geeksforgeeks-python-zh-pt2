@@ -6,7 +6,7 @@
 
 **ObjectId :** ObjectId 类是一个 12 字节的二进制 BSON 类型，其中 4 字节的创建时间戳，5 字节的随机值和 3 字节的递增计数器。ObjectId 是 MongoDB 文档的默认主键，通常在“_id”字段中找到。
 
-```
+```py
 eg : { "_id" : ObjectId("54759eb3c090d83494e2d804") }
 ```
 
@@ -16,7 +16,7 @@ eg : { "_id" : ObjectId("54759eb3c090d83494e2d804") }
 
 ## 蟒蛇 3
 
-```
+```py
 # importing MongoClient from pymongo
 from pymongo import MongoClient
 
@@ -42,7 +42,7 @@ collection = db['collection']
 
 ## 蟒蛇 3
 
-```
+```py
 # inserts data into collection and
 # returns an object of type objectId
 objInstance = collection.insert_one({"name": "sam", "age": 20}).inserted_id
@@ -60,7 +60,7 @@ collection.find_one(objInstance)
 
 ## 蟒蛇 3
 
-```
+```py
 # use the string object id
 # and objectId object to
 # create object of type ObjectId
@@ -82,7 +82,7 @@ collection.find_one(ObjectId(id))
 
 ## 蟒蛇 3
 
-```
+```py
 # search document with filter
 # first parameter is search query
 # second parameter is filter query

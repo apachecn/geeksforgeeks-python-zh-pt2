@@ -35,7 +35,7 @@
 
 下面是实现。
 
-```
+```py
 # Python 3 code to rename multiple image
 # files in a directory or folder 
 

@@ -8,7 +8,7 @@
 
 **公式:**
 
-```
+```py
 1 - (total unique elements) / (total elements)
 ```
 
@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, 5, 2, 4, 3], [5, 5, 5, 5, 5],
              [8, 7, 8, 8, 7], [1, 2, 3, 4, 5]]
@@ -66,7 +66,7 @@ print("Matrix Redundancy ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, 5, 2, 4, 3], [5, 5, 5, 5, 5],
              [8, 7, 8, 8, 7], [1, 2, 3, 4, 5]]

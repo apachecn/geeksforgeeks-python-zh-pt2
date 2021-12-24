@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `set()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们遍历列表，并使用我们拥有的条件来检查公共元素是否有序。使用 set()执行复制删除。
 
-```
+```py
 # Python3 code to demonstrate 
 # Test Common Elements Order
 # using loop + set()
@@ -43,7 +43,7 @@ print ("Are common elements in order ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['Gfg', 'is', 'for', 'Geeks']
 The original list 2 is : [1, 'Gfg', 2, 'Geeks']
 Are common elements in order ? : True

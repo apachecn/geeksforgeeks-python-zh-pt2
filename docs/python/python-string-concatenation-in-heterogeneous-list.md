@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String concatenation in Heterogeneous list
 # using loop + conditions
@@ -33,7 +33,7 @@ print("Concatenation of strings in list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 'gfg ', 8, (5, 7), ' is', 9, ' best']
 Concatenation of strings in list : gfg  is best
 ```
@@ -43,7 +43,7 @@ Concatenation of strings in list : gfg  is best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String concatenation in Heterogeneous list
 # using join() + isinstance()
@@ -64,7 +64,7 @@ print("Concatenation of strings in list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [5, 6, 'gfg ', 8, (5, 7), ' is', 9, ' best']
 Concatenation of strings in list : gfg  is best
 ```

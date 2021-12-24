@@ -8,7 +8,7 @@
 
 turtle.down()方法用于在屏幕上拉回笔。它给出了移动到另一个位置或方向的绘图。
 
-```
+```py
 turtle.down() or turtle.pd() or turtle.pendown()
 
 ```
@@ -21,7 +21,7 @@ turtle.down() or turtle.pd() or turtle.pendown()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -49,7 +49,7 @@ turtle.forward(50)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

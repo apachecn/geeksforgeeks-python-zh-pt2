@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 import PIL
@@ -49,7 +49,7 @@ img.show()
 
 **输出:**
 
-```
+```py
 The URL of the icon image of prez is : 
 https://www.redditstatic.com/avatars/avatar_default_19_A06A42.png
 
@@ -62,7 +62,7 @@ https://www.redditstatic.com/avatars/avatar_default_19_A06A42.png
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 import PIL
@@ -102,7 +102,7 @@ img.show()
 
 **输出:**
 
-```
+```py
 The URL of the icon image of AutoModerator is : 
 https://styles.redditmedia.com/t5_1yz875/styles/profileIcon_klqlly9fc4l41.png?width=256&height=256&crop=256:256, smart&s=94486fc13b9ca9e154e9e8926e3d8c43ccc80be3
 

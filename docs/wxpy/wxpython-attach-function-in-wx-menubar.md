@@ -21,7 +21,7 @@ Attach()函数只接受一个 wx。框架类型参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

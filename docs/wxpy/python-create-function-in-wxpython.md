@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Frame.Create(parent, id=ID_ANY, title="", pos=DefaultPosition,
 >       size=DefaultSize, style=DEFAULT_FRAME_STYLE, name=FrameNameStr)
 > 
@@ -26,7 +26,7 @@
 
 **代码示例:**
 
-```
+```py
 # import wxPython
 import wx
 

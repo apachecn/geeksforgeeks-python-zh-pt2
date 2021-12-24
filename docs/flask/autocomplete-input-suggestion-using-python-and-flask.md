@@ -10,7 +10,7 @@
 
 要安装烧瓶，请在终端中键入以下命令。
 
-```
+```py
 pip install flask
 ```
 
@@ -20,7 +20,7 @@ pip install flask
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, request, render_template
 
 app = Flask(__name__)
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
 要运行此应用程序，请打开 cmd 或终端并运行以下命令。
 
-```
+```py
 python app.py
 ```
 

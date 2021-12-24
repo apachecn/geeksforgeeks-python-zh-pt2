@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 For size = 5
 
   * * *   
@@ -47,7 +47,7 @@ For size = 11
 
 ## 蟒蛇 3
 
-```
+```py
 # define the size (no. of columns)
 # must be odd to draw proper diamond shape
 size = 8
@@ -81,7 +81,7 @@ for i in range(size//2+2):
 
 **输出:**
 
-```
+```py
   * * * * * *   
 * * * * * * * * 
   * * * * * *   
@@ -93,7 +93,7 @@ for i in range(size//2+2):
 
 ## 蟒蛇 3
 
-```
+```py
 # define the size (no. of columns)
 # must be odd to draw proper diamond shape
 size = 11
@@ -127,7 +127,7 @@ for i in range(size//2+2):
 
 **输出:**
 
-```
+```py
   * * * * * * * * *   
 * * * * * * * * * * * 
   * * * * * * * * *   

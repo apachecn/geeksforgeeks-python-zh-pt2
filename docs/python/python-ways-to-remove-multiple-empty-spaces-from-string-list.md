@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `strip()`**
 这是我们执行这个任务的一种方式。在这种情况下，我们使用 strip()来剥离字符串，它会减少到单个空格，然后可以测试它的空值。如果字符串是单个空格，则返回 True，因此有助于筛选。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove multiple empty spaces from string List
 # Using loop + strip()
@@ -31,7 +31,7 @@ print("List after filtering non-empty strings : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', '   ', ' ', 'is', '            ', 'best']
 List after filtering non-empty strings : ['gfg', 'is', 'best']
 

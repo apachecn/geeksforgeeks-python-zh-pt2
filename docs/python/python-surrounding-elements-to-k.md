@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Surrounding elements to K
 # Using index() + loop + try/except
@@ -64,7 +64,7 @@ print("The Surrounding elements : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Surrounding elements to K
 # Using index() + in operator + loop

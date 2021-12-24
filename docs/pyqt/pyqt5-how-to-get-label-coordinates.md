@@ -7,7 +7,7 @@ PyQt5 中的主窗口类似于图形，它有 x 轴和 y 轴，所有的小部�
 
 > **语法:**
 > 
-> ```
+> ```py
 > x_position = label.x()
 > y_position =label.y()
 > 
@@ -19,7 +19,7 @@ PyQt5 中的主窗口类似于图形，它有 x 轴和 y 轴，所有的小部�
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

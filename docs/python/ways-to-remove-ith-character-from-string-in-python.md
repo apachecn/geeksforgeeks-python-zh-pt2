@@ -10,7 +10,7 @@
 
 **代码#1 :** 演示从字符串中移除第一个字符的简单方法。
 
-```
+```py
 # Python code to demonstrate
 # method to remove i'th character
 # Naive Method
@@ -35,7 +35,7 @@ print ("The string after removal of i'th character : " + new_str)
 
 **输出:**
 
-```
+```py
 The original string is : GeeksForGeeks
 The string after removal of i'th character : GeksForGeeks
 
@@ -51,7 +51,7 @@ The string after removal of i'th character : GeksForGeeks
 
 **代码#2 :** 演示使用`str.replace()`移除字符。
 
-```
+```py
 # Python code to demonstrate
 # method to remove i'th character
 # using replace()
@@ -81,7 +81,7 @@ print ("The string after removal of i'th character(works) : " + new_str)
 
 **输出:**
 
-```
+```py
 The original string is : GeeksForGeeks
 The string after removal of i'th character( doesn't work) : GksForGks
 The string after removal of i'th character(works) : GeekForGeeks
@@ -94,7 +94,7 @@ The string after removal of i'th character(works) : GeekForGeeks
 
 **代码#3 :** 演示如何使用切片和串联来移除第 I 个字符。
 
-```
+```py
 # Python code to demonstrate
 # method to remove i'th character
 # using slice + concatenation
@@ -116,7 +116,7 @@ print ("The string after removal of i'th character : " + new_str)
 
 **输出:**
 
-```
+```py
 The original string is : GeeksForGeeks
 The string after removal of i'th character : GeksForGeeks
 
@@ -128,7 +128,7 @@ The string after removal of i'th character : GeksForGeeks
 
 **代码#4 :** 演示`str.join()`并列出移除第 I 个索引字符的理解。
 
-```
+```py
 # Python code to demonstrate
 # method to remove i'th character
 # using join() + list comprehension
@@ -150,7 +150,7 @@ print ("The string after removal of i'th character : " + new_str)
 
 **输出:**
 
-```
+```py
 The original string is : GeeksForGeeks
 The string after removal of i'th character : GeksForGeeks
 

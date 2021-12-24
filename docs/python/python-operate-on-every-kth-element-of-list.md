@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `enumerate()`**
 获取列表每第 k 个数的功能可以借助列表理解来完成，枚举功能有助于整个列表的迭代。
 
-```
+```py
 # Python3 code to demonstrate
 # Edit every Kth element in list 
 # using list comprehension + enumerate()
@@ -30,7 +30,7 @@ print ("The list after editing every kth element : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The list after editing every kth element : [3, 4, 5, 8, 7, 8, 11, 12]
 
@@ -39,7 +39,7 @@ The list after editing every kth element : [3, 4, 5, 8, 7, 8, 11, 12]
 **方法 2:使用列表理解+列表切片**
 上述功能可以帮助执行这些任务。列表理解完成列表中的迭代任务，列表切片完成每个 Kth 元素的提取。
 
-```
+```py
 # Python3 code to demonstrate
 # Edit every Kth element in list 
 # using list comprehension + list slicing 
@@ -62,7 +62,7 @@ print ("The list after editing every kth element : "
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The list after editing every kth element : [3, 4, 5, 8, 7, 8, 11, 12]
 

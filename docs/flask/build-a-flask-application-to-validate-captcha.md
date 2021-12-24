@@ -34,7 +34,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <form method="post">
 
     <!-- The following line creates the captcha -->
@@ -52,7 +52,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,render_template
 
 app = Flask(__name__)
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 使用以下命令运行服务器，以确保应用程序成功运行并显示 form.html 页面。
 
-```
+```py
 python app.py
 ```
 
@@ -81,7 +81,7 @@ python app.py
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 from pymongo import MongoClient
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import uuid
 from flask import Flask, render_template
 from flask_sessionstore import Session
@@ -153,7 +153,7 @@ if __name__ == "__main__":
 
 ## **蟒蛇 3**
 
-```
+```py
 import uuid
 import logging
 from flask import Flask, render_template
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 
 ## **蟒蛇 3**
 
-```
+```py
 import uuid
 import logging
 from flask import Flask, request, render_template
@@ -257,13 +257,13 @@ if __name__ == "__main__":
 
 **启动服务器:**
 
-```
+```py
 python app.py
 ```
 
 **然后访问:**
 
-```
+```py
 http://localhost:5000/
 ```
 

@@ -9,13 +9,13 @@
 
 *   首先创建一个名为**烧瓶项目**的文件夹，并将目录更改为该文件夹。如果你在 linux 上，那么在你的终端中输入以下内容。
 
-```
+```py
 mkdir "flask project" && cd "flask project"
 ```
 
 *   现在，创建一个虚拟环境。如果你在 linux 上，那么在你的终端中输入以下内容。
 
-```
+```py
 python3 -m venv env
 ```
 
@@ -25,7 +25,7 @@ python3 -m venv env
 
 *   现在创建一个名为 *requirements.txt* 的文件，并在其中添加以下几行。
 
-```
+```py
 Flask-RESTful==0.3.8
 PyJWT==1.7.1
 Flask-SQLAlchemy==2.4.1
@@ -33,14 +33,14 @@ Flask-SQLAlchemy==2.4.1
 
 *   现在，让我们为这个项目安装这些库。为此，首先我们需要激活虚拟环境。为此，请在您的终端中键入以下内容。
 
-```
+```py
 source env/bin/activate
 ```
 
 **注意:**如果你在 windows 上，那么应该是*脚本*而不是 *bin*
 现在，是时候安装库了。为此，再次在您的终端中键入以下内容。
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # flask imports
 from flask import Flask, request, jsonify, make_response
 from flask_sqlalchemy import SQLAlchemy
@@ -214,7 +214,7 @@ if __name__ == "__main__":
 
 接下来，您需要在 python3 解释器中键入以下内容:
 
-```
+```py
 from app import db
 db.create_all()
 ```
@@ -227,7 +227,7 @@ db.create_all()
 
 要开始测试我们的 api，首先我们需要运行我们的 API。为此，请打开一个终端窗口，并在其中键入以下内容。
 
-```
+```py
 python app.py
 ```
 

@@ -10,7 +10,7 @@
 
 我们都非常熟悉 Python 中的[字典](https://www.geeksforgeeks.org/python-dictionary/)数据类型。这是一种以键和值的形式存储数据的方式。但是说到内存管理，字典并不是最好的。事实上，这是最糟糕的。让我们看一个例子:
 
-```
+```py
 # importing the sys library
 import sys 
 
@@ -21,7 +21,7 @@ print(sys.getsizeof(Coordinates))
 
 **Output:**
 
-```
+```py
 288
 
 ```
@@ -34,7 +34,7 @@ print(sys.getsizeof(Coordinates))
 
 元组非常适合存储不可变的数据值，并且与字典相比，在减少内存使用方面也非常有效:
 
-```
+```py
 import sys
 
 Coordinates = (3, 0, 1)
@@ -44,7 +44,7 @@ print(sys.getsizeof(Coordinates))
 
 **Output:**
 
-```
+```py
 72
 
 ```
@@ -56,7 +56,7 @@ print(sys.getsizeof(Coordinates))
 
 通过在类内部安排代码，与使用字典和元组相比，我们可以显著减少内存消耗。
 
-```
+```py
 import sys
 
 class Point:
@@ -73,7 +73,7 @@ print(sys.getsizeof(Coordinates))
 
 **Output:**
 
-```
+```py
 56
 
 ```
@@ -87,7 +87,7 @@ print(sys.getsizeof(Coordinates))
 
 所以在你的例子中:
 
-```
+```py
 class Point:
 
     def __init__(self, x, y, z):
@@ -112,13 +112,13 @@ sys.getsizeof(坐标. z) =
 
 `Recordclass`是一个相当新的 Python 库。它支持 Python 中没有的记录类型。由于`recordclass` 是麻省理工学院授权的第三方模块，我们需要通过在终端中键入以下内容来首先安装它:
 
-```
+```py
 pip install recordclass
 ```
 
 让我们使用`recordclass` 看看它是否进一步有助于减少内存大小。
 
-```
+```py
 # importing the installed library
 import sys
 from recordclass import recordclass 
@@ -131,7 +131,7 @@ print(sys.getsizeof(Coordinates))
 
 **输出:**
 
-```
+```py
 48
 ```
 
@@ -142,7 +142,7 @@ print(sys.getsizeof(Coordinates))
 
 在前面的例子中，当使用`recordclass`时，甚至垃圾值也被收集，从而浪费了不必要的内存。这意味着仍有优化的空间。那正是数据对象开始使用的时候。dataobject 功能属于 recordclass 模块，它的一个特点是不会产生任何垃圾值。
 
-```
+```py
 import sys
 from recordclass import make_dataclass
 
@@ -154,7 +154,7 @@ print(sys.getsizeof(Coordinates))
 
 **输出:**
 
-```
+```py
 40
 ```
 

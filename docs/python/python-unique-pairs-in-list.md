@@ -7,7 +7,7 @@
 **方法:使用`frozenset() + Counter()` +列表理解**
 以上功能的组合可以执行此任务。`frozenset()`用于忽略排序，`Counter()`用于执行检查唯一性的任务，迭代使用列表理解完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unique pairs in list
 # using frozenset() + Counter() + list comprehension
@@ -30,7 +30,7 @@ print("The Unique status of elements is " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6], [9, 8], [8, 9], [1, 4], [6, 5], [10, 1]]
 The Unique status of elements is [False, False, False, True, False, True]
 

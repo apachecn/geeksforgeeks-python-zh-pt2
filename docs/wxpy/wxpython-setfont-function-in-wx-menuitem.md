@@ -7,7 +7,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.SetFont(self, font)
 > 
 > ```
@@ -20,7 +20,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to truncate float
 # values to 2-decimal digits.
 
@@ -23,7 +23,7 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 ['100.77', '17.23', '60.99', '300.84']
 ```
 
@@ -31,7 +31,7 @@ print(Output)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to truncate float
 # values to 2 decimal digits.
 
@@ -50,7 +50,7 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 ['100.77', '17.23', '60.99', '300.84']
 ```
 
@@ -58,7 +58,7 @@ print(Output)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to truncate float
 # values to 2 decimal digits.
 
@@ -74,7 +74,7 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 ['100.77', '17.23', '60.99', '300.84']
 ```
 
@@ -82,7 +82,7 @@ print(Output)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to truncate float
 # values to 2 decimal digits.
 
@@ -102,6 +102,6 @@ print(Output)
 
 **Output:** 
 
-```
+```py
 ['100.77', '17.23', '60.99', '300.84']
 ```

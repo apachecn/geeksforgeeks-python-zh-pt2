@@ -7,7 +7,7 @@
 Python 中的`***os.path.commonpath()***`方法用于获取路径列表中最长的公共子路径。如果指定的路径列表既包含绝对路径又包含相对路径，或者是空的，该方法将产生**值错误**。与`***os.path.commonpath()***`方法不同，返回值是有效路径。
 例如，考虑以下路径列表:
 
-```
+```py
           list of paths                     Longest common sub-path
 ['/home/User/Photos', /home/User/Videos']        /home/User          
 ['/usr/local/bin', '/usr/lib']                   /usr               
@@ -23,7 +23,7 @@ Python 中的`***os.path.commonpath()***`方法用于获取路径列表中最长
 
 **代码#1:** 使用 os.path.commonpath()方法
 
-```
+```py
 # Python program to explain os.path.commonpath() method 
 
 # importing os module 
@@ -59,7 +59,7 @@ print("Longest common sub-path:", prefix)
 
 **Output:**
 
-```
+```py
 Longest common sub-path: /home/User
 Longest common sub-path: /usr
 
@@ -67,7 +67,7 @@ Longest common sub-path: /usr
 
 **代码#2:** 使用 os.path.commonpath()方法
 
-```
+```py
 # Python program to explain os.path.commonpath() method 
 
 # importing os module 
@@ -94,7 +94,7 @@ print("Longest common sub-path:", prefix)
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "oscommonpath.py", line 12, in 
     prefix = os.path.commonpath(paths)

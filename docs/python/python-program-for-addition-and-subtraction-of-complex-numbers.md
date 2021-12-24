@@ -6,7 +6,7 @@
 **复数相加:**在 Python 中，可以使用+运算符相加复数。
 **示例:**
 
-```
+```py
 Input:  2+3i, 4+5i
 Output: Addition is : 6+8i
 
@@ -18,7 +18,7 @@ Output: Addition is : 3+5i
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add
 # two complex numbers
 
@@ -36,14 +36,14 @@ print( "Addition is : ", addComplex(z1, z2))
 
 **输出:**
 
-```
+```py
 Addition is :  (3+5j)
 ```
 
 **复数减法:**Python 中的复数可以使用–运算符进行减法运算。
 **例:**
 
-```
+```py
 Input: 2+3i, 4+5i
 Output: Subtraction is : -2-2i
 
@@ -55,7 +55,7 @@ Output: Subtraction is : 1+1i
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to subtract
 # two complex numbers
 
@@ -73,6 +73,6 @@ print( "Subtraction is : ", subComplex(z1, z2))
 
 **输出:**
 
-```
+```py
 Subtraction is :  (1+1j)
 ```

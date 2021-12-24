@@ -18,7 +18,7 @@ python 的关键概念是对象。python 中几乎所有的东西都是对象，
 
 T5】python 3T7
 
-```
+```py
 class FoodType(object):
   def __init__(self, ftype):
     self.ftype = ftype
@@ -39,7 +39,7 @@ T8T10**输出**T1
 
 ## python 3
 
-```
+```py
 def init(self, ftype):
     self.ftype = ftype
 
@@ -57,7 +57,7 @@ print(fType.getFtype())
 
 **输出**
 
-```
+```py
 Vegetarian
 
 ```
@@ -74,7 +74,7 @@ Vegetarian
 
 ## python 3
 
-```
+```py
 class FoodType(object):
   def __init__(self, ftype):
     self.ftype = ftype
@@ -96,7 +96,7 @@ main()
 
 **输出**
 
-```
+```py
 Vegetarian
 {'Spinach', 'Bitter Guard'}
 
@@ -106,7 +106,7 @@ Vegetarian
 
 ## 蟒蛇 3
 
-```
+```py
 def init(self, ftype):
     self.ftype = ftype
 
@@ -133,7 +133,7 @@ print(vType.vegFoods())
 
 **Output**
 
-```
+```py
 Vegetarian
 {'Spinach', 'Bitter Guard'}
 
@@ -152,7 +152,7 @@ Vegetarian
 
 T3】蟒 3T5
 
-```
+```py
 class MetaCls(type):
     """A sample metaclass without any functionality"""
     def __new__(cls, clsname, superclasses, attributedict):
@@ -172,7 +172,7 @@ T6T8**输出**T1
 
 T5】蟒 3T7
 
-```
+```py
 class S(object):
   pass
 
@@ -187,7 +187,7 @@ T8T10**输出**T1
 
 ## 蟒 3
 
-```
+```py
 class MetaCls(type):
     """A sample metaclass without any functionality"""
     def __new__(cls, clsname, supercls, attrdict):
@@ -204,7 +204,7 @@ print(type(A))
 
 **输出**
 
-```
+```py
 <class '__main__.MetaCls'>
 
 ```
@@ -213,7 +213,7 @@ print(type(A))
 
 ## python 3
 
-```
+```py
 class MetaCls(type):
     """A sample metaclass without any functionality"""
     def __new__(cls, clsname, supercls, attrdict):
@@ -236,7 +236,7 @@ print('Type of class C:', type(C))
 
 输出
 
-```
+```py
 Type of class A: <class '__main__.MetaCls'>
 Type of class B: <class 'type'>
 Type of class C: <class '__main__.MetaCls'>

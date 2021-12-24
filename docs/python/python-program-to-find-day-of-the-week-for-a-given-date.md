@@ -5,7 +5,7 @@
 编写一个 Python 程序来查找过去或未来任何特定日期的星期几。让输入的格式为“年月日”。
 **例:**
 
-```
+```py
 Input : 03 02 1997 
 Output : Monday
 
@@ -19,7 +19,7 @@ datetime 模块中 date 类的 weekday()函数，返回一周中某一天对应�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to Find day of
 # the week for a given date
 import datetime
@@ -36,6 +36,6 @@ print(findDay(date))
 
 **Output:** 
 
-```
+```py
 Sunday
 ```

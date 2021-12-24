@@ -14,7 +14,7 @@
 ![](img/6132b5064bacde4339adf720ea88d2db.png)
 上面提到的配置文件的屏幕名称是 geeksforgeeks。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -47,7 +47,7 @@ print("The ID of the user is : " + ID)
 
 **输出:**
 
-```
+```py
 The ID of the user is : 57741058
 
 ```
@@ -56,7 +56,7 @@ The ID of the user is : 57741058
 ![](img/159935125f6fbd011d182156efb24f04.png)
 上面提到的配置文件的屏幕名称是 PracticeGfG。
 
-```
+```py
 # the screen name of the user
 screen_name = "PracticeGfG"
 
@@ -71,7 +71,7 @@ print("The ID of the user is : " + ID)
 
 **输出:**
 
-```
+```py
 The ID of the user is : 4802800777
 
 ```

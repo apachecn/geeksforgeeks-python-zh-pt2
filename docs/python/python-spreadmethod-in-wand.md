@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.spread(radius, method)
 > 
 > ```
@@ -23,7 +23,7 @@
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -40,7 +40,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 在 spread()方法中增加半径值。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

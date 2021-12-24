@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Extension Quick Sort Code
 # importing time module
 import time
@@ -126,7 +126,7 @@ def getColorArray(dataLen, head, tail, border,
 
 ## 蟒蛇 3
 
-```
+```py
 # code for Quick Sort Visualizer
 # using Python and Tkinter
 # import modules

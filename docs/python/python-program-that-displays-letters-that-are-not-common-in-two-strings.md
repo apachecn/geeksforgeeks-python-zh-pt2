@@ -6,7 +6,7 @@
 
 **例** :
 
-```
+```py
 Input:
 india
 australia
@@ -33,7 +33,7 @@ l
 
 ## 蟒 3
 
-```
+```py
 # taking string inputs
 string_1 = "hi"
 string_2 = "virat"
@@ -50,7 +50,7 @@ for i in e:
 
 **输出:**
 
-```
+```py
 The letters are:
 h
 v

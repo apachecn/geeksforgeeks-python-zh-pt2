@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Non-neighbours in List
 # Using loop
@@ -49,7 +49,7 @@ print("Are i, j Non-neighbours' : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 7, 2, 1, 4, 5, 7, 9]
 Are i, j Non-neighbours' : True
 ```
@@ -60,7 +60,7 @@ Are i, j Non-neighbours' : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Non-neighbours in List
 # Using all()
@@ -85,7 +85,7 @@ print("Are i, j Non-neighbours' : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 7, 2, 1, 4, 5, 7, 9]
 Are i, j Non-neighbours' : True
 ```

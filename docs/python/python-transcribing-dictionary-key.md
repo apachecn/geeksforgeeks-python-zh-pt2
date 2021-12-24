@@ -8,7 +8,7 @@
 
 这个特殊的任务可以使用字典理解的方法来完成，在这种方法中，我们从所需的列表中分配关键字和值，并重新构建字典。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary key transcription
 # dictionary comprehension
@@ -39,7 +39,7 @@ print("The Dictionary after transcription of key : " + str(res))
 
 这个任务也可以使用一组函数来执行。这种方法允许灵活地添加任意选择的键。这在事先不知道密钥的情况下很有用。
 
-```
+```py
 # Python3 code to demonstrate
 # Dictionary key transcription
 # dictionary comprehension + items() + get()

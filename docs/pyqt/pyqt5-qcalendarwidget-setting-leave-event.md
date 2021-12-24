@@ -6,7 +6,7 @@
 
 下面是日历类代码
 
-```
+```py
 # QCalendarWidget Class
 class Calendar(QCalendarWidget):
 
@@ -32,7 +32,7 @@ class Calendar(QCalendarWidget):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

@@ -12,19 +12,19 @@
 
 *   [**【美观组:**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/) 我们的主模块包含一个通过 HTTP 访问网页的方法。
 
-```
+```py
 pip install bs4
 ```
 
 *   **lxml:** 处理 python 语言网页的助手库。
 
-```
+```py
 pip install lxml
 ```
 
 *   [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 使发送 HTTP 请求的过程完美无缺
 
-```
+```py
 pip install requests
 ```
 
@@ -38,13 +38,13 @@ pip install requests
 
 要访问文件 1，
 
-```
+```py
 C:/File1
 ```
 
 同样，要访问文件 2，
 
-```
+```py
 C:/Documents/User1/File2
 ```
 
@@ -73,7 +73,7 @@ C:/Documents/User1/File2
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 from lxml import etree
 import requests
@@ -93,6 +93,6 @@ print(dom.xpath('//*[@id="firstHeading"]')[0].text)
 
 **输出:**
 
-```
+```py
 Nike, Inc.
 ```

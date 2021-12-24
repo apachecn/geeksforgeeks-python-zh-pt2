@@ -14,7 +14,7 @@
 
 **安装库:**
 
-```
+```py
 pip install pyforest
 ```
 
@@ -24,7 +24,7 @@ pip install pyforest
 
     **示例:**
 
-    ```
+    ```py
     # here we have not import  
     # 'numpy as np' by explicitly 
     a = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]]) 
@@ -34,7 +34,7 @@ pip install pyforest
 
     **输出:**
 
-    ```
+    ```py
     [[1 2 3]
      [4 5 6]
      [7 8 9]]
@@ -45,7 +45,7 @@ pip install pyforest
 
     **示例:**
 
-    ```
+    ```py
     d = {'A':[1, 2, 3], 'B':[4, 5, 6], 'C':[7, 8, 9]}
 
     # here we have not import
@@ -57,7 +57,7 @@ pip install pyforest
 
     **输出:**
 
-    ```
+    ```py
        A  B  C
     0  1  4  7
     1  2  5  8
@@ -69,7 +69,7 @@ pip install pyforest
 
     **示例:**
 
-    ```
+    ```py
     # here we do not import
     # ' Nltk library' by ourself
     # but only the class of nltk .
@@ -82,7 +82,7 @@ pip install pyforest
 
     **输出:**
 
-    ```
+    ```py
     ['All', 'apples', 'are', 'red', 'in', 'colour']
     ```
 
@@ -90,7 +90,7 @@ pip install pyforest
 
     **示例:**
 
-    ```
+    ```py
     # here we have not imported 
     # 'matplotlib.pyplot as plt' by ourself.
 

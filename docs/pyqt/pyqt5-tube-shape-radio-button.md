@@ -14,7 +14,7 @@
 
 **向单选按钮添加边框和半径的样式表代码–**
 
-```
+```py
 QRadioButton
 {
 border : 3px solid black;
@@ -26,7 +26,7 @@ border-bottom-left-radius : 20px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

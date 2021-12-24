@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort row by K multiples
 # Using sort() + % operator + len()
@@ -55,7 +55,7 @@ print("Sorted result : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort row by K multiples
 # Using sorted() + lambda + len()

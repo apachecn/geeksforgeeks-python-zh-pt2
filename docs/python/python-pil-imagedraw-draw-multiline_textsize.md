@@ -22,7 +22,7 @@
 
 **代码:使用 ImageDraw。Draw.multiline_textsize**
 
-```
+```py
 
 # Importing Image and ImageFont, ImageDraw module from PIL package 
 from PIL import Image, ImageFont, ImageDraw 

@@ -6,7 +6,7 @@ Python 提供 ***wxpython 模块*** ，可以让我们创建高功能的图形�
 它被实现为一组扩展模块，包装了用 C++编写的 wxWidgets 库的 GUI 组件。它是 python 的跨平台 GUI 工具包，凤凰版凤凰是改进的下一代 wxPython，它主要关注速度、维护能力和可扩展性。
 **使用此命令安装:**
 
-```
+```py
 pip install wxpython
 ```
 
@@ -23,7 +23,7 @@ pip install wxpython
 
 ## 蟒蛇 3
 
-```
+```py
 # import wx module
 import wx
 
@@ -53,7 +53,7 @@ app1.Mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import wx module
 import wx
 
@@ -82,7 +82,7 @@ app1.Mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing wx module
 import wx
 
@@ -113,7 +113,7 @@ app1.Mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing wx module
 import wx
 

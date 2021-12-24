@@ -10,14 +10,14 @@
 
 **步骤 1:** 首先使用以下命令安装 django pwa
 
-```
+```py
 pip install django-pwa
 
 ```
 
 **步骤 2:** 在**设置. py** 项目的已安装应用部分中添加“ **pwa** ”并在**URL . py**项目中给出以下路径–
 
-```
+```py
 path(“, include(‘pwa.urls’))
 
 ```
@@ -34,7 +34,7 @@ path(“, include(‘pwa.urls’))
 
 ## java 描述语言
 
-```
+```py
 var staticCacheName = 'djangopwa-v1';
 
 self.addEventListener('install', function(event) {

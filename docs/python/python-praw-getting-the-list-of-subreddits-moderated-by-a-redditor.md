@@ -17,7 +17,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -51,7 +51,7 @@ for subreddit in subreddits:
 
 **输出:**
 
-```
+```py
 announcements
 blog
 programming
@@ -80,7 +80,7 @@ modprogramming
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -113,7 +113,7 @@ print(redditor_name + " is a moderator of " + str(len(subreddits)) + " number of
 
 **输出:**
 
-```
+```py
 AutoModerator is a moderator of 10024 number of subreddits.
 
 ```

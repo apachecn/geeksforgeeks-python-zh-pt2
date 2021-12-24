@@ -8,7 +8,7 @@
 
 为了做到这一点，下面是块文件的 CSS 样式表
 
-```
+```py
 QProgressBar::chunk
 {
  background-image : url(image.png);
@@ -18,7 +18,7 @@ QProgressBar::chunk
 
 这个样式表是由`setStyleSheet`方法使用的，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

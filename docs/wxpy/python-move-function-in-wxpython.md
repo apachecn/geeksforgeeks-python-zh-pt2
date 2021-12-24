@@ -7,7 +7,7 @@ Move()使用 x 和 y 点将窗口移动到特定的 x、y 点。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Move(self, x, y, flags=SIZE_USE_EXISTING)
 > 
 > ```
@@ -22,7 +22,7 @@ Move()使用 x 和 y 点将窗口移动到特定的 x、y 点。
 
 **代码示例#1:**
 
-```
+```py
 # import wxPython
 import wx
 
@@ -50,7 +50,7 @@ if __name__ == '__main__':
 
 **代码示例#2:**
 
-```
+```py
 # import wxPython
 import wx
 

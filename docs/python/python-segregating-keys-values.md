@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `tuple()`**
 列表理解可以与元组函数耦合，并可用于执行该特定任务。列表理解执行分离任务，并使用元组函数将它们放入单独的元组中。
 
-```
+```py
 # Python3 code to demonstrate 
 # segragation of keys and values
 # using list comprehension + tuple()
@@ -30,7 +30,7 @@ print("The segregated keys and values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [{'Akash': 2, 'Nikhil': 1}, {'Akash': 4, 'Nikhil': 3}]
 The segregated keys and values : [(1, 3), (2, 4)]
 

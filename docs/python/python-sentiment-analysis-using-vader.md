@@ -12,7 +12,7 @@
 
 命令安装**vadermoore**:
 
-```
+```py
 pip install vaderSentiment
 ```
 
@@ -22,7 +22,7 @@ pip install vaderSentiment
 
 ## 蟒蛇 3
 
-```
+```py
 # import SentimentIntensityAnalyzer class
 # from vaderSentiment.vaderSentiment module.
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer

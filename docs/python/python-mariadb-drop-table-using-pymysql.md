@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 DROP TABLE tablename;
 
 DROP TABLE IF EXISTS tablename;
@@ -23,7 +23,7 @@ DROP TABLE IF EXISTS tablename;
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -66,7 +66,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

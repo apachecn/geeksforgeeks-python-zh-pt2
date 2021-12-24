@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input: n = 3
 Output:  4
 Binary representations are 1, 2 and 3
@@ -30,7 +30,7 @@ Output: 13
 2.  Map the user-defined functions to the list of numbers from 1 to n, and we will get a separate list of the set bits in each number.
 3.  Add the counts of all set bits.
 
-```
+```py
 # Function to Count total set bits in all numbers
 # from 1 to n
 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 13
 
 ```

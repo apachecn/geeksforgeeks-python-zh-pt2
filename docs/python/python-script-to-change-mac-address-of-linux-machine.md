@@ -15,7 +15,7 @@
 **在 Linux 机器中更改 MAC 地址:**在 Linux 中，更改 MAC 地址的一个简单方法是使用`ifconfig`命令。
 如果还没有安装，我们可以使用:
 
-```
+```py
 sudo apt-get update
 sudo apt-get install ifconfig
 
@@ -23,7 +23,7 @@ sudo apt-get install ifconfig
 
 安装此软件包后，我们可以使用以下方法更改媒体访问控制地址:
 
-```
+```py
 sudo ifconfig <interface-name> down
 sudo ifconfig <interface-name> hw ether <new-mac-address> 
 sudo ifconfig <interface-name> up
@@ -32,14 +32,14 @@ sudo ifconfig <interface-name> up
 
 我们可以通过以下方式查看接口列表:
 
-```
+```py
 ifconfig
 ```
 
 **使用 Python 的自动化:**由于我们不可能每次都手动更改 MAC 地址，所以我们可以使用 Python 自动化更改 MAC 地址的过程。该脚本将在一段恒定的时间内不断更改媒体访问控制地址。
 下面是上面想法的实现。
 
-```
+```py
 # Python Script to change MAC Address
 
 # Import Useful modules

@@ -8,7 +8,7 @@
 
 **示例:**了解 process_time()的用法。
 
-```
+```py
 # Python program to show time by process_time() 
 from time import process_time
 
@@ -40,7 +40,7 @@ print("Elapsed time during the whole program in seconds:",
 
 **例:**了解`process_time_ns()`的用法。
 
-```
+```py
 # Python program to show time by process_time_ns() 
 from time import process_time_ns
 

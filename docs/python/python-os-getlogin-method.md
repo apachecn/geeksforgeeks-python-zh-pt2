@@ -14,7 +14,7 @@
 
 **代码#1:** 使用 os.getlogin()方法
 
-```
+```py
 # Python program to explain os.getlogin() method 
 
 # importing os module 
@@ -33,7 +33,7 @@ print(user) 
 
 **Output:**
 
-```
+```py
 ihritik
 
 ```

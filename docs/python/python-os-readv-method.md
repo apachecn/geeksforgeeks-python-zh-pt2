@@ -24,7 +24,7 @@ Python 中的`***os.readv()***`方法用于将指定文件描述符指示的文�
 
 **Code:** Use of os.readv() method
 
-```
+```py
 # Python program to explain os.readv() method
 
 # import os module
@@ -66,7 +66,7 @@ print("\nTotal Number of bytes actually read:", numBytes)
 
 **Output:**
 
-```
+```py
 Data in buffer 1: Python is a widely u
 Data in buffer 2: sed general-purpose,
 Data in buffer 3:  high level programm

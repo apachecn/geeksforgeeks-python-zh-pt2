@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.onscreenclick(fun, btn=1, add=None)
 
 ```
@@ -30,7 +30,7 @@ turtle.onscreenclick(fun, btn=1, add=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import turtle
 import random

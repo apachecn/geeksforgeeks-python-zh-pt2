@@ -30,13 +30,13 @@
 
 创建演示项目后。创建一个应用**账户**。
 
-```
+```py
 python manage.py startapp accounts
 ```
 
 然后你可以看到一个新的文件夹创建了帐户名称，现在让我们把它添加到 settings.py 中的 **INSTALLED_APPS** 中。所以它应该看起来像这样:
 
-```
+```py
 INSTALLED_APPS = [
    'django.contrib.admin',
    'django.contrib.auth',
@@ -51,7 +51,7 @@ INSTALLED_APPS = [
 
 在**模型中，py** 让我们创建模型**帐户**及其**管理器** &也导入这些:
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import AbstractBaseUser,PermissionsMixin,BaseUserManager
 from django.utils.translation import gettext_lazy as _
@@ -79,7 +79,7 @@ class Account(AbstractBaseUser,PermissionsMixin):
 *   写“**用户名**”而不是 user_name 或任何其他样式，因为 facebook 或 google 登录返回用户名
 *   *使用 gettextlazy 是可选的*
 
-```
+```py
 class CustomAccountManager(BaseUserManager):
     def create_user(self,email,username,first_name,password,**other_fields):
         if not email:
@@ -118,13 +118,13 @@ class CustomAccountManager(BaseUserManager):
 
 现在在 *settings.py* 中添加这个来使用我们的自定义用户模型:
 
-```
+```py
 AUTH_USER_MODEL='accounts.Account'
 ```
 
 然后我们需要将这个模型迁移到数据库。
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -133,7 +133,7 @@ python manage.py migrate
 
 为此，我们需要先安装一些库，我将在下面解释为什么我们需要它们:
 
-```
+```py
 pip install djangorestframework
 pip install django-cors-headers
 pip install drf_social_oauth2
@@ -145,7 +145,7 @@ pip install drf_social_oauth2
 
 现在在设置中，py 我们应该将这些添加到 INSTALLED_APPS 中，以便我们的应用程序按预期工作:
 
-```
+```py
 INSTALLED_APPS = [
    'django.contrib.admin',
    'django.contrib.auth',
@@ -166,7 +166,7 @@ INSTALLED_APPS = [
 
 让我们也将这些配置添加到 settings.py 中，我将在下面解释:
 
-```
+```py
 AUTHENTICATION_BACKENDS = (  
   'drf_social_oauth2.backends.DjangoOAuth2',
   'django.contrib.auth.backends.ModelBackend',
@@ -189,7 +189,7 @@ CORS_ALLOWED_ORIGINS = [
 
 好了，现在让我们给中间件和模板添加一些配置:
 
-```
+```py
 MIDDLEWARE = [
    'django.middleware.security.SecurityMiddleware',
    'django.contrib.sessions.middleware.SessionMiddleware',
@@ -227,7 +227,7 @@ TEMPLATES = [
 
 让我们给 django 项目的 urls.py 添加一些 URL，因为 rest 框架和 oauth 都需要这些 URL
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 
@@ -245,7 +245,7 @@ urlpatterns = [
 
 让我们创建序列化程序，我已经在 accounts 文件夹中创建了一个 serializers.py，所以现在编写以下代码:
 
-```
+```py
 from rest_framework import serializers
 from .models import Account
 
@@ -273,7 +273,7 @@ class RegistrationSerializer(serializers.ModelSerializer):
 
 现在我们将编写创建用户的视图:
 
-```
+```py
 from django.shortcuts import render
 from rest_framework.views import APIView
 from rest_framework import status,generics
@@ -300,7 +300,7 @@ class CreateAccount(APIView):
 
 也可以在 accounts 目录中创建一个 urls.py 并写下这个
 
-```
+```py
 from django.urls import path
 from .views import CreateAccount
 
@@ -312,7 +312,7 @@ urlpatterns = [
 
 最后将此 url 添加到项目的 urls.py 中
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 
@@ -337,7 +337,7 @@ urlpatterns = [
 
 就这样，我们现在准备检查我们的应用程序，所以让我们创建一个超级用户，传递所需的值，然后在虚拟环境中运行服务器
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -372,7 +372,7 @@ python manage.py runserver
 
 记得我说过我们将在保存序列化数据后重新访问 CreateAccount 视图来登录用户，让我们这样做吧
 
-```
+```py
 import requests # add this
 
 class CreateAccount(APIView):
@@ -405,7 +405,7 @@ class CreateAccount(APIView):
 
 因此序列化程序将如下所示:
 
-```
+```py
 class UsersSerializer(serializers.ModelSerializer):
    class Meta:
        model=Account
@@ -417,7 +417,7 @@ class UsersSerializer(serializers.ModelSerializer):
 *   **所有用户**返回所有用户，任何一个都可以查看数据
 *   **当前用户**只返回当前用户，只允许认证请求
 
-```
+```py
 from rest_framework import status,generics
 
 class AllUsers(generics.ListAPIView):
@@ -434,7 +434,7 @@ class CurrentUser(APIView):
 
 urls.py 将如下所示:
 
-```
+```py
 from django.urls import path
 from .views import CreateAccount,AllUsers,CurrentUser
 
@@ -478,7 +478,7 @@ urlpatterns = [
 
 **将这些添加到 settings.py 中，要获得 facebook 和 google 所需的**键，您需要访问这里的[获取 fb](https://developers.facebook.com/apps/.) 和这里的[获取 google](https://console.developers.google.com/apis/credentials) 并在那里执行必要的步骤。****
 
-```
+```py
 AUTHENTICATION_BACKENDS = (  
    'social_core.backends.google.GoogleOAuth2',
    'social_core.backends.facebook.FacebookAppOAuth2',
@@ -517,7 +517,7 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = [
 
 **然后创建一个登录组件，在那里我们呈现这些 **fb 和谷歌登录按钮**，它们将带着**所需的键**，当每个用户尝试用这些按钮登录时，将返回一个访问令牌以及关于用户的信息**
 
-```
+```py
 import ReactFacebookLogin from "react-facebook-login";
 import ReactGoogleLogin from "react-google-login";
 import { facebookLogin, googleLogin } from "../axios";# I'll create this later
@@ -558,7 +558,7 @@ export default function LogIn() {
 
 **所以我们需要**转换这个令牌**来获得**访问令牌，从我们的服务器**刷新令牌，(注册我们的用户)，为此我**创建了一个 axios.js 文件**，我在那里放了这个代码:**
 
-```
+```py
 export function facebookLogin(accessToken) {
  axios
    .post(`http://127.0.0.1:8000/api-auth/convert-token`, {
@@ -603,7 +603,7 @@ export function googleLogin(accessToken) {
 *   **请注意，我使用本地存储来存储访问令牌作为一个例子，但你应该有一个安全的方法可能**网络 Cookies(安全，HttpOnly，同一个站点)****
 *   ****窗口需要重新加载**让 react fetch 网站使用最新的访问令牌进行认证**
 
-```
+```py
 axiosInstance.interceptors.response.use(
  (response) => {
    return response;

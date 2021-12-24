@@ -15,7 +15,7 @@
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate working of
 # find() and rfind()
 str = "geeksforgeeks is for geeks"
@@ -34,7 +34,7 @@ print ( str.rfind( str2, 4) )
 
 **输出:** 
 
-```
+```py
 The first occurrence of str2 is at : 8
 The last occurrence of str2 is at : 21
 ```
@@ -44,7 +44,7 @@ The last occurrence of str2 is at : 21
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # startswith() and endswith()
 str = "geeks"
@@ -66,7 +66,7 @@ else :
 
 **输出:** 
 
-```
+```py
 str1 begins with : geeks
 str1 does not end with : geeks
 ```
@@ -76,7 +76,7 @@ str1 does not end with : geeks
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # isupper() and islower()
 str = "GeeksforGeeks"
@@ -97,7 +97,7 @@ else :
 
 **输出:** 
 
-```
+```py
 All characters in str are not upper cased
 All characters in str1 are lower cased
 ```
@@ -109,7 +109,7 @@ All characters in str1 are lower cased
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate working of
 # upper(), lower(), swapcase() and title()
 str = "GeeksForGeeks is fOr GeeKs"
@@ -133,7 +133,7 @@ print (" The title case converted string is : " + str4)
 
 **输出:** 
 
-```
+```py
  The lower case converted string is : geeksforgeeks is for geeks
  The upper case converted string is : GEEKSFORGEEKS IS FOR GEEKS
  The swap case converted string is : gEEKSfORgEEKS IS FoR gEEkS

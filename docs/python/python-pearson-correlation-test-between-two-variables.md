@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import those libraries
 import pandas as pd
 from scipy.stats import pearsonr
@@ -61,7 +61,7 @@ print('Pearsons correlation: %.3f' % corr)
 
 **输出:**
 
-```
+```py
 Pearson correlation is: -0.878
 ```
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for Plotting Fibonacci
 # spiral fractal using Turtle
 import turtle

@@ -14,7 +14,7 @@ Python 中的一切都是一个对象。Python 中的函数也是对象。因此
 
 ## 蟒蛇 3
 
-```
+```py
 def my_decorator(func):
     def wrapper_function(*args, **kwargs):
         print("*"*10)
@@ -36,7 +36,7 @@ say_bye()
 
 **输出:**
 
-```
+```py
 **********
 Hello Geeks!
 **********
@@ -61,13 +61,13 @@ Bye Geeks!
 
 我们还使用@timer_func decorator 定义了 long_time 函数，因此每当我们调用 long_time 函数时，它都会被调用如下:
 
-```
+```py
 timer_func(long_time)(5)
 ```
 
 调用 timer_func 函数时，将 long_time 作为参数传递会返回 wrap_func 函数，并且函数对象 func 开始指向 long_time 函数。
 
-```
+```py
 wrap_func(5)
 ```
 
@@ -75,7 +75,7 @@ wrap_func(5)
 
 ## 蟒蛇 3
 
-```
+```py
 from time import time
 
 def timer_func(func):
@@ -100,6 +100,6 @@ long_time(5)
 
 **输出:**
 
-```
+```py
 Function 'long_time' executed in 0.0219s
 ```

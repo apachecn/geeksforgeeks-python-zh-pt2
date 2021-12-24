@@ -12,7 +12,7 @@
 
 要在 excel 工作表中绘制简单的雷达图，请使用 add_chart()方法，并在工作簿对象中键入“雷达”关键字参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -103,7 +103,7 @@ workbook.close()
 
 要在 excel 工作表中绘制带有标记的雷达图，请使用 add_chart()方法，并在工作簿对象中键入“雷达”和“带有标记的子类型”关键字参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -194,7 +194,7 @@ workbook.close()
 
 要在 excel 工作表中绘制填充雷达图，请使用 add_chart()方法，在工作簿对象中键入“雷达”和子类型“填充”关键字参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

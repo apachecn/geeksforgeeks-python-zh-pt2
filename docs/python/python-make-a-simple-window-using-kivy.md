@@ -7,7 +7,7 @@
 Kivy 是一个独立的平台，因为它可以在安卓、IOS、linux 和视窗等平台上运行。Kivy 为您提供了一次性编写代码并在不同平台上运行的功能。它基本上是用来开发安卓应用程序的，但并不意味着它不能在桌面应用程序上使用。
 使用此命令安装 kivy:
 
-```
+```py
 pip install kivy
 ```
 
@@ -19,7 +19,7 @@ pip install kivy
 
 ## 蟒蛇 3
 
-```
+```py
 # base Class of your App inherits from the App class.
 from kivy.app import App
 # GridLayout arranges children in a matrix.
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 def __init__(self, **kwargs):
 super(LoginScreen, self).__init__(**kwargs)
 ```
@@ -86,7 +86,7 @@ super(LoginScreen, self).__init__(**kwargs)
 
 ## 计算机编程语言
 
-```
+```py
 self.cols = 2
 self.add_widget(Label(text='User Name'))
 self.username = TextInput(multiline=False)

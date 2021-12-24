@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: 19
 Output: 1.900000e+01
 
@@ -25,7 +25,7 @@ Output: 1.101020e+05
 
 **语法:**
 
-```
+```py
 String {field_name:conversion} Example.format(value)
 ```
 
@@ -39,7 +39,7 @@ String {field_name:conversion} Example.format(value)
 
 ## 蟒 3
 
-```
+```py
 # Python program to convert int to exponential
 
 # Declaring the integer number
@@ -55,7 +55,7 @@ print("Exponent Number:",exp_number)
 
 **输出:**
 
-```
+```py
 Integer Number: 110102
 Exponent Number: 1.101020e+05
 ```

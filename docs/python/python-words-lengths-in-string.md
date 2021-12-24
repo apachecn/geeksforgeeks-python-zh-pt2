@@ -7,7 +7,7 @@
 **方法#1:使用`split() + len()`**
 使用分割功能，我们可以将字符串分割成一个单词列表，如果你想完成这个特定的任务，这是最通用和推荐的方法。但缺点是它在字符串中包含标点符号的情况下会失败。len()用于计算字符串长度。
 
-```
+```py
 # Python3 code to demonstrate 
 # Words lengths in String
 # using split()
@@ -28,7 +28,7 @@ print ("The list of words lengths is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeksforgeeks is best Computer Science Portal
 The list of words lengths is : [13, 2, 4, 8, 7, 6]
 

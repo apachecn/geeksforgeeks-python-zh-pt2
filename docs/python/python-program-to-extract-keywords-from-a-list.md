@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Keywords from String List
 
@@ -56,7 +56,7 @@ print("Extracted Keywords : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Keywords from String List
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 tag.strings 
 ```
 
@@ -15,7 +15,7 @@ tag.strings
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -35,7 +35,7 @@ for string in tag.strings:
 
 **输出:**
 
-```
+```py
  Hello world 
  New heading 
 ```
@@ -44,7 +44,7 @@ for string in tag.strings:
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 

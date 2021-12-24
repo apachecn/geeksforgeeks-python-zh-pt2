@@ -17,7 +17,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 图片 2:
 ![](img/a8be9eb8b4d8e76ac182ce7af1b31a65.png)
 
-```
+```py
 # Importing Image module from PIL package 
 from PIL import Image
 
@@ -37,7 +37,7 @@ im3.show()
 **输出:**
 ![](img/8f384972a269e8dd5abf8d6949271806.png)
 
-```
+```py
 # Importing Image module from PIL package 
 from PIL import Image
 

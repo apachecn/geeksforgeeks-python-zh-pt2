@@ -7,7 +7,7 @@
 **方法一:使用`sort() + lambda`**
 以上功能的组合可以用来执行此任务。在这种情况下，我们只需向`sort()`传递一个 lambda 函数，该函数带有适当的元组元素索引，根据该索引必须执行排序。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort tuple list by Nth element of tuple
 # using sort() + lambda
@@ -31,7 +31,7 @@ print("List after sorting tuple by Nth index sort : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 1), (6, 1, 5), (7, 4, 2), (6, 2, 4)]
 List after sorting tuple by Nth index sort : [(6, 1, 5), (6, 2, 4), (7, 4, 2), (4, 5, 1)]
 

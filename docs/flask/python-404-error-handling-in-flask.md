@@ -20,7 +20,7 @@ Flask 为我们提供了一种处理错误并返回自定义错误页面的方�
 
 为此，我们需要下载并导入烧瓶。通过 CMD 上的以下命令下载烧瓶。
 
-```
+```py
 pip install flask
 
 ```
@@ -30,7 +30,7 @@ pip install flask
 **app.py**
 Flask 允许我们制作一个 python 文件来定义所有的路线和功能。在 app.py 中，我们定义了到主页面('/'的路径和错误处理函数，它是一个 flask 函数，我们传递了 404 error 作为参数。
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -51,7 +51,7 @@ def not_found(e):
 以下代码从 header.html 导出表头和导航条。
 两个文件应根据烧瓶存放在模板文件夹中。
 
-```
+```py
 {% extends "header.html" %}
 <!-- Exports header and navbar from header.html
      or any file you want-->
@@ -75,7 +75,7 @@ def not_found(e):
 两个文件都要根据烧瓶存放在模板文件夹中。
 5 秒后，用户将被自动重定向到主页。
 
-```
+```py
 <html>
 <head>
 <title>Page Not Found</title>
@@ -118,7 +118,7 @@ function redirect(){
 由自举组成。你也可以自己做一个。
 关于这个，请参考引导[文档。](https://getbootstrap.com/docs/4.0/components/navs/)
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>

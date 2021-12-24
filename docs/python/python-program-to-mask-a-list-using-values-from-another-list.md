@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Boolean composition mask in list
 # Using list comprehension
@@ -46,7 +46,7 @@ print("The Boolean Masked list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 2, 1, 9, 8, 0, 4]
 The Boolean Masked list : [0, 0, 1, 1, 1, 0, 0]
 ```
@@ -57,7 +57,7 @@ The Boolean Masked list : [0, 0, 1, 1, 1, 0, 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Boolean composition mask in list
 # Using set() + list comprehension
@@ -82,7 +82,7 @@ print("The Boolean Masked list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 2, 1, 9, 8, 0, 4]
 The Boolean Masked list : [0, 0, 1, 1, 1, 0, 0]
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test substring order
 # Using join() + in operator + generator expression
@@ -44,7 +44,7 @@ print("Is substring in order : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Is substring in order : True
 
@@ -56,7 +56,7 @@ Is substring in order : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test substring order
 # Using all() + next() + generator expression
@@ -81,7 +81,7 @@ print("Is substring in order : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Is substring in order : True
 

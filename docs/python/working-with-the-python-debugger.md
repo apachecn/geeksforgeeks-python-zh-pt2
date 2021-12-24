@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to print Multiplication 
 # table of a Number
 n=5
@@ -22,7 +22,7 @@ for x in range(1,11) :
 
 **输出:**
 
-```
+```py
 5 * 1 = 5
 5 * 2 = 10
 5 * 3 = 15
@@ -41,7 +41,7 @@ for x in range(1,11) :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to print Multiplication Table
 # We want to debug the for loop so we use
 # set_trace() call to pdb module

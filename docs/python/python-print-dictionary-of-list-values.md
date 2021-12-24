@@ -18,13 +18,13 @@
 
 **语法**:
 
-```
+```py
 d.items()
 ```
 
 我们可以使用 for 循环遍历字典
 
-```
+```py
 for key,values in data.items():
      for i in values:
           print(key," : ",i)
@@ -34,7 +34,7 @@ for key,values in data.items():
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 # with student names as key
 # values as subject details
@@ -52,7 +52,7 @@ for key, values in data.items():
 
 **输出**:
 
-```
+```py
 manoja  :  {'subject1': 'java', 'marks': 98}
 manoja  :  {'subject2': 'PHP', 'marks': 89}
 manoj  :  {'subject1': 'java', 'marks': 78}
@@ -63,7 +63,7 @@ manoj  :  {'subject2': 'PHP', 'marks': 79}
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 # with student names as key
 # values as subject details
@@ -82,7 +82,7 @@ for key, values in data.items():
 
 **输出**:
 
-```
+```py
 manoja  :  {'subject1': 'java', 'marks': 98}
 manoja  :  {'subject2': 'PHP', 'marks': 89}
 manoj  :  {'subject1': 'java', 'marks': 78}

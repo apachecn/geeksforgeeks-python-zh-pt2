@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of a byte string
 # to a list of integers
@@ -39,7 +39,7 @@ print(list(x))
 
 **输出:**
 
-```
+```py
 [71, 70, 71]
 ```
 
@@ -61,7 +61,7 @@ print(list(x))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of a byte string
 # to a list of integers
@@ -108,7 +108,7 @@ print(nums)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of a byte string
 # to a list of integers
@@ -126,7 +126,7 @@ print(int_val)
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -134,7 +134,7 @@ print(int_val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of a byte string
 # to a list of integers
@@ -152,6 +152,6 @@ print(int_val)
 
 **输出:**
 
-```
+```py
 -1024
 ```

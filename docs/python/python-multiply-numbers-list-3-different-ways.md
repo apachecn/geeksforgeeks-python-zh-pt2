@@ -5,7 +5,7 @@
 给定一个列表，打印列表中所有数字相乘后得到的值。
 示例:
 
-```
+```py
 Input :  list1 = [1, 2, 3] 
 Output : 6 
 Explanation: 1*2*3=6 
@@ -22,7 +22,7 @@ Output : 24
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to multiply all values in the
 # list using traversal
 
@@ -43,7 +43,7 @@ print(multiplyList(list2))
 
 **输出:**
 
-```
+```py
 6
 24 
 
@@ -56,7 +56,7 @@ print(multiplyList(list2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to multiply all values in the
 # list using numpy.prod()
 
@@ -73,7 +73,7 @@ print(result2)
 
 **输出:**
 
-```
+```py
 6
 24 
 
@@ -86,7 +86,7 @@ Lambda 的定义不包括**“return”**语句，它总是包含一个被返回
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to multiply all values in the
 # list using lambda function and reduce()
 
@@ -102,7 +102,7 @@ print(result2)
 
 **输出:**
 
-```
+```py
 6
 24 
 
@@ -115,7 +115,7 @@ print(result2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to multiply all values in the
 # list using math.prod
 
@@ -131,7 +131,7 @@ print(result2)
 
 **输出:**
 
-```
+```py
 6
 24 
 

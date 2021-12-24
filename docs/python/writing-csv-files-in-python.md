@@ -26,7 +26,7 @@ Python 提供了一个名为`csv`的内置模块来处理 CSV 文件。本模块
 
     **语法:**
 
-    ```
+    ```py
     writerow(fields)
 
     ```
@@ -35,7 +35,7 @@ Python 提供了一个名为`csv`的内置模块来处理 CSV 文件。本模块
 
     **语法:**
 
-    ```
+    ```py
     Writing CSV files in Python
     writerows(rows)
 
@@ -43,7 +43,7 @@ Python 提供了一个名为`csv`的内置模块来处理 CSV 文件。本模块
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # writing to CSV
 
@@ -98,7 +98,7 @@ csv。DictWriter 提供了两种写入 CSV 的方法。它们是:
 
     **语法:**
 
-    ```
+    ```py
     writeheader()
 
     ```
@@ -107,14 +107,14 @@ csv。DictWriter 提供了两种写入 CSV 的方法。它们是:
 
     **语法:**
 
-    ```
+    ```py
     writerows(mydict)
 
     ```
 
 **示例:**
 
-```
+```py
 # importing the csv module 
 import csv 
 

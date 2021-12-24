@@ -19,7 +19,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 > 
 > **返回类型:**图像
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 
@@ -46,7 +46,7 @@ im3.show() 
 > 
 > **返回类型:**图像
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 

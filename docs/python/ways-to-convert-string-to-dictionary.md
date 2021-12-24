@@ -9,7 +9,7 @@
 
 下面是该方法的实现。
 
-```
+```py
 # Python implementation of converting
 # a string into a dictionary
 
@@ -29,7 +29,7 @@ print(dictionary)
 
 **Output:**
 
-```
+```py
 {' Feb ': ' February', ' Mar ': ' March', ' Jan ': ' January'}
 
 ```
@@ -39,7 +39,7 @@ print(dictionary)
 
 下面是该方法的实现。
 
-```
+```py
 # Python implementation of converting
 # a string into a dictionary
 
@@ -70,7 +70,7 @@ print(dictionary)
 
 **Output:**
 
-```
+```py
 {'Jan': 'January ', 'Feb': ' February ', 'March': ' March'}
 
 ```
@@ -80,7 +80,7 @@ print(dictionary)
 
 下面是该方法的实现。
 
-```
+```py
 # Python implementation of converting
 # a string into  a dictionary
 
@@ -110,7 +110,7 @@ print(dictionary)
 
 **Output:**
 
-```
+```py
 {' March': ' March', 'Jan': 'January ', ' Feb': ' February '}
 
 ```
@@ -120,7 +120,7 @@ print(dictionary)
 
 下面是该方法的实现。
 
-```
+```py
 # Python implementation of converting
 # a string into  a dictionary
 
@@ -139,7 +139,7 @@ print(dictionary)
 
 **Output:**
 
-```
+```py
 {'Feb': 'February', 'Jan': 'January', 'Mar': 'March'}
 
 ```

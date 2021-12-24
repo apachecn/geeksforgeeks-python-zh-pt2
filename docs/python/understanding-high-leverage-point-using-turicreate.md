@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turicreate 
 import matplotlib.pyplot as plt
 import random
@@ -32,7 +32,7 @@ import random
 
 ## 蟒蛇 3
 
-```
+```py
 #Creating data point for this tutorial
 X = [random.randrange(1, 150) for i in range(200)]
 Y = [random.randrange(200, 3000) for i in range(200)]
@@ -63,7 +63,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Fitting a linear Regression model with the given data
 model = turicreate.linear_regression.create(data_points, 
                                             target = "Y", 
@@ -89,7 +89,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Training the regression model with the data that do not
 #contain high leverage point
 model_nohlp = turicreate.linear_regression.create(
@@ -117,7 +117,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Plotting both the fitted model in order to compare the results better
 plt.scatter(data_points["X"], data_points["Y"], label = "Data Points")
 plt.xlabel("Input : X")
@@ -135,7 +135,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Plotting both the fitted model in order to compare the results better
 plt.scatter(data_points["X"], data_points["Y"], label = "Data Points")
 plt.xlabel("Input : X")
@@ -162,7 +162,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #Compairing the regression coefficients of both the models
 print(f"""
 Model with High Leverage Point

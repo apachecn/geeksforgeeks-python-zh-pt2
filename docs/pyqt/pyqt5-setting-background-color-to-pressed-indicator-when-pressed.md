@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须在指示器处于选中状态时更改指示器按下状态的样式表代码，它与复选框对象一起使用。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:checked:pressed
 {
 background-color : red;
@@ -16,7 +16,7 @@ background-color : red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

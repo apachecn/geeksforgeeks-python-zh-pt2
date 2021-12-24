@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to draw a turtle
 import turtle
 

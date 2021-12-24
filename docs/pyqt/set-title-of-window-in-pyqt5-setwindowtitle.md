@@ -12,7 +12,7 @@ PyQt5 是 Qt v5 的一套全面的 Python 绑定。它被实现为 35 个以上�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *

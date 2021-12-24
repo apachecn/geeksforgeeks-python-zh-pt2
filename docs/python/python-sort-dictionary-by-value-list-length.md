@@ -7,7 +7,7 @@
 **方法:使用`sorted() + join()` + lambda**
 上述功能的组合可用于执行该特定任务。在这里，我们只使用 lambda 函数来执行这个特定的任务，`sorted`和`join`函数分别执行所需的结果排序和封装。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort dictionary by value list length
 # using sorted() + join() + lambda
@@ -28,7 +28,7 @@ print("Sorted keys by value list : " + res)
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'is': [1, 2], 'best': [1, 3, 4], 'gfg': [3]}
 Sorted keys by value list : gfg is best
 

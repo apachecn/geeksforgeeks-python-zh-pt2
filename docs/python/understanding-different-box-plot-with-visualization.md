@@ -8,7 +8,7 @@
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 **准备数据**
 
-```
+```py
 spread = np.random.rand(50) * 100
 center = np.ones(25) * 50
 flier_high = np.random.rand(10) * 100 + 100
@@ -28,7 +28,7 @@ print (data)
 
 **输出:**
 
-```
+```py
 [ 35.94741387  98.49500418  37.2487085   93.19618571   6.34263359
   49.10532713  53.86860981  58.59362227  36.96325746  62.27757508
   65.44118887  73.79592156  95.15399991  79.94114982  16.64273792
@@ -52,7 +52,7 @@ print (data)
 
 **代码#1:** 正常箱线图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data)
 
@@ -64,7 +64,7 @@ plt.show()
 
 **代码#2:** 凹口方框图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data, 1)
 
@@ -76,7 +76,7 @@ plt.show()
 
 **代码#3:** 显示异常值的箱线图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data, 0, 'gD')
 
@@ -88,7 +88,7 @@ plt.show()
 
 **代码#4:** 无异常值的箱线图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data, 0, '')
 
@@ -100,7 +100,7 @@ plt.show()
 
 **代码#5:** 水平方框图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data, 0, 'rs', 0)
 
@@ -112,7 +112,7 @@ plt.show()
 
 **代码#6:** 改变胡须长度的水平方框图
 
-```
+```py
 plt.figure(figsize = (7, 5))
 plt.boxplot(data, 0, 'rs', 0, 0.75)
 

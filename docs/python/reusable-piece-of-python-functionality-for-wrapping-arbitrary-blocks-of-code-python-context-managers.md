@@ -14,7 +14,7 @@
 
 众所周知，释放资源的正确方法是在资源使用后将其关闭。构建关闭函数最常见的做法是使用异常处理。让我们看看下面的代码。
 
-```
+```py
 def main():
     try:
         file = open('sample.txt', 'r')
@@ -36,7 +36,7 @@ finally 子句确保文件将被关闭，而不管任何情况。但是这个过
 
 **有了语句**，内置函数的 python 可以作为上下文管理器。
 
-```
+```py
 with open (‘filename’, ’r’)  as file:
     data = file.read()
 ```
@@ -45,7 +45,7 @@ with open (‘filename’, ’r’)  as file:
 
 它**处理包装代码**中是否引发异常，最重要的是语句**确保资源被释放**。因此，程序员不需要执行关闭操作。这是完整的代码。
 
-```
+```py
 def main():
     with open('sample.txt', 'r') as file:
         data = file.read()
@@ -61,7 +61,7 @@ __enter__ 方法返回一个对象，然后将返回值赋给“as”关键字�
 
 下面的代码解释了上下文管理器的工作流程。记录内部属性以及属性值在不同场景下的变化。进入上下文管理器后，属性值设置为 true，退出时，属性值设置为 false。一旦 with 语句中的代码块完成执行，就会调用 __exit__ 方法。
 
-```
+```py
 class ContextCheck(object):
 
     def __init__(self):
@@ -85,7 +85,7 @@ print(cntCheck.inside)
 
 **输出**
 
-```
+```py
 False
 True
 False
@@ -110,7 +110,7 @@ False
 
 __exit__ 方法可以通过返回 False 的返回语句来重新引发异常。让我们看看下面的代码:
 
-```
+```py
 class BubbleExc(object):
     def __enter__(self):
         return self
@@ -126,7 +126,7 @@ with BubbleExc():
 
 **输出**
 
-```
+```py
 Exception: division by zero.
 Traceback (most recent call last):
   File "C:\Users\Sonu George\Documents\Python\Context Managers\bubbleExc.py", line 11, in 
@@ -139,7 +139,7 @@ ZeroDivisionError: division by zero
 
 __exit__ 方法可以通过返回 true 来抑制异常。详见下面的例子。
 
-```
+```py
 class SuppressExc(object):
     def __enter__(self):
         return self
@@ -155,7 +155,7 @@ with SuppressExc():
 
 **输出**T2】
 
-```
+```py
 Suppressing exception: division by zero.
 ```
 
@@ -173,7 +173,7 @@ Suppressing exception: division by zero.
 
 使用上下文管理器写入文件的示例方法。这是完整的代码。
 
-```
+```py
 class FileClass(object):
 
     def __init__(self, f_name, func):
@@ -191,7 +191,7 @@ with FileClass('sample.txt', 'w') as f_open:
 
 **输出**
 
-```
+```py
 Congratulations, Good Work!
 ```
 
@@ -199,7 +199,7 @@ Congratulations, Good Work!
 
 在这里，page.close()将在读取完页面后调用(从 with 块退出时)。
 
-```
+```py
 from contextlib import closing
 from urllib.request import urlopen
 
@@ -214,7 +214,7 @@ with closing(urlopen('https://www.geeksforgeeks.org/')) as page:
 
 使用 python*context lib*模块，您可以将上下文管理器实现为装饰器，并且方法中的 *yield* 语句提供了将其用作生成器的灵活性。为了理解这个程序，你应该有关于装饰和发电机的知识。
 
-```
+```py
 from contextlib import contextmanager
 
 @contextmanager
@@ -242,7 +242,7 @@ main()
 
 *在这种情况下，我们将检查异常是否是异常类的实例。下面我们将创建一个子类‘typererrorsubclass’，它是从‘typererror’异常类派生的，使用 raise 语句我们将引发‘typererrorsubclass’异常。这是完整的代码。*
 
-```
+```py
 *class TypeErrorSubClass(TypeError):
     pass
 
@@ -269,7 +269,7 @@ with ExceptionClass():
 
 ***输出***
 
-```
+```py
 *Handling ValueError: Type Error*
 ```
 

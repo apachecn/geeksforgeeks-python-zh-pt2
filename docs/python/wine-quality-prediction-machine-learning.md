@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 
 import pandas as pd
@@ -45,7 +45,7 @@ import seaborn as sb
 
 ## 蟒蛇 3
 
-```
+```py
 # loading the data
 Dataframe = pd.read_csv(R'D:\\xdatasets\winequalityN.csv')
 ```
@@ -56,7 +56,7 @@ Dataframe = pd.read_csv(R'D:\\xdatasets\winequalityN.csv')
 
 ## 蟒蛇 3
 
-```
+```py
 # show rows and columns
 Dataframe.head()
 ```
@@ -67,7 +67,7 @@ Dataframe.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # getting info.
 Dataframe.info()
 ```
@@ -78,7 +78,7 @@ Dataframe.info()
 
 ## 蟒蛇 3
 
-```
+```py
 Dataframe.describe()
 ```
 
@@ -90,7 +90,7 @@ Dataframe.describe()
 
 ## 蟒蛇 3
 
-```
+```py
 # null value check
 Dataframe.isnull().sum()
 ```
@@ -103,7 +103,7 @@ Dataframe.isnull().sum()
 
 ## 计算机编程语言
 
-```
+```py
 # plot pairplot
 sb.pairplot(Dataframe)
 #show graph
@@ -116,7 +116,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 #plot histogram
 Dataframe.hist(bins=20,figsize=(10,10))
 #plot showing
@@ -129,7 +129,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 plt.figure(figsize=[15,6])
 plt.bar(df['quality'],df['alcohol'])
 plt.xlabel('quality')
@@ -151,7 +151,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # correlation by visualization
 plt.figure(figsize=[18,7])
 # plot correlation
@@ -167,7 +167,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 colm = []
 # loop for columns
 for i in range(len(Dataframe.corr().keys())):
@@ -181,7 +181,7 @@ for i in range(len(Dataframe.corr().keys())):
 
 ## 蟒蛇 3
 
-```
+```py
 # drop column
 new_df = Dataframe.drop('total sulfur dioxide',axis = 1)
 ```
@@ -192,7 +192,7 @@ new_df = Dataframe.drop('total sulfur dioxide',axis = 1)
 
 ## 计算机编程语言
 
-```
+```py
 new_df.update(new_df.fillna(new_df.mean()))
 ```
 
@@ -200,7 +200,7 @@ new_df.update(new_df.fillna(new_df.mean()))
 
 ## 蟒蛇 3
 
-```
+```py
 # no of categorical columns
 cat = new_df.select_dtypes(include='O')
 # create dummies of categorical columns
@@ -218,7 +218,7 @@ print(df_dummies)
 
 ## **蟒蛇 3**
 
-```
+```py
 df_dummies['best quality']=[1 if x>=7 else 0 for x in Dataframe.quality]
 print(df_dummies)
 ```
@@ -231,7 +231,7 @@ print(df_dummies)
 
 ## 蟒蛇 3
 
-```
+```py
 # import libraries
 from sklearn.preprocessing import train_test_split
 
@@ -250,7 +250,7 @@ xtrain,xtest,ytrain,ytest = train_test_split(x,y,test_size=0.2,random_state=40)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # import libraries
 
@@ -278,7 +278,7 @@ print(scal_xtrain)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 #import libraries
 from sklearn.ensemble import RandomForestClassifier
@@ -328,7 +328,7 @@ print(classification_report(ytest,x_predict))
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 x_predict = list(rnd.predict(xtest))
 df = {'predicted':x_predict,'original':ytest}

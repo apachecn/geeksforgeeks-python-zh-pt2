@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```py
 [on_true] if [expression] else [on_false] 
 ```
 
@@ -15,7 +15,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Program to demonstrate conditional operator
 a, b = 10, 20
 
@@ -27,7 +27,7 @@ print(min)
 
 **输出:**
 
-```
+```py
 10
 ```
 
@@ -35,7 +35,7 @@ print(min)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate ternary operator
 a, b = 10, 20
 
@@ -59,7 +59,7 @@ print((lambda: b, lambda: a)[a < b]())
 
 **输出:**
 
-```
+```py
 10
 10
 10
@@ -69,7 +69,7 @@ print((lambda: b, lambda: a)[a < b]())
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate nested ternary operator
 a, b = 10, 20
 
@@ -81,7 +81,7 @@ print ("Both a and b are equal" if a == b else "a is greater than b"
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate nested ternary operator
 a, b = 10, 20
 
@@ -96,7 +96,7 @@ else:
 
 **输出:**
 
-```
+```py
  b is greater than a
 ```
 
@@ -106,7 +106,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 a=5
 b=7
 
@@ -117,7 +117,7 @@ print(a,"is greater") if (a>b) else print(b,"is Greater")
 
 **输出:**
 
-```
+```py
 7 is Greater
 ```
 
@@ -132,7 +132,7 @@ print(a,"is greater") if (a>b) else print(b,"is Greater")
 
 **语法:**
 
-```
+```py
 '''When condition becomes true, expression [on_false]
    is not executed and value of "True and [on_true]"
    is returned.  Else value of "False or [on_false]"
@@ -146,7 +146,7 @@ print(a,"is greater") if (a>b) else print(b,"is Greater")
 
 ## 计算机编程语言
 
-```
+```py
 # Program to demonstrate conditional operator
 a, b = 10, 20
 
@@ -160,7 +160,7 @@ print(min)
 
 **输出:**
 
-```
+```py
 10
 ```
 

@@ -12,7 +12,7 @@
 我们来看一个例子，试着理解 push()和 pop()函数的工作原理:
 例子:
 
-```
+```py
 # Python code to demonstrate Implementing 
 # stack using list
 stack = ["Amar", "Akbar", "Anthony"]
@@ -33,7 +33,7 @@ print(stack)
 
 **Output:**
 
-```
+```py
 ['Amar', 'Akbar', 'Anthony', 'Ram', 'Iqbal']
 Iqbal
 ['Amar', 'Akbar', 'Anthony', 'Ram']
@@ -44,7 +44,7 @@ Ram
 
 **排队**按照“先进先出”的原则工作。下面是队列的实现列表。我们使用 pop(0)从列表中移除第一项。
 
-```
+```py
 # Python code to demonstrate Implementing 
 # Queue using list
 queue = ["Amar", "Akbar", "Anthony"]
@@ -65,7 +65,7 @@ print(queue)
 
 **Output:**
 
-```
+```py
 ['Amar', 'Akbar', 'Anthony', 'Ram', 'Iqbal']
 Amar
 ['Akbar', 'Anthony', 'Ram', 'Iqbal']
@@ -77,7 +77,7 @@ Akbar
 **2)使用德格**
 在堆栈的情况下，列表实现工作正常，并且在 O(1)时间内提供了 append()和 pop()。当我们使用 deque 实现时，我们得到相同的时间复杂度。
 
-```
+```py
 # Python code to demonstrate Implementing 
 # Stack using deque
 from collections import deque
@@ -94,7 +94,7 @@ print(queue)
 
 **Output:**
 
-```
+```py
 deque(['Ram', 'Tarun', 'Asif', 'John'])
 deque(['Ram', 'Tarun', 'Asif', 'John', 'Akbar'])
 deque(['Ram', 'Tarun', 'Asif', 'John', 'Akbar', 'Birbal'])
@@ -109,7 +109,7 @@ deque(['Ram', 'Tarun', 'Asif', 'John'])
 
 让我们看一个例子，并尝试使用集合来理解队列。
 
-```
+```py
 # Python code to demonstrate Implementing 
 # Queue using deque
 from collections import deque
@@ -126,7 +126,7 @@ print(queue)
 
 **Output:**
 
-```
+```py
 deque(['Ram', 'Tarun', 'Asif', 'John'])
 deque(['Ram', 'Tarun', 'Asif', 'John', 'Akbar'])
 deque(['Ram', 'Tarun', 'Asif', 'John', 'Akbar', 'Birbal'])

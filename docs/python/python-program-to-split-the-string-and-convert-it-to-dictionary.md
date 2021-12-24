@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Using split() + loop
 
 # initializing string
@@ -56,7 +56,7 @@ print("Dictionary after splits ordering : "
 
 ## 蟒蛇 3
 
-```
+```py
 # Using dictionary comprehension + split() + enumerate()
 
 # initializing string

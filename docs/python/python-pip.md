@@ -8,7 +8,7 @@
 
 **Python pip** 是 Python 包的包管理器。我们可以使用 pip 来安装 Python 没有的包。命令提示符中 pip 命令的基本语法是:
 
-```
+```py
 pip 'arguments'
 ```
 
@@ -16,7 +16,7 @@ pip 'arguments'
 
 Python pip 预装在 3.4 或更早版本的 Python 上。要检查 pip 是否已安装，请在终端中键入以下命令。
 
-```
+```py
 pip --version
 ```
 
@@ -36,7 +36,7 @@ pip --version
 
 **语法:**
 
-```
+```py
 <pip install numpy
 ```
 
@@ -54,7 +54,7 @@ pip --version
 
 **语法:**
 
-```
+```py
 pip install package_name==version
 ```
 
@@ -66,7 +66,7 @@ pip install package_name==version
 
 **语法:**
 
-```
+```py
 pip show numpy
 ```
 
@@ -85,7 +85,7 @@ Python **pip list** 命令显示系统中安装的软件包列表。
 
 **语法:**
 
-```
+```py
 pip list
 ```
 
@@ -99,7 +99,7 @@ Python **pip 卸载**命令卸载特定的现有包。
 
 **语法:**
 
-```
+```py
 pip uninstall numpy
 ```
 
@@ -115,7 +115,7 @@ pip uninstall numpy
 
 **语法:**
 
-```
+```py
 pip search numpy
 ```
 
@@ -131,7 +131,7 @@ pip search numpy
 
 **语法:**
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -145,7 +145,7 @@ Python **pip 冻结**命令用于列出没有预装 Python 的包。
 
 **语法:**
 
-```
+```py
 pip freeze
 ```
 
@@ -159,7 +159,7 @@ python**pip list–过时**命令用于列出所有过时的包。该命令将�
 
 **语法:**
 
-```
+```py
 pip list --outdated
 ```
 
@@ -173,7 +173,7 @@ Python **pip 安装-用户-升级**用于更新一个包。
 
 **语法:**
 
-```
+```py
 pip install --user --upgrade package_name
 ```
 
@@ -183,7 +183,7 @@ pip install --user --upgrade package_name
 
 我们还可以使用下面的命令将任何包升级到特定的版本。
 
-```
+```py
 pip install --user --upgrade package_name==version
 ```
 
@@ -193,7 +193,7 @@ Python**pip install–user**命令用于将包降级到特定版本。
 
 **语法:**
 
-```
+```py
 pip install --user package_name==version
 ```
 

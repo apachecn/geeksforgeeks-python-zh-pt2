@@ -17,7 +17,7 @@ Django 将 Django 表单中定义的字段映射到 HTML 输入字段中。Djang
 **语法:**
 姜戈字段的工作方式类似于姜戈模型字段，语法如下:
 
-```
+```py
  field_name = forms.FieldType(**options) 
 ```
 
@@ -25,7 +25,7 @@ Django 将 Django 表单中定义的字段映射到 HTML 输入字段中。Djang
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 # creating a form
@@ -49,7 +49,7 @@ class GeeksForm(forms.Form):
 
 **语法:**
 
-```
+```py
 from django import forms
 
 class FormName(models.Model):
@@ -61,7 +61,7 @@ class FormName(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Forms
 # from built-in library
 from django import forms
@@ -91,7 +91,7 @@ Django 表单域有几个内置方法来简化开发人员的工作，但是有�
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import InputForm
 
@@ -106,7 +106,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form action = "" method = "post">
     {% csrf_token %}
     {{form }}
@@ -127,7 +127,7 @@ Django ModelForm 是一个用于将模型直接转换为 Django 表单的类。�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -150,7 +150,7 @@ class GeeksModel(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # import form class from django
 from django import forms
 

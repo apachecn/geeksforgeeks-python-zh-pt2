@@ -8,19 +8,19 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolBitmapSize(self)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No Parameters in GetToolBitmapSize() function.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Size
 > ```
 
@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (32, 32)
 ```
 
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -117,6 +117,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (24, 24)
 ```

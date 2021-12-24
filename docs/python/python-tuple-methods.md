@@ -10,7 +10,7 @@ Tuple 的 count()方法返回给定元素在元组中出现的次数。
 
 **语法:**
 
-```
+```py
 tuple.count(element)
 ```
 
@@ -20,7 +20,7 @@ tuple.count(element)
 
 ## python 3
 
-```
+```py
 # Creating tuples
 Tuple1 = (0, 1, 2, 3, 2, 3, 1, 3, 2)
 Tuple2 = ('python', 'geek', 'python', 
@@ -37,7 +37,7 @@ print('Count of Python in Tuple2 is:', res)
 
 **输出:**
 
-```
+```py
 Count of 3 in Tuple1 is: 3
 Count of Python in Tuple2 is: 3
 ```
@@ -46,7 +46,7 @@ Count of Python in Tuple2 is: 3
 
 ## python 3
 
-```
+```py
 # Creating tuples
 Tuple = (0, 1, (2, 3), (2, 3), 1, 
          [3, 2], 'geeks', (0,))
@@ -62,7 +62,7 @@ print('Count of [3, 2] in Tuple is:', res)
 
 **输出:**
 
-```
+```py
 Count of (2, 3) in Tuple is: 2
 Count of [3, 2] in Tuple is: 1
 ```
@@ -73,7 +73,7 @@ Index()方法返回元组中给定元素的第一次出现。
 
 **语法:**
 
-```
+```py
 tuple.index(element, start, end)
 ```
 
@@ -89,7 +89,7 @@ tuple.index(element, start, end)
 
 ## python 3
 
-```
+```py
 # Creating tuples
 Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
 
@@ -105,7 +105,7 @@ print('First occurrence of 3 after 4th index is:', res)
 
 **输出:**
 
-```
+```py
 First occurrence of 3 is 3
 First occurrence of 3 after 4th index is: 5
 ```
@@ -114,7 +114,7 @@ First occurrence of 3 after 4th index is: 5
 
 ## python 3
 
-```
+```py
 # Creating tuples
 Tuple = (0, 1, 2, 3, 2, 3, 1, 3, 2)
 
@@ -124,7 +124,7 @@ res = Tuple.index(4)
 
 **输出:**
 
-```
+```py
 ValueError: tuple.index(x): x not in tuple
 ```
 

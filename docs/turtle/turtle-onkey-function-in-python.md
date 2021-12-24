@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.onkey(fun, key)
 
 ```
@@ -31,7 +31,7 @@ turtle.onkey(fun, key)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -61,7 +61,7 @@ turtle.listen()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

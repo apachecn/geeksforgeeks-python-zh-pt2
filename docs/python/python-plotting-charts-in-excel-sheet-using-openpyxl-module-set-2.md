@@ -16,7 +16,7 @@
 
 要在 excel 表格上绘制气泡图，请使用 openpyxl.chart 子模块中的`BubbleChart class`。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -90,7 +90,7 @@ wb.save("bubbleChart.xlsx")
 
 散点图或 xy 图类似于一些折线图。要在 excel 工作表中绘制散点图，请使用 openpyxl.chart 子模块中的散点图类。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -166,7 +166,7 @@ wb.save(" ScatterChart.xlsx")
 
 若要在 excel 工作表中绘制饼图，请使用 openpyxl.chart 子模块中的饼图类。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -230,7 +230,7 @@ wb.save(" PieChart.xlsx")
 
 要在 excel 工作表中绘制三维饼图，请使用 openpyxl.chart 子模块中的 PieChart3D 类。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 

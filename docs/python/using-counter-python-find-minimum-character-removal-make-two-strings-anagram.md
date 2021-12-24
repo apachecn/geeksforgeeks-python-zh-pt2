@@ -7,7 +7,7 @@
 
 示例:
 
-```
+```py
 Input : str1 = "bcadeh" str2 = "hea"
 Output: 3
 We need to remove b, c and d from str1.
@@ -27,7 +27,7 @@ Output: 0
 3.  如果没有找到公共键，这意味着我们需要从两个字符串中删除 **count1 + count2** 字符。
 4.  否则**(最大(count1，count 2)–count common)**将是要删除的字符数
 
-    ```
+    ```py
     # Function remove minimum number of characters so that 
     # two strings become anagram 
     from collections import Counter 
@@ -63,7 +63,7 @@ Output: 0
 
     输出:
 
-    ```
+    ```py
     3
 
     ```
@@ -74,7 +74,7 @@ Output: 0
     2.  从两个字典中找出共同的元素
     3.  将公共字典中的值相加，得到公共元素的总数。
 
-        ```
+        ```py
         # Function remove minimum number of characters so that 
         # two strings become anagram 
         from collections import Counter 
@@ -106,7 +106,7 @@ Output: 0
 
         输出:
 
-        ```
+        ```py
         3
 
         ```

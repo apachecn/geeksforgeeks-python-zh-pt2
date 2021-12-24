@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate ways to iterate
 # tuples list of list into single list
 # using itertools.ziplongest
@@ -36,7 +36,7 @@ print ("Resultant List = ", res_list)
 
 **Output:** 
 
-```
+```py
 Initial List =  [['11', '12', '13'], ['21', '22', '23'], ['31', '32', '33']]
 Resultant List =  ['11', '21', '31', '12', '22', '32', '13', '23', '33']
 ```
@@ -45,7 +45,7 @@ Resultant List =  ['11', '21', '31', '12', '22', '32', '13', '23', '33']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # ways to iterate tuples list of list into single list
 # using itertools.ziplongest + lambda + chain
@@ -73,7 +73,7 @@ print ("Resultant List = ", res_list)
 
 **Output:** 
 
-```
+```py
 Initial List =  [['11', '12', '13'], ['21', '22', '23'], ['31', '32', '33']]
 Resultant List =  ['11', '21', '31', '12', '22', '32', '13', '23', '33']
 ```
@@ -83,7 +83,7 @@ Resultant List =  ['11', '21', '31', '12', '22', '32', '13', '23', '33']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate ways to
 # iterate tuples list of list into single
 # list using list comprehension
@@ -108,7 +108,7 @@ print ("Resultant List = ", res_list)
 
 **Output:** 
 
-```
+```py
 Initial List =  [['11', '12', '13'], ['21', '22', '23'], ['31', '32', '33']]
 Resultant List =  ['11', '12', '13', '21', '22', '23', '31', '32', '33']
 ```

@@ -8,7 +8,7 @@
 
 **安装库:**
 
-```
+```py
 pip install numerizer 
 ```
 
@@ -16,7 +16,7 @@ pip install numerizer
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numerize function
 # From Numerizer Library
 from numerizer import numerize
@@ -41,7 +41,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 3
 5220
 44444
@@ -53,7 +53,7 @@ Type
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Numerize function
 # From Numerizer Library
 from numerizer import numerize
@@ -92,7 +92,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 320320 
 990988881999999
 29.5

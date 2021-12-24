@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.screensize(canvwidth=None, canvheight=None, bg=None)
 
 ```
@@ -32,7 +32,7 @@ turtle.screensize(canvwidth=None, canvheight=None, bg=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -43,7 +43,7 @@ print(turtle.screensize())
 
 **输出:**
 
-```
+```py
 (400, 300)
 
 ```
@@ -52,7 +52,7 @@ print(turtle.screensize())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -69,7 +69,7 @@ turtle.screensize(canvwidth=400, canvheight=400,
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

@@ -7,7 +7,7 @@
 ![](img/3807a848d9c7d8ed28e567a3742934cf.png) ![](img/6320a6a1d7fc0addf8001bac65c2401c.png)
 为了做到这一点，我们必须更改与组合框关联的样式表，下面是实现这一点的样式表代码–
 
-```
+```py
 QListView
 {
 border : 3px solid red;
@@ -17,7 +17,7 @@ border : 3px solid red;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

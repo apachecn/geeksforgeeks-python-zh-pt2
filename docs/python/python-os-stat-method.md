@@ -34,7 +34,7 @@ Python 中的`***os.stat()***`方法在指定路径上执行 **stat()** 系统�
 
 **代码:**使用 os.stat()方法
 
-```
+```py
 # Python program to explain os.stat() method 
 
 # importing os module 
@@ -54,7 +54,7 @@ print(status)
 
 **Output:**
 
-```
+```py
 os.stat_result(st_mode=33188, st_ino=795581, st_dev=2056, st_nlink=1, st_uid=1000,
 st_gid=1000, st_size=243, st_atime=1531567080, st_mtime=1530346690, st_ctime=1530346690)
 

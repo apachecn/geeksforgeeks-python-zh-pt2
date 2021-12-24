@@ -8,7 +8,7 @@ PyQt5 中的**滑块**用于在指示器的帮助下设置一个值，该指示�
 
 窗口有一个滑块和一个标签。移动滑块的指示器时，文本的大小会放大或缩小。
 
-```
+```py
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 

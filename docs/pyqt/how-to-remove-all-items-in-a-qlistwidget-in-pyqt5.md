@@ -13,7 +13,7 @@ Python 提供了如此多的选项来开发 GUI 应用程序，PyQt5 就是其�
 
 **语法:**
 
-```
+```py
 clear()
 ```
 
@@ -29,7 +29,7 @@ clear()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import sys
 from PyQt5.QtWidgets import *

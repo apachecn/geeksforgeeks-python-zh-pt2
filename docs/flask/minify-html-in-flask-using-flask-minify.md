@@ -17,7 +17,7 @@ Flask 提供 HTML 渲染作为输出，通常希望输出的 HTML 应该简洁�
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install Flask-Minify
 ```
 
@@ -40,7 +40,7 @@ pip install Flask-Minify
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_minify import minify
 
@@ -54,7 +54,7 @@ minify(app=app, html=True, js=True, cssless=True)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route('/')
 def sample_minify():
     return """<!doctype html>
@@ -125,7 +125,7 @@ acknowledge that you have read and understood our
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == "__main__":
       app.run()
 ```
@@ -140,7 +140,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_minify import minify, decorators
 

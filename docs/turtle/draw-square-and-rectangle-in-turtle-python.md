@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # draw square in Python Turtle
 import turtle
 
@@ -36,7 +36,7 @@ t.left(90) # Turn turtle by 90 degree
 
 **输入:**
 
-```
+```py
 100
 ```
 
@@ -48,7 +48,7 @@ t.left(90) # Turn turtle by 90 degree
 
 ## 蟒蛇 3
 
-```
+```py
 # draw Square in Python Turtle
 import turtle
 
@@ -63,7 +63,7 @@ for _ in range(4):
 
 **输入:**
 
-```
+```py
 100
 ```
 
@@ -75,7 +75,7 @@ for _ in range(4):
 
 ## 蟒蛇 3
 
-```
+```py
 # draw Rectangle in Python Turtle
 import turtle
 
@@ -103,7 +103,7 @@ t.left(90) # Turn turtle by 90 degree
 
 **输入:**
 
-```
+```py
 100
 120
 ```
@@ -116,7 +116,7 @@ t.left(90) # Turn turtle by 90 degree
 
 ## 蟒蛇 3
 
-```
+```py
 # draw Rectangle in Python Turtle
 import turtle
 
@@ -140,7 +140,7 @@ for _ in range(4):
 
 **输入:**
 
-```
+```py
 100
 120
 ```
@@ -155,7 +155,7 @@ for _ in range(4):
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 def draw_dream():

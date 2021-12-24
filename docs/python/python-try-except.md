@@ -18,7 +18,7 @@ Try and Except 语句用于处理 Python 代码中的这些错误。try 块用�
 
 **语法:**
 
-```
+```py
 try:
     # Some Code
 except:
@@ -38,7 +38,7 @@ except:
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # working of try()
 def divide(x, y):
@@ -55,7 +55,7 @@ divide(3, 2)
 
 **输出:**
 
-```
+```py
 ('Yeah ! Your answer is :', 1)
 ```
 
@@ -63,7 +63,7 @@ divide(3, 2)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to illustrate
 # working of try()
 def divide(x, y):
@@ -80,7 +80,7 @@ divide(3, 0)
 
 **输出:**
 
-```
+```py
 Sorry ! You are dividing by zero
 ```
 
@@ -90,7 +90,7 @@ Sorry ! You are dividing by zero
 
 **语法:**
 
-```
+```py
 try:
     # Some Code
 except:
@@ -104,7 +104,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to depict else clause with try-except
 
 # Function which returns a/b
@@ -123,7 +123,7 @@ AbyB(3.0, 3.0)
 
 **输出:**
 
-```
+```py
 -5.0
 a/b result in 0
 ```
@@ -134,7 +134,7 @@ Python 最后提供了一个关键字，它总是在 try 和 except 块之后执
 
 **语法:**
 
-```
+```py
 try:
     # Some Code
 except:
@@ -150,7 +150,7 @@ finally:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate finally
 
 # No exception Exception raised in try block
@@ -170,7 +170,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Can't divide by zero
 This is always executed
 ```

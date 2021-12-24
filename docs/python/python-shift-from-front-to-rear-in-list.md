@@ -7,7 +7,7 @@
 **方法#1:使用列表切片和`“+” operator`**
 这些功能的组合可以用来执行列表中单班的任务。第一个元素被添加到列表的其余部分，以使用切片来实现这个任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Shift from Front to Rear in List
 # using list slicing and "+" operator
@@ -28,7 +28,7 @@ print ("The list after shift is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The list after shift is : [4, 5, 6, 7, 8, 9, 12, 1]
 

@@ -7,7 +7,7 @@
 **方法一:使用`itertools.islice() + max()` +列表理解**
 以上方法的组合可以解决这个问题。在这种情况下，islice()用于执行自定义切片，列表理解用于迭代，max()用于计算最大值。
 
-```
+```py
 # Python3 code to demonstrate
 # Sublist Maximum in custom sliced List
 # using itertools.islice() + list comprehension
@@ -36,7 +36,7 @@ print("The variable sliced list maximum is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 5, 3, 7, 8, 10, 11, 16, 9, 12]
 The slice list : [2, 1, 3, 4]
 The variable sliced list maximum is : [5, 3, 10, 16]

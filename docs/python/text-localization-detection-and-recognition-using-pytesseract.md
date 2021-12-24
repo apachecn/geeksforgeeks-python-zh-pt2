@@ -12,19 +12,19 @@
 
 此外，如果它被用作脚本，Python-tesseract 还将打印识别出的文本，而不是将其写入文件。可以使用 pip 安装 python-tesserrate，如下所示–
 
-```
+```py
 pip install pytesseract
 ```
 
 如果您使用的是阿纳康达云，可以按照如下所示安装 Python-宇宙魔方:-
 
-```
+```py
 conda install -c conda-forge/label/cf202003 pytesseract
 ```
 
 或者
 
-```
+```py
 conda install -c conda-forge pytesseract
 ```
 
@@ -33,7 +33,7 @@ conda install -c conda-forge pytesseract
 
 ## 蟒蛇 3
 
-```
+```py
 from pytesseract import*
 import argparse
 import cv2
@@ -106,7 +106,7 @@ cv2.waitKey(0)
 **输出:**
 执行以下命令查看输出
 
-```
+```py
 python ocr.py --image ocr.png 
 ```
 
@@ -114,7 +114,7 @@ python ocr.py --image ocr.png
 
 除了输出，我们还将看到如下所示的置信度和命令提示符中的文本–
 
-```
+```py
 Confidence: 93
 Text: I
 

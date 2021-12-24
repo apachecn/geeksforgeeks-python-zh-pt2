@@ -10,7 +10,7 @@
 为了更好地理解对象的概念，考虑一个例子，你们中的许多人都玩过 CLASH OF CLANS，所以让我们假设基础布局是包含所有建筑、防御、资源等的类。基于这些描述，我们制作了一个村庄，这里的村庄是对象。
 **语法:**
 
-```
+```py
 obj = MyClass()
 print(obj.x)
 ```
@@ -21,7 +21,7 @@ print(obj.x)
 
 ## 蟒蛇 3
 
-```
+```py
 class Cars:
   def __init__(self, m, p):
     self.model = m
@@ -35,7 +35,7 @@ print(Audi.price)
 
 **输出:**
 
-```
+```py
 R8
 100000
 ```
@@ -52,7 +52,7 @@ R8
 类的变量和方法可以通过使用类对象或实例来访问。
 **语法:**
 
-```
+```py
 obj_name.var_name
 Audi.model
 
@@ -67,7 +67,7 @@ Audi.ShowModel(100);
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create instance
 # variables inside methods
 
@@ -98,7 +98,7 @@ print(Audi.getprice())
 
 **输出:**
 
-```
+```py
 1000000
 ```
 
@@ -106,7 +106,7 @@ print(Audi.getprice())
 
 ## 蟒蛇 3
 
-```
+```py
 class Car:
 
     # Class Variable
@@ -142,7 +142,7 @@ print(Car.audi)        
 
 **输出:**
 
-```
+```py
 Audi details:
 Audi is a Car
 Model:  R8
@@ -163,7 +163,7 @@ SELF 是默认变量，包含当前对象的内存地址。自变量可以引用
 
 ## 蟒蛇 3
 
-```
+```py
 class Test:
   def __init__(Myobject, a, b):
     Myobject.country = a
@@ -178,7 +178,7 @@ x.myfunc()
 
 **输出**T2】
 
-```
+```py
 Capital of India is: Delhi
 ```
 
@@ -187,13 +187,13 @@ Capital of India is: Delhi
 可以使用 del 关键字删除对象属性:
 **语法:**
 
-```
+```py
 del obj_name.property
 ```
 
 也可以通过 del 关键字删除对象:
 **语法:**
 
-```
+```py
 del obj_name
 ```

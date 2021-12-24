@@ -7,7 +7,7 @@
 **方法#1:使用`map() + __add__`**
 这个问题可以用带加法运算的地图函数来解决。map 函数执行与 zip 函数类似的功能，在这种情况下可以帮助找到解决方案。
 
-```
+```py
 # Python3 code to demonstrate 
 # zipping lists of lists 
 # using map() + __add__
@@ -30,7 +30,7 @@ print ("The modified zipped list is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [[1, 3], [4, 5], [5, 6]]
 The original list 2 is : [[7, 9], [3, 2], [3, 10]]
 The modified zipped list is : [[1, 3, 7, 9], [4, 5, 3, 2], [5, 6, 3, 10]]
@@ -40,7 +40,7 @@ The modified zipped list is : [[1, 3, 7, 9], [4, 5, 3, 2], [5, 6, 3, 10]]
 **方法 2:使用`itertools.chain() + zip()`**
 这两个功能的组合可以用来执行这个特定的任务。链函数可用于执行列表间聚合，列表内聚合由 zip 函数完成。
 
-```
+```py
 # Python3 code to demonstrate 
 # zipping lists of lists 
 # using map() + __add__
@@ -65,7 +65,7 @@ print ("The modified zipped list is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [[1, 3], [4, 5], [5, 6]]
 The original list 2 is : [[7, 9], [3, 2], [3, 10]]
 The modified zipped list is : [[1, 3, 7, 9], [4, 5, 3, 2], [5, 6, 3, 10]]

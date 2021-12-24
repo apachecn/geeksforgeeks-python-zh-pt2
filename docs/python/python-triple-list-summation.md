@@ -7,7 +7,7 @@
 **方法#1:使用+运算符+ `sum()`**
 这可以很容易地使用+运算符来完成，因为它在列表的后面进行元素添加。类似的逻辑在多个列表的情况下被扩展。求和使用 sum()执行。
 
-```
+```py
 # Python3 code to demonstrate 
 # Triple List Summation
 # using + operator + sum()
@@ -32,7 +32,7 @@ print ("The summed and modified list is : " + str(test_list1))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 3, 5, 5, 4]
 The original list 2 is : [4, 6, 2, 8, 10]
 The original list 3 is : [7, 5, 2, 9, 11]

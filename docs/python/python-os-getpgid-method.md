@@ -20,7 +20,7 @@ Python 中的`***os.getpgid()***`方法用于获取指定进程 id 的进程的�
 
 **Code:** Use of os.getpgid() method
 
-```
+```py
 # Python program to explain os.getpgid() method 
 
 # importing os module 
@@ -58,7 +58,7 @@ print("process group id of the parent process:", pgid)
 
 **Output:**
 
-```
+```py
 Process group id of the current process: 18938
 Process group id of the current process: 18938
 Process group id of the current process: 18938

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements from list in set
 # Using loop
@@ -49,7 +49,7 @@ print("Set present list elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 6, 2, 3, 2, 6, 5, 8, 9]
 Set present list elements : [6, 2, 2, 6, 8]
 ```
@@ -60,7 +60,7 @@ Set present list elements : [6, 2, 2, 6, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements from list in set
 # Using repeat() + from_iterable() + count()
@@ -85,7 +85,7 @@ print("Set present list elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 6, 2, 3, 2, 6, 5, 8, 9]
 Set present list elements : [6, 2, 2, 6, 8]
 ```

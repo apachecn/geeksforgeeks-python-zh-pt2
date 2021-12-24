@@ -28,7 +28,7 @@ Choice()是 Python 编程语言中的一个内置函数，它从列表、元组�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design a biased dice throw 
 # function
 
@@ -57,7 +57,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 6
 3
 6
@@ -81,7 +81,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design a biased dice throw 
 # function
 
@@ -114,7 +114,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 6
 3
 3
@@ -136,7 +136,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design a biased dice throw 
 # function
 
@@ -169,7 +169,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 5
 2
 4
@@ -189,7 +189,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design a biased dice throw 
 # function
 
@@ -222,7 +222,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 6
 2
 6
@@ -245,7 +245,7 @@ choices()方法通过替换从列表中返回多个随机元素。您可以使�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design a biased dice throw 
 # function
 
@@ -280,7 +280,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 1
 6
 3

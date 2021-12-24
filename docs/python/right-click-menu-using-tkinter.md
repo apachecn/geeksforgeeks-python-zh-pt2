@@ -11,7 +11,7 @@ Python 3.x 附带了**Tkit**模块，这对于制作基于图形用户界面的�
 Tkinter 提供了一种处理事件的机制。事件是必须由程序中的一段代码处理的任何操作。事件包括鼠标点击、鼠标移动或用户击键。Tkinter 使用事件序列，允许用户将事件绑定到每个小部件的处理程序。
 **语法:**
 
-```
+```py
 widget.bind(event, handler)
 ```
 
@@ -19,19 +19,19 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
 
 1.  **导入 tkinter 模块**
 
-    ```
+    ```py
     import tkinter
     ```
 
 2.  **导入 tkinter 子模块**
 
-    ```
+    ```py
     from tkinter import *
     ```
 
 3.  **Creating the parent widget**
 
-    ```
+    ```py
     root = Tk()
     ```
 
@@ -42,7 +42,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
 
 4.  **Creating the label to be displayed**
 
-    ```
+    ```py
     L = Label(root, text="Right-click to display menu", width=40, height=20)
     ```
 
@@ -57,7 +57,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
 
 5.  **Positioning the label**
 
-    ```
+    ```py
     L.pack()
     ```
 
@@ -71,7 +71,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
 
 6.  **Creating the menu**
 
-    ```
+    ```py
     m = Menu(root, tearoff=0)
     ```
 
@@ -86,7 +86,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
 
 7.  **Adding options to the menu**
 
-    ```
+    ```py
     m.add_command(label="Cut")
     m.add_command(label="Copy")
     m.add_command(label="Paste")
@@ -103,7 +103,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
     **说明:**
     add _ command()方法将菜单项添加到菜单中。add_separator()在菜单项之间创建一条细线。
 
-8.  **```
+8.  ```py
     def do_popup(event):
         try:
             m.tk_popup(event.x_root, event.y_root)
@@ -116,7 +116,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
     **参数:**此过程在屏幕上给定的位置发布菜单，x_root 和 y_root 是相对于屏幕左上角的当前鼠标位置。
     **说明:**
     这个方法就是事件处理程序。当事件(右键单击)发生时，方法被调用，菜单出现在父小部件上事件发生的位置。finally 块确保 grab_release()方法释放事件抓取。** 
-9.  ****```
+9.  ```py
     L.bind("<Button-3>", do_popup)
     ```
 
@@ -130,7 +130,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
     鼠标指针在小部件上按下鼠标右键，这将触发由事件处理程序(do_popup()函数)处理的事件。do_popup()函数显示菜单。**** 
 10.  ******Run the application**
 
-    ```
+    ```py
     mainloop()
     ```
 
@@ -139,7 +139,7 @@ Tkinter 小部件能够捕捉各种事件，如按钮、按钮释放、运动、
     **解释:**
     它的作用就像一个无限循环，让应用程序一直运行，直到主窗口被手动关闭。**** 
 
-```
+```py
 **import tkinter
 from tkinter import *
 

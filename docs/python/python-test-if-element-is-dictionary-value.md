@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮法。在本文中，我们使用循环遍历整个字典，并使用条件语句检查每个键的值是否匹配。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if element is dictionary value
 # Using loops
@@ -32,7 +32,7 @@ print("Is 3 present in dictionary : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'is': 2, 'gfg': 1}
 Is 3 present in dictionary : True
 

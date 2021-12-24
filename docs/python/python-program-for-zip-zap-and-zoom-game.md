@@ -23,7 +23,7 @@ Zip zap zoom 是一款有趣的游戏，需要玩家集中精力，积极参与�
 
 **示例:**
 
-```
+```py
 Input:6
 Output:
 Zip
@@ -37,7 +37,7 @@ Zip
 
 ## C++
 
-```
+```py
 #include <iostream>
 using namespace std;
 
@@ -71,7 +71,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```py
 def main():
     zzz(7)
     zzz(6)
@@ -93,7 +93,7 @@ main()
 
 **输出:**
 
-```
+```py
 Invalid number!
 Zip
 Zap

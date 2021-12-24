@@ -19,7 +19,7 @@ max()方法取一个字符串作为参数**
 
 ## **计算机编程语言**
 
-```
+```py
 # python program to demonstrate the use of 
 # max() function 
 
@@ -36,7 +36,7 @@ print max(string)
 
  ****Output:**
 
-```
+```py
 s
 r
 

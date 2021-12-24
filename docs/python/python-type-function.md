@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 type(object)
 type(name, bases, dict)
 ```
@@ -21,13 +21,13 @@ type(name, bases, dict)
 
 **返回类型:**
 
-```
+```py
 returns a new type class or essentially a metaclass.
 ```
 
 **代码#1 :**
 
-```
+```py
 # Python3 simple code to explain
 # the type() function
 print(type([]) is list)
@@ -43,7 +43,7 @@ print(type({}) is not list)
 
 **输出:**
 
-```
+```py
 True
 False
 True
@@ -53,7 +53,7 @@ True
 
 **代码#2 :**
 
-```
+```py
 # Python3 code to explain
 # the type() function
 
@@ -90,7 +90,7 @@ t = TupleType()
 
 **输出:**
 
-```
+```py
 <class 'dict'>
 <class 'list'>
 <class 'tuple'>
@@ -98,7 +98,7 @@ t = TupleType()
 
 **代码#3 :**
 
-```
+```py
 # Python3 code to explain
 # the type() function
 
@@ -124,13 +124,13 @@ else:
 
 **输出:**
 
-```
+```py
 Both class have different object type.
 ```
 
 **代码#4 :** 使用`type(name, bases, dict)`
 
-```
+```py
 # Python3 program to demonstrate
 # type(name, bases, dict)
 
@@ -160,7 +160,7 @@ print(vars(newer))
 
 **输出:**
 
-```
+```py
 {'__module__': '__main__', 'var1': 'GeeksforGeeks', '__weakref__': , 'b': 2009, '__dict__': <attribute of="" objects="">, '__doc__': None}
 
 {'b': 2018, '__doc__': None, '__module__': '__main__', 'a': 'Geeks'}</attribute> 

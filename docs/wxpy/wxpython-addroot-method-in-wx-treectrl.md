@@ -19,7 +19,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class MainFrame(wx.Frame):

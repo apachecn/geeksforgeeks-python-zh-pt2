@@ -63,7 +63,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from scrapy.mail import MailSender
 

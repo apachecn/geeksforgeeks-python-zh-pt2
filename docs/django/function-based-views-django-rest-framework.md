@@ -27,7 +27,7 @@ Django REST 框架允许我们使用常规的 Django 视图。它有助于处理
 
 现在，您需要在您的 Django 项目中配置 PostgreSQL 数据库。默认情况下，数据库配置有一个 SQLite 数据库引擎和数据库文件名。您可以检查 setting.py Python 文件，并用 PostgreSQL 数据库配置替换默认数据库配置。
 
-```
+```py
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
@@ -80,7 +80,7 @@ DATABASES = {
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Transformer(models.Model):
@@ -118,7 +118,7 @@ Transformer 模型是 django.db.models.Model 类的子类，定义了属性和�
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import serializers
 from transformers.models import Transformer
 
@@ -136,7 +136,7 @@ Django 视图便于处理 HTTP 请求和提供 HTTP 响应。在接收到一个 
 
 ## 蟒蛇 3
 
-```
+```py
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.parsers import JSONParser
@@ -198,7 +198,7 @@ ransformer _ list()函数能够处理两个 HTTP 动词——GET 和 POST。
 
 如果动词是 *GET* ，代码将检索所有的转换器实例。
 
-```
+```py
     if request.method == 'GET':
         transformer = Transformer.objects.all()
         serializer = TransformerSerializer(transformer, many=True)
@@ -213,7 +213,7 @@ ransformer _ list()函数能够处理两个 HTTP 动词——GET 和 POST。
 
 如果动词是 *POST* ，代码会创建一个新的转换器。这里的数据是在编写 HTTP 请求时以 JSON 格式提供的。
 
-```
+```py
     elif request.method == 'POST':
         data = JSONParser().parse(request)
         serializer = TransformerSerializer(data=data)
@@ -235,7 +235,7 @@ transformer_detail()函数能够处理三个 HTTP 动词——GET、PUT 和 DELE
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from transformers import views
 
@@ -253,7 +253,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 
@@ -270,7 +270,7 @@ urlpatterns = [
 
 输出
 
-```
+```py
 HTTP/1.1 201 Created
 Content-Length: 152
 Content-Type: application/json
@@ -299,7 +299,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Content-Length: 151
 Content-Type: application/json
@@ -324,7 +324,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, OPTIONS
 Content-Length: 629
@@ -376,7 +376,7 @@ X-Frame-Options: DENY
 
 *@api_view* 是*rest _ framework . decorator*模块中的一个装饰器，它是所有姜戈 REST 框架视图的基类。我们可以在 *@api_view* 装饰器中提供允许的 HTTP 动词作为 http _ methods _ names 参数(字符串列表)。如果 RESTful Web 服务收到不支持的 HTTP Verb，装饰器将返回一个适当的响应，而不是 Django 中的意外错误。
 
-```
+```py
 @api_view(http_method_names=['GET'])
 ```
 
@@ -384,7 +384,7 @@ X-Frame-Options: DENY
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -454,7 +454,7 @@ def transformer_detail(request, pk):
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, OPTIONS, POST
 Content-Length: 225
@@ -493,7 +493,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: OPTIONS, DELETE, GET, PATCH, PUT
 Content-Length: 177
@@ -532,7 +532,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 201 Created
 Allow: GET, POST, OPTIONS
 Content-Length: 149
@@ -563,7 +563,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: PATCH, PUT, DELETE, OPTIONS, GET
 Content-Length: 148
@@ -594,7 +594,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, OPTIONS
 Content-Length: 739

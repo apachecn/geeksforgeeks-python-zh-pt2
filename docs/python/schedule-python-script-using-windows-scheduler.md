@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 script to display
 # random image quotes from a folder
 
@@ -60,7 +60,7 @@ root.mainloop()
 1.  首先，打开任何文本编辑器。
 2.  接下来，在一个空文件中输入以下行:
 
-```
+```py
 "C:\Python38\python.exe" "C:\Users\NEERAJ RANA\Desktop\GFG_Articles\scheduler\quote.py"
 pause
 ```

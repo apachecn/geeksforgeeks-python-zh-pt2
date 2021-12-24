@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是可以应用于执行该任务的蛮力函数的简写。在这种情况下，我们对每个元组的每个元素进行迭代，以执行 K 个数据的批量减法。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtract K from tuples list
 # Using list comprehension
@@ -31,7 +31,7 @@ print("List after subtraction of K : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 3, 4), (2, 4, 6), (3, 8, 1)]
 List after subtraction of K : [(-3, -1, 0), (-2, 0, 2), (-1, 4, -3)]
 

@@ -19,7 +19,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。**�
 **所用图像:**
 ![](img/1a478b4cf3a65761fbec0fa76e1dc2e7.png)
 
-```
+```py
 
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter 
@@ -40,7 +40,7 @@ im2 = im2.show()                 
 
 **另一个例子:**这里改变内核值获得输出，我们也可以改变其他参数。
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter 
 

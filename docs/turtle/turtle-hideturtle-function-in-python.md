@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.hideturtle() or turtle.ht()
 
 ```
@@ -21,7 +21,7 @@ turtle.hideturtle() or turtle.ht()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -40,7 +40,7 @@ turtle.hideturtle()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

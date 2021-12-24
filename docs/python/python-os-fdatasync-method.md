@@ -16,7 +16,7 @@ Python 中的`***os.fdatasync()***`方法用于强制写入与给定文件描述
 
 **代码:**使用`***os.fdatasync()***`方法
 
-```
+```py
 # Python program to explain os.fdatasync() method 
 
 # importing os module 
@@ -62,7 +62,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 Force write of file committed successfully
 
 ```

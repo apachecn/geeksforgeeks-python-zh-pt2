@@ -21,7 +21,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import wx 
 
 class MyTree(wx.TreeCtrl): 

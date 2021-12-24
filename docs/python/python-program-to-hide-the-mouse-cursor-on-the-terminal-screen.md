@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for the above approach
 import curses
 import time

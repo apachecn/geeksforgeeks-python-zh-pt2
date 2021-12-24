@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list = [10, 20, 30, 20, 20, 30, 40, 50, -20, 60, 60, -20, -20]
 Output : output_list = [20, 30, -20, 60]
 
@@ -20,7 +20,7 @@ Output : output_list = [-1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print
 # duplicates from a list
 # of integers
@@ -45,7 +45,7 @@ print (Repeat(list1))
 
 **输出:**
 
-```
+```py
 [20, 30, -20, 60]
 ```
 
@@ -53,7 +53,7 @@ print (Repeat(list1))
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 l1 = [1,2,1,2,3,4,5,1,1,2,5,6,7,8,9,9]
@@ -66,7 +66,7 @@ print(new_list)
 
 **Output**
 
-```
+```py
 Counter({1: 4, 2: 3, 5: 2, 9: 2, 3: 1, 4: 1, 6: 1, 7: 1, 8: 1})
 [1, 2, 5, 9]
 ```

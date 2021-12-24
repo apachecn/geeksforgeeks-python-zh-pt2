@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the
 # working of upper() function
 text = 'geeKs For geEkS'
@@ -44,7 +44,7 @@ print(text)
 
 **Output**
 
-```
+```py
 Converted String:
 GEEKS FOR GEEKS
 

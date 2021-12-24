@@ -7,7 +7,7 @@
 **方法#1:使用`re.search()`**
 这是可以执行这个任务的方式之一。在本例中，我们使用子字符串来填充正则表达式编译，并使用 search()中的 main string 来搜索它。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Wildcard Substring search
 # Using re.search()
@@ -33,7 +33,7 @@ print("The substring match is : " + str(res.group(0))) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks                                                                
 The substring match is : best     
 

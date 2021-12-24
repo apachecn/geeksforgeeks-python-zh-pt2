@@ -10,7 +10,7 @@
 
 **代码 1**
 
-```
+```py
 QComboBox::editable:pressed
 {
 border : 5px solid;
@@ -24,7 +24,7 @@ border-color-left : yellow;
 
 **代码 2**
 
-```
+```py
 QComboBox::editable:pressed
 {
 border : 5px solid;
@@ -37,7 +37,7 @@ border-color : red green blue yellow
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

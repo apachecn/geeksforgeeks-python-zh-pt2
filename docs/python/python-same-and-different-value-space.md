@@ -7,7 +7,7 @@
 **案例#1:同一个池(使用+运算符)**
 在本例中，当我们使用“+”运算符创建一个 String 时，我们会创建一个指向内存中类似空间的空间。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Same and Different value space
 # Same value case
@@ -30,7 +30,7 @@ print("Are values pointing to same pool ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg
 Are values pointing to same pool ? : True
 

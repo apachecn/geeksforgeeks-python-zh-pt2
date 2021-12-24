@@ -13,13 +13,13 @@ Python 可以用来从网页中删除信息。它还可以用来检索特定标�
 
 *   **bs4:** 美人汤(bs4)是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   **请求:** Requests 可以让你极其轻松地发送 HTTP/1.1 请求。该模块也没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -34,7 +34,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Modules
 from bs4 import BeautifulSoup
 import requests
@@ -76,7 +76,7 @@ print(f"Total {len(datas)} li tag found")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Modules
 from bs4 import BeautifulSoup
 import requests

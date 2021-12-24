@@ -6,25 +6,25 @@
 
 **语法:**
 
-```
+```py
 hypot(x, y) 
 ```
 
 **参数:**
 
-```
+```py
 x and y are numerical values 
 ```
 
 **返回:**
 
-```
+```py
 Returns a float value having Euclidean norm, sqrt(x*x + y*y). 
 ```
 
 **错误:**
 
-```
+```py
 When more then two arguments are 
 passed, it returns a <font color="red">TypeError</font>.
 ```
@@ -35,7 +35,7 @@ passed, it returns a <font color="red">TypeError</font>.
 
 **代码#1 :**
 
-```
+```py
 # Python3 program for hypot() function 
 
 # Import the math module
@@ -52,7 +52,7 @@ print("hypot(6, 6) : ", math.hypot(6, 6))
 
 **输出:**
 
-```
+```py
 hypot(3, 4) :  5.0
 hypot(-3, 4) :  5.0
 hypot(6, 6) :  8.48528137423857
@@ -61,7 +61,7 @@ hypot(6, 6) :  8.48528137423857
 
 **代码#2 :**
 
-```
+```py
 # Python3 program for error in hypot() function 
 
 # import the math module
@@ -73,7 +73,7 @@ print("hypot(3, 4, 6) : ",  math.hypot(3, 4, 6))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/d8c8612ee97dd2c763e2836de644fac1.py", line 7, in 
     print("hypot(3, 4, 6) : ",  math.hypot(3, 4, 6))
@@ -88,13 +88,13 @@ TypeError: hypot expected 2 arguments, got 3
 
 因此，
 
-```
+```py
  Hypotenuse = sqrt(p^2 + b^2) 
 ```
 
 **代码#3 :**
 
-```
+```py
 # Python3 program for finding Hypotenuse
 # in hypot() function 
 
@@ -111,7 +111,7 @@ print("Hypotenuse is:", hypot(p, b))
 
 **输出:**
 
-```
+```py
 Hypotenuse is: 5.0
 
 ```

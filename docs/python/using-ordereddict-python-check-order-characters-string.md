@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input: 
 string = "engineers rock"
 pattern = "er";
@@ -39,7 +39,7 @@ There are one 'r' before 's' in the input string.
 *   Now traverse the generated OrderedDict and match the key with a single character of the pattern string. If the key and character match each other, increase the pointer by 1.
 *   If the pointer of the pattern reaches its end, it means that the string follows the character order defined by the pattern, otherwise it does not.
 
-```
+```py
 # Function to check if string follows order of 
 # characters defined by a pattern 
 from collections import OrderedDict 
@@ -76,7 +76,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 true
 
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to draw smile
 # face emoji using turtle
 import turtle
@@ -101,7 +101,7 @@ pen.hideturtle()
 
 ## 蟒蛇 3
 
-```
+```py
 #import module
 import turtle
 

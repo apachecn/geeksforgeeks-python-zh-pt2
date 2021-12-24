@@ -21,7 +21,7 @@ Python 中的`***os.fchown()***`方法用于将与指定文件描述符关联的
 
 **Code #1:** Use of os.fchown() method
 
-```
+```py
 # Python program to explain os.fchown() method 
 
 # importing os module 
@@ -67,7 +67,7 @@ print("Group id of the file:", os.stat(fd).st_gid) 
 
 **Code #2:** Use of os.fchown() method to set any one id and leave other unchanged
 
-```
+```py
 # Python program to explain os.fchown() method 
 
 # importing os module 
@@ -115,7 +115,7 @@ print("Group id of the file:", os.stat(fd).st_gid) 
 
 **Code #3:** If the specified path is a symlink
 
-```
+```py
 # Python program to explain os.fchown() method 
 
 # importing os module 

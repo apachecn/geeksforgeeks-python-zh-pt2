@@ -17,7 +17,7 @@
 
 ## 绘制彩色填充正方形:
 
-```
+```py
 # draw color-filled square in turtle
 
 import turtle
@@ -48,7 +48,7 @@ t.end_fill()
 
 **输入:**
 
-```
+```py
 200
 green
 ```
@@ -58,7 +58,7 @@ green
 
 ## 绘制彩色填充三角形:
 
-```
+```py
 # draw color filled triangle in turtle
 
 import turtle
@@ -89,7 +89,7 @@ t.end_fill()
 
 **输入:**
 
-```
+```py
 200
 red
 ```
@@ -99,7 +99,7 @@ red
 
 ## 绘图颜色填充的六边形:
 
-```
+```py
 # draw color-filled hexagon in turtle
 
 import turtle
@@ -130,7 +130,7 @@ t.end_fill()
 
 **输入:**
 
-```
+```py
 100
 #113300
 ```
@@ -140,7 +140,7 @@ t.end_fill()
 
 ## 绘制彩色填充星形:
 
-```
+```py
 # draw color filled star in turtle
 
 import turtle
@@ -171,7 +171,7 @@ t.end_fill()
 
 **输入:**
 
-```
+```py
 200
 #551122
 ```
@@ -181,7 +181,7 @@ t.end_fill()
 
 ## 绘制彩色实心圆:
 
-```
+```py
 # draw color filled circle in turtle
 
 import turtle
@@ -210,7 +210,7 @@ t.end_fill()
 
 **输入:**
 
-```
+```py
 100
 blue
 ```

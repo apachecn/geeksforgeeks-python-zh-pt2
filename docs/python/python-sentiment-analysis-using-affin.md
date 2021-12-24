@@ -8,7 +8,7 @@
 
 **安装库:**
 
-```
+```py
 # code
 print("GFG")
 pip install afinn / 
@@ -21,7 +21,7 @@ pip3 install afinn /
 
 **代码:使用 Affin**
 
-```
+```py
 #importing necessary libraries
 from afinn import Afinn
 import pandas as pd
@@ -52,7 +52,7 @@ print(df)
 
 **输出:**
 
-```
+```py
 topic  scores sentiments
 0  les gens pensent aux chiens     0.0    neutral
 1               i hate flowers    -3.0   negative
@@ -62,7 +62,7 @@ topic  scores sentiments
 
 这个库包最大的好处是可以找到不同语言的乐谱。
 
-```
+```py
 afn = Afinn(language = 'da')
 
 #assigning 'da' danish to the object variable.
@@ -71,7 +71,7 @@ afn.score('du er den mest modbydelige tæve')
 
 **输出:**
 
-```
+```py
 -5.0
 
 ```

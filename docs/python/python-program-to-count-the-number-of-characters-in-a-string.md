@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alphabets Frequency in String
 # Using isalpha() + len()
@@ -49,7 +49,7 @@ print("Count of Alphabets : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Alphabets Frequency in String
 # Using ascii_uppercase() + ascii_lowercase() + len()

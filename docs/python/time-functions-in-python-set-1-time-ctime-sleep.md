@@ -10,7 +10,7 @@ Python 定义了一个[模块](https://www.geeksforgeeks.org/python-modules/)，
 
 **2。gmtime(秒)** :-该函数返回一个**结构，该结构有 9 个值**，每个值依次表示一个时间属性。它将**秒转换为时间属性(日、年、月等)。)**直到从纪元开始的指定秒。如果没有提到秒，时间计算到现在。结构属性表如下。**
 
-```
+```py
 Index   Attributes   Values
  0        tm_year     2008
  1        tm_mon      1 to 12
@@ -26,7 +26,7 @@ Index   Attributes   Values
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # time() and gmtime()
 
@@ -44,7 +44,7 @@ print (time.gmtime())
 
 **输出:**
 
-```
+```py
 Seconds elapsed since the epoch are : 1470121951.9536893
 Time calculated acc. to given seconds is : 
 time.struct_time(tm_year=2016, tm_mon=8, tm_mday=2,
@@ -58,7 +58,7 @@ tm_yday=215, tm_isdst=0)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # asctime() and ctime()
 
@@ -79,7 +79,7 @@ print (time.ctime())
 
 **输出:**
 
-```
+```py
 Time calculated using asctime() is : Tue Aug  2 07:47:02 2016
 Time calculated using ctime() is : Tue Aug  2 07:47:02 2016
 ```
@@ -88,7 +88,7 @@ Time calculated using ctime() is : Tue Aug  2 07:47:02 2016
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of
 # sleep()
 
@@ -109,7 +109,7 @@ print (time.ctime())
 
 **输出:**
 
-```
+```py
 Start Execution : Tue Aug  2 07:59:03 2016
 Stop Execution : Tue Aug  2 07:59:07 2016
 ```

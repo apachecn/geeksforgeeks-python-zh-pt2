@@ -6,19 +6,19 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 1.  **导入 tkinter 模块**
 
-    ```
+    ```py
     import tkinter
     ```
 
 2.  **进口 tkinter 子模块**
 
-    ```
+    ```py
     from tkinter import *
     ```
 
 3.  **Define the “callback” function**
 
-    ```
+    ```py
     def callback(input):
         if input.isdigit():
             print(input)
@@ -38,7 +38,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 4.  **Creating the parent window**
 
-    ```
+    ```py
     root=Tk()
     ```
 
@@ -49,7 +49,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 5.  **Creating Entry widget**
 
-    ```
+    ```py
     e=Entry(root)
     ```
 
@@ -65,7 +65,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 6.  **Specify the position of Entry widget within the parent window**
 
-    ```
+    ```py
     e.place(x=50, y=50)
     ```
 
@@ -80,7 +80,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 7.  **Register the callback function**
 
-    ```
+    ```py
     reg=root.register(callback)
     ```
 
@@ -95,7 +95,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 8.  **Call the callback function to validate the input in Entry widget**
 
-    ```
+    ```py
     e.config(validate="key", validatecommand=(reg, '%P'))
     ```
 
@@ -113,7 +113,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 9.  **Run the application**
 
-    ```
+    ```py
     root.mainloop()
     ```
 
@@ -123,7 +123,7 @@ Python 提供了各种框架来处理图形用户界面应用程序。 [Tkinter]
 
 **入口小部件验证的完整代码**
 
-```
+```py
 import tkinter
 from tkinter import *
 

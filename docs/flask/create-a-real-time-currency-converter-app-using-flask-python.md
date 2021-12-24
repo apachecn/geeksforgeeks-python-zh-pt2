@@ -12,20 +12,20 @@ Flask 是一个流行的轻量级 Python 网络框架，这意味着它是一个
 
 创建一个新目录，并将其命名为“**CURRENT-CONVERTER**”。
 
-```
+```py
 mkdir CURRENCY-CONVERTER && cd CURRENCY-CONVERTER
 ```
 
 在里面创建两个文件 **app.py** 和 **requirements.txt** ，
 
-```
+```py
 touch app.py
 touch requirements.txt
 ```
 
 然后，创建一个新的文件夹名为**模板**，在里面创建一个 html 文件名为**home.html，**
 
-```
+```py
 mkdir templates && cd templates && touch home.html
 cd ..
 ```
@@ -40,14 +40,14 @@ cd ..
 
 **1。**编辑**需求. txt**
 
-```
+```py
 Flask>=1.1.2
 requests>=2.23.0
 ```
 
 **2。**安装其他依赖项/python 包。这些是[烧瓶](https://pypi.org/project/Flask/)和[请求](https://pypi.org/project/requests/)。为此，打开终端并执行 Linux 命令
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask, render_template, request
 import requests
 
@@ -98,7 +98,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -456,7 +456,7 @@ if __name__ == "__main__":
 
 **5。**之后可以运行网络服务器查看天气应用。为此，运行 **app.py** 文件。为此，在终端中编写以下 Linux 命令。
 
-```
+```py
 python app.py
 ```
 

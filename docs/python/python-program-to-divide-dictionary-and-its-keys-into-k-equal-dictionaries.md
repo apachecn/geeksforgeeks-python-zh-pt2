@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Divide dictionary into K equal dictionaries
 # Using loop
@@ -57,7 +57,7 @@ print("Required dictionary list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Divide dictionary into K equal dictionaries
 # Using dictionary comprehension + list comprehension

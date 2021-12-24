@@ -12,7 +12,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install wifi-qrcode-generator
 ```
 
@@ -20,7 +20,7 @@ pip install wifi-qrcode-generator
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import wifi_qrcode_generator as qr
 
@@ -55,7 +55,7 @@ qr.wifi_qrcode('wifi name ', False, 'WPA', 'password')
 
 ## 蟒蛇 3
 
-```
+```py
 # import modules
 import subprocess
 import wifi_qrcode_generator

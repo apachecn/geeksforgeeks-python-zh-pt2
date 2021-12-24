@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
  tag.contents 
 
 ```
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -35,7 +35,7 @@ print(contents)
 
 **输出:**
 
-```
+```py
 [<b> Hello world </b>, <body></body>]
 
 ```
@@ -44,7 +44,7 @@ print(contents)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -63,7 +63,7 @@ print(type(contents))
 
 **输出:**
 
-```
+```py
 <type 'list'>
 
 ```

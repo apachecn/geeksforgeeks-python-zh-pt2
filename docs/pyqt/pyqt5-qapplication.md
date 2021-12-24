@@ -24,7 +24,7 @@ QApplication 类管理图形用户界面应用程序的控制流和主要设置�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

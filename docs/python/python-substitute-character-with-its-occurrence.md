@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是蛮力解决问题的方法。在这种情况下，我们为字符串中的每个字符运行一个循环，并在每次增加计数器的同时执行替换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substitute character with its occurrence
 # Using loop
@@ -38,7 +38,7 @@ print("The string after performing substitution : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The string after performing substitution : 1eeksfor2eeks is best for 3eeks
 

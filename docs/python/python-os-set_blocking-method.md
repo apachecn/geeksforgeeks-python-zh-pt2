@@ -21,7 +21,7 @@ Python 中的`***os.set_blocking()***`方法用于设置指定文件描述符的
 
 **Code:** Use of `os.set_blocking()` method to set the blocking mode of a file descriptor.
 
-```
+```py
 # Python program to explain os.set_blocking() method 
 
 # importing os module 
@@ -63,7 +63,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 Blocking Mode: True
 Blocking mode changed
 Blocking Mode: False

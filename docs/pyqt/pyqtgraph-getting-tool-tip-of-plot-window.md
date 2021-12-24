@@ -6,7 +6,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个绘图窗口
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -22,7 +22,7 @@ window = pg.plot()
 
 下面是实现
 
-```
+```py
 # importing QtGui to use QIcon
 from PyQt5.QtGui import * 
 
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 **输出:**
 ![](img/177af7e5574db77cadb13d5f44455e6f.png)
 
-```
+```py
 Tool Tip : This is Bar Graph
 
 ```

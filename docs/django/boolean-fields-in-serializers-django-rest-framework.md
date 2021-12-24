@@ -10,7 +10,7 @@
 用于包装**真**或**假**值的布尔字段。其工作原理与[BooleanField-Django 车型](https://www.geeksforgeeks.org/booleanfield-django-models/)相同。默认情况下，序列化程序。默认情况下创建的 BooleanField 实例为 False。
 **语法–**
 
-```
+```py
 field_name = serializers.BooleanField() 
 ```
 
@@ -19,7 +19,7 @@ field_name = serializers.BooleanField()
 接受**真**、**假**和**空**值的布尔字段。其工作原理与[NullBooleanField–Django 模型](https://www.geeksforgeeks.org/nullbooleanfield-django-forms/)相同。默认情况下，序列化程序。默认情况下，创建的 NullBooleanField 实例为无。
 **语法–**
 
-```
+```py
 field_name = serializers.NullBooleanField()
 ```
 
@@ -30,7 +30,7 @@ field_name = serializers.NullBooleanField()
 
 ## 蟒蛇 3
 
-```
+```py
 #import serializer from rest_framework
 from rest_framework import serializers
 
@@ -48,13 +48,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 

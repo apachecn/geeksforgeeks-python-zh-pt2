@@ -7,7 +7,7 @@
 **方法:使用 loop + `isintance() + enumerate()`**
 使用上述功能可以解决这个问题。在这种情况下，我们只需使用`enumerate()`循环遍历元素以获取其索引计数，并使用`isinstance()`检查类型，然后通过检查忽略的元组记录来重新创建新的元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove nested records
 # using isinstance() + enumerate() + loop
@@ -31,7 +31,7 @@ print("Elements after removal of nested records : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, (4, 6), 10)
 Elements after removal of nested records : (1, 5, 7, 10)
 

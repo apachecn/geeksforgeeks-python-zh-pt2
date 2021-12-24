@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for a word frequency
 # counter after crawling/scraping a web-page
 import requests
@@ -107,7 +107,7 @@ if __name__ == '__main__':
     start(url)
 ```
 
-```
+```py
 [('to', 10), ('in', 7), ('is', 6), ('language', 6), ('the', 5),
  ('programming', 5), ('a', 5), ('c', 5), ('you', 5), ('of', 4)]
 ```

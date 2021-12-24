@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须为复选框的指示器添加背景颜色，这可以使用指示器的样式表来完成。下面是可以与复选框对象一起使用的样式表代码。
 
-```
+```py
 QCheckBox::indicator
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

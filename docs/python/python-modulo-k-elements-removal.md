@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在天真方法中，我们遍历整个列表，并将所有过滤后的非模 K 值追加到一个新列表中，从而准备好执行后续操作。
 
-```
+```py
 # Python3 code to demonstrate 
 # Modulo K elements removal
 # using naive method 
@@ -34,7 +34,7 @@ print ("List after removal of modulo K values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 9, 4, 7, 6, 5, 8, 3]
 List after removal of modulo K values : [1, 4, 7, 5, 8]
 

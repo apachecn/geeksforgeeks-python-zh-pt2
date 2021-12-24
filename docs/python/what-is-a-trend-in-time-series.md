@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 import matplotlib
@@ -60,7 +60,7 @@ data.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib
 
@@ -85,7 +85,7 @@ data.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the libraries
 import pandas as pd
 import matplotlib
@@ -130,7 +130,7 @@ data['1984':'1994'].plot()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing function
 from statsmodels.tsa.seasonal import seasonal_decompose
 

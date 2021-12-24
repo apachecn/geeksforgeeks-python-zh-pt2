@@ -7,7 +7,7 @@
 **方法 1:天真方法+ `sort()`**
 使用循环，我们继续添加大于 K 的元素，然后对列表进行排序，找到大于 K 的第 n 个元素
 
-```
+```py
 # Python 3 code to demonstrate 
 # Nth smallest Greater than K
 # using naive method + sort()
@@ -38,7 +38,7 @@ print ("The Nth minimum value greater than 6 is : " + str(res[N - 1]))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 7, 5, 10]
 The Kth minimum value greater than 6 is : 10
 

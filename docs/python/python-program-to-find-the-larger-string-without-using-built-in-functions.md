@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input:
 GeeksforGeeks
 Geeks
@@ -34,7 +34,7 @@ GeeksForFeeks is an good Computer Coding Website
 
 ## python 3
 
-```
+```py
 string1="GeeksForFeeks is an good Computer Coding Website "
 string2="It offers several topics"
 count1=0
@@ -59,7 +59,7 @@ else:
 
 **输出**
 
-```
+```py
 Larger string is:
 GeeksForFeeks is an good Computer Coding Website 
 

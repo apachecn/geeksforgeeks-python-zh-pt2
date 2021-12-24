@@ -17,7 +17,7 @@
 
 1.  using keyword arguments.
 
-    ```
+    ```py
     assertRaises(exception, function, *args, **keywords)
 
     ```
@@ -26,7 +26,7 @@
 
 2.  using context manager 
 
-    ```
+    ```py
     assertRaises(exception)
 
     ```
@@ -39,7 +39,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import unittest
 
 class MyTestCase(unittest.TestCase):
@@ -55,7 +55,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
@@ -69,7 +69,7 @@ OK
 
 ## 蟒蛇 3
 
-```
+```py
 import unittest
 
 class MyTestCase(unittest.TestCase):
@@ -85,7 +85,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 F
 ======================================================================
 FAIL: test_1 (__main__.MyTestCase)
@@ -107,7 +107,7 @@ FAILED (failures=1)
 
 ## **蟒蛇 3**
 
-```
+```py
 import unittest
 
 class MyTestCase(unittest.TestCase):
@@ -123,7 +123,7 @@ if __name__ == '__main__': 
 
 ****输出:****
 
- **```
+ ```py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s
@@ -137,7 +137,7 @@ OK
 
 ## 蟒蛇 3
 
-```
+```py
 import unittest
 
 class MyTestCase(unittest.TestCase):
@@ -156,7 +156,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 E
 ======================================================================
 ERROR: test_1 (__main__.MyTestCase)

@@ -8,7 +8,7 @@
 
 在这个方法中，我们使用遍历逻辑的列表理解和 endswith 方法来过滤掉所有以特定字母结尾的字符串。左边的字符串可以用来制作不同的列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Segregating by Suffix
 # Using list comprehension + endwith()
@@ -34,7 +34,7 @@ print("The list with suffix s : " + str(with_s))
 
 **Output :**
 
-```
+```py
 The original list : ['apple', 'oranges', 'mango', 'grapes']
 The list without suffix s : ['apple', 'mango']
 The list with suffix s : ['oranges', 'grapes']
@@ -45,7 +45,7 @@ The list with suffix s : ['oranges', 'grapes']
 
 可以使用 filter 函数执行此任务，该函数在内部执行与上述函数类似的任务，lambda 是构建逻辑的助手函数。
 
-```
+```py
 # Python3 code to demonstrate
 # Segregating by Suffix
 # Using filter() + endwith() + lambda
@@ -71,7 +71,7 @@ print("The list with suffix s : " + str(with_s))
 
 **Output :**
 
-```
+```py
 The original list : ['apple', 'oranges', 'mango', 'grapes']
 The list without suffix s : ['apple', 'mango']
 The list with suffix s : ['oranges', 'grapes']

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K length Duplicates from String
 # Using loop + slicing 
@@ -52,7 +52,7 @@ print("The modified string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforfreeksfo
 The modified string : geeksforfree
 

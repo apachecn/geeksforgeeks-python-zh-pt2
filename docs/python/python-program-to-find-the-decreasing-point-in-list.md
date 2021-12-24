@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Decreasing point in List
 # Using loop
@@ -43,7 +43,7 @@ print("Decreasing Point : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 6, 8, 9, 12, 5, 18, 1]
 Decreasing Point : 4
 ```
@@ -54,7 +54,7 @@ Decreasing Point : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Decreasing point in List
 # Using enumerate() + loop
@@ -79,7 +79,7 @@ print("Decreasing Point : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [3, 6, 8, 9, 12, 5, 18, 1]
 Decreasing Point : 4
 ```

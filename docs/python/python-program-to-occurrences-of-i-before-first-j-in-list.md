@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Occurrences of i before first j
 # Using loop
@@ -51,7 +51,7 @@ print("Number of i's till 1st j : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 4, 1, 4, 8, 5, 4, 3, 4, 9]
 Number of i's till 1st j : 3
 ```
@@ -62,7 +62,7 @@ Number of i's till 1st j : 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Occurrences of i before first j
 # Using index() + slicing + count()
@@ -91,7 +91,7 @@ print("Number of i's till 1st j : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 4, 1, 4, 8, 5, 4, 3, 4, 9]
 Number of i's till 1st j : 3
 ```

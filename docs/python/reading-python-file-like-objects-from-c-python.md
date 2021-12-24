@@ -7,7 +7,7 @@
 
 **Code #1 :**
 
-```
+```py
 #define CHUNK_SIZE 8192
 
 /* Consume a "file-like" object and write bytes to stdout */
@@ -77,7 +77,7 @@ final:
 
 **代码#2 :**
 
-```
+```py
 import io
 f = io.StringIO('Hello\nWorld\n')
 import sample
@@ -86,7 +86,7 @@ sample.consume_file(f)
 
 **输出:**
 
-```
+```py
 Hello
 World
 ```
@@ -97,7 +97,7 @@ World
 
 **代码#3 :**
 
-```
+```py
 /* Call read() */
 if ((data = PyObject_Call(read_meth, read_args, NULL)) == NULL) {
     goto final;

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in
@@ -58,7 +58,7 @@ print(match_object.group(1, 2, 3))
 
 **输出:**
 
-```
+```py
 username@geekforgeeks.org
 username
 geekforgeeks
@@ -78,7 +78,7 @@ org
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in
@@ -99,7 +99,7 @@ print(match_object.group(7))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/8da42759204c98da7baa88422a4a74e0.py", line 17, in 
     print(match_object.group(7))

@@ -14,7 +14,7 @@
 
 **代码# 1:**sample()函数的简单实现。
 
-```
+```py
 # Python3 program to demonstrate
 # the use of sample() function .
 
@@ -29,13 +29,13 @@ print(sample(list1,3))
 
 **输出:**
 
-```
+```py
 [2, 3, 5]
 ```
 
 **代码#2:** 样本()函数的基本用法。
 
-```
+```py
 # Python3 program to demonstrate
 # the use of sample() function .
 
@@ -66,7 +66,7 @@ print("With set:", random.sample(set1, 3))
 
 **输出:**
 
-```
+```py
 With list: [3, 1, 2]
 With string: ['e', 'f', 'G', 'G']
 With tuple: ['ankit', 'portal', 'geeks', 'computer']
@@ -79,7 +79,7 @@ With set: ['b', 'd', 'c']
 
 如果样本量(即 k)大于序列量，则会出现*值错误*。
 
-```
+```py
 # Python3 program to demonstrate the
 # error of sample() function.
 import random
@@ -92,7 +92,7 @@ print(random.sample(list1, 5)) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Users/user/AppData/Local/Programs/Python/Python36/all_prgm/geeks_article/sample_method_article.py", line 8, in 
     print(random.sample(list1, 5))

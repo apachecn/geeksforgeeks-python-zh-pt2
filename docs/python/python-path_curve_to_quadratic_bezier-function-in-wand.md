@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color
@@ -59,7 +59,7 @@ with Drawing() as draw:
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color

@@ -58,7 +58,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup

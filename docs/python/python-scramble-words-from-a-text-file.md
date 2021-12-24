@@ -16,7 +16,7 @@
 
 **例:**
 
-```
+```py
 Input :  MyFile.txt ->
 
 Scrambling words is very  
@@ -42,7 +42,7 @@ raed the word as a wolhe.
 
 ## 蟒 3
 
-```
+```py
 import random
 
 punct = (".", ";", "!", "?", ",")
@@ -102,7 +102,7 @@ new_word = ""
 
 **输出:**
 
-```
+```py
 Smcinrablg wodrs very Bauscee eevn tehy dnoes't
 icpamt Bcuesae d'not read lteter raed wrod whole. 
 ```

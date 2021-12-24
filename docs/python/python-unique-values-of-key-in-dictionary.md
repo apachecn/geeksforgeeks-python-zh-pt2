@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `set()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们在循环中提取关键字的所有元素，然后将提取的列表转换为集合，以获得唯一的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Values of Key in Dictionary
 # Using loop + set()
@@ -48,7 +48,7 @@ print("The unique values of key : " + str(res)) 
 **方法 2:使用列表理解**
 这是解决这个问题的又一种方法。在这种情况下，我们以与上述方法类似的方式执行，但采用速记方式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Values of Key in Dictionary
 # Using list comprehension

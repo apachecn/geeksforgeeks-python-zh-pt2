@@ -17,7 +17,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。**�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image and ImageOps module from PIL package
 from PIL import Image, ImageOps
 

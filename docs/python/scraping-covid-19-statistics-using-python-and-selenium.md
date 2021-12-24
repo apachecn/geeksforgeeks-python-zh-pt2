@@ -8,7 +8,7 @@ Selenium 是一个开源的 web 测试工具，允许用户跨不同的浏览器
 
 硒 Python 绑定提供了一个简单的应用编程接口来使用它的网络驱动程序编写功能测试。通过应用编程接口，您可以轻松访问 Selenium 网络驱动程序的所有功能。
 
-```
+```py
 pip install Selenium
 
 ```
@@ -32,7 +32,7 @@ Selenium 需要一个 web 驱动来与选择的浏览器，即 Chrome、Safari�
 
 如果你已经安装了 Selenium Python 绑定，可以像这样从 Python 开始使用:
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -41,7 +41,7 @@ from time import sleep
 
 睡眠模块等待，直到浏览器网址已经完全加载。现在我们创建一个浏览器 webdriver 实例(这里是 Chrome)，如下所示:
 
-```
+```py
 driver=webdriver.Chrome("C:/chromedriver.exe")
 driver.get("https://www.covid19india.org/")
 sleep(2) //Waits for 2 seconds after navigating to the URL
@@ -61,7 +61,7 @@ sleep(2) //Waits for 2 seconds after navigating to the URL
 
 这些提取的新冠肺炎统计值使用 Python 使用 **print()** 语句实时显示在用户控制台上，如下所示:
 
-```
+```py
 ***def extractor():***
 
  ***TCases = driver.find_element_by_xpath("/html/body/div/div/div[2]/div[1]/div[2]/div[1]/h1/span")*** 
@@ -83,7 +83,7 @@ sleep(2) //Waits for 2 seconds after navigating to the URL
 
 使用 **sleep()** 模块，整个脚本可以在给定的时间间隔后自动执行，如下所示:
 
-```
+```py
 ***while True:***
  ***extractor()***
  ***sleep(60*60)   // The loop executes after every hour in this case***
@@ -94,7 +94,7 @@ while 循环无限期执行，每小时运行一次**提取器()**功能。
 
 以下是整个网页抓取程序:
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from time import sleep
@@ -134,7 +134,7 @@ while True:
 
 上述程序在用户控制台上的输出如下:
 
-```
+```py
 ***Total Cases: 2, 17, 187*** 
 ***Total Active Cases: 1, 07, 017*** 
 ***Total Recovered Cases: 1, 04, 071*** 

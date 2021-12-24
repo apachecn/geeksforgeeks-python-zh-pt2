@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQtGraph 模块中获得错误条形图的位置。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).误差线是数据可变性的图形表示，用在图表上表示报告测量中的误差或不确定性。它们给出了测量精度的大致概念，或者相反，真实值可能与报告值有多远。误差线项目的位置基本上是数据从原点开始的位置，默认为 0，尽管它可以随时改变。改变位置不会改变线图数据的位置，只会改变误差条形图数据的位置。可以借助 **setPos()** 方法进行设置。
 我们可以创建一个绘图窗口，并在下面给出的命令的帮助下在上面创建一个误差条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -23,7 +23,7 @@ error = pg.ErrorBarItem(x=x, y=y, top=top, bottom=bottom, beam=0.5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

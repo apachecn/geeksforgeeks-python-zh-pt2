@@ -13,7 +13,7 @@ Python 中的一个[装饰器](https://www.geeksforgeeks.org/decorators-in-pytho
 **现在，让我们看一些例子来说明 Python 中 **@property** 装饰器的使用:**
 **例子 1:**
 
-```
+```py
 # Python program to illustrate the use of
 # @property decorator
 
@@ -60,7 +60,7 @@ print (p.name)
 
 **Output:**
 
-```
+```py
 GeeksforGeeks
 
 ## An error is thrown
@@ -76,7 +76,7 @@ AttributeError: 'Portal' object has no attribute '_Portal__name'
 这里，@property decorator 用于定义类`Portal`中的属性`name`，该类有三个名称相似的方法(getter、setter 和 deleter)，即`name()`，但它们的参数数量不同。其中，标有`@property`的方法**名称(self)** 是一个 getter 方法，**名称(self，val)** 是一个 setter 方法，因为它用于设置属性**_ _ 名称**的值，所以它标有`@name.setter`。最后，标有 *@name.deleter* 的方法是一个 deleter 方法，可以通过 setter 方法删除赋值。但是，deleter 是在关键字`del`的帮助下调用的。
 **例 2:**
 
-```
+```py
 # Python program to illustrate the use of
 # @property decorator
 
@@ -127,7 +127,7 @@ cel.temp = -300
 
 **Output:**
 
-```
+```py
 The value of the tempereture is set.
 The value of the temperature is:
 -270

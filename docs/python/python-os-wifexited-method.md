@@ -15,7 +15,7 @@ Python 中的`***os.WIFEXITED()***`方法用于检查进程是否使用 [exit(2)
 
 **代码:**使用`***os.WIFEXITED()***`方法
 
-```
+```py
 # Python program to explain os.WIFEXITED() method 
 
 # importing os module  
@@ -95,7 +95,7 @@ else :
 
 **Output:**
 
-```
+```py
 In first child process
 Process ID: 11614
 Hello! Geeks

@@ -22,7 +22,7 @@ Python 是一种通用的高级编程语言。它的设计强调代码的可读�
 
 ## 蟒 3
 
-```
+```py
 # for loop
 for x in range(1, 9):
 
@@ -44,7 +44,7 @@ for x in range(1, 9):
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -65,7 +65,7 @@ for x in range(1, 9):
 
 ## 蟒 3
 
-```
+```py
 # Here GFG and b are the identifier 
 GFG = 'Hello'
 b = "Geeks"
@@ -77,7 +77,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 Hello
 Geeks
 ```
@@ -88,7 +88,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # String Literals
 a = 'Hello'
 b = "Geeks"
@@ -103,7 +103,7 @@ print(c)
 
 **Output**
 
-```
+```py
 Hello
 Geeks
 Geeks for Geeks is a 
@@ -114,7 +114,7 @@ Geeks for Geeks is a
 
 ## 蟒 3
 
-```
+```py
 # Character Literals
 a = 'G'
 b = "W"
@@ -126,7 +126,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 G
 W
 ```
@@ -139,7 +139,7 @@ W
 
 ## 蟒 3
 
-```
+```py
 # Numeric Literals
 a = 5
 b = 10.3
@@ -153,7 +153,7 @@ print(c)
 
 **输出**
 
-```
+```py
 5
 10.3
 -17
@@ -163,7 +163,7 @@ print(c)
 
 T5】蟒 3T7
 
-```
+```py
 # Boolean Literals
 a = 3
 b = (a == 3)
@@ -179,7 +179,7 @@ T8T10**输出**T1
 
 T5】蟒 3T7
 
-```
+```py
 # Special Literals
 var = None
 print(var)
@@ -196,7 +196,7 @@ T8T10**输出**T1
 
 ## 蟒 3
 
-```
+```py
 # Literals collections
 # List
 my_list = [23, "geek", 1.2, 'data'] 
@@ -219,7 +219,7 @@ print(my_set)
 
 **输出**
 
-```
+```py
 [23, 'geek', 1.2, 'data']
 (1, 2, 3, 'hello')
 {1: 'one', 2: 'two', 3: 'three'}
@@ -230,7 +230,7 @@ print(my_set)
 
 ## python 3
 
-```
+```py
 # Operators
 a = 12
 
@@ -247,7 +247,7 @@ print(c)
 
 **输出**
 
-```
+```py
 -13
 -1
 ```

@@ -5,7 +5,7 @@
 给定一个 camel 大小写的字符串，编写一个 Python 程序将给定的字符串从 camel 大小写转换成 snake 大小写。
 **例:**
 
-```
+```py
 Input : GeeksForGeeks
 Output : geeks_for_geeks
 
@@ -19,7 +19,7 @@ Output : this_is_in_camel_case
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to convert string
 # from camel case to snake case
 
@@ -41,6 +41,6 @@ print(change_case(str))
 
 **Output:** 
 
-```
+```py
 geeks_for_geeks
 ```

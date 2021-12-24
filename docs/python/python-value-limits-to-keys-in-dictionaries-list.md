@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Value limits to keys in Dictionaries List
 # Using max() + min() + loop + keys()
@@ -59,7 +59,7 @@ print("Keys Ranges : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Value limits to keys in Dictionaries List
 # Using list comprehension + min() + max() + keys()

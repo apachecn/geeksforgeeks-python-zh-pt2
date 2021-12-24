@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to split strings
 # on uppercase letter
@@ -30,7 +30,7 @@ print("Resultant prefix", str(res_list))
 
 **Output:** 
 
-```
+```py
 Initial String GeeksForGeeks
 Resultant prefix ['Geeks', 'For', 'Geeks']
 

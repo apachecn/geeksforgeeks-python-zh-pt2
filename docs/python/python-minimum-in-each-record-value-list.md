@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `min()`**
 这个特殊的问题可以通过使用列表理解结合 min 函数来解决，其中我们使用 min 函数来找到列表的 min 作为元组属性，并使用列表理解来迭代列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Record Value list Minimum
 # using list comprehension + min() 
@@ -28,7 +28,7 @@ print("The list tuple attribute minimum is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : [('key1', [3, 4, 5]), ('key2', [1, 4, 2]), ('key3', [9, 3])]
 The list tuple attribute minimum is : [('key1', 3), ('key2', 1), ('key3', 3)]
 

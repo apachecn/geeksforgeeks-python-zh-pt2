@@ -7,7 +7,7 @@
 **方法#1:使用回环+ `chr()`**
 这是蛮力的方式来执行这个任务。在这种情况下，我们迭代元素，直到在使用 chr()转换为字符后需要相应地打印和连接字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Print Alphabets till N
 # Using loop
@@ -30,7 +30,7 @@ print("Alphabets till N are : " + str(res))
 
 **Output :**
 
-```
+```py
 Number of elements required : 20
 Alphabets till N are : abcdefghijklmnopqrst
 

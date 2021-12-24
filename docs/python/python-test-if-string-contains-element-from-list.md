@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # checking if string contains list element
 # using list comprehension
@@ -37,7 +37,7 @@ print("Does string contain any list element : " + str(bool(res)))
 
 **Output : **
 
-```
+```py
 The original string : There are 2 apples for 4 persons
 The original list : ['apples', 'oranges']
 Does string contain any list element : True
@@ -48,7 +48,7 @@ Does string contain any list element : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # checking if string contains list element
 # using list comprehension
@@ -75,7 +75,7 @@ print("Does string contain any list element : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string : There are 2 apples for 4 persons
 The original list : ['apples', 'oranges']
 Does string contain any list element : True

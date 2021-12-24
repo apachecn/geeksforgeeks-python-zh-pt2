@@ -26,7 +26,7 @@
 
 下面是实现。
 
-```
+```py
 # function to obtain no 
 # of topics both alice and 
 # bob like 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 3
 0
 4

@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须改变复选框的背景颜色，这可以使用下面的样式表代码来完成。
 
-```
+```py
 QCheckBox
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 这个样式表和`setStyleSheet`方法一起使用，下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

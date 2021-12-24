@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [1, 2, 3]
 Output:
 1 2 3
@@ -35,7 +35,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print all
 # the possible combinations
 
@@ -56,7 +56,7 @@ comb([1, 2, 3])
 
 **输出:**
 
-```
+```py
 1 2 3
 1 3 2
 2 1 3
@@ -74,7 +74,7 @@ comb([1, 2, 3])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print all
 # the possible combinations
 
@@ -90,7 +90,7 @@ for i in comb:
 
 **输出:**
 
-```
+```py
 (1, 2, 3)
 (1, 3, 2)
 (2, 1, 3)

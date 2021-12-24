@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # set of alphabet
 set = {'a', 'b', 'c', 'd', 'e'}
 print(set)
@@ -18,7 +18,7 @@ print(set)
 
 **输出:**
 
-```
+```py
 {'c', 'b', 'd', 'e', 'a'}
 
 ```
@@ -34,7 +34,7 @@ set 和 frozensets 支持以下运算符:
 
 ## 蟒蛇 3
 
-```
+```py
 s = {4, 5, 8, 6, 3, 2, 5}
 key = 3
 x = key in s  # containment check
@@ -44,7 +44,7 @@ print(x, y)
 
 **输出:**
 
-```
+```py
 True False
 
 ```
@@ -56,7 +56,7 @@ True False
 
 ## 蟒蛇 3
 
-```
+```py
 s1 = {'t', 3, 6, 5, 7, 8, 4, 9}
 s2 = {5, 7, 8, 9, 't', 4, 3, 6}
 
@@ -71,7 +71,7 @@ print(y)
 
 **输出:**
 
-```
+```py
 True
 False
 
@@ -88,7 +88,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 s1 = {2, 5, 3, 7, 'c', 'a', 8}
 s2 = {3, 7, 8, 'c'}
 
@@ -108,7 +108,7 @@ print(w, x, y, z)
 
 **输出:**
 
-```
+```py
 False False True True
 
 ```
@@ -122,7 +122,7 @@ False False True True
 
 ## 蟒蛇 3
 
-```
+```py
 s1 = {2, 5, 3, 7, 'c', 'a', 8}
 s2 = {3, 7, 8, 'c', 9, 11, 'd'}
 
@@ -160,7 +160,7 @@ print(z)
 
 ## 蟒蛇 3
 
-```
+```py
 # Example of Dictionary
 d = {'jupiter': 'planet', 'sun': 'star'}
 print(d)
@@ -168,7 +168,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 {'jupiter': 'planet', 'sun': 'star'}
 
 ```
@@ -183,7 +183,7 @@ print(d)
 
 ## 蟒蛇 3
 
-```
+```py
 dict = {'math': 45, 'english': 60, 'science': 65, 
         'computer science': 70}
 
@@ -213,7 +213,7 @@ print(dict)
 
 ## 蟒蛇 3
 
-```
+```py
 dict = {'math': 45, 'english': 60, 'science': 65,
         'computer science': 70}
 
@@ -228,7 +228,7 @@ print(y)
 
 **输出:**
 
-```
+```py
 True
 True
 
@@ -241,7 +241,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 d1 = {'a': 5, 'b': 7, 'c': 9, 'e': 3}
 d2 = {'c': 9, 'a': 5, 'b': 7, 'e': 3}
 
@@ -254,7 +254,7 @@ print(y)
 
 **输出:**
 
-```
+```py
 True
 False
 

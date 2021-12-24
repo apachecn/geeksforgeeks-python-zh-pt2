@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Omit K length Rows
 # Using loop + len()
@@ -57,7 +57,7 @@ print("Filtered Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Omit K length Rows
 # Using filter() + lambda + len()

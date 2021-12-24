@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -52,7 +52,7 @@ print(value)
 
 ![](img/33c5fe6e13ea1c939ea793883a04f9c7.png)
 
-```
+```py
 Play Rate : 
 2.0
 ```
@@ -62,7 +62,7 @@ Play Rate :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -101,7 +101,7 @@ print(value)
 
 ![](img/adad80dcd4fb054e2f8093e65d2cb30f.png)
 
-```
+```py
 Play Rate : 
 0.5
 ```

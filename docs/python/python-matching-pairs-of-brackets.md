@@ -13,7 +13,7 @@
 **方法:使用栈 DS + loop**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们用每个开括号做一个新的对，当相应的闭括号用后进先出法来时，我们用那个闭括号做一个对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matching Pairs of Brackets
 # Using stack DS + loop
@@ -40,7 +40,7 @@ print("The paired elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('(', 7), ('(', 9), (')', 10), (')', 11), ('(', 15), (')', 100)]
 The paired elements : [(9, 10), (7, 11), (15, 100)]
 

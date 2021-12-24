@@ -7,7 +7,7 @@ Pygame 是一套跨平台的 Python 模块，设计用于编写视频游戏。�
 
 经典力学中有使物体跳跃的基本公式。
 
-```
+```py
 F = 1/2 * m * v^2 
 
 ```
@@ -16,7 +16,7 @@ F = 1/2 * m * v^2
 
 Below is the implementation:
 
-```
+```py
 # import pygame module in this program 
 import pygame
 

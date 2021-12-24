@@ -6,7 +6,7 @@
 例如，用户可能不得不遍历数千行，挑选出少数信息，根据某些标准进行小的修改。使用 Openpyxl 模块，这些任务可以非常高效和容易地完成。
 使用此命令安装 openpyxl 模块:
 
-```
+```py
 sudo pip3 install openpyxl 
 ```
 
@@ -18,7 +18,7 @@ sudo pip3 install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read an excel file
 
 # import openpyxl module
@@ -53,7 +53,7 @@ print(cell_obj.value)
 
 **输出:**
 
-```
+```py
 STUDENT 'S NAME
 ```
 
@@ -61,7 +61,7 @@ STUDENT 'S NAME
 
 ## 蟒蛇 3
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -79,7 +79,7 @@ print(sheet_obj.max_row)
 
 **输出:**
 
-```
+```py
 6
 ```
 
@@ -87,7 +87,7 @@ print(sheet_obj.max_row)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing openpyxl module
 import openpyxl
 
@@ -105,7 +105,7 @@ print(sheet_obj.max_column)
 
 **输出:**
 
-```
+```py
 4
 ```
 
@@ -113,7 +113,7 @@ print(sheet_obj.max_column)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing openpyxl module
 import openpyxl
 
@@ -134,7 +134,7 @@ for i in range(1, max_col + 1):
 
 **输出:**
 
-```
+```py
 STUDENT 'S NAME
 COURSE
 BRANCH
@@ -145,7 +145,7 @@ SEMESTER
 
 ## 蟒蛇 3
 
-```
+```py
 # importing openpyxl module
 import openpyxl
 
@@ -167,7 +167,7 @@ for i in range(1, m_row + 1):
 
 **输出:**
 
-```
+```py
 STUDENT 'S NAME
 ANKIT RAI
 RAHUL RAI
@@ -180,7 +180,7 @@ HARSHITA JAISWAL
 
 ## 蟒蛇 3
 
-```
+```py
 # importing openpyxl module
 import openpyxl
 
@@ -202,6 +202,6 @@ for i in range(1, max_col + 1):
 
 **输出:**
 
-```
+```py
 ANKIT RAI B.TECH CSE 4
 ```

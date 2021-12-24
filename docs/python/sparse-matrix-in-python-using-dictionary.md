@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 0 0 0 1 0            
 2 0 0 0 3
 0 0 0 4 0
@@ -27,7 +27,7 @@ Above is sparse matrix with only 4 non-zero elements.
 
 T2T4
 
-```
+```py
 # creating sparse matrix
 arr = [[0, 0, 0, 1, 0],
        [2, 0, 0, 0, 3],

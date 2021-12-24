@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们使用列表理解来遍历列表，并且在 `zip()`的帮助下执行跨列表求和。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of two list of tuples
 # using list comprehension + zip()
@@ -30,7 +30,7 @@ print("The Summation across lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [(2, 4), (6, 7), (5, 1)]
 The original list 2 : [(5, 4), (8, 10), (8, 14)]
 The Summation across lists is : [(7, 8), (14, 17), (13, 15)]

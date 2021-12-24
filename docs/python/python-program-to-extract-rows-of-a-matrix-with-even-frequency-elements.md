@@ -25,7 +25,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *from collections import Counter
 
 # initializing list
@@ -57,7 +57,7 @@ print("Filtered Matrix ? : " + str(res))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **from collections import Counter
 
 # initializing list

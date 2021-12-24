@@ -31,7 +31,7 @@
 
 ## **java 描述语言**
 
-```
+```py
 function getResultFromRequest(request) {
     return new Promise((resolve, reject) => {
         request.onsuccess = function (event) {
@@ -64,7 +64,7 @@ console.log(session);
 
 ## **java 描述语言**
 
-```
+```py
 JSON.stringify(session);
 ```
 
@@ -74,7 +74,7 @@ JSON.stringify(session);
 
 ## **java 描述语言**
 
-```
+```py
 function getResultFromRequest(request) {
     return new Promise((resolve, reject) => {
         request.onsuccess = function(event) {
@@ -141,7 +141,7 @@ await injectSession(SESSION_STRING);
 
 ## **蟒蛇 3**
 
-```
+```py
 def _wait_for_presence_of_an_element(browser, selector):
     element = None
 
@@ -159,7 +159,7 @@ def _wait_for_presence_of_an_element(browser, selector):
 
 ## **蟒蛇 3**
 
-```
+```py
 def sessionGenerator(sessionFilePath):
 
     # 1.1 Open Chrome browser
@@ -194,7 +194,7 @@ def sessionGenerator(sessionFilePath):
 
 ## **蟒蛇 3**
 
-```
+```py
 from session import *
 import sys
 
@@ -209,7 +209,7 @@ sessionGenerator(sessionFilePath)
 
 ## **蟒蛇 3**
 
-```
+```py
 def sessionOpener(sessionFilePath):
 
     # 2.1 Verify that session file is exist
@@ -245,7 +245,7 @@ def sessionOpener(sessionFilePath):
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from session import *
 import sys
 
@@ -260,7 +260,7 @@ sessionOpener(sessionFilePath)**
 
 ******生成会话文件:******
 
-```
+```py
 **python session_generator.py session.wa**
 ```
 
@@ -268,7 +268,7 @@ sessionOpener(sessionFilePath)**
 
 ******打开会话文件:******
 
-```
+```py
 **python session_opener.py session.wa**
 ```
 

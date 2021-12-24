@@ -7,7 +7,7 @@
 **方法#1:使用`get()`**
 get 函数可以用 1 初始化一个不存在的键，然后产品就可以了。这样可以避免密钥不存在的问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiply Dictionary Value by Constant
 # Using get()
@@ -31,7 +31,7 @@ print("Dictionary after the multiplication of key : " + str(test_dict))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'for': 4, 'is': 2, 'CS': 5, 'gfg': 1}
 Dictionary after the multiplication of key : {'for': 4, 'is': 2, 'CS': 5, 'best': 5, 'gfg': 1}
 

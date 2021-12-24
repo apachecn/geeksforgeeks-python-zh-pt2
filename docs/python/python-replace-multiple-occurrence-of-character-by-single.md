@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : Geeksforgeeks, ch = 'e'
 Output : Geksforgeks
 
@@ -20,7 +20,7 @@ Output : Win
 **方法#1 :** 天真方法
 这是一种蛮力方法，我们采用另一个列表‘new _ str’。使用 for 循环检查给定字符是否重复。如果重复多次，则将字符单次追加到列表中。其他字符(不是给定的字符)被简单地附加到列表中，没有任何改变。
 
-```
+```py
 # Python program to replace multiple 
 # occurrences of a character by a single character
 
@@ -51,14 +51,14 @@ print(replace(s, char))
 
 **Output:**
 
-```
+```py
 Geksforgeks
 
 ```
 
 **方法 2 :** 使用 Python 正则表达式
 
-```
+```py
 import re
 
 # Function to replace multiple occurrences  
@@ -76,7 +76,7 @@ print(replace(string, char))
 
 **Output:**
 
-```
+```py
 Geksforgeks
 
 ```

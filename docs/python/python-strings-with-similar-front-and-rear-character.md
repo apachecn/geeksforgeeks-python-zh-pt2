@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，迭代列表的每个元素，检查每个字符串的前后字符，并增加计数器，以防我们找到匹配的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Similar front and rear elements
 # Using loop
@@ -31,7 +31,7 @@ print("Total Strings with similar front and rear elements : " + str(count))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'treat']
 Total Strings with similar front and rear elements : 2
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: Input = [23]
 Output: Output  = [2, 3]
 
@@ -17,7 +17,7 @@ Output: Output  = [1, 5, 4, 7, 8]
 
 **方法#1:使用地图**
 
-```
+```py
 # Python code to split list containing single integer
 
 # List initialization
@@ -32,14 +32,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [2, 0, 0]
 
 ```
 
 **方法 2:使用列表理解**
 
-```
+```py
 # Python code to split list containing single integer
 
 # List initialization
@@ -55,14 +55,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [2, 3, 1]
 
 ```
 
 **方法 3:使用循环**
 
-```
+```py
 # Python code to split list containing single integer
 
 # List initialization
@@ -85,7 +85,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 [7, 8, 9]
 
 ```

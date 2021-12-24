@@ -7,7 +7,7 @@
 **方法#1:使用 loop +公式**
 处理这个问题的更简单的方式是使用公式来寻找多模，并使用 loop shorthands 执行。这是解决这个问题最基本的方法。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multimode of List
 # using loop + formula 
@@ -36,7 +36,7 @@ print("The multimode of list is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [1, 2, 1, 2, 3, 4, 3]
 The multimode of list is : [1, 2, 3]
 

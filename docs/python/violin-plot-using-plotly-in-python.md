@@ -44,7 +44,7 @@ Plotly.express 支持的功能
 
 ## python 3
 
-```
+```py
 import plotly.express as pt
 import pandas as pd
 

@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class MyTree(wx.TreeCtrl):

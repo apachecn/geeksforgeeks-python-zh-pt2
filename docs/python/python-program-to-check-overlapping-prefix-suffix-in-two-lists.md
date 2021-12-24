@@ -4,7 +4,7 @@
 
 给定 2 个字符串，我们的任务是检查一个字符串的后缀与另一个字符串的前缀的重叠。
 
-```
+```py
 Input : test_str1 = "Gfgisbest", test_str2 = "bestforall"
 Output : best
 
@@ -22,7 +22,7 @@ Explanation : No overlapping.
 
 T2T4
 
-```
+```py
 # Python3 code to demonstrate working of
 # Overlapping Prefix - Suffix in Two Lists
 # Using loop + slicing + startswith()
@@ -52,7 +52,7 @@ T5
 
 **输出:**
 
-```
+```py
 The original string 1 is : Gfgisbest
 The original string 2 is : bestforall
 Overlapped String  : best

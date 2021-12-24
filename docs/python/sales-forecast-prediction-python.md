@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd                     # to extract data from dataset(.csv file)
 import csv                              #used to read and write to csv files
 import numpy as np                      #used to convert input into numpy arrays to be fed to the model
@@ -87,7 +87,7 @@ list_row,date,traffic = get_data('/home/abh/Documents/Python/Untitled Folder/Sal
 
 ## 蟒蛇 3
 
-```
+```py
 def conversion(week,days,months,years,list_row):
   #lists have been defined to hold different inputs
   inp_day = []
@@ -140,7 +140,7 @@ inp_hol = np.array(inp_hol)
 
 ## 蟒蛇 3
 
-```
+```py
 def other_inputs(season,list_row):
   #lists to hold all the inputs
   inp7=[]
@@ -198,7 +198,7 @@ inp_sess = np.array(inp_sess)
 
 ## 计算机编程语言
 
-```
+```py
 from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Dense,LSTM,Flatten
 from tensorflow.keras.layers import concatenate
@@ -240,7 +240,7 @@ RMSprop 非常擅长处理随机分布，因此在这里使用它。
 
 ## 蟒蛇 3
 
-```
+```py
 from tensorflow.keras.optimizers import RMSprop
 
 model.compile(loss=['mean_squared_error'],
@@ -255,7 +255,7 @@ model.compile(loss=['mean_squared_error'],
 
 ## 蟒蛇 3
 
-```
+```py
 history = model.fit(
            x = [inp_day,inp_mon,inp_year,inp_week,inp_hol,inp7,inp_prev,inp_sess],
            y = out,
@@ -276,7 +276,7 @@ history = model.fit(
 
 ## 蟒蛇 3
 
-```
+```py
 def input(date):
     d1,d2,d3 = date_to_enc(date,days,months,years)   #separate date into three parameters
     print('date=',date)
@@ -322,7 +322,7 @@ def input(date):
 
 ## 蟒蛇 3
 
-```
+```py
 def forecast_testing(date):
     maxj = max(traffic) # determines the maximum sales value in order to normalize or return the data to its original form
     out=[]
@@ -367,7 +367,7 @@ def forecast_testing(date):
 
 ## 蟒蛇 3
 
-```
+```py
 plt.plot(result,color='red',label='predicted')
 plt.plot(test_sales,color='purple',label="actual")
 plt.xlabel("Date")

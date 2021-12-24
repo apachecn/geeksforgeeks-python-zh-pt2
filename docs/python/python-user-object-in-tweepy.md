@@ -55,7 +55,7 @@ Tweepy 模块中的 **`User`** 对象包含用户的信息。
 
 **例如:**考虑一下[极客的推特账户](https://twitter.com/geeksforgeeks)。使用`get_user()`方法获取用户。
 
-```
+```py
 # import the module
 import tweepy
 

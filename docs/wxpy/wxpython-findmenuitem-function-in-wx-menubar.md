@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.FindMenuItem(self, menuString, itemString)
 > ```
 > 
@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -70,6 +70,6 @@ if __name__ == '__main__':
 
 **命令行输出:**
 
-```
+```py
 20
 ```

@@ -16,7 +16,7 @@ Python list sort()函数可用于按照升序、降序或用户定义的顺序�
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = [1, 3, 4, 2]
 
 # Sorting list of Integers in ascending
@@ -27,7 +27,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4]
 ```
 
@@ -35,7 +35,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 strs = ["geeks", "code", "ide", "practice"]
 
 # Sorting list of Integers in ascending
@@ -46,7 +46,7 @@ print(strs)
 
 **输出:**
 
-```
+```py
 ['code', 'geeks', 'ide', 'practice']
 ```
 
@@ -62,7 +62,7 @@ print(strs)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = [1, 3, 4, 2]
 
 # Sorting list of Integers in descending
@@ -73,7 +73,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [4, 3, 2, 1]
 ```
 
@@ -92,7 +92,7 @@ print(numbers)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate sorting by user's
 # choice
 
@@ -118,7 +118,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 [(1, 1), (1, 2), (3, 3)]
 [(3, 3), (1, 2), (1, 1)]
 ```

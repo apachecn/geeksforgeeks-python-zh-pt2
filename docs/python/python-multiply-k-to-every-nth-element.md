@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 获取每第 n 个列表的功能可以借助列表理解来完成，枚举功能有助于整个列表的迭代。
 
-```
+```py
 # Python3 code to demonstrate
 # Multiply K to every Nth element
 # using list comprehension + enumerate()
@@ -34,7 +34,7 @@ print ("The list after multiplying K to every Nth element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 8, 9, 12]
 The list after multiplying K to every Nth element : [2, 4, 5, 12, 7, 8, 18, 12]
 

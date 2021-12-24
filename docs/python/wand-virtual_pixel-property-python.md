@@ -31,7 +31,7 @@
 
 **语法:**
 
-```
+```py
 wand.image.virtual_pexel = 'VIRTUAL_PIXEL_METHOD'
 ```
 
@@ -43,7 +43,7 @@ wand.image.virtual_pexel = 'VIRTUAL_PIXEL_METHOD'
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.color import Color
 # Import Image from wand.image module
 from wand.image import Image
@@ -65,7 +65,7 @@ with Image(filename ="gog.png",  background = Color("green")) as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

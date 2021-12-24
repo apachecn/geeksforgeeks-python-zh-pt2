@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : [8, 12, 15, 9, 3, 11, 26, 23]
 Output : Even lists: [8, 12, 26]
          Odd lists: [15, 9, 3, 11, 23]
@@ -17,7 +17,7 @@ Output : Even lists: [2, 62, 84]
 
 ```
 
-```
+```py
 # Python code to split into even and odd lists
 # Function to split
 def Split(mix):
@@ -38,7 +38,7 @@ Split(mix)
 
 输出:
 
-```
+```py
 Even lists: [2, 62, 84]
 Odd lists: [5, 13, 17, 51, 73, 95]
 
@@ -46,7 +46,7 @@ Odd lists: [5, 13, 17, 51, 73, 95]
 
  **备选较短方案:**
 
-```
+```py
 def Split(mix):
     ev_li = [ele for ele in li_in if ele%2 ==0]
     od_li = [ele for ele in li_in if ele%2 !=0]
@@ -60,7 +60,7 @@ Split(mix)
 
 输出:
 
-```
+```py
 Even lists: [2, 62, 84]
 Odd lists: [5, 13, 17, 51, 73, 95]
 

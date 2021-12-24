@@ -20,7 +20,7 @@ Python String **rstrip()** 方法返回字符串的副本，并删除尾随字�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of
 # rstrip() method using optional parameters
 
@@ -34,7 +34,7 @@ print(string.rstrip('s'))
 
 **输出:**
 
-```
+```py
 geek
 ```
 
@@ -42,7 +42,7 @@ geek
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of
 # rstrip() method using optional parameters
 
@@ -55,7 +55,7 @@ print("Geeks" + string.rstrip() + " Geeks ")
 
 **输出:**
 
-```
+```py
 Geeks   for Geeks
 ```
 
@@ -63,7 +63,7 @@ Geeks   for Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # string which is to be stripped
 string = "geeks for geeks"
 
@@ -74,7 +74,7 @@ print(string.rstrip('ek'))
 
 **输出:**
 
-```
+```py
 geeks for geeks
 ```
 
@@ -82,7 +82,7 @@ geeks for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # string which is to be stripped
 string = "geeks for geeks"
 
@@ -93,6 +93,6 @@ print(string.rstrip('ske'))
 
 **输出:**
 
-```
+```py
 geeks for g
 ```

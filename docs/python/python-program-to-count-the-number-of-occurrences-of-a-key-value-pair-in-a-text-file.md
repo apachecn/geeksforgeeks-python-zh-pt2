@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input File:
 Coin:H
 Coin:T
@@ -47,7 +47,7 @@ The count of geek:h is 2
 
 ![python-key-value-pair](img/a653474a115c2ba369a3261392ad0b49.png)
 
-```
+```py
 # Python program to count the
 # occurrences of key-value pair
 # in the text file

@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在天真方法中，我们只是运行一个从 beg 到列表末尾的循环，并手动检查每个值。这是执行此特定任务的最基本方式。
 
-```
+```py
 # Python3 code to demonstrate 
 # to check for False list 
 # using naive method
@@ -33,7 +33,7 @@ print ("Is List completely false ? : " +  str(bool(not flag)))
 
 **Output:**
 
-```
+```py
 The original list is : [False, False, False, False]
 Is List completely false ? : True
 

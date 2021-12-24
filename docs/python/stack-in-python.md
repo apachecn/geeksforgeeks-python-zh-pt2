@@ -30,7 +30,7 @@ Python 内置的数据结构列表可以作为堆栈使用。使用 append()代�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate stack implementation
 # using list
@@ -64,7 +64,7 @@ print(stack)
 
 **输出:**
 
-```
+```py
 Initial stack
 ['a', 'b', 'c']
 
@@ -77,7 +77,7 @@ Stack after elements are popped:
 []
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/2426bc32be6a59881fde0eec91247623.py", line 25, in <module>
     print(stack.pop())  
@@ -91,7 +91,7 @@ Python 堆栈可以使用集合模块中的 deque 类来实现。在我们需要
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate stack implementation
 # using collections.deque
@@ -127,7 +127,7 @@ print(stack)
 
 **输出:**
 
-```
+```py
 Initial stack:
 deque(['a', 'b', 'c'])
 
@@ -140,7 +140,7 @@ Stack after elements are popped:
 deque([])
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/97171a8f6fead6988ea96f86e4b01c32.py", line 29, in <module>
     print(stack.pop())  
@@ -164,7 +164,7 @@ IndexError: pop from an empty deque
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate stack implementation
 # using queue module
@@ -200,7 +200,7 @@ print("\nEmpty: ", stack.empty())
 
 **输出:**
 
-```
+```py
 0
 Full:  True
 Size:  3
@@ -227,7 +227,7 @@ Empty:  True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # stack implementation using a linked list.
 # node class
@@ -303,7 +303,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Stack: 10 -> 9 -> 8 -> 7 -> 6 -> 5 -> 4 -> 3 -> 2 -> 1
 
 Pop: 10

@@ -25,7 +25,7 @@ Python 中的`***os.chown()***`方法用于将指定路径的*所有者*和*组 
 
 **Code #1:** Use of os.chown() method
 
-```
+```py
 # Python program to explain os.chown() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ print("Group id of the file:", os.stat(path).st_gid) 
 
 **Code #2:** Use of os.chown() method to set any one id and leave other unchanged
 
-```
+```py
 # Python program to explain os.chown() method 
 
 # importing os module 
@@ -109,7 +109,7 @@ print("Group id of the file:", os.stat(path).st_gid) 
 
 **Code #3:** If the specified path is a symlink
 
-```
+```py
 # Python program to explain os.chown() method 
 
 # importing os module 

@@ -11,7 +11,7 @@
 3 9
 3 9
 
-```
+```py
 Input : 
 The single line describing powers of N Pokémon caught. 
 
@@ -23,7 +23,7 @@ so far separated by single space
 
 **代码:Python 代码实现口袋妖怪训练游戏**
 
-```
+```py
 # python code to train pokemon
 powers = [3, 8, 9, 7]
 
@@ -43,7 +43,7 @@ for power in powers:
 
 **输出:**
 
-```
+```py
 3 3
 3 8
 3 9

@@ -48,7 +48,7 @@ Python String ***分割线()*** 方法用于分割线边界处的线。该函数
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate splitlines()
 string = "Welcome everyone to\rthe world of Geeks\nGeeksforGeeks"
 
@@ -64,7 +64,7 @@ print (string.splitlines(True))
 
 **输出:**
 
-```
+```py
 ['Welcome everyone to', 'the world of Geeks', 'GeeksforGeeks']
 ['Welcome everyone to', 'the world of Geeks', 'GeeksforGeeks']
 ['Welcome everyone to\r', 'the world of Geeks\n', 'GeeksforGeeks']
@@ -74,7 +74,7 @@ print (string.splitlines(True))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate splitlines()
 string = "Cat\nBat\nSat\nMat\nXat\nEat"
 
@@ -87,7 +87,7 @@ print('India\nJapan\nUSA\nUK\nCanada\n'.splitlines())
 
 **输出:**
 
-```
+```py
 ['Cat', 'Bat', 'Sat', 'Mat', 'Xat', 'Eat']
 ['India', 'Japan', 'USA', 'UK', 'Canada']
 ```
@@ -98,7 +98,7 @@ print('India\nJapan\nUSA\nUK\nCanada\n'.splitlines())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to get length of each words
 def Cal_len(string):
 
@@ -117,7 +117,7 @@ print(Cal_len(string))
 
 **输出:**
 
-```
+```py
 ['Welcome', 'to', 'GeeksforGeeks']
 [7, 2, 13]
 ```

@@ -37,7 +37,7 @@
 
 Plotly 没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install plotly
 ```
 
@@ -63,7 +63,7 @@ Plotly 中有三个主要模块。它们是:
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Creating the Figure instance
@@ -89,7 +89,7 @@ print(fig)
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 # Creating the Figure instance

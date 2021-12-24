@@ -17,7 +17,7 @@
 
 下面是实现
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 

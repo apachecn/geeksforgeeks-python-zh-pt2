@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Equal Consecution Product
 # Using loop
@@ -65,7 +65,7 @@ print("Elements after equal Consecution product : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Equal Consecution Product
 # Using groupby() + sum()

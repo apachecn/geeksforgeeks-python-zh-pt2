@@ -6,7 +6,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 
 `**PIL.ImageChops.subtract()**`方法减去两幅图像，将结果除以比例，再加上偏移量。如果省略，比例默认为 1.0，偏移默认为 0.0。至少有一个图像必须具有模式“1”。
 
-```
+```py
 Syntax: PIL.ImageChops.subtract(image1, image2, scale=1.0, offset=0)
 
 Parameters:
@@ -25,7 +25,7 @@ Return Type: Image
 图片 2:
 ![](img/6cee4d89707d2caba1b2fcf8a0f8b8c9.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 
@@ -44,7 +44,7 @@ im3.show() 
 **输出:**
 ![](img/da8086c2c66faaa839da99ca52369008.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 

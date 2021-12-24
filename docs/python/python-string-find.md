@@ -26,7 +26,7 @@ Python String find()方法返回在给定字符串中找到的子字符串的最
 
 ## 蟒蛇 3
 
-```
+```py
 word = 'geeks for geeks'
 
 # returns first occurrence of Substring
@@ -45,7 +45,7 @@ else:
 
 **输出:**
 
-```
+```py
 Substring 'geeks' found at index: 0
 Substring 'for ' found at index: 6
 Doesn't contains given substring
@@ -55,7 +55,7 @@ Doesn't contains given substring
 
 ## 蟒蛇 3
 
-```
+```py
 word = 'geeks for geeks'
 
 # Substring is searched in 'eks for geeks' 
@@ -73,7 +73,7 @@ print(word.find('for ', 4, 11))
 
 **输出:**
 
-```
+```py
 10
 -1
 -1

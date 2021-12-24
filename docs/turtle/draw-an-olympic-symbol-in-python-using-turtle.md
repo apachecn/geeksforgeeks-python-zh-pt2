@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 # object tr for turtle

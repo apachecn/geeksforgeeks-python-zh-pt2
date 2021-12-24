@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : list = [10, 20, 30, 40, 50]
 Output : [10, 30, 60, 100, 150]
 
@@ -21,7 +21,7 @@ Output : [4, 14, 29, 47, 67]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to get the Cumulative sum of a list
 def Cumulative(lists):
     cu_list = []
@@ -36,7 +36,7 @@ print (Cumulative(lists))
 
 **输出:**
 
-```
+```py
 [10, 30, 60, 100, 150]
 
 ```
@@ -45,7 +45,7 @@ print (Cumulative(lists))
 
 ## 蟒蛇 3
 
-```
+```py
 list=[10,20,30,40,50]
 new_list=[]
 j=0
@@ -59,7 +59,7 @@ print(new_list)
 
 **输出:**
 
-```
+```py
 [10, 30, 60, 100, 150]
 
 ```

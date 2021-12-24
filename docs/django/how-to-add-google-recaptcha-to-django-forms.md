@@ -22,20 +22,20 @@
 
 *   创建新的 django 项目:
 
-```
+```py
 django-admin startproject dj_recaptcha
 ```
 
 *   创建一个名为“联系人”的新应用程序:
 
-```
+```py
 cd dj_recaptcha
 python manage.py startapp contact
 ```
 
 *   转到 dj_recaptcha/settings.py 添加联系人应用程序。
 
-```
+```py
 INSTALLED_APPS = [
     ...
     'contact',
@@ -59,20 +59,20 @@ recaptcha api 密钥
 
 将站点密钥和密钥复制到设置中，如下所示:
 
-```
+```py
 RECAPTCHA_PUBLIC_KEY = Your_Site_Key
 RECAPTCHA_PRIVATE_KEY = Your_Secret_key
 ```
 
 如前所述，我们将使用一个名为 django-recaptcha 的第三方库来简化这个过程。让我们现在使用 pip 安装它，输入以下命令。
 
-```
+```py
 pip install django-recaptcha
 ```
 
 将该应用程序添加到设置中的 INSTALLED_APPS 列表中。py
 
-```
+```py
 INSTALLED_APPS = [
     ...
     'contact',
@@ -85,7 +85,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 # forms.py
 
 from django import forms

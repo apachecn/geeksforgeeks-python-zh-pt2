@@ -7,7 +7,7 @@
 **方法#1:使用`sorted() + set()`**
 这个特殊的问题可以使用上面的函数来解决。这里的想法是对子列表进行排序，然后使用集合操作移除相似的元素，集合操作移除重复的元素。
 
-```
+```py
 # Python3 code to demonstrate
 # removing duplicate sublist 
 # using set() + sorted()
@@ -29,7 +29,7 @@ print("The list after duplicate removal : " + str(res))  
 
 **Output :**
 
-```
+```py
 The original list : [[1, 0, -1], [-1, 0, 1], [-1, 0, 1], [1, 2, 3], [3, 4, 1]]
 The list after duplicate removal : [(-1, 0, 1), (1, 3, 4), (1, 2, 3)]
 

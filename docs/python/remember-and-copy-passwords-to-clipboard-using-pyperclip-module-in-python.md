@@ -6,7 +6,7 @@
 
 Pyperclip 模块没有预装 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pyperclip
 ```
 
@@ -24,7 +24,7 @@ pip install pyperclip
 
 下面是上述方法的实现:
 
-```
+```py
 import sys, pyperclip
 
 # function to copy account passwords

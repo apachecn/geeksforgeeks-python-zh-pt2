@@ -15,7 +15,7 @@
 
 将以下代码输入**极客** app 的`models.py`文件。
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -34,7 +34,7 @@ class GeeksModel(Model):
 要更改显示名称，我们将在模型中使用`def __str__()`功能。django 模型中的 **str** 函数返回一个字符串，该字符串被精确地呈现为该模型实例的显示名称。
 例如，如果我们将上述型号. py 改为
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.

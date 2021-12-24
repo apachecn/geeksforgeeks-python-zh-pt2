@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Negative index of Element
 # Using index() + len()
@@ -41,7 +41,7 @@ print("The required Negative index : -" + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 7, 8, 2, 3, 5, 1]
 The required Negative index : -3
 ```
@@ -52,7 +52,7 @@ The required Negative index : -3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Negative index of Element
 # Using ~ operator + list slicing + index()
@@ -75,7 +75,7 @@ print("The required Negative index : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 7, 8, 2, 3, 5, 1]
 The required Negative index : -3
 ```

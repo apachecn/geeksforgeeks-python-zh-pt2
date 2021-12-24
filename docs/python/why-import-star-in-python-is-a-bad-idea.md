@@ -18,7 +18,7 @@
 
 考虑一个包 **a** ，它包含一个函数 **sum (a，b)**
 
-```
+```py
 # import the module a using import * 
 from a import *
 
@@ -33,7 +33,7 @@ print (sum (2, 6))
 
 正确方法:
 
-```
+```py
 # import the module a as l
 import a as l
 

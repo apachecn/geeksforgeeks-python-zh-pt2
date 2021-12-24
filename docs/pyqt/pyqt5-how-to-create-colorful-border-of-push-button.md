@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > button.setStyleSheet("border :5px solid ;"
 >                      "border-top-color : red; "
 >                      "border-left-color :pink;"
@@ -21,7 +21,7 @@
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 

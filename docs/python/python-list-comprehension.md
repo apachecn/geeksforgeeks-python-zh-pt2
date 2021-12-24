@@ -22,7 +22,7 @@ Python 以鼓励开发人员和程序员编写高效、易于理解且几乎易�
 
 ## 蟒蛇 3
 
-```
+```py
 # Empty list
 List = []
 
@@ -44,7 +44,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using list comprehension to iterate through loop
 List = [character for character in 'Geeks 4 Geeks!']
 
@@ -60,7 +60,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import time
 
@@ -96,7 +96,7 @@ print('Time taken for list_comprehension:',round(end-begin,2))
 
 **输出:**
 
-```
+```py
 Time taken for_loop: 0.56
 Time taken for list_comprehension: 0.47
 ```
@@ -109,7 +109,7 @@ Time taken for list_comprehension: 0.47
 
 ## 蟒蛇 3
 
-```
+```py
 matrix = []
 
 for i in range(3):
@@ -131,7 +131,7 @@ print(matrix)
 
 ## 蟒蛇 3
 
-```
+```py
 # Nested list comprehension
 matrix = [[j for j in range(5)] for i in range(3)]
 
@@ -148,7 +148,7 @@ print(matrix)
 
 ## 蟒蛇 3
 
-```
+```py
 # using lambda to print table of 10
 numbers = []
 
@@ -160,7 +160,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 40, 50]
 ```
 
@@ -168,7 +168,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers= [i*10 for i in range(1,6)]
 
 print(numbers)
@@ -176,7 +176,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 40, 50]
 ```
 
@@ -184,7 +184,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 # using lambda to print table of 10
 numbers = list(map(lambda i: i*10, [i for i in range(1,6)]))
 
@@ -193,7 +193,7 @@ print(numbers)
 
 **输出:**
 
-```
+```py
 [10, 20, 30, 40, 50]
 ```
 
@@ -209,7 +209,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 # Getting square of even numbers from 1 to 10
 squares = [n**2 for n in range(1, 11) if n%2==0]
 
@@ -219,7 +219,7 @@ print(squares)
 
 **输出:**
 
-```
+```py
 [4, 16, 36, 64, 100]
 ```
 
@@ -227,7 +227,7 @@ print(squares)
 
 ## 蟒蛇 3
 
-```
+```py
 # Assign matrix
 twoDMatrix = [[10, 20, 30],
               [40, 50, 60],
@@ -241,7 +241,7 @@ print(trans)
 
 **输出:**
 
-```
+```py
 [++++[+10, 40, 70], [20, 50, 80], [30, 60, 90]]
 ```
 
@@ -249,7 +249,7 @@ print(trans)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing string
 string = 'Geeks4Geeks'
 
@@ -268,7 +268,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Reverse each string in tuple
 List = [string[::-1] for string in ('Geeks', 'for', 'Geeks')]
 
@@ -278,7 +278,7 @@ print(List)
 
 **输出:**
 
-```
+```py
 ['skeeG', 'rof', 'skeeG']
 ```
 
@@ -286,7 +286,7 @@ print(List)
 
 ## 蟒蛇 3
 
-```
+```py
 # Explicit function
 def digitSum(n):
     dsum = 0
@@ -306,7 +306,7 @@ print(newList)
 
 **输出:**
 
-```
+```py
 [16, 3, 18, 18]
 ```
 

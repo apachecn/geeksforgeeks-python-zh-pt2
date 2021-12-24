@@ -14,7 +14,7 @@ Python 为开发 GUI(图形用户界面)提供了多个选项。在所有的 GUI
 让我们创建一个基于图形用户界面的简单实时天气检测应用程序，它可以提供任何城市的天气细节。
 **所需模块:**
 
-```
+```py
 tkinter
 requests
 json
@@ -24,7 +24,7 @@ json
 
 ## 蟒蛇 3
 
-```
+```py
 # import all functions from the tkinter 
 from tkinter import * from tkinter import messagebox
 

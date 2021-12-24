@@ -10,14 +10,14 @@
 
 *   为了从表中选择特定的属性列，我们编写属性名。
 
-```
+```py
  SELECT attr1, attr2 FROM table_name
 
 ```
 
 *   为了从表中选择所有属性列，我们使用星号“*”符号。
 
-```
+```py
 SELECT * FROM table_name
 
 ```
@@ -26,7 +26,7 @@ SELECT * FROM table_name
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -73,7 +73,7 @@ SQL 输出
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

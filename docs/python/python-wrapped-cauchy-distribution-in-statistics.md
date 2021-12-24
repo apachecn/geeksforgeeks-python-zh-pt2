@@ -17,7 +17,7 @@
 
 **代码#1:创建包装柯西连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import wrapcauchy 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9DB1EFEC8
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:包裹柯西连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [4.86261249 3.08013229 2.12625546 2.11690773 4.07188434 3.3251514
  1.23202529 3.38334847 1.22842627 6.35459436]
@@ -68,7 +68,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -78,7 +78,7 @@ print("Distribution : \n", distribution) 
 
 **输出:**
 
-```
+```py
 
 Distribution : 
  [0\.         0.04081633 0.08163265 0.12244898 0.16326531 0.20408163
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

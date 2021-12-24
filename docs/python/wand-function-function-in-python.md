@@ -13,7 +13,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.function(function, arguments, channel)
 > ```
 > 
@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -65,7 +65,7 @@ with Image(filename ="koala.jpeg") as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

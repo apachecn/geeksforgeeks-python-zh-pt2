@@ -10,7 +10,7 @@
 
 **方法 1:**
 
-```
+```py
 %%timeit -n 100
 
 even =[ ]
@@ -24,7 +24,7 @@ for i in range(10**7):
 
 **方法二:**
 
-```
+```py
 %%timeit -n 100
 
 even =[i for i in range(10**7) if i % 2 == 0]
@@ -40,7 +40,7 @@ even =[i for i in range(10**7) if i % 2 == 0]
 
 下面是 Python 3 代码片段，用于检查上述程序的执行时间，
 
-```
+```py
 import time 
 
 # Using for loop
@@ -62,7 +62,7 @@ print("Execution time = ", time.time()-start)
 
 **输出:**
 
-```
+```py
 Execution time =  1.558159589767456
 Execution time =  0.9690220355987549
 ```

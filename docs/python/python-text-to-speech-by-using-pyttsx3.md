@@ -13,7 +13,7 @@ pyttsx3 模块支持两种声音第一种是女性，第二种是男性，由 wi
 **安装**
 要安装 pyttsx3 模块，首先你要打开终端写
 
-```
+```py
 pip install pyttsx3
 ```
 
@@ -23,7 +23,7 @@ pip install pyttsx3
 
 **代码:将文字转换为语音的 Python 程序**
 
-```
+```py
 # Import the required module for text  
 # to speech conversion
 import pyttsx3
@@ -41,6 +41,6 @@ engine.runAndWait()
 **输出:**
 上述程序的输出将是一个声音，
 
-```
+```py
 'Hello sir, how may I help you, sir.'
 ```

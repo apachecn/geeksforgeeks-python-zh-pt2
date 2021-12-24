@@ -18,7 +18,7 @@
 
 **示例:**
 
-```
+```py
 # import package
 import turtle
 

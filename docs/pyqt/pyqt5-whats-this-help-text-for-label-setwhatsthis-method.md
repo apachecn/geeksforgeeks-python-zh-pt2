@@ -18,7 +18,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

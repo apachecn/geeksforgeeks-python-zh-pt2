@@ -8,7 +8,7 @@
 
 ![h_{t} = f_{W}(x_{t}, h_{t-1})    ](img/d483fcce10a096e2b77af63a20a78a4b.png "Rendered by QuickLaTeX.com")
 
-```
+```py
 [Tex]- The new hidden state[/Tex]
 [Tex]- The old hidden state[/Tex]
 [Tex]- The current input[/Tex]

@@ -8,7 +8,7 @@
 
 为了给指示器设置背景颜色，我们必须编辑复选框对象使用的样式表，并且我们必须更改选中指示器的背景颜色。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:checked
 {
 background-color : red;
@@ -18,7 +18,7 @@ background-color : red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

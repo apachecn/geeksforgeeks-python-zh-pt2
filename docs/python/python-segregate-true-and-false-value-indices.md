@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行该任务的一种方式。我们创建不同的列表，使用条件语句检查真值或假值，并相应地将其索引附加到专用列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Segregate True and False value indices
 # using loops
@@ -34,7 +34,7 @@ print("False indices after grouping : " + str(res_false))
 
 **Output :**
 
-```
+```py
 The original list is : [False, True, False, False, True, True]
 True indices after grouping : [1, 4, 5]
 False indices after grouping : [0, 2, 3]

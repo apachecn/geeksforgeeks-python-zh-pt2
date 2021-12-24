@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # total seconds for the
 # given duration of time
@@ -36,7 +36,7 @@ print("Total seconds in 55 minutes:", totalsecond)
 
 **输出:**
 
-```
+```py
 Total seconds in 55 minutes: 3300.0
 ```
 
@@ -44,7 +44,7 @@ Total seconds in 55 minutes: 3300.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # total seconds for the
 # given duration of time
@@ -66,7 +66,7 @@ print("Total seconds in -3*13 minutes:", totalsecond)
 
 **输出:**
 
-```
+```py
 Total seconds in -3*13 minutes: -2340.0
 ```
 
@@ -74,7 +74,7 @@ Total seconds in -3*13 minutes: -2340.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # total seconds for the
 # given duration of time
@@ -97,6 +97,6 @@ print("Total seconds are:", totalsecond)
 
 **输出:**
 
-```
+```py
 Total seconds are: 186215.0
 ```

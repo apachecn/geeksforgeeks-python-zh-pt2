@@ -11,7 +11,7 @@
 因为 winsound 模块是一个内置模块，所以您不需要在执行之前安装它。
 基本操作是
 
-```
+```py
 import winsound
 ```
 
@@ -23,7 +23,7 @@ import winsound
 
     **注意:**频率必须在 37 到 32，767 赫兹的范围内。
 
-    ```
+    ```py
     import winsound 
 
     # frequency is set to 500Hz
@@ -41,7 +41,7 @@ import winsound
 
     在上面代码的基础上，通过实现一个“for”循环来增加频率和持续时间，事情可以发展到另一个层次。这已在下面的代码中完成:
 
-    ```
+    ```py
     import winsound
 
     freq = 100
@@ -73,7 +73,7 @@ import winsound
 
     **示例:**
 
-    ```
+    ```py
     import winsound
 
     print("Playing the file 'Welcome.wav'")
@@ -84,7 +84,7 @@ import winsound
 
     **输出:**
 
-    ```
+    ```py
     The respective audio file named 'Welcome.wav' is executed.
 
     ```
@@ -102,7 +102,7 @@ import winsound
 
     **示例:**
 
-    ```
+    ```py
     import winsound
 
     # Play Windows question sound
@@ -111,7 +111,7 @@ import winsound
 
     **输出:**
 
-    ```
+    ```py
     Play Windows question sound
 
     ```

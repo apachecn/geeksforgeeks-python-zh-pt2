@@ -10,7 +10,7 @@
 1.  首先，需要导入“smtplib”库。
 2.  After that, to create a session, we will be using its instance SMTP to encapsulate an SMTP connection.
 
-    ```
+    ```py
     s = smtplib.SMTP('smtp.gmail.com', 587)
     ```
 
@@ -21,7 +21,7 @@
 
 这将从您的帐户发送电子邮件。完成任务后，使用退出()终止 SMTP 会话。
 
-```
+```py
 # Python code to illustrate Sending mail from 
 # your Gmail account 
 import smtplib
@@ -50,7 +50,7 @@ s.quit()
 如果你需要给不同的人发同样的信息。你可以用 for 循环。
 例如，您有一个需要向其发送相同邮件的电子邮件 id 列表。为此，在 SMTP 会话的初始化和终止之间插入一个“for”循环。循环将依次初始化，发送电子邮件后，SMTP 会话将终止。
 
-```
+```py
 # Python code to illustrate Sending mail 
 # to multiple users 
 # from your Gmail account 

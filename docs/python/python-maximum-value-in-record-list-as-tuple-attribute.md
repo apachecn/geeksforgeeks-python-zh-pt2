@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `max()`**
 这个特殊的问题可以通过使用列表理解结合 max 函数来解决，其中我们使用 max 函数来找到列表的 max 作为元组属性，并使用列表理解来迭代列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Records element list Maximum
 # using list comprehension + max()
@@ -28,7 +28,7 @@ print("The list tuple attribute maximum is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('key1', [3, 4, 5]), ('key2', [1, 4, 2]), ('key3', [9, 3])]
 The list tuple attribute maximum is : [('key1', 5), ('key2', 4), ('key3', 9)]
 

@@ -6,7 +6,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
 ###### 句法
 
-```
+```py
 {% tag_name %}
 ```
 
@@ -14,13 +14,13 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
 标签由{%和%}包围，如下所示:
 
-```
+```py
 {% csrf_token %}
 ```
 
 大多数标签接受参数，例如:
 
-```
+```py
 {% cycle 'odd' 'even' %}
 ```
 
@@ -31,7 +31,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     模板会忽略{% comment %}和{% endcomment %}之间的所有内容。可以在第一个标签中插入可选的注释。例如，这在注释代码以记录代码被禁用的原因时非常有用。
     **例**
 
-    ```
+    ```py
     {% comment "Optional note" %}
 
     Commented out text with {{ create_date|date:"c" }}
@@ -48,7 +48,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     **示例**
     这个标签在循环中特别有用:
 
-    ```
+    ```py
     {% for o in some_list %} 
         <tr class="{% cycle 'row1' 'row2' %}"> 
             ... 
@@ -65,7 +65,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     **例**
     假设如下目录结构:
 
-    ```
+    ```py
     dir1/
         template.html
         base2.html
@@ -76,7 +76,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     在 template.html，以下路径是有效的:
 
-    ```
+    ```py
     {% extends "./base2.html" %}
     {% extends "../base1.html" %}
     {% extends "./my/base3.html" %}
@@ -89,7 +89,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     {% if %}标记计算一个变量，如果该变量为“真”(即存在，不为空，并且不是假布尔值)，则输出块的内容。**例**
 
-    ```
+    ```py
     {% if athlete_list %}
         Number of athletes: {{ athlete_list|length }}
     {% elif athlete_in_locker_room_list %}
@@ -111,7 +111,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     **示例**
     例如，要显示运动员列表中提供的运动员列表:
 
-    ```
+    ```py
     <ul>
     {% for athlete in athlete_list %}
         <li>{{ athlete.name }}</li>
@@ -128,7 +128,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     **例**
 
-    ```
+    ```py
     <ul> 
     {% if athlete_list %} 
         {% for athlete in athlete_list %} 
@@ -149,7 +149,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     **例**
 
-    ```
+    ```py
     <ul> 
     {% if variable boolean_operator value %}
     // statements
@@ -165,13 +165,13 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     **例**
 
-    ```
+    ```py
     {% firstof var1 var2 var3 %}
     ```
 
     这相当于:
 
-    ```
+    ```py
     {% if var1 %}
         {{ var1 }}
     {% elif var2 %}
@@ -183,7 +183,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     如果所有传递的变量都为 False，也可以使用文字字符串作为后备值:
 
-    ```
+    ```py
     {% firstof var1 var2 var3 "fallback value" %}
     ```
 
@@ -195,7 +195,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
 
     **例**
 
-    ```
+    ```py
     {% include "foo/bar.html" %}
     ```
 
@@ -220,7 +220,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     现在标签显示当前日期和/或时间，使用根据给定字符串的格式。这种字符串可以包含格式说明符字符，如[日期过滤器](https://docs.djangoproject.com/en/3.0/ref/templates/builtins/#std:templatefilter-date)部分所述。
     **例**
 
-    ```
+    ```py
     It is {% now "D d M Y" %}
     ```
 
@@ -233,7 +233,7 @@ Django Web Framework 附带了几十个标签，用于在模板中实现任意�
     url 标记返回与给定视图和可选参数匹配的绝对路径引用(不带域名的 URL)。这是一种不违反 DRY 原则的输出链接的方法，因为你必须在模板中硬编码网址。
     **例**
 
-    ```
+    ```py
     {% url 'some-url-name' v1 v2 %}
     ```
 

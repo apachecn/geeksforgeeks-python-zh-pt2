@@ -6,7 +6,7 @@
 
 **方法#1:使用朴素方法**
 
-```
+```py
 # Python3 code to demonstrate
 # to remove a substring from end of the string
 
@@ -30,7 +30,7 @@ print ("resultant string", res)
 
 **Output:**
 
-```
+```py
 initial_strings :  xbzefdgstb 
 substring :  stb
 resultant string xbzefdg

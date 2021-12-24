@@ -10,13 +10,13 @@
 
 *   对于 Linux:
 
-```
+```py
  sudo apt-get install python3-pyqt5
 ```
 
 *   对于窗口:
 
-```
+```py
  pip install pyqt5
  pip install pyqt5-tools 
 ```

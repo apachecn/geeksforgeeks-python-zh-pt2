@@ -11,7 +11,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 **注意:**只需注意窗口输出中的大小，当窗口可见或不可见时，勾选窗口上的最小化和最大化按钮。
 为了调整窗口大小，我们有:
 
-```
+```py
 from kivy.config import Config
 ```
 
@@ -21,7 +21,7 @@ Kivy 有一个决定默认设置的配置文件。为了更改这些设置，您
 
 ## 蟒蛇 3
 
-```
+```py
 # To change the kivy default settings
 # we use this module config
 from kivy.config import Config
@@ -71,7 +71,7 @@ label.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # To change the kivy default settings
 # we use this module config
 from kivy.config import Config
@@ -92,7 +92,7 @@ Config.set('graphics', 'width', '500')
 
 ## 蟒蛇 3
 
-```
+```py
 # to change the kivy default settings
 # we use this module config
 from kivy.config import Config
@@ -113,7 +113,7 @@ Config.set('graphics', 'height', '400')
 
 ## 蟒蛇 3
 
-```
+```py
 # to change the kivy default settings
 # we use this module config
 from kivy.config import Config

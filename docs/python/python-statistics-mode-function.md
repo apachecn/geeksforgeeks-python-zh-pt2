@@ -7,13 +7,13 @@ Python 在统计和处理一组大范围的值时非常健壮。统计模块有�
 
 **示例:**
 
-```
+```py
 Given data-set is :  [1, 2, 3, 4, 4, 4, 4, 5, 6, 7, 7, 7, 8]
 The mode of the given data-set is 4
 Logic: 4 is the most occurring/ most common element from the given list 
 ```
 
-```
+```py
 Syntax :
 mode([data-set])
 Parameters : 
@@ -29,7 +29,7 @@ Raises StatisticsError when data set is empty.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of mode() function
 
@@ -57,7 +57,7 @@ print("Mode of given data set is % s" % (statistics.mode(set1)))
 
 **Output**
 
-```
+```py
 Mode of given data set is 4
 ```
 
@@ -65,7 +65,7 @@ Mode of given data set is 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of mode() function
 # on a various range of data types
@@ -103,7 +103,7 @@ print("Mode of data set 5 is % s" % (mode(data5)))
 
 **Output**
 
-```
+```py
 Mode of data set 1 is 5
 Mode of data set 2 is 1.3
 Mode of data set 3 is 1/2
@@ -115,7 +115,7 @@ Mode of data set 5 is black
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the 
 # statistics error in mode function
 
@@ -141,7 +141,7 @@ print(statistics.mode(data1))
 
 **输出**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/38fbe95fe09d5f65aaa038e37aac20fa.py", line 20, in 
     print(statistics.mode(data1))

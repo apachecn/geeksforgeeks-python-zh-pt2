@@ -56,7 +56,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate basics of turtle
 
@@ -80,7 +80,7 @@ draw.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate printing HELLO
 # using turtle

@@ -8,7 +8,7 @@ Python 中的十进制模块可以用来设置一个数字的精确值。十进�
 
 ## python 3
 
-```
+```py
 # Import required modules
 import decimal  
 
@@ -23,7 +23,7 @@ print(ob2)
 
 **输出**
 
-```
+```py
 2.236067977499789696409173669
 2.645751311064590590501615754
 
@@ -33,7 +33,7 @@ print(ob2)
 
 T5】蟒 3T7
 
-```
+```py
 # Import required module
 import decimal
 

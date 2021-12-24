@@ -10,19 +10,19 @@ Python 中有许多设计 GUI(图形用户界面)的工具，如`tkinter`、`wxP
 
 *   在命令提示符下:
 
-    ```
+    ```py
     pip install Pillow
     ```
 
 *   在蟒蛇提示中:
 
-    ```
+    ```py
     conda install -c anaconda pillow
     ```
 
 **示例 1:** 下面的程序演示了如何使用`PIL`用`tkinter`读取图像。
 
-```
+```py
 # importing required packages
 import tkinter
 from PIL import ImageTk, Image
@@ -53,7 +53,7 @@ root.mainloop()
 
 **示例 2:** 让我们看另一个示例，其中我们将图像参数与应用程序参数一起排列。
 
-```
+```py
 # importing required packages
 import tkinter  
 from PIL import ImageTk, Image  

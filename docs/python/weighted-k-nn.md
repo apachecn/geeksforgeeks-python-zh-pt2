@@ -27,7 +27,7 @@
 
 ## C/C++
 
-```
+```py
 // C++ program to implement the 
 // weighted K nearest neighbour algorithm. 
 #include <bits/stdc++.h> 
@@ -149,7 +149,7 @@ int main() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to implement the
 # weighted K nearest neighbour algorithm. 
 
@@ -221,7 +221,7 @@ if __name__ == '__main__': 
 
 **Output:**
 
-```
+```py
 The value classified to query point is: 1
 
 ```

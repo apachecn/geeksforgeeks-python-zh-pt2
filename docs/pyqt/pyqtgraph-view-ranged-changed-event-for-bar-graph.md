@@ -5,7 +5,7 @@
 在本文中，我们将看到如何使用 PyQtGraph 模块中的条形图创建视图范围更改事件。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。)第二是提供工具来帮助快速应用程序开发(例如，属性树，如在 Qt Designer 中使用的属性树)。条形图或条形图是用矩形条表示分类数据的图表，矩形条的高度或长度与它们所代表的值成比例。条形图可以垂直或水平绘制。垂直条形图有时也称为柱形图。当条形图的视图范围改变时，会触发此事件。当我们将图形移动到视图范围上方时，该事件被触发
 我们可以借助下面给出的命令创建一个绘图窗口和条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -15,7 +15,7 @@ bargraph = pg.BarGraphItem(x=x, height=y1, width=0.6, brush='g')
 
 为了做到这一点，我们修改了条形图类，下面是可以使用的类
 
-```
+```py
 # Bar Graph class
 class BarGraphItem(pg.BarGraphItem):
 
@@ -35,7 +35,7 @@ class BarGraphItem(pg.BarGraphItem):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import * import sys
 
@@ -131,7 +131,7 @@ sys.exit(App.exec())
 
 ![](img/488d49d45795e5aa56f95fc495abb9ed.png)
 
-```
+```py
 View Range Event
 View Range Event
 View Range Event

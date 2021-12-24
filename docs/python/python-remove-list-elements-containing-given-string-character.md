@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们迭代所有列表元素，并使用循环检查任何字符的出现。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove List elements containing String character
 # Using loop
@@ -38,7 +38,7 @@ print("The list after removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['567', '840', '649', '7342']
 The list after removal : ['840', '649']
 

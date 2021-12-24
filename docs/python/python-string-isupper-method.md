@@ -20,7 +20,7 @@ Python String isupper()方法返回字符串中的所有字符是否都大写。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # working of isupper()
 
@@ -36,7 +36,7 @@ print ("Is Geeksforgeeks full uppercase ? : " + str(not_isupp.isupper()))
 
 **输出:**
 
-```
+```py
 Is GEEKSFORGEEKS full uppercase ? : True
 Is Geeksforgeeks full uppercase ? : False
 ```
@@ -47,7 +47,7 @@ Is Geeksforgeeks full uppercase ? : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # application of isupper()
 
@@ -71,6 +71,6 @@ print ("Number of abbreviations in this sentence is : " + str(count))
 
 **输出:**
 
-```
+```py
 Number of abbreviations in this sentence is : 3
 ```

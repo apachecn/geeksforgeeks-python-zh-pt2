@@ -22,7 +22,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -61,7 +61,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find a HTML tag
 # that contains certain text Using BeautifulSoup
 

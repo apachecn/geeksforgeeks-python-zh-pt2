@@ -26,7 +26,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the working of 
 # index()
 
@@ -47,7 +47,7 @@ print (pos)
 
 **输出:**
 
-```
+```py
 The first position of geeks after 2nd index : 8
 ```
 
@@ -59,7 +59,7 @@ The first position of geeks after 2nd index : 8
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the exception of 
 # index()
 
@@ -79,7 +79,7 @@ print (pos)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/aa5904420c1c3aa072ede56ead7e26ab.py", line 12, in 
     pos = ch.index(ch1)
@@ -92,7 +92,7 @@ ValueError: substring not found
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate the application of 
 # index()
 
@@ -122,6 +122,6 @@ print (sum_bits)
 
 **输出:**
 
-```
+```py
 The total bit length of AC is : 13
 ```

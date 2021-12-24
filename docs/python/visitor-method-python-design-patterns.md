@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """ The Courses hierarchy cannot be changed to add new
    functionality dynamically. Abstract Crop class for
  Concrete Courses_At_GFG classes: methods defined in this class
@@ -98,7 +98,7 @@ dsa.accept(student)
 
 ### 输出
 
-```
+```py
 SDE Taught by  Instructor
 SDE studied by  Student
 STL Taught by  Instructor

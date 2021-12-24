@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find all permutation of
 # a given string
@@ -38,7 +38,7 @@ print("Resultant permutations", str(result))
 
 **Output:** 
 
-```
+```py
 Initial string abc
 Resultant permutations ['abc', 'acb', 'bac', 'bca', 'cba', 'cab']
 ```
@@ -47,7 +47,7 @@ Resultant permutations ['abc', 'acb', 'bac', 'bca', 'cba', 'cab']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find all permutation of
 # a given string
@@ -68,7 +68,7 @@ print("Resultant List", str(permutation))
 
 **Output:** 
 
-```
+```py
 Initial string abc
 Resultant List ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
 ```

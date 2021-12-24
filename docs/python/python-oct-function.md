@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # the use of oct() function
 
@@ -43,7 +43,7 @@ print("The octal representation of the binary"
 
 **输出:**
 
-```
+```py
 The octal representation of 23 is 0o27
 The octal representation of the ascii value of 'z' is 0o172
 The octal representation of the binary of 23 is 0o27
@@ -54,7 +54,7 @@ The octal representation of the binary of 23 is 0o27
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program demonstrating TypeError
 
 print("The Octal representation of 29.5 is " + oct(29.5))
@@ -69,7 +69,7 @@ print("The Octal representation of 29.5 is " + oct(29.5))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/5bf02b72de26687389763e9133669972.py", line 3, in 
     print("The Octal representation of 29.5 is "+oct(29.5))
@@ -82,7 +82,7 @@ TypeError: 'float' object cannot be interpreted as an integer
 
 ## **蟒蛇 3**
 
-```
+```py
 # TypeConversions from decimal and binary
 # to their respective octal representations
 
@@ -138,7 +138,7 @@ elif ch is 'c':
 
 ****输出:****
 
-```
+```py
 a. Hexadecimal to Octal 
 b. Decimal to Octal
 c. Binary to Octal
@@ -153,7 +153,7 @@ Octal form of 19 is 0o23
 
 ## **蟒蛇 3**
 
-```
+```py
 class math:
     num = 76
     def __index__(self):
@@ -166,6 +166,6 @@ print(oct(obj))
 
 ****输出:****
 
-```
+```py
 0o114
 ```

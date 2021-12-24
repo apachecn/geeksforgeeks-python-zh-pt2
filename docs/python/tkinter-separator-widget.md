@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # Illustrate Separator
 # widget
@@ -59,7 +59,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # Illustrate Separator
 # widget

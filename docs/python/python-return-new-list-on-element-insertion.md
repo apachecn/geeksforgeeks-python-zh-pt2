@@ -7,7 +7,7 @@
 **方法#1:使用+运算符**
 如果我们制作一个单元素列表，并将原始列表与这个新制作的单元素列表连接起来，就可以执行这个任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # returning new list on element insertion
 # using + operator
@@ -31,7 +31,7 @@ print ("The newly returned added list : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 6, 2, 3, 9]
 The newly returned added list : [5, 6, 2, 3, 9, 10]
 
@@ -40,7 +40,7 @@ The newly returned added list : [5, 6, 2, 3, 9, 10]
 **方法 2:使用*运算符**
 类似的任务可以使用*运算符，其中我们使用*运算符来获取所有元素，并添加新元素以输出新列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # returning new list on element insertion
 # using * operator
@@ -64,7 +64,7 @@ print ("The newly returned added list : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 6, 2, 3, 9]
 The newly returned added list : [5, 6, 2, 3, 9, 10]
 

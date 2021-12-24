@@ -18,7 +18,7 @@ Django Forms 中的 TypedChoiceField 是一个类似于 ChoiceField 的字段，
 
 **语法**
 
-```
+```py
 field_name = forms.TypedChoiceField(**options)
 ```
 
@@ -33,7 +33,7 @@ field_name = forms.TypedChoiceField(**options)
 
 将以下代码输入**极客** app 的`forms.py`文件。
 
-```
+```py
 from django import forms
 
 # iterable
@@ -55,7 +55,7 @@ class GeeksForm(forms.Form):
 
 将极客应用添加到`INSTALLED_APPS`
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -71,7 +71,7 @@ INSTALLED_APPS = [
 
 现在要将这个表单呈现为一个视图，我们需要一个视图和一个映射到该 URL 的 URL。让我们首先在极客应用的 `views.py`中创建一个视图，
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -85,7 +85,7 @@ def home_view(request):
 这里，我们从 forms.py 导入该特定表单，并在视图中创建它的一个对象，以便它可以在模板中呈现。
 现在，要创建一个姜戈表单，你需要创建一个 home.html，在那里你可以按照他们喜欢的方式设计东西。让我们在`home.html`中创建一个表单。
 
-```
+```py
 <form method = "GET">
     {{ form }}
     <input type = "submit" value = "Submit">
@@ -94,7 +94,7 @@ def home_view(request):
 
 最后，在 urls.py 中映射到此视图的 URL
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -107,7 +107,7 @@ urlpatterns = [
 
 让我们运行服务器并检查实际发生了什么，运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -120,7 +120,7 @@ Python manage.py runserver
 TypedChoiceField 用于输入数据库中的小字符串。可以输入州、国家、城市等。到目前为止，我们已经讨论了如何实现 TypedChoiceField，但是如何在视图中使用它来执行逻辑部分。为了执行一些逻辑，我们需要将输入到字段中的值输入到 python 字符串实例中。
 在视图中，
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 

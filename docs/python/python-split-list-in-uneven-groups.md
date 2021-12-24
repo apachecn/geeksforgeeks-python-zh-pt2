@@ -7,7 +7,7 @@
 **方法:使用`itertools.islice()` +列表理解**
 以上功能的组合可用于执行此任务。在这种情况下，`islice()`用于执行切片列表的核心任务，列表理解用于执行将逻辑和迭代绑定在一起的任务。容器被转换为迭代器，以便更快地迭代。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split list in uneven groups
 # using itertools.islice() + list comprehension
@@ -36,7 +36,7 @@ print("The resultant split list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 7, 6, 5, 4, 2, 10]
 The split list is : [3, 4, 2]
 The resultant split list is : [[1, 4, 5], [7, 6, 5, 4], [2, 10]]

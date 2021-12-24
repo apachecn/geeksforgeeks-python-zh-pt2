@@ -13,7 +13,7 @@
 **方法一:使用`Counter()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 Counter()来提取所有频率，并使用列表理解来分配值列表中出现一次的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove duplicate values across Dictionary Values
 # Using Counter() + list comprehension

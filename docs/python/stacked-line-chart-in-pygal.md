@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 line_chart = pygal.StackedLine(fill=True)
 ```
 
 **例 1:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -42,7 +42,7 @@ line_chart
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

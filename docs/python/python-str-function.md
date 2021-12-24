@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # strings
 
@@ -35,7 +35,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 GFG
 ```
 
@@ -43,7 +43,7 @@ GFG
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # strings
 
@@ -58,7 +58,7 @@ print(s, type(s))
 
 **输出:**
 
-```
+```py
 100 <class 'str'>
 100.1 <class 'str'>
 ```
@@ -78,7 +78,7 @@ print(s, type(s))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # str()
 
@@ -89,7 +89,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 String
 ```
 

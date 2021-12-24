@@ -10,7 +10,7 @@
 
 人的本质
 
-```
+```py
 pip3 install flask
 ```
 
@@ -20,7 +20,7 @@ pip3 install flask
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,render_template,request
 
 app = Flask(__name__)
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>

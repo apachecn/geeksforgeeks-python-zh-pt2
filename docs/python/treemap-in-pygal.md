@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 treemap = pygal.Treemap()
 ```
 
 **例 1:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy
@@ -42,7 +42,7 @@ treemap
 
 **例 2:**
 
-```
+```py
 # importing pygal
 import pygal
 import numpy

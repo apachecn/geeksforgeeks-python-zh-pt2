@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `zip() + *`运算符**
 以上功能的组合可以解决这个问题。在本例中，我们使用 values()执行提取值的任务，使用*运算符解包后使用 zip()执行垂直分组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Vertical Grouping Value Lists
 # Using list comprehension + zip() + * operator
@@ -34,7 +34,7 @@ print("The grouped values : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': [4, 5, 7], 'is': [8, 9, 10], 'best': [10, 12, 14]}
 The grouped values : [(4, 8, 10), (5, 9, 12), (7, 10, 14)]
 
@@ -43,7 +43,7 @@ The grouped values : [(4, 8, 10), (5, 9, 12), (7, 10, 14)]
 **方法 2:使用`list() + zip() + values()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们执行类似于上述方法的任务，不同之处在于使用 list()而不是 list intelligence。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Vertical Grouping Value Lists
 # Using list() + zip() + values()
@@ -64,7 +64,7 @@ print("The grouped values : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': [4, 5, 7], 'is': [8, 9, 10], 'best': [10, 12, 14]}
 The grouped values : [(4, 8, 10), (5, 9, 12), (7, 10, 14)]
 

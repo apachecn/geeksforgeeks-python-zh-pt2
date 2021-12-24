@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Values and Keys
 # Using sorted() + items() + dictionary comprehension + lambda
@@ -38,7 +38,7 @@ print("Sorted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 3, 'Best': 2, 'for': 3, 'Geeks': 2}
 Sorted dictionary : {'for': 3, 'is': 3, 'Best': 2, 'Geeks': 2, 'Gfg': 1}
 

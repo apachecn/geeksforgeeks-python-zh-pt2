@@ -21,7 +21,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing necessary libraries
 from pyspark.sql import SparkSession
 
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
 ## **计算机编程语言**
 
-```
+```py
 # subset or filter the dataframe by
 # passing Multiple condition
 df = df.filter("Gender == 'Male' and Percentage>70")
@@ -81,7 +81,7 @@ df.show()
 
 ## ****计算机编程语言****
 
-```
+```py
 **# subset or filter the data with
 # multiple condition
 df = df.filter("Age>20 or Percentage>80")
@@ -96,7 +96,7 @@ df.show()**
 
 ## ****计算机编程语言****
 
-```
+```py
 **# subset or filter the dataframe by
 # passing Multiple condition
 df = df.filter((df.Gender=='Female') & (df.Age>=18))
@@ -111,7 +111,7 @@ df.show()**
 
 ## ****计算机编程语言****
 
-```
+```py
 **# subset or filter the data with
 # multiple condition
 df = df.filter((df.Gender=='Male') | (df.Percentage>90))

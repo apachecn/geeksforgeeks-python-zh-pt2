@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiflatten Tuple List
 # Using recursion + isinstance()
@@ -63,7 +63,7 @@ print("The Flattened container : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiflatten Tuple List
 # Using yield + recursion

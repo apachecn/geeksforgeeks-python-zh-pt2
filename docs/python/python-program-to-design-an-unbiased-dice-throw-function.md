@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design an unbiased dice throw 
 # function
 
@@ -56,7 +56,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 3
 1
 4
@@ -80,7 +80,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design an unbiased dice throw 
 # function
 
@@ -113,7 +113,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 3
 1
 3
@@ -135,7 +135,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design an unbiased dice throw 
 # function
 
@@ -168,7 +168,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 1
 5
 4
@@ -186,7 +186,7 @@ dice_throw()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to design an unbiased dice throw 
 # function
 
@@ -219,7 +219,7 @@ dice_throw()
 
 **输出:**
 
-```
+```py
 2
 6
 1

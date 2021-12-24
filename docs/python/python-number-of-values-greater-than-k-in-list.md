@@ -7,7 +7,7 @@
 **方法 1:天真的方法**
 解决这个问题最常见的方法是使用循环，只计算大于给定数字 k 的元素的出现次数
 
-```
+```py
 # Python 3 code to demonstrate 
 # find number of elements > k
 # using naive method 
@@ -34,7 +34,7 @@ print ("The numbers greater than 4 : " + str(count))
 
 **输出:**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers greater than 4 : 4
 
@@ -43,7 +43,7 @@ The numbers greater than 4 : 4
 **方法二:使用列表理解**
 这个方法以类似的方式完成这个任务，但是方式更加简洁。列表理解总是降低程序中的代码行，即使在后台运行类似的方法。
 
-```
+```py
 # Python 3 code to demonstrate 
 # find number of elements > k
 # using list comprehension
@@ -67,7 +67,7 @@ print ("The numbers greater than 4 : " + str(count))
 
 **输出:**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers greater than 4 : 4
 
@@ -77,7 +77,7 @@ The numbers greater than 4 : 4
 `sum()`也可以帮助我们完成这个任务。当找到大于 k 的数时，我们可以返回 1，然后使用`sum()`
 计算的和
 
-```
+```py
 # Python 3 code to demonstrate 
 # find number of elements > k
 # using sum()
@@ -101,7 +101,7 @@ print ("The numbers greater than 4 : " + str(count))
 
 **输出:**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers greater than 4 : 4
 
@@ -110,7 +110,7 @@ The numbers greater than 4 : 4
 **方法 4:使用`functools.reduce()`**
 通过使用`reduce()`，我们还可以对该函数收集的所有数字进行求和，然后对它们进行累加以返回结果，即大于 k 的数字的计数
 
-```
+```py
 # Python 3 code to demonstrate 
 # find number of elements > k
 # using reduce()
@@ -135,7 +135,7 @@ print ("The numbers greater than 4 : " + str(count))
 
 **输出:**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers greater than 4 : 4
 
@@ -144,7 +144,7 @@ The numbers greater than 4 : 4
 **方法 5:使用`bisect() + sort()`**
 `sort()`和`bisect()`的组合，实际上可以执行二分搜索法的任务，因此得到索引并减去列表的大小实际上可以帮助我们得到大于列表中特定元素的元素。
 
-```
+```py
 # Python 3 code to demonstrate 
 # find number of elements > k
 # using bisect() + sort()
@@ -170,7 +170,7 @@ print ("The numbers greater than 4 : " + str(count))
 
 **输出:**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers greater than 4 : 4
 

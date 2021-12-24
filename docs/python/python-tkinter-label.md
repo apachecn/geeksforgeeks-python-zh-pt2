@@ -41,7 +41,7 @@ Tkinter Label 是一个小部件，用于实现可以放置文本或图像的显
 
 **示例:**
 
-```
+```py
 from tkinter import * 
 
 top = Tk()   

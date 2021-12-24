@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.InsertSeparator(self, pos)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

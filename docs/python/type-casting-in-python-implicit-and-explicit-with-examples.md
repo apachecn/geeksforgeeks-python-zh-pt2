@@ -17,7 +17,7 @@ Python 中可以有两种类型的类型铸造–
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # implicit type Casting
 
@@ -46,7 +46,7 @@ print(type(d))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 <class 'float'>
 10.0
@@ -73,7 +73,7 @@ print(type(d))
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # type Casting
 

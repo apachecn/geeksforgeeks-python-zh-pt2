@@ -10,7 +10,7 @@
 
 该方法是为从容器中获取随机数的特定目的而设计的，因此是实现从列表中获取随机数这一任务的最常见方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get random number from list
 # using random.choice()
@@ -32,7 +32,7 @@ print ("Random selected number is : " + str(random_num))
 
 **Output:**
 
-```
+```py
 Original list is : [1, 4, 5, 2, 7]
 Random selected number is : 1
 
@@ -42,7 +42,7 @@ Random selected number is : 1
 
 这个方法用来生成一个范围内的随机数，对于列表，我们可以指定范围为 0 到它的长度，并得到索引，然后对应数值。这也提供了获得均匀放置的元素或特定倍数索引的元素的选项。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get random number from list
 # using random.randrange
@@ -65,7 +65,7 @@ print ("Random selected number is : " + str(random_num))
 
 **Output:**
 
-```
+```py
 Original list is : [1, 4, 5, 2, 7]
 Random selected number is : 7
 
@@ -75,7 +75,7 @@ Random selected number is : 7
 
 还有一种生成随机数的方法，这也可以用来生成一个范围内的任何数字，然后使用该数字索引，我们可以找到相应索引处的值，就像上述技术一样。但它的不同之处在于，它需要 2 个范围的强制参数。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get random number from list
 # using random.randint()
@@ -98,7 +98,7 @@ print ("Random selected number is : " + str(random_num))
 
 **Output:**
 
-```
+```py
 Original list is : [1, 4, 5, 2, 7]
 Random selected number is : 4
 
@@ -108,7 +108,7 @@ Random selected number is : 4
 
 此方法生成 0 到 1 范围内的浮点数。我们还可以使用这个函数通过将结果相乘，然后类型转换为 int 来获得整数索引，然后获得相应的列表值，从而获得列表的索引值。
 
-```
+```py
 # Python3 code to demonstrate 
 # to get random number from list
 # using random.random()
@@ -131,7 +131,7 @@ print ("Random selected number is : " + str(random_num))
 
 **Output:**
 
-```
+```py
 Original list is : [1, 4, 5, 2, 7]
 Random selected number is : 7
 

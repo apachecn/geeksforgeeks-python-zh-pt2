@@ -18,7 +18,7 @@
 
 **代码:使用 ***os。DirEntry.inode()*** 方法**
 
-```
+```py
 # Python program to explain os.DirEntry.inode() method 
 
 # importing os module  
@@ -45,7 +45,7 @@ with os.scandir(path) as itr:
 
 **输出:**
 
-```
+```py
 Directory entry name and their inode number
 Public  : 786500
 Desktop  : 786497

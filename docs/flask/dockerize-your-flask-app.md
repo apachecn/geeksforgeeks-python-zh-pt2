@@ -11,7 +11,7 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
     打开你的终端，为你的 flask 应用程序创建一个文件夹，比如说“flask _ docker _ demo”
     ，通过执行以下命令:
 
-    ```
+    ```py
     $mkdir flask_docker_demo
     $cd flask_docker_demo #to change the directory
     ```
@@ -19,13 +19,13 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
     您也可以手动创建文件夹和以上文件。如果您没有安装 Gedit，那么您可以使用任何代码编辑器。
     在终端输入以下内容
 
-    ```
+    ```py
     $gedit demo.py
     ```
 
     将以下代码粘贴到“demo.py”中。
 
-    ```
+    ```py
     from flask import Flask
     app = Flask(__name__)
 
@@ -42,7 +42,7 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
     如果您还没有使用 gedit 创建新文件，请添加一个新文件并将其命名为“Dockerfile”。**不要给任何延期。**
     粘贴以下代码到里面
 
-    ```
+    ```py
     FROM python:alpine3.7
     COPY . /app
     WORKDIR /app
@@ -58,7 +58,7 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
 
     如果您还没有使用 gedit 创建需求. txt，请手动创建它，并在其中添加以下行
 
-    ```
+    ```py
     flask
     ```
 
@@ -88,7 +88,7 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
 
     确保您在项目的根目录中，并运行以下命令。
 
-    ```
+    ```py
     sudo docker build --tag flask-docker-demo-app .
     ```
 
@@ -103,7 +103,7 @@ Python 提供了许多分发 python 项目的方法。其中一种方法是使�
 
     运行以下命令:
 
-    ```
+    ```py
     sudo docker run --name flask-docker-demo-app -p 5001:5001 flask-docker-demo-app
     ```
 

@@ -21,7 +21,7 @@ ScrollView 小部件提供了一个可滚动/可平移的视口，该视口在 s
 > **注意:**
 > 要使用 scrollview，您必须从 kivy.uix.scrollview 导入 scrollview 来导入它:
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -37,7 +37,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to explain how to use scroll view in kivy 
 
 # import kivy module    
@@ -104,7 +104,7 @@ runTouchApp(ScrollableLabel())
 
 ## 蟒蛇 3
 
-```
+```py
 from kivy.app import App
 
 # importing builder from kivy

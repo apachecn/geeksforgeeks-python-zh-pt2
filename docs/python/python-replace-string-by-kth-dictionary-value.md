@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace String by Kth Dictionary value  
 # Using list comprehension
@@ -49,7 +49,7 @@ print("The list after substitution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best']
 The list after substitution : [7, 2, 'Best']
 
@@ -61,7 +61,7 @@ The list after substitution : [7, 2, 'Best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace String by Kth Dictionary value  
 # Using get() + list comprehension
@@ -92,7 +92,7 @@ print("The list after substitution : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'is', 'Best']
 The list after substitution : [7, 2, 'Best']
 

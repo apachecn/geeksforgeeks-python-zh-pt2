@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 string = 'geeks'
@@ -27,7 +27,7 @@ print(re.fullmatch(pattern, string))
 
 **Output**
 
-```
+```py
 <_sre.SRE_Match object; span=(0, 5), match='geeks'>
 ```
 
@@ -39,7 +39,7 @@ print(re.fullmatch(pattern, string))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 string = "Geeks for geeks"
@@ -51,7 +51,7 @@ print(re.fullmatch(pattern, string))
 
 **Output**
 
-```
+```py
 <_sre.SRE_Match object; span=(0, 5), match='Geeks'>
 None
 ```

@@ -42,7 +42,7 @@
 
 **代码:**
 
-```
+```py
 def win(matrix, m, o):
     k = 0
     for i in range(0, n):
@@ -105,7 +105,7 @@ print("Sum of all page ranks: ", sum)
 
 **输出:**
 
-```
+```py
 Number of iterations is: 5
 Page rank of node  1 is :  0.7563090216610497
 Page rank of node  2 is :  0.7570825988098917

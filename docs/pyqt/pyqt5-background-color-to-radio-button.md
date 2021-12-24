@@ -9,7 +9,7 @@
 
 为了给单选按钮添加背景色，我们必须执行以下操作:更改与之关联的样式表代码，并为其添加背景色。下面是样式表代码。
 
-```
+```py
 QRadioButton
 {
 background-color : lightgreen;
@@ -19,7 +19,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

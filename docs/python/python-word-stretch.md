@@ -5,7 +5,7 @@
 编写一个程序，获取将一个单词扩展到给定大小的所有可能性(按排序顺序)。如果所需索引的列表被通过，那么应该只返回那些索引处的那些组合。如果所需的索引为空，则必须返回所有组合。
 **例:**
 
-```
+```py
 Input:
 str = "1234"  
 n = 6 
@@ -57,7 +57,7 @@ the length to be stretched we return an empty index
 
 ## 蟒蛇 3
 
-```
+```py
 # function which stretches the word
 
 def WordStretch(s, n, indices) :
@@ -127,7 +127,7 @@ WordStretch(s, n, x)
 
 **输出:**
 
-```
+```py
 ['111234', '112234', '112334', '112344', '122234', 
 '122334', '122344', '123334', '123344', '123444']
 ```

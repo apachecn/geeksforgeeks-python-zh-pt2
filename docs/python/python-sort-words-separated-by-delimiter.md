@@ -4,7 +4,7 @@
 
 给定的由某种分隔符分隔的单词串。任务是对字符串
 
-```
+```py
 Input : test_str = 'gfg:is:best:for:geeks', delim = "*" 
 Output : best*for*geeks*gfg*is 
 Explanation : Words sorted after separated by delim.
@@ -22,7 +22,7 @@ Explanation : Words sorted after separated by delim.
 
 T5】蟒 3T7
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort words separated by Delimiter
 # Using split() + join() + sorted()

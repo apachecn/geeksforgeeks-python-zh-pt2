@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique keys count for Value in Tuple List
 # Using loop + defaultdict()
@@ -60,7 +60,7 @@ print("Unique keys for values : " + str(res_dict))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # loop + defaultdict() + Counter()
 # Using loop + defaultdict() + Counter()
@@ -96,7 +96,7 @@ print("Unique keys for values : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique keys count for Value in Tuple List
 # Using loop + defaultdict()

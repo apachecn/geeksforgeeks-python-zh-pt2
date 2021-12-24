@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input  : [2, 3, 1, 4, 5] 
 Output : [2, 0, 1, 3, 4]
 After sorting list becomes [1, 2, 3, 4, 5] 
@@ -21,7 +21,7 @@ and their index as [4, 1, 0, 2, 3].
 
 **方法 1**
 
-```
+```py
 import numpy
 s = numpy.array([2, 3, 1, 4, 5])
 sort_index = numpy.argsort(s)
@@ -30,14 +30,14 @@ print(sort_index)
 
 **输出:**
 
-```
+```py
 [2, 0, 1, 3, 4]
 
 ```
 
 **方法二**
 
-```
+```py
 s = [2, 3, 1, 4, 5]
 li=[]
 
@@ -54,6 +54,6 @@ print(sort_index)
 
 **输出:**
 
-```
+```py
 [2, 0, 1, 3, 4]
 ```

@@ -21,7 +21,7 @@ Python 中的`***os.getegid()***`方法用于获取当前流程的有效组 id�
 
 **Code #1:** Use of os.getegid() method
 
-```
+```py
 # Python program to explain os.getegid() method 
 
 # importing os module 
@@ -51,7 +51,7 @@ print("Effective group id of the current process:", egid)
 
 **Code #2:** Use of os.setegid() method
 
-```
+```py
 # Python program to explain os.setegid() method 
 
 # importing os module 

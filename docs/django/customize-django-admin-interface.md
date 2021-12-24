@@ -11,7 +11,7 @@
 
 **state/model.py**
 
-```
+```py
 from django.db import models
 from django.utils import timezone
 
@@ -38,7 +38,7 @@ class State(models.Model):
 
 **状态/管理 py:**
 
-```
+```py
 from django.contrib import admin
 from .models import State
 
@@ -56,7 +56,7 @@ admin.site.register(State)
 
 **状态/型号. py**
 
-```
+```py
 from django.db import models
 from django.utils import timezone
 
@@ -93,7 +93,7 @@ class State(models.Model):
 
 **状态/管理 py:**
 
-```
+```py
 from django.contrib import admin
 from .models import State
 
@@ -116,7 +116,7 @@ admin.site.register(State, StateAdmin)
 
 **状态/管理 py:**
 
-```
+```py
 from django.contrib import admin
 from django.contrib import messages
 from .models import State
@@ -150,7 +150,7 @@ admin.site.register(State, StateAdmin)
 
 **状态/管理 py:**
 
-```
+```py
 from django.contrib import admin
 from django.contrib import messages
 from .models import State
@@ -187,7 +187,7 @@ admin.site.register(State, StateAdmin)
 
 **状态/管理 py:**
 
-```
+```py
 from django.contrib import admin
 from .models import State
 

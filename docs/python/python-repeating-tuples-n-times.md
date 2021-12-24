@@ -7,7 +7,7 @@
 **方法#1:使用`* operator`**
 乘法运算符可用于构建容器的副本。这也可以扩展到元组，即使元组是不可变的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Repeating tuples N times
 # using * operator
@@ -31,7 +31,7 @@ print("The duplicated tuple elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 3)
 The duplicated tuple elements are : ((1, 3), (1, 3), (1, 3), (1, 3))
 

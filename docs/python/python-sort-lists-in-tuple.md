@@ -7,7 +7,7 @@
 **方法#1:使用`tuple() + sorted()` +生成器表达式**
 该任务可以使用上述功能的组合来执行。在本文中，我们使用生成器表达式遍历每个列表，并使用`sorted()`执行排序操作。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort lists in tuple
 # Using tuple() + sorted() + generator expression
@@ -28,7 +28,7 @@ print("The tuple after sorting lists : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple is : ([7, 5, 4], [8, 2, 4], [0, 7, 5])
 The tuple after sorting lists : ([4, 5, 7], [2, 4, 8], [0, 5, 7])
 

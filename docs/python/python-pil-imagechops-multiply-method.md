@@ -7,7 +7,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 **PIL。ImageChops.multiply()** 方法将两幅图像叠加在一起。
 如果将一个图像乘以一个纯黑色图像，结果是黑色。如果与纯白色图像相乘，图像不受影响。至少有一个图像必须具有模式“1”。
 
-```
+```py
 Syntax: PIL.ImageChops.multiply(image1, image2)
 
 Parameters:
@@ -24,7 +24,7 @@ Return Type: Image
 图片 2:
 ![](img/f0a3c29a3d2f68702e80b19a25e320d7.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package 
 from PIL import Image, ImageChops
 
@@ -49,7 +49,7 @@ im3.show()
 图片 4:
 ![](img/0c8810d960c49d8e476e101d6cc1a77a.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package 
 from PIL import Image, ImageChops
 

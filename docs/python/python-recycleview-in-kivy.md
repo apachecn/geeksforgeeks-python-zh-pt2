@@ -9,13 +9,13 @@ recycle view 帮助处理大量数据项。Recycleview 为用户提供了向下�
 
 > 要使用回收视图，您必须首先导入它。
 > 
-> ```
+> ```py
 > from kivy.uix.recycleview import RecycleView
 > ```
 
 **实施**
 
-```
+```py
 # Program to explain how to use recycleview in kivy
 
 # import the kivy module
@@ -41,7 +41,7 @@ SampleApp().run()
 
 **The。kv 文件为上述代码**
 
-```
+```py
 <ExampleViewer>:
     viewclass: 'Button'  # defines the viewtype for the data items.
     orientation: "vertical"

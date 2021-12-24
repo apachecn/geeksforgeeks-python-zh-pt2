@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 strftime(format)
 
 ```
@@ -48,7 +48,7 @@ strftime(format)
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # strftime() function
 
@@ -77,7 +77,7 @@ print('\nExample 4:', s)
 
 **输出:**
 
-```
+```py
 Without formatting 2019-12-17 18:21:39.211378
 
 Example 1: Tue-12-19

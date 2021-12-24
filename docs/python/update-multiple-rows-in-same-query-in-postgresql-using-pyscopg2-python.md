@@ -8,7 +8,7 @@
 
 ### 更新子句的语法:
 
-```
+```py
 UPDATE "table"
 SET "column_one" = value1, 
 "column_two" = value2, 
@@ -24,7 +24,7 @@ WHERE condition;
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -55,7 +55,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 (12124468, 'arjun', 9.7, 'arjun19@gmail.com', 'CSE')
 (12124469, 'DIYA', 9.4, 'diya@gmail.com', 'CSE')
 (12124466, 'sarah', 9.8, 'sarah1212@gmail.com', 'CSE')

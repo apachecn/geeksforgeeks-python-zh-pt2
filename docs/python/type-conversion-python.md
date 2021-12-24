@@ -19,7 +19,7 @@ Python 中有两种类型的类型转换:
 
 ## 蟒蛇 3
 
-```
+```py
 x = 10
 
 print("x is of type:",type(x))
@@ -35,7 +35,7 @@ print("x is of type:",type(x))
 
 **输出:**
 
-```
+```py
 x is of type: <class 'int'>
 y is of type: <class 'float'>
 20.6
@@ -53,7 +53,7 @@ x is of type: <class 'float'>
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate Type conversion
 # using int(), float()
 
@@ -73,7 +73,7 @@ print (e)
 
 **输出:**
 
-```
+```py
 After converting to integer base 2 : 18
 After converting to float : 10010.0
 ```
@@ -84,7 +84,7 @@ After converting to float : 10010.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate Type conversion
 # using  ord(), hex(), oct()
 
@@ -109,7 +109,7 @@ print (c)
 
 **输出:**
 
-```
+```py
 After converting character to integer : 52
 After converting 56 to hexadecimal string : 0x38
 After converting 56 to octal string : 0o70
@@ -121,7 +121,7 @@ After converting 56 to octal string : 0o70
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate Type conversion
 # using  tuple(), set(), list()
 
@@ -146,7 +146,7 @@ print (c)
 
 **输出:**
 
-```
+```py
 After converting string to tuple : ('g', 'e', 'e', 'k', 's')
 After converting string to set : {'k', 'e', 's', 'g'}
 After converting string to list : ['g', 'e', 'e', 'k', 's']
@@ -158,7 +158,7 @@ After converting string to list : ['g', 'e', 'e', 'k', 's']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate Type conversion
 # using  dict(), complex(), str()
 
@@ -187,7 +187,7 @@ print (c)
 
 **输出:**
 
-```
+```py
 After converting integer to complex number : (1+2j)
 After converting integer to string : 1
 After converting tuple to dictionary : {'a': 1, 'f': 2, 'g': 3}
@@ -197,7 +197,7 @@ After converting tuple to dictionary : {'a': 1, 'f': 2, 'g': 3}
 
 ## 蟒蛇 3
 
-```
+```py
 # Convert ASCII value to characters
 a = chr(76)
 b = chr(77)
@@ -208,7 +208,7 @@ print(b)
 
 **输出:**
 
-```
+```py
 L
 M
 

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 a % b
 
 ```
@@ -21,7 +21,7 @@ a % b
 
 ## 蟒蛇 3
 
-```
+```py
 # inputs
 a = 13
 b = 5
@@ -45,7 +45,7 @@ print(d, "mod", e, "=", 
 
 **输出:**
 
-```
+```py
 13 mod 5 = 3
 15.0 mod 7.0 = 1.0
 
@@ -55,7 +55,7 @@ print(d, "mod", e, "=", 
 
 ## 蟒蛇 3
 
-```
+```py
 # function is defined for finding out 
 # the remainder of every number from 1 to n
 def findRemainder(n, k):
@@ -81,7 +81,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 1 mod 3 = 1
 2 mod 3 = 2
 3 mod 3 = 0
@@ -96,7 +96,7 @@ python 模运算的唯一例外是**零除法错误**。如果模运算符的除
 
 ## 蟒蛇 3
 
-```
+```py
 # inputs
 a = 14
 b = 0
@@ -113,7 +113,7 @@ except ZeroDivisionError as err:
 
 **输出:**
 
-```
+```py
 Cannot divide by zero! Change the value of the right operand.
 
 ```

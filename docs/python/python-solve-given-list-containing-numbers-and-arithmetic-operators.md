@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: lst =  [2, '+', 22, '+', 55, '+', 4]
 Output: 83
 
@@ -20,7 +20,7 @@ Output: 15
 **方法#1:使用迭代**
 我们可以使用迭代作为最简单的方法，通过导入不同的运算符来求解列表。
 
-```
+```py
 # Python code to solve the list
 # containing numbers and arithmetic operators
 
@@ -53,7 +53,7 @@ print("Answer after solving list is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list [91, '+', 132, '-', 156, '+', 4]
 Answer after solving list is: 71.0
 
@@ -61,7 +61,7 @@ Answer after solving list is: 71.0
 
 **方法 2:使用*评估*和*加入*T5】**
 
-```
+```py
 # Python code to solve the list
 # containing numbers and arithmetic operators
 
@@ -78,7 +78,7 @@ print("Answer after solving list is:", Output)
 
 **Output:**
 
-```
+```py
 Initial list [2, '+', 22, '+', 55, '+', 4]
 Answer after solving list is: 83
 

@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two hexadecimal numbers.
 
 # Driver code
@@ -46,7 +46,7 @@ print(sum[2:])
 
 **输出:**
 
-```
+```py
 393
 ```
 
@@ -54,7 +54,7 @@ print(sum[2:])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two hexadecimal numbers.
 
 # Driver code
@@ -71,6 +71,6 @@ print(sum[2:])
 
 **输出:**
 
-```
+```py
 17
 ```

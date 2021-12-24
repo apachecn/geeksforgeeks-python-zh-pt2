@@ -12,7 +12,7 @@
 
 *   **示例–**
 
-```
+```py
 Sequence = {1, 5, 6, 4, 4}
 
 Sum             = 20
@@ -24,7 +24,7 @@ Arithmetic Mean = 20/5 = 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Arithmetic Mean
 
 import statistics
@@ -40,7 +40,7 @@ print("Mean is :", x)
 
 *   **输出:**
 
-```
+```py
 Mean is : 4
 ```
 
@@ -51,7 +51,7 @@ Mean is : 4
 
 *   **示例–**
 
-```
+```py
 Sequence = {0, 2, 1, 3}
 p        = 0.25
 
@@ -64,7 +64,7 @@ Mean = 3/2 = 1.5
 
 ## 蟒蛇 3
 
-```
+```py
 # Trimmed Mean
 
 from scipy import stats
@@ -80,7 +80,7 @@ print("Trimmed Mean is :", x)
 
 *   **输出:**
 
-```
+```py
 Trimmed Mean is : 1.5
 ```
 
@@ -90,7 +90,7 @@ Trimmed Mean is : 1.5
 
 *   **示例–**
 
-```
+```py
 Sequence = [0, 2, 1, 3]
 Weight   = [1, 0, 1, 1]
 
@@ -103,7 +103,7 @@ Weighted Mean = 4 / 3 = 1.3333333333333333
 
 ## 蟒蛇 3
 
-```
+```py
 # Weighted Mean
 
 import numpy as np
@@ -119,7 +119,7 @@ print("Weighted Mean is :", x)
 
 *   **输出 1 :**
 
-```
+```py
 Weighted Mean is : 1.3333333333333333
 ```
 
@@ -127,7 +127,7 @@ Weighted Mean is : 1.3333333333333333
 
 ## 蟒蛇 3
 
-```
+```py
 # Weighted Mean
 
 data = [0, 2, 1, 3]
@@ -141,6 +141,6 @@ print ("Weighted Mean is :", x)
 
 *   **输出 2 :**
 
-```
+```py
 Weighted Mean is : 1.3333333333333333
 ```

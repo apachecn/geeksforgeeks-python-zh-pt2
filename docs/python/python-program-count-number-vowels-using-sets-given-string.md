@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : GeeksforGeeks
 Output : No. of vowels : 5
 
@@ -24,7 +24,7 @@ Output : No. of vowels :  3
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 code to count vowel in 
 # a string using set
 
@@ -57,7 +57,7 @@ vowel_count(str)
 
 输出:
 
-```
+```py
 No. of vowels : 5
 
 ```

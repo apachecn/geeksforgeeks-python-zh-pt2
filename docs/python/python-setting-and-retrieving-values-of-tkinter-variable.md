@@ -17,13 +17,13 @@ set()和 get()方法用于设置和检索这些变量的值。
 **1。使用变量的构造函数**
 **语法:**
 
-```
+```py
 var = Tkinter_variable(master, value = any_value)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing tkinter module
 from tkinter import *
 

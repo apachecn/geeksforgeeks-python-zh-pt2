@@ -10,28 +10,28 @@
 
 *   初始化你的姜戈项目
 
-```
+```py
 django-admin startproject deploy_on_pythonanywhere
 
 ```
 
 *   在编辑器中的“设置”下打开项目。复制制作:
 
-```
+```py
 ALLOWED_HOSTS = ['*']
 
 ```
 
 *   使用命令创建 requirements.txt 文件
 
-```
+```py
 pip3 freeze > requirements.txt
 
 ```
 
 *   我们项目的文件结构如下:
 
-```
+```py
 deploy_on_pythonanywhere
 ├── db.sqlite3
 ├── deploy_on_pythonanywhere
@@ -52,7 +52,7 @@ deploy_on_pythonanywhere
 
 *   让我们启动我们的姜戈服务器
 
-```
+```py
 cd deploy_on_pythonanywhere
 python3 manage.py runserver
 
@@ -80,14 +80,14 @@ python3 manage.py runserver
 *   **在 bash 上运行以下命令:**
 *   repo github 克隆
 
-```
+```py
 git clone https://github.com/Prakhar-Mangal/deploy_on_pythonanywhere.git
 
 ```
 
 *   现在创建和设置环境变量
 
-```
+```py
 python3 -m venv env #create virtual environment
 source env/bin/activate #activate virtual environment
 cd deploy_on_pythonanywhere #navigate inside your project 
@@ -98,7 +98,7 @@ pip install -r requirements.txt #installing dependencies using requirements.txt
 *   现在复制您在 bash 上安装的目录的路径
 *   在 bash 上键入命令
 
-```
+```py
 cd
 ls # get list of directories
 pwd #copy the path for future use

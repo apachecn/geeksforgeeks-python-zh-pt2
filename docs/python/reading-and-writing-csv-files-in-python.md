@@ -10,7 +10,7 @@ Python 包含一个名为`csv`的模块，用于处理 CSV 文件。模块中的
 
 **语法:**
 
-```
+```py
 csv.reader(csvfile, dialect='excel', **fmtparams
 ```
 
@@ -22,7 +22,7 @@ csv.reader(csvfile, dialect='excel', **fmtparams
 
 ![](img/eabb2081ed1e7d66bbf8270d747eb4e5.png)
 
-```
+```py
 import csv 
 
 # opening the CSV file 
@@ -38,7 +38,7 @@ with open('Giants.csv', mode ='r')as file: 
 
 **输出:**
 
-```
+```py
 [['Steve', 13, 'A'],
 ['John', 14, 'F'],
 ['Nancy', 14, 'C'],
@@ -52,7 +52,7 @@ with open('Giants.csv', mode ='r')as file: 
 
 **语法:**
 
-```
+```py
 csv.writer(csvfile, dialect='excel', **fmtparams)
 ```
 
@@ -61,20 +61,20 @@ csv.writer 类提供了两种写入 csv 的方法。分别是`writerow()`和`wri
 *   **writerow():** 这个方法一次写一行。可以使用此方法写入字段行。
     **语法:**
 
-    ```
+    ```py
     writerow(fields)
     ```
 
 *   **writerows():** 此方法用于一次写入多行。这可用于编写行列表。
     **语法:**
 
-    ```
+    ```py
     writerows(rows)
     ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # writing to CSV
 
@@ -122,7 +122,7 @@ csv。DictWriter 提供了两种写入 CSV 的方法。它们是:
 
     **语法:**
 
-    ```
+    ```py
     writeheader()
 
     ```
@@ -131,14 +131,14 @@ csv。DictWriter 提供了两种写入 CSV 的方法。它们是:
 
     **语法:**
 
-    ```
+    ```py
     writerows(mydict)
 
     ```
 
 **示例:**
 
-```
+```py
 # importing the csv module 
 import csv 
 

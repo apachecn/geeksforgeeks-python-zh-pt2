@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate
 # the difference between regular
 # and ordered dictionary.
@@ -34,7 +34,7 @@ for k, v in d.items():
 
 **输出:**
 
-```
+```py
 Regular dictionary:
 ('a', 97)
 ('c', 99)
@@ -61,7 +61,7 @@ OrderedDict:
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate
 # working of deletion and re-insertion in
 # regular and OrderedDict
@@ -115,7 +115,7 @@ for key, value in od.items():
 
 **输出:**
 
-```
+```py
 Before deleting:
 
 Regular dictionary:

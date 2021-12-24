@@ -13,7 +13,7 @@
 **方法一:使用`dict()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们通过将元组列表转换为字典来执行这个任务，作为第二步，使用列表理解来遍历列表，并将字典键与值进行映射。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Order Tuples by List
 # Using dict() + list comprehension
@@ -38,7 +38,7 @@ print("The ordered tuple list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 3), ('best', 9), ('CS', 10), ('Geeks', 2)]
 The ordered tuple list : [('Geeks', 2), ('best', 9), ('CS', 10), ('Gfg', 3)]
 
@@ -47,7 +47,7 @@ The ordered tuple list : [('Geeks', 2), ('best', 9), ('CS', 10), ('Gfg', 3)]
 **方法 2:使用`setdefault() + sorted()` +λ**
 以上功能的组合可以解决这个问题。在本文中，我们执行将元素映射到索引并使用 setdefault 创建查找的任务。第二步，使用 sorted 使用查找字典值列表对列表进行排序。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Order Tuples by List
 # Using setdefault() + sorted() + lambda
@@ -74,7 +74,7 @@ print("The ordered tuple list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 3), ('best', 9), ('CS', 10), ('Geeks', 2)]
 The ordered tuple list : [('Geeks', 2), ('best', 9), ('CS', 10), ('Gfg', 3)]
 

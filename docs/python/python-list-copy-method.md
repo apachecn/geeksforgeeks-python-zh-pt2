@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of list.copy()
 
@@ -44,7 +44,7 @@ print ("The old list after adding new element to new list  : " + str(lis1))
 
 **输出:**
 
-```
+```py
 The new list created is : [1, 2, 3, 4]
 The new list after adding new element : [1, 2, 3, 4, 5]
 The old list after adding new element to new list  : [1, 2, 3, 4]
@@ -65,7 +65,7 @@ The old list after adding new element to new list  : [1, 2, 3, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # techniques of deep and shallow copy
 import copy
@@ -96,7 +96,7 @@ print("list 4 after modification:\n", list4)
 
 **输出:**
 
-```
+```py
 list 1 after modification:
  [1, [2, 999], 4, 5]
 list 2 after modification:

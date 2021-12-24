@@ -20,7 +20,7 @@
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272771459249844224。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -56,7 +56,7 @@ else:
 
 **输出:**
 
-```
+```py
 The authenticated user has not retweeted the tweet.
 
 ```
@@ -66,7 +66,7 @@ The authenticated user has not retweeted the tweet.
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272479136133627905。
 
-```
+```py
 # the ID of the status
 id = 1272479136133627905
 
@@ -84,7 +84,7 @@ else:
 
 **输出:**
 
-```
+```py
 The authenticated user has retweeted the tweet.
 
 ```

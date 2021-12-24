@@ -25,7 +25,7 @@ Python String **count()** 函数是 Python 编程语言中的一个内置函数�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate the use of
 # count() method without optional parameters 
 
@@ -39,7 +39,7 @@ print(string.count("geeks"))
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -47,7 +47,7 @@ print(string.count("geeks"))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to demonstrate the use of
 # count() method  using optional parameters
 
@@ -64,7 +64,7 @@ print(string.count("geeks", 0, 15))
 
 ****输出:****
 
-```
+```py
 1
 2
 ```

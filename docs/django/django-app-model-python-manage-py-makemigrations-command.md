@@ -6,22 +6,22 @@
 
 ***进行迁移*** 是通过以下命令运行的
 
-```
+```py
 Python manage.py makemigrations
 ```
 
 如果上面的命令说没有检测到任何变化，您也可以对单个应用程序进行更改。
 例如，如果你有 10 个名为 a、b、c、d、e、f、g、h、I、j 的应用程序，你可以为这些应用程序单独运行 makemigrations。
 
-```
+```py
 Python manage.py makemigrations a 
 ```
 
-```
+```py
 Python manage.py makemigrations b 
 ```
 
-```
+```py
 Python manage.py makemigrations c 
 ```
 
@@ -35,7 +35,7 @@ Python manage.py makemigrations c
 
 例如，如果我们制作一个模型类-
 
-```
+```py
 from django.db import models
 
 class Person(models.Model):
@@ -45,7 +45,7 @@ class Person(models.Model):
 
 使用 makemigrations 后，相应的 sql 命令将是
 
-```
+```py
 CREATE TABLE myapp_person (
 "id" serial NOT NULL PRIMARY KEY,
 "first_name" varchar(30) NOT NULL,

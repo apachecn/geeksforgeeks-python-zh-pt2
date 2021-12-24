@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip() + min()`**
 上述功能的组合可用于执行该特定任务。在本文中，我们使用列表理解对列表进行迭代，并在 zip()的帮助下执行跨列表的最小化。最小值使用 min()执行。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List of tuples Minimum
 # using list comprehension + zip() + min()
@@ -30,7 +30,7 @@ print("The Minimum across lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [(2, 4), (6, 7), (5, 1)]
 The original list 2 : [(5, 4), (8, 10), (8, 14)]
 The Minimum across lists is : [(2, 4), (6, 7), (5, 1)]

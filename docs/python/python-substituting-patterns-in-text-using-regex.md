@@ -26,7 +26,7 @@
 
 下面是实现。
 
-```
+```py
 # Python implementation of substituting a 
 # specific text pattern in a string using regex
 
@@ -64,7 +64,7 @@ substitutor()
 
 **Output:**
 
-```
+```py
 It is sunny outside.
 Thank you so so much.
 
@@ -77,7 +77,7 @@ Thank you so so much.
 
 在本例中，小写字符集，即[a-z]将被数字 0 替换。下面是实现。
 
-```
+```py
 # Python implementation of substituting 
 # a character set with a specific character
 
@@ -102,7 +102,7 @@ substitutor()
 
 **Output:**
 
-```
+```py
 22 A0000 00 0000000000 00 E0000 D00.
 
 ```
@@ -116,7 +116,7 @@ substitutor()
 
 下面是实现。
 
-```
+```py
 # Python implementation of case-insensitive substitution
 # of a character set with a specific character
 
@@ -142,7 +142,7 @@ substitutor()
 
 **Output:**
 
-```
+```py
 22 00000 00 0000000000 00 00000 000.
 
 ```
@@ -152,7 +152,7 @@ substitutor()
 
 通过为该参数提供一个数值，可以控制将要发生替换的字符数。下面是实现。
 
-```
+```py
 # Python implementation to perform substitution
 # up to a certain number of characters
 
@@ -178,7 +178,7 @@ substitutor()
 
 **Output:**
 
-```
+```py
 000000 00ur Passion.
 
 ```
@@ -204,7 +204,7 @@ Regex 模块为那些在文本预处理过程中非常常见的字符集提供�
 
 这个例子演示了使用所提到的速记字符类来替换和预处理文本，以获得干净且无错误的字符串。下面是实现。
 
-```
+```py
 # Python implementation of Substitution using 
 # shorthand character class and preprocessing of text
 
@@ -256,7 +256,7 @@ substitutor()    
 
 **Output:**
 
-```
+```py
 Olympic games have been cancelled
 Dr Vikram Sarabhai was the ISRO first chairman
 Dr Abdul Kalam the father of India missile programme

@@ -8,7 +8,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to sort the list 
 # alphabetically in a dictionary
 dict ={
@@ -31,7 +31,7 @@ for i, j in dict.items():
 
 **Output:**
 
-```
+```py
 Before Sorting: 
 ('L2', [23, 0, 30, 10])
 ('L3', [1, 6, 2, 9])
@@ -48,7 +48,7 @@ After Sorting:
 
 **例 2:**
 
-```
+```py
 # Python program to sort the list 
 # alphabetically in a dictionary
 
@@ -70,7 +70,7 @@ for i, j in dict.items():
 
 **Output:**
 
-```
+```py
 Before Sorting: 
 ('L3', ['portal', 'for', 'geeks'])
 ('L1', ['Geeks', 'for', 'Geeks'])
@@ -85,7 +85,7 @@ After Sorting:
 
 **例 3:**
 
-```
+```py
 # Python program to sort the list 
 # alphabetically in a dictionary
 dict={
@@ -105,7 +105,7 @@ print("\nAfter Sorting: ", sorted_dict)
 
 **Output:**
 
-```
+```py
 Before Sorting: 
 ('L1', [87, 34, 56, 12])
 ('L2', [23, 0, 30, 10])

@@ -32,7 +32,7 @@ prophet 针对脸书遇到的业务相关问题进行了优化，它具有以下
 *   对于这篇文章，我们将使用亚马逊股票价格数据，它可以从雅虎财经网站下载。
 *   首先，我们需要安装 fbprophet 工具，它可以用 python 中的以下命令安装。
 
-```
+```py
 Requirement already satisfied: fbprophet in /usr/local/lib/python3.6/dist-packages (0.6)
 Requirement already satisfied: Cython>=0.22 in /usr/local/lib/python3.6/dist-packages (from fbprophet) (0.29.21)
 Requirement already satisfied: cmdstanpy==0.4 in /usr/local/lib/python3.6/dist-packages (from fbprophet) (0.4.0)
@@ -60,7 +60,7 @@ Requirement already satisfied: six in /usr/local/lib/python3.6/dist-packages (fr
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -76,7 +76,7 @@ plt.style.use('fivethirtyeight')
 
 ## 蟒蛇 3
 
-```
+```py
 # We will be using amazon share price dat whichcanbe downloaded from YAHOO finance website.
 df = pd.read_csv('sample_data / AMZN.csv')
 df.head()
@@ -84,7 +84,7 @@ df.head()
 
 **输出:**
 
-```
+```py
 Date    Open    High    Low    Close    Adj Close    Volume
 0    2015-07-21    487.899994    488.880005    482.549988    488.000000    488.000000    3181800
 1    2015-07-22    485.989990    492.500000    484.899994    488.269989    488.269989    3114900
@@ -99,7 +99,7 @@ Date    Open    High    Low    Close    Adj Close    Volume
 
 ## 蟒蛇 3
 
-```
+```py
 # add two columnsin dataframe having values as Date and Adj Close
 df[['ds', 'y']] = df[['Date', 'Adj Close']]
 # Subset two columns from data frame
@@ -110,7 +110,7 @@ df.head()
 
 **输出:**
 
-```
+```py
 ds    y
 0    2015-07-21    488.000000
 1    2015-07-22    488.269989
@@ -125,7 +125,7 @@ ds    y
 
 ## 蟒蛇 3
 
-```
+```py
 # split data frame  into two parts train and test
 split_date = "2019-07-21"
 df_train = df.loc[df.ds <= split_date].copy()
@@ -138,7 +138,7 @@ df_test = df.loc[df.ds > split_date].copy()
 
 ## 蟒蛇 3
 
-```
+```py
 # Instantiate prophet
 model = fbp.Prophet()
 # fit the training data
@@ -151,14 +151,14 @@ model.fit(df_train)
 
 ## 蟒蛇 3
 
-```
+```py
 forecast = model.predict(df_test)
 forecast.tail()
 ```
 
 **输出:**
 
-```
+```py
 ds    trend    yhat_lower    yhat_upper    trend_lower    trend_upper    additive_terms    additive_terms_lower    additive_terms_upper    weekly    weekly_lower    weekly_upper    yearly    yearly_lower    yearly_upper    multiplicative_terms    multiplicative_terms_lower    multiplicative_terms_upper    yhat
 247    2020-07-14    1992.862925    1479.553875    2566.925238    1403.962381    2483.045869    93.536964    93.536964    93.536964    -25.535936    -25.535936    -25.535936    119.072900    119.072900    119.072900    0.0    0.0    0.0    2086.399889
 248    2020-07-15    1993.215324    1485.368711    2575.314593    1401.835761    2485.386736    97.405883    97.405883    97.405883    -25.138654    -25.138654    -25.138654    122.544537    122.544537    122.544537    0.0    0.0    0.0    2090.621207
@@ -173,7 +173,7 @@ ds    trend    yhat_lower    yhat_upper    trend_lower    trend_upper    additiv
 
 ## 蟒蛇 3
 
-```
+```py
 model.plot(forecast)
 ```
 
@@ -187,7 +187,7 @@ model.plot(forecast)
 
 ## 蟒蛇 3
 
-```
+```py
 # plot graphs of different components:
 model.plot_components(forecast)
 ```
@@ -202,7 +202,7 @@ model.plot_components(forecast)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 print("Mean Squared Error (MSE):", mean_squared_error(y_true = df_test["y"], y_pred = forecast['yhat']))
 print("Mean Absolute Error (MAE):", mean_absolute_error(y_true = df_test["y"], y_pred = forecast['yhat']))
@@ -210,7 +210,7 @@ print("Mean Absolute Error (MAE):", mean_absolute_error(y_true = df_test["y"], y
 
 **输出:**
 
-```
+```py
 Mean Squared Error (MSE): 121417.80253038534
 Mean Absolute Error (MAE): 246.57694290710793
 ```
@@ -221,7 +221,7 @@ Mean Absolute Error (MAE): 246.57694290710793
 
 ## 蟒蛇 3
 
-```
+```py
 def mean_abs_perc_err(y_true, y_pred):
     return np.mean(np.abs((y_true - y_pred) / y_true)) * 100
 
@@ -230,7 +230,7 @@ print("Mean Absolute % Error (MAPE): ", mean_abs_perc_err(y_true = np.asarray(df
 
 **输出:**
 
-```
+```py
 Mean Absolute % Error (MAPE):  10.693787212532687
 ```
 

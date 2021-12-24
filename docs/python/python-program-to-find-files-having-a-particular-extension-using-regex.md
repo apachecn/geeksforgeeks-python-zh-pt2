@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -42,6 +42,6 @@ for file in filenames:
 
 **Output:**
 
-```
+```py
 The file ending with .xml is: geeks.xml
 ```

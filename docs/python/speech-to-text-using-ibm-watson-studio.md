@@ -23,7 +23,7 @@
 1.  JSON
 2.  **ibm_watson:** 这个模块没有预定义 Python。要安装它，请在终端中键入以下命令。
 
-    ```
+    ```py
     pip install ibm_watson
 
     ```
@@ -32,7 +32,7 @@
 
 **下面的代码说明了使用 Python 和 web socket 接口使用 IBM Watson studio 的语音转文本服务**
 
-```
+```py
 #Python Program To Use IBM Watson
 # Studio's Speech To Text Below Code
 # Accepts only .mp3 Format of Audio
@@ -76,7 +76,7 @@ print(str)
 
 **输出**
 
-```
+```py
 The Output will be Transcript (Text) of audio file.
 
 ```

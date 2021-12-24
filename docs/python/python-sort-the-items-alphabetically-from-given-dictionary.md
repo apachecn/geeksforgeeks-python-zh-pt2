@@ -6,7 +6,7 @@
 
 **代码#1:** 使用字典项目()
 
-```
+```py
 # Python program to sort the items alphabetically from given dictionary
 
 # initialising _dictionary 
@@ -31,7 +31,7 @@ for key, value in sorted(dict.items()): 
 
 **代码#2:** 使用排序的()
 
-```
+```py
 # Python program to sort the items alphabetically from given dictionary
 
 # initialising _dictionary 

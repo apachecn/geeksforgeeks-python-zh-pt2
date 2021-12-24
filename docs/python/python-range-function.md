@@ -28,7 +28,7 @@ range()是 Python 的内置函数。当用户需要执行特定次数的操作�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to
 # show range() basics
 
@@ -53,7 +53,7 @@ print("Sum of first 10 natural number :", sum)
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9 
 10 20 30 40 
 Sum of first 10 natural number : 55
@@ -75,7 +75,7 @@ Sum of first 10 natural number : 55
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # print whole number
 # using range()
@@ -94,7 +94,7 @@ for i in range(20):
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9 
 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
 ```
@@ -109,7 +109,7 @@ for i in range(20):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # print natural number
 # using range
@@ -128,7 +128,7 @@ for i in range(5, 20):
 
 **输出:**
 
-```
+```py
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 
 ```
@@ -141,7 +141,7 @@ for i in range(5, 20):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # print all number
 # divisible by 3 and 5
@@ -160,7 +160,7 @@ for i in range(0, 50, 5):
 
 **输出:**
 
-```
+```py
 0 3 6 9 12 15 18 21 24 27 
 0 5 10 15 20 25 30 35 40 45 
 ```
@@ -175,7 +175,7 @@ for i in range(0, 50, 5):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # increment with
 # range()
@@ -197,7 +197,7 @@ for i in range(15, 25, 3):
 
 **输出:**
 
-```
+```py
 2 4 6 8 10 12 14 16 18 20 22 24 
 0 4 8 12 16 20 24 28 
 15 18 21 24 
@@ -209,7 +209,7 @@ for i in range(15, 25, 3):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # decrement with
 # range()

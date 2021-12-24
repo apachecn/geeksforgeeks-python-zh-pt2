@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `defaultdict()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们只需用默认值初始化列表，并使用循环增加其频率。
 
-```
+```py
 # Python3 code to demonstrate 
 # Step Frequency of elements in List
 # using loop + defaultdict()
@@ -33,7 +33,7 @@ print ("Step frequency of elements is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'gfg', 'is', 'life']
 Step frequency of elements is : [1, 1, 1, 2, 2, 1]
 

@@ -5,7 +5,7 @@
 给定一个列表，我们必须合并所有具有公共元素的子列表。这类问题在大学考试和解决编码竞赛中非常常见。
 下面是实现这一点的一些方法。
 
-```
+```py
 Input:
 [[11, 27, 13], [11, 27, 55], [22, 0, 43], 
  [22, 0, 96], [13, 27, 11], [13, 27, 55], 
@@ -18,7 +18,7 @@ Output:
 
 **方法# 1:使用递归**是合并所有具有公共元素的子列表的最暴力的方法
 
-```
+```py
 # Python code to merge all sublist having common elements.
 
 # Using recursion to merge all sublist having common elements.
@@ -53,7 +53,7 @@ print("List of list after merging is:")
 print(Output)
 ```
 
-```
+```py
 Output:
 Initial list of list is :
 [[11, 27, 13], [11, 27, 55], [22, 0, 43], [22, 0, 96],
@@ -66,7 +66,7 @@ List of list after merging is:
 
 **方法 2:使用连通组件**，我们可以将元素建模为，并在连通组件问题中对其进行建模。
 
-```
+```py
 #Python code to merge all sublist having common elements.
 
 #Importing 
@@ -106,7 +106,7 @@ print("List of list after merging is:")
 print(Output)
 ```
 
-```
+```py
 Output:
 Initial list of list is :
 [['z', 'x', 'y'], ['y', 'g', 'e'], ['z'], ['x', 'p'], ['a', 'b'], ['y', 'a'], ['d', 'g']]

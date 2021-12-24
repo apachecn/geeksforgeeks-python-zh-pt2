@@ -7,7 +7,7 @@
 **方法:使用循环**
 这个任务可以使用循环以蛮力方式执行。在这种情况下，我们只是使用循环迭代列表，检查元素是否已经存在，如果是新元素，则追加，并构造一个非重复矩阵。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing duplicates in Matrix
 # using loop
@@ -38,7 +38,7 @@ print("The Matrix after duplicates removal is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6, 8], [8, 5, 3], [9, 10, 3]]
 The Matrix after duplicates removal is : [[5, 6, 8], [3], [9, 10]]
 

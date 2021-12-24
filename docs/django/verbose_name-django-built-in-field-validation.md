@@ -6,7 +6,7 @@ Django 模型中的内置字段验证是预定义给所有 Django 字段的验�
 
 **语法–**
 
-```
+```py
 field_name = models.Field(verbose_name = "name")
 ```
 
@@ -21,7 +21,7 @@ field_name = models.Field(verbose_name = "name")
 
 将以下代码输入**极客** app 的`models.py`文件。我们将使用 CharField 对所有字段选项进行实验。
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -37,7 +37,7 @@ class GeeksModel(Model):
 ![django-verbose_name-](img/e2620873a0f4f952b00123dc34e3159a.png)
 现在让我们使用`verbose_name`属性修改这个。将`models.py`改为
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.

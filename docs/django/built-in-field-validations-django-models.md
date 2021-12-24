@@ -17,7 +17,7 @@ Django 模型中的内置字段验证是所有 Django 字段预定义的默认�
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 set.intersection_update(set1,set2,set3,...........,set n)
 ```
 
@@ -18,7 +18,7 @@ set.intersection_update(set1,set2,set3,...........,set n)
 
 ## 蟒蛇 3
 
-```
+```py
 # declare set1
 set1 = {"java", "python", "c/cpp", "html"}
 
@@ -46,7 +46,7 @@ print(set1)
 
 ## 蟒蛇 3
 
-```
+```py
 # declare set1
 set1 = {"java", "python", "c/cpp", "html"}
 
@@ -82,7 +82,7 @@ print(set1)
 
 ## 蟒蛇 3
 
-```
+```py
 # declare set1
 set1 = {"java", "python", "c/cpp", "html"}
 

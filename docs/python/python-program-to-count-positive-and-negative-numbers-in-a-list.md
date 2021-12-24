@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list1 = [2, -7, 5, -64, -14]
 Output: pos = 2, neg = 3
 
@@ -18,7 +18,7 @@ Output: pos = 3, neg = 1
 
 使用 for 循环迭代列表中的每个元素，并检查 num 是否> = 0，这是检查正数的条件。如果条件满足，则增加 pos_count，否则增加 neg_count。
 
-```
+```py
 # Python program to count positive and negative numbers in a List
 
 # list of numbers
@@ -42,7 +42,7 @@ print("Negative numbers in the list: ", neg_count)
 
 **输出:**
 
-```
+```py
 Positive numbers in the list:  4
 Negative numbers in the list:  3
 
@@ -50,7 +50,7 @@ Negative numbers in the list:  3
 
 **示例#2:** 使用 while 循环
 
-```
+```py
 # Python program to count positive and negative numbers in a List
 
 # list of numbers
@@ -77,7 +77,7 @@ print("Negative numbers in the list: ", neg_count)
 
 **输出:**
 
-```
+```py
 Positive numbers in the list:  2
 Negative numbers in the list:  5
 
@@ -85,7 +85,7 @@ Negative numbers in the list:  5
 
 **示例#3 :** 使用 [Python Lambda 表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)
 
-```
+```py
 # Python program to count positive
 # and negative numbers in a List
 
@@ -103,7 +103,7 @@ print("Negative numbers in the list: ", neg_count)
 
 **输出:**
 
-```
+```py
 Positive numbers in the list:  4
 Negative numbers in the list:  3
 
@@ -111,7 +111,7 @@ Negative numbers in the list:  3
 
 **示例#4 :** 使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
 
-```
+```py
 # Python program to count positive
 # and negative numbers in a List
 
@@ -127,7 +127,7 @@ print("Negative numbers in the list: ", len(list1) - pos_count)
 
 **输出:**
 
-```
+```py
 Positive numbers in the list:  1
 Negative numbers in the list:  6
 

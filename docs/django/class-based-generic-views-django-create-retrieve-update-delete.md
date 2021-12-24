@@ -29,7 +29,7 @@ Django 是一个基于 Python 的网络框架，允许您快速创建网络应�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -49,7 +49,7 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 ```
@@ -58,7 +58,7 @@ Python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from .models import GeeksModel
 
@@ -85,7 +85,7 @@ class GeeksForm(forms.ModelForm):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.http import HttpResponse
 
 def my_view(request):
@@ -98,7 +98,7 @@ def my_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.http import HttpResponse
 from django.views import View
 
@@ -112,7 +112,7 @@ class MyView(View):
 
 ## 蟒蛇 3
 
-```
+```py
 # urls.py
 from django.urls import path
 from myapp.views import MyView
@@ -130,7 +130,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.edit import CreateView
 from .models import GeeksModel
 
@@ -148,7 +148,7 @@ class GeeksCreate(CreateView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -162,7 +162,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Security token -->
@@ -189,7 +189,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.list import ListView
 from .models import GeeksModel
 
@@ -203,7 +203,7 @@ class GeeksList(ListView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -217,7 +217,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <ul>
     <!-- Iterate over object_list -->
     {% for object in object_list %}
@@ -245,7 +245,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.detail import DetailView
 
 from .models import GeeksModel
@@ -259,7 +259,7 @@ class GeeksDetailView(DetailView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -275,7 +275,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <h1>{{ object.title }}</h1>
 
 <p>{{ object.description }}</p>
@@ -293,7 +293,7 @@ UpdateView 指的是用一些额外的细节从数据库中更新表的特定实
 
 ## 蟒蛇 3
 
-```
+```py
 # import generic UpdateView
 from django.views.generic.edit import UpdateView
 
@@ -320,7 +320,7 @@ class GeeksUpdateView(UpdateView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -336,7 +336,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
@@ -356,7 +356,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import generic UpdateView
 from django.views.generic.edit import DeleteView
 
@@ -377,7 +377,7 @@ class GeeksDeleteView(DeleteView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -393,7 +393,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <form method="post">{% csrf_token %}
 
 <p>Are you sure you want to delete "{{ object }}"?</p>
@@ -414,7 +414,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import generic FormView
 from django.views.generic.edit import FormView
 
@@ -438,7 +438,7 @@ class GeeksFormView(FormView):
 
 ## 超文本标记语言
 
-```
+```py
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
@@ -450,7 +450,7 @@ class GeeksFormView(FormView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py

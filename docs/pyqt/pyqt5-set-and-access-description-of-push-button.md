@@ -8,7 +8,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > button.setAccessibleDescription(info)
 > button.accessibleDescription()
 > 
@@ -24,7 +24,7 @@
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 

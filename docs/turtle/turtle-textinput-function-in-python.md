@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.textinput(title, prompt)
 ```
 
@@ -30,7 +30,7 @@ turtle.textinput(title, prompt)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -47,7 +47,7 @@ turtle.textinput("title", "prompt")
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -62,6 +62,6 @@ print(name)
 
 ![](img/79357d493c79573565905d3fa160b89c.png)
 
-```
+```py
 Deepanshu Rustagi
 ```

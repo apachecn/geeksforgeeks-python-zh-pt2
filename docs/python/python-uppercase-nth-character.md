@@ -7,7 +7,7 @@
 **方法#1:使用字符串切片+ `upper()`**
 这个任务可以很容易地使用大写方法来执行，该方法对提供给它的字符进行大写，切片可以用来在大写的第 N 个字符之后添加剩余的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Uppercase Nth character
 # Using upper() + string slicing
@@ -31,7 +31,7 @@ print("The string after uppercasing Nth character : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The string after uppercasing Nth character : GeekSforGeeks
 

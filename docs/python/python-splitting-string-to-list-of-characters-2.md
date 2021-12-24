@@ -7,7 +7,7 @@
 **方法#1:使用`list()`**
 这是使用内置列表函数的内部实现来实现这一特定任务的最简单方法，该函数有助于将字符串分解为其字符组件。
 
-```
+```py
 # Python3 code to demonstrate
 # split string to character list
 # using list()
@@ -34,7 +34,7 @@ print ("The splitted character's list is : " + str(res))
 **方法 2:使用`map()`**
 地图功能也可以用来执行这个特定的任务。映射函数需要以*无*值作为第一个参数执行该任务，以目标字符串作为最后一个参数。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate
 # split string to character list
 # using map()

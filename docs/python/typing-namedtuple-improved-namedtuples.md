@@ -8,7 +8,7 @@ Python 3.6 中添加的**打字**模块的**命名类**是**集合**模块中命
 
 名称可以使用以下语法来创建:
 
-```
+```py
 class class_name(NamedTuple):
     field1: datatype
     field2: datatype
@@ -16,7 +16,7 @@ class class_name(NamedTuple):
 
 这相当于:
 
-```
+```py
 class_name = collections.namedtuple('class_name', ['field1', 'field2'])
 ```
 
@@ -24,7 +24,7 @@ class_name = collections.namedtuple('class_name', ['field1', 'field2'])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from typing import NamedTuple
 
@@ -45,7 +45,7 @@ print(website1)
 
 **输出:**
 
-```
+```py
 Website(name='GeeksforGeeks', url='geeksforgeeks.org', rating=5)
 ```
 
@@ -59,7 +59,7 @@ Website(name='GeeksforGeeks', url='geeksforgeeks.org', rating=5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from typing import NamedTuple
 
@@ -89,7 +89,7 @@ print(getattr(website1, 'rating'))
 
 **输出:**
 
-```
+```py
 The name of the website is : GeeksforGeeks
 The URL of the website is : geeksforgeeks.org
 The rating of the website is : 5
@@ -99,7 +99,7 @@ The rating of the website is : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from typing import NamedTuple
 
@@ -120,7 +120,7 @@ website1.name = "Google"
 
 **输出:**
 
-```
+```py
 AttributeError: can't set attribute
 
 ```

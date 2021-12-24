@@ -13,7 +13,7 @@
 
 **语法:**
 
-```
+```py
 # creating line edit widget
 line_edit = QLineEdit()
 
@@ -30,7 +30,7 @@ self.combo_box.setLineEdit(line_edit)
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

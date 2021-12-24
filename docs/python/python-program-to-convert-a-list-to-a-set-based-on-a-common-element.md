@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # utility function
 def common_set(test_set):
     for idx, val in enumerate(test_set):

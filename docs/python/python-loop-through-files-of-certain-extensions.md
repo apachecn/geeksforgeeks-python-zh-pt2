@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 import os
 

@@ -8,13 +8,13 @@
 
 SQLAlchemy 可通过 pip 安装包获得。
 
-```
+```py
 pip install sqlalchemy
 ```
 
 但是，如果您正在使用 flask，您可以使用它自己的 SQLAlchemy 实现。它可以通过以下方式安装–
 
-```
+```py
 pip install flask-sqlalchemy
 ```
 
@@ -32,7 +32,7 @@ pip install flask-sqlalchemy
 
 在运行 SQLAlchemy 查询之前，我们需要一个数据库表和一些记录。让我们创建一个名为 employees 的表，并在其中插入一些值。原始 SQL 查询由以下公式给出:
 
-```
+```py
 CREATE TABLE employees (
   emp_name VARCHAR(50),
   emp_email VARCHAR(50),
@@ -58,7 +58,7 @@ INSERT INTO employees VALUES
 
 ## 计算机编程语言
 
-```
+```py
 import sqlalchemy as db
 
 # Define the Engine (Connection Object)

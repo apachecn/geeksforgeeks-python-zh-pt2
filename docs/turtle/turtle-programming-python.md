@@ -41,7 +41,7 @@
 
 所以如上所述，在我们可以使用海龟之前，我们需要导入它。我们将其导入为:
 
-```
+```py
 from turtle import *
 # or
 import turtle
@@ -49,7 +49,7 @@ import turtle
 
 在导入海龟库并使所有海龟功能对我们可用后，我们需要创建一个新的画板(窗口)和一只海龟。让我们称窗户为 wn，乌龟为 skk。所以我们编码为:
 
-```
+```py
 wn = turtle.Screen()
 wn.bgcolor("light green")
 wn.title("Turtle")
@@ -58,13 +58,13 @@ skk = turtle.Turtle()
 
 现在我们已经创建了窗口和乌龟，我们需要移动乌龟。为了在 skk 面对的方向上向前移动 100 个像素，我们编码:
 
-```
+```py
 skk.forward(100)
 ```
 
 我们已经向前移动了 skk 100 像素，太棒了！现在我们用 done()函数完成程序，我们完成了！
 
-```
+```py
 turtle.done()
 ```
 
@@ -74,7 +74,7 @@ turtle.done()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to draw square
 # using Turtle Programming
 import turtle
@@ -95,7 +95,7 @@ turtle.done()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to draw star
 # using Turtle Programming
 import turtle
@@ -119,7 +119,7 @@ turtle.done()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to draw hexagon
 # using Turtle Programming
 import turtle
@@ -149,7 +149,7 @@ turtle.done()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to draw
 # Spiral Square Outside In and Inside Out
 # using Turtle Programming
@@ -177,7 +177,7 @@ sqrfunc(26)
 
 ## 计算机编程语言
 
-```
+```py
 import turtle  #Inside_Out
 wn = turtle.Screen()
 wn.bgcolor("light green")
@@ -208,7 +208,7 @@ https://www.youtube.com/watch?v=QPf
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to user input pattern
 # using Turtle Programming
 import turtle   #Outside_In
@@ -254,7 +254,7 @@ turtle.bye()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to draw
 # Spiral  Helix Pattern
 # using Turtle Programming
@@ -277,7 +277,7 @@ turtle.exitonclick()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to draw
 # Rainbow Benzene
 # using Turtle Programming

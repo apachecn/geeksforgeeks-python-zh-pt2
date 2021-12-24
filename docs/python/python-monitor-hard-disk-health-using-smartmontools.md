@@ -14,7 +14,7 @@
 
 ## 安装–
 
-```
+```py
 sudo pip3 install pandas
 sudo apt-get install smartmontools 
 ```
@@ -25,7 +25,7 @@ sudo apt-get install smartmontools
 
 要检查您的设备是否支持 SMART 监控，并获取设备型号、容量、序列号等其他信息，我们使用以下命令:
 
-```
+```py
 sudo smartctl -i /dev/sda
 ```
 
@@ -33,7 +33,7 @@ sudo smartctl -i /dev/sda
 
 如果未启用，以下命令将启用智能监控:
 
-```
+```py
 sudo smartctl -s on /dev/sda
 ```
 
@@ -43,7 +43,7 @@ sudo smartctl -s on /dev/sda
 
 要显示磁盘的整体运行状况，我们使用以下命令:
 
-```
+```py
 sudo smartctl -H /dev/sda
 ```
 
@@ -55,7 +55,7 @@ sudo smartctl -H /dev/sda
 
 **运行一个短测试:**
 
-```
+```py
 sudo smartctl --test=short /dev/sda
 ```
 
@@ -65,7 +65,7 @@ sudo smartctl --test=short /dev/sda
 
 **进行长时间测试:**
 
-```
+```py
 sudo smartctl --test=long /dev/sda
 ```
 
@@ -75,7 +75,7 @@ sudo smartctl --test=long /dev/sda
 
 **检查测试结果:**
 
-```
+```py
 sudo smartctl -l selftest /dev/sda
 ```
 
@@ -85,7 +85,7 @@ sudo smartctl -l selftest /dev/sda
 
 我们可以使用 Python 来自动化这个过程并生成一个报告。为此，我们将使用 Pandas 将结果存储在 excel 表格中，并使用 os 模块运行命令。
 
-```
+```py
 # importing libraries
 import os
 import pandas as pd

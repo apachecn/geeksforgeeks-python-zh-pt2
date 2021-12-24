@@ -6,7 +6,7 @@
 
 **注意:**当我们使用`setValue`方法将值设置到进度条时，百分比可能等于也可能不等于传入的值，这取决于进度条的范围。
 
-```
+```py
 percentage = ((value_passed - minimum_value)/(maximum_value - minimum_value))*100
 ```
 
@@ -20,7 +20,7 @@ percentage = ((value_passed - minimum_value)/(maximum_value - minimum_value))*10
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -7,7 +7,7 @@
 下面给出了几个解决任务的方法。
 **方法#1 使用集合。柜台**
 
-```
+```py
 # Python3 code to demonstrate
 # to check whether the list
 # K percent same or not
@@ -33,7 +33,7 @@ else:
 
 **输出:**
 
-```
+```py
 Initial list [1, 2, 3, 1, 1, 1, 1, 1, 3, 2] 
 True
 
@@ -41,7 +41,7 @@ True
 
 **方法 2:使用字典及其值**
 
-```
+```py
 # Python3 code to demonstrate
 # to check whether the list
 # K percent same or not
@@ -69,7 +69,7 @@ else:
 
 **输出:**
 
-```
+```py
 initial list [1, 2, 3, 1, 1, 1, 1, 1, 1, 1]
 True
 

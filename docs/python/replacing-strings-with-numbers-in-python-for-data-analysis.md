@@ -10,7 +10,7 @@
 
 示例:
 
-```
+```py
 Input : 
 ---------------------
     |  Name  |  Gender
@@ -34,7 +34,7 @@ Output :
 
 **方法 1:**
 
-```
+```py
 To create a dictionary containing two 
 elements with following key-value pair:
 Key       Value
@@ -45,7 +45,7 @@ female    2
 
 然后使用 for 循环迭代数据框的性别列，并在找到键的地方替换这些值。
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -74,7 +74,7 @@ print(data)
 
 输出:
 
-```
+```py
     |  Name  |  Gender
 ---------------------
  0    Ram        1
@@ -88,7 +88,7 @@ print(data)
 **方法 2:**
 方法 2 也类似，但不需要字典文件，代码行更少。在这种情况下，我们在内部迭代 DataFrame 的性别列，如果条件匹配，则更改值。
 
-```
+```py
 # import pandas library
 import pandas as pd
 
@@ -116,7 +116,7 @@ print(data)
 
 输出:
 
-```
+```py
     |  Name  |  Gender
 ---------------------
  0    Ram        1

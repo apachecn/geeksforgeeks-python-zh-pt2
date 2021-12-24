@@ -7,7 +7,7 @@
 **方法#1:使用 yield + isinstance() + loop**
 以上函数的组合可以用来执行这个任务。在本例中，我们使用 isinstance()执行密钥检测任务。yield 关键字用于添加中间结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sorted Nested Keys in Dictionary
 # Using yield + isinstance() + loop

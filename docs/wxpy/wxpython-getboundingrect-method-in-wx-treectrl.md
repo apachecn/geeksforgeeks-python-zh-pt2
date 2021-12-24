@@ -22,7 +22,7 @@ GetBoundingRect()接受两个参数 item 和 textOnly。
 
 ## 计算机编程语言
 
-```
+```py
 import wx 
 
 class MyTree(wx.TreeCtrl): 
@@ -76,7 +76,7 @@ if __name__ == '__main__': 
 
 **输出:**
 
-```
+```py
 (0, 0 , 10, 10)
 ```
 

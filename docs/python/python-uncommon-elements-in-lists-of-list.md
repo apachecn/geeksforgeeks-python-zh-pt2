@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # Uncommon elements in List
 # using naive method
@@ -38,7 +38,7 @@ print ("The uncommon of two lists is : " + str(res_list))
 
 **Output : **
 
-```
+```py
 The original list 1 : [[1, 2], [3, 4], [5, 6]]
 The original list 2 : [[3, 4], [5, 7], [1, 2]]
 The uncommon of two lists is : [[5, 6], [5, 7]]
@@ -49,7 +49,7 @@ The uncommon of two lists is : [[5, 6], [5, 7]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # Uncommon elements in Lists of List
 # using map() + set() + ^
@@ -73,7 +73,7 @@ print ("The uncommon of two lists is : " + str(res_list))
 
 **Output : **
 
-```
+```py
 The original list 1 : [[1, 2], [3, 4], [5, 6]]
 The original list 2 : [[3, 4], [5, 7], [1, 2]]
 The uncommon of two lists is : [[5, 6], [5, 7]]

@@ -9,7 +9,7 @@
 
     **示例–**
 
-    ```
+    ```py
     from django.db import models
 
     # Create your models here.
@@ -34,7 +34,7 @@
 
     **语法**
 
-    ```
+    ```py
     from django.db import models
 
     class ModelName(models.Model):
@@ -44,7 +44,7 @@
 
     要创建模型，在`geeks/models.py`中输入代码，
 
-    ```
+    ```py
     # import the standard Django Model
     # from built-in library
     from django.db import models
@@ -66,13 +66,13 @@
     每当我们创建一个模型，删除一个模型，或者更新我们项目的任何模型中的任何东西。我们需要运行两个命令`makemigrations`和`migrate`。makemigrates 基本上为预安装的应用程序(可以在 settings.py 中的已安装应用程序中查看)和您在已安装应用程序中添加的新创建的应用程序模型生成 SQL 命令，而 migration 则在数据库文件中执行这些 SQL 命令。
     所以当我们奔跑的时候，
 
-    ```
+    ```py
     Python manage.py makemigrations
     ```
 
     在创建表时创建上述模型的 SQL 查询，并且
 
-    ```
+    ```py
      Python manage.py migrate
     ```
 
@@ -84,7 +84,7 @@
 
     要在 Django admin 中渲染一个模型，我们需要修改`app/admin.py`。转到极客应用程序中的 admin.py 并输入以下代码。从 models.py 导入相应的模型，并将其注册到管理界面。
 
-    ```
+    ```py
     from django.contrib import admin 
 
     # Register your models here. 
@@ -101,14 +101,14 @@
 
     Django 允许我们使用一个名为 ORM(对象关系映射器)的数据库抽象 API 与它的数据库模型交互，即添加、删除、修改和查询对象。我们可以通过在项目目录中运行以下命令来访问 Django ORM。
 
-    ```
+    ```py
     python manage.py shell
     ```
 
     **添加对象**。
     要创建相册模型的对象并将其保存到数据库中，我们需要编写以下命令:
 
-    ```
+    ```py
     >>> a = GeeksModel(
              title = “GeeksForGeeks”,  
              description = “A description here”,
@@ -121,7 +121,7 @@
     **检索对象**
     要检索模型的所有对象，我们编写以下命令:
 
-    ```
+    ```py
     >>> GeeksModel.objects.all()
     <QuerySet [<GeeksModel: Divide>, <GeeksModel: Abbey Road>, <GeeksModel: Revolver>]>
 
@@ -130,7 +130,7 @@
     **修改现有对象**
     我们可以如下修改现有对象:
 
-    ```
+    ```py
     >>> a = GeeksModel.objects.get(id = 3)
     >>> a.title = "Pop"
     >>> a.save()
@@ -140,7 +140,7 @@
     **删除对象**
     要删除单个对象，我们需要编写以下命令:
 
-    ```
+    ```py
     >>> a = Album.objects.get(id = 2)
     >>> a.delete()
 
@@ -153,7 +153,7 @@
     Django 模型中的内置字段验证是所有 Django 字段预定义的默认验证。每个字段都带有来自 Django 验证器的内置验证。例如，IntegerField 附带了内置验证，它只能存储整数值以及特定范围内的整数值。
     在**极客** app 的`models.py`文件中输入以下代码。
 
-    ```
+    ```py
     from django.db import models
     from django.db.models import Model
     # Create your models here.

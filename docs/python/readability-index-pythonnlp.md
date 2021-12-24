@@ -30,7 +30,7 @@
 计算 3000 个简单单词中不在戴尔-查尔单词列表中的单词的百分比。
 计算这个方程
 
-```
+```py
  Raw score = 0.1579*(PDW) + 0.0496*(ASL) + 3.6365
 Here,
 PDW = Percentage of difficult words not on the Dale–Chall word list.
@@ -39,14 +39,14 @@ ASL = Average sentence length
 
 **喷雾公式**
 
-```
+```py
 Grade level= 0.4 * ( (average sentence length) + (percentage of Hard Words) )
 Here, Hard Words = words with more than two syllables.
 ```
 
 **烟雾配方**
 
-```
+```py
 SMOG grading = 3 + √(polysyllable count).
 Here, polysyllable count = number of words of more than two syllables in a 
 sample of 30 sentences.
@@ -54,7 +54,7 @@ sample of 30 sentences.
 
 **肉配方**
 
-```
+```py
 Reading Ease score = 206.835 - (1.015 × ASL) - (84.6 × ASW)
 Here,
 ASL = average sentence length (number of words divided by number of sentences)
@@ -74,7 +74,7 @@ ASW = average word length in syllables (number of syllables divided by number of
 
 ## 计算机编程语言
 
-```
+```py
 import spacy
 from textstat.textstat import textstatistics,legacy_round
 

@@ -21,7 +21,7 @@ Django 表单的 Django 自定义字段验证说明
 
  **## 蟒 3
 
-```
+```py
 from django import forms
 from django.core import validators
 
@@ -42,7 +42,7 @@ class StuForm(forms.Form):
 
 ## **蟒 3**
 
- **```
+ ```py
 from django import forms
 
 def start_with_s(value):
@@ -64,7 +64,7 @@ class StuForm(forms.Form):
 
  **## 创建验证器
 
-```
+```py
 from django import forms
 
 def mobile_no(value):

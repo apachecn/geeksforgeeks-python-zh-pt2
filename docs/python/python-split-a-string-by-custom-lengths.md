@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multilength String Split
 # Using loop + slicing
@@ -45,7 +45,7 @@ print("Strings after splitting : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Strings after splitting : ['geeks', 'for', 'ge', 'eks']
 
@@ -57,7 +57,7 @@ Strings after splitting : ['geeks', 'for', 'ge', 'eks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multilength String Split
 # Using join() + list comprehension + next()
@@ -82,7 +82,7 @@ print("Strings after splitting : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Strings after splitting : ['geeks', 'for', 'ge', 'eks']
 

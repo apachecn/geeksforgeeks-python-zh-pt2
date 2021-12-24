@@ -8,13 +8,13 @@
 
 **菜单**是任何 GUI 的重要组成部分。菜单的一个常见用途是提供对各种操作的便捷访问，如保存或打开文件、退出程序或操作数据。顶层菜单显示在根窗口或任何其他顶层窗口的标题栏下。
 
-```
+```py
 menu = Menu(master, **options)
 ```
 
 下面是实现:
 
-```
+```py
 # importing only  those functions 
 # which are needed
 from tkinter import * 

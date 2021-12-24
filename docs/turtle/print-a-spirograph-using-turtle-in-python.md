@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the turtle library for
 # drawing the required curve
 import turtle as tt

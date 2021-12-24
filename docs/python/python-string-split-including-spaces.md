@@ -8,7 +8,7 @@
 
 这种操作可以使用拆分功能和列表理解来执行。不省略空格的主要区别在于，我们特别在每个元素之后添加了在过程中可能省略的空格。
 
-```
+```py
 # Python3 code to demonstrate
 # String Split including spaces
 # using list comprehension + split()
@@ -29,7 +29,7 @@ print("The list without omitting spaces : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG is Best
 The list without omitting spaces : ['GfG', ' ', 'is', ' ', 'Best']
 
@@ -39,7 +39,7 @@ The list without omitting spaces : ['GfG', ' ', 'is', ' ', 'Best']
 
 这个特殊的任务也可以使用上述 3 个功能的组合来执行。zip 函数可用于绑定逻辑，chain 和 cycle 函数执行在适当位置插入空间的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # String Split including spaces
 # using zip() + chain() + cycle()
@@ -61,7 +61,7 @@ print("The list without omitting spaces : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : GfG is Best
 The list without omitting spaces : ['GfG', ' ', 'is', ' ', 'Best']
 

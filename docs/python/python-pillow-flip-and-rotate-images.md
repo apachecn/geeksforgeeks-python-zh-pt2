@@ -28,7 +28,7 @@ Python 枕头或 PIL 是提供图像编辑和操作功能的 Python 库。其中
 
 ## 计算机编程语言
 
-```
+```py
 from PIL import Image
 
 img = Image.open('geek.jpg')

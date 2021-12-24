@@ -8,7 +8,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > **文本输入:**文本输入小部件为可编辑的纯文本提供了一个框。支持 Unicode、多行、光标导航、选择和剪贴板功能。
 > **按钮:**按钮是带有相关动作的标签，当按钮被按下(或在点击/触摸后释放)时会触发这些动作。我们可以在按钮后面添加功能，并为按钮设置样式。
 
-```
+```py
 Basic Approach -
 
 1) import kivy
@@ -33,7 +33,7 @@ Basic Approach -
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to Show how to create textinput 
 # with button in kivy using .kv file
 
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 ## .kv file implementation of the App class
 
 # Creating the root widget

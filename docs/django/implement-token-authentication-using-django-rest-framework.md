@@ -10,25 +10,25 @@
 
 *   **姜戈:**
 
-```
+```py
 pip install django
 ```
 
 *   **脆皮 _ 形态:**
 
-```
+```py
  pip install --upgrade django-crispy-forms 
 ```
 
 *   **django rest_framework :**
 
-```
+```py
 pip install djangorestframework
 ```
 
 *   **HTTPie :**
 
-```
+```py
 pip install httpie
 ```
 
@@ -39,13 +39,13 @@ pip install httpie
 转到给定项目
 中的 ***用户*** 文件夹，创建一个 api 文件夹来保存所有 api 相关文件
 
-```
+```py
  cd user && mkdir api 
 ```
 
 现在，在 api 文件夹中创建*用户/API/序列化程序. py* 和*用户/API/视图集. py*
 
-```
+```py
  cd user/api && touch serializers.py viewsets.py 
 ```
 
@@ -55,7 +55,7 @@ pip install httpie
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import serializers
 from django.contrib.auth.models import User
 
@@ -70,7 +70,7 @@ class userSerializers(serializers.ModelSerializer):
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import viewsets
 from .serializers import userSerializers
 from django.contrib.auth.models import User
@@ -87,7 +87,7 @@ class userviewsets(viewsets.ModelViewSet):
 
 如下编辑 rest_framework 设置
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
                'rest_framework.authentication.TokenAuthentication',
@@ -104,7 +104,7 @@ REST_FRAMEWORK = {
 **创建路由器**
 转到*项目/* 并创建路由器. py
 
-```
+```py
  cd project/ && touch router.py 
 ```
 
@@ -112,7 +112,7 @@ REST_FRAMEWORK = {
 
 ## 蟒蛇 3
 
-```
+```py
 from user.api.viewsets import userviewsets
 from rest_framework import routers
 
@@ -127,7 +127,7 @@ router.register('user', userviewsets, base_name ='user_api')
 
 ## 蟒蛇 3
 
-```
+```py
 from .router import router
 from rest_framework.authtoken import views
 ```
@@ -136,7 +136,7 @@ from rest_framework.authtoken import views
 
 ## 蟒蛇 3
 
-```
+```py
 path('api/', include(router.urls)),
 path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
 ```
@@ -146,19 +146,19 @@ path('api-token-auth/', views.obtain_auth_token, name='api-token-auth'),
 **测试 API**
 首先，迁移模型
 
-```
+```py
 python manage.py migrate 
 ```
 
 使用以下命令启动服务器
 
-```
+```py
 python manage.py runserver
 ```
 
 打开另一个终端，让我们使用 HTTP POST 请求令牌来检查我们的 API，并粘贴用户名和密码。
 
-```
+```py
 http POST http://localhost:8081/api-token-auth/ username='your_username' password="your_password"
 ```
 
@@ -166,7 +166,7 @@ http POST http://localhost:8081/api-token-auth/ username='your_username' passwor
 
 现在使用这个令牌从 API 获取数据，放置您的 API 令牌
 
-```
+```py
 http http://localhost:8081/api/user/ "Authorization: Token API_KEY_HERE"
 ```
 

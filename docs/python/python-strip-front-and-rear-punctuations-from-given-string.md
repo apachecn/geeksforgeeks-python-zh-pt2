@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strip Punctuations from String 
 # Using loop + punctuation
@@ -45,7 +45,7 @@ print("The stripped string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : %$Gfg is b!!est(*^&*
 The stripped string : Gfg is b!!est
 
@@ -57,7 +57,7 @@ The stripped string : Gfg is b!!est
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strip Punctuations from String 
 # Using strip() + split() + join()
@@ -78,7 +78,7 @@ print("The stripped string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : %$Gfg is b!!est(*^&*
 The stripped string : Gfg is b!!est
 

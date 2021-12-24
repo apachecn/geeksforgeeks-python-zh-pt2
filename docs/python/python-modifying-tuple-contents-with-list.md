@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 在该方法中，我们只需取元组列表的第一个元素和对应索引处的元素，并使用 zip 函数将它们压缩在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # modifying tuple elements
 # using zip() + list comprehension
@@ -30,7 +30,7 @@ print("The modified resultant list of tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [('Geeks', 1), ('for', 2), ('Geeks', 3)]
 The original list 2 : [4, 5, 6]
 The modified resultant list of tuple : [('Geeks', 4), ('for', 5), ('Geeks', 6)]

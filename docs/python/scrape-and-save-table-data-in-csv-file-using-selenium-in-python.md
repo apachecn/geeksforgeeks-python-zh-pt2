@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait 
@@ -30,7 +30,7 @@ import csv
 
 ## 蟒蛇 3
 
-```
+```py
 driver = webdriver.Chrome(
   executable_path='/usr/lib/chromium-browser/chromedriver') 
 driver.get('https://www.geeksforgeeks.org/selenium-python-tutorial/')
@@ -40,7 +40,7 @@ driver.get('https://www.geeksforgeeks.org/selenium-python-tutorial/')
 
 ## 蟒蛇 3
 
-```
+```py
 driver.implicitly_wait(10)
 driver.maximize_window()
 ```
@@ -49,7 +49,7 @@ driver.maximize_window()
 
 ## 蟒蛇 3
 
-```
+```py
 while(1): 
 
     try:
@@ -73,7 +73,7 @@ while(1): 
 
 ## 蟒蛇 3
 
-```
+```py
 df.to_csv('table.csv')
 driver.close()
 ```
@@ -82,7 +82,7 @@ driver.close()
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait 

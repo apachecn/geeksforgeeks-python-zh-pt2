@@ -7,7 +7,7 @@
 **方法一:使用`re.findall() + index()`**
 这是我们可以找到单词存在的位置的方法之一。在本文中，我们使用 findall()查找子字符串模式，并使用 index()查找其位置。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Word location in String
 # Using findall() + index()
@@ -36,7 +36,7 @@ print("The location of word is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The location of word is : 3
 

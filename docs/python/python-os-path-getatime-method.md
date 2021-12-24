@@ -17,7 +17,7 @@
 
 **代码#1:** 使用 os.path.getatime()方法
 
-```
+```py
 # Python program to explain os.path.getatime() method 
 
 # importing os and time module 
@@ -42,7 +42,7 @@ print("Last access time(Local time):", local_time)
 
 **Output:**
 
-```
+```py
 Last access time since the epoch: 1558447897.0442736
 Last access time (Local time): Tue May 21 19:41:37 2019
 
@@ -50,7 +50,7 @@ Last access time (Local time): Tue May 21 19:41:37 2019
 
 **代码#2:** 使用 os.path.getatime()方法时处理错误
 
-```
+```py
 # Python program to explain os.path.getatime() method 
 
 # importing os, time and sys module 
@@ -87,7 +87,7 @@ print("Last access time(Local time):", local_time)
 
 **Output:**
 
-```
+```py
 Path '/home/User/Documents/file2.txt' does not exists or is inaccessible
 
 ```

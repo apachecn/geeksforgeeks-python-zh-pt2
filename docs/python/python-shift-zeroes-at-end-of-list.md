@@ -8,7 +8,7 @@
 
 在这种方法中，我们分两步执行换档操作。在第一步中，我们得到所有需要在前端和末端得到的值，我们只需将零推到末端。isinstance 方法用于过滤掉布尔假实体。
 
-```
+```py
 # Python3 code to demonstrate
 # Shift zeroes at end of list
 # using list comprehension + isinstance()
@@ -38,7 +38,7 @@ print("The list after shifting 0's to end : " + str(res))
 
 这个方法类似于上面的方法，唯一的修改是为了减少步骤的数量，列表切片被用来附加 0 以在仅仅 1 个步骤中执行整个任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Shift zeroes at end of list
 # using list comprehension + isinstance() + list slicing

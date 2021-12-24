@@ -7,7 +7,7 @@
 **方法:使用`zip() + shuffle()` + `*`运算符**
 在该方法中，该任务分三步执行。首先，使用`zip()`将列表压缩在一起。下一步是使用内置的`shuffle()`执行无序播放，最后一步是使用*运算符将列表解压缩为单独的列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Shuffle two lists with same order
 # Using zip() + * operator + shuffle()
@@ -34,7 +34,7 @@ print("List 2 after shuffle : " + str(list(res2)))
 
 **Output :**
 
-```
+```py
 
 The original list 1 : [6, 4, 8, 9, 10]
 The original list 2 : [1, 2, 3, 4, 5]

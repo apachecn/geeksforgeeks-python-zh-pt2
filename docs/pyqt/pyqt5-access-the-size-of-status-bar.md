@@ -10,7 +10,7 @@
 > **- >** 如果设置了状态栏的最小尺寸，它将返回最小尺寸。
 > **- >** 如果设置了状态栏的最大尺寸，它将返回最小尺寸。
 
-```
+```py
 Syntax : self.statusBar().size()
 
 Argument : It takes no argument.
@@ -20,7 +20,7 @@ Return : It returns QSize object.
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 
@@ -78,7 +78,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.QSize(400, 60)
 ```
 

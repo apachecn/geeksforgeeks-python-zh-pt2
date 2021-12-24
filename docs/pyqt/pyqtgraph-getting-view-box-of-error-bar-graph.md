@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 创建一个绘图窗口，并在上面创建一个误差条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -24,7 +24,7 @@ error = pg.ErrorBarItem(x=x, y=y, top=top, bottom=bottom, beam=0.5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

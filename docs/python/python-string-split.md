@@ -15,7 +15,7 @@
 
 **示例 1:** 演示 split()函数工作原理的示例
 
-```
+```py
 text = 'geeks for geeks'
 
 # Splits at space
@@ -39,7 +39,7 @@ print(word.split('t'))
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ['geeks', ' for', ' geeks']
 ['geeks', 'for', 'geeks']
@@ -48,7 +48,7 @@ print(word.split('t'))
 
 **示例 2:** 演示当指定 maxsplit 时 split()函数如何工作的示例
 
-```
+```py
 word = 'geeks, for, geeks, pawan'
 
 # maxsplit: 0
@@ -63,7 +63,7 @@ print(word.split(', ', 1))
 
 **输出:**
 
-```
+```py
 ['geeks, for, geeks, pawan']
 ['geeks', 'for', 'geeks', 'pawan']
 ['geeks', 'for, geeks, pawan']

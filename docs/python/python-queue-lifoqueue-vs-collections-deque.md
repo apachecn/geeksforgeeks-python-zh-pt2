@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import queue
 
@@ -46,7 +46,7 @@ print("Empty: ", LIFOq.empty())
 
 **输出:**
 
-```
+```py
 0
 Full:  True
 Size:  3
@@ -62,7 +62,7 @@ Python 中的[**collections . de Queue:**](https://www.geeksforgeeks.org/deque-i
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import collections
 
@@ -100,7 +100,7 @@ print("Queue:", Deque)
 
 **输出:**
 
-```
+```py
 The deque after appending at right is: deque([10, 20, 30, 0])
 The deque after appending at left is:  deque([100, 10, 20, 30, 0])
 The deque after deleting from right is: deque([100, 10, 20, 30])

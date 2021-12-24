@@ -8,7 +8,7 @@
 
 可以使用上述工具执行此任务。在这种情况下，我们只是将字符串相乘，直到它变得大于或等于 K，然后使用列表切片方法省略额外字符串的切片。
 
-```
+```py
 # Python3 code to demonstrate
 # Repeat string till K
 # using list slicing and // operator
@@ -32,7 +32,7 @@ print("String after performing repeatition : " + res)
 
 **Output :**
 
-```
+```py
 The original string : GeeksforGeeks
 String after performing repeatition : GeeksforGeeksGeeksforGeeksGeek
 
@@ -42,7 +42,7 @@ String after performing repeatition : GeeksforGeeksGeeksforGeeksGeek
 
 上述方法中应用的除法可以在该方法中用`divmod` 函数代替，这以 40%的性能下降为代价提高了代码的可读性。
 
-```
+```py
 # Python3 code to demonstrate
 # Repeat string till K
 # using divmod() + list slicing
@@ -67,7 +67,7 @@ print("String after performing repeatition : " + res)
 
 **Output :**
 
-```
+```py
 The original string : GeeksforGeeks
 String after performing repeatition : GeeksforGeeksGeeksforGeeksGeek
 

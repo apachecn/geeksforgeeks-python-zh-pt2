@@ -19,14 +19,14 @@
 
 ****Python 示例:****
 
-```
+```py
 print("GEEKSFORGEEKS")
 print('My first Python program') 
 ```
 
 ****输出:****
 
-```
+```py
 GEEKSFORGEEKS
 My first Python program 
 ```
@@ -43,13 +43,13 @@ My first Python program
 
 ****红宝石示例:****
 
-```
+```py
 puts "GEEKSFORGEEKS \n My first Ruby program" 
 ```
 
 ****输出:****
 
-```
+```py
 GEEKSFORGEEKS
 My first Ruby program 
 ```
@@ -64,7 +64,7 @@ My first Ruby program
 
 ****戈朗示例:****
 
-```
+```py
 package main  
 import "fmt"
 func main() {
@@ -75,7 +75,7 @@ func main() {
 
 ****输出:****
 
-```
+```py
 GEEKSFORGEEKS
 My first Golang program 
 ```
@@ -90,7 +90,7 @@ My first Golang program
 
 ****PHP 示例:****
 
-```
+```py
 ?php   
 echo "Welcome to GeeksforGeeks\n"; 
 echo "My first php program";
@@ -99,7 +99,7 @@ echo "My first php program";
 
 ****输出:****
 
-```
+```py
 GEEKSFORGEEKS
 My First PHP Program 
 ```
@@ -114,7 +114,7 @@ My First PHP Program
 
 ****node . js 示例:****
 
-```
+```py
 var a ="GEEKSFORGEEKS" ; 
 console.log(typeof a);  
 a = "My first Node.js program"; 
@@ -123,7 +123,7 @@ console.log(typeof a);
 
 ****输出:****
 
-```
+```py
 string
 string 
 ```

@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate 
 # Sum elements matching condition
 # using loop
@@ -34,7 +34,7 @@ print ("The sum of odd elements: " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The sum of odd elements: 25
 ```
@@ -44,7 +44,7 @@ The sum of odd elements: 25
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate 
 # Sum elements matching condition
 # using sum() + generator expression
@@ -66,7 +66,7 @@ print ("The sum of odd elements: " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9]
 The sum of odd elements: 25
 ```

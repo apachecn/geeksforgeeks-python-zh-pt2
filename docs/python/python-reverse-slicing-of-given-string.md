@@ -7,7 +7,7 @@
 **方法#1:使用`join() + reversed()`**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们在内存中反转字符串，并加入切片的字符数，以便从后端返回切片的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Slicing string 
 # Using join() + reversed()
@@ -31,7 +31,7 @@ print("The reversed sliced string is : " + res)
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The reversed sliced string is : ofskeeG
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [4, 5, 1, 2, 9] 
         N = 2
 Output :  [9, 5]
@@ -19,7 +19,7 @@ Output : [81, 96, 52]
 
 一个简单的解决方案遍历给定的列表 N 次。在每次遍历中，找到最大值，将其添加到结果中，并将其从列表中移除。下面是实现:
 
-```
+```py
 # Python program to find N largest
 # element from given list of integers
 
@@ -49,14 +49,14 @@ Nmaxelements(list1, N)
 
 输出:
 
-```
+```py
 [85, 41]
 ```
 
 时间复杂度:O(N * size)，其中 size 是给定列表的大小。
 方法二:
 
-```
+```py
 # Python program to find N largest
 # element from given list of integers
 
@@ -69,7 +69,7 @@ print(l[-n:])
 
 输出:
 
-```
+```py
 [-45, 100, 200, 298, 900, 1000, 3579]
 Find the N largest element: 4
 [298, 900, 1000, 3579]

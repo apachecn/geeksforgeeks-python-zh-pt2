@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `max()`**
 这是我们执行这个任务的蛮力方法。在这种情况下，我们只需在新列表中添加指定范围内的元素。然后 max()用于计算最大值。
 
-```
+```py
 # Python3 code to demonstrate 
 # Maximum element in Cropped List
 # using loop + max()
@@ -34,7 +34,7 @@ print ("The maximum element in range is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [2, 3, 5, 7, 9, 10, 8, 6]
 The maximum element in range is : 9
 

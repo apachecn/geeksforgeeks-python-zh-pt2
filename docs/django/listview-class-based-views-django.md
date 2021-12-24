@@ -20,7 +20,7 @@
 
 在你有一个项目和一个应用程序后，让我们创建一个模型，我们将通过我们的视图创建实例。在`geeks/models.py`中，
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -40,7 +40,7 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 
@@ -48,13 +48,13 @@ Python manage.py migrate
 
 现在让我们使用 shell 创建这个模型的一些实例，运行 form bash，
 
-```
+```py
 Python manage.py shell
 ```
 
 输入以下命令
 
-```
+```py
 >>> from geeks.models import GeeksModel
 >>> GeeksModel.objects.create(
                        title="title1",
@@ -74,7 +74,7 @@ Python manage.py shell
 
 基于类的视图自动设置从 A 到 z 的所有内容。只需指定为哪个模型创建列表视图，然后基于类的列表视图将自动尝试在`app_name/modelname_list.html`中找到模板。在我们的例子中是`geeks/templates/geeks/geeksmodel_list.html`。让我们创建基于类的视图。在`geeks/views.py`中，
 
-```
+```py
 from django.views.generic.list import ListView
 from .models import GeeksModel
 
@@ -86,7 +86,7 @@ class GeeksList(ListView):
 
 现在创建一个 url 路径来映射视图。在极客/URL . py 中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -98,7 +98,7 @@ urlpatterns = [
 
 在`templates/geeks/geeksmodel_list.html`创建模板，
 
-```
+```py
 <ul>
     <!-- Iterate over object_list -->
     {% for object in object_list %}
@@ -122,7 +122,7 @@ urlpatterns = [
 默认情况下，列表视图将按照创建的顺序显示表的所有实例。如果要修改这些实例的顺序或顺序，需要重写 get_queryset 方法。
 在`geeks/views.py`中，
 
-```
+```py
 from django.views.generic.list import ListView
 from .models import GeeksModel
 

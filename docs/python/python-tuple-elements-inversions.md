@@ -7,7 +7,7 @@
 **方法#1:使用`map() + list() + tuple() + lambda + "~" operator`**
 以上功能可以组合执行此任务。我们可以使用 map()来累加 lambda 函数指定的反转逻辑的结果。list()和 tuple()函数用于执行相互转换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple elements inversions
 # Using map() + list() + tuple() + lambda + "~" operator 
@@ -28,7 +28,7 @@ print("The Bitwise Inversions of tuple elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple is : (7, 8, 9, 1, 10, 7)
 The Bitwise Inversions of tuple elements are : (-8, -9, -10, -2, -11, -8)
 

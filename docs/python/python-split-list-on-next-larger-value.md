@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split List on next larger value
 # Using loop
@@ -49,7 +49,7 @@ print("Split List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 2, 3, 7, 5, 9, 3, 4, 11, 2]
 Split List : [[4, 2, 3], [7, 5], [9, 3, 4], [11, 2]]
 

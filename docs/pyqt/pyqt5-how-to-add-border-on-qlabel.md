@@ -14,7 +14,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 

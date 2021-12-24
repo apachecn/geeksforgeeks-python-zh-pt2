@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+循环**
 这个任务很容易通过循环来执行，因此简写为第一个从这个任务开始的方法。迭代索引列表以从列表中获取相应的元素到新列表中是执行这个任务的强力方法。执行产品的任务由循环执行。
 
-```
+```py
 # Python3 code to demonstrate 
 # Multiplying Selective Values
 # using list comprehension + loop
@@ -38,7 +38,7 @@ print ("Resultant product : " + str(res))
 
 **Output :**
 
-```
+```py
 Original list : [9, 4, 5, 8, 10, 14]
 Original index list : [1, 3, 4]
 Resultant product : 320

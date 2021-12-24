@@ -4,7 +4,7 @@
 
 有时，在使用 Python 字符串时，我们可能会遇到这样的问题，即我们需要执行由三重引号构造的字符串串联。这发生在我们有多行字符串的情况下。这在许多领域都有应用。让我们讨论执行这项任务的特定方式。
 
-```
+```py
 Input : test_str1 = """mango
 is"""
 test_str2 = """good
@@ -26,7 +26,7 @@ Output : Gold important
 **方法:使用`splitlines() + strip() + join()`**
 以上功能的组合可以用来执行此任务。在本例中，我们使用`splitlines()`执行行分割的任务。使用`strip()`和`join()`完成串联任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Triple quote String concatenation
 # Using splitlines() + join() + strip()
@@ -58,7 +58,7 @@ print("String after concatenation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string 1 is : gfg
 is
 The original string 2 is : best

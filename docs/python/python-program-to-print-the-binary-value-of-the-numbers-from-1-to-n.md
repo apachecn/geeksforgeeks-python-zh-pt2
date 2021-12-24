@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code to print binary values of first 5 numbers
 
 # recursive function
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # code to print binary values of first 5 numbers
 
 # recursive function
@@ -100,7 +100,7 @@ bin()是一个内置的 python 函数，可以将作为输入给它的任何十�
 
 ## 蟒蛇 3
 
-```
+```py
 # code to print first 5 binary number using builtIn library
 
 def Print_Binary_Number(num):

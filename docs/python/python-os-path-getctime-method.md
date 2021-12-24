@@ -18,7 +18,7 @@ Python 中的`***os.path.getctime()***`方法用于获取指定路径的系统 *
 
 **代码#1:** 使用 os.path.getctime()方法
 
-```
+```py
 # Python program to explain os.path.getctime() method 
 
 # importing os and time module 
@@ -42,7 +42,7 @@ print("ctime (Local time):", local_time)
 
 **Output:**
 
-```
+```py
 ctime since the epoch: 1558447897.3122742
 ctime (Local time): Tue May 21 19:41:37 2019
 
@@ -50,7 +50,7 @@ ctime (Local time): Tue May 21 19:41:37 2019
 
 **代码#2:** 使用 os.path.getctime()方法时处理错误
 
-```
+```py
 # Python program to explain os.path.getctime() method 
 
 # importing os, time and sys module 
@@ -86,7 +86,7 @@ print("ctime(Local time):", local_time)
 
 **Output:**
 
-```
+```py
 Path '/home/User/Documents/file2.txt' does not exists or is inaccessible
 
 ```

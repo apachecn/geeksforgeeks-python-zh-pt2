@@ -28,7 +28,7 @@ tkinter Python 库用于创建 GUI。有两个选项可以玩游戏，与系统�
 
 ## 蟒蛇 3
 
-```
+```py
 # Tic Tac Toe game with GUI
 # using tkinter
 

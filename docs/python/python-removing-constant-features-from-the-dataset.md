@@ -22,7 +22,7 @@
 
 **编码:创建上述数据的数据框**
 
-```
+```py
 # Import pandas to create DataFrame
 import pandas as pd
 
@@ -36,7 +36,7 @@ data = pd.DataFrame({"Portal":['GeeksforGeeks', 'GeeksforGeeks', 'GeeksforGeeks'
 
 **编码:将分类数据转换为数值数据**
 
-```
+```py
 # import ordinal encoder from sklearn
 from sklearn.preprocessing import OrdinalEncoder
 ord_enc = OrdinalEncoder()
@@ -47,7 +47,7 @@ data[["Portal","Article's_category"]] = ord_enc.fit_transform(data[["Portal","Ar
 
 **代码:将数据拟合到变量阈值。**
 
-```
+```py
 # import VarianceThreshold
 from sklearn.feature_selection import VarianceThreshold
 var_threshold = VarianceThreshold(threshold=0)   # threshold = 0 for constant
@@ -61,13 +61,13 @@ print(var_threshold.variances_)
 
 **输出:不同特征的方差:**
 
-```
+```py
 [0.00000000e+00 6.17283951e-01 1.76746269e+07]
 ```
 
 **编码:转换数据**
 
-```
+```py
 print(var_threshold.transform(data))
 print('*' * 10,"Separator",'*' * 10)
 
@@ -78,7 +78,7 @@ print("Shape after transformation: ", var_threshold.transform(data).shape)
 
 **输出:**
 
-```
+```py
 [[2.000e+00 5.450e+02]
  [0.000e+00 1.505e+03]
  [0.000e+00 1.157e+03]

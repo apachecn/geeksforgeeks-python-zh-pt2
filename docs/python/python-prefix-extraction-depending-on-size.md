@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个任务的蛮力方式，其中我们使用循环根据大小提取字符串。
 
-```
+```py
 # Python3 code to demonstrate 
 # Prefix extraction depending on size
 # using loop
@@ -37,7 +37,7 @@ print ("List after prefix extraction : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best', 'for', 'geeks']
 List after prefix extraction : ['ge', 'be', 'ge']
 

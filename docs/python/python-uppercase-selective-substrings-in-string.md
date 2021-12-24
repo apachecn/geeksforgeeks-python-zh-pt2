@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Selective Substrings in String
 # Using split() + join() + loop
@@ -46,7 +46,7 @@ print("The String after uppercasing : " + str(test_str)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for cs
 The String after uppercasing : GEEKSFORGEEKS is BEST for CS
 
@@ -58,7 +58,7 @@ The String after uppercasing : GEEKSFORGEEKS is BEST for CS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Selective Substrings in String
 # Using re.sub() + upper()
@@ -83,7 +83,7 @@ print("The String after uppercasing : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for cs
 The String after uppercasing : GEEKSFORGEEKS is BEST for CS
 

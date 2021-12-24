@@ -7,7 +7,7 @@
 **方法:使用反向字典+循环**
 这是解决这个这个问题的一种方法。在这种情况下，我们构建反向字典，然后运行循环来检查重复项并执行删除。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Resolve Transitivity in Dictionary
 # Using reverse dictionary + loop
@@ -33,7 +33,7 @@ print("The resolved dictionary : " + str(test_dict)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {3: 5, 4: 'd', 7: 'k', 'b': 4, 'l': 7, 'a': 3}
 The resolved dictionary : {'b': 'd', 'l': 'k', 'a': 5}
 

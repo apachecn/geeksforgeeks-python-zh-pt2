@@ -8,7 +8,7 @@
 
 上述方法的组合用于执行这一特定任务。在这里，我们只是对使用`itemgetter()`表示并使用`items().`访问的字典值进行反向排序
 
-```
+```py
 # Python3 code to demonstrate working of
 # N largest values in dictionary
 # Using sorted() + itemgetter() + items()
@@ -33,7 +33,7 @@ print("The top N value pairs are  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 6, 'gfg': 1, 'geeks': 3, 'for': 7, 'is': 4}
 The top N value pairs are  {'for': 7, 'is': 4, 'best': 6}
 
@@ -42,7 +42,7 @@ The top N value pairs are  {'for': 7, 'is': 4, 'best': 6}
 **方法 2:使用`nlargest()`**
 可以使用`nlargest`功能执行该任务。这是`heapq`库中内置的功能，内部执行该任务，外部也可以使用。缺点是只打印键而不打印值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # N largest values in dictionary
 # Using nlargest
@@ -67,7 +67,7 @@ print("The top N value pairs are  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 1, 'best': 6, 'geeks': 3, 'for': 7, 'is': 4}
 The top N value pairs are  ['for', 'best', 'is']
 

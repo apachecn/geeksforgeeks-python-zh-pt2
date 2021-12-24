@@ -51,7 +51,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 print(re.search(r"^x","xenon"))
@@ -60,7 +60,7 @@ print(re.search(r"s{content}quot;,"geeks"))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(0, 1), match='x'>
 <re.Match object; span=(4, 5), match='s'>
 ```
@@ -123,7 +123,7 @@ print(re.search(r"s{content}quot;,"geeks"))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 print(re.search(r"9+","289908"))
@@ -132,7 +132,7 @@ print(re.search(r"\d{3}","hello1234"))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(2, 4), match='99'>
 <re.Match object; span=(5, 8), match='123'>
 ```
@@ -216,7 +216,7 @@ print(re.search(r"\d{3}","hello1234"))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 print(re.search(r"\s","xenon is a gas"))
@@ -225,7 +225,7 @@ print(re.search(r"\D+\d*","123geeks123"))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(5, 6), match=' '>
 <re.Match object; span=(3, 11), match='geeks123'>
 ```
@@ -294,7 +294,7 @@ print(re.search(r"\D+\d*","123geeks123"))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 print(re.search(r"[^abc]","abcde"))
@@ -303,7 +303,7 @@ print(re.search(r"[a-p]","xenon"))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(3, 4), match='d'>
 <re.Match object; span=(1, 2), match='e'>
 ```
@@ -352,7 +352,7 @@ print(re.search(r"[a-p]","xenon"))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 example = (re.search(r"(?:AB)","ACABC"))
@@ -365,7 +365,7 @@ print(result.groups())
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(2, 4), match='AB'>
 ()
 ('geeks', 'best')
@@ -415,7 +415,7 @@ print(result.groups())
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 print(re.search(r"z(?=a)", "pizza"))
@@ -424,7 +424,7 @@ print(re.search(r"z(?!a)", "pizza"))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(3, 4), match='z'>
 <re.Match object; span=(2, 3), match='z'>
 ```
@@ -483,7 +483,7 @@ print(re.search(r"z(?!a)", "pizza"))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 exp = """hello there
@@ -496,7 +496,7 @@ print(re.findall(r"^\w", exp, flags = re.MULTILINE))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(4, 7), match='And'>
 ['h', 'I', 'G']
 ```

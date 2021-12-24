@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须改变背景和进度条的边框半径，这是通过改变 CSS 样式表来完成的，下面是样式表代码。
 
-```
+```py
 QProgressBar
 {
 border: solid grey;
@@ -25,7 +25,7 @@ border-radius :15px;
 
 这个样式表是用哪个`setStyleSheet`方法，下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

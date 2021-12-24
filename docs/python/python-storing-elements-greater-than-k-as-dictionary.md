@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们通过检查大于 k 的元素来以字典的形式存储元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # Storing Elements Greater than K as Dictionary
 # using loop
@@ -36,7 +36,7 @@ print ("The dictionary after storing elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [12, 44, 56, 34, 67, 98, 34]
 The dictionary after storing elements : {1: 56, 2: 67, 3: 98}
 

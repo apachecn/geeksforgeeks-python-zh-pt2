@@ -10,7 +10,7 @@
 
 `itertools.compress()`函数检查列表中的所有元素，并返回具有真值的索引列表。
 
-```
+```py
 # Python program to fetch the indices
 # of true values in a Boolean list
 from itertools import compress 
@@ -31,7 +31,7 @@ print ("Indices having True values are : " +  str(res)) 
 
 **Output:**
 
-```
+```py
 Given list is : [False, True, False, True, True, True]
 Indices having True values are : [1, 3, 4, 5]
 
@@ -41,7 +41,7 @@ Indices having True values are : [1, 3, 4, 5]
 
 `enumerate()`方法用其值散列索引，并结合列表理解可以让我们检查真实值。
 
-```
+```py
 # Python program to fetch the indices
 # of true values in a Boolean list
 
@@ -61,7 +61,7 @@ print ("Indices having True values are : " +  str(res)) 
 
 **Output:**
 
-```
+```py
 Given list is : [False, True, False, True, True, True]
 Indices having True values are : [1, 3, 4, 5]
 
@@ -69,7 +69,7 @@ Indices having True values are : [1, 3, 4, 5]
 
 **方法 3:** 使用`filter()` + `range()`
 
-```
+```py
 # Python program to fetch the indices
 # of true values in a Boolean list
 
@@ -89,7 +89,7 @@ print ("Indices having True values are : " +  str(res)) 
 
 **Output:**
 
-```
+```py
 Given list is : [False, True, False, True, True, True]
 Indices having True values are : [1, 3, 4, 5]
 

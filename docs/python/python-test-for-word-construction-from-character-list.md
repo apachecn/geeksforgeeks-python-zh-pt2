@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Word construction from character list
 # Using all() + count()
@@ -53,7 +53,7 @@ print("Is word construction possible ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Word construction from character list
 # Using Counter()

@@ -7,7 +7,7 @@
 **方法#1:使用`re.compile() + re.match() + re.groups()`**
 上述所有 regex 函数的组合可用于执行该特定任务。在这种情况下，我们编译一个正则表达式，并将其与文本和数字分别组合成一个元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Splitting text and number in string 
 # Using re.compile() + re.match() + re.groups()
@@ -30,7 +30,7 @@ print("The tuple after the split of string and number : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : Geeks4321
 The tuple after the split of string and number : ('Geeks', '4321')
 

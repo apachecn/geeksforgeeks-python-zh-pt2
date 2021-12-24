@@ -6,7 +6,7 @@
 
 **CSV 文件样本:**
 
-```
+```py
 USERNAME,IDENTIFIER,FIRST_NAME,LAST_NAME
 booker12,9012,Rachel,Booker
 grey07,2070,Laura,Grey
@@ -39,7 +39,7 @@ smith79,5079,Jamie,Smith
 
 ## 蟒蛇 3
 
-```
+```py
 # importing flask
 from flask import Flask, render_template
 
@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
     <head>

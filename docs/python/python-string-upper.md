@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 string.upper()
 
 ```
@@ -17,14 +17,14 @@ string.upper()
 
 **返回:**
 
-```
+```py
 returns a uppercased string of the given string
 
 ```
 
 **代码 1:** 仅包含字母字符的字符串
 
-```
+```py
 # Python3 program to show the
 # working of upper() function
 text = 'geeKs For geEkS'
@@ -40,7 +40,7 @@ print(text.upper())
 
 **输出:**
 
-```
+```py
 Original String:
 geeKs For geEkS
 
@@ -50,7 +50,7 @@ GEEKS FOR GEEKS
 
 **代码 2:** 带字母数字字符的字符串
 
-```
+```py
 # Python3 program to show the
 # working of upper() function
 text = 'g3Ek5 f0r gE3K5'
@@ -66,7 +66,7 @@ print(text.upper())
 
 **输出:**
 
-```
+```py
 Original String:
 g3Ek5 f0r gE3K5
 
@@ -77,7 +77,7 @@ G3EK5 F0R GE3K5
 
 **应用:**upper()方法的常见应用之一是检查两个字符串是否相同
 
-```
+```py
 # Python3 program to show the
 # working of upper() function
 text1 = 'geeks fOr geeks'
@@ -94,6 +94,6 @@ else: 
 
 **输出:**
 
-```
+```py
 Strings are same
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove alternate consecutive duplicates
 # Using loop + remove()
@@ -64,7 +64,7 @@ print("List after alternate duplicates removal : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : [5, 5, 5, 5, 6, 6, 8, 3, 3, 8]
 List after alternate duplicates removal : [5, 5, 6, 8, 3, 8]
 

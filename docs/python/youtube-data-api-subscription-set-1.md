@@ -51,7 +51,7 @@
 
 **列出与频道 Id 相关联的所有订阅的代码:**此示例显示了如何将频道 Id 用作参数来检索该特定 Youtube 频道的所有订阅。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

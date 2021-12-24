@@ -23,7 +23,7 @@ django-tinymce 是一个 django 应用程序，它包含一个小部件来将表
 
 **步骤 2–**安装 django-tinymce:
 
-```
+```py
 pip install django-tinymce
 ```
 
@@ -31,7 +31,7 @@ pip install django-tinymce
 
 在 settings.py 中将 tinymce 添加到您项目的 INSTALLED_APPS 中:
 
-```
+```py
 INSTALLED_APPS = (
    ...
    'tinymce',
@@ -42,7 +42,7 @@ INSTALLED_APPS = (
 
 将 <u>tinymce.urls</u> 添加到项目的 urls.py 中:
 
-```
+```py
 urlpatterns = [
    ...
    url(r'^tinymce/', include('tinymce.urls')),
@@ -53,7 +53,7 @@ urlpatterns = [
 
 相应地编辑您的 models.py 文件，并为富文本编辑器引入一个 **HTMLField() 【T1:】**
 
-```
+```py
 from django.db import models
 from tinymce.models import HTMLField
 class MyModel(models.Model):
@@ -93,7 +93,7 @@ class MyModel(models.Model):
 
 现在在您想要的模板中包含 tinymce.min.js 和 custom.js 文件。
 
-```
+```py
 <!--Tinymce Text-Editor (Must be in Head Tag) -->
  <script src="{% static 'myapp/js/tinymce/tinymce.min.js' %}"></script>
  <script type="text/javascript" src="{% static 'myapp/js/tinymce/custom.js' %}" ></script>

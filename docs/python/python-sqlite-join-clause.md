@@ -27,7 +27,7 @@ JOIN 子句根据公共属性组合两个表中的记录。不同类型的连接
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 
@@ -112,7 +112,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 
@@ -162,7 +162,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 
@@ -214,7 +214,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 
@@ -264,7 +264,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 
@@ -316,7 +316,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import sqlite3
 

@@ -8,7 +8,7 @@
 
 Scrapy 附带了一个交互式外壳，允许运行简单的命令，无需使用蜘蛛代码就能抓取数据，并允许测试编写的表达式。使用 XPath 或 CSS 表达式，可以通过传递所需网页的网址来查看抓取的数据。要安装 Scrapy，请在终端使用以下命令:
 
-```
+```py
 pip install Scrapy
 ```
 
@@ -16,7 +16,7 @@ pip install Scrapy
 
 一旦我们使用 pip 命令安装了 Scrapy，我们就可以通过编写以下命令在任何 IDE 中的标准 Python 终端上执行 shell:
 
-```
+```py
 scrapy shell
 ```
 
@@ -26,7 +26,7 @@ scrapy shell
 
 或者，可以将 IPython(一种命令外壳)用于各种编程语言。这是一个丰富的选项，提供优雅的媒体，外壳语法，彩色输出，历史信息，以及许多其他功能。如果你在 UNIX 操作系统上工作，这是非常有益的。每个 Scrapy 项目都有一个' scrapy.cfg '文件，这是一个配置文件。我们可以在这里定义项目设置。一旦创建了一个零碎的项目，使用“startproject”命令，可以将 shell 值设置为“ipython”。使用“开始项目”命令创建一个剪贴簿项目，如下所示:
 
-```
+```py
 startproject Project_name
 ```
 
@@ -52,7 +52,7 @@ Scrapy.cfg 文件存在于您创建的 Scrapy 项目中。要使用 ipython，�
 
 要启动 shell，可以在终端使用以下命令:
 
-```
+```py
 scrapy shell
 ```
 
@@ -68,7 +68,7 @@ scrapy shell
 
 **示例:**
 
-```
+```py
 scrapy shell http://quotes.toscrape.com/tag/friends/
 ```
 
@@ -96,7 +96,7 @@ scrapy shell http://quotes.toscrape.com/tag/friends/
 
 **fetch(URL):** 这个‘URL’是网页的链接，我们需要刮一下。获取快捷方式接受一个网址，即要抓取的网页。它返回蜘蛛信息，以及响应是成功还是失败。在下面的例子中，我们有一个有效的网址和一个无效的网址。根据请求的性质，提取会显示错误或成功代码。
 
-```
+```py
 fetch('http://quotes.toscrape.com/tag/friends/')
 ```
 
@@ -106,7 +106,7 @@ fetch('http://quotes.toscrape.com/tag/friends/')
 
 **fetch(请求):**我们可以创建一个请求对象，并将其传递给 fetch 方法。要做到这一点，创建一个剪贴簿对象。请求类提及所需的 HTTP 方法、网页的 URL、标题(如果有)。我们想要抓取 URL ' http://quotes . toscrape . com/tag/friends/'，因此，我们将请求对象准备为:
 
-```
+```py
 fetch(request_object)
 ```
 
@@ -116,7 +116,7 @@ fetch(request_object)
 
 **查看(响应):**查看快捷方式，在默认浏览器中打开网页。网页是在提取方法中作为请求对象或网址发送的网页。因此，当我们键入 view(响应)时，在上述 fetch(请求)之后，网页会在默认浏览器中打开。
 
-```
+```py
 view(response)
 ```
 
@@ -136,7 +136,7 @@ view(response)
 
 **Crawler:** 一旦执行了 fetch 方法，我们就可以了解当前 Crawler 对象了。Crawler 对象提供了对 Scrapy 核心组件的访问。爬虫对象通常用蜘蛛和设置对象实例化。爬虫在基于网址创建的蜘蛛对象的帮助下抓取网页。
 
-```
+```py
 crawler
 ```
 
@@ -156,7 +156,7 @@ crawler
 
 **设置:**Scrapy 设置对象，允许我们自定义 Scrapy 组件的众多行为，比如 Scrapy 核心、扩展、蜘蛛等等。我们可以选择设置与 FTP 密码、HTTPCACHE、FEED 导出、TELNETCONSOLE 等相关的值。
 
-```
+```py
 Setting
 ```
 
@@ -170,7 +170,7 @@ Setting
 
 **步骤 1:** 创建一个蜘蛛项目–蜘蛛项目可以在终端使用“startproject”创建，如下所示
 
-```
+```py
 scrapy startproject gfg_learnshell
 ```
 
@@ -182,13 +182,13 @@ scrapy startproject gfg_learnshell
 
 **步骤 2:** 创建一个 Spider Python 文件，然后将目录更改为新创建的文件夹‘gfg _ learn shell’。使用“genspider”命令创建一个蜘蛛 Python 文件，并注明要废弃的网址，如下所示:
 
-```
+```py
 scrapy genspider spider_name url_to_be_scraped
 ```
 
 在这个例子中，我们将抓取网页“http://quotes . toscrape . com/tag/friends/”。因此，我们将在终端执行以下命令:
 
-```
+```py
 scrapy genspider learnshell quotes.toscrape.com/tag/friends
 ```
 
@@ -196,7 +196,7 @@ scrapy genspider learnshell quotes.toscrape.com/tag/friends
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required Scrapy library
 import scrapy
 
@@ -222,7 +222,7 @@ class LearnshellSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -270,7 +270,7 @@ class LearnshellSpider(scrapy.Spider):
 
 **步骤 3:** 因此，在执行之间，如果我们在 shell 中键入任何语法，例如，通过使用以下命令检查响应体的长度:
 
-```
+```py
 len(response.text)
 ```
 

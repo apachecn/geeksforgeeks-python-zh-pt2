@@ -36,7 +36,7 @@
 
     安装命令`**gym**` –
 
-    ```
+    ```py
     pip install gym
     ```
 
@@ -44,7 +44,7 @@
 
     **步骤# 1 :** 导入所需的库。
 
-    ```
+    ```py
     import gym
     import itertools
     import matplotlib
@@ -62,13 +62,13 @@
 
     **第二步:**营造健身房环境。
 
-    ```
+    ```py
     env = WindyGridworldEnv()
     ```
 
     **第三步:**制定![$\epsilon$](img/b348edc45398acf3fad628f404aa0081.png "Rendered by QuickLaTeX.com")-贪婪政策。
 
-    ```
+    ```py
     def createEpsilonGreedyPolicy(Q, epsilon, num_actions):
         """
         Creates an epsilon-greedy policy based
@@ -93,7 +93,7 @@
 
     **第四步:**构建 Q 学习模型。
 
-    ```
+    ```py
     def qLearning(env, num_episodes, discount_factor = 1.0,
                                 alpha = 0.6, epsilon = 0.1):
         """
@@ -156,13 +156,13 @@
 
     **第五步:**训练模型。
 
-    ```
+    ```py
     Q, stats = qLearning(env, 1000)
     ```
 
     **第六步:**绘制重要统计。
 
-    ```
+    ```py
     plotting.plot_episode_stats(stats)
     ```
 

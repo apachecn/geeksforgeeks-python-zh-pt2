@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 url = "https://httpbin.org/post"
@@ -61,7 +61,7 @@ print("JSON Response ", response.json())
 
 ## 计算机编程语言
 
-```
+```py
 import requests
 import json
 

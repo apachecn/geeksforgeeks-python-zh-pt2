@@ -18,7 +18,7 @@ Python 中的 [**集合**](https://www.geeksforgeeks.org/sets-in-python/) 是一
 
 ## 蟒蛇 3
 
-```
+```py
 # set of letters
 s = {'g', 'e', 'k', 's'}
 
@@ -44,7 +44,7 @@ print('\nSet after updating:', s)
 
 **Output**
 
-```
+```py
 Set after updating: {'g', 'k', 's', 'e', 'f'}
 
 Set after updating: {'k', 's', 'e', 'f'}

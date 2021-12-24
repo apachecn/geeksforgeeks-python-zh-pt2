@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -50,7 +50,7 @@ time.sleep(5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 

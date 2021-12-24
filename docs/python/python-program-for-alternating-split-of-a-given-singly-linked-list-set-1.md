@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to alternatively split 
 # a linked list into two halves 
 
@@ -131,7 +131,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Original linked List: 0 1 2 3 4 5 
 Resultant Linked List 'a' : 4 2 0 
 Resultant Linked List 'b' : 5 3 1

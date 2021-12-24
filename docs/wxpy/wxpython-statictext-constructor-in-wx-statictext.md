@@ -23,7 +23,7 @@ wx。StaticText 支持三种经典的文本对齐方式:标签省略，即如果
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

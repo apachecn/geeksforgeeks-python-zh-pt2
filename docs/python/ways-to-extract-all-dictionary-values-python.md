@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `keys()`**
 实现这个任务首先想到的方法是使用循环访问每个键的值，并将其追加到列表中并返回。这可以是执行该任务的方法之一。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Ways to extract all dictionary values
 # Using loop + keys()
@@ -30,7 +30,7 @@ print("The list of values is : " +  str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 1, 'is': 2, 'best': 3}
 The list of values is : [1, 2, 3]
 

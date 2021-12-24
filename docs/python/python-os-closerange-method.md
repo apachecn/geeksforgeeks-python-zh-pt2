@@ -21,7 +21,7 @@
 
 **代码:**使用`os.closerange()`方法关闭给定范围内的文件描述符
 
-```
+```py
 # Python program to explain os.close() method 
 
 # importing os module 
@@ -64,14 +64,14 @@ print("All file descriptor closed successfully")
 
 **Output:**
 
-```
+```py
 All file descriptor closed successfully
 
 ```
 
 **注意:** `***os.closerange()***`方法相当于下面的 python 代码:
 
-```
+```py
 for fd in range(fd_low, fd_high):
     try:
         os.close(fd)

@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove alternate 
 # nodes of a linked list 
 import math 
@@ -101,7 +101,7 @@ if __name__=='__main__': 
 
 **输出:**
 
-```
+```py
 List before calling deleteAlt() 
 1 2 3 4 5 
 List after calling deleteAlt() 
@@ -115,7 +115,7 @@ List after calling deleteAlt()
 
 ## 蟒蛇 3
 
-```
+```py
 # Deletes alternate nodes of a list 
 # starting with head 
 def deleteAlt(head): 

@@ -16,7 +16,7 @@ IntegerField 基本上是一个整数字段，它根据 Python 的 **int** 实�
 
 **语法–**
 
-```
+```py
 field_name = serializers.IntegerField(*args, **kwargs)
 ```
 
@@ -31,7 +31,7 @@ FloatField 基本上是一个浮动字段，它根据 Python 的 **float** 实�
 
 **语法–**
 
-```
+```py
 field_name = serializers.FloatField(*args, **kwargs)
 ```
 
@@ -49,7 +49,7 @@ field_name = serializers.FloatField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DecimalField(*args, **kwargs)
 ```
 
@@ -58,7 +58,7 @@ field_name = serializers.DecimalField(*args, **kwargs)
 为了解释数值字段的用法，让我们从–[开始使用相同的项目设置如何使用 Django Rest 框架创建一个基本的 API？](https://geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)。
 现在您的项目中有了一个名为 serializer 的文件，让我们创建一个以 IntegerField、FloatField 和 DecimalField 为字段的序列化程序。
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -78,13 +78,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -108,7 +108,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 IntegerField 只向 Python 的 int 验证数据。让我们检查一下这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data={}
 >>> data['integer'] = 10

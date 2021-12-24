@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import pandas as pd
 import numpy as np

@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何使用 **jproperties** 模块读取 python 中的属性文件。它是一个 Python 的 Java 属性文件解析器和编写器。安装时，在您的终端上运行该命令。
 
-```
+```py
 pip install jproperties
 ```
 
@@ -30,7 +30,7 @@ pip install jproperties
 
 ## 蟒蛇 3
 
-```
+```py
 from jproperties import Properties
 
 configs = Properties()
@@ -62,7 +62,7 @@ for item in prop_view:
 
 ## 蟒蛇 3
 
-```
+```py
 from jproperties import Properties
 configs = Properties()
 
@@ -93,7 +93,7 @@ for item in prop_view:
 
 ## 蟒蛇 3
 
-```
+```py
 from jproperties import Properties
 configs = Properties()
 

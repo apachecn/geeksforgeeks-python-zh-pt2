@@ -6,7 +6,7 @@
 
 **方法#1:使用`zip()`方法**
 
-```
+```py
 # Python code to demonstrate 
 # how to join pair of elements of list
 
@@ -25,7 +25,7 @@ print ("Result", str(res))
 
 **输出:**
 
-```
+```py
 Initial list ['a', 'b', 'c', 'd', 'e', 'f']
 Result ['ab', 'cd', 'ef']
 

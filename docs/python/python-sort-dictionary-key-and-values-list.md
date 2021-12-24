@@ -13,7 +13,7 @@
 **方法一:使用`sorted()` +循环**
 以上功能的组合可以解决这个问题。在这种情况下，我们首先对键的所有值进行排序，然后以暴力的方式执行键排序。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary key and values List
 # Using loop + dictionary comprehension
@@ -44,7 +44,7 @@ print("The sorted dictionary : " + str(res)) 
 **方法 2:使用字典理解+ `sorted()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们在词典理解结构中执行双重排序任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary key and values List
 # Using dictionary comprehension + sorted()

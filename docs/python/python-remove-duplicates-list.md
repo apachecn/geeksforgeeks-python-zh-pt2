@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [2, 4, 10, 20, 5, 2, 20, 4]
 Output : [2, 4, 10, 20, 5]
 
@@ -18,7 +18,7 @@ Output : [28, 42, 16, 90]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to remove duplicate elements
 def Remove(duplicate):
     final_list = []
@@ -34,7 +34,7 @@ print(Remove(duplicate))
 
 **输出:**
 
-```
+```py
 [2, 4, 10, 20, 5]
 ```
 
@@ -44,13 +44,13 @@ print(Remove(duplicate))
 
 ## 蟒蛇 3
 
-```
+```py
 duplicate = [2, 4, 10, 20, 5, 2, 20, 4]
 print(list(set(duplicate)))
 ```
 
 **输出:**
 
-```
+```py
 [2, 4, 10, 20, 5] 
 ```

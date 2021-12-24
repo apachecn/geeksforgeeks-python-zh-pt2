@@ -4,7 +4,7 @@
 
 **sqrt()** 函数是 Python 编程语言中的一个内置函数，可以返回任意数字的平方根。
 
-```
+```py
 Syntax:
 math.sqrt(x)
 
@@ -16,7 +16,7 @@ It returns the square root of the number
 passed in the parameter. 
 ```
 
-```
+```py
 # Python3 program to demonstrate the 
 # sqrt() method 
 
@@ -35,7 +35,7 @@ print(math.sqrt(3.5)) 
 
 输出:
 
-```
+```py
 0.0
 2.0
 1.8708286933869707
@@ -44,7 +44,7 @@ print(math.sqrt(3.5)) 
 
 **错误:**当 x < 0 时，由于运行时错误，它不执行。
 
-```
+```py
 # Python3 program to demonstrate the error in 
 # sqrt() method 
 
@@ -57,7 +57,7 @@ print(math.sqrt(-1)) 
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/67438f8df14f0e41df1b55c6c21499ef.py", line 8, in 
     print(math.sqrt(-1)) 
@@ -68,7 +68,7 @@ ValueError: math domain error
 **实际应用:**给定一个数，检查它是否为素数。
 **方法:**运行从 2 到 sqrt(n)的循环，并检查范围(2-sqrt(n))中是否有任何数字除以 n。
 
-```
+```py
 # Python program for practical application of sqrt() function
 
 # import math module
@@ -95,7 +95,7 @@ else:
 
 **输出:**
 
-```
+```py
 prime
 
 ```

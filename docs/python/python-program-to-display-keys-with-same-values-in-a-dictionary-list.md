@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = [{"Gfg": 5, "is": 8, "best": 0},
              {"Gfg": 5, "is": 1, "best": 0},
@@ -62,7 +62,7 @@ print("Similar values keys : " + str(res))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing Matrix
 test_list = [{"Gfg": 5, "is": 8, "best": 0},
              {"Gfg": 5, "is": 1, "best": 0},

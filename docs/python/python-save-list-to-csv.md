@@ -8,7 +8,7 @@ A **CSV(逗号分隔值)**是一种简单的文件格式，用于以表格格式
 
 **方法 1:使用 CSV 模块**
 
-```
+```py
 import csv
 
 # field names 
@@ -37,7 +37,7 @@ with open('GFG', 'w') as f:
 
 **方法二:使用熊猫**
 
-```
+```py
 # importing pandas as pd  
 import pandas as pd  
 
@@ -61,7 +61,7 @@ df.to_csv('GFG.csv') 
 
 **方法三:使用 Numpy**
 
-```
+```py
 import numpy as np
 
 # data rows of csv file 

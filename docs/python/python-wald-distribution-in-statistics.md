@@ -17,7 +17,7 @@
 
 **代码#1:创建 Wald 连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import wald 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D9B23A08
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2 : Wald 连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.86094866 0.37974886 0.63409543 0.47948363 0.95200192 0.42239326
  3.37548889 0.80459557 0.49100462 0.42936524]
@@ -69,7 +69,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -81,7 +81,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.04081633 0.08163265 0.12244898 0.16326531 0.20408163
  0.24489796 0.28571429 0.32653061 0.36734694 0.40816327 0.44897959
@@ -99,7 +99,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

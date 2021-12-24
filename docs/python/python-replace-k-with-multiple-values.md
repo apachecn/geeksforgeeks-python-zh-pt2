@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace K with Multiple values
 # Using loop + replace()
@@ -45,7 +45,7 @@ print("String after replacement : " + str(test_str)) 
 
 **Output :**
 
-```
+```py
 The original string is : _ is _ . It is recommended for _
 String after replacement : Gfg is Best . It is recommended for CS
 
@@ -56,7 +56,7 @@ String after replacement : Gfg is Best . It is recommended for CS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace K with Multiple values
 # Using split() + join() + zip()
@@ -85,7 +85,7 @@ print("String after replacement : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : _ is _ . It is recommended for _
 String after replacement : Gfg is Best . It is recommended for CS
 

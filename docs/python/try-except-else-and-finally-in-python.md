@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 a = 5
 b = 0
 print(a/b)
@@ -16,7 +16,7 @@ print(a/b)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/8a10be6ca075391a8b174e0987a3e7f5.py", line 3, in <module>
     print(a/b)
@@ -34,7 +34,7 @@ ZeroDivisionError: division by zero
 
 **语法:**
 
-```
+```py
 try:
        # Some Code.... 
 
@@ -61,7 +61,7 @@ finally:
 
 ## 蟒 3
 
-```
+```py
 # Python code to illustrate
 # working of try() 
 def divide(x, y):
@@ -80,7 +80,7 @@ divide(3, 0)
 
 **输出:**
 
-```
+```py
 Yeah ! Your answer is : 1
 Sorry ! You are dividing by zero 
 ```
@@ -93,7 +93,7 @@ Sorry ! You are dividing by zero
 
  **## 蟒 3
 
-```
+```py
 # Python code to illustrate
 # working of try() 
 def divide(x, y):
@@ -113,7 +113,7 @@ divide(3, 0)
 
 **输出:**
 
-```
+```py
 Yeah ! Your answer is : 1
 Sorry ! You are dividing by zero
 ```
@@ -126,7 +126,7 @@ Python 最后提供了一个关键字，就是**总是在尝试和除块之后�
 
 ## python 3
 
-```
+```py
 # Python code to illustrate
 # working of try() 
 def divide(x, y):
@@ -150,7 +150,7 @@ divide(3, 0)
 
 **输出:**
 
-```
+```py
 Yeah ! Your answer is : 1
 This is always executed
 Sorry ! You are dividing by zero 

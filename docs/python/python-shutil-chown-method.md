@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.chown() method
 
 # importing shutil module
@@ -84,7 +84,7 @@ print("Current group:", group)
 
 **Output:** 
 
-```
+```py
 Current owner and group of the specified path
 Owner: root
 Group: root
@@ -102,7 +102,7 @@ Current group: root
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.chown() method
 
 # We can also change owner
@@ -153,7 +153,7 @@ print("Current group:", group)
 
 **Output:** 
 
-```
+```py
 Current owner and group of the specified path
 Owner: ihritik
 Group: ihritik

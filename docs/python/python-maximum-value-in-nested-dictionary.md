@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们对每个键的键进行迭代，以获得最大值并将其设置在结果字典中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum Value in Nested Dictionary
 # Using loop

@@ -7,7 +7,7 @@
 
 为了做到这一点，我们必须改变与单选按钮相关联的样式表，并且必须给它添加边框。下面是样式表代码。
 
-```
+```py
 QRadioButton
 {
 border : 2px solid green;
@@ -17,7 +17,7 @@ border : 2px solid green;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

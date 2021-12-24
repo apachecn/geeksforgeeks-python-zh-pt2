@@ -24,7 +24,7 @@ Django 使用请求和响应对象通过系统传递状态。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing HttResponse from library
 from django.http import HttpResponse
 
@@ -38,7 +38,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing view from views.py
 from .views import home
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copymode() method
 
 # importing os module
@@ -61,7 +61,7 @@ print("Permission bits of destination:", oct(os.stat(dest).st_mode)[-3:])
 
 **Output:** 
 
-```
+```py
 Before using shutil.copymode() method:
 Permission bits of source: 664
 Permission bits of destination: 777

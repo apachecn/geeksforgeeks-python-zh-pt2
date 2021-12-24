@@ -10,7 +10,7 @@ JSON 的完整形式是 JavaScript 对象符号。这意味着由编程语言中
 
 T5
 
-```
+```py
 # Python program showing
 # use of json package
 

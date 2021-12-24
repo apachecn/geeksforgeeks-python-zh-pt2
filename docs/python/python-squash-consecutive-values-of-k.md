@@ -13,7 +13,7 @@
 **方法#1:使用`zip()` +产量**
 以上功能的组合提供了解决这个问题的方法之一。在这种情况下，我们使用压缩当前和下一个元素列表来执行检查连续重复的任务，并使用 yield 来呈现条件的元素基础。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Squash consecutive values of K
 # Using zip() + yield
@@ -46,7 +46,7 @@ print("List after filteration : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 5, 4, 3, 3, 5, 5, 5, 6, 5]
 List after filteration : [4, 5, 4, 3, 3, 5, 6, 5]
 
@@ -55,7 +55,7 @@ List after filteration : [4, 5, 4, 3, 3, 5, 6, 5]
 **方法 2:使用`yield + groupby()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 groupby()执行分组任务，以检查连续性，yield 用于返回有效元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Squash consecutive values of K
 # Using yield + groupby()
@@ -88,7 +88,7 @@ print("List after filteration : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 5, 4, 3, 3, 5, 5, 5, 6, 5]
 List after filteration : [4, 5, 4, 3, 3, 5, 6, 5]
 

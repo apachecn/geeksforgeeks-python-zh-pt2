@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to
 # read last N lines of a file
 
@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Eighth line
 Ninth line
 Tenth line
@@ -57,7 +57,7 @@ Tenth line
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to
 # read last N lines of a file
 # Using OS module and buffering policy
@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Eighth line
 Ninth line
 Tenth line
@@ -144,7 +144,7 @@ Tenth line
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to
 # read last N lines of a file
 # through Exponential search
@@ -222,7 +222,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Eighth line
 Ninth line
 Tenth line

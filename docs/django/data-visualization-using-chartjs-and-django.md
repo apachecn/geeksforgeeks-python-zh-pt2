@@ -10,7 +10,7 @@
 *   **姜戈:** [安装姜戈](https://www.geeksforgeeks.org/django-introduction-and-installation/)
 *   **【djanggorestframework】**
 
-    ```
+    ```py
     $ pip install djangorestframework
     ```
 
@@ -18,19 +18,19 @@
 
 通过以下命令启动项目–
 
-```
+```py
 $ django-admin startproject charts
 ```
 
 将目录更改为图表–
 
-```
+```py
 $ cd charts
 ```
 
 启动服务器-通过在终端中键入以下命令启动服务器–
 
-```
+```py
 $ python manage.py runserver
 ```
 
@@ -40,19 +40,19 @@ $ python manage.py runserver
 
 **我们现在创建一个应用。**
 
-```
+```py
 $ python manage.py startapp chartjs
 ```
 
 通过执行以下操作转到 chartjs/文件夹:
 
-```
+```py
 $ cd chartjs
 ```
 
 并用 index.html 文件创建一个文件夹
 
-```
+```py
 $ mkdir -p templates/chartjs && cd templates/chartjs && touch index.html
 ```
 
@@ -64,7 +64,7 @@ $ mkdir -p templates/chartjs && cd templates/chartjs && touch index.html
 
 **编辑图表中的 urls.py 文件:**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from chartjs import views
@@ -79,7 +79,7 @@ urlpatterns = [
 
 **编辑图表中的视图. py:**
 
-```
+```py
 # from django.http import JsonResponse
 
 from django.shortcuts import render
@@ -135,7 +135,7 @@ class ChartData(APIView):
 
 导航到 templates/chartjs/index.html 并编辑它。
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -272,7 +272,7 @@ class ChartData(APIView):
 
 **进行迁移并迁移:**
 
-```
+```py
 $ python manage.py makemigrations
 $ python manage.py migrate
 
@@ -280,7 +280,7 @@ $ python manage.py migrate
 
 **现在你可以运行服务器查看你的应用:**
 
-```
+```py
 $ python manage.py runserver
 ```
 

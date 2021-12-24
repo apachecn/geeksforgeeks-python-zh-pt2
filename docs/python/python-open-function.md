@@ -25,7 +25,7 @@ python open()函数用于打开()内部存储的文件。它将文件内容作�
 
 ## 蟒蛇 3
 
-```
+```py
 created_file = open("geeksforgeeks.txt","x")
 
 # Check the file
@@ -34,7 +34,7 @@ print(open("geeksforgeeks.txt","r").read() == False)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -48,7 +48,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 my_file = open("geeksforgeeks.txt", "w")
 my_file.write("Geeksforgeeks is best for DSA")
 my_file.close()
@@ -60,7 +60,7 @@ print(my_file.read())
 
 **输出:**
 
-```
+```py
 Geeksforgeeks is best for DSA
 ```
 
@@ -70,7 +70,7 @@ Geeksforgeeks is best for DSA
 
 ## 蟒蛇 3
 
-```
+```py
 my_file = open("geeksforgeeks.txt","a")
 my_file.write("..>>Visit geeksforgeeks.org for more!!<<..")
 my_file.close()

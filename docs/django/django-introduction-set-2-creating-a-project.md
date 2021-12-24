@@ -19,7 +19,7 @@ Django 在很多热门网站上都有使用，比如:Disqus、Instagram、Knight
 
 **manage.py-** 该文件用于通过命令行与您的项目进行交互(启动服务器、同步数据库等)。要获取可由 manage 执行的命令的完整列表，请在命令窗口中键入以下代码–
 
-```
+```py
 python manage.py help
 ```
 
@@ -39,7 +39,7 @@ python manage.py help
 
 ## 蟒蛇 3
 
-```
+```py
 # HttpResponse is used to
 # pass the information
 # back to view
@@ -62,7 +62,7 @@ def hello_geek (request) :
 
 打开项目文件夹(geeks_site)内的**URL . py**，添加你的条目-
 
-```
+```py
 from geeks_site.views import hello_geeks
 ```
 
@@ -70,7 +70,7 @@ from geeks_site.views import hello_geeks
 
 在 url 模式内的 url 字段中添加一个条目-
 
-```
+```py
 path('geek/',hello_geek),
 ```
 
@@ -80,39 +80,39 @@ path('geek/',hello_geek),
 
 打开命令提示符，通过此命令将目录更改为 env _ site-
 
-```
+```py
 $ cd env_site
 ```
 
 转到 env_site 内的脚本目录并激活虚拟环境-
 
-```
+```py
 $ cd Script
 ```
 
-```
+```py
 $ activate
 ```
 
 返回 env_site 目录，转到项目目录-
 
-```
+```py
 $ cd ..
 ```
 
-```
+```py
 $ cd geeks_site
 ```
 
 **启动服务器-** 在 cmd 中键入以下命令启动服务器-
 
-```
+```py
 $ python manage.py runserver
 ```
 
 **检查–**打开浏览器，输入该网址-
 
-```
+```py
 http://127.0.0.1:8000/geek/
 ```
 

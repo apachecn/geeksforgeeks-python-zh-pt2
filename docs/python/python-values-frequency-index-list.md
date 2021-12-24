@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是一种蛮力方法，通过它可以执行该任务。在本文中，我们通过迭代和分配预初始化列表来执行分配频率的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values Frequency Index List
 # Using loop
@@ -36,7 +36,7 @@ print("The Frequency list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 3), ('is', 3), ('best', 1), ('for', 5), ('geeks', 1)]
 The Frequency list : [0, 2, 0, 2, 0, 1]
 
@@ -45,7 +45,7 @@ The Frequency list : [0, 2, 0, 2, 0, 1]
 **方法 2:使用`Counter()` +列表理解**
 结合以上功能来解决这个问题。在本文中，我们使用 Counter()执行计算频率的任务，列表中的渲染是通过列表理解来完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values Frequency Index List
 # Using Counter() + list comprehension
@@ -68,7 +68,7 @@ print("The Frequency list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('Gfg', 3), ('is', 3), ('best', 1), ('for', 5), ('geeks', 1)]
 The Frequency list : [0, 2, 0, 2, 0, 1]
 

@@ -24,7 +24,7 @@
 
 **检查 python 是否已经安装的命令:**
 
-```
+```py
 python --version
 ```
 
@@ -38,7 +38,7 @@ python --version
 
 **命令:**
 
-```
+```py
 pip list
 ```
 
@@ -52,7 +52,7 @@ pip list
 
 **命令:**
 
-```
+```py
  pip install PyQt5
 ```
 

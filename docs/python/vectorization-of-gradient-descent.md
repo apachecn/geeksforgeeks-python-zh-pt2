@@ -31,14 +31,14 @@
 
 这里为了求解下面提到的数学表达式，我们使用**进行循环**。
 
-```
+```py
 The above mathematical expression is a part of Cost Function.
 
 ```
 
 <center>![\sum_{i=1}^m(h_{\theta}(x^i)-y^i)^2      ](img/f38d37ba8a554b0c9f0016b68253c872.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 The above Mathematical Expression is the hypothesis.
 
 ```
@@ -47,7 +47,7 @@ The above Mathematical Expression is the hypothesis.
 
 **代码:非工厂化 Grad** 的 Python 实现
 
-```
+```py
 # Import required modules.
 from sklearn.datasets import make_regression
 import matplotlib.pyplot as plt
@@ -125,7 +125,7 @@ plt.title('Output')
 ![](img/712c3306bb2b1dede7765eab84018f9a.png)
 </center>
 
-```
+```py
 model parameters:
 [[ 1.15857049]
  [44.42210912]]
@@ -142,7 +142,7 @@ Time Taken For Gradient Descent in Sec: 2.482538938522339
 
 这里为了求解下面提到的数学表达式，我们使用**矩阵和**向量(线性代数)。
 
-```
+```py
 The above mathematical expression is a part of Cost Function.
 
 ```
@@ -150,7 +150,7 @@ The above mathematical expression is a part of Cost Function.
 <center>![\sum_{i=1}^m(h_{\theta}(x^i)-y^i)^2      ](img/f38d37ba8a554b0c9f0016b68253c872.png "Rendered by QuickLaTeX.com")
 </center>
 
-```
+```py
 The above Mathematical Expression is the hypothesis.
 
 ```
@@ -177,7 +177,7 @@ The above Mathematical Expression is the hypothesis.
 
 **代码:矢量化梯度下降法的 Python 实现**
 
-```
+```py
 # Import required modules.
 from sklearn.datasets import make_regression
 import matplotlib.pyplot as plt
@@ -240,7 +240,7 @@ plt.title('Output')
 
 <center>![](img/712c3306bb2b1dede7765eab84018f9a.png)</center>
 
-```
+```py
 model parameters:
 [[ 1.15857049]
  [44.42210912]]

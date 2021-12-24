@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Resolve Float Keys in Dictionary
 # Using float() + loop()
@@ -49,7 +49,7 @@ print("Value of resolved float Key : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'010.78': 'Gfg', '9.0': 'is', '10': 'Best'}
 Value of resolved float Key : Gfg
 
@@ -61,7 +61,7 @@ Value of resolved float Key : Gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Resolve Float Keys in Dictionary
 # Using dictionary comprehension + float()
@@ -90,7 +90,7 @@ print("Value of resolved float Key : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'010.78': 'Gfg', '9.0': 'is', '10': 'Best'}
 Value of resolved float Key : Gfg
 

@@ -18,7 +18,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。像
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image from PIL package
 from PIL import Image
 
@@ -36,7 +36,7 @@ print (im.getpixel(coordinate));
 
 **输出:**
 
-```
+```py
 (130, 105, 49)
 (0, 0, 0)
 (75, 19, 0)
@@ -49,7 +49,7 @@ T3】使用的图像 T5】
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image from PIL package
 from PIL import Image
 
@@ -67,7 +67,7 @@ print (im.getpixel(coordinate));
 
 **输出:**
 
-```
+```py
 (130, 105, 49)
 (0, 0, 0)
 (22, 168, 25)

@@ -21,7 +21,7 @@ Django 模型用作定义字段及其类型的结构，这些字段及其类型�
 
 我们需要创建一个名为**产品**的新应用程序，这样我们就可以定义上面提供的图像中描述的手机的所有属性。打开您的终端并运行以下命令:
 
-```
+```py
 python manage.py startapp product
 ```
 
@@ -33,7 +33,7 @@ python manage.py startapp product
 
 另外，通过在**产品/admin.py** 中添加以下代码，向管理员注册。通过向管理员注册，您可以确保站点管理员知道数据库的新表模式已经准备好。
 
-```
+```py
 
 from django.contrib import admin
 
@@ -45,7 +45,7 @@ admin.site.register(Phone)
 
 现在，导航至**产品/型号。您将看到一个包含以下行的文件:**
 
-```
+```py
 
 from django.db import models
 
@@ -56,7 +56,7 @@ from django.db import models
 
 向该文件中添加以下代码行:
 
-```
+```py
 
 from django.db import models
 

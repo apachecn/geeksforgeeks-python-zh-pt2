@@ -7,7 +7,7 @@
 **方法 1:天真方法**
 解决这个问题最常见的方法是使用循环，只计算小于给定数字 k 的元素的出现次数
 
-```
+```py
 # Python 3 code to demonstrate 
 # Values Frequency till Maximum K
 # using naive method 
@@ -34,7 +34,7 @@ print ("The numbers smaller than 4 : " + str(count))
 
 **Output :**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The numbers smaller than 4 : 2
 

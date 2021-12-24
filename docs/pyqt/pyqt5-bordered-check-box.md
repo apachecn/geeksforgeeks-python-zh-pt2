@@ -9,7 +9,7 @@
 
 为了给整个复选框添加边框，我们必须更改它的 CSS 样式表，下面是样式表代码。
 
-```
+```py
 QCheckBox
 {
 border : 2px solid black;
@@ -19,7 +19,7 @@ border : 2px solid black;
 
 这个样式表是和`setStyleSheet`方法一起使用的，下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

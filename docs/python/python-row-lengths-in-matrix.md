@@ -8,7 +8,7 @@
 
 上述函数的组合有助于在一行中获得这个特定问题的解决方案，因此非常有用。sum 函数计算子列表的和，max 函数可用于降序排序，所有这些都使用列表理解绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # Row lengths in matrix
 # using max() + map() + sum() + list comprehension
@@ -30,7 +30,7 @@ print("The row lengths in matrix : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5, 6], [7, 8], [2]]
 The row lengths in matrix : [3, 2, 1]
 
@@ -40,7 +40,7 @@ The row lengths in matrix : [3, 2, 1]
 
 这个问题也可以用上面的一组函数来解决。过滤函数可用于获取单独的列表，求和函数完成的求和绑定任务由 zip _ longest 函数执行。
 
-```
+```py
 # Python3 code to demonstrate
 # Row lengths in matrix
 # using sum() + filter() + zip_longest()
@@ -63,7 +63,7 @@ print("The row lengths in matrix : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5, 6], [7, 8], [2]]
 The row lengths in matrix : [3, 2, 1]
 

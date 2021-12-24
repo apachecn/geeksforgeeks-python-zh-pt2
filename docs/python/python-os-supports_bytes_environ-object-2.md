@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.supports_bytes_environ object
 
 # importing os module
@@ -32,6 +32,6 @@ print(isBytes)
 
 **Output:** 
 
-```
+```py
 True
 ```

@@ -17,7 +17,7 @@ Python 中的`***os.get_inheritable()***`方法用于获取指定文件描述符
 
 **Code:** Use of os.get_inheritable() method to get the value of “inheritable” flag of the given file descriptor.
 
-```
+```py
 # Python program to explain os.get_inheritable() method  
 
 # importing os module 
@@ -53,7 +53,7 @@ print("Value of inheritable flag:", inheritable)
 
 **Output:**
 
-```
+```py
 Value of inheritable flag: False
 Value of inheritable flag: True
 

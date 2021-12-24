@@ -36,7 +36,7 @@ Djongo 将一个 SQL 查询字符串翻译成 MongoDB 查询文档。因此，�
 
 **第一步:设置虚拟环境**
 
-```
+```py
 virtualenv myenv
 myenv\Scripts\activate
 ```
@@ -45,7 +45,7 @@ myenv\Scripts\activate
 
 **第二步:安装 Django**
 
-```
+```py
 pip install django
 ```
 
@@ -53,7 +53,7 @@ pip install django
 
 **第三步:安装 Djongo**
 
-```
+```py
 pip install djongo
 ```
 
@@ -61,7 +61,7 @@ pip install djongo
 
 **第四步:启动姜戈项目**
 
-```
+```py
 django-admin startproject geeks_project
 ```
 
@@ -75,7 +75,7 @@ django-admin startproject geeks_project
 
 现在，打开**设置. py** 文件。注释掉或删除以前的 SQL 数据库配置，并在**设置中添加以下代码**
 
-```
+```py
    DATABASES = {
       'default': {
           'ENGINE': 'djongo',

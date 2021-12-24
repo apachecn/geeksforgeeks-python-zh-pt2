@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 Input : 10.0.0.1
 Output : Not Reserved
 
@@ -23,7 +23,7 @@ Output : Reserved
 
 为了实现它，我们将使用 Python3.3 的 **ipaddress** 模块的 **is_reserved** 方法
 
-```
+```py
 # importing ip_address
 # from ipaddress module
 from ipaddress import ip_address
@@ -42,7 +42,7 @@ if __name__ == '__main__' : 
 
 **输出:**
 
-```
+```py
 Not Reserved
 Reserved
 

@@ -20,7 +20,7 @@ Python 不支持任何将浮点十进制数轻松转换为八进制表示的内�
 
 下面是实现:
 
-```
+```py
 # Python3 program to demonstrate
 # octal type conversion
 
@@ -85,7 +85,7 @@ print(float_octal(n, places = p))
 
 **输出:**
 
-```
+```py
 Enter your floating point value :
 7.16
 
@@ -96,7 +96,7 @@ Enter the number of decimal places of the result :
 
 ```
 
-```
+```py
 Enter your floating point value :
 7.1234
 

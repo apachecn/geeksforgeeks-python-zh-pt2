@@ -34,7 +34,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the
 # conversion of unix timestamp string
 # to its readable date
@@ -53,7 +53,7 @@ print(datetime.datetime.fromtimestamp(int("1294113662"))
 
 **输出:**
 
-```
+```py
 2011-01-04 04:01:02
 ```
 
@@ -61,7 +61,7 @@ print(datetime.datetime.fromtimestamp(int("1294113662"))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the
 # conversion of unix timestamp string
 # to its readable date
@@ -80,6 +80,6 @@ print(timestamp.strftime('%Y-%m-%d %H:%M:%S'))
 
 **输出:**
 
-```
+```py
 2008-01-10 21:40:34
 ```

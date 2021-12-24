@@ -4,7 +4,7 @@
 
 Django 中的 ModelFormsets 是处理使用模型创建的多个表单并使用它们创建模型实例的一种高级方式。换句话说，模型表单集是姜戈的一组表单。例如，您可能希望在单个页面上初始化多个表单，所有这些表单都可能涉及多个 POST 请求
 
-```
+```py
 class GeeksModel(models.Model):
     title = models.CharField(max_length = 200)
     description = models.TextField()
@@ -13,7 +13,7 @@ class GeeksModel(models.Model):
 
 现在，如果想为这个模型创建一个 modelformset，就需要使用 modelformset_factory。表单集是一个抽象层，用于处理同一页面上的多个表单。最好将其与数据网格进行比较。
 
-```
+```py
 from django.forms import formset_factory
 GeeksFormSet = modelformset_factory(GeeksModel)
 
@@ -30,7 +30,7 @@ GeeksFormSet = modelformset_factory(GeeksModel)
 
 在你的极客应用程序中，创建一个名为 models.py 的新文件，你将在其中制作所有的模型。要创建一个 Django 模型，您需要使用 Django 模型。让我们演示一下如何在您的 `models.py`中输入以下内容:
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -51,13 +51,13 @@ class GeeksModel(models.Model):
 让我们解释一下到底发生了什么，左边表示字段的名称，右边对应地定义输入字段的各种功能。字段的语法表示为
 **语法:**
 
-```
+```py
 Field_name = models.FieldType(attributes)
 ```
 
 现在要创建这个表单的一个简单的表单集，移动到 views.py 并创建一个`formset_view`，如下所示。
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -80,7 +80,7 @@ def formset_view(request):
 
 要通过 html 呈现表单集，请创建一个 HTML 文件“home.html”。现在我们来编辑`templates > home.html`
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ formset.as_p }}
@@ -97,7 +97,7 @@ T3】
 
 Django 表单集用于处理表单的多个实例。使用姜戈表单集的`extra`属性可以轻松创建多个表单。在**极客/观点. py** 中，
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -126,7 +126,7 @@ def modelformset_view(request):
 创建表单比在后端处理输入这些字段的数据容易得多。让我们尝试演示如何在视图中轻松使用模型表单集的数据。当试图处理表单集时，Django 表单集需要一个额外的参数**{ { formset . management _ data } }**。要了解更多关于管理数据的信息，[了解管理表单](https://docs.djangoproject.com/en/3.0/topics/forms/formsets/#understanding-the-managementform)。
 在`templates/home.html`中，
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Management data of formset -->
@@ -144,7 +144,7 @@ def modelformset_view(request):
 
 现在要检查数据的呈现方式和类型，请编辑 **formset_view** 来打印数据。在`geeks/view.py`中，
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms

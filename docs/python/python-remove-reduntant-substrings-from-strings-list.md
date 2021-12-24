@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Reduntant Substrings from Strings List
 # Using enumerate() + join() + sort()
@@ -43,7 +43,7 @@ print("The filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'Gfg is best', 'Geeks', 'Gfg is for Geeks']
 The filtered list : ['Gfg is best', 'Gfg is for Geeks']
 ```
@@ -54,7 +54,7 @@ The filtered list : ['Gfg is best', 'Gfg is for Geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Reduntant Substrings from Strings List
 # Using list comprehension + join() + enumerate()
@@ -76,7 +76,7 @@ print("The filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Gfg', 'Gfg is best', 'Geeks', 'Gfg is for Geeks']
 The filtered list : ['Gfg is best', 'Gfg is for Geeks']
 ```

@@ -7,7 +7,7 @@
 **方法 1:朴素方法**
 执行字符串并集的任务可以通过朴素方法来计算，方法是创建一个空字符串，检查字符串和非公共字符串共有的字符的新出现，并将其追加，从而计算新的并集字符串。这可以通过循环和 if/else 语句来实现。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Union Operation in two Strings
 # using naive method 
@@ -34,7 +34,7 @@ print ("The string union is : " + test_str1)
 
 **Output :**
 
-```
+```py
 The original string 1 is : GeeksforGeeks
 The original string 2 is : Codefreaks
 The string union is : GeeksforGeeksCda

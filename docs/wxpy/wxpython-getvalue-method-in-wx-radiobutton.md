@@ -17,7 +17,7 @@ GetValue()函数不需要参数。**
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing wx library
 import wx
 
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
 ****输出:**** 
 
-```
+```py
 False
 True
 False

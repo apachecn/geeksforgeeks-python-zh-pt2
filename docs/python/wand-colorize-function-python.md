@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.colorize(color, alpha)
 > 
 > ```
@@ -23,7 +23,7 @@
 
 **例 1:**
 
-```
+```py
 # import Image with wand.image module
 from wand.image import Image
 
@@ -40,7 +40,7 @@ with Image(filename ="koala.jpeg") as img:
 **例 2:**
 增加α值。
 
-```
+```py
 from wand.image import Image
 
 # read image using Image() function

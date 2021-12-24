@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.backward(distance)
 
 ```
@@ -21,7 +21,7 @@ turtle.backward(distance)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import turtle
 
@@ -38,7 +38,7 @@ turtle.backward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

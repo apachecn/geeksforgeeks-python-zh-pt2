@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of Similar Keys in Tuples
 # Using max() + groupby() + lambda + loop
@@ -41,7 +41,7 @@ print("Maximum grouped elements : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 8), (3, 2), (2, 2), (4, 6), (3, 7), (4, 5)]
 Maximum grouped elements : [(2, 2), (3, 7), (4, 8)]
 ```
@@ -51,7 +51,7 @@ Maximum grouped elements : [(2, 2), (3, 7), (4, 8)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of Similar Keys in Tuples
 # Using max() + groupby() + itemgetter() + list comprehension
@@ -75,7 +75,7 @@ print("Maximum grouped elements : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 8), (3, 2), (2, 2), (4, 6), (3, 7), (4, 5)]
 Maximum grouped elements : [(2, 2), (3, 7), (4, 8)]
 ```

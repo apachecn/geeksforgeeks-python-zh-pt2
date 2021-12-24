@@ -7,7 +7,7 @@
 **方法一:使用`lstrip()` +列表理解**
 这是可以帮助完成该任务的一个班轮之一。在本文中，我们使用 lstrip 剥离前导 0，并使用列表理解将逻辑扩展到列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove leading 0 from Strings List
 # using lstrip() + list comprehension
@@ -28,7 +28,7 @@ print ("The string list after leading 0 removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['012', '03', '044', '09']
 The string list after leading 0 removal : ['12', '3', '44', '9']
 

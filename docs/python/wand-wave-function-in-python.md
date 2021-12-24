@@ -6,7 +6,7 @@ wave()函数从图像的顶部和底部创建一个类似波浪的结构。在�
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.wave(amplitude, wave_legth)
 > 
 > ```
@@ -25,7 +25,7 @@ wave()函数从图像的顶部和底部创建一个类似波浪的结构。在�
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -43,7 +43,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 振幅增大，波长减小。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

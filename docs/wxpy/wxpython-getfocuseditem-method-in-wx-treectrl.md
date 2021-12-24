@@ -18,7 +18,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import required modules
 import wx
 
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Valid Item
 <wx._core.TreeItemId object at 0x000001DAED4141F8>
 ```

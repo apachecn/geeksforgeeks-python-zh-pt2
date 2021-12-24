@@ -9,7 +9,7 @@
 **主窗口**
 让我们从创建主窗口开始。我们从一开始就走面向对象的路线。无面向对象的方式对于维护来说是一种痛苦。我们的骨架是这样的
 
-```
+```py
 import sys
 
 from PyQt5 import QtWidgets
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 让我们添加一个文本框和一个标签，无论我们键入什么，它都会产生回声。
 我们的主窗口转向这个:
 
-```
+```py
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self, parent = None):
         super().__init__(parent)
@@ -77,7 +77,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
 一个空的小部件如下所示:
 
-```
+```py
 class MyWidget(QtWidgets.QWidget):
 
     def __init__(self, *args, **kwargs):
@@ -88,7 +88,7 @@ class MyWidget(QtWidgets.QWidget):
 
 让我们将其命名为回声文本，并将我们添加的内容添加到主窗口中
 
-```
+```py
 class EchoText(QtWidgets.QWidget):
 
     def __init__(self, *args, **kwargs):
@@ -112,7 +112,7 @@ class EchoText(QtWidgets.QWidget):
 
 在我们的主窗口中，只保留骨架并添加以下内容:
 
-```
+```py
 self.echotext_widget = EchoText()
 
 self.layout.addWidget(self.echotext_widget)
@@ -124,7 +124,7 @@ self.layout.addWidget(self.echotext_widget)
 
 这是整个应用程序的完整代码
 
-```
+```py
 import sys
 
 from PyQt5 import QtWidgets

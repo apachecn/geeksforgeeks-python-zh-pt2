@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Draw color-filled solid cube in turtle
 
 # Import turtle package

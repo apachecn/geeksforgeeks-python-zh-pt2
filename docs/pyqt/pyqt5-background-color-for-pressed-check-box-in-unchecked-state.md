@@ -6,7 +6,7 @@
 
 为了在从未选中状态按下时给复选框添加背景色，我们必须编辑与复选框对象一起使用的样式表代码。下面是样式表代码。
 
-```
+```py
 QCheckBox::unchecked:pressed
 {
 background-color : pink;
@@ -16,7 +16,7 @@ background-color : pink;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

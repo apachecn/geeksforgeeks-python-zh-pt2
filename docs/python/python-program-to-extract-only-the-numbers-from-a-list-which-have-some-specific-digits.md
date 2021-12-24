@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements with specific digits
 # Using list comprehension + all()
@@ -40,7 +40,7 @@ print("Extracted elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [345, 23, 128, 235, 982]
 Extracted elements : [345, 23, 235]
 ```
@@ -51,7 +51,7 @@ Extracted elements : [345, 23, 235]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Elements with specific digits
 # Using filter() + lambda + all()
@@ -74,7 +74,7 @@ print("Extracted elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [345, 23, 128, 235, 982]
 Extracted elements : [345, 23, 235]
 ```

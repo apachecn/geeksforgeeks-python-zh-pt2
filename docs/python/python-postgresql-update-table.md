@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 
@@ -59,7 +59,7 @@ conn.close()# code
 
 **输出**
 
-```
+```py
 table updated..
 table after updation...
 [(1,'Babita','kashmir'),(2,'Anushka','Kashmir'),(3,'Anamika','Kashmir'),
@@ -78,7 +78,7 @@ table after updation...
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 
@@ -121,7 +121,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 Table updated..
 Table after updation...
 [(1, 'Babita', 'Bihar'), (3, 'Anamika', 'Banglore'), 

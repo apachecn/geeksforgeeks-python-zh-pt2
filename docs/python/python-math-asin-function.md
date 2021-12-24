@@ -16,7 +16,7 @@
 
 ****例 1:****
 
-```
+```py
 # Python code to implement
 # the acos()function
 
@@ -33,13 +33,13 @@ print (math.asin(a))
 
 ****输出:****
 
-```
+```py
 The value of arc sine of pi / 6 is : 0.5510695830994463 
 ```
 
 ****例 2:****
 
-```
+```py
 # Python code to implement
 # the aasin()function
 import math 
@@ -66,7 +66,7 @@ plt.show()  
 
 ****输出:****
 
-```
+```py
 Input_Array : 
  [-0.14159265, -0.57039399, -0.28559933, 0.28559933, 0.57039399, 0.94159265]
 

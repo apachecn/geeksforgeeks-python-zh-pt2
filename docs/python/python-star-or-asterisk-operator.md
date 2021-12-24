@@ -13,7 +13,7 @@ Python 中有很多地方会用到*和*。许多 Python 程序员，即使是中
 
 ## 蟒蛇 3
 
-```
+```py
 # using asterisk
 mul = 5 * 7
 print (mul)
@@ -21,7 +21,7 @@ print (mul)
 
 **输出:**
 
-```
+```py
 35
 ```
 
@@ -30,7 +30,7 @@ print (mul)
 
 ## 蟒蛇 3
 
-```
+```py
 a = 5
 b = 3
 
@@ -41,7 +41,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 125
 ```
 
@@ -50,7 +50,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # using asterisk
 list = ['geeks '] * 3
 
@@ -59,7 +59,7 @@ print(list)
 
 **输出:**
 
-```
+```py
 ['geeks ', 'geeks ', 'geeks ']
 ```
 
@@ -68,7 +68,7 @@ print(list)
 
 ## 蟒蛇 3
 
-```
+```py
 arr = ['sunday', 'monday', 'tuesday', 'wednesday']
 
 # without using asterisk
@@ -80,7 +80,7 @@ print (*arr)
 
 **输出:**
 
-```
+```py
 sunday monday tuesday wednesday
 sunday monday tuesday wednesday
 ```
@@ -91,7 +91,7 @@ sunday monday tuesday wednesday
 
 ## 蟒蛇 3
 
-```
+```py
 # using asterisk
 def addition(*args):
   return sum(args)
@@ -101,7 +101,7 @@ print(addition(5, 10, 20, 6))
 
 **输出:**
 
-```
+```py
 41
 ```
 
@@ -110,7 +110,7 @@ print(addition(5, 10, 20, 6))
 
 ## 蟒蛇 3
 
-```
+```py
 # using asterisk
 def food(**kwargs):
   for items in kwargs:
@@ -121,7 +121,7 @@ food(fruit = 'cherry', vegetable = 'potato', boy = 'srikrishna')
 
 **输出:**
 
-```
+```py
 cherry is a fruit
 potato is a vegetable
 srikrishna is a boy
@@ -131,7 +131,7 @@ srikrishna is a boy
 
 ## 蟒蛇 3
 
-```
+```py
 # using asterisk
 def food(**kwargs):
   for items in kwargs:
@@ -144,7 +144,7 @@ food(**dict)
 
 **输出:**
 
-```
+```py
 cherry is a fruit
 potato is a vegetable
 srikrishna is a boy

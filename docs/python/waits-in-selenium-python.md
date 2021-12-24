@@ -11,7 +11,7 @@
 
 隐式等待告诉网络驱动程序在试图找到任何不立即可用的元素时轮询 DOM 一段时间。默认设置为 0。一旦设置，隐式等待将在 WebDriver 对象的生命周期内设置。让我们考虑一个例子–
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 
@@ -33,7 +33,7 @@ myDynamicElement = driver.find_element_by_id("myDynamicElement")
 
 显式等待是您定义的代码，用于在继续执行代码之前等待特定条件的出现。这种情况的极端情况是 time.sleep()，它将条件设置为等待的确切时间段。提供了一些方便的方法来帮助您编写只等待所需时间的代码。显式等待是通过结合使用 webdriverWait 类和 expected_conditions 实现的。让我们考虑一个例子–
 
-```
+```py
 # import necessary classes
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait

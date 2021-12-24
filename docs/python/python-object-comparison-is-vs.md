@@ -4,7 +4,7 @@
 
 在 Python 中，“is”和“==”都用于对象比较。运算符“==”比较两个对象的值，而“is”检查两个对象是否相同(换句话说，对同一对象的两个引用)。
 
-```
+```py
 # Python program to demonstrate working of 
 # "=="
 
@@ -21,14 +21,14 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 
 ```
 
 “==”运算符不会告诉我们 x1 和 x2 实际上是否指的是同一个对象。我们用“是”来表示这个目的。
 
-```
+```py
 # Python program to demonstrate working of 
 # "is"
 
@@ -60,14 +60,14 @@ else:
 
 **Output:**
 
-```
+```py
 No
 Yes
 Yes
 
 ```
 
-```
+```py
 x1 = [10, 20, 30]
 
 # Here a new list x2 is created using x1
@@ -88,7 +88,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 No
 

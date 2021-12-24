@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Functions as dictionary values
 # Using Without params
@@ -35,7 +35,7 @@ print("The required call result : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': <function print_key1 at 0x7f1c0445be18>, 'is': 5, 'best': 9}
 The required call result : This is Gfg's value
 
@@ -47,7 +47,7 @@ The required call result : This is Gfg's value
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Functions as dictionary values
 # Using With params 
@@ -73,7 +73,7 @@ print("The required call result : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': <function sum_key at 0x7f538d017e18>, 'is': 5, 'best': 9}
 The required call result : 44
 

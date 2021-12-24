@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test String in Character List and vice-versa
 # Using in operator and join() [String in list]
@@ -44,7 +44,7 @@ print("Is String present in character list : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks
 Is String present in character list : True
 ```
@@ -55,7 +55,7 @@ Is String present in character list : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test String in Character List and vice-versa
 # Using in operator + join() [ Character List in String ]
@@ -81,7 +81,7 @@ print("Is character list present in String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 Is character list present in String : True
 ```

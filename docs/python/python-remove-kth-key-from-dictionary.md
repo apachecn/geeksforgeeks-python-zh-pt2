@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Kth key from dictionary
 # Using loop
@@ -59,7 +59,7 @@ print("Required dictionary after removal : " + str(test_dict)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Kth key from dictionary
 # Using Remove Kth key from dictionary

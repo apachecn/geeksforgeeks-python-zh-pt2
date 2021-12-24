@@ -7,7 +7,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.SetToolShortHelp(self, toolId, helpString)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

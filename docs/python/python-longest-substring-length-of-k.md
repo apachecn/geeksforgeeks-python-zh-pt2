@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Substring of K
 # Using loop
@@ -51,7 +51,7 @@ print("The Longest Substring Length : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : abcaaaacbbaa
 The Longest Substring Length : 4
 
@@ -63,7 +63,7 @@ The Longest Substring Length : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Substring of K
 # Using findall() + max()
@@ -90,7 +90,7 @@ print("The Longest Substring Length : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : abcaaaacbbaa
 The Longest Substring Length : 4
 

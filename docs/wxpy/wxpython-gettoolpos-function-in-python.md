@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolPos(self, toolId)
 > ```
 > 
@@ -24,7 +24,7 @@
 > 返回刀具在工具栏中的位置，从 0 开始。
 > **返回类型**
 > 
-> ```
+> ```py
 > int
 > ```
 
@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -116,6 +116,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 0
 ```

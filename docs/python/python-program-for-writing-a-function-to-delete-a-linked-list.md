@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to delete all
 # the nodes of singly linked list
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Deleting linked list
 Linked list deleted
 ```

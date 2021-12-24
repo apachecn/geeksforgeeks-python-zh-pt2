@@ -6,7 +6,7 @@
 **Python:** 在 Python 中，有一个简单且语法规整的构造来交换变量，我们只需要写“x，y = y，x”。
 **C/C++:** 下面是一个通常提供的经典解决方案
 
-```
+```py
 // Swap using bitwise XOR (Wrong Solution in C/C++)
 x ^= y ^= x ^= y; 
 ```
@@ -14,7 +14,7 @@ x ^= y ^= x ^= y;
 上述解决方案在 C/C++中是错误的，因为它会导致未定义的行为(编译器可以自由地以任何方式进行操作)。原因是，如果修改之间没有[序列点](https://www.geeksforgeeks.org/sequence-points-in-c-set-1/)，在表达式中多次修改变量会导致未定义的行为。
 不过，我们可以用逗号来介绍顺序点。所以修改后的解决方案是
 
-```
+```py
 // Swap using bitwise XOR (Correct Solution in C/C++)
 // sequence point introduced using comma.
 (x ^= y), (y ^= x), (x ^= y);
@@ -28,7 +28,7 @@ x ^= y ^= x ^= y;
 
 ## C
 
-```
+```py
 // C program to swap two variables in single line
 #include <stdio.h>
 int main()
@@ -43,7 +43,7 @@ int main()
 
 ## C++
 
-```
+```py
 // C++ code to swap using XOR
 #include <bits/stdc++.h>
 
@@ -65,7 +65,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to swap two variables in a single line
 class GFG {
     public static void main(String[] args)
@@ -82,7 +82,7 @@ class GFG {
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to swap two variables in a single line
 x = 5
 y = 10
@@ -92,7 +92,7 @@ print("After Swapping values of x and y are", x, y)
 
 ## C#
 
-```
+```py
 // C# program to swap two
 // variables in single line
 using System;
@@ -113,7 +113,7 @@ class GFG {
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?php
 // PHP program to swap two
 // variables in single line
@@ -133,7 +133,7 @@ class GFG {
 
 ## java 描述语言
 
-```
+```py
 <script>
 // javascript program to swap two variables in single line
 
@@ -148,7 +148,7 @@ class GFG {
 
 **输出:**
 
-```
+```py
 After Swapping values of x and y are 10 5
 ```
 

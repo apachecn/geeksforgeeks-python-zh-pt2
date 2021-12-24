@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, 5, 6, 7], [], [], [9, 8, 1], []]
 
@@ -43,7 +43,7 @@ print("Filtered Matrix " + str(res))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = [[4, 5, 6, 7], [], [], [9, 8, 1], []]
 

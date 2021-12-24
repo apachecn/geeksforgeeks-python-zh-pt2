@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : list1 = [12, 'geek', 2, '41', 'for', 10, '8', 6, 4, 'geeks', 7, '10']
 Output : 100
 
@@ -18,7 +18,7 @@ Output :10794
 
 我们使用 Python 中的 [type()和 Python 中的](https://www.geeksforgeeks.org/python-type-function/) [isdigit()来实现这一点。](https://www.geeksforgeeks.org/python-string-isdigit-application/)
 
-```
+```py
 # Python program to find sum of list with different
 # types.
 

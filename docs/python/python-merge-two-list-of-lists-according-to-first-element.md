@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst1 = [[1, 'Alice'], [2, 'Bob'], [3, 'Cara']]
         lst2 = [[1, 'Delhi'], [2, 'Mumbai'], [3, 'Chennai']]
 Output : [[1, 'Alice', 'Delhi'], [2, 'Bob', 'Mumbai'], [3, 'Cara', 'Chennai']]
@@ -21,7 +21,7 @@ Output : [['c', 'class', 'coder'], ['g', 'greek', 'god']]
 
 **方法#1 :** Python *zip()* 带列表理解
 
-```
+```py
 # Python3 program to Merge two list of 
 # lists according to first element
 
@@ -36,14 +36,14 @@ print(merge(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [[1, 'Alice', 'Delhi'], [2, 'Bob', 'Mumbai'], [3, 'Cara', 'Chennai']]
 
 ```
 
 **方法二:** Python *枚举()*带列表理解
 
-```
+```py
 # Python3 program to Merge two list of 
 # lists according to first element
 import collections
@@ -59,7 +59,7 @@ print(merge(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [[1, 'Alice', 'Delhi'], [2, 'Bob', 'Mumbai'], [3, 'Cara', 'Chennai']]
 
 ```
@@ -67,7 +67,7 @@ print(merge(lst1, lst2))
 **方法#3 :** Python 字典
 在该方法中，我们用 *collections.defaultdict* 初始化‘dict 1’，遍历‘lst 1’+‘lst 2’，并将‘lst 1’的第一个元素作为键追加，并将两个子列表的第二个元素作为值进行组合。最后，我们遍历“dict1”并用期望的输出初始化“dictlist”。
 
-```
+```py
 # Python3 program to Merge two list of 
 # lists according to first element
 import collections
@@ -92,7 +92,7 @@ print(merge(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [[1, 'Alice', 'Delhi'], [2, 'Bob', 'Mumbai'], [3, 'Cara', 'Chennai']]
 
 ```

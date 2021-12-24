@@ -169,7 +169,7 @@ Scrapy 命令行工具提供各种命令，可用于各种目的。让我们逐�
 
 ## 蟒蛇 3
 
-```
+```py
 from scrapy.commands import ScrapyCommand
 
 class Command(ScrapyCommand):

@@ -22,7 +22,7 @@ Append()方法采用 parent(wx。作为参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class MainFrame(wx.Frame):

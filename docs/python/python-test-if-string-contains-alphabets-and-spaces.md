@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if String contains Alphabets and Spaces
 # Using isspace() + isalpha() + all()
@@ -31,7 +31,7 @@ print("Does String contain only space and alphabets : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 Does String contain only space and alphabets : True
 ```
@@ -41,7 +41,7 @@ Does String contain only space and alphabets : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if String contains Alphabets and Spaces
 # Using regex
@@ -63,7 +63,7 @@ print("Does String contain only space and alphabets : " + str(res))
 
 **Output : **
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 Does String contain only space and alphabets : True
 ```

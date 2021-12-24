@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings on numerical substrings
 # Using sort() + findall()
@@ -54,7 +54,7 @@ print("Strings after numerical Sort  : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings on numerical substrings
 # Using sort() + lambda + findall()

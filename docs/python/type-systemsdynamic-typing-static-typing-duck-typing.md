@@ -7,7 +7,7 @@
 在动态类型中，类型检查是在运行时执行的。例如，Python 是一种动态类型语言。这意味着变量的类型可以在它的生命周期内改变。其他动态类型的语言有——Perl、Ruby、PHP、Javascript 等。
 我们来看一个 Python 代码示例，看看变量是否可以改变类型:
 
-```
+```py
 
 ## variable a is assigned to a string
 a ="hello"
@@ -22,7 +22,7 @@ print(type(a))
 
 让我们以 Python 中的动态类型为例:
 
-```
+```py
 ## simple function
 def add(a, b):
     return a + b
@@ -42,7 +42,7 @@ print(add(2, 4))
 有了静态类型化，变量一般不允许改变类型。
 我们来看一个静态类型语言的简单例子。考虑下面的 Java 代码片段；
 
-```
+```py
 String a;
 a = "Java is good";
 ```
@@ -55,7 +55,7 @@ Duck Typing 是一个与动态类型相关的概念，其中对象的类型或�
 名字背后的原因是鸭子测试:“如果它长得像鸭子，游得像鸭子，嘎嘎叫得像鸭子，那么它很可能就是鸭子”。
 让我们举一个简单的 Python 代码示例来清楚地理解它:
 
-```
+```py
 class Duck:
     def quack(self):
         print("Quack")

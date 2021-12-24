@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -46,7 +46,7 @@ print(soup.b.next_sibling)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -70,7 +70,7 @@ print(soup.c.previous_sibling)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -95,7 +95,7 @@ for element in soup.b.next_siblings:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 

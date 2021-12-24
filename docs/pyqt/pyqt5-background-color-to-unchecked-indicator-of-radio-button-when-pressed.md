@@ -8,7 +8,7 @@
 
 为了在指示器单选按钮处于未选中状态并被按下时为其添加背景色，我们必须更改样式表代码。下面是样式表代码。
 
-```
+```py
 QRadiobutton::indicator:unchecked:pressed
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

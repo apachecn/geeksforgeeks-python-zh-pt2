@@ -12,7 +12,7 @@ Python 在其语言中允许各种数学运算，这在科学领域有着多方�
 
 **代码#1 :** 演示伽马()的工作
 
-```
+```py
 # Python code to demonstrate
 # working of gamma()
 import math
@@ -27,7 +27,7 @@ print ("The gamma value of the given argument is : "
 
 **输出:**
 
-```
+```py
 The gamma value of the given argument is : 120.0
 ```
 
@@ -37,7 +37,7 @@ The gamma value of the given argument is : 120.0
 
 **代码#2 :** 比较`factorial()`和`gamma()`
 
-```
+```py
 # Python code to demonstrate
 # factorial() vs gamma()
 import math
@@ -71,7 +71,7 @@ print ("The time taken to compute is : " 
 
 **输出:**
 
-```
+```py
 The gamma value using factorial is : 120
 The time taken to compute is : 9.059906005859375e-06
 

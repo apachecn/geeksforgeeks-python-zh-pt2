@@ -32,7 +32,7 @@
 
 **代码#1:** 使用`***time.mktime()***`方法
 
-```
+```py
 # Python program to explain time.mktime() method 
 
 # importing time module 
@@ -81,7 +81,7 @@ print("\nLocal time (in seconds):", time_sec)
 
 **Output:**
 
-```
+```py
 time.struct_time(tm_year=1970, tm_mon=1, tm_mday=12, tm_hour=13, tm_min=46,
 tm_sec=40, tm_wday=0, tm_yday=12, tm_isdst=0)
 
@@ -93,7 +93,7 @@ Local time (in seconds): 1568438400.0
 
 **代码#2:** 如果参数是元组
 
-```
+```py
 # Python program to explain time.mktime() method 
 
 # importing time module 
@@ -122,14 +122,14 @@ print("Local Time (in seconds since the epoch):", time_sec)
 
 **Output:**
 
-```
+```py
 Local Time (in seconds since the epoch): 1568318426.0
 
 ```
 
 **代码#3:** 显示`***time.mktime()***`方法是`***time.localtime()***`方法的反函数
 
-```
+```py
 # Python program to explain time.mktime() method 
 
 # importing time module 
@@ -169,7 +169,7 @@ print("Time (in seconds since the epoch):", time_sec) 
 
 **Output:**
 
-```
+```py
 Current time (in seconds since the epoch): 1568318426.2286296
 
 time.struct_time object:

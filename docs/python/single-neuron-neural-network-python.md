@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement a
 # single neuron neural network
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Random weights at the start of training
 [[-0.16595599]
  [ 0.44064899]

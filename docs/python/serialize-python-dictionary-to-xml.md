@@ -15,7 +15,7 @@
 
 要快速将 Python 字典转换为 XML，可以使用 dict2xml。使用以下方式安装:
 
-```
+```py
 $ pip install dict2xml
 ```
 
@@ -23,7 +23,7 @@ $ pip install dict2xml
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting Python Dictionary to XML
 from dict2xml import dict2xml
 
@@ -40,7 +40,7 @@ print(xml)
 
 **输出:**
 
-```
+```py
 <a>2</a>
 <b>
   <c>as</c>
@@ -54,7 +54,7 @@ print(xml)
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting Python Dictionary to XML
 # with a root elemtnt
 from dict2xml import dict2xml
@@ -72,7 +72,7 @@ print(xml)
 
 **输出:**
 
-```
+```py
 <root>
    <a>2</a>
    <b>
@@ -87,19 +87,19 @@ print(xml)
 
 Dict2xml 很好，但是它没有太多选项来指定我希望我的 xml 如何格式化或者在标签中添加属性。dicttoxml 可用于这些目的。它也能完美地处理类似字典的和可迭代的对象。键入以下命令，通过终端或命令提示符进行安装:
 
-```
+```py
  $ pip install dicttoxml 
 ```
 
 或者
 
-```
+```py
  $ easy_install dicttoxml  
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Using dicttoxml for converting Python
 #  Dictionary to XML
 from dicttoxml import dicttoxml
@@ -125,7 +125,7 @@ print(xml)
 
 ## 蟒蛇 3
 
-```
+```py
 # Pretty printing XML after parsing
 # it from dictionary
 from xml.dom.minidom import parseString
@@ -147,7 +147,7 @@ print(dom.toprettyxml())
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" ?>
 <root>
     <a type="int">2</a>
@@ -164,7 +164,7 @@ print(dom.toprettyxml())
 
 ## 蟒蛇 3
 
-```
+```py
 # Removing Type Attribute from parsed XML
 from xml.dom.minidom import parseString
 
@@ -177,7 +177,7 @@ print(parseString(xml).toprettyxml())
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" ?>
 <root>
     <a>2</a>
@@ -194,7 +194,7 @@ print(parseString(xml).toprettyxml())
 
 ## 蟒蛇 3
 
-```
+```py
 # Converting Python Dictionary to
 # XML and saving to a file
 from dicttoxml import dicttoxml
@@ -221,7 +221,7 @@ xmlfile.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Defining custom names for lists
 from dicttoxml import dicttoxml
 from xml.dom.minidom import parseString
@@ -246,7 +246,7 @@ print(xml_format)
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" ?>
 <root>
     <mylist type="list">
@@ -266,7 +266,7 @@ print(xml_format)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using parent name in dictionary
 # as tag name in xml
 
@@ -294,7 +294,7 @@ print(parseString(xml).toprettyxml())
 
 **输出:**
 
-```
+```py
 <?xml version="1.0" ?>
 <root>
     <month type="list">

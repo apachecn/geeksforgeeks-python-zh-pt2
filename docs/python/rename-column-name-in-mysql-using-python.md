@@ -11,7 +11,7 @@
 *   为数据库游标创建一个对象。
 *   执行以下 MySQL 查询:
 
-```
+```py
 ALTER TABLE your_table_name RENAME COLUMN original_column_name TO new_column_name;
 ```
 
@@ -25,7 +25,7 @@ ALTER TABLE your_table_name RENAME COLUMN original_column_name TO new_column_nam
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector
 

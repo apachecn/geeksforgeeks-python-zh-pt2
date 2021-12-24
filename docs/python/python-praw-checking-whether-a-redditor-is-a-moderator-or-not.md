@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("Is " + redditor_name + " a moderator? : " +
 
 **输出:**
 
-```
+```py
 Is spez a moderator? : True
 ```
 
@@ -48,7 +48,7 @@ Is spez a moderator? : True
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -78,6 +78,6 @@ print("Is " + redditor_name + " an employee of Reddit? : " +
 
 **输出:**
 
-```
+```py
 Is AutoModerator a moderator? : True
 ```

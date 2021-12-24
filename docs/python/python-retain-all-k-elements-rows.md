@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `any()`**
 上述功能的组合提供了一种执行该任务的方式。在本例中，我们使用 any()执行过滤掉除 K 之外的任何元素的行的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain all K elements Rows
 # Using list comprehension + any()
@@ -37,7 +37,7 @@ print("Matrix after filtering : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[2, 4, 6], [2, 2, 2], [2, 3], [2, 2]]
 Matrix after filtering : [[2, 2, 2], [2, 2]]
 
@@ -46,7 +46,7 @@ Matrix after filtering : [[2, 2, 2], [2, 2]]
 **方法 2:使用列表理解+ `all()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 all()检查行的所有元素是否都等于 K。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain all K elements Rows
 # Using list comprehension + all()
@@ -70,7 +70,7 @@ print("Matrix after filtering : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[2, 4, 6], [2, 2, 2], [2, 3], [2, 2]]
 Matrix after filtering : [[2, 2, 2], [2, 2]]
 

@@ -7,7 +7,7 @@
 **spaCy 的 Model–**
 spaCy 支持两种查找单词相似度的方法:使用上下文敏感张量和使用单词向量。下面是下载这些模型的代码。
 
-```
+```py
 # Downloading the small model containing tensors.
 python -m spacy download en_core_web_sm
 
@@ -18,7 +18,7 @@ python -m spacy download en_core_web_lg
 
 下面是查找单词相似度的代码，可以扩展到句子和文档。
 
-```
+```py
 import spacy
 
 nlp = spacy.load('en_core_web_md')
@@ -43,7 +43,7 @@ print("Similarity:", token1.similarity(token2))
 
 **输出:**
 
-```
+```py
 cat True 6.6808186 False
 dog True 7.0336733 False
 Similarity: 0.80168545
@@ -55,7 +55,7 @@ Similarity: 0.80168545
 **使用自定义语言模型–**
 通过简单地切换语言模型，我们可以发现拉丁语、法语或德语文档之间的相似性。spaCy 目前总共支持 49 种语言。spaCy 还允许用户根据需要固定单词的单词向量。下面是一个例子。
 
-```
+```py
 import spacy
 import numpy as np
 from spacy.vocab import Vocab
@@ -76,7 +76,7 @@ print(vocab.get_vector('bucrest'))
 
 **输出:**
 
-```
+```py
 Before custom setting
 array([0., 0., 0., 0., 0., 0., 0., 0., --- ])
 

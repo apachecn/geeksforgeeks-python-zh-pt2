@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import re
 
@@ -39,7 +39,7 @@ print(CntSubstr(pattern, string))
 
 **输出:**
 
-```
+```py
 [0]
 
 ```
@@ -57,7 +57,7 @@ print(CntSubstr(pattern, string))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import re
 
@@ -82,7 +82,7 @@ print(CntSubstr(pattern2, string2))
 
 **输出:**
 
-```
+```py
 [0, 8]
 [3, 9, 15, 21]
 

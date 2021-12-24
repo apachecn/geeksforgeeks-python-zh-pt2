@@ -7,7 +7,7 @@
 **方法#1:使用`sorted()` +列表理解**
 在这个方法中，我们只是对可以应用的较长过程使用速记。该列表被迭代，随后的子列表也使用排序函数对内部列表进行排序。
 
-```
+```py
 # Python3 code to demonstrate
 # Sorting list of lists with similar list elements
 # using list comprehension + sorted()

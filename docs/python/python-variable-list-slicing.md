@@ -7,7 +7,7 @@
 **方法#1:使用`itertools.islice()` +列表理解**
 列表理解可用于遍历列表，组件问题使用 islice 函数解决。
 
-```
+```py
 # Python3 code to demonstrate
 # variable length slicing
 # using itertools.islice() + list comprehension
@@ -36,7 +36,7 @@ print("The variable sliced list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 5, 3, 7, 8, 10, 11, 16, 9, 12]
 The slice list : [2, 1, 3, 4]
 The variable sliced list is : [[1, 5], [3], [7, 8, 10], [11, 16, 9, 12]]

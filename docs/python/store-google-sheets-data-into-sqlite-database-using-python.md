@@ -55,7 +55,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import sqlite3
 from sqlite3 import Error

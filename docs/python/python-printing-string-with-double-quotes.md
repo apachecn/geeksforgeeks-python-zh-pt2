@@ -7,7 +7,7 @@
 **方法一:使用反斜杠(“\”)**
 这是解决这个问题的一种方法。在这种情况下，我们只需在双引号前加一个反斜杠，它就会被转义。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Printing String with double quotes
 # Using backslash
@@ -22,7 +22,7 @@ print("The string escaped with backslash : " + test_str)
 
 **Output :**
 
-```
+```py
 The string escaped with backslash : geeks"for"geeks
 
 ```

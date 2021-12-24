@@ -8,7 +8,7 @@
 
 **语法**
 
-```
+```py
 field_name = models.Field(option = value)
 ```
 
@@ -23,7 +23,7 @@ field_name = models.Field(option = value)
 
 将以下代码输入**极客** app 的`forms.py`文件。我们将使用 CharField 对所有字段选项进行实验。
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -32,7 +32,7 @@ class GeeksForm(forms.Form):
 
 将极客应用添加到`INSTALLED_APPS`
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -48,7 +48,7 @@ INSTALLED_APPS = [
 
 现在，为了将这个表单呈现为一个视图，我们需要一个视图和一个映射到该视图的 URL。让我们首先在极客应用的 `views.py`中创建一个视图，
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -67,7 +67,7 @@ def home_view(request):
 这里，我们从 forms.py 导入该特定表单，并在视图中创建它的一个对象，以便它可以在模板中呈现。
 现在，要创建一个姜戈表单，你需要创建一个 home.html，在那里你可以按照他们喜欢的方式设计东西。让我们在`home.html`中创建一个表单。
 
-```
+```py
 <form method = "POST">
     {% csrf_token %}
     {{ form }}
@@ -77,7 +77,7 @@ def home_view(request):
 
 最后，在 urls.py 中映射到此视图的 URL
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -90,7 +90,7 @@ URLpatterns = [
 
 让我们运行服务器并检查实际发生了什么，运行
 
-```
+```py
 Python manage.py runserver
 ```
 

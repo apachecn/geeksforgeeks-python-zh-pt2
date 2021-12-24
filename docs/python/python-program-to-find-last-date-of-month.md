@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Last date of Month
 # Using replace() + timedelta()
@@ -51,7 +51,7 @@ print("Last date of month : " + str(res.day))
 
 **输出:**
 
-```
+```py
 The original date is : 2018-06-04 00:00:00
 Last date of month : 30
 ```
@@ -62,7 +62,7 @@ Last date of month : 30
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Last date of Month
 # Using calendar()
@@ -85,7 +85,7 @@ print("Last date of month : " + str(res))
 
 **输出:**
 
-```
+```py
 The original date is : 2018-06-04 00:00:00
 Last date of month : 30
 ```

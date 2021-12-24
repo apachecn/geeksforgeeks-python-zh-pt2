@@ -6,7 +6,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # initializing the list
 li = [1, -22, 43, 89, 2, 6, 3, 16]
 
@@ -25,7 +25,7 @@ print("The minimum value is " + str(curr_min))
 
 **Output**
 
-```
+```py
 The minimum value is -22
 
 ```
@@ -38,7 +38,7 @@ The minimum value is -22
 
 ## 计算机编程语言
 
-```
+```py
 # import the module
 import sys
 
@@ -62,7 +62,7 @@ print("The minimum value is " + str(curr_min))
 
 **Output**
 
-```
+```py
 The minimum value is -22
 
 ```
@@ -77,7 +77,7 @@ The minimum value is -22
 
 ## 计算机编程语言
 
-```
+```py
 # import the module
 import sys
 
@@ -92,7 +92,7 @@ print("maxint + 1 :"+str(max_int)+" - "+str(type(long_int)))
 
 **Output**
 
-```
+```py
 maxint :9223372036854775807 - <type 'int'>
 maxint - 1 :9223372036854775807 - <type 'int'>
 maxint + 1 :9223372036854775807 - <type 'long'>
@@ -103,7 +103,7 @@ maxint + 1 :9223372036854775807 - <type 'long'>
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # initializing the list
@@ -124,7 +124,7 @@ print("The minimum value is " + str(curr_min))
 
 **输出:**
 
-```
+```py
 AttributeError: module 'sys' has no attribute 'maxint'
 
 ```
@@ -133,7 +133,7 @@ AttributeError: module 'sys' has no attribute 'maxint'
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import sys
 
@@ -151,7 +151,7 @@ print("maxint + 1 :"+str(max_int)+" - "+str(type(long_int)))
 
 **Output**
 
-```
+```py
 maxint :9223372036854775807 - <class 'int'>
 maxint - 1 :9223372036854775807 - <class 'int'>
 maxint + 1 :9223372036854775807 - <class 'int'>

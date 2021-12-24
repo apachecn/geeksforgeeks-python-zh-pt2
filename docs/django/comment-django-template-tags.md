@@ -7,14 +7,14 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 句法
 
-```
+```py
 {% comment 'comment_name' %}
 {% endcomment %}
 ```
 
 例子
 
-```
+```py
 {% comment "Optional note" %}
     Commented out text with {{ create_date|date:"c" }}
 {% endcomment %}
@@ -33,7 +33,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -51,7 +51,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -66,7 +66,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 Data uncommented :
 {{ data }}
 Data commented :

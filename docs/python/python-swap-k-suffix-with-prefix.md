@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Swap K suffix with prefix
 # Using range swap + slice()
@@ -46,7 +46,7 @@ print("After prefix suffix swap : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 1, 0, 1, 3, 5, 7, 9]
 After prefix suffix swap : [5, 7, 9, 1, 0, 1, 3, 5, 6, 3]
 
@@ -58,7 +58,7 @@ After prefix suffix swap : [5, 7, 9, 1, 0, 1, 3, 5, 6, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Swap K suffix with prefix
 # Using slice notation
@@ -82,7 +82,7 @@ print("After prefix suffix swap : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 1, 0, 1, 3, 5, 7, 9]
 After prefix suffix swap : [5, 7, 9, 1, 0, 1, 3, 5, 6, 3]
 

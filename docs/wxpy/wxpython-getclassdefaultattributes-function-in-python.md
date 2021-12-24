@@ -12,21 +12,21 @@
 
 **语法:**
 
-```
+```py
 wx.ToolBar.GetClassDefaultAttributes(variant=WINDOW_VARIANT_NORMAL)
 
 ```
 
 **返回类型:**
 
-```
+```py
 wx.VisualAttributes
 
 ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (240, 240, 240, 255)
 (0, 0, 0, 255)
 <wx._core.Font object at 0x00000080FC7B5280>

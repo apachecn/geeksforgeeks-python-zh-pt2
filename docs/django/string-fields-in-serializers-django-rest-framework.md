@@ -17,7 +17,7 @@ CharField 用于存储文本表示。可选地验证文本短于`max_length`且�
 
 **语法–**
 
-```
+```py
 field_name = serializers.CharField(*args, **kwargs)
 ```
 
@@ -26,7 +26,7 @@ field_name = serializers.CharField(*args, **kwargs)
 EmailField 也是一种文本表示，它验证文本是有效的电子邮件地址。与[EmailField–Django Models](https://www.geeksforgeeks.org/emailfield-django-models/)相同。对于相同的功能，它接受 CharField 的所有参数。
 **语法–**
 
-```
+```py
 field_name = serializers.EmailField(*args, **kwargs)
 ```
 
@@ -35,7 +35,7 @@ field_name = serializers.EmailField(*args, **kwargs)
 正如名称所定义的，RegexField 将字符串与特定的 regex 匹配，否则会引发错误。与[regex field–Django 表单](https://www.geeksforgeeks.org/regexfield-django-forms/)相同。对于相同的功能，它接受 CharField 的所有参数。
 **语法–**
 
-```
+```py
 field_name = serializers.RegexField(*args, **kwargs)
 ```
 
@@ -44,7 +44,7 @@ field_name = serializers.RegexField(*args, **kwargs)
 为了解释字符串字段的用法，让我们使用从–[开始的相同项目设置如何使用 Django Rest 框架创建一个基本的 API？](https://geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)。
 现在您的项目中有了一个名为 serializer 的文件，让我们创建一个以 CharField、EmailField 和 RegexField 为字段的序列化程序。
 
-```
+```py
 #import serializer from rest_framework
 from rest_framework import serializers
 
@@ -64,13 +64,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -94,7 +94,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 EmailField 只验证电子邮件中的数据。让我们检查一下这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data={}
 >>> data['name']="Naveen"

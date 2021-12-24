@@ -9,14 +9,14 @@
 
 语法:
 
-```
+```py
 action = QAction(name)
 
 ```
 
 这个动作可以借助`addAction`和`addActions`方法添加到工具栏或 QMenus 中。下面是一些经常与 QAction 一起使用的命令
 
-```
+```py
 setCheckable : To make QAction Chekable
 
 setIcon : To add icon to the QAction
@@ -34,7 +34,7 @@ triggered.connect : To connect an method with it when triggered signal is emitte
 **示例:**
 在这个示例中，我们将创建一个主窗口，它有一个工具栏，标签和工具栏由 QAction 组成，每个 QAction 都有单独的方法与之连接，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys
@@ -107,7 +107,7 @@ sys.exit(App.exec())
 **另一个例子**
 在这个例子中，我们将创建一个 commandlink 按钮，并向其添加菜单，该菜单具有 QAction，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys

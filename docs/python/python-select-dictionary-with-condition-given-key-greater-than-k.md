@@ -6,7 +6,7 @@
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python3 code to demonstrate
 # filtering of a list of dictionary
 # on basis of condition
@@ -33,7 +33,7 @@ print ("resultant_list", str(res))
 
 **方法 2:使用λ和滤波器**
 
-```
+```py
 # Python3 code to demonstrate
 # filtering of list of dictionary
 # on basis of condition
@@ -60,7 +60,7 @@ print ("resultant_list", str(res))
 
 **方法三:使用字典理解和列表理解**
 
-```
+```py
 # Python3 code to demonstrate
 # filtering of list of dictionary
 # on basis of condition

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove rows with Numbers
 # Using list comprehension + any
@@ -49,7 +49,7 @@ print("The filtered rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove rows with Numbers
 # Using filter() + lambda + any()

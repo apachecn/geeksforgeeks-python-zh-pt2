@@ -7,7 +7,7 @@
 **方法#1:使用`split() + loop + replace()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 split()执行将字符串转换为单词列表的任务。然后，我们使用 replace()将字符串中的单词替换为空字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Dictionary Key Words
 # Using split() + loop + replace()
@@ -33,7 +33,7 @@ print("The string after replace : " + str(test_str)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg is best for geeks
 The string after replace : gfg is  for 
 

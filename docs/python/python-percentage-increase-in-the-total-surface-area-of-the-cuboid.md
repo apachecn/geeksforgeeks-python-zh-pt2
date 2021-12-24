@@ -5,7 +5,7 @@
 给定一个长度为 **L** 、宽度为 **B** 和高度为 **H** 的长方体，如果长度、宽度和高度都增加了固定的百分比，那么任务就是求出长方体总表面积的百分比增加量。
 **举例:**
 
-```
+```py
 Input :
 L = 20, B = 30, H = 50, l = 10 %, b = 12 %, h = 15 %
 Output :
@@ -21,7 +21,7 @@ Output :
 
 ## py S3
 
-```
+```py
 # Function to return the percentage increase
 # in the total surface area of the cuboid
 # Total surface area of a cuboid = 2(L * B) + (L * H) + (B * H)
@@ -48,6 +48,6 @@ print(increaseIntsa(L, B, H, l, b, h), "%")
 
 **输出:**
 
-```
+```py
 26.974193548387092 %
 ```

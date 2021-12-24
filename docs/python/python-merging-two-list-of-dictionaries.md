@@ -6,7 +6,7 @@
 
 **方法#1:** 使用`defaultdict` 和`extend` 基于 *school_id* 合并两个词典列表。
 
-```
+```py
 # Python code to  merge two list of dictionaries 
 # based on some value.
 

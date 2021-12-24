@@ -50,13 +50,13 @@
 
 每个蜘蛛都有一个名字、start_url 和函数方法。
 
-```
+```py
 cd example_gfg/example_gfg/spiders
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 
 class python_Spider(scrapy.Spider):
@@ -68,7 +68,7 @@ class python_Spider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 
 class python_Spider(scrapy.Spider):
@@ -94,7 +94,7 @@ class python_Spider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 
 class python_Spider(scrapy.Spider):
@@ -120,7 +120,7 @@ Scrapy 有一个可以测试命令选择器 CSS 的外壳。
 
 **不带 venv 和带 venv:**
 
-```
+```py
 scrapy shell "https://www.geeksforgeeks.org/data-structures/?ref=shm"
 response.css("a").get()
 response.css("title").get()
@@ -139,7 +139,7 @@ response.css("a::attr(href)").get()
 
 **没有 venv :** 我们应该输入执行命令的项目或蜘蛛的路径。
 
-```
+```py
 scrapy crawl geeksforgeeks_article
 ```
 
@@ -147,7 +147,7 @@ scrapy crawl geeksforgeeks_article
 
 **使用 venv** :如果我们处于 venv 模式，我们可以在任何路径上执行命令。
 
-```
+```py
 scrapy crawl geeksforgeeks_article
 ```
 
@@ -155,13 +155,13 @@ scrapy crawl geeksforgeeks_article
 
 我们可以用下面的命令将数据存储在一个文件中:
 
-```
+```py
 scrapy crawl geeksforgeeks_article -O geeksforgeeks_article.csv 
 ```
 
 或者
 
-```
+```py
 scrapy crawl geeksforgeeks_article -o geeksforgeeks_article.csv
 ```
 

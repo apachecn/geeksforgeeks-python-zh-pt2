@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Increment Numeric Strings by K
 # Using str() + int() + loop + isdigit()
@@ -58,7 +58,7 @@ print("Incremented Numeric Strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Increment Numeric Strings by K
 # Using list comprehension + isdigit()

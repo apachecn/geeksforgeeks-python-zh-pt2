@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reform K digit elements
 # Using slicing + join() + loop
@@ -46,7 +46,7 @@ print("Reforming K digits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [223, 67, 332, 1, 239, 2, 931]
 Reforming K digits : [22, 36, 73, 32, 12, 39, 29, 31]
 
@@ -58,7 +58,7 @@ Reforming K digits : [22, 36, 73, 32, 12, 39, 29, 31]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reform K digit elements
 # Using list comprehension + join()
@@ -85,7 +85,7 @@ print("Reforming K digits : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [223, 67, 332, 1, 239, 2, 931]
 Reforming K digits : [22, 36, 73, 32, 12, 39, 29, 31]
 

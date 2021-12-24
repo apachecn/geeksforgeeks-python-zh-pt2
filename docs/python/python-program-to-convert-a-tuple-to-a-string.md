@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ('a', 'b', 'c', 'd', 'e')
 Output : abcde
 
@@ -24,7 +24,7 @@ Output : geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to convert a tuple
 # into a string using a for loop
 
@@ -43,7 +43,7 @@ print(str)
 
 **输出:**
 
-```
+```py
 geeks
 ```
 
@@ -54,7 +54,7 @@ join()方法是一个字符串方法，它返回一个字符串，在该字符�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to convert a tuple
 # into a string using str.join() method
 
@@ -70,7 +70,7 @@ print(str)
 
 **输出:**
 
-```
+```py
 geeks
 ```
 
@@ -80,7 +80,7 @@ geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to convert a tuple
 # into a string using str.join() & map() functions
 
@@ -96,7 +96,7 @@ print(str)
 
 **输出:**
 
-```
+```py
 geeks101
 ```
 
@@ -106,7 +106,7 @@ reduce(fun，seq)函数用于将参数中传递的特定函数应用于在传递
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to convert a tuple
 # into a string using reduce() function
 import functools
@@ -124,6 +124,6 @@ print(str)
 
 **输出:**
 
-```
+```py
 geeks
 ```

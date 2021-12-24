@@ -5,19 +5,19 @@
 滚动条是一个小部件，用于滚动另一个小部件中的文本。例如，文本、画布框或列表框中的文本可以使用滚动条从上到下或从左到右滚动。滚动条有两种类型。它们是水平的和垂直的。水平滚动条对于从左到右查看文本非常有用。垂直滚动条用于从上到下滚动文本。
 现在让我们看看如何创建滚动条。要创建滚动条，我们必须创建一个滚动条类对象，如下所示:
 
-```
+```py
 h = Scrollbar(root, orient='horizontal')
 ```
 
 这里 h 代表作为根窗口的子窗口创建的 scrollbar 对象。这里，方向表示水平滚动条的*水平*，垂直*表示垂直滚动条。类似地，为了创建垂直滚动条，我们可以编写:*
 
-```
+```py
 v = Scrollbar(root, orient='vertical')
 ```
 
 将滚动条附加到文本框、列表框等小部件后，我们必须为水平滚动条添加命令 *xview* ，为垂直滚动条添加 *yview* 。
 
-```
+```py
 h.config(command=t.xview) #for horizontal scrollbar
 v.config(command=t.yview) #for vertical scrollbar
 ```
@@ -26,7 +26,7 @@ v.config(command=t.yview) #for vertical scrollbar
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to make a scrollable frame
 # using Tkinter
 

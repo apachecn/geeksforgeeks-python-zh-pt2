@@ -6,7 +6,7 @@ yield 语句暂停函数的执行，并将一个值发送回调用方，但保�
 
 我们用一个例子来看看:
 
-```
+```py
 # A Simple Python program to demonstrate working
 # of yield
 
@@ -24,7 +24,7 @@ for value in simpleGeneratorFun(): 
 
 输出:
 
-```
+```py
 1
 2
 3
@@ -34,7 +34,7 @@ for value in simpleGeneratorFun(): 
 
 产量用于 Python **生成器**。生成器函数的定义类似于普通函数，但是每当它需要生成一个值时，它都使用 yield 关键字，而不是 return。如果 def 的主体包含 yield，则该函数自动成为生成器函数。
 
-```
+```py
 # A Python program to generate squares from 1
 # to 100 using yield and therefore generator
 
@@ -59,7 +59,7 @@ for num in nextSquare():
 
 输出:
 
-```
+```py
 1
 4
 9

@@ -10,7 +10,7 @@
 
 为了给条形图添加边框，我们必须改变 CSS 样式表，并使用`setStyleSheet`方法，下面是样式表代码
 
-```
+```py
 QProgressBar
 {
 border : 1px solid black;
@@ -24,7 +24,7 @@ border : 3px solid red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

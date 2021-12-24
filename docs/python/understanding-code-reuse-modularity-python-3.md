@@ -30,7 +30,7 @@ OOP 是一种基于“对象”概念的编程范式，它可能包含数据，�
 
 ## 计算机编程语言
 
-```
+```py
 import pygame
 import random
 
@@ -103,7 +103,7 @@ if __name__ == '__main__':
 
 为此，让我们有两个文件。让我们复制 Blob 类和 random，并创建一个新文件: [blob.py](https://github.com/SKKSaikia/GeeksforGeeks/blob/master/modularity/blob_1.py)
 
-```
+```py
 import random
 
 class Blob:
@@ -127,7 +127,7 @@ class Blob:
 
 回到我们的原始文件，让我们删除 Blob 类，然后从 blob.py 导入 Blob。
 
-```
+```py
 import pygame
 import random
 from blob import Blob
@@ -141,7 +141,7 @@ STARTING_BLUE_BLOBS = 10
 
 接下来，在我们的原始文件中，当我们调用 Blob 类时，它需要这些参数的一些值，所以您应该在主函数中添加这些值:
 
-```
+```py
 def main():
     blue_blobs = dict(enumerate([Blob(BLUE,WIDTH,HEIGHT) for i in range(STARTING_BLUE_BLOBS)]))
     red_blobs = dict(enumerate([Blob(RED,WIDTH,HEIGHT) for i in range(STARTING_RED_BLOBS)]))
@@ -151,13 +151,13 @@ def main():
 
 太好了，所以现在我们的 Blob 类至少可以被导入，所以它本质上已经是模块化的了！另一个好主意是尝试给使用你的代码的开发人员尽可能多的权力，并使你的类尽可能的通用。至少有一个例子，我们可以给使用这个类的程序员更多的东西，那就是 blob 大小的定义:
 
-```
+```py
   self.size = random.randrange(4,8) 
 ```
 
 我们为什么不想给程序员一个简单的方法来改变这些呢？我不这么认为。然而，与 x_boundary 和 y_boundary 不同，我们不一定需要程序员为我们提供一个大小值，因为我们至少可以使用一个合理的起始默认值。因此，我们可以这样做:
 
-```
+```py
 class Blob:
 
     def __init__(self, color, x_boundary, y_boundary, size_range=(4,8)):
@@ -171,7 +171,7 @@ class Blob:
 
 现在，如果程序员想改变大小，他们可以，否则他们不必。我们可能还想允许程序员修改 blob 的速度，如果他们想:
 
-```
+```py
 import random
 
 class Blob:
@@ -198,7 +198,7 @@ class Blob:
 
 现在我们已经开了很多课。我们还有什么问题吗？是的，我们强制斑点保持在边界内的线。有没有可能有这样的例子，我们希望这些斑点能够自由地在视野之外漫游？当然可以！这个边界代码有用吗？程序员是否有可能经常想利用这一点？当然可以！然而，更有意义的是要么根本没有代码，要么给它自己的方法，就像这样:
 
-```
+```py
 import random
 
 class Blob:

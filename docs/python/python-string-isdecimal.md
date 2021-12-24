@@ -18,7 +18,7 @@
 
 *下面是 isdecimal()方法的 Python3 实现:*
 
-```
+```py
 # Python3 program to demonstrate the use
 # of isdecimal() 
 
@@ -36,7 +36,7 @@ print(s.isdecimal())
 
 输出:
 
-```
+```py
 True
 False
 False

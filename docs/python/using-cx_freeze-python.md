@@ -12,7 +12,7 @@
 
 一旦我们有了 cx_freeze，我们就可以开始了。我们将使用正则表达式和 urllib 解析“geeksforgeeks.org”。
 
-```
+```py
 import urllib.request
 import urllib.parse
 import re
@@ -41,7 +41,7 @@ time.sleep(14)
 
 现在，我们创建第二个名为“setup.py”的文件
 
-```
+```py
 from cx_Freeze import setup, Executable
 
 setup(name = "GeeksforGeeks" ,
@@ -59,7 +59,7 @@ setup(name = "GeeksforGeeks" ,
 
 接下来，我们打开 cmd.exe，或 bash，或我们拥有的任何 shell，导航到包含 setup.py 和要转换的脚本的目录，然后运行:
 
-```
+```py
 python setup.py build
 ```
 

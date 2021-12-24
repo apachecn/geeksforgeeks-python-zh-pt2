@@ -7,7 +7,7 @@
 **方法一:使用`sorted() + reverse + zip() + itemgetter()`**
 结合这三个功能，我们有可能完成任务。zip 函数将两个列表绑定在一起，sorted 函数对列表进行排序，itemgetter 函数用于定义我们需要第二个列表移动的指标，在本例中是第一个列表。反向排序由反向处理。
 
-```
+```py
 # Python3 code to demonstrate 
 # Reverse Sort Row Matrix integration
 # using sorted() + zip() + itemgetter()
@@ -31,7 +31,7 @@ print ("The lists after integrity reverse sort : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [3, 4, 9, 1, 6]
 The original list 2 is : [1, 5, 3, 6, 7]
 The lists after integrity reverse sort : [[9, 6, 4, 3, 1], [3, 7, 5, 1, 6]]

@@ -8,7 +8,7 @@
 
 **概念:**我们可以通过增加/减少标签的坐标值来改变标签的位置，但是如果它到达侧面的任何一端，则不增加或减少。下面是按下每个箭头键时要做的数据。
 
-```
+```py
 When Up arrow key is pressed : X Co-ordinate remain same, decrement the Y Co-ordinate 
 When Down arrow key is pressed : X Co-ordinate remain same, increment the Y Co-ordinate 
 When Left arrow key is pressed : Decrement X Co-ordinate, Y Co-ordinate remain same
@@ -34,7 +34,7 @@ When Right arrow key is pressed : Increment X Co-ordinate, Y Co-ordinate remain 
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

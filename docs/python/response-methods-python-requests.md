@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -25,7 +25,7 @@ print(response.status_code)
 将该文件保存为 request.py，并使用以下命令
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -77,7 +77,7 @@ Python request.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -96,7 +96,7 @@ print(response.json())
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -118,7 +118,7 @@ Python request.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -137,7 +137,7 @@ print(response.ok)
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -159,7 +159,7 @@ Python request.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -178,7 +178,7 @@ print(response.status_code)
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -200,7 +200,7 @@ Python request.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import requests module
 import requests
 
@@ -219,7 +219,7 @@ print(response.headers)
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -239,7 +239,7 @@ Python request.py
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a get request
@@ -254,7 +254,7 @@ print(response.content)
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 

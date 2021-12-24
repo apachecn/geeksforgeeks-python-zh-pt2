@@ -19,7 +19,7 @@ Flask 是用 Python 编写的网络开发框架之一。通过 flask，可以使
 app . py 的代码对于两个例子都是一样的。我们会先以列表
 的格式打印一个 Python 列表，上面有一些口袋妖怪的名字，然后是一个表格。
 
-```
+```py
 # importing modules
 from flask import Flask, render_template
 
@@ -49,7 +49,7 @@ def homepage():
 
 **index.html**
 
-```
+```py
 <!DOCTYPE html>
 
 <html>
@@ -81,7 +81,7 @@ def homepage():
 
 **index.html**
 
-```
+```py
 <!DOCTYPE html>
 
 <html>

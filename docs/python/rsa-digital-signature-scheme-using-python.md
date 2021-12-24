@@ -33,7 +33,7 @@ RSA 算法是一种非对称密码算法。非对称实际上意味着它使用�
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to find gcd
 # of two numbers
 def euclid(m, n):
@@ -133,7 +133,7 @@ else:
 
 **输出:**
 
-```
+```py
 decryption key is:  160009
 As M = M1, Accept the message sent by Alice
 ```

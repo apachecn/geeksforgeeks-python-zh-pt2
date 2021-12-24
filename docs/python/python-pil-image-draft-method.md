@@ -18,7 +18,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。图
 
 ## 蟒蛇 3
 
-```
+```py
 # importing image object from PIL
 from PIL import Image
 
@@ -41,7 +41,7 @@ im1.show()
 
 **输出 1:**T2】
 
-```
+```py
 PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=217x232 at 0x27A3D65FD68
 PIL.JpegImagePlugin.JpegImageFile image mode=L size=109x116 at 0x27A3D65FD68
 ((2, 0), 'L', (109, 116), [('jpeg', (0, 0, 109, 116), 0, ('L', ''))])
@@ -59,7 +59,7 @@ PIL.JpegImagePlugin.JpegImageFile image mode=L size=109x116 at 0x27A3D65FD68
 
 ## 蟒蛇 3
 
-```
+```py
 # importing image object from PIL
 from PIL import Image
 
@@ -82,7 +82,7 @@ im1.show()
 
 **输出 1:**T2】
 
-```
+```py
 PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=259x194 at 0x28A1C2C1CC0
 PIL.JpegImagePlugin.JpegImageFile image mode=L size=130x97 at 0x28A1C2C1CC0
 ((2, 0), 'L', (130, 97), [('jpeg', (0, 0, 130, 97), 0, ('L', ''))])

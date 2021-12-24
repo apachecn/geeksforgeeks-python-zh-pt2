@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% if variable %}
 // statements
 {% else %}
@@ -19,7 +19,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 {% if athlete_list %}
     Number of athletes: {{ athlete_list|length }}
 {% elif athlete_in_locker_room_list %}
@@ -45,7 +45,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -63,7 +63,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -78,7 +78,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% if data %}
 Value in data is : - {{ data }}
 {% else %}
@@ -98,7 +98,7 @@ Data is empty
 
 ## 蟒蛇 3
 
-```
+```py
 ## import Http Response from django
 from django.shortcuts import render
 
@@ -120,7 +120,7 @@ def geeks_view(request):
 
 如果标签可以使用 and、or 或 not 来测试多个变量或否定给定的变量:
 
-```
+```py
 {% if athlete_list and coach_list %}
     Both athletes and coaches are available.
 {% endif %}

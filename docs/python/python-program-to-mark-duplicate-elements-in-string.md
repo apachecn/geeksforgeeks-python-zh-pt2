@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mark duplicate elements
 # Using count() + enumerate() + list comprehension + slicing 
@@ -54,7 +54,7 @@ print("Duplicates marked List : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mark duplicate elements
 # Using map() + count() + lambda

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `isdigit()`**
 这是这个任务可以执行的方式之一。在这种情况下，我们迭代矩阵的每个元素，并使用类型转换检查数字字符串，然后执行转换。
 
-```
+```py
 # Python3 code to demonstrate 
 # Matrix Data Type Rectification
 # using isdigit() + list comprehension
@@ -28,7 +28,7 @@ print ("The rectified Matrix is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [['5', 'GFG'], ['1', '3'], ['is', '11'], ['1', 'best']]
 The rectified Matrix is : [[5, 'GFG'], [1, 3], ['is', 11], [1, 'best']]
 

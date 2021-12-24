@@ -5,7 +5,7 @@
 给定一个数字列表，任务是编写一个 Python 程序来查找给定列表中的最小数字。
 示例:
 
-```
+```py
 Input : list1 = [10, 20, 4]
 Output : 4
 
@@ -17,7 +17,7 @@ Output : 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find smallest
 # number in a list
 
@@ -33,7 +33,7 @@ print("Smallest element is:", *list1[:1])
 
 **输出:**
 
-```
+```py
 smallest element is: 4
 ```
 
@@ -41,7 +41,7 @@ smallest element is: 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find smallest
 # number in a list
 
@@ -54,7 +54,7 @@ print("Smallest element is:", min(list1))
 
 **输出:**
 
-```
+```py
 Smallest element is: 1
 ```
 
@@ -62,7 +62,7 @@ Smallest element is: 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find smallest
 # number in a list
 
@@ -83,7 +83,7 @@ print("Smallest element is:", min(list1))
 
 **输出:**
 
-```
+```py
 Enter number of elements in list: 4
 Enter elements: 12
 Enter elements: 19
@@ -96,7 +96,7 @@ Smallest element is: 11
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find smallest
 # number in a list
 
@@ -117,13 +117,13 @@ print("The smallest element in the list is ",min1)
 
 **输入:**
 
-```
+```py
 List: 23,-1,45,22.6,78,100,-5
 ```
 
 **输出:**
 
-```
+```py
 The list is ['23', '-1', '45', '22.6', '78', '100','-5']
 The smallest element in the list is  -5
 ```

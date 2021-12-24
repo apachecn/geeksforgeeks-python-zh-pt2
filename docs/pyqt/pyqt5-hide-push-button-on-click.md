@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
@@ -67,7 +67,7 @@ sys.exit(App.exec())
 
 当点击按钮时，将产生输出，按钮将被隐藏。
 
-```
+```py
 pressed 
 ```
 

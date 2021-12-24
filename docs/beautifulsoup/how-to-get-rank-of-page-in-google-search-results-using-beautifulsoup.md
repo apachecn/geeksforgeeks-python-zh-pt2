@@ -18,13 +18,13 @@
 
 **Requests:**Requests 模块允许您发送 HTTP 请求，并返回一个包含状态、页面内容等所有数据的响应。
 
-```
+```py
 Syntax: pip install requests
 ```
 
 **美汤:**美汤模块允许您使用 python 内置的 HTML 解析器解析原始 HTML 或 XML 文档，这样我们就可以从解析后的文档中提取数据。
 
-```
+```py
 pip install bs4
 ```
 
@@ -45,7 +45,7 @@ pip install bs4
 
 **3。**使用 *page.text* 方法获取页面内容，并使用漂亮的汤解析原始 HTML。
 
-```
+```py
 soup = BeautifulSoup(page.text, 'html.parser')
 ```
 
@@ -61,7 +61,7 @@ soup = BeautifulSoup(page.text, 'html.parser')
 
 ***5。**迭代 result_div，找到<一个>标签，检查是否存在任何网址，如果找到，检查是否与输入中提供的网站匹配，并将排名添加到 rank_list 中。 *(rank_list 是一个字符串变量，因为可以出现多个等级)**
 
-```
+```py
 *link = div.find("a", href=True)
 if link['href'][7:7+len(website)] == website:
     rank_list += str(rank)+","*
@@ -73,7 +73,7 @@ if link['href'][7:7+len(website)] == website:
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import the required modules
 import requests
 from bs4 import BeautifulSoup
@@ -145,6 +145,6 @@ if __name__ == "__main__":
 
 ***输出:***
 
-```
+```py
 *Rank of Website : 1,2*
 ```

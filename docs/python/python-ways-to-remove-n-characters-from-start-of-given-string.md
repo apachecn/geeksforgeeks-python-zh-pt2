@@ -6,7 +6,7 @@
 
 **方法#1:使用天真法**
 
-```
+```py
 # Python3 code to demonstrate 
 # how to remove 'n' characters from starting
 # of a string
@@ -33,7 +33,7 @@ print ("Resultant String", res)
 
 **Output:**
 
-```
+```py
 Initial String garg_akshat
 Resultant String akshat
 
@@ -41,7 +41,7 @@ Resultant String akshat
 
 **方法 2:使用`replace()`**
 
-```
+```py
 # Python3 code to demonstrate 
 # how to remove 'n' characters from starting
 # of a string
@@ -65,7 +65,7 @@ print ("Resultant String", res)
 
 **Output:**
 
-```
+```py
 Initial String garg_akshat
 Resultant String akshat
 
@@ -73,7 +73,7 @@ Resultant String akshat
 
 **方法三:切弦**
 
-```
+```py
 # Python3 code to demonstrate 
 # how to remove 'n' characters from starting
 # of a string
@@ -99,7 +99,7 @@ print ("Resultant String", res)
 
 **Output:**
 
-```
+```py
 Initial String gargakshat123
 Resultant String akshat123
 

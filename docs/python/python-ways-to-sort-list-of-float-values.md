@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list = ['1.2', '.8', '19.8', '2.7', '99.8', '80.7']
 Output: ['.8', '1.2', '2.7', '19.8', '80.7', '99.8']
 
@@ -19,7 +19,7 @@ Output: [0.178, 1.8, 8.7, 12.8, 99.8, 782.7]
 
 **方法#1:使用λ**
 
-```
+```py
 # Python code to sort list of decimal values
 
 # List initialization
@@ -34,14 +34,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [0.178, 1.8, 8.7, 12.8, 99.8, 782.7]
 
 ```
 
 **方法 2:使用排序后的**
 
-```
+```py
 # Python code to sort list of decimal values
 
 # List initialization
@@ -56,14 +56,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [0.178, 1.8, 8.7, 12.8, 99.8, 782.7]
 
 ```
 
 **方法 3:使用排序**
 
-```
+```py
 # Python code to sort list of decimal values
 
 # List initialization
@@ -78,7 +78,7 @@ print(Input)
 
 **Output:**
 
-```
+```py
 [0.178, 1.8, 8.7, 12.8, 99.8, 782.7]
 
 ```

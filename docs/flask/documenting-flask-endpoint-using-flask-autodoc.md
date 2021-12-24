@@ -12,7 +12,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install flask-autodoc
 ```
 
@@ -28,13 +28,13 @@ pip install flask-autodoc
 
 使用 flask-autodoc 时可能出现的错误是–
 
-```
+```py
 ModuleNotFoundError: No module named 'flask.ext'
 ```
 
 要消除此错误，请打开 __init__。flask_autodoc 模块的 py 文件并更改
 
-```
+```py
 from flask.ext.autodoc.autodoc import Autodoc
 to
 from flask_autodoc.autodoc import Autodoc
@@ -44,7 +44,7 @@ from flask_autodoc.autodoc import Autodoc
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -89,7 +89,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -140,7 +140,7 @@ def documentation():
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -182,7 +182,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)

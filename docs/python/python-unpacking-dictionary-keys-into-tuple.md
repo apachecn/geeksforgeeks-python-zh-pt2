@@ -8,7 +8,7 @@
 
 将字典转换成元组的简单类型实际上完成了所需的任务。这个函数只接受关键字，并根据需要将它们转换成关键字元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unpacking dictionary keys into tuple
 # Using tuple()
@@ -29,7 +29,7 @@ print("The unpacked dict. keys into tuple is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'is': 2, 'Gfg': 1}
 The unpacked dict. keys into tuple is :  ('best', 'is', 'Gfg')
 
@@ -38,7 +38,7 @@ The unpacked dict. keys into tuple is :  ('best', 'is', 'Gfg')
 **方法 2:使用`"=" operator`和多个变量**
 该方法也可用于执行该特定任务。在这种情况下，我们将逗号分隔的变量分配给字典。我们在字典中使用的变量和关键字一样多。在密钥未知或数量较多的情况下，不建议使用此方法。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unpacking dictionary keys into tuple
 # Using "=" operator and multiple variables
@@ -60,7 +60,7 @@ print("The unpacked dict. keys into tuple is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': 3, 'is': 2, 'Gfg': 1}
 The unpacked dict. keys into tuple is :  ('best', 'is', 'Gfg')
 

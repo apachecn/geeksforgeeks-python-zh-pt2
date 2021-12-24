@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 driver.page_source
 
 ```
@@ -22,7 +22,7 @@ driver.page_source
 
 **Code 1.**
 
-```
+```py
 # importing webdriver from selenium
 from selenium import webdriver
 
@@ -46,7 +46,7 @@ print(get_source)
 
 **代码 2。**没有打开网页时。
 
-```
+```py
 # importing webdriver from selenium
 from selenium import webdriver
 

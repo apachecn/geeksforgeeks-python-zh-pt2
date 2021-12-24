@@ -14,7 +14,7 @@
 
 **Example 1:**
 
-```
+```py
 # Python program to demonstrate
 # os.pardir
 
@@ -26,14 +26,14 @@ print(os.pardir)
 
 **输出:**
 
-```
+```py
 ..
 
 ```
 
 **例 2:** 打印当前工作目录的父目录。
 
-```
+```py
 # Python program to demonstrate
 # os.pardir
 
@@ -52,7 +52,7 @@ print("\nParent Directory:", os.path.abspath(parent))
 
 **输出:**
 
-```
+```py
 Current Directory: /home/geeks/Desktop/gfg
 
 Parent Directory: /home/geeks/Desktop
@@ -61,7 +61,7 @@ Parent Directory: /home/geeks/Desktop
 
 **例 3:** 获取指定路径的父路径。
 
-```
+```py
 # Python program to demonstrate
 # os.pardir
 
@@ -81,7 +81,7 @@ print("\nParent:", os.path.relpath(parent))
 
 **输出:**
 
-```
+```py
 Path: your/path/for/parent/directory
 
 Parent: your/path/for/parent

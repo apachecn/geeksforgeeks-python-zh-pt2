@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain N and Replace remaining by K
 # Using * operator + len() + slicing
@@ -44,7 +44,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The resultant string : geek@@@@@@@@@
 
@@ -56,7 +56,7 @@ The resultant string : geek@@@@@@@@@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain N and Replace remaining by K
 # Using ljust() + slicing + len()
@@ -82,7 +82,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The resultant string : geek@@@@@@@@@
 

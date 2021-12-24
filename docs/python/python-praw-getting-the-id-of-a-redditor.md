@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -38,7 +38,7 @@ print("The ID of " + redditor_name + " is : " + redditor.id)
 
 **输出:**
 
-```
+```py
 The ID of prez is : ejpa
 
 ```
@@ -48,7 +48,7 @@ The ID of prez is : ejpa
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -77,7 +77,7 @@ print("The ID of " + redditor_name + " is : " + redditor.id)
 
 **输出:**
 
-```
+```py
 The ID of AutoModerator is : 6l4z3
 
 ```

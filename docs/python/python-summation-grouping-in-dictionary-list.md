@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们手动循环字典中的每个关键字，并根据关键字执行所需的分组，并构建所需的分组和汇总字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Summation Grouping in Dictionary List
 # Using loop

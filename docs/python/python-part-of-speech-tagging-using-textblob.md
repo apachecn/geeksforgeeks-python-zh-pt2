@@ -6,7 +6,7 @@
 
 安装文本 Blob 运行以下命令:
 
-```
+```py
 $ pip install -U textblob
 $ python -m textblob.download_corpora
 
@@ -24,7 +24,7 @@ $ python -m textblob.download_corpora
 
 在语料库语言学中，词性标注(词性标注或词性标注或 POST)，也称为**语法标注**或**词类消歧。**
 
-```
+```py
 Input: Everything is all about money.
 Output: [('Everything', 'NN'), ('is', 'VBZ'), 
               ('all', 'DT'), ('about', 'IN'), 
@@ -34,7 +34,7 @@ Output: [('Everything', 'NN'), ('is', 'VBZ'),
 
 以下是标签列表、它们的含义以及一些示例:
 
-```
+```py
 CC coordinating conjunction
 CD cardinal digit
 DT determiner
@@ -73,7 +73,7 @@ WRB wh-abverb where, when
 
 ```
 
-```
+```py
 # from textblob lib import TextBlob method
 from textblob import TextBlob
 
@@ -98,7 +98,7 @@ print(blob_object.tags)
 
 **输出:**
 
-```
+```py
 [('Sukanya', 'NNP'),
  ('Rajib', 'NNP'),
  ('and', 'CC'),

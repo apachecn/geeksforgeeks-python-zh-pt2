@@ -12,7 +12,7 @@
 
 要在 excel 工作表中绘制简单的饼图，请使用`add_chart()` 方法，并键入工作簿对象的*“圆环图”*关键字参数。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter
 
@@ -88,7 +88,7 @@ workbook.close()
 
 要在 excel 表上绘制带有用户定义的线段颜色的饼图，请使用图表对象的 points 关键字参数的`add_series()`方法。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter
 
@@ -162,7 +162,7 @@ workbook.close()
 
 要在 excel 表上绘制扇形旋转的饼图，请使用图表对象的确定角度参数的`set_rotation()`方法。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter
 
@@ -232,7 +232,7 @@ workbook.close()
 
 要在 excel 表上绘制具有用户定义的孔尺寸的饼图，请使用图表对象的定值(半径)参数的`set_hole_size()`方法。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter
 

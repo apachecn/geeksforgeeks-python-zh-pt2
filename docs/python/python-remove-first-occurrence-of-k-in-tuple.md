@@ -15,7 +15,7 @@
 **方法#1:使用`index() + loop + list slicing`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 index()执行提取 K 的第一次出现的任务，并使用列表切片对元素移除后的元组进行重新排序。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove first occurrence of K in Tuple
 # Using index() + loop + list slicing
@@ -43,7 +43,7 @@ print("Tuple after element removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, 4, 4, 7, 8, 4)
 Tuple after element removal : (5, 6, 4, 7, 8, 4)
 
@@ -52,7 +52,7 @@ Tuple after element removal : (5, 6, 4, 7, 8, 4)
 **方法 2:使用`enumerate()` +生成器表达式**
 这是可以执行该任务的方式之一。这提供了一个解决这个问题的线性方法。在本文中，我们使用 enumerate()执行检查元素和索引的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove first occurrence of K in Tuple
 # Using enumerate() + generator expression
@@ -76,7 +76,7 @@ print("Tuple after element removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (5, 6, 4, 4, 7, 8, 4)
 Tuple after element removal : (5, 6, 4, 7, 8, 4)
 

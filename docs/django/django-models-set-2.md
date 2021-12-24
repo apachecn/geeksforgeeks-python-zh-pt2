@@ -8,7 +8,7 @@
 
 ### 示例:
 
-```
+```py
 Price = models.IntegerField()
 Screen_size = models.DecimalField(max_digits = 2, decimal_places = 2)
 Color = models.CharField(max_length = 120)
@@ -29,13 +29,13 @@ Description = models.TextField()
 
 在`/models.py`中定义的类中定义属性名称及其类型后，使用以下命令启动服务器:
 
-```
+```py
 python manage.py runserver
 ```
 
 现在，在本地主机地址中打开管理面板:
 
-```
+```py
 127.0.0.1:8000/admin
 ```
 
@@ -61,7 +61,7 @@ python manage.py runserver
 现在点击手机，你会看到一个错误页面显示在
 ![no such table](img/fb5781ebd8f1d518069e8fde181db302.png)下方
 
-```
+```py
 OperationalError at /admin/product/phone/
 no such table: product_phone
 ```

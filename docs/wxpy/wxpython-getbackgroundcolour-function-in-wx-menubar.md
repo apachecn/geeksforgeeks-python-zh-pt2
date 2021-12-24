@@ -12,7 +12,7 @@
 
 **Code Example 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -51,14 +51,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (-1, -1, -1, 255)
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -98,7 +98,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (225, 200, 100, 255)
 
 ```

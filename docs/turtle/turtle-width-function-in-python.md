@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.width(width=None)
 turtle.pensize(width=None)
 
@@ -24,7 +24,7 @@ turtle.pensize(width=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle 
 
@@ -48,7 +48,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle 
 

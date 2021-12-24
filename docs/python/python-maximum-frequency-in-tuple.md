@@ -13,7 +13,7 @@
 **方法一:使用`count()` +循环**
 以上功能的组合可以解决这个问题。这是解决这个问题的蛮力方法。在本文中，我们使用 count()来执行元素计数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum frequency in Tuple
 # Using loop + count()
@@ -40,7 +40,7 @@ print("Maximum element frequency tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (6, 7, 8, 6, 7, 10)
 Maximum element frequency tuple : 6
 
@@ -49,7 +49,7 @@ Maximum element frequency tuple : 6
 **方法 2:使用`max() + Counter()`+λ**
 以上功能的组合可以解决这个问题。在本文中，我们使用 Counter()来查找所有元素的频率，使用 max()来查找它的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum frequency in Tuple
 # Using max() + Counter() + lambda
@@ -71,7 +71,7 @@ print("Maximum element frequency tuple : " + str(res[0]))
 
 **Output :**
 
-```
+```py
 The original tuple : (6, 7, 8, 6, 7, 10)
 Maximum element frequency tuple : 6
 

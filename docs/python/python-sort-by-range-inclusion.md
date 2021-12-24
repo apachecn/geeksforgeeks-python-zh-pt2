@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by range inclusion
 # Using sort() + sum()
@@ -55,7 +55,7 @@ print("Sorted List : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by range inclusion
 # Using sorted() + lambda + sum()

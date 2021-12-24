@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random insertion of elements K times
 # Using randint() + list slicing + loop + choice()
@@ -50,7 +50,7 @@ print("The created List : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 4, 2, 8, 1]
 The created List : [5, 7, 4, 2, 'Best', 8, 1, 'Best', 'Gfg']
 

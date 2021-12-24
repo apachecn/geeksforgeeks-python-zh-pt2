@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Segregate elements by delimiter
 # Using list comprehension + split()
@@ -45,7 +45,7 @@ print("The filtered list 2 : " + str(res2))
 
 **Output**
 
-```
+```py
 The original list : ['7$2', '8$5', '9$1', '8$10', '32$6']
 The filtered list 1 : ['7', '8', '9', '8', '32']
 The filtered list 2 : ['2', '5', '1', '10', '6']
@@ -58,7 +58,7 @@ The filtered list 2 : ['2', '5', '1', '10', '6']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Segregate elements by delimiter
 # Using map() + list + zip() + generator expression
@@ -82,7 +82,7 @@ print("The filtered list 2 : " + str(res2))
 
 **Output**
 
-```
+```py
 The original list : ['7$2', '8$5', '9$1', '8$10', '32$6']
 The filtered list 1 : ['7', '8', '9', '8', '32']
 The filtered list 2 : ['2', '5', '1', '10', '6']

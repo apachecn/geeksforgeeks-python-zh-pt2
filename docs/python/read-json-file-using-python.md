@@ -31,7 +31,7 @@ JSON 的反序列化意味着将 JSON 对象转换成它们各自的 Python 对�
 
 **语法:**
 
-```
+```py
 json.load(file object)
 ```
 
@@ -43,7 +43,7 @@ json.load(file object)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read
 # json file
 
@@ -73,7 +73,7 @@ f.close()
 
 **语法:**
 
-```
+```py
 json.loads(jsonstring) #for Json string
 
 json.loads(fileobject.read()) #for fileobject
@@ -83,7 +83,7 @@ json.loads(fileobject.read()) #for fileobject
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read
 # json file
 

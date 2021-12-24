@@ -8,7 +8,7 @@
 
 **创建信号量的对象:**
 
-```
+```py
 object_name = Semaphore(count)
 
 ```
@@ -21,7 +21,7 @@ object_name = Semaphore(count)
 
 **案例 1** :
 
-```
+```py
 object_name.Semaphore()
 ```
 
@@ -29,7 +29,7 @@ object_name.Semaphore()
 
 **案例 2** :
 
-```
+```py
 object_name.Semaphore(n) 
 ```
 
@@ -39,7 +39,7 @@ object_name.Semaphore(n)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from threading import *         
 import time        

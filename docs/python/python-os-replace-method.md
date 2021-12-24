@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.replace() method
 
 # importing os module
@@ -46,7 +46,7 @@ print("File %s is renamed successfully" % file)
 
 **输出:**
 
-```
+```py
 File f.txt is renamed successfully
 ```
 
@@ -54,7 +54,7 @@ File f.txt is renamed successfully
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to explain os.replace() method
 
 # importing os module
@@ -94,6 +94,6 @@ except OSError as error:
 
 **输出:**
 
-```
+```py
 Source is a file but destination is a directory.
 ```

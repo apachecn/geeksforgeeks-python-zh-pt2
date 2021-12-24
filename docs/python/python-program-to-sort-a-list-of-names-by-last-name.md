@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # explicit function sort names
 # by their surnames
 def sortSur(nameList):
@@ -68,7 +68,7 @@ print('\nAfter sorting:\n', sortSur(nameList))
 
 ## 蟒蛇 3
 
-```
+```py
 # explicit function sort names
 # by their surnames
 def sortSur(nameList):

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -38,20 +38,20 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 ```
 
 现在让我们使用 shell 创建这个模型的一些实例，运行 form bash，
 
-```
+```py
 Python manage.py shell
 ```
 
 输入以下命令
 
-```
+```py
 >>> from geeks.models import GeeksModel
 >>> GeeksModel.objects.create(
                        title="title1",
@@ -73,7 +73,7 @@ Python manage.py shell
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -94,7 +94,7 @@ def list_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
 
     {% for data in dataset %}.
@@ -117,7 +117,7 @@ def list_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of models
@@ -144,13 +144,13 @@ def list_view(request):
 
 让我们创建一个不同的实例来展示过滤器是如何工作的。运行
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，创建另一个实例，
 
-```
+```py
 from geeks.models import GeeksModel
 GeeksModel.objects.create(title = "Naveen", description = "GFG is Best").save()
 ```
@@ -164,7 +164,7 @@ GeeksModel.objects.create(title = "Naveen", description = "GFG is Best").save()
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms

@@ -12,7 +12,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):
@@ -54,7 +54,7 @@ ex.MainLoop()
 
 **控制台输出:**
 
-```
+```py
 True
 ```
 

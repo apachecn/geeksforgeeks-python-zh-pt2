@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.window_height()
 
 ```
@@ -19,7 +19,7 @@ turtle.window_height()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -52,7 +52,7 @@ print(turtle.window_height())
 
 ![](img/71612d5717684ef1b8214e989a03fdad.png)
 
-```
+```py
 648
 300
 400

@@ -6,7 +6,7 @@
 
 为了安装 PyQtGraph，我们使用下面给出的命令。
 
-```
+```py
 pip install pyqtgraph
 ```
 
@@ -28,7 +28,7 @@ pip install pyqtgraph
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

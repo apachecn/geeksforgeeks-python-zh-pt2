@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : The quick brown fox jumps over the lazy dog
 Output : Yes
 
@@ -20,7 +20,7 @@ Output : No
 **方法# 1:**python 天真
 这个方法使用一个循环来检查字符串的每个字符是否属于字母表集合。
 
-```
+```py
 # Python3 program to
 # Check if the string is pangram
 import string
@@ -43,7 +43,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 
 ```
@@ -51,7 +51,7 @@ Yes
 **方法 2 :** 使用 Python Set
 将给定的字符串转换为 Set，然后检查字母集是否大于或等于它。如果字符串集大于或等于，则打印“是”，否则打印“否”。
 
-```
+```py
 # Python3 program to
 # Check if the string is pangram
 import string
@@ -71,7 +71,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 
 ```
@@ -79,7 +79,7 @@ Yes
 **方法#3 :** 集合方法的替代方法
 这是另一种使用 Python 集合来查找字符串是否为 Pangram 的方法。我们制作一组小写字母和给定的字符串。如果从字母表中减去一组给定的字符串，我们就知道该字符串是否是 pangram。
 
-```
+```py
 # Python3 program to
 # Check if the string is pangram
 import string
@@ -99,7 +99,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 
 ```
@@ -107,7 +107,7 @@ Yes
 **方法#4 :** ASCII 方法
 检查字符串的每个字符是否在小写字母的 ASCII 范围内，即 96 到 122。
 
-```
+```py
 # Python3 program to
 # Check if the string is pangram
 import itertools
@@ -128,7 +128,7 @@ else:
 
 **Output:**
 
-```
+```py
 Yes
 
 ```

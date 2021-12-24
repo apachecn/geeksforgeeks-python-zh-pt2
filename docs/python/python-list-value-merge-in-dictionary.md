@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `items()`**
 这个问题可以通过使用列表理解来解决，该列表理解可以用于合并列表内容，还可以使用`items`方法来获取字典键和值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List value merge in dictionary
 # Using items() + list comprehension

@@ -7,19 +7,19 @@ gettextcolor()函数中不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetTextColour(self)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are taken by GetTextColour() function.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Colour
 > ```
 
@@ -27,7 +27,7 @@ gettextcolor()函数中不需要参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (79, 81, 230, 255)
 ```
 

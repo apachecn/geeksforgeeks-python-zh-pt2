@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Number of repeated substrings in consecution
 # Using split() + count() + list comprehension
@@ -57,7 +57,7 @@ print("String repetitions : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Number of repeated substrings in consecution
 # Using findall() + regex + len()

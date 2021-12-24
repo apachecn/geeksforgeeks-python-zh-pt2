@@ -18,7 +18,7 @@ Python List***clear()****方法用于从[列表](https://www.geeksforgeeks.org/p
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Python program to clear a list
 # using clear() method
 
@@ -33,7 +33,7 @@ print('GEEK after clear:', GEEK)*
 
 ***输出:***
 
-```
+```py
 *GEEK before clear: [6, 0, 4, 1]
 GEEK after clear: []*
 ```
@@ -42,7 +42,7 @@ GEEK after clear: []*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Defining a list
 list = [{1, 2, 3, 4}, ['1.1', '2.2']]
 
@@ -54,6 +54,6 @@ print(list)*
 
 ***输出:***
 
-```
+```py
 *[]*
 ```

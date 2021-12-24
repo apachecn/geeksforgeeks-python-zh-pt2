@@ -9,7 +9,7 @@ Python 列表非常流行，无论你在编码什么类型的字段，你都必�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Separating odd and even index elements
 # using naive method
@@ -38,7 +38,7 @@ print("Separated odd and even index list: " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [3, 6, 7, 8, 9, 2, 1, 5]
 Separated odd and even index list: [3, 7, 9, 1, 6, 8, 2, 5]
 ```
@@ -48,7 +48,7 @@ Separated odd and even index list: [3, 7, 9, 1, 6, 8, 2, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Separating odd and even index elements
 # Using list slicing
@@ -69,7 +69,7 @@ print("Separated odd and even index list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [3, 6, 7, 8, 9, 2, 1, 5]
 Separated odd and even index list : [3, 7, 9, 1, 6, 8, 2, 5]
 ```

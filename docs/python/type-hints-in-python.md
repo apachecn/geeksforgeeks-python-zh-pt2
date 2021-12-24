@@ -6,7 +6,7 @@ Python 是一种动态类型的语言，这意味着您永远不必明确指出�
 
 让我们看看这个阶乘函数来清楚地理解这一点:
 
-```
+```py
 # factorial function
 def factorial(i):
   if i<0:
@@ -31,7 +31,7 @@ print(factorial(5.01))
 类型提示代码如下所示:
 我们必须指定参数的类型&以及阶乘函数的类型。
 
-```
+```py
 # factorial function
 def factorial(i: int) -> int:
   if i<0:
@@ -49,7 +49,7 @@ Python 解释器完全忽略了类型提示。所以，如果我们再次运行�
 因此，我们必须使用静态类型检查器来分析我们的代码，并尝试检测我们是否违反了类型提示。
 最著名的字体检查器是“ **mypy** ”。我们只需使用 **pip** 即可安装。
 
-```
+```py
 pip install mypy
 ```
 

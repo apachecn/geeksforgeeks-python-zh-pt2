@@ -26,7 +26,7 @@ Treemapping 是一个数据可视化程序，可以用封闭的矩形演示分�
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.graph_objects as go
 
 fig = go.Figure(go.Treemap(

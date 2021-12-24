@@ -16,7 +16,7 @@ DjanGoFilter 后端类用于根据一组指定的字段过滤 queryset。这个�
 
 为了在我们的 Django Web Service 中配置过滤器后端类，我们需要在我们的虚拟环境中安装 *django-filter* 包。确保退出 Django 开发服务器(Ctrl + C)并激活虚拟环境。让我们运行下面的命令。
 
-```
+```py
 pip install django-filter
 ```
 
@@ -24,7 +24,7 @@ pip install django-filter
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,7 +50,7 @@ REST_FRAMEWORK = {
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
 }
-```
+```py
 
 现在我们的 RESTful web 服务被配置为利用*django _ filters . rest _ framework 提供的过滤功能。DjangoFilterBackend 后端*类。让我们过滤检索机器人列表的机器人类。机器人列表类如下:
 
@@ -66,7 +66,7 @@ class RobotList(generics.ListCreateAPIView):
         'robot_category',
         'manufacturer',
     )
-```
+```py
 
 在这里，您可以注意到一个名为 *filter_fileds* 的属性，我们在这里指定要过滤的字段名。现在，我们可以根据机器人的类别(robot_category)和/或制造商来检索机器人。
 
@@ -122,7 +122,7 @@ REST_FRAMEWORK = {
         'rest_framework.filters.SearchFilter',
     ),
 }
-```
+```py
 
 我们的机器人列表类如下所示:
 
@@ -137,7 +137,7 @@ class RobotList(generics.ListCreateAPIView):
     search_fields = (
         '^name',
     )
-```
+```py
 
 *search_fields* 属性指定了一个字符串元组，它指示了我们希望包含在搜索功能中的字段名称。
 
@@ -166,7 +166,7 @@ REST_FRAMEWORK = {
         'rest_framework.filters.OrderingFilter',
     ),
 }
-```
+```py
 
 让我们提到 RobotList 类上的 ordering_fields 属性。代码如下:
 

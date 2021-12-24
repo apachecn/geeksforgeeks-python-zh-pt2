@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 pass
 ```
 
@@ -16,7 +16,7 @@ pass
 
 ## 蟒蛇 3
 
-```
+```py
 def geekFunction:
   pass
 ```
@@ -25,7 +25,7 @@ def geekFunction:
 
 ## 蟒蛇 3
 
-```
+```py
 class geekClass:
   pass
 ```
@@ -34,7 +34,7 @@ class geekClass:
 
 ## 蟒蛇 3
 
-```
+```py
 n = 10
 for i in range(n):
 
@@ -47,7 +47,7 @@ for i in range(n):
 
 ## 蟒蛇 3
 
-```
+```py
 a = 10
 b = 20
 
@@ -61,7 +61,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 li =['a', 'b', 'c', 'd']
 
 for i in li:
@@ -73,7 +73,7 @@ for i in li:
 
 **输出:**
 
-```
+```py
 b
 c
 d

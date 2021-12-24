@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of cos()
 
 # importing "math" for mathematical operations 
@@ -28,14 +28,14 @@ print (math.cos(a)) 
 
 **Output:**
 
-```
+```py
 The value of cosine of pi/6 is : 0.8660254037844387
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program showing 
 # Graphical representation of 
 # cos() function 

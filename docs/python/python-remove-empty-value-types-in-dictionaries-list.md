@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行这项任务的暴力方式的简写。在这种情况下，我们只使用有效值重新构建字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove None value types in dictionaries list
 # Using list comprehension
@@ -28,7 +28,7 @@ print("The filtered list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [{'is': '', 'best': [], 'gfg': 4}, {'like': 5, 'gfg': 0, 'I': {}}]
 The filtered list : [{'gfg': 4}, {'like': 5}]
 

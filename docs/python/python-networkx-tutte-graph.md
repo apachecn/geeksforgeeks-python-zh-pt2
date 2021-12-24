@@ -41,7 +41,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import networkx
 
@@ -60,7 +60,7 @@ networkx.draw(G)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import networkx
 
@@ -79,7 +79,7 @@ networkx.draw(G, node_color='green')
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import networkx
 

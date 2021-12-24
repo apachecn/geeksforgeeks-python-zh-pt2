@@ -15,13 +15,13 @@ Django 是一个基于 python 的强大框架。这里我们将看到如何在�
 
 现在当你成功安装了 Django。创建新项目–
 
-```
+```py
 django-admin startproject ecom 
 ```
 
 现在在 ecom 项目中创建一个名为 frontend 的新应用程序。现在我们有一个项目和一个项目内的应用程序。]
 
-```
+```py
 django-admin startapp frontend
 ```
 
@@ -33,7 +33,7 @@ django-admin startapp frontend
 
 在*ECOM>URL . py*中添加以下行。这个文件处理主项目网址。但是我们不想打扰它，所以我们将在前端>URL . py 中工作。为此，我们需要在 ECOM>URL 中包含前端>URL。
 
-```
+```py
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('frontend.urls')),
@@ -44,7 +44,7 @@ urlpatterns = [
 
 在此添加产品型号。
 
-```
+```py
 class Product(models.Model):
     productname = models.CharField(max_length=200)
     price = models.DecimalField(max_digits=5, decimal_places=2)
@@ -58,7 +58,7 @@ class Product(models.Model):
 
 在创建模型之后，我们应该将该表单注册到 admin . py
 
-```
+```py
 from django.contrib import admin
 from .models import *
 
@@ -69,7 +69,7 @@ admin.site.register(Product)
 
 在*前端>视图中，我们编写了一个函数来获取和显示数据库中的产品。*
 
-```
+```py
 from django.shortcuts import render
 from .models import *
 
@@ -82,7 +82,7 @@ def products(request):
 
 在这里，我们将设置动态网址，这可能有助于显示我们的产品。在*前端>URL . py*
 
-```
+```py
 from django.urls import path
 from . import views
 
@@ -97,7 +97,7 @@ urlpatterns = [
 
 创建模板取决于您希望如何在网站上显示产品。为了展示产品，我们分享了一个简单的代码。将其添加到*前端>模板>products.html*中
 
-```
+```py
 {% for product in productss %}
 <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="{{ product.image }}" alt="Card image cap">
@@ -115,13 +115,13 @@ urlpatterns = [
 
 现在是时候将我们的模型移植到数据库中了。首先，我们必须创建迁移。为此，请在终端中键入以下代码。
 
-```
+```py
 python manage.py makemigrations
 ```
 
 创建迁移后，键入以下代码来应用这些迁移
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -132,7 +132,7 @@ python manage.py migrate
 现在，创建 Django 超级用户来处理管理事务。在终端
 输入以下命令
 
-```
+```py
 django-admin createsuperuser
 ```
 
@@ -142,7 +142,7 @@ django-admin createsuperuser
 
 创建超级用户后，在终端类型中，
 
-```
+```py
 python manage.py runserver
 ```
 

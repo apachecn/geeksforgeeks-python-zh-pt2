@@ -15,7 +15,7 @@
 
 **代码#1:** 使用`***math.comb()***`方法
 
-```
+```py
 # Python Program to explain math.comb() method
 
 # Importing math module
@@ -42,7 +42,7 @@ print(nCk)
 
 **Output:**
 
-```
+```py
 45
 10
 
@@ -50,7 +50,7 @@ print(nCk)
 
 **代码#2:** 当 k > n
 
-```
+```py
 # Python Program to explain math.comb() method
 
 # Importing math module
@@ -70,14 +70,14 @@ print(nCk)
 
 **Output:**
 
-```
+```py
 0
 
 ```
 
 **代码#3:** 使用`***math.comb()***`方法求表达式(1 + x) <sup>n</sup> 二项式展开式中第 k 项的系数
 
-```
+```py
 # Python Program to explain math.comb() method
 
 # Importing math module
@@ -104,7 +104,7 @@ print(nCk)
 
 **Output:**
 
-```
+```py
 10
 56
 

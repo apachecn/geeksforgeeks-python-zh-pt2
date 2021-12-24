@@ -18,14 +18,14 @@
 
 **语法:**
 
-```
+```py
 wand.image.format = 'final_format'
 
 ```
 
 **代码:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

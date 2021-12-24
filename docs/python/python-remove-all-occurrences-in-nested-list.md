@@ -8,7 +8,7 @@
 
 列表理解可以作为推荐的较长方法的较短方法，以正常的循环方式来执行这个任务，在这个任务中，我们只检查匹配并重建没有目标列表元素的列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove all occurrences in nested list
 # using list comprehension
@@ -35,7 +35,7 @@ print("The list after removal of list element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5], [1, 2, 3], [4, 5], [8, 9], [10, 11]]
 The list to be deleted is : [4, 5]
 The list after removal of list element : [[1, 2, 3], [8, 9], [10, 11]]
@@ -46,7 +46,7 @@ The list after removal of list element : [[1, 2, 3], [8, 9], [10, 11]]
 
 也可以使用上述功能来执行任务。过滤函数执行过滤，并通过部分函数返回部分列表，并使用`operator.ne`方法施加不相等的条件。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove all occurrences in nested list
 # using filter() + partial() + operator.ne
@@ -75,7 +75,7 @@ print("The list after removal of list element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5], [1, 2, 3], [4, 5], [8, 9], [10, 11]]
 The list to be deleted is : [4, 5]
 The list after removal of list element : [[1, 2, 3], [8, 9], [10, 11]]

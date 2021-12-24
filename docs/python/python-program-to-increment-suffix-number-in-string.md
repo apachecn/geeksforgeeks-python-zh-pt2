@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Increment Suffix Number
 # Using findall() + join() + replace()
@@ -50,7 +50,7 @@ print("Incremented numeric String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeks006
 Incremented numeric String : geeks61
 ```
@@ -61,7 +61,7 @@ Incremented numeric String : geeks61
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Increment Suffix Number
 # Using sub() + group() + zfill()
@@ -85,7 +85,7 @@ print("Incremented numeric String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeks006
 Incremented numeric String : geeks007
 ```

@@ -24,7 +24,7 @@ Python List reverse()是 Python 编程语言中的一种内置方法，可以将
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the
 # use of reverse method
 
@@ -41,7 +41,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 [6, 2, 1, 4, 3, 2, 1]
 ['a', 'a', 'd', 'c', 'b', 'a']
 ```
@@ -50,7 +50,7 @@ print(list2)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate the
 # error in reverse() method
 
@@ -62,7 +62,7 @@ print(string)
 
 ****输出:****
 
-```
+```py
 Traceback (most recent call last):
   File "/home/b3cf360e62d8812babb5549c3a4d3d30.py", line 5, in 
     string.reverse() 
@@ -77,7 +77,7 @@ AttributeError: 'str' object has no attribute 'reverse'
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program for the
 # practical application of reverse()
 
@@ -98,6 +98,6 @@ else:
 
 ****输出:****
 
-```
+```py
 Palindrome
 ```

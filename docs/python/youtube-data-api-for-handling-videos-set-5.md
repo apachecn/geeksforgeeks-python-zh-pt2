@@ -25,13 +25,13 @@
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
 **给视频评分的代码:**这个例子展示了如何给视频评分。在这个例子中，我们正在给一个视频评分。在这里你有三个选项可以尝试:喜欢、不喜欢和无(意味着从视频中删除喜欢/不喜欢任一类型的评分)。
 
-```
+```py
 import argparse
 import os
 import re
@@ -93,7 +93,7 @@ if __name__ == '__main__':
 
 **代码到 getRating:** 这个例子展示了如何检索授权用户给参数列表中视频列表的评级。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

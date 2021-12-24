@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring a list
 lst = [1,"Mallika",2,"Yash"]
 
@@ -49,7 +49,7 @@ print(output)
 
 Python 提供对 **itertools** 标准库的支持，该标准库用于创建迭代器以实现高效循环。该库支持各种迭代、分组、排序等。这个库的置换()函数用于遍历元素列表的所有可能的顺序，没有任何重复。置换()函数具有以下语法:
 
-```
+```py
 itertools.permutations(lst,r)
 ```
 
@@ -59,7 +59,7 @@ itertools.permutations(lst,r)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required library
 import itertools
 
@@ -84,7 +84,7 @@ print(list(pair_order_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required ibrary
 import itertools
 
@@ -104,7 +104,7 @@ for i in ordered_list:
 
 **输出**:
 
-```
+```py
 (2, 2)
 (2, 2)
 (2, 2)
@@ -125,7 +125,7 @@ for i in ordered_list:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required library
 import itertools
 

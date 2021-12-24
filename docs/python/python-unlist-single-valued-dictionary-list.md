@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unlist Single Valued Dictionary List
 # Using loop + isinstance()
@@ -45,7 +45,7 @@ print("The converted Dictionary list : " + str(test_list))
 
 **Output : **
 
-```
+```py
 The original list is : [{'Gfg': 1, 'is': [{'b': 3, 'a': 2}]}, {'CS': 6, 'best': [{'d': 5, 'c': 4}]}]
 The converted Dictionary list : [{'Gfg': 1, 'is': {'b': 3, 'a': 2}}, {'CS': 6, 'best': {'d': 5, 'c': 4}}]
 ```
@@ -55,7 +55,7 @@ The converted Dictionary list : [{'Gfg': 1, 'is': {'b': 3, 'a': 2}}, {'CS': 6, '
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unlist Single Valued Dictionary List
 # Using list comprehension + isinstance()
@@ -81,7 +81,7 @@ print("The converted Dictionary list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [{'Gfg': 1, 'is': [{'b': 3, 'a': 2}]}, {'CS': 6, 'best': [{'d': 5, 'c': 4}]}]
 The converted Dictionary list : [{'Gfg': 1, 'is': {'b': 3, 'a': 2}}, {'CS': 6, 'best': {'d': 5, 'c': 4}}]
 ```

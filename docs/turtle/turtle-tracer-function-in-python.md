@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -31,7 +31,7 @@ print(turtle.tracer())
 
 **输出:**
 
-```
+```py
 1
 
 ```
@@ -40,7 +40,7 @@ print(turtle.tracer())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

@@ -7,7 +7,7 @@
 **方法#1:使用`list() + sum()`**
 以上功能可以组合执行此任务。我们可以用 sum()来累加求和逻辑的结果。list()函数用于执行相互转换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple summation
 # Using list() + sum()
@@ -28,7 +28,7 @@ print("The summation of tuple elements are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original tuple is : (7, 8, 9, 1, 10, 7)
 The summation of tuple elements are : 42
 

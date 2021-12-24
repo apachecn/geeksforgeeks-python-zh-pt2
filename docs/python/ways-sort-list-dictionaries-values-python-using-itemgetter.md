@@ -10,7 +10,7 @@
 
 Itemgetter 可以代替 lambda 函数来实现类似的功能。输出方式与 sorted()和 lambda 相同，但内部实现不同。它获取字典的关键字，并将其转换为元组。它减少了开销，速度更快，效率更高。必须导入“**操作员**”模块才能工作。代码解释如下
 
-```
+```py
 # Python code demonstrate the working of sorted()
 # and itemgetter
 
@@ -42,7 +42,7 @@ print sorted(lis, key=itemgetter('age'),reverse = True)
 
 输出:
 
-```
+```py
 The list printed sorting by age: 
 [{'age': 19, 'name': 'Nikhil'}, {'age': 20, 'name': 'Nandini'}, {'age': 20, 'name': 'Manjeet'}]
 
@@ -58,7 +58,7 @@ The list printed sorting by age in descending order:
 
 *   **性能** : itemgetter 在时间上下文中比 lambda 函数表现更好。*   **Concise :** : itemgetter looks more concise when accessing multiple values than lambda functions.
 
-    ```
+    ```py
 
     itemgetter(1,3,4,5)  ---> Looks more concise
     key(s[1], s[2], s[3], s[4]) ---> Looks less concise

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 a = 5
 
 if a % 2 != 0:
@@ -45,7 +45,7 @@ if a % 2 != 0:
 
 ## 蟒蛇 3
 
-```
+```py
 s = 'apple'
 
 try:
@@ -70,7 +70,7 @@ except ValueError:
 
 ## 蟒蛇 3
 
-```
+```py
 s = 'apple'
 
 try:

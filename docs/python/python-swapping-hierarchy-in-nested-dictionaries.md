@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Swapping Hierarchy in Nested Dictionaries
 # Using loop + items()
@@ -51,7 +51,7 @@ print("The rearranged dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Swapping Hierarchy in Nested Dictionaries
 # Using  defaultdict() + loop

@@ -8,14 +8,14 @@
 
 **安装:**
 
-```
+```py
  pip install Flask
 ```
 
 **基本设置:**
 **第一步:**首先制作基本文件夹
 
-```
+```py
 mkdir app && cd app && mkdir static && mkdir templates
 ```
 
@@ -23,31 +23,31 @@ mkdir app && cd app && mkdir static && mkdir templates
 
 **步骤 3:** 运行以下命令启动服务器
 
-```
+```py
 touch run.py the app
 ```
 
 **第 4 步:**将目录更改为*应用程序*–
 
-```
+```py
  cd app
 ```
 
 **第五步:**创建模型. py 用于数据库，routes.py 用于 urls 视图和 __init__ 文件来打包我们的应用程序
 
-```
+```py
  touch models.py routes.py __init__.py 
 ```
 
 **第 6 步:**转到*模板/* 目录，创建 index.html 文件
 
-```
+```py
  cd templates && touch index.html 
 ```
 
 **第 7 步:**转到*静态/* 目录并创建 main.css
 
-```
+```py
  cd static && touch main.css
 ```
 
@@ -57,7 +57,7 @@ touch run.py the app
 
 **run.py 文件**
 
-```
+```py
 from app import app
 
 if __name__ == '__main__':
@@ -66,7 +66,7 @@ if __name__ == '__main__':
 
 **app/__init__。py 文件**
 
-```
+```py
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 import os
@@ -82,7 +82,7 @@ from app import routes
 
 **app/routes.py 文件**
 
-```
+```py
 from flask import render_template, request, redirect, url_for
 from app import app
 from app.models import Todo
@@ -115,7 +115,7 @@ def complete(id):
 
 **app/models.py 文件**
 
-```
+```py
 from app import db
 
 class Todo(db.Model):
@@ -129,7 +129,7 @@ class Todo(db.Model):
 
 **app/main.html**
 
-```
+```py
 <!DOCTYPE html> 
 <html lang="en"> 
 <head> 
@@ -166,7 +166,7 @@ class Todo(db.Model):
 
 app/main . CSS
 
-```
+```py
 body{ 
     background:black; 
     color:red; 
@@ -180,7 +180,7 @@ body{ 
 
 **使用以下命令运行待办事项应用程序**
 
-```
+```py
 python run.py
 ```
 

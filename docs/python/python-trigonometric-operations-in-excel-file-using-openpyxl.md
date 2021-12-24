@@ -17,7 +17,7 @@
 *   **=秒(数):**返回一个角度的割线。
 *   **=COT(数字):**返回一个角度的余切。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -78,7 +78,7 @@ wb.save("simple_trigonometric.xlsx")
 *   **=SECH(数字):**返回数字的双曲割线。
 *   **=COTH(Number) :** 返回一个数的双曲余切。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 

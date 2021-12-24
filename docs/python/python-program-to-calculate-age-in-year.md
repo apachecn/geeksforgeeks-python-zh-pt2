@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 1997/2/3
 Output : 21 years (for present year i.e 2018)
 
@@ -22,7 +22,7 @@ Python 提供了 datetime 模块来处理 Python 中所有与 datetime 相关的
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to  calculate age in years
 
 from datetime import date
@@ -41,7 +41,7 @@ print(calculateAge(date(1997, 2, 3)), "years")
 
 **Output:** 
 
-```
+```py
 21 years
 ```
 
@@ -50,7 +50,7 @@ print(calculateAge(date(1997, 2, 3)), "years")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to  calculate age in years
 from datetime import date
 
@@ -76,7 +76,7 @@ print(calculateAge(date(1997, 2, 3)), "years")
 
 **Output:** 
 
-```
+```py
 21 years
 ```
 
@@ -85,7 +85,7 @@ print(calculateAge(date(1997, 2, 3)), "years")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to  calculate age in years
 from datetime import date
 
@@ -100,6 +100,6 @@ print(calculateAge(date(1997, 2, 3)), "years")
 
 **Output:** 
 
-```
+```py
 21 years
 ```

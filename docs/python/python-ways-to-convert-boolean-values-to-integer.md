@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert boolean value to integer
 
@@ -27,7 +27,7 @@ print("Resultant value", bool_val)
 
 **Output:** 
 
-```
+```py
 Initial value True
 Resultant value 1
 ```
@@ -36,7 +36,7 @@ Resultant value 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert boolean
 # value to integer
@@ -59,7 +59,7 @@ print("Resultant value", bool_val)
 
 **Output:** 
 
-```
+```py
 Initial value True
 Resultant value 1
 ```
@@ -69,7 +69,7 @@ Resultant value 1
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert boolean
 # value to integer
@@ -89,7 +89,7 @@ print("Resultant values", str(bool_val))
 
 **Output:** 
 
-```
+```py
 Initial values [ True False]
 Resultant values [1 0]
 ```
@@ -98,7 +98,7 @@ Resultant values [1 0]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to convert boolean
 # value to integer
@@ -118,7 +118,7 @@ print("Resultant value", str(bool_val))
 
 **Output:** 
 
-```
+```py
 Initial value [True, False]
 Resultant value [1, 0]
 ```

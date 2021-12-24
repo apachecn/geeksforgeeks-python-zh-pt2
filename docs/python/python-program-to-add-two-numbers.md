@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: num1 = 5, num2 = 3
 Output: 8
 
@@ -20,7 +20,7 @@ Output: 19
 
 例 1:
 
-```
+```py
 # Python3 program to add two numbers
 
 num1 = 15
@@ -35,13 +35,13 @@ print("Sum of {0} and {1} is {2}" .format(num1, num2, sum))
 
 输出:
 
-```
+```py
 Sum of 15 and 12 is 27
 ```
 
 **例 2:** 将用户输入的两个数字相加
 
-```
+```py
 # Python3 program to add two numbers
 
 number1 = input("First number: ")
@@ -58,7 +58,7 @@ print("The sum of {0} and {1} is {2}" .format(number1, number2, sum))
 
 输出:
 
-```
+```py
 First number: 13.5 Second number: 1.54
 The sum of 13.5 and 1.54 is 15.04
 ```

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : Geeks
 Output : Yes
 
@@ -19,7 +19,7 @@ Output : No
 
 为了检查一个大写字母后跟小写字母的顺序，我们使用正则表达式“`[A-Z]+[a-z]+$`”。
 
-```
+```py
 # Python3 code to find sequences of one upper
 # case letter followed by lower case letters
 import re
@@ -44,7 +44,7 @@ print(match("geeks"))
 
 **输出:**
 
-```
+```py
 Yes
 Yes
 No

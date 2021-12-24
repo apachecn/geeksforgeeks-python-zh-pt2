@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Non K distant elements
 # Using loop
@@ -47,7 +47,7 @@ print("The filtered List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [8, 10, 16, 20, 3, 1, 7]
 The filtered List : [16, 20, 7]
 ```
@@ -58,7 +58,7 @@ The filtered List : [16, 20, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Non K distant elements
 # Using list comprehension
@@ -82,7 +82,7 @@ print("The filtered List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [8, 10, 16, 20, 3, 1, 7]
 The filtered List : [16, 20, 7]
 ```

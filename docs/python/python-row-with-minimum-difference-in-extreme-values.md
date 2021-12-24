@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Minimum difference in extreme values row
 # Using min() + list comprehension
@@ -52,7 +52,7 @@ print("Rows with Minimum difference in extreme values : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Minimum difference in extreme values row
 # Using min() + list comprehension + filter() + lambda

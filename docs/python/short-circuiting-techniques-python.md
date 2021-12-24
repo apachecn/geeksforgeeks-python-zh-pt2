@@ -14,7 +14,7 @@
 **和:**对于一个**和**表达式，Python 使用短路技术来检查第一个语句是否为假，那么整个语句必须为假，因此它返回该值。只有当第一个值为真时，它才会检查第二个语句并返回该值。
 当表达式的真值已经达到时，包含**和**以及**或**的表达式停止执行。评估从左到右进行。
 
-```
+```py
 # python code to demonstrate short circuiting 
 # using and and or
 
@@ -48,7 +48,7 @@ print (0 or check() and 1)
 
 输出:
 
-```
+```py
 geeks
 1
 geeks
@@ -60,7 +60,7 @@ geeks
 
 python 中的内置函数 [all()和 any()](https://www.geeksforgeeks.org/any-all-in-python/) 也支持短路。下面的例子会让你清楚地了解它是如何工作的。
 
-```
+```py
 # python code to demonstrate short circuiting 
 # using all() and any()
 
@@ -90,7 +90,7 @@ print (any(check(i) for i in [0, 0, 0, 1, 3]))
 
 输出:
 
-```
+```py
 geeks
 geeks
 geeks
@@ -108,7 +108,7 @@ True
 
 条件运算符也遵循短路，因为当获得表达式结果时，不需要进一步执行。
 
-```
+```py
 # python code to demonstrate short circuiting 
 # using conditional operators
 
@@ -144,7 +144,7 @@ print( 10 < 11 > check(12) )
 
 输出:
 
-```
+```py
 False
 
 geeks

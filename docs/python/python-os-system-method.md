@@ -16,7 +16,7 @@ python 中的操作系统模块提供了与操作系统交互的功能。操作�
 **示例#1 :**
 使用`os.system()`方法获取计算机的当前日期
 
-```
+```py
 # Python program to explain os.system() method 
 
 # importing os module 
@@ -35,7 +35,7 @@ os.system(cmd)
 **例 2 :**
 使用`os.system()`方法运行**记事本**。
 
-```
+```py
 # Python program to explain os.system() method 
 
 # importing os module 

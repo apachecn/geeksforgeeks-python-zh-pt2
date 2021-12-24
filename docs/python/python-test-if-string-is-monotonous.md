@@ -7,7 +7,7 @@
 **方法一:使用`map() + split()` +列表理解**
 以上功能的组合可以用来执行此任务。在这种情况下，我们将字符串拆分为列表，用 delim 分隔，然后针对列表问题测试中的单调，我们使用列表理解。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if String is Monotonous
 # Using list comprehension + map() + split()
@@ -33,7 +33,7 @@ print("Is string Monotonous ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : 6, 5, 4, 3, 2, 1
 Is string Monotonous ? : True
 

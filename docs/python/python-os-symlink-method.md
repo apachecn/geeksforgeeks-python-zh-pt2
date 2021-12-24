@@ -19,7 +19,7 @@ Python 中的`***os.symlink()***`方法用于创建符号链接。此方法创�
 
 **代码:**使用`***os.symlink()***`方法
 
-```
+```py
 # Python program to explain os.symlink() method 
 
 # importing os module 
@@ -41,7 +41,7 @@ print("Symbolic link created successfully")
 
 **Output:**
 
-```
+```py
 Symbolic link created successfully
 
 ```

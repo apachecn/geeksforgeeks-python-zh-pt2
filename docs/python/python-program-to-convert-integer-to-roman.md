@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 5
 Output: V
 
@@ -60,7 +60,7 @@ Output: MCMIV
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to convert
 # integer value to roman values
 
@@ -90,7 +90,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Roman value is: MMMDXLIX
 ```
 
@@ -115,7 +115,7 @@ Roman value is: MMMDXLIX
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for above approach
 
 # Function to calculate Roman values
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 MMMDXLIX
 ```
 
@@ -162,7 +162,7 @@ MMMDXLIX
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 program to convert integer
 # number to Roman values
 import math
@@ -219,6 +219,6 @@ print("Roman value for the integer is:"
 
 **输出:**
 
-```
+```py
 Roman value for the integer is: MMMDXLIX
 ```

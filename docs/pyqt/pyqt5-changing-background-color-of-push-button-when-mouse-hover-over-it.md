@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须改变样式表，当鼠标悬停在按钮上时，必须添加按钮的背景色。下面是样式表代码。
 
-```
+```py
 QPushButton::hover
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

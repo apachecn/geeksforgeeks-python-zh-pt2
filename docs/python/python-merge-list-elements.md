@@ -7,7 +7,7 @@
 **方法#1:使用`join() + List Slicing`**
 连接功能可以与列表切片相结合，该列表切片可以执行连接列表切片功能选择的范围内的每个字符的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # merging list elements
 # using join() + list slicing
@@ -28,7 +28,7 @@ print ("The list after merging elements : " +  str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : ['I', 'L', 'O', 'V', 'E', 'G', 'F', 'G']
 The list after merging elements : ['I', 'L', 'O', 'V', 'E', 'GFG']
 
@@ -37,7 +37,7 @@ The list after merging elements : ['I', 'L', 'O', 'V', 'E', 'GFG']
 **方法#2:使用`reduce() + lambda + list slicing`**
 通过 reduce 函数和 lambda 来执行在一个范围内连接每个元素的任务。reduce 函数为 lambda 函数定义的范围内的每个元素执行任务。它仅适用于 Python2】
 
-```
+```py
 # Python code to demonstrate 
 # merging list elements
 # using reduce() + lambda + list slicing
@@ -58,7 +58,7 @@ print ("The list after merging elements : " +  str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : ['I', 'L', 'O', 'V', 'E', 'G', 'F', 'G']
 The list after merging elements : ['I', 'L', 'O', 'V', 'E', 'GFG']
 

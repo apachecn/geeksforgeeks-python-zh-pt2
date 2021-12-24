@@ -12,7 +12,7 @@
 
 ## python 3
 
-```
+```py
 # Python3 program for the above approach
 # import library
 import pylab

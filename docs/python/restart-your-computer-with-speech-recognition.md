@@ -8,13 +8,13 @@
 
 *   **Pyttsx3:** 这是 Python 中的文本到语音库。我们不得不使用 pip。
 
-```
+```py
 pip install pyttsx3
 ```
 
 *   **语音识别模块:**它是帮助我们识别语音和给计算机的命令的模块。我们必须使用画中画来安装语音识别。
 
-```
+```py
 pip install SpeechRecognition
 ```
 
@@ -34,7 +34,7 @@ pip install SpeechRecognition
 
 ## 蟒蛇 3
 
-```
+```py
 # Method to give 
 # output voice commands 
 def Speak(self, audio):
@@ -53,7 +53,7 @@ def Speak(self, audio):
 
 ## 蟒蛇 3
 
-```
+```py
 # Method to take
 # input voice commands
 def take_commands(self):
@@ -90,7 +90,7 @@ def take_commands(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # Method to restart PC
 def restart(self):
     self.Speak("do u want to restart the computer sir")
@@ -109,7 +109,7 @@ def restart(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver Code
 if __name__ == '__main__':
     Maam = Main()
@@ -120,7 +120,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import pyttsx3
 import time

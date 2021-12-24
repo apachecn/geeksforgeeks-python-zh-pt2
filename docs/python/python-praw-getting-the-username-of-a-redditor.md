@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -38,7 +38,7 @@ print("The username is : " + redditor.name)
 
 **输出:**
 
-```
+```py
 The username is : spez
 
 ```
@@ -48,7 +48,7 @@ The username is : spez
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 

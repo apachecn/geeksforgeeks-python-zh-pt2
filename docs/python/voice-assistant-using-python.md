@@ -11,7 +11,7 @@
 
 *   WolframAlpha **:-** 它用于使用 Wolfram 的算法、知识库和 AI 技术计算专家级别的答案。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install wolframaplha
 ```
 
@@ -21,13 +21,13 @@ pip install wolframaplha
 
 *   **维基百科:-** 众所周知，维基百科是一个伟大的知识来源，就像 GeeksforGeeks 一样，我们使用维基百科模块从维基百科获取信息或执行维基百科搜索。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install wikipedia
 ```
 
 *   **语音识别:-** 由于我们正在构建一个语音助手的应用程序，其中最重要的一点是您的助手能够识别您的语音(表示您想要说/问的内容)。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install SpeechRecognition
 ```
 
@@ -35,7 +35,7 @@ pip install SpeechRecognition
 
 *   **捕捉:-** 从相机中捕捉图像。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install ecapture
 ```
 
@@ -46,7 +46,7 @@ pip install ecapture
 
 *   **Twilio:-** Twilio 用于打电话和发消息。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install twilio
 ```
 
@@ -55,7 +55,7 @@ pip install twilio
 
 *   **美人计:**美人计是一个库，可以方便的从网页上刮取信息。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -66,7 +66,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 import subprocess
 import wolframalpha
 import pyttsx3
@@ -99,7 +99,7 @@ from urllib.request import urlopen
 
 ## 蟒蛇 3
 
-```
+```py
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
@@ -109,7 +109,7 @@ engine.setProperty('voice', voices[1].id)
 
 ## 蟒蛇 3
 
-```
+```py
 def speak(audio):
     engine.say(audio)
     engine.runAndWait()
@@ -179,7 +179,7 @@ def sendEmail(to, content):
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     clear = lambda: os.system('cls')
 

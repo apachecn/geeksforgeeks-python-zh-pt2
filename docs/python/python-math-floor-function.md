@@ -4,7 +4,7 @@
 
 在 Python 中，数学模块包含许多数学运算，使用该模块可以轻松执行这些运算。`**math.floor()**`函数返回不大于 x 的最大整数，如果数字已经是整数，则返回相同的数字。
 
-```
+```py
 Syntax: math.floor(x)
 
 Parameter:
@@ -15,7 +15,7 @@ Returns:  largest integer not greater than x.
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of floor()
 
 # importing "math" for mathematical operations 
@@ -30,14 +30,14 @@ print (math.floor(x))
 
 **Output:**
 
-```
+```py
 The floor of 33.7 is : 33
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate the working of floor()
 
 # importing "math" for mathematical operations 
@@ -50,7 +50,7 @@ print ("math.floor(101.96) : ", math.floor(101.96))
 
 **Output:**
 
-```
+```py
 math.floor(-13.1) :  -14
 math.floor(101.96) :  101
 

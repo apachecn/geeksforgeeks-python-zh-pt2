@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):
@@ -68,7 +68,7 @@ ex.MainLoop()
 
 **控制台输出:**
 
-```
+```py
 (0, 0, 0, 26)
 (61, 61, 61, 255)
 ```

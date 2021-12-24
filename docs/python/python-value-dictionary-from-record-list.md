@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `values() + update()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，使用 values()提取值，并使用 update()更新新字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value Dictionary from Record List
 # Using loop + values() + update()

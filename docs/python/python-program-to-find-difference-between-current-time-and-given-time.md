@@ -33,7 +33,7 @@
 
 下面是实现。
 
-```
+```py
 # Python program to find the
 # difference between two times
 
@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 2 : 25
 3 : 31
 Both are same times

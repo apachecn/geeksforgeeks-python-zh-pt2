@@ -7,7 +7,7 @@
 **方法#1:使用`set() + split()` +循环**
 以上方法的组合可以用来执行此任务。在这种情况下，我们首先将每个列表拆分成组合单词，然后使用 set()来执行重复删除任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove duplicate words from Strings in List
 # using loop + set() + split()
@@ -30,7 +30,7 @@ print ("The list after duplicate words removal is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg, best, gfg', 'I, am, I', 'two, two, three']
 The list after duplicate words removal is : [{'best', 'gfg'}, {'I', 'am'}, {'three', 'two'}]
 

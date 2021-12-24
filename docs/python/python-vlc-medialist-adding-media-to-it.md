@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -58,7 +58,7 @@ time.sleep(5)
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 

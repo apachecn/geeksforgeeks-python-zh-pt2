@@ -13,7 +13,7 @@ Spinbox 小部件用于从固定数量的值中进行选择。它是一个可选
 **语法:**
 使用自旋盒的语法如下。
 
-```
+```py
 w = Spinbox ( master, options)
 ```
 
@@ -63,7 +63,7 @@ w = Spinbox ( master, options)
 
 **示例:**
 
-```
+```py
 from tkinter import *
 
 root = Tk()

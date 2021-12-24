@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random range in list
 # Using randrange() + slicing
@@ -68,7 +68,7 @@ print("Required List : " + rabdomRangeList(input_list3))
 
 ****输出:****
 
-```
+```py
 The original list is :  [3, 19, 4, 8, 10, 13, 5, 7, 2, 1, 4]
 Required List : [19]
 

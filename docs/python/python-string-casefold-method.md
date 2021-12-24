@@ -20,7 +20,7 @@ Python 字符串 **casefold()** 方法用于实现无 case 字符串匹配。它
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert string in lower case
 string = "GEEKSFORGEEKS"
 
@@ -30,7 +30,7 @@ print("lowercase string: ",string.casefold())
 
 **输出:**
 
-```
+```py
 lowercase string: geeksforgeeks
 ```
 
@@ -38,7 +38,7 @@ lowercase string: geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to check if a string
 #  is palindrome or not
 
@@ -60,7 +60,7 @@ else:
 
 **输出:**
 
-```
+```py
 not palindrome
 ```
 
@@ -68,7 +68,7 @@ not palindrome
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to count 
 # the number of each 
 # vowel in a string
@@ -98,6 +98,6 @@ print(c)
 
 **输出:**
 
-```
+```py
 {'a': 1, 'e': 6, 'i': 0, 'o': 3, 'u': 1}
 ```

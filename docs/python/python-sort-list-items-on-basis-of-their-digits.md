@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort List by Digits
 # Using map() + str() + ljust() + sorted()
@@ -44,7 +44,7 @@ print("List after sorting : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [434, 211, 12, 54, 3]
 List after sorting : [12, 211, 3, 434, 54]
 
@@ -56,7 +56,7 @@ List after sorting : [12, 211, 3, 434, 54]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort List by Digits
 # Using list comprehension + sorted() + lambda
@@ -77,7 +77,7 @@ print("List after sorting : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [434, 211, 12, 54, 3]
 List after sorting : [12, 211, 3, 434, 54]
 

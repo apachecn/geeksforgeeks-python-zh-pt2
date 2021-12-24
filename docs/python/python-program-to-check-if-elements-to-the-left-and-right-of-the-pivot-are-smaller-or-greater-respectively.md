@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [4, 3, 5, 6, 9, 16, 11, 10, 12]
 
@@ -61,7 +61,7 @@ print("Is condition met ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [4, 3, 5, 6, 9, 16, 11, 10, 12]
 

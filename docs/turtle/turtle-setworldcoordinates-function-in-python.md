@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -53,7 +53,7 @@ for i in range(20):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

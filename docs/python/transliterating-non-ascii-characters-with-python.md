@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import unidecode module from unidecode
 from unidecode import unidecode
 
@@ -44,7 +44,7 @@ print(unidecode("улыбаться Владимир Путин"))
 
 **输出:**
 
-```
+```py
 kozuscek
 aap niice apnii bhaassaa aur inputt upkrnn cuneN aur likhnaa aarNbh kreN
 Xie Xie Ni
@@ -69,7 +69,7 @@ ulybat'sia Vladimir Putin
 
 ## 计算机编程语言
 
-```
+```py
 # Create devanagari transliteration dictionary
 devanagari_translit_dict = {
     '\u0905': 'A', '\u0906': 'AA', '\u0907': 'I', '\u0908': 'II',
@@ -109,6 +109,6 @@ print(transliterated_text)
 
 **输出:**
 
-```
+```py
 AAP NIICE APNII BHAASSAA AUR INPUTT UPKRNN CUNEn AUR LIKHNAA AARnBH KREn
 ```

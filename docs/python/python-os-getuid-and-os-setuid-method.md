@@ -23,7 +23,7 @@ Python 中的`***os.getuid()***`方法用于获取当前进程的真实用户 id
 
 **Code #1:** Use of os.getuid() method
 
-```
+```py
 # Python program to explain os.getuid() method 
 
 # importing os module 
@@ -41,7 +41,7 @@ print("Real user ID of the current process:", uid)
 
 **Output:**
 
-```
+```py
 Real user ID of the current process: 1000
 
 ```

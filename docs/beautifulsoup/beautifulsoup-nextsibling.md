@@ -52,7 +52,7 @@
 
 *   **美化程序(bs4):** 是一个从 HTML 和 XML 文件中拉出数据的 Python 库。这个模块没有内置 Python。在终端中运行以下命令来安装这个库-
 
-```
+```py
 pip install bs4
 or
 pip install beautifulsoup4
@@ -74,7 +74,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -132,7 +132,7 @@ findNextSiblings(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -189,7 +189,7 @@ findNextSibling(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -243,7 +243,7 @@ findNextSibling(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 

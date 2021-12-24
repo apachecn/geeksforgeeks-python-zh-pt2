@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select

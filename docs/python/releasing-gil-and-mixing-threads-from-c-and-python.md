@@ -7,7 +7,7 @@
 
 **代码#1:通过插入以下宏来释放和重新获取 GIL**
 
-```
+```py
 #include "Python.h"
 ...
 PyObject *pyfunc(PyObject *self, PyObject *args)
@@ -32,7 +32,7 @@ PyObject *pyfunc(PyObject *self, PyObject *args)
 
 **代码#2 :**
 
-```
+```py
 #include <Python.h>
 ...
 if (!PyEval_ThreadsInitialized())
@@ -46,7 +46,7 @@ if (!PyEval_ThreadsInitialized())
 
 **代码#3 :**
 
-```
+```py
 ...
 // Make sure we own the GIL
 // Use functions in the interpreter

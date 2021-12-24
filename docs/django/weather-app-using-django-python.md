@@ -7,31 +7,31 @@
 **基本设置–**
 将目录更改为天气–
 
-```
+```py
 cd weather
 ```
 
 启动服务器–
 
-```
+```py
 python manage.py runserver
 ```
 
 要检查服务器是否正在运行，请转到网络浏览器并输入`http://127.0.0.1:8000/`作为网址。现在，您可以通过按
 
-```
+```py
 ctrl-c
 ```
 
 ## 实施:
 
-```
+```py
  python manage.py startapp main
 ```
 
 通过执行以下操作转到主/文件夹:
 
-```
+```py
 cd main 
 ```
 
@@ -45,7 +45,7 @@ cd main
 
 **编辑`urls.py`天气文件:**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 
@@ -57,7 +57,7 @@ urlpatterns = [
 
 **在主界面编辑`urls.py`文件:**
 
-```
+```py
 from django.urls import path
 from . import views
 
@@ -68,7 +68,7 @@ urlpatterns = [
 
 **编辑主视图:**
 
-```
+```py
 from django.shortcuts import render
 # import json to load json data to python dictionary
 import json
@@ -111,7 +111,7 @@ def index(request):
 
 **进行迁移并迁移:**
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 
@@ -119,7 +119,7 @@ python manage.py migrate
 
 现在让我们运行服务器来查看您的天气应用程序。
 
-```
+```py
 python manage.py runserver
 ```
 

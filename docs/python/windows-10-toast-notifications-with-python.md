@@ -6,7 +6,7 @@ Python 是一种通用语言，可以用来开发桌面和网络应用程序。�
 
 该软件包在 Pypi 中可用，并使用 pip 安装。
 
-```
+```py
 pip install win10toast
 ```
 
@@ -24,7 +24,7 @@ pip install win10toast
 
 **代码#1:**
 
-```
+```py
 # import win10toast 
 from win10toast import ToastNotifier
 
@@ -40,7 +40,7 @@ n.show_toast("GEEKSFORGEEKS", "You got notification", duration = 10,
 
 **代码#2:**
 
-```
+```py
 # import win10toast 
 from win10toast import ToastNotifier
 

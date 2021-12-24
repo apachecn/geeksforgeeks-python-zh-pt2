@@ -10,19 +10,19 @@
 
 *   ****pyautoui:****
 
-```
+```py
 pip install PyAutoGUI
 ```
 
 *   ****PIL(Python 图像库):****
 
-```
+```py
 pip install Pillow
 ```
 
 *   ****img2pdf****
 
-```
+```py
 pip install img2pdf
 ```
 
@@ -36,7 +36,7 @@ pip install img2pdf
 
 ## **蟒蛇 3**
 
-```
+```py
 import pyautogui
 from PIL import Image
 
@@ -76,7 +76,7 @@ open_image.save(outputpdfPath)
 
 ## **蟒蛇 3**
 
-```
+```py
 import pyautogui
 import img2pdf
 

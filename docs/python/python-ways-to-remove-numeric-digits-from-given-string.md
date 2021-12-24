@@ -8,7 +8,7 @@
 
 **方法一:使用`join`和`isdigit()`**
 
-```
+```py
 # Python code to demonstrate
 # how to remove numeric digits from string
 # using join and isdigit
@@ -29,7 +29,7 @@ print("final string : ", res)
 
 **Output:**
 
-```
+```py
 initial string :  Geeks123for127geeks
 final string :  Geeksforgeeks
 
@@ -37,7 +37,7 @@ final string :  Geeksforgeeks
 
 **方法 2:使用翻译和数字**
 
-```
+```py
 # Python code to demonstrate
 # how to remove numeric digits from string
 # using translate
@@ -60,7 +60,7 @@ print("final string : ", res)
 
 **Output:**
 
-```
+```py
 initial string :  Geeks123for127geeks
 final string :  Geeksforgeeks
 
@@ -68,7 +68,7 @@ final string :  Geeksforgeeks
 
 **方法三:使用 `filter`和λ**
 
-```
+```py
 # Python code to demonstrate
 # how to remove numeric digits from string
 # using filter and lambda
@@ -90,7 +90,7 @@ print("final string : ", str(res))
 
 **Output:**
 
-```
+```py
 initial string :  akshat123garg
 final string :  akshatgarg
 

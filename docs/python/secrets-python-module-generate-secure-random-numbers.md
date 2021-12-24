@@ -11,7 +11,7 @@
 1.  **secrets.choice(sequence):** This function returns a randomly-chosen element from a non-empty sequence to manage a basic level of security.
     **Example 1 :** Generate a ten-character alphanumeric password.
 
-    ```
+    ```py
     import secrets
     import string
 
@@ -23,14 +23,14 @@
 
     **输出:**
 
-    ```
+    ```py
     'tmX47l1uo4'
 
     ```
 
     **示例 2 :** 生成十个字符的字母数字密码，至少包含一个小写字符、至少一个大写字符和至少三个数字。
 
-    ```
+    ```py
     import secrets
     import string
 
@@ -45,14 +45,14 @@
 
     **输出:**
 
-    ```
+    ```py
     Tx8LppU05Q
 
     ```
 
 2.  **secrets.randbelow(n)**: This function returns a random integer in the range [0, n).
 
-    ```
+    ```py
     import secrets
 
     passwd = secrets.randbelow(20)
@@ -61,14 +61,14 @@
 
     **输出:**
 
-    ```
+    ```py
     2
 
     ```
 
 3.  **secrets.randbits(k):** This function returns an int with k random bits.
 
-    ```
+    ```py
     import secrets
 
     passwd = secrets.randbits(7)
@@ -77,7 +77,7 @@
 
     **输出:**
 
-    ```
+    ```py
     61
 
     ```
@@ -88,7 +88,7 @@
 
 1.  **secrets.token_bytes([nbytes=None]) :** This function is responsible for generating a random byte string containing nbytes number of bytes. If no value is provided, a reasonable default is used.
 
-    ```
+    ```py
     import secrets
 
     token1 = secrets.token_bytes()
@@ -100,7 +100,7 @@
 
     **输出:**
 
-    ```
+    ```py
     b"\x86?\x85\xcf\x8ek8ud\x8a\x92\x8b>R\xc7\x89_\xc4x\xce'u]\x95\x0c\x05*?HG8\xfb"
     b'Dx\xe8\x7f\xc05\xdf\xe0\xf6\xe1'
 
@@ -108,7 +108,7 @@
 
 2.  **secrets.token_hex([nbytes=None]) :** This function is responsible for generating a random text string in hexadecimal containing nbytes random bytes. If no value is provided, a reasonable default is used.
 
-    ```
+    ```py
     import secrets
 
     token1 = secrets.token_hex(16)
@@ -120,7 +120,7 @@
 
     **输出:**
 
-    ```
+    ```py
     5d894a501c88fbe735c6ff496a6d3e51
     78baed9057e597dce4
 
@@ -129,7 +129,7 @@
 3.  **secrets.token_urlsafe([nbytes=None]) :** This function is responsible for generating a random URL-safe text string containing nbytes random bytes. This is suitable for password recovery applications.
     **Example :** Generate a hard-to-guess temporary URL containing a security token.
 
-    ```
+    ```py
     import secrets
 
     url = 'https://mydomain.com/reset=' + secrets.token_urlsafe()
@@ -138,7 +138,7 @@
 
     **输出:**
 
-    ```
+    ```py
     https://mydomain.com/reset=GbOiFIvhMoqWsfaTQKbj8ydbo8G1lsMx1ECa6SXjb1s
 
     ```

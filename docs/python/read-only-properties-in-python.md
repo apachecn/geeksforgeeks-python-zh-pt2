@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 class student:
 
     def __init__(self, name, course):
@@ -25,7 +25,7 @@ print(student1.studentid())
 
 **输出:**
 
-```
+```py
 student's identification number is AnitaMBA
 ```
 
@@ -33,7 +33,7 @@ student's identification number is AnitaMBA
 
 **示例:**
 
-```
+```py
 class student:
 
     def __init__(self, name, course):
@@ -51,7 +51,7 @@ print(student1.studentid)
 
 **输出:**
 
-```
+```py
 student's identification number is AnitaMBA
 ```
 
@@ -59,7 +59,7 @@ student's identification number is AnitaMBA
 
 **示例:**
 
-```
+```py
 class employee:
     def __init__(self, basesalary, yearsofworking):
         self.basesalary = basesalary
@@ -85,7 +85,7 @@ print(amit.basesalary, amit.yearsworking, amit.salary)
 
 **示例:**
 
-```
+```py
 class employee:
     def __init__(self, basesalary, yearsofworking):
         self.basesalary = basesalary
@@ -107,6 +107,6 @@ print(amit.basesalary, amit.yearsofworking, amit.salary)
 
 **输出:**
 
-```
+```py
 20000 5 10000
 ```

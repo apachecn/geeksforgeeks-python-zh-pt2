@@ -7,7 +7,7 @@
 
  **算法:**旋转(str1，str2)
 
-```
+```py
     1\. Create a temp string and store concatenation of str1 to
        str1 in temp.
                           temp = str1.str1
@@ -26,7 +26,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 
 # Python program to check if strings are rotations of
 # each other or not
@@ -67,7 +67,7 @@ else:
 
 **Output:**
 
-```
+```py
 Strings are rotations of each other
 ```
 

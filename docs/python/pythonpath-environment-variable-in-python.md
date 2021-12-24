@@ -6,7 +6,7 @@ Python 的行为受其环境变量的影响很大。其中一个变量是 PYTHON
 
 假设你定义了一个模块如下:
 
-```
+```py
 # user-defined module
 # saved as my_module.py
 

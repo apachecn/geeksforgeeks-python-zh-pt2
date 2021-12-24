@@ -12,7 +12,7 @@ Tkinter 是 python 中使用的一个 GUI 工具包，用于制作用户友好�
 
 **语法:**
 
-```
+```py
 S = Scale(root, bg, fg, bd, command, orient, from_, to, ..) 
 
 ```
@@ -40,7 +40,7 @@ S = Scale(root, bg, fg, bd, command, orient, from_, to, ..)
 
 **示例 1:** 创建水平条
 
-```
+```py
 # Python program to demonstrate
 # scale widget
 
@@ -82,7 +82,7 @@ root.mainloop()
 
 **示例 2:** 创建垂直滑块
 
-```
+```py
 from tkinter import *
 
 root = Tk()  

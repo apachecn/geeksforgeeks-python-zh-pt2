@@ -21,7 +21,7 @@
 
 **例 1:** 在本例中提供了 _id。
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -57,7 +57,7 @@ collection.insert_many(mylist)
 
 **例 2:** 本例中未提供 _id，由 MongoDB 自动分配。
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 

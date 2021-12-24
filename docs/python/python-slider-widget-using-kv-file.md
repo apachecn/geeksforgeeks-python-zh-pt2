@@ -9,13 +9,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 **滑块:**
 要使用滑块，首先必须导入包含滑块所有特征和功能的模块，即
 
-```
+```py
 Module: kivy.uix.slider
 ```
 
 创建滑块时要遵循的基本方法–
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import BoxLayout
@@ -27,7 +27,7 @@ Module: kivy.uix.slider
 
 **下面是用实现滑块的代码。kv 文件:**
 
-```
+```py
 # main.py file of slider 
 
 # base Class of your App inherits from the App class.  
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 现在该。kv 档:**T0 档**
 
-```
+```py
 <SliderWidget>:
 
     # creating the Slider

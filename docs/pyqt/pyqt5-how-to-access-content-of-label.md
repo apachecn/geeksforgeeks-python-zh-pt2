@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -74,7 +74,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 old label 
 new Label 
 

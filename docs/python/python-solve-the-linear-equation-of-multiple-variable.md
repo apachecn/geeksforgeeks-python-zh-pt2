@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library sympy
 from sympy import symbols, Eq, solve
 
@@ -48,7 +48,7 @@ print(solve((eq1, eq2), (x, y)))
 
 **输出:**
 
-```
+```py
 Equation 1:
 Eq(x + y, 1)
 Equation 2
@@ -70,7 +70,7 @@ Values of 2 unknown variable are as follows:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library sympy
 from sympy import symbols, Eq, solve
 
@@ -98,7 +98,7 @@ print(solve((eq1, eq2, eq3), (x, y, z)))
 
 **输出:**
 
-```
+```py
 Equation 1:
 Eq(x + y + z, 1)
 Equation 2

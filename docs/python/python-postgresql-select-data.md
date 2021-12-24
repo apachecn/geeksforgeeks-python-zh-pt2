@@ -8,7 +8,7 @@
 
 打开命令提示符，写下下面给出的命令。
 
-```
+```py
 pip install psycopg2
 ```
 
@@ -28,7 +28,7 @@ pip install psycopg2
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # establishing the connection
@@ -86,7 +86,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # establishing the connection

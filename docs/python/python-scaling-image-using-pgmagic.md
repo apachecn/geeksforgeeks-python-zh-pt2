@@ -8,7 +8,7 @@
 
 **Code :**
 
-```
+```py
 # importing library
 from pgmagick.api import Image
 
@@ -27,7 +27,7 @@ img.write('scale_gog.png')
 **缩放 JPEG 图像–**
 JPEG 代表**联合摄影专家组**。由于高达 16，777，216 2^24 的高数字色彩支持，这通常用于每个数码相机。并支持不同级别的压缩。
 
-```
+```py
 # importing library
 from pgmagick import Image, Blob
 

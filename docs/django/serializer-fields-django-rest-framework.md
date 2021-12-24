@@ -23,7 +23,7 @@
 用于包装**真**或**假**值的布尔字段。其工作原理与[BooleanField-Django 车型](https://www.geeksforgeeks.org/booleanfield-django-models/)相同。默认情况下，序列化程序。默认情况下创建的 BooleanField 实例为 False。
 **语法–**
 
-```
+```py
 field_name = serializers.BooleanField() 
 ```
 
@@ -32,7 +32,7 @@ field_name = serializers.BooleanField()
 接受**真**、**假**和**空**值的布尔字段。其工作原理与[NullBooleanField–Django 模型](https://www.geeksforgeeks.org/nullbooleanfield-django-forms/)相同。默认情况下，序列化程序。默认情况下，创建的 NullBooleanField 实例为无。
 **语法–**
 
-```
+```py
 field_name = serializers.NullBooleanField()
 ```
 
@@ -54,7 +54,7 @@ CharField 用于存储文本表示。(可选)验证文本是否短于 max_length
 
 **语法–**
 
-```
+```py
 field_name = serializers.CharField(*args, **kwargs) 
 ```
 
@@ -63,7 +63,7 @@ field_name = serializers.CharField(*args, **kwargs)
 EmailField 也是一种文本表示，它验证文本是有效的电子邮件地址。与[EmailField–Django Models](https://www.geeksforgeeks.org/emailfield-django-models/)相同。对于相同的功能，它接受 CharField 的所有参数。
 **语法–**
 
-```
+```py
 field_name = serializers.EmailField(*args, **kwargs) 
 ```
 
@@ -72,7 +72,7 @@ field_name = serializers.EmailField(*args, **kwargs)
 正如名称所定义的，RegexField 将字符串与特定的 regex 匹配，否则会引发错误。与[regex field–Django 表单](https://www.geeksforgeeks.org/regexfield-django-forms/)相同。对于相同的功能，它接受 CharField 的所有参数。
 **语法–**
 
-```
+```py
 field_name = serializers.RegexField(*args, **kwargs)
 ```
 
@@ -92,7 +92,7 @@ URLField 基本上是一个正则表达式字段，它根据 URL 匹配模式验
 
 **语法–**
 
-```
+```py
 field_name = serializers.URLField(*args, **kwargs) 
 ```
 
@@ -102,7 +102,7 @@ SlugField 是一个 RegexField，它根据模式[a-zA-Z0-9_-]+，验证输入。
 
 **语法–**
 
-```
+```py
 field_name = serializers.SlugField(*args, **kwargs)
 ```
 
@@ -123,7 +123,7 @@ IntegerField 基本上是一个整数字段，它根据 Python 的 **int** 实�
 
 **语法–**
 
-```
+```py
 field_name = serializers.IntegerField(*args, **kwargs) 
 ```
 
@@ -138,7 +138,7 @@ FloatField 基本上是一个浮动字段，它根据 Python 的 **float** 实�
 
 **语法–**
 
-```
+```py
 field_name = serializers.FloatField(*args, **kwargs) 
 ```
 
@@ -156,7 +156,7 @@ field_name = serializers.FloatField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DecimalField(*args, **kwargs)
 ```
 
@@ -178,7 +178,7 @@ DateTimeField 是用于日期和时间表示的序列化程序字段。与–[�
 
 **语法–**
 
-```
+```py
 field_name = serializers.DateTimeField(*args, **kwargs) 
 ```
 
@@ -192,7 +192,7 @@ field_name = serializers.DateTimeField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DateField(*args, **kwargs) 
 ```
 
@@ -207,7 +207,7 @@ Timefield 是用于时间表示的序列化程序字段。通常，人们需要�
 
 **语法–**
 
-```
+```py
 field_name = serializers.TimeField(*args, **kwargs) 
 ```
 
@@ -221,7 +221,7 @@ field_name = serializers.TimeField(*args, **kwargs)
 
 **语法–**
 
-```
+```py
 field_name = serializers.DurationField(*args, **kwargs)
 ```
 
@@ -244,7 +244,7 @@ ChoiceField 基本上是一个字符域，它根据一组有限选项中的一�
 
 **语法–**
 
-```
+```py
 field_name = serializers.ChoiceField(*args, **kwargs) 
 ```
 
@@ -254,7 +254,7 @@ ChoiceField 基本上是一个字符域，它根据从一组有限的选项中�
 
 **语法–**
 
-```
+```py
 field_name = serializers.MultipleChoiceField(*args, **kwargs)
 ```
 
@@ -276,7 +276,7 @@ FileField 基本上是一种文件表示。它执行 Django 的标准文件字�
 
 **语法–**
 
-```
+```py
 field_name = serializers.FileField(*args, **kwargs) 
 ```
 
@@ -292,7 +292,7 @@ ImageField 是一种图像表示。它验证上传的文件内容是否与已知
 
 **语法–**
 
-```
+```py
 field_name = serializers.ImageField(*args, **kwargs)
 ```
 

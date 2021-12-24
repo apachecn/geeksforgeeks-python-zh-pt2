@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of tuples in list
 # using sum() + map()
@@ -29,7 +29,7 @@ print("The summation of all tuple elements are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(1, 3), (5, 6, 7), (2, 6)]
 The summation of all tuple elements are : 30
 ```
@@ -39,7 +39,7 @@ The summation of all tuple elements are : 30
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of tuples in list
 # using sum() + izip()
@@ -61,7 +61,7 @@ print("The summation of all tuple elements are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [(1, ), (5, ), (2, )]
 The summation of all tuple elements are : 8
 ```

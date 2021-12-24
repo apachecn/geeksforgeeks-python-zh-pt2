@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove digits before K Number
 # Using split() + enumerate() + index() + list comprehension
@@ -39,7 +39,7 @@ print("String after removing digits before K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 2 6 is 4 geeks 5 and CS8
 String after removing digits before K : geeksforgeeks is 4 geeks 5 and CS8
 
@@ -51,7 +51,7 @@ String after removing digits before K : geeksforgeeks is 4 geeks 5 and CS8
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove digits before K Number
 # Using regex() + index()
@@ -75,7 +75,7 @@ print("String after removing digits before K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks 2 6 is 4 geeks 5 and CS8
 String after removing digits before K : geeksforgeeks   is 4 geeks 5 and CS8
 

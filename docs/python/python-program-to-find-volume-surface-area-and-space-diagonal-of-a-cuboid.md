@@ -8,7 +8,7 @@
 
 **例:**
 
-```
+```py
 Input : 
 length = 9
 breadth = 6
@@ -40,7 +40,7 @@ space diagonal = 7.07
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the
 # Surface area, volume and
 # space diagonal of rectangular
@@ -101,7 +101,7 @@ find_space_diagonal(l, b, h)
 
 **输出:**
 
-```
+```py
 408
 540
 14.730919862656235

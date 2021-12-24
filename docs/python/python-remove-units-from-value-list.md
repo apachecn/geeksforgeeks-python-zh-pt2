@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Units from Value List
 # Using list comprehension + regex()
@@ -39,7 +39,7 @@ print("List after unit removal : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['54 kg', '23 kg', '12kg', '19  kg']
 List after unit removal : ['54', '23', '12', '19']
 ```
@@ -49,7 +49,7 @@ List after unit removal : ['54', '23', '12', '19']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Units from Value List
 # Using replace() + strip() + list comprehension
@@ -74,7 +74,7 @@ print("List after unit removal : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['54 kg', '23 kg', '12kg', '19  kg']
 List after unit removal : ['54', '23', '12', '19']
 ```

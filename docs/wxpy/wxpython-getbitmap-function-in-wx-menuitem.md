@@ -16,7 +16,7 @@
 
 **Code Example :**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

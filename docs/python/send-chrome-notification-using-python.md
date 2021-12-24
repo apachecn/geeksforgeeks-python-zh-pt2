@@ -8,7 +8,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install notify2
 ```
 
@@ -18,7 +18,7 @@ pip install notify2
 
 ## 蟒蛇 3
 
-```
+```py
 from notify_run import Notify
 
 notify = Notify()
@@ -43,7 +43,7 @@ notify.register()
 
 ## 蟒蛇 3
 
-```
+```py
 from notify_run import Notify
 
 notify = Notify()

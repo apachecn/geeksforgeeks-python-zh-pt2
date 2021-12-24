@@ -8,7 +8,7 @@
 
 让我们通过将 cookie 设置为 url，然后再次请求检查 cookie 是否已设置来说明会话对象的使用。
 
-```
+```py
 # import requests module
 import requests
 
@@ -30,7 +30,7 @@ print(r.text)
 当再次发出请求时，可以检查 cookie 是否仍然被设置。
 会话也可用于向请求方法提供默认数据。这是通过向会话对象的属性提供数据来实现的:
 
-```
+```py
 # import requests module
 import requests
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split each word into percent segment in list
 # Using split() + len() + slice + loop

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Smallest missing element after K
 # Using loop
@@ -49,7 +49,7 @@ print("The Smallest element greater than K in list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 3, 4, 5, 7, 9, 10]
 The Smallest element greater than K in list : 8
 

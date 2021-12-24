@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import pandas
 import pandas as pd
 
@@ -36,7 +36,7 @@ df
 
 **语法:**
 
-```
+```py
 df_name.iloc[beg_index:end_index+1,beg_index:end_index+1]
 ```
 
@@ -44,7 +44,7 @@ df_name.iloc[beg_index:end_index+1,beg_index:end_index+1]
 
 ## 蟒蛇 3
 
-```
+```py
 # create a subset of all rows
 # and Name, Gender and Branch column
 df.iloc[:, 0:3]

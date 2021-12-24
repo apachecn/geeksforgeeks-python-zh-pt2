@@ -13,7 +13,7 @@
 **方法#1:使用`any() + list comprehension + string.punctuation`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 string .标点符号执行识别标点符号的任务，any()用于测试元素是否属于任何标点符号。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Punctuation Tuples
 # Using any() + list comprehension + string.punctuation
@@ -36,7 +36,7 @@ print("Tuples after punctuation removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('.', ', '), ('!', 8), (5, 6), (';', 10)]
 Tuples after punctuation removal : [(5, 6)]
 
@@ -45,7 +45,7 @@ Tuples after punctuation removal : [(5, 6)]
 **方法 2:使用`regex() + filter() + lambda + string.punctuation`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用正则表达式执行标点符号识别任务，并使用 filter() + lambda 进行过滤。仅限于处理字符串和检查特定索引。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Punctuation Tuples
 # Using regex() + filter() + lambda + string.punctuation
@@ -69,7 +69,7 @@ print("Tuples after punctuation removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [('.', ', '), ('!', '8'), ('5', '6'), (';', '10')]
 Tuples after punctuation removal : [('5', '6')]
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):

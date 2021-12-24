@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在天真方法中，我们遍历整个列表，并将所有过滤后的无值追加到一个新列表中，从而准备好执行后续操作。
 
-```
+```py
 # Python3 code to demonstrate 
 # Truth values deletion in List
 # using naive method 
@@ -31,7 +31,7 @@ print ("List after removal of Truth values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, None, 4, None, False, 5, 8, False]
 List after removal of Truth values : [None, None, False, False]
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `del` +列表切片**
 以上功能的组合可用于执行该任务。在本例中，我们对矩阵中的每一行运行一个循环，并使用`del`移除后面的元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove last element from each row in Matrix
 # Using loop + del + list slicing
@@ -28,7 +28,7 @@ print("Matrix after removal of rear element from rows : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 3, 4], [2, 4, 6], [3, 8, 1]]
 Matrix after removal of rear element from rows : [[1, 3], [2, 4], [3, 8]]
 

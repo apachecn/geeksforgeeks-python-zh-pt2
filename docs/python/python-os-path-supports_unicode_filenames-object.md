@@ -16,7 +16,7 @@
 
 **Code:** use of os.path.supports_unicode_filenames object
 
-```
+```py
 # Python program to explain os.path.supports_unicode_filenames object 
 
 # importing os module 
@@ -33,7 +33,7 @@ print(support) 
 
 **Output:**
 
-```
+```py
 False
 
 ```

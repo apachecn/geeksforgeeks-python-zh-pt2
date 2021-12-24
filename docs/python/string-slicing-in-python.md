@@ -31,7 +31,7 @@ Python 切片可以通过两种方式完成。
 
 **例**
 
-```
+```py
 # Python program to demonstrate
 # string slicing
 
@@ -51,7 +51,7 @@ print(String[s3])
 
 **Output:**
 
-```
+```py
 String slicing
 AST
 SR
@@ -65,7 +65,7 @@ GITA
 
 **语法**
 
-```
+```py
 string[start:end:step]
 ```
 
@@ -73,7 +73,7 @@ string[start:end:step]
 
 **例**
 
-```
+```py
 # Python program to demonstrate
 # string slicing
 
@@ -92,7 +92,7 @@ print(String[::-1])
 
 **Output:**
 
-```
+```py
 AST
 SR
 GITA

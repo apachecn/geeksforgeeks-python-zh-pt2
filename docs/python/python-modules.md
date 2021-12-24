@@ -8,7 +8,7 @@ Python 模块是包含 Python 定义和语句的文件。模块可以定义函�
 
 ## 计算机编程语言
 
-```
+```py
 # A simple module, calc.py
 
 def add(x, y):
@@ -24,7 +24,7 @@ def subtract(x, y):
 
 **语法:**
 
-```
+```py
 import module
 ```
 
@@ -36,7 +36,7 @@ import module
 
 ## 计算机编程语言
 
-```
+```py
 # importing  module calc.py
 import calc
 
@@ -45,7 +45,7 @@ print(calc.add(10, 2))
 
 **输出:**
 
-```
+```py
 12
 ```
 
@@ -57,7 +57,7 @@ print(calc.add(10, 2))
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing sqrt() and factorial from the
 # module math
 from math import sqrt, factorial
@@ -71,7 +71,7 @@ print(factorial(6))
 
 ****输出:****
 
-```
+```py
 4.0
 720
 ```
@@ -82,7 +82,7 @@ print(factorial(6))
 
 ****语法:****
 
-```
+```py
 from module_name import *
 ```
 
@@ -92,7 +92,7 @@ from module_name import *
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing sqrt() and factorial from the
 # module math
 from math import *
@@ -106,7 +106,7 @@ print(factorial(6))
 
 ****Output**
 
-```
+```py
 4.0
 720
 
@@ -123,7 +123,7 @@ print(factorial(6))
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing sys module
 import sys
 
@@ -143,7 +143,7 @@ print(sys.path)
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing sqrt() and factorial from the
 # module math
 import math as gfg
@@ -157,7 +157,7 @@ print(gfg.factorial(6))
 
 ****Output**
 
-```
+```py
 4.0
 720
 
@@ -169,7 +169,7 @@ print(gfg.factorial(6))
 
 **T2T4
 
-```
+```py
 #  Import built-in module  random
 import  random
 print(dir(random))
@@ -185,7 +185,7 @@ T5**
 
 ## **python 3**
 
-```
+```py
 # importing built-in module math
 import math
 
@@ -247,7 +247,7 @@ print(date.fromtimestamp(454554))  
 
 ****输出:****
 
-```
+```py
 5.0
 3.14159265359
 114.591559026

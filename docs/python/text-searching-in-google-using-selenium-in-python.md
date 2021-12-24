@@ -19,7 +19,7 @@ Selenium 是通过程序控制网络浏览器和执行浏览器自动化的强�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module.
 
 # Web browser Automation
@@ -43,7 +43,7 @@ import pyautogui 
 
 ## 计算机编程语言
 
-```
+```py
 r = sr.Recognizer() 
 with sr.Microphone() as source2: 
     r.adjust_for_ambient_noise(source2, duration = 0.2) 
@@ -56,7 +56,7 @@ with sr.Microphone() as source2: 
 
 ## 蟒蛇 3
 
-```
+```py
 if MyText == "search":
 
     # Automates 'copy' internally
@@ -91,7 +91,7 @@ if MyText == "search":
 
 ## 计算机编程语言
 
-```
+```py
 from selenium import webdriver 
 from time import sleep 
 import chromedriver_autoinstaller

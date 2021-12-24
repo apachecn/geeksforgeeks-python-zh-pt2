@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("Does " + redditor_name + " has an active Reddit Premium status? : " +
 
 **输出:**
 
-```
+```py
 Does spez has an active Reddit Premium status? : True
 
 ```
@@ -49,7 +49,7 @@ Does spez has an active Reddit Premium status? : True
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -79,7 +79,7 @@ print("Does " + redditor_name + " has an active Reddit Premium status? : " +
 
 **输出:**
 
-```
+```py
 Does AutoModerator has an active Reddit Premium status? : True
 
 ```

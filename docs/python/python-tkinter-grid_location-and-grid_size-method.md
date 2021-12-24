@@ -16,7 +16,7 @@ Tkinter 用于开发图形用户界面应用程序。它支持各种小部件以
 
 ## 蟒蛇 3
 
-```
+```py
 # This imports all functions in tkinter module
 from tkinter import * from tkinter.ttk import *
 
@@ -73,7 +73,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # This imports all functions in tkinter module
 from tkinter import * from tkinter.ttk import *
 
@@ -115,6 +115,6 @@ mainloop()
 **输出:**
 每次你点击鼠标按钮，它都会返回相同的值，直到没有添加更多的小部件或者行数和列数没有增加。
 
-```
+```py
 (3, 2)
 ```

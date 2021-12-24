@@ -7,7 +7,7 @@
 **方法#1:使用`filter() + lambda + set()` +列表理解**
 以上功能的组合可用于执行该特定功能。在这种情况下，我们首先从第 n 个索引中过滤最小的 K 个元素，然后将这些值应用于列表并返回结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum K records of Nth index in tuple list
 # Using filter() + lambda + set() + list comprehension

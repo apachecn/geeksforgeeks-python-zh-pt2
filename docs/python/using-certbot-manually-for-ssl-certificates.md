@@ -24,7 +24,7 @@ Certbot 是一个免费的开源软件工具，用于在人工管理的网站上
 
 对于 Ubuntu 或 Debian 系统，您可以使用 APT 安装 certbot
 
-```
+```py
 sudo apt-get install certbot
 ```
 

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 while(True):
@@ -32,7 +32,7 @@ while(True):
 
 ## 蟒蛇 3
 
-```
+```py
 import schedule
 import time
 

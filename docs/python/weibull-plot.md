@@ -60,7 +60,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -115,7 +115,7 @@ analysis.probplot()
 
 不同形状参数值下的标准威布尔分布
 
-```
+```py
     0
 -----------------
 0    25.722681
@@ -125,12 +125,12 @@ analysis.probplot()
 4    35.406261
 ```
 
-```
+```py
 shape Parameter:  3.55
 Scale Parameter:  31.87
 ```
 
-```
+```py
 r_squared                     0.96102
 p_value                   7.32837e-71
 fit method          linear regression

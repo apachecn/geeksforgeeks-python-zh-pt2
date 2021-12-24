@@ -24,7 +24,7 @@ Python 列表 **count()** 是 Python 中的一个内置函数，它返回给定�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to count the number of times
 # an object appears in a list using count() method
 
@@ -46,7 +46,7 @@ print(list3.count('Cat'))
 
 **输出:**
 
-```
+```py
 4
 3
 2
@@ -56,7 +56,7 @@ print(list3.count('Cat'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # the error in count() method
 
@@ -68,7 +68,7 @@ print(list1.count(1, 2))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/41d2d7646b4b549b399b0dfe29e38c53.py", line 7, in 
     print(list1.count(1, 2))  
@@ -79,7 +79,7 @@ TypeError: count() takes exactly one argument (2 given)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to count the number of times
 # an object appears in a list using count() method
 
@@ -96,7 +96,7 @@ print(list1.count([1, 2]))
 
 **输出:**
 
-```
+```py
 2
 2
 ```
@@ -107,7 +107,7 @@ print(list1.count([1, 2]))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to count the number of times
 # an object appears in a list using count() method
 
@@ -124,7 +124,7 @@ print (dict( (l, lst.count(l) ) for l in set(lst)))
 
 **输出:**
 
-```
+```py
 [['Mat', 1], ['Cat', 3], ['Sat', 2], ['Bat', 1]]
 {'Bat': 1, 'Cat': 3, 'Sat': 2, 'Mat': 1}
 ```

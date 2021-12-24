@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rows with all List elements
 # Using loop
@@ -60,7 +60,7 @@ print("Rows with list elements : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rows with all List elements
 # Using all() + list comprehension

@@ -14,7 +14,7 @@
 
 为了改变进度条的对齐方式，我们将使用`setAlignment`方法。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore

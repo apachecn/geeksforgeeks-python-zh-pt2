@@ -19,7 +19,7 @@ Tweepy 模块中的 **`SavedSearch`** 对象包含有关已保存搜索的信息
 
 **示例:**使用`get_saved_search()`方法获取保存的搜索。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -55,7 +55,7 @@ print("The saved search was created at : " + str(saved_search.created_at))
 
 **输出:**
 
-```
+```py
 The id of the saved search is : 1272422627047378944
 The id_str of the saved search is : 1272422627047378944
 The query of the saved search is : Tweepy

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to explain
 # math.isqrt() method
 
@@ -41,7 +41,7 @@ print(n)
 
 **Output:** 
 
-```
+```py
 3
 10
 ```
@@ -50,7 +50,7 @@ print(n)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to explain
 # math.isqrt() method
 
@@ -75,7 +75,7 @@ isPerfect(10)
 
 **Output:** 
 
-```
+```py
 100 is perfect square
 10 is not a perfect square
 ```
@@ -84,7 +84,7 @@ isPerfect(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to explain
 # math.isqrt() method
 
@@ -109,7 +109,7 @@ Next(37)
 
 **Output:** 
 
-```
+```py
 Next perfect square after 11 is 16
 Next perfect square after 37 is 49
 ```

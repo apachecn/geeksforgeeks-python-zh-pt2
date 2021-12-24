@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 import time
 import random
@@ -38,7 +38,7 @@ high_score = 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a window screen
 wn = turtle.Screen()
 wn.title("Snake Game")
@@ -87,7 +87,7 @@ pen.write("Score : 0  High Score : 0", align="center",
 
 ## 蟒蛇 3
 
-```
+```py
 # assigning key directions
 def group():
     if head.direction != "down":
@@ -138,7 +138,7 @@ wn.onkeypress(goright, "d")
 
 ## 蟒蛇 3
 
-```
+```py
 segments = []
 
 # Main Gameplay
@@ -212,7 +212,7 @@ wn.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import turtle
 import time

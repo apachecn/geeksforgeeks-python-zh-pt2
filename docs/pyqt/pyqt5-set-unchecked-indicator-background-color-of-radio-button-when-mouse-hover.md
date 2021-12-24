@@ -6,7 +6,7 @@
 
 为了在指示器处于未选中状态并且鼠标悬停在其上时为其添加背景色，我们必须更改单选按钮的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator:unchecked:hover
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

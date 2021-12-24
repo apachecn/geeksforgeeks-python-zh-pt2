@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # strip(), lstrip() and rstrip()
 str = "---geeksforgeeks---"
@@ -32,7 +32,7 @@ print ( str.rstrip('-') )
 
 输出:
 
-```
+```py
  String after stripping all '-' is : geeksforgeeks
  String after stripping all leading '-' is : geeksforgeeks---
  String after stripping all trailing '-' is : ---geeksforgeeks
@@ -43,7 +43,7 @@ print ( str.rstrip('-') )
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # min() and max()
 str = "geeksforgeeks"
@@ -59,7 +59,7 @@ print ("The maximum value character is : " + max(str))
 
 输出:
 
-```
+```py
 The minimum value character is : e
 The maximum value character is : s
 ```
@@ -69,7 +69,7 @@ The maximum value character is : s
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # maketrans() and translate()
 from string import maketrans # for maketrans()
@@ -89,7 +89,7 @@ print  str.translate(mapped)
 
 输出:
 
-```
+```py
 The string after translation using mapped elements is : 
 aeeksbcraeeks
 ```
@@ -99,7 +99,7 @@ aeeksbcraeeks
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # replace()
 
@@ -116,7 +116,7 @@ print (str.replace( str1, str2, 2))
 
 输出:
 
-```
+```py
 The string after replacing strings is : geeksforgeeks is for nerds
 ```
 
@@ -127,7 +127,7 @@ The string after replacing strings is : geeksforgeeks is for nerds
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate expandtabs()
 string = 'GEEKS\tFOR\tGEEKS'
 
@@ -143,7 +143,7 @@ print(string.expandtabs(5))
 
 输出:
 
-```
+```py
 GEEKS   FOR     GEEKS
 GEEKS FOR GEEKS
 GEEKS     FOR  GEEKS

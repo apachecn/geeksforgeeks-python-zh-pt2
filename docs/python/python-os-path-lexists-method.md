@@ -17,7 +17,7 @@ Python 中的`***os.path.lexists()***`方法用于检查给定路径是否存在
 
 **Code :** Use of os.path.lexists() method
 
-```
+```py
 # Python program to explain os.path.lexists() method 
 
 # importing os.path module 
@@ -47,7 +47,7 @@ print(pathExists)
 
 **Output:**
 
-```
+```py
 True
 False
 

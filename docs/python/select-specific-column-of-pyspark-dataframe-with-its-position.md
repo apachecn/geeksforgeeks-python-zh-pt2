@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -53,7 +53,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # select column with column number 1
 dataframe.select(dataframe.columns[1]).show()
 ```
@@ -68,7 +68,7 @@ dataframe.select(dataframe.columns[1]).show()
 
 ## 蟒蛇 3
 
-```
+```py
 #select column with column number slice operator
 dataframe.select(dataframe.columns[1:3]).show()
 ```

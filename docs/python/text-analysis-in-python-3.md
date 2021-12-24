@@ -14,14 +14,14 @@
 
 所以我们要建立一个函数来计算文本中的词频。我们将考虑一个示例测试文本，&稍后将用我们刚刚下载的书籍的文本文件替换示例文本。因为我们要计算词频，所以大写字母和小写字母是一样的。我们将整个文本转换成小写并保存。
 
-```
+```py
 text = "This is my test text. We're keeping this text short to keep things manageable."
 text = text.lower()
 ```
 
 词频可以用多种方式统计。我们要编码，两种这样的方式(只是为了知识)。一个用于循环，另一个使用集合中的计数器，这证明比前一个更快。该函数将返回一个唯一单词的字典&它作为键值对出现的频率。所以，我们编码:
 
-```
+```py
 from collections import Counter 
 
 # counts word frequency
@@ -60,7 +60,7 @@ def count_words_fast(text):     
 
 **将书籍读入 Python:** 此后，我们成功地用示例文本测试了我们的词频函数。现在，我们要用我们作为文本文件下载的书籍来测试这些功能。我们将创建一个名为 read_book()的函数，它将用 Python 阅读我们的书籍，并将其保存为变量中的长字符串并返回。函数的参数将是要读取的 book.txt 的位置，并将在调用函数时传递。
 
-```
+```py
 #read a book and return it as a string
 def read_book(title_path):  
     with open(title_path, "r", encoding ="utf8") as current_file:
@@ -71,7 +71,7 @@ def read_book(title_path):  
 
 **Total Unique words:** 我们要设计另一个名为 word_stats()的函数，它会以词频字典(count_words_fast()/count_words())的输出为参数。该函数将返回唯一单词的总数(词频字典中的 sum/total 关键字)和一个 dict_values，将它们的总数作为一个元组保存在一起。
 
-```
+```py
 # word_counts = count_words_fast(text)
 def word_stats(word_counts):      
     num_unique = len(word_counts) 
@@ -81,7 +81,7 @@ def word_stats(word_counts):      
 
 **调用函数:**所以，最后我们要读一本书，比如《罗密欧与朱丽叶》的英文版，从函数中收集词频、独特词、独特词总数等信息。
 
-```
+```py
 text = read_book("./Books / English / shakespeare / Romeo and Juliet.txt")
 
 word_counts = count_words_fast(text)         
@@ -89,7 +89,7 @@ word_counts = count_words_fast(text)         
 print(num_unique, sum(counts)) 
 ```
 
-```
+```py
 Output: 5118 40776
 
 ```
@@ -100,7 +100,7 @@ Output: 5118 40776
 
 我们将使用 [matplotlib](https://www.geeksforgeeks.org/graph-plotting-in-python-set-1/) 为所有不同语言的书籍绘制(I)书籍长度 Vs 唯一单词数。我们将导入熊猫来创建一个熊猫数据框架，它将把书籍上的信息作为专栏保存。我们将根据不同的类别对这些栏目进行分类，如“语言”、“作者”、“标题”、“长度”&“独一无二”。要沿 x 轴绘制图书长度，沿 y 轴绘制唯一单词数，我们需要编码:
 
-```
+```py
 import os 
 import pandas as pd 
 

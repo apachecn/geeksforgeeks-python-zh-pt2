@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Shuffle dictionary Values
 # Using shuffle() + zip() + dict()
@@ -60,7 +60,7 @@ print("The shuffled dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Shuffle dictionary Values
 # Using sample() + zip()

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以使用循环来执行。这是一种可以执行这项任务的强力方式。在这种情况下，我们迭代每个字符，并将第 Kt 个字母附加到每个字符上，并构造一个列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Pair Kth character with each element
 # Using loop
@@ -33,7 +33,7 @@ print("List after pairing : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 List after pairing : ['sg', 'se', 'se', 'sk', 'ss', 'sf', 'so', 'sr', 'sg', 'se', 'se', 'sk', 'ss']
 

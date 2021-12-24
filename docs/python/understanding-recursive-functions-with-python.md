@@ -68,7 +68,7 @@ Python 程序打印给定条件下的斐波那契数列。
 
 在这个程序中，值是在 till_range 变量中定义的，然后我们将该变量传递给一个参数，然后调用递归函数。
 
-```
+```py
 recursive_function(a-1) + recursive_function(a-2)
 ```
 
@@ -76,7 +76,7 @@ recursive_function(a-1) + recursive_function(a-2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Recursive function
 def recursive_function(a):
 
@@ -109,7 +109,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 Fibonacci series upto 1 number:
 0 
 Fibonacci series upto 5 numbers:
@@ -134,7 +134,7 @@ Python 程序求一个数的阶乘。
 
 在这个 python 程序中，我们将返回整数的阶乘。我们将变量 n 的值传递给一个参数，然后调用函数。
 
-```
+```py
 a* recursion_factorial(a-1)
 ```
 
@@ -142,7 +142,7 @@ a* recursion_factorial(a-1)
 
 ## 蟒蛇 3
 
-```
+```py
 # recursive function
 def recursion_factorial(a):
 
@@ -177,7 +177,7 @@ print("Factorial of", n, "is", recursion_factorial(n))
 
 **输出:**
 
-```
+```py
 Factorial of 7 is 5040
 Factorial of 2 is 2
 Factorial of 4 is 24

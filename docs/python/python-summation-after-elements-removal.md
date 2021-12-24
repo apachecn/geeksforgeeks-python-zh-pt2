@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ sum()**
 列表理解可用于执行仅一行中的简单方法，因此给出了执行该特定任务的简单方法。执行求和的任务是使用 sum()完成的。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Summation after elements removal
 # using list comprehension + sum()
@@ -33,7 +33,7 @@ print ("The list after performing removal summation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 4, 6, 7, 6]
 The remove list is : [3, 6]
 The list after performing removal summation is : 12

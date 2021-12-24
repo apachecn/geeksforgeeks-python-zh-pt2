@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `islower()`**
 列表理解和 islower 功能可以用来执行这个特定的任务。列表理解主要用于遍历列表，islower 函数检查小写字符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Return lowercase characters in string 
 # Using list comprehension + islower()

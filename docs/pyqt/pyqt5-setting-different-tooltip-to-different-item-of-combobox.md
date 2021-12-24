@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须使用以下方法
 
-```
+```py
 combo_box.setItemData(index, tool_tip_text, QtCore.Qt.ToolTipRole)
 
 Here index is the index of the item
@@ -18,7 +18,7 @@ tool_tip_text is the string which show as tool tip
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

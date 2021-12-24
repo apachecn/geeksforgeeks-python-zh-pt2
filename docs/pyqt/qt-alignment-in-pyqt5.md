@@ -4,7 +4,7 @@
 
 在 PyQt5 中，Qt 对齐用于设置小部件的对齐。为了使用 Qt 对齐方法，我们必须从 QtCore 类导入 Qt。
 
-```
+```py
 from PyQt5.QtCore import Qt
 ```
 
@@ -24,7 +24,7 @@ from PyQt5.QtCore import Qt
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import *

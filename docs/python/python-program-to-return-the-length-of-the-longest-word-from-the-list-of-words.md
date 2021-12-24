@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to find the longest
 # length in the list
 def longestLength(a):
@@ -50,7 +50,7 @@ longestLength(a)
 
 **输出:**
 
-```
+```py
 The word with the longest length is: third  and length is  5
 ```
 
@@ -68,7 +68,7 @@ The word with the longest length is: third  and length is  5
 
 ## 蟒蛇 3
 
-```
+```py
 # function to find the longest length in the list
 def longestLength(words):
     finalList = []
@@ -88,6 +88,6 @@ longestLength(a)
 
 **输出:**
 
-```
+```py
 The word with the longest length is: third  and length is  5
 ```

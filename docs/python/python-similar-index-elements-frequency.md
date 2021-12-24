@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + zip()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们对交叉列表中匹配的元素求和。
 
-```
+```py
 # Python3 code to demonstrate 
 # Similar index elements frequency
 # using sum() + zip()
@@ -30,7 +30,7 @@ print ("Number of elements having similar index : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 3, 5, 6, 8]
 The original list 2 is : [4, 3, 6, 6, 10]
 Number of elements having similar index : 2

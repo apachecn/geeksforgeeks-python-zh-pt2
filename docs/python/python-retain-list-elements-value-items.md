@@ -17,7 +17,7 @@
 **方法一:利用字典理解**
 这是解决这个问题的方法之一。在这种情况下，我们使用理解中的条件表达式执行过滤任务，只保留列表中的那些项目。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain list elements value items
 # Using dictionary comprehension
@@ -41,7 +41,7 @@ print("The filtered dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 3, 'is': 2, 'best': 4, 'for': 7, 'geeks': 10}
 The filtered dictionary : {'gfg': 3, 'best': 4, 'geeks': 10}
 
@@ -50,7 +50,7 @@ The filtered dictionary : {'gfg': 3, 'best': 4, 'geeks': 10}
 **方法 2:使用`filter()`+λ**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用过滤器执行过滤任务，使用 lambda 函数进行逻辑馈送。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain list elements value items
 # Using filter() + lambda
@@ -74,7 +74,7 @@ print("The filtered dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': 3, 'is': 2, 'best': 4, 'for': 7, 'geeks': 10}
 The filtered dictionary : {'gfg': 3, 'best': 4, 'geeks': 10}
 

@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQtGraph 模块的折线图中设置线条的 alpha 值。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。)折线图、线图、线图或曲线图是一种将信息显示为由直线段连接的一系列数据点(称为“标记”)的图表。它是许多领域中常见的一种基本图表类型。线图是借助 PyQtGraph 中的绘图类创建的。alpha 值是介于 0.0(完全透明)和 1.0(完全不透明)之间的数字。
 我们可以创建一个绘图窗口，并在下面给出的命令的帮助下在上面创建线条
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -23,7 +23,7 @@ line = plt.plot(x, y, pen='g', symbol='x', symbolPen='g', symbolBrush=0.2, name=
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import * import sys
 

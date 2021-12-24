@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```py
 import numpy as np
 import time
 
@@ -55,7 +55,7 @@ print("for loop time taken "+"\t\t"+str(1000*(time4-time3))+"ms")
 
 **输出:**
 
-```
+```py
 vectorized form time taken    0.43511390686035156ms
 for loop time taken         216.04394912719727ms
 ```

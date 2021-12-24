@@ -7,7 +7,7 @@
 **方法#1:使用`insert() + pop()` +循环**
 上述功能的组合可用于执行特定任务。 `pop`功能可以删除子列表，`insert`功能可以插入子列表。循环中的单次迭代中的每个元素都会发生这种情况。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Shift sublist in list
 # Using insert() + pop() + loop

@@ -10,7 +10,7 @@
 
 **我们将在 python 脚本中使用 mysql-connect 来使用 mysql 驱动程序。首先**、**安装要求:**
 
-```
+```py
 python3 -m pip install mysql-connect-python
 ```
 
@@ -24,7 +24,7 @@ python3 -m pip install mysql-connect-python
 
 **我们可以看到数据库模式使用:**
 
-```
+```py
 DESC PROFILE;
 ```
 
@@ -34,7 +34,7 @@ DESC PROFILE;
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 import mysql.connector
 import base64
@@ -82,7 +82,7 @@ mydb.commit()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 import mysql.connector
 import base64

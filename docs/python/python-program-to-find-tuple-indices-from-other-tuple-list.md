@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find tuple indices from other tuple list
 # Using lookup dictionary + enumerate() + list comprehension
@@ -48,7 +48,7 @@ print("The match tuple indices : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(4, 5), (7, 6), (1, 0), (3, 4)]
 The match tuple indices : [3, 1]
 ```
@@ -59,7 +59,7 @@ The match tuple indices : [3, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Find tuple indices from other tuple list
 # Using list comprehension + enumerate()
@@ -82,7 +82,7 @@ print("The match tuple indices : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(4, 5), (7, 6), (1, 0), (3, 4)]
 The match tuple indices : [1, 3]
 ```

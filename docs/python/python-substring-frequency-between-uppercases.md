@@ -7,7 +7,7 @@
 **方法#1:使用`groupby()` + regex + loop**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用 groupby()对正则表达式提取的子字符串进行分组。所有的都是用循环编译的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substring Frequency between Uppercases
 # Using groupby() + regex + loop
@@ -32,7 +32,7 @@ print("The grouped Substring Frequency : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : GeEkSForGeEkS
 The grouped Substring Frequency : {'For': 1, 'S': 2, 'Ek': 2, 'Ge': 2}
 

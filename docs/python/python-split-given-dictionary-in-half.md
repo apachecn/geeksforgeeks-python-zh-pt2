@@ -7,7 +7,7 @@
 **方法#1:使用`items() + len()` +列表切片**
 上述功能的组合可以轻松执行这个特殊的任务，其中通过列表切片将切片分成两半，通过`items()`提取字典条目
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split dictionary by half
 # Using items() + len() + list slicing

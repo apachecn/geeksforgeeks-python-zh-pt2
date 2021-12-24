@@ -17,7 +17,7 @@
 
 **Code:** Use of os.isatty() method to check if the given file descriptor is open and connected to tty(-like) device or not
 
-```
+```py
 # Python program to explain os.isatty() method  
 
 # importing os module 
@@ -53,7 +53,7 @@ print("Connected to a terminal:", os.isatty(master))
 
 **Output:**
 
-```
+```py
 Connected to a terminal: False
 Connected to a terminal: True
 

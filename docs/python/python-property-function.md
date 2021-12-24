@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain property() function
 # Alphabet class
 
@@ -61,7 +61,7 @@ del x.value
 
 **输出:**
 
-```
+```py
 Getting value
 GeeksforGeeks
 Setting value to GfG
@@ -76,7 +76,7 @@ Deleting value
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain property()
 # function using decorator
 
@@ -113,7 +113,7 @@ del x.value
 
 **输出:**
 
-```
+```py
 Getting value
 Peter
 Setting value to Diesel
@@ -130,7 +130,7 @@ Deleting value
 
 ## 蟒蛇 3
 
-```
+```py
 # declare a class
 class Employee:
 
@@ -162,7 +162,7 @@ print(Employee.count)
 
 **输出:**
 
-```
+```py
 1
 2
 2
@@ -174,7 +174,7 @@ print(Employee.count)
 
 ## 蟒蛇 3
 
-```
+```py
 # create a class
 class gfg:
 
@@ -212,7 +212,7 @@ del x.value
 
 **输出:**
 
-```
+```py
 Getting value
 Happy Coding!
 Setting value to Hey Coder!

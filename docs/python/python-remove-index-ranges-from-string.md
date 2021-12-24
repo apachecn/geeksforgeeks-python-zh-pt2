@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove index ranges from String 
 # Using loop
@@ -49,7 +49,7 @@ print("The reconstructed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeksforgeeks is best for geeks
 The reconstructed string : geeksbest for geeks
 
@@ -61,7 +61,7 @@ The reconstructed string : geeksbest for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove index ranges from String 
 # Using any() + list comprehension + join()
@@ -85,7 +85,7 @@ print("The reconstructed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeksforgeeks is best for geeks
 The reconstructed string : geeksbest for geeks
 

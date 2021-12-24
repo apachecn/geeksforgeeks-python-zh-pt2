@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -81,7 +81,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.Qt.Alignment object at 0x0000021C0076E828
 ```
 

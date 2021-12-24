@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -57,7 +57,7 @@ for i in soup.find_all(class_="first"):
 
 **输出:**
 
-```
+```py
 div
 p
 span
@@ -67,7 +67,7 @@ span
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 import requests
@@ -85,6 +85,6 @@ for i in soup.find_all(class_="article--container_content"):
 
 **输出:**
 
-```
+```py
 div
 ```

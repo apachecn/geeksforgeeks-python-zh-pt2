@@ -20,7 +20,7 @@
 
 这种方法使用两个循环遍历列表元素，并检查每个元素的第一个元素和第二个元素是否与任何其他元组匹配。
 
-```
+```py
 # Python3 code to convert tuple 
 # into string
 def count(listOfTuple):
@@ -65,7 +65,7 @@ count(listOfTuple)
 
 **Output:**
 
-```
+```py
 Test Case 1:
 ('a', 'e') - 2
 ('b', 'x') - 3
@@ -81,7 +81,7 @@ No Duplicates
 
 计数器是集合模块中包含的容器。这是一个无序的集合，其中元素及其各自的计数被存储为字典。
 
-```
+```py
 # Python3 code to convert tuple 
 # into string
 import collections
@@ -108,7 +108,7 @@ count(listOfTuple)
 
 **Output:**
 
-```
+```py
 ('b', 'x') - 3
 ('a', 'e') - 2
 
@@ -120,7 +120,7 @@ count(listOfTuple)
 
 你可以做一个字典，说`count_map`，把每个元组的计数作为值存储起来。
 
-```
+```py
 # Python3 code to convert tuple 
 # into string
 def count(listOfTuple):
@@ -140,7 +140,7 @@ count(listOfTuple)
 
 **Output:**
 
-```
+```py
 Test Case 1:
 {('a', 'e'): 2, ('b', 'x'): 3}
 

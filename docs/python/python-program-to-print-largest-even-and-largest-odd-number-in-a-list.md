@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 1 3 5 8 6 10 
 Output:
 Largest even number is  10 
@@ -22,7 +22,7 @@ Largest even number is  694
 
 ## 蟒蛇 3
 
-```
+```py
 class LargestOddAndEven:
 
     # find largest even number of
@@ -82,7 +82,7 @@ obj.largestOdd(list_num)
 
 **输出:**
 
-```
+```py
 Largest even number is  10
 Largest odd number is  5
 ```
@@ -91,7 +91,7 @@ Largest odd number is  5
 
 ## 蟒蛇 3
 
-```
+```py
 class LargestOddAndEven:
 
     # find largest even number of the list
@@ -137,7 +137,7 @@ obj.largestEvenandOdd(list_num)
 
 **输出:**
 
-```
+```py
 Largest odd number is  809
 Largest even number is  694
 ```
@@ -151,7 +151,7 @@ Largest even number is  694
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for the above approach
 
 def printmax(lis):
@@ -175,7 +175,7 @@ printmax(lis)
 
 **输出:**
 
-```
+```py
 Largest odd number is  809
 
 Largest even number is  694

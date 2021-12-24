@@ -24,7 +24,7 @@ T3【数据集:T5【官方 _ 数据集】；使用的数据集–[CSV](https://d
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,14 +53,14 @@ plt.legend(loc="lower right")
 plt.show()
 ```
 
-```
+```py
 plt.figure(figsize = (7,7))
 plt.plot(x,y,"b.")
 ```
 
 我们使用 matplotlib 函数，figure()将图的大小初始化为 7 x 7，并使用 plot()函数绘制它。函数图()中的参数(即 x、y 和“b”)指定使用沿 x 轴的经度数据(对于 x)、沿 y 轴的纬度数据(对于 y)和 b =蓝色。=可视化中的圆圈。
 
-```
+```py
 Output : You must have all the dependencies.Install them using "pip install dependency_name"
 ```
 
@@ -72,7 +72,7 @@ Output : You must have all the dependencies.Install them using "pip install depe
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -92,7 +92,7 @@ plt.ylabel(" Frequency ")
 plt.show()
 ```
 
-```
+```py
 ind = np.isnan(speed)
 plt.hist(speed[~ind], bins = np.linspace(0,30,20), normed=True)
 plt.xlabel(" 2D speed (m/s) ")
@@ -111,7 +111,7 @@ plt.show()
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
@@ -135,7 +135,7 @@ plt.ylabel(" Elapsed time (days) ")
 plt.show()
 ```
 
-```
+```py
 for k in range(len(birddata)):
     timestamps.append(datetime.datetime.strptime(birddata.date_time.iloc[k][:-3], "%Y-%m-%d %H:%M:%S"))
 ```
@@ -153,7 +153,7 @@ for k in range(len(birddata)):
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
@@ -190,7 +190,7 @@ plt.ylabel(" Mean Speed (m/s) ");
 plt.show()
 ```
 
-```
+```py
 enumerate() - is one of the built-in Python functions. It returns an enumerated object. In our case, that object is a list of tuples (immutable lists), each containing a pair of count/index and value.
 ```
 
@@ -203,7 +203,7 @@ enumerate() - is one of the built-in Python functions. It returns an enumerated 
 
 ## 计算机编程语言
 
-```
+```py
 import pandas as pd
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
@@ -232,14 +232,14 @@ plt.legend(loc="upper left")
 plt.show()
 ```
 
-```
+```py
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 ```
 
 这些模块对于映射数据很重要。
 
-```
+```py
 ax.add_feature(cfeature.LAND)
 ax.add_feature(cfeature.OCEAN)
 ax.add_feature(cfeature.COASTLINE)

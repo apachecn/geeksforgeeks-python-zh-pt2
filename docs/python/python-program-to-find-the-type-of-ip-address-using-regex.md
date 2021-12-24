@@ -17,7 +17,7 @@
 
 **示例:**
 
-```
+```py
 Input: 192.0.2.126
 Output: IPv4
 
@@ -40,7 +40,7 @@ Output: Neither
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the type of Ip address
 
 # re module provides support
@@ -103,7 +103,7 @@ if __name__ == '__main__' : 
 
 **输出:**
 
-```
+```py
 IPv4
 IPv6
 Neither

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate the
 # use of update() method
 
@@ -44,7 +44,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 {1, 2, 3, 5, 6, 7}
 {1, 2, 3, 5, 6, 7, 10, 11, 12}
 ```
@@ -53,7 +53,7 @@ print(set1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate the
 # use of update() method
 
@@ -77,7 +77,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 {1, 2, 3, 4, 5}
 {1, 2, 3, 4, 5, 'c', 'b', 'a'}
 ```
@@ -86,7 +86,7 @@ print(set1)
 
 ## 蟒蛇 3
 
-```
+```py
 number = {1, 2, 3, 4, 5}
 
 num_Dict = {6: 'Six', 7: 'Seven', 8: 'Eight',
@@ -99,6 +99,6 @@ print("Updated set: ", number)
 
 **输出:**
 
-```
+```py
 Updated set:  {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 # initializing string
@@ -57,7 +57,7 @@ print("Converted Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert String Matrix Representation to Matrix
 # Using json.loads()

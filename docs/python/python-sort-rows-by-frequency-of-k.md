@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort rows by Frequency of K
 # Using sort() + count()
@@ -55,7 +55,7 @@ print("Sorted List : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort rows by Frequency of K
 # Using sorted() + lambda + count()

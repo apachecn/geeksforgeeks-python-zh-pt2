@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们在选择性地压缩匹配 k 的两个列表之后提取列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Retain K match index values from other list
 # using zip() + list comprehension

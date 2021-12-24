@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all elements are in range size
 # Using sort()
@@ -50,7 +50,7 @@ print("Are elements in range ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [475, 503, 425, 520, 470, 500]
 Are elements in range ? : True
 ```
@@ -61,7 +61,7 @@ Are elements in range ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all elements are in range size
 # Using min() + max()
@@ -85,7 +85,7 @@ print("Are elements in range ? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [475, 503, 425, 520, 470, 500]
 Are elements in range ? : True
 ```

@@ -8,7 +8,7 @@ Python 中方法重载的问题是，我们可能会重载方法，但只能使�
 
 ## 蟒蛇 3
 
-```
+```py
 # First product method.
 # Takes two argument and print their
 # product
@@ -32,7 +32,7 @@ product(4, 5, 5)
 
 **输出:**
 
-```
+```py
 100
 ```
 
@@ -45,7 +45,7 @@ product(4, 5, 5)
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to take multiple arguments
 def add(datatype, *args):
 
@@ -78,7 +78,7 @@ add('str', 'Hi ', 'Geeks')
 
 **输出:**
 
-```
+```py
 11
 Hi Geeks
 ```
@@ -89,13 +89,13 @@ Hi Geeks
 通过使用多重调度装饰器
 多重调度装饰器可以通过以下方式安装:
 
-```
+```py
 pip3 install multipledispatch
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 from multipledispatch import dispatch
 
 #passing one parameter
@@ -123,7 +123,7 @@ product(2.2,3.4,2.3) # this will give output of 17.985999999999997
 
 **输出:**
 
-```
+```py
 12
 17.985999999999997
 ```

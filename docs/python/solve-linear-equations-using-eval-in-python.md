@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 eval(expression, globals=None, locals=None)
 ```
 
@@ -28,7 +28,7 @@ eval(expression, globals=None, locals=None)
 
 **第 4 步:**然后，被评估的表达式被简单地分解成实部和虚部。如果虚部存在，或者 x 为真而不为零，则打印答案，否则如果虚部为 0 而实部为真，则没有解，否则有无穷多个解。在这里，
 
-```
+```py
 x = 2.000000
 ```
 
@@ -38,7 +38,7 @@ x = 2.000000
 
 ## 蟒蛇 3
 
-```
+```py
 def solve(equation):
 
     # replacing all the x terms with j 
@@ -73,7 +73,7 @@ print(solve(equation))
 
 **Output**
 
-```
+```py
 x = 4.500000
 ```
 
@@ -81,7 +81,7 @@ x = 4.500000
 
 ## 蟒蛇 3
 
-```
+```py
 def solve(equation):
 
     # replacing all the x terms with j 
@@ -116,7 +116,7 @@ print(solve(equation))
 
 **Output**
 
-```
+```py
 No solution
 ```
 
@@ -124,7 +124,7 @@ No solution
 
 ## 蟒蛇 3
 
-```
+```py
 def solve(equation):
 
     # replacing all the x terms with j
@@ -159,6 +159,6 @@ print(solve(equation))
 
 **Output**
 
-```
+```py
 Infinite solutions
 ```

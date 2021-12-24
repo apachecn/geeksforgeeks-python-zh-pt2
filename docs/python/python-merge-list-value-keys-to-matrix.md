@@ -13,7 +13,7 @@
 **方法:使用 loop + `pop()`**
 这个任务可以使用蛮力方式来执行。在这种情况下，我们迭代键并使用 pop 移除键，在合并成矩阵后重新初始化它们。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Merge List value Keys to Matrix
 # Using loop + pop()

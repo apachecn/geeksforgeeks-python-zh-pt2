@@ -7,7 +7,7 @@
 **方法一:利用字典理解**
 这是我们解决这个问题的方法之一。在这种情况下，我们迭代列表键，并使用字典理解来构造所需键值对的字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Mapping key values to Dictionary
 # Using dictionary comprehension

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove similar index elements in Strings
 # Using join() + zip() + loop
@@ -54,7 +54,7 @@ print("Modified String 2 : " + str(res2)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeks
 The original string 2 is : beaks
 Modified String 1 : ge
@@ -68,7 +68,7 @@ Modified String 2 : ba
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove similar index elements in Strings
 # Using list comprehension
@@ -92,7 +92,7 @@ print("Modified String 2 : " + str(res[1])) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeks
 The original string 2 is : beaks
 Modified String 1 : ge

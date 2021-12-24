@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input :
 A = "ababc"
 B = "bcabc" 
@@ -39,7 +39,7 @@ Length is 4
 
 **下面是上述方法的 Python 代码实现。**
 
-```
+```py
 # function to find the length of the
 # merged string
 
@@ -87,7 +87,7 @@ merger(a, b)
 
 **输出:**
 
-```
+```py
 Length is 8
 
 ```

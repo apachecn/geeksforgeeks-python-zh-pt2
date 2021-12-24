@@ -34,7 +34,7 @@ Python 提供了创建、写入和读取文件的内置功能。python 中可以
 
 ## 蟒蛇 3
 
-```
+```py
 # Taking "gfg input file.txt" as input file
 # in reading mode
 with open("gfg input file.txt", "r") as input:
@@ -66,7 +66,7 @@ with open("gfg input file.txt", "r") as input:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating an output file in writing mode
 output_file = open("gfg output file.txt", "w")
 

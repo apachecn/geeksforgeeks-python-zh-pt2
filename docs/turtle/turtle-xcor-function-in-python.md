@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.xcor()
 
 ```
@@ -21,7 +21,7 @@ turtle.xcor()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -52,7 +52,7 @@ print(turtle.xcor())
 
 ![](img/3117c8f97bf145b99acf39fc3daa9e28.png)
 
-```
+```py
 0.0
 100.0
 170.710678119

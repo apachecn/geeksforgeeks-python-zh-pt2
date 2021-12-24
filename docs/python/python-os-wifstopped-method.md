@@ -15,7 +15,7 @@
 
 **代码:**使用`***os.WIFSTOPPED()***`方法
 
-```
+```py
 # Python program to explain os.WIFSTOPPED() method 
 
 # importing os and signal module  
@@ -64,7 +64,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process
 Process ID: 10224
 Hello! Geeks

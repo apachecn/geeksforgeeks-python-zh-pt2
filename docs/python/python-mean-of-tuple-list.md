@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 可以想到的解决这个问题的第一种方法可以是蛮力方法，我们只需循环每个元组来添加元素，然后只需将其除以列表中元组的数量。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mean of tuple list
 # Using loops
@@ -32,7 +32,7 @@ print("The mean of tuple list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 4, 5), (7, 8), (2, 4, 10)]
 The mean of tuple list is : 13.666666666666666
 

@@ -6,7 +6,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to demonstrate that we can store
 # large numbers in Python
 
@@ -17,7 +17,7 @@ print (x)
 
 输出:
 
-```
+```py
 10000000000000000000000000000000000000000001
 ```
 
@@ -26,7 +26,7 @@ print (x)
 
 ## 计算机编程语言
 
-```
+```py
 # A Python program to show that there are two types in
 # Python 2.7 : int and long int
 # And in Python 3 there is only one type : int
@@ -40,14 +40,14 @@ print(type(x))
 
 **Python 2.7 中的输出:**
 
-```
+```py
 <type 'int'>
 <type 'long'>
 ```
 
 **Python 3 中的输出:**
 
-```
+```py
 <type 'int'>
 <type 'int'>
 ```
@@ -56,7 +56,7 @@ print(type(x))
 
 ## 计算机编程语言
 
-```
+```py
 # Printing 100 raise to power 100
 print(100**100)
 ```

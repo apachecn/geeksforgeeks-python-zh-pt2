@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -51,7 +51,7 @@ print(value)
 **输出:**
 ![](img/19176fb5a1c679e002bbe99bd5b48532.png)
 
-```
+```py
 Track Count : 
 2
 
@@ -60,7 +60,7 @@ Track Count :
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -97,7 +97,7 @@ print(value)
 **输出:**
 ![](img/5390004d24c75ca965ba2daf456c2851.png)
 
-```
+```py
 Track Count : 
 2
 

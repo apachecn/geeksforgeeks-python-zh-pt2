@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `int()`**
 这是执行这个任务的蛮力方法。在这种情况下，我们对整个列表运行一个循环，将每个字符串转换为整数，执行 listwise 最大化，并存储在一个单独的列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of Sting Integer
 # using loop + int()
@@ -33,7 +33,7 @@ print("List after maximization of nested string lists : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [['1', '4'], ['5', '6'], ['7', '10']]
 List after maximization of nested string lists : [4, 6, 10]
 

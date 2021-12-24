@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 100.020.003.400 
 Output : 100.20.3.400
 
@@ -19,7 +19,7 @@ Output : 1.200.1.4
 
 **方法**是将给定的字符串拆分为“.”然后将其转换为整数，去掉前导零，再将它们连接回字符串。要将字符串转换为整数，我们可以使用[int](https://www.geeksforgeeks.org/type-conversion-python/)，然后通过[str](https://www.geeksforgeeks.org/type-conversion-python/)将其转换回字符串，然后使用 join 函数将其连接回来。
 
-```
+```py
 # Python program to remove leading zeros 
 # an IP address and print the IP
 
@@ -44,7 +44,7 @@ print(removeZeros(ip))
 
 **输出:**
 
-```
+```py
 100.20.3.400
 1.200.1.4
 
@@ -58,19 +58,19 @@ print(removeZeros(ip))
 
 *   **\d :** 匹配任意十进制数字
 
-    ```
+    ```py
     **\d   Matches any decimal digit, this is equivalent
          to the set class [0-9].**
     ```
 
 *   \b 允许您使用正则表达式执行“仅整句话”搜索，正则表达式的形式可以解释为:
 
-    ```
+    ```py
     \b allows you to perform a "whole words only" search u
     sing a regular expression in the form of \bword\b
     ```
 
-```
+```py
 # Python program to remove leading zeros 
 # an IP address and print the IP using regex
 import re 
@@ -96,7 +96,7 @@ print(removeZeros(ip))
 
 **输出:**
 
-```
+```py
 100.20.3.400
 1.200.1.4
 

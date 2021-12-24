@@ -9,7 +9,7 @@
 
 为了将图像设置为指示器，我们必须更改复选框指示器的样式表。下面是与复选框对象一起使用的样式表代码。
 
-```
+```py
 QCheckBox::indicator
 {
 background-image :url(image.png);
@@ -19,7 +19,7 @@ background-image :url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

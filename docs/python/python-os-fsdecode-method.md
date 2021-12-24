@@ -15,7 +15,7 @@ Python 中的`***os.fsdecode()***`方法用于从文件系统编码中解码指�
 
 **代码:**使用 os.fsdecode()方法
 
-```
+```py
 # Python program to explain os.fsdecode() method 
 
 # importing os module 
@@ -43,7 +43,7 @@ print("Decoded filename:", decode)
 
 **Output:**
 
-```
+```py
 Encoded filename: b'/home/user/F\xc3\x8e\xe2\x95\x9a\xc3\x88.txt'
 Decoded filename: /home/user/FÎ?È.txt
 

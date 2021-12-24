@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以通过访问列表中的当前、下一个和下一个元素，然后打印它们来打印三元组。在将最后一个元素与第一个元素配对以形成循环三元组对时必须小心。
 
-```
+```py
 # Python3 code to demonstrate 
 # Triplet iteration in List
 # using list comprehension
@@ -30,7 +30,7 @@ print ("The triplet list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [0, 1, 2, 3, 4, 5]
 The triplet list is : [(0, 1, 2), (1, 2, 3), (2, 3, 4), (3, 4, 5), (4, 5, 0), (5, 0, 1)]
 

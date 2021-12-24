@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # import string library function 
 import string 
 
@@ -29,14 +29,14 @@ print(result) 
 
 **输出:**
 
-```
+```py
 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+, -./:;<=>?@[\]^_`{|}~ 
 
 ```
 
 **代码#2 :** 给出可打印值的代码测试。
 
-```
+```py
 # import string library function 
 import string 
 
@@ -54,7 +54,7 @@ for i in Sentence:
 
 **输出:**
 
-```
+```py
 printable Value is: H
 printable Value is: e
 printable Value is: y

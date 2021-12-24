@@ -7,7 +7,7 @@
 **方法#1:使用`setdefault()` +循环**
 这个任务可以使用嵌套循环来执行，并获取字典的每个元素，并为新关键字创建一个新列表，或者在出现类似关键字的情况下追加值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge Python key values to list
 # Using setdefault() + loop

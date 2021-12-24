@@ -16,7 +16,7 @@ Python 中的时间模块提供了各种与时间相关的功能。该模块属�
 
 **代码#1:** 使用`***time.process_time_ns()***`方法
 
-```
+```py
 # Python program to explain time.process_time_ns() method
 
 # importing time module
@@ -53,7 +53,7 @@ print("Elapsed time during the process (in nanoseconds):", end - start)  
 
 **输出:**
 
-```
+```py
 At the beginning of the process
 Process Time (in nanoseconds): 31873819
 
@@ -71,7 +71,7 @@ Elapsed time during the whole process (in nanoseconds): 397880
 
 **代码#2:** 显示`***time.process_time_ns()***`方法不包括睡眠期间经过的时间
 
-```
+```py
 # Python program to explain time.process_time_ns() method
 
 # importing time module
@@ -146,7 +146,7 @@ print("Elapsed time during the second example (in nanoseconds):", end-start) 
 
 **输出:**
 
-```
+```py
 At the beginning of first example
 Process Time (in nanoseconds): 26901160
 

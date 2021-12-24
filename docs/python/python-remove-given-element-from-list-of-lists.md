@@ -8,7 +8,7 @@
 
 这种方法背后的逻辑是减少代码的大小，并使用循环作为列表理解本身的一种方式来执行任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Removing element from list of lists
 # using list comprehension
@@ -32,7 +32,7 @@ print("The list after deletion of element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5, 6], [5, 6, 4, 1], [4], [4, 8, 9, 10]]
 The list after deletion of element : [[5, 6], [5, 6, 1], [], [8, 9, 10]]
 
@@ -41,7 +41,7 @@ The list after deletion of element : [[5, 6], [5, 6, 1], [], [8, 9, 10]]
 **方法二:使用列表理解+列表切片**
 在这个方法中，我们一般做的任务类似于上面的方法，变化只是我们为了更好的代码可读性使用了列表切片。
 
-```
+```py
 # Python3 code to demonstrate
 # Removing element from list of lists
 # using list comprehension + list slicing
@@ -66,7 +66,7 @@ print("The list after deletion of element : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [[4, 5, 6], [5, 6, 4, 1], [4], [4, 8, 9, 10]]
 The list after deletion of element : [[5, 6], [5, 6, 1], [], [8, 9, 10]]
 

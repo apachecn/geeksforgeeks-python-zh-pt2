@@ -7,7 +7,7 @@ Python 字符串函数非常流行。python 中有两种表示字符串的方法
 **示例#1:**
 检查以下示例并分析错误–
 
-```
+```py
 #Gives Error
 print('It's python')
 
@@ -18,13 +18,13 @@ print('It's python')
 
 可以更正为:
 
-```
+```py
 print("It's Python !")
 ```
 
 **输出:**
 
-```
+```py
 It's Python!
 
 ```
@@ -32,7 +32,7 @@ It's Python!
 **示例#2:**
 如果要在 python 中打印*【with quotes】*，这不能仅用单引号(或双引号)来完成，它需要同时使用单引号和双引号。
 
-```
+```py
 # this code prints the output within quotes.
 # print WithQuotes within single quotes
 print("'WithQuotes'")
@@ -45,7 +45,7 @@ print('Hello "Python"')
 
 **输出–**
 
-```
+```py
 'WithQuotes'
 Hello 'Python'
 "WithQuotes"

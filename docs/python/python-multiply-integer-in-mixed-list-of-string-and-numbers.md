@@ -7,7 +7,7 @@
 **方法#1:使用类型铸造+异常处理**
 我们可以使用蛮力方法来键入种姓每个元素，并在出现异常时捕捉异常。这可以确保只有整数乘以乘积，因此可以解决这个问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mixed List Integer Multiplication
 # using type caste and exception handling
@@ -33,7 +33,7 @@ print("Product of integers in list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 8, 'gfg', 8, (5, 7), 'is', 2]
 Product of integers in list : 640
 

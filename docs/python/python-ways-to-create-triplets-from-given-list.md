@@ -22,7 +22,7 @@
 
 **方法#1:** 使用列表理解
 
-```
+```py
 # Python code to create triplets from list of words.
 
 # List of word initialization
@@ -39,7 +39,7 @@ print(List)
 
 **Output:**
 
-```
+```py
 [['I', 'am', 'Paras'], ['am', 'Paras', 'Jain'], 
  ['Paras', 'Jain', 'I'], ['Jain', 'I', 'Study'],
  ['I', 'Study', 'DS'], ['Study', 'DS', 'Algo']]
@@ -48,7 +48,7 @@ print(List)
 
 **方法#2:** 使用迭代
 
-```
+```py
 # Python code to create triplets from list of words.
 
 # List of word initialization
@@ -76,7 +76,7 @@ print(out)
 
 **Output:**
 
-```
+```py
 [['Geeks', 'for', 'Geeks'], ['for', 'Geeks', 'is'],
  ['Geeks', 'is', 'best'], ['is', 'best', 'resource'],
  ['best', 'resource', 'for'], ['resource', 'for', 'study']]

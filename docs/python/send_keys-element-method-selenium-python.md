@@ -8,19 +8,19 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 element.send_keys("some text")
 ```
 
 **示例–**
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -28,19 +28,19 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 例如，要在字段中输入文本，
 
-```
+```py
 element.send_keys("some text")
 ```
 
 人们可以通过使用“键”类来模拟按下箭头键:
 
-```
+```py
 element.send_keys(" and some", Keys.ARROW_DOWN)
 ```
 
@@ -52,7 +52,7 @@ element.send_keys(" and some", Keys.ARROW_DOWN)
 让我们用 https://www.geeksforgeeks.org/在 Selenium Python 中说明这个方法。这里我们得到搜索元素，并在其中输入“数组”。
 **节目–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Equal character frequencies
 # Using max() + count() + loop
@@ -46,7 +46,7 @@ print("Equal character frequency String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 Equal character frequency String : geeksforgeeksggkkssfffooorrr
 ```
@@ -57,7 +57,7 @@ Equal character frequency String : geeksforgeeksggkkssfffooorrr
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Equal character frequencies
 # Using Counter() + loop 
@@ -88,7 +88,7 @@ print("Equal character frequency String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 Equal character frequency String : geeksforgeeksggkkssfffooorrr
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Power List
 # Using ** operator + loop + enumerate()
@@ -46,7 +46,7 @@ print("Powered elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 9, 1, 8, 4, 7]
 Powered elements : [1, 9, 1, 512, 256, 16807]
 ```
@@ -57,7 +57,7 @@ Powered elements : [1, 9, 1, 512, 256, 16807]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Index Power List
 # Using pow() + list comprehension + enumerate()
@@ -79,7 +79,7 @@ print("Powered elements : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 9, 1, 8, 4, 7]
 Powered elements : [1, 9, 1, 512, 256, 16807]
 ```

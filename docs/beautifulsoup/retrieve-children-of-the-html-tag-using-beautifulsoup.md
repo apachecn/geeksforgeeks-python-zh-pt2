@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -68,7 +68,7 @@ print("child :  ", child_soup.findChild())
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -108,7 +108,7 @@ for i in child_soup.children:
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 

@@ -15,7 +15,7 @@
 *   使用命令`pip install django-allauth`安装`django-allauth`
 *   添加`'allauth`、`allauth.account'`、`allauth.socialaccount`以及所有必要的社交登录到`INSTALLED_APPS.`你可以在这里查看支持的 API 的整个列表[。社交登录功能将在下一篇文章中详细描述。在您配置您安装的应用程序后，应该如下所示。](http://django-allauth.readthedocs.io/en/latest/installation.html)
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'allauth',
@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 
 *   在`settings.py`中配置`template`上下文处理器设置，并在项目
 
-    ```
+    ```py
     TEMPLATES = [
       {
             'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -58,7 +58,7 @@ INSTALLED_APPS = [
     中添加网址模式
 *   添加以下身份验证后端。
 
-    ```
+    ```py
     AUTHENTICATION_BACKENDS = (
         'django.contrib.auth.backends.ModelBackend',
         'allauth.account.auth_backends.AuthenticationBackend',
@@ -68,7 +68,7 @@ INSTALLED_APPS = [
 *   从 django-allaus 资源库或我的[自定义资源库](https://github.com/gajeshbhat/django-experiments/tree/master/allauthdemo/templates)中复制模板文件(我做了一些修改和一些良好的结构化)，并将其粘贴到项目目录的`templates`文件夹中。
 *   Add the allauth urls in `urls.py` of your main project directory. After adding the allauth urls the below should look like,
 
-    ```
+    ```py
     from django.contrib import admin
     from django.urls import path
     from django.conf.urls import url, include
@@ -96,7 +96,7 @@ INSTALLED_APPS = [
 
     最后，您的`allauth` 设置应该看起来类似于下面的设置。
 
-    ```
+    ```py
     #django-allauth registraion settings
     ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS =1
     ACCOUNT_EMAIL_REQUIRED = True

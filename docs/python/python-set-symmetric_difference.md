@@ -7,7 +7,7 @@
 ![symmetric-difference](img/c3e23e0627d05f2602f1f7addd425713.png)
 **语法:**
 
-```
+```py
 set1_name.symmetric_difference(set2_name) 
 ```
 
@@ -16,13 +16,13 @@ set1_name.symmetric_difference(set2_name)
 
 **返回值:**
 
-```
+```py
 Returns a set which is the symmetric difference between the two sets. 
 ```
 
 对称差()的工作代码:
 
-```
+```py
 # Python program to demonstrate the use of 
 # of symmetric_difference() method 
 
@@ -45,7 +45,7 @@ print(set2.symmetric_difference(list3))
 
 输出:
 
-```
+```py
 {1, 4}
 {2, 5}
 

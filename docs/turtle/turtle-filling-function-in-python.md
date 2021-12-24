@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.filling()
 
 ```
@@ -21,7 +21,7 @@ turtle.filling()
 
 ## python 3
 
-```
+```py
 # import package
 import turtle
 
@@ -32,7 +32,7 @@ print(turtle.filling())
 
 **输出:**
 
-```
+```py
 False
 
 ```
@@ -43,7 +43,7 @@ T5】蟒 3T0T9
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -54,7 +54,7 @@ T5】蟒 3T0T9
 
 **输出:**
 
-```
+```py
 False
 
 ```

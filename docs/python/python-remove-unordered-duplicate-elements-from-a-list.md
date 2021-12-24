@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ['gfg', 'ggf', 'fgg', 'for', 'orf',
                 'ofr', 'rfo', 'rof', 'fro']
 Output : ['for', 'fgg']
@@ -17,7 +17,7 @@ Output:  ['001', '011']
 
 **方法#1 :** 使用*设置*
 
-```
+```py
 # Python code to remove duplicate 
 # unordered elements from a list
 from collections import Counter
@@ -51,7 +51,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 ['1213', '0007', '0016', '0025', '0034', 
  '0313', '0322', '0098', '0412', '0511']
 
@@ -59,7 +59,7 @@ print(output)
 
 **方法 2 :**
 
-```
+```py
 # Python code to remove duplicate
 # unordered elements from a list
 # List initialisation
@@ -75,7 +75,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 ['for', 'fgg']
 
 ```

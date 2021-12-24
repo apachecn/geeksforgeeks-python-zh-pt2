@@ -8,7 +8,7 @@
 
 **代码# 1:**[`work.c`]C-我们正在处理的代码。
 
-```
+```py
 #include <math.h>
 
 int gcd(int x, int y)
@@ -68,7 +68,7 @@ Python**ctypes**会来玩，但要确保要转换的 C 代码已经编译到与 
 
 **代码#2 : Python 模块，环绕结果库进行访问**
 
-```
+```py
 # work.py
 import ctypes
 import os
@@ -82,7 +82,7 @@ _mod = ctypes.cdll.LoadLibrary(_path)
 
 **代码#3:访问代码**
 
-```
+```py
 # int gcd(int, int)
 gcd = _mod.gcd
 gcd.argtypes = (ctypes.c_int, ctypes.c_int)

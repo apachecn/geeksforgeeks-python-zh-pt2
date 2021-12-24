@@ -8,7 +8,7 @@ Python 是一种广泛使用的通用高级编程语言。它主要是为了强�
 这里有一个非常著名的例子:
 **使用 If:**
 
-```
+```py
 if key in mydict:
     mydict[key] += 1
 else:
@@ -17,7 +17,7 @@ else:
 
 **使用尝试/除外:**
 
-```
+```py
 try:
     mydict[key] += 1
 except KeyError:
@@ -31,7 +31,7 @@ except KeyError:
 
 ## 蟒蛇 3
 
-```
+```py
 import timeit
 
 code_snippets =["""\
@@ -54,7 +54,7 @@ for value in (1, 0):
 
 **输出:**
 
-```
+```py
 ----------------------
 value = 1
 try:

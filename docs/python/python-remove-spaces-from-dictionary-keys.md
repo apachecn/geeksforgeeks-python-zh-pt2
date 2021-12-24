@@ -9,7 +9,7 @@
 **方法#1:**
 使用这里的`translate()`功能，我们逐个访问每个键，用无移除空格。这里，translate 函数接受参数 32，其中 32 是空格“”的 ASCII 值，用 none 替换它。
 
-```
+```py
 # Python program to remove space from keys
 
 # creating a dictionary of type string
@@ -28,7 +28,7 @@ print (" New dictionary : ", Product_list)
 
 **Output:**
 
-```
+```py
 New dictionary :  {'P01': 'DBMS', 'P03': 'Soft Computing', 'P02': 'OS'}
 
 ```
@@ -36,7 +36,7 @@ New dictionary :  {'P01': 'DBMS', 'P03': 'Soft Computing', 'P02': 'OS'}
 **方法 2:**
 使用`replace()`功能。在这种方法中，我们逐个访问字典中的每个键，并用无空格替换键中的所有空格。这个函数把第二个非空间作为参数空间。
 
-```
+```py
 # Python program to remove space from keys
 
 # creating a dictionary of type string
@@ -55,7 +55,7 @@ print (" New dictionary : ", Product_list)
 
 **Output:**
 
-```
+```py
 New dictionary :  {'P03': 'Soft Computing', 'P01': 'DBMS', 'P02': 'OS'}
 
 ```

@@ -28,7 +28,7 @@ Wand 支持许多图像格式规范，这些规范是用 soem 算法创建的一
 
 **语法:**
 
-```
+```py
 with Image(width=image_width, height=image_height,
                      pseudo='pseudo_type') as img:
     # other manipulation code
@@ -39,7 +39,7 @@ with Image(width=image_width, height=image_height,
 
 **示例 1:** 创建具有渐变的图像
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -56,7 +56,7 @@ with Image(width = 400, height = 300, 
 
 ****示例 2:** 用图案**
 
- **```
+ ```py
 # Import Image from wand.image module
 from wand.image import Image
 

@@ -8,7 +8,7 @@
 
 **方法一:使用`np.colmean``np.take`**
 
-```
+```py
 # Python code to demonstrate
 # to replace nan values
 # with an average of columns
@@ -41,7 +41,7 @@ print ("final array", ini_array)
 
 **输出:**
 
-```
+```py
 initial array [[ 1.3  2.5  3.6  nan]
  [ 2.6  3.3  nan  5.5]
  [ 2.1  3.2  5.4  6.5]]
@@ -55,7 +55,7 @@ final array [[ 1.3  2.5  3.6  6\. ]
 
 **方法 2:使用`np.ma`和`np.where`**
 
-```
+```py
 # Python code to demonstrate
 # to replace nan values
 # with average of columns
@@ -80,7 +80,7 @@ print ("final array", res)
 
 **输出:**
 
-```
+```py
 initial array [[ 1.3  2.5  3.6  nan]
  [ 2.6  3.3  nan  5.5]
  [ 2.1  3.2  5.4  6.5]]
@@ -92,7 +92,7 @@ final array [[ 1.3  2.5  3.6  6\. ]
 
 **方法 3:使用天真和`zip`T2】**
 
-```
+```py
 # Python code to demonstrate
 # to replace nan values
 # with average of columns
@@ -121,7 +121,7 @@ print ("final array", ini_array)
 
 **输出:**
 
-```
+```py
 initial array [[ 1.3  2.5  3.6  nan]
  [ 2.6  3.3  nan  5.5]
  [ 2.1  3.2  5.4  6.5]]

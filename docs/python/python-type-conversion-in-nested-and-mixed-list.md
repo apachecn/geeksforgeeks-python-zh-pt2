@@ -13,7 +13,7 @@
 **方法:使用递归+ `isinstance()`**
 以上函数的组合可以用来解决这个问题。在这种情况下，我们使用 isinstance()来获取列表元素的数据类型，如果是它的容器，则递归内部元素来执行转换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Type conversion in Nested and Mixed List
 # Using recursion + isinstance()
@@ -43,7 +43,7 @@ print("Data after type conversion : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['6', '89', ('7', ['8', '10']), ['11', '15']]
 Data after type conversion : [6, 89, (7, [8, 10]), [11, 15]]
 

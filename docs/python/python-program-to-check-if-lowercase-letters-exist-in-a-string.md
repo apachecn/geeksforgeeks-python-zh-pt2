@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: "Live life to the fullest"
 Output: false
 
@@ -24,7 +24,7 @@ Output: true
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # is.lower()  method in strings
 
@@ -51,7 +51,7 @@ if(k != 1):
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -62,7 +62,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # Python Program to demonstrate the
 # is.upper() method in strings
 #Take a string
@@ -88,7 +88,7 @@ if(k == 1):
 
 **输出:**
 
-```
+```py
 True
 
 ```
@@ -99,7 +99,7 @@ True
 
 **示例:**
 
-```
+```py
 print(ord('A'))    # 65
 print(ord('a'))    # 97
 
@@ -107,7 +107,7 @@ print(ord('a'))    # 97
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Demonstrate the strings
 # methods to check whether given Character
 # is in uppercase or lowercase with the help
@@ -137,7 +137,7 @@ if counter == len(x):
 
 **输出:**
 
-```
+```py
 Lower Character found
 
 ```

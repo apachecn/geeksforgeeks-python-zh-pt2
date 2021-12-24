@@ -6,7 +6,7 @@ JSON 代表 JS 对象简谱。它是一种以字符串格式编码数据的格�
 
 **JSON 对象示例:**
 
-```
+```py
 {
  "id":101,
  "company" : "GeeksForGeeks"
@@ -16,7 +16,7 @@ JSON 代表 JS 对象简谱。它是一种以字符串格式编码数据的格�
 
 复杂的 JSON 对象是那些包含嵌套对象的对象。复杂 JSON 对象的示例。
 
-```
+```py
 {
  "id":101,
  "company" : "GeeksForGeeks",
@@ -34,7 +34,7 @@ Python 和 JSON 模块与字典配合得非常好。对于 JSON 对象的序列�
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 class GFG_User(object):
@@ -50,7 +50,7 @@ print(GFG_User(**json.loads(json_data)))
 
 **输出:**
 
-```
+```py
 {"first_name": "Jake", "last_name": "Doyle"} 
 __main__.GFG_User object at 0x105ca7278
 
@@ -65,7 +65,7 @@ __main__.GFG_User object at 0x105ca7278
 
 ## 蟒蛇 3
 
-```
+```py
 from typing import List
 import json
 
@@ -87,21 +87,21 @@ print(json_data)
 
 **输出:**
 
-```
+```py
 TypeError: Object of type Student is not JSON serializable
 
 ```
 
 但是如果你看一下 dump 函数的文档，你会发现有一个我们可以使用的默认设置。只需替换这一行:
 
-```
+```py
 json_data = json.dumps(team.__dict__, indent=4)
 
 ```
 
 通过这一行:
 
-```
+```py
 json_data = json.dumps(team.__dict__, lambda o: o.__dict__, indent=4)
 
 ```
@@ -111,7 +111,7 @@ json_data = json.dumps(team.__dict__, lambda o: o.__dict__, indent=4)
 
 ## 蟒蛇 3
 
-```
+```py
 from typing import List
 import json
 
@@ -139,7 +139,7 @@ print(decoded_team)
 
 **输出:**
 
-```
+```py
 {
     "students": [
         {

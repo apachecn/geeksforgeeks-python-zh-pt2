@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from operator import mul
 
@@ -37,7 +37,7 @@ print("The computed summation of products : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 5x6, 9x10, 7x8
 The computed summation of products : 176
 
@@ -49,7 +49,7 @@ The computed summation of products : 176
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = '5x6, 9x10, 7x8'
 
@@ -68,7 +68,7 @@ print("The computed summation of products : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : 5x6, 9x10, 7x8
 The computed summation of products : 176
 

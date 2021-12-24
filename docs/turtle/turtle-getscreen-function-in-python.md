@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.getscreen()
 ```
 
@@ -20,7 +20,7 @@ turtle.getscreen()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -34,7 +34,7 @@ print(sc)
 
 **输出:**
 
-```
+```py
 <__main__.Screen object>
 
 ```
@@ -43,7 +43,7 @@ print(sc)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

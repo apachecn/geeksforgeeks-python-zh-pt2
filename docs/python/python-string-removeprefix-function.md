@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```py
 str.removeprefix(prefix, /)
 
 ```
 
 **参数:**
 
-```
+```py
 suffix- prefix string that we are checking for.
 
 ```
@@ -28,7 +28,7 @@ suffix- prefix string that we are checking for.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.9 code explaining 
 # str.removeprefix()
 
@@ -51,7 +51,7 @@ print(s.removeprefix('forGeeks'))
 
 **输出:**
 
-```
+```py
 forGeeks
 eeksforGeeks
 
@@ -65,7 +65,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.9 code explaining 
 # str.removeprefix()
 
@@ -91,7 +91,7 @@ print("New string : ", result)
 
 **输出:**
 
-```
+```py
 Original String 1 :  Welcome to python 3.9
 New string :   to python 3.9
 Original String 2 :  Welcome Geek

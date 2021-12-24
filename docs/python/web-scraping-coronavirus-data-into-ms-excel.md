@@ -30,7 +30,7 @@
 
 转到您的命令行并安装它们。
 
-```
+```py
 pip install requests
 pip install lxml
 pip install bs4
@@ -44,7 +44,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import requests
 
@@ -62,7 +62,7 @@ result = requests.get('https://www.worldometers.info/coronavirus/country/india/'
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import bs4
 
@@ -88,7 +88,7 @@ soup = bs4.BeautifulSoup(result.text,'lxml')
 
 ## 蟒蛇 3
 
-```
+```py
 # Searching div tags having maincounter-number class
 cases = soup.find_all('div' ,class_= 'maincounter-number')
 ```
@@ -105,7 +105,7 @@ cases = soup.find_all('div' ,class_= 'maincounter-number')
 
 ## 蟒蛇 3
 
-```
+```py
 # List to store number of cases
 data = []
 
@@ -136,7 +136,7 @@ print(data)
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # Creating dataframe
@@ -162,7 +162,7 @@ df.index = ['TotalCases', ' Deaths', 'Recovered']
 
 ## 蟒蛇 3
 
-```
+```py
 # Exporting data into Excel
 df.to_csv('Corona_Data.csv')
 ```
@@ -175,7 +175,7 @@ df.to_csv('Corona_Data.csv')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import requests
 import bs4

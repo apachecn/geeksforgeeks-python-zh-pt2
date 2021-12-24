@@ -13,7 +13,7 @@ Python 有几个构建 GUI 的选项， [python tkinter](https://www.geeksforgee
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate the usage of
 # treeview scrollbars using tkinter
 

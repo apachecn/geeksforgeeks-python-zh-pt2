@@ -7,7 +7,7 @@
 **方法#1:使用循环(当给出子列表时)**
 该方法用于我们知道要替换的子列表的情况。我们使用循环和列表切片来执行此任务，并划分逻辑以找到需要首先操作的索引，然后执行替换。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace sublist with other in list
 # Using loop (when sublist is given)
@@ -47,7 +47,7 @@ print("List after replacing sublist : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 7, 10, 2]
 List after replacing sublist : [4, 11, 1, 10, 2]
 

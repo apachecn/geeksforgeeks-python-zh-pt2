@@ -17,7 +17,7 @@ Python 中的`***os.umask()***`方法用于设置当前数值 *umask* 值并获�
 
 **代码#1:** 使用 os.umask()方法
 
-```
+```py
 # Python program to explain os.umask() method 
 
 # importing os module 
@@ -42,7 +42,7 @@ print("Previous umask:", umask) 
 
 **Output:**
 
-```
+```py
 Current umask: 18
 Previous umask: 54
 
@@ -50,7 +50,7 @@ Previous umask: 54
 
 **代码#2:** 在 os.umask()方法中将八进制值作为参数传递
 
-```
+```py
 # Python program to explain os.umask() method 
 
 # importing os module 
@@ -75,7 +75,7 @@ print("Previous umask:", umask) 
 
 **Output:**
 
-```
+```py
 Current umask: 511
 Previous umask: 18
 

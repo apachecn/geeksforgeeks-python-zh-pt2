@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing turtle package
 import turtle
 
@@ -39,7 +39,7 @@ turtle.circle(80)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing turtle package
 import turtle
 
@@ -58,7 +58,7 @@ turtle.circle(80, 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing turtle package
 import turtle
 

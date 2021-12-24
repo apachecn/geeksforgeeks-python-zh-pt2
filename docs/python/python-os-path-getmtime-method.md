@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.getmtime() method
 
 # importing os and time module
@@ -40,7 +40,7 @@ print("Last modification time(Local time):", local_time)
 
 **Output:** 
 
-```
+```py
 Last modification time since the epoch: 1558447897.0442736
 Last modification time (Local time): Tue May 21 19:41:37 2019
 ```
@@ -49,7 +49,7 @@ Last modification time (Local time): Tue May 21 19:41:37 2019
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.getmtime() method
 
 # importing os, time and sys module
@@ -85,7 +85,7 @@ print("Last modification time(Local time):", local_time)
 
 **Output:** 
 
-```
+```py
 Path '/home/User/Documents/file2.txt' does not exists or is inaccessible
 ```
 

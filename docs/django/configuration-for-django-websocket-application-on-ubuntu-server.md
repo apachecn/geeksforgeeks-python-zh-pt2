@@ -14,13 +14,13 @@
 
 安装 Nginx 和主管
 
-```
+```py
 $ sudo apt install nginx supervisor
 ```
 
 在您的/etc/nginx/sites-available/文件夹中创建您的服务器并添加以下内容，
 
-```
+```py
 upstream redis_backend_server{
 server localhost:6379;
 }
@@ -82,7 +82,7 @@ location /ws {
 
 现在保存配置并重新启动 Nginx，
 
-```
+```py
 $ sudo service nginx reload
 ```
 
@@ -96,13 +96,13 @@ $ sudo service nginx reload
 
 安装达芙妮
 
-```
+```py
 $ pip3 install daphne
 ```
 
 测试事情是否正常，
 
-```
+```py
 $ daphne -p 8001 project.asgi:application
 ```
 
@@ -114,7 +114,7 @@ $ daphne -p 8001 project.asgi:application
 
 在/etc/supervisor/conf.d/文件夹中创建 django_server 并添加以下内容，
 
-```
+```py
 [fcgi-program:django_server]
 # TCP socket used by Nginx backend upstream
 socket=tcp://localhost:9090
@@ -144,13 +144,13 @@ redirect_stderr=true
 
 一旦完成，我们必须为我们的套接字创建一个运行目录，
 
-```
+```py
 $ sudo mkdir /run/daphne/
 ```
 
 重新启动并更新主管配置，
 
-```
+```py
 $ sudo supervisorctl reread
 $ sudo supervisorctl update
 ```
@@ -163,25 +163,25 @@ $ sudo supervisorctl update
 
 安装重定向服务器
 
-```
+```py
 $ sudo apt install redis-server
 ```
 
 编辑 Redis 配置，使其作为服务与我们的系统一起运行
 
-```
+```py
 $ sudo nano /etc/redis/redis.conf
 ```
 
 将配置文件中的“监督否”更改为“监督系统”
 
-```
+```py
 $ sudo systemctl restart redis.service
 ```
 
 检查服务器是否处于活动状态并正在运行
 
-```
+```py
 sudo systemctl status redis
 ```
 

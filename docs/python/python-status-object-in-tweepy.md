@@ -41,7 +41,7 @@ Tweepy 模块中的 **`Status`** 对象包含关于状态/推文的信息。
 ![](img/05949214eb274fd1f0cab6fbb5f6f7b5.png)
 使用`get_status()`方法获取状态。
 
-```
+```py
 # import the module
 import tweepy
 

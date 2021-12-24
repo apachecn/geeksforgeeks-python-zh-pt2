@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate
 # inheritance 
 
@@ -50,7 +50,7 @@ print(std.getName(), std.isStudent())
 
 **输出:**
 
-```
+```py
 Ram False
 Shivam True
 
@@ -68,7 +68,7 @@ Shivam True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # single inheritance
 
@@ -90,7 +90,7 @@ object.func2()
 
 **输出:**
 
-```
+```py
 
 This function is in parent class.
 This function is in child class.
@@ -105,7 +105,7 @@ This function is in child class.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # multiple inheritance
 
@@ -136,7 +136,7 @@ s1.parents()
 
 **输出:**
 
-```
+```py
 Father : RAM
 Mother : SITA
 
@@ -151,7 +151,7 @@ Mother : SITA
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # multilevel inheritance
 
@@ -190,7 +190,7 @@ s1.print_name()
 
 **输出:**
 
-```
+```py
 Lal mani
 Grandfather name : Lal mani
 Father name : Rampal
@@ -206,7 +206,7 @@ Son name : Prince
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Hierarchical inheritance
 
@@ -236,7 +236,7 @@ object2.func3()
 
 **输出:**
 
-```
+```py
 This function is in parent class.
 This function is in child 1.
 This function is in parent class.
@@ -250,7 +250,7 @@ This function is in child 2.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # hybrid inheritance
 
@@ -278,7 +278,7 @@ object.func2()
 
 **输出:**
 
-```
+```py
 This function is in school.
 This function is in student 1.
 

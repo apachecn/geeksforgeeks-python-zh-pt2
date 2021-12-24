@@ -17,7 +17,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input list: [2, 3, 4, 4, 4]
 Output: 4
 
@@ -29,7 +29,7 @@ Output: 9
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 # input list
@@ -50,7 +50,7 @@ print(max1)
 
 **输出:**
 
-```
+```py
 4
 
 ```
@@ -62,7 +62,7 @@ print(max1)
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 # input list
@@ -83,7 +83,7 @@ print(max1)
 
 **输出:**
 
-```
+```py
 9
 
 ```

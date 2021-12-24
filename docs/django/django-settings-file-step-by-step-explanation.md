@@ -6,7 +6,7 @@
 
 举个例子
 
-```
+```py
 // Create a Django Project "mysite" 
 django-admin startproject mysite
 
@@ -17,7 +17,7 @@ python manage.py startapp polls
 
 *在**终端/CMD** 上执行这些命令后，项目“我的网站”的目录结构将是:*
 
-```
+```py
 mysite           <-- BASE_DIR      
     --> mysite                 
             -> __init__.py
@@ -38,7 +38,7 @@ Django 设置文件包含您的 Django 项目的所有配置。本文将讨论 D
 
 BASE_DIR 指向项目的顶层，即**我的站点**，无论我们在项目中定义什么路径都是相对于 BASE_DIR 的。要使用 BASE_DIR，我们必须使用 python 提供的[操作系统模块](https://www.geeksforgeeks.org/os-module-python-examples/)。
 
-```
+```py
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ```
 
@@ -46,7 +46,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 在开发中*错误*非常明显的会出现。写一个我们不会遇到任何错误的程序是没有乐趣的。但是有时候处理错误是非常忙乱的。Django 提供了一个内置调试器，这使得开发人员的生活非常轻松。我们可以这样使用:
 
-```
+```py
 DEBUG = True  // It is Default value and is preferred in only Development Phase.
 ```
 
@@ -65,7 +65,7 @@ DEBUG = True  // It is Default value and is preferred in only Development Phase.
 
 在这一节中，我们提到了将在我们的 Django 项目中使用的所有应用程序。之前我们制作了一个应用程序**民意测验**我们必须告诉姜戈它的存在要做到这一点必须放入 INSTALLED_APPS:
 
-```
+```py
     INSTALLED_APPS = [
         // Some preloaded apps by Django,
         'polls', // don't forget to quote it and also commas after every app
@@ -82,7 +82,7 @@ Django 官方支持以下数据库:
 *   神谕
 *   T2–默认情况下
 
-```
+```py
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
@@ -95,7 +95,7 @@ Django 官方支持以下数据库:
 下面是使用 PostgreSQL
 的例子
 
-```
+```py
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql',
@@ -119,7 +119,7 @@ MEDIA_URL
 
 媒体网址是基本目录的相对路径。该变量用于存储媒体文件。
 
-```
+```py
 MEDIA_URL= '/media/'
 ```
 
@@ -127,7 +127,7 @@ MEDIA_URL= '/media/'
 
 静态网址是基本目录的相对路径。这个变量用于存储静态文件。
 
-```
+```py
 STATIC_URL = '/static/'
 ```
 
@@ -139,7 +139,7 @@ ROOT 变量是绝对路径。这些变量用于检索媒体或静态文件。
 
 MEDIA_ROOT 是绝对路径。该变量用于检索媒体文件。
 
-```
+```py
 MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
 ```
 
@@ -147,7 +147,7 @@ MEDIA_ROOT= os.path.join(BASE_DIR, 'media')
 
 STATIC_ROOT 是绝对路径。这个变量用于检索静态文件。
 
-```
+```py
 STATIC_ROOT= os.path.join(BASE_DIR, 'static')
 ```
 

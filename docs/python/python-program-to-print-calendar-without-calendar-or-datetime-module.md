@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 mm(1-12) :9
 yy :2010
@@ -28,7 +28,7 @@ Su Mo Tu We Th Fr Sa
 
 下面是给定方法的实现。
 
-```
+```py
 # Python code to print Calendar
 # Without use of Calendar module
 
@@ -105,7 +105,7 @@ else:
 
 **输出:**
 
-```
+```py
 February 2020
 Su Mo Tu We Th Fr Sa
                   01 

@@ -7,7 +7,7 @@
 **方法:使用循环+ `index()` +列表切片**
 这个任务可以通过以上功能一起执行。在这种情况下，我们只是沿着线对循环，并使用`index()`获得所需的索引。然后，进行列表切片，以构建所需切片的新列表，并附加以形成新的结果列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Splitting string list by strings
 # using loop + index() + list slicing
@@ -37,7 +37,7 @@ print("The resultant split list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'CS', 'and', 'Maths']
 The split list is : [('gfg', 'best'), ('CS', 'Maths')]
 The resultant split list is : [['gfg', 'is', 'best'], 'for', ['CS', 'and', 'Maths']]

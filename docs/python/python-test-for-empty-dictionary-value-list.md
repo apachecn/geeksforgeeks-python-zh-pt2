@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for Empty Dictionary Value List
 # Using any() + values()
@@ -39,7 +39,7 @@ print("Are value lists empty? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [], 'Best': [], 'is': []}
 Are value lists empty? : True
 
@@ -51,7 +51,7 @@ Are value lists empty? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for Empty Dictionary Value List
 # Using all() + values()
@@ -71,7 +71,7 @@ print("Are value lists empty? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [], 'Best': [], 'is': []}
 Are value lists empty? : True
 

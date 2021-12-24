@@ -32,7 +32,7 @@ Mlxtend(机器学习扩展)是一个 Python 库，包含了日常数据科学任
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import matplotlib.pyplot as plt
 from mlxtend.plotting import plot_confusion_matrix
@@ -50,7 +50,7 @@ from sklearn.metrics import accuracy_score
 
 ## 蟒蛇 3
 
-```
+```py
 df = pd.read_csv('heart.csv')    # loading the dataset
 df.head()                        # viewing top 5 rows of dataset
 ```
@@ -63,7 +63,7 @@ df.head()                        # viewing top 5 rows of 
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating X and y for training
 X = df.drop('target', axis = 1)
 y = df['target']
@@ -73,7 +73,7 @@ y = df['target']
 
 ## 蟒蛇 3
 
-```
+```py
 # 20 % training dataset is considered for testing
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 42)
 ```
@@ -82,7 +82,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, rando
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing sc object
 sc = StandardScaler() 
 # variables that needed to be transformed
@@ -100,7 +100,7 @@ print(X_train.head())
 
 ## 蟒蛇 3
 
-```
+```py
 KNC = KNeighborsClassifier()   # initialising KNeighbors Classifier
 NB = GaussianNB()              # initialising Naive Bayes
 ```
@@ -110,7 +110,7 @@ NB = GaussianNB()              # initialising Naive Bayes
 
 ## 蟒蛇 3
 
-```
+```py
 model_kNeighborsClassifier = KNC.fit(X_train, y_train)   # fitting Training Set
 pred_knc = model_kNeighborsClassifier.predict(X_test)   # Predicting on test dataset
 ```
@@ -119,7 +119,7 @@ pred_knc = model_kNeighborsClassifier.predict(X_test)   # Predicting on test d
 
 ## 蟒蛇 3
 
-```
+```py
 acc_knc = accuracy_score(y_test, pred_knc)  # evaluating accuracy score
 print('accuracy score of KNeighbors Classifier is:', acc_knc * 100)
 ```
@@ -132,7 +132,7 @@ print('accuracy score of KNeighbors Classifier is:', acc_knc * 100)
 
 ## 蟒蛇 3
 
-```
+```py
 model_NaiveBayes = NB.fit(X_train, y_train)
 pred_nb = model_NaiveBayes.predict(X_test)
 ```
@@ -141,7 +141,7 @@ pred_nb = model_NaiveBayes.predict(X_test)
 
 ## 蟒蛇 3
 
-```
+```py
 acc_nb = accuracy_score(y_test, pred_nb)
 print('Accuracy of Naive Bayes Classifier:', acc_nb * 100)
 ```
@@ -154,7 +154,7 @@ print('Accuracy of Naive Bayes Classifier:', acc_nb * 100)
 
 ## 蟒蛇 3
 
-```
+```py
 lr = LogisticRegression()  # defining meta-classifier
 clf_stack = StackingClassifier(classifiers =[KNC, NB], meta_classifier = lr, use_probas = True, use_features_in_secondary = True)
 ```
@@ -166,7 +166,7 @@ clf_stack = StackingClassifier(classifiers =[KNC, NB], meta_classifier = lr, use
 
 ## 蟒蛇 3
 
-```
+```py
 model_stack = clf_stack.fit(X_train, y_train)   # training of stacked model
 pred_stack = model_stack.predict(X_test)       # predictions on test data using stacked model
 ```
@@ -175,7 +175,7 @@ pred_stack = model_stack.predict(X_test)       # predictions on test data 
 
 ## 蟒蛇 3
 
-```
+```py
 acc_stack = accuracy_score(y_test, pred_stack)  # evaluating accuracy
 print('accuracy score of Stacked model:', acc_stack * 100)
 ```
@@ -189,7 +189,7 @@ print('accuracy score of Stacked model:', acc_stack * 100)
 
 ## 蟒蛇 3
 
-```
+```py
 model_stack = clf_stack.fit(X_train, y_train)   # training of stacked model
 pred_stack = model_stack.predict(X_test)       # predictions on test data using stacked model
 ```
@@ -198,7 +198,7 @@ pred_stack = model_stack.predict(X_test)       # predictions on test data 
 
 ## 蟒蛇 3
 
-```
+```py
 acc_stack = accuracy_score(y_test, pred_stack)  # evaluating accuracy
 print('accuracy score of Stacked model:', acc_stack * 100)
 ```

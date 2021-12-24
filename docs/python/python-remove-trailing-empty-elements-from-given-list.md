@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [1, 2, 3, 4, None, 76, None, None]
 Output:  [1, 2, 3, 4, None, 76]
 
@@ -16,7 +16,7 @@ Output:  [1, 2, None, None, None, None, None, 5]
 
 **方法#1:使用幼稚的方法**
 
-```
+```py
 # Python code to demonstrate
 # to remove trailing None
 # elements from lists
@@ -38,7 +38,7 @@ print ("resultant list", str(ini_list))
 
 **Output:**
 
-```
+```py
 initial dictionary [1, 2, 3, 4, None, 76, None, None, None]
 resultant list [1, 2, 3, 4, None, 76]
 
@@ -46,7 +46,7 @@ resultant list [1, 2, 3, 4, None, 76]
 
 **方法 2:使用`itertools.dropwhile()`**
 
-```
+```py
 # Python code to demonstrate
 # to remove trailing None
 # elements from lists
@@ -69,7 +69,7 @@ print ("resultant list", str(res))
 
 **Output:**
 
-```
+```py
 initial dictionary [1, 2, 3, 4, None, 76, None, None, None]
 resultant list [1, 2, 3, 4, None, 76]
 
@@ -77,7 +77,7 @@ resultant list [1, 2, 3, 4, None, 76]
 
 **方法 3:使用`itertools.takewhile()`**
 
-```
+```py
 # Python code to demonstrate
 # to remove trailing None
 # elements from lists
@@ -100,7 +100,7 @@ print ("resultant list", str(res))
 
 **Output:**
 
-```
+```py
 initial dictionary [1, 2, 3, 4, None, 76, None, None, None]
 resultant list [1, 2, 3, 4, None, 76]
 
@@ -108,7 +108,7 @@ resultant list [1, 2, 3, 4, None, 76]
 
 **方法四:使用列举和列表理解**
 
-```
+```py
 # Python code to demonstrate
 # to remove trailing None
 # elements from lists
@@ -130,7 +130,7 @@ print ("resultant list", str(res))
 
 **Output:**
 
-```
+```py
 initial dictionary [1, 2, 3, 4, None, 76, None, None, None]
 resultant list [1, 2, 3, 4, None, 76]
 

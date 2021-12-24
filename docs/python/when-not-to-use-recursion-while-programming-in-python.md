@@ -15,14 +15,14 @@
 
 1.**带递归:**
 
-```
+```py
 ```
 def print_linkedlist(head):
 
    if head is not None:
        print(head.data)
        print_linkedlist(head.next)
-```
+```py
 ```
 
 第一种方法也有效，但是如果列表真的很长，大约有 1000 个元素，那么程序将达到递归深度并出错。不要忘记，随着列表长度的增加，堆栈大小也会线性增加。
@@ -33,7 +33,7 @@ def print_linkedlist(head):
 
 第一个函数查看列表中头节点的数据，然后打印它。但是第一个功能还没有结束。一个旧的函数只有在其内部的所有函数都结束后才能结束。如果我们观察包含当前运行函数列表的调用堆栈:
 
-```
+```py
 # the first function waiting for
 # innermost functions to end
 print_linkedlist()
@@ -45,7 +45,7 @@ print_linkedlist()
 
 调用堆栈不断增加，因为旧函数永远不会结束，因为它们在等待内部子函数结束。最终，调用堆栈看起来像:
 
-```
+```py
 # original Function
 print_linkedlist()
 
@@ -78,13 +78,13 @@ print_linkedlist()
 
 **2。无递归/迭代:**
 
-```
+```py
 ```
 def print_linkedlist(node):
    while node:
        print(node.data)
        node=node.next
-```
+```py
 ```
 
 ## **结论**

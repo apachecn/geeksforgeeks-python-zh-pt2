@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [12, 35, 9, 56, 24]
 Output : [24, 35, 9, 56, 12]
 
@@ -18,7 +18,7 @@ Output : [3, 2, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap first
 # and last element of a list
 
@@ -41,7 +41,7 @@ print(swapList(newList))
 
 **输出:**
 
-```
+```py
 [24, 35, 9, 56, 12]
 ```
 
@@ -49,7 +49,7 @@ print(swapList(newList))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap first
 # and last element of a list
 
@@ -67,7 +67,7 @@ print(swapList(newList))
 
 **输出:**
 
-```
+```py
 [24, 35, 9, 56, 12]
 ```
 
@@ -75,7 +75,7 @@ print(swapList(newList))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap first
 # and last element of a list
 
@@ -98,7 +98,7 @@ print(swapList(newList))
 
 **输出:**
 
-```
+```py
 [24, 35, 9, 56, 12]
 ```
 
@@ -107,7 +107,7 @@ print(swapList(newList))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # the usage of * operarnd
 list = [1, 2, 3, 4]
@@ -121,7 +121,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 1
 [2, 3]
 4
@@ -131,7 +131,7 @@ print(c)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap first
 # and last element of a list
 
@@ -151,7 +151,7 @@ print(swapList(newList))
 
 **输出:**
 
-```
+```py
 [24, 35, 9, 56, 12]
 ```
 
@@ -159,7 +159,7 @@ print(swapList(newList))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap first
 # and last element of a list
 
@@ -182,6 +182,6 @@ print(swapList(newList))
 
 **输出:**
 
-```
+```py
 [24, 35, 9, 56, 12]
 ```

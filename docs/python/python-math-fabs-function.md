@@ -4,7 +4,7 @@
 
 在 Python 中，数学模块包含许多数学运算，使用该模块可以轻松执行这些运算。`**math.fabs()**`函数返回数字的绝对值。
 
-```
+```py
 Syntax: math.fabs(x)
 
 Parameter:
@@ -15,7 +15,7 @@ Returns: the absolute value of the number.
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of fabs()
 
 # importing "math" for mathematical operations 
@@ -30,14 +30,14 @@ print (math.fabs(x))
 
 **Output:**
 
-```
+```py
 The fabs of 33.7 is : 33.7
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate the working of fabs()
 
 # importing "math" for mathematical operations 
@@ -50,7 +50,7 @@ print ("math.fabs(101.96) : ", math.fabs(101.96))
 
 **Output:**
 
-```
+```py
 math.fabs(-13.1) :  13.1
 math.fabs(101.96) :  101.96
 

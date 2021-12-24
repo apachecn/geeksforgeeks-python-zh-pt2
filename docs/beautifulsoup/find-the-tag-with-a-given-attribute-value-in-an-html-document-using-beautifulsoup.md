@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module 
 from bs4 import BeautifulSoup 
 
@@ -37,7 +37,7 @@ print(div_bs4.name)
 
 **输出:**
 
-```
+```py
 div
 ```
 
@@ -45,7 +45,7 @@ div
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module 
 from bs4 import BeautifulSoup 
 
@@ -60,7 +60,7 @@ print(div_bs4.name)
 
 **输出:**
 
-```
+```py
 a
 ```
 
@@ -68,7 +68,7 @@ a
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module 
 from bs4 import BeautifulSoup 
 
@@ -89,6 +89,6 @@ print(div_bs4.name)
 
 **输出:**
 
-```
+```py
 p
 ```

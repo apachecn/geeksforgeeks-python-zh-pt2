@@ -9,7 +9,7 @@
 **库安装:**
 首先，确保您的计算机上安装了所需的库。
 
-```
+```py
 pip install face_recognition Scikit-learn dlib docopt
 ```
 
@@ -19,7 +19,7 @@ pip install face_recognition Scikit-learn dlib docopt
 
 **文件结构:**
 
-```
+```py
 face_recognize.py
 test_image.jpg
 train_dir/
@@ -53,7 +53,7 @@ train_dir/
 
 **代码:识别多张脸。**
 
-```
+```py
 """
 Usage:
   face_recognize.py -d <train_dir> -i <test_image>
@@ -136,7 +136,7 @@ if __name__=="__main__":
 
 **如何在终端上运行:**
 
-```
+```py
 python face_recognize.py -d train_dir -i test_image.jpg
 
 ```

@@ -6,13 +6,13 @@
 
 首先，你将需要 **Python** 。你可以从[这里](https://www.python.org/downloads/)下载 python。现在，让我们开始编码。首先，创建一个名为**推特自动化**的文件夹，然后将目录更改为新创建的文件夹。现在，创建一个名为 *requirements.txt* 的文件，并在其中添加这一行。
 
-```
+```py
 selenium==3.141.0
 ```
 
 接下来，打开你的终端并输入
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 现在所有要求都处理好了。现在让我们从编码开始。
 现在，创建一个名为 *credentials.txt* 的文件，并在其中添加以下几行。
 
-```
+```py
 email: {your twitter email}
 password: {your twitter password}
 ```
@@ -31,7 +31,7 @@ password: {your twitter password}
 
 ## 蟒蛇 3
 
-```
+```py
 """
     Add your twitter handle's email and password
     in the credentials.txt file.
@@ -64,7 +64,7 @@ def get_credentials() -> dict:
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver import ActionChains
@@ -203,7 +203,7 @@ class Twitterbot:
 
 ## 蟒蛇 3
 
-```
+```py
 import twitterbot as tb
 import secrets, sys
 
@@ -222,13 +222,13 @@ bot.like_retweet(hashtag)
 
 现在，我们完成了代码。让我们通过在您的终端中运行以下命令来调用我们的驱动程序脚本。
 
-```
+```py
 python main.py {hashtag}
 ```
 
 例如，您可以尝试用任何趋势标签来代替标签占位符
 
-```
+```py
 python main.py python3
 ```
 

@@ -14,7 +14,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Menu.AppendMenu(self, id, subMenu, helpString)
 > 
 > ```
@@ -30,7 +30,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

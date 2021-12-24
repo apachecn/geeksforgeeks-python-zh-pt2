@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # use of pvariance()
 
@@ -37,7 +37,7 @@ print("Population variance is %s"
 
 **输出:**
 
-```
+```py
 Population variance is 0.6658984375
 ```
 
@@ -45,7 +45,7 @@ Population variance is 0.6658984375
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate pvariance()
 # on various range of population sets
 
@@ -93,7 +93,7 @@ print("Population variance of set 4 is % s"
 
 **输出:**
 
-```
+```py
 Population variance of set 1 is 7.913043478260869
 Population variance of set 2 is 7.204152249134948
 Population variance of set 3 is 103889/360000
@@ -104,7 +104,7 @@ Population variance of set 4 is 21.767923875432526
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the use
 #  of 'mu' parameter on pvariance()
 
@@ -134,7 +134,7 @@ print("Population Variance is % s"
 
 **输出:**
 
-```
+```py
 Population Variance is 14.30385015608741
 ```
 
@@ -143,7 +143,7 @@ Population Variance is 14.30385015608741
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # difference between pvariance()
 # and variance()
@@ -180,7 +180,7 @@ print("Difference in Population variance"
 
 **输出:**
 
-```
+```py
 Variance of the whole popuation is 0.6127751479289941
 Variance of the sample from population is 0.8286277777777779 
 
@@ -193,7 +193,7 @@ Difference in Population variance and Sample variance is 0.21585262984878373
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate StatisticsError
 
 # importing statistics module
@@ -208,7 +208,7 @@ print(statistics.pvariance(pop))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fa112e1405f09970eeddd48214318a3c.py", line 10, in 
     print(statistics.pvariance(pop))

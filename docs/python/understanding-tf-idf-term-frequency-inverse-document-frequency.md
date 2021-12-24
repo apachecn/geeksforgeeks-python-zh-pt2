@@ -10,19 +10,19 @@
 
 文档中出现的术语的权重与术语出现的频率成正比。
 
-```
+```py
 tf(t,d) = count of t in d / number of words in d
 ```
 
 *   **文档频率:** 这在整个语料库集合中测试了与 TF 非常相似的文本的含义。唯一不同的是，在文档 d 中，TF 是某个术语 t 的频率计数器，而 df 是该术语 t 在文档集合 N 中出现的次数，换句话说，出现该词的论文数就是 DF。
 
-```
+```py
 df(t) = occurrence of t in documents
 ```
 
 *   **逆文献频率:** 主要是测试这个词的相关程度。搜索的主要目的是找到符合需求的适当记录。由于 tf 认为所有术语都同等重要，因此不仅可以使用术语频率来衡量论文中术语的权重。首先，通过计算包含术语 t 的文档数量，找出术语 t 的文档频率:
 
-```
+```py
 df(t) = N(t)
 where
 df(t) = Document frequency of a term t
@@ -31,13 +31,13 @@ N(t) = Number of documents containing the term t
 
 术语频率是单个文档中某个术语的实例数；虽然文档的出现频率是术语出现的单独文档的数量，但它取决于整个语料库。现在我们来看看逆纸频率的定义。单词的 IDF 是语料库中文档的数量除以文本的频率。
 
-```
+```py
 idf(t) = N/ df(t) = N/N(t)
 ```
 
 更常见的词应该被认为不太重要，但是元素(大多数确定的整数)似乎太苛刻了。然后我们取纸的逆频率的对数(以 2 为底)。所以 t 项的 if 变成:
 
-```
+```py
 idf(t) = log(N/ df(t))
 ```
 
@@ -48,7 +48,7 @@ idf(t) = log(N/ df(t))
 1.  **【归一化项频率(tf)**
 2.  **【逆文档频率(idf)**
 
-```
+```py
 tf-idf(t, d) = tf(t, d) * idf(t)
 ```
 
@@ -78,7 +78,7 @@ tf-idf(t, d) = tf(t, d) * idf(t)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from sklearn.feature_extraction.text import TfidfVectorizer
 ```
@@ -87,7 +87,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 
 ## 蟒蛇 3
 
-```
+```py
 # assign documents
 d0 = 'Geeks for geeks'
 d1 = 'Geeks'
@@ -101,7 +101,7 @@ string = [d0, d1, d2]
 
 ## 蟒蛇 3
 
-```
+```py
 # create object
 tfidf = TfidfVectorizer()
 
@@ -113,7 +113,7 @@ result = tfidf.fit_transform(string)
 
 ## 蟒蛇 3
 
-```
+```py
 # get idf values
 print('\nidf values:')
 for ele1, ele2 in zip(tfidf.get_feature_names(), tfidf.idf_):
@@ -129,7 +129,7 @@ for ele1, ele2 in zip(tfidf.get_feature_names(), tfidf.idf_):
 
 ## 蟒蛇 3
 
-```
+```py
 # get indexing
 print('\nWord indexes:')
 print(tfidf.vocabulary_)
@@ -172,7 +172,7 @@ print(result.toarray())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from sklearn.feature_extraction.text import TfidfVectorizer
 
@@ -217,7 +217,7 @@ print(result.toarray())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from sklearn.feature_extraction.text import TfidfVectorizer
 

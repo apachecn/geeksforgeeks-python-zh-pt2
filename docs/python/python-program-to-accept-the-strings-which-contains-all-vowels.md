@@ -5,7 +5,7 @@
 给定一个字符串，任务是检查每个元音是否存在。如果元音以大写或小写出现，我们认为它是存在的。即‘a’、‘e’、‘I’。' O '，' U '或' A '，' E '，' I '，' O '，' U '。
 **例:**
 
-```
+```py
 Input : geeksforgeeks
 Output : Not Accepted
 All vowels except 'o' are not present
@@ -20,7 +20,7 @@ All vowels are present
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to accept the strings
 # which contains all the vowels
 
@@ -70,7 +70,7 @@ if __name__ == "__main__" :
 
 **Output**
 
-```
+```py
 Accepted
 
 ```

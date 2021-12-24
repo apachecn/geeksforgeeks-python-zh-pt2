@@ -16,7 +16,7 @@
 
 **说明:**
 
-```
+```py
 Input:
 a = 10
 b = 20
@@ -33,7 +33,7 @@ value of d is 60.0
 
 **使用的配方:**
 
-```
+```py
 a/b = c/d
 ```
 
@@ -45,7 +45,7 @@ a/b = c/d
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from tkinter import *
 

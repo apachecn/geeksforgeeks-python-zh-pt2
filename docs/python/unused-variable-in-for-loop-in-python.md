@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # i,j - loop variable
 
 # loop-1
@@ -33,7 +33,7 @@ for j in range(0, 5):
 
 **Output**
 
-```
+```py
 Using the loop variable inside :
 2 4 6 8 10 
 Using the loop variable only for iteration :
@@ -50,7 +50,7 @@ Using the loop variable only for iteration :
 
 ## 蟒蛇 3
 
-```
+```py
 # unused function
 def my_func():
 
@@ -67,7 +67,7 @@ for i in range(0, 5):
 
 **Output**
 
-```
+```py
 * * * * * 
 ```
 
@@ -79,7 +79,7 @@ for i in range(0, 5):
 
 ## 蟒蛇 3
 
-```
+```py
 # unused function
 def my_func():
     b = 2

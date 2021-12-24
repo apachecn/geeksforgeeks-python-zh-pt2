@@ -14,19 +14,19 @@
 
 1.  **Click 包:** Click 是一个 Python 包，用于创建漂亮的命令行界面，只需要很少的代码。这是“命令行界面创建工具包”。
 
-    ```
+    ```py
     pip install click
     ```
 
 2.  **请求包:**在这个工具中，我们将根据 URL(HTTP 地址)下载一个文件。请求是一个用 Python 编写的 HTTP 库，它允许你发送 HTTP 请求。您可以使用简单的 Python 字典添加标题、表单数据、多部分文件和参数，并以相同的方式访问响应数据。
 
-    ```
+    ```py
     pip install requests
     ```
 
 3.  **线程包:**要使用线程，我们需要线程包。
 
-    ```
+    ```py
     pip install threading
     ```
 
@@ -37,7 +37,7 @@
 *   在编辑器中创建新的 python 文件
 *   首先将需要编写的包导入
 
-```
+```py
 #N ote: This code will not work on online IDE
 
 # Importing the required packages
@@ -72,7 +72,7 @@ def Handler(start, end, url, filename):
 *   给出了“name”选项，这样我们就可以为将要下载的文件命名。可以使用 click.argument()指定函数的参数。
 *   对于我们的程序，我们需要给出我们想要下载的文件的网址。
 
-```
+```py
 #Note: This code will not work on online IDE
 
 @click.command(help="It downloads the specified file with specified name")
@@ -88,7 +88,7 @@ def download_file(ctx,url_of_file,name,number_of_threads):
 *   在这个函数中，我们首先检查“名称”。如果没有给出“名称”，那么使用来自 url 的名称。
 *   下一步是连接到网址，获取内容和内容的大小。
 
-```
+```py
 r = requests.head(url_of_file)
 if name:
     file_name = name
@@ -103,7 +103,7 @@ except:
 
 创建具有内容大小的文件
 
-```
+```py
 part = int(file_size) / number_of_threads
 fp = open(file_name, "wb")
 fp.write('\0' * file_size)
@@ -112,7 +112,7 @@ fp.close()
 
 现在，我们创建线程并传递具有主要功能的处理函数:
 
-```
+```py
 for i in range(number_of_threads):
     start = part * i
     end = start + part
@@ -126,7 +126,7 @@ for i in range(number_of_threads):
 
 最后加入线程，从 main 调用“download_file”函数
 
-```
+```py
 main_thread = threading.current_thread()
 for t in threading.enumerate():
     if t is main_thread:
@@ -142,7 +142,7 @@ if __name__ == '__main__':
 
 [![1](img/3c73962c8adb3aa918c32271e9cc688f.png)](https://media.geeksforgeeks.org/wp-content/uploads/116.png)
 
-```
+```py
 “python filename.py” –-help
 ```
 

@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `defaultdict()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 defaultdict()用整数初始化计数器字典，并使用循环对所有数据点进行迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple to Dictionary Summation conversion
 # Using defaultdict() + loop
@@ -37,7 +37,7 @@ print("The summation tuple dictionary : " + str(dict(res))) 
 
 **Output :**
 
-```
+```py
 The original list is : [(7, 8), (5, 6), (7, 2), (6, 8), (5, 10)]
 The summation tuple dictionary : {7: 10, 5: 16, 6: 8}
 
@@ -46,7 +46,7 @@ The summation tuple dictionary : {7: 10, 5: 16, 6: 8}
 **方法 2:使用`dictionary comprehension + sum() + groupby()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sum()执行求和任务，groupby()用于对相似的元素进行分组，以便进一步计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple to Dictionary Summation conversion
 # Using dictionary comprehension + sum() + groupby()
@@ -70,7 +70,7 @@ print("The summation tuple dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(7, 8), (5, 6), (7, 2), (6, 8), (5, 10)]
 The summation tuple dictionary : {7: 10, 5: 16, 6: 8}
 

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 label.setAlignment(QtCore.Qt.AlignLeft)
 label.setAlignment(QtCore.Qt.AlignCenter)
 label.setAlignment(QtCore.Qt.AlignRight)
@@ -15,13 +15,13 @@ label.setAlignment(QtCore.Qt.AlignRight)
 
 为了使用这个，我们必须从 PyQt5 导入`Qtcore`
 
-```
+```py
 from PyQt5 import QtCore
 ```
 
 **下面是实现:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 

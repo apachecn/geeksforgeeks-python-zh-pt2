@@ -39,7 +39,7 @@ REST_FRAMEWORK = {
         'anon': '2/day'
     }
 }
-```
+```py
 
 您可以将秒、分钟、小时或天作为节流期(节流率)。
 
@@ -86,7 +86,7 @@ X-Frame-Options: DENY
         "url": "http://localhost:8000/robot/8/"
     },
  ]
-```
+```py
 
 这里，匿名节流率被设置为每天 2 个应用编程接口请求。所以，它不允许超过两个请求。如果您的请求率超过 2 个请求，您将获得以下输出。
 
@@ -120,7 +120,7 @@ REST_FRAMEWORK = {
         'user': '5/day'
     }
 }
-```
+```py
 
 我们的 REST_FRAMEWORK 字典中的限制规则如下:
 
@@ -146,7 +146,7 @@ ScopedRateThrottle 类控制我们的 RESTFul web 服务中特定功能的请求
 ```
 throttle_scope = 'robots'
 throttle_classes = (ScopedRateThrottle,)
-```
+```py
 
 我们的机器人细节类如下所示:
 
@@ -165,7 +165,7 @@ class RobotDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Robot.objects.all()
     serializer_class = RobotSerializer
     name = 'robot-detail'
-```
+```py
 
 接下来，让我们为范围“机器人”添加节流率。
 

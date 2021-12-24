@@ -10,13 +10,13 @@
 
 > 枕头(PIL 的新版本)
 > 
-> ```
+> ```py
 > pip install Pillow
 > ```
 > 
 > pytesserract
 > 
-> ```
+> ```py
 > pip install pytesseract
 > ```
 > 
@@ -40,7 +40,7 @@
 
 **代码:使用 ImageGrab 和 PyTesseract 的 Python 代码**
 
-```
+```py
 # cv2.cvtColor takes a numpy ndarray as an argument
 import numpy as nm
 

@@ -17,7 +17,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。 **
 **所用图像:**
 ![](img/535e4d950fe7c6fc28f5fad49114bccc.png)
 
-```
+```py
 # Importing Image and ImageOps module from PIL package 
 from PIL import Image, ImageOps 
 
@@ -36,7 +36,7 @@ im2.show()
 
 **位**–这里取位 4，通过改变通道中的位来了解颜色的变化。
 
-```
+```py
 # Importing Image and ImageOps module from PIL package 
 from PIL import Image, ImageOps 
 

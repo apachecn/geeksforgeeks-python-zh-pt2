@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [1234, 7373, 3643, 3527, 148]
 
@@ -44,7 +44,7 @@ print("Extracted increasing digits : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1234, 7373, 3643, 3527, 148]
 Extracted increasing digits : [1234, 148]
 ```
@@ -55,7 +55,7 @@ Extracted increasing digits : [1234, 148]
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = [1234, 7373, 3643, 3527, 148]
 
@@ -71,7 +71,7 @@ print("Extracted increasing digits : " + str(res))*
 
 ***输出:***
 
-```
+```py
 *The original list is : [1234, 7373, 3643, 3527, 148]
 Extracted increasing digits : [1234, 148]*
 ```

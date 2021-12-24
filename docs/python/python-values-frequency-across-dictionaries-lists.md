@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values frequency across Dictionaries lists
 # Using list comprehension + dictionary comprehension + count()
@@ -43,7 +43,7 @@ print("The frequency dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [{'Gfg': 6}, {'is': 9}, {'best': 10}]
 The original list 2 : [{'a': 6}, {'b': 10}, {'c': 9}, {'d': 6}, {'e': 9}, {'f': 9}]
 The frequency dictionary : {'Gfg': 2, 'is': 3, 'best': 1}

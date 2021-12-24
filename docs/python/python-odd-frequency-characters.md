@@ -13,7 +13,7 @@
 **方法一:使用`defaultdict()` +列表理解+循环**
 以上功能的组合可以解决这个问题。在本文中，我们用整数初始化 defaultdict()，然后执行频率计数。列表理解用于提取所有奇数频率。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Odd Frequency Characters
 # Using list comprehension + defaultdict()
@@ -42,7 +42,7 @@ print("The Odd Frequency Characters are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Odd Frequency Characters are : ['k', 'i', 't', 'g', 'e', 'b']
 
@@ -51,7 +51,7 @@ The Odd Frequency Characters are : ['k', 'i', 't', 'g', 'e', 'b']
 **方法 2:使用列表理解+ `Counter()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 Counter()来计算频率。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Odd Frequency Characters
 # Using list comprehension + Counter()
@@ -73,7 +73,7 @@ print("The Odd Frequency Characters are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Odd Frequency Characters are : ['k', 'i', 't', 'g', 'e', 'b']
 

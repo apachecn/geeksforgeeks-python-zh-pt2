@@ -19,7 +19,7 @@
 
 我们可以说，当一个函数在代码中有一个 yield 语句时，它就是一个生成器。像在 return 语句中一样，yield 语句也向调用者发送一个值，但是它不退出函数的执行。**相反，它会暂停执行，直到收到下一个请求。根据请求，生成器从停止的地方继续执行。**
 
-```
+```py
 def primeFunction():
     prime = None
     num = 1
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 3
 5
 7
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 下一个函数可以**为其下一个值请求一个生成器。**根据请求，生成器代码执行，yield 语句将值提供给调用者。此时，生成器停止执行并等待下一个请求。让我们通过考虑一个斐波那契函数来深入挖掘。
 
-```
+```py
 def fibonacci():
     values = []
     while True:
@@ -127,7 +127,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 1
 1
 2
@@ -138,14 +138,14 @@ if __name__ == "__main__":
 
 *   Creating the generator object by calling the fibonacci function and saving its returned value to fib. In this case, the code hasn’t run, the python interpreter recognizes the generator and returns the generator object. **Since the function has a yield statement the generator object is returned instead of a value.**
 
-    ```
+    ```py
     fib = fibonacci()
     fib
     ```
 
     **输出**
 
-    ```
+    ```py
     generator object fibonacci at 0x00000157F8AA87C8
     ```
 
@@ -154,13 +154,13 @@ if __name__ == "__main__":
     `next(gen)`
     **输出**
 
-    ```
+    ```py
     1
     ```
 
 *   由于值列表为空，因此执行“if 语句”中的代码，并将“1”追加到值列表中。接下来，使用 yield 语句将值让给调用者，执行停止。这里需要注意的一点是**在执行 continue 语句之前会暂停执行。**
 
-    ```
+    ```py
     # values = []
     if len(values) < 2:
 
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 *   在第二次请求时，代码从它停止的地方继续执行。这里，它从“continue”语句执行，并将控制传递给 while 循环。
     现在值列表包含第一个请求的值。由于“values”的长度为 1 且小于 2，因此“if 语句”中的代码会执行。
 
-    ```
+    ```py
     # values = [1]
     if len(values) < 2:
 
@@ -190,7 +190,7 @@ if __name__ == "__main__":
 
 *   同样，使用 next(fib)请求该值，并从“continue”语句开始执行。现在值的长度不小于 2。因此，它会输入 else 语句，对列表中的值进行求和，并追加结果。pop 语句从列表中移除第一个元素，并产生最新的结果。
 
-    ```
+    ```py
     # values = [1, 1]
     else:
 
@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
 下面的代码解释了这个场景。
 
-```
+```py
 def stopIteration():
     num = 5
     for i in range(1, num):
@@ -259,7 +259,7 @@ if __name__ == "__main__":
 下面的代码解释了另一个场景，其中程序员可以引发 StopIteration 并退出生成器。
 `raise StopIteration`
 
-```
+```py
 def stopIteration():
     num = 5
     for i in range(1, num):
@@ -308,7 +308,7 @@ if __name__ == "__main__":
 到目前为止，我们已经看到了生成器如何在通信是单向的情况下向调用代码提供值。到目前为止，生成器还没有从调用者那里收到任何数据。
 在本节中，我们将讨论**允许调用者与生成器通信的‘发送’方法。**
 
-```
+```py
 def factorial():
     num = 1
     while True:
@@ -348,7 +348,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 1
 2
 6
@@ -360,13 +360,13 @@ if __name__ == "__main__":
 生成器根据调用者的请求(使用下一个方法)生成前三个值(1、2 和 6)，并根据调用者提供的数据(5)生成第四个值(120)(使用 send 方法)。
 我们来考虑生成器产生的第三个数据(6)。3 的阶乘= 3*2*1，由生成器生成，执行暂停。
 
-```
+```py
 factorial = factorial * i 
 ```
 
 此时，调用者使用“发送”方法并提供数据“5”。因此，生成器从停止的地方执行，即将调用者发送的数据保存到“响应”变量(`response = yield factorial`)。**由于“响应”包含一个值，代码进入“if”条件，并将响应分配给“num”变量。**
 
-```
+```py
 if response:
     num = int(response)
 ```
@@ -382,7 +382,7 @@ if response:
 
 下面的代码显示了处理调用者发送的值的不同方法。
 
-```
+```py
 def factorial():
     num = 0
     value = None
@@ -413,7 +413,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 1
 2
 6
@@ -438,7 +438,7 @@ if __name__ == "__main__":
 
 Range 函数返回一个可迭代的 range 对象，它的迭代器是一个生成器。它返回从下限开始并持续到上限的顺序值。
 
-```
+```py
 def range_func():
     r = range(0, 4)
     return r
@@ -455,7 +455,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 0
 1
 
@@ -465,7 +465,7 @@ if __name__ == "__main__":
 
 python 中的 Dictionary 类提供了三种迭代字典的方法。它们是键、值和项，它们的迭代器是生成器。
 
-```
+```py
 def dict_func():
     dictionary = {'UserName': 'abc', 'Password':'a@123'}
     return dictionary
@@ -482,7 +482,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 ('UserName', 'abc')
 ('Password', 'a@123')
 
@@ -492,7 +492,7 @@ if __name__ == "__main__":
 
 zip 是一个内置 python 函数，它接受多个可迭代对象，并一次迭代所有对象。它们从每个可迭代的元素中产生第一个元素，然后是第二个元素，依此类推。
 
-```
+```py
 def zip_func():
     z = zip(['a', 'b', 'c', 'd'], [1, 2, 3, 4])
     return z
@@ -509,7 +509,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 ('a', 1)
 ('b', 2)
 ('c', 3)
@@ -520,7 +520,7 @@ if __name__ == "__main__":
 
 map 函数将函数和 iterable 作为参数，并计算函数对 ITER able 的每一项的结果。
 
-```
+```py
 def map_func():
     m = map(lambda x, y: max([x, y]), [8, 2, 9], [5, 3, 7])
     return m
@@ -537,7 +537,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 8
 3
 9
@@ -550,7 +550,7 @@ if __name__ == "__main__":
 
 使用 next 方法时，file 对象会生成包含换行符(\n)的整行
 
-```
+```py
 def file_func():
     f = open('sample.txt')
     return f
@@ -566,7 +566,7 @@ if __name__ == "__main__":
 
 **输入:sample.txt**
 
-```
+```py
 Rule 1
 Rule 2
 Rule 3
@@ -576,7 +576,7 @@ Rule 4
 
 **输出**
 
-```
+```py
 Rule 1
 
 Rule 2
@@ -613,7 +613,7 @@ Rule 2
 生成器可以像函数一样调用另一个生成器。使用“屈服于”语句，生成器可以实现这一点，该过程称为**生成器委托。**
 由于生成器正在委托给另一个生成器，*发送给包装生成器的值将可用于当前委托生成器*。
 
-```
+```py
 def gensub1():
     yield 'A'
     yield 'B'
@@ -639,7 +639,7 @@ if __name__ == "__main__":
 
 **输出**
 
-```
+```py
 A
 B
 100

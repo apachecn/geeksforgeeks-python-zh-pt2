@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required library
 import turtle
 
@@ -64,7 +64,7 @@ hit_ball.dy = -5
 
 ## 计算机编程语言
 
-```
+```py
 # Import required library
 import turtle
 

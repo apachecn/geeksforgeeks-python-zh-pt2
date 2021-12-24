@@ -6,7 +6,7 @@
 
 命令安装 **pygmaps** :
 
-```
+```py
 pip install pygmaps (on windows)
 sudo pip3 install pygmaps (on linix / unix)
 
@@ -14,7 +14,7 @@ sudo pip3 install pygmaps (on linix / unix)
 
 **代码#1 :** 创建基础地图。
 
-```
+```py
 # import required package
 import pygmaps
 
@@ -35,7 +35,7 @@ mymap1.draw('pygmap1.html')
 
 **代码#2 :** 在地图上绘制网格
 
-```
+```py
 # importing pygmaps
 import pygmaps
 
@@ -59,7 +59,7 @@ mymap2.draw('pygmap2.html')
 
 **代码#3 :** 向地图中添加一个点
 
-```
+```py
 # importing pygmaps
 import pygmaps
 
@@ -97,7 +97,7 @@ mymap3.draw('pygmap3.html')
 
 **代码#4 :** 画一个给定半径的圆
 
-```
+```py
 import pygmaps
 
 mymap4 = pygmaps.maps(30.3164945, 78.03219179999999, 15)
@@ -116,7 +116,7 @@ mymap4.draw('pygmap4.html')
 
 **代码#5 :** 在给定坐标的 b/w 上画线
 
-```
+```py
 # Importing pygmaps
 import pygmaps
 

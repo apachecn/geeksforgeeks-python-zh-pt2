@@ -20,7 +20,7 @@ Python 中的`***os.write()***`方法用于向给定的文件描述符写入字�
 
 **Code:** Use of os.write() method to write a bytestring to a given file descriptor
 
-```
+```py
 # Python program to explain os.write() method 
 
 # importing os module 
@@ -54,7 +54,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 Number of bytes written: 51
 
 ```

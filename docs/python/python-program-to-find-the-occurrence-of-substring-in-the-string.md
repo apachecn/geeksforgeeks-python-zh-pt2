@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Word occurrence positions in String
 # Using list comprehension + split() + index()
@@ -43,7 +43,7 @@ print("The indices list : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks and cs
 The indices list : [2, 4, 6]
 
@@ -55,7 +55,7 @@ The indices list : [2, 4, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Word occurrence positions in String
 # Using list comprehension + enumerate() + split()
@@ -79,7 +79,7 @@ print("The indices list : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks and cs
 The indices list : [2, 4, 6]
 

@@ -7,7 +7,7 @@
 **方法#1:使用`loop + join()`**
 这是可以执行这个任务的蛮力方式。在这种情况下，我们对每个字符进行迭代，如果是替换字符，则替换为替换字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multiple indices Replace in String
 # Using loop + join()
@@ -37,7 +37,7 @@ print("The String after performing replace : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best
 The String after performing replace : ge*k*fo*ge*ks is best
 

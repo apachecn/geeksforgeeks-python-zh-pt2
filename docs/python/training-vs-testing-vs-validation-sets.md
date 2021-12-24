@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing numpy & scikit-learn
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -44,7 +44,7 @@ print("Training set y: ",y_train)
 
 **输出:**
 
-```
+```py
 Training set x:  [[ 0  1]
  [14 15]
  [ 4  5]
@@ -69,7 +69,7 @@ Training set y:  [0, 7, 2, 4, 3, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing numpy & scikit-learn
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -97,7 +97,7 @@ print("Testing set y: ", y_test)
 
 **输出:**
 
-```
+```py
 Testing set x:  [[ 2  3]
  [10 11]]
 Testing set y:  [1, 5]
@@ -117,7 +117,7 @@ Testing set y:  [1, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing numpy & scikit-learn
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -164,7 +164,7 @@ print("Validation set y: ",y_val)
 
 **输出:**
 
-```
+```py
 Training set x:  [[ 0  1  2]
  [21 22 23]
  [ 6  7  8]

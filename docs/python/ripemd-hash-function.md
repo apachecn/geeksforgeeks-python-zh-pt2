@@ -27,7 +27,7 @@ RACE 完整性原语评估消息摘要(RIPEMD)是由汉斯·多伯坦(Hans Dobbe
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # RIPEMD 
 
@@ -51,7 +51,7 @@ print(x.hexdigest())
 
 **输出:**
 
-```
+```py
 The hexadecimal equivalent of hash is :
 1b4470fb3147534653ddca6d7a1b2109b5449089
 
@@ -61,7 +61,7 @@ The hexadecimal equivalent of hash is :
 
 **示例 2:** 让我们看看是否要找到编码哈希值的字节表示。
 
-```
+```py
 # Python program to demonstrate
 # RIPEMD 
 
@@ -85,7 +85,7 @@ print(x.digest())
 
 **输出:**
 
-```
+```py
 The byte equivalent of hash is :
 b'\x1bDp\xfb1GSFS\xdd\xcamz\x1b!\t\xb5D\x90\x89'
 

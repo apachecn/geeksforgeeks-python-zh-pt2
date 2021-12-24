@@ -29,7 +29,7 @@ ResNet 是由微软研究院的研究人员在 2015 年提出的，它引入了�
 
 **Code: Importing Libraries**
 
-```
+```py
 # Import Keras modules and its important APIs
 import keras
 from keras.layers import Dense, Conv2D, BatchNormalization, Activation
@@ -50,7 +50,7 @@ import os
 
 **Code: Setting Training Hyperparameters**
 
-```
+```py
 # Setting Training Hyperparameters
 batch_size = 32  # original ResNet paper uses batch_size = 128 for training
 epochs = 200
@@ -104,7 +104,7 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 
 **代码:设置不同时期的左后**
 
-```
+```py
 # Setting LR for different number of Epochs
 def lr_schedule(epoch):
     lr = 1e-3
@@ -124,7 +124,7 @@ def lr_schedule(epoch):
 
 **Code: Basic ResNet Building Block**
 
-```
+```py
 # Basic ResNet Building Block
 def resnet_layer(inputs,
                  num_filters = 16,
@@ -159,7 +159,7 @@ def resnet_layer(inputs,
 
 **Code: ResNet V1 architecture**
 
-```
+```py
 # 
 def resnet_v1(input_shape, depth, num_classes = 10):
 
@@ -213,7 +213,7 @@ def resnet_v1(input_shape, depth, num_classes = 10):
 
 **Code: ResNet V2 architecture**
 
-```
+```py
 # ResNet V2 architecture
 def resnet_v2(input_shape, depth, num_classes = 10):
     if (depth - 2) % 9 != 0:
@@ -291,7 +291,7 @@ def resnet_v2(input_shape, depth, num_classes = 10):
 
 **Code: Main function**
 
-```
+```py
 # Main function 
 if version == 2:
     model = resnet_v2(input_shape = input_shape, depth = depth)

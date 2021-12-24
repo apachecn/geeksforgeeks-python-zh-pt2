@@ -12,7 +12,7 @@ Tkinter 是 python 中使用的一个 GUI 工具包，用于制作用户友好�
 
 **语法:**
 
-```
+```py
 listbox = Listbox(root, bg, fg, bd, height, width, font, ..) 
 
 ```
@@ -44,7 +44,7 @@ listbox = Listbox(root, bg, fg, bd, height, width, font, ..)
 
 **例 1:**
 
-```
+```py
 from tkinter import *
 
 # create a root window.
@@ -85,7 +85,7 @@ top.mainloop()
 ![python-tkinter-listbox](img/02662a56bb6f9cbf9c7414bf492c405d.png)
 示例 2:让我们从上面创建的列表框中删除元素
 
-```
+```py
 # Delete Items from the list
 #  by specifying the index.
 listbox.delete(2)

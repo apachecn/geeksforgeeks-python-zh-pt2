@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = ["geeksforgeeks", "best", "for", "geeks"]
 
@@ -54,7 +54,7 @@ print("Repeated K strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = ["geeksforgeeks", "best", "for", "geeks"]
 

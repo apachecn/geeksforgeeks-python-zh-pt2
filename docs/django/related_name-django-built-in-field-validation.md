@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 field_name = models.Field(related_name="name")
 
 ```
@@ -15,7 +15,7 @@ field_name = models.Field(related_name="name")
 
 使用示例说明相关的名称=“名称”。考虑一个名为 suorganizer(启动组织者)的项目，它有一个名为 organizer 的应用程序。
 
-```
+```py
 *Refer to the following articles to check how to create a project and an app in Django.*
 
       How to Create a Basic Project using MVT in Django ?
@@ -27,7 +27,7 @@ field_name = models.Field(related_name="name")
 
 ## 计算机编程语言
 
-```
+```py
 from django.db import models
 
 # Create your models here. 
@@ -46,14 +46,14 @@ class Post(models.Model):   
 
 在 Django 上运行 makemigrations 和 migration 并呈现上述模型之后，让我们尝试使用 Django shell 中的 None 创建一个实例。要启动 Django shell，请输入命令。
 
-```
+```py
 Python manage.py shell
 
 ```
 
 现在让我们尝试使用无创建标记和帖子的实例。
 
-```
+```py
 # importing required model
 from organizer.models import Tag, Post
 

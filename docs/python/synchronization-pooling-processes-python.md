@@ -23,7 +23,7 @@
 
 考虑下面的程序来理解比赛状态的概念:
 
-```
+```py
 # Python program to illustrate 
 # the concept of race condition
 # in multiprocessing
@@ -68,7 +68,7 @@ if __name__ == "__main__":
 
 如果你运行上面的程序，你会得到一些意想不到的值，比如:
 
-```
+```py
 Final balance = 1311
 Final balance = 199
 Final balance = 558
@@ -131,7 +131,7 @@ Final balance = 157
 
 **考虑下面给出的例子:**
 
-```
+```py
 # Python program to illustrate 
 # the concept of locks
 # in multiprocessing
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Final balance = 100
 Final balance = 100
 Final balance = 100
@@ -201,7 +201,7 @@ Final balance = 100
 
 *   首先，使用
 
-    ```
+    ```py
     lock = multiprocessing.Lock()
 
     ```
@@ -209,7 +209,7 @@ Final balance = 100
     创建一个**锁定**对象
 *   然后，**锁定**作为目标函数参数传递:
 
-    ```
+    ```py
      p1 = multiprocessing.Process(target=withdraw, args=(balance,lock))
      p2 = multiprocessing.Process(target=deposit, args=(balance,lock))
 
@@ -217,7 +217,7 @@ Final balance = 100
 
 *   In the critical section of target function, we apply lock using **lock.acquire()** method. As soon as a lock is acquired, no other process can access its critical section until the lock is released using **lock.release()** method.
 
-    ```
+    ```py
     lock.acquire()
     balance.value = balance.value - 1
     lock.release()
@@ -230,7 +230,7 @@ Final balance = 100
 
 让我们考虑一个在给定列表中寻找数字平方的简单程序。
 
-```
+```py
 # Python program to find 
 # squares of numbers in a given list
 def square(n):
@@ -252,7 +252,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [1, 4, 9, 16, 25]
 
 ```
@@ -271,7 +271,7 @@ if __name__ == "__main__":
 
 考虑下面给出的程序:
 
-```
+```py
 # Python program to understand 
 # the concept of pool
 import multiprocessing
@@ -296,7 +296,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Worker process id for 2: 4152
 Worker process id for 1: 4151
 Worker process id for 4: 4151
@@ -310,7 +310,7 @@ Worker process id for 5: 4152
 
 *   We create a **Pool** object using:
 
-    ```
+    ```py
      p = multiprocessing.Pool() 
     ```
 
@@ -325,7 +325,7 @@ Worker process id for 5: 4152
     *   **initargs:** 要传递给初始值设定项的参数。
 *   现在，为了执行某项任务，我们必须将其映射到某个函数。在上例中，我们将 **mylist** 映射到 **square** 函数。因此， **mylist** 的内容和 **square** 的定义将分布在内核中。
 
-    ```
+    ```py
      result = p.map(square, mylist) 
     ```
 

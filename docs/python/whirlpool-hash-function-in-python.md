@@ -25,14 +25,14 @@
 
 哈希值的计算公式为:
 
-```
+```py
  State = MR*AK*SC*SB(State)
 ```
 
 使用
 安装漩涡图书馆
 
-```
+```py
 pip install whirlpool
 ```
 
@@ -40,7 +40,7 @@ pip install whirlpool
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # whirlpool hash function
 
@@ -64,7 +64,7 @@ print(hashed_output)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # whirlpool hash function
 

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.GetMenu(self, menuindex)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 **命令行输出:**
 
-```
+```py
 <wx._core.Menu object at 0x7fa64ba65318>
 
 ```

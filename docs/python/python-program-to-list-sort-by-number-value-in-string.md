@@ -20,7 +20,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *import sys
 
 def num_sort(strn):
@@ -61,7 +61,7 @@ print("Sorted Strings : " + str(test_list))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing Matrix
 test_list = ["all no 100", "gfg is", "geeks over seas 62", "and planets 3"]
 

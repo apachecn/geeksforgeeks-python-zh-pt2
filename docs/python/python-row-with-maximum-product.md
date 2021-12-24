@@ -7,7 +7,7 @@
 **方法一:使用`reduce()`+λ**
 以上两个功能可以帮助我们完成这个特定的任务。lambda 函数执行逻辑和迭代任务，reduce 函数执行返回所需结果的任务。仅适用于 python 2。
 
-```
+```py
 # Python code to demonstrate
 # Row with Maximum Product
 # using reduce() + lambda
@@ -35,7 +35,7 @@ print ("Maximum Product row is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original matrix is : [[1, 3, 1], [4, 5, 3], [1, 2, 4]]
 Maximum Product row is : [4, 5, 3]
 

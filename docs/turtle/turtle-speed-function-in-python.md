@@ -10,7 +10,7 @@ turtle.speed()方法用于根据所取参数的值来改变乌龟的速度。返
 
 **语法:**
 
-```
+```py
 turtle.speed(speed=None)
 
 ```
@@ -33,7 +33,7 @@ turtle.speed(speed=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -52,7 +52,7 @@ turtle.forward(150)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle 
 

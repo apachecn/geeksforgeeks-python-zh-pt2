@@ -32,7 +32,7 @@ Django 为用户提供了一些预装应用。要查看预安装的应用程序�
 
 *   要在您的 Django 项目中创建一个基本应用程序，您需要转到包含 manage.py 的目录，并从那里输入命令:
 
-```
+```py
 python manage.py startapp projectApp
 ```
 
@@ -40,7 +40,7 @@ python manage.py startapp projectApp
 
 *   要在您的 Django 项目中创建一个基本应用程序，您需要转到包含 manage.py 的目录，并从那里输入命令:
 
-```
+```py
 django-admin startapp projectApp
 ```
 
@@ -52,7 +52,7 @@ django-admin startapp projectApp
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -69,7 +69,7 @@ INSTALLED_APPS = [
 *   因此，我们最终创建了一个应用程序，但是要使用网址呈现应用程序，我们需要将应用程序包含在我们的主项目中，以便可以呈现重定向到该应用程序的网址。让我们探索它。
     转到项目名称- >项目名称->URL . py，并在标题中添加以下代码
 
-```
+```py
 from django.urls import include
 ```
 
@@ -77,7 +77,7 @@ from django.urls import include
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 

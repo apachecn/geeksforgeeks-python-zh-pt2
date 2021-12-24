@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 APP_EXIT = 1

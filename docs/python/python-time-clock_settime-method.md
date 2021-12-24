@@ -13,7 +13,7 @@
 
 **代码:**使用`***time.clock_settime()***`方法
 
-```
+```py
 # Python program to explain time.clock_settime() method
 
 # importing time module
@@ -47,7 +47,7 @@ print("\nCurrent value of system-wide real-time clock: % d seconds" % t)
 
 **Output:**
 
-```
+```py
 Current value of system-wide real-time clock: 1568589568 seconds
 
 Time  modified

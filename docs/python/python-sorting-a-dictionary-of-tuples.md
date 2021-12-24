@@ -6,7 +6,7 @@
 
 **例**:
 
-```
+```py
 {'key1': (1, 2, 3), 'key2': (3, 2, 1),.............}
 or
 { (1, 2, 3):value, (3, 2, 1):value,.............}
@@ -18,7 +18,7 @@ or
 
 **语法**:
 
-```
+```py
 To sort based on items:
 for i in sorted(dictionary.items()) :
      print(i, end = " ")
@@ -36,7 +36,7 @@ for i in sorted(dictionary.values()) :
 
 ## 蟒蛇 3
 
-```
+```py
 # declare a dictionary of tuple with student data
 data = {'student1': ('bhanu', 10), 'student4': ('uma', 12),
         'student3': ('suma', 11), 'student2': ('ravi', 11),
@@ -73,7 +73,7 @@ Python 程序，以元组为关键字创建元组字典，并应用 sorted()函�
 
 ## 蟒蛇 3
 
-```
+```py
 # declare a dictionary of tuple with student data
 data = {('bhanu', 10): 'student1',
         ('uma', 12): 'student4', 
@@ -110,7 +110,7 @@ OrderedDict 在 collections 模块中可用，该模块用于使用 sorted()方�
 
 **语法**:
 
-```
+```py
 To sort based on values:
 OrderedDict(sorted(dictionary.values())
 
@@ -122,7 +122,7 @@ OrderedDict(sorted(dictionary.items())
 
 ## 蟒蛇 3
 
-```
+```py
 # import oOrderedDict module
 from collections import OrderedDict
 
@@ -150,7 +150,7 @@ print(OrderedDict(sorted(data.items())))
 
 ## 蟒蛇 3
 
-```
+```py
 # import orderedDict module
 from collections import OrderedDict
 

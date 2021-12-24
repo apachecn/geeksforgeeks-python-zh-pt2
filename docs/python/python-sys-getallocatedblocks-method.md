@@ -14,7 +14,7 @@
 
 使用`sys.getallocatedblocks()`方法查找分配给解释器的内存。
 
-```
+```py
 # Python program to explain sys.getallocatedblocks() method 
 
 # Importing sys module 
@@ -29,7 +29,7 @@ print(memory) 
 
 **Output:**
 
-```
+```py
 20731
 
 ```

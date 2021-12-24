@@ -19,7 +19,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -32,13 +32,13 @@ print(random.expovariate(lambd))
 
 **输出:**
 
-```
+```py
 0.22759592233982198
 ```
 
 **例 2:** 我们可以多次生成这个数，并绘制一个图来观察指数分布。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 
@@ -61,7 +61,7 @@ plt.show()
 ![](img/7ce4cdefc47f3148e7812ddaeebbb985.png)
 **例 3:** 我们可以创建一个直方图来观察密度的指数分布。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 

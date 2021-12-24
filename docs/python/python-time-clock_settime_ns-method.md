@@ -13,7 +13,7 @@
 
 **代码:**使用`***time.clock_settime_ns()***`方法
 
-```
+```py
 # Python program to explain time.clock_settime_ns() method
 
 # importing time module
@@ -47,7 +47,7 @@ print("\nCurrent value of system-wide real-time clock: % d nanoseconds" % t)
 
 **Output:**
 
-```
+```py
 Current value of system-wide real-time clock: 1568621304462590132 nanoseconds
 
 Time  modified

@@ -35,13 +35,13 @@ Django 中的序列化程序字段与 Django 表单字段和 Django 模型字段
 默认为假
 **语法–**
 
-```
+```py
 read_only = True/False
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(read_only = True) 
 ```
 
@@ -52,13 +52,13 @@ field_name = serializers.CharField(read_only = True)
 默认为假
 **语法–**
 
-```
+```py
 write_only = True/False
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(write_only = True) 
 ```
 
@@ -72,13 +72,13 @@ field_name = serializers.CharField(write_only = True)
 
 **语法–**
 
-```
+```py
 write_only = True/False
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(write_only = True) 
 ```
 
@@ -92,7 +92,7 @@ field_name = serializers.CharField(write_only = True)
 
 例如:
 
-```
+```py
 class CurrentUserDefault:
     """
     May be applied as a `default=...` value on a serializer field.
@@ -111,13 +111,13 @@ When serializing the instance, default will be used if the o
 
 **语法–**
 
-```
+```py
 default = value
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(default = "Naveen") 
 ```
 
@@ -131,13 +131,13 @@ field_name = serializers.CharField(default = "Naveen")
 
 **语法–**
 
-```
+```py
 allow_null = True/False
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(allow_null = True) 
 ```
 
@@ -151,13 +151,13 @@ field_name = serializers.CharField(allow_null = True)
 
 **语法–**
 
-```
+```py
 source = value
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(source = "user.name") 
 ```
 
@@ -167,13 +167,13 @@ field_name = serializers.CharField(source = "user.name")
 
 **语法–**
 
-```
+```py
 validators = [function_1, function_2]
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(validations = [validate_name, validate_username]) 
 ```
 
@@ -182,13 +182,13 @@ field_name = serializers.CharField(validations = [validate_name, validate_userna
 错误信息的错误代码字典。它的工作方式与[错误消息相同–姜戈内置字段验证](https://www.geeksforgeeks.org/error_messages-django-built-in-field-validation/)
 **语法–**
 
-```
+```py
 error_messages = {'argument':'message'}
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(error_messages = {"unique":"Data should be unique"}) 
 ```
 
@@ -198,13 +198,13 @@ field_name = serializers.CharField(error_messages = {"unique":"Data should be un
 
 **语法–**
 
-```
+```py
 label = value
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(label = "Name") 
 ```
 
@@ -213,13 +213,13 @@ field_name = serializers.CharField(label = "Name")
 一个文本字符串，可用作 HTML 表单字段或其他描述性元素中字段的描述。与[help _ text-Django 内置字段验证](https://www.geeksforgeeks.org/help_text-django-built-in-field-validation/)相同。
 **语法–**
 
-```
+```py
 help_text = value
 ```
 
 **示例–**
 
-```
+```py
 field_name = serializers.CharField(help_text = "Enter only 10 characters") 
 ```
 
@@ -228,13 +228,13 @@ field_name = serializers.CharField(help_text = "Enter only 10 characters")
 应该用于预先填充 HTML 表单字段值的值。与[初始-姜戈表单域验证](https://www.geeksforgeeks.org/initial-django-form-field-validation/)相同。您可以向它传递一个可调用的，就像您可以对任何常规的姜戈字段做的那样:
 **语法–**
 
-```
+```py
 initial = value
 ```
 
 **示例–**
 
-```
+```py
 import datetime
 from rest_framework import serializers
 class ExampleSerializer(serializers.Serializer):

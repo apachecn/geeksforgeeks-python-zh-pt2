@@ -8,7 +8,7 @@
 
 **代码#1:命令对整个程序计时**
 
-```
+```py
 bash % time python3 someprogram.py
 real 0m13.937s
 user 0m12.162s
@@ -18,13 +18,13 @@ bash %
 
 在另一个极端，为了有一个显示程序正在做什么的详细报告，使用了 **cProfile** 模块。
 
-```
+```py
 bash % python3 -m cProfile someprogram.py
 ```
 
 **输出:**
 
-```
+```py
 Ordered by: standard name
     ncalls tottime percall cumtime percall filename:lineno(function)
     263169 0.080 0.000 0.080 0.000 someprogram.py:16(frange)
@@ -44,7 +44,7 @@ Ordered by: standard name
 
 **代码#3:使用短修饰器对功能进行选择分析**
 
-```
+```py
 # abc.py
 
 import time
@@ -64,7 +64,7 @@ def timethis(func):
 要使用装饰器，只需将它放在函数定义的前面，就可以从中获取计时，如下面的代码所示。
 **代码#4 :**
 
-```
+```py
 @abc
 def countdown(n):
     while n > 0:
@@ -75,13 +75,13 @@ countdown(10000000)
 
 **输出:**
 
-```
+```py
 __main__.countdown : 0.803001880645752
 ```
 
 **代码#5:定义一个上下文管理器来为一个语句块计时。**
 
-```
+```py
 from contextlib import contextmanager
 
 def timeblock(label):
@@ -95,7 +95,7 @@ def timeblock(label):
 
 **代码#6:上下文管理器如何工作**
 
-```
+```py
 with timeblock('counting'):
     n = 10000000
     while n > 0:
@@ -104,13 +104,13 @@ with timeblock('counting'):
 
 **输出:**
 
-```
+```py
 counting : 1.5551159381866455
 ```
 
 **代码#7:使用 timeit 模块研究小代码片段的性能**
 
-```
+```py
 from timeit import timeit
 print (timeit('math.sqrt(2)', 'import math'), "\n")
 
@@ -119,7 +119,7 @@ print (timeit('sqrt(2)', 'from math import sqrt'))
 
 **输出:**
 
-```
+```py
 0.1432319980012835
 0.10836604500218527
 

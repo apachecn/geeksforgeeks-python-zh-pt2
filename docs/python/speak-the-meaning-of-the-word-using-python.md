@@ -11,7 +11,7 @@
 
 两个模块都可以通过使用 pip 以下列方式安装:
 
-```
+```py
 pip install PyDictionary
 pip install pyttsx3  
 ```
@@ -28,7 +28,7 @@ pip install pyttsx3
 
 ## 蟒蛇 3
 
-```
+```py
 import pyttsx3
 from PyDictionary import PyDictionary
 

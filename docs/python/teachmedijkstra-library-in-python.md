@@ -10,7 +10,7 @@ Dijkstra 的算法与 [Prim 的最小生成树](https://www.geeksforgeeks.org/pr
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install teachmedijkstra
 ```
 
@@ -35,7 +35,7 @@ pip install teachmedijkstra
 
 ## 蟒蛇 3
 
-```
+```py
 import teachmedijkstra
 
 # getting graph
@@ -76,7 +76,7 @@ dijkstra.saveToLaTeXFile("undirectedDij.tex")
 
 ## 蟒蛇 3
 
-```
+```py
 import teachmedijkstra
 
 # initializing Directed graph

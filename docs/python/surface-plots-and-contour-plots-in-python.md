@@ -19,7 +19,7 @@ Matplotlib 的 mpl_toolkits.mplot3d toolkit 中的 axes3d 提供了用于创建 
 
 **语法:**
 
-```
+```py
 ax.plot_surface(X, Y, Z)
 ```
 
@@ -27,7 +27,7 @@ ax.plot_surface(X, Y, Z)
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -52,7 +52,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -89,7 +89,7 @@ plt.show()
 
 **语法:**
 
-```
+```py
 matplotlib.pyplot.contour([X, Y, ] Z, [levels], **kwargs)
 ```
 
@@ -101,7 +101,7 @@ matplotlib.pyplot.contour([X, Y, ] Z, [levels], **kwargs)
 
 **例 1:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -126,7 +126,7 @@ plt.show()
 
 **例 2:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/python
 
 # Import CGI and CGIT module
@@ -51,7 +51,7 @@ print ("</html>")
 
 **输出:**
 
-```
+```py
  Hello, Piyush is working in GeeksforGeeks 
 
 ```

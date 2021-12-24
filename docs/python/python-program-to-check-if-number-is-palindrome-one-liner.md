@@ -13,7 +13,7 @@
 **方法#1:使用`math.log()` +递归+列表理解**
 以上三个函数的组合可以很容易地执行这个特定的任务，log 函数提取数字的个数，以 10 为幂得到该迭代的个数进行比较。重复该过程以测试回文。
 
-```
+```py
 # Python3 code to demonstrate
 # checking a number is palindrome
 # using math.log() + recursion + list comprehension
@@ -41,7 +41,7 @@ print ("Is the number palindrome ? : " + str(res))
 
 **Output:**
 
-```
+```py
 The original number is : 9669669
 Is the number palindrome ? : True
 
@@ -50,7 +50,7 @@ Is the number palindrome ? : True
 **方法 2:使用`str()` +串切片**
 这也可以通过将数字转换为串，然后使用串切片方法将其反转并进行比较来完成，其真相会返回给它答案。
 
-```
+```py
 # Python3 code to demonstrate
 # checking a number is palindrome
 # using str() + string slicing
@@ -71,7 +71,7 @@ print ("Is the number palindrome ? : " + str(res))
 
 **Output:**
 
-```
+```py
 The original number is : 9669669
 Is the number palindrome ? : True
 
@@ -79,7 +79,7 @@ Is the number palindrome ? : True
 
 我们也可以把输入读成字符串，然后简单地检查回文。
 
-```
+```py
 num = input("Enter a number")
 if num == num[::-1]:
     print("Yes its a palindrome")

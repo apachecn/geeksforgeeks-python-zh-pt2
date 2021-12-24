@@ -8,25 +8,25 @@
 
 **步骤 1–**建立连接:端口号默认值:27017
 
-```
+```py
 conn = MongoClient(‘localhost’, port-number)
 ```
 
 如果使用默认端口号，即 27017。替代连接方法:
 
-```
+```py
 conn = MongoClient()
 ```
 
 **步骤 2–**创建数据库或切换到现有数据库:
 
-```
+```py
 db = conn.dabasename
 ```
 
 创建集合或切换到现有集合:
 
-```
+```py
 collection = db.collection_name
 ```
 
@@ -44,7 +44,7 @@ collection = db.collection_name
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate
 # delete_one
 
@@ -74,7 +74,7 @@ for x in coll.find():
 
 **输出:**
 
-```
+```py
 '_id': 2.0, 'Name': 'Golu', 'Class': '3'}
 {'_id': 3.0, 'Name': 'Raja', 'Class': '4'}
 {'_id': 4.0, 'Name': 'Moni', 'Class': '5'}

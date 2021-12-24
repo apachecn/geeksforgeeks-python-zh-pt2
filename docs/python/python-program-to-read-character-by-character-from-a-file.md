@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstrated Python Program
 # to read file character by character
 
@@ -41,7 +41,7 @@ file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Read character by character
 

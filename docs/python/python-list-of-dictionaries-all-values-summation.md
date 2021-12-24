@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # List of dictionaries all values Summation
 # Using loop
@@ -47,7 +47,7 @@ print("The computed sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The computed sum : 148
 
@@ -59,7 +59,7 @@ The computed sum : 148
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # List of dictionaries all values Summation
 # Using sum() + values() + list comprehension
@@ -82,7 +82,7 @@ print("The computed sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 6, 'is': 9, 'best': 10}, {'Gfg': 8, 'is': 11, 'best': 19}, {'Gfg': 2, 'is': 16, 'best': 10}, {'Gfg': 12, 'is': 1, 'best': 8}, {'Gfg': 22, 'is': 6, 'best': 8}]
 The computed sum : 148
 

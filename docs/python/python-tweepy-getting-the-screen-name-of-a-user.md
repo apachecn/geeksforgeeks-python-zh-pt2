@@ -19,7 +19,7 @@
 ![](img/6132b5064bacde4339adf720ea88d2db.png)
 上述配置文件的用户 ID 为 57741058。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -52,7 +52,7 @@ print("The screen name of the user is : " + screen_name)
 
 **输出:**
 
-```
+```py
 The screen name of the user is : geeksforgeeks
 
 ```
@@ -61,7 +61,7 @@ The screen name of the user is : geeksforgeeks
 ![](img/159935125f6fbd011d182156efb24f04.png)
 上述配置文件的用户 ID 为 4802800777。
 
-```
+```py
 # the ID of the user
 id = 4802800777
 
@@ -76,7 +76,7 @@ print("The screen name of the user is : " + screen_name)
 
 **输出:**
 
-```
+```py
 The screen name of the user is : PracticeGfG
 
 ```

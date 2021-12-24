@@ -19,7 +19,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module
@@ -41,7 +41,7 @@ with Image(filename ='gog.png') as img:
 
 **例 2:**
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module

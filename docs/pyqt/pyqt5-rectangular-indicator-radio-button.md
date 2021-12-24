@@ -9,7 +9,7 @@
 
 为此，我们必须更改与单选按钮对象关联的指示器的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 border : 1px solid black;
@@ -22,7 +22,7 @@ border-radius : 1px;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -12,7 +12,7 @@
 
 <center>![D = P ^{-1} A P ](img/57dfe1d7580cbda6e57e63bf7ac0b091.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where,
 P -> Modal Matrix: It is a (n x n) matrix that consists of eigen-vectors. 
                It is generally used in the process of diagonalization 
@@ -35,7 +35,7 @@ P -> Modal Matrix: It is a (n x n) matrix that consists of eigen-vectors.
 
 <center>![A = U \Sigma V^T ](img/a78687f9e62a9fd61f7154b10fc98a9d.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where, 
 Σ -> (m x n) orthogonal matrix
 U -> (m x m) orthogonal matrix 
@@ -49,7 +49,7 @@ V -> (n x n) diagonal matrix with first r rows having only singular values.
 
 首先，我们计算与输入矩阵 a 相关联的本征向量 x <sub>i</sub> ，然后，通过将向量 x <sub>i</sub> 中的每个值除以其大小，我们找到对应于 x <sub>i</sub> 的归一化向量 v <sub>i</sub> 。例如:
 
-```
+```py
 Let x = [1,2,4]
 => mag(x) or |x| = √(12 + 22 + 42) = √21.
 
@@ -60,7 +60,7 @@ Therefore, v = [(1/√21), (2/√21), (4/√21)]
 
 <center>![(A^TA)v_i = \sigma_i^2v_i = \lambda_iv_i](img/00577d3af0b686b23f2fb82b5db09b9e.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where,
 x<sub>i -></sub> eigen vector
 v<sub>i -></sub> normalized eigen vector.
@@ -73,7 +73,7 @@ and
 
 <center>![V = \begin{bmatrix} v_1 & v_2 & ...\ v_i\end{bmatrix}](img/538740f28870aa97d01b5f6cb7d987e5.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where, v1, v2, ... vi are arranged column-wise into matrix V.
 ```
 
@@ -83,7 +83,7 @@ where, v1, v2, ... vi are arranged column-wise into matrix V.
 
 <center>![(AA^T)x_i = \sigma_i^2x_i = \lambda_ix_i](img/5f3c3fb795d69c9eaaf75fb3fb1e71fa.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where,
 x<sub>i -></sub> eigen vector.
 and
@@ -99,7 +99,7 @@ and
 
 <center>![U = \begin{bmatrix} u_1 & u_2 & ...\ u_i\end{bmatrix}](img/b8dc82f99e8ad09cb661cffbdac43a8b.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 where, u1, u2, ... ui are arranged column-wise into matrix U.
 ```
 
@@ -133,7 +133,7 @@ where, u1, u2, ... ui are arranged column-wise into matrix U.
 
 让我们了解解决此类问题所需的每个步骤。
 
-```
+```py
 Step 1 - Find AT and then compute ATA.
 ```
 
@@ -141,14 +141,14 @@ Step 1 - Find AT and then compute ATA.
 
 <center>![A^TA = \begin{bmatrix} 1 & 0 \\ 1 & 1 \\ 0 & 1 \\ \end{bmatrix} \begin{bmatrix} 1 & 1 & 0\\ 0 & 1 & 1\\ \end{bmatrix} = \begin{bmatrix} 1 & 1 & 0\\ 1 & 2 & 1\\ 0 & 1 & 1\\ \end{bmatrix}](img/de0980180f73424d41fea9403e8adfd1.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Step 2 - Find the eigen values associated with matrix ATA. 
          (Discussed in the prerequisite articles mentioned above)
 ```
 
 **与 A <sup>T</sup> A 相关的特征值:** λ = 0，1 & 3。
 
-```
+```py
 Step 3 - Find the singular values corresponding to the obtained 
          eigen values using formula:
 ```
@@ -157,13 +157,13 @@ Step 3 - Find the singular values corresponding to the obtained
 
 **与 A <sup>T</sup> A 相关的奇异值:** λ = 3，1 & 0。
 
-```
+```py
 λ1 = 3 -> σ1 = √3
 λ2 = 1 -> σ2 = 1 
 λ3 = 0 -> σ3 = 0
 ```
 
-```
+```py
 Step 4 - Compute diagonal matrix Σ using the values of σ keeping
          the above discussed cases in mind.
 ```
@@ -172,7 +172,7 @@ Step 4 - Compute diagonal matrix Σ using the values of σ keeping
 
 <center>![\Sigma = \begin{bmatrix} \sqrt{3} & 0 & 0\\ 0 & 1 & 0\\ \end{bmatrix}](img/d42e83aff2839048e1b3df52d68b6895.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Step 5 - Find the eigen vectors & corresponding normalized eigen vectors
          associated with matrix ATA.
  (Discussed in the prerequisite articles mentioned above)
@@ -182,7 +182,7 @@ Step 5 - Find the eigen vectors & corresponding normalized eigen vectors
 
 **与 A <sup>T</sup> A:** 相关的特征向量
 
-```
+```py
 For λ<sub>1 = 3 -></sub> x1 = [1, 2, 1]
 For λ<sub>2 = 1 -></sub> x2 = [-1, 0, 1]
 For λ<sub>3 = 0 -></sub> x3 = [1, -1, 1]
@@ -192,7 +192,7 @@ where x1, x2 and x3 are eigen vectors of matrix ATA.
 
 **与 A <sup>T</sup> A:** 关联的归一化特征向量
 
-```
+```py
 For x1 = [1, 2, 1] => v1 = [(1/√6), (2/√6), (1/√6)]
 For x2 = [-1, 0, 1] => v2 = [(-1/√2), 0, (1/√2)]
 For x3 = [1, -1, 1] => v3 = [(1/√3), (-1/√3), (1/√3)]
@@ -200,13 +200,13 @@ For x3 = [1, -1, 1] => v3 = [(1/√3), (-1/√3), (1/√3)]
 where v1, v2 and v3 are eigen vectors of matrix ATA. 
 ```
 
-```
+```py
 Step 6 - Use eigen vectors obtained to compute matrix V.
 ```
 
 <center>![V = \begin{bmatrix} (1/√6) & (-1/√2) & (1/√3)\\ (2/√6) & 0 & (-1/√3)\\ (1/√6) & (1/√2) & (1/√3)\\ \end{bmatrix}](img/a22c52d32464ac600edc576dcf2587ec.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Step 7 - Use the above given equation to compute the orthogonal matrix U. 
 ```
 
@@ -218,7 +218,7 @@ Step 7 - Use the above given equation to compute the orthogonal matrix U.
 
 <center>![U = \begin{bmatrix} (1/√2) & (-1/√2) \\ (1/√2) & (1/√2) \end{bmatrix}](img/aab030540db9307eef20a8ddff0ac2e1.png "Rendered by QuickLaTeX.com")</center>
 
-```
+```py
 Step 8 - Compute the SVD of A using the equation given below: 
          (As discussed above)
 ```

@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # grinning face
 print("\U0001f600")
 
@@ -29,7 +29,7 @@ print("\U0001F923")
 
 ## 蟒蛇 3
 
-```
+```py
 # grinning face
 print("\N{grinning face}")
 
@@ -47,7 +47,7 @@ print("\N{winking face}")
 
 表情符号也可以使用 Python 中提供的表情模块来实现。要安装它，请在终端中运行以下命令。
 
-```
+```py
 pip install emoji
 ```
 
@@ -55,7 +55,7 @@ pip install emoji
 
 ## 蟒蛇 3
 
-```
+```py
 # import emoji module 
 import emoji
 

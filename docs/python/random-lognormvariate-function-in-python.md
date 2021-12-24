@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -32,13 +32,13 @@ print(random.lognormvariate(mu, sigma))
 
 **输出:**
 
-```
+```py
 0.8585439051088984
 ```
 
 **例 2:** 我们可以多次生成这个数，并绘制一个图来观察对数正态分布。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 
@@ -63,7 +63,7 @@ plt.show()
 
 **例 3:** 我们可以创建一个直方图来观察对数正态分布的密度。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 

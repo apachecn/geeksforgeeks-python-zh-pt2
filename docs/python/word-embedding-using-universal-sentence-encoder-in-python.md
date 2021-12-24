@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 import tensorflow_hub as hub
 

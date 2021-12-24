@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.SetMargind(self, size)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -60,7 +60,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (30, 25)
 
 ```

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 1, bitSize=32
 Output : 2147483648  
 On a machine with size of 
@@ -29,7 +29,7 @@ Output : 1
 
 **int(string，base)** 方法取一个 string 和 base 来标识这个 string 指的是什么数字系统(二进制=2，heaxadecimal=16，八进制=8 等。)并将字符串相应地转换为十进制数字系统。比如；int('1010 '，2) = 10。
 
-```
+```py
 # Function to reverse bits of positive  
 # integer number 
 
@@ -60,7 +60,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 2147483648
 
 ```

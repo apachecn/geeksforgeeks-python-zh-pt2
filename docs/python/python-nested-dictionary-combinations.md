@@ -13,7 +13,7 @@
 **方法:使用`product() + dictionary comprehension + zip()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 product 提取所有可能的组合，zip()执行将键与过滤后的值配对的任务，字典理解用于存储所有构建的字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested dictionary Combinations
 # Using product() + dictionary comprehension + zip()

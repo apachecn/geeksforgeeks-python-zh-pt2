@@ -18,7 +18,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 **所用图像:**
 ![](img/dac0928016d419115c76c2872802a262.png)
 
-```
+```py
 
 # Importing Image module from PIL package
 from PIL import Image
@@ -33,7 +33,7 @@ print(img)
 
 **输出:**
 
-```
+```py
 PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=259x194 at 0x2D39DED2BE0
 
 ```
@@ -43,7 +43,7 @@ PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=259x194 at 0x2D39DED2BE0
 **所用图像:**
 ![](img/dac0928016d419115c76c2872802a262.png)
 
-```
+```py
 
 # Importing Image module from PIL package
 from PIL import Image
@@ -58,7 +58,7 @@ print(img)
 
 **输出:**
 
-```
+```py
 PIL.JpegImagePlugin.JpegImageFile image mode=RGB size=259x194 at 0x27845B91BE0
 
 ```

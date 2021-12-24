@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须借助`setStyleSheet`方法将样式表设置为 QColorDialog 对象，下面是样式表代码
 
-```
+```py
 QColorDialog QSpinBox
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -4,7 +4,7 @@
 
 Python 中的 **`with`** 语句用于异常处理，使代码更加清晰易读。它简化了文件流等公共资源的管理。观察下面的代码示例，了解使用`with`语句如何使代码更加清晰。
 
-```
+```py
 # file handling
 
 # 1) without using with statement
@@ -20,7 +20,7 @@ finally:
     file.close()
 ```
 
-```
+```py
 # using with statement
 with open('file_path', 'w') as file:
     file.write('hello world !')
@@ -35,7 +35,7 @@ with open('file_path', 'w') as file:
 `open()`中没有什么特别之处，使得它可以与`with`语句一起使用，并且可以在用户定义的对象中提供相同的功能。在您的对象中支持`with`语句将确保您永远不会让任何资源处于打开状态。
 要在用户定义的对象中使用`with`语句，您只需要在对象方法中添加方法`__enter__()`和`__exit__()`。考虑下面的例子来进一步澄清。
 
-```
+```py
 # a simple file writer object
 
 class MessageWriter(object):
@@ -60,7 +60,7 @@ with MessageWriter('my_file.txt') as xfile:
 **什么是资源描述符？**
 这些是操作系统提供的访问请求资源的句柄。在下面的代码块中，`file`是文件流资源的描述符。
 
-```
+```py
 file = open('hello.txt')
 ```
 
@@ -72,7 +72,7 @@ file = open('hello.txt')
 
 如上所示的基于类的上下文管理器不是支持用户定义对象中的`with`语句的唯一方法。 [`contextlib`](https://docs.python.org/2/library/contextlib.html) 模块提供了一些建立在基本上下文管理器界面上的抽象。下面是我们如何使用`contextlib`模块重写`MessageWriter`对象的上下文管理器。
 
-```
+```py
 from contextlib import contextmanager
 
 class MessageWriter(object):

@@ -7,7 +7,7 @@
 **方法#1:使用`groupby()` +列表理解**
 该任务可以使用上述功能执行。在这种情况下，我们将连续出现的所有数字分组。我们使用列表理解来迭代列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain K consecutive elements
 # using groupby() + list comprehension
@@ -32,7 +32,7 @@ print("The K consecutive elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 1, 4, 5, 5, 6, 7, 7, 8]
 The K consecutive elements are : [1, 5, 7]
 

@@ -8,7 +8,7 @@
 
 以上两个函数的组合可以用来解决这个特殊的问题。列表理解完成了修改后的列表的重建任务，类型函数帮助我们过滤字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove string from tuples
 # using list comprehension + type()
@@ -30,7 +30,7 @@ print("The list after string removal is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('Geeks', 1, 2), ('for', 4, 'Geeks'), (45, 'good')]
 The list after string removal is : [(1, 2), (4, ), (45, )]
 
@@ -40,7 +40,7 @@ The list after string removal is : [(1, 2), (4, ), (45, )]
 
 这几乎是执行这个特定任务的类似方法，但是这里的变化只是使用 isinstance 函数来检查字符串数据类型，其余的公式仍然基本相似。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove string from tuples
 # using list comprehension + isinstance()
@@ -62,7 +62,7 @@ print("The list after string removal is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('Geeks', 1, 2), ('for', 4, 'Geeks'), (45, 'good')]
 The list after string removal is : [(1, 2), (4, ), (45, )]
 

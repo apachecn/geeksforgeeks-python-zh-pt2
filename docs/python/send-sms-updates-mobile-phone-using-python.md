@@ -11,7 +11,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # python script for sending message update
 
 import time

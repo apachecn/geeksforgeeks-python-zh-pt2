@@ -4,7 +4,7 @@
 
 **阿弗莱恩投影**非常类似于 scale_rotate_translate 扭曲类型。唯一不同的是，它需要六个实数作为失真参数。
 
-```
+```py
 Scalex, Rotatex, Rotatey, Scaley, Translatex, Translatey
 
 ```
@@ -14,7 +14,7 @@ Scalex, Rotatex, Rotatey, Scaley, Translatex, Translatey
 
 **Example #1:**
 
-```
+```py
 from collections import namedtuple
 # Import Color from wand.color module
 from wand.color import Color
@@ -43,7 +43,7 @@ with Image(filename ='gog.png') as img:
 **示例#2:**
 更改参数值。
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module

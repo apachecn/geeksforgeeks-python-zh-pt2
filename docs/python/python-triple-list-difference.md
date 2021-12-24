@@ -8,7 +8,7 @@
 
 以上 3 个功能的组合可用于执行这一特定任务。可以使用 map 函数将列表转换为 set 函数设置的列表，并且可以使用列表理解来获得每个列表的新的互差列表。
 
-```
+```py
 # Python3 code to demonstrate
 # triple list difference 
 # using map() + set() + list comprehension
@@ -37,7 +37,7 @@ print("The mutual difference list are : "
 
 **Output :**
 
-```
+```py
 The original list 1 : [1, 5, 6, 4, 7]
 The original list 2 : [8, 4, 3]
 The original list 3 : [9, 10, 3, 5]
@@ -49,7 +49,7 @@ The mutual difference list are : [1, 6, 7] [8] [9, 10]
 
 如果不想使用列表理解，这个问题也可以通过减运算符来解决。减运算符可以执行布尔匹配差来计算有效的集合差。
 
-```
+```py
 # Python3 code to demonstrate
 # triple list difference 
 # using map() + set() + "-" operator
@@ -79,7 +79,7 @@ print("The mutual difference list are : "
 
 **Output :**
 
-```
+```py
 The original list 1 : [1, 5, 6, 4, 7]
 The original list 2 : [8, 4, 3]
 The original list 3 : [9, 10, 3, 5]

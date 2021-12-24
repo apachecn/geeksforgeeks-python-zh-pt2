@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是执行该任务的方法之一。在这种情况下，我们迭代目标列表键，并对字典中相应的值求和。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Selective Key Values Summation
 # Using loop
@@ -39,7 +39,7 @@ print("The keys summation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 2, 'best': 7, 'for': 9, 'geeks': 10}
 The keys summation : 21
 
@@ -48,7 +48,7 @@ The keys summation : 21
 **方法二:使用`sum()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 sum()执行求和，使用列表理解执行迭代任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Selective Key Values Summation
 # Using sum() + list comprehension
@@ -72,7 +72,7 @@ print("The keys summation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': 4, 'is': 2, 'best': 7, 'for': 9, 'geeks': 10}
 The keys summation : 21
 

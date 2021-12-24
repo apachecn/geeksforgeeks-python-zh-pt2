@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在天真方法中，我们遍历整个列表，并将所有过滤后的非奇数值追加到一个新列表中，从而为后续操作做好准备。
 
-```
+```py
 # Python3 code to demonstrate 
 # Odd elements removal in List
 # using naive method 
@@ -31,7 +31,7 @@ print ("List after removal of Odd values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 9, 4, 7, 6, 5, 8, 3]
 List after removal of Odd values : [4, 6, 8]
 

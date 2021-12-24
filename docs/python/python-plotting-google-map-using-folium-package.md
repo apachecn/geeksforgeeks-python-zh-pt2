@@ -5,7 +5,7 @@
 [**leaf**](http://folium.readthedocs.io/en/latest/)是建立在 Python 生态系统的数据角力优势和 leaf . js(JavaScript)库的映射优势之上的。简单地说，在 Python 中操作您的数据，然后通过 leaf 在传单地图上可视化它。leaf 使得在交互式 leaf 地图上可视化用 Python 处理的数据变得很容易。这个库有许多来自 OpenStreetMap、Mapbox 等的内置波形图。
 命令安装叶模块:
 
-```
+```py
 pip install folium
 ```
 
@@ -13,7 +13,7 @@ pip install folium
 
 ## 蟒蛇 3
 
-```
+```py
 # import folium package
 import folium
 

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们对列表中的每个元素运行一个循环，并存储已经发生的元素进行查找，并相应地分配 k。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substitute K for first occurrence of elements
 # Using loop
@@ -44,7 +44,7 @@ print("List after Substitution : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 3, 3, 7, 8, 7, 4, 6, 3]
 List after Substitution : [10, 10, 3, 10, 10, 7, 4, 10, 3]
 
@@ -53,7 +53,7 @@ List after Substitution : [10, 10, 3, 10, 10, 7, 4, 10, 3]
 **方法二:使用`defaultdict() + next()` +计数+列表理解**
 以上功能的组合提供了解决这个问题的速记。在本例中，我们使用 count 执行检查第一次出现的任务，next()返回 if 元素的第一次出现，并创建由第一次出现的 1 和重复的 0 组成的布尔列表。使用列表理解将这些转换为期望的结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substitute K for first occurrence of elements
 # Using defaultdict() + next() + count + list comprehension
@@ -81,7 +81,7 @@ print("List after Substitution : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 3, 3, 7, 8, 7, 4, 6, 3]
 List after Substitution : [10, 10, 3, 10, 10, 7, 4, 10, 3]
 

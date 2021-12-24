@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们遍历键的每个键，并分配给 max，即嵌套记录中所需键的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum record value key in dictionary
 # Using loop

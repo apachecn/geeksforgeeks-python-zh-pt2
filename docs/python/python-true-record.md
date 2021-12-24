@@ -7,7 +7,7 @@
 **方法一:使用`not + any() + map()` + lambda**
 组合上述功能可执行此任务。在这里，我们使用`any()`检查任何元素，逻辑的扩展由`map()`和λ完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # True Record
 # using any() + map() + lambda + not
@@ -28,7 +28,7 @@ print("Is Tuple True ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (True, True, True, True)
 Is Tuple True ? : True
 

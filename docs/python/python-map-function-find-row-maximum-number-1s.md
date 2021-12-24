@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Example
 Input: matrix =
 [[0, 1, 1, 1],
@@ -19,7 +19,7 @@ Output: 2
 
 这个问题我们已经有解决方案了，请参考[找到最大 1 个数的行](https://www.geeksforgeeks.org/find-the-row-with-maximum-number-1s/)。我们可以使用 [map()](https://www.geeksforgeeks.org/sum-2d-array-python-using-map-function/) 函数在 python 中快速解决这个问题。方法很简单，找出每一行中所有 1 的和，然后在列表中打印最大和的**索引**，因为具有最大 1 的行也将具有最大和。
 
-```
+```py
 # Function to find the row with maximum number of 1's
 def maxOnes(input):
 
@@ -40,7 +40,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 2
 
 ```

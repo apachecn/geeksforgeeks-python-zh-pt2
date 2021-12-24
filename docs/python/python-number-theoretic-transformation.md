@@ -11,7 +11,7 @@
 
 数论变换基本上是**傅里叶变换**。另外，假设给出了一个**标准离散傅里叶变换**，并且可以通过将数据乘以傅里叶矩阵以矩阵形式完成。让我们假设 N = 4。然后，矩阵可以是–
 
-```
+```py
 [ 1   1    1    1  ]
 [ 1   w   w^2  w^3 ]
 [ 1  w^2  w^4  w^6 ]
@@ -26,7 +26,7 @@
 
 由于基数为 2 的快速傅立叶变换要求样本点数为 2 的幂，因此序列会自动向右填充零。
 
-```
+```py
 
 Parameters : 
 -> seq       : [iterable] sequence on which DFT is to be applied.
@@ -39,7 +39,7 @@ Number Theoretic Transform
 
 **例 1 :**
 
-```
+```py
 # import sympy 
 from sympy import ntt
 
@@ -55,13 +55,13 @@ print ("NTT : ", transform)
 
 **输出:**
 
-```
+```py
 NTT :  [93, 114, 732, 659]
 ```
 
  **例 2 :**
 
-```
+```py
 # import sympy 
 from sympy import ntt
 
@@ -78,7 +78,7 @@ print ("NTT : ", transform)
 
 **输出:**
 
-```
+```py
 NTT :  [651, 276, 690, 533]
 
 ```

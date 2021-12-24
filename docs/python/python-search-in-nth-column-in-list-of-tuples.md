@@ -7,7 +7,7 @@
 **方法:使用`enumerate()` +列表理解**
 在该技术中，我们使用 enumerate()的能力在单次迭代中访问索引和值，然后在列表理解的帮助下，我们构建一个条件语句，在该语句中我们检查给定列中的有效值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Search in Nth column in list of tuples
 # Using enumerate() + list comprehension
@@ -34,7 +34,7 @@ print("Row of desired element is : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [('gfg', 1, 9), ('is', 5, 10), (8, 'best', 13)]
 Row of desired element is : [1]

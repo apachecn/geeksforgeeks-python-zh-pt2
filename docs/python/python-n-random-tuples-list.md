@@ -16,7 +16,7 @@
 **方法#1:使用列表理解+ `sample()`**
 这是可以执行此任务的方式之一。在这种情况下，随机数生成使用 sample()进行，当给定的数字池提取随机数以形成对时，这些对使用列表理解进行配对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # N Random Tuples list
 # Using list comprehension + sample()
@@ -38,7 +38,7 @@ print("The N random tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The N random tuples : [(2, 5), (6, 10), (4, 7), (10, 2), (2, 2)]
 
 ```
@@ -46,7 +46,7 @@ The N random tuples : [(2, 5), (6, 10), (4, 7), (10, 2), (2, 2)]
 **方法 2:使用`product() + sample()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用乘积()执行在一个范围内产生数字的任务，样本()用于从中提取 N 个随机数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # N Random Tuples list
 # Using product() + sample()
@@ -69,7 +69,7 @@ print("The N random tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The N random tuples : [(2, 5), (6, 10), (4, 7), (10, 2), (2, 2)]
 
 ```

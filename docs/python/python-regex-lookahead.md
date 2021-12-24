@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 # Positive lookahead
 (?=<lookahead_regex>)
 
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing regex
 import re
 
@@ -32,7 +32,7 @@ print("Pattern found from index:",
 
 **输出:**
 
-```
+```py
 Pattern: geeks
 Pattern found from index: 0 to 5
 ```
@@ -43,7 +43,7 @@ Pattern found from index: 0 to 5
 
 ## 蟒 3
 
-```
+```py
 # importing regex
 import re
 
@@ -57,7 +57,7 @@ print(example)
 
 **输出:**
 
-```
+```py
 None
 ```
 
@@ -69,7 +69,7 @@ None
 
 ## 蟒 3
 
-```
+```py
 # import required module
 import re
 
@@ -88,7 +88,7 @@ print('Without using lookahead:', example2.group())
 
 **输出:**
 
-```
+```py
 Using lookahead: geeks
 Without using lookahead: geeksf
 ```
@@ -99,7 +99,7 @@ Without using lookahead: geeksf
 
 **语法:**
 
-```
+```py
 # Negative Lookahead
 (?!<lookahead_regex>) 
 
@@ -109,7 +109,7 @@ Without using lookahead: geeksf
 
 ## 蟒 3
 
-```
+```py
 # import required module
 import re
 
@@ -126,7 +126,7 @@ print('Negative Lookahead:', example2.group())
 
 **输出:**
 
-```
+```py
 Positive Lookahead: geeks
 Negative Lookahead: geeks
 ```

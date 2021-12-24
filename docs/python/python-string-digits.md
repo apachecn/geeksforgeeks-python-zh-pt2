@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # import string library function 
 import string 
 
@@ -27,13 +27,13 @@ print(result) 
 
 **输出:**
 
-```
+```py
 0123456789
 ```
 
 **代码#2 :** 给定代码检查输入的字符串是否只有数字字母
 
-```
+```py
 # importing string library function 
 import string 
 
@@ -62,7 +62,7 @@ print(input3, "--> ", check(input3)) 
 
 **输出:**
 
-```
+```py
 0123 456 789 -->  False
 12.0124 -->  False
 12345 -->  True
@@ -71,7 +71,7 @@ print(input3, "--> ", check(input3)) 
 **应用:**
 字符串常量**数字**可以在很多实际应用中使用。让我们看一个代码，解释如何使用数字生成给定大小的强随机密码。
 
-```
+```py
 # Importing random to generate 
 # random string sequence 
 import random 
@@ -98,6 +98,6 @@ print(password) 
 
 **输出:**
 
-```
+```py
 2R8gaoDKqn
 ```

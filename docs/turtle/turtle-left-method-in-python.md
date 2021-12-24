@@ -8,7 +8,7 @@
 
 turtle.left()方法用于根据所取参数的值来改变 turtle 的方向。它让乌龟的头朝一个方向移动。
 
-```
+```py
 turtle.left(angle)
 
 ```
@@ -21,7 +21,7 @@ turtle.left(angle)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -48,7 +48,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

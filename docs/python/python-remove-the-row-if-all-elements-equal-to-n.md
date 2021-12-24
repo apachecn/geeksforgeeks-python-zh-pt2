@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `count() + len()`**
 我们可以使用列表理解食谱来执行这个特定的任务，与 len 和 count 函数的组合合作来检查与列表长度相等的相似性元素计数器。
 
-```
+```py
 # Python3 code to demonstrate
 # N row deletion in Matrix
 # using list comprehension + count() + len()
@@ -32,7 +32,7 @@ print("The list after removal of N rows : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 4, 2], [False, 9, 3], [6, 6, 6], [1, 0, 1]]
 The list after removal of N rows : [[1, 4, 2], [False, 9, 3], [1, 0, 1]]
 

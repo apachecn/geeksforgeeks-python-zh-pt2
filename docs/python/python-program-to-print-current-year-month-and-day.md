@@ -13,7 +13,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing date class from datetime module
 from datetime import date
 
@@ -31,7 +31,7 @@ print("Current day:", todays_date.day)
 
 **输出:**
 
-```
+```py
 Current date:  2020-12-10
 Current year: 2020
 Current month: 12

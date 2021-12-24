@@ -8,19 +8,19 @@
 
 **第一步:**首先导入库 tkinter。
 
-```
+```py
 from tkinter import *
 ```
 
 **步骤 2:** 现在，使用 tkinter 创建一个 GUI 应用程序。
 
-```
+```py
 app=Tk()
 ```
 
 **步骤 3:** 然后，在 tkinter 中创建一个从网格中移除小部件的函数。在创建的函数中，我们使用了内置函数 **grid_remove()** 来移除某些小部件。
 
-```
+```py
 def remove(widget1):
     widget1.grid_remove()
 ```
@@ -101,7 +101,7 @@ def remove(widget1):
 
 **第八步:**最后，做在屏幕上显示 GUI app 的循环。
 
-```
+```py
 app.mainloop()
 ```
 
@@ -111,7 +111,7 @@ app.mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to remove widgets
 # from grid in tkinter
 

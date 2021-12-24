@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def weeklyPaid(hours_worked, wage):
     if hours_worked > 40:
         return 40 * wage + (hours_worked - 40) * wage * 1.5
@@ -43,7 +43,7 @@ print(f"Total gross pay: Rs.{pay:.2f} ")
 
 **输出:**
 
-```
+```py
 Total gross pay: Rs.5500.00 
 
 ```
@@ -63,7 +63,7 @@ Total gross pay: Rs.5500.00
 
 ## 蟒蛇 3
 
-```
+```py
 def getGrossPay(annual_salary, no_of_pay_peroids):
     return float(annual_salary/no_of_pay_peroids)
 
@@ -79,7 +79,7 @@ print(f"Total gross pay: Rs.{pay:.2f} lakhs ")
 
 **输出:**
 
-```
+```py
 Total gross pay: Rs.1.00 lakhs 
 
 ```

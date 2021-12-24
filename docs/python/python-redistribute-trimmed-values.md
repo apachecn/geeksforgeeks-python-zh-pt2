@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Redistribute Trimmed Values
 # Using slice() + sum()
@@ -55,7 +55,7 @@ print("Redistributed list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 2, 8, 9, 3, 1, 2, 4]
 Redistributed list : [5.0, 11.0, 12.0, 6.0, 4.0]
 

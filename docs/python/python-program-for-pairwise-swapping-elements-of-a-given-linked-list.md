@@ -4,7 +4,7 @@
 
 给定一个单链表，编写一个成对交换元素的函数。
 
-```
+```py
 Input: 1->2->3->4->5->6->NULL 
 Output: 2->1->4->3->6->5->NULL
 
@@ -23,7 +23,7 @@ Output: 1->NULL 
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to swap the elements of
 # linked list pairwise
 
@@ -103,7 +103,7 @@ llist.printList()
 
 **输出:**
 
-```
+```py
 Linked list before calling pairWiseSwap()
 1 2 3 4 5 
 Linked list after calling pairWiseSwap()

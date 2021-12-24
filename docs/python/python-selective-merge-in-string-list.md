@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join() + zip()`**
 以上方法的组合可以用来执行这个任务。在本文中，我们使用 zip()组合相似的元素，并使用 join()执行合并操作。列表理解用于提供逻辑和迭代。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Selective Merge in String list
 # using list comprehension + join() + zip()
@@ -34,7 +34,7 @@ print("The resultant list after Selective Merge : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : ['abc', 'de', 'efgh']
 The original list 2 : ['gfg', 'is', 'good']
 The resultant list after Selective Merge : ['gbg', 'de', 'gfgh']

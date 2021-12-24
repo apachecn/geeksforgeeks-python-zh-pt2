@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```py
 UPDATE tablename
 SET ="new value"
 WHERE ="old value";
@@ -25,7 +25,7 @@ WHERE ="old value";
 
 **例 1:** 更新名为里什·库马尔的学生年龄的程序。
 
-```
+```py
 # Python program to demonstrate
 # update clause
 
@@ -56,7 +56,7 @@ mydb.close()
 
 **示例 2:** 一个名为 SK 的学生的拼写纠正程序
 
-```
+```py
 # Python program to demonstrate
 # update clause
 

@@ -10,7 +10,7 @@
 **Tabbing :** 添加选项卡使浏览器的内部有点复杂，因为现在需要跟踪当前活动的浏览器视图，既要将 UI 元素(URL 栏)更新为当前活动窗口中不断变化的状态，又要确保将 UI 事件分派到正确的 web 视图。
 **PyQt5** 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。它是使用下面给出的命令安装的
 
-```
+```py
 pip install PyQt5
 ```
 
@@ -44,7 +44,7 @@ pip install PyQt5
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *

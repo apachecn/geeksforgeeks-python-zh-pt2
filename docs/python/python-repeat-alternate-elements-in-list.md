@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个特殊的任务通常需要 2 个循环，列表理解可以在一行中执行这个特殊的任务，从而减少代码的行数，提高代码的可读性。
 
-```
+```py
 # Python3 code to demonstrate 
 # Alternate Element Repetition
 # using list comprehension
@@ -31,7 +31,7 @@ print("The list after alternate repeating elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, 6]
 The list after alternate repeating elements : [4, 4, 4, 6, 6, 6]
 

@@ -5,7 +5,7 @@
 给定一个 Python 中的字典，编写一个 Python 程序来查找字典中所有条目的总和。
 **例:**
 
-```
+```py
 Input : {'a': 100, 'b':200, 'c':300}
 Output : 600
 
@@ -18,7 +18,7 @@ Output : 88
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to find sum of
 # all items in a Dictionary
 
@@ -39,7 +39,7 @@ print("Sum :", returnSum(dict))
 
 *   **输出:**
 
-```
+```py
 Sum : 600
 ```
 
@@ -48,7 +48,7 @@ Sum : 600
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to find sum of
 # all items in a Dictionary
 
@@ -68,7 +68,7 @@ print("Sum :", returnSum(dict))
 
 *   **输出:**
 
-```
+```py
 Sum : 600
 ```
 
@@ -77,7 +77,7 @@ Sum : 600
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to find sum of
 # all items in a Dictionary
 
@@ -97,6 +97,6 @@ print("Sum :", returnSum(dict))
 
 *   **输出:**
 
-```
+```py
 Sum : 600
 ```

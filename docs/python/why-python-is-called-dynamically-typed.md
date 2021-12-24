@@ -9,7 +9,7 @@ Python 变量赋值不同于一些流行的语言，如 c、c++和 java。没有
 
 但是 Python 是一种**动态类型的**语言。在代码运行之前，它不知道变量的类型。所以声明没有用。它的作用是，将该值存储在某个内存位置，然后将该变量名绑定到该内存容器。并通过该变量名访问容器的内容。所以数据类型不重要。因为它将在运行时知道值的类型。
 
-```
+```py
 # This will store 6 in the memory and binds the
 # name x to it. After it runs, type of x will
 # be int.
@@ -27,7 +27,7 @@ print(type(x))
 
 **Output:**
 
-```
+```py
 <class 'int'>
 <class 'str'>
 

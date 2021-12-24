@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Rows for similar Kth column element
 # Using loop
@@ -45,7 +45,7 @@ print("The filtered Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[3, 4, 5], [2, 3, 5], [10, 4, 3], [7, 8, 9], [9, 3, 6]]
 The filtered Matrix : [[3, 4, 5], [2, 3, 5], [7, 8, 9]]
 ```

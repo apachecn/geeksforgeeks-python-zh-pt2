@@ -9,7 +9,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们在获取索引后对字符串进行迭代，直到第一个空格。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Word starting at Index
 # Using loop
@@ -37,7 +37,7 @@ print("Word at index K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg is best for geeks
 Word at index K : best
 

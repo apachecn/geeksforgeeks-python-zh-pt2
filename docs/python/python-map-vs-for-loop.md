@@ -9,7 +9,7 @@
 *   这是对多个数字应用相同函数的一种方式。
 *   它在特定位置生成地图对象。
 *   当我们在元素上调用一个已经定义的函数时，它工作得很快
-*   ```
+*   ```py
      map(functionname, iterable)
     ```
 
@@ -21,7 +21,7 @@ Python 中循环的**:**
 *   当不需要结果时使用。
 *   执行顺序遍历。
 *   从 0 到 n 的循环运行 n+1 次。
-*   ```
+*   ```py
      for var in iterable :
                    statements 
     ```
@@ -34,7 +34,7 @@ Python 中循环的**:**
 
 ## 计算机编程语言
 
-```
+```py
 # function to square a given number
 def squareNum (a) :
     return a * a
@@ -65,7 +65,7 @@ for i in listt :
 
 **输出:**
 
-```
+```py
 <map object at 0x7fe413cf9b00>
 [0, 1, 9, 20.25, 9801, 0.0064]
 0
@@ -95,7 +95,7 @@ for i in listt :
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # we use the keyword 'pass'
     # to simply get a for loop 
     # with no content
@@ -109,7 +109,7 @@ for i in listt :
 
     ## 计算机编程语言
 
-    ```
+    ```py
     # for loop with else condition
 
     for i in range(10) :
@@ -120,7 +120,7 @@ for i in listt :
 
     **输出:**
 
-    ```
+    ```py
     0
     1
     2

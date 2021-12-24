@@ -31,7 +31,7 @@ python 中的 JSON 包有一个名为`json.dumps()`的函数，它有助于将�
 
 **示例:**
 
-```
+```py
 # Python program to write JSON
 # to a file
 
@@ -70,7 +70,7 @@ JSON 包具有“转储”功能，直接将字典以 JSON 的形式写入文件
 
 **示例:**
 
-```
+```py
 # Python program to write JSON
 # to a file
 
@@ -104,7 +104,7 @@ json 包有`json.load()`功能，将 json 文件中的 JSON 内容加载到字�
 
 *   **文件指针:**指向 JSON 文件的文件指针。
 
-```
+```py
 # Python program to read JSON
 # from a file
 

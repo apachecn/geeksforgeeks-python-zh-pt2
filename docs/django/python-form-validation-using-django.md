@@ -9,7 +9,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from django.db import models
 
 # model named Post
@@ -37,14 +37,14 @@ class Post(models.Model):
 
 创建数据模型后，需要将更改反映在数据库中，为此，运行以下命令:
 
-```
+```py
 python manange.py makemigrations
 
 ```
 
 这样做可以编译模型，如果没有发现任何错误，就会在迁移文件夹中创建一个文件。稍后运行下面给出的命令，最终将保存在迁移文件中的更改反映到数据库中。
 
-```
+```py
 python manage.py migrate
 
 ```
@@ -53,7 +53,7 @@ python manage.py migrate
 
 ## 计算机编程语言
 
-```
+```py
 from django.forms import ModelForm
 from django import forms
 from formValidationApp.models import *
@@ -92,7 +92,7 @@ class PostForm(ModelForm):
 到目前为止，已经定义了数据模型和表单类。现在重点将放在如何实际使用上面定义的这些模块上。
 首先，通过此命令在本地主机上运行
 
-```
+```py
 python manage.py runserver
 
 ```
@@ -102,7 +102,7 @@ T5】URL . py 文件如下:
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
@@ -119,7 +119,7 @@ urlpatterns = [
 
 ## **计算机编程语言**
 
-```
+```py
 from .models import Post
 from .forms import PostForm
 from .import views

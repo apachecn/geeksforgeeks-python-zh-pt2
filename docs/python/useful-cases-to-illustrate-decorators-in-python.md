@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # decorators
 
@@ -33,7 +33,7 @@ decorated
 
 **输出:**
 
-```
+```py
 This is decorated function
 This is ordinary function
 
@@ -43,7 +43,7 @@ This is ordinary function
 
 **这个:**
 
-```
+```py
 @decorated_func
 def ordinary_func():
      print("This is ordinary function")
@@ -52,7 +52,7 @@ def ordinary_func():
 
 **相当于:**
 
-```
+```py
 def ordinary_func():
     print("This is ordinary function")
 decorated = decorated_func(ordinary_func)
@@ -64,7 +64,7 @@ decorated = decorated_func(ordinary_func)
 **例 2:**
 **输入:**
 
-```
+```py
 def mul_decorator(func):
     def wrapper(*args, **kwargs):
         print('function', func.__name__, 'called with args - ', /
@@ -83,7 +83,7 @@ mul(3, b = 6)
 
 **输出:**
 
-```
+```py
 function mul called with args -  (3, 3) and kwargs -  {}
 function mul returns 9
 function mul called with args -  (3,) and kwargs -  {'b': 6}
@@ -95,7 +95,7 @@ function mul returns 18
 
 **例 3:**
 
-```
+```py
 # func will be func = type(func) -> <class 'function'>
 @type
 def func(): 
@@ -114,7 +114,7 @@ print(func2)
 
 **输出:**
 
-```
+```py
 <class 'function'>
 <function func2 at 0x7f135f067f28>
 None
@@ -125,7 +125,7 @@ None
 
 **例 4:**
 
-```
+```py
 # Creating a decorator
 class function_1:
     def __init__(self, func):
@@ -161,13 +161,13 @@ print(func)
 
 **输出:**
 
-```
+```py
 3.0
 1.5
 
 ```
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1ba974e44c61e303979b3ee120b6b066.py", line 29, in 
     func(5, 0)
@@ -186,7 +186,7 @@ ZeroDivisionError: division by zero
 
 **例 5:**
 
-```
+```py
 def dict_from_func(func):
     return {func.__name__: func}
 
@@ -209,7 +209,7 @@ print(activity['mul'](2, 5))
 
 **输出:**
 
-```
+```py
 None
 {'mul': <function mul at 0x7f0d2209fe18>, 
  'add': <function add at 0x7f0d220a2158>}
@@ -221,7 +221,7 @@ None
 
 **其实这个:**
 
-```
+```py
 @activity.update
 @dict_from_func
 def mul(a, b):
@@ -231,7 +231,7 @@ def mul(a, b):
 
 **等于这个–**
 
-```
+```py
 def mul(a, b):
     return a * b
 mul = activity.update(dict_from_func(mul))

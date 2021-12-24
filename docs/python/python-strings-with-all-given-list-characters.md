@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strings with all List characters
 # Using loop
@@ -50,7 +50,7 @@ print("Filtered Strings : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : ['Geeks', 'Gfg', 'Geeksforgeeks', 'free']
 Filtered Strings : ['Gfg', 'Geeksforgeeks']
 
@@ -62,7 +62,7 @@ Filtered Strings : ['Gfg', 'Geeksforgeeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Strings with all List characters
 # Using all() + list comprehension
@@ -85,7 +85,7 @@ print("Filtered Strings : " + str(res_list))
 
 **Output**
 
-```
+```py
 The original list is : ['Geeks', 'Gfg', 'Geeksforgeeks', 'free']
 Filtered Strings : ['Gfg', 'Geeksforgeeks']
 

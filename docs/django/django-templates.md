@@ -14,7 +14,7 @@ Django 模板可以在 app_name/settings.py 中配置，
 
 ## 蟒蛇 3
 
-```
+```py
 TEMPLATES = [
     {
         # Template backend to be used, For example Jinja
@@ -49,7 +49,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -69,7 +69,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -84,7 +84,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -121,20 +121,20 @@ urlpatterns = [
 
 句法
 
-```
+```py
 {{ variable_name }}
 ```
 
 示例
 变量被{{ and }}包围，如下所示:
 
-```
+```py
 My first name is {{ first_name }}. My last name is {{ last_name }}. 
 ```
 
 使用{'first_name': 'Naveen '，' last_name': 'Arora'}的上下文，此模板呈现为:
 
-```
+```py
 My first name is Naveen. My last name is Arora.
 ```
 
@@ -146,7 +146,7 @@ My first name is Naveen. My last name is Arora.
 
 句法
 
-```
+```py
 {% tag_name %}
 ```
 
@@ -154,13 +154,13 @@ My first name is Naveen. My last name is Arora.
 
 标签由{%和%}包围，如下所示:
 
-```
+```py
 {% csrf_token %}
 ```
 
 大多数标签接受参数，例如:
 
-```
+```py
 {% cycle 'odd' 'even' %}
 
 ```
@@ -182,7 +182,7 @@ Django 模板引擎提供了用于转换变量值和标签参数的过滤器。�
 
 句法
 
-```
+```py
 {{ variable_name | filter_name }}
 ```
 
@@ -192,7 +192,7 @@ Django 模板引擎提供了用于转换变量值和标签参数的过滤器。�
 
 例子
 
-```
+```py
 {{ value | length }}
 ```
 
@@ -220,14 +220,14 @@ Django 模板引擎提供了用于转换变量值和标签参数的过滤器。�
 
 句法
 
-```
+```py
 {% comment 'comment_name' %}
 {% endcomment %}
 ```
 
 示例:
 
-```
+```py
 {% comment "Optional note" %}
     Commented out text with {{ create_date|date:"c" }}
 {% endcomment %}
@@ -241,14 +241,14 @@ Django 模板引擎最强大也是最复杂的部分是模板继承。模板继�
 
 句法
 
-```
+```py
 {% extends 'template_name.html' %} 
 ```
 
 示例:
 假设如下目录结构:
 
-```
+```py
 dir1/
     template.html
     base2.html
@@ -261,7 +261,7 @@ base1.html
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "./base2.html" %}
 {% extends "../base1.html" %}
 {% extends "./my/base3.html" %}

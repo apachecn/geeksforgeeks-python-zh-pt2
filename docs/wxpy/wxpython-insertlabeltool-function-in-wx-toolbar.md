@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.InsertLabelTool(self, pos, id, label, bitmap, bmpDisabled=wx.NullBitmap, kind=wx.ITEM_NORMAL, shortHelp="", longHelp="", clientData=None)
 > 
 > ```
@@ -27,14 +27,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

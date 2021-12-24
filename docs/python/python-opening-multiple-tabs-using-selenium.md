@@ -8,7 +8,7 @@
 
 **安装**
 
-```
+```py
 pip install selenium
 ```
 
@@ -18,7 +18,7 @@ pip install selenium
 
 像 Chrome、火狐等流行浏览器。，下面给出了它们的网络驱动程序下载路径
 
-```
+```py
 Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
 Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
 Firefox: https://github.com/mozilla/geckodriver/releases
@@ -35,7 +35,7 @@ Safari: https://webkit.org/blog/6900/webdriver-support-in-safari-10
 
 ## 蟒蛇 3
 
-```
+```py
 # Necessary webdrivers ned to be imported
 from selenium import webdriver
 
@@ -59,7 +59,7 @@ webBrowser.get('https://www.geeksforgeeks.org/')
 
 ## 蟒蛇 3
 
-```
+```py
 # Necessary webdrivers ned to be imported
 from selenium import webdriver
 
@@ -98,7 +98,7 @@ webBrowser.get('https://www.geeksforgeeks.org/')
 
 ## 蟒蛇 3
 
-```
+```py
 # Necessary webdrivers ned to be imported
 from selenium import webdriver
 # Get the instance of the webBrowser 
@@ -129,7 +129,7 @@ webBrowser.get('https://www.facebook.com/')
 
 ## 蟒蛇 3
 
-```
+```py
 # Necessary imports
 from selenium import webdriver
 

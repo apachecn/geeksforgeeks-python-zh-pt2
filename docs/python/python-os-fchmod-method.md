@@ -39,7 +39,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.fchmod() method
 
 # importing os module
@@ -110,7 +110,7 @@ os.close(fd)
 
 **Output:** 
 
-```
+```py
 Current numeric mode of the file (octal notation): 666
 
 File mode changed successfully

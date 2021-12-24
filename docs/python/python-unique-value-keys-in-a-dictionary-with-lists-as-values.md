@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `count()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用计数和提取来执行计数事件的任务，并且使用使用条件语句的循环来完成测试。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Keys Values
 # Using loop + count()
@@ -34,7 +34,7 @@ print("The unique values keys are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 5], 'best': [12, 6, 5], 'is': [6, 10, 5]}
 The unique values keys are : ['best', 'is']
 

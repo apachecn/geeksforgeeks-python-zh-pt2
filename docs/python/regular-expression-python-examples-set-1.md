@@ -8,7 +8,7 @@ A **正则表达式(RegEx)** 是一个特殊的字符序列，它使用搜索模
 
 ## 蟒 3
 
-```
+```py
 import re
 
 s = 'GeeksforGeeks: A computer science portal for geeks'
@@ -21,7 +21,7 @@ print('End Index:', match.end())
 
 **输出**
 
-```
+```py
 Start Index: 34
 End Index: 40
 ```

@@ -13,29 +13,29 @@ Django 是一个高级 Python Web 框架，它鼓励快速开发和干净、实�
 
 **安装**
 
-```
+```py
 pip install django
 ```
 
 从一种语言到另一种语言的文本翻译对于各种网站来说越来越普遍，因为它们迎合了国际受众。帮助我们做到这一点的 python 包叫做**翻译**。
 
-```
+```py
 pip install translate
 ```
 
 然后创建新项目
 
-```
+```py
 django-admin startproject translator
 ```
 
-```
+```py
 cd translator
 ```
 
 然后在项目中创建新的应用程序
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -47,7 +47,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render,HttpResponse
 from translate import Translator
 # Create your views here.
@@ -70,7 +70,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -97,7 +97,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from .views import *
 
@@ -110,7 +110,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 
@@ -122,7 +122,7 @@ urlpatterns = [
 
 要运行此应用程序，请打开 cmd 或终端
 
-```
+```py
 python manage.py runserver
 ```
 

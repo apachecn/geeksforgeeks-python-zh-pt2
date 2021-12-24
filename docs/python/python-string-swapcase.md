@@ -17,7 +17,7 @@ string swapcase()方法将给定字符串的所有大写字符转换为小写字
 
 下面是 swapcase()方法的 Python 实现
 
-```
+```py
 # Python program to demonstrate the use of
 # swapcase() method  
 
@@ -32,7 +32,7 @@ print(string.swapcase())  
 
 输出:
 
-```
+```py
 GeeKSforGEEKS
 STRIVER
 

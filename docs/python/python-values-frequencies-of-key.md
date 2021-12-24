@@ -13,7 +13,7 @@
 **方法一:使用`Counter()` +列表理解**
 以上功能的组合用于解决这个问题。在本文中，我们使用 Counter()执行寻找频率的任务，并使用列表理解完成计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values frequencies of key
 # Using Counter() + list comprehension
@@ -47,7 +47,7 @@ print("The frequency dictionary : " + str(dict(res))) 
 **方法 2:使用`chain.from_iterables() + Counter()`**
 以上方法的结合可以解决这个问题。在本文中，我们使用 chain.from_iterables()执行迭代和绑定任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values frequencies of key
 # Using chain.from_iterables() + Counter()

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ['Hello World']
 Output : ['Hello', 'world']
 
@@ -20,7 +20,7 @@ Python 提供的将给定的句子列表转换成具有独立索引的单词的�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Convert single
 # indexed list into multiple indexed list
 
@@ -34,7 +34,7 @@ print( convert(lst))
 
 **Output:** 
 
-```
+```py
 ['Geeks', 'For', 'geeks']
 ```
 
@@ -43,7 +43,7 @@ print( convert(lst))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Convert single
 # indexed list into multiple indexed list
 
@@ -57,7 +57,7 @@ print( convert(lst))
 
 **Output:** 
 
-```
+```py
 ['Geeksforgeeks', 'is', 'a', 'portal', 'for', 'geeks']
 ```
 
@@ -66,7 +66,7 @@ print( convert(lst))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Convert single
 # indexed list into multiple indexed list
 
@@ -80,6 +80,6 @@ print( convert(lst))
 
 **Output:** 
 
-```
+```py
 ['Hello', 'Geeks', 'for', 'geeks']
 ```

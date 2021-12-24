@@ -12,7 +12,7 @@
 
 下面是以块为单位读取条目的代码。
 
-```
+```py
 chunk = pandas.read_csv(filename,chunksize=...)
 ```
 
@@ -20,7 +20,7 @@ chunk = pandas.read_csv(filename,chunksize=...)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np
@@ -47,7 +47,7 @@ df.sample(10)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pandas as pd
 import numpy as np

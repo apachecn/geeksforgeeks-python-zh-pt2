@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change value if value equals K in dictionary
 # Using loop
@@ -57,7 +57,7 @@ print("The dictionary after values replacement : " + str(test_dict))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Change value if value equals K in dictionary
 # Using dictionary comprehension

@@ -18,19 +18,19 @@
 
 我们的主要模块包含一个通过 HTTP 访问网页的方法。
 
-```
+```py
 pip install bs4
 ```
 
 [lxml](https://pypi.org/project/lxml/):python 语言处理网页的助手库。
 
-```
+```py
 pip install lxml
 ```
 
 [请求](https://pypi.org/project/requests/):使得发送 HTTP 请求的过程完美无缺，函数的输出
 
-```
+```py
 pip install requests
 ```
 
@@ -49,7 +49,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -82,7 +82,7 @@ soup = BeautifulSoup(webpage.content, "lxml")
 
 ## 蟒蛇 3
 
-```
+```py
 try:
         title = soup.find("span",
                           attrs={"id": 'productTitle'})
@@ -104,7 +104,7 @@ except AttributeError:
 
 ## 蟒蛇 3
 
-```
+```py
 File.write(f"{title_string},")
 ```
 
@@ -115,7 +115,7 @@ File.write(f"{title_string},")
 
 ## 蟒蛇 3
 
-```
+```py
 File.write(f"{available},\n")
 
 # closing the file
@@ -128,7 +128,7 @@ File.close()
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
   # opening our url file to access URLs
     file = open("url.txt", "r")
@@ -144,7 +144,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 from bs4 import BeautifulSoup
 import requests

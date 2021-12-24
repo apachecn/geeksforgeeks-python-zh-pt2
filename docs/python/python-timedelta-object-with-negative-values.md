@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime and timedelta from
 # datetime module
 from datetime import datetime, timedelta
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Current date is: 2021-03-24
 Resultant time after using timedelta object is: 2019-10-07
 ```
@@ -67,7 +67,7 @@ Resultant time after using timedelta object is: 2019-10-07
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime and timedelta from
 # datetime module
 from datetime import datetime, timedelta
@@ -107,7 +107,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Current time is: 15:53:37.019928
 Resultant time after using timedelta object is: 03:38:37.019928
 ```
@@ -118,7 +118,7 @@ Resultant time after using timedelta object is: 03:38:37.019928
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime and timedelta from
 # datetime module
 from datetime import datetime, timedelta
@@ -157,7 +157,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Current time is: 15:52:59.538796
 Resultant time after using timedelta object is: 00:27:59.538796
 ```
@@ -168,7 +168,7 @@ Resultant time after using timedelta object is: 00:27:59.538796
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime and timedelta from datetime module
 from datetime import datetime,timedelta
 
@@ -204,7 +204,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Current time is: 2021-03-24 15:51:33.024268
 Resultant time after using timedelta object is: 2021-03-13 00:25:39.024268
 ```

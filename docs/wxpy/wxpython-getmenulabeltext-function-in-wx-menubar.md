@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.GetMenuLabelText(self, menuindex)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

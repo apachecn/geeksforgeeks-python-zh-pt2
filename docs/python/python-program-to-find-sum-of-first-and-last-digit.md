@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # We have a number
 number = 1247
 
@@ -70,7 +70,7 @@ print('Addition of first and last digit of the number is', 
 
 ## 蟒蛇 3
 
-```
+```py
 # We have a number.
 number = 1247
 
@@ -96,7 +96,7 @@ print('Addition of first and last digit of number is', res)
 
 **输出:**
 
-```
+```py
 Addition of first and last digit of the number is 8
 ```
 

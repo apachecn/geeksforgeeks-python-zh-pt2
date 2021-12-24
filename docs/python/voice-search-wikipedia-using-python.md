@@ -36,7 +36,7 @@
 
 要在系统上安装上述模块，请使用以下方法:
 
-```
+```py
 pip install pyttsx3
 pip install SpeechRecognition
 pip install wolframalpha
@@ -57,7 +57,7 @@ pip install wikipedia
 
 下面是实现。
 
-```
+```py
 # Python package supporting common text-to-speech engines
 import pyttsx3
 

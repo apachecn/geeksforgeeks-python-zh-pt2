@@ -7,7 +7,7 @@
 **方法#1:使用 Naive 方法+ `startswith() + pop()`**
 这个特定的任务可以使用上述函数的组合来执行，这是一个执行这个任务的蛮力方法。`pop`功能用于删除键值对，`startswith`提供必须执行该操作的条件。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Keys from dictionary starting with K
 # Using Naive Method + startswith() + pop()
@@ -34,7 +34,7 @@ print("Dictionary after key removal : " + str(test_dict))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Apple': 1, 'Star': 2, 'App': 4, 'Gfg': 3}
 Dictionary after key removal : {'Star': 2, 'Gfg': 3}
 

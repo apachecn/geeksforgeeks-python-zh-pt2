@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def gfg():
     print("Welcome to GFG")
 ```
@@ -27,14 +27,14 @@ def gfg():
 
 ## 蟒蛇 3
 
-```
+```py
 def sum(a, b):
     return a+b
 ```
 
 我们的产品包的层次结构如下–
 
-```
+```py
 mypckg
 |
 |
@@ -57,7 +57,7 @@ __init__。py 帮助 Python 解释器将文件夹识别为包。它还指定了�
 
 ## 蟒蛇 3
 
-```
+```py
 from .mod1 import gfg
 from .mod2 import sum
 ```
@@ -70,7 +70,7 @@ from .mod2 import sum
 
 **语法:**
 
-```
+```py
 import package_name.module_name
 ```
 
@@ -80,7 +80,7 @@ import package_name.module_name
 
 ## 蟒蛇 3
 
-```
+```py
 from mypckg import mod1
 from mypckg import mod2
 
@@ -91,7 +91,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 Welcome to GFG
 3
 ```
@@ -102,7 +102,7 @@ Welcome to GFG
 
 ## 蟒蛇 3
 
-```
+```py
 from mypckg.mod1 import gfg
 from mypckg.mod2 import sum
 
@@ -113,7 +113,7 @@ print(res)
 
 **输出:**
 
-```
+```py
 Welcome to GFG
 3
 ```

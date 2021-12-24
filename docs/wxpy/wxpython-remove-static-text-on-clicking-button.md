@@ -18,7 +18,7 @@
 
 **代码:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

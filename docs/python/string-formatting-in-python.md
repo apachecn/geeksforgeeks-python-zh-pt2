@@ -19,7 +19,7 @@
 
 ## 对字符串进行格式化
 
-```
+```py
 print("The mangy, scrawny stray dog %s gobbled down" +
       "the grain-free, organic dog food." %'hurriedly')
 ```
@@ -34,7 +34,7 @@ print("The mangy, scrawny stray dog %s gobbled down" +
 
 ## 注入多个字符串【python 3】
 
-```
+```py
 x = 'looked'
 
 print("Misha %s and %s around"%('walked',x))
@@ -42,7 +42,7 @@ print("Misha %s and %s around"%('walked',x))
 
 **输出:**
 
-```
+```py
 Misha walked and looked around.
 ```
 
@@ -52,7 +52,7 @@ Misha walked and looked around.
 
 ## 蟒蛇 3
 
-```
+```py
 print('Joe stood up and %s to the crowd.' %'spoke')
 
 print('There are %d dogs.' %4)
@@ -60,7 +60,7 @@ print('There are %d dogs.' %4)
 
 **输出:**
 
-```
+```py
 Joe stood up and spoke to the crowd.
 There are 4 dogs.
 ```
@@ -75,13 +75,13 @@ There are 4 dogs.
 
 ## python 3
 
-```
+```py
 print('The value of pi is: %5.4f' %(3.141592))
 ```
 
 **输出:**
 
-```
+```py
 The value of pi is: 3.1416
 ```
 
@@ -89,13 +89,13 @@ The value of pi is: 3.1416
 
 ## 蟒 3
 
-```
+```py
 print('Floating point numbers: %1.0f' %(13.144))
 ```
 
 **输出:**
 
-```
+```py
 Floating point numbers: 13
 ```
 
@@ -103,7 +103,7 @@ Floating point numbers: 13
 
 ## python 3
 
-```
+```py
 variable = 12
 
 string = "Variable as integer = %d \n\
@@ -114,7 +114,7 @@ print (string)
 
 **输出**
 
-```
+```py
 Variable as integer = 12 
 Variable as float = 12.000000
 ```
@@ -131,13 +131,13 @@ Variable as float = 12.000000
 
 ## python 3
 
-```
+```py
 print('We all are {}.'.format('equal'))
 ```
 
 **输出:**
 
-```
+```py
 We all are equal.
 ```
 
@@ -147,14 +147,14 @@ We all are equal.
 
 ## python 3
 
-```
+```py
 print('{2} {1} {0}'.format('directions',
                            'the', 'Read'))
 ```
 
 **输出:**
 
-```
+```py
 Read the directions.
 ```
 
@@ -162,7 +162,7 @@ Read the directions.
 
 ## python 3
 
-```
+```py
 print('a: {a}, b: {b}, c: {c}'.format(a = 1,
                                       b = 'Two',
                                       c = 12.3))
@@ -170,7 +170,7 @@ print('a: {a}, b: {b}, c: {c}'.format(a = 1,
 
 **输出:**
 
-```
+```py
 a: 1, b: Two, c: 12.3
 ```
 
@@ -178,7 +178,7 @@ a: 1, b: Two, c: 12.3
 
 ## python 3
 
-```
+```py
 print('The first {p} was alright, but the {p} {p} was tough.'.format(p = 'second'))
 ```
 
@@ -203,7 +203,7 @@ print('The first {p} was alright, but the {p} {p} was tough.'.format(p = 'second
 
 ## 蟒 3
 
-```
+```py
 print('The valueof pi is: %1.5f' %3.141592)
 
 # vs.
@@ -213,7 +213,7 @@ print('The valueof pi is: {0:1.5f}'.format(3.141592))
 
 **输出:**
 
-```
+```py
 The valueof pi is: 3.14159
 The valueof pi is: 3.14159
 ```
@@ -230,7 +230,7 @@ PEP 498 引入了一种新的字符串格式化机制，称为文字字符串插
 
 ## python 3
 
-```
+```py
 name = 'Ele'
 
 print(f"My name is {name}.")
@@ -238,7 +238,7 @@ print(f"My name is {name}.")
 
 **输出:**
 
-```
+```py
 My name is Ele.
 ```
 
@@ -248,7 +248,7 @@ My name is Ele.
 
 ## python 3
 
-```
+```py
 a = 5
 
 b = 10
@@ -258,7 +258,7 @@ print(f"He said his age is {2 * (a + b)}.")
 
 **输出:**
 
-```
+```py
 He said his age is 30.
 ```
 
@@ -268,13 +268,13 @@ He said his age is 30.
 
 ## python 3
 
-```
+```py
 print(f"He said his age is {(lambda x: x*2)(3)}")
 ```
 
 **输出:**
 
-```
+```py
 He said his age is 6
 ```
 
@@ -286,7 +286,7 @@ He said his age is 6
 
 ## python 3
 
-```
+```py
 num = 3.14159
 
 print(f"The valueof pi is: {num:{1}.{5}}")
@@ -294,7 +294,7 @@ print(f"The valueof pi is: {num:{1}.{5}}")
 
 **输出:**
 
-```
+```py
 The valueof pi is: 3.1416
 ```
 
@@ -308,7 +308,7 @@ The valueof pi is: 3.1416
 
 ## python 3
 
-```
+```py
 # Python program to demonstrate
 # string interpolation
 

@@ -8,7 +8,7 @@
 
 ## 蟒蛇
 
-```
+```py
 # import BeautifulSoup
 from bs4 import BeautifulSoup
 

@@ -10,7 +10,7 @@ T4【代码:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 from pgmagick import Image
 
@@ -31,7 +31,7 @@ img.write('sharp_koala.jpg')
 
 ## 蟒蛇 3
 
-```
+```py
 # importing library
 from pgmagick.api import Image
 

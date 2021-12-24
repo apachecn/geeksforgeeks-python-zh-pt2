@@ -12,7 +12,7 @@ PyQt5 支持窗口状态栏。这是一个窗口底部的小栏，有时会出�
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

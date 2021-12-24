@@ -30,7 +30,7 @@ Python 自带的函数称为内置函数。Python 提供了像 print()等内置�
 
 **语法:**
 
-```
+```py
 def function_name():
     statements
     .
@@ -41,7 +41,7 @@ def function_name():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate functions
 
@@ -56,7 +56,7 @@ fun()
 
 **输出:**
 
-```
+```py
 Inside function
 ```
 
@@ -65,7 +65,7 @@ Inside function
 该函数可以将参数(也称为参数)作为左圆括号和右圆括号内的输入，就在函数名后面跟一个冒号。
 **语法:**
 
-```
+```py
 def function_name(argument1, argument2, ...):
     statements
     .
@@ -76,7 +76,7 @@ def function_name(argument1, argument2, ...):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate functions
 
@@ -95,7 +95,7 @@ evenOdd(3)
 
 **输出:**
 
-```
+```py
 even
 odd
 ```
@@ -107,7 +107,7 @@ odd
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # default arguments
 def myFun(x, y = 50):
@@ -121,7 +121,7 @@ myFun(10)
 
 **输出:**
 
-```
+```py
 x:  10
 y:  50
 ```
@@ -135,7 +135,7 @@ y:  50
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate Keyword Arguments
 def student(firstname, lastname): 
      print(firstname, lastname) 
@@ -147,7 +147,7 @@ student(lastname ='Practice', firstname ='Geeks')
 
 **输出:**
 
-```
+```py
 Geeks Practice
 Geeks Practice
 ```
@@ -164,7 +164,7 @@ Geeks Practice
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate  
 # *args and **kwargs
 def myFun1(*argv): 
@@ -185,7 +185,7 @@ myFun2(first ='Geeks', mid ='for', last ='Geeks') 
 
 **输出:**
 
-```
+```py
 Result of *args: 
 Hello
 Welcome
@@ -207,7 +207,7 @@ last == Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # verify pass by reference
 
@@ -222,14 +222,14 @@ myFun(x)
 
 **Output**
 
-```
+```py
 Value passed: 12 id: 11094656
 Value received: 12 id: 11094656
 ```
 
 **输出:**
 
-```
+```py
 Value passed: 12 id: 10853984
 Value received: 12 id: 10853984
 ```
@@ -239,7 +239,7 @@ Value received: 12 id: 10853984
 
 ## 蟒蛇 3
 
-```
+```py
 def myFun(x, arr):
     print("Inside function")
 
@@ -273,7 +273,7 @@ print("Array passed", arr, "Id", id(arr))
 
 **输出:**
 
-```
+```py
 Before calling function
 Value passed 10 Id 10853920
 Array passed [1, 2, 3] Id 139773681420488
@@ -293,7 +293,7 @@ Array passed [0, 2, 3] Id 139773681420488
 return 语句用于结束函数调用的执行，并将结果(return 关键字后面的表达式的值)返回给调用者。返回语句之后的语句不会被执行。如果 return 语句没有任何表达式，则返回特殊值 None。
 **语法:**
 
-```
+```py
 def fun():
     statements
     .
@@ -305,7 +305,7 @@ def fun():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate return statement
 
@@ -329,7 +329,7 @@ print("\nResult of is_true function is {}".format(res))
 
 **输出:**
 
-```
+```py
 Result of add function is 5
 
 Result of is_true function is True

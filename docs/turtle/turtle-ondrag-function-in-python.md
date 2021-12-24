@@ -19,7 +19,7 @@
 
 **示例:**
 
-```
+```py
 # importing package
 import turtle
 

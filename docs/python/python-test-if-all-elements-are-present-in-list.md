@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `all()`**
 这个任务可以使用 all()的内置功能来执行。all()可以被馈送列表理解逻辑，以检查测试列表的元素是否存在于目标列表中，其余的由`all()`完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all elements are present in list
 # Using list comprehension + all()
@@ -32,7 +32,7 @@ print("Does every element of test_list is in target_list ? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The target list : [6, 4, 8, 9, 10]
 The test list : [4, 6, 9]

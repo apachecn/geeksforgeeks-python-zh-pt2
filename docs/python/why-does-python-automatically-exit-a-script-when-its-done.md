@@ -10,7 +10,7 @@ Python 是一种脚本语言。这意味着 Python 代码是在 Python 解释器
 
 ## 蟒蛇 3
 
-```
+```py
 a = int(input("Enter number: "))
 #  waiting for user input...
 
@@ -39,7 +39,7 @@ print("Twice of the number: ", 2 * a)
 
 ## 蟒蛇 3
 
-```
+```py
 import atexit
 
 a = 5
@@ -50,7 +50,7 @@ atexit.register(print, "Exiting Python Script")
 
 **输出:**
 
-```
+```py
 Twice of a: 10
 Exiting Python Script
 

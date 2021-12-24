@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解可以通过访问列表中的当前和下一个元素，然后打印它们来打印对。将最后一个元素与第一个元素配对以形成循环对时，必须小心。
 
-```
+```py
 # Python3 code to demonstrate 
 # pair iteration in list 
 # using list comprehension
@@ -30,7 +30,7 @@ print ("The pair list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [0, 1, 2, 3, 4, 5]
 The pair list is : [(0, 1), (1, 2), (2, 3), (3, 4), (4, 5), (5, 0)]
 

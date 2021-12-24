@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 UPDATE tablename
 SET column_nmae = "new value"
 WHERE conditions;
@@ -21,7 +21,7 @@ WHERE conditions;
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -61,7 +61,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

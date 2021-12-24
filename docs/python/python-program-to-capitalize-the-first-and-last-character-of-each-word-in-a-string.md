@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: hello world 
 Output: HellO WorlD
 
@@ -24,7 +24,7 @@ Output: WelcomE TO GeeksforgeekS
 
 下面是实现。
 
-```
+```py
 # Python program to capitalize
 # first and last character of 
 # each word of a String
@@ -46,7 +46,7 @@ print("String after:", word_both_cap(str))
 
 **输出:**
 
-```
+```py
 String before: welcome to geeksforgeeks
 String after: WelcomE TO GeeksforgeekS
 

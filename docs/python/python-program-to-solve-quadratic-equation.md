@@ -4,7 +4,7 @@
 
 给定一个二次方程，任务是求解方程或找出方程的根。[二次方程](https://www.geeksforgeeks.org/program-to-find-the-roots-of-quadratic-equation/)的标准形式是–
 
-```
+```py
 ax2 + bx + c
 where,
 a, b, and c are coefficient and real numbers and also a ≠ 0.
@@ -16,7 +16,7 @@ If a is equal to 0 that equation is not valid quadratic equation.
 
 **示例:**
 
-```
+```py
 Input :a = 1, b = 2, c = 1 
 Output : 
 Roots are real and same
@@ -44,7 +44,7 @@ Roots are real and different
 
 有以下重要案例。
 
-```
+```py
 If b*b < 4*a*c, then roots are complex
 (not real).
 For example roots of x2 + x + 1, roots are
@@ -59,7 +59,7 @@ and different.
 For example, roots of x2 - 7x - 12 are 3 and 4
 ```
 
-```
+```py
 # Python program to find roots of quadratic equation
 import math 
 
@@ -101,7 +101,7 @@ else:
 
 **输出:**
 
-```
+```py
 real and different roots
 2.0
 -12.0
@@ -112,7 +112,7 @@ real and different roots
 
 首先要计算判别式，然后用 [cmath](https://www.geeksforgeeks.org/complex-numbers-in-python-set-1-introduction/) 模块求二次方程的两个解。
 
-```
+```py
 # import complex math module
 import cmath
 
@@ -135,7 +135,7 @@ print(ans2)
 
 **输出:**
 
-```
+```py
 The roots are
 (-3.414213562373095+0j)
 (-0.5857864376269049+0j)

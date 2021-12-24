@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code with time complexity
 # O(2^n)to print all subsets whose
 # sum is equal to a given value
@@ -52,7 +52,7 @@ subsetSum(n, arr, x)
 
 **输出:**
 
-```
+```py
 [10, 70]
 [10, 20, 50]
 ```
@@ -63,7 +63,7 @@ subsetSum(n, arr, x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Efficient Python code to
 # print all subsets whose sum
 # is equal to a given value
@@ -125,7 +125,7 @@ calcSubsets(n, arr, x)
 
 **输出:**
 
-```
+```py
 [10, 70]
 [10, 20, 50]
 ```

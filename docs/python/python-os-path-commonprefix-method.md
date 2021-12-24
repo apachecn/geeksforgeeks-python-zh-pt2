@@ -7,7 +7,7 @@
 Python 中的`***os.path.commonprefix()***`方法用于获取路径列表中最长的公共路径前缀。此方法仅返回指定列表中的公共前缀值，返回值可能是也可能不是有效路径，因为它通过逐个字符比较列表来检查公共前缀。
 例如，考虑以下路径列表:
 
-```
+```py
           list of paths                     common prefix
 ['/home/User/Photos', /home/User/Videos']    /home/User/         A valid path
 ['/usr/local/bin', '/usr/lib']               /usr/l              Not a valid path
@@ -23,7 +23,7 @@ Python 中的`***os.path.commonprefix()***`方法用于获取路径列表中最�
 
 **代码#1:** 使用 os.path.commonprefix()方法
 
-```
+```py
 # Python program to explain os.path.commonprefix() method 
 
 # importing os module 
@@ -59,7 +59,7 @@ print("Longest common path prefix:", prefix)
 
 **Output:**
 
-```
+```py
 Longest common path prefix: /home/User/D
 Longest common path prefix: /usr/
 

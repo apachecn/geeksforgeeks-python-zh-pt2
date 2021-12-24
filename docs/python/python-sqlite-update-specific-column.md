@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite3 module
 import sqlite3
 
@@ -83,7 +83,7 @@ for row in cursor:
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite3 module
 import sqlite3
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个任务可以使用循环以蛮力的方式执行。在这种情况下，我们可以循环遍历字典键和优先级列表。如果我们找到了键，我们就中断并给变量赋值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Priority key assignment in dictionary
 # Using loop
@@ -35,7 +35,7 @@ print("The variable value after assignment : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'gfg': 6, 'is': 4, 'CS': 10, 'for': 2}
 The variable value after assignment : 6
 

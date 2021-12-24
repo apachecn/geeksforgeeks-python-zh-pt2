@@ -16,7 +16,7 @@
 
 有两个 NLTK 库对于构建一个高效的反馈总结器是必要的。
 
-```
+```py
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize, sent_tokenize
 ```
@@ -35,14 +35,14 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
     任何不增加句子意义的词，如(is，a，an，the，for)。例如，假设我们有一个句子
 
-    ```
+    ```py
      GeeksForGeeks is one of the most useful websites for competitive programming.
 
     ```
 
     删除停止词后，我们可以缩小单词的数量并保留其含义，如下所示:
 
-    ```
+    ```py
     ['GeeksForGeeks', 'one', 'useful', 'website', 'competitive', 'programming', '.']
 
     ```
@@ -50,7 +50,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
     **第三步:**创建一个单词频率表
     一个 python 字典，它会记录每个单词在删除停止单词后在反馈中出现的次数。我们可以在每个句子上使用字典来知道哪些句子在整个文本中具有最相关的内容。
 
-    ```
+    ```py
     stopWords = set(stopwords.words("english"))
     words = word_tokenize(text)
     freqTable = dict()
@@ -60,7 +60,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
     我们可以使用**send _ token ize()**方法来创建句子数组。其次，我们需要一个字典来保存每个句子的分数，我们稍后会通过字典来生成摘要。
 
-    ```
+    ```py
     sentences = sent_tokenize(text)
     sentenceValue = dict()
     ```
@@ -68,7 +68,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
     **第五步:**给反馈内的句子分配一定的分值进行对比。
     比较分数的一个简单方法是找出一个句子的平均分数。平均值本身可以是一个很好的阈值。
 
-    ```
+    ```py
     sumValues = 0
     for sentence in sentenceValue:
         sumValues += sentenceValue[sentence]
@@ -79,7 +79,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
     **代码:使用 Python 完成文本摘要器的实现**
 
-    ```
+    ```py
     # importing libraries
     import nltk
     from nltk.corpus import stopwords

@@ -7,7 +7,7 @@
 
 为了给复选框添加凹槽边框，我们必须编辑与复选框对象一起使用的样式表。下面是 groove 边框的样式表代码。
 
-```
+```py
 QCheckBox
 {
 border : 5px blue;
@@ -18,7 +18,7 @@ border-style : groove;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

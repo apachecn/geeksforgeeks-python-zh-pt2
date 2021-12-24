@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in 
@@ -44,7 +44,7 @@ print(detail_tuple)
 
 **输出:**
 
-```
+```py
 ('498', 'ImperialCollege', 'London')
 ```
 
@@ -54,7 +54,7 @@ print(detail_tuple)
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in 
@@ -77,7 +77,7 @@ print(match_object.groups())
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/6510bd3e713a7b9a5629b30325c8a821.py", line 18, in 
     print(match_object.groups())

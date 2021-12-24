@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 我们可以使用`zip` 函数链接到每个元素的相似索引，列表理解可以用于执行转换为元组背后的逻辑，并将逻辑扩展到所有子列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Pairing and combining nested list to tuple list
 # using zip() + list comprehension

@@ -15,7 +15,7 @@ Python 中的`***os.path.exists()***`方法用于检查指定路径是否存在�
 
 **Code #1:** Use of os.path.exists() method
 
-```
+```py
 # Python program to explain os.path.exists() method 
 
 # importing os module 
@@ -40,7 +40,7 @@ print(isExist)
 
 **Output:**
 
-```
+```py
 True
 False
 

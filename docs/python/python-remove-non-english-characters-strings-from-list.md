@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Non-English characters Strings from List
 # Using regex + findall() + list comprehension
@@ -43,7 +43,7 @@ print("The extracted list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Non-English characters Strings from List
 # Using regex + search() + filter() + lambda

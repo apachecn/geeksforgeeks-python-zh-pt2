@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+循环**
 我们可以使用列表理解作为常规循环的潜在速记来解决这个问题，我们可以使用常规循环来执行这个特定的任务。我们只是迭代并乘积嵌套列表，最后使用函数返回累积乘积。
 
-```
+```py
 # Python3 code to demonstrate
 # Matrix Product
 # Using list comprehension + loop
@@ -35,7 +35,7 @@ print("The total element product in lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 4, 5], [7, 3], [4], [46, 7, 3]]
 The total element product in lists is : 1622880
 

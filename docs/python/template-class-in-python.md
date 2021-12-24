@@ -18,7 +18,7 @@ Python 字符串模板是通过将模板字符串传递给其构造函数来创�
 
 ## 计算机编程语言
 
-```
+```py
 # A Simple Python template example
 from string import Template
 
@@ -31,7 +31,7 @@ print (t.substitute({'x' : 1}))
 
 **输出:**
 
-```
+```py
 x is 1
 ```
 
@@ -40,7 +40,7 @@ x is 1
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate the
 # working of the string template
 from string import Template
@@ -58,7 +58,7 @@ for i in Student:
 
 **输出:**
 
-```
+```py
 Hi Ram, you have got 90 marks
 
 Hi Ankit, you have got 78 marks
@@ -71,7 +71,7 @@ Hi Bob, you have got 92 marks
 
 ## 蟒蛇 3
 
-```
+```py
 from string import Template
 
 template = Template('$name is the $job of $company')
@@ -83,7 +83,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 Raju Kumar is the TCE of $company
 ```
 
@@ -96,14 +96,14 @@ Raju Kumar is the TCE of $company
 
 ## 蟒蛇 3
 
-```
+```py
 t = Template('I am $name from $city')
 print('Template String =', t.template)
 ```
 
 **输出:**
 
-```
+```py
 Template String = I am $name from $city 
 ```
 
@@ -114,7 +114,7 @@ Template String = I am $name from $city
 
 ## 蟒蛇 3
 
-```
+```py
 template = Template('$ is the symbol for $name')
 string = template.substitute(name='Dollar')
 print(string)
@@ -122,7 +122,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 $ is the symbol for Dollar 
 ```
 
@@ -133,7 +133,7 @@ ${Identifier}的工作方式类似于$Identifier。当有效的标识符字符�
 
 ## 蟒蛇 3
 
-```
+```py
 template = Template( 'That $noun looks ${noun}y')
 string = template.substitute(noun='Fish')
 print(string)
@@ -141,7 +141,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 That Fish looks Fishy
 ```
 

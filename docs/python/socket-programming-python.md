@@ -6,7 +6,7 @@
 他们才是网页浏览背后真正的中坚力量。简单来说，有一个服务器和一个客户端。
 socket 编程是通过导入 Socket 库，制作一个简单的 Socket 开始的。
 
-```
+```py
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ```
@@ -18,13 +18,13 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 请注意，如果在创建套接字的过程中出现任何错误，那么套接字。错误被抛出，我们只能通过知道一个服务器的 IP 来连接它。您可以通过以下方式找到服务器的 IP 地址:
 
-```
+```py
 $ ping www.google.com
 ```
 
 您也可以使用 python 找到该 IP:
 
-```
+```py
 import socket 
 
 ip = socket.gethostbyname('www.google.com')
@@ -35,7 +35,7 @@ print ip
 
 ## 蟒蛇 3
 
-```
+```py
 # An example script to connect to Google using socket
 # programming in Python
 import socket # for socket
@@ -66,7 +66,7 @@ print ("the socket has successfully connected to google")
 
 **输出:**
 
-```
+```py
 Socket successfully created
 the socket has successfully connected to google 
 on port == 173.194.40.19
@@ -85,7 +85,7 @@ on port == 173.194.40.19
 
 ## 蟒蛇 3
 
-```
+```py
 # first of all import the socket library
 import socket            
 
@@ -136,7 +136,7 @@ while True:
 **客户端:**
 现在我们需要一个服务器可以与之交互的东西。我们可以像这样对服务器进行特殊化，只是为了知道我们的服务器正在工作。在终端中键入以下命令:
 
-```
+```py
 # start the server
 $ python server.py
 
@@ -150,7 +150,7 @@ $ telnet localhost 12345
 
 **输出:**
 
-```
+```py
 # in the server.py terminal you will see
 # this output:
 Socket successfully created
@@ -159,7 +159,7 @@ socket is listening
 Got connection from ('127.0.0.1', 52617)
 ```
 
-```
+```py
 # In the telnet terminal you will get this:
 Trying ::1...
 Trying 127.0.0.1...
@@ -173,7 +173,7 @@ Thank you for connectingConnection closed by foreign host.
 
 ## 蟒蛇 3
 
-```
+```py
 # Import socket module
 import socket            
 
@@ -197,7 +197,7 @@ s.close()    
 *   然后，我们在端口 12345(我们的服务器运行的端口)上连接到 localhost，最后，我们从服务器接收数据并关闭连接。
 *   现在将此文件保存为 client.py，并在启动服务器脚本后从终端运行它。
 
-```
+```py
 # start the server:
 $ python server.py
 Socket successfully created
@@ -206,7 +206,7 @@ socket is listening
 Got connection from ('127.0.0.1', 52617)
 ```
 
-```
+```py
 # start the client:
 $ python client.py
 Thank you for connecting

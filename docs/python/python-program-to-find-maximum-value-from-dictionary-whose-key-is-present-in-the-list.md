@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum value from List keys
 # Using loop 
@@ -57,7 +57,7 @@ print("The required maximum : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum value from List keys
 # Using max() + list comprehension

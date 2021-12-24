@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须使用 CSS 样式表，下面是样式表的代码。
 
-```
+```py
 QProgressBar
 {
  background-image : url(image.png);
@@ -19,7 +19,7 @@ QProgressBar
 
 这个样式表是和`setStyleSheet`方法一起使用的，下面是代码的实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

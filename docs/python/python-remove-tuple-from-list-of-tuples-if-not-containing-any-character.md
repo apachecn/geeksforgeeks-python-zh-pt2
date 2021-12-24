@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [(', ', 12), ('...', 55),
         ('-Geek', 115), ('Geeksfor', 115),]
 
@@ -16,7 +16,7 @@ Output: [('-Geek', 115), ('Geeksfor', 115)]
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python code to remove all those 
 # elements from list of tuple
 # which does not contains any alphabet.
@@ -42,7 +42,7 @@ print(out)
 
 **方法 2:使用正则表达式**
 
-```
+```py
 # Python code to remove all those 
 # elements from list of tuple
 # which does not contains any alphabet.
@@ -70,7 +70,7 @@ print(out)
 
  **方法三:使用滤镜和λ**
 
-```
+```py
 # Python code to remove all those 
 # elements from list of tuple
 # which does not contains any alphabet.

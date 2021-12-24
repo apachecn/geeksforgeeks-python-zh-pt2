@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by row sum
 # Using sort() + sum()
@@ -53,7 +53,7 @@ print("Sum sorted Matrix : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by row sum
 # Using sorted() + sum() + lambda

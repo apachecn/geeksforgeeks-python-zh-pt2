@@ -23,7 +23,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 
 **Code:** Use of os.getgrouplist() method
 
-```
+```py
 # Python program to explain os.getgrouplist() method 
 
 # importing os module 
@@ -69,7 +69,7 @@ print(groupList)
 
 **Output:**
 
-```
+```py
 ihritik is associated with the following group ids:
 [100, 4, 24, 27, 30, 46, 118, 128] 
 

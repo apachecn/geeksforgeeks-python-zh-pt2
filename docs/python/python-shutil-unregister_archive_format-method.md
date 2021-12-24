@@ -17,7 +17,7 @@
 
 **Code:** Use of shutil.unregister_archive_format() method
 
-```
+```py
 # Python program to explain shutil.unregister_archive_format() method  
 
 # importing shutil module 

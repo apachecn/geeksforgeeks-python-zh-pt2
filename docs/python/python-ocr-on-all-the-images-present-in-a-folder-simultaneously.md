@@ -8,7 +8,7 @@
 
 需要的库–
 
-```
+```py
 pip3 install pillow
 pip3 install os-sys
 ```
@@ -17,7 +17,7 @@ pip3 install os-sys
 
 Below is the Python implementation –
 
-```
+```py
 # Python program to extract text from all the images in a folder
 # storing the text in corresponding files in a different folder
 from PIL import Image
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 geeksforgeeks
 
@@ -71,7 +71,7 @@ geeksforgeeks
 
 如果你想把图像中的所有文本存储在一个输出文件中，那么代码会有一点不同。主要区别在于，我们将要写入的文件模式将更改为“**+一个**”来追加文本，并创建`output.txt`文件(如果它还不存在的话)。
 
-```
+```py
 # extract text from all the images in a folder
 # storing the text in a single file
 from PIL import Image
@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
 它给出了从文件夹内的图像中提取所有信息后创建的单个文件的输出。文件的格式是这样的–
 
-```
+```py
 Name of the image
 Content of the image
 Name of the next image and so on .....

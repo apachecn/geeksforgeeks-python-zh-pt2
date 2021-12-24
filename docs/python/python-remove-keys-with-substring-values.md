@@ -17,7 +17,7 @@
 **方法#1:使用`any()` +循环**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们从字典中提取所有没有所需值的项目，使用任何()和生成器表达式执行过滤。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove keys with substring values
 # Using any() + generator expression
@@ -50,7 +50,7 @@ print("Filtered Dictionary : " + str(res)) 
 **方法 2:使用字典理解+ `any()`**
 以上方法的组合提供了执行该任务的速记。在这种情况下，我们以与上述方法类似的方式执行该任务，但是使用理解的一种线性格式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove keys with substring values
 # Using dictionary comprehension + any()
@@ -74,7 +74,7 @@ print("Filtered Dictionary : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {1: 'Gfg is best for geeks', 2: 'Gfg is good', 3: 'I love Gfg'}
 Filtered Dictionary : {1: 'Gfg is best for geeks'}
 

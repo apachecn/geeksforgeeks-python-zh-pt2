@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_str = 'geeksforgeeksforgeeks', K = '@'
 Output : geeksfor@eeksfor@eeks
 
@@ -26,7 +26,7 @@ Explanation : All occurrences of g are converted to # except 0th index.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace occurrences by K except first character
 # Using slicing + replace()
@@ -49,7 +49,7 @@ print("Replaced String : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeksforgeeks
 Replaced String : geeksfor$eeksfor$eeks
 ```
@@ -60,7 +60,7 @@ Replaced String : geeksfor$eeksfor$eeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace occurrences by K except first character
 # Using replace()
@@ -83,7 +83,7 @@ print("Replaced String : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeksforgeeks
 Replaced String : geeksfor$eeksfor$eeks
 ```

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Singleton Borg pattern
 class Borg:
 
@@ -60,7 +60,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Algorithms
 Algorithms
 Geeks
@@ -79,7 +79,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Double Checked Locking singleton pattern
 
 import threading
@@ -131,7 +131,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 A1 :  __main__.X object at 0x02EA2590
 A2 :  __main__.X object at 0x02EA2590
 B1 :  __main__.Y object at 0x02EA25B0
@@ -144,7 +144,7 @@ B2 :  __main__.Y object at 0x02EA25B0
 
 ## 蟒蛇 3
 
-```
+```py
 # classic implementation of Singleton Design pattern
 class Singleton:
 
@@ -180,7 +180,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
  __main__.Singleton object at 0x014FFE90
  __main__.Singleton object at 0x014FFE90
 ```

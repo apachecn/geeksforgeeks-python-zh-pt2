@@ -31,7 +31,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing dictionary
 test_dict = {"gfg": [4], "is": [1, 4, 8], "best": [9, 10]}
 
@@ -73,7 +73,7 @@ print("The required output : " + str(res))*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing dictionary
 test_dict = {"gfg": [4, 1, 6], "is": [1, 4, 8], "best": [9, 10, 1]}
 

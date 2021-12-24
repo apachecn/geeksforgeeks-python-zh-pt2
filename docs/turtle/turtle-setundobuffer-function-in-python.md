@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.setundobuffer(size)
 ```
 
@@ -20,7 +20,7 @@ turtle.setundobuffer(size)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -42,7 +42,7 @@ print(turtle.undobufferentries())
 
 **输出:**
 
-```
+```py
 0
 10
 ```
@@ -51,7 +51,7 @@ print(turtle.undobufferentries())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -79,7 +79,7 @@ print(turtle.undobufferentries())
 
 **输出:**
 
-```
+```py
 0
 50
 0

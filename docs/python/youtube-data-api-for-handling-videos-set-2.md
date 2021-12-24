@@ -11,7 +11,7 @@
 
 *   **List most popular videos:** The `regionCode` parameter states the country for which you are retrieving videos. `videoCategoryId` parameter can be set to retrieve most popular videos in a particular category.
 
-    ```
+    ```py
     # import libraries
     from apiclient.discovery import build
     import pprint
@@ -76,13 +76,13 @@
 
     使用`pip`命令安装附加库:
 
-    ```
+    ```py
     pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
     ```
 
     以下是示例:
 
-    ```
+    ```py
     # importing libraries
     import os
     import google.oauth2.credentials

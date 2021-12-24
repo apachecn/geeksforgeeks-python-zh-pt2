@@ -16,19 +16,19 @@
 
 ****1。罗杰·亨廷顿方程:****
 
-```
+```py
 Time = 6.290 × (Weight / Power)^(1/3)
 ```
 
 ****2。杰弗里·福克斯方程:****
 
-```
+```py
 Time = 6.269 × (Weight / Power)^(1/3)
 ```
 
 ****3。帕特里克·黑尔方程:****
 
-```
+```py
 Time = 5.825 × (Weight / Power)^(1/3)
 ```
 
@@ -56,7 +56,7 @@ Time = 5.825 × (Weight / Power)^(1/3)
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing required libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

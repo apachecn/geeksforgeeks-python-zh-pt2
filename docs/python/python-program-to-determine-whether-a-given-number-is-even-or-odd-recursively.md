@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```py
 Input: 2
 Output: True
 Explanation : 2 % 2==0 So True
@@ -31,7 +31,7 @@ Explanation : 2 % 2 != 0 So, False
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the function having the one parameter as input
 def evenOdd(n):
 
@@ -55,7 +55,7 @@ else:
 
 **输出:**
 
-```
+```py
 3 num is odd
 ```
 
@@ -67,7 +67,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the function having
 # the one parameter as input
 def evenOdd(n):
@@ -92,7 +92,7 @@ else:
 
 **输出:**
 
-```
+```py
 3 num is odd
 ```
 
@@ -102,7 +102,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # writing the function having the range
 # and printing the even in that range
 def evenOdd(a,b):
@@ -128,6 +128,6 @@ evenOdd(x,y)
 
 **输出:**
 
-```
+```py
 2 4 6 8 10
 ```

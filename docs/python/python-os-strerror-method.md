@@ -17,7 +17,7 @@ Python 中的`***os.strerror()***`方法用于获取*错误代码*对应的*错�
 
 **Code #1:** Use of os.strerror() method
 
-```
+```py
 # Python program to explain os.strerror() method 
 
 # importing os module 
@@ -48,7 +48,7 @@ print("Error message corresponding to error code % d:" % code, error)
 
 **Output:**
 
-```
+```py
 Error message corresponding to error code 1: Operation not permitted
 Error Message corresponding to error code 5: Input/output error
 
@@ -56,7 +56,7 @@ Error Message corresponding to error code 5: Input/output error
 
 **代码#2:** 打印前 20 个错误
 
-```
+```py
 # Python program to explain os.strerror() method 
 
 # importing os module 
@@ -74,7 +74,7 @@ for i in range(1, n + 1)
 
 **Output:**
 
-```
+```py
 Error code 1: Operation not permitted
 Error code 2: No such file or directory
 Error code 3: No such process
@@ -100,7 +100,7 @@ Error code 20: Not a directory
 
 **代码#3:** 检查错误消息中的无效错误代码
 
-```
+```py
 # Python program to explain os.strerror() method 
 
 # importing os module 
@@ -136,7 +136,7 @@ print("Error message corresponding to error code % d:" % code, error)
 
 **Output:**
 
-```
+```py
 Error message corresponding to error code 200: Unknown error 200
 Error message corresponding to error code 300: Unknown error 300
 

@@ -10,7 +10,7 @@
 
 我们可以通过遍历列表并检查该值来完成这个任务，只需在新列表中添加值索引并打印它。这是完成这个任务的基本蛮力方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding indices of values
 # using naive method 
@@ -34,7 +34,7 @@ print ("New indices list : " + str(res_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7]
 New indices list : [1, 3]
 
@@ -44,7 +44,7 @@ New indices list : [1, 3]
 
 列表理解只是实现强力任务的速记技术，只是使用较少的代码行来完成任务，因此节省了程序员的时间。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding indices of values
 # using list comprehension 
@@ -65,7 +65,7 @@ print ("New indices list : " + str(res_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7]
 New indices list : [1, 3]
 
@@ -74,7 +74,7 @@ New indices list : [1, 3]
 **方法三:使用`enumerate()`**
 使用`enumerate()`我们可以实现类似的任务，这是比上面略快的手法，因此推荐使用超列表理解手法。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding indices of values
 # using enumerate()
@@ -95,7 +95,7 @@ print ("New indices list : " + str(res_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7]
 New indices list : [1, 3]
 
@@ -105,7 +105,7 @@ New indices list : [1, 3]
 
 这是可用于实现该特定任务的另一种方法，`filter()`通常能够执行过滤任务，因此也可在这种情况下用于实现该任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # finding indices of values
 # using filter()
@@ -126,7 +126,7 @@ print ("New indices list : " + str(res_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 3, 6, 7]
 New indices list : [1, 3]
 

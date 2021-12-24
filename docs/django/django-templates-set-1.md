@@ -19,7 +19,7 @@ Django 框架高效地处理和生成最终用户可见的动态网页。Django 
 ![template-directory](img/45971b02d502682f1ea8108ec86ba874.png)
 现在，导航到`geeksforgeeks/geeks_site/settings.py`。
 
-```
+```py
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -39,7 +39,7 @@ TEMPLATES = [
 
 在上面的代码中，修改
 
-```
+```py
 'DIRS': []
 
 as
@@ -48,7 +48,7 @@ as
 
 上面一行使用 os 模块将我们的项目链接到我们的模板目录。如果您在终端中打印 BASE_DIR，您将看到项目的目录。例如，在我的例子中，它是
 
-```
+```py
 /home/ankush/Desktop/Programming/webproject/geeksforgeeks
 ```
 

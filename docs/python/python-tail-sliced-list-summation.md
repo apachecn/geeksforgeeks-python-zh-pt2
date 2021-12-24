@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Tail Sliced List Summation
 # using len() + list slicing + sum()
@@ -32,7 +32,7 @@ print ("The tail removed list summation : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [1, 4, 6, 3, 5, 8]
 The tail removed list summation : 11
 ```
@@ -42,7 +42,7 @@ The tail removed list summation : 11
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Tail Sliced List Summation
 # using negative list slicing + sum()
@@ -66,7 +66,7 @@ print ("The tail removed list summation : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [1, 4, 6, 3, 5, 8]
 The tail removed list summation : 11
 ```

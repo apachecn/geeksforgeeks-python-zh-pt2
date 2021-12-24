@@ -6,7 +6,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 
 `**PIL.ImageFilter.MedianFilter()**`方法创建一个中值滤波器。在给定大小的窗口中选取中间像素值。
 
-```
+```py
 Syntax: PIL.ImageFilter.MedianFilter(size=3)
 
 Parameters:
@@ -17,7 +17,7 @@ size: The kernel size, in pixels.
 所用图像:
 ![](img/c466c7906016e0a01d239d899551f011.png)
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package  
 from PIL import Image, ImageFilter 
 
@@ -35,7 +35,7 @@ im2.show() 
 
 `**PIL.ImageFilter.ModeFilter()**`方法创建模式过滤器。选取给定大小的框中最常见的像素值。仅出现一次或两次的像素值将被忽略；如果没有像素值出现两次以上，则保留原始像素值。
 
-```
+```py
 Syntax: PIL.ImageFilter.ModeFilter(size=3)
 
 Parameters:
@@ -43,7 +43,7 @@ size: The kernel size, in pixels.
 
 ```
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package  
 from PIL import Image, ImageFilter 
 

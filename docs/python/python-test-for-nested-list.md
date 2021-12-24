@@ -7,7 +7,7 @@
 **方法:使用`any() + isinstance()`**
 以上功能的组合可以用来执行此任务。`any()`用于检查每个事件，`isinstance()`用于检查列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for nested list
 # using any() + isinstance()
@@ -28,7 +28,7 @@ print("Does list contain nested list ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6], 6, [7], 8, 10]
 Does list contain nested list ? : True
 

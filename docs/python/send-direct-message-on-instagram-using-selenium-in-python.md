@@ -9,7 +9,7 @@
 1.  Chrome 浏览器的 Chrome 驱动([https://chromedriver.chromium.org/](https://chromedriver.chromium.org/))或火狐的 Gecko 驱动([https://github.com/mozilla/geckodriver/releases](https://github.com/mozilla/geckodriver/releases))
 2.  硒包。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install selenium
 
 ```
@@ -22,7 +22,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import selenium.common.exceptions
@@ -39,7 +39,7 @@ url = 'https://instagram.com/' + input('Enter username of user whome you want to
 
 ## 蟒蛇 3
 
-```
+```py
 def path():
         global chrome
 
@@ -51,7 +51,7 @@ def path():
 
 ## 蟒蛇 3
 
-```
+```py
 def url_name(url):
   chrome.get(url)
 
@@ -63,7 +63,7 @@ def url_name(url):
 
 ## 蟒蛇 3
 
-```
+```py
 def login(username, your_password):
     log_but = chrome.find_element_by_class_name("L3NKy")
     time.sleep(2)
@@ -96,7 +96,7 @@ def login(username, your_password):
 
 ## 蟒蛇 3
 
-```
+```py
 def send_message():
 
     # Find message button
@@ -117,7 +117,7 @@ def send_message():
 
 ## 蟒蛇 3
 
-```
+```py
 path()
 time.sleep(1)
 url_name(url)

@@ -23,7 +23,7 @@ first()，last()和 set_location(key)，这些在 pybsddb(第三方模块)中可
 
 ## 蟒蛇 3
 
-```
+```py
 # In this example we will see
 # the different types of objects
 # of sub class of shelve class
@@ -59,7 +59,7 @@ print(type(Dbfile_obj))
 
 **输出:**
 
-```
+```py
 <class 'shelve.Shelf'>
 <class 'shelve.BsdDbShelf'>
 <class 'shelve.DbfilenameShelf'>

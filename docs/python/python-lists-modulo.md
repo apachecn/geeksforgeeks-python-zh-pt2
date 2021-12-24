@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 可以使用 zip 操作将一个列表与另一个列表链接起来，并且计算部分可以由列表理解来处理，因此提供了这个特定问题的简写。
 
-```
+```py
 # Python3 code to demonstrate 
 # Lists Modulo
 # using zip() + list comprehension
@@ -30,7 +30,7 @@ print ("The modulo list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [3, 5, 2, 6, 4]
 The original list 2 is : [7, 3, 4, 1, 5]
 The modulo list is : [3, 2, 2, 0, 4]

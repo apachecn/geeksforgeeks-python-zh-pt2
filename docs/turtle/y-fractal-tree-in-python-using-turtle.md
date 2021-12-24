@@ -32,7 +32,7 @@
 
 在下面的实现中，我们将绘制一棵大小为 **80** 的树，并对 **7** 进行调平。
 
-```
+```py
 from turtle import *
 
 speed('fastest')

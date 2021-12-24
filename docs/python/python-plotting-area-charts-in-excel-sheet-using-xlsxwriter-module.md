@@ -13,7 +13,7 @@
 
 要在 excel 工作表中绘制简单的面积图，请在工作簿对象的“面积”关键字参数中使用 add_chart()方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -104,7 +104,7 @@ workbook.close()
 
 要在 excel 工作表中绘制堆叠面积图，请使用 add_chart()方法，该方法带有工作簿对象的类型“面积”和子类型“堆叠”关键字参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -195,7 +195,7 @@ workbook.close()
 
 要在 excel 工作表中绘制堆积面积百分比图表，请使用 add_chart()方法，该方法带有工作簿对象的类型“面积”和子类型“堆积面积百分比”关键字参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

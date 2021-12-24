@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 from bs4 import BeautifulSoup
@@ -94,7 +94,7 @@ print(soup)
 
 ## 计算机编程语言
 
-```
+```py
 def cus_data(soup):
     # find the Html tag
     # with find()
@@ -124,7 +124,7 @@ print(cus_res)
 
 ## 蟒蛇 3
 
-```
+```py
 def cus_rev(soup):
     # find the Html tag
     # with find()
@@ -160,7 +160,7 @@ rev_result
 
 ## 蟒蛇 3
 
-```
+```py
 def product_info(soup):
 
     # find the Html tag
@@ -199,7 +199,7 @@ for item in pro_result:
 
 ## 蟒蛇 3
 
-```
+```py
 def rev_img(soup):
 
     # find the Html tag
@@ -233,7 +233,7 @@ img_result
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 # initialise data of lists.

@@ -7,7 +7,7 @@
 **均值()**函数可用于计算给定数字列表的均值/平均值。它返回作为参数传递的数据集的平均值。
 算术平均值是数据的总和除以数据点的数量。它是对一组范围不同的值中数据的中心位置的度量。在 Python 中，我们通常通过给定数字的总和除以当前数字的计数来实现这一点。
 
-```
+```py
 Given set of numbers : [n1, n2, n3, n5, n6]
 
 Sum of data-set = (n1 + n2 + n3 + n4 + n5)
@@ -27,7 +27,7 @@ Average or arithmetic mean  = *(n1 + n2 + n3 + n4 + n5) / 5*
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate mean()
 # function from the statistics module
 
@@ -45,7 +45,7 @@ print("Mean is :", x)
 
 输出:
 
-```
+```py
  Mean is : 4.428571428571429
 ```
 
@@ -53,7 +53,7 @@ print("Mean is :", x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate mean()
 # function from the statistics module
 
@@ -92,7 +92,7 @@ print("Mean of data set 5 is % s" % (mean(data5)))
 
 **输出:**
 
-```
+```py
 Mean of data set 1 is 5.857142857142857
 Mean of data set 2 is -7.5
 Mean of data set 3 is 2.4285714285714284
@@ -104,7 +104,7 @@ Mean of data set 5 is 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate TypeError
 
 # importing statistics module
@@ -121,7 +121,7 @@ print(mean(dic))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/9f8a941703745a24ddce5b5f6f211e6f.py", line 29, in 
     print(mean(dic))

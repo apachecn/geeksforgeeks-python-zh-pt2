@@ -12,7 +12,7 @@ python 的枕头是停产的 Python 图像库(PIL)的分叉，是一个强大的
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image and ImageDraw from PIL
 from PIL import Image, ImageDraw
 
@@ -45,7 +45,7 @@ img.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image and ImageDraw from PIL
 from PIL import Image, ImageDraw
 
@@ -82,7 +82,7 @@ img.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image and ImageDraw from PIL
 from PIL import Image, ImageDraw
 
@@ -118,7 +118,7 @@ img.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image and ImageDraw from PIL
 from PIL import Image, ImageDraw
 
@@ -153,7 +153,7 @@ xy 元组参数将包含基于形状所需边数的坐标。这里，宽度参�
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image and ImageDraw from PIL
 from PIL import Image, ImageDraw
 
@@ -198,7 +198,7 @@ img.show()
 
 ## 计算机编程语言
 
-```
+```py
 # Importing Image, ImageDraw and ImageFont 
 # from PIL
 from PIL import Image, ImageDraw, ImageFont

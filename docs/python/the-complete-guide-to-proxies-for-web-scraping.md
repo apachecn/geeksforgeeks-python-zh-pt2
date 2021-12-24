@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Initialise proxy and url.
@@ -71,7 +71,7 @@ print(page.text)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required Modules
 import requests
 

@@ -7,7 +7,7 @@
 **方法#1:使用 min() +列表理解+值()**
 以上功能的组合可用于执行此特定任务。在这种情况下，最小值使用`min`函数提取，而字典的值使用`values()`提取。列表理解用于迭代字典以匹配具有最小值的关键字。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Finding min value keys in dictionary
 # Using min() + list comprehension + values()

@@ -7,28 +7,28 @@ getsubneu()函数中不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetSubMenu(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are needed in GetSubMneu() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Menu
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -79,7 +79,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 3
 
 ```

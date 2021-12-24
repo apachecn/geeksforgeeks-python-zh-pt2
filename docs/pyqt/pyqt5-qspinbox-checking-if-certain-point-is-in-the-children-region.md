@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # Write Python3 code here# importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

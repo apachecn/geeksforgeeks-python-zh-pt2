@@ -26,7 +26,7 @@ Create()函数用于静态文本的两步创建。我将 statictext 的属性作
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

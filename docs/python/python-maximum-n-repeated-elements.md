@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum N repeated Elements
 # Using loop + count()
@@ -50,7 +50,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 7, 2, 5, 5, 7, 2, 2]
 Extracted elements : [5, 7, 7, 2, 5, 2]
 
@@ -62,7 +62,7 @@ Extracted elements : [5, 7, 7, 2, 5, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum N repeated Elements
 # Using Counter() + loop
@@ -94,7 +94,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 7, 2, 5, 5, 7, 2, 2]
 Extracted elements : [5, 5, 7, 7, 2, 2]
 

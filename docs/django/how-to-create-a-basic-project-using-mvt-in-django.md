@@ -10,13 +10,13 @@
 
 *   要在您的电脑上启动姜戈项目，请打开终端并输入以下命令
 
-```
+```py
 django-admin startproject projectName
 ```
 
 *   将创建一个名为*项目名称*的新文件夹。使用终端输入命令输入项目
 
-```
+```py
 cd projectName
 ```
 
@@ -24,7 +24,7 @@ cd projectName
 
 ## 蟒蛇 3
 
-```
+```py
 # HttpResponse is used to
 # pass the information
 # back to view
@@ -46,7 +46,7 @@ def hello_geek (request) :
 *   打开项目文件夹(项目名称)中的**URL . py**，并添加您的条目-
     *   从 views.py 文件导入 **hello_geek** 函数。
 
-```
+```py
 from projectName.views import hello_geeks
 ```
 
@@ -54,7 +54,7 @@ from projectName.views import hello_geeks
 
 *   在 url 模式内的 url 字段中添加一个条目-
 
-```
+```py
 path('geek/', hello_geek), 
 
 ```
@@ -64,39 +64,39 @@ path('geek/', hello_geek),
 *   现在要运行服务器，请按照以下步骤操作-
     *   打开命令提示符，通过以下命令将目录更改为 env _ site
 
-```
+```py
 $ cd env_site
 ```
 
 *   转到 env_site 中的脚本目录并激活虚拟环境-
 
-```
+```py
 $ cd Script
 ```
 
-```
+```py
 $ activate
 ```
 
 *   返回 env_site 目录，转到项目目录-
 
-```
+```py
 $ cd ..
 ```
 
-```
+```py
 $ cd geeks_site
 ```
 
 *   **启动服务器-** 在 cmd 中键入以下命令启动服务器-
 
-```
+```py
 $ python manage.py runserver
 ```
 
 *   **检查–**打开浏览器，输入该网址-
 
-```
+```py
 http://127.0.0.1:8000/geek/
 ```
 

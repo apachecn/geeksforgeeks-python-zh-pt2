@@ -49,7 +49,7 @@
 
 Code for Hilbert Curve is given below :
 
-```
+```py
 from turtle import * 
 
 def hilbert(level, angle, step):

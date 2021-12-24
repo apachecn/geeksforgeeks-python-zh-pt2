@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_str = 'Geeks4Geeks'
 Output : True
 Explanation : Contains both number and alphabets.
@@ -22,7 +22,7 @@ Explanation : Doesn't contain number.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if string contains both Numbers and Alphabets only
 # Using isalpha() + isdigit() + any() + all() + isalnum()
@@ -43,7 +43,7 @@ print("Does string contain both numbers and alphabets only? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : Geeks4Geeks
 Does string contain both numbers and alphabets only? : True
 ```
@@ -54,7 +54,7 @@ Does string contain both numbers and alphabets only? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if string contains both Numbers and Alphabets only
 # Using regex
@@ -75,7 +75,7 @@ print("Does string contain both numbers and alphabets only? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : Geeks4Geeks
 Does string contain both numbers and alphabets only? : True
 ```

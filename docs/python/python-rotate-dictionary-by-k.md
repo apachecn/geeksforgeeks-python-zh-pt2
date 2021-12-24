@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rotate dictionary by K
 # Using list comprehension + items() + dictionary comprehension
@@ -59,7 +59,7 @@ print("The required result : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rotate dictionary by K
 # Using deque.rotate() + dictionary comprehension + items()

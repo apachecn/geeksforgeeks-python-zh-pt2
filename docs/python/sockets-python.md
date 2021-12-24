@@ -89,14 +89,14 @@
 
 **示例:从服务器向客户端发送日期**
 
-```
+```py
 client side
 Output :today's Date
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required modules
 import socket    
 import datetime
@@ -126,7 +126,7 @@ while True:
 
 ## 蟒蛇 3
 
-```
+```py
 import socket
 s = socket.socket()
 host = socket.gethostname()
@@ -156,7 +156,7 @@ s.close()
 **UDP 是用户数据报协议**，这是一个轻量级协议，它有基本的错误检查机制，没有确认和排序，但由于这些原因非常快
 **示例:从服务器向客户端发送数据**
 
-```
+```py
 client side
 Input : vivek  
 Input : 17BIT0382  
@@ -165,7 +165,7 @@ Output : password match
 
 ## 蟒蛇 3
 
-```
+```py
 import socket
 
 localIP = "127.0.0.1"
@@ -207,7 +207,7 @@ while(True):
 
 ## 蟒蛇 3
 
-```
+```py
 import socket
 
 # user input

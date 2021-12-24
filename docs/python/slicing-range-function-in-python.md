@@ -14,7 +14,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python Program to  
     # show range() basics 
 
@@ -26,7 +26,7 @@
 
     **输出:**
 
-    ```
+    ```py
     0 1 2 3 4 5 6 7 8 9 
     ```
 
@@ -36,7 +36,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # slicing of range function
 
@@ -49,13 +49,13 @@
 
     **输出:**
 
-    ```
+    ```py
     range(0, 50)
     ```
 
     现在我们的新系列“ans”的数字从 0 到 50(不包括 50)。所以理解这个的一个概括是
 
-    ```
+    ```py
     a[start : end : the difference between numbers]
     ```
 
@@ -63,7 +63,7 @@
 
     **示例:**
 
-    ```
+    ```py
     # Python program to demonstrate
     # slicing of range function
 
@@ -79,7 +79,7 @@
 
     **输出:**
 
-    ```
+    ```py
     range(10, 89, 3)
     range(0, 100, 5)
     ```

@@ -19,7 +19,7 @@
 
 **代码#1:** 使用`***os.DirEntry.is_dir()***`方法
 
-```
+```py
 # Python program to explain os.DirEntry.is_dir() method 
 
 # importing os module  
@@ -46,7 +46,7 @@ with os.scandir(path) as itr:
 
 **Output:**
 
-```
+```py
 file.txt is not a directory.
 Public is a directory.
 Desktop is a directory.
@@ -66,7 +66,7 @@ abc.txt is not a directory.
 
 **代码#2:** 使用`***os.DirEntry.is_dir()***`方法
 
-```
+```py
 # Python program to explain os.DirEntry.is_dir() method 
 
 # importing os module  
@@ -96,7 +96,7 @@ with os.scandir(path) as itr:
 
 **Output:**
 
-```
+```py
 List of all directories in path '/home/ihritik':
 Public
 Desktop

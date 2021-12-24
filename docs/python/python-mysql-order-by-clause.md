@@ -11,7 +11,7 @@ OrderBy 用于以升序或降序排列结果集。默认情况下，它总是按
 
 **语法-**
 
-```
+```py
 SELECT column1, column2
 FROM table_name
 ORDER BY column_name ASC|DESC;
@@ -25,7 +25,7 @@ ORDER BY column_name ASC|DESC;
 
 **例 1:** 按名称升序排列数据的程序
 
-```
+```py
 # Python program to demonstrate
 # order by clause
 
@@ -60,7 +60,7 @@ mydb.close()
 
 **例 2:** 按降序排列数据库
 
-```
+```py
 # Python program to demonstrate
 # order by clause
 
@@ -94,7 +94,7 @@ mydb.close()
 
 **例 3:** 从表中获取名称的程序，按卷号降序排列
 
-```
+```py
 # Python program to demonstrate
 # order by clause
 

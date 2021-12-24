@@ -8,13 +8,13 @@
 
 Django 扩展在一个包中，使您能够运行额外的脚本，您需要使用 pip 安装它，使用终端和类型
 
-```
+```py
 pip install django-extensions        
 ```
 
 在 setting.py 文件中找到的已安装应用程序中添加 django-extensions
 
-```
+```py
 INSTALLED_APPS = [
     ...
     ...
@@ -31,7 +31,7 @@ INSTALLED_APPS = [
 
 *T1T3】*
 
-```
+```py
 import csv
 from site.models import Destination
 
@@ -53,6 +53,6 @@ def run():
 
 现在要运行脚本，只需如下所示激发命令，其中“load”是文件名
 
-```
+```py
 python manage.py runscript load
 ```

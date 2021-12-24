@@ -6,7 +6,7 @@
 
 为了在向下箭头被按下时为其添加颜色，我们必须更改与组合框关联的样式表，下面是样式表代码
 
-```
+```py
 QComboBox::down-arrow:pressed
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -8,7 +8,7 @@
 
 这个任务可以使用 OrderedDict 函数来执行，该函数将字典转换为其参数中提到的特定顺序，该参数由排序函数操作，以便根据传递的键值进行排序。
 
-```
+```py
 # Python3 code to demonstrate
 # Sort nested dictionary by key
 # using OrderedDict() + sorted()
@@ -41,7 +41,7 @@ print("The sorted dictionary by marks is : " + str(res))
 
 如果我们只使用 sorted 函数，我们可以更好地实现上面的结果，因为它以更有用的格式返回结果，dict 并精确地执行期望的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Sort nested dictionary by key
 # using sorted()

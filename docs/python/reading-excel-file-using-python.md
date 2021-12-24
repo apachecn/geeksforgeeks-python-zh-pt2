@@ -8,7 +8,7 @@
 
 命令安装 xlrd 模块:
 
-```
+```py
 pip install xlrd
 
 ```
@@ -21,7 +21,7 @@ pip install xlrd
 
 ## 蟒蛇 3
 
-```
+```py
 # Reading an excel file using Python
 import xlrd
 
@@ -38,7 +38,7 @@ print(sheet.cell_value(0, 0))
 
 输出:
 
-```
+```py
 'NAME'
 
 ```
@@ -47,7 +47,7 @@ print(sheet.cell_value(0, 0))
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to extract number
 # of rows using Python
 import xlrd
@@ -65,7 +65,7 @@ print(sheet.nrows)
 
 输出:
 
-```
+```py
 4
 
 ```
@@ -74,7 +74,7 @@ print(sheet.nrows)
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to extract number of
 # columns in Python
 import xlrd
@@ -93,7 +93,7 @@ print(sheet.ncols)
 
 输出:
 
-```
+```py
 3
 
 ```
@@ -102,7 +102,7 @@ print(sheet.ncols)
 
 ## 蟒蛇 3
 
-```
+```py
 # Program extracting all columns
 # name in Python
 import xlrd
@@ -121,7 +121,7 @@ for i in range(sheet.ncols):
 
 输出:
 
-```
+```py
 NAME
 SEMESTER
 ROLL NO
@@ -132,7 +132,7 @@ ROLL NO
 
 ## 蟒蛇 3
 
-```
+```py
 # Program extracting first column
 import xlrd
 
@@ -148,7 +148,7 @@ for i in range(sheet.nrows):
 
 输出:
 
-```
+```py
 NAME
 ALEX
 CLAY
@@ -160,7 +160,7 @@ JUSTIN
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to extract a particular row value
 import xlrd
 
@@ -176,7 +176,7 @@ print(sheet.row_values(1))
 
 输出:
 
-```
+```py
 ['ALEX', 4.0, 2011272.0]
 
 ```

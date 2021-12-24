@@ -17,7 +17,7 @@ Show 采用布尔参数 Show，如果为 True，则显示小部件，否则隐�
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):

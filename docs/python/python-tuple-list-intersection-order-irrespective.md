@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple List intersection [ Order irrespective ]
 # Using sorted() + set() + & operator + list comprehension
@@ -40,7 +40,7 @@ print("List after intersection : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : [(3, 4), (5, 6), (9, 10), (4, 5)]
 The original list 2 is : [(5, 4), (3, 4), (6, 5), (9, 11)]
 List after intersection : {(4, 5), (3, 4), (5, 6)}
@@ -51,7 +51,7 @@ List after intersection : {(4, 5), (3, 4), (5, 6)}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple List intersection [ Order irrespective ]
 # Using list comprehension + map() + frozenset() + & operator
@@ -75,7 +75,7 @@ print("List after intersection : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : [(3, 4), (5, 6), (9, 10), (4, 5)]
 The original list 2 is : [(5, 4), (3, 4), (6, 5), (9, 11)]
 List after intersection : {frozenset({4, 5}), frozenset({5, 6}), frozenset({3, 4})}

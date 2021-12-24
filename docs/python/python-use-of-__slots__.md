@@ -7,7 +7,7 @@
 
 **无槽 python 对象示例:**
 
-```
+```py
 class GFG(object):
       def __init__(self, *args, **kwargs):
                 self.a = 1
@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 {'a': 1, 'b': 2}
 ```
 
@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
 **带槽 python 对象示例:**
 
-```
+```py
 class GFG(object):
       __slots__=['a', 'b']
       def __init__(self, *args, **kwargs):
@@ -43,13 +43,13 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 ['a', 'b']
 ```
 
 **python 的例子如果我们使用 dict :**
 
-```
+```py
 class GFG(object):
       __slots__=['a', 'b']
       def __init__(self, *args, **kwargs):
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 AttributeError: 'GFG' object has no attribute '__dict__'
 ```
 

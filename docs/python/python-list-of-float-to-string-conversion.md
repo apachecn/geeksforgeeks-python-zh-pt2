@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `join() + str()`**
 该任务可以使用以上功能的组合来执行。在这种情况下，我们首先将列表中的每个元素(即浮点数)转换为字符串，然后使用`join()`连接结果字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List of float to string conversion
 # using list comprehension + str() + join()
@@ -28,7 +28,7 @@ print("Conversion of float list to string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5.8, 9.6, 10.2, 45.3, 6.0]
 Conversion of float list to string : 5.8 9.6 10.2 45.3 6.0
 

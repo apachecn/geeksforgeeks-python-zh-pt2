@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 句法
 
-```
+```py
 {% url 'some-url-name' v1 v2 %}
 
 ```
@@ -16,7 +16,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 例子
 
-```
+```py
 {% url 'template1' %}
 
 ```
@@ -33,7 +33,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 现在创建两个视图，我们将通过这两个视图访问模板，
 在`geeks/views.py`中，
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -49,7 +49,7 @@ def nav_view(request):
 
 创建 url 路径以映射到此视图。网址需要有一个名称，然后可以用在模板和**网址标签**。在`geeks/urls.py`中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -63,7 +63,7 @@ urlpatterns = [
 
 现在我们将创建两个模板来演示**现在标记**。在`geeks.html`创建模板，
 
-```
+```py
 <html>
 <h1>Template 1</h1>
 <!-- Link to template 2 -->
@@ -73,7 +73,7 @@ urlpatterns = [
 
 在`geeks.html`创建模板，
 
-```
+```py
 <html>
 <<h2>Template 2</h2>
 <!-- Link to template 1 -->
@@ -92,19 +92,19 @@ urlpatterns = [
 
 假设你有一个视图，**app _ view . client**，它的 URLconf 取一个客户端 ID(这里，client()是 view 文件 app _ views.py 里面的一个方法)。URLconf 行可能如下所示:
 
-```
+```py
 path('client/<int:id>/', app_views.client, name='app-views-client')
 ```
 
 如果此应用程序的 URLconf 包含在项目的 URLconf 中，路径如下:
 
-```
+```py
 path('clients/', include('project_name.app_name.urls'))
 ```
 
 …然后，在模板中，您可以创建到此视图的链接，如下所示:
 
-```
+```py
 {% url 'app-views-client' client.id %}
 ```
 

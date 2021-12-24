@@ -20,7 +20,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # symmetric_difference_update()
 
@@ -37,7 +37,7 @@ print('result = ', result)
 
 **输出:**
 
-```
+```py
 ('A = ', set(['e', 'o', 'p', 'r', 'w']))
 ('B = ', set(['a', 'r', 'e', 'o', 'n']))
 ('result = ', None)
@@ -48,7 +48,7 @@ print('result = ', result)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # symmetric_difference_update()
 
@@ -65,7 +65,7 @@ print('result = ', result)
 
 **输出:**
 
-```
+```py
 ('A = ', set(['s', 'b']))
 ('B = ', set(['y', 'b', 'u', 'n']))
 ('result = ', None)
@@ -76,7 +76,7 @@ print('result = ', result)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # symmetric_difference_update()
 
@@ -99,7 +99,7 @@ print("A=", A)
 
 **Output**
 
-```
+```py
 ('A =', set([1, 2, 3, 6, 7, 8]))
 ('A=', set([3, 5, 6, 8]))
 
@@ -109,7 +109,7 @@ print("A=", A)
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate working of
 # symmetric_difference_update()
 
@@ -124,7 +124,7 @@ print("A =", A)
 
 **输出**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1b4e24cadc3fabcd5f90141964a60e9b.py", line 9, in <module>
     A.symmetric_difference_update(B)

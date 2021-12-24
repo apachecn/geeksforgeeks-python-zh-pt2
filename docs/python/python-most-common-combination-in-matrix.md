@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most common Combination in Matrix
 
@@ -64,7 +64,7 @@ print("The Most common combination : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [[4, 5, 6, 2], [7, 6, 3, 2], [4, 2, 6, 7], [1, 2, 4, 6]]
 The Most common combination : [(2, 6)]
 ```

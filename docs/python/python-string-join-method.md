@@ -24,7 +24,7 @@ Python String join()方法是一个字符串方法，它返回一个字符串，
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the
 # use of join function to join list
 # elements with a character.
@@ -44,7 +44,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 1-2-3-4
 ```
 
@@ -52,7 +52,7 @@ print(s)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the
 # use of join function to join list
 # elements without any separator.
@@ -64,6 +64,6 @@ print("".join(list1))
 
 **输出:**
 
-```
+```py
 geeks
 ```

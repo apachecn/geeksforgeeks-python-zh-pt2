@@ -16,7 +16,7 @@
 **示例#1 :**
 使用`shutil.disk_usage()`方法了解 GeeksforGeeks 服务器的内存使用统计。
 
-```
+```py
 # Python program to explain shutil.disk_usage() method 
 
 # importing os module 
@@ -38,7 +38,7 @@ print(memory)
 
 **Output:**
 
-```
+```py
 usage(total=51976970240, used=27151167488, free=24809025536)
 
 ```
@@ -46,7 +46,7 @@ usage(total=51976970240, used=27151167488, free=24809025536)
 **示例#2 :**
 使用`shutil.disk_usage()`方法了解任何用户计算机的内存使用统计。
 
-```
+```py
 # Python program to explain shutil.disk_usage() method 
 
 # importing os module 
@@ -67,7 +67,7 @@ print(memory)
 
 **Output:**
 
-```
+```py
 usage(total=209190907904, used=92728918016, free=116461989888)
 
 ```

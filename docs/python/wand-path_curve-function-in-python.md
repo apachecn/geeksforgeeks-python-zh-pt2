@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.drawing.path_curve(to, controls, smooth, relative)
 > ```
 > 
@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color

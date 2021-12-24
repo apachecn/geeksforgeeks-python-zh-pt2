@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 string.replace(old, new, count)
 ```
 
@@ -30,7 +30,7 @@ string.replace(old, new, count)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the
 # use of replace() method 
 
@@ -47,7 +47,7 @@ print(string.replace("geeks", "GeeksforGeeks", 3))
 
 **输出:**
 
-```
+```py
 Geeks for Geeks Geeks Geeks Geeks
 GeeksforGeeks for GeeksforGeeks GeeksforGeeks geeks geeks
 ```
@@ -56,7 +56,7 @@ GeeksforGeeks for GeeksforGeeks GeeksforGeeks geeks geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the
 # use of replace() method
 
@@ -73,7 +73,7 @@ print(string.replace("ek", "a", 3))
 
 **输出:**
 
-```
+```py
 gaaks for gaaks gaaks gaaks gaaks
 geas for geas geas geeks geeks
 ```

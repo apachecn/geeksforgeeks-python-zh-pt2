@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `items() + values()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们迭代使用 values()提取的所有值，并执行求和任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested Dictionary values summation
 # Using loop + items() + values()

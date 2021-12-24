@@ -4,7 +4,7 @@
 
 [psutil](https://www.geeksforgeeks.org/psutil-module-in-python/) 是一个跨平台库，用于在 Python 中检索运行进程和系统利用率(CPU、内存、磁盘、网络、传感器)的信息。下面的 Python 脚本可以在 Windows 和 Linux 中运行。通过
 
-```
+```py
 pip install psutil
 
 ```
@@ -13,7 +13,7 @@ pip install psutil
 
 通过以下方式在 Linux 中安装 psutil:
 
-```
+```py
 sudo apt-get install gcc python3-dev
 sudo pip3 install psutil
 
@@ -23,7 +23,7 @@ sudo pip3 install psutil
 
 ## 计算机编程语言
 
-```
+```py
 # python script showing battery details
 import psutil
 
@@ -45,7 +45,7 @@ print("Battery left : ", convertTime(battery.secsleft))
 
 **输出:**
 
-```
+```py
 Battery percentage :  57
 Power plugged in :  False
 Battery left :  1:58:32

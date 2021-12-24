@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # working of set() on list and tuple
 
@@ -38,7 +38,7 @@ print("The tuple after conversion is : " + str(set(tup1)))
 
 **输出:**
 
-```
+```py
 The list before conversion is : [3, 4, 1, 4, 5]
 The tuple before conversion is : (3, 4, 1, 4, 5)
 The list after conversion is : {1, 3, 4, 5}
@@ -54,7 +54,7 @@ The tuple after conversion is : {1, 3, 4, 5}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # working of set() on dictionary
 
@@ -72,7 +72,7 @@ print("Dictionary after conversion is : " + str(set(dic1)))
 
 **Output**
 
-```
+```py
 Dictionary before conversion is : {4: 'geeks', 1: 'for', 3: 'geeks'}
 Dictionary after conversion is : {1, 3, 4}
 ```

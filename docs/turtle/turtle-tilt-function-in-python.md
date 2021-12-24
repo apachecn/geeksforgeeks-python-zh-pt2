@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.tilt(angle)
 
 ```
@@ -21,7 +21,7 @@ turtle.tilt(angle)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -55,7 +55,7 @@ turtle.forward(200)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

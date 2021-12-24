@@ -8,7 +8,7 @@
 
 **代码#1:** 在字符串中切“%”，转换成浮点数。
 
-```
+```py
 # Python code to sort list of percentage 
 
 # List initialization
@@ -24,14 +24,14 @@ print(Input)
 
 **Output:**
 
-```
+```py
 ['2.5 %', '6.4 %', '11.5 %', '91.6 %']
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to sort list of percentage 
 
 # List initialization
@@ -60,7 +60,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 ['2.5 %', '6.4 %', '11.5 %', '91.6 %']
 
 ```

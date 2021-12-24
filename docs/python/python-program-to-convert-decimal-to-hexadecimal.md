@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # hex() function
 
@@ -36,7 +36,7 @@ print("The hexadecimal form of 69 is "
 
 **输出:**
 
-```
+```py
 The hexadecimal form of 69 is 0x45
 ```
 
@@ -71,7 +71,7 @@ The hexadecimal form of 69 is 0x45
 
 ## 蟒蛇 3
 
-```
+```py
 # Conversion table of remainders to
 # hexadecimal equivalent
 conversion_table = {0: '0', 1: '1', 2: '2', 3: '3', 4: '4',
@@ -97,7 +97,7 @@ print("The hexadecimal form of", decimal_number,
 
 **输出:**
 
-```
+```py
 The hexadecimal form of 69 is 45
 ```
 
@@ -109,7 +109,7 @@ The hexadecimal form of 69 is 45
 
 ## 蟒蛇 3
 
-```
+```py
 # Conversion table of remainders to
 # hexadecimal equivalent
 conversion_table = {0: '0', 1: '1', 2: '2', 3: '3',
@@ -132,6 +132,6 @@ print("The hexadecimal form of", decimal_number,
 
 **输出:**
 
-```
+```py
 The hexadecimal form of 69 is 45
 ```

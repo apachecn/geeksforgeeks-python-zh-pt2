@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split joined consecutive similar characters
 # Using join() + list comprehension + groupby()
@@ -53,7 +53,7 @@ print("Consecutive split string is : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split joined consecutive similar characters
 # Using finditer() + regex + list comprehension

@@ -17,7 +17,7 @@
 
 **代码#1:创建米克连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import mielke  
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D6DD04C8
 
@@ -39,7 +39,7 @@ RV :
 
  **代码#2:米尔克连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -54,7 +54,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  0.541154909484041
 
@@ -67,7 +67,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -86,7 +86,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

@@ -7,7 +7,7 @@
 **方法#1:使用`append() + pop() + index()`**
 通过组合这些功能，可以在一行中执行该特定功能。append 函数使用 index 函数提供的索引添加 pop 函数移除的元素。
 
-```
+```py
 # Python3 code to demonstrate  
 # moving element to end 
 # using append() + pop() + index()
@@ -28,7 +28,7 @@ print ("The modified element moved list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : ['3', '5', '7', '9', '11']
 The modified element moved list is : ['3', '7', '9', '11', '5']
 

@@ -10,7 +10,7 @@
 
 **2。pvariance()** :-该函数计算整个人口的**方差。数据被解释为整个人口的数据。如果传递的参数为空，则会出现**统计错误**。**
 
-```
+```py
 # Python code to demonstrate the working of 
 # variance() and pvariance()
 
@@ -31,7 +31,7 @@ print (statistics.pvariance(li))
 
 输出:
 
-```
+```py
 The variance of data is : 0.6666666666666667
 The population variance of data is : 0.5555555555555556
 
@@ -41,7 +41,7 @@ The population variance of data is : 0.5555555555555556
 
 **4。pstdev()** :-该函数返回数据的总体**标准偏差(总体方差的平方根)**。如果传递的参数为空，则会出现**统计错误**。
 
-```
+```py
 # Python code to demonstrate the working of 
 # stdev() and pstdev()
 
@@ -62,7 +62,7 @@ print (statistics.pstdev(li))
 
 输出:
 
-```
+```py
 The standard deviation of data is : 0.816496580927726
 The population standard deviation of data is : 0.7453559924999299
 

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : str = "helloABworld"
 Output : str = "helloCworld"
 
@@ -20,7 +20,7 @@ Output : str = "fghCsdfCysu"
 【replace()函数是如何工作的？
 **str.replace(pattern，replaceWith，maxCount)** 取最少两个参数，用指定的子字符串 **replaceWith** 替换所有出现的**模式**。第三个参数**最大计数**是可选的，如果我们没有通过这个参数，那么替换函数将对所有模式的出现进行替换，否则它将只替换**最大计数**次模式的出现。
 
-```
+```py
 # Function to replace all occurrences of AB with C
 
 def replaceABwithC(input, pattern, replaceWith):
@@ -36,7 +36,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 'helloCworld'
 
 ```

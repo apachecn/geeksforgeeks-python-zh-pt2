@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的方式之一。在这种情况下，我们迭代矩阵元素，使用字典执行值替换，并执行行求和。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Scoring Matrix using Dictionary
 # Using loop
@@ -43,7 +43,7 @@ print("The Row scores : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [['gfg', 'is', 'best'], ['gfg', 'is', 'for', 'geeks']]
 The Row scores : [28, 32]
 
@@ -52,7 +52,7 @@ The Row scores : [28, 32]
 **方法 2:使用列表理解+ `sum()`**
 这是解决这个问题的又一种方法。在这种情况下，我们使用 sum()执行求和，列表理解用于迭代和分数分配。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Scoring Matrix using Dictionary
 # Using list comprehension + sum()
@@ -76,7 +76,7 @@ print("The Row scores : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [['gfg', 'is', 'best'], ['gfg', 'is', 'for', 'geeks']]
 The Row scores : [28, 32]
 

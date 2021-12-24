@@ -8,7 +8,7 @@
 
 为了改变字体和内容的大小，我们必须改变单选按钮的样式表代码，下面是样式表代码
 
-```
+```py
 QRadioButton
 {
 font : 20px Ariral;
@@ -18,7 +18,7 @@ font : 20px Ariral;
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

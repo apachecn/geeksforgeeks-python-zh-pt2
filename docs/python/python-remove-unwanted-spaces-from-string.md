@@ -7,7 +7,7 @@
 **方法#1:使用`re.sub()`**
 这个问题可以使用正则表达式来执行，在正则表达式中，我们可以使用适当的正则表达式字符串将单词之间的间隔限制为单个空格。
 
-```
+```py
 # Python3 code to demonstrate working of
 # remove additional space from string
 # Using re.sub()
@@ -29,7 +29,7 @@ print("The strings after extra space removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GfG  is   good           website
 The strings after extra space removal : GfG is good website
 

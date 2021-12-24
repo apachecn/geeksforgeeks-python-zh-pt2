@@ -7,20 +7,20 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {{ variable_name }}
 ```
 
 **示例:**
 变量被如下{{ and }}包围:
 
-```
+```py
 My first name is {{ first_name }}. My last name is {{ last_name }}. 
 ```
 
 使用{'first_name': 'Naveen '，' last_name': 'Arora'}的上下文，此模板呈现为:
 
-```
+```py
 My first name is Naveen. My last name is Arora.
 ```
 
@@ -37,7 +37,7 @@ My first name is Naveen. My last name is Arora.
 
 ## 蟒蛇 3
 
-```
+```py
 # import render from django
 from django.shortcuts import render
 
@@ -56,7 +56,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -71,7 +71,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 My First Name is {{ first_name }}.
 <br/>
 My Last Name is  {{ last_name }}.

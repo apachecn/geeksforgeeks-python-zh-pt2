@@ -13,7 +13,7 @@
 **方法:使用`Counter().most_common() + items()` +循环**
 以上功能的组合构成了解决这个问题的蛮法。在本例中，我们使用 most_common()提取最大元素，items()用于提取键值对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum value assignment in Nested Dictionary
 # Using Counter().most_common() + items() + loop

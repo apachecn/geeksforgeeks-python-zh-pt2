@@ -30,7 +30,7 @@ Python 中的`***os.getresuid()***`方法用于获取当前流程的真实、有
 
 **Code #1:** Use of os.getresuid() method
 
-```
+```py
 # Python program to explain os.getresuid() method 
 
 # importing os module 
@@ -64,7 +64,7 @@ print("Saved user id of the current process:", suid)
 
 **Code #2:** Use of os.setresuid() method
 
-```
+```py
 # Python program to explain os.setresuid() method 
 
 # importing os module 

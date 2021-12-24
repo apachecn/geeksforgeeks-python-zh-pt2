@@ -7,7 +7,7 @@ SunPy 是一个使用 Python 进行太阳数据分析的包。我们将使用这
 **安装**
 在命令行上键入:
 
-```
+```py
  pip install sunpy
 
 ```
@@ -17,7 +17,7 @@ SunPy 是一个使用 Python 进行太阳数据分析的包。我们将使用这
 SunPy 包包含许多数据文件，这些文件是来自不同太阳观测站和太阳实验室的质子/电子通量的太阳数据。它们存储在模块 sunpy.data 下。
 要下载样本数据，只需运行以下命令:
 
-```
+```py
 import sunpy.data
 sunpy.data.download_sample_data()
 
@@ -34,7 +34,7 @@ SunPy 支持来自各种来源的许多不同数据产品‘开箱即用’，�
 
 阳光。Map()接受文件名、文件名列表、数据数组和标题。我们可以通过以下方式测试地图:
 
-```
+```py
 import sunpy
 aia = sunpy.Map(sunpy.AIA_171_IMAGE)
 
@@ -46,7 +46,7 @@ aia = sunpy.Map(sunpy.AIA_171_IMAGE)
 
 让我们从创建一个 AIA 图像的简单图开始。为了使事情变得简单，SunPy 包括几个示例文件。这些文件的名字像 sunpy。AIA_171_IMAGE 和 sunpy。RHESSI _ IMAGE。
 
-```
+```py
 from sunpy.data.sample import AIA_171_IMAGE
 import sunpy.map
 

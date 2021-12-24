@@ -18,7 +18,7 @@ re。MatchObject.span()方法返回包含匹配字符串的起始和结束索引
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -45,7 +45,7 @@ print(match_object.span())
 
 **输出:**
 
-```
+```py
 (0, 6)    
 
 ```
@@ -56,7 +56,7 @@ print(match_object.span())
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -83,7 +83,7 @@ print(match_object.span())
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/18a058de83529572f8d50dc9f8bbd34b.py", line 17, in 
     print(match_object.span())

@@ -12,7 +12,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 from Bio.Seq import Seq
 
@@ -25,7 +25,7 @@ print(seq)
 
 **输出:**
 
-```
+```py
 GACT
 
 ```
@@ -39,7 +39,7 @@ GACT
 
 ## 蟒 3
 
-```
+```py
 # Import libraries
 from Bio.Seq import Seq
 
@@ -55,7 +55,7 @@ print(updatedSeq)
 
 **输出:**
 
-```
+```py
 ACGTT
 
 ```

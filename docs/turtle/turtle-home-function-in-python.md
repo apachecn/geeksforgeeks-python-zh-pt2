@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.home()
 
 ```
@@ -21,7 +21,7 @@ turtle.home()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -56,7 +56,7 @@ print(turtle.position())
 
 **输出:**
 
-```
+```py
 (0.0, 0.0)
 (100.0, 0.0)
 (0.0, 0.0)
@@ -69,7 +69,7 @@ print(turtle.position())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

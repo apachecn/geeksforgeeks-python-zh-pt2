@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.InsertStretchableSpace(self, pos)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **Code Example 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

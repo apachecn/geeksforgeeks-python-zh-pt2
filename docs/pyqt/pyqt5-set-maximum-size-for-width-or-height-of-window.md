@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.setMaximumWidth(width)
 > self.setMaximumHeight(height)
 > 
@@ -20,7 +20,7 @@
 
 **最大宽度代码–**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -70,7 +70,7 @@ sys.exit(App.exec())
 
 **最大高度代码–**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

@@ -15,7 +15,7 @@
 
 **代码#1:** 使用`***math.prod()***`方法
 
-```
+```py
 # Python Program to explain math.prod() method
 
 # Importing math module
@@ -54,7 +54,7 @@ print(product)
 
 **Output:**
 
-```
+```py
 120
 0.21
 3628800
@@ -63,7 +63,7 @@ print(product)
 
 **代码#2:** 如果明确指定了开始参数
 
-```
+```py
 # Python Program to explain math.prod() method
 
 # Importing math module
@@ -85,14 +85,14 @@ print(product)
 
 **Output:**
 
-```
+```py
 240
 
 ```
 
 **代码#3:** 当给定的可重复项为空时
 
-```
+```py
 # Python Program to explain math.prod() method
 
 # Importing math module
@@ -123,7 +123,7 @@ print(product)
 
 **Output:**
 
-```
+```py
 1
 5
 

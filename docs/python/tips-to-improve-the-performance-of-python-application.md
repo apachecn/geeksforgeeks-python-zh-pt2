@@ -24,7 +24,7 @@ Python 库经过了严格的优化和测试(就像您的代码一样)。这些�
 
 下面是一个例子供你帮助…
 
-```
+```py
 import requests
 import re
 
@@ -52,7 +52,7 @@ for result in webpage:
 
 就像在任何其他语言中一样，使用循环在 Python 中很常见。您可能在 Python 中使用了列表理解。列表理解是更快执行代码的好方法。列表理解是简洁的，创建一个新的列表更容易，因为它加快了这个过程。假设，你想找出特定范围内所有奇数的平方。您可以使用下面给出的循环来解决这个问题…
 
-```
+```py
 square_numbers = []
   for n in range(0,10):
     if n % 2 == 1:
@@ -61,7 +61,7 @@ square_numbers = []
 
 你可以用一行的列表理解来解决同样的问题…
 
-```
+```py
 square_numbers = [n**2 for n in range(1,10) if n%2 == 1]
 ```
 
@@ -71,7 +71,7 @@ square_numbers = [n**2 for n in range(1,10) if n%2 == 1]
 
 在 Python 2 中，为了迭代循环，我们可以使用 range()和 xrange()函数。第一个函数将该范围内的所有数字存储在内存中，它和 range 一样线性变大。其他函数 xrange()返回生成器对象。如果你循环使用这些对象号，它们将只在需要的时候在内存中可用。
 
-```
+```py
 import sys
 counter = range(1, 70000)
 print(sys.getsizeof(counter))
@@ -83,7 +83,7 @@ print(sys.getsizeof(counter))
 
 如果您在代码中使用了太多的循环，那么您将会给服务器带来不必要的压力。这将是最有效的方法。您可以在两个列表中获得重叠值。您可以使用嵌套 for 循环来实现这一点，如下所示…
 
-```
+```py
 a = [7,8,1,0,2]
 b = [2,8,9,1,3]
 
@@ -98,7 +98,7 @@ print(overlaps)
 
 上面的代码将打印列表[8，1，2]。在这里，比较的数量会变得非常大，非常快。让我们看看另一种方法…
 
-```
+```py
 a = [7,8,1,0,2]
 b = [2,8,9,1,3]
 
@@ -119,7 +119,7 @@ Python 专家建议在程序开始时导入所有模块。你可以按字母顺�
 
 建议使用“in”关键字检查列表的成员资格。
 
-```
+```py
 for username in member_list:
   print('{} is a member'.format(username))
 ```

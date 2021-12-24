@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Palindrome count
 # Using reversed() + len() + sort()
@@ -55,7 +55,7 @@ print("Sorted rows : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Palindrome count
 # Using sorted() + len() + reversed()

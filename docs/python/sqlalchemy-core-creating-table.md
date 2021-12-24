@@ -10,13 +10,13 @@ SQLAlchemy 是一个大型的 SQL 工具包，包含许多不同的组件。最�
 
 SQLAlchemy 可通过 pip 安装包获得。
 
-```
+```py
 pip install sqlalchemy
 ```
 
 但是，如果您使用的是烧瓶，您可以使用它自己的 SQLAlchemy 实现。它可以通过以下方式安装–
 
-```
+```py
 pip install flask-sqlalchemy
 ```
 
@@ -38,7 +38,7 @@ pip install flask-sqlalchemy
 
 ## 计算机编程语言
 
-```
+```py
 import sqlalchemy as db
 
 # Defining the Engine
@@ -64,7 +64,7 @@ metadata_obj.create_all(engine)
 
 **输出:**
 
-```
+```py
 2021-11-08 11:08:36,988 INFO sqlalchemy.engine.base.Engine ()
 2021-11-08 11:08:36,997 INFO sqlalchemy.engine.base.Engine COMMIT
 ```

@@ -7,7 +7,7 @@
 **方法:使用`map()` +列表理解**
 这个任务可以使用地图()来执行。通过传递所需的数据类型，可以使用单个映射函数来执行普通列表的转换。但是当涉及到整个矩阵的变换时，我们同样需要列表理解的帮助。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Type casting whole List and Matrix
 # using map() + list comprehension
@@ -44,7 +44,7 @@ print("The Matrix after type casting is : " + str(res_matrix))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 9, 10, 19]
 The original Matrix is : [[5, 6, 8], [8, 5, 3], [9, 10, 3]]
 The List after type casting is : ['1', '4', '9', '10', '19']

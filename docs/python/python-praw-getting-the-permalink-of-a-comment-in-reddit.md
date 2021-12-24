@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -43,7 +43,7 @@ print("\nThe complete URL of the comment is : \n" +
 
 **输出:**
 
-```
+```py
 The permalink of the comment is : 
 /r/aww/comments/hczt0c/i_got_adopted_by_this_beautiful_pup_this_weekend/fvib7aw/
 
@@ -57,7 +57,7 @@ https://www.reddit.com//r/aww/comments/hczt0c/i_got_adopted_by_this_beautiful_pu
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw 
 
@@ -91,7 +91,7 @@ print("\nThe complete URL of the comment is : \n" +
 
 **输出:**
 
-```
+```py
 The permalink of the comment is : 
 /r/redditdev/comments/hbjhnk/reddit_announces_an_upcoming_overhaul_of_how_bots/fv9qvgo/
 

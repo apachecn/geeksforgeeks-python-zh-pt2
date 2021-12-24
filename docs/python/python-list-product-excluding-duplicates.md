@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # Duplication Removal List Product
 # using naive methods
@@ -38,7 +38,7 @@ print ("Duplication removal list product : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 Duplication removal list product : 90
 ```
@@ -48,7 +48,7 @@ Duplication removal list product : 90
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # Duplication Removal List Product
 # using list comprehension
@@ -76,7 +76,7 @@ print ("Duplication removal list product : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 Duplication removal list product : 90
 ```
@@ -91,7 +91,7 @@ Duplication removal list product : 90
 
 ## 蟒蛇 3
 
-```
+```py
 import functools
 
 functools.reduce(lambda x, y: x*y, set([1, 3, 5, 6, 3, 5, 6, 1]), 1)

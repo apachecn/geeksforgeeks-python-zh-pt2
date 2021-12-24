@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : S = "the big dwarf only jumps"
 Output : Yes
 Each alphabet in the string S is occurred
@@ -24,7 +24,7 @@ more than once.
 1.  In order to check whether a sentence is a heteromorphous word, we only care about letters, not any other characters, so we separate the list of all letters in the sentence.
 2.  Convert the list of letters into a set, because the set contains unique values. If the length of the set is equal to the number of letters, which means that each letter appears once, the sentence is a heteronym, otherwise it is not.
 
-```
+```py
 # Function to Check whether a given string is Heterogram or not 
 
 def heterogram(input):
@@ -48,7 +48,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Yes
 
 ```

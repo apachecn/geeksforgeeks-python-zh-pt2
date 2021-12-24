@@ -30,7 +30,7 @@ o_modified.png
 
 我们将使用 Python 的`pygame`、`time`和`sys`库。**时间**库用于跟踪时间和我们将在代码中使用的`sleep()`方法。看看下面的代码。
 
-```
+```py
 # importing the required libraries
 import pygame as pg
 import sys
@@ -77,7 +77,7 @@ board = [[None]*3, [None]*3, [None]*3]
 
 这还不够。每次更新显示，我们需要知道游戏状态，天气是赢还是输。 **draw_status()** 帮助我们在主窗口底部显示另一个 100pc 窗口，用户每次点击都会更新状态。
 
-```
+```py
 # initializing the pygame window
 pg.init()
 
@@ -156,7 +156,7 @@ def draw_status():
 
 主要算法有一个直接的方法。用户可以在行方向、列方向和对角线方向获胜。因此，通过使用多维数组，我们可以轻松设置条件。
 
-```
+```py
 def check_win():
     global board, winner, draw
 
@@ -203,7 +203,7 @@ def check_win():
 
 **user_click()** 是我们设计的一个函数，通过用户鼠标点击获取输入。想象一下，你点击了九个部分中的一个(方框被我们水平和垂直画的线分开)，这个函数将定义你点击的位置的坐标。 **pg.mouse.get_pos()** 获取用户鼠标点击的 x 坐标和 y 坐标，返回一个元组。根据(x，y)，我们可以定义用户单击的确切行和确切列。最后，当我们有行和列时，我们将这两个作为参数传递给函数 **drawXO(行，列)**，以在游戏屏幕上用户的期望位置绘制“X”的图像或“O”的图像。
 
-```
+```py
 def drawXO(row, col):
     global board, XO
 
@@ -301,7 +301,7 @@ def user_click():
 
 在整个代码中，我们使用了`.sleep()`方法来暂停我们的游戏一段时间，并使其用户友好和流畅。
 
-```
+```py
 def reset_game():
     global board, winner, XO, draw
     time.sleep(3)
@@ -332,7 +332,7 @@ while(True):
 
 **完整代码:**
 
-```
+```py
 # importing the required libraries
 import pygame as pg
 import sys

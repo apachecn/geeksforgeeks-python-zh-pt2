@@ -8,7 +8,7 @@
 
 为了在中间复选框被按下时给它添加皮肤，我们必须编辑样式表代码，下面是样式表代码。
 
-```
+```py
 QCheckBox::indeterminate:pressed
 {
 border-image : url(image.png);
@@ -18,7 +18,7 @@ border-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

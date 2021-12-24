@@ -8,7 +8,7 @@
 
 **第一步:**导入 Python 中的乌龟和数学模块。
 
-```
+```py
 import turtle
 import math
 
@@ -16,7 +16,7 @@ import math
 
 **第二步:**选择输出屏幕的背景颜色。你可以选择任何颜色，我们会用黄色只是为了让它有吸引力。
 
-```
+```py
 screen = turtle.Screen()
 screen.bgcolor("yellow")
 
@@ -24,7 +24,7 @@ screen.bgcolor("yellow")
 
 **第三步:**选择你的乌龟(笔)的颜色和速度，它会在屏幕上画出房子。
 
-```
+```py
 t.color("black")
 t.shape("turtle")
 t.speed(1)
@@ -35,7 +35,7 @@ t.speed(1)
 
 只需在 t.fillcolor(')命令中更改颜色名称，就可以填充您选择的任何颜色。
 
-```
+```py
 t.fillcolor('cyan')
 t.begin_fill( )
 t.right(90)
@@ -59,7 +59,7 @@ t.end_fill()
 
 **第五步:**现在你创建了基础，下一步是创建房子的顶部。为上部画一个三角形，只是为了简单起见。
 
-```
+```py
 # for creating triangle
 # i.e top of the house
 t.fillcolor('brown')
@@ -80,7 +80,7 @@ t.end_fill()
 
 **第六步:**我们必须通过装上门和窗户来保证我们的房子通风。这是代码-
 
-```
+```py
 # for windows and
 # for creating door
 t.right(90)
@@ -119,7 +119,7 @@ t.forward(200)
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 t = turtle.Turtle()

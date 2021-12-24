@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -42,7 +42,7 @@ print("The body of the comment is : \n\n" + body)
 
 **输出:**
 
-```
+```py
 The body of the comment is : 
 
 I wish I could pet dogs through the screen :(
@@ -54,7 +54,7 @@ I wish I could pet dogs through the screen :(
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -87,7 +87,7 @@ print("The body of the comment is : \n\n" + body)
 
 **输出:**
 
-```
+```py
 The body of the comment is : 
 
 What’s the account?

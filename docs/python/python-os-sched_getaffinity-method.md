@@ -18,7 +18,7 @@
 
 **Code:** Use of os.sched_getaffinity() method
 
-```
+```py
 # Python program to explain os.sched_getaffinity() method  
 
 # importing os module 
@@ -60,7 +60,7 @@ print(affinity)
 
 **Output:**
 
-```
+```py
 {0, 1, 2, 3}
 {0, 1}
 

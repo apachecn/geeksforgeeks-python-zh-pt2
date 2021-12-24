@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Ensure all keys in dictionary list
 # Using set() + chain.from_iterable() + get() + list comprehension
@@ -60,7 +60,7 @@ print("Reformed dictionaries list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Ensure all keys in dictionary list
 # Using set() + chain.from_iterable() + update()

@@ -4,7 +4,7 @@
 
 给定一个列表，任务是编写一个 python 程序来计算总的相等数字对，即提取列表中所有可以与相似元素对偶的元素的个数。
 
-```
+```py
 Input : test_list = [2, 4, 5, 2, 5, 4, 2, 4, 5, 7, 7, 8, 3]
 Output : 4
 
@@ -22,7 +22,7 @@ Explanation : 4, 2 and 5 have 3 occurrences, 1 pair each and 3, 7 have 2 occurre
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Total equal pairs in List
 # Using loop + count()
@@ -46,7 +46,7 @@ print("Total Pairs : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 4, 5, 2, 5, 4, 2, 4, 5, 7, 7, 8, 3]
 Total Pairs : 4
 ```
@@ -57,7 +57,7 @@ Total Pairs : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Total equal pairs in List
 # Using Counter() + list comprehension + sum()
@@ -78,7 +78,7 @@ print("Total Pairs : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [2, 4, 5, 2, 5, 4, 2, 4, 5, 7, 7, 8, 3]
 Total Pairs : 4
 ```

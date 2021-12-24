@@ -25,7 +25,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。该
 **图片 2 使用:**
 ![](img/ee1e3e82d42af5694c89c469a0f5a294.png)
 
-```
+```py
 
 # Importing Image module from PIL package 
 from PIL import Image, ImageMath
@@ -47,7 +47,7 @@ out.show()
 
 **另一个例子:**这里我们把内置的 min()改为 max()。
 
-```
+```py
 # Importing Image module from PIL package 
 from PIL import Image, ImageMath
 

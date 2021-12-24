@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : arr = [[1, 2, 2, 4, 3, 6],
               [5, 1, 3, 4],
               [9, 5, 7, 1],
@@ -23,7 +23,7 @@ Output : [1, 2, 3, 4, 5, 6, 7, 9]
 
 **anySet.update(iterable)** ，此方法将名为 **anySet** 的集合与任何给定的 **iterable** 进行并集，并且不像 **union()** 方法那样返回集合的任何浅拷贝，它将结果更新为前缀集，即；**任意集**。
 
-```
+```py
 # Function to combine n arrays 
 
 def combineAll(input): 
@@ -50,7 +50,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 9]
 
 ```

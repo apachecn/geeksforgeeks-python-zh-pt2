@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Python program to demonstrate
 # that keywords cant be used as
 # identifiers

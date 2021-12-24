@@ -16,7 +16,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 **所用图像:**
 ![](img/e4dc81422db86e45320915b0dbc10a96.png)
 
-```
+```py
 
 # importing Image module from PIL package 
 from PIL import Image 
@@ -40,7 +40,7 @@ print(im1) 
 **所用图像:**
 ![](img/241e58b25a2a46b7b7012dc7af9ef83a.png)
 
-```
+```py
 
 # importing Image module from PIL package 
 from PIL import Image 

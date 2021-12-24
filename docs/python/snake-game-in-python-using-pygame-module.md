@@ -10,7 +10,7 @@
 
 要安装 Pygame，您需要打开您的终端或命令提示符，并键入以下命令:
 
-```
+```py
 pip install pygame
 ```
 
@@ -25,7 +25,7 @@ pip install pygame
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pygame
 import time
@@ -52,7 +52,7 @@ blue = pygame.Color(0, 0, 255)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initialising pygame
 pygame.init()
 
@@ -71,7 +71,7 @@ fps = pygame.time.Clock()
 
 ## 蟒蛇 3
 
-```
+```py
 # defining snake default position
 snake_position = [100, 50]
 

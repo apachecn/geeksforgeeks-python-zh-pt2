@@ -15,7 +15,7 @@ collapseal()方法不需要参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class MyTree(wx.TreeCtrl):

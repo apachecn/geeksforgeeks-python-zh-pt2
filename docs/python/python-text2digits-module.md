@@ -8,13 +8,13 @@
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install text2digits
 ```
 
 **例:**
 
-```
+```py
 # Importing text2digits function  
 
 # From text2digits Library  
@@ -62,7 +62,7 @@ type(ans)
 
 **输出:**
 
-```
+```py
 2010 and 36
 I was born in 19 ninetynine
 I am 20 

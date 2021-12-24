@@ -13,7 +13,7 @@
 
 下面是解释渐变形态操作的 Python 代码–
 
-```
+```py
 # Python programe to illustrate
 # Gradient morphological operation
 # on input frames

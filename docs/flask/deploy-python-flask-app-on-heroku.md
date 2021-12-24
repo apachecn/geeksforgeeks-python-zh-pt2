@@ -16,13 +16,13 @@ Flask 是一个用 Python 编写的网络应用框架。Flask 基于 Werkzeug WS
 让我们先创建一个简单的 flask 应用程序，然后可以将其部署到 heroku。创建一个名为**“eflask”**的文件夹，打开**“eflask”**目录中的命令行和 cd。按照以下步骤创建本教程的示例应用程序。
 **STEP 1 :** 用 pipenv 创建虚拟环境，安装**烧瓶**和 **Gunicorn** 。
 
-```
+```py
 $ pipenv install flask gunicorn 
 ```
 
 **第二步:**创建一个**【进程文件】**并编写以下代码。
 
-```
+```py
 $ touch Procfile 
 ```
 
@@ -30,7 +30,7 @@ $ touch Procfile
 
 **步骤 3 :** 创建**“runtime . txt”**并编写以下代码。
 
-```
+```py
 $ touch runtime.txt 
 ```
 
@@ -38,7 +38,7 @@ $ touch runtime.txt
 
 **第四步:**创建一个名为**【app】**的文件夹，进入文件夹。
 
-```
+```py
 $ mkdir app
 $ cd app
 
@@ -46,13 +46,13 @@ $ cd app
 
 **STEP 5 :** 创建 python 文件，**【main . py】**并输入样例代码。
 
-```
+```py
  touch main.py 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 
 app = Flask(__name__)
@@ -64,14 +64,14 @@ def home_view():
 
 **STEP 6 :** 回到上一个目录“eflask”。创建一个文件**“wsgi . py”**并插入以下代码。
 
-```
+```py
 $ cd ../
 $ touch wsgi.py
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 from app.main import app
 
 if __name__ == "__main__":
@@ -80,13 +80,13 @@ if __name__ == "__main__":
 
 **步骤 7 :** 运行虚拟环境。
 
-```
+```py
 $ pipenv shell 
 ```
 
 **步骤 8 :** 初始化一个空的回购，在回购中添加文件，并提交所有更改。
 
-```
+```py
 $ git init 
 $ git add .
 $ git commit -m "Initial Commit"
@@ -95,13 +95,13 @@ $ git commit -m "Initial Commit"
 **步骤 9 :** 使用
 登录英雄库命令行界面
 
-```
+```py
 heroku login
 ```
 
 现在，为您的网络应用程序创建一个唯一的名称。
 
-```
+```py
 $ heroku create eflask-app
 ```
 
@@ -109,7 +109,7 @@ $ heroku create eflask-app
 
 **STEP 10 :** 将代码从本地推送到 heroku 远程。
 
-```
+```py
 $ git push heroku master
 ```
 

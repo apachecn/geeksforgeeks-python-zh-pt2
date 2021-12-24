@@ -25,7 +25,7 @@
 
 *下面是 Python 代码:*
 
-```
+```py
 *# Dot product
 import time
 import numpy
@@ -62,7 +62,7 @@ print("Computation time = "+str(1000*(n_toc - n_tic ))+"ms")*
 
 ***输出:***
 
-```
+```py
 *dot_product = 833323333350000.0
 Computation time = 35.59449199999999ms
 
@@ -78,7 +78,7 @@ Computation time = 0.1559900000000225ms*
 
 *下面是 Python 代码:*
 
-```
+```py
 *# Outer product
 import time
 import numpy
@@ -116,7 +116,7 @@ print("\nComputation time = "+str(1000*(n_toc - n_tic ))+"ms")
 
 ***输出:***
 
-```
+```py
 *outer_product = [[     0\.      0\.      0\. ...,      0\.      0\.      0.]
  [   200\.    201\.    202\. ...,    397\.    398\.    399.]
  [   400\.    402\.    404\. ...,    794\.    796\.    798.]
@@ -147,7 +147,7 @@ Computation time = 0.2809480000000031ms*
 
 *下面是 Python 代码:*
 
-```
+```py
 *# Element-wise multiplication
 import time
 import numpy
@@ -184,7 +184,7 @@ print("\nComputation time = "+str(1000*(n_toc - n_tic ))+"ms")*
 
 ***输出:***
 
-```
+```py
 *Element wise Product = [  0.00000000e+00   5.00010000e+04   1.00004000e+05 ...,   4.99955001e+09
    4.99970000e+09   4.99985000e+09]
 

@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function which returns last word
 def lastWord(string):
 
@@ -58,7 +58,7 @@ print(lastWord(string))
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```
 
@@ -73,7 +73,7 @@ geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Function which returns last word
 def lastWord(string):
 
@@ -94,6 +94,6 @@ print(lastWord(string))
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```

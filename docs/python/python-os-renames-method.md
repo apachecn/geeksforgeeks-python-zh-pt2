@@ -18,7 +18,7 @@
 
 **示例#1 :** 使用`os.renames()`方法重命名文件
 
-```
+```py
 # Python program to explain os.renames() method 
 
 # importing os module 
@@ -50,7 +50,7 @@ print(os.listdir(os.getcwd())) 
 
 **Output:**
 
-```
+```py
 Current directory is: C:\Users\Rajnish\Desktop\GeeksforGeeks
 Before renaming file:
 ['testfile.txt']
@@ -62,7 +62,7 @@ After renaming file:
 **示例 2 :**
 使用`os.renames()`方法重命名文件，并将其添加到不存在的新目录中
 
-```
+```py
 # Python program to explain os.renames() method 
 
 # importing os module 
@@ -95,7 +95,7 @@ print(os.listdir(os.getcwd())) 
 
 **Output:**
 
-```
+```py
 Current directory is: C:\Users\Rajnish\Desktop\GeeksforGeeks
 Before renaming file:
 ['newdir', 'testfile.txt']

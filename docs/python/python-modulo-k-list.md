@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 列表理解只是执行我们使用天真方法执行的任务的简单方法。这主要有助于节省时间，在代码可读性方面也是最好的。
 
-```
+```py
 # Python3 code to demonstrate 
 # Modulo K List
 # using list comprehension
@@ -31,7 +31,7 @@ print ("The list after Modulo K to each element : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 3, 9]
 The list after Modulo K to each element : [0, 1, 2, 3, 1]
 

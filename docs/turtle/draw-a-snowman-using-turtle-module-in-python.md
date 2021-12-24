@@ -17,7 +17,7 @@ python 中有很多描绘图形插图的模块，其中之一就是*龟*，它�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import turtle
 

@@ -7,7 +7,7 @@
 **方法#1:使用生成器表达式+ `tuple()`**
 以上功能的组合可用于执行此任务。在这种情况下，我们需要使用生成器表达式迭代 N，并使用元组()构造元组。
 
-```
+```py
 # Python3 code to demonstrate working of
 # N element incremental tuples
 # Using generator expression + tuple
@@ -28,7 +28,7 @@ print("Tuple sequence : " + str(res))
 
 **Output :**
 
-```
+```py
 Number of times to repeat : 3
 Tuple sequence : ((1, 1, 1), (2, 2, 2), (3, 3, 3), (4, 4, 4), (5, 5, 5))
 

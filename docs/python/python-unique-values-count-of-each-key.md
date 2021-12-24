@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unique values count of each Key
 # Using len() + set()
@@ -64,7 +64,7 @@ print("Unique count of keys : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unique values count of each Key
 # Using len() + set() + dictionary comprehension

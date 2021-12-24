@@ -6,7 +6,7 @@
 
 **代码#1:** 使用 sum()函数
 
-```
+```py
 # Python code to find sum values within nested dictionaries
 weapons = {'': None, 'sword': { 'steel': 151,
                                 'sharpness': 100,
@@ -25,7 +25,7 @@ print(sumValue2)
 
 **求锐度值之和输出:**
 
-```
+```py
 305
 271
 

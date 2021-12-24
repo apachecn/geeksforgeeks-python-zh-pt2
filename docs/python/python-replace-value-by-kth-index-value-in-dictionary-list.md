@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace value by Kth index value in Dictionary List
 # Using loop + isinstance()
@@ -61,7 +61,7 @@ print("The Modified Dictionaries : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace value by Kth index value in Dictionary List
 # Using dictionary comprehension + isinstance()

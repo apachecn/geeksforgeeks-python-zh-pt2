@@ -8,7 +8,7 @@
 
 该模块不是 python 内置的，但可以使用以下命令安装:
 
-```
+```py
 pip install rotate-matrix
 ```
 
@@ -26,7 +26,7 @@ pip install rotate-matrix
 
 ## 蟒蛇 3
 
-```
+```py
 import rotate_matrix
 
 mat = [[5, 2, 6], [8, 2, 9], [3, 6, 7], [3, 6, 2]]
@@ -50,7 +50,7 @@ print(rotate_matrix.clockwise(mat))
 
 ## 蟒蛇 3
 
-```
+```py
 import rotate_matrix
 
 mat = [[5, 2, 6], [8, 2, 9], [3, 6, 7], [3, 6, 2]]

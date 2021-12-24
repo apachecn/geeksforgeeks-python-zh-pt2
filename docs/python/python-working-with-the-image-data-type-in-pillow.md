@@ -12,7 +12,7 @@
 > img = image . open(*image _ path*)
 > croppedim =*img*。size(大小)
 
-```
+```py
 # import Image module
 from PIL import Image
 
@@ -25,13 +25,13 @@ print(catIm.size)
 
 **输出:**
 
-```
+```py
 (400, 533)
 ```
 
 **分别获取高度和宽度–**它帮助我们获取图像的高度和宽度。
 
-```
+```py
 # import Image module
 from PIL import Image
 
@@ -50,7 +50,7 @@ print(width)
 
 **输出:**
 
-```
+```py
 400
 533
 ```
@@ -60,7 +60,7 @@ print(width)
 > img = image . open(*image _ path*)
 > croppedim =*img*。档案名称
 
-```
+```py
 # import the Image module
 from PIL import Image
 
@@ -73,7 +73,7 @@ print(catIm.filename)
 
 **输出:**
 
-```
+```py
 D:/cat.jpg
 ```
 
@@ -82,7 +82,7 @@ D:/cat.jpg
 > img = image . open(*image _ path*)
 > croppedim =*img*。格式(format)
 
-```
+```py
 # import the image
 from PIL import Image
 
@@ -95,7 +95,7 @@ print(catIm.format)
 
 **输出:**
 
-```
+```py
 JPEG
 ```
 
@@ -104,7 +104,7 @@ JPEG
 > img = image . open(*image _ path*)
 > croppedim =*img*。format_description
 
-```
+```py
 # import the image
 from PIL import Image
 
@@ -117,6 +117,6 @@ print(catIm.format_description)
 
 **输出:**
 
-```
+```py
 JPEG (ISO 10918)
 ```

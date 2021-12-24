@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Restrict Elements Frequency in List
 # Using loop + defaultdict()
@@ -49,7 +49,7 @@ print("Filtered List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 4, 5, 4, 1, 4, 4, 5, 5, 6]
 Filtered List : [1, 4, 5, 4, 4, 5, 6]
 ```

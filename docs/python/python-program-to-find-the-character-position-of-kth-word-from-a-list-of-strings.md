@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Word Index for K position in Strings List
 # Using enumerate() + list comprehension
@@ -55,7 +55,7 @@ print("Index of character at Kth position word : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Word Index for K position in Strings List
 # Using next() + zip() + count()

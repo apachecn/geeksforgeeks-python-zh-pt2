@@ -52,13 +52,13 @@
 
 *   <u>启用 EPEL 存储库</u>
 
-```
+```py
  $ sudo yum install epel-release
 ```
 
 *   <u>安装所需的软件包</u>
 
-```
+```py
  $ sudo yum install <package/depedency_name> 
 ```
 
@@ -77,13 +77,13 @@
 *   <u>使用 psql 为网站创建您的数据库和新角色(数据库用户)，并相应地更新您的 settings.py 文件。</u>
 *   <u>在 ssh 终端上运行以下命令，为数据库创建迁移:</u>
 
-```
+```py
  (project_env) $ python manage.py makemigrations 
 ```
 
 *   <u>确保所有迁移都已正确创建，并且在创建迁移时不会出错。现在迁移数据库:</u>
 
-```
+```py
  (project_env) $ python manage.py migrate 
 ```
 
@@ -91,7 +91,7 @@
 
 *   <u>使用命令查看当前迁移:</u>
 
-```
+```py
  (local_project_env) $ python manage.py showmigrations 
 ```
 
@@ -99,14 +99,14 @@
 
 <u>(**注**:这里我的-app 应该换成你的 app 名。)</u>
 
-```
+```py
  (local_project_env) $ python manage.py migrate --fake my-app zero 
 ```
 
 *   <u>通过导航到每个应用的迁移文件夹并删除该文件夹中除 __init__ 以外的所有内容，删除实际的迁移文件。py 文件。注意不要删除 __init__。py 文件。</u>
 *   <u>创建初始迁移并伪造它们:</u>
 
-```
+```py
  (local_project_env) $ python manage.py makemigrations
   (local_project_env) $ python manage.py migrate --fake-initial 
 ```
@@ -115,7 +115,7 @@
 
 *   <u>将现有数据转储到本地系统:</u>
 
-```
+```py
  (local_project_env) $ python manage.py dumpdata > dump.json 
 ```
 
@@ -124,7 +124,7 @@
 
 <u>(**注意**:在服务器终端(ssh)上运行以下命令)</u>
 
-```
+```py
  (project_env) $ python manage.py shell 
    >>> from django.contrib.contenttypes.models import ContentType
    >>> ContentType.objects.all().delete()
@@ -133,6 +133,6 @@
 
 *   <u>将 dump.json 文件加载到数据库中:</u>
 
-```
+```py
  (project_env) $ python manage.py loaddata dump.json
 ```

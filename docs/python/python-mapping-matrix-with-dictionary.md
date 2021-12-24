@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Mapping Matrix with Dictionary
 # Using loop
@@ -48,7 +48,7 @@ print("Converted Mapped Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 2, 1], [1, 2, 3], [4, 3, 1]]
 Converted Mapped Matrix : [['Geeks', 'best', 'gfg'], ['gfg', 'best', 'CS'], ['Geeks', 'CS', 'gfg']]
 
@@ -60,7 +60,7 @@ Converted Mapped Matrix : [['Geeks', 'best', 'gfg'], ['gfg', 'best', 'CS'], ['Ge
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Mapping Matrix with Dictionary
 # Using list comprehension
@@ -84,7 +84,7 @@ print("Converted Mapped Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [[4, 2, 1], [1, 2, 3], [4, 3, 1]]
 Converted Mapped Matrix : [['Geeks', 'best', 'gfg'], ['gfg', 'best', 'CS'], ['Geeks', 'CS', 'gfg']]
 

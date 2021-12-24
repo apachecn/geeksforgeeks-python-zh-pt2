@@ -6,7 +6,7 @@
 首先您必须安装这些:-
 1) **硒的 Python 绑定(浏览器自动化软件)**
 
-```
+```py
 pip install selenium
 ```
 
@@ -25,7 +25,7 @@ JSON 代表 JavaScript 对象符号。这是一种非常简单和轻便的数据
 
 ## 蟒蛇 3
 
-```
+```py
 # get current date in required format
 import datetime
 
@@ -126,7 +126,7 @@ for inp in namev:
 
 **JSON 文件的样子**
 
-```
+```py
 [
   {
     "name": "NAME1",

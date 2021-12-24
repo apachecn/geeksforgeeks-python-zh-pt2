@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + list comprehension + zip() + any()`**
 结合以上功能可以解决这个问题。这种方法分两步解决问题。在第一步中，我们使用列表理解和 zip 函数计算所有可能的 N 对，在第二步中，我们使用 sum 和任何函数来测试 N 个可分的结果，如果我们找到其中的任何一个，我们返回正。
 
-```
+```py
 # Python3 code to demonstrate
 # Series K divisible elements
 # using sum() + zip() + any() + list comprehension
@@ -35,7 +35,7 @@ print("Does list contain the desired consecution : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 5, 6, 4, 8, 12]
 Does list contain the desired consecution : True
 

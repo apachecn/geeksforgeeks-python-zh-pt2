@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Modules which need to be imported
 import webbrowser
 

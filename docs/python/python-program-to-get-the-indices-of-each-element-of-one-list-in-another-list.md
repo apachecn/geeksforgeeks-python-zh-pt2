@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multiple Indices from list elements
 # Using setdefault() + loop
@@ -46,7 +46,7 @@ print("Filtered Indices of elements in list 1  : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 3, 7, 8, 3, 2, 4, 3, 5, 8, 3]
 Filtered Indices of elements in list 1  : [[3], [1, 9], [2, 5, 8, 11]]
 
@@ -58,7 +58,7 @@ Filtered Indices of elements in list 1  : [[3], [1, 9], [2, 5, 8, 11]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multiple Indices from list elements
 # Using list comprehension + enumerate()
@@ -82,7 +82,7 @@ print("Indices of elements in list 1  : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 3, 7, 8, 3, 2, 4, 3, 5, 8, 3]
 Indices of elements in list 1  : [[3], [1, 9], [2, 5, 8, 11]]
 

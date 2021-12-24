@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class ListCreateAPIView(mixins.ListModelMixin, 
                         mixins.CreateModelMixin, GenericAPIView):
 ```
@@ -29,7 +29,7 @@ class ListCreateAPIView(mixins.ListModelMixin, 
 
 ## 蟒蛇 3
 
-```
+```py
 class RetrieveUpdateDestroyAPIView(mixins.RetrieveModelMixin, 
                                    mixins.UpdateModelMixin, 
                                    mixins.DestroyModelMixin, 
@@ -40,7 +40,7 @@ class RetrieveUpdateDestroyAPIView(mixins.RetrieveModelMixin, 
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 from rest_framework import generics
@@ -100,7 +100,7 @@ class RobotDetail(generics.RetrieveUpdateDestroyAPIView):
 
 ## 蟒蛇 3
 
-```
+```py
 class ApiRoot(generics.GenericAPIView):
     name = 'api-root'
     def get(self, request, *args, **kwargs):
@@ -117,7 +117,7 @@ class ApiRoot(generics.GenericAPIView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.conf.urls import url
 from robots import views
 
@@ -156,7 +156,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.conf.urls import url, include
 
 urlpatterns = [

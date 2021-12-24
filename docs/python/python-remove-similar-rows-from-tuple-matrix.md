@@ -13,7 +13,7 @@
 **方法一:使用`set() + tuple() + sorted()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们首先执行排序，然后将行转换为集合，这将自动删除重复的行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Similar Rows from Tuple Matrix
 # Using set() + tuple() + sorted() + list comprehension
@@ -34,7 +34,7 @@ print("Tuple matrix after removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]
 Tuple matrix after removal : {((4, 6), (2, 2)), ((4, 5), (3, 2))}
 
@@ -43,7 +43,7 @@ Tuple matrix after removal : {((4, 6), (2, 2)), ((4, 5), (3, 2))}
 **方法 2:使用`set() + frozenset()` +生成器表达式**
 以上功能的组合可以解决这个问题。在本文中，我们使用 frozenset()执行排序和元组转换的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Similar Rows from Tuple Matrix
 # Using set() + frozenset() + generator expression
@@ -64,7 +64,7 @@ print("Tuple matrix after removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]
 Tuple matrix after removal : {frozenset({(4, 5), (3, 2)}), frozenset({(4, 6), (2, 2)})}
 

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `split() + extend()`**
 以上功能的组合可以用来执行这个任务。在本例中，我们使用 split()执行拆分任务，并使用 extend()在列表中添加拆分元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split flatten String List
 # Using list comprehension + split() + extend()
@@ -29,7 +29,7 @@ print("The String List after extension : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg-is-best', 'for-all', 'geeks-and', 'CS']
 The String List after extension : ['gfg', 'is', 'best', 'for', 'all', 'geeks', 'and', 'CS']
 

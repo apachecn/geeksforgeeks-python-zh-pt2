@@ -6,7 +6,7 @@
 
 **方法#1:使用料仓和 zfill**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of a hex string
 # to the binary string
@@ -32,7 +32,7 @@ print ("Resultant string", str(res))
 
 **方法#2:使用天真方法**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of hex string
 # to binary string
@@ -64,7 +64,7 @@ print ("Resultant string", str(res))
 
 **方法三:使用。格式**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of hex string
 # to binary string

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Next Greater Frequency
 # Using sort() + len()
@@ -53,7 +53,7 @@ print("Sorted rows : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Next Greater Frequency
 # Using sorted() + len() + lambda

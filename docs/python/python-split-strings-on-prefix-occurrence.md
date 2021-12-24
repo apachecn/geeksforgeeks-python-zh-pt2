@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split Strings on Prefix Occurrence
 # Using loop + startswith()
@@ -51,7 +51,7 @@ print("Prefix Split List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'best', 'geeks', 'and', 'geeks', 'love', 'CS']
 Prefix Split List : [['geeksforgeeks', 'best'], ['geeks', 'and'], ['geeks', 'love', 'CS']]
 ```
@@ -62,7 +62,7 @@ Prefix Split List : [['geeksforgeeks', 'best'], ['geeks', 'and'], ['geeks', 'lov
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split Strings on Prefix Occurrence
 # Using loop + zip_longest() + startswith()
@@ -94,7 +94,7 @@ print("Prefix Split List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'best', 'geeks', 'and', 'geeks', 'love', 'CS']
 Prefix Split List : [['geeksforgeeks', 'best'], ['geeks', 'and'], ['geeks', 'love', 'CS']]
 ```

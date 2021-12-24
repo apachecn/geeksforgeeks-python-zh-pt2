@@ -7,7 +7,7 @@
 **方法#1:使用`str() + strip()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们只需将一个列表转换为字符串，并去掉列表的左方括号和右方括号，以呈现一个字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List of tuples to String
 # using str() + strip()
@@ -28,7 +28,7 @@ print("Resultant string from list of tuple : " + res)
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 4), (5, 6), (8, 9), (3, 6)]
 Resultant string from list of tuple : (1, 4), (5, 6), (8, 9), (3, 6)
 

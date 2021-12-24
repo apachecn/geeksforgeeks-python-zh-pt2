@@ -28,7 +28,7 @@
 
 **代码:解释几个函数渐近行为的 Python 代码。**
 
-```
+```py
 # Python code that compares the 
 # asymptotic behaviour of several functions
 

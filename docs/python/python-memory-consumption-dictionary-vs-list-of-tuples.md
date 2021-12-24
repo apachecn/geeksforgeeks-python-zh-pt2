@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 dict = {}
@@ -31,7 +31,7 @@ print(sys.getsizeof(d))
 
 **输出:**
 
-```
+```py
 {}
 240
 []
@@ -42,7 +42,7 @@ print(sys.getsizeof(d))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # for dict
@@ -60,7 +60,7 @@ print(sys.getsizeof(LoT))
 
 **输出:**
 
-```
+```py
 {(3, 'G'), (1, 'G'), (2, 'F')}
 224
 [(1, 'G'), (2, 'F'), (3, 'G')]
@@ -73,7 +73,7 @@ print(sys.getsizeof(LoT))
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # for dict

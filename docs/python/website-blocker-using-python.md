@@ -11,13 +11,13 @@
 1.  每个系统都有**主机**文件，无论是 Mac，Windows 还是 Linux。
     **在 Mac 和 Linux 中托管**文件:
 
-```
+```py
 /etc/hosts
 ```
 
 **在 Windows 中托管**文件:
 
-```
+```py
 C:\Windows\System32\drivers\etc
 ```
 
@@ -27,7 +27,7 @@ C:\Windows\System32\drivers\etc
 
     ![](img/e4580528548aa2daaed2fdc8a34ca086.png)
 
-    ```
+    ```py
     # Run this script as root
 
     import time
@@ -79,7 +79,7 @@ C:\Windows\System32\drivers\etc
 
     1.  Write following command in terminal:
 
-        ```
+        ```py
         sudo crontab -e
         ```
 

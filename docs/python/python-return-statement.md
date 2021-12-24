@@ -7,7 +7,7 @@ return 语句用于结束函数调用的执行，并将结果(return 关键字�
 
 **语法:**
 
-```
+```py
 def fun():
     statements
     .
@@ -19,7 +19,7 @@ def fun():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate return statement
 
@@ -43,7 +43,7 @@ print("\nResult of is_true function is {}".format(res))
 
 **输出:**
 
-```
+```py
 Result of add function is 5
 
 Result of is_true function is True
@@ -57,7 +57,7 @@ Result of is_true function is True
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to return multiple 
 # values from a method using class
 class Test:
@@ -77,7 +77,7 @@ print(t.x)
 
 *   **输出:**
 
-```
+```py
 geeksforgeeks
 20
 ```
@@ -86,7 +86,7 @@ geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to return multiple 
 # values from a method using tuple
 
@@ -105,7 +105,7 @@ print(x)
 
 *   **输出:**
 
-```
+```py
 geeksforgeeks
 20
 ```
@@ -114,7 +114,7 @@ geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to return multiple 
 # values from a method using list
 
@@ -131,7 +131,7 @@ print(list)
 
 *   **输出:**
 
-```
+```py
 ['geeksforgeeks', 20]
 ```
 
@@ -139,7 +139,7 @@ print(list)
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to return multiple 
 # values from a method using dictionary
 
@@ -157,7 +157,7 @@ print(d)
 
 *   **输出:**
 
-```
+```py
 {'x': 20, 'str': 'GeeksforGeeks'}
 ```
 
@@ -168,7 +168,7 @@ print(d)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate functions
 # can return another function
 
@@ -199,7 +199,7 @@ print("\nThe result is:", res(10))
 
 **输出:**
 
-```
+```py
 The result is 25
 
 The result is: 100

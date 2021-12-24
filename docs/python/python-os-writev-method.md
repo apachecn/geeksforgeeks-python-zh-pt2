@@ -20,7 +20,7 @@ Python 中的`***os.writev()***`方法用于将指定缓冲区的内容写入指
 
 **Code:** Use of os.writev() method to write contents of buffers to a file
 
-```
+```py
 # Python program to explain os.writev() method
 
 # import os module
@@ -56,7 +56,7 @@ print("Total Number of bytes actually written:", numBytes)
 
 **Output:**
 
-```
+```py
 GeeksForGeeks: A computer science portal for geeks
 Total Number of bytes actually written: 50
 

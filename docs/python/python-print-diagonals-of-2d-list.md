@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 Output : Diagonal 1 - [1, 5, 9]
          Diagonal 2 - [3, 5, 7]
@@ -21,7 +21,7 @@ Output : Diagonal 1 - ['a', 'd']
 
 ## 计算机编程语言
 
-```
+```py
 # Python2 program to print diagonals in 2D list
 
 def printDiagonal(lst):
@@ -43,7 +43,7 @@ printDiagonal(lst)
 
 **Output**
 
-```
+```py
 Diagonal 1 - [1, 5, 9]
 Diagonal 2 - [3, 5, 7]
 ```
@@ -53,7 +53,7 @@ Diagonal 2 - [3, 5, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to print diagonals in 2D list
 
 def printDiagonal(lst):
@@ -73,7 +73,7 @@ printDiagonal(lst)
 
 **Output**
 
-```
+```py
 Diagonal 1 - [1, 5, 9]
 Diagonal 2 - [3, 5, 7]
 ```
@@ -83,7 +83,7 @@ Python*enumerate()*也是上述方法的替代方法。它使用两个变量“I
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to print diagonals in 2D list
 
 def printDiagonal(lst):
@@ -102,7 +102,7 @@ printDiagonal(lst)
 
 **Output**
 
-```
+```py
 Diagonal 1 - [1, 5, 9]
 Diagonal 2 - [3, 5, 7]
 ```

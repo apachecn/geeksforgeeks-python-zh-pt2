@@ -16,7 +16,7 @@
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > wand.image.crop(left, top, right, bottom, width,
 >                   height, reset_coords, gravity)
 >  
@@ -47,7 +47,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image
 from wand.image import Image
 from wand.display import display
@@ -75,7 +75,7 @@ with Image(filename = 'gog.png') as img:
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > with Image(filename = 'filename.format') as img:
 >     with img[left:right, top:bottom]  as cropimg:
 >     # other manipulation
@@ -87,7 +87,7 @@ with Image(filename = 'gog.png') as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image
 from wand.image import Image
 from wand.display import display

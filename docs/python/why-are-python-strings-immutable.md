@@ -6,7 +6,7 @@
 
 ## python 3
 
-```
+```py
 name_1 = "Aarun" 
 
 name_1[0] = 'T' 
@@ -14,7 +14,7 @@ name_1[0] = 'T' 
 
 当您需要更改字符串的内容时，您会收到一条错误消息。
 
-```
+```py
 Traceback (latest call last):  
 Record "/home/ca508dc8fa5ad71190ca982b0e3493a8.py", line 2, in <module>  
 name_1[0] = 'T'  
@@ -27,7 +27,7 @@ TypeError: 'str' object doesn't uphold thing task
 
 ## 
 
-```
+```py
 name_1 = "Aarun"
 
 name_2 = "T" + name_1[1:]
@@ -37,7 +37,7 @@ print("name_1 = ", name_1, "and name_2 = ", name_2)
 
 **输出:**
 
-```
+```py
 name_1 =  Aarun and name_2 =  Tarun
 ```
 
@@ -45,7 +45,7 @@ name_1 =  Aarun and name_2 =  Tarun
 
 ## python 3
 
-```
+```py
 name_1 = "Aarun"
 name_2 = "T" + name_1[1:]
 
@@ -55,7 +55,7 @@ print("id of name_2 = ", id(name_2))
 
 **输出:**
 
-```
+```py
 id of name_1 =  2342565667256
 id of name_2 =  2342565669888
 ```
@@ -64,7 +64,7 @@ id of name_2 =  2342565669888
 
 ## python 3
 
-```
+```py
 name_1 = "Aarun"
 name_2 = "Aarun"
 
@@ -78,7 +78,7 @@ print("id of name_2 = ", id(name_2))
 
 ## 
 
-```
+```py
 name_1 = "Aarun"
 print("id of name_1 = ", id(name_1))
 
@@ -88,7 +88,7 @@ print("id of name_1  with new value = ", id(name_1))
 
 **输出:**
 
-```
+```py
 id of name_1 =  2342565667256
 id of name_1  with new value =  2342565668656
 ```

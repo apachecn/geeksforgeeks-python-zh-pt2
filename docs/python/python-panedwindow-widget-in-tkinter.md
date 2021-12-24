@@ -14,7 +14,7 @@ PanedWindow 可用于实现常见的 2 窗格或 3 窗格，但也可以使用�
 
 **代码#1:** 窗格只有两个窗格的窗口
 
-```
+```py
 # Importing everything from tkinter module
 from tkinter import * from tkinter import ttk
 
@@ -56,7 +56,7 @@ mainloop()
 
 **代码#2:** 带有多个窗格的面板
 
-```
+```py
 # Importing everything from tkinter module
 from tkinter import * from tkinter import ttk
 

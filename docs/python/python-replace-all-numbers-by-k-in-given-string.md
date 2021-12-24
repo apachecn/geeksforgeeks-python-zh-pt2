@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace numbers by K in String
 # Using replace() + isdigit()
@@ -43,7 +43,7 @@ print("The resultant string : " + str(test_str)) 
 
 **Output**
 
-```
+```py
 The original string is : G4G is 4 all No. 1 Geeks
 The resultant string : G@G is @ all No. @ Geeks
 
@@ -55,7 +55,7 @@ The resultant string : G@G is @ all No. @ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace numbers by K in String
 # Using regex() + sub()
@@ -79,7 +79,7 @@ print("The resultant string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : G4G is 4 all No. 1 Geeks
 The resultant string : G@G is @ all No. @ Geeks
 

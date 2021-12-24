@@ -13,7 +13,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.StaticText(self, parent, id=ID_ANY, bitmap=NullBitmap, 
 >               pos=DefaultPosition, size=DefaultSize, style=0, 
 >            validator= DefaultVadator, name=StaticTextNameStr)
@@ -35,7 +35,7 @@
 
 **示例代码:**
 
-```
+```py
 # import wxPython
 import wx
 

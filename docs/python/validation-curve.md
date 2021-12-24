@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required libraries
 import matplotlib.pyplot as plt
 import numpy as np

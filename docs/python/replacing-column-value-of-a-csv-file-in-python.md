@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # reading the CSV file
 text = open("csvfile.csv", "r")
 
@@ -50,7 +50,7 @@ x.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import pandas as pd 
 

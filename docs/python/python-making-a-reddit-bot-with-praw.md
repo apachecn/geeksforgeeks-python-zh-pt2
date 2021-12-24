@@ -18,7 +18,7 @@ Reddit 机器人是自动响应用户发帖或者每隔一定时间自动发帖�
 6.  找到触发短语后，从评论中提取该词，并使用`enchant`模块找到其相似词。
 7.  用类似的话回复评论。
 
-```
+```py
 # import the modules
 import praw
 import enchant

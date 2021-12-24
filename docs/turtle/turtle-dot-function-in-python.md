@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.dot(size=None, *color)
 
 ```
@@ -31,7 +31,7 @@ turtle.dot(size=None, *color)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -52,7 +52,7 @@ turtle.dot(60, color="yellow")
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

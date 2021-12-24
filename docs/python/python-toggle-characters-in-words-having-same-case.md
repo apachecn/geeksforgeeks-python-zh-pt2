@@ -16,7 +16,7 @@
 **简单方法:**
 分别考虑字符串中的每个单词。设置两个标志，一个检查字符的所有大小写是否相同，另一个检查字符是大写还是小写。
 
-```
+```py
 if all the characters are in the same case 
     if all the characters are lower case 
        then convert into upper case
@@ -26,7 +26,7 @@ else print the same word
 
 下面是实现:
 
-```
+```py
 # Python program to toggle character in 
 # a string only with same case
 
@@ -95,7 +95,7 @@ toggle(s)
 
 **Output:**
 
-```
+```py
 Geeks FOR Geeks
 
 ```
@@ -103,7 +103,7 @@ Geeks FOR Geeks
 **使用库函数:**
 我们也可以使用直接库函数来检查单个[单词是低还是高。](https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/)
 
-```
+```py
 # Python program to toggle character in 
 # a string only with same case
 
@@ -129,7 +129,7 @@ toggle(s)
 
 **Output:**
 
-```
+```py
 Geeks FOR Geeks
 
 ```

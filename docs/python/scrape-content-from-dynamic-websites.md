@@ -15,7 +15,7 @@ Selenium 是一个免费(开源)的自动化测试框架，用于跨不同浏览
 
 **1)python 中的硒绑定**
 
-```
+```py
 pip install selenium
 
 ```
@@ -23,7 +23,7 @@ pip install selenium
 **2)网络驱动**
 Selenium 需要一个网络驱动与选择的浏览器进行交互。Web 驱动程序是一个与 web 浏览器交互的包。它通过通用的有线协议与网络浏览器或远程网络服务器进行交互。您可以签出并安装您选择的网络驱动程序。
 
-```
+```py
 Chrome: https://sites.google.com/a/chromium.org/chromedriver/downloads
 Firefox: https://github.com/mozilla/geckodriver/releases
 Safari:    https://webkit.org/blog/6900/webdriver-support-in-safari-10/ 
@@ -37,14 +37,14 @@ Safari:    https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 为了使用美丽的汤，我们在 python 中有这个奇妙的绑定:
 **1)在 python 中的 BS4 绑定**
 
-```
+```py
 pip install bs4
 
 ```
 
 让我们假设站点是动态的，简单的抓取导致返回一个非类型对象。
 
-```
+```py
 #### This program scrapes naukri.com's page and gives our result as a 
 #### list of all the job_profiles which are currently present there. 
 

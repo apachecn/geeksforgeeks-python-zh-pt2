@@ -6,7 +6,7 @@
 
 在本文中，我们将研究使用 *pymysql* 向数据库的表中插入行的过程。可以一次插入一行或多行。将命令连接到特定数据库需要连接器代码。要插入数据，请使用以下语法:
 
-```
+```py
 Syntax: INSERT INTO table_name column1, column2 VALUES (value1, value2)
 ```
 
@@ -18,7 +18,7 @@ Syntax: INSERT INTO table_name column1, column2 VALUES (value1, value2)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the mysql client for python
 
 import pymysql
@@ -62,7 +62,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 query = "INSERT INTO PRODUCT (PRODUCT_ID, price,PRODUCT_TYPE) VALUES ('%s', %d, '%s')"
 
 values = [("1203",1000,"ILL"),

@@ -4,7 +4,7 @@
 
 python 中的 **sys** 模块帮助我们访问解释器维护的变量。它还提供了与解释器交互的功能。为了在 Python 中使用**系统**，我们首先导入系统
 
-```
+```py
 import sys
 ```
 
@@ -19,7 +19,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 for line in sys.stdin:
@@ -39,7 +39,7 @@ print("Exit")
 
 ## 蟒蛇 3
 
-```
+```py
 # this accepts the user's input
 # and stores in inp
 inp = input("Type anything")
@@ -58,7 +58,7 @@ print(inp)
 
 ## 蟒蛇 3
 
-```
+```py
 import fileinput
 
 with fileinput.input(files = ('sample.txt', 'no.txt')) as f:
@@ -75,7 +75,7 @@ with fileinput.input(files = ('sample.txt', 'no.txt')) as f:
 
 ## 蟒蛇 3
 
-```
+```py
 import fileinput
 
 for f in fileinput.input():

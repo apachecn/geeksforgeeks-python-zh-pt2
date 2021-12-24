@@ -42,7 +42,7 @@
 
 要验证您是否安装了 python 3，请在命令提示符下使用以下命令(由于此项目是在 Windows 机器上开发的，我们将使用命令提示符，但根据您的操作系统，您可以使用终端):
 
-```
+```py
 python -V
 ```
 
@@ -52,7 +52,7 @@ python -V
 
 要检查节点模块是否已安装，请使用以下命令:
 
-```
+```py
 node --version
 ```
 
@@ -72,19 +72,19 @@ node --version
 
 **步骤 1:** 使用以下命令创建一个名为 ***【姜戈-反应-应用】*** 的目录(该命令可能会根据您的操作系统略有变化):
 
-```
+```py
 mkdir django-react-app
 ```
 
 **步骤 2:** 移动到我们刚刚使用以下命令创建的目录中:
 
-```
+```py
 cd django-react-project
 ```
 
 **步骤 3:** 现在使用以下命令创建一个虚拟环境:
 
-```
+```py
 python -m venv dar
 ```
 
@@ -92,7 +92,7 @@ python -m venv dar
 
 **步骤 4:** 使用以下命令激活我们刚刚创建的虚拟环境:
 
-```
+```py
 dar\Scripts\activate.bat
 ```
 
@@ -102,7 +102,7 @@ dar\Scripts\activate.bat
 
 **步骤 5:** 现在使用以下命令在虚拟机内部安装 Django:
 
-```
+```py
 pip install django
 ```
 
@@ -112,7 +112,7 @@ pip install django
 
 **第 6 步:**现在让我们为我们的 Django 后端创建名为“ ***【后端】*** 的项目。为此，请使用以下命令:
 
-```
+```py
 django-admin startproject backend
 ```
 
@@ -120,13 +120,13 @@ Django-react 应用程序将是我们的主文件夹，在它里面，我们将�
 
 **步骤 7:** 现在使用以下命令导航到后端文件夹:
 
-```
+```py
 cd backend
 ```
 
 **第 8 步:**现在我们将启动我们的应用程序，并使用以下命令将其称为“todo”:
 
-```
+```py
 python manage.py startapp todo
 ```
 
@@ -140,7 +140,7 @@ python manage.py startapp todo
 
 **步骤 9:** 现在使用下面的命令迁移项目:
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -150,7 +150,7 @@ python manage.py migrate
 
 **步骤 10:** 现在让我们使用以下命令运行服务器:
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -162,7 +162,7 @@ python manage.py runserver
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -180,7 +180,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -301,7 +301,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ## 蟒蛇 3
 
-```
+```py
 class Todo(models.Model):
     title=models.CharField(max_length=150)
     description=models.CharField(max_length=500)
@@ -312,7 +312,7 @@ class Todo(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 def __str__(self):
 
   #it will return the title
@@ -323,7 +323,7 @@ def __str__(self):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Todo(models.Model):
@@ -340,7 +340,7 @@ class Todo(models.Model):
 
 **步骤 13:** 现在让我们继续进行迁移。请注意，每次您更改 *models.py* 文件时，我们都需要进行迁移。请使用以下命令来执行此操作:
 
-```
+```py
 python manage.py makemigrations
 ```
 
@@ -350,7 +350,7 @@ python manage.py makemigrations
 
 **步骤 14:** 现在，让我们使用以下命令应用所有迁移:
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -364,7 +364,7 @@ python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 
 # import the model Todo

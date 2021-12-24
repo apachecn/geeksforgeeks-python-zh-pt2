@@ -10,7 +10,7 @@
 
 启动一个新的 django 项目，如:
 
-```
+```py
 django-admin startproject my_project
 ```
 
@@ -20,7 +20,7 @@ django-admin startproject my_project
 
 创建新应用程序，如下所示:
 
-```
+```py
 python manage.py startapp portfolio_app
 ```
 
@@ -32,7 +32,7 @@ Django 会自动创建文件，这样您就可以专注于您的任务，而不�
 
 该职位由以下字段组成:
 
-```
+```py
 1.Image
 2.Caption or description
 3.Date posted
@@ -41,7 +41,7 @@ Django 会自动创建文件，这样您就可以专注于您的任务，而不�
 
 首先，导入**模型中需要的模块。**
 
-```
+```py
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
@@ -51,7 +51,7 @@ from django.contrib.auth.models import User
 
 ## 蟒蛇 3
 
-```
+```py
 class Post(models.Model):
     image = models.ImageField(
         default ="default_foo.png", upload_to ="post_picture")
@@ -87,7 +87,7 @@ class Post(models.Model):
 
 成功创建 post 模型后，在终端上运行以下命令，进行更改并将其保存在数据库中。
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -108,7 +108,7 @@ Django 有内置的表单来创建和直接访问它，而无需从头开始编�
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from .models import Comment
 
@@ -129,7 +129,7 @@ class CommentForm(forms.ModelForm):
 
 ## 蟒蛇 3
 
-```
+```py
 from .forms import CommentForm
 
 def post_detailview(request, id):
@@ -160,7 +160,7 @@ cf 对象通过上下文字典传递到 html 中，以访问 HTML 中的所有�
 
 ## 超文本标记语言
 
-```
+```py
 {% load crispy_forms_tags %}
 <html>
   <head>

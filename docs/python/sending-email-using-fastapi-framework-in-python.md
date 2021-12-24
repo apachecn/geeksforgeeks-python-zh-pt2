@@ -18,7 +18,7 @@ FastAPI 是一个开发 REST Apis 的 python 框架。它非常容易构建，�
 
 您可以使用安装库
 
-```
+```py
 pip install fastapi-mail
 ```
 
@@ -28,7 +28,7 @@ pip install fastapi-mail
 
 导入发送电子邮件所需的库
 
-```
+```py
 from fastapi import FastAPI
 from fastapi_mail import FastMail, MessageSchema,ConnectionConfig
 from starlette.requests import Request
@@ -41,14 +41,14 @@ app = FastAPI()
 现在创建一个学究类来接受电子邮件作为输入。
 迂腐是一个模块，帮助我们编写输入/请求的验证。
 
-```
+```py
 class EmailSchema(BaseModel):
    email: List[EmailStr]
 ```
 
 使用 ConnectionConfig 设置发送电子邮件的配置
 
-```
+```py
 conf = ConnectionConfig(
    MAIL_USERNAME=from_,
    MAIL_PASSWORD="************",
@@ -69,7 +69,7 @@ conf = ConnectionConfig(
 
 它包含诸如发送什么和发送谁之类的参数。
 
-```
+```py
 message = MessageSchema(
        subject="Fastapi-Mail module",
        recipients=email.dict().get("email"),  # List of recipients, as many as you can pass  
@@ -82,7 +82,7 @@ message = MessageSchema(
 
 我们可以发邮件。
 
-```
+```py
 fm = FastMail(conf)
 await fm.send_message(message)
 ```
@@ -93,7 +93,7 @@ await fm.send_message(message)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.post("/send_mail")
 async def send_mail(email: EmailSchema):
 
@@ -126,13 +126,13 @@ async def send_mail(email: EmailSchema):
 
 使用启动应用程序
 
-```
+```py
 uvicorn main:app --reload
 ```
 
 成功启动服务器后，使用以下链接查看 API 列表。在我们的例子中，当您可以直接从文档页面本身给出输入时，我们将只有一个发送邮件 API(一个 POST 请求)。
 
-```
+```py
 http://127.0.0.1:8000/docs
 ```
 
@@ -148,7 +148,7 @@ http://127.0.0.1:8000/docs
 
 一旦 API 执行，它将返回 API 的返回语句中提到的成功输出。
 
-```
+```py
 "message": "email has been sent"
 ```
 

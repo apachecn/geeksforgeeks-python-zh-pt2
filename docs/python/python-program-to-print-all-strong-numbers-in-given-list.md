@@ -8,7 +8,7 @@
 
 ***检查数字是否为强数的例子。***
 
-```
+```py
 ***Input:** n = 145
 **Output:** Yes
 **Explanation:** 
@@ -19,7 +19,7 @@ Sum of digit factorials = 1! + 4! + 5!
 
 ***检查号码是否强的步骤:***
 
-```
+```py
 *1) Initialize sum of factorials as 0\. 
 2) For every digit d, do following
    a) Add d! to sum of factorials.
@@ -30,7 +30,7 @@ Sum of digit factorials = 1! + 4! + 5!
 
 *让我们看看针对这个问题的 Python 程序:*
 
-```
+```py
 *# Python3 program to print 
 # all strong numbers in a list. 
 
@@ -93,7 +93,7 @@ if __name__ == "__main__" :
 
 ***Output:**
 
-```
+```py
 145 2 40585 0
 
 ```*

@@ -4,7 +4,7 @@
 
 给定一个集合，任务是编写一个 Python 程序来获取其元素之间所有可能的差异。
 
-```
+```py
 Input : test_set = {1, 5, 2, 7, 3, 4, 10, 14}
 Output : {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}
 Explanation : All possible differences are computed.
@@ -20,7 +20,7 @@ Explanation : All possible differences are computed.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All elements difference in Set
 # Using combinations + abs() + loop
@@ -57,7 +57,7 @@ print("All possible differences : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All elements difference in Set
 # Using set comprehension + combinations() + abs()

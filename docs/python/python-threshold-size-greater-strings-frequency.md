@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Threshold Size Greater Strings Frequency
 # using list comprehension + len()
@@ -33,7 +33,7 @@ print("The frequency of threshold K sized strings are : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The frequency of threshold K sized strings are : 4
 ```
@@ -43,7 +43,7 @@ The frequency of threshold K sized strings are : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Threshold Size Greater Strings Frequency
 # using filter() + lambda + len()
@@ -67,7 +67,7 @@ print("The frequency of threshold K sized strings are : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The frequency of threshold K sized strings are : 4
 ```

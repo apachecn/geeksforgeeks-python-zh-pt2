@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Number of positions where Substrings Match of Length K
 # Using list comprehension + min() + slicing
@@ -45,7 +45,7 @@ print("Number of positions of matching K length Substrings : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeksforgeeks
 The original string 2 is : peeksformeeks
 Number of positions of matching K length Substrings : 5
@@ -58,7 +58,7 @@ Number of positions of matching K length Substrings : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Number of positions where Substrings Match of Length K
 # Using map() + list comprehension
@@ -87,7 +87,7 @@ print("Number of positions of matching K length Substrings : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : geeksforgeeks
 The original string 2 is : peeksformeeks
 Number of positions of matching K length Substrings : 5

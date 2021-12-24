@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K character from first element of Tuple
 # Using replace() + list comprehension
@@ -41,7 +41,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('GF!g!', 5), ('!i!s', 4), ('best!!', 10)]
 The filtered tuples : [('GFg', 5), ('is', 4), ('best', 10)]
 
@@ -53,7 +53,7 @@ The filtered tuples : [('GFg', 5), ('is', 4), ('best', 10)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K character from first element of Tuple
 # Using translate() + list comprehension
@@ -76,7 +76,7 @@ print("The filtered tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('GF!g!', 5), ('!i!s', 4), ('best!!', 10)]
 The filtered tuples : [('GFg', 5), ('is', 4), ('best', 10)]
 

@@ -12,7 +12,7 @@
 
 想法是用 Python 中的[范围函数](https://www.geeksforgeeks.org/python-range-method/)。
 
-```
+```py
 # Python program to print all the numbers within an interval
 l = 10
 u = 20
@@ -23,7 +23,7 @@ for num in range(l, u + 1):
 
 **Output:**
 
-```
+```py
 10
 11
 12
@@ -40,7 +40,7 @@ for num in range(l, u + 1):
 
 我们也可以打印替代数字或给定步骤的数字。
 
-```
+```py
 # Python program to print all EVEN numbers within an interval
 l = 10
 u = 20
@@ -54,7 +54,7 @@ else:
 
 **Output:**
 
-```
+```py
 10
 12
 14

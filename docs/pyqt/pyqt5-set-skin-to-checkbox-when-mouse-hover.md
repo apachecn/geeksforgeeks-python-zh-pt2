@@ -6,7 +6,7 @@
 
 为了在鼠标悬停在复选框上时为其添加皮肤，我们必须编辑样式表代码，下面是样式表代码。
 
-```
+```py
 QCheckBox::hover
 {
 border-image : url(image.png);
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

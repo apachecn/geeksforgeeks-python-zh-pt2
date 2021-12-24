@@ -11,7 +11,7 @@ QDoubleSpinBox 允许用户通过单击向上和向下按钮或按键盘上的�
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

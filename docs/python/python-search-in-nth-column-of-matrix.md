@@ -7,7 +7,7 @@
 **方法:使用`any()` +列表理解**
 该任务可以使用上述功能的组合来执行，其中我们暗示对迭代和支持任务的列表理解，并且`any()`可以用于检查所需字符的任何出现。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Search in Nth Column of Matrix
 # Using any() + list comprehension
@@ -34,7 +34,7 @@ print("Does element exists in particular column : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [[1, 4, 5], [6, 7, 8], [8, 3, 0]]
 Does element exists in particular column : True

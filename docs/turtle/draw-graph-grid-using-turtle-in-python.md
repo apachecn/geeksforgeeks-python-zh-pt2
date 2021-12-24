@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package and making objects
 import turtle
 

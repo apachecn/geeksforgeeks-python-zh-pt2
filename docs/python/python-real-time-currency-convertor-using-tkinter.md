@@ -16,7 +16,7 @@ Python 为开发 GUI(图形用户界面)提供了多个选项。在所有的 GUI
 
 **所需模块:**
 
-```
+```py
 tkinter
 requests
 json
@@ -26,7 +26,7 @@ json
 
 ## 蟒蛇 3
 
-```
+```py
 # import all functions from the tkinter
 from tkinter import *
 

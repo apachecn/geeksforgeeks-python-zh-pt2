@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: -7 5 60 -34 1 
 Output: 
 Sum of negative numbers is  -41 
@@ -31,7 +31,7 @@ Sum of odd positive numbers is  1
 
 ## 蟒蛇 3
 
-```
+```py
 class Sumofnumbers:
 
     # find sum of negative numbers
@@ -110,7 +110,7 @@ obj.posSum(list_num)
 
 **输出:**
 
-```
+```py
 Sum of negative numbers is  -41
 Sum of even positive numbers is  60
 Sum of odd positive numbers is  6
@@ -121,7 +121,7 @@ Sum of odd positive numbers is  6
 
 ## 蟒蛇 3
 
-```
+```py
 class Sumofnumbers:
     # find sum of numbers
     # according to categories
@@ -183,7 +183,7 @@ obj.Sum(list_num)
 
 **输出:**
 
-```
+```py
 Sum of negative numbers is  -6
 Sum of even positive numbers is  50
 Sum of odd positive numbers is  1

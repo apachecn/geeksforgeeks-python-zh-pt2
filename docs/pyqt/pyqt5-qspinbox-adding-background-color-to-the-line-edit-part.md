@@ -11,7 +11,7 @@
 
 **语法:**
 
-```
+```py
 # get the line edit object
 line = self.spin_box.lineEdit()
 
@@ -25,7 +25,7 @@ line.setStyleSheet("QLineEdit"
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

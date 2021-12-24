@@ -24,14 +24,14 @@ Python 提供了创建、写入和读取文件的内置功能。python 中可以
 
 这是使用 open()函数完成的。此功能不需要导入任何模块。
 
-```
+```py
 File_object = open(r"File_Name","Access_Mode")
 ```
 
 该文件应该与 python 程序文件存在于同一个目录中，否则文件的完整地址应该写在文件名的位置。
 注意: **r** 放在文件名之前，防止文件名字符串中的字符被视为特殊字符。例如，如果文件地址中有\u temp，则\u t 将被视为 tab 字符，并在无效地址中引发错误。r 使字符串原始，也就是说，它告诉字符串没有任何特殊字符。如果文件在同一个目录中并且地址没有被放置，r 可以被忽略。
 
-```
+```py
 # Open function to open the file "MyFile1.txt" 
 # (same directory) in append mode and
 file1 = open("MyFile.txt","a")
@@ -49,7 +49,7 @@ close()函数关闭文件并释放该文件获取的内存空间。当不再需�
 
 File_object.close()
 
-```
+```py
 # Opening and Closing a file "MyFile.txt"
 # for object name file1.
 file1 = open("MyFile.txt","a")
@@ -62,13 +62,13 @@ file1.close()
 
 1.  **write() :** 将字符串 str1 插入文本文件中的一行。
 
-    ```
+    ```py
     File_object.write(str1)
     ```
 
 2.  **writeline():**对于字符串元素的列表，每个字符串都被插入到文本文件中。用于一次插入多个字符串。
 
-    ```
+    ```py
     File_object.writelines(L) for L = [str1, str2, str3] 
     ```
 
@@ -78,25 +78,25 @@ file1.close()
 
 1.  **read() :** 以字符串的形式返回读取的字节。读取 n 个字节，如果没有指定 n，读取整个文件。
 
-    ```
+    ```py
     File_object.read([n])
     ```
 
 2.  **readline() :** 读取文件的一行并以字符串形式返回。对于指定的 n，读取最多 n 个字节。但是，不会读取多行，即使 n 超过了该行的长度。
 
-    ```
+    ```py
     File_object.readline([n])
     ```
 
 3.  **readline():**读取所有行，并将它们作为列表中的字符串元素返回。
 
-    ```
+    ```py
       File_object.readlines()
     ```
 
 **注意:**“\ n”被视为两个字节的特殊字符
 
-```
+```py
 # Program to show various ways to read and
 # write data in a file.
 file1 = open("myfile.txt","w")
@@ -143,7 +143,7 @@ file1.close()
 
 输出:
 
-```
+```py
 Output of Read function is 
 Hello 
 This is Delhi 
@@ -167,7 +167,7 @@ Output of Readlines function is
 
 **追加到文件中**
 
-```
+```py
 # Python program to illustrate
 # Append vs write mode
 file1 = open("myfile.txt","w")
@@ -200,7 +200,7 @@ file1.close()
 
 输出:
 
-```
+```py
 Output of Readlines after appending
 ['This is Delhi \n', 'This is Paris \n', 'This is London \n', 'Today \n']
 

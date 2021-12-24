@@ -17,7 +17,7 @@
 
 接下来，我们将讨论如何安装这些库。请注意，如果您的系统中安装了 *pip3* ，则需要使用 *pip3* 而不是 pip。
 
-```
+```py
 pip install requests
 pip install bs4
 
@@ -55,7 +55,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from urllib.request import urljoin
 from bs4 import BeautifulSoup
@@ -128,7 +128,7 @@ else:
 
 **输入:**
 
-```
+```py
 url = "https://www.geeksforgeeks.org/machine-learning/"
 depth = 1
 

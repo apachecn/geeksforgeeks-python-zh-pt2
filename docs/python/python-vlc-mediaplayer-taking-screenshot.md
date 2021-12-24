@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -53,7 +53,7 @@ media_player.video_take_snapshot(0, "F://test", 400, 300)
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 

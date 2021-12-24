@@ -6,7 +6,7 @@
 
 为此，我们必须更改用于复选框对象的中间指示器的样式表代码。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:indeterminate:pressed
 {
 background-color : blue;
@@ -16,7 +16,7 @@ background-color : blue;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

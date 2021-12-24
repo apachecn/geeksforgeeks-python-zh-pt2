@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package and making object
 import turtle 
 
@@ -71,7 +71,7 @@ pen.hideturtle()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package and making object
 import turtle 
 
@@ -123,7 +123,7 @@ pen.hideturtle()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package and making object
 import turtle 
 

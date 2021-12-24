@@ -31,7 +31,7 @@ OOP 的一个重要特性是 Python 中的[继承](https://www.geeksforgeeks.org
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # super function
 
@@ -76,7 +76,7 @@ Bruno.hasTailandLegs()
 
 **输出:**
 
-```
+```py
 It is a mammal.
 Has legs and tail
 ```
@@ -87,7 +87,7 @@ Has legs and tail
 
 ## 蟒蛇 3
 
-```
+```py
 class Mammal():
 
     def __init__(self, name):
@@ -126,7 +126,7 @@ Carol = Animal("Dog")
 
 **输出:**
 
-```
+```py
 Dog cannot fly
 Dog cannot swim
 Dog Is a mammal

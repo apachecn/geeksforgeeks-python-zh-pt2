@@ -37,7 +37,7 @@
 
 **示例:**
 
-```
+```py
 Input : k = 6
 Output : 12951
 
@@ -49,7 +49,7 @@ Output : 140906
 
 ## 蟒蛇 3
 
-```
+```py
 # import redunce function from functools
 from functools import reduce
 
@@ -84,6 +84,6 @@ print(r % (1000000000 + 7))       
 
 **输出:**
 
-```
+```py
 12951
 ```

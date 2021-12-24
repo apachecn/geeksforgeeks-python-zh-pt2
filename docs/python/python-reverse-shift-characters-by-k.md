@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Shift characters by K
 # using maketrans() + upper() + list comprehension + translate() + slicing
@@ -54,7 +54,7 @@ print("The converted String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GeeksForGeeks
 The converted String : WuuaiVehWuuai
 ```

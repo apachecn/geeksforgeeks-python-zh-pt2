@@ -8,7 +8,7 @@
 **多行语句:**Python 中的语句可以使用括号()、大括号{}、方括号[]、分号(；)，延续字符斜杠(\)。当程序员需要进行长时间的计算，并且无法将语句放入一行时，可以使用这些字符。
 **例:**
 
-```
+```py
 Declared using Continuation Character (\):
 s = 1 + 2 + 3 + \
     4 + 5 + 6 + \
@@ -36,7 +36,7 @@ flag = 2; ropes = 3; pole = 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # indentation
 
@@ -51,7 +51,7 @@ print('All set !')
 
 **输出:**
 
-```
+```py
 Logging on to geeksforgeeks...
 All set !
 ```
@@ -60,7 +60,7 @@ All set !
 
 ## 蟒蛇 3
 
-```
+```py
 j = 1
 while(j<= 5):
      print(j)
@@ -69,7 +69,7 @@ while(j<= 5):
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -87,7 +87,7 @@ Python 开发人员经常使用注释系统，因为如果不使用它，事情�
 
 ## 蟒蛇 3
 
-```
+```py
 # This is a comment
 # Print “GeeksforGeeks !” to console
 print("GeeksforGeeks")
@@ -97,7 +97,7 @@ print("GeeksforGeeks")
 
 ## 蟒蛇 3
 
-```
+```py
 a, b = 1, 3 # Declaring two integers
 sum = a + b # adding two integers
 print(sum) # displaying the output
@@ -108,7 +108,7 @@ print(sum) # displaying the output
 
 ## 蟒蛇 3
 
-```
+```py
 """
 This would be a multiline comment in Python that
 spans several lines and describes geeksforgeeks.
@@ -126,7 +126,7 @@ print("GeeksForGeeks")
 
 ## 蟒蛇 3
 
-```
+```py
 '''This article on geeksforgeeks gives you a
 perfect example of
 multi-line comments'''

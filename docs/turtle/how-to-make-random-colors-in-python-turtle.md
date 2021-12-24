@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import turtle
 from turtle import *
 # import random

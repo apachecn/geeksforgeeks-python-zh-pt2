@@ -45,7 +45,7 @@
 
 ## *计算机编程语言*
 
-```
+```py
 *# Importing the necessary modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -108,7 +108,7 @@ plt.show()*
 
 ## *计算机编程语言*
 
-```
+```py
 *# Importing the necessary modules
 import numpy as np
 import matplotlib.pyplot as plt

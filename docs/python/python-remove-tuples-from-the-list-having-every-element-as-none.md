@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove None Tuples from List
 # Using all() + list comprehension
@@ -47,7 +47,7 @@ print("Removed None Tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove None Tuples from List
 # Using filter() + lambda + all()

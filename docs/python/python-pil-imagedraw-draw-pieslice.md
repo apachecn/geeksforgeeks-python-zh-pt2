@@ -17,7 +17,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 > 
 > **返回:**切片形状的图像对象。
 
-```
+```py
 
 # importing image object from PIL
 import math
@@ -40,7 +40,7 @@ img.show()
 
 **另一个例子:**这里我们使用不同的颜色进行填充。
 
-```
+```py
 
 # importing image object from PIL
 import math

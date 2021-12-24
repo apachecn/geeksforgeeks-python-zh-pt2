@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : dt1 = 13/12/2018, dt2 = 25/2/2019
 Output : 74 days
 
@@ -20,7 +20,7 @@ Output : 366 days
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program two find number of
 # days between two given dates
 
@@ -89,7 +89,7 @@ print(getDifference(dt1, dt2), "days")
 
 **Output:** 
 
-```
+```py
 74 days
 ```
 
@@ -99,7 +99,7 @@ Python 自带一个内置的 *datetime* 模块，可以帮助我们解决各种�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find number of days
 # between two given dates
 from datetime import date
@@ -115,6 +115,6 @@ print(numOfDays(date1, date2), "days")
 
 **Output:** 
 
-```
+```py
 74 days
 ```

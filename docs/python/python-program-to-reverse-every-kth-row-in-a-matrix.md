@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Kth rows in Matrix
 # Using reversed() + loop
@@ -64,7 +64,7 @@ print("After reversing every Kth row: " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse Kth rows in Matrix
 # Using Slicing + list comprehension

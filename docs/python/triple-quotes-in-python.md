@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """This is a really long comment that can make
 the code look ugly and uncomfortable to read on
 a small screen so it needs to be broken into
@@ -23,7 +23,7 @@ print("hello Geeks")
 
 **Output:** 
 
-```
+```py
 hello Geeks
 ```
 
@@ -31,7 +31,7 @@ hello Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 '''This is a really long comment that can make
 the code look ugly and uncomfortable to read on
 a small screen so it needs to be broken into
@@ -42,7 +42,7 @@ print("hello Geeks")
 
 **Output:** 
 
-```
+```py
 hello Geeks
 ```
 
@@ -56,7 +56,7 @@ hello Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 str1 = """I """
 str2 = """am a """
 str3 = """Geek"""
@@ -71,7 +71,7 @@ print(str1 + str2 + str3)
 
 **Output:** 
 
-```
+```py
 <class 'str'>
 <class 'str'>
 <class 'str'>
@@ -83,7 +83,7 @@ I am a Geek
 
 ## 蟒蛇 3
 
-```
+```py
 my_str = """I
 am
 a
@@ -97,7 +97,7 @@ print(my_str)
 
 **Output:** 
 
-```
+```py
 <class 'str'>
 I
 am
@@ -110,7 +110,7 @@ Geek !
 
 ## 蟒蛇 3
 
-```
+```py
 my_str = """I \
 am \
 a \
@@ -124,7 +124,7 @@ print(my_str)
 
 **Output:** 
 
-```
+```py
 <class 'str'>
 I am a Geek !
 ```

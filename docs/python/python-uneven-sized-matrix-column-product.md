@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `filter() + map()` +列表理解**
 以上三个函数结合列表理解可以帮助我们执行这个特定的任务，外部 prod 函数帮助执行乘法，filter 允许我们检查当前元素，所有行都使用 map 函数进行组合。仅适用于 python 2。
 
-```
+```py
 # Python code to demonstrate 
 # Uneven Sized Matrix Column product
 # using loop + filter() + map() + list comprehension
@@ -35,7 +35,7 @@ print ("The product of columns is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[1, 5, 3], [4], [9, 8]]
 The product of columns is : [36, 40, 3]
 

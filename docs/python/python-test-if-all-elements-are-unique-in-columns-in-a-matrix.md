@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if all elements Unique in Matrix Columns
 # Using loop + set() + len()
@@ -46,7 +46,7 @@ print("Are all columns Unique : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [[3, 4, 5], [1, 2, 4], [4, 1, 10]]
 Are all columns Unique : True
 
@@ -58,7 +58,7 @@ Are all columns Unique : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if all elements Unique in Matrix Columns
 # Using loop + set() + len()
@@ -86,7 +86,7 @@ print("Are all columns Unique : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [[3, 4, 5], [1, 2, 4], [4, 1, 10]]
 Are all columns Unique : True
 

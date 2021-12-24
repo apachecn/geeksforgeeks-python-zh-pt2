@@ -26,7 +26,7 @@
 
 **代码#1:** 使用`***time.clock_getres()***`方法
 
-```
+```py
 # Python program to explain time.clock_getres() method
 
 # importing time module
@@ -69,7 +69,7 @@ print("Precision of per-process time from the CPU:", precision5)  
 
 **Output:**
 
-```
+```py
 Precision of system-wide real-time clock: 1e-09
 Precision of monotonic clock: 1e-09
 Precision of monotonic (raw-hardware based time) clock: 1e-09
@@ -80,7 +80,7 @@ Precision of per-process time from the CPU: 1e-09
 
 **代码#2:** 使用整数值作为`***time.clock_getres()***`方法的参数
 
-```
+```py
 # Python program to explain time.clock_getres() method
 
 # importing time module
@@ -109,7 +109,7 @@ print("Precision of monotonic clock:", precision2)
 
 **Output:**
 
-```
+```py
 Precision of system-wide real-time clock: 1e-09
 Precision of monotonic clock: 1e-09
 

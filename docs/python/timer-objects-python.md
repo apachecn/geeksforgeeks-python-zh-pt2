@@ -10,13 +10,13 @@
 
 **语法:**
 
-```
+```py
 threading.Timer(interval, function, args = None, kwargs = None) 
 ```
 
 创建一个计时器，它将在间隔秒后运行带有参数 args 和关键字 args 的函数。如果参数为无(默认值)，则将使用空列表。如果 kwargs 为无(默认值)，则将使用空字典。
 
-```
+```py
 # Program to demonstrate
 # timer objects in python
 
@@ -31,7 +31,7 @@ print("Exit\n")
 
 **输出:**
 
-```
+```py
 Exit
 GeeksforGeeks
 ```
@@ -42,13 +42,13 @@ GeeksforGeeks
 
 **语法:**
 
-```
+```py
 timer.cancel()
 ```
 
 停止计时器，并取消计时器动作的执行。这只有在计时器仍处于等待阶段时才会起作用。
 
-```
+```py
 # Program to cancel the timer
 import threading
 
@@ -64,7 +64,7 @@ print("Exit\n")
 
 输出:
 
-```
+```py
 Cancelling timer
 Exit
 ```

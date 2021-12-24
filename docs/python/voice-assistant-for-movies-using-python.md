@@ -10,25 +10,25 @@
 
 *   **IMDbPY:** 这是一个 Python 包，用于检索和管理 IMDb 电影数据库中关于电影、人物、角色和公司的数据。可以使用以下命令安装:
 
-```
+```py
 pip install IMDbPY
 ```
 
 *   **pyttsx3:** 是 Python 中的文本到语音转换库。与替代库不同，它脱机工作，并且兼容 Python 2 和 3。可以使用以下命令安装:
 
-```
+```py
 pip install pyttsx3
 ```
 
 *   **语音识别:**用于执行语音识别的库，支持多种引擎和 API，在线和离线。可以使用以下命令安装:
 
-```
+```py
 pip install SpeechRecognition
 ```
 
 *   **日期时间:**日期/时间值的封装。可以使用以下命令安装:
 
-```
+```py
 pip install DateTime
 ```
 
@@ -46,7 +46,7 @@ pip install DateTime
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all required libraries
 import imdb
 import pyttsx3

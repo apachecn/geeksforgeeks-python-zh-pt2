@@ -22,7 +22,7 @@ Python 中的`***os.unlink()***`方法用于移除或删除文件路径。该方
 
 **Code #1:** Use of os.unlink() method to remove or delete a file path
 
-```
+```py
 # Python program to explain os.unlink() method 
 
 # importing os module 
@@ -40,14 +40,14 @@ print("File path has been removed successfully")
 
 **Output:**
 
-```
+```py
 File path has been removed successfully
 
 ```
 
 **Code #2:** If the given path is a directory
 
-```
+```py
 # Python program to explain os.unlink() method 
 
 # importing os module 
@@ -74,7 +74,7 @@ print("File path has been removed successfully")
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "unlink.py", line 17, in 
     os.unlink(path)
@@ -84,7 +84,7 @@ IsADirectoryError: [Errno 21] Is a directory: '/home/User/Documents/ihritik'
 
 **Code #3:** Handling errors while using os.unlink() method
 
-```
+```py
 # Python program to explain os.unlink() method 
 
 # importing os module 
@@ -123,7 +123,7 @@ except :
 
 **Output:**
 
-```
+```py
 The given path is a directory
 
 ```

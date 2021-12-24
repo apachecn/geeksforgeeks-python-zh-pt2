@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [(1, 2), (3, 4, 5), (6, 7, 8, 9)]
 Output : [(2, 1), (5, 4, 3), (9, 8, 7, 6)]
 
@@ -19,7 +19,7 @@ Output : [('b', 'a'), ('y', 'x'), ('n', 'm')]
 
 我们可以使用标准的负步骤切片`tup[::-1]`来获得元组的反向，并使用列表理解来获得每个元组的反向。
 
-```
+```py
 # Python3 program to Reverse 
 # each tuple in a list of tuples
 
@@ -34,7 +34,7 @@ print(reverseTuple(lstOfTuple))
 
 **Output:**
 
-```
+```py
 [(2, 1), (5, 4, 3), (9, 8, 7, 6)]
 
 ```
@@ -43,7 +43,7 @@ print(reverseTuple(lstOfTuple))
 
 Python 内置的`reversed()`方法也可以用来反转列表内的每个元组。
 
-```
+```py
 # Python3 program to Reverse 
 # each tuple in a list of tuples
 
@@ -58,7 +58,7 @@ print(reverseTuple(lstOfTuple))
 
 **Output:**
 
-```
+```py
 [(2, 1), (5, 4, 3), (9, 8, 7, 6)]
 
 ```
@@ -67,7 +67,7 @@ print(reverseTuple(lstOfTuple))
 
 Python *map()* 函数也可以通过将负步长切片映射到元组列表来达到这个目的。
 
-```
+```py
 # Python3 program to Reverse 
 # each tuple in a list of tuples
 
@@ -82,7 +82,7 @@ print(reverseTuple(lstOfTuple))
 
 **Output:**
 
-```
+```py
 [(2, 1), (5, 4, 3), (9, 8, 7, 6)]
 
 ```

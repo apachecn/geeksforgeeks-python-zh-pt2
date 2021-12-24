@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate converting
 # array of strings to array of floats
 # using astype
@@ -31,7 +31,7 @@ print ("final array", str(res))
 
 **Output:** 
 
-```
+```py
 initial array ['1.1' '1.5' '2.7' '8.9']
 final array [ 1.1  1.5  2.7  8.9]
 ```
@@ -40,7 +40,7 @@ final array [ 1.1  1.5  2.7  8.9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate converting
 # array of strings to array of floats
 # using fromstring
@@ -65,7 +65,7 @@ print ("final array", str(ini_array))
 
 **Output:** 
 
-```
+```py
 initial array ['1.1' '1.5' '2.7' '8.9']
 final array [ 1.1  1.5  2.7  8.9]
 ```
@@ -74,7 +74,7 @@ final array [ 1.1  1.5  2.7  8.9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # converting array of strings to array of floats
 # using asarray
@@ -98,7 +98,7 @@ print ("final array", str(final_array))
 
 **Output:** 
 
-```
+```py
 initial array ['1.1' '1.5' '2.7' '8.9']
 final array [ 1.1  1.5  2.7  8.9]
 ```

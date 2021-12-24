@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Toggle i,j elements in List
 # Using loop + conditional statements
@@ -50,7 +50,7 @@ print("The altered list : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 7, 8, 0, 8, 4, 2, 9, 4, 8, 4]
 The altered list : [8, 7, 4, 0, 4, 8, 2, 9, 8, 4, 8]
 ```
@@ -61,7 +61,7 @@ The altered list : [8, 7, 4, 0, 4, 8, 2, 9, 8, 4, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Toggle i,j elements in List
 # Using list comprehension + external function
@@ -94,7 +94,7 @@ print("The altered list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 7, 8, 0, 8, 4, 2, 9, 4, 8, 4]
 The altered list : [8, 7, 4, 0, 4, 8, 2, 9, 8, 4, 8]
 ```

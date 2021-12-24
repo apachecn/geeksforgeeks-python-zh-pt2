@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate 
 # the use of random() function . 
 
@@ -29,7 +29,7 @@ print(random())
 
 **输出:**
 
-```
+```py
 0.41941790721207284
 ```
 
@@ -37,7 +37,7 @@ print(random())
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # the use of random() function . 
 
@@ -61,7 +61,7 @@ print(lst)
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 random.seed(10)
@@ -70,6 +70,6 @@ print(random.random())
 
 **输出:**
 
-```
+```py
 0.5714025946899135
 ```

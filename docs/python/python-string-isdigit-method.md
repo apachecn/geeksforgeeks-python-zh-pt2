@@ -25,7 +25,7 @@ Python String **isdigit()** 方法是用于字符串处理的内置方法。如�
 
 ### **例 1:**
 
-```
+```py
 Input : string = '15460'
 Output : True
 
@@ -35,7 +35,7 @@ Output : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for implementation of isdigit()
 
 # checking for digit
@@ -48,7 +48,7 @@ print(string.isdigit())
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -66,7 +66,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate 
 # application of isdigit()
 # initialising Empty string
@@ -91,7 +91,7 @@ print("Digits :", newstring)
 
 **输出:**
 
-```
+```py
 Total digits in range : 5
 Digits : 01234
 ```
@@ -104,7 +104,7 @@ Digits : 01234
 
 ## 蟒蛇 3
 
-```
+```py
 s = '23455'
 print(s.isdigit())
 
@@ -123,7 +123,7 @@ print(s.isdigit())
 
 **输出:**
 
-```
+```py
 True
 True
 False

@@ -6,13 +6,13 @@
 
 可以使用以下代码片段创建检查按钮。
 
-```
+```py
 chkbtn = ttk.Checkbutton(master, option=value, ...)
 ```
 
 **代码#1:**
 
-```
+```py
 # importing tkinter.ttk
 from tkinter import *
 from tkinter.ttk import * 
@@ -44,7 +44,7 @@ root.mainloop()
 
 **代码#2:** 简单`Checkbutton`和`ttk.Checkbutton`的区别
 
-```
+```py
 # importing tkinter and ttk
 from tkinter import * 
 from tkinter import ttk

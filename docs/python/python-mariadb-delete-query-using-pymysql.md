@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 DELETE FROM TABLE_NAME WHERE ATTRIBUTE_NAME = ATTRIBUTE_VALUE
 
 ```
@@ -15,7 +15,7 @@ DELETE FROM TABLE_NAME WHERE ATTRIBUTE_NAME = ATTRIBUTE_VALUE
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -55,7 +55,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

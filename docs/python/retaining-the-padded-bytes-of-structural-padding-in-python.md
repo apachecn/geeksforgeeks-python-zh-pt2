@@ -8,7 +8,7 @@
 
 **例 1:**
 
-```
+```py
 # padding with 'white spaces' 
 def pad(text, block_size):
 
@@ -31,7 +31,7 @@ main()
 
 **输出:**
 
-```
+```py
 'HALL OF BYTES       '
 ```
 
@@ -39,7 +39,7 @@ main()
 
 下面是如何保留填充的字节数
 
-```
+```py
 # Python Program to retain padded bytes
 def pad(text, block_size):
 
@@ -65,12 +65,12 @@ main()
 
 **输出:**
 
-```
+```py
 'HALL OF BYTES\x07\x07\x07\x07\x07\x07\x07' 
 # thus 7 bytes were padded. 
 ```
 
-```
+```py
 # appropriate method to retain padded bytes
 def pad(text, block_size):
 
@@ -96,7 +96,7 @@ main()
 
 **输出:**
 
-```
+```py
 'PRECISELY RETAINED\x02\x02' 
 # Thus two bytes were padded.
 ```

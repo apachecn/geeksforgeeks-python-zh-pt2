@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: str = "Stable"
 Output: Modified string after removing  4 th character 
 Stabe.
@@ -20,7 +20,7 @@ Arro
 
 ## **蟒蛇 3**
 
-```
+```py
 # declaring a string variable
 str = "Geeksforgeeks is fun."
 
@@ -44,7 +44,7 @@ print(modified_str)
 
 ****输出:****
 
-```
+```py
 Modified string after removing  4 th character  
 Geekforgeeks is fun.
 ```
@@ -64,7 +64,7 @@ Geekforgeeks is fun.
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# declaring a string variable
 str = "Geeksforgeeks is fun."
 
@@ -84,7 +84,7 @@ print(first_part+second_part)**
 
 ******输出:******
 
-```
+```py
 **Modified string after removing  8 th character  
 Geeksforeeks is fun.**
 ```

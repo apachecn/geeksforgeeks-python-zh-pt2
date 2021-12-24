@@ -10,19 +10,19 @@ Python 作为一种强大的语言，不需要任何外部库来导入，并提�
 
 1) virtualenv:
 
-```
+```py
 pip install virtualenv
 ```
 
 2)烧瓶:
 
-```
+```py
 pip install Flask
 ```
 
 3)烧瓶-邮件:
 
-```
+```py
 pip install Flask-Mail
 ```
 
@@ -32,7 +32,7 @@ pip install Flask-Mail
 转到您想要用于项目的文件夹。
 编写以下代码:
 
-```
+```py
 
 python3 -m venv env (macOS/Linux)
 py -m venv env (Windows)
@@ -43,13 +43,13 @@ py -m venv env (Windows)
 2)在窗口上激活环境
 **:**
 
-```
+```py
 .\env\Scripts\activate
 ```
 
 在 macOS/ Linux 上:
 
-```
+```py
 source env/bin/activate
 ```
 
@@ -82,7 +82,7 @@ Mail 类:管理电子邮件消息需求
 
 **让我们拿到代码。**
 
-```
+```py
 # importing libraries
 from flask import Flask
 from flask_mail import Mail, Message

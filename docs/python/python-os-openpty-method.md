@@ -17,7 +17,7 @@
 
 **Code:** Use of os.openpty() method
 
-```
+```py
 # Python program to explain os.openpty() method 
 
 # importing os module 
@@ -42,7 +42,7 @@ print(name)
 
 **Output:**
 
-```
+```py
 /dev/ptmx
 /dev/pts/2
 

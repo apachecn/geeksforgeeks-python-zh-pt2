@@ -10,7 +10,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 for i in range(1, 4):
     print(i)
 else:  # Executed because no break in for
@@ -19,7 +19,7 @@ else:  # Executed because no break in for
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -30,7 +30,7 @@ No Break
 
 ## 计算机编程语言
 
-```
+```py
 for i in range(1, 4):
     print(i)
     break
@@ -40,7 +40,7 @@ else: # Not executed as there is a break
 
 **输出:**
 
-```
+```py
 1
 ```
 
@@ -49,7 +49,7 @@ else: # Not executed as there is a break
 
 ## 计算机编程语言
 
-```
+```py
 # Python 3.x program to check if an array consists
 # of even number
 def contains_even_number(l):
@@ -72,7 +72,7 @@ contains_even_number([1, 3, 5])
 
 **输出:**
 
-```
+```py
 For List 1:
 list contains an even number
 
@@ -84,7 +84,7 @@ list does not contain an even number
 
 ## 计算机编程语言
 
-```
+```py
 count = 0
 while (count < 1):   
     count = count+1

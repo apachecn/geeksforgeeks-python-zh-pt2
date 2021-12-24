@@ -7,7 +7,7 @@
 **方法#1:使用字符串切片+ `lower()`**
 使用较低的方法可以轻松执行此任务，该方法降低了提供给它的字符的大小写，切片可用于在小写的第 N 个字符后添加剩余的字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Kth Character Lowercase
 # Using lower() + string slicing 
@@ -31,7 +31,7 @@ print("The string after lowercasing Kth character : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : GEEKSFORGEEKS
 The string after lowercasing Kth character : GEEKsFORGEEKS
 

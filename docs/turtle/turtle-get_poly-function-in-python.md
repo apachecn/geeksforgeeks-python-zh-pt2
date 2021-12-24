@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.get_poly()
 
 ```
@@ -23,7 +23,7 @@ turtle.get_poly()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

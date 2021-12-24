@@ -22,7 +22,7 @@
 
 **Code:** Use of os.get_blocking() method to get the blocking mode of a file descriptor
 
-```
+```py
 # Python program to explain os.get_blocking() method 
 
 # importing os module 
@@ -52,7 +52,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 File descriptor is in blocking mode
 
 ```

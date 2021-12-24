@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst = ['a', 'a', 'a', 'b', 'b', 'c'], k = 2
 Output : ['a', 'a', 'a', 'b', 'b']
 
@@ -19,7 +19,7 @@ Output : [1, 1, 1, 1, 3, 3, 3]
 
 从`collections module`开始`Counter()`构建一个将值映射到计数的字典，并将它们保存在“计数”中。然后我们使用“temp_lst”来存储需要移除的元素。最后，我们遍历给定的列表，并将所有不在“temp_lst”中的元素追加到包含所需输出的“res_lst”中。
 
-```
+```py
 # Python3 program to Remove elements of 
 # list that repeated less than k times
 from collections import Counter
@@ -47,7 +47,7 @@ print(removeElements(lst, k))
 
 **Output:**
 
-```
+```py
 ['a', 'a', 'a', 'b', 'b']
 
 ```
@@ -56,7 +56,7 @@ print(removeElements(lst, k))
 
 使用*计数器*方法的有效方法是构建一个将值映射到计数的字典，然后使用列表理解来过滤大于指定值的计数。这种方法在时间和空间上都很有效。
 
-```
+```py
 # Python3 program to Remove elements of 
 # list that repeated less than k times
 from collections import Counter
@@ -73,7 +73,7 @@ print(removeElements(lst, k))
 
 **Output:**
 
-```
+```py
 ['a', 'a', 'a', 'b', 'b']
 
 ```

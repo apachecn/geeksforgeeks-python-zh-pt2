@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们以相反的顺序迭代列表，并将增量字符串存储在列表中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Reverse Incremental String Slicing
 # Using loop
@@ -32,7 +32,7 @@ print("The incremental reverse strings : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeks
 The incremental reverse strings : ['s', 'sk', 'ske', 'skee', 'skeeg']
 

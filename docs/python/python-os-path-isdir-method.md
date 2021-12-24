@@ -15,7 +15,7 @@ Python 中的`***os.path.isdir()***`方法用于检查指定路径是否为现�
 
 **代码#1:** 使用`***os.path.isdir()***`方法
 
-```
+```py
 # Python program to explain os.path.isdir() method 
 
 # importing os.path module 
@@ -42,7 +42,7 @@ print(isdir)
 
 **Output:**
 
-```
+```py
 False
 True
 
@@ -50,7 +50,7 @@ True
 
 **代码#2:** 如果指定的路径是符号链接
 
-```
+```py
 # Python program to explain os.path.isdir() method 
 
 # importing os.path module 
@@ -86,7 +86,7 @@ print(isdir)
 
 **Output:**
 
-```
+```py
 True
 True
 

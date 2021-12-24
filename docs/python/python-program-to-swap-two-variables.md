@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # swapping of two variables
 
@@ -30,7 +30,7 @@ print("Value of y:", y)
 
 **Output**
 
-```
+```py
 Value of x: 50
 Value of y: 10
 ```
@@ -40,7 +40,7 @@ Value of y: 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # swapping of two variables
 
@@ -57,7 +57,7 @@ print("Value of y:", y)
 
 **Output**
 
-```
+```py
 Value of x: 50
 Value of y: 10
 ```
@@ -67,7 +67,7 @@ Value of y: 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Swapping of two variables
 
@@ -85,7 +85,7 @@ print("Value of y:", y)
 
 **Output**
 
-```
+```py
 Value of x: 50
 Value of y: 10
 ```
@@ -98,7 +98,7 @@ Value of y: 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # swapping of two variables
 
@@ -117,7 +117,7 @@ print("Value of y:", y)
 
 **Output**
 
-```
+```py
 Value of x: 50
 Value of y: 10
 ```
@@ -128,7 +128,7 @@ Value of y: 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # swapping of two variables
 
@@ -148,7 +148,7 @@ print("Value of y : ", y)
 
 **Output**
 
-```
+```py
 Value of x :  50.0
 Value of y :  10.0
 ```
@@ -157,7 +157,7 @@ Value of y :  10.0
 
 ## 蟒蛇 3
 
-```
+```py
 #Python program to demonstrate
 #swapping of two numbers
 a = 5
@@ -171,7 +171,7 @@ print("b after swapping: ", b)
 
 **Output**
 
-```
+```py
 a after swapping:  1
 b after swapping:  5
 ```

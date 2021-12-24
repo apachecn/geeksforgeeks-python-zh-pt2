@@ -13,7 +13,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to take a comma
 # separated string as input
 
@@ -36,7 +36,7 @@ print("\nThe values of input are", L) 
 
 **输出:**
 
-```
+```py
 Enter two values
 1, 2
 
@@ -56,7 +56,7 @@ The values of input are [1, 22, 34, 6, 88, 2]
 
 `[map()](https://www.geeksforgeeks.org/python-map-function/)`函数将给定的函数应用于给定可迭代表(列表、元组等)的每个项目后，返回结果列表。)
 
-```
+```py
 # Python program to take a comma
 # separated string as input
 
@@ -79,7 +79,7 @@ print("\nThe values of input are", L)
 
 **输出:**
 
-```
+```py
 Enter two values
 1, 2
 

@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `join()`**
 我们分 2 步完成这个方法中的任务。在第一步中，使用列表理解提取第 n 列元素。在第二步中，这些元素结合在一起执行字符到字符串的转换。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nth Column vertical string in Matrix
 # Using join() + list comprehension
@@ -32,7 +32,7 @@ print("Constructed vertical string : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [('a', 'g', 'v'), ('e', 'f', 8), ('b', 'g', 0)]
 Constructed vertical string : gfg

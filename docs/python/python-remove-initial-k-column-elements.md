@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `del` +列表切片**
 上述功能的组合可用于执行该任务。在本文中，我们为矩阵中的每一行运行一个循环，并使用 del 移除前面的元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Initial K column elements
 # Using loop + del + list slicing
@@ -31,7 +31,7 @@ print("Matrix after removal of front elements from rows : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [[1, 3, 4], [2, 4, 6], [3, 8, 1]]
 Matrix after removal of front elements from rows : [[4], [6], [1]]
 

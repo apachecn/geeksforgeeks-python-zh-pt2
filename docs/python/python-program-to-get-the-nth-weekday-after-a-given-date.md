@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next weekday from Date
 # Using timedelta() + weekday()
@@ -67,7 +67,7 @@ print("Next date of required weekday : " + str(res)[:10])
 
 **输出:**
 
-```
+```py
 The original date is : 2017-03-14
 Next date of required weekday : 2017-03-17
 ```
@@ -78,7 +78,7 @@ Next date of required weekday : 2017-03-17
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next weekday from Date
 # Using lamnda function
@@ -105,7 +105,7 @@ print("Next date of required weekday : " + str(res)[:10])
 
 **输出:**
 
-```
+```py
 The original date is : 2017-03-14
 Next date of required weekday : 2017-03-17
 ```

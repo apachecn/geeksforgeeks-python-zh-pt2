@@ -19,7 +19,7 @@
 
 **Code:** Use of os.sched_setaffinity() method
 
-```
+```py
 # Python program to explain os.sched_setaffinity() method  
 
 # importing os module 
@@ -67,7 +67,7 @@ print("Now, process is eligible to run on:", affinity)
 
 **Output:**
 
-```
+```py
 Number of CPUs: 4
 Process is eligible to run on: {0, 1, 2, 3}
 CPU affinity mask is modified for process id 0

@@ -20,7 +20,7 @@
 
 **Code:** Use of `***os.open()***` method to open a file path
 
-```
+```py
 # Python program to explain os.open() method 
 
 # importing os module 
@@ -63,7 +63,7 @@ print("\nFile descriptor closed successfully.")
 
 **Output:**
 
-```
+```py
 File path opened successfully.
 String written to the file descriptor.
 

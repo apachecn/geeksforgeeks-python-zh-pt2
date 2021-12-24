@@ -12,25 +12,25 @@
 
 *   **Scrapy 模块:**用作 web 报废的 Python 框架。从普通网站获取数据更容易，只需要拉取网站的 HTML，通过过滤标签获取数据就可以实现。可以使用下面的命令安装它。
 
-```
+```py
 pip install scrapy
 ```
 
 *   **硒模块:**是通过程序控制网页浏览器的强大工具。它适用于所有浏览器，适用于所有主要操作系统，其脚本是用各种语言编写的，如 Python、Java、C#等。可以使用下面的命令安装它。
 
-```
+```py
 pip install selenium
 ```
 
 *   **Scrapy-Selenium 模块:**它是一个 *scrapy* 中间件，使用 *selenium* 处理 JavaScript 页面。可以使用下面的命令安装它。
 
-```
+```py
 pip install scrapy-selenium
 ```
 
 *   **谷歌模块:**使用 python 包*谷歌*我们可以从一个 python 脚本中得到谷歌搜索的结果。可以使用下面的命令安装它。
 
-```
+```py
 pip install google
 ```
 
@@ -38,13 +38,13 @@ pip install google
 
 **步骤 1:** 使用以下命令创建剪贴簿项目:
 
-```
+```py
 scrapy startproject email_extraction
 ```
 
 执行上述命令后，您将看到一个文件夹，其树如下所示
 
-```
+```py
 ├── email_extraction
 │   ├── __init__.py
 │   ├── items.py
@@ -67,7 +67,7 @@ scrapy startproject email_extraction
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import scrapy
 from scrapy.spiders import CrawlSpider, Request
@@ -84,7 +84,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 ## 蟒蛇 3
 
-```
+```py
 # create class to extract email ids
 class email_extractor(CrawlSpider):
 

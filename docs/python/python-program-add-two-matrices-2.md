@@ -7,7 +7,7 @@
 程序计算两个矩阵的和，然后用 Python 打印出来。我们可以在 Python 中以各种方式执行矩阵加法。这里有两个。
 示例:
 
-```
+```py
 Input :
  X= [[1,2,3],
     [4 ,5,6],
@@ -26,7 +26,7 @@ Output :
 
 **使用嵌套[循环](https://www.geeksforgeeks.org/loops-in-python/)**
 
-```
+```py
 # Program to add two matrices using nested loop
 
 X = [[1,2,3],
@@ -54,7 +54,7 @@ for r in result:
 
 输出:
 
-```
+```py
 [10, 10, 10]
 [10, 10, 10]
 [10, 10, 10]
@@ -68,7 +68,7 @@ for r in result:
 
 这是另一种使用嵌套列表理解进行两个矩阵相加的方法。
 
-```
+```py
 # Program to add two matrices
 # using list comprehension
 
@@ -88,7 +88,7 @@ for r in result:
 
 输出:
 
-```
+```py
 [10, 10, 10]
 [10, 10, 10]
 [10, 10, 10]

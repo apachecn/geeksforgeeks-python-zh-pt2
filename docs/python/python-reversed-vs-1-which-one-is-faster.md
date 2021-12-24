@@ -8,7 +8,7 @@ Python [**列出了**](https://www.geeksforgeeks.org/python-list/) 可以使用�
 
 ## 蟒 3
 
-```
+```py
 # Python code to reverse
 # a list using slicing
 
@@ -26,7 +26,7 @@ for element in ls:
 
 **输出:**
 
-```
+```py
 Original list : [110, 220, 330, 440, 550]
 Reversed list elements :
 550
@@ -42,7 +42,7 @@ Reversed list elements :
 
 ## 蟒 3
 
-```
+```py
 # Python code to reverse 
 # a list using reversed()
 
@@ -60,7 +60,7 @@ for element in ls:
 
 **输出:**
 
-```
+```py
 Original list : [110, 220, 330, 440, 550]
 Iterator object : <list_reverseiterator object at 0x7fbd84e0b630>
 Reversed list elements :

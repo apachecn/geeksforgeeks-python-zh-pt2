@@ -20,7 +20,7 @@ Python 中的`***os.tcgetpgrp()***`方法用于获取指定文件描述符给出
 
 **Code:** Use of os.tcgetpgrp() method
 
-```
+```py
 # Python program to explain os.tcgetpgrp() method 
 
 # importing os module 
@@ -55,7 +55,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 Process group associated with controlling
 terminal of the current process: 19787
 

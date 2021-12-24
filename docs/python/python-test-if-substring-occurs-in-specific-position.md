@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮法。在这种情况下，我们迭代字符串，当索引出现时，我们同时测试子字符串字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if Substring occurs in specific position
 # Using loop
@@ -41,7 +41,7 @@ print("Does string contain substring at required position ? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Gfg is best
 Does string contain substring at required position ? : True
 

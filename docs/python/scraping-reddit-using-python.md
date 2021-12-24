@@ -8,7 +8,7 @@
 
 要安装 PRAW，请在命令提示符下运行以下命令:
 
-```
+```py
 pip install praw
 ```
 
@@ -45,7 +45,7 @@ Reddit 应用程序已经创建。现在，我们可以使用 python 和 praw �
 
 ## 蟒蛇 3
 
-```
+```py
 # Read-only instance
 reddit_read_only = praw.Reddit(client_id="",         # your client id
                                client_secret="",      # your client secret
@@ -69,7 +69,7 @@ reddit_authorized = praw.Reddit(client_id="",         # your client id
 
 ## 蟒蛇 3
 
-```
+```py
 import praw
 import pandas as pd
 
@@ -99,7 +99,7 @@ print("Description:", subreddit.description)
 
 ## 蟒蛇 3
 
-```
+```py
 subreddit = reddit_read_only.subreddit("Python")
 
 for post in subreddit.hot(limit=5):
@@ -117,7 +117,7 @@ for post in subreddit.hot(limit=5):
 
 ## 蟒蛇 3
 
-```
+```py
 posts = subreddit.top("month")
 # Scraping the top posts of the current month
 
@@ -160,7 +160,7 @@ python 子版本的顶部帖子
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 
 top_posts.to_csv("Top Posts.csv", index=True)
@@ -178,7 +178,7 @@ top_posts.to_csv("Top Posts.csv", index=True)
 
 ## 蟒蛇 3
 
-```
+```py
 import praw
 import pandas as pd
 
@@ -198,7 +198,7 @@ submission = reddit_read_only.submission(url=url)
 
 ## 蟒蛇 3
 
-```
+```py
 from praw.models import MoreComments
 
 post_comments = []

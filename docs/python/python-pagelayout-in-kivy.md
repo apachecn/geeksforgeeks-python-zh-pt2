@@ -13,7 +13,7 @@ page layout 类用于创建一个简单的多页布局，其方式允许使用�
 
 要使用页面布局，您必须通过以下命令导入它:
 
-```
+```py
 from kivy.uix.pagelayout import PageLayout
 ```
 
@@ -22,7 +22,7 @@ from kivy.uix.pagelayout import PageLayout
 
 **创建页面布局的基本方法:**
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import Pagelayout
@@ -38,7 +38,7 @@ from kivy.uix.pagelayout import PageLayout
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating 
 # How to create PageLayout in Kivy
 
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating the
 # working of PageLayout in Kivy with some features
 

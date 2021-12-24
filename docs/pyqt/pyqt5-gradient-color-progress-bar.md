@@ -7,7 +7,7 @@
 
 为了做到这一点，我们必须改变 CSS 样式表，下面是样式表的代码。
 
-```
+```py
 QProgressBar::chunk 
 {
 border : 1px solid black;
@@ -21,7 +21,7 @@ background: QLinearGradient( x1: 0, y1: 0,
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

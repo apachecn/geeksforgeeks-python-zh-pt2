@@ -13,7 +13,7 @@
 **方法一:使用`zip() + map() + sum()` +循环**
 以上功能的组合可以解决这个问题。在本例中，我们使用 sum()执行值的求和，zip()绑定所有的值。map()用于绑定值列表中所有元素的乘法逻辑。所有这些都是使用循环绑定的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Product and Inter Summation dictionary values
 # Using zip() + map() + sum() + loop 
@@ -48,7 +48,7 @@ print("The summations of product : " + str(res)) 
 **方法 2:使用`map() + reduce() + lambda + zip() + sum()` +生成器表达式**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 reduce 和 lambda 执行乘法任务，而生成器表达式执行迭代任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Product and Inter Summation dictionary values
 # Using map() + reduce() + lambda + zip() + sum() + generator expression

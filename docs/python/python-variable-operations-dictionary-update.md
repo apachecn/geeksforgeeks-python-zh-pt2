@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Variable Operations Dictionary update
 # Using lambda + dictionary comprehension
@@ -31,7 +31,7 @@ print("The Initialized dictionary : " + str(res))
 
 **Output : **
 
-```
+```py
 The Initialized dictionary : {'best': 42, 'Gfg': 13}
 ```
 
@@ -40,7 +40,7 @@ The Initialized dictionary : {'best': 42, 'Gfg': 13}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Variable Operations Dictionary update
 # Using lambda + dictionary comprehension
@@ -64,6 +64,6 @@ print("The Initialized dictionary : " + str(res))
 
 **Output : **
 
-```
+```py
 The Initialized dictionary : {'best': 42, 'Gfg': 13}
 ```

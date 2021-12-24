@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 n = 17292567
 
 # Initialize the empty array
@@ -47,7 +47,7 @@ print(array)
 
 **Output**
 
-```
+```py
 ['0x1', '0x7', '0xdd', '0x17']
 ```
 
@@ -59,7 +59,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 n = 543
@@ -82,7 +82,7 @@ print(array)
 
 **Output**
 
-```
+```py
 ['0x02', '0x1f']
 ```
 
@@ -94,7 +94,7 @@ print(array)
 
 ## 蟒蛇 3
 
-```
+```py
 n = 8745
 
 # Get string representation of hex code
@@ -112,6 +112,6 @@ print(array)
 
 **Output**
 
-```
+```py
 ['0x22', '0x29']
 ```

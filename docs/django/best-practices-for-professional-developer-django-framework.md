@@ -18,7 +18,7 @@ Django 是一个基于 Python 的开源框架，用于构建网络应用程序�
 
 要生成新的 requirements.txt 文件或更新现有文件，请使用此命令。确保您在正确的目录中。
 
-```
+```py
 (virtualenv) $ pip freeze > requirements.txt
 
 ```
@@ -35,7 +35,7 @@ Django 是一个基于 Python 的开源框架，用于构建网络应用程序�
 
 一般来说，模型代表一个单一的对象或实体，因此模型名称应该是一个单数名词。
 
-```
+```py
 # Bad practice
 class Users(models.Model):
   pass
@@ -49,7 +49,7 @@ class User(models.Model): # use 'User' instead of 'Users'
 
 相关名称指定从父模型到子模型的反向关系。当它返回一个 queryset 时，用复数表示相关名称是合理的
 
-```
+```py
 # parent model
 class Owner(models.Model):
     pass
@@ -64,7 +64,7 @@ class Item(models.Model):
 
 **位置** : 模板可以放在两个地方，或者是 app 目录本身，或者是项目的根目录。建议将模板放在根目录中，但是如果您想让您的应用程序可重复使用(在多个位置使用)，那么您应该将其放在应用程序目录中。
 
-```
+```py
 #Good practice
 root_folder/
     my_app1/
@@ -85,21 +85,21 @@ root_folder/
 
 **命名**:正确命名你的模板有助于任何一个新开发人员立即获得你的 django 代码。好的模板名称是这样的
 
-```
+```py
 [application]/[model]_[function].html
 
 ```
 
 例如，创建一个模板来列出我的地址簿(地址簿应用程序)中的所有联系人(联系人模型)，我将使用以下模板:
 
-```
+```py
 address_book/contact_list.html
 
 ```
 
 类似地，联系人的详细视图将使用
 
-```
+```py
 address_book/contact_detail.html
 
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Perform sort from Kth index
 # Using loop + list slicing
@@ -55,7 +55,7 @@ print("Partially sorted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [8, 4, 7, 3, 2, 14, 6]
 Partially sorted list : [8, 4, 7, 2, 3, 6, 14]
 ```
@@ -66,7 +66,7 @@ Partially sorted list : [8, 4, 7, 2, 3, 6, 14]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Perform sort from Kth index
 # Using Using double List slicing
@@ -93,7 +93,7 @@ print("Partially sorted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [8, 4, 7, 3, 2, 14, 6]
 Partially sorted list : [8, 4, 7, 2, 3, 6, 14]
 ```

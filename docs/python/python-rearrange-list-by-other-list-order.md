@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个任务可以使用列表理解来执行。在这种情况下，我们迭代排序顺序列表，如果列表出现在目标列表中，则简单地追加。根据排序顺序列表，索引是相似的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rearrange list by other list order
 # Using list comprehension
@@ -32,7 +32,7 @@ print("The list after sorting is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list 1 is : [5, 6, 7, 4, 8, 9, 2]
 The original list 2 is : [9, 6, 4]
 The list after sorting is : [6, 4, 9]

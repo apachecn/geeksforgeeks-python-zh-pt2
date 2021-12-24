@@ -10,7 +10,7 @@
 **例如:**
 下面的表达式检查 [os.stat()](https://www.geeksforgeeks.org/python-os-stat-method/) 方法在本地平台上调用时是否允许使用其*follow _ symlink*参数。*
 
-```
+```py
 os.stat in os.supports_follow_symlinks
 
 ```
@@ -23,7 +23,7 @@ os.stat in os.supports_follow_symlinks
 
 **Code #1:** Use of os.supports_follow_symlinks object
 
-```
+```py
 # Python program to explain os.supports_follow_symlinks object  
 
 # importing os module 
@@ -40,7 +40,7 @@ print(methodList)
 
 **Output:**
 
-```
+```py
 {<built-in function stat>, <built-in function chown>,
 <built-in function link>, <built-in function access>, 
 <built-in function utime>}
@@ -49,7 +49,7 @@ print(methodList)
 
 **Code #2:** Use of os.supports_follow_symlinks object to check if a particular method permits the use of their follow_symlinks parameter or not.
 
-```
+```py
 # Python program to explain os.supports_follow_symlinks object  
 
 # importing os module 
@@ -74,7 +74,7 @@ print(support)
 
 **Output:**
 
-```
+```py
 True
 False
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [0, 1, 9, 8, 7, 5, 3, 14]
 Output : [9, 1, 0, 8, 7, 5, 14, 3]
 Explanation: There are two chunks of strictly
@@ -23,7 +23,7 @@ Explanation: Only one chunk of strictly increasing
 
 解决给定问题的一种简单方法是使用扩展切片。我们用空列表初始化两个变量“res”(存储最终输出)和 block(存储递增整数块)。现在使用 for 循环，每次我们检查当前元素是否小于块的最后一个元素。如果是，使用扩展切片(块[:-1])和干净块(块[:] = [i])将反向块添加到“res”。否则，只需将元素追加到“block”中。最后，通过反转块来扩展“res”并将其输出。
 
-```
+```py
 # Python3 program to Reverse order 
 # of incrementing integers in list
 
@@ -55,7 +55,7 @@ print(reverseOrder(lst))
 
 **Output:**
 
-```
+```py
 [9, 1, 0, 8, 7, 5, 14, 3]
 
 ```
@@ -64,7 +64,7 @@ print(reverseOrder(lst))
 
 解决上述问题的有效方法是使用列表理解。它首先找出递增整数开始的所有位置，并将它们存储在变量“break_”中。在此之后，所有的块都被反转，并以子列表的形式进行管理，这些子列表又存储在“块”中。最后，解压并返回“block”。
 
-```
+```py
 # Python3 program to Reverse order 
 # of incrementing integers in list
 
@@ -84,7 +84,7 @@ print(reverseOrder(lst))
 
 **Output:**
 
-```
+```py
 [9, 1, 0, 8, 7, 5, 14, 3]
 
 ```

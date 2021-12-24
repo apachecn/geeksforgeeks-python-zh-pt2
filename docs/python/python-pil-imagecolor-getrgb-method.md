@@ -13,7 +13,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 > 
 > **返回:**(红、绿、蓝[，α])
 
-```
+```py
 
 # importing Image module from PIL package 
 from PIL import Image, ImageColor
@@ -28,7 +28,7 @@ print(im1)
 
 **输出:**
 
-```
+```py
 (255, 165, 0)
 (255, 0, 0)
 
@@ -36,7 +36,7 @@ print(im1)
 
 **另一个例子:**–这里用了不同的颜色。
 
-```
+```py
 
 # importing Image module from PIL package 
 from PIL import Image, ImageColor
@@ -51,7 +51,7 @@ print(im1)
 
 **输出:**
 
-```
+```py
 (0, 0, 255)
 (255, 255, 0)
 

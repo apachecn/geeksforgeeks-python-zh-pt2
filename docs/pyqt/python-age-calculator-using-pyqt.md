@@ -6,7 +6,7 @@
 
 **PyQt5** 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。必须使用下面给出的命令进行安装
 
-```
+```py
 pip install PyQt5
 ```
 
@@ -31,7 +31,7 @@ pip install PyQt5
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

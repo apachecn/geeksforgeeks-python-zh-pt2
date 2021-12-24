@@ -18,14 +18,14 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用 RelativeLayout，我们需要做的第一件事就是导入它。
 
-```
+```py
 from kivy.uix.relativelayout import RelativeLayout
 ```
 
 **注意:**
 这个布局可以给孩子设置相对坐标。如果您想要绝对定位，请使用浮动布局。在 RelativeLayout 中，必须给出每个子小部件的大小和位置。这也实现了动态放置。
 
-```
+```py
 We can do relative positioning by:
 pos_hint: provide hint of position
 We can define upto 8 keys i.e. it takes arguments in form of dictionary.
@@ -36,7 +36,7 @@ pos_hint = {“x”:1, “y”:1, “left”:1, “right”:1, "center_x":1, "ce
 **注意:**
 浮动布局和相对布局都支持绝对和相对定位，具体取决于是使用 *pos_hint* 还是 pos。但是如果你想要绝对定位，使用浮动布局。
 
-```
+```py
 Basic Approach to create Relative Layout:
 
 1) import kivy
@@ -55,7 +55,7 @@ Basic Approach to create Relative Layout:
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating the
 # working of RelativeLayout in Kivy
 
@@ -124,7 +124,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Python application demonstrating the
 # working of RelativeLayout in Kivy
 

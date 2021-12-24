@@ -14,7 +14,7 @@
 要在 Windows、Linux 或任何操作系统上安装美化软件包，需要 pip 包。要查看如何在您的操作系统上安装画中画，请查看–画中画安装–[窗口](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/) || [Linux](https://www.geeksforgeeks.org/how-to-install-pip-in-linux/) 。
 现在，运行一个简单的命令，
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -27,7 +27,7 @@ pip install beautifulsoup4
 可以安装 beautulsup，直接使用源代码，从这里安装 beautulsup tarball–[下载美人汤 4 源码 tarball](https://www.crummy.com/software/BeautifulSoup/bs4/download/4.0/)
 将 cd 下载到目录后运行，
 
-```
+```py
 Python setup.py install
 ```
 

@@ -16,7 +16,7 @@ KivyMD 是 Kivy 框架的扩展。KivyMD 是一个材料设计小部件的集合
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 # like MDApp, MDLabel Screen, MDTextField
 # and MDRectangleFlatButton
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 # like MDApp, MDLabel Screen, MDTextField
 # and MDRectangleFlatButton
@@ -114,7 +114,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 # like MDApp, MDLabel Screen, MDTextField
 # and MDRectangleFlatButton
@@ -159,7 +159,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary modules
 # like MDApp, MDLabel Screen, MDTextField
 # and MDRectangleFlatButton

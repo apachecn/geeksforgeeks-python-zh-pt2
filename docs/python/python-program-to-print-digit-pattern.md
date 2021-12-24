@@ -28,7 +28,7 @@
 对于整数中的每个数字，打印相应的*s 数
 如果数字为 0，则打印 no *s 并跳到下一行
 
-```
+```py
 # function to print the pattern
 def pattern(n):
 
@@ -50,7 +50,7 @@ pattern(n)
 
 **Output:**
 
-```
+```py
 |****
 |*
 |***
@@ -61,7 +61,7 @@ pattern(n)
 
  **以整数为输入的交替解:**
 
-```
+```py
 n = 41325
 x = []
 while n>0:
@@ -75,7 +75,7 @@ for i in range(len(x)-1,-1,-1):
 
 **Output:**
 
-```
+```py
 |****
 |*
 |***

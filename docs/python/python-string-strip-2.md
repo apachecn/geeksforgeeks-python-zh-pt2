@@ -21,7 +21,7 @@ Python 的 ***strip()方法*** 内置函数用于移除字符串中的所有前�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate the working of strip()
 string = '   Geeks for Geeks   '
 
@@ -37,7 +37,7 @@ print(string.strip('Geeks'))
 
 **输出:**
 
-```
+```py
 Geeks for Geeks
 for
    Geeks for Geeks   
@@ -47,7 +47,7 @@ for
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate the working of strip()
 string = '@@@@Geeks for Geeks@@@@@'
 
@@ -62,7 +62,7 @@ print(string.strip('.grow'))
 
 **输出:**
 
-```
+```py
 Geeks for Geeks
 Geeksforgeeks
 ```
@@ -72,7 +72,7 @@ Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to check for identifiers
 def Count(string):
 
@@ -91,7 +91,7 @@ print(len(Count(string)))
 
 **输出:**
 
-```
+```py
 Length before strip()
 17
 Length after removing spaces

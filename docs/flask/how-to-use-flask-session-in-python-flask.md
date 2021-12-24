@@ -22,13 +22,13 @@
 
 使用以下命令安装扩展
 
-```
+```py
 $ easy_install Flask-Session
 ```
 
 **或者**，如果你安装了 pip
 
-```
+```py
 $ pip install Flask-Session
 ```
 
@@ -39,7 +39,7 @@ $ pip install Flask-Session
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template, redirect, request, session
 from flask_session import Session
 ```
@@ -51,7 +51,7 @@ from flask_session import Session
 
 ## 蟒蛇 3
 
-```
+```py
 app = Flask(__name__)
 app.config["SESSION_PERMANENT"] = False
 app.config["SESSION_TYPE"] = "filesystem"
@@ -67,7 +67,7 @@ Session(app)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route("/")
 def index():
     return render_template('index.html')
@@ -82,7 +82,7 @@ def login():
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route("/login", methods=["POST", "GET"])
 def login():
   # if form is submited
@@ -99,7 +99,7 @@ def login():
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route("/")
 def index():
   # check if the users exist or not
@@ -114,7 +114,7 @@ def index():
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route("/logout")
 def logout():
     session["name"] = None
@@ -125,7 +125,7 @@ def logout():
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template, redirect, request, session
 # The Session instance is not used for direct access, you should always use flask.session
 from flask_session import Session
@@ -163,7 +163,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "layout.html" %}
 
 {% block y %}
@@ -181,7 +181,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "layout.html" %}
 
 {% block y %}
@@ -200,7 +200,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 
 <html lang="en">

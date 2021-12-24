@@ -8,7 +8,7 @@ Mahotas 在寻找图像中的模式方面提供了一个很好的解决方案，
 
 **如何安装 Mahotas :**
 
-```
+```py
 pip install mahotas
 ```
 
@@ -28,7 +28,7 @@ pip install mahotas
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import numpy as np
 import mahotas
@@ -50,7 +50,7 @@ show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import pylab as p
 import numpy as np

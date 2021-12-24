@@ -6,7 +6,7 @@ Django 是一个基于 Python 的高级网络框架，允许快速开发和干�
 
 ### **安装–**
 
-```
+```py
 pip3 install django
 pip3 install pyjokes
 ```
@@ -15,19 +15,19 @@ pip3 install pyjokes
 
 通过以下命令启动项目
 
-```
+```py
 django-admim startproject jokeapp
 ```
 
 将目录更改为 jokeapp
 
-```
+```py
 cd jokeapp
 ```
 
 启动服务器-通过在终端中键入以下命令启动服务器–
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -35,7 +35,7 @@ python manage.py runserver
 
 ### 创建主应用程序–
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -53,7 +53,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 
@@ -67,7 +67,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from .views import *
 
@@ -80,7 +80,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render,HttpResponse
 import pyjokes
 # Create your views here.
@@ -96,7 +96,7 @@ def home(request):
 
 ## 超文本标记语言
 
-```
+```py
 <html>
   <head>
     <title>Home Page</title>
@@ -111,7 +111,7 @@ def home(request):
 
 现在，您可以运行服务器来查看您的笑话应用程序
 
-```
+```py
 python manage.py runserver
 ```
 

@@ -13,7 +13,7 @@
 
 python 中的命令行参数可以通过使用“sys”模块或“argparse”模块来处理。
 
-```
+```py
 # Python code to demonstrate the use of 'sys' module
 # for command line arguments
 
@@ -33,7 +33,7 @@ print sys.argv[1]
 
 输出:
 
-```
+```py
 ['program1.py', 'test', '1']
 program1.py
 test
@@ -51,7 +51,7 @@ test
     我们可以使用命令行参数来编写执行常用任务的程序。例如，我们需要多次求阶乘。我们可以将下面的程序保存在计算机中一个名为 factorial.py 的文件中，只需编写获取一个数的阶乘的命令，比如 5，就可以得到输出。
     `python factorial.py 5`
 
-    ```
+    ```py
     import sys
     from math import factorial
 
@@ -66,7 +66,7 @@ test
 
     **args 会以列表的形式给我们所有的函数参数，kwargs 会给我们除了形式参数对应的关键字参数以外的所有关键字参数作为字典。**
 
-    ```
+    ```py
     # Python program to illustrate the use of args which
     # multiplies all the values given to the function as parameter
 
@@ -96,7 +96,7 @@ test
 
     输出:
 
-    ```
+    ```py
     (1, 2)
     Type =  
     The multiplication of 1 and 2 is  2
@@ -108,7 +108,7 @@ test
 
     注意**参数**用单星表示，**参数**在函数形式参数前用两颗星表示。
 
-    ```
+    ```py
     # Program to illustrate the use of kwargs in Python
 
     # Function that print the details of a student
@@ -142,7 +142,7 @@ test
 
     输出:
 
-    ```
+    ```py
     Parameter details contains
     {'department': 'CSE', 'rollNumber': '007', 'firstName': 'Nikhil'}
     Type =  
@@ -160,7 +160,7 @@ test
     请**注意**如果在函数中同时使用 args 和 kwargs，那么 args 参数必须在 kwarg 参数之前。
     示例:
 
-    ```
+    ```py
     # Function containing both args and kwargs
     def cheeseshop(kind, *arguments, **keywords):
         print "-- Do you have any", kind, "?"

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to convert number into string
 # Switcher is dictionary data type here
 def numbers_to_strings(argument):
@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 ## 卡片打印处理机（Card Print Processor 的缩写）
 
-```
+```py
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -63,7 +63,7 @@ int main()
 
 **输出:**
 
-```
+```py
 Zero
 ```
 

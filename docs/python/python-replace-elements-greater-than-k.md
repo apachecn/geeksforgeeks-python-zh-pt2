@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Elements greater than K
 # Using loop
@@ -50,7 +50,7 @@ print("The replaced list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 4, 7, 5, 6, 7, 3, 4, 6, 9]
 The replaced list : [3, 4, 'NA', 5, 'NA', 'NA', 3, 4, 'NA', 'NA']
 
@@ -62,7 +62,7 @@ The replaced list : [3, 4, 'NA', 5, 'NA', 'NA', 3, 4, 'NA', 'NA']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Elements greater than K
 # Using list comprehension
@@ -88,7 +88,7 @@ print("The replaced list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 4, 7, 5, 6, 7, 3, 4, 6, 9]
 The replaced list : [3, 4, 'NA', 5, 'NA', 'NA', 3, 4, 'NA', 'NA']
 

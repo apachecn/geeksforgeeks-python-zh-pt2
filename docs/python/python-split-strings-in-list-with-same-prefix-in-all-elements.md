@@ -8,7 +8,7 @@
 
 这个任务可以使用列表理解和列表切片来执行。列表切片可用于删除不需要的字母，列表理解可用于将逻辑扩展到整个字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Split strings in list
 # Using list comprehension + list slicing
@@ -29,7 +29,7 @@ print("The list after string slicing : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Rs.25', 'Rs.100', 'Rs.143', 'Rs.12', 'Rs.4010']
 The list after string slicing : ['25', '100', '143', '12', '4010']
 
@@ -39,7 +39,7 @@ The list after string slicing : ['25', '100', '143', '12', '4010']
 
 这个特殊的任务也可以使用 map 函数来执行。对每个字符串执行相同操作的任务由 lambda 函数和 map 函数处理。
 
-```
+```py
 # Python3 code to demonstrate
 # Split strings in list
 # Using map() + slicing + lambda
@@ -60,7 +60,7 @@ print("The list after string slicing : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Rs.25', 'Rs.100', 'Rs.143', 'Rs.12', 'Rs.4010']
 The list after string slicing : ['25', '100', '143', '12', '4010']
 

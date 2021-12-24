@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `remove() + endswith()`**
 以上功能的组合可以解决这个问题。在这种情况下，我们移除以使用循环访问的特定后缀结尾的元素，并返回修改后的列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Suffix removal from String list
 # using loop + remove() + endswith()
@@ -33,7 +33,7 @@ print("List after removal of suffix elements : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : ['allx', 'lovex', 'gfg', 'xit', 'is', 'bestx']
 List after removal of suffix elements : ['gfg', 'xit', 'is']
 

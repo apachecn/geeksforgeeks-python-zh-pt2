@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，如果元素落在范围内，我们就使用 if 条件进行检查，如果我们发现甚至有一个出现在范围外，我们就中断。
 
-```
+```py
 # Python3 code to demonstrate 
 # Test if List contains elements in Range
 # using loop
@@ -35,7 +35,7 @@ print ("Does list contain all elements in range : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 7, 3, 9]
 Does list contain all elements in range : True
 

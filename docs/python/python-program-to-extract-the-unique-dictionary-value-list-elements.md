@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Dictionary Value List elements
 # Using loop
@@ -57,7 +57,7 @@ print("Extracted items : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Dictionary Value List elements
 # Using set() + union()

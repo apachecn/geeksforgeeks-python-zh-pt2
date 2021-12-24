@@ -7,7 +7,7 @@
 **方法#1:使用`remove()`**
 这个特定的方法相当幼稚，不建议使用，但确实是执行这个任务的方法。remove()通常会删除第一个出现的 K 字符串，我们会一直迭代这个过程，直到在列表中没有找到 K 字符串。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Remove K String from String List
 # using remove()
@@ -32,7 +32,7 @@ print ("Modified list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 Original list is : ['bad', 'GeeksforGeeks', 'bad', 'is', 'best', 'bad']
 Modified list is : ['GeeksforGeeks', 'is', 'best']
 

@@ -28,7 +28,7 @@ Django 是一个基于 Python 的网络框架，允许您快速创建高效的�
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from . import views
@@ -50,7 +50,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 import pyrebase
 
@@ -115,7 +115,7 @@ def postsignUp(request):
 
 ## 超文本标记语言
 
-```
+```py
 {% if message %}
 <script>
     alert('{{ message }}');
@@ -179,7 +179,7 @@ def postsignUp(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -240,7 +240,7 @@ def postsignUp(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -279,7 +279,7 @@ def postsignUp(request):
 
 现在转到您的项目目录，并使用给定的命令运行我们的项目:
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -303,7 +303,7 @@ python manage.py runserver
 
 ## 蟒蛇 3
 
-```
+```py
 path('reset/', views.reset),
 path('postReset/', views.postReset),
 ```
@@ -314,7 +314,7 @@ path('postReset/', views.postReset),
 
 ## 蟒蛇 3
 
-```
+```py
 def reset(request):
     return render(request, "Reset.html")
 
@@ -333,7 +333,7 @@ def postReset(request):
 
 ## 超文本标记语言
 
-```
+```py
 {% if message %}
 <script>
     alert('{{ message }}');
@@ -399,7 +399,7 @@ def postReset(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 {% load static %}
 {%if msg%}
@@ -439,7 +439,7 @@ def postReset(request):
 
 现在转到您的项目目录，并使用给定的命令运行我们的项目:
 
-```
+```py
 python manage.py runserver
 ```
 

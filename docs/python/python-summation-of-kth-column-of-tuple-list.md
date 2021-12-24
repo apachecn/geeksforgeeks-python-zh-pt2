@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `sum()`**
 该任务可以使用上述功能的组合来执行。在这种情况下，使用`sum()`进行索引求和，列表理解驱动列表中每个元组的第 N 个索引元素的迭代和访问。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of Kth Column of Tuple List
 # using list comprehension + sum()
@@ -31,7 +31,7 @@ print("Summation of Kth Column of Tuple List : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 7), (1, 3, 5), (8, 9, 19)]
 Summation of Kth Column of Tuple List : 31
 

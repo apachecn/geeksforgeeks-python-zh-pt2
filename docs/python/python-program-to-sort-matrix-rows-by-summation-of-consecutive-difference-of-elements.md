@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get abs summation
 def diff_sum(row):
     return sum([abs(row[idx + 1] - row[idx]) for idx in range(0, len(row) - 1)])
@@ -47,7 +47,7 @@ print("Sorted Rows : " + str(test_list))
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [[1, 5, 3, 6], [4, 3, 2, 1], [7, 2, 4, 5], [6, 9, 3, 2]]
 

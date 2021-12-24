@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = ['Geeks','for','Geeks!']
 
@@ -53,7 +53,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # open file in read mode
 f = open('gfg.txt', 'r')
 
@@ -74,7 +74,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = ['Geeks', '4', 'geeks']
 
@@ -103,7 +103,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # open file in read mode
 f = open('gfg.txt', 'r')
 
@@ -125,7 +125,7 @@ f.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # open file form two file objects
 f1 = open('gfg.txt', 'r')
 f2 = open('gfg.txt', 'r')

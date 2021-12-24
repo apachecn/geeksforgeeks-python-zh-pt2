@@ -16,7 +16,7 @@
 
 这个函数可以用来对整数、浮点数、字符串等进行排序。
 
-```
+```py
 # List of Integers
 numbers = [1, 3, 4, 2]
 
@@ -44,7 +44,7 @@ print(words)
 
 输出:
 
-```
+```py
 [1, 2, 3, 4]
 [1.68, 2.0, 2.01, 3.28, 3.67]
 ['For', 'Geeks', 'Geeks']
@@ -55,13 +55,13 @@ print(words)
 
 **语法**
 
-```
+```py
 list_name.sort(reverse=True)
 This will sort the given list in descending order.
 
 ```
 
-```
+```py
 # List of Integers
 numbers = [1, 3, 4, 2]
 
@@ -89,7 +89,7 @@ print(words)
 
 输出:
 
-```
+```py
 [4, 3, 2, 1]
 [3.67, 3.28, 2.01, 2.0, 1.68]
 ['Geeks', 'Geeks', 'For']
@@ -107,7 +107,7 @@ print(words)
 > **反转**–如果为真，列表按降序排序
 > **键**–用作排序比较的键的功能
 
-```
+```py
 # Python program to demonstrate sorting by user's
 # choice
 
@@ -133,7 +133,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 [(1, 1), (1, 2), (3, 3)]
 [(3, 3), (1, 2), (1, 1)]
 

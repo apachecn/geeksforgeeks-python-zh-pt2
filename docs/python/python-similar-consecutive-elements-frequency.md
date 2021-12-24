@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以解决这个问题的蛮力方法。在这种情况下，我们迭代循环并计数，直到得到其他数字。
 
-```
+```py
 # Python3 code to demonstrate 
 # Similar Consecutive elements frequency
 # using loop
@@ -36,7 +36,7 @@ print ("The consecutive element frequency is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [2, 2, 3, 3, 3, 3, 4, 4, 4]
 The consecutive element frequency is : [(2, 2), (3, 4), (4, 3)]
 

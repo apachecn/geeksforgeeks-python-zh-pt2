@@ -105,7 +105,7 @@ S 相对于目标函数 f 和数据样本 S 的样本误差是样本 S 错误分
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import numpy as np
 import scipy.stats as st
@@ -119,7 +119,7 @@ for alpha in alphas:
   print(st.norm.interval(alpha=alpha, loc=np.mean(data), scale=st.sem(data)))
 ```
 
-```
+```py
 # confidence Interval
 90%: (17.868667310403545, 19.891332689596453)
 95%: (17.67492277275104, 20.08507722724896)

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if Values Sum is Greater than Keys Sum in dictionary
 # Using loop
@@ -47,7 +47,7 @@ print("The required result : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 3, 1: 3, 10: 4, 7: 3, 8: 1, 9: 5}
 The required result : False
 
@@ -59,7 +59,7 @@ The required result : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if Values Sum is Greater than Keys Sum in dictionary
 # Using sum() + values()  + keys()
@@ -78,7 +78,7 @@ print("The required result : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {5: 3, 1: 3, 10: 4, 7: 3, 8: 1, 9: 5}
 The required result : False
 

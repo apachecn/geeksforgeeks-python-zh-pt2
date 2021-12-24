@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: "my name is geeks for geeks"
 Output: number of spaces = 5
 
@@ -26,7 +26,7 @@ Output: number of spaces=0
 
 ## 蟒蛇 3
 
-```
+```py
 # create function that
 # return space count
 def check_space(string):
@@ -53,7 +53,7 @@ print("number of spaces ",check_space(string))
 
 **输出:**
 
-```
+```py
 number of spaces  2
 ```
 
@@ -61,7 +61,7 @@ number of spaces  2
 
 ## 蟒蛇 3
 
-```
+```py
 # create function that
 # return space count
 def check_space(string):
@@ -89,7 +89,7 @@ print("number of spaces ",check_space(string))
 
 **输出:**
 
-```
+```py
 number of spaces  3
 ```
 
@@ -97,7 +97,7 @@ number of spaces  3
 
 ## 蟒蛇 3
 
-```
+```py
 # Create function that
 # return space count
 def check_space(Test_string):
@@ -113,6 +113,6 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Number of Spaces: 3
 ```

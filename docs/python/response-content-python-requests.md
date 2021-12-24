@@ -17,7 +17,7 @@ Python 请求通常用于从特定资源 URI 获取内容。每当我们通过 P
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a get request
@@ -32,7 +32,7 @@ print(response.content)
 按要求保存上述文件，并使用
 运行
 
-```
+```py
 Python request.py
 ```
 
@@ -46,7 +46,7 @@ Python request.py
 
 Python 中有很多库可以进行 HTTP 请求，分别是 [httplib](https://docs.python.org/2/library/httplib.html) 、[urlib](https://docs.python.org/2/library/urllib.html)、 [httplib2](https://github.com/httplib2/httplib2) 、 [treq](https://github.com/twisted/treq) 等。，但是[要求](https://2.python-requests.org//en/master/)是最好的一个，有很酷的功能。如果请求的任何属性显示为空，请使用以下属性检查状态代码。
 
-```
+```py
 requests.status_code
 ```
 

@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -56,7 +56,7 @@ player.vlm_del_media("death_note")
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 

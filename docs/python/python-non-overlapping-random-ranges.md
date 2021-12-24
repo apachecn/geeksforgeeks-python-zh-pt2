@@ -7,7 +7,7 @@
 **方法:使用`any() + randint()` +循环**
 这是可以执行这个任务的蛮力方式。在本文中，我们使用 randint()提取随机范围，并使用 any()和 loop 检查数字范围是否不重复。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Non-overlapping Random Ranges
 # Using loop + any() + randint()
@@ -36,7 +36,7 @@ print("The N Non-overlapping Random ranges are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The N Non-overlapping Random ranges are : [(5347, 5352), (7108, 7113), (5479, 5484), (1906, 1911), (2228, 2233), (5206, 5211), (3260, 3265)]
 
 ```

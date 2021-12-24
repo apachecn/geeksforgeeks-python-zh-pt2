@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须使用`setStyleSheet`方法改变 CSS 样式表，下面是样式表。
 
-```
+```py
 QProgressBar
 {
 background-color :lightblue;
@@ -19,7 +19,7 @@ border : 1px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

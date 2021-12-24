@@ -16,7 +16,7 @@
 
 [**Selenium:**](https://www.geeksforgeeks.org/browser-automation-using-selenium/)Selenium 包用于自动化 Python 中的 web 浏览器交互。这是一个主要用于测试的开源工具。在终端中运行以下命令来安装该库:
 
-```
+```py
 pip install selenium
 ```
 
@@ -68,7 +68,7 @@ pip install selenium
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Library
 from selenium import webdriver
 import time

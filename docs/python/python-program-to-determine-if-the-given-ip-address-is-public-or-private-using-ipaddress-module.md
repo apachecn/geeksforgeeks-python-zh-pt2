@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 Input : 17.5.7.8
 Output : Public
 
@@ -23,7 +23,7 @@ Output : Private
 
 为了实现它，我们将使用 Python 3.3 的 ipaddress 模块的 is_private 方法。
 
-```
+```py
 # importing ip_address from 
 # ip address module
 from ipaddress import ip_address
@@ -42,7 +42,7 @@ if __name__ == '__main__' : 
 
 **输出:**
 
-```
+```py
 Public
 Private
 ```

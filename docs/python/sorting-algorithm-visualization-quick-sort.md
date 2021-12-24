@@ -34,7 +34,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation of the 
 # Sorting visualiser: Quick Sort
 
@@ -175,7 +175,7 @@ pygame.quit()
 
 **输出:**
 
-```
+```py
 
 <video class="wp-video-shortcode" id="video-434352-1" width="665" height="505" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200619155939/visualiser15-2020-06-19_15.49.43.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200619155939/visualiser15-2020-06-19_15.49.43.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200619155939/visualiser15-2020-06-19_15.49.43.mp4)</video>
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : The quick brown fox jumps over the lazy dog.
 Output : tHE QuiCK BrOWN fOX juMps over tHe lAzY dOG.
 
@@ -23,7 +23,7 @@ Output : This seNtENce is TO TeST THE funcTiON.
 4.  如果生成的数字大于 0.5，则使用`upper()`方法将字符改为大写。
 5.  如果生成的数字小于或等于 0.5，则使用`lower()`方法将字符更改为小写。
 
-```
+```py
 # import the random library
 import random
 
@@ -65,7 +65,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 tHe qUICk BrOWn fox jUMPs oVEr thE lAZy dOG.
 THIS seNTEncE IS tO TesT tHe FuNcTIOn.
 
@@ -73,7 +73,7 @@ THIS seNTEncE IS tO TesT tHe FuNcTIOn.
 
 上面的代码生成大小写相等的文本。如果我们想倾斜天平偏向一边，我们可以将`random.random()`方法切换为`random.triangular()`方法。
 
-```
+```py
 # import the random library
 import random
 
@@ -129,7 +129,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 Spongemock text with more upper case characters :
 ThE qUICK BROwN FOX jUMPs OVeR THE lazy DoG.
 

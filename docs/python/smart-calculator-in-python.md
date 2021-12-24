@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input  : Hi calculator plz find the lcm of 4 and 8\.  
 Output : 8 
 
@@ -20,7 +20,7 @@ Output : Thanks for enjoy with me.
 
 **代码:智能计算的 Python 代码**
 
-```
+```py
 # main python proghram
 response=['Welcome to smart calculator','My name is MONTY',
           'Thanks for enjoy with me ','Sorry ,this is  beyond my ability']
@@ -119,7 +119,7 @@ while True:
 
 **输出:**
 
-```
+```py
 --------------Welcome to smart calculator------------
 --------------My name is MONTY--------------------
 

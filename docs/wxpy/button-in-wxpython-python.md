@@ -18,7 +18,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.StaticText(self, parent, id=ID_ANY, label=””, 
 >               pos=DefaultPosition, size=DefaultSize, 
 >                  style=0, validator= DefaultVadator, 
@@ -41,7 +41,7 @@
 
 **示例#1:**
 
-```
+```py
 # import wxPython
 def onButton(event):
     print( "Button pressed.")

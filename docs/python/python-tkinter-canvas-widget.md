@@ -11,7 +11,7 @@ Tkinter 是 python 中使用的一个 GUI 工具包，用于制作用户友好�
 
 **语法:**
 
-```
+```py
 C = Canvas(root, height, width, bd, bg, ..)
 ```
 
@@ -32,25 +32,25 @@ C = Canvas(root, height, width, bd, bg, ..)
 
 *   **创建椭圆形**
 
-```
+```py
  oval = C.create_oval(x0, y0, x1, y1, options)
 ```
 
 *   **创建弧线**
 
-```
+```py
  arc = C.create_arc(20, 50, 190, 240, start=0, extent=110, fill="red")
 ```
 
 *   **创建一条线**
 
-```
+```py
  line = C.create_line(x0, y0, x1, y1, ..., xn, yn, options)
 ```
 
 *   **创建多边形**
 
-```
+```py
  oval = C.create_polygon(x0, y0, x1, y1, ...xn, yn, options)
 ```
 
@@ -58,7 +58,7 @@ C = Canvas(root, height, width, bd, bg, ..)
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()
@@ -91,7 +91,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()

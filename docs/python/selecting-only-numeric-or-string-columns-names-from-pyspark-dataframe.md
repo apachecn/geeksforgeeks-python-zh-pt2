@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql import Row
 from datetime import date
 from pyspark.sql import SparkSession
@@ -52,7 +52,7 @@ print("Result: ", columnList)
 
 **输出:**
 
-```
+```py
 DataFrame structure: DataFrame[a: bigint, b: string, c: date]
 dtypes result: [('a', 'bigint'), ('b', 'string'), ('c', 'date')]
 Result:  ['a', 'b']
@@ -64,7 +64,7 @@ Result:  ['a', 'b']
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.types import StringType, LongType
 from pyspark.sql import Row
 from datetime import date

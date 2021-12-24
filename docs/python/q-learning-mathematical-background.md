@@ -37,7 +37,7 @@ Q 学习技术基于**贝尔曼方程**。
 
 *   **政策评估:**
 
-    ```
+    ```py
 
     while(![\Delta > \theta](img/3b3eacf285257aff6879850cb3efe798.png "Rendered by QuickLaTeX.com"))
     {
@@ -51,7 +51,7 @@ Q 学习技术基于**贝尔曼方程**。
 
 *   **政策改善:**
 
-    ```
+    ```py
 
     while(true)
         for each s in S
@@ -75,7 +75,7 @@ Q 学习技术基于**贝尔曼方程**。
 *   **初始化:**用任意随机实数初始化数组 V。
 *   **计算最优值:**
 
-    ```
+    ```py
 
     while(![\Delta > \theta](img/3b3eacf285257aff6879850cb3efe798.png "Rendered by QuickLaTeX.com"))
     {

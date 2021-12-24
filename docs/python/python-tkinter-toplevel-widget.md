@@ -12,7 +12,7 @@ Tkinter 是 python 中使用的一个 GUI 工具包，用于制作用户友好�
 
 **语法:**
 
-```
+```py
 toplevel = Toplevel(root, bg, fg, bd, height, width, font, ..)
 ```
 
@@ -40,7 +40,7 @@ toplevel = Toplevel(root, bg, fg, bd, height, width, font, ..)
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()
@@ -68,7 +68,7 @@ top.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # Create the root window

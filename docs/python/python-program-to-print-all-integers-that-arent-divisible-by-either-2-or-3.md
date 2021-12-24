@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 10
 Output: Numbers not divisible by 2 and 3
 1
@@ -19,7 +19,7 @@ Output: Numbers not divisible by 2 and 3
 
 ## 蟒蛇 3
 
-```
+```py
 # input the maximum number to
 # which you want to send
 max_num = 20
@@ -41,7 +41,7 @@ while n <= max_num:
 
 **输出:**
 
-```
+```py
 Numbers not divisible by 2 and 3
 1
 5
@@ -58,7 +58,7 @@ Numbers not divisible by 2 and 3
 
 ## 蟒蛇 3
 
-```
+```py
 # input the maximum number to
 # which you want to send
 max_num = 40
@@ -76,7 +76,7 @@ for i in range(1, max_num, 2):
 
 **输出:**
 
-```
+```py
 Numbers not divisible by 2 or 3 : 
 1
 5

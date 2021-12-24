@@ -7,7 +7,7 @@
 **方法:使用 loop + `extend() + iter() + next()`**
 在这个方法中，我们使用蛮力的方法来解决这个问题。在本文中，我们将一个更大的列表转换成一个迭代器，然后使用 next()访问它的元素。这背后的整个想法是更快地获取元素。每 N 个元素检查一个较小的列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Selective Merge list every Nth position
 # using loop + extend() + iter() + next()
@@ -36,7 +36,7 @@ print("The List after merge is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 4, 9, 10, 19, 65, 78, 23, 78]
 The original list 2 is : [8, 14, 50]
 The List after merge is : [1, 4, 8, 9, 10, 14, 19, 65, 50, 78, 23, 78]

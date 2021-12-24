@@ -18,7 +18,7 @@ Python 中的 assertNotIsInstance ()是一个[单元测试库](https://www.geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 F
 ======================================================================
 FAIL: test_negative (__main__.TestClass)
@@ -62,7 +62,7 @@ FAILED (failures=1)
 
 ## 蟒蛇 3
 
-```
+```py
 # test suite
 import unittest
 
@@ -88,7 +88,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s

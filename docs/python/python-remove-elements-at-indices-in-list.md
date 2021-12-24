@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove elements at Indices in List
 # Using loop
@@ -44,7 +44,7 @@ print("Filtered List after removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 8, 1, 2, 10]
 Filtered List after removal : [5, 6, 7, 2]
 ```
@@ -55,7 +55,7 @@ Filtered List after removal : [5, 6, 7, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove elements at Indices in List
 # Using enumerate() + list comprehension
@@ -78,7 +78,7 @@ print("Filtered List after removal : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 8, 1, 2, 10]
 Filtered List after removal : [5, 6, 7, 2]
 ```

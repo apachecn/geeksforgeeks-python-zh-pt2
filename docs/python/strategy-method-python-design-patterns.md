@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """A separate class for Item"""
 class Item:
 
@@ -67,7 +67,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Price: 20000, price after discount: 20000
 Price: 20000, price after discount: 16000.0
 Price: 20000, price after discount: 14980.0 

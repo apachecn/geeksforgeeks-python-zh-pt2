@@ -12,7 +12,7 @@ MySQL 是一个关系数据库管理系统(RDBMS)，而结构化查询语言(SQL
 
 **连接器查询**
 
-```
+```py
 # Enter the server name in host
 # followed by your user and
 # password along with the database 
@@ -36,7 +36,7 @@ mycursor = mydb.cursor()
 
 ![python-mysql-insert](img/6860053fc298d961d9cb94c8b6d452ff.png)
 
-```
+```py
 sql = "INSERT INTO Student (Name, Roll_no) VALUES (%s, %s)"
 val = ("Ram", "85")
 
@@ -51,7 +51,7 @@ mydb.close()
 
 **输出:**
 
-```
+```py
 1 details inserted
 ```
 
@@ -61,7 +61,7 @@ mydb.close()
 
 **示例:**
 
-```
+```py
 sql = "INSERT INTO Student (Name, Roll_no) VALUES (%s, %s)"
 val = [("Akash", "98"),
        ("Neel", "23"),
@@ -82,7 +82,7 @@ mydb.close()
 
 **输出:**
 
-```
+```py
 7 details inserted
 ```
 

@@ -34,7 +34,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for union() function
 
 set1 = {2, 4, 5, 6}
@@ -50,7 +50,7 @@ print("set1 U set2 U set3 :", set1.union(set2, set3))
 
 **输出:**
 
-```
+```py
 set1 U set2 :  {2, 4, 5, 6, 7, 8}
 set1 U set2 U set3 : {2, 4, 5, 6, 7, 8, 9, 10}
 ```
@@ -61,7 +61,7 @@ set1 U set2 U set3 : {2, 4, 5, 6, 7, 8, 9, 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for union with | operator
 
 set1 = {2, 4, 5, 6}
@@ -77,7 +77,7 @@ print("set1 U set2 U set3 :", set1 |set2 | set3)
 
 **输出:**
 
-```
+```py
 set1 U set2 :  {2, 4, 5, 6, 7, 8}
 set1 U set2 U set3 : {2, 4, 5, 6, 7, 8, 9, 10}
 ```

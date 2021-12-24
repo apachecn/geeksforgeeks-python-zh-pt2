@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # abc.py
 import sys
 import csv
@@ -25,7 +25,7 @@ with open(sys.argv[1]) as f:
 
 ## 蟒蛇 3
 
-```
+```py
 # abc.py
 import sys
 import csv
@@ -48,7 +48,7 @@ main(sys.argv[1])
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 def compute_roots(nums):
@@ -65,7 +65,7 @@ for n in range(100):
 
 **输出:**
 
-```
+```py
 This program runs in about 40 seconds when running on the machine.
 
 ```
@@ -74,7 +74,7 @@ This program runs in about 40 seconds when running on the machine.
 
 ## 蟒蛇 3
 
-```
+```py
 from math import sqrt
 
 def compute_roots(nums):
@@ -87,7 +87,7 @@ def compute_roots(nums):
 
 **输出:**
 
-```
+```py
 This program runs in about 29 seconds when running on the machine.
 
 ```
@@ -103,7 +103,7 @@ sult_append 中，并在内部循环中重用。
 
 ## 蟒蛇 3
 
-```
+```py
 import math
 
 def compute_roots(nums):
@@ -121,7 +121,7 @@ def compute_roots(nums):
 
 ## 蟒蛇 3
 
-```
+```py
 # Slower
 class SomeClass:
     ...

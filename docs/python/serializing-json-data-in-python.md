@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import json
 
@@ -70,7 +70,7 @@ data_file.json
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import json
 

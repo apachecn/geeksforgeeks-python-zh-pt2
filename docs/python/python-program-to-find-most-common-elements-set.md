@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most common elements set
 # Using loop + intersection()
@@ -55,7 +55,7 @@ print("Max Set intersection : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [{2, 3, 4, 5}, {8, 2, 4, 7}, {1, 2, 3, 4}, {9, 3, 5, 7}]
 Max Set intersection : {9, 3, 5, 7}
 ```
@@ -66,7 +66,7 @@ Max Set intersection : {9, 3, 5, 7}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most common elements set
 # Using loop + intersection()
@@ -93,7 +93,7 @@ print("Set intersection : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [{2, 3, 4, 5}, {8, 2, 4, 7}, {1, 2, 3, 4}, {9, 3, 5, 7}]
 Max Set intersection : {9, 3, 5, 7}
 ```

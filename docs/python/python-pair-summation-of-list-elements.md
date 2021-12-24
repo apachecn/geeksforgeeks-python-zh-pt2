@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个特殊任务的蛮力方法。在这种情况下，我们只是以跳过的方式迭代列表直到最后一个元素，以迭代的方式获取其他列表中的所有对和。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Pair summation of list
 # Using loop
@@ -30,7 +30,7 @@ print("Pair summation of list : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [4, 5, 8, 9, 10, 17]
 Pair summation of list : [9, 17, 27]

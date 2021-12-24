@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Non-Overlapping occurrences of N Repeated K character
 # Using split() + sum
@@ -50,7 +50,7 @@ print("The Non-Overlapping occurrences : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : aaabaaaabbaa
 The Non-Overlapping occurrences : 4
 
@@ -62,7 +62,7 @@ The Non-Overlapping occurrences : 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Non-Overlapping occurrences of N Repeated K character
 # Using re.findall()
@@ -90,7 +90,7 @@ print("The Non-Overlapping occurrences : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : aaabaaaabbaa
 The Non-Overlapping occurrences : 4
 

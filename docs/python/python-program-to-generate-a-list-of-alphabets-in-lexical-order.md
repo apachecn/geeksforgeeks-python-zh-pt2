@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to get the list of alphabets
 def generateAlphabetListDynamically(size = 26):
   size = 26 if (size > 26 or size <= 0) else size
@@ -46,7 +46,7 @@ print('The alphabets in the list are:', *alphabetList)
 
 ## 蟒蛇 3
 
-```
+```py
 def generateAlphabetListDynamically(size=26):
     size = 26 if (size > 26 or size <= 0) else size
 

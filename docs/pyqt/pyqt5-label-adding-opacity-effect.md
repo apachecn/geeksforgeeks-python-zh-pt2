@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 # creating a opacity effect
 opacity_effect = QGraphicsOpacityEffect()
 
@@ -26,7 +26,7 @@ label.setGraphicsEffect(opacity_effect)
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

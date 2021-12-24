@@ -7,7 +7,7 @@
 **方法#1:使用`pop()` +列表理解**
 在该方法中，我们只使用 pop 函数，该函数用于移除单个键以及对整个列表迭代的列表理解来执行移除操作。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove multiple keys from dictionary
 # Using pop() + list comprehension

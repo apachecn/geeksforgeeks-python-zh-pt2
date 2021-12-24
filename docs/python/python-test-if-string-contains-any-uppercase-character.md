@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if String contains any Uppercase character
 # Using isupper() + loop
@@ -43,7 +43,7 @@ print("Does String contain uppercase character : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforGeeks
 Does String contain uppercase character : True
 
@@ -55,7 +55,7 @@ Does String contain uppercase character : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if String contains any Uppercase character
 # Using any() + isupper()
@@ -75,7 +75,7 @@ print("Does String contain uppercase character : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforGeeks
 Does String contain uppercase character : True
 
@@ -87,7 +87,7 @@ Does String contain uppercase character : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if String contains any Uppercase character
 # Using re()
@@ -108,7 +108,7 @@ print("Does String contain uppercase character : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforGeeks
 Does String contain uppercase character : True
 
@@ -120,7 +120,7 @@ Does String contain uppercase character : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if String contains any Uppercase character
 # Using any() + ASCII values
@@ -141,7 +141,7 @@ print("Does String contain uppercase character : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforGeeks
 Does String contain uppercase character : True
 

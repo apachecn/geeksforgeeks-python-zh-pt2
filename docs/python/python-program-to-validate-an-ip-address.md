@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```py
 Input:  192.168.0.1
 Output: Valid Ip address
 
@@ -32,7 +32,7 @@ Output: Valid Ip address
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to validate an Ip address
 
 # re module provides support
@@ -73,7 +73,7 @@ if __name__ == '__main__' :
 
 **Output:** 
 
-```
+```py
 Valid Ip address
 Valid Ip address
 Invalid Ip address

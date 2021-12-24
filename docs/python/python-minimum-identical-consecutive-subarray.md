@@ -8,7 +8,7 @@
 
 这个任务可以使用上述功能的组合来解决。在这种情况下，我们使用 groupby()对每个数字的出现进行分组，并使用 min()得到它的最小值。lambda 函数提供了执行该任务实用逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum identical consecutive Subarray
 # using groupby() + min() + lambda
@@ -31,7 +31,7 @@ print("Minimum Consecutive identical Occurring number is : " + str(res[0]))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 1, 1, 2, 2, 5, 5, 5, 5]
 Minimum Consecutive identical Occurring number is : 2
 

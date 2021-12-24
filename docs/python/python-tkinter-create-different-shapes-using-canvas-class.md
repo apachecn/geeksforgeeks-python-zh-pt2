@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports each and every method and class
 # of module tkinter and tkinter.ttk
 from tkinter import * from tkinter.ttk import * class Shape:

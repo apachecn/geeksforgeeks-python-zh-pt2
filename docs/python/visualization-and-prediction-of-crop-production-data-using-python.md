@@ -20,13 +20,13 @@
 
 *   **Matplotlib:** 这是 Python 中一个惊人的可视化库，用于数组的 2D 图，这是一个基于 *NumPy* 数组构建的多平台数据可视化库，旨在与更广泛的 *SciPy* 堆栈一起工作。使用以下命令安装此库:
 
-```
+```py
 pip install matplotlib
 ```
 
 *   **海伯恩:**这个图书馆位于*马特洛特利布*之上。从某种意义上说，它有一些 *matplotlib* 的味道，而从可视化的角度来看，它比 *matplotlib* 好得多，并且还增加了一些功能。使用以下命令安装此库:
 
-```
+```py
 pip install seaborn
 ```
 
@@ -45,7 +45,7 @@ pip install seaborn
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pandas module
 import pandas as pd
 
@@ -66,7 +66,7 @@ data.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # data description
 data.info()
 ```
@@ -81,7 +81,7 @@ data.info()
 
 ## 蟒蛇 3
 
-```
+```py
 # 2011 crop data in histogram analysis
 data['2011'].hist()
 ```
@@ -96,7 +96,7 @@ data['2011'].hist()
 
 ## 蟒蛇 3
 
-```
+```py
 # 2012 crop data in histogram analysis
 data['2012'].hist()
 ```
@@ -111,7 +111,7 @@ data['2012'].hist()
 
 ## 蟒蛇 3
 
-```
+```py
 # 2013 crop data in histogram analysis
 data['2013'].hist()
 ```
@@ -126,7 +126,7 @@ data['2013'].hist()
 
 ## 蟒蛇 3
 
-```
+```py
 # display all year data
 data.hist()
 ```
@@ -141,7 +141,7 @@ data.hist()
 
 ## 蟒蛇 3
 
-```
+```py
 # import seaborn module
 import seaborn as sns
 
@@ -162,7 +162,7 @@ sns.boxplot(x='2013', y='2014', data=data)
 
 ## 蟒蛇 3
 
-```
+```py
 # scatter plot 2013 data vs 2014 data
 plt.scatter(data['2013'],data['2014'])
 
@@ -179,7 +179,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # line plot 2013 data vs 2014 data
 plt.plot(data['2013'],data['2014'])
 
@@ -196,7 +196,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 from scipy import stats
@@ -234,7 +234,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import matplotlib.pyplot as plt
 from scipy import stats

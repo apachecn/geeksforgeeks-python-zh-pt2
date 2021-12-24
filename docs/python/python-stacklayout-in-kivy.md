@@ -10,14 +10,14 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **要使用 StackLayout 首先通过下面的命令导入 StackLayout:**
 
-```
+```py
 from kivy.uix.stacklayout import StackLayout
 ```
 
 理解 Stack 和 [Boxlayout](https://www.geeksforgeeks.org/python-boxlayout-widget-in-kivy/) 的区别相当混乱。
 **StackLayout** 能够以比 BoxLayout 更复杂的方式组织小部件 Boxlayout 能够以垂直或水平的方式组织小部件。但是有了 StackLayout，你可以把方向结合起来。有 4 个行方向和 4 个列方向。
 
-```
+```py
 More flexible that Boxlayout(1D)
 
 StackLayout Orientation (2D):
@@ -29,7 +29,7 @@ StackLayout Orientation (2D):
 
 下图显示了四种行方向和四种列方向。
 
-```
+```py
 Basic Approach to create Stack layout :
 
 1) import kivy
@@ -46,7 +46,7 @@ Basic Approach to create Stack layout :
 
 ## 蟒蛇 3
 
-```
+```py
 # code to show how to use StackLayout
 
 # import kivy module
@@ -140,7 +140,7 @@ if __name__ == '__main__':
 这是为了“lr-tb”方向。首先从左到右添加小部件，然后从上到下添加。
 **注意:**如果要改变方位，只需用以下任一方位改变 31 号线的方位–
 
-```
+```py
 For row wise orientation use:
   -'lr-tb'
   -'lr-bt'
@@ -157,7 +157,7 @@ For column wise orientation use:
 下面是上面所有方向的图片输出–
 **行方向使用:**
 
-```
+```py
 'lr-tb'
 ```
 
@@ -165,7 +165,7 @@ For column wise orientation use:
 
 ![](img/7d79131f500ddc579aa03615984611ca.png)
 
-```
+```py
 'lr-bt'
 ```
 
@@ -173,7 +173,7 @@ For column wise orientation use:
 
 ![](img/fc6ce0b79c0bf2237a995c44ede34f51.png)
 
-```
+```py
 'rl-tb'
 ```
 
@@ -181,7 +181,7 @@ For column wise orientation use:
 
 ![](img/ad00f2fcdfd47a52fc77800801f1cb99.png)
 
-```
+```py
 'rl-bt'
 ```
 
@@ -191,7 +191,7 @@ For column wise orientation use:
 
 **列方向使用:**
 
-```
+```py
 'tb-lr'
 ```
 
@@ -199,7 +199,7 @@ For column wise orientation use:
 
 ![](img/b5c1fbd23871dc730c3301318d811111.png)
 
-```
+```py
 'tb-rl'
 ```
 
@@ -207,7 +207,7 @@ For column wise orientation use:
 
 ![](img/58dd0741fe9acee290456f507005e3a9.png)
 
-```
+```py
 'bt-lr'
 ```
 
@@ -215,7 +215,7 @@ For column wise orientation use:
 
 ![](img/c8fbecdcc4a9d696a76a07f1c970236d.png)
 
-```
+```py
 'bt-rl'
 ```
 

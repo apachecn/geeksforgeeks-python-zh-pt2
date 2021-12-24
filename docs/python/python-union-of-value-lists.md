@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 使用循环是执行这一特定任务的一种天真的蛮力方法。在这种方法中，我们检查两个列表中的键，并检查要添加到结果中的非重复值。我们甚至检查在其他中完全不存在的键来添加它的整个列表值。
 
-```
+```py
 # Python3 code to demonstrate
 # Union of Value Lists
 # using loops
@@ -36,7 +36,7 @@ print("The dicts after union is : " + str(test_dict2))
 
 **Output :**
 
-```
+```py
 The original dict 1 : {'Key1': [1, 3, 4], 'key2': [4, 5]}
 The original dict 2 : {'Key1': [1, 7, 8]}
 The dicts after union is : {'Key1': [1, 7, 8, 3, 4], 'key2': [4, 5]}

@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import turtle package
 import turtle
 
@@ -48,7 +48,7 @@ sc.bgcolor("blue")
 
 ## 蟒蛇 3
 
-```
+```py
 # import turtle package
 import turtle
 

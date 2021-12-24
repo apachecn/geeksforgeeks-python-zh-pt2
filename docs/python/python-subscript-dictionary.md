@@ -13,7 +13,7 @@
 **方法#1:使用 loop+order()**
 这是我们执行这个任务的蛮力方式。在本文中，我们遍历需要下标的数字，并使用 order()及其二进制值构造下标值。在 Python 3.7 +中工作。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Subscript Dictionary
 # Using loop + ord()
@@ -46,7 +46,7 @@ print("The split string is : " + str(res)) 
 **方法 2:使用字典理解**
 这是执行这项任务的另一种方式。在这种情况下，我们执行与上面类似的任务，只是使用一行中的理解。在 Python 3.7 +中工作。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Subscript Dictionary
 # Using Dictionary comprehension

@@ -25,7 +25,7 @@ PyQtGraph 是一个图形和用户界面 Python 库，用于设计和科学应�
 
 我们可以借助下面给出的命令创建一个绘图窗口:
 
-```
+```py
 plt = pg.plot()
 ```
 
@@ -43,7 +43,7 @@ plt = pg.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

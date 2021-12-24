@@ -13,7 +13,7 @@
 
 ## 蟒 3
 
-```
+```py
 # python code to demonstrate working of reduce()
 
 # importing functools for reduce()
@@ -33,7 +33,7 @@ print(functools.reduce(lambda a, b: a if a > b else b, lis))
 
 **输出**
 
-```
+```py
 The sum of the list elements is : 17
 The maximum element of the list is : 6
 ```

@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```py
 import random
 
 mylist = ["geeks", "for", "python"]
@@ -27,14 +27,14 @@ print(random.choices(mylist, weights = [10, 1, 1], k = 5))
 **注意:**每次输出会因系统返回随机元素而不同。
 T3】输出:
 
-```
+```py
 ['geeks', 'geeks', 'geeks', 'for', 'for']
 
 ```
 
 **实际应用:**打印 6 项随机列表。
 
-```
+```py
 import random
 
 mylist = ["apple", "banana", "mango"]
@@ -45,7 +45,7 @@ print(random.choices(mylist, weights = [10, 1, 1], k = 6))
 **注意:**每次使用 choices()函数时，输出都会改变。
 T3】输出:
 
-```
+```py
 ['apple', 'banana', 'apple', 'apple', 'apple', 'banana']
 
 ```

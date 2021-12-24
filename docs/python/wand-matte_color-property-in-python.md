@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 wand.image.matte_color = 'color'
 
 ```
@@ -16,7 +16,7 @@ wand.image.matte_color = 'color'
 
 **Example 1:**
 
-```
+```py
 from wand.color import Color
 # Import Image from wand.image module
 from wand.image import Image
@@ -37,7 +37,7 @@ with Image(filename ="gog.png") as img:
 **示例 2:**
 将 VIRTUAL_PIXEL_METHOD 更改为 tile
 
-```
+```py
 from wand.color import Color
 # Import Image from wand.image module
 from wand.image import Image

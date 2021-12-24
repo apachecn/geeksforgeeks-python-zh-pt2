@@ -14,7 +14,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。 **
 > 
 > **返回:** (x0，y0)
 
-```
+```py
 
 # from PIL importing ImagePath
 from PIL import ImagePath
@@ -35,7 +35,7 @@ print(a)
 
 **另一个例子:**改变参数。
 
-```
+```py
 
 # from PIL importing ImagePath
 from PIL import ImagePath

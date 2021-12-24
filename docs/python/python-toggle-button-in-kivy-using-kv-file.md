@@ -11,7 +11,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 ToggleButton 小部件就像一个复选框。当您触摸或点按它时，状态会在“正常”和“向下”之间切换(与只要按下就只能“向下”的按钮相反)。
 切换按钮也可以分组成为单选按钮——一个组中只有一个按钮可以处于“向下”状态。组名可以是字符串或任何其他可散列的 Python 对象:
 
-```
+```py
 btn1 = ToggleButton(text='Male', group='sex', )
 btn2 = ToggleButton(text='Female', group='sex', state='down')
 btn3 = ToggleButton(text='Mixed', group='sex')
@@ -19,7 +19,7 @@ btn3 = ToggleButton(text='Mixed', group='sex')
 
 同时只能“按下”其中一个按钮。要配置 ToggleButton，可以使用与按钮类相同的属性。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -39,7 +39,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to explain how to use Toggle button in kivy 
 
 # import kivy module    
@@ -82,7 +82,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file implementation of the code
 
 <Toggle_btn>:

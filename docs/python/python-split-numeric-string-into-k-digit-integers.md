@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split Numeric String into K digit integers
 # Using int() + slice + loop
@@ -44,7 +44,7 @@ print("Converted number list : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 457336842
 Converted number list : [457, 336, 842]
 
@@ -56,7 +56,7 @@ Converted number list : [457, 336, 842]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split Numeric String into K digit integers
 # Using list comprehension + int() + slicing
@@ -79,7 +79,7 @@ print("Converted number list : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : 457336842
 Converted number list : [457, 336, 842]
 

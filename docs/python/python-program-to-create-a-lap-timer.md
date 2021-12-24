@@ -13,7 +13,7 @@
 
 下面是实现:
 
-```
+```py
 # importing libraries
 import time
 
@@ -57,7 +57,7 @@ except KeyboardInterrupt:
 
 **输出:**
 
-```
+```py
 ENTER to count laps.
 Press CTRL+C to stop
 

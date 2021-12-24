@@ -7,7 +7,7 @@
 **方法#1:使用`sorted()` + lambda +生成器表达式**
 以上方法的组合可用于执行此任务。在本文中，我们使用 sorted()执行排序任务，lambda 和 generator 表达式用于绑定和提取字典的值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Nested keys by Value
 # Using sorted() + generator expression + lamda

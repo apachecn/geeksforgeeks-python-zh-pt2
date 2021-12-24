@@ -6,7 +6,7 @@
 ，则打印-1。
 **举例:**
 
-```
+```py
 Input : n = 4
  mat[5][5]  2 1 3 4 5
             3 2 1 3 4
@@ -27,7 +27,7 @@ Output : 0
 
 ## 蟒蛇 3
 
-```
+```py
 def check(l,row,col ,n,l2):
 
     # Iterate through the matrix.
@@ -190,6 +190,6 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 0 
 ```

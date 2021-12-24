@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Python program to replace text in a file
 s = input("Enter text to replace the existing contents:")
 f = open("file.txt", "r+")

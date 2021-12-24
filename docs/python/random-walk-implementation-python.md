@@ -10,7 +10,7 @@
 
 *   **matplotlib** 这是一个外部库，可以帮助你绘制曲线。要安装此库，请在 cmd 中键入以下代码。
 
-```
+```py
 pip install matplotlib
 ```
 
@@ -18,7 +18,7 @@ pip install matplotlib
 
 *   **numpy** 它也是 python 中的一个外部库，可以帮助你处理数组和矩阵。要安装库，请在 cmd 中键入以下代码。
 
-```
+```py
 pip install numpy
 ```
 
@@ -30,7 +30,7 @@ pip install numpy
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for 1-D random walk.
 import random
 import numpy as np
@@ -68,7 +68,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for 2D random walk.
 import numpy
 import pylab

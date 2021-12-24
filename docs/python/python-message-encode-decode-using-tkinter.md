@@ -6,7 +6,7 @@
 Python 为开发 GUI(图形用户界面)提供了多个选项。在所有的 GUI 方法中，tkinter 是最常用的方法。它是 Python 附带的 Tk 图形用户界面工具包的标准 Python 接口。带有 tkinter 输出的 Python 是创建图形用户界面应用程序最快最简单的方法。
 Python 提供了开发 GUI 应用的 Tkinter 工具包。现在，取决于开发人员的想象力或必要性，他/她想使用这个工具包开发什么。让我们尝试根据 Vigenère 密码实现一个消息加密-解密应用程序，它可以使用密钥对消息进行加密，也可以使用相同的密钥对加密的哈希进行解密。
 
-```
+```py
 Modules used in the project :
 
 Tkinter  -> GUI toolkittime datetime  base64   -> Vigenère cipher
@@ -16,7 +16,7 @@ Tkinter  -> GUI toolkittime datetime  base64   -> Vigenère cipher
 
 ## 蟒蛇 3
 
-```
+```py
 # import tkinter module
 from tkinter import *
 

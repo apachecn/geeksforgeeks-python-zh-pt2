@@ -16,6 +16,6 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turicreate as tc
 ```

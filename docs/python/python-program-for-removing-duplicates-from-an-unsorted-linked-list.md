@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove duplicates
 # from unsorted linked list
 class Node():    
@@ -84,7 +84,7 @@ list.printList()
 
 **输出:**
 
-```
+```py
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:
@@ -105,7 +105,7 @@ Linked list after removing duplicates:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove duplicates 
 # from unsorted linkedlist 
 class Node:    
@@ -182,7 +182,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Linked list before removing duplicates:
 10 12 11 11 12 11 10 
 Linked list after removing duplicates:

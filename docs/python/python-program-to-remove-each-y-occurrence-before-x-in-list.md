@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove each y occurrence before x in List
 # Using list comprehension + index()
@@ -46,7 +46,7 @@ print("Filtered List " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 7, 4, 6, 7, 4, 9, 1, 4]
 Filtered List [5, 7, 6, 7, 4, 9, 1, 4]
 
@@ -58,7 +58,7 @@ Filtered List [5, 7, 6, 7, 4, 9, 1, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove each y occurrence before x in List
 # Using loop + index()
@@ -87,7 +87,7 @@ print("Filtered List " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 7, 4, 6, 7, 4, 9, 1, 4]
 Filtered List [5, 7, 6, 7, 4, 9, 1, 4]
 

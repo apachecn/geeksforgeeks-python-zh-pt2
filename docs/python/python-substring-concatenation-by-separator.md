@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方式。在这种情况下，我们执行连接循环条件语句的任务，并在分隔符出现时重新初始化字符串为空。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substring concatenation by Separator
 # Using loop
@@ -40,7 +40,7 @@ print("The list after String concatenation : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', '*', 'best', '*', 'for', 'geeks']
 The list after String concatenation : ['gfgis', 'best', 'forgeeks']
 

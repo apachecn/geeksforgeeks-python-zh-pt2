@@ -6,28 +6,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolsCount(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required in GetToolsCount() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > int
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -93,14 +93,14 @@ if __name__ == '__main__':
 ![](img/95f1ce0c145c8320c702f18acf878b64.png)
 *打印输出:*
 
-```
+```py
 2
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -167,7 +167,7 @@ if __name__ == '__main__':
 ![](img/07690d6f2cd86f127d3932a9ad3662ae.png)
 *打印输出:*
 
-```
+```py
 3
 
 ```

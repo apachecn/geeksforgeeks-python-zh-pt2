@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 // Scala program of Short ==(x: Int) 
 // method 
 
@@ -34,13 +34,13 @@ object GfG 
 
 **输出:**
 
-```
+```py
 true
 ```
 
 **例 2:**
 
-```
+```py
 // Scala program of Short ==(x: Int) 
 // method 
 
@@ -64,6 +64,6 @@ object GfG 
 
 **输出:**
 
-```
+```py
 false
 ```

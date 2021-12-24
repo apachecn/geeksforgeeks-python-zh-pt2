@@ -5,7 +5,7 @@
 在本文中，我们将看到如何实现 QCalendarWidget 的 enter 事件。当鼠标光标进入日历时，会向日历发送一个 enter 事件。这个事件处理程序可以在一个子类中重新实现，以接收在事件参数中传递的日历输入事件。
 下面是日历类代码
 
-```
+```py
 # QCalendarWidget Class
 class Calendar(QCalendarWidget):
 
@@ -31,7 +31,7 @@ class Calendar(QCalendarWidget):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

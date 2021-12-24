@@ -6,14 +6,14 @@
 
 **语法:**
 
-```
+```py
 str.startswith(prefix, start, end)
 
 ```
 
 **参数:**
 
-```
+```py
 prefix : prefix ix nothing but a string which needs to be checked.
 start : Starting position where prefix is needs to be checked within the string.
 end : Ending position where prefix is needs to be checked within the string.
@@ -24,7 +24,7 @@ end : Ending position where prefix is needs to be checked within the string.
 
 **返回:**
 
-```
+```py
 It returns True if strings starts with the given
 prefix otherwise returns False.
 
@@ -32,7 +32,7 @@ prefix otherwise returns False.
 
 **例:**
 
-```
+```py
 Input : text = "geeks for geeks."
         result = text.startswith('for geeks')
 Output : False
@@ -45,7 +45,7 @@ Output : True
 
 **错误:**值错误:在目标字符串
 
-```
+```py
 # Python code shows the working of
 # .startsswith() function
 
@@ -72,7 +72,7 @@ print (result)
 
 输出:
 
-```
+```py
 False
 True
 False

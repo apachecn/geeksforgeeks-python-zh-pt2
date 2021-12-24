@@ -7,7 +7,7 @@
 **方法:使用生成器+ `next()` +列表切片**
 这个方法可以用来解决这个任务。在这种情况下，首先，我们从一个列表的后端迭代一个变量，并获得第一个列表后端的切片，直到第二个列表的初始切片匹配。然后，我们使用`next()`获得第一个这样的重叠(最大重叠)，然后使用列表切片加入剩余部分。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge overlapping parts of list
 # using generator + next() + list slicing
@@ -32,7 +32,7 @@ print("List after overlapping merge is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 7, 9, 10, 11]
 The original list 2 is : [10, 11, 16, 17]
 List after overlapping merge is : [4, 5, 7, 9, 10, 11, 16, 17]

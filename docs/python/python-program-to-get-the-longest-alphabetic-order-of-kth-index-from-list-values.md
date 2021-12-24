@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Longest Alphabetic order of Kth index
 # Using loop with sliding window

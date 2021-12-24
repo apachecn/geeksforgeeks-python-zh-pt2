@@ -18,7 +18,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 APP_EXIT = 1

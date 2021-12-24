@@ -7,7 +7,7 @@
 
 **Code:**
 
-```
+```py
 import pandas as pd
 
 # Load data from csv file
@@ -29,7 +29,7 @@ Determine if the object is a DateTime index for pandas using **type()**function.
 
 **代码:**
 
-```
+```py
 type(data.index)
 ```
 
@@ -41,7 +41,7 @@ If you want to know the number of trading days (number of rows) in the given set
 
 **代码:**
 
-```
+```py
 # Number of rows in the data set. You can use any column for that purpose.
 # I have used 'Close'
 data['Close'].count()
@@ -55,7 +55,7 @@ What is the highest close price achieved over the given period? This is made pos
 
 **代码:**
 
-```
+```py
 maximum_price = data['Close'].max()
 print(maximum_price)
 ```
@@ -68,7 +68,7 @@ Is it possible to know the date this maximum price was reached on as well? We ap
 
 **代码:**
 
-```
+```py
 data.Close[data.Close == maximum_price].index
 ```
 
@@ -80,7 +80,7 @@ Let’s calculate the change in percentage in closing price per day. We ‘re ad
 
 **代码:**
 
-```
+```py
 # Compute the percentage change
 data['Daily_Change'] = data['Close'].pct_change()*100
 data.head()
@@ -94,7 +94,7 @@ In the end, let’s add a few indicators. We measure the simple moving average o
 
 **代码:**
 
-```
+```py
 # Computing mean for 15 days, also known as SMA (Short term moving average)
 days = 15
 data['SMA'] = data['Close'].rolling(window = days).mean()

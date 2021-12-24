@@ -57,7 +57,7 @@ src _ 文件夹
 
 ## 蟒蛇 3
 
-```
+```py
 import shutil
 import os
 

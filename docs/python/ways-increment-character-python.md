@@ -6,7 +6,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # python code to demonstrate error
 # due to incrementing a character
 
@@ -22,7 +22,7 @@ print (s)
 
 输出:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fabc221bf999b96195c763bf3c03ddca.py", line 9, in 
     s = s + 1
@@ -33,7 +33,7 @@ TypeError: cannot concatenate 'str' and 'int' objects
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate way to
 # increment character
 
@@ -50,7 +50,7 @@ print (x)
 
 输出:
 
-```
+```py
 The incremented character value is : P
 ```
 
@@ -60,7 +60,7 @@ The incremented character value is : P
 
 ## 蟒蛇 3
 
-```
+```py
 # python code to demonstrate way to
 # increment character
 
@@ -83,7 +83,7 @@ print (s[2])
 
 输出:
 
-```
+```py
 The value of M after incrementing 10 places is : W
 ```
 

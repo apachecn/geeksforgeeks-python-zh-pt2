@@ -13,7 +13,7 @@
 **方法一:使用 `max()` +键**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 max()提取最大行，并使用 key 检查记录的初始元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Row with Maximum Record Element
 # Using max() + key
@@ -43,7 +43,7 @@ print("The row with Maximum Value : " + str(res)) 
 **方法 2:使用`max() + itemgetter()`**
 这是解决这个问题的又一种方法。这种方法提供了在元素索引上进行选择以进行比较的灵活性，而不是像上面的方法那样通过 itemgetter()的使用来进行初始化。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Row with Maximum Record Element
 # Using max() + itemgetter()

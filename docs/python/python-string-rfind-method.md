@@ -28,7 +28,7 @@ python String***rfind()***方法返回给定字符串中找到的子字符串的
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working of rfind()
 # in whole string
 word = 'geeks for geeks'
@@ -49,7 +49,7 @@ print("Substring 'ate' found at index :", result)
 
 **输出:**
 
-```
+```py
 Substring 'geeks' found at index : 10
 Substring 'for' found at index : 6
 Substring 'ate' found at index : 13
@@ -59,7 +59,7 @@ Substring 'ate' found at index : 13
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working of rfind()
 # in a sub-string
 word = 'geeks for geeks'
@@ -79,7 +79,7 @@ print(word.rfind('for ', 4, 11))
 
 **输出:**
 
-```
+```py
 10
 10
 -1
@@ -92,7 +92,7 @@ print(word.rfind('for ', 4, 11))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working of rfind()
 # to search a string
 word = 'CatBatSatMatGate'
@@ -105,6 +105,6 @@ else:
 
 **输出:**
 
-```
+```py
 Doesn't contains given substring
 ```

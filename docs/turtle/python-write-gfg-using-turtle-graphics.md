@@ -18,13 +18,13 @@
 
 *   导入海龟模块。
 
-    ```
+    ```py
     import turtle
     ```
 
 *   获取一个屏幕进行绘制
 
-    ```
+    ```py
     ws=turtle.Screen()
     ```
 
@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #python program for printing "GFG"
 #importing turtle modules
 import turtle

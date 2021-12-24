@@ -8,7 +8,7 @@
 
 这是一种线性方法，用于执行获取特定键的和的任务，同时使用列表理解迭代字典列表中的相似键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Value summation of key in dictionary
 # Using sum() + list comprehension
@@ -37,7 +37,7 @@ print("The sum of particular key is : " + str(res))
 **方法 2:使用`sum() + itemgetter() + map()`**
 这些功能的组合也可以用来执行这个任务。在这一点上，主要区别在于理解任务由`map()`完成，关键访问任务由`itemgetter().`完成
 
-```
+```py
 # Python3 code to demonstrate working of
 # Value summation of key in dictionary
 # Using sum() + itemgetter() + map()

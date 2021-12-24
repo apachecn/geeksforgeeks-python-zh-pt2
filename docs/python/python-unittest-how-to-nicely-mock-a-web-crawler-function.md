@@ -23,7 +23,7 @@
 
 T2T4
 
-```
+```py
 # importing mock from unittest.mock module
 from unittest.mock import Mock
 
@@ -41,6 +41,6 @@ T5
 
 **输出:**
 
-```
+```py
 GeeksforGeeks Mocking Example
 ```

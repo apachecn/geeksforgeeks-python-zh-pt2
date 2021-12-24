@@ -17,7 +17,7 @@
 
     **示例:**下面是一个非常简单的 Python 脚本，可以用来调度执行。
 
-    ```
+    ```py
     from datetime import datetime
 
     # Saves a .txt file with file name

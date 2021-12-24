@@ -34,7 +34,7 @@ Python 提供了创建、写入和读取文件的内置功能。python 中可以
 
 **语法:**
 
-```
+```py
 File_object = open(r"File_Name", "Access_Mode")
 
 ```
@@ -43,7 +43,7 @@ File_object = open(r"File_Name", "Access_Mode")
 
 **注意:**将`r`放在文件名之前，以防止文件名字符串中的字符被视为特殊字符。例如，如果文件地址中有\u temp，则\u t 将被视为 tab 字符，并在无效地址中引发错误。r 使字符串原始，也就是说，它告诉字符串没有任何特殊字符。如果文件在同一个目录中并且地址没有被放置，r 可以被忽略。
 
-```
+```py
 # Open function to open the file "MyFile1.txt"  
 # (same directory) in read mode and 
 file1 = open("MyFile.txt", "w") 
@@ -61,12 +61,12 @@ file2 = open(r"D:\Text\MyFile2.txt", "w+") 
 
 **语法:**
 
-```
+```py
 File_object.close()
 
 ```
 
-```
+```py
 # Opening and Closing a file "MyFile.txt" 
 # for object name file1. 
 file1 = open("MyFile.txt", "w") 
@@ -79,14 +79,14 @@ file1.close() 
 
 1.  **write() :** 将字符串 str1 插入文本文件中的一行。
 
-    ```
+    ```py
     File_object.write(str1)
 
     ```
 
 2.  **writeline():**对于字符串元素的列表，每个字符串都被插入到文本文件中。用于一次插入多个字符串。
 
-    ```
+    ```py
     File_object.writelines(L) for L = [str1, str2, str3] 
 
     ```
@@ -95,7 +95,7 @@ file1.close() 
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # writing to file
 
@@ -123,7 +123,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Hello
 This is Delhi
 This is Paris
@@ -135,7 +135,7 @@ This is London
 
 当文件以追加模式打开时，句柄位于文件的末尾。正在写入的数据将被插入到现有数据的末尾。让我们看下面的例子来阐明写模式和追加模式之间的区别。
 
-```
+```py
 # Python program to illustrate
 # Append vs write mode
 file1 = open("myfile.txt", "w")
@@ -168,7 +168,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Output of Readlines after appending
 This is Delhi
 This is Paris
@@ -186,12 +186,12 @@ Tomorrow
 
 **语法:**
 
-```
+```py
 with open filename as file:
 
 ```
 
-```
+```py
 # Program to show various ways to
 # write data to a file using with statement
 
@@ -211,7 +211,7 @@ with open("myfile.txt", "r+") as file1:
 
 **输出:**
 
-```
+```py
 Hello
 This is Delhi
 This is Paris

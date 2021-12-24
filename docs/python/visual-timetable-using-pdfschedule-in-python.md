@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 python3 -m pip install pdfschedule
 ```
 
@@ -18,7 +18,7 @@ python3 -m pip install pdfschedule
 
 安装完成后，在命令行上运行以下命令:
 
-```
+```py
 pdfschedule [<OPTIONS>] [<infile> [<outfile>]]
 ```
 
@@ -54,7 +54,7 @@ pdfschedule [<OPTIONS>] [<infile> [<outfile>]]
 
 **输入文件:[ gfg_tt.yml ]**
 
-```
+```py
 - name: Morning Walk
  days: MWF
  time: 7-9
@@ -87,7 +87,7 @@ pdfschedule [<OPTIONS>] [<infile> [<outfile>]]
 
 **之后，在命令行运行该命令:**
 
-```
+```py
 pdfschedule gfg_tt
 ```
 

@@ -42,7 +42,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 *   **Install pip-** Open command prompt and enter following command-
 
-    ```
+    ```py
     python -m pip install -U pip
     ```
 
@@ -50,7 +50,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 *   **Install virtual environment-** Enter following command in cmd-
 
-    ```
+    ```py
     pip install virtualenv
     ```
 
@@ -61,7 +61,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 1.  Create a virtual environment by giving this command in cmd-
 
-    ```
+    ```py
     virtualenv env_site
     ```
 
@@ -69,7 +69,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 2.  Change directory to env_site by this command-
 
-    ```
+    ```py
     cd env_site
     ```
 
@@ -77,11 +77,11 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 3.  Go to Scripts directory inside env_site and activate virtual environment-
 
-    ```
+    ```py
     cd Scripts
     ```
 
-    ```
+    ```py
     activate
     ```
 
@@ -89,7 +89,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
 *   **Install Django-** Install django by giving following command-
 
-    ```
+    ```py
     pip install django
     ```
 
@@ -97,7 +97,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
     *   Return to the env_site directory-
 
-    ```
+    ```py
     cd ..
     ```
 
@@ -105,7 +105,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
     *   Start a project by following command-
 
-    ```
+    ```py
     django-admin startproject geeks_site
     ```
 
@@ -113,7 +113,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
     *   Change directory to geeks_site
 
-    ```
+    ```py
     cd geeks_site
     ```
 
@@ -121,7 +121,7 @@ Django 框架的所有代码都是用 Python 编写的，Python 运行在很多�
 
     *   **Start the server-** Start the server by typing following command in cmd-
 
-    ```
+    ```py
     python manage.py runserver
     ```
 

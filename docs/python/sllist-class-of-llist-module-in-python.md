@@ -16,7 +16,7 @@ llist 是 CPython 的扩展模块，提供了基本的链表结构。它们明�
 
 **class llist . sllist([iterable]):**返回一个从提供的 iterable 初始化的新链表。如果没有给定 iterables，则生成链表，但链表是空的。
 
-```
+```py
 import llist
 from llist import sllist, sllistiterator
 
@@ -26,7 +26,7 @@ print(lst)
 
 **输出:**
 
-```
+```py
 sllist([first, second, third])
 ```
 
@@ -34,37 +34,37 @@ sllist([first, second, third])
 
 *   **first** : read only attribute, prints the first attribute of the list and None if the list is empty.
 
-    ```
+    ```py
     print(lst.first)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllistnode(first)
     ```
 
 *   **last**: read only property, returns the last element of the list(tail) and None if the list is empty.
 
-    ```
+    ```py
     print(lst.last)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllistnode(third)
     ```
 
 *   **size** : read only attribute that returns the size of the list
 
-    ```
+    ```py
     print(lst.size)
     ```
 
     **输出:**
 
-    ```
+    ```py
     3
     ```
 
@@ -72,98 +72,98 @@ sslist 还支持以下方法:
 
 *   **append(x)** : adds x to the right side of the list and returns a inserted sllist node. If x already is a sllist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.append('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second, third, fourth])
     ```
 
 *   **appendleft(x)** : adds x to the left side of the list and returns a inserted sllist node. If x already is a sllist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.appendleft('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([fourth, first, second, third])
     ```
 
 *   **appendright(x)** : adds x to the right side of the list and returns a inserted sllist node. If x already is a sllist node then a new node is created and initialized with the value extracted from x.
 
-    ```
+    ```py
     lst.appendright('fourth')
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second, third, fourth])
     ```
 
 *   **clear()** clears all nodes from the list.
 
-    ```
+    ```py
     lst.clear()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist()
     ```
 
 *   **extend(iterable)** : appends elements from the iterable to the right side of the list
 
-    ```
+    ```py
     lst.extend(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second, third, fourth, fifth])
     ```
 
 *   **extendleft(iterable)** : appends element from the iterable to the left side of the list.
 
-    ```
+    ```py
     lst.extendleft(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([fifth, fourth, first, second, third])
     ```
 
 *   **extendright(iterable)** : appends elements from the iterable to the right side of the list
 
-    ```
+    ```py
     lst.extend(['fourth', 'fifth'])
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second, third, fourth, fifth])
     ```
 
 *   **insertafter(x, node)** : inserts x after specified node, the argument x should be a sllist node, the value of x is extracted and is given to the node to be inserted.
 
-    ```
+    ```py
     node = lst.nodeat(0)
     lst.insertafter('fourth', node)
     print(lst)
@@ -171,13 +171,13 @@ sslist 还支持以下方法:
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, fourth, second, third])
     ```
 
 *   **insertbefore(x, node)** : inserts x before the specified node, the argument x should be a sllist node, the value of x is extracted and is given to the node to be inserted.
 
-    ```
+    ```py
     node = lst.nodeat(1)
     lst.insertbefore('fourth', node)
     print(lst)
@@ -185,65 +185,65 @@ sslist 还支持以下方法:
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, fourth, second, third])
     ```
 
 *   **nodeat()** : returns node at the specified index. Negative indices are allowed if counting is started from right side.
 
-    ```
+    ```py
     node = lst.nodeat(1)
     print(node)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllistnode(second)
     ```
 
 *   **pop()** : removes an element from the right side of the list.
 
-    ```
+    ```py
     lst.pop()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second])
     ```
 
 *   **popleft()** : removes an element from the left side of the list.
 
-    ```
+    ```py
     lst.popleft()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([second, third])
     ```
 
 *   **popright()** : removes an element from the right side of the list.
 
-    ```
+    ```py
     lst.pop()
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, second])
     ```
 
 *   **remove(node)**: removes the specified node
 
-    ```
+    ```py
     node = lst.nodeat(1)
     lst.remove(node)
     print(lst)
@@ -251,20 +251,20 @@ sslist 还支持以下方法:
 
     **输出:**
 
-    ```
+    ```py
     sllist([first, third])
     ```
 
 *   **rotate(n)** : rotates the list n steps. If n is positive rotate to right and if negative to the left.
 
-    ```
+    ```py
     lst.rotate(-1)
     print(lst)
     ```
 
     **输出:**
 
-    ```
+    ```py
     sllist([second, third, first])
     ```
 
@@ -276,14 +276,14 @@ sslist 还支持以下方法:
 
 在单链表中实现一个节点，如果提供了值，可以选择初始化这个节点。
 
-```
+```py
 node = llist.sllistnode('zeroth')
 print(node)
 ```
 
 **输出:**
 
-```
+```py
 sllistnode(zeroth)
 ```
 
@@ -292,7 +292,7 @@ sllistnode(zeroth)
 *   **下一个**:列表中的下一个节点
 *   **值**:提取特定节点中存储的值
 
-```
+```py
 node = lst.nodeat(0)
 print(node.next)
 print(node.value)
@@ -300,7 +300,7 @@ print(node.value)
 
 **输出:**
 
-```
+```py
 sllistnode(second)
 first
 ```
@@ -309,7 +309,7 @@ first
 
 返回一个新的单链表迭代器。这些对象不是由用户创建的，而是由 sllist 返回的。__iter__()方法来保存迭代状态。迭代 sllistiterator 接口将直接产生存储在节点中的值。
 
-```
+```py
 import llist 
 from llist import sllist
 
@@ -321,7 +321,7 @@ for value in lst:
 
 **输出:**
 
-```
+```py
 first
 second
 third

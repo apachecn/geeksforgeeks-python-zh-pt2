@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # Initializing tuple
@@ -18,7 +18,7 @@ random.shuffle(t)
 
 **输出:**
 
-```
+```py
 TypeError: 'tuple' object does not support item assignment
 
 ```
@@ -31,7 +31,7 @@ TypeError: 'tuple' object does not support item assignment
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate  
 # shuffle a tuple  
 # using random.shuffle() 
@@ -59,7 +59,7 @@ print ("The shuffled tuple is : " + str(tup))
 
 **输出:**
 
-```
+```py
 The original tuple is: (1, 2, 3, 4, 5)
 The shuffled tuple is: (2, 3, 4, 1, 5)
 
@@ -71,7 +71,7 @@ The shuffled tuple is: (2, 3, 4, 1, 5)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate  
 # shuffle a tuple  
 # using random.sample() 
@@ -94,7 +94,7 @@ print ("The shuffled tuple is : " + str(tup))
 
 **输出:**
 
-```
+```py
 The original tuple is: (1, 2, 3, 4, 5)
 The shuffled tuple is: (1, 5, 3, 2, 4)
 

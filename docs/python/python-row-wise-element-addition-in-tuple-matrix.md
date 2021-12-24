@@ -17,7 +17,7 @@
 **方法一:使用`enumerate()` +嵌套列表理解**
 以上方法的组合可以解决这个问题。在本文中，我们通过枚举()使用嵌套列表理解和索引迭代来执行添加元素的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Row-wise element Addition in Tuple Matrix
 # Using enumerate() + list comprehension
@@ -47,7 +47,7 @@ print("The matrix after row elements addition : " + str(res)) 
 **方法二:使用`zip()` +列表理解**
 以上功能的组合可以解决这个问题。在本例中，我们使用 zip()而不是 enumerate()来执行将新的行元素与相应的行进行组合的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Row-wise element Addition in Tuple Matrix
 # Using zip() + list comprehension

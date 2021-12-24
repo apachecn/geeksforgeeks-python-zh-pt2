@@ -16,7 +16,7 @@
 
 在终端运行这些命令安装`**nltk**`和`**gensim**`:
 
-```
+```py
 pip install nltk
 pip install gensim
 ```
@@ -25,7 +25,7 @@ pip install gensim
 
 下面是实现:
 
-```
+```py
 # Python program to generate word vectors using Word2Vec
 
 # importing all necessary modules
@@ -85,7 +85,7 @@ print("Cosine similarity between 'alice' " +
 
 **输出:**
 
-```
+```py
 Cosine similarity between 'alice' and 'wonderland' - CBOW :  0.999249298413
 Cosine similarity between 'alice' and 'machines' - CBOW :  0.974911910445
 Cosine similarity between 'alice' and 'wonderland' - Skip Gram :  0.885471373104
@@ -95,7 +95,7 @@ Cosine similarity between 'alice' and 'machines' - Skip Gram :  0.856892599521
 
 输出表示不同模型的单词向量“alice”、“仙境”和“machines”之间的余弦相似性。一个有趣的任务可能是改变“大小”和“窗口”的参数值，以观察余弦相似性的变化。
 
-```
+```py
 Applications of Word Embedding :
 
 >> Sentiment Analysis

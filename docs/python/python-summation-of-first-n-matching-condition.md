@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 我们可以对匹配条件的元素求和，在 N 次元素出现后，我们可以停止操作。下面的代码演示了相同的内容。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Summation of first N matching condition
 # using Naive Method 
@@ -34,7 +34,7 @@ print ("The filtered list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9, 8, 5]
 The filtered list is : 9
 

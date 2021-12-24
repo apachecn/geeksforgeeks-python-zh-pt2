@@ -43,7 +43,7 @@ H-index 为 7，因为有 7 篇研究论文有 7 次或 7 次以上的引用。
 
 **示例:**
 
-```
+```py
 Input : Citations = [7, 6, 5, 4, 3]
 Output : 4
 Explanation : There are 5 papers in total. 
@@ -59,7 +59,7 @@ Explanation : There are 5 papers in total.
 2.  从最低的纸迭代到最高的纸。
 3.  剩余论文(结果)是满足 H 指数条件的论文数。
 
-```
+```py
 # calculating H-Index
 def H_index(citations):
 
@@ -88,7 +88,7 @@ print(H_index(citation))
 
 **输出**
 
-```
+```py
 7
 ```
 

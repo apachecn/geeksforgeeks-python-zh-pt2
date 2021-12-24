@@ -10,7 +10,7 @@ Scrapy 是用来提取数据的，使用的是在网站上爬行的蜘蛛。获�
 
 Scrapy，需要 Python 版本，3.6 及以上版本。使用 pip 命令将其安装在终端上，如下所示:
 
-```
+```py
 pip install Scrapy  
 ```
 
@@ -20,7 +20,7 @@ pip install Scrapy
 
 Scrapy 附带了一个高效的命令行工具，称为 Scrapy 工具。根据命令的用途，它们有一组不同的参数。为了编写 Spider 代码，我们从创建一个 Scrapy 项目开始。在终端使用以下“startproject”命令–
 
-```
+```py
 scrapy startproject gfg_itemloaders
 ```
 
@@ -62,7 +62,7 @@ scrapy startproject gfg_itemloaders
 
 ## **蟒蛇 3**
 
-```
+```py
 # Define here the models for your scraped item
 import scrapy
 
@@ -95,7 +95,7 @@ class GfgItemloadersItem(scrapy.Item):
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import Scrapy library
 import scrapy
 
@@ -144,7 +144,7 @@ class GfgLoadbookdataSpider(scrapy.Spider):
 
 *   **当我们执行上述代码时，使用 scrapy“crawl”命令，使用语法 as，scrapy crawl spider_name，在终端为–**
 
-```
+```py
 scrapy crawl gfg_loadbookdata -o not_parsed_data.json
 ```
 
@@ -193,7 +193,7 @@ scrapy crawl gfg_loadbookdata -o not_parsed_data.json
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import the processor
 from itemloaders.processors import Identity
 
@@ -206,7 +206,7 @@ print(proc(['star','moon','galaxy']))**
 
 ******输出:******
 
-```
+```py
 **['star','moon','galaxy']**
 ```
 
@@ -214,7 +214,7 @@ print(proc(['star','moon','galaxy']))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import the processor module
 from itemloaders.processors import TakeFirst
 
@@ -227,7 +227,7 @@ print(proc(['', 'star','moon','galaxy']))**
 
 ******输出:******
 
-```
+```py
 **'star'**
 ```
 
@@ -235,7 +235,7 @@ print(proc(['', 'star','moon','galaxy']))**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import the processor module
 from itemloaders.processors import Compose
 

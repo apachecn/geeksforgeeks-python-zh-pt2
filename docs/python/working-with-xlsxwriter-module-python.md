@@ -10,7 +10,7 @@
 
 在深入学习模块之前，让我们先安装它。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install XlsxWriter
 ```
 
@@ -26,7 +26,7 @@ pip install XlsxWriter
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -64,7 +64,7 @@ workbook.close() 
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -103,7 +103,7 @@ XlsxWriter 模块还提供了 **write_row()** 和 **write_column()** 方法来�
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 

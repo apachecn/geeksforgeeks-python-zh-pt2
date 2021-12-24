@@ -13,7 +13,7 @@
 
 **BottomInsertion()** :这个方法在栈底追加元素，BottomInsertion 接受两个值作为参数第一个是 stack，第二个是 elements，这是一个递归方法。
 
-```
+```py
 # insert element at the bottom of the stack
 def BottomInsert(s, value):
     # if stack is empty then call push() method.
@@ -38,7 +38,7 @@ def BottomInsert(s, value):
 
 **Reverse()** :方法是对栈的元素进行反转，这个方法接受栈作为参数 Reverse()也是一个 Recursive()函数。Reverse()是调用 BottomInsertion()方法来完成堆栈上的反向操作。
 
-```
+```py
 # Reverse()
 def Reverse(s): 
 
@@ -66,7 +66,7 @@ def Reverse(s):
 
 ## 蟒蛇 3
 
-```
+```py
 # create class for stack
 class Stack:
 
@@ -136,7 +136,7 @@ stk.show()
 
 **输出:**
 
-```
+```py
 Original Stack
 5
 4

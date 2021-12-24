@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 Arun: 78%
 Geeta: 86%
@@ -25,7 +25,7 @@ Shilpi: 65%
 
 ## 蟒蛇 3
 
-```
+```py
 print("-----Program for printing student name with marks using list-----")
 
 # create an empty dictionary
@@ -64,7 +64,7 @@ for i in ls:
 
 **输出:**
 
-```
+```py
 -----Program for printing student name with marks using list-----
 How many student record you want to store?? 3
 Enter the student name and percentage: Arun: 78%

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.setMinimumWidth(width)
 > self.setMinimumHeight(height)
 > 
@@ -20,7 +20,7 @@
 
 **最小宽度设置代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -71,7 +71,7 @@ sys.exit(App.exec())
 
 **最小宽度设置代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

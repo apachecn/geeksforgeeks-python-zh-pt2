@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import threading
 from contextlib import contextmanager
@@ -58,7 +58,7 @@ def acquire(*lock_state_state):
 
 ## 蟒蛇 3
 
-```
+```py
 # threads
 import threading
 
@@ -98,7 +98,7 @@ t2.start()
 
 ## 蟒蛇 3
 
-```
+```py
 # threads
 import threading
 
@@ -132,7 +132,7 @@ t2.start()
 
 运行此版本的程序时，其中一个线程将崩溃，并出现异常，例如:
 
-```
+```py
 Exception in thread Thread-1:
 Traceback (most recent call last):
     File "/usr/HP/lib/python3.3/threading.py", line 639, in _bootstrap_inner

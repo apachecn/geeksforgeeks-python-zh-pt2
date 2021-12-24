@@ -22,7 +22,7 @@
 
 要在 Windows、Linux 或任何操作系统上安装美观套件，需要 **pip** 包。要查看如何在您的操作系统上安装画中画，请查看–画中画安装–[视窗](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)|[Linux](https://www.geeksforgeeks.org/how-to-install-pip-in-linux/)。现在在终端运行下面的命令。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -50,7 +50,7 @@ pip install beautifulsoup4
 
 在检查完页面的 HTML 之后，我们仍然需要将所有的 HTML 输入到我们的 Python 代码中，这样我们就可以抓取所需的数据。为此，Python 提供了一个名为**请求的模块。**请求库是 Python 的一个组成部分，用于向指定的网址发出 HTTP 请求。请求安装取决于 eis 使用的操作系统类型，任何地方的基本命令都是打开命令终端并运行，
 
-```
+```py
 pip install requests
 ```
 
@@ -60,7 +60,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a GET request
@@ -92,7 +92,7 @@ print(r.content)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -116,7 +116,7 @@ print(soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 

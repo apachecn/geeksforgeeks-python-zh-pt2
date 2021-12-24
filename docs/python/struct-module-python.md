@@ -8,14 +8,14 @@
 
 *   **struct.pack()**
 
-    ```
+    ```py
     Syntax: 
     struct.pack(format, v1, v2, ...)
     ```
 
     返回一个包含值 v1，v2，…的字符串，这些值根据给定的格式打包(格式化字符串是在打包和解包数据时用于指定预期布局的机制)。格式后面的值必须仅与格式一致，否则会引发 struct.error。
 
-    ```
+    ```py
     import struct
 
     # Format: h is short in C type
@@ -32,7 +32,7 @@
 
     输出:
 
-    ```
+    ```py
     b'\x01\x00\x02\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00'
     b'\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00'
 
@@ -40,14 +40,14 @@
 
 *   **struct.unpack()**
 
-    ```
+    ```py
     Syntax:
     struct.unpack(fmt, string)
     ```
 
     返回根据给定格式(第一个参数)解包的值 v1、v2、…。此函数返回的值作为元组返回，元组的大小等于打包期间通过 struct.pack()传递的值的数量。
 
-    ```
+    ```py
     import struct
 
     # '?' -> _BOOL , 'h' -> short, 'i' -> int and 'l' -> long
@@ -68,7 +68,7 @@
 
     输出:
 
-    ```
+    ```py
     b'\x01\x00\x02\x00\x05\x00\x00\x00\xbd\x01\x00\x00\x00\x00\x00\x00'
     (True, 2, 5, 445)
     b'\x05\x00\x00\x00\x00\x00\x00\x0033\x13@'
@@ -80,7 +80,7 @@
 
 *   **struct.calcsize()**
 
-    ```
+    ```py
     Syntax:
     struct.calcsize(fmt)
     fmt: format 
@@ -88,7 +88,7 @@
 
     返回对应于给定格式的结构(以及字符串)的大小。calcsize()是一个重要的函数，对于 struct.pack_into()和 struct.unpack_from()之类的函数是必需的，这些函数也需要偏移量和缓冲区。
 
-    ```
+    ```py
     import struct
     var = struct.pack('?hil', True, 2, 5, 445)
     print(var)
@@ -99,14 +99,14 @@
 
     输出:
 
-    ```
+    ```py
     b'\x01\x00\x02\x00\x05\x00\x00\x00\xbd\x01\x00\x00\x00\x00\x00\x00'
     16
     12
 
     ```
 
-    ```
+    ```py
     import struct
     var = struct.pack('bi', 56, 0x12131415)
     print(var)
@@ -118,7 +118,7 @@
 
     输出:
 
-    ```
+    ```py
     b'8\x00\x00\x00\x15\x14\x13\x12'
     8
     b'\x15\x14\x13\x128'
@@ -131,7 +131,7 @@
 *   **Exception struct.error**
     Exception struct.error describes what is wrong at passing arguments, when a wrong argument is passed struct.error is raised.
 
-    ```
+    ```py
     from struct import error
     print(error)
     ```
@@ -141,7 +141,7 @@
 *   **struct . pack _ into()**T0】
 *   **struct.unpack_from()**
 
-    ```
+    ```py
     Syntax:
     struct.unpack_from(fmt, buffer[,offset = 0])fmt: data type format
     buffer: writable buffer which starts at offset (optional)
@@ -149,7 +149,7 @@
 
     返回一个元组，类似于 struct.unpack()
 
-    ```
+    ```py
     import struct
 
     # ctypes in imported to create string buffer
@@ -176,7 +176,7 @@
 
     输出:
 
-    ```
+    ```py
     16
     b'\x02\x00\x02\x00\x00\x00\x00\x00\x03\x00\x00\x00\x00\x00\x00\x00'
     (2, 2, 3)

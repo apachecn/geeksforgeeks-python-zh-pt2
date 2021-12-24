@@ -12,7 +12,7 @@ Flask 是一个用 Python 编写的轻量级框架。它是轻量级的，因为
 
 **创建文件的 Linux 命令**
 
-```
+```py
 touch weather.py 
 ```
 
@@ -20,7 +20,7 @@ touch weather.py
 
 **Linux 命令创建一个文件夹和一个文件**
 
-```
+```py
  mkdir templates && cd templates && touch index.html 
 ```
 
@@ -30,7 +30,7 @@ touch weather.py
 ****编辑文件:**
 从[天气 API](https://openweathermap.org/api) 中使用自己的 API 密钥，并将其放入 API 变量中。现在编辑`weather.py`文件。**
 
-```
+```py
 from flask import Flask, render_template, request
 
 # import json to load JSON data to a python dictionary
@@ -78,6 +78,6 @@ if __name__ == '__main__':
 
 **现在，您可以运行服务器来查看天气应用程序–**
 
-```
+```py
  python weather.py 
 ```

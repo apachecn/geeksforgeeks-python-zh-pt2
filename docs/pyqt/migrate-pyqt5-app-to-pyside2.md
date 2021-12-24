@@ -6,7 +6,7 @@ Python 中最先进的 Gui 开发包之一是 PyQt5。根据 Pyside2 的维护�
 
 让我们看看如何将典型的 PyQt5 应用程序迁移到 PySide2。
 
-```
+```py
 import sys
 from PyQt5.QtWidgets import (QGridLayout)
 from PyQt5.QtWidgets import (QMainWindow)
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 我们特意使用了一个使用 *QtWidget* 、 *QtCore* 和 *QtGui* 的例子。要做的一件事就是好好练习。是关于避免`from X import *`。命名我们的导入有一个优势，那就是了解什么属于什么模块。
 
-```
+```py
 import sys
 
 from PyQt5 import QtWidgets
@@ -77,7 +77,7 @@ from PyQt5 import QtGui
 
 现在，将我们的代码更改为下面的代码，其中我们命名了我们的导入。 *QMainWindow* 变成 *QtWidgets。QMainWindow* 等等–
 
-```
+```py
 class Window(QtWidgets.QMainWindow):
 
     def __init__(self, parent = None):
@@ -123,7 +123,7 @@ if __name__ == '__main__':
 
 将我们的应用程序转换为 PySide2 就像将我们的导入更改为
 
-```
+```py
 import sys
 
 from PySide2 import QtWidgets

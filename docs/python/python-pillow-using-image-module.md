@@ -8,13 +8,13 @@
 
 **Linux:** 在 Linux 终端上键入以下内容:
 
-```
+```py
 pip install Pillow
 ```
 
 通过终端安装 pip:
 
-```
+```py
 sudo apt-get update
 sudo apt-get install python-pip
 ```
@@ -40,7 +40,7 @@ sudo apt-get install python-pip
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Image from PIL
 from PIL import Image
 
@@ -60,7 +60,7 @@ img = Image.open('gfg.png')
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 with Image.open("gfg.png") as image:
@@ -71,7 +71,7 @@ print((width,height))
 
 **输出:**
 
-```
+```py
 (200, 200)
 ```
 
@@ -91,7 +91,7 @@ print((width,height))
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("gfg.png")
@@ -120,7 +120,7 @@ img.save("logo.jpg")
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("gfg.png")
@@ -156,7 +156,7 @@ Image.crop(框)采用一个 4 元组(左、上、右、下)像素坐标，并从
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 #  open image and get size
@@ -190,7 +190,7 @@ Image.resize(大小)用于调整大小。这里，大小是以 2 元组的宽度
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("gfg.png")
@@ -229,7 +229,7 @@ img.save("resized_picture.png")
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img1 = Image.open("gfg.jpg")
@@ -259,7 +259,7 @@ img1.save("pasted_picture.jpg")
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("gfg.png")     
@@ -295,7 +295,7 @@ transposed_img.save("transposed.png")
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("gfg.png")

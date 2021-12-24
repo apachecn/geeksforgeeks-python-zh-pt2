@@ -17,7 +17,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the module
 import sys
 
@@ -28,7 +28,7 @@ print(max_val)
 
 ****输出:****
 
-```
+```py
 9223372036854775807
 ```
 
@@ -36,7 +36,7 @@ print(max_val)
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the module
 import sys
 
@@ -54,7 +54,7 @@ print("List successfully created")
 
 ****Output**
 
-```
+```py
 9223372036854775807
 List successfully created
 
@@ -62,7 +62,7 @@ List successfully created
 
 ****输出:****
 
-```
+```py
 9223372036854775807
 List successfully created
 ```
@@ -71,7 +71,7 @@ List successfully created
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing the module
 import sys
 
@@ -96,7 +96,7 @@ except Exception as e:
 
 ****Output**
 
-```
+```py
 Python int too large to convert to C ssize_t
 List creation unsuccessful
 
@@ -104,7 +104,7 @@ List creation unsuccessful
 
 ****输出:****
 
-```
+```py
 Python int too large to convert to C ssize_t
 List creation unsuccessful
 ```

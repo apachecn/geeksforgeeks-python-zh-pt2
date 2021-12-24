@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[3], [1, 7], [10, 2, 4], [8, 6, 5, 1, 4]]
 
@@ -49,7 +49,7 @@ print("Are rows of increasing lengths ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[3], [1, 7], [10, 2, 4], [8, 6, 5, 1, 4]]
 

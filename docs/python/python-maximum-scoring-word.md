@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum Scoring word
 # Using split() + loop + ord() + ascii_lowercase
@@ -57,7 +57,7 @@ print("Maximum scoring word : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeks must use geeksforgeeks for cs knowledge
 Maximum scoring word : geeksforgeeks
 ```
@@ -68,7 +68,7 @@ Maximum scoring word : geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum Scoring word
 # Using sum() + loop + ord()
@@ -100,7 +100,7 @@ print("Maximum scoring word : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeks must use geeksforgeeks for cs knowledge
 Maximum scoring word : geeksforgeeks
 ```

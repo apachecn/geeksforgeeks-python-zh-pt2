@@ -7,7 +7,7 @@
 **方法:使用生成器表达式+ `lambda + sum() + map() + all()`**
 以上方法的组合可以用来执行这个任务。在这种情况下，我们使用 all() +生成器表达式来执行提取所有奇数或偶数对的任务。求和的构造任务是使用 sum()和 lambda 函数完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Odd or Even elements combinations Summations in Matrix
 # Using generator expression + lambda + sum() + map() + all()

@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 解决这个问题最常见的方法是使用一个循环，并且最大化元素的出现次数，直到给定数量 k
 
-```
+```py
 # Python 3 code to demonstrate 
 # Maximum element till K value
 # using naive method 
@@ -34,7 +34,7 @@ print ("The maximum number till K : " + str(res))
 
 **Output :**
 
-```
+```py
 The list : [1, 7, 5, 6, 3, 8]
 The maximum number till K : 3
 

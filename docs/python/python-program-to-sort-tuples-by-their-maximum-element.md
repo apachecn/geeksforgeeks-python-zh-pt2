@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Tuples by Maximum element
 # Using max() + sort()
@@ -54,7 +54,7 @@ print("Sorted Tuples : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Tuples by Maximum element
 # Using sort() + lambda + reverse

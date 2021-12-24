@@ -9,7 +9,7 @@ Python 字符串是不可变的，因此在谈论其操作时会有更复杂的�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if string is empty
 # using len()
@@ -35,7 +35,7 @@ else :
 
 **输出:**
 
-```
+```py
 The zero length string without spaces is empty ? : Yes
 The zero length string with just spaces is empty ? : No
 ```
@@ -45,7 +45,7 @@ not 运算符也可以执行类似 len()的任务，并检查 0 长度字符串�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if string is empty
 # using not
@@ -71,7 +71,7 @@ else :
 
 **输出:**
 
-```
+```py
 The zero length string without spaces is empty ? : Yes
 The zero length string with just spaces is empty ? : No
 ```
@@ -81,7 +81,7 @@ The zero length string with just spaces is empty ? : No
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to check if string is empty
 # using not + strip()
@@ -107,7 +107,7 @@ else :
 
 **输出:**
 
-```
+```py
 The zero length string without spaces is empty ? : Yes
 The zero length string with just spaces is empty ? : Yes
 ```
@@ -117,7 +117,7 @@ The zero length string with just spaces is empty ? : Yes
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # to check if string is empty
 # using not + isspace()
@@ -143,7 +143,7 @@ else :
 
 **输出:**
 
-```
+```py
 The zero length string without spaces is empty ? : Yes
 The zero length string with just spaces is empty ? : Yes
 ```

@@ -29,7 +29,7 @@ Lynis 的报告很难阅读，通常有很多信息。因此，我们使用 Bash
 
 ## 尝试
 
-```
+```py
 #!/bin/bash
 
 # script to scrape/parse the report file and
@@ -106,7 +106,7 @@ sudo chmod 755 shells.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 import pandas as pd
 from pandas import ExcelWriter

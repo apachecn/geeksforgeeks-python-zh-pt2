@@ -6,7 +6,7 @@ Django 模型中的内置字段验证是预定义给所有 Django 字段的验�
 
 **语法**
 
-```
+```py
 field_name = models.Field(default = value)
 ```
 
@@ -21,7 +21,7 @@ field_name = models.Field(default = value)
 
 将以下代码输入**极客** app 的`models.py`文件。我们将使用 CharField 对所有字段选项进行实验。
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -32,13 +32,13 @@ class GeeksModel(Model):
 
 在 Django 上运行 makemigrations 和 migration 并呈现上述模型之后，让我们尝试使用 Django shell 中的 None 创建一个实例。要启动 Django shell，请输入命令，
 
-```
+```py
 Python manage.py shell
 ```
 
 现在让我们尝试使用**无**创建极客模型的实例。
 
-```
+```py
 # importing required model
 from geeks.models import GeeksModel
 

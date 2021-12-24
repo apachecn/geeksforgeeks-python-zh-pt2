@@ -38,7 +38,7 @@
 
 然后，我们将列中的每个值乘以给定的相应权重。
 
-```
+```py
 # Arguments are dataset, number of columns, and weights of each column 
 def Normalize(dataset, nCol, weights):
     for i in range(1, nCol):
@@ -55,7 +55,7 @@ def Normalize(dataset, nCol, weights):
 
 **步骤 2:** 从理想最差和理想最佳值计算每行的理想最佳和理想最差以及欧氏距离。首先，我们将找出理想的最佳值和理想的最差值:现在这里我们需要看到影响，即它是‘+’还是‘-’影响。如果“+”影响，则一列的理想最佳值是该列的最大值，理想最差值是该列的最小值，反之亦然。
 
-```
+```py
 # Calculate ideal best and ideal worst
 def Calc_Values(dataset, nCol, impact):
     p_sln = (dataset.max().values)[1:]
@@ -92,7 +92,7 @@ TOPSIS 得分= d<sub>iw</sub>/(d<sub>IB</sub>+d<sub>iw</sub>)每行
 
 最后一部分的代码在这里！
 
-```
+```py
  # Calculating positive and negative values
  p_sln, n_sln = Calc_Values(temp_dataset, nCol, impact)
 

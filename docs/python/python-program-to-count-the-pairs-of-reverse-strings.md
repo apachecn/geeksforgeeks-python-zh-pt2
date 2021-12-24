@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reversed Pairs in Strings List
 # Using reversed() + loop
@@ -54,7 +54,7 @@ print("Reversed Pairs : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reversed Pairs in Strings List
 # Using list comprehension + sum()

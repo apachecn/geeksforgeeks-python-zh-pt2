@@ -16,7 +16,7 @@ Python 是一种多用途语言，人们可以用它做任何事情。Python 也
 
 **示例:**
 
-```
+```py
 Input :   player1 name : AJAY
           player 2 name : PRIYA
 
@@ -46,7 +46,7 @@ Output : Relationship status : Friends
 
 ## 蟒蛇 3
 
-```
+```py
 # function for removing common characters
 # with their respective occurrences
 def remove_match_char(list1, list2):
@@ -160,7 +160,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 Player 1 name : ANKIT
 Player 2 name : DEEPIKA
 Relationship status : Marriage

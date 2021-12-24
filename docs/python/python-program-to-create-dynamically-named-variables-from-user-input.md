@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Dynamic_Variable_Name can be
 # anything the user wants
 Dynamic_Variable_Name = "geek"
@@ -23,7 +23,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 2020
 ```
 
@@ -31,7 +31,7 @@ print(geek)
 
 ## 蟒蛇 3
 
-```
+```py
 # Dynamic_Variable_Name can be
 # anything the user wants.
 Dynamic_Variable_Name = "geek"
@@ -46,7 +46,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 2020
 ```
 
@@ -54,7 +54,7 @@ print(geek)
 
 ## 蟒蛇 3
 
-```
+```py
 # Dynamic_Variable_Name can be
 # anything the user wants.
 Dynamic_Variable_Name = "geek"
@@ -69,7 +69,7 @@ print(geek)
 
 **输出:**
 
-```
+```py
 2020
 ```
 
@@ -77,7 +77,7 @@ print(geek)
 
 ## 蟒蛇 3
 
-```
+```py
 # Dynamic_Variable_Name can be
 # anything the user wants.
 Dynamic_Variable_Name = "geek"
@@ -92,6 +92,6 @@ print(geek)
 
 **输出:**
 
-```
+```py
 2020
 ```

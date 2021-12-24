@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 # creating a form
@@ -36,7 +36,7 @@ class GeeksForm(forms.Form):
 
 ## 蟒蛇 3
 
-```
+```py
 # import generic FormView
 from django.views.generic.edit import FormView
 
@@ -60,7 +60,7 @@ class GeeksFormView(FormView):
 
 ## 超文本标记语言
 
-```
+```py
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
@@ -72,7 +72,7 @@ class GeeksFormView(FormView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -92,7 +92,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import generic FormView
 from django.views.generic.edit import FormView
 

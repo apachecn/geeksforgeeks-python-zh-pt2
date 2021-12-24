@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `replace()`**
 替换方法可以与列表理解技术相结合来实现这一特定任务。列表理解执行遍历列表的任务，replace 方法用另一个替换子字符串的部分。
 
-```
+```py
 # Python3 code to demonstrate
 # Replace substring in list of strings
 # using list comprehension + replace()
@@ -28,7 +28,7 @@ print("The list after substring replacement : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['4', 'kg', 'butter', 'for', '40', 'bucks']
 The list after substring replacement : ['1', 'kg', 'butter', 'for', '10', 'bucks']
 

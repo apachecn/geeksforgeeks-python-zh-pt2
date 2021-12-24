@@ -8,7 +8,7 @@
 
 排序函数可用于根据需要对元素进行排序，频率可使用计数函数计算，重复项的移除可使用 set 函数处理。
 
-```
+```py
 # Python3 code to demonstrate
 # sorting and removal of duplicates
 # Using sorted() + set() + count()
@@ -29,7 +29,7 @@ print("The list after sorting and removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 2, 5, 3, 3, 6, 5, 5, 6, 5]
 The list after sorting and removal : [2, 3, 6, 5]
 
@@ -39,7 +39,7 @@ The list after sorting and removal : [2, 3, 6, 5]
 
 如果有按频率递减排序的特殊用例，也可以使用 Counter 库最常用的函数来获取频率部分。
 
-```
+```py
 # Python3 code to demonstrate
 # sorting and removal of duplicates
 # Using Counter.most_common() + list comprehension
@@ -61,7 +61,7 @@ print("The list after sorting and removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [5, 6, 2, 5, 3, 3, 6, 5, 5, 6, 5]
 The list after sorting and removal : [5, 6, 3, 2]
 

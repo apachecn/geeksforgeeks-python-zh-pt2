@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -76,7 +76,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.QSize(150, 40)
 PyQt5.QtCore.QSize(150, 40)
 

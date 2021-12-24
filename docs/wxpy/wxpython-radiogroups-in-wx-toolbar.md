@@ -13,7 +13,7 @@ T3】2。创建这些工具后，会创建一个分隔符。
 
 **语法:**
 
-```
+```py
 *various Radio Tools{Radio Menu}
 Add Separator
 various Radio Tools{Radio Menu}*
@@ -22,7 +22,7 @@ various Radio Tools{Radio Menu}*
 
 **Code Example:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

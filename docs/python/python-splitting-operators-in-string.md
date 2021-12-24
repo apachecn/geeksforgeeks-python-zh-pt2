@@ -7,7 +7,7 @@
 **方法#1:使用`re.split()`**
 这个任务可以使用 Python regex 库提供的拆分功能来解决，Python regex 库有能力根据特定条件拆分字符串，在这种情况下是所有的数字和运算符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Splitting operators in String
 # Using re.split()

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.rotational_blur( angle= angle_value,
 >                            channel = "optional_channel_value")
 > # radius should always be greater than sigma(standard deviation)
@@ -24,7 +24,7 @@
 
 **Example #1:**
 
-```
+```py
 # import display() to show final image
 from wand.display import display
 
@@ -49,7 +49,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 将角度增加到 30°。
 
-```
+```py
 # import display() to show final image
 from wand.display import display
 

@@ -27,11 +27,11 @@ BERT 单句分类任务
 
 ## 蟒蛇 3
 
-```
+```py
 ! git clone https://github.com / google-research / bert.git
 ```
 
-```
+```py
 Cloning into 'bert'...
 remote: Enumerating objects: 340, done.
 remote: Total 340 (delta 0), reused 0 (delta 0), pack-reused 340
@@ -45,11 +45,11 @@ Resolving deltas: 100% (185/185), done.
 
 ## 蟒蛇 3
 
-```
+```py
 # Download BERT BASE model from tF hub ! wget https://storage.googleapis.com / bert_models / 2018_10_18 / uncased_L-12_H-768_A-12.zip ! unzip uncased_L-12_H-768_A-12.zip
 ```
 
-```
+```py
 Archive:  uncased_L-12_H-768_A-12.zip
    creating: uncased_L-12_H-768_A-12/
   inflating: uncased_L-12_H-768_A-12/bert_model.ckpt.meta  
@@ -65,11 +65,11 @@ Archive:  uncased_L-12_H-768_A-12.zip
 
 ## 蟒蛇 3
 
-```
+```py
 % tensorflow_version 1.x
 ```
 
-```
+```py
 TensorFlow 1.x selected.
 ```
 
@@ -79,7 +79,7 @@ TensorFlow 1.x selected.
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import re
 import numpy as np
@@ -98,7 +98,7 @@ from sklearn import metrics
 
 ## 蟒蛇 3
 
-```
+```py
 # load data from positive and negative directories and a columns that takes there\
 # positive and negative label
 def load_directory_data(directory):
@@ -136,7 +136,7 @@ train, test = download_and_load_datasets()
 train.shape, test.shape
 ```
 
-```
+```py
 Downloading data from http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz
 84131840/84125825 [==============================] - 8s 0us/step
 ((25000, 3), (25000, 3))
@@ -148,7 +148,7 @@ Downloading data from http://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.ta
 
 ## 蟒蛇 3
 
-```
+```py
 # sample 5k datapoints for both train and test
 train = train.sample(5000)
 test = test.sample(5000)
@@ -156,7 +156,7 @@ test = test.sample(5000)
 train.columns, test.columns
 ```
 
-```
+```py
 (Index(['sentence', 'sentiment', 'polarity'], dtype='object'),
  Index(['sentence', 'sentiment', 'polarity'], dtype='object'))
 ```
@@ -171,7 +171,7 @@ train.columns, test.columns
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Convert training data into BERT format
 train_bert = pd.DataFrame({
@@ -191,7 +191,7 @@ bert_test = pd.DataFrame({
 bert_test.head()
 ```
 
-```
+```py
 guid    label    alpha    text
 14930    0    1    a    William Hurt may not be an American matinee id...
 1445    1    1    a    Rock solid giallo from a master filmmaker of t...
@@ -213,7 +213,7 @@ guid    text
 
 ## 蟒蛇 3
 
-```
+```py
 # split  data into  train and validation set
 bert_train, bert_val = train_test_split(train_bert, test_size = 0.1)
 # save train, validation and testfile to afolder
@@ -228,7 +228,7 @@ bert_test.to_csv('bert / IMDB_dataset / test.tsv', sep ='\t', index = False, hea
 
 ## 蟒蛇 3
 
-```
+```py
 # Most of the arguments  hereare self-explanatory but some  arguments needs  to be explained:
 # task name:We have discussed this above .Here we need toperform binary  classification that why we use cola
 # vocab file :  A vocab file (vocab.txt) to map WordPiece to word id.
@@ -248,7 +248,7 @@ bert_test.to_csv('bert / IMDB_dataset / test.tsv', sep ='\t', index = False, hea
 --save_checkpoints_steps 10000
 ```
 
-```
+```py
 # Last few lines
 INFO:tensorflow:***** Eval results *****
 I0713 06:06:28.966619 139722620139392 run_classifier.py:923] ***** Eval results *****
@@ -268,7 +268,7 @@ I0713 06:06:28.967507 139722620139392 run_classifier.py:925]   loss = 0.95741796
 
 ## 蟒蛇 3
 
-```
+```py
 # code to predict bert on test.tsv
 # here we use  saved training checkpoint as  initial model ! python bert / run_classifier.py
 --task_name = cola
@@ -281,7 +281,7 @@ I0713 06:06:28.967507 139722620139392 run_classifier.py:925]   loss = 0.95741796
 --output_dir =/content / bert_output/
 ```
 
-```
+```py
 INFO:tensorflow:Restoring parameters from /content/bert_output/model.ckpt-1687
 I0713 06:08:22.372014 140390020667264 saver.py:1284] Restoring parameters from /content/bert_output/model.ckpt-1687
 INFO:tensorflow:Running local_init_op.
@@ -301,7 +301,7 @@ I0713 06:10:02.280870 140390020667264 error_handling.py:101] prediction_loop mar
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import  csv
 label_results =[]
@@ -318,12 +318,12 @@ with open('/content / bert_output / test_results.tsv') as file:
 
 ## 蟒蛇 3
 
-```
+```py
 print("Accuracy", metrics.accuracy_score(test['polarity'], label_results))
 print("F1-Score", metrics.f1_score(test['polarity'], label_results))
 ```
 
-```
+```py
 Accuracy 0.8548
 F1-Score 0.8496894409937888
 ```

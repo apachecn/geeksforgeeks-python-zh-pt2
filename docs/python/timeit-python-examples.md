@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required module
 import timeit
 
@@ -61,7 +61,7 @@ print (timeit.timeit(setup = mysetup,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required modules
 import timeit
 
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 *   **timeit.repeat()** 函数接受一个额外的参数， **repeat** 。输出将是重复指定次数的所有代码运行的执行时间列表。
 *   在 setup 参数中，我们传递了:
 
-```
+```py
 from __main__ import binary_search
 from random import randint
 ```

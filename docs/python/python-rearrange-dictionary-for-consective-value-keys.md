@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rearrange dictionary for consecutive value-keys
 # Using loop + keys()
@@ -38,7 +38,7 @@ print("The rearranged dictionary : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary : {1: 3, 4: 5, 3: 4, 5: 6}
 The rearranged dictionary : {1: 3, 3: 4, 4: 5, 5: 6}
 ```
@@ -48,7 +48,7 @@ The rearranged dictionary : {1: 3, 3: 4, 4: 5, 5: 6}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rearrange dictionary for consecutive value-keys
 # Using dictionary comprehension + accumulate()
@@ -71,7 +71,7 @@ print("The rearranged dictionary : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary : {1: 3, 4: 5, 3: 4, 5: 6}
 The rearranged dictionary : {1: 3, 3: 4, 4: 5, 5: 6}
 ```

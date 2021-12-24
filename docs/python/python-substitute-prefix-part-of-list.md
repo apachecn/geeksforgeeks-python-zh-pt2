@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substitute prefix part of List
 # Using len() + list slicing
@@ -39,7 +39,7 @@ print("The joined list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 6, 8, 7]
 The original list 2 : [2, 7, 9, 4, 2, 8, 6, 4, 1, 10]
 The joined list : [4, 6, 8, 7, 2, 8, 6, 4, 1, 10]
@@ -51,7 +51,7 @@ The joined list : [4, 6, 8, 7, 2, 8, 6, 4, 1, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substitute prefix part of List
 # Using * operator
@@ -73,7 +73,7 @@ print("The joined list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : [4, 6, 8, 7]
 The original list 2 : [2, 7, 9, 4, 2, 8, 6, 4, 1, 10]
 The joined list : [4, 6, 8, 7, 2, 8, 6, 4, 1, 10]

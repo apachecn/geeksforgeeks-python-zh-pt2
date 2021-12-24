@@ -6,7 +6,7 @@
 
 **要安装该模块，请在终端中键入以下命令:**
 
-```
+```py
 pip install plotly
 ```
 
@@ -16,7 +16,7 @@ pip install plotly
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import pandas as pd
 import plotly.graph_objs as go
@@ -48,7 +48,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import pandas as pd
 import plotly.graph_objs as go
@@ -84,7 +84,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Libraries
 import numpy as np
 import pandas as pd

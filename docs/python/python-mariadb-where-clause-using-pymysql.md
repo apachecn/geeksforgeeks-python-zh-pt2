@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 SELECT column1, column2, …. cloumnN FROM [TABLE NAME] WHERE [CONDITION];
 
 ```
@@ -33,7 +33,7 @@ SELECT column1, column2, …. cloumnN FROM [TABLE NAME] WHERE [CONDITION];
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -72,7 +72,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

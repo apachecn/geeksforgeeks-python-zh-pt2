@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的蛮力方式。在这种情况下，我们跟踪发生的值，如果它重复，就将其删除。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove duplicate values in dictionary
 # Using loop

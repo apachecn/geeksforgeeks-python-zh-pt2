@@ -21,7 +21,7 @@ CollapseAllChildren()方法将 TreeItemId 作为参数。
 
 ## 计算机编程语言
 
-```
+```py
 import wx
 
 class MyTree(wx.TreeCtrl):

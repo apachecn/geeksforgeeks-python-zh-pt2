@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.sharpen(radius, sigma, channel)
 > 
 > ```
@@ -24,7 +24,7 @@
 
 **例 1:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -41,7 +41,7 @@ with Image(filename ="koala.jpeg") as img:
 **例 2:**
 增加半径和标准差的值。
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

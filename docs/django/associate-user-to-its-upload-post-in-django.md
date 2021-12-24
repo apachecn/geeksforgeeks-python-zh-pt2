@@ -12,7 +12,7 @@ Django 提供了 ForeignKey、ManytoManyField 的内置工具，用于将一个�
 
 我们已经为注册创建了一个用户应用程序，因此我们将创建一个名为 userblog(用户上传的博客)的新应用程序。为此，通过在 PowerShell 或终端中编写代码，在主项目文件中创建一个应用程序
 
-```
+```py
 django-admin startapp userblog
 
 ```
@@ -21,7 +21,7 @@ django-admin startapp userblog
 
 现在在您的项目中进行迁移，并将此应用程序添加到您的项目中
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 
@@ -29,7 +29,7 @@ python manage.py migrate
 
 现在我们必须在这个应用程序中使用模型，这样 Django 就可以为我们将要存储在数据库中的信息创建一个表，用户可以输入信息。我们必须在 userblog 应用程序的`models.py`文件中创建一个名为 Snippet 的类。我们将使用一个 ForeignKey 类，该类将保存用户的 id 值，并且它保存一对多的关系，因此您可以使用该类将用户与用户参与的任何其他活动相关联。
 
-```
+```py
 from django.db import models
 from django.conf import settings
 
@@ -53,7 +53,7 @@ class Snippet(models.Model):
 
 还创建一个名为`forms.py`的 python 文件，并为其创建一个模型表单，以输入来自用户的数据。
 
-```
+```py
 from django import forms
 from .models import Snippet
 
@@ -75,7 +75,7 @@ class SnippetForm(forms.ModelForm):
 *   **我们的博客**–这将显示我们主页中的所有帖子
 *   **snippet _ detail**–这将从用户那里获取数据，并将其与博客和用户相关联
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse
 from .forms import SnippetForm
@@ -103,7 +103,7 @@ def snippet_detail(request):
 
 到目前为止，Django 管理已经创建了 Snippet 类的数据库，您可以通过访问 Django 管理来查看它。现在我们必须创建一个简单的`form.html`文件，它将包含一个表单，用户可以在其中输入我们在类中陈述的查询。这就是 Django 的美妙之处，因为我们已经在应用程序中使用了模型表单，Django 已经创建了表单的 HTML 代码，其中包含了我们需要的所有查询。因此，只需在模板文件(表单. html)中创建一个 HTML 文件。
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 
@@ -127,7 +127,7 @@ def snippet_detail(request):
 
 现在我们将需要一个主页，在那里我们将看到用户的所有帖子，因此创建另一个 HTML 文件 indexg.html，并导入我们在 views.py 文件中创建的函数对象。(仅放置 html 正文部分的图像，以显示 python 代码，您可以使用功能制作自己的索引)
 
-```
+```py
 <body>
     <h1>Post play<h4>Only for geeks</h4>
     </h1>
@@ -164,7 +164,7 @@ def snippet_detail(request):
 让我们转到我们的主 URL 文件，在那里我们将有一个帐户应用程序，现在将 userblog 应用程序设为默认，并添加您的应用程序的 URL。同样在你的用户博客应用程序中添加 urls.py，并添加 form.html 和主页(indexg.html)这两个函数的链接。
 **主网址**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
@@ -180,7 +180,7 @@ urlpatterns = [
 
 用户博客 URL–
 
-```
+```py
 from django.urls import path
 
 from . import views
@@ -193,7 +193,7 @@ urlpatterns = [
 
 启动应用程序，将用户注册到您的应用程序中，然后发布帖子
 
-```
+```py
 python manage.py runserver
 
 ```

@@ -23,7 +23,7 @@ Tweepy 模块中的 **`Media`** 对象包含了一个上传到 Twitter 上的媒
 考虑以下图像:
 ![](img/4e8b447ebedae418847a759efe70c809.png)
 
-```
+```py
 # import the module
 import tweepy
 
@@ -57,7 +57,7 @@ print("The h is : " + str(media.image["h"]))
 
 **输出:**
 
-```
+```py
 The media_id is : 1273526215773573121
 The media_id_string is : 1273526215773573121
 The size is : 3346

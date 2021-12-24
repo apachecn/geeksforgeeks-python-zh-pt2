@@ -18,7 +18,7 @@
 
 **Code:** Use of os.close() method to close a file descriptor
 
-```
+```py
 # Python program to explain os.close() method 
 
 # importing os module 
@@ -50,7 +50,7 @@ print("File descriptor closed successfully")
 
 **Output:**
 
-```
+```py
 File descriptor closed successfully
 
 ```

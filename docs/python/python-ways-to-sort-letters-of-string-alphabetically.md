@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : PYTHON
 Output : HNOPTY
 
@@ -19,7 +19,7 @@ Output : eeGks
 
 **方法 1 :** 使用`sorted()`配合`join()`
 
-```
+```py
 # Python3 program to sort letters 
 # of string alphabetically
 
@@ -33,14 +33,14 @@ print(sortString(str))
 
 **Output:**
 
-```
+```py
 HNOPTY
 
 ```
 
 **方法 2 :** 使用`sorted()`配合`accumulate()`
 
-```
+```py
 # Python3 program to sort letters 
 # of string alphabetically
 from itertools import accumulate
@@ -55,7 +55,7 @@ print(sortString(str))
 
 **Output:**
 
-```
+```py
 HNOPTY
 
 ```
@@ -64,7 +64,7 @@ HNOPTY
 
 另一种选择是使用 *reduce()* 方法。它使用“+”运算符对排序列表应用联接函数。
 
-```
+```py
 # Python3 program to sort letters 
 # of string alphabetically
 from functools import reduce
@@ -79,7 +79,7 @@ print(sortString(str))
 
 **Output:**
 
-```
+```py
 HNOPTY
 
 ```
@@ -88,7 +88,7 @@ HNOPTY
 
 使用`sorted()`和`join()`
 
-```
+```py
 # Python3 program to sort letters 
 # of string alphabetically
 from itertools import accumulate
@@ -103,7 +103,7 @@ print(sortString(str))
 
 **Output:**
 
-```
+```py
 eeGks
 
 ```

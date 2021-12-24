@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 SELECT * FROM tablename LIMIT limit;
 
 SELECT * FROM tablename LIMIT limit OFFSET offset;
@@ -28,7 +28,7 @@ SELECT * FROM tablename LIMIT limit OFFSET offset;
 
 **示例 1:** 仅显示 2 条记录的程序
 
-```
+```py
 import mysql.connector
 
 # Conencting to the database
@@ -57,7 +57,7 @@ for x in result_set:
 
 **例 2:** 从第二条记录开始编程，显示前两条记录
 
-```
+```py
 import mysql.connector
 
 # Conencting to the database

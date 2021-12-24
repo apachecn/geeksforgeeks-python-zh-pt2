@@ -8,7 +8,7 @@
     ![](img/e0a38879d665304ef30f38ac4f23a80a.png)
     **Example –**
 
-    ```
+    ```py
     Sequence = {1, 3, 9}
 
     product         = 27
@@ -19,7 +19,7 @@
 
     **代码–**
 
-    ```
+    ```py
     # Geometric Mean 
 
     import numpy as np
@@ -34,7 +34,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Geometric Mean is : 3
     ```
 
@@ -43,7 +43,7 @@
 
     **示例–**
 
-    ```
+    ```py
     Sequence = {1, 3, 9}
 
     sum of reciprocals = 1/1 + 1/3 + 1/9
@@ -54,7 +54,7 @@
 
     **代码–**
 
-    ```
+    ```py
     # Harmonic Mean 
 
     import numpy as np
@@ -69,7 +69,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Harmonic Mean is : 2.076923076923077
     ```
 
@@ -77,7 +77,7 @@
     ![](img/1238cb1dfa565506b6f155fc6e9b54e8.png)
     **例–**
 
-    ```
+    ```py
     Sequence = {1, 3, 9}
 
     sum of reciprocals = 1/1 + 1/3 + 1/9

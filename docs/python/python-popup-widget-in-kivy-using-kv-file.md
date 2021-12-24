@@ -10,7 +10,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用弹出窗口，您必须导入:
 
-```
+```py
 from kivy.uix.popup import Popup
 ```
 
@@ -21,14 +21,14 @@ from kivy.uix.popup import Popup
 
 ## 蟒蛇 3
 
-```
+```py
 BoxLayout:
    MyPopup:  # bad !
 ```
 
 **基本方法:**
 
-```
+```py
 1) import kivy
 2) import kivyApp
 3) import Widget
@@ -55,7 +55,7 @@ BoxLayout:
 
 ## 蟒蛇 3
 
-```
+```py
 # Kivy example for the Popup widget
 
 # Program to Show how to create a switch
@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file of the popup code
 
 # Adding Button widget

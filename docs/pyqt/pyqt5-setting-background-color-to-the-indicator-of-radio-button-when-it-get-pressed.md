@@ -6,7 +6,7 @@
 
 为了改变指示器被按下时的背景颜色，我们必须改变单选按钮的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator:pressed
 {
 background-color : light green;
@@ -16,7 +16,7 @@ background-color : light green;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys

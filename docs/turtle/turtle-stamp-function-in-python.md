@@ -8,7 +8,7 @@
 
 这个方法用于在画布上标记一个套头衫的副本并返回它的 id。这不需要任何争论。不管乌龟的形状是什么，它都会在那个点被打印出来，并继续下一个指示。
 
-```
+```py
 turtle.stamp()
 ```
 
@@ -18,7 +18,7 @@ turtle.stamp()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -43,7 +43,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

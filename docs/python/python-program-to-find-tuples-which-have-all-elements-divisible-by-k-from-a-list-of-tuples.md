@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K Multiple Elements Tuples
 # Using list comprehension + all()
@@ -41,7 +41,7 @@ print("K Multiple elements tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 24, 12), (7, 9, 6), (12, 18, 21)]
 K Multiple elements tuples : [(6, 24, 12)]
 
@@ -53,7 +53,7 @@ K Multiple elements tuples : [(6, 24, 12)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K Multiple Elements Tuples
 # Using filter() + lambda + all()
@@ -76,7 +76,7 @@ print("K Multiple elements tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 24, 12), (7, 9, 6), (12, 18, 21)]
 K Multiple elements tuples : [(6, 24, 12)]
 

@@ -7,7 +7,7 @@
 **方法:使用`max() + re.findall()`**
 以上方法的组合可以用来执行此任务。在本文中，我们使用 findall()提取重复的子字符串，并使用 max()提取它们的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum Consecutive Substring  Occurrence
 # Using max() + re.findall()
@@ -32,7 +32,7 @@ print("The maximum run of Substring : " + res) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksgeeks are geeks for all geeksgeeksgeeks
 The maximum run of Substring : geeksgeeksgeeks
 

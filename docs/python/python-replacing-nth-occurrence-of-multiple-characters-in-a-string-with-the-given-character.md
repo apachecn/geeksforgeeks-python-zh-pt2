@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation to replace nth
 # occurrence of the every character
 # in a string
@@ -73,7 +73,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```py
 Ge#ksfor#ee#s
 ```
 
@@ -84,7 +84,7 @@ Ge#ksfor#ee#s
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation to replace nth
 # occurrence of the every character
 # in a string using find() function
@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```py
 Ge#ksfor#ee#s
 ```
 
@@ -136,7 +136,7 @@ Ge#ksfor#ee#s
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation to replace nth
 # occurrence of the every character
 # in a string
@@ -176,6 +176,6 @@ if __name__ == '__main__':
 
 **Output:** 
 
-```
+```py
 Ge#ksfor#ee#s
 ```

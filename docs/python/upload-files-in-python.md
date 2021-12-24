@@ -7,7 +7,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 <body>
    <form enctype = "multipart/form-data" action = "python_script.py" method = "post">
@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 
 fileitem = form['filename']

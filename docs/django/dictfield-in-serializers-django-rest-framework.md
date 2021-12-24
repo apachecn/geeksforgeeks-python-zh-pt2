@@ -15,14 +15,14 @@ DictField 基本上是一个字典字段，它根据对象字典验证输入。
 
 **语法–**
 
-```
+```py
 field_name = serializers.DictField(*args, **kwargs)
 ```
 
 **示例–**
 例如，要创建一个验证字符串到字符串的映射的字段，您可以编写如下内容:
 
-```
+```py
 document = DictField(child=CharField())
 ```
 
@@ -33,7 +33,7 @@ document = DictField(child=CharField())
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -51,13 +51,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行，–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -85,7 +85,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 DictField 只验证字典对象的数据。让我们检查这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data = {}
 >>> data['dictionary'] = demo

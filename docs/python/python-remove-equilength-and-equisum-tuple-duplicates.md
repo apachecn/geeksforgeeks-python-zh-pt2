@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Equilength and Equisum Tuple Duplicates
 # Using nested loop
@@ -41,7 +41,7 @@ print("Tuples after filteration : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5, 6), (3, 0), (2, 1), (1, 2, 3), (5, 5, 5)]
 Tuples after filteration : [(4, 5, 6), (3, 0), (1, 2, 3)]
 ```
@@ -51,7 +51,7 @@ Tuples after filteration : [(4, 5, 6), (3, 0), (1, 2, 3)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Equilength and Equisum Tuple Duplicates
 # Using dict() + values()
@@ -72,7 +72,7 @@ print("Tuples after filteration : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5, 6), (3, 0), (2, 1), (1, 2, 3), (5, 5, 5)]
 Tuples after filteration : [(4, 5, 6), (3, 0), (1, 2, 3)]
 ```

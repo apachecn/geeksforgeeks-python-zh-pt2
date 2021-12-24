@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Group Sum till each K
 # Using loop
@@ -55,7 +55,7 @@ print("Computed list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 5, 6, 2, 6, 8, 9, 4, 6, 1]
 Computed list : [10, 6, 2, 6, 21, 6, 1]
 ```

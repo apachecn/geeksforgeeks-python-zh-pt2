@@ -13,7 +13,7 @@
 **方法#1:使用 loop + zip()**
 以上函数的组合可以用来解决这个问题。在本文中，我们使用 zip()将元素与其后续元素结合起来。循环用于以暴力方式执行计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum consecutive elements percentage change
 # Using zip() + loop
@@ -36,7 +36,7 @@ print("The maximum percentage change : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [4, 6, 7, 4, 2, 6, 2, 8]
 The maximum percentage change : 300.0
 
@@ -45,7 +45,7 @@ The maximum percentage change : 300.0
 **方法 2:使用递归+ `max()`**
 这是可以执行该任务的另一种方式。在这种情况下，我们不使用循环，而是使用递归来执行这个任务，跟踪每次调用的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum consecutive elements percentage change
 # Using zip() + loop
@@ -75,7 +75,7 @@ print("The maximum percentage change : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [4, 6, 7, 4, 2, 6, 2, 8]
 The maximum percentage change : 300.0
 

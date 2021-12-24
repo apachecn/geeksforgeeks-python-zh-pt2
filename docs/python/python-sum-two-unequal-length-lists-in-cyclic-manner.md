@@ -8,7 +8,7 @@
 
 **方法#1:使用迭代器和 zip**
 
-```
+```py
 # Python code to add two different
 # length lists in cyclic manner
 
@@ -28,14 +28,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [159, 221, 456, 294, 216, 257, 577, 132, 330, 361]
 
 ```
 
 **方法 2:使用迭代器和星图**
 
-```
+```py
 # Python code to add two different 
 # length lists in cyclic manner
 
@@ -56,14 +56,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [159, 221, 456, 294, 216, 257, 577, 132, 330, 361]
 
 ```
 
 **方法三:使用列表理解**
 
-```
+```py
 # Python code to add two different
 # length lists in cyclic manner
 
@@ -81,7 +81,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 [159, 221, 456, 294, 216, 257, 577, 132, 330, 361]
 
 ```

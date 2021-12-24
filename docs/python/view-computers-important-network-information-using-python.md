@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import subprocess
 
@@ -44,7 +44,7 @@ for item in data:
 
 **安装:**
 
-```
+```py
 pip install ifcfg
 
 ```
@@ -53,7 +53,7 @@ pip install ifcfg
 
 ## 蟒蛇 3
 
-```
+```py
 import ifcfg
 print(ifcfg.interfaces())
 ```

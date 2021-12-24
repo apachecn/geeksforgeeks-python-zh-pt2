@@ -71,7 +71,7 @@
 
 *   为了将矩阵转换成简化的行梯队形式，我们使用了 python 中的 Sympy 包，首先，我们需要安装它。
 
-```
+```py
 # install sympy
 ! pip install sympy
 
@@ -87,7 +87,7 @@ print("Rank of matrix :",sympy.Matrix([[4,0,1],[2,0,2],[3,0,3]]).rank())
 
 **输出:**
 
-```
+```py
 (Matrix([
  [1, 0, 0],
  [0, 0, 1],

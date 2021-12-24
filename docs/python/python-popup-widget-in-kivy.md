@@ -15,13 +15,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用弹出窗口，您必须导入:
 
-```
+```py
 from kivy.uix.popup import Popup
 ```
 
 **注意:** Popup 是一个特殊的小部件。不要试图将其作为孩子添加到任何其他小部件中。如果你这样做了，弹出窗口将像一个普通的小部件一样被处理，不会被隐藏在后台创建。
 
-```
+```py
 Basic Approach :
 
 1) import kivy
@@ -39,7 +39,7 @@ Basic Approach :
 
 **Code #1:** In the first code the popup will cover the whole “parent” window.
 
-```
+```py
 # Kivy example for the Popup widget
 
 # Program to Show how to create a switch
@@ -135,7 +135,7 @@ if __name__ == '__main__':
 **代码#2:**
 在第二个代码中当我们使用 *size_hint* 和 size 的时候我们可以给出相应的大小。在这种情况下，只需在第 75 行中添加如下代码所示的内容。
 
-```
+```py
 # Kivy example for the Popup widget
 
 # Program to Show how to create a switch

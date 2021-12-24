@@ -24,7 +24,7 @@ T16】TM _ monT18】1 至 12T21T26】TM _ mdayT28】1 至 31 【T29 T61T64】一
 
 **示例 1:** 以下示例显示了当前日期的时间元组。
 
-```
+```py
 # program to illustrate timetuple()
 # method in Python
 
@@ -49,7 +49,7 @@ print(objTimeTuple)
 
 **示例 2:** 让我们看另一个使用自定义日期的示例。
 
-```
+```py
 # program to illustrate timetuple() 
 # method in Python 
 
@@ -73,7 +73,7 @@ print("Daylight Saving Time: ", birthDate.timetuple()[8])
 
 **输出:**
 
-```
+```py
 Year:  1999
 Month:  4
 Day:  6

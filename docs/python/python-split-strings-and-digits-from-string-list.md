@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `strip() + isdigit() + join()`**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们从字符串中识别出的数字中去除杂散字符并返回结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract digit from string list 
 # using list comprehension + strip() + isdigit() + join()
@@ -30,7 +30,7 @@ print("List after removing stray characters : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['-4', 'Rs 25', '5 kg', '+15']
 List after removing stray characters : ['-', '4', 'Rs', '25', '5', 'kg', '+', '15']
 

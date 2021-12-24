@@ -12,7 +12,7 @@
 **方法#1:使用`islice()` +字典理解**
 切片方法可用于将需要制作的列表块分组为字典的值，然后使用字典理解将其分配给它们的指定索引键。
 
-```
+```py
 # Python3 code to demonstrate
 # Subgrouping of i'th index size in list
 # using islice() + dictionary comprehension
@@ -42,7 +42,7 @@ print("The grouped dictionary is : " + str(res))
 **方法 2:使用`itemgetter() + takewhile() + islice()`**
 为了提高计算速度，我们引入了新的函数来执行这个特定的任务，takewhile 和 itemgetter 函数执行对分片值进行分组的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Subgrouping of i'th index size in list
 # using itemgetter() + takewhile() + islice()

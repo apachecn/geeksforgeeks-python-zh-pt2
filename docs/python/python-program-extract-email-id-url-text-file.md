@@ -7,7 +7,7 @@
 
 示例:
 
-```
+```py
 Input : 
 Hello
 This is Geeksforgeeks
@@ -30,7 +30,7 @@ Output :
 
 网址文本文件可以使用`urllib.request`进行处理。对于使用正则表达式提取电子邮件，可以使用`re` 库。关于正则表达式的更多细节，请参考[本](https://www.geeksforgeeks.org/extracting-email-addresses-using-regular-expressions-python/)。
 
-```
+```py
 # library that handles the URL stuff
 import urllib.request
 
@@ -59,7 +59,7 @@ for line in fhand:
 
 **输出:**
 
-```
+```py
 []
 []
 ['review-team@geeksforgeeks.org']

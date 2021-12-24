@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -73,7 +73,7 @@ sys.exit(App.exec())
 **输出:**
 ![](img/8e8fa07814ed720b6b99043c0c921e76.png)
 
-```
+```py
 Toggled Signal Emitted
 Toggled Signal Emitted
 Toggled Signal Emitted

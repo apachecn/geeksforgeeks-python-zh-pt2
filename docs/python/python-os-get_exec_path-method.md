@@ -17,7 +17,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 
 **Code #1:** Use of os.get_exec_path() method
 
-```
+```py
 # Python program to explain os.get_exec_path() method 
 
 # importing os module 
@@ -36,7 +36,7 @@ print(exec_path)
 
 **Output:**
 
-```
+```py
 Following paths will be searched for a named executable:
 ['/usr/local/sbin', '/usr/local/bin', '/usr/sbin', '/usr/bin', '/sbin', '/bin', '/usr/games', '/usr/local/games', '/snap/bin', '/usr/local/java/jdk-10.0.1/bin', '/usr/local/java/jdk-10.0.1/jre/bin', '/opt/jdk-10.0.1/bin', '/opt/jdk-10.0.1/jre/bin']
 
@@ -44,7 +44,7 @@ Following paths will be searched for a named executable:
 
 **代码#2:** 指定环境参数
 
-```
+```py
 # Python program to explain os.get_exec_path() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ print(exec_path)
 
 **Output:**
 
-```
+```py
 Following paths will be searched for a named executable:
 ['', '/bin', '/usr/bin']
 

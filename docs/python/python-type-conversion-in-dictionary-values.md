@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Type conversion in list of dicts.
 # using naive method
@@ -31,7 +31,7 @@ print ("The modified converted list is : " +  str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [{'a': '1', 'b': '2'}, {'c': '3', 'd': '4'}]
 The modified converted list is : [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]
 ```
@@ -41,7 +41,7 @@ The modified converted list is : [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Type conversion in list of dicts.
 # using items() + list comprehension
@@ -64,7 +64,7 @@ print ("The modified converted list is : " +  str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [{'b': '2', 'a': '1'}, {'c': '3', 'd': '4'}]
 The modified converted list is : [{'a': 1, 'b': 2}, {'c': 3, 'd': 4}]
 ```

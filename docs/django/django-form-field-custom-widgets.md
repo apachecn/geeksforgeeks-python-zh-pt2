@@ -15,7 +15,7 @@
 
 现在让我们在“极客/表单. py”中创建一个演示表单，
 
-```
+```py
 from django import forms
 
 // creating a django form
@@ -28,7 +28,7 @@ class GeeksForm(forms.Form):
 
 现在要呈现这个表单，我们需要创建视图和模板，用于向用户显示表单。在极客/视图. py 中，创建一个视图
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -42,7 +42,7 @@ def home_view(request):
 
 在模板/home.html 中，
 
-```
+```py
 <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
@@ -52,7 +52,7 @@ def home_view(request):
 
 现在让我们通过运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -66,7 +66,7 @@ Python manage.py runserver
 出于各种目的，可以覆盖每个字段的默认小部件。部件列表可以在这里看到–[部件|姜戈文档](https://docs.djangoproject.com/en/3.0/ref/forms/widgets/)。要覆盖默认小部件，我们需要显式定义要分配给字段的小部件。
 对`geeks/forms.py`进行如下修改:
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -84,7 +84,7 @@ class GeeksForm(forms.Form):
 
 窗口小部件在表单域中有很大的用途，尤其是在使用选择类型的窗口小部件时，人们希望限制用户输入的类型和数量。让我们通过修改日期字段来演示这一点。把表格当成，
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -99,7 +99,7 @@ class GeeksForm(forms.Form):
 
 现在，让我们更改小部件，以便用户更好、更方便地输入日期。将[选择日期窗口小部件](https://docs.djangoproject.com/en/3.0/ref/forms/widgets/#selectdatewidget)添加到`forms.py`中的日期字段，
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):

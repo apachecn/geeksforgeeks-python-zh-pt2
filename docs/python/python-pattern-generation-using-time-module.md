@@ -18,7 +18,7 @@
 
 **代码:生成模式的 Python 程序**
 
-```
+```py
 # Print triangles by giving the number of stars:
 
 # For Diamond, an odd number of stars will give a better result,
@@ -116,7 +116,7 @@ diamond(n)
 
 **输出:**
 
-```
+```py
 ----------Right Angled Triangle Type 1----------
 *
 **

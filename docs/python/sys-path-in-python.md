@@ -18,7 +18,7 @@ sys.path 是 sys 模块中的内置变量。它包含解释器将在其中搜索
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import sys
 
@@ -33,14 +33,14 @@ sys.path
 
 *   **通过环境变量-** 可以使用包含解释器在寻找模块时可以采用的路径的环境变量。一旦设置好，它会提示带有目录的解释器定位一个模块。以下示例显示了如何做到这一点。
 
-```
+```py
 PYTHONPATH=C:\Users\Vanshi\Desktop
 
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import sys
 
@@ -56,7 +56,7 @@ sys.path
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import sys
 

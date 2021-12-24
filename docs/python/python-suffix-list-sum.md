@@ -7,7 +7,7 @@
 **方法:使用列表理解+ `sum()` +列表切片**
 这个问题可以通过上面两个函数的组合来解决，其中我们使用列表理解来将逻辑扩展到每个元素，求和函数来获得和，切片用于获得和，直到特定的索引。
 
-```
+```py
 # Python3 code to demonstrate
 # Suffix List Sum 
 # using list comprehension + sum() + list slicing 
@@ -29,7 +29,7 @@ print("The suffix sum list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The suffix sum list is : [1, 10, 17, 18, 22, 25]
 

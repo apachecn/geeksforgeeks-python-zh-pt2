@@ -29,7 +29,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# getting max value
 def get_max(dicts):
     return max(list(dicts.values()))
@@ -61,7 +61,7 @@ print("Sorted List : " + str(test_list))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [{1: 5, 6: 7, 9: 1}, {2: 6, 9: 10, 1: 4}, {6: 5, 9: 3, 1: 6}]
 

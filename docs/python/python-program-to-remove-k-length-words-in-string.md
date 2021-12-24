@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove K length words in String
 # Using split() + join() + list comprehension + len()
@@ -49,7 +49,7 @@ print("Modified String : " + (res))
 
 **输出:**
 
-```
+```py
 The original string is : Gfg is best for all geeks
 Modified String : is best geeks
 ```
@@ -60,7 +60,7 @@ Modified String : is best geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove K length words in String
 # Using filter() + lambda + split() + len() + join()
@@ -90,7 +90,7 @@ print("Modified String : " + (res))
 
 **输出:**
 
-```
+```py
 The original string is : Gfg is best for all geeks
 Modified String : is best geeks
 ```

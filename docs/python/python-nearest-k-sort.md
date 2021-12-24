@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nearest K Sort
 # Using sort() + abs()
@@ -47,7 +47,7 @@ print("Sorted List : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [6, 7, 4, 11, 17, 8, 3]
 Sorted List : [11, 8, 7, 6, 4, 17, 3]
 
@@ -59,7 +59,7 @@ Sorted List : [11, 8, 7, 6, 4, 17, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nearest K Sort
 # Using sorted() + abs() + lambda
@@ -82,7 +82,7 @@ print("Sorted List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [6, 7, 4, 11, 17, 8, 3]
 Sorted List : [11, 8, 7, 6, 4, 17, 3]
 

@@ -49,7 +49,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the following modules
 import os
 import time

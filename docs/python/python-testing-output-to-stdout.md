@@ -9,7 +9,7 @@
 
 **Code #1 : Example**
 
-```
+```py
 def urlprint(protocol, host, domain):
     url = '{}://{}.{}'.format(protocol, host, domain)
     print(url)
@@ -21,7 +21,7 @@ def urlprint(protocol, host, domain):
 
 **代码#2:上述代码的测试代码**
 
-```
+```py
 from io import StringIO
 from unittest import TestCase
 from unittest.mock import patch

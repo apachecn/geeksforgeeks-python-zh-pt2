@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import package
 from dataclasses import dataclass
 
@@ -43,7 +43,7 @@ print(DataClassObject)
 
 ## 蟒 3
 
-```
+```py
 # import package
 from dataclasses import make_dataclass
 

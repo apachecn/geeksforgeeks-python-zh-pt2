@@ -12,13 +12,13 @@ Python 提供了一个名为[**的库，可以轻松实现网页抓取。美丽�
 
 **导航到项目目录并运行此命令，在项目目录中创建一个名为“env”的虚拟环境。**
 
-```
+```py
 python3 -m venv env
 ```
 
 **通过键入激活“env”。**
 
-```
+```py
  source env/bin/activate
 ```
 
@@ -28,13 +28,13 @@ python3 -m venv env
 
 *   ****美观组:**一个刮网页的库。**
 
-```
+```py
 pip install bs4
 ```
 
 *   ****请求:**这使得发送 HTTP 请求的过程。**
 
-```
+```py
 pip install requests
 ```
 
@@ -44,7 +44,7 @@ pip install requests
 
 ## **蟒蛇 3**
 
-```
+```py
 import bs4
 from bs4 import BeautifulSoup
 import requests
@@ -56,7 +56,7 @@ print(response.status_code)
 
 ****输出:****
 
-```
+```py
 200
 ```
 
@@ -66,7 +66,7 @@ print(response.status_code)
 
 ## **蟒蛇 3**
 
-```
+```py
 # create object
 soup = BeautifulSoup(r.text, "html.parser")
 
@@ -87,7 +87,7 @@ print(title)
 
 ## **蟒蛇 3**
 
-```
+```py
 # replace
 title.string = "Is GFG day today?"
 heading.string = "Welcome to GFG"
@@ -105,7 +105,7 @@ heading.string = "Welcome to GFG"
 
 ## **蟒蛇 3**
 
-```
+```py
 import bs4
 from bs4 import BeautifulSoup
 import requests

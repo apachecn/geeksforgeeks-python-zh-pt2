@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 print("-----Program for Student Information-----")
 
 D = dict()
@@ -141,7 +141,7 @@ option()
 
 **输出:**
 
-```
+```py
 -----Program for Student Information-----
 How many student record you want to store?? 3
 Enter the complete name (First and last name) of student: shubham shukla

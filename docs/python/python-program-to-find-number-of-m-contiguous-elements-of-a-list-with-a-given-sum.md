@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : 
 1 2 1 3 2
 3 2
@@ -27,7 +27,7 @@ Output :
 
 从开始，我们选择前 m 个元素，如果 sum = s，则找到它们的和，然后将计数增加 1，将索引位置增加 1 选择下 m 个元素，并重复相同的操作，直到覆盖整个列表。
 
-```
+```py
 # Python program to find number of
 # m contiguous elements of a list 
 # with sum s
@@ -68,7 +68,7 @@ print(ans)
 
 **输出:**
 
-```
+```py
 2
 
 ```
@@ -79,7 +79,7 @@ print(ans)
 
 将变量索引初始化为 0，curr_sum 作为第一个元素。index 表示连续元素的计数，curr_sum 表示当前索引元素的总和。从第二个元素开始，将所有元素逐个添加到 curr_sum 中。如果 curr_sum 等于 sum，而 index 等于 m，那么 count 的值增加 1。如果索引超过 m，则删除尾随元素并将索引初始化为 m-1。
 
-```
+```py
 # Python program to find number of
 # m contiguous elements of a list 
 # with sum s
@@ -142,7 +142,7 @@ print(ans)
 
 **输出:**
 
-```
+```py
 2
 
 ```

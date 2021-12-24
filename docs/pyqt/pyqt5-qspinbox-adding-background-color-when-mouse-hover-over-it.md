@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须改变与旋转框相关的样式表，下面是样式表代码
 
-```
+```py
 QSpinBox::hover
 {
 border : 1px solid green;
@@ -17,7 +17,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +列表理解**
 上述功能的组合可用于执行该任务。在这种情况下，我们首先让初始的 K 元素保持原样，并执行元素剩余部分的求和和除以剩余元素的数量。
 
-```
+```py
 # Python3 code to demonstrate 
 # Rear elements Average in List
 # using list comprehension + sum()
@@ -31,7 +31,7 @@ print ("Average List after K elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 4, 7, 8, 1, 10]
 Average List after K elements : [5, 6, 4, 6.5]
 

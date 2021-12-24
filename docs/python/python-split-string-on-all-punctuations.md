@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split String on all punctuations
 # using regex + findall()
@@ -39,7 +39,7 @@ print("The converted string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks! is-best, for @geeks
 The converted string : ['geeksforgeeks', '!', 'is', '-', 'best', ', ', 'for', '@', 'geeks']
 

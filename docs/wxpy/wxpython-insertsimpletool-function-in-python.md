@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.InsertSimplTool(self, pos, toolId, bitmap, shortHelpString="", longHelpString="", isToggle=0)
 > ```
 > 
@@ -27,7 +27,7 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > ```
 
@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

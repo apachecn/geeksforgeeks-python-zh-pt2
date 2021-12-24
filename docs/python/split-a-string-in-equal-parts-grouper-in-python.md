@@ -16,7 +16,7 @@
 
 **示例:**
 
-```
+```py
 Input : str = ABCDEFG, l = 3
 Output : ABC DEF Gxx
 Explanation: 
@@ -29,7 +29,7 @@ Output : GEEKS FORGE EKSxx
 
 下面是蟒蛇 3 的代码:
 
-```
+```py
 # Python3 code for the grouper recipe
 
 # import the existing itertool izip_longest
@@ -64,6 +64,6 @@ print(result)    
 
 **输出:**
 
-```
+```py
 ABC DEF Gxx
 ```

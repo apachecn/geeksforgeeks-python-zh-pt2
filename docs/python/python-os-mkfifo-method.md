@@ -21,7 +21,7 @@ Python 中的`***os.mkfifo()***`方法用于创建一个具有指定模式的 FI
 
 **代码:**使用`***os.mkfifo()***`方法
 
-```
+```py
 # Python3 program to explain os.mkfifo() method
 
 # importing os module
@@ -44,7 +44,7 @@ print("FIFO named '% s' is created successfully." % path)
 
 **Output:**
 
-```
+```py
 FIFO named './mypipe' is created successfully.
 
 ```

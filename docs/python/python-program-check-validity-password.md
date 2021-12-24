@@ -14,7 +14,7 @@
 
 示例:
 
-```
+```py
 Input : R@m@_f0rtu9e$
 Output : Valid Password
 
@@ -30,7 +30,7 @@ Explanation: Must consist from _ or @ or $
 
 这里我们使用了 **re** 模块，该模块为 Python 中的[正则表达式提供支持。与此同时，re.search()方法返回 False(如果在第二个参数中找不到第一个参数)，这种方法比提取数据更适合测试正则表达式。我们已经使用 re.search()检查了字母、数字或特殊字符的有效性。为了检查空格，我们使用正则表达式模块中的“\s”。](https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/)
 
-```
+```py
 # Python program to check validation of password
 # Module of regular expression is used with search()
 import re
@@ -66,14 +66,14 @@ if flag ==-1:
 
 **Output:**
 
-```
+```py
 Valid Password
 
 ```
 
 **替代方法:-**
 
-```
+```py
 l, u, p, d = 0, 0, 0, 0
 s = "R@m@_f0rtu9e{content}quot;
 if (len(s) >= 8):
@@ -102,7 +102,7 @@ else:
 
 **Output:**
 
-```
+```py
 Valid Password
 
 ```

@@ -9,7 +9,7 @@
 
 具有带退出图标的工具按钮的窗口。当用户点击此按钮时，应用程序关闭。
 
-```
+```py
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 

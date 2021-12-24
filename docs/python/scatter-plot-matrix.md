@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 import seaborn as sns
@@ -68,7 +68,7 @@ sns.set_theme(style="ticks")
 sns.pairplot(titanic_dataset, hue='Survived')
 ```
 
-```
+```py
 PassengerId    Survived    Pclass    Name    Sex    Age    SibSp    Parch    Ticket    Fare    Cabin    Embarked
 0    892    0    3    Kelly, Mr. James    male    34.5    0    0    330911    7.8292    NaN    Q
 1    893    1    3    Wilkes, Mrs. James (Ellen Needs)    female    47.0    1    0    363272    7.0000    NaN    S
@@ -77,7 +77,7 @@ PassengerId    Survived    Pclass    Name    Sex    Age    SibSp    Parch    Tic
 4    896    1    3    Hirvonen, Mrs. Alexander (Helga E Lindqvist)    female    22.0    1    1    3101298    12.2875    NaN    S
 ```
 
-```
+```py
 PassengerId      int64
 Survived         int64
 Pclass           int64
@@ -90,7 +90,7 @@ Embarked        object
 dtype: object
 ```
 
-```
+```py
 Survived    Pclass    Sex    Age    SibSp    Parch    Fare    Embarked
 0    0    3    1    34.5    0    0    7.8292    1
 1    1    3    0    47.0    1    0    7.0000    2

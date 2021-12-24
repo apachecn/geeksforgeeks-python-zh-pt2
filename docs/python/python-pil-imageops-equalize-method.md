@@ -15,7 +15,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 所用图像:
 ![](img/345594dbc341bc7b8ffa447ae3bc2a4f.png)
 
-```
+```py
 # Importing Image and ImageOps module from PIL package  
 from PIL import Image, ImageOps 
 

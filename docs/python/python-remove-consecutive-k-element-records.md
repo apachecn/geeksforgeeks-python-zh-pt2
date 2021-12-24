@@ -17,7 +17,7 @@
 **方法一:使用`zip()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们需要使用 zip()组合两个连续的片段，并在列表理解中执行比较。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Consecutive K element records
 # Using zip() + list comprehension
@@ -41,7 +41,7 @@ print("The records after removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6, 3), (5, 6, 6, 9), (1, 3, 5, 6), (6, 6, 7, 8)]
 The records after removal : [(4, 5, 6, 3), (1, 3, 5, 6)]
 
@@ -50,7 +50,7 @@ The records after removal : [(4, 5, 6, 3), (1, 3, 5, 6)]
 **方法二:使用`any()` +列表理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 any()检查连续的元素，并使用列表理解来重新制作列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Consecutive K element records
 # Using any() + list comprehension
@@ -74,7 +74,7 @@ print("The records after removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6, 3), (5, 6, 6, 9), (1, 3, 5, 6), (6, 6, 7, 8)]
 The records after removal : [(4, 5, 6, 3), (1, 3, 5, 6)]
 

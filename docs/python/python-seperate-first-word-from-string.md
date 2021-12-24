@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行这个任务的蛮力方式。在这种情况下，我们迭代字符串并提取单词直到第一个单词，然后附加其他字符串作为列表的其他元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Separate first word from String
 # Using loop
@@ -38,7 +38,7 @@ print("Initial word separated list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg is best
 Initial word separated list : ['gfg', 'is best']
 

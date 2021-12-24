@@ -13,7 +13,7 @@ Python 有*数学库*，并且有很多关于它的功能。其中一个功能�
 
 **代码#1 :** 演示 expm1()的工作
 
-```
+```py
 # Python3 code to demonstrate
 # the working of expm1()
 import math
@@ -33,7 +33,7 @@ print ("The expm1 value using negative integer : "
 
 **输出:**
 
-```
+```py
 The expm1 value using positive integer : 53.598150033144236
 The expm1 value using negative integer : -0.950212931632136
 ```
@@ -45,7 +45,7 @@ The expm1 value using negative integer : -0.950212931632136
 
 **代码#2 :** 比较 expm1()和 exp()-1
 
-```
+```py
 # Python3 code to demonstrate
 # the application of expm1()
 import math
@@ -61,7 +61,7 @@ print ("The value with expm1() : " + str(math.expm1(test_int)))
 
 **输出:**
 
-```
+```py
 The value with exp()-1  : 1.000000082740371e-10
 The value with expm1() : 1.00000000005e-10
 

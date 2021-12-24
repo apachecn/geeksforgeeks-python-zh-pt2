@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : to learn programming refer geeksforgeeks
 Output : geeksforgeeks learn programming refer to
 
@@ -26,7 +26,7 @@ Output : for geeks geeks
 
 **下面是上面思路的实现。**
 
-```
+```py
 # Function to sort the words
 # in ascending order
 def sortedSentence(Sentence):
@@ -57,7 +57,7 @@ print(sortedSentence(Sentence))
 
 输出:
 
-```
+```py
 geeksforgeeks learn programming refer to
 for geeks geeks
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by Row Median
 # Using sort() + median()
@@ -44,7 +44,7 @@ print("Sorted Matrix : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [[3, 4, 7], [1, 7, 2], [10, 2, 4], [8, 6, 5]]
 Sorted Matrix : [[1, 7, 2], [3, 4, 7], [10, 2, 4], [8, 6, 5]]
 
@@ -56,7 +56,7 @@ Sorted Matrix : [[1, 7, 2], [3, 4, 7], [10, 2, 4], [8, 6, 5]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by Row Median
 # Using sorted() + lambda + median()
@@ -77,7 +77,7 @@ print("Sorted Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[3, 4, 7], [1, 7, 2], [10, 2, 4], [8, 6, 5]]
 Sorted Matrix : [[1, 7, 2], [3, 4, 7], [10, 2, 4], [8, 6, 5]]
 

@@ -64,7 +64,7 @@ SVM 核是一个函数，它把低维输入空间转换成高维空间，即将�
 
 ## 计算机编程语言
 
-```
+```py
 # import libraries
 import pandas as pd
 import numpy as np
@@ -79,7 +79,7 @@ dataset.columns
 
 **输出:**
 
-```
+```py
 Index(['ID', 'ClumpThickness', 'Cell Size', 'Cell Shape', 'Marginal Adhesion',
 'Single Epithelial Cell Size', 'Bare Nuclei', 'Normal Nucleoli', 'Bland Chromatin', 
 'Mitoses', 'Class'], dtype='object')
@@ -87,13 +87,13 @@ Index(['ID', 'ClumpThickness', 'Cell Size', 'Cell Shape', 'Marginal Adhesion',
 
 ## 计算机编程语言
 
-```
+```py
 dataset.info()
 ```
 
 **输出:**
 
-```
+```py
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 699 entries, 0 to 698
 Data columns (total 11 columns):
@@ -114,7 +114,7 @@ memory usage: 60.1+ KB
 
 ## 计算机编程语言
 
-```
+```py
 dataset.describe().transpose()
 ```
 
@@ -138,7 +138,7 @@ dataset.describe().transpose()
 
 ## 计算机编程语言
 
-```
+```py
 dataset = dataset.replace('?', np.nan)
 dataset = dataset.apply(lambda x: x.fillna(x.median()),axis=0)
 
@@ -149,7 +149,7 @@ dataset.isnull().sum()
 
 **输出:**
 
-```
+```py
 ID                                               0
 ClumpThickness                         0
 Cell Size                                      0
@@ -166,7 +166,7 @@ dtype: int64
 
 ## 计算机编程语言
 
-```
+```py
 from sklearn.model_selection import train_test_split
 
 # To calculate the accuracy score of the model

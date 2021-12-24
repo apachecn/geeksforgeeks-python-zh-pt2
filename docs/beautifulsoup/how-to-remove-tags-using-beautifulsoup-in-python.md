@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 Beautifulsoup.Tag.decompose()
 
 ```
@@ -21,7 +21,7 @@ tag . declaration()从给定的 HTML 文档的树中移除一个标签，然后�
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from bs4 import BeautifulSoup
 
@@ -56,7 +56,7 @@ print(new_tag)
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from bs4 import BeautifulSoup
 import requests

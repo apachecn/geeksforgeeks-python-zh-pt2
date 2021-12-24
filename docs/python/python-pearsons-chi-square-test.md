@@ -95,7 +95,7 @@ Therefore, **H0** is **accepted**, that is, the variables ***do not*** have a si
 
 **安装:**
 
-```
+```py
 pip install scipy
 
 ```
@@ -104,7 +104,7 @@ pip install scipy
 
 因此，我们需要将获得的 **p 值**与 0.05 的**α**值进行比较。
 
-```
+```py
 from scipy.stats import chi2_contingency
 
 # defining the table
@@ -122,7 +122,7 @@ else:
 
 **输出:**
 
-```
+```py
 p value is 0.1031971404730939
 Independent (H0 holds true)
 

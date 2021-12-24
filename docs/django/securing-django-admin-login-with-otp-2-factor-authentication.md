@@ -8,7 +8,7 @@
 
 我们将为我们的博客内容管理系统安装 TOTP 软件包，这将为我们的管理员登录增加动态口令安全性。首先安装 django-otp 包
 
-```
+```py
 pip install django-otp
 ```
 
@@ -16,7 +16,7 @@ pip install django-otp
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -43,7 +43,7 @@ MIDDLEWARE = [
 
 现在快跑，
 
-```
+```py
 # migrate our app
 python3 manage.py migrate
 ```
@@ -74,7 +74,7 @@ python3 manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django_otp.admin import OTPAdminSite
 
 admin.site.__class__ = OTPAdminSite
@@ -100,7 +100,7 @@ admin.site.__class__ = OTPAdminSite
 
 ## 蟒蛇 3
 
-```
+```py
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True

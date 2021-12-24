@@ -6,7 +6,7 @@
 
 **Code #6:**
 
-```
+```py
 
 from unittest.mock  
 import MagicMock 
@@ -19,7 +19,7 @@ m.assert_called_with(1, 2)  
 
 **输出:**
 
-```
+```py
 
 10  
 Traceback (most recent call last):    
@@ -33,7 +33,7 @@ Actual call: mock(1, 2, debug=True)
 
 **代码#7:通过将值作为第二个参数提供给`patch()`** 来替换该值
 
-```
+```py
 print("x : ", x)
 
 with patch('__main__.x', 'patched_value'):
@@ -45,14 +45,14 @@ print("x : ", x)
 
 **输出:**
 
-```
+```py
 x : 42
 x : 42
 ```
 
 通常用作替换值的 MagicMock 实例旨在模拟可调用和实例。它们记录关于使用的信息，并可以做出断言。
 
-```
+```py
 from unittest.mock import MagicMock
 m = MagicMock(return_value = 10)
 print(m(1, 2, debug = True), "\n")
@@ -63,7 +63,7 @@ m.assert_called_with(1, 2)
 
 **输出:**
 
-```
+```py
 10
 
 Traceback (most recent call last):
@@ -77,7 +77,7 @@ Actual call: mock(1, 2, debug=True)
 
 **代码#8:处理示例**
 
-```
+```py
 m.upper.return_value = 'HELLO'
 print (m.upper('hello'))
 
@@ -93,7 +93,7 @@ print (m.__getitem__.called)
 
 **输出:**
 
-```
+```py
 'HELLO'
 ['hello', 'world']
 <MagicMock name='mock.__getitem__()' id='4314412048'>
@@ -104,7 +104,7 @@ True
 
 **代码#9 :**
 
-```
+```py
 from urllib.request import urlopen
 import csv
 

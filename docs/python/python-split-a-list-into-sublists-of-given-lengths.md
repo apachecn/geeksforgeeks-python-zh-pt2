@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : Input = [1, 2, 3, 4, 5, 6, 7]
         length_to_split = [2, 1, 3, 1]
 
@@ -16,7 +16,7 @@ Output: [[1, 2], [3], [4, 5, 6], [7]]
 
 **方法#1:** 使用`islice`将列表拆分成给定长度的子列表，是最优雅的方式。
 
-```
+```py
 # Python code to split a list
 # into sublists of given length.
 
@@ -41,7 +41,7 @@ print("List after splitting", Output)
 
 **Output:**
 
-```
+```py
 Initial list is: [1, 2, 3, 4, 5, 6, 7]
 Split length list:  [2, 1, 3, 1]
 List after splitting [[1, 2], [3], [4, 5, 6], [7]]
@@ -50,7 +50,7 @@ List after splitting [[1, 2], [3], [4, 5, 6], [7]]
 
 **方法 2:** 使用`zip`是将列表拆分为给定长度的子列表的另一种方法。
 
-```
+```py
 # Python code to split a list into
 # sublists of given length.
 from itertools import accumulate
@@ -73,7 +73,7 @@ print("List after splitting", Output)
 
 **Output:**
 
-```
+```py
 Initial list is: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 Split length list:  [2, 2, 3, 3]
 List after splitting [[1, 2], [3, 4], [5, 6, 7], [8, 9, 10]]

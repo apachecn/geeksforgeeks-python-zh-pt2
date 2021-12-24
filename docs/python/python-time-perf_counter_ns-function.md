@@ -6,7 +6,7 @@
 
 **语法**:
 
-```
+```py
 from time import perf_counter_ns
 ```
 
@@ -16,7 +16,7 @@ from time import perf_counter_ns
 
 ## 蟒蛇 3
 
-```
+```py
 # import  perf_counter_ns()
 from time import perf_counter_ns
 
@@ -48,7 +48,7 @@ print("Elapsed time during the whole program",
 
 ## 蟒蛇 3
 
-```
+```py
 # import  perf_counter_ns()
 from time import perf_counter_ns
 

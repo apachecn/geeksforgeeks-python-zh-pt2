@@ -15,7 +15,7 @@
 > `mapping`-两个字符之间有映射的字典。
 > **返回:**返回修改后的字符串，其中每个字符根据提供的映射表映射到其对应的字符。
 
-```
+```py
 # Python3 code to demonstrate 
 # translations without 
 # maketrans() 
@@ -38,7 +38,7 @@ print (trg.translate(table)) 
 
 **Output:**
 
-```
+```py
 The string before translating is : weeksyourweeks
 The string after translating is : geeksforgeeks
 
@@ -46,7 +46,7 @@ The string after translating is : geeksforgeeks
 
 **再举一个例子:**
 
-```
+```py
 # Python 3 Program to show working
 # of translate() method
 
@@ -64,7 +64,7 @@ print("Translated string:", 
 
 **Output:**
 
-```
+```py
 Original string: geeks
 Translated string: ks
 
@@ -80,7 +80,7 @@ Translated string: ks
 > 
 > 返回:返回指定 translate()可以使用的转换的转换表
 
-```
+```py
 # Python 3 Program to show working
 # of translate() method
 
@@ -108,7 +108,7 @@ print("Translated string:", 
 
 **Output:**
 
-```
+```py
 Original string: geeks
 Translated string: ks
 
@@ -116,7 +116,7 @@ Translated string: ks
 
 **输出:**
 
-```
+```py
 Original string: geeks
 Translated string: ks
 ```

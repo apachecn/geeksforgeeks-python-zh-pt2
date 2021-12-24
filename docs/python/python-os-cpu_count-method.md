@@ -14,7 +14,7 @@
 
 **Code:** Use of os.cpu_count() method to get the number of CPUs in the system
 
-```
+```py
 # Python program to explain os.cpu_count() method  
 
 # importing os module 
@@ -32,7 +32,7 @@ print("Number of CPUs in the system:", cpuCount)
 
 **Output:**
 
-```
+```py
 Number of CPUs in the system: 4
 
 ```

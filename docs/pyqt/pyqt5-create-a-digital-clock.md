@@ -14,7 +14,7 @@
 
 以下是实施–
 
-```
+```py
 # importing required librarie
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget

@@ -9,13 +9,13 @@
 
 当我们对 python 解释器执行 file as 命令时，
 
-```
+```py
 python script.py
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to execute
 # main directly
 print ("Always executed")
@@ -37,7 +37,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to execute
 # function directly
 def my_function():
@@ -51,7 +51,7 @@ my_function()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to use
 # main for function call.
 if __name__ == "__main__":

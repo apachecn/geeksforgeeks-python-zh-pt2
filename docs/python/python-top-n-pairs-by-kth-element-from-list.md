@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该特定功能。在这种情况下，我们首先从 Kth 索引中过滤前 N 个元素，然后将这些值应用于列表并返回结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Top N pairs by Kth element from list
 # Using filter() + lambda + set() + list comprehension
@@ -44,7 +44,7 @@ print("Top N elements of Kth index are : " + str(res))
 
 该任务也可以使用上述功能来执行。在这种情况下，我们首先将前 N 个元素组合在一起，然后在构建结果列表时用 N 进行限制。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Top N pairs by Kth element from list
 # Using groupby() + sorted() + loop

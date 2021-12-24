@@ -14,7 +14,7 @@ RSS(真正简单的联合)是一种网络订阅源，允许用户和应用程序
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.syndication.views import Feed
 from django.template.defaultfilters import truncatewords
 from .models import posts
@@ -48,7 +48,7 @@ class atomFeed(Feed):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing django routing libraries
 from . import views
 from django.urls import path, include
@@ -78,7 +78,7 @@ Django 还附带了一个站点地图创建器，可以进入博客应用程序�
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -99,7 +99,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.sitemaps import Sitemap
 from .models import posts
 
@@ -122,7 +122,7 @@ class blogSitemap(Sitemap):
 
 ## 蟒蛇 3
 
-```
+```py
 # add it in your model for which you want to generate sitemap
 def get_absolute_url(self):
         from django.urls import reverse
@@ -135,7 +135,7 @@ def get_absolute_url(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # adding sitemap libraries
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemaps import blogSitemap

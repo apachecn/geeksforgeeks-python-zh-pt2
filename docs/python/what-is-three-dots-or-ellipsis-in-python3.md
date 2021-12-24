@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing numpy
 import numpy as np
 
@@ -41,7 +41,7 @@ print(array[Ellipsis, 0])
 
 **输出:**
 
-```
+```py
 [[[0.46253663 0.03092289]
   [0.72723607 0.75953107]]
 
@@ -67,7 +67,7 @@ print(array[Ellipsis, 0])
 
 实际上 callable 接受参数:
 
-```
+```py
 Callable "[" parameters_expression, type_expression "]"
 
 ```
@@ -78,7 +78,7 @@ Callable "[" parameters_expression, type_expression "]"
 
 ## 蟒蛇 3
 
-```
+```py
 from typing import Callable
 
 def inject(get_next_item: Callable[..., str]) -> None:
@@ -94,7 +94,7 @@ def foo(x: ...) -> None:
 
 实际上可调用的返回是这样的:
 
-```
+```py
 Callable "[" parameters_expression, type_expression "]" -> return_type: #body
 
 ```
@@ -103,7 +103,7 @@ Callable "[" parameters_expression, type_expression "]" -> return_type: #body
 
 ## 蟒蛇 3
 
-```
+```py
 class flow:
 
     # (using "value: Any" to allow arbitrary types)
@@ -118,7 +118,7 @@ class flow:
 
 ## 蟒蛇 3
 
-```
+```py
 # style1
 def foo():
     pass
@@ -134,7 +134,7 @@ def foo():
 
 ## 蟒蛇 3
 
-```
+```py
 def foo(x = ...):
     return x
 
@@ -143,7 +143,7 @@ print(foo)
 
 **输出:**
 
-```
+```py
 <function foo at 0x7fabdeea6e18>
 
 ```

@@ -12,19 +12,19 @@
 
 **步骤 1:** 通过以下命令启动项目
 
-```
+```py
 django-admin startproject geeks_site
 ```
 
 **第二步:**将目录改为极客 _ 站点
 
-```
+```py
 cd geeks_site
 ```
 
 **第三步:**创建一个名为**博客的应用**
 
-```
+```py
 python manage.py startapp blog
 ```
 
@@ -32,7 +32,7 @@ python manage.py startapp blog
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -56,7 +56,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 class Article(models.Model):
     title = models.CharField(max_length=200)
     lastedit_date = models.DateTimeField()
@@ -71,7 +71,7 @@ class Article(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # blog/admin.py
 from django.contrib import admin 
 from .models import Article
@@ -81,7 +81,7 @@ admin.site.register(Article)
 
 **步骤 7:** 现在，要迁移所有更改并启动服务器，请在终端中运行以下命令
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -89,7 +89,7 @@ python manage.py runserver
 
 创建超级用户帐户以登录到管理面板
 
-```
+```py
 python manage.py createsuperuser
 ```
 
@@ -105,25 +105,25 @@ python manage.py createsuperuser
 
 *   在姜戈，默认情况下网站地图框架是**而不是**，所以在 **INSTALLED_APPS** 中添加以下内容
 
-```
+```py
 django.contrib.sitemaps
 ```
 
 *   站点地图框架使用另一个姜戈的内置站点框架来运行。另外，在**已安装的应用程序**中添加以下内容
 
-```
+```py
 django.contrib.sites
 ```
 
 然后在 INSTALLED_APPS 列表后添加以下内容
 
-```
+```py
 SITE_ID = 1
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -154,7 +154,7 @@ SITE_ID = 1
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.sitemaps import Sitemap
 from .models import Article
 
@@ -170,7 +170,7 @@ class ArticleSitemap(Sitemap):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemap import ArticleSitemap
 from django.urls import path
@@ -183,7 +183,7 @@ path('sitemap.xml', sitemap, {'sitemaps': {'article' : ArticleSitemap}},
 
 现在，再次迁移所有更改并启动服务器
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver

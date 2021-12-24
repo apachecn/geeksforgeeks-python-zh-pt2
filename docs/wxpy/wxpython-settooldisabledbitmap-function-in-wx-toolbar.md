@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.SetToolDisabledBitmap(Self, id, bitmap)
 > ```
 > 
@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

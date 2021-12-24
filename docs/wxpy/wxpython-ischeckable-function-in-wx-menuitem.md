@@ -7,28 +7,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.IsCheckable(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required by IsCheckable() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > bool
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -77,7 +77,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Item is check
 Item is check
 

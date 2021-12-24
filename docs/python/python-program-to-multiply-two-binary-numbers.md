@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 firstnumber = 110
 secondnumber = 10
 Multiplication Result = 1100
@@ -23,7 +23,7 @@ Multiplication Result = 1100
 
 ## 蟒蛇 3
 
-```
+```py
 firstnumber = 110
 secondnumber = 10
 
@@ -38,7 +38,7 @@ print("\nResult = " + binaryMul)
 
 **输出:**
 
-```
+```py
 Result = 0b1100
 ```
 
@@ -48,7 +48,7 @@ Result = 0b1100
 
 ## 计算机编程语言
 
-```
+```py
 def binaryProduct(binaryOne, binaryTwo):
     i = 0
     remainder = 0
@@ -100,6 +100,6 @@ print("\nMultiplication Result = " + str(binaryMultiply))
 
 **输出:**
 
-```
+```py
 Multiplication Result = 1100
 ```

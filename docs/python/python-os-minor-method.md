@@ -21,7 +21,7 @@ Python 中的`***os.minor()***`方法用于从指定的原始设备号中提取�
 
 **Code:** Use of os.minor() method to extract the device minor number from a raw device number
 
-```
+```py
 # Python program to explain os.minor() method  
 
 # importing os module 
@@ -44,7 +44,7 @@ print("Device minor number:", minor)
 
 **Output:**
 
-```
+```py
 Raw device number: 2056
 Device minor number: 8
 

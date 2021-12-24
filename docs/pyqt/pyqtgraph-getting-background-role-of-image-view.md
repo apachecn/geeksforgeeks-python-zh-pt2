@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQTGaph 中获得图像视图对象的背景角色。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).用于显示和分析图像数据的小部件。实现许多功能，如显示 2D 和三维图像数据。对于 3D 数据，显示 z 轴滑块，允许用户选择显示哪个帧。显示图像数据的直方图，可移动区域定义暗/亮级别，可编辑渐变提供颜色查找表。背景角色从图像视图的调色板中定义用于渲染背景的画笔。
 我们可以借助下面给出的命令创建一个图像视图
 
-```
+```py
 # creating a pyqtgraph image view object
 imv = pg.ImageView()
 ```
@@ -32,7 +32,7 @@ imv = pg.ImageView()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

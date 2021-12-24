@@ -18,7 +18,7 @@ PyMongo 函数`**bulk_write()**`向服务器发送一批写操作。批量执行
 
 **示例 1 :** 使用`bulk_write()`执行多个请求。
 
-```
+```py
 # importing the module
 from pymongo import MongoClient, InsertOne, DeleteOne, ReplaceOne
 
@@ -56,7 +56,7 @@ for doc in mycollection.find({}):
 
 ****例 2 :****
 
-```
+```py
 # importing the modules
 from pymongo import MongoClient, InsertOne, DeleteOne, ReplaceOne, UpdateOne
 
@@ -89,6 +89,6 @@ for doc in mycollection.find({}):
 
 ****输出:****
 
-```
+```py
 {'_id': ObjectId('5f060cd7358fae75aad1ae94'), 'x': 8} 
 ```

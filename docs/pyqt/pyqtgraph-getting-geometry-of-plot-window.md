@@ -6,7 +6,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个绘图窗口
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -22,7 +22,7 @@ window = pg.plot()
 
 下面是实现
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 **输出:**
 ![](img/9f9463ffad23fa58e5173acb6bd0e322.png)
 
-```
+```py
 Geometry : PyQt5.QtCore.QRect(100, 100, 600, 500)
 
 ```

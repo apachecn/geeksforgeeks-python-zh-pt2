@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python naive approach to find the
 # second largest element in a dictionary
 
@@ -31,7 +31,7 @@ print(max2)
 
 **Output:** 
 
-```
+```py
 12
 ```
 
@@ -40,7 +40,7 @@ print(max2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to find second largest
 # element from a dictionary using sorted() method
 
@@ -58,7 +58,7 @@ print("Output2:", sorted(set(example_dict.values()), reverse=True)[-2])
 
 **Output:** 
 
-```
+```py
 11
 ```
 

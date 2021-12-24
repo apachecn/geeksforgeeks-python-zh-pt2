@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 os.access(path, mode)
 ```
 
@@ -25,7 +25,7 @@ os.access(path, mode)
 
     **代码#1:** 了解访问()方法
 
-    ```
+    ```py
     # Python program tyring to access
     # file with different mode parameter
 
@@ -57,7 +57,7 @@ os.access(path, mode)
 
     **输出:**
 
-    ```
+    ```py
     Exists the path: True
     Access to read the file: True
     Access to write the file: False
@@ -66,7 +66,7 @@ os.access(path, mode)
 
     **代码#2:** 允许验证访问后打开文件的代码
 
-    ```
+    ```py
     # Python program to open a file
     # after validating the access
 
@@ -83,6 +83,6 @@ os.access(path, mode)
 
     **输出:**
 
-    ```
+    ```py
     Facing some issue
     ```

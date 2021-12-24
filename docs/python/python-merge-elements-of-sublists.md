@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 list1 = [[1, 20, 30],
          [40, 29, 72], 
@@ -24,7 +24,7 @@ Output: [[1, 20, 30, 29, 57, 64, 22],
 
 **方法#1:使用`Map + lambda`**
 
-```
+```py
 # Python code to merge elements of sublists
 
 # Initialisation of first list
@@ -46,7 +46,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [[1, 20, 30, 29, 57, 64, 22],
  [40, 29, 72, 33, 66, 88, 15], 
  [119, 123, 115, 121, 100, 15, 117]]
@@ -55,7 +55,7 @@ print(Output)
 
 **方法 2:使用`Zip()`**
 
-```
+```py
 # Python code to merge elements of sublists
 
 # Initialisation of first list
@@ -77,7 +77,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [[1, 20, 30, 29, 57, 64, 22],
  [40, 29, 72, 33, 66, 88, 15],
  [119, 123, 115, 121, 100, 15, 117]]
@@ -86,7 +86,7 @@ print(Output)
 
 **方法三:使用`starmap()` `concat()`**
 
-```
+```py
 # Python code to merge elements of sublists
 
 from operator import concat
@@ -111,7 +111,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 [[1, 20, 30, 29, 57, 64, 22],
  [40, 29, 72, 33, 66, 88, 15],
  [119, 123, 115, 121, 100, 15, 117]]

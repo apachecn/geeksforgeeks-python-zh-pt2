@@ -4,7 +4,7 @@
 
 集合是一种无序的集合数据类型，它是可迭代的、可变的，并且没有重复的元素。Python 的集合类代表了集合的数学概念。与列表相比，使用集合的主要优点是，它有一个高度优化的方法来检查集合中是否包含特定元素。这是基于一个被称为[散列表](https://www.geeksforgeeks.org/hashing-set-1-introduction/)的数据结构。由于集合是无序的，我们不能像在[列表](https://www.geeksforgeeks.org/python-list/)中那样使用索引来访问项目。
 
-```
+```py
 # Python program to
 # demonstrate sets
 
@@ -19,7 +19,7 @@ print(myset)
 
 **Output:**
 
-```
+```py
 {'c', 'b', 'a'}
 {'d', 'c', 'b', 'a'}
 
@@ -30,7 +30,7 @@ print(myset)
 **Python 中的冻结集**是不可变的对象，它们只支持产生结果的方法和运算符，而不影响应用它们的一个或多个冻结集。虽然集合的元素可以随时修改，但冻结集合的元素在创建后保持不变。
 如果没有参数被传递，它返回一个空的 frozenset。
 
-```
+```py
 # Python program to demonstrate differences
 # between normal and frozen set
 
@@ -53,7 +53,7 @@ print(frozen_set)
 
 **Output:**
 
-```
+```py
 Normal Set
 set(['a', 'c', 'b'])
 
@@ -81,7 +81,7 @@ frozenset(['e', 'g', 'f'])
 
 set 中的插入是通过 set.add()函数完成的，在该函数中创建一个适当的记录值存储在哈希表中。与检查项目相同，即平均为 0(1)。然而，在最坏的情况下，它可能变成 O(n)。
 
-```
+```py
 # A Python program to
 # demonstrate adding elements
 # in a set
@@ -107,7 +107,7 @@ print(people)
 
 **Output:**
 
-```
+```py
 People: {'Idrish', 'Archi', 'Jay'}
 
 Set after adding element: {1, 2, 3, 4, 5, 'Idrish', 'Archi', 'Jay', 'Daxit'}

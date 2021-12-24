@@ -9,7 +9,7 @@
 **方法#1:使用列表理解**
 我们可以使用列表理解作为一行替代来执行各种幼稚的任务，用更简洁的代码提供可读性。我们可以遍历每个字典元素，并相应地不断构建字典列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # to convert dictionary of list to 
 # list of dictionaries
@@ -39,7 +39,7 @@ print ("The converted list of dictionaries " +  str(res))
 **方法 2:使用`zip()`**
 这种方法使用了`zip` 函数两次，第一次是我们需要将所有列表的特定索引值压缩为 1，第二次是获取特定索引的所有值并用相应的键进行压缩。
 
-```
+```py
 # Python3 code to demonstrate 
 # to convert dictionary of list to 
 # list of dictionaries

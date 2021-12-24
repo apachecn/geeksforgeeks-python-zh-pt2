@@ -6,7 +6,7 @@ Python 数据库应用编程接口是标准 Python 的数据库接口。大多�
 
 下面是一个连接 MySQL 数据库的程序`geeks`。
 
-```
+```py
 # importing required library 
 import mysql.connector
 
@@ -32,14 +32,14 @@ dataBase.close() 
 
 **语法语句:**
 
-```
+```py
 DELETE FROM TABLE_NAME WHERE ATTRIBUTE_NAME = ATTRIBUTE_VALUE
 
 ```
 
 **示例 1:** 下面是一个从数据库的表中删除查询的程序。
 
-```
+```py
 # importing required library 
 import mysql.connector 
 
@@ -95,7 +95,7 @@ dataBase.close()
 
 **示例 2:** 让我们看看表中查询的另一个示例。
 
-```
+```py
 # importing required library 
 import mysql.connector
 

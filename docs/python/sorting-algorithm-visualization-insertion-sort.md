@@ -39,7 +39,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python implementation of the
 # Sorting visualiser: Insertion Sort
 

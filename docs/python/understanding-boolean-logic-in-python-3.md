@@ -81,7 +81,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def check_Empty(list_name):
     print(bool(list_name))
 
@@ -101,7 +101,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 False
 True
 ```
@@ -110,7 +110,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 def print_range_numbers(n):
     i = 1
 
@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 def myFunction() :
     return True
 
@@ -154,7 +154,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 YES !
 ```
 
@@ -162,7 +162,7 @@ YES !
 
 ## 蟒蛇 3
 
-```
+```py
 def check_greater(num_1, num_2):
     if num_2 > num_1:
 
@@ -183,6 +183,6 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 num_2 is greater than num_1
 ```

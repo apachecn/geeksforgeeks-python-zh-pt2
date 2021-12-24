@@ -21,7 +21,7 @@ APIView 类为标准列表和详细视图提供了通常需要的行为。有了
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from django.http import Http404
 
@@ -105,7 +105,7 @@ class TransformerDetail(APIView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from rest_framework.urlpatterns import format_suffix_patterns
 from transformers import views
@@ -122,7 +122,7 @@ urlpatterns = format_suffix_patterns(urlpatterns)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 

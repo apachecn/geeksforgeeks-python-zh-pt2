@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Tuples with difference greater than K
 # Using list comprehension
@@ -50,7 +50,7 @@ print("Tuples List after removal : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Tuples with difference greater than K
 # Using filter() + lambda + abs()

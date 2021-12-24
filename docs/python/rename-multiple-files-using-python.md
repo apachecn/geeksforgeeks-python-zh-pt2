@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Pythono3 code to rename multiple
 # files in a directory or folder
 

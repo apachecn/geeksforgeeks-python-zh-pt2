@@ -5,7 +5,7 @@
 在本文中，我们将看到如何实现 QCalendarWidget 的操作事件。每当日历的操作发生更改时，都会用给定的事件调用此事件处理程序。这个事件处理程序可以在子类中重新实现，以接收在事件参数中传递的日历动作事件。
 下面是日历类代码
 
-```
+```py
 # QCalendarWidget Class
 class Calendar(QCalendarWidget):
 
@@ -32,7 +32,7 @@ class Calendar(QCalendarWidget):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui
@@ -123,7 +123,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 Action Changed
 Action Changed
 Action Changed

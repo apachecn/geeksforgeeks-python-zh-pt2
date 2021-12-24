@@ -10,7 +10,7 @@
 让我们讨论实现这一点的不同方法。
 **进场 1 :** 采用`[sample()](https://www.geeksforgeeks.org/python-random-sample-function/)`法。`sample()`方法用于从给定序列返回所需的项目列表。此方法不允许序列中有重复的元素。
 
-```
+```py
 # importing random module
 import random
 
@@ -26,14 +26,14 @@ print(random.sample(list, n))
 
 **输出:**
 
-```
+```py
 [8, 6, 6, 4]
 
 ```
 
 **方法 2 :** 使用`[choice()](https://www.geeksforgeeks.org/python-numbers-choice-function/)`方法。`choice()`方法用于从给定序列中返回一个随机数。序列可以是列表或元组。这将从可用数据中返回一个值，该值考虑序列(列表)中的重复值。
 
-```
+```py
 # importing random module
 import random
 
@@ -52,7 +52,7 @@ for i in range(n):
 
 **输出:**
 
-```
+```py
 8 2 4 6 
 
 ```

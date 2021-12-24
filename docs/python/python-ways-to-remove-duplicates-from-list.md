@@ -7,7 +7,7 @@
 **方法 1:天真方法**
 在天真方法中，我们只需遍历列表，在新列表中追加元素的第一次出现，并忽略该特定元素的所有其他出现。
 
-```
+```py
 # Python 3 code to demonstrate 
 # removing duplicated from list 
 # using naive methods 
@@ -30,7 +30,7 @@ print ("The list after removing duplicates : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 The list after removing duplicates : [1, 3, 5, 6]
 
@@ -39,7 +39,7 @@ The list after removing duplicates : [1, 3, 5, 6]
 **方法二:使用列表理解**
 这个方法的工作原理与上面的方法类似，但这只是借助列表理解完成的较长方法的一行速记。
 
-```
+```py
 # Python 3 code to demonstrate 
 # removing duplicated from list 
 # using list comprehension
@@ -60,7 +60,7 @@ print ("The list after removing duplicates : " + str(res))
 
 输出:
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 The list after removing duplicates : [1, 3, 5, 6]
 
@@ -69,7 +69,7 @@ The list after removing duplicates : [1, 3, 5, 6]
 **方法 3:使用 `set()`**
 这是从列表中删除重复项最流行的方法。但是这种方法的主要缺点是在这种特殊的方法中元素的顺序丢失了。
 
-```
+```py
 # Python 3 code to demonstrate 
 # removing duplicated from list 
 # using set()
@@ -90,7 +90,7 @@ print ("The list after removing duplicates : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 5, 3, 6, 3, 5, 6, 1]
 The list after removing duplicates : [1, 3, 5, 6]
 
@@ -99,7 +99,7 @@ The list after removing duplicates : [1, 3, 5, 6]
 **方法四:使用列表理解+ `enumerate()`**
 列表理解加上枚举功能也可以实现这个任务。它基本上寻找已经出现的元素，并跳过添加它们。它保留了列表顺序。
 
-```
+```py
 # Python 3 code to demonstrate 
 # removing duplicated from list 
 # using list comprehension + enumerate()
@@ -119,7 +119,7 @@ print ("The list after removing duplicates : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 5, 3, 6, 3, 5, 6, 1]
 The list after removing duplicates : [1, 5, 3, 6]
 
@@ -128,7 +128,7 @@ The list after removing duplicates : [1, 5, 3, 6]
 **方法五:使用`collections.OrderedDict.fromkeys()`**
 这是完成特定任务最快的方法。它首先删除重复项，并返回一个必须转换为列表的字典。这也适用于字符串。
 
-```
+```py
 # Python 3 code to demonstrate 
 # removing duplicated from list 
 # using collections.OrderedDict.fromkeys()
@@ -149,7 +149,7 @@ print ("The list after removing duplicates : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [1, 5, 3, 6, 3, 5, 6, 1]
 The list after removing duplicates : [1, 5, 3, 6]
 

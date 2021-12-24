@@ -8,7 +8,7 @@
 
 定义在类外部的变量可以由类中的任何类或任何方法通过只写变量名来访问。
 
-```
+```py
 # Program to demonstrate 'Variable 
 # defined outside the class'
 
@@ -41,7 +41,7 @@ uaac.another_access_method()
 
 **Output:**
 
-```
+```py
 Outside_class1 outside_class
 Outside_class2 outside_class
 Outside_class3 outside_class
@@ -55,7 +55,7 @@ Outside_class5 outside_class
 使用类的实例，可以在类内(包括所有方法)访问在类内但在方法外定义的变量。例如–self . var _ name。
 如果你想在类外使用该变量，你必须声明该变量为[全局](https://www.geeksforgeeks.org/global-local-variables-python/)。然后，可以使用变量在类内部和外部的名称来访问变量，而不使用类的实例。
 
-```
+```py
 # Program to demonstrate 'Variable 
 # defined inside the class'
 
@@ -89,7 +89,7 @@ uaac.another_access_method()
 
 **Output:**
 
-```
+```py
 Inside_class2 inside_class
 Inside_class3 inside_class
 
@@ -102,7 +102,7 @@ Inside_class3 inside_class
 方法中定义的变量只能通过简单地使用变量名来访问。示例–var _ name。
 如果你想在方法或类之外使用那个变量，你必须声明那个变量为[全局](https://www.geeksforgeeks.org/global-local-variables-python/)。
 
-```
+```py
 # Program to demonstrate 'Variable 
 # defined inside the method'
 
@@ -137,7 +137,7 @@ uaac.access_method()
 
 **Output:**
 
-```
+```py
 Inside_method3 inside_method
 
 ```

@@ -6,7 +6,7 @@
 ![](img/dd785135cb5771c53efce61917e346bb.png)
 例:
 
-```
+```py
 Input : list = [10, 20, 30, 40, 50] 
         index = 2
 Output : [10, 20, 40, 50] 
@@ -23,7 +23,7 @@ Output : [20, 40, 50]
 
 下面是上述方法的 Python3 实现
 
-```
+```py
 # Python3 program to remove the index 
 # element from the list 
 # using traversal 
@@ -47,7 +47,7 @@ remove(list1, pos)
 
 **输出:**
 
-```
+```py
 10 20 40 50
 
 ```
@@ -58,7 +58,7 @@ remove(list1, pos)
 
 下面是上述方法的 Python3 实现:
 
-```
+```py
 # Python3 program to remove the index 
 # element from the list 
 # using pop()
@@ -77,7 +77,7 @@ remove(list1, pos)
 
 **输出:**
 
-```
+```py
 10 20 40 50
 
 ```
@@ -88,7 +88,7 @@ remove(list1, pos)
 
 下面是上述方法的 Python3 实现:
 
-```
+```py
 # Python3 program to remove the index element
 # from the list using del
 
@@ -106,7 +106,7 @@ remove(list1, pos)
 
 **输出:**
 
-```
+```py
 10 20 40 50
 
 ```

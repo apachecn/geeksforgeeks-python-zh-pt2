@@ -13,7 +13,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`statsmodels.robust_kurtosis()`方法，我们能够使用该方法获得 numpy 阵列的四个峰度值。
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import robust_kurtosis
@@ -31,7 +31,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import robust_kurtosis

@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 import time
 

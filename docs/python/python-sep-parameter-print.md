@@ -8,7 +8,7 @@ Python 中 print()函数的参数之间的分隔符默认为空格(软空格功�
 
 ## 蟒蛇 3
 
-```
+```py
 #code for disabling the softspace feature
 print('G','F','G', sep='')
 
@@ -21,7 +21,7 @@ print('pratik','geeksforgeeks', sep='@')
 
 **输出:**
 
-```
+```py
 GFG
 09-12-2016
 pratik@geeksforgeeks
@@ -31,7 +31,7 @@ sep 参数与 [end](https://www.geeksforgeeks.org/gfact-50-python-end-parameter-
 
 ## 蟒蛇 3
 
-```
+```py
 print('G','F', sep='', end='')
 print('G')
 #\n provides new line after printing the year
@@ -43,7 +43,7 @@ print('geeksforgeeks')
 
 **输出:**
 
-```
+```py
 GFG
 09-12-2016
 prtkagarwal@geeksforgeeks
@@ -55,7 +55,7 @@ prtkagarwal@geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 #import the below module and see what happens
 import antigravity
 #NOTE - it wont work on online ide

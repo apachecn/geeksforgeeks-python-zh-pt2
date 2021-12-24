@@ -6,7 +6,7 @@
 
 **方法#1:使用 re**
 
-```
+```py
 # Python code to demonstrate 
 # to find nth occurrence of substring
 
@@ -29,7 +29,7 @@ else:
 
 **方法 2:使用 find()方法**
 
-```
+```py
 # Python code to demonstrate 
 # to find nth occurrence of substring
 
@@ -49,7 +49,7 @@ print ("Nth occurrence is at", val)
 
 **方法三:使用 startswith()和列表理解**
 
-```
+```py
 # Python code to demonstrate 
 # to find nth occurrence of substring
 

@@ -11,7 +11,7 @@ Python 中的`***os.path.splitdrive()***`方法用于将路径名拆分成一对
 在 Windows 上，`***os.path.splitdrive()***`方法将给定的路径名拆分为驱动器或 UNC sharepoint 作为*驱动器*和其他路径组件作为*尾部*。
 **例如:**
 
-```
+```py
      path name                         drive                  tail
 On Windows
 If path contains drive letter
@@ -34,7 +34,7 @@ On Unix
 
 **Code #1:** Use of os.path.splitdrive() method (On Windows)
 
-```
+```py
 # Python program to explain os.path.splitdrive() method 
 
 # importing os module 
@@ -79,7 +79,7 @@ print("Tail of path '%s':" %path, drive_tail[1])
 
 **Output:**
 
-```
+```py
 Drive of path 'C:\User\Documents\file.txt': C:
 Tail of path 'C:\User\Documents\file.txt': \User\Documents\file.txt 
 
@@ -93,7 +93,7 @@ Tail of path '\dir\file.txt': \dir\file.txt
 
 **代码#2:** 使用`os.path.splitdrive()`方法(在 UNIX 上)
 
-```
+```py
 # Python program to explain os.path.splitdrive() method 
 
 # importing os module 
@@ -119,7 +119,7 @@ print("Tail of path '%s':" %path, drive_tail[1])
 
 **Output:**
 
-```
+```py
 Drive of path '/home/User/Documents/file.txt': 
 Tail of path '/home/User/Documents/file.txt': /home/User/Documents/file.txt
 

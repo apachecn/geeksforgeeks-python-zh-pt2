@@ -21,7 +21,7 @@ Python 中的`***os.remove()***`方法用于移除或删除文件路径。此方
 
 **Code #1:** Use of os.remove() method to remove a file
 
-```
+```py
 # Python program to explain os.remove() method 
 
 # importing os module 
@@ -44,14 +44,14 @@ print("%s has been removed successfully" %file)
 
 **Output:**
 
-```
+```py
 file.txt has been removed successfully
 
 ```
 
 **Code #2:** If the specified path is a directory
 
-```
+```py
 # Python program to explain os.remove() method 
 
 # importing os module 
@@ -78,7 +78,7 @@ print("% s has been removed successfully" % file)
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "osremove.py", line 11, in 
     os.remove(path)
@@ -88,7 +88,7 @@ IsADirectoryError: [Errno 21] Is a directory: '/home/User/Documents/ihritik'
 
 **Code #3:** Handling error while using os.remove() method
 
-```
+```py
 # Python program to explain os.remove() method 
 
 # importing os module 
@@ -109,7 +109,7 @@ except OSError as error:
 
 **Output:**
 
-```
+```py
 [Errno 21] Is a directory: '/home/User/Documents/ihritik'
 File path can not be removed
 

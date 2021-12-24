@@ -21,7 +21,7 @@ Python 中的`***os.path.relpath()***`方法用于从当前工作目录或给定
 
 **代码:**使用 os.path.relpath()方法
 
-```
+```py
 # Python program to explain os.path.relpath() method 
 
 # importing os module 
@@ -95,7 +95,7 @@ print(relative_path)
 
 **Output:**
 
-```
+```py
 Desktop/file.txt
 ../User/Desktop/file.txt
 ../../../User/Desktop/file.txt

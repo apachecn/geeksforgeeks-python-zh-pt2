@@ -8,7 +8,7 @@
 Python 还提供了计算分组和连续数据函数中值的选项，这是这种健壮而方便的语言的最佳之处。**Statistics 模块下的中值 _ group()**功能，帮助从一组连续数据中计算中值。
 假设将数据分组为宽度区间的区间。数组中的每个数据点都是包含真值的区间的中点。中值是在中值区间(包含中值的区间)内通过插值计算的，假设该区间内的真实值均匀分布:
 
-```
+```py
 median = L + interval * (N / 2 - CF) / FL = lower limit of the median interval
 N = total number of data points
 CF = number of data points below the median interval
@@ -26,7 +26,7 @@ F = number of data points in the median interval
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate median_grouped()
 
 # importing median_grouped from
@@ -43,7 +43,7 @@ print("Grouped Median of the median is %s"
 
 **输出:**
 
-```
+```py
 Grouped Median of the median is 25.0
 ```
 
@@ -51,7 +51,7 @@ Grouped Median of the median is 25.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of median_grouped()
 
@@ -77,7 +77,7 @@ print("Grouped Median of set 3 is % s" % (median_grouped(set3)))
 
 **输出:**
 
-```
+```py
 Grouped Median of set 1 is 4.5
 Grouped Median of set 2 is -6.5
 Grouped Median of set 3 is 1.5
@@ -87,7 +87,7 @@ Grouped Median of set 3 is 1.5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # interval in median_grouped() function
 
@@ -113,7 +113,7 @@ print("Grouped Median for Interval set as "\
 
 **输出:**
 
-```
+```py
 Grouped Median for Interval set as (default) 1 is 12.5
 Grouped Median for Interval set as 2 is 12.0
 Grouped Median for Interval set as 5 is 10.5
@@ -126,7 +126,7 @@ Grouped Median for Interval set as 10 is 8.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate StatisticsError
 
 # importing the statistics module
@@ -141,7 +141,7 @@ print(statistics.median_grouped(list1))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/0990a4a3f5206c7cd12a596cf82a1587.py", line 10, in 
     print(statistics.median_grouped(list1))

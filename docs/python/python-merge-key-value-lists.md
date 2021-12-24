@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +循环+ `defaultdict()`**
 以上方法的组合可以用来执行这个特定的任务。在这种情况下，我们使用 zip 函数将列表中的相似元素相互匹配，然后使用 loop 为键赋值，从 zip 列表中为 defaultdict 赋值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge key value list
 # Using zip() + loop + defaultdict()

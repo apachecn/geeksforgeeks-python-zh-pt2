@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # List Elements Grouping in Matrix
 # Using loop 
@@ -58,7 +58,7 @@ print("The Grouped rows : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 6], [1, 2], [2, 6], [7, 8], [1, 4]]
 The Grouped rows : [[[1, 4], [2, 6]], [7, 8], [[1, 2], [4, 6]]]
 

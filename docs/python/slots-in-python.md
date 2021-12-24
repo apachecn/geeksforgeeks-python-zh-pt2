@@ -6,7 +6,7 @@ Python 中的插槽是一种特殊的机制，用于减少对象的内存。在 
 
 **语法**
 
-```
+```py
 class myClass(object):
 
     # defining the slots
@@ -22,7 +22,7 @@ class myClass(object):
 
 **例 1:**
 
-```
+```py
 # defining the class.
 class gfg:
 
@@ -47,14 +47,14 @@ print(a.course, a.price)
 
 **输出**
 
-```
+```py
 ('course', 'price')
 DSA Self Paced 3999
 ```
 
 **例 2:**
 
-```
+```py
 # defining the class.
 class gfg:
 
@@ -91,7 +91,7 @@ print(a.course, a.price)
 
 **输出**
 
-```
+```py
 ('course', 'price')
 oops 5999
 System Design 5999

@@ -8,7 +8,7 @@ Django 允许我们使用一个名为 ORM(对象关系映射器)的数据库抽�
 
 出于演示目的，我们将使用以下 Django 模型。
 
-```
+```py
 class Album(models.Model):
     title = models.CharField(max_length = 30)
     artist = models.CharField(max_length = 30)
@@ -27,13 +27,13 @@ class Song(models.Model):
 
 我们可以通过在项目目录中运行以下命令来访问 Django ORM。
 
-```
+```py
 python manage.py shell
 ```
 
 这将我们带到一个交互式 Python 控制台。假设我们的模型存在于 **`myProject/albums/models.py`** 中，我们可以使用以下命令导入我们的模型:
 
-```
+```py
 >>> from books.models import Song, Album
 ```
 
@@ -41,14 +41,14 @@ python manage.py shell
 
 要创建相册模型的对象并将其保存到数据库中，我们需要编写以下命令:
 
-```
+```py
 >>> a = Album(title = "Divide", artist = "Ed Sheeran", genre = "Pop")
 >>> a.save()
 ```
 
 要创建宋模型的对象并将其保存到数据库中，我们需要编写以下命令:
 
-```
+```py
 >>> s = Song(name = "Castle on the Hill", album = a)
 >>> s.save()
 ```
@@ -57,7 +57,7 @@ python manage.py shell
 
 为了演示，让我们再添加 2 张专辑唱片。
 
-```
+```py
 >>> a = Album(title = "Abbey Road", artist = "The Beatles", genre = "Rock")
 >>> a.save()
 >>> a = Album(title = "Revolver", artist = "The Beatles", genre = "Rock")
@@ -66,7 +66,7 @@ python manage.py shell
 
 为了检索模型的所有对象，我们编写以下命令:
 
-```
+```py
 >>> Album.objects.all()
 <QuerySet [<Album: Divide>, <Album: Abbey Road>, <Album: Revolver>]>
 ```
@@ -75,21 +75,21 @@ python manage.py shell
 
 我们也可以使用功能`filter()`、`exclude()`和`get()`过滤查询。`filter()`函数返回一个对象与给定查找参数匹配的查询集。
 
-```
+```py
 >>> Album.objects.filter(artist = "The Beatles")
 <QuerySet [<Album: Abbey Road>, <Album: Revolver>]>
 ```
 
 `exclude()`函数返回一个查询集，该查询集的对象与给定的查询参数不匹配。
 
-```
+```py
 >>> Album.objects.exclude(genre = "Rock")
 <QuerySet [<Album: Divide>]>
 ```
 
 `get()`函数返回与给定查找参数匹配的单个对象。当查询返回多个对象时，它会给出错误。
 
-```
+```py
 >>> Album.objects.get(pk = 3)
 <QuerySet [<Album: Revolver>]>
 ```
@@ -98,7 +98,7 @@ python manage.py shell
 
 我们可以按如下方式修改现有对象:
 
-```
+```py
 >>> a = Album.objects.get(pk = 3)
 >>> a.genre = "Pop"
 >>> a.save()
@@ -108,7 +108,7 @@ python manage.py shell
 
 要删除单个对象，我们需要编写以下命令:
 
-```
+```py
 >>> a = Album.objects.get(pk = 2)
 >>> a.delete()
 >>> Album.objects.all()
@@ -117,7 +117,7 @@ python manage.py shell
 
 要删除多个对象，我们可以使用`filter()`或`exclude()`功能，如下所示:
 
-```
+```py
 >>> Album.objects.filter(genre = "Pop").delete()
 >>> Album.objects.all()
 <QuerySet []>

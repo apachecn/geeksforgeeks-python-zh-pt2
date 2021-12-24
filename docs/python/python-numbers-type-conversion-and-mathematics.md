@@ -20,7 +20,7 @@ Python 中有三种数字类型:
 
 ## 蟒 3
 
-```
+```py
 # int
 var1 = 3
 
@@ -39,7 +39,7 @@ print(type(var3))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 <class 'float'>
 <class 'complex'>
@@ -53,7 +53,7 @@ print(type(var3))
 
 ## 蟒 3
 
-```
+```py
 # Python code to demonstrate Type conversion 
 var1 = 3.14
 
@@ -73,7 +73,7 @@ print ("type : ",type(var4))
 
 **输出:**
 
-```
+```py
 After converting float to integer :  3
 type :  <class 'int'>
 After converting string to integer :  323
@@ -100,7 +100,7 @@ type :  <class 'int'>
 
 ## 蟒 3
 
-```
+```py
 a = 50
 b = 30
 
@@ -137,7 +137,7 @@ print(p) 
 
 **输出:**
 
-```
+```py
 80
 20
 1500
@@ -167,7 +167,7 @@ print(p) 
 
 ## 蟒 3
 
-```
+```py
 # Python code to demonstrate the working of 
 # ceil() and floor() 
 
@@ -187,7 +187,7 @@ print (math.floor(a)) 
 
 **输出:**
 
-```
+```py
 The ceil of 2.3 is : 3
 The floor of 2.3 is : 2
 ```
@@ -196,7 +196,7 @@ The floor of 2.3 is : 2
 
 ## 蟒 3
 
-```
+```py
 # importing "math" for mathematical operations 
 import math 
 
@@ -216,7 +216,7 @@ print (math.gcd(5,15)) 
 
 **输出:**
 
-```
+```py
 The copysigned value of -10 and 5.5 is : -5.5
 The gcd of 5 and 15 is : 5
 ```
@@ -238,7 +238,7 @@ The gcd of 5 and 15 is : 5
 
 ## 蟒 3
 
-```
+```py
 # importing "random" for random operations 
 import random 
 
@@ -250,7 +250,7 @@ print (random.random()) 
 
 **输出:**
 
-```
+```py
 A random number between 0 and 1 is : 0.8548698466875713
 
 ```

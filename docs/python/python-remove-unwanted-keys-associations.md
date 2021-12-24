@@ -13,7 +13,7 @@
 **方法一:使用`isinstance()` +循环+递归**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 isinstance()检查元素值是否是字典或键，并重复构造所有不作为不需要的键出现的键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove unwanted Keys associations
 # Using isinstance() + loop + recursion

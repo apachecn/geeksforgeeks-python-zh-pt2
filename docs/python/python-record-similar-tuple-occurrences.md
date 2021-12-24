@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该任务。在这种情况下，我们在向`Counter()`馈送数据之前，为了计数出现，对数据进行排序，使所有无序元组有序，以将相似元组计数为一。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Record Similar tuple occurrences
 # Using Counter() + map() + sorted
@@ -30,7 +30,7 @@ print("The frequency of like tuples : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 1), (1, 3), (2, 5), (5, 2), (6, 3)]
 The frequency of like tuples : {(2, 5): 2, (1, 3): 2, (3, 6): 1}
 
@@ -40,7 +40,7 @@ The frequency of like tuples : {(2, 5): 2, (1, 3): 2, (3, 6): 1}
 
 上述功能的组合可用于执行该特定任务。在这种情况下，`sorted and map()` 执行的任务由内部排序元组的`frozenset()`执行。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Record Similar tuple occurrences
 # Using frozenset() + Counter()
@@ -62,7 +62,7 @@ print("The frequency of like tuples : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 1), (1, 3), (2, 5), (5, 2), (6, 3)]
 The frequency of like tuples : {(2, 5): 2, (1, 3): 2, (3, 6): 1}
 

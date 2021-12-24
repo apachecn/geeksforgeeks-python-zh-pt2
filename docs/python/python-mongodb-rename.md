@@ -17,7 +17,7 @@ PyMongo 函数 **`rename()`** 用于重命名集合。如果新名称不是 base
 
 **示例 1 :** 在本例中，我们将创建一个集合并对其进行重命名。`rename()`功能将集合名称从集合重命名为 collec。`dropTarget`的值设置为真，这意味着如果现有的集合集合存在，那么新的集合将覆盖现有集合的数据。
 
-```
+```py
 # importing the module
 from pymongo import MongoClient
 
@@ -46,14 +46,14 @@ for collect in result:
 
 **输出-**
 
-```
+```py
 collec
 
 ```
 
 **示例 2 :** 在本例中，`dropTarget`参数设置为 False，输入的新集合名称应该是唯一的。但是由于集合名称 collec 已经存在于数据库中，它将返回一个错误。
 
-```
+```py
 # importing the module
 from pymongo import MongoClient
 
@@ -82,7 +82,7 @@ for collect in result:
 
 **输出:**
 
-```
+```py
 pymongo.errors.OperationFailure: target namespace exists
 
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 这个问题可以使用列表理解来解决，该列表理解可以执行列最大化逻辑，并且 zip 函数用于绑定元素作为结果，并且也在垂直最大化时。
 
-```
+```py
 # Python3 code to demonstrate
 # Maximize Column in Records List
 # using list comprehension + zip()
@@ -28,7 +28,7 @@ print("The maximization of columns of tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[(1, 4), (2, 3), (5, 2)], [(3, 7), (1, 9), (10, 5)]]
 The maximization of columns of tuple list : [(3, 7), (2, 9), (10, 5)]
 

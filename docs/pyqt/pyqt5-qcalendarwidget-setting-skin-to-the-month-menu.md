@@ -6,7 +6,7 @@
 
 为此，我们将对 QCalendarWidget 对象使用 set 样式表方法，下面是样式表代码
 
-```
+```py
 QCalendarWidget QMenu
 {
 border-image : url(image.png);
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

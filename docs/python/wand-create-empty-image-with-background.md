@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 with Image(width=<i>image_width </i>,
            height=<i>image_height </i>,
            background ='color') as img:
@@ -20,7 +20,7 @@ with Image(width=<i>image_width </i>,
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -39,7 +39,7 @@ with Image(width = 400, height = 300) as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # import Color from wand.color module
 from wand.color import Color
 # import Image from wand.image module

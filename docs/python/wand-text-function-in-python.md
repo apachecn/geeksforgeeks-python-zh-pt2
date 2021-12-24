@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.drawing.text(x, y, body)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import different modules of wand
 from wand.image import Image
 from wand.drawing import Drawing
@@ -43,7 +43,7 @@ with Drawing() as draw:
 
 **例 2:**
 
-```
+```py
 # Import different modules of wand
 from wand.image import Image
 from wand.drawing import Drawing

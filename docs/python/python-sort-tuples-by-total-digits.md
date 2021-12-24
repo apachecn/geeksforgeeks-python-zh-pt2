@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Tuples by Total digits
 # Using sort() + len() + sum()
@@ -45,7 +45,7 @@ print("Sorted tuples : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4, 6, 723), (1, 2), (12345,), (134, 234, 34)]
 Sorted tuples : [(1, 2), (12345,), (3, 4, 6, 723), (134, 234, 34)]
 
@@ -57,7 +57,7 @@ Sorted tuples : [(1, 2), (12345,), (3, 4, 6, 723), (134, 234, 34)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Tuples by Total digits
 # Using sorted() + lambda + sum() + len()
@@ -77,7 +77,7 @@ print("Sorted tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(3, 4, 6, 723), (1, 2), (12345,), (134, 234, 34)]
 Sorted tuples : [(1, 2), (12345,), (3, 4, 6, 723), (134, 234, 34)]
 

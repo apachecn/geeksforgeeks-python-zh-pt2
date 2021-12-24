@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ababc         
 Output : a, ab, aba, abab, ababc, a, ab
 
@@ -23,7 +23,7 @@ Output : a, ab, abd, abda, abdab, abdabc, a, ab
 
 检查当前子字符串是否是给定字符串前缀的逻辑:
 
-```
+```py
 string[end] == string[end-start]
 ```
 
@@ -31,7 +31,7 @@ string[end] == string[end-start]
 
 下面是上述方法的实现:
 
-```
+```py
 
 # Python3 code to find all possible substrings that 
 # are also the prefix of the given string
@@ -70,7 +70,7 @@ if __name__ == "__main__":
 
 **Output:**
 
-```
+```py
 a ab aba abab ababc a ab
 
 ```

@@ -18,7 +18,7 @@
 
 **代码#1:** 使用`***os.DirEntry.path***`属性
 
-```
+```py
 # Python program to explain os.DirEntry.path attribute 
 
 # importing os module  
@@ -46,7 +46,7 @@ with os.scandir(path) as itr:
 
 输出:
 
-```
+```py
 Full path of all directory entry in '/home/ihritik':
 Public : /home/ihritik/Public
 Desktop : /home/ihritik/Deskop

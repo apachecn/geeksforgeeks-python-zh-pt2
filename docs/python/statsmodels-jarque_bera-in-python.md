@@ -12,7 +12,7 @@
 **例#1 :**
 在本例中我们可以看到，通过使用`statsmodels.jarque_bera()`方法，我们能够通过使用该方法获得 jarque bera 检验统计量、p 值、偏斜度和峰度。
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import jarque_bera
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import jarque_bera

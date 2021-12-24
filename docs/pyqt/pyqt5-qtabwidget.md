@@ -7,7 +7,7 @@
 下面的文章描述了创建一个示例应用程序的过程，该应用程序有三个选项卡，每个选项卡都有不同的布局。
 **例:**
 
-```
+```py
 import sys
 from PyQt5.QtWidgets import QMainWindow, QApplication, QPushButton, QWidget, QAction, QTabWidget, QVBoxLayout, QLabel
 
@@ -68,13 +68,13 @@ if __name__ == '__main__':
 
 如果您想在任何选项卡上添加图标。你只需要更换
 
-```
+```py
 self.tabs.addTab(self.tab1, "Geeks")
 ```
 
 随着
 
-```
+```py
 self.tabs.addTab(self.tab1, QIcon("Location of the icon"), ('Geeks')) 
 ```
 

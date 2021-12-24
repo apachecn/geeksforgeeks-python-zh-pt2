@@ -11,7 +11,7 @@
 
 **Bigrams:** Bigram 是一个句子中连续的 2 个单词。例如**“男孩在踢足球”**。这里的大人物是:
 
-```
+```py
 The boy
 Boy is
 Is playing
@@ -21,7 +21,7 @@ Playing football
 
 **三元组:**三元组是一个句子中连续的 3 个单词。对于上面的例子，三元模型是:
 
-```
+```py
 The boy is
 Boy is playing
 Is playing football
@@ -32,7 +32,7 @@ Is playing football
 
 **代码–图解三元组的详细解释**
 
-```
+```py
 # Importing libraries
 import nltk
 import re
@@ -94,7 +94,7 @@ print ("\n\nWords head : \n", words.head(7))
 
 **输出:**
 
-```
+```py
 Features : 
  ['10 experience working', '11 exposure implementing', 'able work minimal',
  'accounts commerce added', 'analysis recognition face', 'analytics contextual image',
@@ -170,7 +170,7 @@ Words head :
 
 现在，如果我们为二元模型这样做，那么代码的初始部分将保持不变。只有二元模型形成部分会改变。 **代码:实现二元模型的 Python 代码**
 
-```
+```py
 # Getting bigrams 
 vectorizer = CountVectorizer(ngram_range =(2, 2))
 X1 = vectorizer.fit_transform(txt1) 
@@ -196,7 +196,7 @@ print ("\n\nWords : \n", words.head(7))
 
 **输出:**
 
-```
+```py
 X1 : 
  [[0 0 0 ... 0 0 0]
  [0 0 0 ... 0 0 0]

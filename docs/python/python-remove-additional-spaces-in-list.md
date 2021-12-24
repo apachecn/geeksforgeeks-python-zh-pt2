@@ -9,7 +9,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 在这个方法中，我们创建一个全新的列表，而不是修改原来的列表，并检查元素及其前面的元素是否有空格，并添加只添加一次出现的空格，其余的不添加。
 
-```
+```py
 # Python3 code to demonstrate 
 # removing multiple spaces
 # using list comprehension + enumerate()
@@ -31,7 +31,7 @@ print("The list after removing additional spaces :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['GfG', '', '', '', '', 'is', '', '', 'best']
 The list after removing additional spaces :  ['GfG', '', 'is', '', 'best']
 
@@ -40,7 +40,7 @@ The list after removing additional spaces :  ['GfG', '', 'is', '', 'best']
 **方法 2:使用列表理解+ `zip()` +列表切片**
 在这个方法中，我们一次取一对，检查它的两个元素是否都是空的，如果是，我们就丢弃它。如果有人是空的或者两者都不是空的，我们会把它保留在列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # removing multiple spaces
 # using list comprehension + zip() + list slicing
@@ -62,7 +62,7 @@ print("The list after removing additional spaces :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['GfG', '', '', '', '', 'is', '', '', 'best']
 The list after removing additional spaces :  ['GfG', '', 'is', '', 'best']
 

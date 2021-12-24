@@ -27,7 +27,7 @@ Python 中的`***os.pread()***`方法用于在给定偏移值的位置从与给�
 
 **Code:** Use of os.pread() method
 
-```
+```py
 # Python program to explain os.pread() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'Python is a widely used general-purpose, high leve'
 b'sed general-purpose, high level programming langua'
 

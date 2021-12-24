@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Consonents by i, Vowels by j
 # Using Using sub() + regex
@@ -43,7 +43,7 @@ print("The string after required replacement : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after required replacement : CVVCCCVCCVVCC
 
@@ -55,7 +55,7 @@ The string after required replacement : CVVCCCVCCVVCC
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Consonents by i, Vowels by j
 # Using maketrans() + symmetric difference
@@ -87,7 +87,7 @@ print("The string after required replacement : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after required replacement : CVVCCCVCCVVCC
 

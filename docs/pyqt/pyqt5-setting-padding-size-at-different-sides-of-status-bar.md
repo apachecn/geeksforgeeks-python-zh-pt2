@@ -10,7 +10,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.statusBar().setStyleSheet("border :3px solid black;"
 >                                "padding-top: 25px; "
 >                                "padding-bottom: 25px;")
@@ -23,7 +23,7 @@
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

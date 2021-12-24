@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Dictionaries with Matching Values with K Key
 # Using dictionary comprehension + list comprehension

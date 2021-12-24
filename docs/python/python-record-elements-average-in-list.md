@@ -6,7 +6,7 @@
 
 **示例**
 
-```
+```py
 Input:
 [('Geeks', 10), ('For', 10), ('Geeks', 2), ('For', 9), ('Geeks', 10)]
 
@@ -23,7 +23,7 @@ Resultant list of tuples: [('Akshat', 7.333333333333333), ('Garg', 9.5)]
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python code to demonstrate
 # find average of similar tuples in list
 
@@ -44,14 +44,14 @@ print ("Resultant list of tuples: {}".format(result))
 
 **输出:**
 
-```
+```py
 Resultant list of tuples: [('Akshat', 7.333333333333333), ('Garg', 9.5)]
 
 ```
 
 **方法 2:转换成字典**
 
-```
+```py
 # Python code to demonstrate
 # find average of similar tuples in list
 
@@ -76,7 +76,7 @@ print("Resultant list of tuples: {}".format(result))
 
 **输出:**
 
-```
+```py
 Resultant list of tuples: [('Garg', 9.5), ('Akshat', 7.333333333333333)]
 
 ```

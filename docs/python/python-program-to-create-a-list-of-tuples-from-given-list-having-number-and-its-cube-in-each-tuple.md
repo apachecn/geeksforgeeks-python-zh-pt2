@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: list = [1, 2, 3]
 Output: [(1, 1), (2, 8), (3, 27)]
 
@@ -18,7 +18,7 @@ Output: [(9, 729), (5, 125), (6, 216)]
 
 下面是 Python 实现:
 
-```
+```py
 # Python program to create a list of tuples
 # from given list having number and
 # its cube in each tuple
@@ -36,6 +36,6 @@ print(res)
 
 **输出:**
 
-```
+```py
 [(1, 1), (2, 8), (5, 125), (6, 216)]
 ```

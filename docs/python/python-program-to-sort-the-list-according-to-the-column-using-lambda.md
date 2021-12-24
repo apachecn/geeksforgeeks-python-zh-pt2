@@ -29,7 +29,7 @@
 
 下面是实现。
 
-```
+```py
 # Python code to sorting list 
 # according to the column
 

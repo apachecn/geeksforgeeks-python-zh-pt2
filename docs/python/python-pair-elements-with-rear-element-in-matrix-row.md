@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是执行该任务的一种方式。在这种情况下，我们遍历列表中的每个行元素，并使用列表的负索引将其与后元素配对。
 
-```
+```py
 # Python3 code to demonstrate 
 # Pair elements with Rear element in Matrix Row
 # using list comprehension
@@ -30,7 +30,7 @@ print ("The list after pairing is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 6], [2, 4, 5], [6, 7, 5]]
 The list after pairing is : [[[4, 6], [5, 6]], [[2, 5], [4, 5]], [[6, 5], [7, 5]]]
 

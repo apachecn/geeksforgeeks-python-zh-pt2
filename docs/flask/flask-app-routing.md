@@ -10,7 +10,7 @@
 
 ## main.py
 
-```
+```py
 from flask import Flask
 
 app = Flask(__name__)
@@ -32,7 +32,7 @@ hello 函数现在映射了“/hello”路径，我们得到了在浏览器上�
 
 **运行应用程序的步骤:**使用以下命令运行应用程序。
 
-```
+```py
 python main.py
 ```
 
@@ -46,7 +46,7 @@ python main.py
 
 ## main.py
 
-```
+```py
 from flask import Flask
 
 app = Flask(__name__)

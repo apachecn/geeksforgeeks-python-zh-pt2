@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [12, 10, 106, 31, 15]
 Output : [10, 12, 31, 15, 106]
 
@@ -21,7 +21,7 @@ Output : [11, 12, 1111, 9, 19, 29]
 
 使用 for 循环将列表中的每个元素转换为不同的列表，并以其数字作为元素。现在，使用带有上述功能的排序功能作为*键*。
 
-```
+```py
 # Python3 Program to Sort list of
 # integers according to sum of digits
 
@@ -36,7 +36,7 @@ print(sorted(lst, key = sortList))
 
 **Output:**
 
-```
+```py
 [10, 12, 31, 15, 106]
 
 ```
@@ -45,7 +45,7 @@ print(sorted(lst, key = sortList))
 
 这种方法与上述方法类似，只是略有不同，我们使用`map()`将列表的每个元素转换为不同的列表，以其数字作为元素，然后遵循与上述类似的方法。
 
-```
+```py
 # Python3 Program to Sort list of
 # integers according to sum of digits
 
@@ -60,14 +60,14 @@ print(result)
 
 **Output:**
 
-```
+```py
 [10, 12, 31, 15, 106]
 
 ```
 
 除了上述方法之外，还有一种单一的替代方法。
 
-```
+```py
 def sortList(lst):
     return sorted(lst, key = lambda x:(sum(map(int, str(x)))))
 ```

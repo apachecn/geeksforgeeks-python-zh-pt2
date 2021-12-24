@@ -14,7 +14,7 @@
 
 **代码#1:** 使用 os.getppid()方法
 
-```
+```py
 # Python program to explain os.getppid() method 
 
 # importing os module 
@@ -31,14 +31,14 @@ print("Parent Process ID of current process:", ppid)
 
 **Output:**
 
-```
+```py
 Parent process ID of current process: 7653
 
 ```
 
 **代码#2:** 使用 os.getppid()方法
 
-```
+```py
 # Python program to explain os.getppid() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ if pid == 0:
 
 **Output:**
 
-```
+```py
 Process ID of Current process: 7653
 Parent process ID of child process: 7653
 

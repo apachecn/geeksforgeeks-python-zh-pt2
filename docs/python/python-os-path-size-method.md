@@ -15,7 +15,7 @@ Python 中的`***os.path.getsize()***`方法用于检查指定路径的大小。
 
 **代码#1:** 使用 os.path.getsize()方法
 
-```
+```py
 # Python program to explain os.path.getsize() method 
 
 # importing os module 
@@ -35,14 +35,14 @@ print("Size (In bytes) of '%s':" %path, size)
 
 **Output:**
 
-```
+```py
 Size (In bytes) of '/home/User/Desktop/file.txt': 243
 
 ```
 
 **代码#2:** 使用 os.path.getsize()方法时处理错误
 
-```
+```py
 # Python program to explain os.path.getsize() method 
 
 # importing os module 
@@ -67,7 +67,7 @@ print("Size (In bytes) of '% s':" % path, size)
 
 **Output:**
 
-```
+```py
 Path '/home/User/Desktop/file2.txt' does not exists or is inaccessible
 
 ```

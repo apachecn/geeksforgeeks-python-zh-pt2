@@ -4,7 +4,7 @@
 
 给你一个随机排列的 0 和 1 的数组。将阵列左侧的 0 和右侧的 1 分开。仅遍历数组一次。
 
-```
+```py
 Input array   =  [0, 1, 0, 1, 0, 0, 1, 1, 1, 0] 
 Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1] 
 ```
@@ -17,7 +17,7 @@ Output array =  [0, 0, 0, 0, 0, 1, 1, 1, 1, 1]
 
 **输出:**
 
-```
+```py
 Array after segregation is 0 0 1 1 1 1 
 ```
 
@@ -34,7 +34,7 @@ c)如果左侧<右侧，则交换 arr[左]和 arr[右]
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to sort a binary array in one pass
 
 # Function to put all 0s on left and all 1s on right
@@ -72,7 +72,7 @@ print(segregate0and1(arr, arr_size))
 
 **输出:**
 
-```
+```py
 Array after segregation is 0 0 1 1 1 1 
 ```
 
@@ -85,7 +85,7 @@ Array after segregation is 0 0 1 1 1 1
 
 **输出:**
 
-```
+```py
 Array after segregation is 0 0 1 1 1 1 
 ```
 

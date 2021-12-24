@@ -12,7 +12,7 @@ QCheckBox::选中::按下
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

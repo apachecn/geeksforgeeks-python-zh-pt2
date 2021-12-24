@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Frequency Key Values Summation
 # Using reduce() + Counter() + lambda + __add__

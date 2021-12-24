@@ -7,7 +7,7 @@
 **方法#1:使用`set() + len()`**
 以上方法的组合可以用来解决这个任务。在本文中，我们首先将每个列表转换为集合，然后使用 len()检查匹配元素是否大于 k。
 
-```
+```py
 # Python3 code to demonstrate 
 # Test if common values are greater than K
 # using len() + set()
@@ -33,7 +33,7 @@ print ("Are common elements greater than K ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['Gfg', 'is', 'for', 'Geeks']
 The original list 2 is : [1, 'Gfg', 2, 'Geeks']
 Are common elements greater than K ? : True

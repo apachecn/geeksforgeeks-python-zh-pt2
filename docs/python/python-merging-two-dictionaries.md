@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to merge dict using update() method
 def Merge(dict1, dict2):
     return(dict2.update(dict1))
@@ -30,7 +30,7 @@ print(dict2)
 
 **输出:**
 
-```
+```py
 None
 {'c': 4, 'a': 10, 'b': 8, 'd': 6}
 
@@ -44,7 +44,7 @@ None
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to merge dict using a single
 # expression
 def Merge(dict1, dict2):
@@ -60,7 +60,7 @@ print(dict3)
 
 **输出:**
 
-```
+```py
 {'b': 8, 'a': 10, 'c': 4, 'd': 6}
 
 ```
@@ -73,7 +73,7 @@ print(dict3)
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Python code to merge dict using a single 
 # expression
@@ -92,7 +92,7 @@ print(dict3)
 
 **输出:**
 
-```
+```py
 {'x': 10, 'a': 6,  'b': 4, 'y': 8}
 
 ```

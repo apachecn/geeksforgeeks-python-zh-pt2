@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install newspaper3k
 
 ```
@@ -28,7 +28,7 @@ pip install newspaper3k
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import newspaper
 
@@ -54,7 +54,7 @@ print(url_i.text)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required modules
 import newspaper
 

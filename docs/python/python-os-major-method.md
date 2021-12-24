@@ -19,7 +19,7 @@ Python 中的`***os.major()***`方法用于从指定的原始设备号中提取�
 
 **Code:** Use of os.major() method to extract the device major number from a raw device number
 
-```
+```py
 # Python program to explain os.major() method  
 
 # importing os module 
@@ -42,7 +42,7 @@ print("Device major number:", major)
 
 **Output:**
 
-```
+```py
 Raw device number: 2056
 Device major number: 8
 

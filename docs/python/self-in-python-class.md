@@ -11,7 +11,7 @@ self 表示类的实例。通过使用“self”关键字，我们可以在 pyth
 
 ## 蟒蛇 3
 
-```
+```py
 #it is clearly seen that self and obj is referring to the same object
 
 class check:
@@ -26,7 +26,7 @@ print("Address of class object = ",id(obj))
 
 **Output**
 
-```
+```py
 Address of self =  140124194801032
 Address of class object =  140124194801032
 ```
@@ -35,7 +35,7 @@ Address of class object =  140124194801032
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 
 class car():
@@ -64,7 +64,7 @@ ferrari.show()  # same output as car.show(ferrari)
 
 **Output**
 
-```
+```py
 Model is audi a4
 color is blue
 Model is ferrari 488
@@ -77,7 +77,7 @@ Self 必须作为实例方法和构造函数的第一个参数提供。如果不
 
 ## 蟒蛇 3
 
-```
+```py
 # Self is always required as the first argument
 class check:
     def __init__():
@@ -101,7 +101,7 @@ self 是实例方法中的参数，用户可以使用另一个参数名来代替
 
 ## 蟒蛇 3
 
-```
+```py
 # Write Python3 code here
 
 class this_is_class:
@@ -114,6 +114,6 @@ object = this_is_class()
 
 **Output**
 
-```
+```py
 we have used another parameter name in place of self
 ```

@@ -14,7 +14,7 @@
 
 **执行此操作的样式表代码–**
 
-```
+```py
 QRadioButton::indicator
 {
 border : 1px solid black;
@@ -29,7 +29,7 @@ border-bottom-right-radius : 7;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

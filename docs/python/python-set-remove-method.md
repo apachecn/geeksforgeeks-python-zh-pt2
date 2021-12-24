@@ -6,7 +6,7 @@
 
 **语法**
 
-```
+```py
 set.remove(element)
 ```
 
@@ -16,7 +16,7 @@ set.remove(element)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = {1,2,3,4,5,6,7,8,9}
 print(numbers)
 
@@ -29,7 +29,7 @@ print(numbers)
 
 **Output**
 
-```
+```py
 {1, 2, 3, 4, 5, 6, 7, 8, 9}
 {1, 2, 3, 4, 6, 7, 8, 9}
 ```
@@ -38,7 +38,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 print(numbers)
@@ -57,7 +57,7 @@ print("\nresultant set : ", numbers)
 
 **Output**
 
-```
+```py
 {1, 2, 3, 4, 5, 6, 7, 8, 9}
 KeyError Exception raised
 13 is not present in the set

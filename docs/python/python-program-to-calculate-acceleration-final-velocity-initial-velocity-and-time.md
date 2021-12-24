@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # Enter final velocity in m/s:
 finalVelocity = 10
@@ -33,7 +33,7 @@ print("Initial velocity = ", initialVelocity)
 
 **输出:**
 
-```
+```py
 Initial velocity =  0.1999999999999993
 ```
 
@@ -41,7 +41,7 @@ Initial velocity =  0.1999999999999993
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 # initial velocity in m/s:
 initialVelocity = 10
@@ -57,7 +57,7 @@ print("Final velocity = ", finalVelocity)
 
 **输出:**
 
-```
+```py
 Final velocity =  19.8
 ```
 
@@ -65,7 +65,7 @@ Final velocity =  19.8
 
 ## 蟒蛇 3
 
-```
+```py
 #code
 # initial velocity in m/s
 initialVelocity = 0
@@ -82,7 +82,7 @@ print("Acceleration = ", acceleration)
 
 **输出:**
 
-```
+```py
 Acceleration =  9.8
 ```
 
@@ -90,7 +90,7 @@ Acceleration =  9.8
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 #final velocity in m/s
 finalVelocity = 10
@@ -107,6 +107,6 @@ print("Time taken = ", time)
 
 **输出:**
 
-```
+```py
 Time taken =  1.0204081632653061
 ```

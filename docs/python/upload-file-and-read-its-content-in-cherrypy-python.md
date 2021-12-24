@@ -39,7 +39,7 @@
     2.  创建从系统上传文件的用户界面
     3.  编写读取文件内容并显示其内容的 cherrypy 程序。**HTML code that uploads the file from system:**
 
-    ```
+    ```py
     <html>
     <head>
       <style>
@@ -89,7 +89,7 @@
 
     **读取文件:**
 
-    ```
+    ```py
     # import files
     import random
     import string

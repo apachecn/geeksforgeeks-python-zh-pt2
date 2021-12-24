@@ -22,7 +22,7 @@ Django 项目在初始化时默认包含基本文件，如 manage.py、view.py �
 
 **manage.py-** 该文件用于通过命令行与您的项目进行交互(启动服务器、同步数据库等)。要获取可由 manage.py 执行的命令的完整列表，请在命令窗口中键入以下代码-
 
-```
+```py
 $ python manage.py help
 ```
 

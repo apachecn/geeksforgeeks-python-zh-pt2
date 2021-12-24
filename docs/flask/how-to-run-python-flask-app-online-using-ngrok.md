@@ -8,7 +8,7 @@ Python Flask 是一个流行的网络框架，用于开发网络应用程序、�
 
 从您的终端运行–
 
-```
+```py
 pip install flask-ngrok
 ```
 
@@ -18,7 +18,7 @@ pip install flask-ngrok
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_ngrok import run_with_ngrok
 
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 使用运行应用程序–
 
-```
+```py
 python run.py
 ```
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: n = 5
 Output:
 
@@ -49,7 +49,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # function to display the pattern up to n
 def display(n):  
 
@@ -95,7 +95,7 @@ display(n)
 
 **输出:**
 
-```
+```py
 For n = 5
 *
 *1*

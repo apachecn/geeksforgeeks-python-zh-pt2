@@ -7,7 +7,7 @@
 **方法#1:使用集合()+“+”运算符**
 该任务可以使用集合上+运算符提供的并集功能来执行。到 set 的转换由 set()完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Union of Tuples
 # Using set() + "+" operator
@@ -30,7 +30,7 @@ print("The union elements from tuples are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple 1 : (3, 4, 5, 6)
 The original tuple 2 : (5, 7, 4, 10)
 The union elements from tuples are : (3, 4, 5, 6, 7, 10)
@@ -40,7 +40,7 @@ The union elements from tuples are : (3, 4, 5, 6, 7, 10)
 **方法#2:使用 union() + set()**
 这是一个类似于上面方法的方法，不同的是，我们使用内置函数来执行过滤不同元素的任务，而不是+运算符。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Union of Tuples
 # Using union() + set()
@@ -63,7 +63,7 @@ print("The union elements from tuples are : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple 1 : (3, 4, 5, 6)
 The original tuple 2 : (5, 7, 4, 10)
 The union elements from tuples are : (3, 4, 5, 6, 7, 10)

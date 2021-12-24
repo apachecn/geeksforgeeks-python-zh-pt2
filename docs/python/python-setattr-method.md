@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of setattr()
 
@@ -43,7 +43,7 @@ print("After setattr name : ", obj.name)
 
 **输出:**
 
-```
+```py
 Before setattr name : GeeksforGeeks
 After setattr name : Geeks4Geeks
 ```
@@ -57,7 +57,7 @@ After setattr name : Geeks4Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # properties of setattr()
 
@@ -84,7 +84,7 @@ print("After setattr description : ", str(obj.description))
 
 **输出:**
 
-```
+```py
 Before setattr name : GeeksforGeeks
 After setattr name : None
 After setattr description : CS portal
@@ -96,7 +96,7 @@ After setattr description : CS portal
 
 ## 蟒蛇 3
 
-```
+```py
 # Turns a dictionary into a class
 class Dict2Class(object):
 
@@ -123,7 +123,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 After Converting Dictionary to Class : 
 Geeks 1223 Python
 <class '__main__.Dict2Class'>
@@ -135,7 +135,7 @@ Geeks 1223 Python
 
 ## 蟒蛇 3
 
-```
+```py
 class Person:
 
     def __init__(self):
@@ -155,7 +155,7 @@ setattr(p, 'n', 'rajav')
 
 **输出:**
 
-```
+```py
 ---> 16 setattr(p, 'n', 'rajav')
 
 AttributeError: can't set attribute

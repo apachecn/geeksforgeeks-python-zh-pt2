@@ -25,7 +25,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing BeautifulSoup Module
 from bs4 import BeautifulSoup
 

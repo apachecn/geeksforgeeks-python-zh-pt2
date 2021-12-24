@@ -21,7 +21,7 @@ Python 中的[](https://www.geeksforgeeks.org/implementing-web-scraping-python-b
 
 ## ****超文本标记语言****
 
-```
+```py
 **<!DOCTYPE html>
 <html>
   <head>
@@ -82,7 +82,7 @@ Python 中的[](https://www.geeksforgeeks.org/implementing-web-scraping-python-b
 
 ## ****计算机编程语言****
 
-```
+```py
 **# Python program to modify HTML
 # with the help of Beautiful Soup
 

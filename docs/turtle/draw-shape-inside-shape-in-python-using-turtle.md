@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the turtle modules
 import turtle
 
@@ -78,7 +78,7 @@ for i in range(10):
 
 ## 蟒蛇 3
 
-```
+```py
 # import the turtle modules
 import turtle
 
@@ -126,7 +126,7 @@ for i in range(10):
 
 ## 蟒蛇 3
 
-```
+```py
 # import the turtle modules
 import turtle
 

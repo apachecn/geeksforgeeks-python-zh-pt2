@@ -22,7 +22,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import libraries
 import requests
 from bs4 import BeautifulSoup
@@ -62,7 +62,7 @@ print("All PDF files downloaded")
 
 ****输出:****
 
-```
+```py
 Downloading file:  1
 File  1  downloaded
 All PDF files downloaded

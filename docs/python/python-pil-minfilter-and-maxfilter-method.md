@@ -6,7 +6,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 
 `**PIL.ImageFilter.MinFilter()**`方法创建一个最小过滤器。在给定大小的窗口中选取最低像素值。
 
-```
+```py
 Syntax: PIL.ImageFilter.MinFilter(size=3)
 
 Parameters: 
@@ -17,7 +17,7 @@ size: The kernel size, in pixels.
 所用图像:
 ![](img/6dbddd75fd7b1d615b6eadc742cfcb60.png)
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 
@@ -35,7 +35,7 @@ im2.show()
 
 `**PIL.ImageFilter.MinFilter()**`方法创建最大过滤器。在给定大小的窗口中选择最大的像素值。
 
-```
+```py
 Syntax: PIL.ImageFilter.MaxFilter(size=3)
 
 Parameters: 
@@ -43,7 +43,7 @@ size: The kernel size, in pixels.
 
 ```
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 

@@ -13,7 +13,7 @@
 **代码#1 :** 绘制条形图
 要在 excel 表格上绘制条形图，请使用 openpyxl.chart 子模块中的`BarChart class`。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -67,7 +67,7 @@ wb.save("barChart.xlsx")
 
 要在 excel 表格上绘制三维条形图，请使用 openpyxl.chart 子模块中的`BarChart3D class`。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -111,7 +111,7 @@ wb.save("BarChart3D.xlsx")
 
 要在 excel 表格上绘制面积图，请使用 openpyxl.chart 子模块中的`AreaChart class`。
 
-```
+```py
 import openpyxl
 
 # import AreaChart class from openpyxl.chart sub_module
@@ -157,7 +157,7 @@ wb.save("AreaChart.xlsx")
 
 要在 excel 表格上绘制三维面积图，请使用 openpyxl.chart 子模块中的`AreaChart3D class`。
 
-```
+```py
 import openpyxl
 
 # import AreaChart3D class from openpyxl.chart sub_module
@@ -202,7 +202,7 @@ wb.save("AreaChart3D.xlsx")
 **代码#5 :** 绘制折线图。
 在 excel 表格上绘制折线图时，使用 openpyxl.chart 子模块中的`LineChart class`。
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -248,7 +248,7 @@ wb.save("LineChart.xlsx")
 **代码#6 :** 绘制三维折线图。
 为了在 excel 表格上绘制三维折线图，我们必须使用 openpyxl.chart 子模块中的`LineChart3D class`。
 
-```
+```py
 import openpyxl
 
 # import LineChart3D class from openpyxl.chart sub_module

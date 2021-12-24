@@ -14,7 +14,7 @@ ImageFilter 模块包含一组预定义过滤器的定义，可与`Image.filter(
 
 **1。模糊**
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 
@@ -32,7 +32,7 @@ im2.show()
 
 **2。轮廓**
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 
@@ -50,7 +50,7 @@ im2.show()
 
 **3。压花**
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 
@@ -68,7 +68,7 @@ im2.show()
 
 **4。EDGE _ enhanced**
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 
@@ -86,7 +86,7 @@ im2.show()
 
 **5。边缘增强更多**
 
-```
+```py
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter
 

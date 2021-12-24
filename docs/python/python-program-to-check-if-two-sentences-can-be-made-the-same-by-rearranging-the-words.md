@@ -25,7 +25,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python implementation
 # of the above approach
 
@@ -64,7 +64,7 @@ else:
 
 ****Output:**
 
-```
+```py
 Yes
 
 ```** 
@@ -82,7 +82,7 @@ Yes
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python implementation
 # of the above approach
 
@@ -126,7 +126,7 @@ else:
 
 ****Output:**
 
-```
+```py
 Yes
 
 ```** 

@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pyautogui, time, datetime
 
 time.sleep(2)

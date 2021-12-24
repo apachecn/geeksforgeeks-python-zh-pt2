@@ -10,7 +10,7 @@ Django 表单中的 ImageField 是上传图像文件的输入字段。该输入�
 
 **语法**
 
-```
+```py
 field_name = forms.ImageField(**options)
 ```
 
@@ -27,7 +27,7 @@ field_name = forms.ImageField(**options)
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -39,7 +39,7 @@ class GeeksForm(forms.Form):
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,7 +57,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -73,7 +73,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_p }}
@@ -86,7 +86,7 @@ def home_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -99,7 +99,7 @@ urlpatterns = [
 
 让我们运行服务器并检查实际发生了什么，运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -115,7 +115,7 @@ ImageField 不同于其他字段，需要妥善处理。如上所述，从图像
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -131,7 +131,7 @@ class GeeksModel(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 from .models import GeeksModel

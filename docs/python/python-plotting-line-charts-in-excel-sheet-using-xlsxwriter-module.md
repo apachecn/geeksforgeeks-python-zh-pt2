@@ -12,7 +12,7 @@
 
 在 excel 工作表中绘制`Line chart`时，使用带有工作簿对象类型`‘line’`关键字参数的 **`add_chart()`** 方法。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 

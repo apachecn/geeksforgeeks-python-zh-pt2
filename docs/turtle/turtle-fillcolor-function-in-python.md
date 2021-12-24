@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -45,7 +45,7 @@ print(turtle.fillcolor())
 
 ![](img/29f22e7575ea3b89d9c5274281541531.png)
 
-```
+```py
 black
 blue
 
@@ -55,7 +55,7 @@ blue
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

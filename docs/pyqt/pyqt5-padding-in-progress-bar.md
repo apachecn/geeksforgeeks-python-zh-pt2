@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须改变进度条的 CSS 样式表中的填充大小，下面是样式表代码。
 
-```
+```py
 QProgressBar
 {
 border : 1px solid black;
@@ -19,7 +19,7 @@ padding : 5px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.expanduser() method 
 
 # importing os.path module 
@@ -70,7 +70,7 @@ print(full_path)
 
 **Output:** 
 
-```
+```py
 /home/ihritik/file.txt
 /home/GeeksForGeeks/file.txt
 /home/ihritik/file.txt
@@ -80,7 +80,7 @@ print(full_path)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.expandvars() method 
 
 # importing os.path module 
@@ -121,7 +121,7 @@ print(exp_var3)
 
 **Output:** 
 
-```
+```py
 \\Users\\Hritik\\\Directory\\file.txt
 C:\\Users\\Hritik\\\Directory\\file.txt
 C:\\Users\\Hritik\\AppData\\Local\\Temp\\file.txt
@@ -131,7 +131,7 @@ C:\\Users\\Hritik\\AppData\\Local\\Temp\\file.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.expandvars() method 
 
 # importing os.path module 
@@ -163,7 +163,7 @@ print(exp_var)
 
 **Output:** 
 
-```
+```py
 ${MYHOME}/Directory/file.txt
 ```
 

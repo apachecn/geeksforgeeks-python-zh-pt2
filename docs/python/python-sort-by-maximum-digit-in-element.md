@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by Maximum digit in Element
 # Using max() + sort()
@@ -43,7 +43,7 @@ print("Sorted List : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [234, 92, 15, 8, 721]
 Sorted List : [234, 15, 721, 8, 92]
 
@@ -55,7 +55,7 @@ Sorted List : [234, 15, 721, 8, 92]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by Maximum digit in Element
 # Using sorted() + lambda + max()
@@ -75,7 +75,7 @@ print("Sorted List " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [234, 92, 15, 8, 721]
 Sorted List [234, 15, 721, 8, 92]
 

@@ -11,19 +11,19 @@
 
 *   **bs4:** 美人汤是一个从 HTML 和 XML 文件中拉出数据的 Python 库。可以使用以下命令安装:
 
-```
+```py
 pip install bs4
 ```
 
 *   **lxml:** 它是一个 Python 库，允许我们处理 xml 和 HTML 文件。可以使用以下命令安装:
 
-```
+```py
 pip install lxml
 ```
 
 *   **请求:** Requests 可以让你极其轻松地发送 HTTP/1.1 请求。可以使用以下命令安装:
 
-```
+```py
 pip install request
 ```
 
@@ -33,7 +33,7 @@ pip install request
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import bs4 as bs
 import requests
@@ -46,7 +46,7 @@ URL = 'https://www.geeksforgeeks.org/python-list/'
 
 ## 蟒蛇 3
 
-```
+```py
 # parsing
 url_link = requests.get(URL)
 file = bs.BeautifulSoup(url_link.text, "lxml")
@@ -56,7 +56,7 @@ file = bs.BeautifulSoup(url_link.text, "lxml")
 
 ## 蟒蛇 3
 
-```
+```py
 # find all tables
 find_table = file.find('table', class_='numpy-table')
 rows = find_table.find_all('tr')
@@ -66,7 +66,7 @@ rows = find_table.find_all('tr')
 
 ## 蟒蛇 3
 
-```
+```py
 # display tables
 for i in rows:
     table_data = i.find_all('td')

@@ -9,39 +9,39 @@ Django 是一个基于高级 Python Web 框架的 Web 框架，允许快速开�
 *   姜戈:[安装姜戈](https://www.geeksforgeeks.org/django-introduction-and-installation/)
 *   脆皮形式:
 
-```
+```py
 pip install --upgrade django-crispy-forms
 ```
 
 **基本设置:**
 通过以下命令启动项目–
 
-```
+```py
 django-admin startproject todo-site
 ```
 
 将目录更改为待办事项网站–
 
-```
+```py
 cd todo-site
 ```
 
 启动服务器-通过在终端中键入以下命令启动服务器–
 
-```
+```py
 python manage.py runserver
 ```
 
 *要检查服务器是否在运行，请转到网络浏览器，输入 http://127.0.0.1:8000/作为网址。*
 现在按停止服务器
 
-```
+```py
 ctrl-c
 ```
 
 **我们现在创建一个应用。**
 
-```
+```py
 python manage.py startapp todo
 ```
 
@@ -58,7 +58,7 @@ python manage.py startapp todo
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from todo import views
@@ -77,7 +77,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.utils import timezone
 
@@ -94,7 +94,7 @@ class Todo(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.contrib import messages
 
@@ -134,7 +134,7 @@ def remove(request, item_id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from .models import Todo
 
@@ -151,14 +151,14 @@ class TodoForm(forms.ModelForm):
 **导航至模板/待办事项/index.html 并编辑:** [链接至 index.html 文件](https://github.com/itsvinayak/todo/blob/master/todo/templates/todo/index.html)
 **进行迁移并迁移**
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 现在，您可以运行服务器来查看您的待办事项应用程序
 
-```
+```py
 python manage.py runserver
 ```
 

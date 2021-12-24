@@ -4,7 +4,7 @@
 
 主题用于设计漂亮的窗户。它给用户一个选择，用颜色在图形用户界面上展示他的创造力。用一行代码就可以完成图形用户界面窗口的着色。
 
-```
+```py
 sg.theme('Dark Amber 5')
 
 ```
@@ -13,7 +13,7 @@ sg.theme('Dark Amber 5')
 
 我们调用主题属性，它可以设置创建图形用户界面窗口时使用的颜色。它可以用来给文本、背景、输入字段、按钮等着色。我们可以看到主题的预览，进行这个调用来生成可用主题的预览:
 
-```
+```py
 import PySimpleGUI as sg
 
 sg.theme_previewer()
@@ -28,7 +28,7 @@ sg.theme_previewer()
 
 **示例:**
 
-```
+```py
 import PySimpleGUI as sg
 
 theme_name_list = sg.theme_list()
@@ -43,7 +43,7 @@ print(theme_name_list)
 
 下面是实现。
 
-```
+```py
 # import PySimpleGUI
 import PySimpleGUI as sg
 

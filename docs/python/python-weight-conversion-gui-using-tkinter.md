@@ -22,7 +22,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to  create a simple GUI 
 # weight converter using Tkinter
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Selective consecutive Suffix Join
 # Using loop + endswith() + join()

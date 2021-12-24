@@ -6,7 +6,7 @@
 给定一个字符串，编写一个 Python 程序，检查给定的字符串是否仅以字母数字字符结尾。
 **例:**
 
-```
+```py
 Input: ankitrai326
 Output: Accept
 
@@ -21,7 +21,7 @@ Output: Discard
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to accept string ending
 # with only alphanumeric character.
 # import re module
@@ -67,7 +67,7 @@ if __name__ == '__main__' :
 
 **输出:**
 
-```
+```py
 Discard
 Accept
 Discard

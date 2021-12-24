@@ -40,7 +40,7 @@ Python 提供了两种级别的网络编程访问。这些是–
 
 [Socket 编程](https://www.geeksforgeeks.org/socket-programming-python/)是连接网络上两个节点相互通信的一种方式。一个套接字(节点)监听某个 IP 的特定端口，而另一个套接字则与另一个套接字建立连接。服务器形成侦听器套接字，而客户端则连接到服务器。他们是网络浏览背后真正的中坚力量。简单来说，有一个服务器和一个客户端。我们可以使用套接字模块进行套接字编程。为此，我们必须包括**插座模块**–
 
-```
+```py
 import socket
 ```
 
@@ -48,7 +48,7 @@ import socket
 
 **语法:**
 
-```
+```py
 socket.socket(socket_family, socket_type, protocol=0)
 ```
 
@@ -62,7 +62,7 @@ socket.socket(socket_family, socket_type, protocol=0)
 
 ## 蟒蛇 3
 
-```
+```py
 import socket
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -126,7 +126,7 @@ print(s)
 
 ## 蟒蛇 3
 
-```
+```py
 # first of all import the socket library
 import socket
 
@@ -176,7 +176,7 @@ while True:
 
 现在我们需要服务器可以与之交互的东西。我们可以像这样对服务器进行特殊化，只是为了知道我们的服务器正在工作。在终端中键入以下命令:
 
-```
+```py
 # start the server
 python server.py
 
@@ -200,7 +200,7 @@ telnet localhost 12345
 
 ## 蟒蛇 3
 
-```
+```py
 # Import socket module
 import socket
 

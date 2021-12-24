@@ -12,7 +12,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install SpeechRecognition
 pip install pyttsx3
 ```
@@ -29,7 +29,7 @@ pip install pyttsx3
 
 ## 蟒蛇 3
 
-```
+```py
 import SpeechRecognition as sr
 
 # Create class
@@ -71,7 +71,7 @@ class Gfg:
 
 ## 蟒蛇 3
 
-```
+```py
 # Method for voice output
 def Speak(self, audio):
 
@@ -89,7 +89,7 @@ def Speak(self, audio):
 
 ## 蟒蛇 3
 
-```
+```py
 # Method to self shut down system
 def quitSelf(self):
     self.Speak("do u want to switch off the computer sir")
@@ -114,7 +114,7 @@ def quitSelf(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver code
 if __name__ == '__main__':
 
@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 # Importing required modules
 import os
 import pyttsx3

@@ -8,7 +8,7 @@
 
 为了将背景图像设置为仅选中状态的指示器，我们必须更改选中状态指示器的样式表。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:checked
 {
 background-image : url(image.png);
@@ -18,7 +18,7 @@ background-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

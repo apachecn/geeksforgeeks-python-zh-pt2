@@ -5,7 +5,7 @@
 给我们一个字符串，我们需要删除其中的所有重复项？如果字符的顺序很重要，输出会是什么？
 示例:
 
-```
+```py
 Input : geeksforgeeks
 Output : efgkos
 
@@ -14,7 +14,7 @@ Output : efgkos
 此问题已有解决方案，请参考[从给定字符串](https://www.geeksforgeeks.org/remove-all-duplicates-from-the-input-string/)中删除所有重复项。
 T3【方法一:
 
-```
+```py
 from collections import OrderedDict 
 
 # Function to remove all duplicates from string 
@@ -44,7 +44,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 Without Order =  egfkosr
 With Order    =  geksfor
 
@@ -52,7 +52,7 @@ With Order    =  geksfor
 
 **方法二:**
 
-```
+```py
 def removeDuplicate(str):
     s=set(str)
     s="".join(s)
@@ -71,7 +71,7 @@ removeDuplicate(str)
 
 **输出:**
 
-```
+```py
 Without Order: rofgeks
 With Order: geksfor
 ```
@@ -82,7 +82,7 @@ OrderedDict 是一个记住最先插入的键的顺序的字典。如果新条�
 
 例如，请参见下面的代码片段:
 
-```
+```py
 from collections import OrderedDict
 
 ordinary_dictionary = {}
@@ -115,7 +115,7 @@ print (ordered_dictionary)      
 
 例如，请参见下面的代码片段:
 
-```
+```py
 from collections import OrderedDict
 seq = ('name', 'age', 'gender')
 dict = OrderedDict.fromkeys(seq)

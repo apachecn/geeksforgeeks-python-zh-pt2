@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.confstr_names
 
 # importing os module
@@ -37,7 +37,7 @@ pprint.pprint(names, width = 1)
 
 **Output:** 
 
-```
+```py
 The list of names known to the operating system:
 {'CS_GNU_LIBC_VERSION': 2,
  'CS_GNU_LIBPTHREAD_VERSION': 3,

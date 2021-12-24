@@ -21,7 +21,7 @@ Python String ljust()方法根据指定的宽度左对齐字符串，如果未�
 
 ## 蟒蛇 3
 
-```
+```py
 # example string
 string = 'gfg'
 width = 5
@@ -32,7 +32,7 @@ print(string.ljust(width))
 
 **输出:**
 
-```
+```py
 gfg  
 ```
 
@@ -44,7 +44,7 @@ gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # the working of ljust()
 
@@ -61,7 +61,7 @@ print (lstr.ljust(40, '-'))
 
 **输出:**
 
-```
+```py
 The original string is : 
  I love geeksforgeeks 
 

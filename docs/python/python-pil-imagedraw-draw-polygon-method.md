@@ -21,7 +21,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。`Im
 > 
 > **返回:**一个图像对象。
 
-```
+```py
 
 import math
 from PIL import Image, ImageDraw
@@ -49,7 +49,7 @@ img.show()
 
 **另一个例子:**取不同的参数。
 
-```
+```py
 
 import math
 from PIL import Image, ImageDraw

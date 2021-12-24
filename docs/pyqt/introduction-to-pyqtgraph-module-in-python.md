@@ -6,7 +6,7 @@
 PyQtGraph 大量使用 Qt 图形用户界面平台(通过 PyQt 或 PySide)来获得高性能图形，使用 numpy 来进行大量的数字处理。特别是，pyqtgraph 使用了 Qt 的 GraphicsView 框架，这是一个独立的高性能图形系统，这为该框架带来了优化和简化的原语，从而允许以最小的努力实现数据可视化。
 为了安装 PyQtGraph，我们使用下面给出的命令
 
-```
+```py
 pip install pyqtgraph
 ```
 
@@ -20,7 +20,7 @@ pip install pyqtgraph
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 

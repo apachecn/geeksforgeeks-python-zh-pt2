@@ -7,7 +7,7 @@ Django-Taggit 是一个 Django 应用程序，用来给博客、文章等添加�
 
 *   **安装姜戈-塔吉特**
 
-```
+```py
 pip install django-taggit
 ```
 
@@ -15,7 +15,7 @@ pip install django-taggit
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -34,7 +34,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.utils.timezone import now
 from taggit.managers import TaggableManager
@@ -72,13 +72,13 @@ Taggit 模式也将在管理面板中自动显示为单独的模式
 1)如果输入的标签不包含任何逗号或双引号，将作为
 标签名称的空格分隔列表。
 
-```
+```py
 geeks for geeks => "geeks", "for", "geeks"
 ```
 
 2)如果输入的标签包含逗号或双引号，则:
 
-```
+```py
 
 a) geeks, geeks for geeks            =>   "geeks", "geeks for geeks" 
 b) "geeks, forgeeks" geek geeksfor   =>   "geeks, forgeeks", "geek", "geeksfor"

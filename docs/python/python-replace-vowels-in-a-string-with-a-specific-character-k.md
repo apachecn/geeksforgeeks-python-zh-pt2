@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to Replace each vowel in
 # the string with a specified character
 def replaceVowelsWithK(test_str, K):
@@ -52,7 +52,7 @@ print("After replacing vowels with the specified character:",
 
 **Output**
 
-```
+```py
 Given Sting: Geeks for Geeks
 Given Specified Character: #
 After replacing vowels with the specified character: G##ks f#r G##ks
@@ -70,7 +70,7 @@ After replacing vowels with the specified character: G##ks f#r G##ks
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to Replace each vowel
 # in the string with a specified character
 def replaceVowelsWithK(test_str, K):
@@ -130,7 +130,7 @@ print("After replacing vowels with the specified character:",
 
 **Output**
 
-```
+```py
 Given Sting: Geeks for Geeks
 Given Specified Character: #
 After replacing vowels with the specified character: G##ks f#r G##ks

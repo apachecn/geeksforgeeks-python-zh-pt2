@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # creating variable to store the
 # number of words
 number_of_words = 0
@@ -45,7 +45,7 @@ print(number_of_words)
 
 **输出:**
 
-```
+```py
 7
 ```
 
@@ -64,7 +64,7 @@ print(number_of_words)
 
 ## 蟒蛇 3
 
-```
+```py
 # creating variable to store the
 # number of words
 number_of_words = 0
@@ -100,7 +100,7 @@ print(number_of_words)
 
 **输出:**
 
-```
+```py
 11
 ```
 

@@ -30,7 +30,7 @@ TensorBoard 有以下选项卡:
 
 ## 蟒蛇 3
 
-```
+```py
 # Install it using pip
 !pip install -q tf-nightly-2.0-preview
 
@@ -49,7 +49,7 @@ os.makedirs(logs_base_dir, exist_ok=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import necessary modules
 import numpy as np
 import matplotlib.pyplot as plt
@@ -103,7 +103,7 @@ with file_writer.as_default():
 
 ## 蟒蛇 3
 
-```
+```py
 # remove old plots data (if any)
 !rm -rf logs/plots
 
@@ -160,7 +160,7 @@ with file_writer.as_default():
 
 ## 蟒蛇 3
 
-```
+```py
 # Define CNN model
 model  = tf.keras.models.Sequential([
     tf.keras.layers.Conv2D(32, (3, 3), activation='relu', padding='same', input_shape=(32, 32, 3)),
@@ -186,7 +186,7 @@ model.compile(
 model.summary()
 ```
 
-```
+```py
 Model: "sequential"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -225,7 +225,7 @@ _________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # Code to plot confusion matrix
 def plot_confusion_matrix(cm, class_names):
   """
@@ -264,7 +264,7 @@ def plot_confusion_matrix(cm, class_names):
 
 ## 蟒蛇 3
 
-```
+```py
 logdir = "logs/image/" + datetime.now().strftime("%Y%m%d-%H%M%S")
 
 # Define the basic TensorBoard callback.
@@ -279,7 +279,7 @@ file_writer_cm = tf.summary.create_file_writer(logdir + '/cm')
 
 ## 蟒蛇 3
 
-```
+```py
 # sklearn confusion metrics
 from sklearn.metrics import confusion_matrix
 import itertools
@@ -307,7 +307,7 @@ cm_callback = tf.keras.callbacks.LambdaCallback(on_epoch_end=log_confusion_matri
 
 ## 蟒蛇 3
 
-```
+```py
 %tensorboard --logdir logs/image
 # Train the classifier.
 model.fit(

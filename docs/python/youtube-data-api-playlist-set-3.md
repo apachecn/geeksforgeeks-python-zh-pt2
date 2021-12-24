@@ -30,13 +30,13 @@
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
 **列出播放列表项目的代码:**
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -158,7 +158,7 @@ if __name__ == '__main__':
 **插入视频的代码:**这个例子展示了如何将视频插入播放列表。id、snippet.resourceId.kind 和 snippet.resourceId.videoId 是必需的属性。
 在将视频添加到所需的播放列表之前，我们将首先将视频上传到 youtube 频道，然后使用视频标识将视频分配到所需的播放列表。请按照 [Youtube 数据 API Videos | Set-3](https://www.geeksforgeeks.org/youtube-data-api-for-handling-videos-set-3/) 文章中提到的步骤上传视频。作为参考，我使用了相同的代码，并将相同的视频上传到了 Youtube 频道。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

@@ -29,7 +29,7 @@ MongoDB 查询用于在通过`db.find()`方法从集合中检索数据时，使�
 
 **例 1:**
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -68,7 +68,7 @@ for record in cursor: 
 
 **例 2:**
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 

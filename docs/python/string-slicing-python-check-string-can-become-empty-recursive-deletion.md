@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : str = "GEEGEEKSKS", sub_str = "GEEKS"
 Output : Yes
 Explanation : In the string GEEGEEKSKS, we can first 
@@ -29,7 +29,7 @@ Explanation : In the string it is not possible to make the
 3.  现在将字符串分成两部分，(I)从字符串的开始直到创建的子字符串的索引-1，(ii)(从创建的子字符串的第一个索引开始+子字符串的长度)直到字符串的结束。
 4.  连接这两个分割部分，从第 1 步开始重复，直到原始字符串变成空的，或者我们不再找到子字符串。
 
-```
+```py
 def checkEmpty(input, pattern): 
 
     # If both are empty  
@@ -63,7 +63,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 true
 
 ```

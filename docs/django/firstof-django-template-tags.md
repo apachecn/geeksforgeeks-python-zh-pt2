@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 句法
 
-```
+```py
 
 {% firstof var1 var2 var3... %}
 
@@ -15,13 +15,13 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 例子
 
-```
+```py
 {% firstof var1 var2 var3 %}
 ```
 
 这相当于:
 
-```
+```py
 {% if var1 %}
     {{ var1 }}
 {% elif var2 %}
@@ -33,7 +33,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 如果所有传递的变量都为 False，也可以使用文字字符串作为后备值:
 
-```
+```py
 {% firstof var1 var2 var3 "fallback value" %}
 ```
 
@@ -49,7 +49,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 现在创建一个视图，我们将通过它访问模板，
 在`geeks/views.py`中，
 
-```
+```py
 # import Http Response from django
 # import Http Response from django
 from django.shortcuts import render
@@ -68,7 +68,7 @@ def geeks_view(request):
 
 创建 url 路径以映射到此视图。在`geeks/urls.py`中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -81,7 +81,7 @@ urlpatterns = [
 
 在`templates/geeks.html`中创建模板。
 
-```
+```py
 <h3>Variable displayed : </h3>
 
 {% firstof var1 var2 var3 %}
@@ -94,7 +94,7 @@ urlpatterns = [
 
 这个标记自动转义变量值。您可以通过以下方式禁用自动转义:
 
-```
+```py
 {% autoescape off %}
     {% firstof var1 var2 var3 "fallback value" %}
 {% endautoescape %}
@@ -102,7 +102,7 @@ urlpatterns = [
 
 或者，如果只有一些变量应该被转义，您可以使用:
 
-```
+```py
 {% firstof var1 var2|safe var3 "fallback value"|safe %}
 ```
 

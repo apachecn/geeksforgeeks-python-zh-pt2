@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required  modules
 from tkinter import *
 import tkinter as tk
@@ -161,7 +161,7 @@ class intro():
 
 ## 蟒蛇 3
 
-```
+```py
 # import required  modules
 from tkinter import *
 import tkinter as tk
@@ -435,7 +435,7 @@ class converter():
 
 ## 蟒蛇 3
 
-```
+```py
 # import required  modules
 from tkinter import *
 import tkinter as tk

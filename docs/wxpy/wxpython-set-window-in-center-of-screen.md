@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Frame.Centre(self, direction = wx.BOTH)
 > ```
 > 
@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import wxPython
 import wx
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # import wxPython
 import wx
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing List
 test_list = [4, 24, 8, 10, 12, 23]
 
@@ -47,7 +47,7 @@ print("All elements multiple of divisor list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing List
 test_list = [4, 24, 8, 10, 12, 23]
 

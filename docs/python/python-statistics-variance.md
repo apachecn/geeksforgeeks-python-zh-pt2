@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # variance() function of Statistics Module
 
@@ -44,7 +44,7 @@ print("Variance of sample set is % s"
 
 **输出:**
 
-```
+```py
 Variance of sample set is 0.40924
 ```
 
@@ -52,7 +52,7 @@ Variance of sample set is 0.40924
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate variance()
 # function on varying range of data-types
 
@@ -90,7 +90,7 @@ print("Variance of Sample5 is % s " %(variance(sample5)))
 
 **输出:**
 
-```
+```py
 Variance of Sample 1 is 15.80952380952381 
 Variance of Sample 2 is 3.5 
 Variance of Sample 3 is 61.125 
@@ -103,7 +103,7 @@ Variance of Sample 5 is 0.17613000000000006
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # the use of xbar parameter
 
@@ -123,7 +123,7 @@ print("Variance of Sample set is % s"
 
 **输出:**
 
-```
+```py
 Variance of Sample set is 0.3656666666666667
 ```
 
@@ -132,7 +132,7 @@ Variance of Sample set is 0.3656666666666667
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the error caused
 # when garbage value of xbar is entered
 
@@ -154,7 +154,7 @@ print(statistics.variance(sample, xbar = -100))
 
 **输出:**
 
-```
+```py
 0.3656666666663053
 ```
 
@@ -164,7 +164,7 @@ print(statistics.variance(sample, xbar = -100))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate StatisticsError
 
 # importing Statistics module
@@ -179,7 +179,7 @@ print(statistics.variance(sample))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/64bf6d80f158b65d2b75c894d03a7779.py", line 10, in 
     print(statistics.variance(sample))

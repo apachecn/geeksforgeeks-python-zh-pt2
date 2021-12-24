@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
  Input : (A + B + C).(A + B + C').(A + B' + C).(A' + B + C)
 Output : A'BC + AB'C + ABC' + ABC
 
@@ -30,7 +30,7 @@ Output : A'B + AB'
 
 下面是上述方法的 Python 实现:
 
-```
+```py
 # Python code to convert standard POS form 
 # to standard SOP form 
 
@@ -186,7 +186,7 @@ if __name__=="__main__": 
 
 **Output:**
 
-```
+```py
 Standard SOP form of (A+B+C).(A+B+C').(A+B'+C).(A'+B + C)  ==>  A'BC+AB'C+ABC'+ABC
 Standard SOP form of (A + B).(A'+B')  ==>  A'B+AB'
 ```

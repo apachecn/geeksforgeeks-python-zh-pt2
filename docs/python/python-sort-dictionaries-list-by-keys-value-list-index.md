@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionaries list by Key's Value list index
 # Using sorted() + lambda
@@ -58,7 +58,7 @@ print("The required sort order : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionaries list by Key's Value list index
 # Using sorted() + lambda (Additional parameter in case of tie)

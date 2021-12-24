@@ -13,7 +13,7 @@ Checkbutton 小部件是一个标准的 Tkinter 小部件，用于实现开/关�
 **语法:**
 使用 checkbutton 的语法如下。
 
-```
+```py
 w = Checkbutton ( master, options)
 ```
 
@@ -64,7 +64,7 @@ w = Checkbutton ( master, options)
 
 **示例:**
 
-```
+```py
 from tkinter import * 
 
 root = Tk()

@@ -6,7 +6,7 @@ Python 中的[字典](https://www.geeksforgeeks.org/python-dictionary/)是一个
 
 **语法:**
 
-```
+```py
 dictionary = {'geek': 1, 'supergeek': True, 4: 'geeky'}
 
 ```
@@ -23,7 +23,7 @@ dictionary = {'geek': 1, 'supergeek': True, 4: 'geeky'}
 *   Convert a dictionary into a string
 *   Use write function
 
-```
+```py
 filehandler = open(filename, 'wt')
 data = str(dictionary)
 filehander.write(data)
@@ -42,7 +42,7 @@ Python 中的 pickle 模块主要用于数据持久性至关重要的数据科�
 *   Open a file in write/append binary mode
 *   Dump method using pickle module
 
-```
+```py
 filehandler = open(filename, 'wb')
 pickle.dump(dictionary, filehandler)
 
@@ -56,7 +56,7 @@ pickle.dump(dictionary, filehandler)
 
 ## python 3
 
-```
+```py
 dictionary = {'geek': 1, 'supergeek': True, 4: 'geeky'}
 
 try:

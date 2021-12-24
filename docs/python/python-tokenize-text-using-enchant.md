@@ -17,7 +17,7 @@
 我们将使用`get_tokenizer()`来标记文本。它将语言代码作为输入，并返回适当的标记化类。然后我们用一些文本实例化这个类，它将返回一个迭代器，该迭代器将产生包含在该文本中的单词。
 标记器产生的项是形式(WORD，POS)的元组，其中 WORD 是标记化的单词，POS 是该单词所在的字符串位置。
 
-```
+```py
 # import the module
 from enchant.tokenize import get_tokenizer
 
@@ -55,7 +55,7 @@ print(token_list)
 
 只打印文字，不打印位置:
 
-```
+```py
 # print only the words
 word_list =[]
 

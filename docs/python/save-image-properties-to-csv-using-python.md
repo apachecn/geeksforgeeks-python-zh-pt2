@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Required Libraries
 from os import listdir
 from os.path import isfile, join
@@ -101,7 +101,7 @@ for n in range(0, len(onlyfiles)):
 *   保存这个代号为**的 main.py** 。
 *   Shift(键)+右键点击，点击这里打开 **PowerShell** 窗口。
 
-```
+```py
 python3 main.py --image /path/to/images/folder/:
 ```
 

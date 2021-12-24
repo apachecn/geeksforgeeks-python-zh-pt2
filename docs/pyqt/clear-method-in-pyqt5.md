@@ -12,7 +12,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

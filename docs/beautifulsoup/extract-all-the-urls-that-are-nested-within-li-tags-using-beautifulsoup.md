@@ -12,7 +12,7 @@
 
 *   [**【美观组:**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/) 我们的主模块包含一个通过 HTTP 访问网页的方法。
 
-```
+```py
 pip install bs4
 ```
 
@@ -20,7 +20,7 @@ pip install bs4
 
 **注意:**你不需要单独安装，因为它是用 bs4 自动下载的，但是如果有问题可以手动下载。
 
-```
+```py
 pip install requests
 ```
 
@@ -47,7 +47,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import requests
 from bs4 import BeautifulSoup
@@ -60,7 +60,7 @@ URL = 'https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-
 
 ## 蟒蛇 3
 
-```
+```py
 # perform get request to the url
 reqs = requests.get(URL)
 
@@ -76,7 +76,7 @@ soup = BeautifulSoup(content, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 # Empty list to store the output
 urls = []
 
@@ -107,7 +107,7 @@ for h in soup.findAll('li'):
 
 ## 蟒蛇 3
 
-```
+```py
 # print all the urls stored in the urls list
 for url in urls:
     print(url)
@@ -117,7 +117,7 @@ for url in urls:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import requests
 from bs4 import BeautifulSoup

@@ -16,7 +16,7 @@
 
 下面是实现
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 
@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 window is closed
 
 ```

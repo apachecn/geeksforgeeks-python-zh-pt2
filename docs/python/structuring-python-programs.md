@@ -8,7 +8,7 @@
 大多数情况下，python 语句都是以这样一种格式编写的，即一条语句只写在一行中。解释器认为“新行字符”是一条指令的终止符。但是，每行写多条语句也是可能的，你可以在下面找到。
 示例:
 
-```
+```py
 # Example 1
 
 print('Welcome to Geeks for Geeks') 
@@ -16,7 +16,7 @@ print('Welcome to Geeks for Geeks') 
 
 **Output:**
 
-```
+```py
 Welcome to Geeks for Geeks
 
 ```

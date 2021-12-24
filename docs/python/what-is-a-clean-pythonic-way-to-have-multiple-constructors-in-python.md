@@ -8,7 +8,7 @@ Python 不支持显式的多个构造函数，但是有一些方法可以实现�
 
 ## python 3
 
-```
+```py
 class example:
 
     def __init__(self):
@@ -25,7 +25,7 @@ e = example()
 
 **输出**
 
-```
+```py
 Three
 
 ```

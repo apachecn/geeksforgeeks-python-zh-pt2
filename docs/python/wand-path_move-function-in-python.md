@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.drawing.path_move(to, relative)
 > 
 > ```
@@ -20,7 +20,7 @@
 
 **示例#1:**
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color

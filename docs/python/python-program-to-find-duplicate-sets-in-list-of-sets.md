@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Duplicate sets in list of sets
 # Using Counter() + count() + frozenset() + loop
@@ -62,7 +62,7 @@ print("Duplicate sets list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Duplicate sets in list of sets
 # Using list comprehension + Counter()

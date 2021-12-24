@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image class from PIL module
 from PIL import Image
 
@@ -50,7 +50,7 @@ im1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image class from PIL module
 from PIL import Image
 
@@ -74,7 +74,7 @@ im1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image class from PIL module
 from PIL import Image
 

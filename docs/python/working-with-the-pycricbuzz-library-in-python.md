@@ -8,7 +8,7 @@
 
 **安装:**在终端运行以下 pip 命令。
 
-```
+```py
 pip install pycricbuzz
 
 ```
@@ -17,7 +17,7 @@ pip install pycricbuzz
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from pycricbuzz import Cricbuzz
 
@@ -31,7 +31,7 @@ c = Cricbuzz()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from pycricbuzz import Cricbuzz
 
@@ -50,7 +50,7 @@ print(c.matches())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from pycricbuzz import Cricbuzz
 import json

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : list1 = [10, 20, 4]
 Output : 20
 
@@ -16,7 +16,7 @@ Output : 100
 
 方法 1:对列表进行升序排序，并打印列表中的最后一个元素。
 
-```
+```py
 # Python program to find largest
 # number in a list
 
@@ -32,13 +32,13 @@ print("Largest element is:", list1[-1])
 
 输出:
 
-```
+```py
 Largest element is: 99
 ```
 
 方法 2:使用 max()方法
 
-```
+```py
 # Python program to find largest
 # number in a list
 
@@ -51,13 +51,13 @@ print("Largest element is:", max(list1))
 
 输出:
 
-```
+```py
 Largest element is: 99
 ```
 
 方法 3:根据用户提供的输入找到最大列表元素
 
-```
+```py
 # Python program to find largest
 # number in a list
 
@@ -78,7 +78,7 @@ print("Largest element is:", max(list1))
 
 输出:
 
-```
+```py
 Enter number of elements in list: 4
 Enter elements: 12
 Enter elements: 19
@@ -89,7 +89,7 @@ Largest element is: 99
 
 方法 4:不使用 python 中的内置函数:
 
-```
+```py
 # Python program to find largest
 # number in a list
 
@@ -117,6 +117,6 @@ print("Largest element is:", myMax(list1))
 
 输出:
 
-```
+```py
 Largest element is: 99
 ```

@@ -23,7 +23,7 @@ Shutil 模块提供对文件的高级操作，如文件的复制、创建和远�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method 
 
 # importing shutil module 
@@ -43,7 +43,7 @@ print("Destination path:", dest) 
 
 **输出:**
 
-```
+```py
 Destination path: path/main2.py
 ```
 
@@ -51,7 +51,7 @@ Destination path: path/main2.py
 
 ## 蟒蛇 3
 
-```
+```py
 # importing shutil module  
 import shutil 
 
@@ -72,7 +72,7 @@ print("Destination path:", dest) 
 
 **输出:**
 
-```
+```py
 path/gfg/main.py
 ```
 
@@ -92,7 +92,7 @@ path/gfg/main.py
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy2() method 
 
 # importing os module 
@@ -159,7 +159,7 @@ print("Destination path:", dest) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy2() method 
 # importing os module 
 import os 
@@ -213,7 +213,7 @@ print("Destination path:", dest) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copyfile() method 
 # importing shutil module 
 import shutil 
@@ -231,7 +231,7 @@ print("Destination path:", dest) 
 
 **输出:**
 
-```
+```py
 Destination path: csv/gfg/main_2.py
 ```
 
@@ -253,7 +253,7 @@ Destination path: csv/gfg/main_2.py
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copytree() method 
 # importing os module 
 import os 
@@ -310,7 +310,7 @@ print("Destination path:", destination) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate 
 # shutil.rmtree() 
 
@@ -343,7 +343,7 @@ shutil.rmtree(path) 
 
 ## 蟒蛇 3
 
-```
+```py
 # importing shutil module  
 import shutil  
 
@@ -359,6 +359,6 @@ print(locate)
 
 **输出:**
 
-```
+```py
 D:\Installation_bulk\Scripts\anaconda.EXE
 ```

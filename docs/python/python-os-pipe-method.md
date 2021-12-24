@@ -16,7 +16,7 @@ Python 中的`***os.pipe()***`方法用于创建管道。管道是将信息从�
 
 **Code:** Use of os.pipe() method
 
-```
+```py
 # Python program to explain os.pipe() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ else:
 
 **Output:**
 
-```
+```py
 Parent process is writing
 Text written: Hello child process
 

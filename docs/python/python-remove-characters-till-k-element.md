@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。在这种情况下，我们迭代循环，直到找到 K，然后开始添加字符，看起来就像删除 K 之前的元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove characters till K element
 # using loop
@@ -38,7 +38,7 @@ print ("List elements after removing all before K : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 List elements after removing all before K : ['for', 'geeks']
 

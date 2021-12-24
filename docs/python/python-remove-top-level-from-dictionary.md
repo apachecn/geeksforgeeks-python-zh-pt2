@@ -7,7 +7,7 @@
 **方法一:使用`values()` +字典理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用字典理解执行字典重建任务，并使用值()提取嵌套列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Top level from Dictionary
 # Using dictionary comprehension + values()

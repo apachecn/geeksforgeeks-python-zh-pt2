@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find whether string contains
 # only letters
@@ -30,7 +30,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find whether string contains
 # only letters

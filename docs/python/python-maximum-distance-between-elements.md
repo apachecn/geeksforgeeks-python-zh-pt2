@@ -7,7 +7,7 @@
 **方法:使用 loop + `max() + defaultdict() + enumerate()`**
 以上功能的组合可以用来执行这个特定的任务。在本文中，我们首先使用 defaultdict()用 list 初始化 temp dict。迭代使用枚举()和 max()来计算列表中所有相似数字之间的最大距离。
 
-```
+```py
 # Python3 code to demonstrate 
 # Maximum distance between elements
 # using max() + enumerate() + loop + defaultdict()
@@ -32,7 +32,7 @@ print ("Maximum distance between same element is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 4, 6, 3]
 Maximum distance between same element is : 3
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
         Hello Geeks
         for geeks!
@@ -37,7 +37,7 @@ Output:
 
 ![python-reverse-text-file](img/ae1569f057a52c87e57f51b578a2652f.png)
 
-```
+```py
 # Open file in read mode
 f = open('GFG.txt', 'r')
 

@@ -27,7 +27,7 @@
 
 ## 蟒蛇
 
-```
+```py
 import requests
 
 # use to parse html text
@@ -68,7 +68,7 @@ def to_get_proxies():
 
 ## 蟒蛇
 
-```
+```py
 proxies = to_get_proxies()
 
 # to rotate through the list of IPs
@@ -97,7 +97,7 @@ for i in range(1, 11):
 
 **输出:**
 
-```
+```py
 Request #1
 Skipping.  Connection error
 Request #2

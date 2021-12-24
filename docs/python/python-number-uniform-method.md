@@ -16,7 +16,7 @@ uniform()是 Python 3 中随机库中指定的方法。
 
 **代码#1 :** 代码生成浮点数。
 
-```
+```py
 # Python3 code to demonstrate
 # the working of uniform()
 
@@ -34,7 +34,7 @@ print(random.uniform(a, b))
 
 输出:
 
-```
+```py
 The random number generated between 4 and 9 is : 7.494931618830411
 
 ```
@@ -45,7 +45,7 @@ The random number generated between 4 and 9 is : 7.494931618830411
 
 **代码#2 :** 制服的应用()-一个游戏
 
-```
+```py
 # Python3 code to demonstrate
 # the application of uniform()
 
@@ -81,7 +81,7 @@ if(diffc < diffb and diffc < diffa):
 
 输出:
 
-```
+```py
 The winner of game is : Player2
 
 ```

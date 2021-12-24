@@ -8,26 +8,26 @@
 
 **第一步:**第一步是抓取我们需要导入的美丽的请求模块，获取我们需要导入请求模块的网站的请求。
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 ```
 
 **第二步:**第二步将请求 URL 调用 get 方法。
 
-```
+```py
 page=requests.get(sample_website)
 ```
 
 **第三步:**第三步是创建一个使用漂亮的输出方法的汤，对于 HTML 解析树，使用一个 HTML 解析器。
 
-```
+```py
 BeautifulSoup(page.content, 'html.parser')
 ```
 
 **第四步:**第四步将执行。操作符直到当我们想要标记为废弃嵌套标记时，如果我们想要废弃主体和表内的标记，那么我们将使用下面的语句来废弃嵌套标记。
 
-```
+```py
 soup.body.table.tag
 ```
 
@@ -39,7 +39,7 @@ soup.body.table.tag
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -63,7 +63,7 @@ print(soup.body.ul.i)
 
 **输出:**
 
-```
+```py
 <i class="gfg-icon gfg-icon_arrow-down gfg-icon_header"></i>
 ```
 
@@ -71,7 +71,7 @@ print(soup.body.ul.i)
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -94,7 +94,7 @@ print(soup.body.a)
 
 **输出:**
 
-```
+```py
 <a class="gfg-stc" href="#main" style="top:0">Skip to content</a>
 ```
 
@@ -102,7 +102,7 @@ print(soup.body.a)
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 

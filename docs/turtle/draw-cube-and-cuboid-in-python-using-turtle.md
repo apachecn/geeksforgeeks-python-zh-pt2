@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import the turtle modules 
 import turtle 
 
@@ -82,7 +82,7 @@ my_pen.goto(0,100)
 
 ## 蟒蛇 3
 
-```
+```py
 #import the turtle modules 
 import turtle 
 

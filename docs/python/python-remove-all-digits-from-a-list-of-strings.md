@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : ['alice1', 'bob2', 'cara3']
 Output : ['alice', 'bob', 'cara']
 
@@ -19,7 +19,7 @@ Output : ['geeks', 'for', 'geeks']
 
 Python regex 模式也可以用来查找每个字符串是否包含数字，并将其转换为" "。
 
-```
+```py
 # Python program to Remove all 
 # digits from a list of string
 import re
@@ -37,7 +37,7 @@ print(remove(list))
 
 **Output:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 
 ```
@@ -45,7 +45,7 @@ print(remove(list))
 **方法#2 :** 使用`**str.maketrans()**`方法
 `maketrans()`方法返回一个翻译表，将输入字符串中的每个字符映射到输出字符串中相同位置的字符。在这个特殊的问题中，我们将每个数字翻译成“用于循环”。
 
-```
+```py
 # Python program to Remove all 
 # digits from a list of string
 from string import digits
@@ -63,7 +63,7 @@ print(remove(list))
 
 **Output:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 
 ```
@@ -71,7 +71,7 @@ print(remove(list))
 **方法#3 :** 使用`**str.isalpha()**`方法
 在这种方法中，我们使用两个循环来检查字符串的字符是否是字母表。如果是，就把它加入列表，否则就离开它。
 
-```
+```py
 # Python program to Remove all 
 # digits from a list of string
 from string import digits
@@ -89,7 +89,7 @@ print(remove(list))
 
 **Output:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 
 ```

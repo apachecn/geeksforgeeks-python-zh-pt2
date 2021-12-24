@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def pairings(test_list):
     if len(test_list) <= 1:
         return [test_list]

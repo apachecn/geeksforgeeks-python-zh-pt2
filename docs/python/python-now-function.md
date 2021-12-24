@@ -13,7 +13,7 @@ Python 库定义了一个主要用于获取当前时间和日期的函数。 ***
 
 **代码#1 :**
 
-```
+```py
 # Python3 code to demonstrate
 # Getting current time using 
 # now().
@@ -32,7 +32,7 @@ print (current_time)
 
 输出:
 
-```
+```py
 Time now at greenwich meridian is : 2018-03-29 10:26:23.473031
 
 ```
@@ -43,7 +43,7 @@ now()有不同的属性，与年、月、日、时、分、秒等时间属性相
 
 **代码#2 :** 演示 now()的属性。
 
-```
+```py
 # Python3 code to demonstrate
 # attributes of now()
 
@@ -78,7 +78,7 @@ print ("Microsecond : ", end = "")
 print (current_time.microsecond)
 ```
 
-```
+```py
 The attributes of now() are : 
 Year : 2018
 Month : 3
@@ -96,7 +96,7 @@ Microsecond : 499806
 
 **代码#3 :** 使用 now()处理特定时区。
 
-```
+```py
 # Python3 code to demonstrate
 # attributes of now() for timezone
 
@@ -116,7 +116,7 @@ print (current_time) 
 
 输出:
 
-```
+```py
 The current time in india is : 
 2018-03-29 03:09:33.878000+05:30
 

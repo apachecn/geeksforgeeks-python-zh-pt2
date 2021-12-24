@@ -44,7 +44,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -90,7 +90,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -136,7 +136,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -182,7 +182,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -220,7 +220,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(

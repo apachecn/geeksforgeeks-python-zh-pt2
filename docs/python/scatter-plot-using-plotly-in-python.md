@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 import numpy as np 
 

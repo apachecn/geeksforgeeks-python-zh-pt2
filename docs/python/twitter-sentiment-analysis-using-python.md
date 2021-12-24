@@ -20,20 +20,20 @@
 *   **Tweepy:** [tweepy](http://docs.tweepy.org/en/v3.5.0/) 是官方[推特 API](https://dev.twitter.com/rest/public) 的 python 客户端。
     使用以下 pip 命令进行安装:
 
-    ```
+    ```py
     pip install tweepy
     ```
 
 *   **TextBlob:** [textblob](http://textblob.readthedocs.io/en/dev/) is the python library for processing textual data.
     Install it using following pip command:
 
-    ```
+    ```py
     pip install textblob
     ```
 
     此外，我们需要使用以下命令安装一些 NLTK 语料库:
 
-    ```
+    ```py
     python -m textblob.download_corpora
     ```
 
@@ -49,7 +49,7 @@
 
 **实施:**
 
-```
+```py
 import re
 import tweepy
 from tweepy import OAuthHandler
@@ -174,7 +174,7 @@ if __name__ == "__main__":
 
 以下是运行上述程序时示例输出的样子:
 
-```
+```py
 Positive tweets percentage: 22 %
 Negative tweets percentage: 15 %
 
@@ -215,7 +215,7 @@ Aziz Ansari Just Hit Donald Trump Hard In An Epic Saturday NIght Live Monologue
 *   首先，我们创建一个**推特客户端**类。这个类包含了所有与 Twitter API 交互和解析推文的方法。我们使用 **__init__** 函数来处理 API 客户端的认证。
 *   In **get_tweets** function, we use:
 
-    ```
+    ```py
     fetched_tweets = self.api.search(q = query, count = count)
     ```
 
@@ -223,7 +223,7 @@ Aziz Ansari Just Hit Donald Trump Hard In An Epic Saturday NIght Live Monologue
 
 *   In **get_tweet_sentiment** we use textblob module.
 
-    ```
+    ```py
     analysis = TextBlob(self.clean_tweet(tweet))
     ```
 
@@ -244,7 +244,7 @@ Aziz Ansari Just Hit Donald Trump Hard In An Epic Saturday NIght Live Monologue
     然后，我们使用**文本 Blob** 类的**情绪.极性**方法，得到推文的极性在-1 到 1 之间。
     然后，我们把极性分类为:
 
-    ```
+    ```py
     if analysis.sentiment.polarity > 0:
            return 'positive'
     elif analysis.sentiment.polarity == 0:

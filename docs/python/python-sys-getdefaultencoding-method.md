@@ -14,7 +14,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain sys.getdefaultencoding() method 
 
 # Importing sys module 
@@ -29,7 +29,7 @@ print(encoding) 
 
 **Output:**
 
-```
+```py
 utf-8
 
 ```

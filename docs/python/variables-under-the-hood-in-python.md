@@ -6,7 +6,7 @@
 
 ## python 3
 
-```
+```py
 # Variable named age
 age = 20
 print(age)
@@ -18,7 +18,7 @@ print(id_no)
 
 **输出:**
 
-```
+```py
 20
 4067613
 
@@ -40,7 +40,7 @@ Python 是一种面向对象的语言。Python 程序中的任何数据项都是
 
 ## python 3
 
-```
+```py
 # type() built in function 
 # say the type of variable
 age = 20
@@ -49,7 +49,7 @@ print(type(age))
 
 **输出:**
 
-```
+```py
 <class 'int'>
 
 ```
@@ -68,7 +68,7 @@ T0T6】
 
 **输出:**
 
-```
+```py
 20
 20
 

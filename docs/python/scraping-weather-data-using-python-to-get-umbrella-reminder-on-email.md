@@ -10,25 +10,25 @@
 
 *   [**bs4**](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/)T4:美人汤(bs4)是一个从 HTML 和 XML 文件中提取数据的 Python 库。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 这个库可以让你非常轻松的发送 HTTP/1.1 请求。要安装此库，请在 IDE/终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
 *   [**smtplib:**](https://www.geeksforgeeks.org/send-mail-attachment-gmail-account-using-python/) smtplib 是一个定义了 SMTP 客户端会话对象的 Python 模块，可以用来向互联网上的任何机器发送邮件。要安装此库，请在集成开发环境/终端中键入以下命令。
 
-```
+```py
 pip install smtplib
 ```
 
 *   **日程:**日程是一个 Python 库，用于在一天中的特定时间或一周中的特定日期安排任务。要安装此库，请在集成开发环境/终端中键入以下命令。
 
-```
+```py
 pip install schedule
 ```
 
@@ -38,7 +38,7 @@ pip install schedule
 
 ## 蟒蛇 3
 
-```
+```py
 import schedule
 import smtplib   
 import requests
@@ -49,7 +49,7 @@ from bs4 import BeautifulSoup
 
 ## 蟒 3
 
-```
+```py
 city = "Hyderabad"
 url = "https://www.google.com/search?q=" + "weather" + city
 html = requests.get(url).content
@@ -59,7 +59,7 @@ html = requests.get(url).content
 
 ## 蟒 3
 
-```
+```py
 soup = BeautifulSoup(html,
                      'html.parser')
 temperature = soup.find(
@@ -77,7 +77,7 @@ sky = time_sky.split('\n')[1]
 
 ## 蟒 3
 
-```
+```py
 if sky == "Rainy" or sky == "Rain And Snow" or sky == "Showers" or sky == "Haze" or sky == "Cloudy":
     smtp_object = smtplib.SMTP('smtp.gmail.com', 587)
 ```

@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to replace every element
 # in second list with index of first element.
 
@@ -33,7 +33,7 @@ print("Second list after replacement is:", Output)
 
 **Output:** 
 
-```
+```py
 initial 2 list are
 ['cut', 'god', 'pass'] 
  ['god', 'cut', 'cut', 'cut', 'god', 'pass', 'cut', 'pass']
@@ -44,7 +44,7 @@ Second list after replacement is: [1, 0, 0, 0, 1, 2, 0, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to replace every element
 # in second list with index of first element.
 
@@ -69,7 +69,7 @@ print("Second list after replacement is:", Output)
 
 **Output:** 
 
-```
+```py
 initial 2 list are
 ['cut', 'god', 'pass'] 
  ['god', 'cut', 'cut', 'cut', 'god', 'pass', 'cut', 'pass']
@@ -80,7 +80,7 @@ Second list after replacement is: [1, 0, 0, 0, 1, 2, 0, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to replace every element
 # in second list with index of first element.
 
@@ -102,7 +102,7 @@ print("Second list after replacement is:", Output)
 
 **Output:** 
 
-```
+```py
 initial 2 list are
 ['cut', 'god', 'pass'] 
  ['god', 'cut', 'cut', 'cut', 'god', 'pass', 'cut', 'pass']

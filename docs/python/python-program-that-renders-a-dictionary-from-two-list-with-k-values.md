@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import defaultdict
 
 # initializing list

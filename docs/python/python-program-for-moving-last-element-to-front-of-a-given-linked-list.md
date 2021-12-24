@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to move the last item 
 # to front
 class Node:
@@ -91,7 +91,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Linked list before moving last to front 
 1 2 3 4 5 
 Linked list after removing last to front 

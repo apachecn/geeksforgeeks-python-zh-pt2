@@ -20,7 +20,7 @@
 
 让我们拍摄一张图像，以 200×200 的尺寸裁剪它，然后重新缩放到 400×400 像素。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -45,7 +45,7 @@ with Image(filename ='koala.jpeg') as img:
 
 **示例#2:** 让我们拍摄一个图像裁剪所有四个角的 50 %。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -70,7 +70,7 @@ with Image(filename ='koala.jpeg') as img:
 
 **示例#3:** 将源图像的高度缩放至 200px 并保留纵横比。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 55
 Output : 55  in Binary :  0b110111
          55 in Octal :  0o67
@@ -25,7 +25,7 @@ Output : 282  in Binary :  0b100011010
 
 Python 为标准基转换提供了直接函数，如 bin()、hex()和 oct()
 
-```
+```py
 # Python program to convert decimal to binary,
 # octal and hexadecimal
 
@@ -59,7 +59,7 @@ decimal_to_hexadecimal(dec)
 
 输出:
 
-```
+```py
 32  in Binary :  0b100000
 32 in Octal :  0o40
 32  in Hexadecimal :  0x20

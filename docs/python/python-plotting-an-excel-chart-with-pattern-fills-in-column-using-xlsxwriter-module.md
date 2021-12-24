@@ -13,7 +13,7 @@
 **代码:**绘制带有图案填充的图表。
 要在 excel 表上绘制这种类型的图表，请使用带有图表对象的`'pattern'`关键字参数的`add_series()`方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

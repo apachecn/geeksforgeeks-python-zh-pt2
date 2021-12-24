@@ -21,7 +21,7 @@ Python 中的`***os.rmdir()***`方法用于移除或删除空目录。**如果�
 
 **Code #1:** Use of os.rmdir() method to remove an empty directory
 
-```
+```py
 # Python program to explain os.rmdir() method 
 
 # importing os module 
@@ -44,14 +44,14 @@ print("Directory '%s' has been removed successfully" %directory)
 
 **Output:**
 
-```
+```py
 Directory 'ihritik' has been removed successfully
 
 ```
 
 **Code #2:** Handling errors while using os.rmdir() method
 
-```
+```py
 # Python program to explain os.rmdir() method 
 
 # importing os module 
@@ -88,7 +88,7 @@ except OSError as error:
 
 **Output:**
 
-```
+```py
 [Errno 13] Permission denied: '/home/User/Documents/ihritik'
 Directory 'ihritik' can not be removed
 

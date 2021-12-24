@@ -16,7 +16,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。**�
 **所用图像:**
 ![](img/2f1f05fd4d39d8748190bb240c18681a.png)
 
-```
+```py
 
 # Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter 
@@ -35,7 +35,7 @@ im2.show() 
 
 **半径:**这里使用的半径值为 2。
 
-```
+```py
 Importing Image and ImageFilter module from PIL package 
 from PIL import Image, ImageFilter 
 

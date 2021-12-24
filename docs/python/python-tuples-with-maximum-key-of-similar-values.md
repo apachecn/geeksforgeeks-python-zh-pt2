@@ -7,7 +7,7 @@
 **方法一:使用 `max() + groupby() + itemgetter()` +列表理解**
 以上功能的组合可以用来执行这个特定的任务。在这种情况下，我们首先使用`groupby() and itemgetter()`对相似值元素进行分组，然后使用`max()`提取最大值，并使用列表理解在列表中累加结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuples with maximum key of similar values
 # using max() + groupby() + itemgetter() + list comprehension
@@ -30,7 +30,7 @@ print("The records retaining maximum keys of similar values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(4, 3), (2, 3), (3, 10), (5, 10), (5, 6)]
 The records retaining maximum keys of similar values : [(4, 3), (5, 10), (5, 6)]
 

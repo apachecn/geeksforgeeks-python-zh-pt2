@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # filename to form database
@@ -37,7 +37,7 @@ except:
 
 **输出:**
 
-```
+```py
 Database Sqlite3.db formed.
 ```
 
@@ -45,7 +45,7 @@ Database Sqlite3.db formed.
 
 创建一个全新的 SQLite 数据库就像在 Python 首选库内建立一个与 sqlite3 模块使用的连接一样简单。要建立连接，您只需将文件路径传递给 sqlite3 模块中的 connect(…)方法。如果文件表示的数据库不存在，将在此路径下创建。
 
-```
+```py
 import sqlite3
 connection = sqlite3.connect(<path_to_file_db.sqlite3>)
 ```
@@ -64,19 +64,19 @@ connection = sqlite3.connect(<path_to_file_db.sqlite3>)
 
 1.在 sqlite3 数据库和 Python 程序之间创建连接
 
-```
+```py
 sqliteConnection = sqlite3.connect('SQLite_Retrieving_data.db')
 ```
 
 2.如果 sqlite3 与 python 程序建立了连接，那么它将打印“已连接到 sqlite”，否则它将显示错误
 
-```
+```py
 print("Connected to SQLite")
 ```
 
 3.如果连接是打开的，我们需要关闭它。结束代码出现在最终区块内。我们将使用 close()方法来关闭连接对象。关闭连接对象后，我们将打印“SQLite 连接已关闭”
 
-```
+```py
 if sqliteConnection:
     sqliteConnection.close()
     print("the sqlite connection is closed")
@@ -84,7 +84,7 @@ if sqliteConnection:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Sqlite3 Module
 import sqlite3
 

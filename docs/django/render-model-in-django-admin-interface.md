@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -34,7 +34,7 @@ class GeeksModel(models.Model):
 
 *   在开始使用 django 的管理界面之前，需要在 django 中创建超级用户。超级用户就像一个管理员，可以访问和修改一个特定的姜戈项目的一切。要创建超级用户，请在终端中输入以下命令。
 
-```
+```py
 Python  createsuperuser
 ```
 
@@ -50,7 +50,7 @@ Python  createsuperuser
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 
 # Register your models here.

@@ -9,7 +9,7 @@ split 和 join 方法可以执行此特定任务。在这种情况下，我们�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split string on Kth Occurrence of Character
 # Using split() + join()
@@ -37,7 +37,7 @@ print("Is list after Kth split is : " + str(list(res)))
 
 **Output**
 
-```
+```py
 The original string is : Geeks_for_Geeks_is_best
 Is list after Kth split is : ['Geeks_for_Geeks', 'is_best']
 ```

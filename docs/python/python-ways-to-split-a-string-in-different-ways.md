@@ -16,7 +16,7 @@
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to split string in substring manner
 
 # Input initialisation
@@ -44,7 +44,7 @@ print(Output)
 
 **方法 2:使用 Itertools**
 
-```
+```py
 # Python code to split string in substring manner
 
 # Importing 

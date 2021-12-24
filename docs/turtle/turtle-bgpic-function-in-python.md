@@ -14,7 +14,7 @@
 
 **语法:**
 
-```
+```py
 turtle.bgpic(picname=None)
 
 ```
@@ -25,7 +25,7 @@ turtle.bgpic(picname=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -35,7 +35,7 @@ print(turtle.bgpic())
 
 **输出:**
 
-```
+```py
 nopic
 
 ```
@@ -44,7 +44,7 @@ nopic
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -60,7 +60,7 @@ turtle.bgpic("gfg.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

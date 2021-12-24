@@ -14,7 +14,7 @@
 
 下面是示例样式表代码
 
-```
+```py
 QScrollBar
 {
 background : lightgreen;
@@ -32,7 +32,7 @@ background : red;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

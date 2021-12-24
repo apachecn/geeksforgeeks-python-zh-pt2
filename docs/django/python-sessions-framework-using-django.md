@@ -11,7 +11,7 @@ Sessions 框架可用于为网站中的匿名用户提供持久行为。会话�
 1.  **MIDDLEWARE_CLASSES** 已激活‘django . contrib . sessions . MIDDLEWARE . sessionmiddleware’
 2.  **INSTALLED_APPS** 添加了“django.contrib.sessions”。
 
-    ```
+    ```py
     # Application definition
     INSTALLED APPS = [
     'dhun',
@@ -35,19 +35,19 @@ Sessions 框架可用于为网站中的匿名用户提供持久行为。会话�
 
 启用会话后，必须创建会话数据库表，为此，请运行以下命令:
 
-```
+```py
 python manage.py syncdb
 ```
 
 运行前一个命令后，如果没有发现任何错误，则稍后运行下面给出的命令，最终将保存在迁移文件中的更改反映到数据库中。
 
-```
+```py
 python manage.py migrate
 ```
 
 现在，一旦创建了会话，就必须对 cookies 进行测试。在 `views.py`中，在索引视图中设置测试 cookie，在你的关于视图中测试 cookie。
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Album
@@ -81,7 +81,7 @@ def about(request):
 
 *   首先通过此命令运行 localhost。
 
-    ```
+    ```py
     python manage.py runserver
     ```
 
@@ -93,7 +93,7 @@ def about(request):
 1.  在索引视图功能中添加和更新代码/li >
 2.  更新
 
-    ```
+    ```py
     from django.shortcuts import render
     from django.http import HttpResponse
     from .models import Album

@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -49,7 +49,7 @@ media_player.retain()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 

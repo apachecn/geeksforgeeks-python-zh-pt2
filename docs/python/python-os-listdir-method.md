@@ -13,7 +13,7 @@
 
 **代码#1:** 使用 os.listdir()方法
 
-```
+```py
 # Python program to explain os.listdir() method 
 
 # importing os module 
@@ -32,7 +32,7 @@ print(dir_list)
 
 **Output:**
 
-```
+```py
 Files and directories in ' / ' :
 ['sys', 'run', 'tmp', 'boot', 'mnt', 'dev', 'proc', 'var', 'bin', 'lib64', 'usr', 
 'lib', 'srv', 'home', 'etc', 'opt', 'sbin', 'media']
@@ -41,7 +41,7 @@ Files and directories in ' / ' :
 
 **代码#2:** 使用 os.listdir()方法
 
-```
+```py
 # Python program to explain os.listdir() method 
 
 # importing os module 
@@ -61,7 +61,7 @@ print(dir_list)
 
 **Output:**
 
-```
+```py
 Files and directories in ' /home/ihritik ' :
 ['.rstudio-desktop', '.gnome', '.ipython', '.cache', '.config', '.ssh', 'Public',
 'Desktop', '.pki', 'R', '.bash_history', '.Rhistory', '.oracle_jre_usage', 'Music', 
@@ -74,7 +74,7 @@ Files and directories in ' /home/ihritik ' :
 
 **代码#3:** 省略路径参数
 
-```
+```py
 # Python program to explain os.listdir() method 
 
 # importing os module 
@@ -95,7 +95,7 @@ print(dir_list)
 
 **Output:**
 
-```
+```py
 Files and directories in current working directory :
 ['.rstudio-desktop', '.gnome', '.ipython', '.cache', '.config', '.ssh', 'Public',
 'Desktop', '.pki', 'R', '.bash_history', '.Rhistory', '.oracle_jre_usage', 'Music', 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : "GeeksForGeeks"
 Output : ['Geeks', 'For', 'Geeks']
 
@@ -19,7 +19,7 @@ Output : ['This', 'Is', 'In', 'Camel', 'Case']
 
 将 CamelCase 字符串拆分为单个字符串的一种简单或暴力的方法是使用*进行*循环。首先，使用一个空的“单词”列表，并将“str”的第一个字母附加在上面。现在对循环使用*，检查当前字母是否为小写，如果是，将其追加到当前字符串，否则，如果是大写，则开始新的单个字符串。*
 
-```
+```py
 # Python3 program Split camel case 
 # string to individual strings
 
@@ -41,7 +41,7 @@ print(camel_case_split(str))
 
 **Output:**
 
-```
+```py
 ['Geeks', 'For', 'Geeks']
 
 ```
@@ -50,7 +50,7 @@ print(camel_case_split(str))
 
 在这个方法中，我们首先使用 Python 枚举来查找索引，新字符串从这里开始，并将它们保存在‘start _ idx’中。最后使用‘start _ idx’我们使用 Python *zip* 返回每个单独的字符串。
 
-```
+```py
 # Python3 program Split camel case 
 # string to individual strings
 
@@ -71,14 +71,14 @@ print(camel_case_split(str))
 
 **Output:**
 
-```
+```py
 ['', 'Geeks', 'For', 'Geeks']
 
 ```
 
 **方法#3 :** 使用 Python 正则表达式
 
-```
+```py
 # Python3 program Split camel case 
 # string to individual strings
 import re
@@ -94,7 +94,7 @@ print(camel_case_split(str))
 
 **Output:**
 
-```
+```py
 ['Geeks', 'For', 'Geeks']
 
 ```

@@ -6,7 +6,7 @@
 
 **Code #1 : Using shutil module**
 
-```
+```py
 import shutil
 
 # Copy src to dst. (cp src dst)
@@ -28,7 +28,7 @@ shutil.move(src, dst)
 
 **代码#2 :**
 
-```
+```py
 shutil.copy2(src, dst, follow_symlinks = False)
 
 # To preserve symbolic links in copied directories
@@ -39,7 +39,7 @@ shutil.copytree(src, dst, symlinks = True)
 
 **代码#3 :**
 
-```
+```py
 def ignore_pyc_files(dirname, filenames):
     return [name in filenames if name.endswith('.pyc')]
 
@@ -50,7 +50,7 @@ shutil.copytree(src, dst, ignore = ignore_pyc_files)
 
 **代码#4 :**
 
-```
+```py
 shutil.copytree(src, dst, ignore = shutil.ignore_patterns('*~', '*.pyc'))
 ```
 
@@ -65,46 +65,46 @@ shutil.copytree(src, dst, ignore = shutil.ignore_patterns('*~', '*.pyc'))
 
 **代码#5:示例**
 
-```
+```py
 filename = '/Users/gfg/programs/abc.py'
 
 import os.path
 os.path.basename(filename)
 ```
 
-```
+```py
 'abc.py'
 ```
 
-```
+```py
 os.path.dirname(filename)
 ```
 
-```
+```py
 '/Users/gfg/programs'
 ```
 
-```
+```py
 os.path.split(filename)
 ```
 
-```
+```py
 ('/Users/gfg/programs', 'abc.py')
 ```
 
-```
+```py
 os.path.join('/new/dir', os.path.basename(filename))
 ```
 
-```
+```py
 '/new/dir/spam.py'
 ```
 
-```
+```py
 os.path.expanduser('~/gfg/programs/spam.py')
 ```
 
-```
+```py
 '/Users/gfg/programs/abc.py'
 ```
 

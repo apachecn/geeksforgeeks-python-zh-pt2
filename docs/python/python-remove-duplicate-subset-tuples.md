@@ -13,7 +13,7 @@
 **方法一:使用`setdefault()` +列表理解**
 这是解决这个任务的方法之一。在这种情况下，我们执行初始化列表和保存要比较的元素的任务。最后，利用列表理解进行子集元组的移除。这种方法为移除元组的大小提供了灵活性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Duplicate subset Tuples
 # Using setdefault() + list comprehension
@@ -41,7 +41,7 @@ print("Tuple list after removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(6, 9, 17, 18), (15, 34, 56), (6, 7), (6, 9), (15, 34)]
 Tuple list after removal : [(6, 9, 17, 18), (15, 34, 56), (6, 7)]
 
@@ -50,7 +50,7 @@ Tuple list after removal : [(6, 9, 17, 18), (15, 34, 56), (6, 7)]
 **方法 2:使用`all() + any()` +循环**
 上述功能的组合提供了解决这个问题的另一种方法。在这种情况下，我们测试所有子集，无论大小。any()函数用于检查在使用 all()提取的特定元组的所有元素中，是否有任何元组是新的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Duplicate subset Tuples
 # Using all() + any()+ loop
@@ -77,7 +77,7 @@ print("Tuple list after removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(6, 9, 17, 18), (15, 34, 56), (6, 7), (6, 9), (15, 34)]
 Tuple list after removal : [(6, 9, 17, 18), (15, 34, 56), (6, 7)]
 

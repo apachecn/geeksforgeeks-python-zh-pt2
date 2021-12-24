@@ -19,7 +19,7 @@ Django 表单是一组高级的 HTML 表单，可以使用 python 创建，并�
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 # creating a form
@@ -37,7 +37,7 @@ class InputForm(forms.Form):
 
 **语法:**
 
-```
+```py
 Field_name = forms.FieldType(attributes)
 ```
 
@@ -45,7 +45,7 @@ Field_name = forms.FieldType(attributes)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import InputForm
 
@@ -60,7 +60,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form action = "" method = "post">
     {% csrf_token %}
     {{form }}

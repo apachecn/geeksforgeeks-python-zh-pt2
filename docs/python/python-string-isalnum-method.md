@@ -21,7 +21,7 @@ Python 字符串 **isalnum()** 方法检查给定字符串中的所有字符是�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the use of
 # isalnum() method  
 
@@ -39,7 +39,7 @@ print(string.isalnum())
 
 **输出:**
 
-```
+```py
 True
 False
 ```

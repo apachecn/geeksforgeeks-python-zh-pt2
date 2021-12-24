@@ -25,13 +25,13 @@
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
 **插入播放列表的代码:**此示例显示了如何在授权用户的帐户中插入/创建播放列表。**片段。标题**是创建新播放列表时的强制属性。其他的是可选的。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -165,7 +165,7 @@ if __name__ == '__main__':
 
 **更新播放列表的代码:**此示例向您展示了如何更新播放列表属性，如标题、描述或隐私状态。 **id** 和**片段。标题**是强制属性，所有其他属性都是可选的。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -296,7 +296,7 @@ if __name__ == '__main__':
 
 **删除播放列表的代码:**现在是时候删除我们在第一个示例中创建的播放列表了。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import plotly.express as px
 
 fig = px.treemap(

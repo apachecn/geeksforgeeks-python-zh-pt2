@@ -19,7 +19,7 @@ Python 也支持[文件处理](https://www.geeksforgeeks.org/file-handling-pytho
 [**访问模式**](https://www.geeksforgeeks.org/reading-writing-text-files-python/) 控制打开文件中可能的操作类型。它指的是文件打开后将如何使用。这些模式还定义了文件中**文件句柄**的位置。**文件句柄**就像一个光标，它定义了从哪里读取或写入文件中的数据。有时知道文件句柄的位置对我们来说变得很重要。方法可以用来获取文件句柄的位置。tell()方法返回文件对象的当前位置。此方法不接受任何参数，并返回一个整数值。最初，文件指针指向文件的开头(如果没有在追加模式下打开)。所以，tell()的初始值为零。
 **语法:**
 
-```
+```py
 file_object.tell()
 ```
 
@@ -31,7 +31,7 @@ file_object.tell()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # tell() method
 
@@ -47,7 +47,7 @@ fp.close()
 
 **输出:**
 
-```
+```py
 0
 ```
 
@@ -55,7 +55,7 @@ fp.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # tell() method
 
@@ -72,7 +72,7 @@ fp.close()
 
 **输出:**
 
-```
+```py
 8
 ```
 
@@ -80,7 +80,7 @@ fp.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # tell() method
 
@@ -100,7 +100,7 @@ fp.close()
 
 **输出:**
 
-```
+```py
 0
 7
 ```

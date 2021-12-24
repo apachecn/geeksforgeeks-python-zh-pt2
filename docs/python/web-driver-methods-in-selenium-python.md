@@ -10,7 +10,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 要创建网络驱动程序的对象，请从文档中导入网络驱动程序类，并基于不同的网络浏览器和功能创建一个对象。之后，可以使用这个对象来执行网络驱动程序的所有操作。例如，要创建火狐的对象，可以使用–
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 
@@ -43,7 +43,7 @@ driver = webdriver.Firefox()
 让我们尝试使用 https://www.geeksforgeeks.org/实现网络驱动方法，并通过 selenium python 使用 javascript。
 **节目–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

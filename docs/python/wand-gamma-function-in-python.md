@@ -16,7 +16,7 @@
 **来源影像:**
 ![](img/1872ab3ef601f11fa50ef88fbc76742b.png)
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -31,7 +31,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 将调整 _ 值增加到 1.75。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get id of list
 a = [1, 2, 3, 4, 5]
 print(id(a))
@@ -42,7 +42,7 @@ print(id(a))
 
 **输出:**
 
-```
+```py
 140234866534752
 94264748411744
 140234904267376
@@ -61,7 +61,7 @@ print(id(a))
 
 ## 蟒蛇 3
 
-```
+```py
 # import addressof,
 # c_int modules from ctypes module
 from ctypes import c_int, addressof
@@ -73,7 +73,7 @@ print(addressof(c_int(a)))
 
 **输出:**
 
-```
+```py
 140234866278064
 ```
 
@@ -93,7 +93,7 @@ print(addressof(c_int(a)))
 
 ## 蟒蛇 3
 
-```
+```py
 # get id of list in hexadecimal representation
 a = [1, 2, 3, 4, 5]
 print(hex(id(a)))
@@ -113,7 +113,7 @@ print(hex(id(a)))
 
 **输出:**
 
-```
+```py
 0x7fba9b0ae8c0
 0x5572da858b60
 0x7fba9f3c4a10

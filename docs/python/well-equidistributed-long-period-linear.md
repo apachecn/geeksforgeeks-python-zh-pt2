@@ -6,7 +6,7 @@
 
 伪随机数发生器是指一类算法，它利用一组初始种子值，并应用各种逻辑操作或移位操作来产生一个看似随机的数字。生成器可以递归定义如下:
 
-```
+```py
 Xn+1 = (a*(Xn) + c) modulo-m
 
 where X is a sequence of pseudorandom values, 
@@ -19,7 +19,7 @@ and X0 is the seed ( 0<X0<m)
 
 算法如下:
 
-```
+```py
 0\.  Initialize the necessary seed values
 1\.  Utilize a state array of a defined length (here it is 32)
 2\.  Apply the necessary xor, shift and logical and operations to arrive at
@@ -35,7 +35,7 @@ WELL 算法可以在短时间内产生多个数字，对于需要多个数字的
 
 **Python 代码实现–**
 
-```
+```py
 # W stands for size of the digest, R is the size of the state
 W = 32;R = 32 
 # Variables used for jumping to a particular state
@@ -100,7 +100,7 @@ if (__name__ == "__main__"):
 
 **输出:**
 
-```
+```py
 WELL created
 
 random number generated is 49.822

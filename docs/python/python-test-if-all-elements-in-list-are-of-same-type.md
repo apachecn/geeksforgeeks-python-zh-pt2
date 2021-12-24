@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `isinstance()`**
 上述功能的组合可用于执行该任务。在本例中，我们使用 isinstance()测试类型，并检查所有元素是否与第一个元素的类型相同。
 
-```
+```py
 # Python3 code to demonstrate 
 # Test if all elements in list are of same type
 # using loop + isinstance()
@@ -32,7 +32,7 @@ print ("Do all elements have same type : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 2, 5, 7, 9]
 Do all elements have same type : True
 

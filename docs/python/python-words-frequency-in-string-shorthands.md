@@ -13,7 +13,7 @@
 **方法#1:使用字典理解+ `count() + split()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们首先拆分所有单词，然后使用 count()对它们进行计数。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Words Frequency in String Shorthands
 # Using dictionary comprehension + count() + split()
@@ -40,7 +40,7 @@ print("The words frequency : " + str(res)) 
 **方法 2:使用`Counter() + split()`**
 以上方法的组合也可以用来解决这个问题。在本文中，我们使用 Counter()执行计数任务，使用 split()执行单词分离。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Words Frequency in String Shorthands
 # Using Counter() + split()

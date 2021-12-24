@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 <geeksforgeeks>
 <course>DSA</course>
 <price>2499/-</price>
@@ -59,7 +59,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Element class, tostring function
 # from xml.etree.ElementTree library
 from xml.etree.ElementTree import Element,tostring

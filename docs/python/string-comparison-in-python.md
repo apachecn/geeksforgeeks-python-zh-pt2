@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 print("Geek" == "Geek")
 print("Geek" < "geek")
 print("Geek" > "geek")
@@ -27,7 +27,7 @@ print("Geek" != "Geek")
 
 **输出:**
 
-```
+```py
 True
 True
 False
@@ -43,7 +43,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 str1 = "Geek"
 str2 = "Geek"
 str3 = str1

@@ -18,7 +18,7 @@ Python 中的`***os.set_inheritable()***`方法用于设置指定文件描述符
 
 **Code:** Use of os.set_inheritable() method to set the “inheritable” flag of the given file descriptor.
 
-```
+```py
 # Python program to explain os.set_inheritable() method  
 
 # importing os module 
@@ -54,7 +54,7 @@ print("Current value of inheritable flag:", os.get_inheritable(fd))
 
 **Output:**
 
-```
+```py
 Current value of inheritable flag: False
 Inheritable flag modified
 Current value of inheritable flag: True

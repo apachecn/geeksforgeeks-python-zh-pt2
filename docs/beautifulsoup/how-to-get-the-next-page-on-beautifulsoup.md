@@ -8,13 +8,13 @@
 
 *   [**beauty Soup:**](https://www.geeksforgeeks.org/how-to-scrape-websites-with-beautifulsoup-and-python/)beauty Soup(bs4)是一个用于从 HTML 和 XML 文件中拉出数据的 Python 库。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   [**请求** :](https://www.geeksforgeeks.org/python-requests-tutorial/) 这个库可以让你极其轻松的发送 HTTP/1.1 请求。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -26,20 +26,20 @@ pip install requests
 
 **第一步:**导入所有依赖
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 ```
 
 **第二步:**我们需要用请求请求页面 URL。
 
-```
+```py
 page=requests.get(sample_website)
 ```
 
 **第三步:**借助 beautifulsoup 方法和 HTML 解析器，我们将创建一个页面的汤。
 
-```
+```py
 soup = BeautifulSoup(page, 'html.parser')
 ```
 
@@ -49,7 +49,7 @@ soup = BeautifulSoup(page, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 for i in soup.find_all('a', href = True):
 
   # check all link which is contain
@@ -72,7 +72,7 @@ for i in soup.find_all('a', href = True):
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -108,7 +108,7 @@ for i in soup.find_all('a', href = True):
 
 **输出:**
 
-```
+```py
 next url title :  GeeksforGeeks | A computer science portal for geeks
 next url title :  Analysis of Algorithms | Set 1 (Asymptotic Analysis) - GeeksforGeeks
 next url title :  Analysis of Algorithms | Set 2 (Worst, Average and Best Cases) - GeeksforGeeks

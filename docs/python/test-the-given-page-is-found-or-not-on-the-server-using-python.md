@@ -10,7 +10,7 @@ Urllib 是一个包，允许你用程序访问网页。
 
 **安装:**
 
-```
+```py
 pip install urllib
 ```
 
@@ -24,7 +24,7 @@ pip install urllib
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from urllib.request import urlopen
 from urllib.error import *
@@ -48,7 +48,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yeah !  found
 ```
 
@@ -58,7 +58,7 @@ Request 让你可以极其轻松地发送 HTTP/1.1 请求。该模块也没有�
 
 **安装:**
 
-```
+```py
 pip install requests
 ```
 
@@ -73,7 +73,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import requests
 
@@ -103,6 +103,6 @@ url_ok(url)
 
 **输出:**
 
-```
+```py
 True
 ```

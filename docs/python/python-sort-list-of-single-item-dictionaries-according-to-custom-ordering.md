@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort list of Single Item dictionaries according to custom ordering
 # Using sorted() + index() + keys() + lambda 
@@ -51,7 +51,7 @@ print("The custom order list : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort list of Single Item dictionaries according to custom ordering
 # Using sort() + index() + keys() + lambda

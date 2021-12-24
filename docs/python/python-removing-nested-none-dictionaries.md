@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + filter()`**
 这是可以执行这个任务的方式之一。在本例中，我们使用过滤器()执行过滤无值的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Removing Nested None Dictionaries
 # Using filter() + dict()

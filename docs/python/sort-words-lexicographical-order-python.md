@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  "hello python program how are you"
 Output :  are
           hello
@@ -28,7 +28,7 @@ Output :  Coders
 **方法:**
 这个程序中使用的方法非常简单。使用 Split()函数拆分字符串。之后，使用 sort()按照字典顺序对单词进行排序。通过循环迭代单词并打印每个已经排序的单词。
 
-```
+```py
 # Python program to sort the words in lexicographical
 # order
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 alphabetical
 example
 hello

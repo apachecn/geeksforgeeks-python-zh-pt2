@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # working of sleep()
 
@@ -42,7 +42,7 @@ print(time.ctime())
 
 **输出:**
 
-```
+```py
 The time of code execution begin is : Mon Apr  9 20:57:10 2018
 The time of code execution end is : Mon Apr  9 20:57:16 2018
 ```
@@ -55,7 +55,7 @@ sleep()用于许多应用程序。这可以在 sleep()的帮助下实现。另�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # application of sleep()
 
@@ -73,7 +73,7 @@ for i in range(0, len(strn)):
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 ```
 
@@ -83,7 +83,7 @@ GeeksForGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time package
 import time
 
@@ -102,7 +102,7 @@ print(myList)
 
 延迟 5 秒后，我们将获得如下输出:
 
-```
+```py
 ['Jai', 'Shree', 'RAM', 5, 'August', 2020]
 ```
 
@@ -110,7 +110,7 @@ print(myList)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time package
 import time
 
@@ -130,7 +130,7 @@ print(mytuple)
 
 延迟 4 秒后，我们将获得如下输出:
 
-```
+```py
 ('Anil Kumbl', 'Sachin Tendulkar', 'Sunil Gavaskar', 'Rahul Dravid',
 'Mahendra Singh Dhoni', 'Dennis Lillee', 'Muttiah Muralitharan', 'Shane Warne')
 ```
@@ -139,7 +139,7 @@ print(mytuple)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time package
 import time
 
@@ -165,13 +165,13 @@ for lan in Languages:
 
 延迟 5 秒后，列表将显示为:
 
-```
+```py
 ['Java', 'C++', 'Python', 'Javascript', 'C#', 'C', 'Kotlin']
 ```
 
 然后，每隔 13 秒，列表中的项目将显示为:
 
-```
+```py
 Java
 C++
 Python
@@ -185,7 +185,7 @@ Kotlin
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time package
 import time
 
@@ -203,7 +203,7 @@ cricketers = [(time.sleep(7), print(cric)) for cric in cricketers]
 
 每隔 7 秒钟，列表中的项目将显示为:
 
-```
+```py
 Anil Kumble
 Sachin Tendulkar
 Sunil Gavaskar
@@ -218,7 +218,7 @@ Shane Warne
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time package
 import time
 
@@ -238,6 +238,6 @@ print(Languages)
 
 延迟 3 分钟后，列表将显示为:
 
-```
+```py
 ['Java', 'C++', 'Python', 'Javascript', 'C#', 'C', 'Kotlin']
 ```

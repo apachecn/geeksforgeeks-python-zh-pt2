@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.undo()
 
 ```
@@ -21,7 +21,7 @@ turtle.undo()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -43,7 +43,7 @@ turtle.undo()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -71,7 +71,7 @@ for i in range(8):
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

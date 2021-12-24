@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : number = 171
              k = 5 
              p = 2
@@ -29,7 +29,7 @@ so, you should get only 01000 i.e 8.
 2.  我们需要从右边的起始位置 p 开始提取 k 位，这意味着提取的子串的结束索引将是**end =(len(binary)–p)**，开始索引将是原始二进制串的**start = end–k+1**。
 3.  再次将提取的子字符串转换为十进制。
 
-```
+```py
 # Function to extract ‘k’ bits from a given
 # position in a number
 
@@ -61,7 +61,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 21
 
 ```

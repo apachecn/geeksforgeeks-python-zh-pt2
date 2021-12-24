@@ -10,17 +10,17 @@ Django 对模型字段名进行了一些限制。
 
 首先创建 django 项目来查看这些限制
 
-```
+```py
 django-admin startapp myproj
 ```
 
-```
+```py
 cd myproj
 ```
 
 然后创建新的应用程序。
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -36,7 +36,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -52,7 +52,7 @@ class Student(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -66,7 +66,7 @@ class Student(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -82,7 +82,7 @@ class Student(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.

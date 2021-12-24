@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtract String Lists
 # using loop + remove()
@@ -35,7 +35,7 @@ print("The Subtracted list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['gfg', 'is', 'best', 'for', 'CS']
 The original list 2 : ['preferred', 'is', 'gfg']
 The Subtracted list is : ['best', 'for', 'CS']
@@ -46,7 +46,7 @@ The Subtracted list is : ['best', 'for', 'CS']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtract String Lists
 # using Counter() + elements()
@@ -70,7 +70,7 @@ print("The Subtracted list is : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['gfg', 'is', 'best', 'for', 'CS']
 The original list 2 : ['preferred', 'is', 'gfg']
 The Subtracted list is : ['best', 'for', 'CS']

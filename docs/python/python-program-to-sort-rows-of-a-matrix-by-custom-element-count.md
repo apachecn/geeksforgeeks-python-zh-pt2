@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # sorting util.
 def get_count(sub):
     return len([ele for ele in sub if ele in cus_list])
@@ -50,7 +50,7 @@ print("Sorted Matrix : " + str(test_list))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = [[4, 5, 1, 7], [6, 5], [9, 8, 2], [7, 1]]
 

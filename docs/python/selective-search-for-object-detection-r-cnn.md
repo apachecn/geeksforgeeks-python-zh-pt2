@@ -9,7 +9,7 @@
 1.  使用 Felzenszwalb 等人在其论文“基于图的高效图像分割”中描述的方法生成输入图像的初始子分割。![](img/0559a23c3b16c540f15fcc0cd6a79910.png)
 2.  递归地将较小的相似区域合并成较大的区域。我们使用贪婪算法来组合相似的区域，以形成更大的区域。算法写在下面。
 
-```
+```py
 Greedy Algorithm : 
 
 1\. From set of regions, choose two that are most similar.

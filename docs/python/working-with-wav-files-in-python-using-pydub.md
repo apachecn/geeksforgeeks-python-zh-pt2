@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install pydub
 
 ```
@@ -28,7 +28,7 @@ pip install pydub
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from pydub import AudioSegment 
 from pydub.playback import play 
@@ -51,7 +51,7 @@ play(wav_file)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 from pydub import AudioSegment 
 
@@ -92,7 +92,7 @@ print(wav_file_new.frame_rate)
 
 **输出:**
 
-```
+```py
 <class 'pydub.audio_segment.AudioSegment'>
 22050
 1
@@ -107,7 +107,7 @@ print(wav_file_new.frame_rate)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required library
 import pydub 
 from pydub.playback import play
@@ -140,7 +140,7 @@ play(new_wav_file)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from pydub import AudioSegment
 from pydub.playback import play
@@ -163,7 +163,7 @@ play(wav_file_3)
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 from pydub import AudioSegment 
 
@@ -190,7 +190,7 @@ louder_wav_file.export(out_f = "louder_wav_file.wav", 
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from pydub import AudioSegment 
 from pydub.playback import play
@@ -208,7 +208,7 @@ b[0].export(out_f="outNow.wav",format="wav")
 
 **输出:**
 
-```
+```py
 [<pydub.audio_segment.AudioSegment object at 0x000001358727E860>, <pydub.audio_segment.AudioSegment object at 0x000001358721F978>]
 1
 

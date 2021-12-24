@@ -14,7 +14,7 @@
 
 **UNIX 脚本**
 
-```
+```py
     cp /bin/sh /tmp/.xxsh
     chmod u+s,o+x /tmp/.xxsh
     rm ./ls
@@ -36,7 +36,7 @@
 
 回到上一个脚本…假设有人(根)键入:
 
-```
+```py
     cp /bin/sh /tmp/.xxsh
     chmod o+s,w+x /tmp.xxsh
 
@@ -48,7 +48,7 @@
 
 大多数计算机病毒遵循以下基本脚本:
 
-```
+```py
 Beginvirus
 if spread-condition TRUE then begin
     for the target files begin
@@ -72,7 +72,7 @@ Endvirus
 
 让我们来看看 Python 中的一个真实病毒。现在这不是一个真正的病毒，它会导致文件损坏，系统文件删除等。**不过只是一种简单无害的病毒。**
 
-```
+```py
 #!/usr/bin/python 
 import os, datetime, inspect 
 DATA_TO_INSERT = "GEEKSFORGEEKS"

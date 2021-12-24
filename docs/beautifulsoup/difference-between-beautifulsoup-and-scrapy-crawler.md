@@ -14,7 +14,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install BeautifulSoup4
 ```
 
@@ -22,7 +22,7 @@ pip install BeautifulSoup4
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 
 soup = BeautifulSoup(html,'html.parser')
@@ -46,7 +46,7 @@ Scrapy 实际上是一个完整的网页抓取框架。你可以给 Scrapy 一�
 
 **安装:**
 
-```
+```py
 pip install scrapy
 ```
 

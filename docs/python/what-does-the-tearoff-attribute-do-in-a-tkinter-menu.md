@@ -17,20 +17,20 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 创建菜单
 
-```
+```py
 menubar = Menu(root)
 ```
 
 在菜单中添加文本
 
-```
+```py
 file = Menu(menubar) 
 menubar.add_cascade(label ='Your Text', menu = file)
 ```
 
 *   一个**撕掉**允许你分离大多数窗口的菜单，形成浮动菜单。如果您生成一个菜单，您可以在单击顶部菜单项后在顶部看到虚线。要解决这个问题，需要在菜单声明时设置为 0。
 
-```
+```py
 file = Menu(menubar,tearoff=0)
 edit = Menu(menubar,tearoff=0)
 help_ = Menu(menubar,tearoff=0)
@@ -41,7 +41,7 @@ help_ = Menu(menubar,tearoff=0)
 
 **语法:**
 
-```
+```py
 Object_Name.add_command(label ='Write Text')
 ```
 
@@ -56,7 +56,7 @@ Object_Name.add_command(label ='Write Text')
 
 ## 蟒蛇 3
 
-```
+```py
 # import Module
 from tkinter import *
 

@@ -53,7 +53,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Inputing Natural Number
 number = int(input("Enter the Natural Number: "))
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract top N Dictionaries by Key
 # Using sorted() + lambda + reverse
@@ -44,7 +44,7 @@ print("Top N keys are: " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {6: 1, 8: 9, 3: 9, 10: 8}
 Top N keys are: [10, 8, 6, 3]
 
@@ -56,7 +56,7 @@ Top N keys are: [10, 8, 6, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract top N Dictionaries by Key
 # Using nlargest() + lambda
@@ -83,7 +83,7 @@ print("Top N keys are: " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {6: 1, 8: 9, 3: 9, 10: 8}
 Top N keys are: [10, 8, 6, 3]
 

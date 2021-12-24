@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -37,7 +37,7 @@ print(turtle.heading())
 
 **输出:**
 
-```
+```py
 90.0
 1.5707963267948966
 ```
@@ -46,7 +46,7 @@ print(turtle.heading())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

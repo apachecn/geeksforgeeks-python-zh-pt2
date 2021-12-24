@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["geeksforgeeks", "is", "best", "for", "geeks"]
 
@@ -37,7 +37,7 @@ print("Range characters : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best', 'for', 'geeks']
 Range characters : sbestforgeeks
 
@@ -49,7 +49,7 @@ Range characters : sbestforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from itertools import chain
 
@@ -71,7 +71,7 @@ print("Range characters : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best', 'for', 'geeks']
 Range characters : sbestforgeeks
 

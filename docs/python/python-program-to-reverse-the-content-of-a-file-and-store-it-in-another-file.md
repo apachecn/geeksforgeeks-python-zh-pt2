@@ -11,7 +11,7 @@
 
 **例 1:** 全倒车
 
-```
+```py
 Input: Hello Geeks
        for geeks!
 
@@ -22,7 +22,7 @@ Output:!skeeg rof
 
 **例 2:** 字对字颠倒
 
-```
+```py
 Input: 
         Hello Geeks
         for geeks!
@@ -40,7 +40,7 @@ T3】文本文件:T5】
 
 ## 计算机编程语言
 
-```
+```py
 # Open the file in write mode
 f1 = open("output1.txt", "w")
 
@@ -72,7 +72,7 @@ f1.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Open the file in write mode
 f2 = open("output2.txt", "w")
 

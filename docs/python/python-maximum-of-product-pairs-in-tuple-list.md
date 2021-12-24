@@ -7,7 +7,7 @@
 **方法#1:使用`max()` +列表理解**
 该功能的组合可用于执行该任务。在本文中，我们计算所有对的乘积，然后使用 max()返回它的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum of Product Pairs in Tuple List
 # Using list comprehension + max()
@@ -29,7 +29,7 @@ print("Maximum product among pairs : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Maximum product among pairs : 30
 

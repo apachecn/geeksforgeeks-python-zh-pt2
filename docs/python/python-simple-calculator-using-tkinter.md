@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Tkinter and math
 from tkinter import *
 import math

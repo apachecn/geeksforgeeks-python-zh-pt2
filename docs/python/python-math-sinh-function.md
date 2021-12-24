@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # Python code to implement
 # the sinh()function
 
@@ -35,7 +35,7 @@ print (math.sinh(1))
 
 **输出:**
 
-```
+```py
 548.3161232732465
 1.045829748006498e+24
 5.75102656636201
@@ -45,7 +45,7 @@ print (math.sinh(1))
 
 **例 2:**
 
-```
+```py
 # Python code implementation of 
 # the sinh() function
 import math 
@@ -72,7 +72,7 @@ plt.show() 
 
 **输出:**
 
-```
+```py
 Input_Array : 
  [1\.         1.30584843 1.61169686 1.91754528 2.22339371 2.52924214
  2.83509057 3.14093899 3.44678742 3.75263585 4.05848428 4.3643327

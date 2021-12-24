@@ -11,7 +11,7 @@
 
 **注意:**该方法强制要求用户授权。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -128,7 +128,7 @@ if __name__ == '__main__':
 **检查订阅是否存在的代码:**
 此示例显示订阅是否存在。此示例显示授权用户是否订阅了由`forChannelId` 参数标识的频道。要检查另一个频道是否订阅了`forChannelId` 参数中指定的频道，请删除我的参数，并将其替换为 channelId 参数。：
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

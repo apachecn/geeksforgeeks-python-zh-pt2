@@ -6,7 +6,7 @@
 A **顶级域名** (TLD)是互联网分级域名系统中级别最高的域名之一。示例–edu，org，com。
 这主要用在我们必须报废页面并根据顶级域名对网址进行排序的情况下。它在开源项目中被广泛使用，并作为方便的代码片段使用。
 
-```
+```py
 Input :
 url = ["https://www.isb.edu", "www.google.com", 
 "http://cyware.com", "https://www.gst.in", 
@@ -30,7 +30,7 @@ The Tld for the above list is in sorted order
 **方法一:使用排序后的**
 可以拆分输入，然后使用排序按照 TLD 排序。
 
-```
+```py
 #Python code to sort the URL in the list based on the top-level domain.
 
 #Url list initialization
@@ -52,7 +52,7 @@ print("sorted list according to TLD is")
 print(Output)
 ```
 
-```
+```py
 Initial list is :
 
 ['https://www.isb.edu', 'www.google.com', 'http://cyware.com',
@@ -70,7 +70,7 @@ Sorted list according to TLD is :
 **方法二:使用 Lambda**
 根据顶级域名对列表中的 URL 进行排序，最简洁易读的方法就是使用 Lambda。
 
-```
+```py
 #Python code to sort the URL in the list based on the top-level domain.
 
 #Url list initialization
@@ -88,7 +88,7 @@ print("sorted list according to TLD is")
 print(Output)
 ```
 
-```
+```py
 Initial list is :
 
 ['https://www.isb.edu', 'www.google.com', 'http://cyware.com',
@@ -106,7 +106,7 @@ Sorted list according to TLD is :
 **方法 3:使用反转**
 反转输入并拆分，然后应用排序根据 TLD 对 URL 进行排序
 
-```
+```py
 #Python code to sort the URL in the list based on the top-level domain.
 
 #Url list initialization
@@ -128,7 +128,7 @@ print("sorted list according to TLD is")
 print(Output)
 ```
 
-```
+```py
 Initial list is :
 
 ['https://www.isb.edu', 'www.google.com', 'http://cyware.com',

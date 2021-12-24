@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.colormode(mode=None)
 
 ```
@@ -21,7 +21,7 @@ turtle.colormode(mode=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -31,7 +31,7 @@ print(turtle.color())
 
 **输出:**
 
-```
+```py
 ('black', 'black')
 
 ```
@@ -40,7 +40,7 @@ print(turtle.color())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

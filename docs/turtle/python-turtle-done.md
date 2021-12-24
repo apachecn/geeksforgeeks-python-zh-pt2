@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -39,7 +39,7 @@ turtle.done()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

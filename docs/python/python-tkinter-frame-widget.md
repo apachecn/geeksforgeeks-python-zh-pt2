@@ -13,7 +13,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 **语法:**
 使用框架小部件的语法如下。
 
-```
+```py
 w = frame( master, options)
 ```
 
@@ -37,7 +37,7 @@ w = frame( master, options)
 
 **示例:**
 
-```
+```py
 from tkinter import * root = Tk()
 root.geometry("300x150")
 

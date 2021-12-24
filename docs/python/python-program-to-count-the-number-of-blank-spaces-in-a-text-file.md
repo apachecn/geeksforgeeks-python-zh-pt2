@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # this will open the file and store
 # in "file" variable
 file = open("test1.txt", "r")
@@ -51,7 +51,7 @@ print(count)
 
 **输出:**
 
-```
+```py
 5
 
 ```
@@ -64,7 +64,7 @@ print(count)
 
 ## 蟒蛇 3
 
-```
+```py
 # this will open the file and store in
 # "file" variable
 file = open("test1.txt", "r")
@@ -86,7 +86,7 @@ print(count)
 
 **输出:**
 
-```
+```py
 4
 
 ```
@@ -97,7 +97,7 @@ print(count)
 
 ## 蟒蛇 3
 
-```
+```py
 import functools
 
 with open("test1.txt") as file:
@@ -113,7 +113,7 @@ with open("test1.txt") as file:
 
 **输出:**
 
-```
+```py
 4
 
 ```

@@ -4,7 +4,7 @@
 
 在 Python 中，时间模块的 tzset()函数基于使用环境变量 TZ 的重新初始化设置。python 中时间模块的 tzset()方法重置时间转换协议。该时区表示世界协调时以西的非夏令时秒，而备用时区表示世界协调时以西的夏令时秒。TZ 环境变量的常规形式是:
 
-```
+```py
 std offset [dst [offset [,start[/time], end[/time]]]]
 ```
 
@@ -20,7 +20,7 @@ std offset [dst [offset [,start[/time], end[/time]]]]
 
 **语法:**
 
-```
+```py
 time.tzset()
 ```
 
@@ -38,7 +38,7 @@ time.tzset()
 
 ## 蟒蛇 3
 
-```
+```py
 # time.tzset() Function in python
 
 # importin time and os module
@@ -66,7 +66,7 @@ print(time.strftime('%X %x %Z'))
 
 **Output**
 
-```
+```py
 08:47:24 11/19/21 EST
 00:47:24 11/20/21 AEDT
 ```
@@ -75,7 +75,7 @@ print(time.strftime('%X %x %Z'))
 
 ## 蟒蛇 3
 
-```
+```py
 # time.tzset() Function in python
 
 # importin time and os module
@@ -103,7 +103,7 @@ print(time.strftime('%X %x %Z'))
 
 **Output**
 
-```
+```py
 12:14:00 11/23/21 UTC
 13:14:00 11/23/21 CET
 ```
@@ -112,7 +112,7 @@ print(time.strftime('%X %x %Z'))
 
 ## 蟒蛇 3
 
-```
+```py
 # time.tzset() Function in python
 
 # importin time and os module
@@ -140,7 +140,7 @@ print(time.strftime('%X %x %Z'))
 
 **Output**
 
-```
+```py
 23:14:00 11/23/21 AEDT
 14:14:00 11/23/21 EET
 ```

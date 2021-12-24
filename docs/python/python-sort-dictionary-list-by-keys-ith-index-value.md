@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary List by Key's ith Index value
 # Using sort() + lambda
@@ -54,7 +54,7 @@ print("List after sorting : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary List by Key's ith Index value
 # Using sort() + lambda + get()

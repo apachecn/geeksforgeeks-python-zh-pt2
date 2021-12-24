@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :  g e e k
 Output : geek
 
@@ -21,7 +21,7 @@ Output : HelloWorld
 
 使用 replace()函数，我们用无空格("")替换所有空白。
 
-```
+```py
 # Python3 code to remove whitespace
 def remove(string):
     return string.replace(" ", "")
@@ -33,7 +33,7 @@ print(remove(string))
 
 **Output:**
 
-```
+```py
 geek
 
 ```
@@ -42,7 +42,7 @@ geek
 
 首先我们使用`split()`函数返回字符串中的单词列表，使用 *sep* 作为分隔符字符串。然后，我们使用`join()`来连接可迭代。
 
-```
+```py
 # Python3 code to remove whitespace
 def remove(string):
     return "".join(string.split())
@@ -54,14 +54,14 @@ print(remove(string))
 
 **Output:**
 
-```
+```py
 geek
 
 ```
 
 **方法#3 :** 使用 Python 正则表达式
 
-```
+```py
 # Python3 code to remove whitespace
 import re
 
@@ -76,14 +76,14 @@ print(remove(string))
 
 **Output:**
 
-```
+```py
 geek
 
 ```
 
 **方法#4 :** 使用`translate()`
 
-```
+```py
 # Python code to remove whitespace
 import string
 
@@ -97,7 +97,7 @@ print(remove(string))
 
 **Output:**
 
-```
+```py
 geek
 
 ```

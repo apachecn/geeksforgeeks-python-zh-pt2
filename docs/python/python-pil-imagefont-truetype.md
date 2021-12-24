@@ -25,7 +25,7 @@ PIL 使用自己的字体文件格式来存储位图字体。您可以使用:命
 **所用图像:**
 ![](img/d593a5f56f410a2bb68605ed26ce8cd1.png)
 
-```
+```py
 
 # Importing Image and ImageFont, ImageDraw module from PIL package 
 from PIL import Image, ImageFont, ImageDraw
@@ -51,7 +51,7 @@ image.show()
 **图像使用**
 ![](img/36292bce712894329f29eccc3c3498ff.png)
 
-```
+```py
 Importing Image and ImageFont, ImageDraw module from PIL package 
 from PIL import Image, ImageFont, ImageDraw
 

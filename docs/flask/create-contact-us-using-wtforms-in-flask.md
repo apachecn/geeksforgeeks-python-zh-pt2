@@ -17,7 +17,7 @@
 
 使用终端安装烧瓶-WTF。
 
-```
+```py
 pip install Flask-WTF
 ```
 
@@ -27,7 +27,7 @@ pip install Flask-WTF
 
 ## 蟒蛇 3
 
-```
+```py
 from flask_wtf import FlaskForm
 from wtforms import StringField, validators, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Email
@@ -45,7 +45,7 @@ class contactForm(FlaskForm):
 
 ## python 3
 
-```
+```py
 @app.route("/", methods=["GET", "POST"])
 def home():
     cform = contactForm()
@@ -54,19 +54,19 @@ def home():
 
 **第三步:**增加 CSRF 保护。添加密钥。
 
-```
+```py
 app.secret_key = "any-string-you-want-just-keep-it-secret"
 ```
 
 **步骤 4:** 添加 contact.html HTML 文件中的字段。
 
-```
+```py
 {{ form.csrf_token }} is used to provide csrf protection.
 ```
 
 ## HTML
 
-```
+```py
 <!DOCTYPE HTML>
 
 <html>
@@ -108,7 +108,7 @@ app.secret_key = "any-string-you-want-just-keep-it-secret"
 
 ## 蟒 3
 
-```
+```py
 @app.route("/", methods=["GET", "POST"])
 def home():
     cform = contactForm()

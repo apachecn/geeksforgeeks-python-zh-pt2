@@ -4,7 +4,7 @@
 
 在本文中，我们将讨论 PyQT5 模块的消息框小部件。它用于显示消息框。 **PyQt5** 是一个使用 Qt GUI 框架创建 GUI 的库。Qt 最初是用 C++编写的，但可以在 Python 中使用。可以使用以下命令安装最新版本的 PyQt5:
 
-```
+```py
 pip install PyQt5
 ```
 
@@ -18,7 +18,7 @@ pip install PyQt5
 
 **语法:**
 
-```
+```py
 msg_box_name = QMessageBox() 
 ```
 
@@ -78,7 +78,7 @@ msg_box_name = QMessageBox()
 
 ## 计算机编程语言
 
-```
+```py
 #import libraries
 import sys
 from PyQt5.QtWidgets import *

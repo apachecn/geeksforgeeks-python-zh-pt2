@@ -18,7 +18,7 @@ Python 中的`***os.path.islink()***`方法用于检查给定的路径是否代�
 **创建软链接或符号链接**
 在 Unix 或 Linux 中，可以使用命令中的**创建软链接或符号链接。以下是在 shell 提示符下创建符号链接的语法:**
 
-```
+```py
 $ ln -s {source-filename} {symbolic-filename}
 
 ```
@@ -30,7 +30,7 @@ $ ln -s {source-filename} {symbolic-filename}
 
 **代码:**使用 os.path.islink()方法检查给定路径是否为符号链接
 
-```
+```py
 # Python program to explain os.path.islink() method 
 
 # importing os.path module 
@@ -57,7 +57,7 @@ print(isFile)
 
 **Output:**
 
-```
+```py
 False
 True
 

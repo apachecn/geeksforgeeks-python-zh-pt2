@@ -7,7 +7,7 @@
 **方法#1:使用`split()`**
 该任务可以使用`split`函数来执行，该函数执行单词的拆分并将字符串的第一个单词与整个单词分开。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing Initial word from string
 # Using split()
@@ -28,7 +28,7 @@ print("The string after omitting first word is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks is best
 The string after omitting first word is : is best
 

@@ -13,7 +13,7 @@ Keras 提供了可用于训练和测试模型的数据集集合。**时尚 MNIST
 **实现:**
 **代码:加载数据**
 
-```
+```py
 mnist = tf.keras.datasets.fashion_mnist
 (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
 ```
@@ -22,7 +22,7 @@ mnist = tf.keras.datasets.fashion_mnist
 
 **代码:理解数据**
 
-```
+```py
 import numpy as np
 np.set_printoptions(linewidth = 200)
 import matplotlib.pyplot as plt
@@ -35,7 +35,7 @@ print(training_images[42])
 
 **输出:**
 
-```
+```py
 9
 [[  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
  [  0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0   0]
@@ -75,14 +75,14 @@ print(training_images[42])
 
 **代码:**
 
-```
+```py
 training_images = training_images / 255.0
 test_images = test_images / 255.0
 ```
 
 **代码:**实现 Keras 模型
 
-```
+```py
 model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), 
                                     tf.keras.layers.Dense(128, activation = tf.nn.relu), 
                                     tf.keras.layers.Dense(10, activation = tf.nn.softmax)])
@@ -99,7 +99,7 @@ model = tf.keras.models.Sequential([tf.keras.layers.Flatten(), 
 接下来要做的事情，现在模型已经定义好了，就是实际构建它。你可以像以前一样用优化器和损失函数来编译它，然后通过调用 *model.fit* 来训练它，要求它将你的训练数据与你的训练标签相匹配，即让它找出训练数据和它的实际标签之间的关系，所以在将来，如果你有看起来像训练数据的数据，那么它可以预测数据会是什么样子。
 **代码:**
 
-```
+```py
 model.compile(optimizer = tf.optimizers.Adam(),
               loss = 'sparse_categorical_crossentropy',
               metrics =['accuracy'])
@@ -109,7 +109,7 @@ model.fit(training_images, training_labels, epochs = 5)
 
 **输出:**
 
-```
+```py
 Instructions for updating:
 Colocations handled automatically by placer.
 Epoch 1/5
@@ -132,13 +132,13 @@ Epoch 5/5
 但是它如何处理看不见的数据呢？这就是为什么我们有测试图像。我们可以调用 *model.evaluate* ，传入两套，它会为每套报失。
  **代号:**
 
-```
+```py
 model.evaluate(test_images, test_labels)
 ```
 
 **输出:**
 
-```
+```py
 10000/10000 [==============================] - 1s 60us/sample - loss: 0.2908 - acc: 0.8956
 
 ```

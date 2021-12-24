@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input  :  str = 'wwwwaaadexxxxxx'
 Output : 'w4a3d1e1x6'
 
@@ -16,7 +16,7 @@ Output : 'w4a3d1e1x6'
 
 此问题已有解决方案请参考[游程编码](https://www.geeksforgeeks.org/run-length-encoding/)链接。这里我们将使用[ordereddct](https://www.geeksforgeeks.org/remove-duplicates-given-string-python/)在 python 中快速解决这个问题。方法很简单，首先我们创建一个有序字典，其中包含输入字符串的字符作为键，0 作为它们的默认值，现在我们运行一个循环来计算每个字符的频率，并将它映射到它对应的键。
 
-```
+```py
 # Python code for run length encoding
 from collections import OrderedDict
 def runLengthEncoding(input):
@@ -47,14 +47,14 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 'w4a3d1e1x6'
 
 ```
 
  **另一个代号:**
 
-```
+```py
 def encode(message):
     encoded_message = ""
     i = 0

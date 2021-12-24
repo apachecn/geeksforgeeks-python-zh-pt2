@@ -32,7 +32,7 @@
 *   **C++不强制面向对象编程:**C++语言包含一些便于面向对象编程的语言扩展，c++不强制任何地方的面向对象设计——它只是允许这样做。
 *   **参数化类型**模板关键字允许程序员编写算法的泛型(类型不可知)实现。其中，在 C 语言中，可以编写一个通用的列表实现，其元素如下:
 
-```
+```py
     struct element_t 
     {
        struct element_t *next, *prev;
@@ -42,7 +42,7 @@
 
 *   C++允许人们写一些类似的东西:
 
-```
+```py
 template <typename T>
 struct element_t 
 {
@@ -54,7 +54,7 @@ struct element_t
 *   **更大的标准库:** C++允许完全使用 C 标准库，C++包括自己的库，包括[标准模板库](http://geeksquiz.com/the-c-standard-template-library-stl/)。STL 包含许多有用的模板，像上面的排序例程。它包括有用的通用数据结构，如列表、地图、集合等。像排序例程一样，其他的 STL 例程和数据结构是根据程序员的特定需求“定制”的——程序员所要做的就是填写类型。
     例如，如果我们需要为一个问题实现二分搜索法，我们将不得不编写我们自己的函数，而在 C++中[二分搜索法 STL 例程](http://geeksquiz.com/binary-search-algorithms-the-c-standard-template-library-stl/)被定义为
 
-```
+```py
  binary_search(startaddress, endaddress, valuetofind)
 ```
 

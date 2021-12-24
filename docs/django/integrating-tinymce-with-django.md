@@ -8,7 +8,7 @@ TinyMCE 是一个在线富文本编辑器，完全灵活，并提供定制。主
 
 要将其与 Django 网络应用程序或网站集成，您需要首先安装其 pip 库
 
-```
+```py
 pip install django-tinymce
 
 ```
@@ -17,7 +17,7 @@ pip install django-tinymce
 
 在 setting.py 中添加 tinyMCE 作为单个应用程序
 
-```
+```py
 INSTALLED_APPS = [
      ...
     'tinymce',
@@ -28,7 +28,7 @@ INSTALLED_APPS = [
 
 还可以在 settings.py 中添加 tinyMCE 编辑器的默认配置
 
-```
+```py
 TINYMCE_DEFAULT_CONFIG = {
     'cleanup_on_startup': True,
     'custom_undo_redo_levels': 20,
@@ -62,7 +62,7 @@ TINYMCE_DEFAULT_CONFIG = {
 
 现在完成了 TinyMCE 的设置，将它带入到我们需要的操作中。使用一些必需的值，比如输入字段的大小，在 html 页面上显示内容时会用到它
 
-```
+```py
 from django import forms
 from tinymce import TinyMCE
 from .models import _your_model_
@@ -84,7 +84,7 @@ class PostForm(forms.ModelForm):
 
 最后一步是将 html 字段添加到您的模型中，您也可以使用不同的字段在他们的官方网站上查看它们
 
-```
+```py
 ...
 from tinymce.models import HTMLField 
 
@@ -95,18 +95,18 @@ class article(models.Model):
 
 所有这些都设置好了，只需通过运行以下命令在管理页面中进行迁移以查看更改
 
-```
+```py
 python manage.py makemigrations
 
 ```
 
-```
+```py
 python manage.py migrate
 ```
 
 现在通过运行服务器在管理区域检查它
 
-```
+```py
 python manage.py runserver
 
 ```

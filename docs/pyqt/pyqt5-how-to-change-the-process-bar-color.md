@@ -8,7 +8,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > bar.setStyleSheet("QProgressBar::chunk "
 >                   "{"
 >                     "background-color: red;"
@@ -18,7 +18,7 @@
 > 
 > **执行的动作:**会改变进程条的颜色。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

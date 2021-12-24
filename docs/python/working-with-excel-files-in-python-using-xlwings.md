@@ -7,14 +7,14 @@
 **安装:**
 虚拟环境用于将项目环境(库、环境变量等)等与其他项目和同一台机器的全局环境分开。这个步骤是可选的，因为并不总是需要为项目创建虚拟环境。为此，我们将使用 python 包 *virtualenv* 。
 
-```
+```py
 virtualenv env
 .\env\scripts\activate
 ```
 
 虚拟环境已经准备好了。
 
-```
+```py
 pip install xlwings
 ```
 
@@ -33,7 +33,7 @@ https://drive.google.com/file/d/1ZoT_y-SccAslpD6HWTgCn9N-iiKqw_pA/view?usp=shari
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # access Excel files
 
@@ -67,7 +67,7 @@ print("A value in sheet1 :", val)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to select
 # data from excel
 import xlwings as xw
@@ -111,7 +111,7 @@ print("Automatic Table :", automatic)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to write
 # data to Excel
 import xlwings as xw

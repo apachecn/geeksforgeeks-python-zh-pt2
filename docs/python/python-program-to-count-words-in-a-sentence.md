@@ -7,7 +7,7 @@
 **方法#1:使用`split()`**
 `split` 功能从列表中获取单词是相当有用且通常相当通用的方法，但是一旦我们在列表中引入特殊字符，这种方法就会失败。
 
-```
+```py
 # Python3 code to demonstrate 
 # to count words in string 
 # using split()

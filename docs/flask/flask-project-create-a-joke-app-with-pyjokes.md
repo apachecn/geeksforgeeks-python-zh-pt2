@@ -10,14 +10,14 @@ Flask 是一个用 Python 编写的微网络框架。它被归类为微框架，
 
 首先我们安装烧瓶
 
-```
+```py
 pip install flask
 
 ```
 
 第二个库安装
 
-```
+```py
 pip install pyjokes
 
 ```
@@ -59,7 +59,7 @@ py chambers 中有两种主要方法 get _ jokes()和 get _ jokes()。
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 import pyjokes
 
@@ -83,14 +83,14 @@ if __name__ == "__main__":
 
 对于窗口
 
-```
+```py
 python app.py
 
 ```
 
 对于 ubuntu
 
-```
+```py
 python3 app.py
 
 ```

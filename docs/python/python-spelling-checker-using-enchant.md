@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the enchant module
 import enchant
 
@@ -36,7 +36,7 @@ for word in misspelled:
 
 **输出:**
 
-```
+```py
 The misspelled words are : ['cmputr', 'watr', 'wrte']
 Suggestion for cmputr : ['computer']
 Suggestion for watr : ['wart', 'watt', 'wat', 'war', 'water', 'wat r']

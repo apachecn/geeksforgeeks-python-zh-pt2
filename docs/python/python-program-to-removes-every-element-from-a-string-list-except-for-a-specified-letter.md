@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["google", "is", "good", "goggled", "god"]
 
@@ -49,7 +49,7 @@ print("Modified List : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["google", "is", "good", "goggled", "god"]
 

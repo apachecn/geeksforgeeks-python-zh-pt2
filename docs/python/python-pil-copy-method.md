@@ -4,7 +4,7 @@
 
 PIL is the Python Imaging Library which provides the python interpreter with image editing capabilities. **PIL.Image.copy()** method copies the image to another image object, this method is useful when we need to copy the image but also retain the original.
 
-```
+```py
 Syntax:Image.copy()
 
 Parameters: no arguments
@@ -13,7 +13,7 @@ Returns:An image object
 
 ```
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -30,7 +30,7 @@ im2.show()
 **输出:**
 ![](img/d0cb086ecd7f6d219341c82004a2a02c.png)
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 

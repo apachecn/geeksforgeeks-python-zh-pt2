@@ -19,7 +19,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing libraries
 import urllib.request
 from PyQt5.QtWidgets import *
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
 ****剩下的工作由计算百分比的公式来完成。我们将 readed_data 乘以 100，再除以文件的总大小。它给出了当前的下载百分比。然后我们使用 progress bar 对象的 setValue()方法将这个下载百分比设置到进度条。****
 
-```
+```py
 **self.progressBar.setValue(download_percentage)**
 ```
 

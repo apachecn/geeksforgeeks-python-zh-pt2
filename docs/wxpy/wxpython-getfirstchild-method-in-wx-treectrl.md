@@ -27,7 +27,7 @@ GetFirstChild()方法返回一个无效的树项(即 wx。如果没有其他子�
 
 ## 计算机编程语言
 
-```
+```py
 import wx
 
 class MyTree(wx.TreeCtrl):

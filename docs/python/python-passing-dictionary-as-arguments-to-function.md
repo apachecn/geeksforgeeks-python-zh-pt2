@@ -14,7 +14,7 @@ Python 中的字典是无序且可变的数据集合。与列表使用的数字�
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # passing dictionary as argument
 
@@ -32,7 +32,7 @@ func(D)
 
 **输出:**
 
-```
+```py
 key: b Value: 2
 key: a Value: 1
 key: c Value: 3
@@ -45,7 +45,7 @@ key: c Value: 3
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # passing dictionary as kwargs
 
@@ -66,14 +66,14 @@ main()
 
 **输出:**
 
-```
+```py
 John F. Kennedy
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # passing dictionary as kwargs
 
@@ -94,7 +94,7 @@ main()
 
 **输出:**
 
-```
+```py
 John F. Kennedy
 x = 2
 y = 0

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {"Gfg": 3, "is": 5, "for": 8,
              "Geeks": 10, "Best": 16}
@@ -54,7 +54,7 @@ print("Extracted items : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {"Gfg": 3, "is": 5, "for": 8,
              "Geeks": 10, "Best": 16}

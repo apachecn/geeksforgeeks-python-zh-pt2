@@ -22,7 +22,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Python3 code to demonstrate working of
 # Sort Matrix by index-value equality count
 # Using sort() + len() + enumerate()
@@ -62,7 +62,7 @@ print("Sorted List : " + str(test_list))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **# Python3 code to demonstrate working of
 # Sort Matrix by index-value equality count
 # Using sorted() + lambda + len() + enumerate()
@@ -101,7 +101,7 @@ print("Sorted List : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# Python3 code to demonstrate working of
 # Sort Matrix by index-value equality count
 # Using sort() + len() + enumerate()
@@ -150,7 +150,7 @@ print("Sorted List : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# Python3 code to demonstrate working of
 # Sort Matrix by index-value equality count
 # Using sorted() + lambda + len() + enumerate()

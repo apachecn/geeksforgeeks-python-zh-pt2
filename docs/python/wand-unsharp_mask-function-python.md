@@ -8,6 +8,6 @@
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > wand.image.unsharp_mask(radius, sigma, amount, threshold)
 > ```

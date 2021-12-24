@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get Nearest coord.
 def near_coord(test_list, x, y, val):
     for idx, row in enumerate(test_list[x:]):

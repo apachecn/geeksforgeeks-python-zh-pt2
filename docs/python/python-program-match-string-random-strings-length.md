@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : GFG
 Output :n4W
         mK7
@@ -33,7 +33,7 @@ Target matched after 167 iterations
 **方法:**简单运行两个循环，使用 python 提供的随机函数。它将显示随机函数可以提供的所有可能的组合，同样的事情将由解密循环完成。最后，当提示输入时，它将显示与您插入的文本相同的文本。它会将每个随机字符串与给定的字符串进行匹配。如果两个索引都匹配，则修复该索引，并对剩余的索引进行迭代。
 T3】下面是实现:
 
-```
+```py
 # Python program to generate and match 
 # the string from all random strings
 # of same length
@@ -90,7 +90,7 @@ print("Target matched after " +
 
 **输出:**
 
-```
+```py
 FyFJ
 .:YZ
 aubo

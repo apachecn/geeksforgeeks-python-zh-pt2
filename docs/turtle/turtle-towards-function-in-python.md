@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.towards(x, y=None)
 
 ```
@@ -29,7 +29,7 @@ turtle.towards(x, y=None)
 
 ## python 3
 
-```
+```py
 # import package
 import turtle
 
@@ -60,7 +60,7 @@ print(ang)
 
 **输出:**
 
-```
+```py
 0.0
 90.0
 180.0

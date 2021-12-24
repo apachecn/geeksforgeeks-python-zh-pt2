@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace duplicates in tuple
 # using set() + list comprehension
@@ -31,7 +31,7 @@ print("Tuple after replacing values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : (1, 1, 4, 4, 4, 5, 5, 6, 7, 7)
 Tuple after replacing values : (1, 'gfg', 4, 'gfg', 'gfg', 5, 'gfg', 6, 7, 'gfg')
 ```
@@ -41,7 +41,7 @@ Tuple after replacing values : (1, 'gfg', 4, 'gfg', 'gfg', 5, 'gfg', 6, 7, 'gfg'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace duplicates in tuple
 # using groupby() + loop
@@ -65,7 +65,7 @@ print("Tuple after replacing values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : (1, 1, 4, 4, 4, 5, 5, 6, 7, 7)
 Tuple after replacing values : (1, 'gfg', 4, 'gfg', 'gfg', 5, 'gfg', 6, 7, 'gfg')
 ```

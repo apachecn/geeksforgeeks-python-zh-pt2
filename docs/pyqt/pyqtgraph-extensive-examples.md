@@ -16,7 +16,7 @@ PyQtGraph 包含一组可由`import pyqtgraph.examples`模块访问的大量示�
 
 下面是实现
 
-```
+```py
 # importing the pyqtgraph.examples module
 import pyqtgraph.examples
 

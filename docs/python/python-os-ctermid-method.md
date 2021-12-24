@@ -14,7 +14,7 @@
 
 **代码:**使用 os.ctermid()方法
 
-```
+```py
 # Python program to explain os.ctermid() method 
 
 # importing os module 
@@ -33,7 +33,7 @@ print(filename)
 
 **Output:**
 
-```
+```py
 /dev/tty
 
 ```

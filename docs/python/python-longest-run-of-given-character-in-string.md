@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们可以执行这个任务的蛮力方法。在这种情况下，我们在字符串上运行一个循环，并在每次运行时继续记忆最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Run of Character in String
 # Using loop
@@ -39,7 +39,7 @@ print("Longest Run length of K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeeks
 Longest Run length of K : 3
 
@@ -48,7 +48,7 @@ Longest Run length of K : 3
  **方法 2:使用`max() + re.findall()`**
 这是解决这个问题的一种线性方式。在本例中，我们使用 findall()找到了所有运行的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Run of Character in String
 # Using max() + re.findall()
@@ -73,7 +73,7 @@ print("Longest Run length of K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeeks
 Longest Run length of K : 3
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace all Characters Except K
 # Using list comprehension and conditional expressions
@@ -44,7 +44,7 @@ print("List after replacement : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['G', 'F', 'G', 'I', 'S', 'B', 'E', 'S', 'T']
 List after replacement : ['G', '{content}apos;, 'G', '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;]
 
@@ -56,7 +56,7 @@ List after replacement : ['G', '{content}apos;, 'G', '{content}apos;, '{content}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace all Characters Except K
 # Using map() + lambda
@@ -82,7 +82,7 @@ print("List after replacement : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['G', 'F', 'G', 'I', 'S', 'B', 'E', 'S', 'T']
 List after replacement : ['G', '{content}apos;, 'G', '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;, '{content}apos;]
 

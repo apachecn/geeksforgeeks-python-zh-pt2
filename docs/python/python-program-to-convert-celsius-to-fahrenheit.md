@@ -5,7 +5,7 @@
 假设温度是摄氏度。任务是转换华氏刻度中的值并显示它。
 **例:**
 
-```
+```py
 Input :
 37 
 Output :
@@ -26,7 +26,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 # Temperature in celsius degree
 celsius = 40
 
@@ -42,6 +42,6 @@ print('%.2f Celsius is equivalent to: %.2f Fahrenheit'
 
 **输出:**
 
-```
+```py
 40.00 Celsius is equivalent to: 104.00 Fahrenheit
 ```

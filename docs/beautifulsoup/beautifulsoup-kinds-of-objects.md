@@ -17,7 +17,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing the module
 from bs4 import BeautifulSoup
 
@@ -30,7 +30,7 @@ print(type(soup))
 
 **输出:**
 
-```
+```py
 <class 'bs4.BeautifulSoup'>
 ```
 
@@ -38,7 +38,7 @@ print(type(soup))
 
 ## 蟒 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -58,7 +58,7 @@ print(type(tag))
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.Tag'>
 ```
 
@@ -79,7 +79,7 @@ print(type(tag))
 
 ## 蟒 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -103,7 +103,7 @@ print(tag)
 
 **输出:**
 
-```
+```py
 b
 <Strong>Geeks for Geeks</Strong>
 ```
@@ -114,7 +114,7 @@ b
 
 ## 蟒 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 

@@ -12,7 +12,7 @@
 
 **计算矢量投影到 Python 中的另一个矢量:**
 
-```
+```py
 # import numpy to perform operations on vector
 import numpy as np
 
@@ -34,13 +34,13 @@ print("Projection of Vector u on Vector v is: ", proj_of_u_on_v)
 
 **输出:**
 
-```
+```py
 Projection of Vector u on Vector v is:  [1.76923077 2.12307692 0.70769231]
 ```
 
 **用于将一个向量投影到另一个向量上的一个线性代码:**
 
-```
+```py
 (np.dot(u, v)/np.dot(v, v))*v
 ```
 
@@ -52,7 +52,7 @@ Projection of Vector u on Vector v is:  [1.76923077 2.12307692 0.70769231]
 
 **用 Python 计算平面上的矢量投影:**
 
-```
+```py
 # import numpy to perform operations on vector
 import numpy as np
 
@@ -79,6 +79,6 @@ print("Projection of Vector u on Plane P is: ", u - proj_of_u_on_n)
 
 **输出:**
 
-```
+```py
 Projection of Vector u on Plane P is:  [ 0.76470588  3.76470588 -0.64705882]
 ```

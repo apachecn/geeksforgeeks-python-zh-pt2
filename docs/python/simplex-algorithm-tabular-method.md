@@ -27,7 +27,7 @@ LPP(线性规划问题)的一般形式是
 **XB :** The number of resources or we can say the RHS of the constraints.
 **yi :** The complete Matrix A.
 
-```
+```py
 Simplex Algorithm
 1\. Start with the initial basis associated with identity matrix.
 2\. Calculate the relative profits. 
@@ -161,7 +161,7 @@ Value of Z at optimality = 3*2 + 3*5 + 0*0 = **21**
 
 **单纯形算法的代码实现**
 
-```
+```py
 import numpy as np 
 from fractions import Fraction # so that numbers are not displayed in decimal.
 

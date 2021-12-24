@@ -6,7 +6,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # import modules
 import numpy as np
 import sys
@@ -46,7 +46,7 @@ def dict_performance():
 
 ## 蟒蛇 3
 
-```
+```py
 # compute time taken
 %time np_performance()
 ```
@@ -57,7 +57,7 @@ def dict_performance():
 
 ## 蟒蛇 3
 
-```
+```py
 # compute time taken
 %time dict_performance()
 ```

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 import math
 import tkinter.messagebox
@@ -22,7 +22,7 @@ import tkinter.messagebox
 
 ## 蟒蛇 3
 
-```
+```py
 root = Tk()
 
 # sets the name on the top of the gui
@@ -52,7 +52,7 @@ calc.grid()
 
 ## 蟒蛇 3
 
-```
+```py
 class Calc():
     def __init__(self):
         self.total = 0
@@ -236,7 +236,7 @@ added_value = Calc()
 
 ## 蟒蛇 3
 
-```
+```py
 txtDisplay = Entry(calc,
                    font=('Helvetica', 20,
                          'bold'),
@@ -258,7 +258,7 @@ txtDisplay.insert(0, "0")
 
 ## 蟒蛇 3
 
-```
+```py
 # store all the numbers in a variable
 numberpad = "789456123"
 
@@ -298,7 +298,7 @@ for j in range(2, 5):
 
 ## 蟒蛇 3
 
-```
+```py
 btnClear = Button(calc, text=chr(67),
                   width=6, height=2,
                   bg='powder blue',
@@ -507,7 +507,7 @@ lblDisplay.grid(row=0, column=4, columnspan=4)
 
 ## 蟒蛇 3
 
-```
+```py
 # use askyesno function to
 # stop/continue the program exection 
 def iExit(): 
@@ -554,7 +554,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 import math
 import tkinter.messagebox

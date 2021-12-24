@@ -6,7 +6,7 @@ Python 是一种多用途语言，人们可以用它做任何事情。Python 也
 
 在这个游戏中，用户第一次有机会在石头、纸和剪刀中选择。电脑从剩下的两个选项中(随机)选择后，按照规则决定获胜者。
 
-```
+```py
 Winning Rules as follows :
 
 Rock vs paper-> paper wins
@@ -18,7 +18,7 @@ paper vs scissor-> scissor wins.
 
 下面是实现:
 
-```
+```py
 # import random module
 import random
 
@@ -113,7 +113,7 @@ print("\nThanks for playing")
 
 **输出:**
 
-```
+```py
 winning Rules of the Rock paper and scissor game as follows:
 rock vs paper->paper wins 
 rock vs scissors->rock wins 

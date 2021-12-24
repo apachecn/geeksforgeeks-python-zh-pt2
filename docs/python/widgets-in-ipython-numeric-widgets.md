@@ -4,7 +4,7 @@
 
 ipython 中的小部件是 ipython 解释器控制台中提供的基于 GUI 的交互工具。通过基于所使用的小部件实时改变整数的值，它有助于与不同的组件进行交互。要安装它，请在 jupyter 笔记本中使用以下命令。
 
-```
+```py
 !pip install ipywidgets
 ```
 
@@ -32,7 +32,7 @@ IntSlider 中的一些重要选项
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as wdg
 
 # Real time interactive square calculation
@@ -55,7 +55,7 @@ interact()方法用于在与滑块耦合时返回可调用的值。这是真实�
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as widgets
 widgets.interact(lambda x:x**2, x = widgets.FloatSlider(min = 0, step =.25, max = 10, value = 1))
 ```
@@ -76,7 +76,7 @@ base 参数允许更改滑块中的日志基数。
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as widgets
 widgets.interact(lambda x:x, x = widgets.FloatLogSlider(description ="$e ^ x{content}quot;, min = 0, step = 1, base = 5, max = 10, value = 1))
 ```
@@ -95,7 +95,7 @@ widgets.interact(lambda x:x, x = widgets.FloatLogSlider(description ="$e ^ x{con
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as widgets
 widgets.interact(lambda x :x, x = widgets.IntRangeSlider(min = 0, step = 1, max = 10, value =[1, 2]))
 ```
@@ -114,7 +114,7 @@ widgets.interact(lambda x :x, x = widgets.IntRangeSlider(min = 0, step = 1, max 
 
 ## 蟒蛇 3
 
-```
+```py
 import ipywidgets as widgets
 widgets.interact(lambda x :x, x = widgets.FloatRangeSlider(min = 0, step =.25, max = 10, value =[1, 2]))
 ```

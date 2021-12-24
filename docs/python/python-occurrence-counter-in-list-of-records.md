@@ -7,7 +7,7 @@
 **方法:使用 loop + `Counter()`**
 以上功能的组合可以用来执行这个任务。在本文中，我们使用 Counter()对元素进行迭代并计算频率，唯一字符由字典的键管理。
 
-```
+```py
 # Python3 code to demonstrate 
 # Occurrence counter in List of Records
 # using Counter() + loop

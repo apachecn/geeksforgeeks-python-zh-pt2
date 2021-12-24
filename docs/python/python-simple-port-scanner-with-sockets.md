@@ -14,7 +14,7 @@
 
 要使用套接字模块，我们必须导入它:
 
-```
+```py
  import socket 
 
 ```
@@ -23,14 +23,14 @@
 
 创建一个新的套接字对象时使用了 socket()。socket()函数的语法是:
 
-```
+```py
  newSocket = socket.socket(socket_family, socket_type) 
 
 ```
 
 socket_family 是版本 4 或 6 的 ip 地址。默认情况下，它采用 IPV4。
 
-```
+```py
  AF_INET for socket family of address version 4
 
  AF_INET6 for socket family of address version 6 
@@ -39,7 +39,7 @@ socket_family 是版本 4 或 6 的 ip 地址。默认情况下，它采用 IPV4
 
 socket_type 是一种连接类型。默认情况下，它采用 TCP 连接。
 
-```
+```py
  SOCK_STREAM  for Socket type of TCP connections 
 
 SOCK_DGRAM for Socket type of UDP connections 
@@ -48,35 +48,35 @@ SOCK_DGRAM for Socket type of UDP connections
 
 返回包含 Python 解释器当前正在执行的机器的主机名的字符串。我们可以使用:
 
-```
+```py
  socket.gethostname() 
 
 ```
 
 如果主机名在 IPV6 中，则使用以下方法将主机名转换为 IPv4 地址格式。IPv4 地址以字符串形式返回，例如“10.120.30.2”。如果主机名本身是 IPv4 地址，则返回时不会改变。
 
-```
+```py
  socket.gethostbyname(hostname) 
 
 ```
 
 为了将套接字绑定到地址，我们使用 Bind()方法。套接字必须尚未绑定。地址的格式取决于地址族。该函数的语法如下。
 
-```
+```py
  socket.bind(self,address) 
 
 ```
 
 要关闭连接，请使用 close()方法。这个方法标记套接字关闭。一旦发生这种情况，对套接字对象的所有后续操作都将失败。远程端将不再接收数据(在排队的数据被刷新之后)。套接字在被垃圾收集时会自动关闭，但建议显式关闭它们，或者在它们周围使用 with 语句。语法是:
 
-```
+```py
  socket.close() 
 
 ```
 
 让我们看看扫描端口的实际代码。
 
-```
+```py
 #Python code for simple port scanning
 
 import socket  #importing library 

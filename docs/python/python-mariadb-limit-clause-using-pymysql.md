@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 SELECT * FROM tablename LIMIT limit;
 SELECT * FROM tablename LIMIT limit OFFSET offset;
 
@@ -22,7 +22,7 @@ SELECT * FROM tablename LIMIT limit OFFSET offset;
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -61,7 +61,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

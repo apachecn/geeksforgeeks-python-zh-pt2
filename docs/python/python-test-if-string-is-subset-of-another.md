@@ -9,7 +9,7 @@
 **方法#1:使用 all()**
 这是我们解决这个问题的方法之一。在本例中，我们使用 all()来检查一个字符串的所有字符是否都存在于另一个字符串中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if string is subset of another
 # Using all()
@@ -31,7 +31,7 @@ print("Does string contains all the characters of other list? : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 Does string contains all the characters of other list? : True
 

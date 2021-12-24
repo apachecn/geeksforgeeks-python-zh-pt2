@@ -17,7 +17,7 @@ PyMongo 包含`**distinct()**` 函数，该函数在单个集合中查找并返�
 
 让我们创建一个示例集合:
 
-```
+```py
 # importing the module
 from pymongo import MongoClient
 
@@ -53,7 +53,7 @@ for doc in mycollection.find({}):
 
 **输出:**
 
-```
+```py
 {'_id': 1, 'dept': 'A', 'item': {'code': '012', 'color': 'red'}, 'sizes': ['S', 'L']}
 {'_id': 2, 'dept': 'A', 'item': {'code': '012', 'color': 'blue'}, 'sizes': ['M', 'S']}
 {'_id': 3, 'dept': 'B', 'item': {'code': '101', 'color': 'blue'}, 'sizes': 'L'}
@@ -68,7 +68,7 @@ for doc in mycollection.find({}):
 *   返回数组字段的不同值
 *   返回特定查询
 
-```
+```py
 # distinct() function returns the distinct values for the
 # field dept from all documents in the mycollection collection
 print(mycollection.distinct('dept'))
@@ -90,7 +90,7 @@ print(mycollection.distinct("item.code", {"dept" : "B"}))
 
 `Output :`
 
-```
+```py
 ['A', 'B']
 ['red', 'blue', 'black']
 ['L', 'S', 'M']

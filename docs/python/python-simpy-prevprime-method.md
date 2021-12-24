@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.prevprime()函数得到给定数 n 的前一个素数。对于 n < 2^64 the answer is definitive; larger n values have a small probability of actually being pseudoprimes. 
 
-```
+```py
 Syntax:  sympy.prevprime()
 Parameter:  n; number to be tested
 Return:  previous prime value
@@ -14,7 +14,7 @@ Return:  previous prime value
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get previous prime number
 # using sympy.prevprime() method
 
@@ -28,7 +28,7 @@ prevprime(13)
 
 输出:
 
-```
+```py
 5
 11
 ```
@@ -37,7 +37,7 @@ prevprime(13)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check prime number
 # using sympy.prevprime() method
 
@@ -50,6 +50,6 @@ nt.prevprime(2)
 
 输出:
 
-```
+```py
 ValueError: no preceding primes
 ```

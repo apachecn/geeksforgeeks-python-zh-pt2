@@ -8,7 +8,7 @@ Django 是一个用于 web 开发的 python 框架，在 jinja2 模板引擎上�
 
 **In ‘views.py’ file –**
 
-```
+```py
 from django.shortcuts import render
 from json import dumps
 
@@ -30,7 +30,7 @@ def send_dictionary(request):
 
 **在‘landing . html’文件中–**
 
-```
+```py
 <!DOCTYPE html>
 <body>
     <div style="width: 40%;
@@ -76,7 +76,7 @@ def send_dictionary(request):
 
 **在“views.py”文件中–**
 
-```
+```py
 from django.shortcuts import render
 from json import dumps
 
@@ -115,7 +115,7 @@ def opposites(request):
 
 **在“对立面. html”文件中–**
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <body>

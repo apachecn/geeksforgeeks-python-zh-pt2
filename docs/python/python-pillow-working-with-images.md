@@ -8,7 +8,7 @@
 
 要安装此软件包，请在终端中键入以下命令。
 
-```
+```py
 pip install pillow
 ```
 
@@ -22,7 +22,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 import PIL
 image = PIL.Image.new(mode = "RGB",
                       size = (200, 200),
@@ -44,7 +44,7 @@ image.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 image = Image.open('nature.jpg')
@@ -61,7 +61,7 @@ image.show()
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("test.png")
@@ -71,7 +71,7 @@ print(img.format)
 
 **输出:**
 
-```
+```py
 PNG
 ```
 
@@ -79,7 +79,7 @@ PNG
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 img = Image.open("test.png")
@@ -89,7 +89,7 @@ print(img.size)
 
 **输出:**
 
-```
+```py
 (180, 263)
 ```
 
@@ -103,7 +103,7 @@ print(img.size)
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 image = Image.open('nature.jpg')
 image.show()
@@ -133,7 +133,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。 [P
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Open image
@@ -167,7 +167,7 @@ PIL。Image.Image.rotate()方法用于将给定的图像围绕其中心逆时针
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # Open image
@@ -216,7 +216,7 @@ im.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required image modules
 from PIL import Image, ImageFilter
 
@@ -256,7 +256,7 @@ img1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required Image library
 from PIL import Image, ImageDraw, ImageFont
 

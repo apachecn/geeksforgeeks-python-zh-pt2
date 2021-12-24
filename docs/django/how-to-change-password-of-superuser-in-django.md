@@ -8,7 +8,7 @@ Django 为用户提供了管理面板来查看数据库和其他活动。如果�
 
 要更改超级用户的密码，首先访问与 manage.py 相同的目录，然后运行以下命令:
 
-```
+```py
 python manage.py changepassword user_name
 ```
 
@@ -16,13 +16,13 @@ python manage.py changepassword user_name
 
 在密码字段前面输入密码，然后按回车键。请输入一个强密码，以确保安全。
 
-```
+```py
 Password: ******
 ```
 
 然后再次输入相同的密码进行确认。
 
-```
+```py
 Password (again): ******
 ```
 
@@ -30,11 +30,11 @@ Password (again): ******
 
 在密码字段前面再次输入密码，然后按回车键。输入一个强密码和至少 8 个字符，以确保安全。
 
-```
+```py
 Password: ********
 ```
 
-```
+```py
 Password (again): ********
 ```
 

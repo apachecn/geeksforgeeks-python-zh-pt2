@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #importing the flask Module
 from flask import Flask
 
@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
 **示例:**
 
-```
+```py
 @app.route('allow/<variable name>')
 
 OR
@@ -75,7 +75,7 @@ OR
 
 让我们允许 ID 小于 25 的用户访问该页面。下面给出了动态网址绑定的修改代码。该函数使用 route()装饰器中传递的<variable name="">作为参数。</variable>
 
-```
+```py
 @app.route('/allow/<int:Number>')
 def allow(Number):
     if Number < 25:
@@ -87,7 +87,7 @@ def allow(Number):
 
 ## 蟒蛇 3
 
-```
+```py
 #importing the flask Module
 from flask import Flask
 

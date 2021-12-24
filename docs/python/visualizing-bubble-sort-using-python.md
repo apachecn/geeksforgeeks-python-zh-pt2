@@ -10,13 +10,13 @@
 
 **Matplotlib:**Matplotlib 是 Python 中一个惊人的可视化库，用于数组的 2D 图。要安装，请在终端输入以下命令。
 
-```
+```py
 pip install matplotlib
 ```
 
 ****pyqt 5:**pyqt 5 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。要安装它，请在终端中键入以下命令。**
 
-```
+```py
 pip install PyQt5==5.9.2
 ```
 
@@ -24,7 +24,7 @@ pip install PyQt5==5.9.2
 
 ## **蟒蛇 3**
 
-```
+```py
 # imports
 import random
 from matplotlib import pyplot as plt, animation

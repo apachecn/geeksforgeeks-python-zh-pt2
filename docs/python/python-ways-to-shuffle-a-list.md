@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # shuffle a list
 # using Fisher–Yates shuffle Algorithm
@@ -37,7 +37,7 @@ print ("The shuffled list is : " +  str(test_list))
 
 **Output:** 
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3]
 The shuffled list is : [4, 3, 1, 5, 6]
 ```
@@ -47,7 +47,7 @@ The shuffled list is : [4, 3, 1, 5, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # shuffle a list
 # using random.shuffle()
@@ -70,7 +70,7 @@ print ("The shuffled list is : " +  str(test_list))
 
 **Output:** 
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3]
 The shuffled list is : [5, 6, 4, 3, 1]
 ```
@@ -80,7 +80,7 @@ The shuffled list is : [5, 6, 4, 3, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # shuffle a list
 # using random.sample()
@@ -103,7 +103,7 @@ print ("The shuffled list is : " +  str(res))
 
 **Output:** 
 
-```
+```py
 The original list is : [1, 4, 5, 6, 3]
 The shuffled list is : [5, 3, 6, 1, 4]
 ```
@@ -114,7 +114,7 @@ The shuffled list is : [5, 3, 6, 1, 4]
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # Assign array
@@ -139,7 +139,7 @@ print("Shuffled List: ",arr)
 
 **Output**
 
-```
+```py
 Original List:  [1, 2, 3, 4, 5, 6]
 Shuffled List:  [4, 5, 3, 2, 6, 1]
 ```

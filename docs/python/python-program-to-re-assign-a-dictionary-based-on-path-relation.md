@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def find_depth(ele, dicti):
 
     # finding depth

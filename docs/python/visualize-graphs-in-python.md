@@ -12,13 +12,13 @@ A [图](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)是�
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install networkx
 ```
 
 下面是实现。
 
-```
+```py
 # First networkx library is imported 
 # along with matplotlib
 import networkx as nx

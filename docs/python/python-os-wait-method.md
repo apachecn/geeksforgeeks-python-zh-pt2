@@ -15,7 +15,7 @@ Python 中的`***os.wait()***`方法被一个进程用来等待一个子进程�
 
 **代码:**使用`***os.wait()***`方法
 
-```
+```py
 # Python program to explain os.wait() method 
 
 # importing os module  
@@ -52,7 +52,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process-
 Process ID: 6276
 Hello! Geeks

@@ -14,7 +14,7 @@ Python 中**时间模块**的`***time.monotonic_ns()***`方法用于获取以纳
 
 **代码#1:** 使用`***time.monotonic_ns()***`方法获取以纳秒为单位的单调时钟值
 
-```
+```py
 # Python program to explain time.monotonic_ns() method
 
 # importing time module
@@ -43,7 +43,7 @@ print("Value of the monotonic clock (in nanoseconds):", value2)
 
 **Output:**
 
-```
+```py
 Value of the monotonic clock (in fractional seconds): 13486.679399824
 Value of the monotonic clock (in nanoseconds): 13486679402777
 
@@ -51,7 +51,7 @@ Value of the monotonic clock (in nanoseconds): 13486679402777
 
 **代码#2:** 使用`***time.monotonic_ns()***`方法测量长时间运行过程中经过的时间。
 
-```
+```py
 # Python program to explain time.monotonic_ns() method
 
 # importing time module
@@ -104,7 +104,7 @@ print("Time elapsed during the process:", end - start)    
 
 **Output:**
 
-```
+```py
 At the beginning of the process
 Value of the monotonic clock (in nanoseconds): 14671301967243 
 

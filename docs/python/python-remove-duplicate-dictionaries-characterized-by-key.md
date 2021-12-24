@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Duplicate Dictionaries characterized by Key
 # Using loop

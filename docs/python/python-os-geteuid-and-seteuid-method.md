@@ -23,7 +23,7 @@ Python 中的`***os.geteuid()***`方法用于获取当前流程的有效用户 i
 
 **Code #1:** Use of os.geteuid() method
 
-```
+```py
 # Python program to explain os.geteuid() method 
 
 # importing os module 
@@ -41,7 +41,7 @@ print("Effective user ID of the current process:", euid)
 
 **Output:**
 
-```
+```py
 Effective user ID of the current process: 1000
 
 ```

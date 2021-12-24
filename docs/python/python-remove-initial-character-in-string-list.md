@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片**
 这个任务可以通过使用列表切片移除字符的能力来执行，并且列表理解有助于将该逻辑扩展到整个列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove Initial character in String List
 # using list comprehension + list slicing
@@ -28,7 +28,7 @@ print("The list after removing initial characters : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Amanjeet', 'sakash', 'kakshat', 'Knikhil']
 The list after removing initial characters : ['manjeet', 'akash', 'akshat', 'nikhil']
 

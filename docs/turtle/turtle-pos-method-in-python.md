@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import turtle package
 import turtle 
 
@@ -50,7 +50,7 @@ print(turtle.pos())
 
 ![turtle movement example](img/3e491086fffaf3cdb8110e3204bc0edd.png)
 
-```
+```py
 (0.0, 0.0)
 (150.0, 0.0)
 (150.0, -150.0)
@@ -61,7 +61,7 @@ print(turtle.pos())
 
 ## 蟒蛇 3
 
-```
+```py
 # import turtle package
 import turtle 
 
@@ -121,7 +121,7 @@ print(turtle.pos())
 
 ![turtle movement ](img/1342fccf2e9547e570f94a42cfd5a89c.png)
 
-```
+```py
 (0.0, 0.0)
 (40.0, 0.0)
 (68.2842712475, -28.2842712475)

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [(1, 'Jake'), (2, 'Bob'), (1, 'Cara')]
 Output : [(1, 'Jake', 'Cara', 2), (2, 'Bob', 1)]
 
@@ -19,7 +19,7 @@ Output : [('a', 'arm', 'ant', 2), ('b', 'ball', 'b', 2)]
 
 `fromkeys()`方法返回一个新的字典，给定的元素序列作为字典的键。现在，一旦我们将新字典存储在' dct '中，我们就可以轻松地迭代' dct '元素并输出所需的元素。
 
-```
+```py
 # Python3 program to Sort tuple based 
 # on occurrence of first element
 def sortOnOccurence(lst):
@@ -36,7 +36,7 @@ print(sortOnOccurence(lst))
 
 **Output:**
 
-```
+```py
 [(1, 'Cara', 'Jake', 2), (2, 'Bob', 1)]
 
 ```
@@ -45,7 +45,7 @@ print(sortOnOccurence(lst))
 
 这种方法是上述方法的替代方法。我们遵循类似的方法，但略有变化，在使用 *OrderedDict* 迭代“dct”时连接元组。
 
-```
+```py
 # Python3 program to Sort tuple based 
 # on occurrence of first element
 from collections import OrderedDict
@@ -64,7 +64,7 @@ print(sortOnOccurence(lst))
 
 **Output:**
 
-```
+```py
 [(1, 'Jake', 'Cara', 2), (2, 'Bob', 1)]
 
 ```

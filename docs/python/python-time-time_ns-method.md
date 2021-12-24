@@ -22,7 +22,7 @@ Python 中的时间模块提供了各种与时间相关的功能。该模块属�
 
 **代码:**使用`***time.time_ns()***`方法
 
-```
+```py
 # Python program to explain time.time_ns() method 
 
 # importing time module 
@@ -54,7 +54,7 @@ print("Time in nanoseconds since the epoch:", time_nanosec) 
 
 **Output:**
 
-```
+```py
 epoch is: Thu Jan  1 00:00:00 1970
 Time in seconds since the epoch: 1567451658.4676464
 Time in nanoseconds since the epoch: 1567451658467647709

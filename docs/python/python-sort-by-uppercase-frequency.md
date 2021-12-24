@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Uppercase Frequency
 # Using isupper() + sort()
@@ -44,7 +44,7 @@ print("Elements after uppercase sorting: " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is: ['Gfg', 'is', 'BEST', 'FoR', 'GEEKS']
 Elements after uppercase sorting: ['is', 'Gfg', 'FoR', 'BEST', 'GEEKS']
 ```
@@ -55,7 +55,7 @@ Elements after uppercase sorting: ['is', 'Gfg', 'FoR', 'BEST', 'GEEKS']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Uppercase Frequency
 # Using sorted() + lambda function
@@ -76,7 +76,7 @@ print("Elements after uppercase sorting: " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is: ['Gfg', 'is', 'BEST', 'FoR', 'GEEKS']
 Elements after uppercase sorting: ['is', 'Gfg', 'FoR', 'BEST', 'GEEKS']
 ```

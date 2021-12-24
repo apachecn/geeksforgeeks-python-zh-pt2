@@ -7,7 +7,7 @@
 **方法#1:使用`map() + count()`**
 map 函数可以用来累加列表中所有元组的索引，计数频率的任务可以使用 python 库的泛型计数函数来完成。
 
-```
+```py
 # Python3 code to demonstrate
 # Tuple Column element frequency
 # using map() + count()
@@ -31,7 +31,7 @@ print ("The frequency of element at Kth index is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 'Geeks'), (2, 'for'), (3, 'Geeks')]
 The frequency of element at Kth index is : 2
 

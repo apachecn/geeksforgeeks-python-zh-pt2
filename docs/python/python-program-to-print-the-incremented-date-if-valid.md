@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 1/2/2000
 Output: 2/2/2000
 
@@ -29,7 +29,7 @@ Output: 1/1/2016
 
 ## 蟒蛇 3
 
-```
+```py
 # input the date and split it to day, month and year
 day, month, year = map(int, input().split('/'))
 
@@ -80,7 +80,7 @@ else:
 
 **输出:**
 
-```
+```py
 31/12/2015
 1/1/2016
 ```

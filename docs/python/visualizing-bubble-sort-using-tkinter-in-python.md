@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Extension Bubble Sort Code
 # importing time module
 import time
@@ -64,7 +64,7 @@ def bubble(data, drawData, timer):
 
 ## 蟒蛇 3
 
-```
+```py
 # code for Bubble Sort Visualizer using Python and Tkinter
 from tkinter import *
 from tkinter import ttk

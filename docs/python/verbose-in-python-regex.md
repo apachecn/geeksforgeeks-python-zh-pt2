@@ -7,7 +7,7 @@
 **`re.VERBOSE` :** 该标志允许您编写看起来更好看、更易读的正则表达式，方法是允许您可视化地分隔模式的逻辑部分并添加注释。
 模式中的空白被忽略，除非是在字符类中，或者前面有非转义反斜杠，或者在像 `*?, (?: or (?P`这样的标记中。当一行包含不在字符类中的#并且前面没有非转义反斜杠时，从最左边的#到行尾的所有字符都将被忽略。
 
-```
+```py
 # Without Using VERBOSE
 regex_email = re.compile(r'^([a-z0-9_\.-]+)@([0-9a-z\.-]+)\.([a-z\.]{2, 6}){content}apos;,
               re.IGNORECASE)
@@ -34,7 +34,7 @@ regex_email = re.compile(r"""
 
 **示例:**
 
-```
+```py
 Input : expectopatronum@gmail.com
 Output : Valid
 
@@ -46,7 +46,7 @@ This is invalid because there is @ after the top level domain name.
 
 下面是 Python 实现–
 
-```
+```py
 # Python3 program to show the Implementation of VERBOSE in RegEX
 import re
 
@@ -95,7 +95,7 @@ validate_email("Crucio@.com")
 
 **输出:**
 
-```
+```py
 expectopatronum@gmail.com is Valid. Details are as follow:
 Local:expectopatronum
 Domain:gmail

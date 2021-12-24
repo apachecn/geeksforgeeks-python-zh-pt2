@@ -18,7 +18,7 @@
 
 **代码示例:**
 
-```
+```py
 # importing the module
 import wx
 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (1536, 864)
 
 ```

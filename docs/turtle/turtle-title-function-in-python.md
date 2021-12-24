@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.title()
 
 ```
@@ -21,7 +21,7 @@ turtle.title()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -39,7 +39,7 @@ sc.setup(400,300)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

@@ -17,7 +17,7 @@
 
 redditor 的用户名是:spez
 
-```
+```py
 # importing the module
 import praw
 
@@ -53,7 +53,7 @@ redditor.block()
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 

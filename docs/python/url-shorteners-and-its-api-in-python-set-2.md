@@ -10,7 +10,7 @@
 
     **缩短网址的代码:**
 
-    ```
+    ```py
     from pyshorteners import Shortener
 
     ACCESS_TOKEN = '82e8156..e4e12c6'
@@ -26,7 +26,7 @@
 
     **扩展网址的代码:**
 
-    ```
+    ```py
     from pyshorteners import Shortener
     ACCESS_TOKEN = '82e8156...c1dce4e12c6'
 
@@ -52,7 +52,7 @@
 
         **缩短网址的代码:**
 
-        ```
+        ```py
         from pyshorteners import Shortener
 
         # uid means User Id and key means API Key.
@@ -73,7 +73,7 @@
 
     **缩短网址的代码:**
 
-    ```
+    ```py
     from pyshorteners import Shortener
 
     url = 'http://www.google.com'
@@ -90,7 +90,7 @@
 
     **缩短网址的代码:**
 
-    ```
+    ```py
     from pyshorteners import Shortener
 
     url = 'http://www.google.com'

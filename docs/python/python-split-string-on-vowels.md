@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split String on vowels
 # Using split() + regex
@@ -40,7 +40,7 @@ print("The splitted string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GFGaBste4oCS
 The splitted string : ['GFG', 'Bst', '4', 'CS']
 ```

@@ -6,7 +6,7 @@
 
 使用反射，我们可以编写一个递归的反向函数，它将适用于字符串、列表和任何其他支持切片和连接的序列。如果对象是对字符串的引用，那么 Python 将返回字符串类型对象。此外，如果我们写 str()，我们会得到一个空字符串。换句话说，写 str()和写“”是一回事。同样，写 list()和写[]是一回事。
 
-```
+```py
 # Python program to illustrate reflection 
 def reverse(sequence): 
     sequence_type = type(sequence) 
@@ -30,7 +30,7 @@ print(reverse("GeeksForGeeks")) 
 
 输出:
 
-```
+```py
 [40, 30, 20, 10]
 skeeGroFskeeG
 
@@ -44,7 +44,7 @@ skeeGroFskeeG
 2.  **Callable() :**A callable means anything that can be called. For an object, determines whether it can be called. A class can be made callable by providing a __call__() method. The callable() method returns True if the object passed appears callable. If not, it returns False.
     Examples:
 
-    ```
+    ```py
     x = 5
 
     def testFunction():
@@ -66,14 +66,14 @@ skeeGroFskeeG
 
     输出:
 
-    ```
+    ```py
     x is not callable
     y is callable
     ```
 
     在面向对象程序设计中使用时是可调用的
 
-    ```
+    ```py
     class Foo1:
       def __call__(self):
         print('Print Something')
@@ -84,7 +84,7 @@ skeeGroFskeeG
 
     输出:
 
-    ```
+    ```py
     True
     ```
 
@@ -92,7 +92,7 @@ skeeGroFskeeG
 
     **示例:**
 
-    ```
+    ```py
     number = [1,2,3]
     print(dir(number))
 
@@ -106,7 +106,7 @@ skeeGroFskeeG
 
 4.  **Getattr :** The getattr() method returns the value of the named attribute of an object. If not found, it returns the default value provided to the function.The getattr method takes three parameters **object**, **name** and **default(optional).**
 
-    ```
+    ```py
     class Employee:
         salary = 25000
         company_name= "geeksforgeeks"
@@ -118,7 +118,7 @@ skeeGroFskeeG
 
     输出:
 
-    ```
+    ```py
     The salary is: 25000
     The salary is: 25000
     ```

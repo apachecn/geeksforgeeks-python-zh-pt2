@@ -7,7 +7,7 @@
 **方法#1:使用`all() + zip()`**
 all()通常会检查输入到它的所有元素。zip()的任务是从头开始链接列表，从第一个元素开始链接列表，这样就可以对所有元素执行检查。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Test for strictly decreasing list
 # using zip() + all()
@@ -28,7 +28,7 @@ print ("Is list strictly decreasing ? : " + str(res))
 
 **Output :**
 
-```
+```py
 Original list : [10, 8, 7, 5, 4, 1]
 Is list strictly decreasing ? : True
 

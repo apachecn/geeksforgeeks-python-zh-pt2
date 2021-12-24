@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove after substring in String
 # Using index() + len() + slicing
@@ -41,7 +41,7 @@ print("The string after removal : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The string after removal : geeksforgeeks is best
 
@@ -53,7 +53,7 @@ The string after removal : geeksforgeeks is best
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove after substring in String
 # Using regex() ( for stripping off after numeric occurrence)
@@ -74,7 +74,7 @@ print("The string after removal : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best 4 geeks
 The string after removal : geeksforgeeks is best 4
 

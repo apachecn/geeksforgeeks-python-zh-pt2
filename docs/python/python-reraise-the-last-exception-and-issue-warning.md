@@ -6,7 +6,7 @@
 
 **Code #1: Using raise statement all by itself.**
 
-```
+```py
 def example():
     try:
         int('N/A')
@@ -19,7 +19,7 @@ example()
 
 **输出:**
 
-```
+```py
 Didn't work
 Traceback (most recent call last):
     File "", line 1, in 
@@ -32,7 +32,7 @@ ValueError: invalid literal for int() with base 10: 'N/A'
 
 **代码#2:捕获所有异常处理程序。**
 
-```
+```py
 try:
  ...
 except Exception as e:
@@ -46,7 +46,7 @@ except Exception as e:
 
 **代码#3:使用`warnings.warn()`功能**
 
-```
+```py
 import warnings
 def func(x, y, logfile = None, debug = False):
     if logfile is not None:
@@ -60,7 +60,7 @@ def func(x, y, logfile = None, debug = False):
 
 使用 `-W all` 选项运行 Python 时的**输出。**
 
-```
+```py
 bash % python3 -W all example.py
 example.py:5: DeprecationWarning: logfile argument is deprecated
   warnings.warn('logfile argument is deprecated', DeprecationWarning) 
@@ -68,7 +68,7 @@ example.py:5: DeprecationWarning: logfile argument is deprecated
 
 通常，警告只会在标准错误时产生输出消息。要将警告变为异常，请使用 `-W error` 选项。
 
-```
+```py
 bash % python3 -W error example.py
 Traceback (most recent call last):
     File "example.py", line 10, in <module>func(2, 3, logfile ='log.txt')

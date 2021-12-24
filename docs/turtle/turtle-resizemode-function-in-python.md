@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -36,7 +36,7 @@ print(turtle.resizemode())
 
 **输出:**
 
-```
+```py
 noresize
 
 ```
@@ -45,7 +45,7 @@ noresize
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -63,7 +63,7 @@ print(turtle.resizemode())
 
 **输出:**
 
-```
+```py
 noresize
 auto
 user

@@ -10,13 +10,13 @@
 
 **PyQt5** 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。下面是安装 PyQt5 的命令
 
-```
+```py
 pip install PyQt5
 ```
 
 **二维码:**用于生成快速响应码是一种二维象形码，用于快速可读性和相对较大的存储容量。该代码由白色背景上以方形图案排列的黑色模块组成。编码的信息可以由任何类型的数据组成(例如，二进制、字母数字或汉字符号)。以下是安装二维码模块的命令
 
-```
+```py
 pip install qrcode
 ```
 
@@ -34,7 +34,7 @@ pip install qrcode
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

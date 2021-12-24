@@ -13,7 +13,7 @@
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -32,7 +32,7 @@ with Image(filename ="koala.jpeg") as img:
 **来源影像:**
 ![](img/ae742f3382017f51b1353cff13603d77.png)
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

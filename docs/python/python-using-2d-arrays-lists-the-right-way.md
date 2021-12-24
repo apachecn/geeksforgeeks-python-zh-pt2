@@ -7,7 +7,7 @@ Python 提供了许多创建二维列表/数组的方法。然而，人们必须
 
 ## 蟒蛇 3
 
-```
+```py
 # First method to create a 1 D array
 N = 5
 arr = [0]*N
@@ -16,7 +16,7 @@ print(arr)
 
 **Output:** 
 
-```
+```py
 [0, 0, 0, 0, 0]
 ```
 
@@ -24,7 +24,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Second method to create a 1 D array
 N = 5
 arr = [0 for i in range(N)]
@@ -33,7 +33,7 @@ print(arr)
 
 **Output:** 
 
-```
+```py
 [0, 0, 0, 0, 0]
 ```
 
@@ -42,7 +42,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using above first method to create a
 # 2D array
 rows, cols = (5, 5)
@@ -52,7 +52,7 @@ print(arr)
 
 **Output:** 
 
-```
+```py
 [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
 ```
 
@@ -60,7 +60,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using above second method to create a
 # 2D array
 rows, cols = (5, 5)
@@ -70,7 +70,7 @@ print(arr)
 
 **Output:** 
 
-```
+```py
 [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
 ```
 
@@ -78,7 +78,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Using above second method to create a
 # 2D array
 rows, cols = (5, 5)
@@ -93,7 +93,7 @@ print(arr)
 
 **Output:** 
 
-```
+```py
 [[0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]]
 ```
 
@@ -101,7 +101,7 @@ print(arr)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 program to demonstrate working
 # of method 1 and method 2.
 
@@ -143,7 +143,7 @@ for row in arr:
 
 **Output:** 
 
-```
+```py
 [1, 0, 0, 0, 0]
 [1, 0, 0, 0, 0]
 [1, 0, 0, 0, 0]
@@ -186,7 +186,7 @@ arr[0][0] = 1
 
 ## 蟒蛇 3
 
-```
+```py
 rows, cols = (5, 5)
 arr = [[0 for i in range(cols)] for j in range(rows)]
 ```
@@ -197,7 +197,7 @@ arr = [[0 for i in range(cols)] for j in range(rows)]
 
 ## 蟒蛇 3
 
-```
+```py
 rows, cols = (5, 5)
 # method 2b
 arr = [[0 for i in range(cols)] for j in range(rows)]
@@ -218,7 +218,7 @@ print(arr[0] is arr[1])
 
 **Output:** 
 
-```
+```py
 False
 True
 ```

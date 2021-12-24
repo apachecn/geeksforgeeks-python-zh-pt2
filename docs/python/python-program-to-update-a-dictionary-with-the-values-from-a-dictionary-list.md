@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Update dictionary with dictionary list
 # Using update() + loop
@@ -53,7 +53,7 @@ print("The updated dictionary : " + str(test_dict))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Update dictionary with dictionary list
 # Using ChainMap + ** operator

@@ -11,7 +11,7 @@
 **包括其他 URLConf 模块**
 在姜戈的每个应用都有一个 URLConf 模块是一个很好的做法。该模块需要包含在根 URLConf 模块中，如下所示:
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 
@@ -27,7 +27,7 @@ urlpatterns = [
 
 以下是书籍/URL 的示例代码。py:
 
-```
+```py
 from django.urls import path
 from . import views
 

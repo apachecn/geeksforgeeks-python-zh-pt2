@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K sized N random elements
 # Using generator + shuffle()
@@ -56,7 +56,7 @@ print("K sized N random lists : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 9, 1, 8, 4, 7]
 K sized N random lists : [[7, 1, 8], [8, 6, 1], [4, 9, 6], [6, 9, 1]]
 ```
@@ -67,7 +67,7 @@ K sized N random lists : [[7, 1, 8], [8, 6, 1], [4, 9, 6], [6, 9, 1]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # K sized N random elements
 # Using product() + sample()
@@ -96,7 +96,7 @@ print("K sized N random lists : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 9, 1, 8, 4, 7]
 K sized N random lists : [[1, 1, 1], [6, 9, 4], [8, 7, 6], [4, 8, 8]]
 ```

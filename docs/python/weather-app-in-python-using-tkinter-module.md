@@ -9,7 +9,7 @@
 *   **Tkinter:** 是一个内置的 python 库，用于使用 *tkinter* 工具包制作 GUI。
 *   **请求:**是一个借助 URL 帮助获取数据的库。可以使用以下命令安装:
 
-```
+```py
 pip install requests
 ```
 
@@ -40,7 +40,7 @@ pip install requests
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required modules
 from configparser import ConfigParser
 import requests
@@ -52,7 +52,7 @@ from tkinter import messagebox*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# create object
 app = Tk()
 
@@ -88,7 +88,7 @@ app.mainloop()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# extract key from the 
 # configuration file
 config_file = "config.ini"
@@ -102,7 +102,7 @@ url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# explicit function to get
 # weather details
 def getweather(city):
@@ -126,7 +126,7 @@ def getweather(city):
 
 ## *蟒蛇 3*
 
-```
+```py
 *# explicit function to
 # search city
 def search():
@@ -146,7 +146,7 @@ def search():
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required modules
 from configparser import ConfigParser
 import requests

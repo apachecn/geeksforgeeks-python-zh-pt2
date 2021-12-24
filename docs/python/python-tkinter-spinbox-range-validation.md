@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 # Validating function

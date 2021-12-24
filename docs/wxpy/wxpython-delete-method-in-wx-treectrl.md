@@ -25,7 +25,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import wx
 
 class TreePanel(wx.Panel):

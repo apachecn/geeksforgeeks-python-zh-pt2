@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这是一种可以执行该任务的方式。在本文中，我们迭代列表，并使用一行中的乘法运算符检查列表中的出现。
 
-```
+```py
 # Python3 code to demonstrate 
 # Test if K occurs N consecutive times
 # using list comprehension
@@ -34,7 +34,7 @@ print ("Does K occur N consecutive times ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 4, 4, 4, 3, 3, 2, 2, 1]
 Does K occur N consecutive times ? : True
 

@@ -9,7 +9,7 @@
 
 为了做到这一点，我们将使用`**setFormat**`方法，虽然它是用来设置格式，即百分比指标，但如果我们传递正常的文本给它，它将显示在进程栏。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是执行该任务的方法之一。在这种情况下，我们执行记忆集合中已经出现的第 Kth 个索引元素的任务，并使用新的值检查每次。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Kth Index Duplicates in Tuple
 # Using loop
@@ -42,7 +42,7 @@ print("Filtered Tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6), (2, 3, 4), (1, 3, 4), (7, 6, 4), (1, 2, 6)]
 Filtered Tuples : [(4, 5, 6), (2, 3, 4)]
 
@@ -51,7 +51,7 @@ Filtered Tuples : [(4, 5, 6), (2, 3, 4)]
 **方法二:使用`groupby() + itemgetter()` +列表理解**
 以上功能的组合可以解决这个问题。在本例中，我们使用 itemgetter()执行检查 Kth 元素的任务，groupby()用于形成组，我们通过访问第 0 个索引从组中提取第 1 个元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Kth Index Duplicates in Tuple
 # Using groupby() + itemgetter() + list comprehension
@@ -78,7 +78,7 @@ print("Filtered Tuples : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6), (2, 3, 4), (1, 3, 4), (7, 6, 4), (1, 2, 6)]
 Filtered Tuples : [(4, 5, 6), (2, 3, 4)]
 

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -53,7 +53,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

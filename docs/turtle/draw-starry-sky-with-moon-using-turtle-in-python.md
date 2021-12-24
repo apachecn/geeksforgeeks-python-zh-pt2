@@ -42,7 +42,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing turtle library
 import turtle
 
@@ -75,7 +75,7 @@ w.exitonclick()
 
 ## 计算机编程语言
 
-```
+```py
 # importing turtle library
 import turtle
 
@@ -108,7 +108,7 @@ w.exitonclick()
 
 ## 计算机编程语言
 
-```
+```py
 # importing libraries
 import turtle
 import random

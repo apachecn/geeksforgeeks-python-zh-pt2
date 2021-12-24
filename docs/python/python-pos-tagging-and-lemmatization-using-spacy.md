@@ -6,7 +6,7 @@
 
 **如何安装？**
 
-```
+```py
 pip install spacy
 python -m spacy download en_core_web_sm
 
@@ -24,7 +24,7 @@ python -m spacy download en_core_web_sm
 
 **导入加载库:**
 
-```
+```py
 import spacy
 
 # python -m spacy download en_core_web_sm
@@ -35,7 +35,7 @@ nlp = spacy.load("en_core_web_sm")
 
 这是一种将单词识别为名词、动词、形容词、副词等的方法。
 
-```
+```py
 import spacy
 
 # Load English tokenizer, tagger, 
@@ -59,7 +59,7 @@ print("Verbs:", [token.text for token in doc if token.pos_ == "VERB"])
 
 **输出:**
 
-```
+```py
 My DET
 name NOUN
 is VERB
@@ -93,7 +93,7 @@ Verbs: ['is', 'enjoy', 'writing', 'checkout', 'going']
 
 这是一个将一个单词的屈折形式组合在一起的过程，这样它们就可以作为一个单独的项目来分析，由单词的引理或字典形式来识别。
 
-```
+```py
 import spacy
 
 # Load English tokenizer, tagger,
@@ -113,7 +113,7 @@ for token in doc:
 
 输出:
 
-```
+```py
 My -PRON-
 name name
 is be

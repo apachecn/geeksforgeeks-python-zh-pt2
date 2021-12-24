@@ -8,7 +8,7 @@
 
 **.Py file**
 
-```
+```py
 # Program to create a background template for the App
 
 # import necessary modules from kivy
@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
 **。kv 文件**
 
-```
+```py
 <Background>:
     id: main_win
     orientation: "vertical"

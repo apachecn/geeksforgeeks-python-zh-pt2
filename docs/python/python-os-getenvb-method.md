@@ -18,7 +18,7 @@ Python 中的`***os.getenvb()***`方法是`***[os.getenv()](https://www.geeksfor
 
 **Code #1:** use of os.getenvb() method
 
-```
+```py
 # Python program to explain os.getenvb() method 
 
 # importing os module 
@@ -45,7 +45,7 @@ print("Value of 'JAVA_HOME' environment variable :", value) 
 
 **Output:**
 
-```
+```py
 Value of 'HOME' environment variable : b'/home/ihritik'
 Value of 'JAVA_HOME' environment variable : b'/opt/jdk-10.0.1'
 
@@ -53,7 +53,7 @@ Value of 'JAVA_HOME' environment variable : b'/opt/jdk-10.0.1'
 
 **Code #2:** If key does not exist
 
-```
+```py
 # Python program to explain os.getenvb() method 
 
 # importing os module 
@@ -71,14 +71,14 @@ print("Value of 'home' environment variable :", value)
 
 **Output:**
 
-```
+```py
 Value of 'home' environment variable : None
 
 ```
 
 **Code #3:** Explicitly specifying default parameter
 
-```
+```py
 # Python program to explain os.getenvb() method 
 
 # importing os module 
@@ -96,7 +96,7 @@ print("Value of 'home' environment variable :", value) 
 
 **Output:**
 
-```
+```py
 Value of 'home' environment variable : value does not exist
 
 ```

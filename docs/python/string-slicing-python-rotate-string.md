@@ -9,7 +9,7 @@
 
 示例:
 
-```
+```py
 Input : s = "GeeksforGeeks"
         d = 2
 Output : Left Rotation  : "eksforGeeksGe" 
@@ -27,7 +27,7 @@ Output : Left rotation : "ertyuqw"
 1.  Divide the string into two parts **, the first & and the second** . For **, left rotation** , Lfirst = str[0: d] and Lsecond = str[d :]. For **right rotation** LFIRST = STR [0: len (STR)-D] and Rsecond = str[len(str)-d:].
 2.  Now connect the second+first of these two parts **correspondingly.**
 
-```
+```py
 # Function to rotate string left and right by d length 
 
 def rotate(input,d): 
@@ -51,7 +51,7 @@ if __name__ == "__main__": 
 
 输出:
 
-```
+```py
 Left Rotation  : eksforGeeksGe 
 Right Rotation : ksGeeksforGee
 

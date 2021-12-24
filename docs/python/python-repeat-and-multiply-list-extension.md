@@ -7,7 +7,7 @@
 **方法:使用列表理解**
 这个任务可以用蛮力的方式来完成，但是使用列表理解实现的时间越短越好。在这种情况下，我们分两步执行任务，首先我们制作一个帮助列表来形成一个乘法因子列表，然后使用原始列表累积结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Repeat and Multiply list extension
 # Using list comprehension
@@ -35,7 +35,7 @@ print("List after extension and multiplication : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6]
 List after extension and multiplication : [4, 5, 6, 12, 15, 18, 36, 45, 54, 108, 135, 162]
 

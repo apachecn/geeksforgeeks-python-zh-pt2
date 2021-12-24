@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 (Pie_syntax) <decorator_name>
 any_callable
 
@@ -32,7 +32,7 @@ any_callable
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the decorator
 def decor(func):
     print("#----------------#")
@@ -64,7 +64,7 @@ if __name__ == 'main':
 
 ## 蟒蛇 3
 
-```
+```py
 # defining the 1st decorator
 def decor1(func):
     print("_________________")

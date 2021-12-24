@@ -21,7 +21,7 @@ Python 中的`***os.path.ismount()***`方法用于检查给定路径是否是挂
 
 **代码#1:** 使用 os.path.ismount()方法检查给定路径是否是挂载点(在 Unix 上)
 
-```
+```py
 # Python program to explain os.path.islink() method 
 
 # importing os.path module 
@@ -47,7 +47,7 @@ print(ismount)
 
 **Output:**
 
-```
+```py
 True
 True
 
@@ -55,7 +55,7 @@ True
 
 **代码#2:** 使用 os.path.ismount()方法检查给定路径是否是挂载点(在 Windows 上)
 
-```
+```py
 # Python program to explain os.path.islink() method 
 
 # importing os.path module 
@@ -75,7 +75,7 @@ print(ismount)
 
 **Output:**
 
-```
+```py
 True
 
 ```

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove duplicate elements index from other list
 # Using list comprehension + loop + enumerate()
@@ -52,7 +52,7 @@ print("The list after removing duplicate indices : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [3, 5, 6, 5, 3, 7, 8, 6]
 The original list 2 is : [1, 7, 6, 3, 7, 9, 10, 11]
 The list after removing duplicate indices : [1, 7, 6, 9, 10]
@@ -64,7 +64,7 @@ The list after removing duplicate indices : [1, 7, 6, 9, 10]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove duplicate elements index from other list
 # Using list comprehension + enumerate()
@@ -89,7 +89,7 @@ print("The list after removing duplicate indices : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [3, 5, 6, 5, 3, 7, 8, 6]
 The original list 2 is : [1, 7, 6, 3, 7, 9, 10, 11]
 The list after removing duplicate indices : [1, 7, 6, 9, 10]

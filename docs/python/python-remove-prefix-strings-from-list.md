@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `remove() + startswith()`**
 以上功能的组合可以解决这个问题。在这种情况下，我们移除以使用循环访问的特定前缀开头的元素，并返回修改后的列表。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove prefix strings from list
 # using loop + remove() + startswith()
@@ -33,7 +33,7 @@ print("List after removal of Kth character of each string : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : ['xall', 'xlove', 'gfg', 'xit', 'is', 'best']
 List after removal of Kth character of each string : ['gfg', 'is', 'best']
 

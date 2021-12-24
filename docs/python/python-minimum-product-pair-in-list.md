@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `min() + combination()` + lambda**
 这个特定的任务可以使用上述函数的组合来执行，其中我们使用列表理解来绑定所有的功能和 min 函数来获得最小乘积，组合函数在内部找到所有的乘积，lambda 函数用于计算乘积。
 
-```
+```py
 # Python3 code to demonstrate
 # Minimum Product Pair in List
 # using list comprehension + min() + combinations() + lambda
@@ -29,7 +29,7 @@ print("The minimum product pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The minimum product pair is : (1, 1)
 

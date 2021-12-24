@@ -6,28 +6,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetMargins(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No Parameters required in GetMargins()
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Size
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -67,14 +67,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (0, 0)
 
 ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (10, 10)
 
 ```

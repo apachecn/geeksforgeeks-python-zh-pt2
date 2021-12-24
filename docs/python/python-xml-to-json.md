@@ -38,27 +38,27 @@ JSON 和 XML 文件格式都用于在客户端和服务器端之间传输数据�
 为了处理 json 文件格式，Python 提供了一个名为 JSON 的模块。
 **步骤 1:** 使用 pip 或任何其他 python 包管理器安装 xmltodict 模块
 
-```
+```py
 pip install xmltodict
 ```
 
 **步骤 2:** 使用关键字【T2 导入】导入 json 模块
 
-```
+```py
 import json
 ```
 
 **STEP 3:** 读取 xml 文件
 这里，**“data _ dict”**是我们将 XML 数据转换为字典数据类型后加载到其中的变量。
 
-```
+```py
 with open("xml_file.xml") as xml_file:
     data_dict = xmltodict.parse(xml_file.read())
 ```
 
 **步骤 4:** 关闭 XML 文件
 
-```
+```py
 xml_file.close()
 ```
 
@@ -68,21 +68,21 @@ json.loads()接收一个字符串并返回一个 json 对象。
 json.dumps()接收一个 json 对象并返回一个字符串。
 我们使用 xml_data 作为输入字符串，生成 python 对象，所以我们使用 json.dumps()
 
-```
+```py
 json_data = json.dumps(data_dict)
 ```
 
 这里，json_data 是用于存储生成的对象的变量。
 **STEP 6:** 将 json_data 写入输出文件
 
-```
+```py
 with open("data.json", "w") as json_file:
         json_file.write(json_data)
 ```
 
 **步骤 7:** 关闭输出文件
 
-```
+```py
 json_file.close()
 ```
 
@@ -93,7 +93,7 @@ json_file.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to convert an xml
 # file to json file
 

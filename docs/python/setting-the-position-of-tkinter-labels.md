@@ -21,7 +21,7 @@ Tkinter Label 是一个小部件，用于实现可以放置文本或图像的显
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 # Creating the root window
@@ -52,7 +52,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import tkinter as tk
 
@@ -79,7 +79,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import tkinter as tk
 

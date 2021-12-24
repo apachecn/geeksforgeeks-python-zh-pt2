@@ -14,7 +14,7 @@
 
 请求安装取决于操作系统的类型，任何地方的基本命令都是打开命令终端并运行，
 
-```
+```py
 pip install requests
 ```
 
@@ -28,7 +28,7 @@ Python 请求模块有几个内置方法，可以使用 GET、POST、PUT、PATCH
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a GET request
@@ -56,7 +56,7 @@ print(r.content)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 
 # Making a GET request
@@ -71,7 +71,7 @@ print(r.status_code)
 
 **输出:**
 
-```
+```py
 https://www.geeksforgeeks.org/python-programming-language/
 200
 ```
@@ -86,7 +86,7 @@ https://www.geeksforgeeks.org/python-programming-language/
 
 要在视窗、Linux 或任何操作系统上安装美化程序，需要 pip 包。要查看如何在您的操作系统上安装画中画，请查看–画中画安装–窗口|| Linux。现在在终端运行下面的命令。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -114,7 +114,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -138,7 +138,7 @@ print(soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -163,7 +163,7 @@ print(soup.title.parent.name)
 
 **输出:**
 
-```
+```py
 <title>Python Programming Language - GeeksforGeeks</title>
 title
 html
@@ -187,7 +187,7 @@ html
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -223,7 +223,7 @@ print(content)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -257,7 +257,7 @@ print(content)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -283,7 +283,7 @@ for line in lines:
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -318,7 +318,7 @@ for line in lines:
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -347,7 +347,7 @@ for link in soup.find_all('a'):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 
@@ -398,7 +398,7 @@ for image in images_list:
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup as bs
 
@@ -414,7 +414,7 @@ print(titles[4].text)
 
 **输出:**
 
-```
+```py
 7 Most Common Time Wastes During Software Development
 ```
 
@@ -422,7 +422,7 @@ print(titles[4].text)
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup as bs
 
@@ -454,7 +454,7 @@ for page in range(1, 10):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup as bs
 
@@ -486,7 +486,7 @@ for url in range(0,2):
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup as bs
 import csv

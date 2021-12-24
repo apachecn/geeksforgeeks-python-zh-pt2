@@ -18,7 +18,7 @@
 
 这个方法可以用不同的格式调用，如下所示:
 
-```
+```py
 distance(x, y) # two coordinates
 
 distance((x, y)) # a pair (tuple) of coordinates
@@ -34,7 +34,7 @@ distance(mypen) # where mypen is another turtle
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -52,7 +52,7 @@ print(turtle.distance())
 
 **输出:**
 
-```
+```py
 0.0
 100.0
 ```
@@ -61,7 +61,7 @@ print(turtle.distance())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -79,7 +79,7 @@ for i in range(4):
 
 **输出:**
 
-```
+```py
 0.0
 70.7106781187
 100.0
@@ -91,7 +91,7 @@ for i in range(4):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -104,7 +104,7 @@ print(turtle.distance((30.0,40.0)))
 
 **输出:**
 
-```
+```py
 5.0
 5.0
 50.0

@@ -7,7 +7,7 @@
 **方法#1:使用`tuple()`**
 这个任务可以使用`tuple()`执行。在这种情况下，我们将对列表转换为元组，并通过这种方式将单个元素分离为变量，准备发送给函数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split and Pass list as separate parameter
 # using tuple()
@@ -31,7 +31,7 @@ pass_args(one, two)
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5]
 The first argument is : 4
 The second argument is : 5

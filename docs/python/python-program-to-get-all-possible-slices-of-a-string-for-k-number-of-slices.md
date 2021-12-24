@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All possible slices for K length
 # Using list comprehension + string slicing + loop
@@ -59,7 +59,7 @@ print("All possible slices for K strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All possible slices for K length
 # Using combinations() + zip() + list comprehension

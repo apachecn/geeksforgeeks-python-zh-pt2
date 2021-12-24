@@ -12,7 +12,7 @@
 
 ****语法:****
 
-```
+```py
 create_index(*keys, session=None, **kwargs)*
 ```
 
@@ -26,7 +26,7 @@ create_index(*keys, session=None, **kwargs)*
 
 ## **蟒蛇 3**
 
-```
+```py
 from pymongo import MongoClient 
 
 # creation of MongoClient 
@@ -57,7 +57,7 @@ print(index_list)
 
 ****输出:****
 
-```
+```py
 Before Creating index
 ['_id_']
 
@@ -72,7 +72,7 @@ After Creating index
 
 ## **蟒蛇 3**
 
-```
+```py
 from pymongo import MongoClient 
 
 # creation of MongoClient 

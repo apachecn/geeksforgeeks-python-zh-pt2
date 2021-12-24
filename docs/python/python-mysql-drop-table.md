@@ -10,7 +10,7 @@ Drop 命令影响的是表的结构，而不是数据。它用于删除已经存
 
 **语法:**
 
-```
+```py
 DROP TABLE tablename;
 
 DROP TABLE IF EXISTS tablename;
@@ -25,7 +25,7 @@ DROP TABLE IF EXISTS tablename;
 
 **示例 1:** 演示跌落(如果存在)的程序。我们将尝试删除上述数据库中不存在的表。
 
-```
+```py
 # Python program to demonstrate
 # drop clause
 
@@ -59,7 +59,7 @@ mydb.close()
 
 **示例 2:** 删除桌面极客的程序
 
-```
+```py
 # Python program to demonstrate
 # drop clause
 

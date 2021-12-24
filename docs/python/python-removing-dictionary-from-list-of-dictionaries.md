@@ -7,7 +7,7 @@
 **方法#1:使用 del + loop**
 在执行这个特定任务的天真方法中，我们要求使用 *del* 来删除特定的密钥，如果它与需要删除的密钥匹配的话。
 
-```
+```py
 # Python3 code to demonstrate 
 # to delete dictionary in list
 # using del + loop 

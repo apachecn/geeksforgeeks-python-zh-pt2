@@ -6,13 +6,13 @@
 
 **入口小部件**用于从用户处获取入口。它可以被创建如下-
 
-```
+```py
  entry = ttk.Entry(master, option = value, ...) 
 ```
 
 **代码#1:** 创建条目小部件并从用户处获取输入(仅获取字符串数据)。
 
-```
+```py
 # importing tkinter
 from tkinter import * 
 from tkinter import ttk
@@ -54,7 +54,7 @@ root.mainloop()
 
 **代码#2:** 在条目小部件中为输入的文本添加样式。
 
-```
+```py
 # importing tkinter
 from tkinter import * 
 from tkinter import ttk

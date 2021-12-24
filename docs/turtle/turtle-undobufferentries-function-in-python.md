@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.undobufferentries()
 
 ```
@@ -21,7 +21,7 @@ turtle.undobufferentries()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -38,7 +38,7 @@ print(turtle.undobufferentries())
 
 **输出:**
 
-```
+```py
 100
 
 ```
@@ -47,7 +47,7 @@ print(turtle.undobufferentries())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

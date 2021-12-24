@@ -11,7 +11,7 @@ JSON(JavaScript Object notification)是一种轻量级的、基于文本的、�
 
 **代码#1:** 按 Desc 顺序排序
 
-```
+```py
 # Python code to demonstrate sorting in JSON.
 import json
 
@@ -55,7 +55,7 @@ for it in json_parse['Student']:
 
 **输出:**
 
-```
+```py
 DBMS C 9915103000 JIIT
 COA A 8815103057 JSS
 CN A+ 8815103057 JSS
@@ -63,7 +63,7 @@ CN A+ 8815103057 JSS
 
 **代码#2 :** 使用熊猫等外部库(升序排序)。
 
-```
+```py
 from pandas.io.json import json_normalize
 
 df = json_normalize(json_parse['Student'],
@@ -75,7 +75,7 @@ df.sort_values(['code', 'grade', 'enrollment_no']).reset_index(drop=True)
 
 **输出:**
 
-```
+```py
   code grade  enrollment_no      name
 0  CN     A+  8815103057         JSS
 1  COA    A  8815103057         JSS

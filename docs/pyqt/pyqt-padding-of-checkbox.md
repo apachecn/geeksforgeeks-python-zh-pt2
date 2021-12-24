@@ -9,7 +9,7 @@
 
 样式表代码来实现这一点。
 
-```
+```py
 QCheckBox
 {
 border : 2px solid black;
@@ -21,7 +21,7 @@ padding : 10px;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

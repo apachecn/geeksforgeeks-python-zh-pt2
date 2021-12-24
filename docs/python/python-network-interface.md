@@ -8,7 +8,7 @@
 
 **安装:**
 
-```
+```py
 pip install netifaces
 ```
 
@@ -16,7 +16,7 @@ pip install netifaces
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 import netifaces
 

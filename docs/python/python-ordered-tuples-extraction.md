@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Ordered tuples extraction
 # Using list comprehension + sorted()
@@ -38,7 +38,7 @@ print("Ordered Tuples : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : [(5, 4, 6, 2, 4), (3, 4, 6), (9, 10, 34), (2, 5, 6), (9, 1)]
 Ordered Tuples : [(3, 4, 6), (9, 10, 34), (2, 5, 6)]
 
@@ -50,7 +50,7 @@ Ordered Tuples : [(3, 4, 6), (9, 10, 34), (2, 5, 6)]
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Ordered tuples extraction
 # Using filter() + lambda + sorted()
@@ -70,7 +70,7 @@ print("Ordered Tuples : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : [(5, 4, 6, 2, 4), (3, 4, 6), (9, 10, 34), (2, 5, 6), (9, 1)]
 Ordered Tuples : [(3, 4, 6), (9, 10, 34), (2, 5, 6)]
 

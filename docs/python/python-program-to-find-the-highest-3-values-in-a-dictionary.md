@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : my_dict = {'A': 67, 'B': 23, 'C': 45,
                    'D': 56, 'E': 12, 'F': 69} 
 
@@ -21,7 +21,7 @@ most_common([n])返回一个列表，其中列出了 *n* 个最常见的元素�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # finding 3 highest values in a Dictionary
 
@@ -48,7 +48,7 @@ for i in high:
 
 **Output:** 
 
-```
+```py
 Initial Dictionary:
 {'C': 45, 'B': 23, 'D': 56, 'A': 67, 'E': 12, 'F': 69} 
 
@@ -63,7 +63,7 @@ D  : 56
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # finding 3 highest values in a Dictionary
 from heapq import nlargest
@@ -86,7 +86,7 @@ for val in ThreeHighest:
 
 **Output:** 
 
-```
+```py
 Initial Dictionary:
 {'D': 56, 'E': 12, 'F': 69, 'C': 45, 'B': 23, 'A': 67} 
 

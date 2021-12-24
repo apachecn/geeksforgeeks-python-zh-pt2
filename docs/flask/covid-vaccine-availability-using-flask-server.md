@@ -8,7 +8,7 @@
 
 我们将使用一些 python 库来查找疫苗的可用性，并使用烧瓶服务器显示它们。将来，您也可以将其部署在实时服务器上。首先，我们必须使用下面的命令安装 python Flask 包:
 
-```
+```py
 pip install flask
 ```
 
@@ -24,7 +24,7 @@ pip install flask
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask,request,session,render_template
 import requests,time
 from datetime import datetime,timedelta
@@ -36,7 +36,7 @@ app = Flask(__name__)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route('/')
 def home():
 
@@ -71,7 +71,7 @@ def check():
 
 ## 蟒蛇 3
 
-```
+```py
 def findSlot(age,pin,data):
 
     flag = 'y'
@@ -141,7 +141,7 @@ def findSlot(age,pin,data):
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,request,session,render_template
 import requests,time
 from datetime import datetime,timedelta
@@ -248,7 +248,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!doctype html>
 <html lang="en">
    <head>
@@ -318,7 +318,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -371,7 +371,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
    <head>

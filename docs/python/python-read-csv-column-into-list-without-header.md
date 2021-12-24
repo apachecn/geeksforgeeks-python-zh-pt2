@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # reading data from a csv file 'Data.csv'

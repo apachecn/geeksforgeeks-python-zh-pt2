@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -28,7 +28,7 @@ time.thread_time()
 
 **输出:**
 
-```
+```py
 3.394032268
 ```
 
@@ -38,7 +38,7 @@ time.thread_time()
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -65,7 +65,7 @@ print(time.thread_time())
 
 **输出:**
 
-```
+```py
 3.53465852
 3.535156974
 3.535567409

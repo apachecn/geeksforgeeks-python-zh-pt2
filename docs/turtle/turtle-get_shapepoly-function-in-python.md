@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.get_shapepoly()
 
 ```
@@ -21,7 +21,7 @@ turtle.get_shapepoly()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -40,7 +40,7 @@ print(turtle.get_shapepoly())
 
 **输出:**
 
-```
+```py
 classic
 ((0, 0), (-5, -9), (0, -7), (5, -9))
 ((0.0, 0.0), (-25.0, -45.0), (0.0, -35.0), (25.0, -45.0))
@@ -51,7 +51,7 @@ classic
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

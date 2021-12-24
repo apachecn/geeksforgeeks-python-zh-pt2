@@ -10,7 +10,7 @@ Tkinter 是 python 中使用的一个 GUI 工具包，用于制作用户友好�
 文本小部件用于用户想要插入多行文本字段的地方。这个小部件可以用于各种需要多行文本的应用程序，例如消息传递、发送信息或显示信息以及许多其他任务。我们也可以在文本小部件中插入媒体文件，如图像和链接。
 **语法:**
 
-```
+```py
 T = Text(root, bg, fg, bd, height, width, font, ..)
 ```
 
@@ -84,7 +84,7 @@ T = Text(root, bg, fg, bd, height, width, font, ..)
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 
 root = Tk()
@@ -128,7 +128,7 @@ tk.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 
 root = Tk()

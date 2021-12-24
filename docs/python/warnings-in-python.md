@@ -4,7 +4,7 @@
 
 提供警告是为了警告开发人员不一定是异常的情况。通常，当某些编程元素过时时会出现警告，如关键字、函数或类等。程序中的警告不同于错误。如果发生错误，Python 程序会立即终止。相反，警告并不重要。它显示一些信息，但程序运行。在“`warning`”模块中定义的`warn()`功能用于显示警告信息。警告模块实际上是异常的一个子类，异常是 Python 中的一个内置类。
 
-```
+```py
 # program to display warning a message 
 
 import warnings
@@ -19,7 +19,7 @@ print('Geeks !')
 
 **输出:**
 
-```
+```py
 Geeks
 main.py:8: UserWarning: Warning Message: 4  
   warnings.warn('Warning Message: 4')
@@ -70,7 +70,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 
 *   **warn(message, category=None, stacklevel=1, source=None):** This function displays a warning, or disregard it or converts is to an exception.
 
-    ```
+    ```py
     # program to illustrate warn() 
     # function in warning module
 
@@ -83,7 +83,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 
     **输出:**
 
-    ```
+    ```py
     main.py:2: UserWarning: Geeks 4 Geeks
       warnings.warn('Geeks 4 Geeks')
 
@@ -94,7 +94,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 *   **warn_explicit(消息、类别、文件名、行号、模块=无、注册表=无、模块 _ globals =无、源=无):**这个函数是一个具有 warn()特性的低级方法
 *   **filterwarnings(action, message=”, category=Warning, module=”, lineno=0, append=False):** This function adds an entry into the specifications of the warnings filter.
 
-    ```
+    ```py
     # program to illustrate filterwarnings()
     # function in warning module
 
@@ -114,7 +114,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 
     **输出:**
 
-    ```
+    ```py
     main.py:8: UserWarning: Geeks 4 Geeks!
       warnings.warn('Geeks 4 Geeks!')
 
@@ -125,7 +125,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 *   **显示警告(消息、类别、文件名、行号、文件=无、行=无):**该函数向文件写入警告。
 *   **simplefilter(action, category=Warning, lineno=0, append=False):** This function adds a single entry into the warnings filter requirements list.
 
-    ```
+    ```py
     # program to illustrate simplefilter() 
     # function in warning module
 
@@ -141,7 +141,7 @@ Python 中的警告过滤器处理警告(出现、忽略或引发异常)。警�
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "main.py", line 8, in     
          warnings.warn('This is a warning message')

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 2,
@@ -47,7 +47,7 @@ REST_FRAMEWORK = {
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 531
@@ -105,7 +105,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 516
@@ -156,7 +156,7 @@ X-Frame-Options: DENY
 
 ## 蟒蛇 3
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
     'PAGE_SIZE': 2,
@@ -179,7 +179,7 @@ HTTPie 命令是
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 541
@@ -226,7 +226,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 524
@@ -277,7 +277,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 325
@@ -318,7 +318,7 @@ CursorPagination 提供了一个光标指示器来浏览结果集。它只提供
 
 ## 蟒蛇 3
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.CursorPagination',
     'PAGE_SIZE': 2,
@@ -338,7 +338,7 @@ REST_FRAMEWORK = {
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework.pagination import CursorPagination
 class CursorPaginationWithOrdering(CursorPagination):
     # order based on id
@@ -349,7 +349,7 @@ class CursorPaginationWithOrdering(CursorPagination):
 
 ## 蟒蛇 3
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'robots.custompagination.CursorPaginationWithOrdering',
     'PAGE_SIZE': 2,
@@ -362,7 +362,7 @@ REST_FRAMEWORK = {
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 526
@@ -412,7 +412,7 @@ X-Frame-Options: DENY
 
 输出
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Length: 530

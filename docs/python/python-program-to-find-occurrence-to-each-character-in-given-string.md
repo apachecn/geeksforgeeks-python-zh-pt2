@@ -10,7 +10,7 @@ Python 中有多种方法，我们可以完成这个任务。让我们讨论其�
 
 迭代设置转换后的字符串，并获取原始字符串中每个字符的计数。
 
-```
+```py
 # Python3 code to program to find occurrence
 # to each character in given string
 
@@ -27,7 +27,7 @@ print ("Occurrence of all characters in GeeksforGeeks is :\n "+ str(out)) 
 
 **Output:**
 
-```
+```py
 Occurrence of all characters in GeeksforGeeks is :
  {'o': 1, 'r': 1, 'e': 4, 's': 2, 'f': 1, 'G': 2, 'k': 2}
 
@@ -35,7 +35,7 @@ Occurrence of all characters in GeeksforGeeks is :
 
 **方法 2:** 使用字典
 
-```
+```py
 # Python3 code to program to find occurrence
 # to each character in given string
 
@@ -57,7 +57,7 @@ print ("Occurrence of all characters in GeeksforGeeks is :\n "+ str(freq)) 
 
 **Output:**
 
-```
+```py
 Occurrence of all characters in GeeksforGeeks is :
  {'e': 4, 'r': 1, 'o': 1, 'f': 1, 'G': 2, 's': 2, 'k': 2}
 
@@ -65,7 +65,7 @@ Occurrence of all characters in GeeksforGeeks is :
 
 **方法 3:** 使用`collections`
 
-```
+```py
 # Python3 code to program to find occurrence
 # to each character in given string
 from collections import Counter 
@@ -83,7 +83,7 @@ print ("Occurrence of all characters in GeeksforGeeks is :\n "+ str(oup)) 
 
 **Output:**
 
-```
+```py
 Occurrence of all characters in GeeksforGeeks is :
  Counter({'e': 4, 's': 2, 'G': 2, 'k': 2, 'f': 1, 'r': 1, 'o': 1})
 

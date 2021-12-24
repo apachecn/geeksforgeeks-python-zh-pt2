@@ -22,7 +22,7 @@ A **消费者**是渠道的基本单位。它是一个支持异步和同步应�
 
 *   为 python 应用程序创建一个虚拟环境总是一个好主意，以避免版本冲突。在终端中运行以下命令即可开始
 
-```
+```py
 easy-install pip
 python3 -m pip install virtualenv
 virtualenv venv
@@ -31,7 +31,7 @@ source venv/bin/activate
 
 *   现在安装**姜戈**和**通道**:
 
-```
+```py
 pip install django
 pip install channels
 # On windows, try an unofficial wheel of 'Twisted' in case of dependency errors
@@ -41,7 +41,7 @@ pip install channels
 
 现在开始一个姜戈项目，创建一个名为**‘生活计算器’**
 
-```
+```py
 django-admin startproject sampleProject
 cd sampleProject
 python3 manage.py startapp liveCalculator
@@ -59,7 +59,7 @@ python3 manage.py startapp liveCalculator
 
 ## python 3
 
-```
+```py
 import os
 
 import django

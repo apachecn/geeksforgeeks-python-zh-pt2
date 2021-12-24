@@ -8,7 +8,7 @@
 
 将数据保存到 JSON 的最简单方法是使用以下命令:
 
-```
+```py
 scrapy crawl <spiderName> -O <fileName>.json
 ```
 
@@ -16,7 +16,7 @@ scrapy crawl <spiderName> -O <fileName>.json
 
 请注意，在命令行中使用 **-O** 会覆盖任何具有该名称的现有文件，而使用 **-o** 会将新内容附加到现有文件中。但是，附加到 JSON 文件会使文件内容无效。因此，使用以下命令将数据追加到现有文件中。
 
-```
+```py
 scrapy crawl <spiderName> -o <fileName>.jl
 ```
 
@@ -28,7 +28,7 @@ scrapy crawl <spiderName> -o <fileName>.jl
 
 现在要在 scrapy 中启动一个新项目，请使用以下命令
 
-```
+```py
 scrapy startproject tutorial
 ```
 
@@ -38,7 +38,7 @@ scrapy startproject tutorial
 
 移动到我们使用以下命令创建的教程目录:
 
-```
+```py
 cd tutorial
 ```
 
@@ -48,7 +48,7 @@ cd tutorial
 
 ## 蟒蛇 3
 
-```
+```py
 import scrapy
 
 class QuotesSpider(scrapy.Spider):
@@ -81,7 +81,7 @@ class QuotesSpider(scrapy.Spider):
 
 要运行程序并将潦草的数据保存到 JSON，请使用:
 
-```
+```py
 scrapy crawl quotes -O quotes.json
 ```
 

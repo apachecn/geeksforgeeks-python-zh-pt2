@@ -13,7 +13,7 @@
 
 导入 Tkinter 模块的过程与导入 Python 中的任何其他模块相同。
 
-```
+```py
 import tkinter
 ```
 
@@ -26,7 +26,7 @@ Tkit 模块中有一个名为**颜色选择器**的包。这个 Tkinter 模块�
 该功能属于 Tkinter 模块的*颜色选择器*包。该功能有助于创建颜色选择器对话框。该函数一被调用，就会弹出颜色选择器对话框。该函数返回用户选择的颜色的十六进制代码。
 **语法:**
 
-```
+```py
 colorchooser.askcolor()
 ```
 
@@ -34,7 +34,7 @@ colorchooser.askcolor()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create color chooser dialog box
 
 # importing tkinter module

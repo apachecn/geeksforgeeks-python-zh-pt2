@@ -12,7 +12,7 @@
 
 要安装 **Python-mysql 连接器**模块，必须在系统上预装 Python 和 PIP。如果已经安装了 Python 和 pip，请在终端中键入以下命令。
 
-```
+```py
 pip3 install mysql-connector-python
 ```
 
@@ -26,7 +26,7 @@ pip3 install mysql-connector-python
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -50,7 +50,7 @@ dataBase.close()
 
 连接到 MySQL 服务器后，让我们看看如何使用 Python[创建 MySQL 数据库](https://www.geeksforgeeks.org/python-mysql-create-database/)。为此，我们将首先创建一个 cursor()对象，然后将 SQL 命令作为字符串传递给 execute()方法。创建数据库的 SQL 命令是–
 
-```
+```py
 CREATE DATABASE DATABASE_NAME
 ```
 
@@ -58,7 +58,7 @@ CREATE DATABASE DATABASE_NAME
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -83,7 +83,7 @@ cursorObject.execute("CREATE DATABASE gfg")
 
 对于[创建表](https://www.geeksforgeeks.org/python-mysql-create-table/)，我们将遵循类似的方法，将 SQL 命令写成字符串，然后将其传递给游标对象的 execute()方法。用于创建表的 SQL 命令是–
 
-```
+```py
 CREATE TABLE
 (
     column_name_1 column_Data_type,
@@ -98,7 +98,7 @@ CREATE TABLE
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -138,7 +138,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 INSERT INTO table_name (column_names) VALUES (data)
 ```
 
@@ -146,7 +146,7 @@ INSERT INTO table_name (column_names) VALUES (data)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -181,7 +181,7 @@ dataBase.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -222,13 +222,13 @@ dataBase.close()
 
 *   为了从表中选择特定的属性列，我们编写属性名。
 
-```
+```py
 SELECT attr1, attr2 FROM table_name
 ```
 
 *   为了从表中选择所有属性列，我们使用星号“*”符号。
 
-```
+```py
 SELECT * FROM table_name
 ```
 
@@ -236,7 +236,7 @@ SELECT * FROM table_name
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -278,7 +278,7 @@ dataBase.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -306,7 +306,7 @@ dataBase.close()
 
 **输出:**
 
-```
+```py
 ('Rohan', 'MAE', 43, 'B', 20)
 ('Amit', 'ECE', 24, 'A', 21)
 ('Anil', 'MAE', 45, 'B', 20)
@@ -319,7 +319,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 SELECT column1, column2
 FROM table_name
 ORDER BY column_name ASC|DESC;
@@ -329,7 +329,7 @@ ORDER BY column_name ASC|DESC;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -365,7 +365,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 SELECT * FROM tablename LIMIT limit;
 SELECT * FROM tablename LIMIT limit OFFSET offset;
 ```
@@ -374,7 +374,7 @@ SELECT * FROM tablename LIMIT limit OFFSET offset;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -402,7 +402,7 @@ dataBase.close()
 
 **输出:**
 
-```
+```py
 ('Nikhil', 'CSE', 98, 'A', 18)
 ('Nisha', 'CSE', 99, 'A', 18)
 ```
@@ -413,7 +413,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 UPDATE tablename
 SET ="new value"
 WHERE ="old value";
@@ -423,7 +423,7 @@ WHERE ="old value";
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -455,7 +455,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 DELETE FROM TABLE_NAME WHERE ATTRIBUTE_NAME = ATTRIBUTE_VALUE
 ```
 
@@ -463,7 +463,7 @@ DELETE FROM TABLE_NAME WHERE ATTRIBUTE_NAME = ATTRIBUTE_VALUE
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -495,7 +495,7 @@ dataBase.close()
 
 **语法:**
 
-```
+```py
 DROP TABLE tablename;
 DROP TABLE IF EXISTS tablename;
 ```
@@ -510,7 +510,7 @@ DROP TABLE IF EXISTS tablename;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 
@@ -541,7 +541,7 @@ dataBase.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 import mysql.connector
 

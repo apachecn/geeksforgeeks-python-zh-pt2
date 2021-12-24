@@ -21,7 +21,7 @@
 
 ![python-mongodb-sample-database3](img/3e4740b76e811de5e6d3c8fede6bad4f.png)
 
-```
+```py
 from pymongo import MongoClient
 from pymongo import ReturnDocument
 
@@ -45,7 +45,7 @@ print(doc.find_one_and_update({'name':"Raju"},
 
 **例 2:**
 
-```
+```py
 from pymongo import MongoClient
 from pymongo import ReturnDocument
 
@@ -67,7 +67,7 @@ doc.find_one_and_update({'name': "Raju"}, 
 
 **输出:**
 
-```
+```py
 {'_id': 5, 'name': 'Raju', 'Branch': 'CSE'}
 
 ```

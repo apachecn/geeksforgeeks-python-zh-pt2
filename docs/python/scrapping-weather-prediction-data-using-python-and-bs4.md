@@ -11,7 +11,7 @@ We will be scrapping data from **https://weather.com/en-IN/weather/tenday/l/INKA
 
 **步骤 1–**运行以下命令，将存储的内容从 URL 获取到响应对象(文件)中:
 
-```
+```py
 import requests
 # to get data from website
 file = requests.get("https://weather.com/en-IN/weather/tenday/l/INKA0344:1:IN")
@@ -19,7 +19,7 @@ file = requests.get("https://weather.com/en-IN/weather/tenday/l/INKA0344:1:IN")
 
 **步骤 2–**解析 HTML 内容:
 
-```
+```py
 # import Beautifulsoup for scraping the data 
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(file.content, "html.parser")
@@ -27,7 +27,7 @@ soup = BeautifulSoup(file.content, "html.parser")
 
 **步骤 3–**从气象站点抓取数据运行以下代码:
 
-```
+```py
 # create empty list
 list =[]
 all = soup.find("div", {"class":"locations-title ten-day-page-title"}).find("h1").text
@@ -71,7 +71,7 @@ for items in content:
 
 使用以下代码将列表转换为 CSV 文件并存储到`output.csv`文件中:
 
-```
+```py
 import pandas as pd
 convert = pd.DataFrame(list)
 convert.to_csv("output.csv")
@@ -89,7 +89,7 @@ convert.to_csv("output.csv")
 > **数据类型:**用于设置默认值。
 > **复制:**复制输入的数据。默认值为 false。
 
-```
+```py
 # read csv file using pandas
 a = pd.read_csv("output.csv")
 print(a)

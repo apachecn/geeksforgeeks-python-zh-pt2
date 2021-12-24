@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if list is Palindrome
 # Using list slicing
@@ -41,7 +41,7 @@ print("Is list Palindrome : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 4, 5, 4, 1]
 Is list Palindrome : True
 
@@ -53,7 +53,7 @@ Is list Palindrome : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if list is Palindrome
 # Using reversed()
@@ -76,7 +76,7 @@ print("Is list Palindrome : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [1, 4, 5, 4, 1]
 Is list Palindrome : True
 

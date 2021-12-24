@@ -8,7 +8,7 @@
 
 借助下面给出的命令，我们可以创建一个绘图窗口，并在其上创建散点图。
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -25,7 +25,7 @@ scatter = pg.ScatterPlotItem(size=10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

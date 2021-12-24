@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [('for', 24), ('Geeks', 8), ('Geeks', 30)] 
 Output : [('Geeks', 8), ('for', 24), ('Geeks', 30)]
 
@@ -18,7 +18,7 @@ Output : [('256', 5), ('452', 10), ('135', 15), ('100', 20)]
 
 使用冒泡排序技术，我们可以进行排序。请注意，每个元组都是给定列表中的一个元素。使用嵌套循环访问每个元组的第二个元素。这将执行就地排序方法。时间复杂度类似于冒泡排序，即 O(n^2).
 
-```
+```py
 # Python program to sort a list of tuples by the second Item
 
 # Function to sort the list of tuples by its second item
@@ -44,7 +44,7 @@ print(Sort_Tuple(tup)) 
 
 **输出:**
 
-```
+```py
 [('Geeksforgeeks', 5), ('is', 10), ('a', 15), ('portal', 20), ('for', 24), ('Geeks', 28)]
 ```
 
@@ -52,7 +52,7 @@ print(Sort_Tuple(tup)) 
 
 通过这种方法进行排序时，元组的实际内容会发生变化，就像前面的方法一样，会执行就地排序方法。
 
-```
+```py
 # Python program to sort a list of
 # tuples by the second Item using sort() 
 
@@ -74,7 +74,7 @@ print(Sort_Tuple(tup)) 
 
 **输出:**
 
-```
+```py
 [('akash', 5), ('rishav', 10), ('gaurav', 15), ('ram', 20)]
 ```
 
@@ -86,7 +86,7 @@ Sorted()方法对列表进行排序，并且总是以排序的方式返回包含
 **键(可选):**用作键或排序比较基础的函数。
 **反向(可选):**要按升序排序，我们可以忽略第三个参数，这是我们在本程序中所做的。如果设置为 true，则可迭代将按相反(降序)顺序排序，默认情况下设置为 false。
 
-```
+```py
 # Python program to sort a list of
 # tuples by the second Item using sorted() 
 
@@ -107,6 +107,6 @@ print(Sort_Tuple(tup)) 
 
 **输出:**
 
-```
+```py
 [('akash', 5), ('rishav', 10), ('gaurav', 15), ('ram', 20)]
 ```

@@ -12,19 +12,19 @@ Flask 是一个用 python 编写的微 web 框架。微框架通常是一个很�
 
 在您觉得合适的任何目录中创建一个文件夹，并在目录中打开命令行。使用以下命令创建一个 python 虚拟环境。
 
-```
+```py
 python -m venv <name>
 ```
 
 命令运行完成后，使用下面的命令激活虚拟环境。
 
-```
+```py
 <name>\scripts\activate
 ```
 
 现在，使用 pip(python 的包安装程序)安装 Flask。只需运行下面的命令。
 
-```
+```py
 pip install Flask
 ```
 
@@ -34,7 +34,7 @@ pip install Flask
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask
 app = Flask(__name__)
 
@@ -59,7 +59,7 @@ if __name__ == '__main__':
 
 现在，让我们继续为我们的应用程序创建一个**数据库。**为了本文的目的，我们将使用 SQLAlchemy(一个数据库工具包)和 ORM(对象关系映射器)。我们将再次使用 pip 来安装 SQLAlchemy。命令如下:
 
-```
+```py
 pip install flask-sqlalchemy
 ```
 
@@ -67,7 +67,7 @@ pip install flask-sqlalchemy
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flasky
 from flask_sqlalchemy import SQLAlchemy
 
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask, request, redirect
 from flask.templating import render_template
 from flask_sqlalchemy import SQLAlchemy
@@ -143,13 +143,13 @@ if __name__ == '__main__':
 
 在导航到项目目录并运行虚拟环境的命令行中，我们需要运行以下命令。
 
-```
+```py
 python
 ```
 
 上面的命令将在您的命令行中启动一个 python bash，在这里您可以使用更多的代码行来根据数据库中的模型类创建您的数据表。
 
-```
+```py
 from app import db
 db.create_all()
 ```
@@ -162,7 +162,7 @@ db.create_all()
 
 安装烧瓶-使用 pip 迁移
 
-```
+```py
 pip install Flask-Migrate
 ```
 
@@ -170,7 +170,7 @@ pip install Flask-Migrate
 
 ## 计算机编程语言
 
-```
+```py
 # Import for Migrations
 from flask_migrate import Migrate, migrate
 
@@ -180,7 +180,7 @@ migrate = Migrate(app, db)
 
 现在，为了创建迁移，我们一个接一个地运行以下命令。
 
-```
+```py
 flask db init
 ```
 
@@ -188,7 +188,7 @@ flask db init
 
 烧瓶数据库初始化
 
-```
+```py
 flask db migrate -m "Initial migration"
 ```
 
@@ -196,7 +196,7 @@ flask db migrate -m "Initial migration"
 
 烧瓶数据库迁移-m“初始迁移”
 
-```
+```py
 flask db upgrade
 ```
 
@@ -212,7 +212,7 @@ flask db 升级
 
 ## 超文本标记语言
 
-```
+```py
 <html>
    <head>
       <title>Index Page</title>
@@ -227,7 +227,7 @@ flask db 升级
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask, request, redirect
 from flask.templating import render_template
 from flask_sqlalchemy import SQLAlchemy
@@ -263,7 +263,7 @@ if __name__ == '__main__':
 
 要测试是否一切正常，可以使用命令运行应用程序
 
-```
+```py
 python app.py
 ```
 
@@ -279,7 +279,7 @@ python app.py
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
    <head>
@@ -306,7 +306,7 @@ python app.py
 
 ## 计算机编程语言
 
-```
+```py
 @app.route('/add_data')
 def add_data():
     return render_template('add_profile.html')
@@ -314,7 +314,7 @@ def add_data():
 
 要检查代码是否正常工作，可以运行以下命令启动本地服务器。
 
-```
+```py
 python app.py
 ```
 
@@ -332,13 +332,13 @@ python app.py
 
 例如，
 
-```
+```py
 <input type="number" name="age" placeholder="age..">
 ```
 
 “age”也应该在 python 函数中使用，
 
-```
+```py
 age = request.form.get("age")
 ```
 
@@ -346,7 +346,7 @@ age = request.form.get("age")
 
 ## 计算机编程语言
 
-```
+```py
 # function to add profiles
 @app.route('/add', methods=["POST"])
 def profile():
@@ -381,7 +381,7 @@ def profile():
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
    <head>

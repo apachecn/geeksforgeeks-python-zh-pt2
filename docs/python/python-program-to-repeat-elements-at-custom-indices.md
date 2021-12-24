@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [4, 6, 7, 3, 1, 9, 2, 19]
 

@@ -12,7 +12,7 @@
 
 **逻辑表达式:**
 
-```
+```py
 Sum = A XOR B 
 Carry = A AND B 
 ```
@@ -45,7 +45,7 @@ Carry = A AND B
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to print sum and carry
 def getResult(A, B):
 
@@ -69,7 +69,7 @@ getResult(A, B)
 
 **输出:**
 
-```
+```py
 Sum  1
 Carry 0
 ```

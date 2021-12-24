@@ -8,7 +8,7 @@
 
 **PyAutoGui:** 它是 python 中的一个模块，用于自动化 Gui 并控制鼠标和键盘。它是一个外部模块，可以使用以下命令安装在系统中:
 
-```
+```py
 Linux:
 pip3 install pyautogui
 Windows:
@@ -30,7 +30,7 @@ pip install pyautogui
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import os
 import pyautogui
@@ -51,7 +51,7 @@ os.system(val)
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import os
 import pyautogui

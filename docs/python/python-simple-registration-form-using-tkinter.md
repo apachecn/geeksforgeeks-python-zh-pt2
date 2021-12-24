@@ -11,7 +11,7 @@ Python 提供了开发 GUI 应用程序的 Tkinter 工具包。现在，取决�
 
 ## 蟒蛇 3
 
-```
+```py
 # import openpyxl and tkinter modules
 from openpyxl import *
 from tkinter import *

@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # Python code to implement
 # the atan()function
 
@@ -33,14 +33,14 @@ print (math.atan(a))  
 
 **输出:**
 
-```
+```py
 The value of tangent of pi / 6 is : 0.48234790710102493
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python code to implement
 # the atan()function
 import math 
@@ -67,7 +67,7 @@ plt.show()  
 
 **输出:**
 
-```
+```py
 Input_Array : 
  [0\.         0.34906585 0.6981317  1.04719755 1.3962634  1.74532925
  2.0943951  2.44346095 2.7925268  3.14159265]

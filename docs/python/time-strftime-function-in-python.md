@@ -25,7 +25,7 @@ T3【备注:T5】
 
 ## 蟒蛇 3
 
-```
+```py
 # Program To show How can we use different derivatives
 # Multiple at a time and single at a time
 
@@ -113,7 +113,7 @@ print("Example 12:", s)
 
 **Output:** 
 
-```
+```py
 Example 1: Tue, 25 Jun 2019 10:09:52 + 1010
 
 Example 2: Tuesday, 06/25/19 June 2019 10:09:52 + 0000

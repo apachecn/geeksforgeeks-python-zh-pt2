@@ -7,7 +7,7 @@
 **方法#1:使用`reduce() + lambda + “^” operator`**
 以上功能可以组合执行此任务。我们可以使用 reduce()来累加λ函数指定的异或逻辑的结果。仅适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of
 # List XOR
 # Using reduce() + lambda + "^" operator
@@ -28,7 +28,7 @@ print("The Bitwise XOR of list elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 6, 2, 3, 8, 9]
 The Bitwise XOR of list elements are : 2
 

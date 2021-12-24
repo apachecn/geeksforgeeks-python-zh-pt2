@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮力方法。在这种情况下，我们对每个键进行迭代，如果发现第一次出现假值并从循环中断开，就将其标记为假。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test Boolean Value of Dictionary
 # Using loop

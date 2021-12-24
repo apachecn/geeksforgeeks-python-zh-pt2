@@ -12,7 +12,7 @@ Python 定义了一组函数，用于通过**随机模块生成或操纵随机�
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate the use of
 # choice() method
 
@@ -30,7 +30,7 @@ print(random.choice(string))
 
 ****输出:****
 
-```
+```py
 5
 t
 ```
@@ -41,7 +41,7 @@ t
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate the working of
 # choice() and randrange()
 
@@ -62,7 +62,7 @@ print(random.randrange(20, 50, 3))
 
 ****输出:****
 
-```
+```py
 A random number from list is : 4
 A random number from range is : 41
 ```
@@ -75,7 +75,7 @@ A random number from range is : 41
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate the working of
 # random() and seed()
 
@@ -134,7 +134,7 @@ print(random.random())
 
 ## **蟒蛇 3**
 
-```
+```py
 # import the random module
 import random
 
@@ -157,7 +157,7 @@ print(sample_list)
 
 ****输出:****
 
-```
+```py
 Original list : 
 ['A', 'B', 'C', 'D', 'E']
 
@@ -172,7 +172,7 @@ After the second shuffle :
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate the working of
 # shuffle() and uniform()
 

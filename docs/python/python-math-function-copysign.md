@@ -14,7 +14,7 @@ math.copysign()是 Python 标准数学库中存在的一个函数。该函数返
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate copy.sign() function
 import math
 
@@ -32,13 +32,13 @@ print (func())
 
 **输出:**
 
-```
+```py
 -5.0
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate copy.sign() function
 import math
 
@@ -56,6 +56,6 @@ print (func())
 
 **输出:**
 
-```
+```py
 10
 ```

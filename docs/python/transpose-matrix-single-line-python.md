@@ -8,7 +8,7 @@
 
 1.  **Using Nested List Comprehension:** Nested list comprehension are used to iterate through each element in the matrix.In the given example ,we iterate through each element of matrix (m) in column major manner and assign the result to rez matrix which is the transpose of m.
 
-    ```
+    ```py
     m = [[1,2],[3,4],[5,6]]
     for row in m :
         print(row)
@@ -20,7 +20,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [1, 2]
     [3, 4]
     [5, 6]
@@ -32,7 +32,7 @@
 
 2.  **Using zip:** Zip returns an iterator of tuples, where the i-th tuple contains the i-th element from each of the argument sequences or iterables. In this example we unzip our array using * and then zip it to get the transpose.
 
-    ```
+    ```py
     matrix=[(1,2,3),(4,5,6),(7,8,9),(10,11,12)]
     for row in matrix:
         print(row)
@@ -44,7 +44,7 @@
 
     **输出:**
 
-    ```
+    ```py
     (1, 2, 3)
     (4, 5, 6)
     (7, 8, 9)
@@ -60,7 +60,7 @@
 
 3.  **Using numpy:** NumPy is a general-purpose array-processing package designed to efficiently manipulate large multi-dimensional arrays. The transpose method returns a transposed view of the passed multi-dimensional matrix.
 
-    ```
+    ```py
     # You need to install numpy in order to import it
     # Numpy transpose returns similar result when 
     # applied on 1D matrix
@@ -73,7 +73,7 @@
 
     或者，简单地使用”。变量后的“t”
 
-    ```
+    ```py
     # You need to install numpy in order to import it
     import numpy as np
     matrix = np.array([[1,2,3],[4,5,6]])
@@ -84,7 +84,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [[1 2 3]
      [4 5 6]]
 

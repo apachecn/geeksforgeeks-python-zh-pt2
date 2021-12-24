@@ -12,19 +12,19 @@
 
 *   [**【美观组:**](https://www.geeksforgeeks.org/beautifulsoup-object-python-beautifulsoup/) 我们的主模块包含一个通过 HTTP 访问网页的方法。
 
-```
+```py
 pip install bs4
 ```
 
 *   **lxml:** 处理 python 语言网页的助手库。
 
-```
+```py
 pip install lxml
 ```
 
 *   [**请求:**](https://www.geeksforgeeks.org/python-requests-tutorial/) 使发送 HTTP 请求的过程完美无瑕.函数的输出。
 
-```
+```py
 pip install requests
 ```
 
@@ -34,7 +34,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bs4 import BeautifulSoup
 import requests
@@ -55,7 +55,7 @@ soup = BeautifulSoup(webpage.content, "lxml")
 
 ## 蟒蛇 3
 
-```
+```py
 # getting the h1 with id as firstHeading and printing it
 title = soup.find("h1", attrs={"id": 'firstHeading'})
 print(title)
@@ -65,7 +65,7 @@ print(title)
 
 ## 蟒蛇 3
 
-```
+```py
 # getting the text/content inside the h1 tag we
 # parsed on the previous line
 cont = title.get_text()
@@ -80,7 +80,7 @@ print(cont)
 
 ## 蟒蛇 3
 
-```
+```py
 # getting the HTML of the parent parent of 
 # the h1 tag we parsed earlier
 parent = soup.find("span", 
@@ -92,7 +92,7 @@ print(parent)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the modules
 from bs4 import BeautifulSoup 
 import requests 

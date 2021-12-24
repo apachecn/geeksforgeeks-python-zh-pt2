@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 lis = [1, 2, 3, 4, 5]
 
 for i in range(len(lis)):
@@ -18,7 +18,7 @@ for i in range(len(lis)):
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -33,7 +33,7 @@ for i in range(len(lis)):
 
 ## 计算机编程语言
 
-```
+```py
 # Using while loop
 
 lis = [1, 2, 3, 4, 5]
@@ -52,7 +52,7 @@ while(i < len(lis)):
 
 *   **输出:**
 
-```
+```py
 1 3 5
 ```
 
@@ -61,7 +61,7 @@ while(i < len(lis)):
 
 ## 计算机编程语言
 
-```
+```py
 # Using for loop
 
 lis = [1, 2, 3, 4, 5]
@@ -80,7 +80,7 @@ for j in range(len(lis)):
 
 *   **输出:**
 
-```
+```py
 1 3 5
 ```
 
@@ -90,7 +90,7 @@ for j in range(len(lis)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Using for loop
 
 lis = [1, 2, 3, 4, 5]
@@ -102,6 +102,6 @@ for i in range(0, len(lis), 2):
 
 *   **输出:**
 
-```
+```py
 1 3 5
 ```

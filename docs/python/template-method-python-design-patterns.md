@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 """ method to get the text of file"""
 def get_text():
 
@@ -82,7 +82,7 @@ if __name__ == "__main__":
 
 ### 输出
 
-```
+```py
 Got `plain_text`
 Skip conversion
 [SAVE]

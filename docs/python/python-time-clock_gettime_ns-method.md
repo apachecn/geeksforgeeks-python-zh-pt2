@@ -24,7 +24,7 @@
 
 **代码#1:** 使用`***time.clock_gettime_ns()***`方法
 
-```
+```py
 # Python program to explain time.clock_gettime_ns() method
 
 # importing time module
@@ -67,7 +67,7 @@ print("Per-process timer from the CPU: % d nanoseconds" % t5)  
 
 **Output:**
 
-```
+```py
 System-wide real-time clock time: 1568588052857445167 nanoseconds
 Monotonic clock time: 13129927039288 nanoseconds
 Monotonic (raw-hardware based) clock time: 13129927039811 nanoseconds
@@ -78,7 +78,7 @@ Per-process timer from the CPU: 27171779 nanoseconds
 
 **代码#2:** 使用整数值作为`***time.clock_gettime_ns()***`方法的参数
 
-```
+```py
 # Python program to explain time.clock_gettime_ns() method
 
 # importing time module
@@ -107,7 +107,7 @@ print("Monotonic clock time: % d nanoseconds" % t2)
 
 **Output:**
 
-```
+```py
 System-wide real-time clock time: 1568588180971305067 nanoseconds
 Monotonic clock time: 13258040899143 nanoseconds
 

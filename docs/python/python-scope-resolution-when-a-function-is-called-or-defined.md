@@ -11,7 +11,7 @@ Python 以两种方式解析函数参数的范围:
 考虑这个样本程序，它有一个函数加法器(a，b)，将一个元素 a 加到列表 b 上，返回列表 b，b 的默认值是[1，8，11]。
  **代码:**
 
-```
+```py
 def adder(a, b = [1, 8, 11]):
     b.append(a)
     return b
@@ -22,7 +22,7 @@ print(adder(9))
 print(adder(2, [3, 6]))
 ```
 
-```
+```py
 Expected Output : 
 
 [1, 8, 11, 1]
@@ -32,7 +32,7 @@ Expected Output :
 
 ```
 
-```
+```py
 Actual Output : 
 
 [1, 8, 11, 1]
@@ -49,7 +49,7 @@ Actual Output :
 现在，考虑这个程序**尝试**将 lambda 函数对象(计算 0 到 4 之间数字的平方)存储在一个列表中，并逐个调用它们。
 **代码:**
 
-```
+```py
 l = []
 for i in range(5):
     l.append(lambda : i**2)
@@ -57,7 +57,7 @@ for j in range(5):
     print(l[j]())
 ```
 
-```
+```py
 Expected Output : 
 
 0
@@ -68,7 +68,7 @@ Expected Output :
 
 ```
 
-```
+```py
 Actual Output : 
 
 16

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove all control characters
 # Using translate()
@@ -46,7 +46,7 @@ print("String after removal of control characters : " + str(res))
 
 **输出:**
 
-```
+```py
  for riginal string is : Geeks
 ge    eeks
 String after removal of control characters : Geeks for geeeks
@@ -58,7 +58,7 @@ String after removal of control characters : Geeks for geeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove all control characters
 # Using unicodedata library
@@ -80,7 +80,7 @@ print("String after removal of control characters : " + str(res))
 
 **输出:**
 
-```
+```py
  for riginal string is : Geeks
 ge    eeks
 String after removal of control characters : Geeks for geeeks

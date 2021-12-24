@@ -8,7 +8,7 @@
 
 **方法#1:** 使用`json.loads`将对象指定为字符串对象
 
-```
+```py
 # Python code to demonstrate
 # converting string to json 
 # using json.loads
@@ -33,7 +33,7 @@ print ("type of final_dictionary", type(final_dictionary))
 
 **输出:**
 
-```
+```py
 initial 1st dictionary {'manjeet': 10, 'nikhil': 1, 'akshat': 15, 'akash': 5}
 type of ini_object <type 'str'>
 final dictionary {'nikhil': 1, 'manjeet': 10, 'akshat': 15, 'akash': 5}
@@ -43,7 +43,7 @@ type of final_dictionary <type 'dict'>
 
 **方法 2:** 使用`eval()`将对象串到字典对象
 
-```
+```py
 # Python code to demonstrate
 # converting string to json 
 # using eval
@@ -66,7 +66,7 @@ print ("type of final_dictionary", type(final_dictionary))
 
 **输出:**
 
-```
+```py
 initial 1st dictionary {'nikhil': 1, 'akash' : 5, 'manjeet' : 10, 'akshat' : 15}
 type of ini_object <class 'str'>
 final dictionary {'nikhil': 1, 'manjeet': 10, 'akash': 5, 'akshat': 15}

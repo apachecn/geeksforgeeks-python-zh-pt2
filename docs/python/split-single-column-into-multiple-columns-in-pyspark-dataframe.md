@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # installing pyspark
 !pip install pyspark
 
@@ -67,7 +67,7 @@ df.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # split() function defining parameters
 split_cols = pyspark.sql.functions.split(df['DOB'], '-')
 
@@ -90,7 +90,7 @@ df1.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # defining split() along with withColumn()
 df2 = df.withColumn('Year', split(df['DOB'], '-').getItem(0)) \
     .withColumn('Month', split(df['DOB'], '-').getItem(1)) \
@@ -112,7 +112,7 @@ df2.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the row data for dataframe
 data = [('Jaya', 'Sinha', 'F', '1991-04-01'),
         ('Milan', 'Sharma', '', '2000-05-19'),
@@ -156,7 +156,7 @@ df3.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # creating the row data for dataframe
 data = [('Jaya', 'Sinha'), ('Milan', 'Soni'),
         ('Rohit', 'Verma'), ('Maria', 'Anne'), 

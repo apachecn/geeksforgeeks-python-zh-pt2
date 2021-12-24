@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须更改与组合框相关联的样式表，下面是实现这一点的样式表代码
 
-```
+```py
 QListView::hover
 {
 border : 3px solid red;
@@ -17,7 +17,7 @@ background : white;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

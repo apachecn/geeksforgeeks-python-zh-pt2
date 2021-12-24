@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -79,7 +79,7 @@ print(parent.select("b:nth-child("+str(n)+")"))
 
 ## **蟒蛇 3**
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 import requests

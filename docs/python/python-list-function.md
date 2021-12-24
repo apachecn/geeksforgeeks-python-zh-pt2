@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 list(iterable)
 ```
 
@@ -22,7 +22,7 @@ list(iterable)
 
 ## 计算机编程语言
 
-```
+```py
 # initializing a string
 string = "ABCDEF"
 
@@ -35,7 +35,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 ['A', 'B', 'C', 'D', 'E', 'F']
 ```
 
@@ -43,7 +43,7 @@ print(list1)
 
 ## 计算机编程语言
 
-```
+```py
 # initializing a tuple
 tuple1 = ('A', 'B', 'C', 'D', 'E')
 
@@ -56,7 +56,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 ['A', 'B', 'C', 'D', 'E']
 ```
 
@@ -64,7 +64,7 @@ print(list1)
 
 ## 计算机编程语言
 
-```
+```py
 # initializing a set
 set1 = {'A', 'B', 'C', 'D', 'E'}
 
@@ -82,7 +82,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 ['C', 'E', 'D', 'B', 'A']
 ['A', 'B', 'C', 'D', 'E']
 ```
@@ -93,7 +93,7 @@ print(list2)
 
 ## 计算机编程语言
 
-```
+```py
 # Taking input from user as list
 list1 = list(input("Please Enter List Elements: "))
 
@@ -103,7 +103,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 Please Enter List Elements: 12345
 ['1', '2', '3', '4', '5']
 ```

@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Symmetric Difference of Dictionaries
 # Using ^ operator + keys() + dictionary comprehension
@@ -63,7 +63,7 @@ print("The symmetric difference : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Symmetric Difference of Dictionaries
 # Using set.symmetric_difference() + keys()

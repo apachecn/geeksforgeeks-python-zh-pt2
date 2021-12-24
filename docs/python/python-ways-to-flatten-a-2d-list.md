@@ -8,7 +8,7 @@
 
 ## python 3
 
-```
+```py
 # Python code to demonstrate
 # converting 2d list into 1d list
 # using chain.from_iterables
@@ -33,7 +33,7 @@ print ("final_result", str(flatten_list))
 
 **输出:**
 
-```
+```py
 initial list  [[1, 2, 3], [3, 6, 7], [7, 5, 4]]
 final_result [1, 2, 3, 3, 6, 7, 7, 5, 4]
 ```

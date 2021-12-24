@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [(1, 2), (5, 7), (3, 6), (1, 2)]
 Output : [(1, 2), (5, 7), (3, 6)]
 
@@ -19,7 +19,7 @@ Output : [('a', 'z'), ('a', 'x'), ('z', 'x')]
 
 这是一种使用列表理解的幼稚方法。这里，我们使用两个*用于*循环，*设置*数据结构来消除所有重复。
 
-```
+```py
 # Python3 program to remove duplicate 
 # tuples from list of tuples
 
@@ -34,7 +34,7 @@ print(removeDuplicates(lst))
 
 **Output:**
 
-```
+```py
 [(1, 2), (5, 7), (3, 6)]
 
 ```
@@ -43,7 +43,7 @@ print(removeDuplicates(lst))
 
 与上面的方法相比，这种方法是有效的，这里我们在列表理解中使用单个 for 循环，然后将其转换为 set 以移除重复项，然后再次将其转换为 list。
 
-```
+```py
 # Python3 program to remove duplicate 
 # tuples from list of tuples
 
@@ -58,14 +58,14 @@ print(removeDuplicates(lst))
 
 **Output:**
 
-```
+```py
 [(1, 2), (5, 7), (3, 6)]
 
 ```
 
 **法#3 :** 蟒*枚举()*法
 
-```
+```py
 # Python3 program to remove duplicate 
 # tuples from list of tuples
 
@@ -81,7 +81,7 @@ print(removeDuplicates(lst))
 
 **Output:**
 
-```
+```py
 [[1, 2], [5, 7], [3, 6]]
 
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用`len()` +列表切片**
 列表切片可以执行这个特殊的任务，在这个任务中，我们只需将最后一个镜头(列表)切片——列表中的 K 个元素，从而移除前 K 个元素。
 
-```
+```py
 # Python code to demonstrate 
 # Remove Front K elements
 # using len() + list slicing
@@ -31,7 +31,7 @@ print ("The list after removing first K elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 6, 3, 5, 8]
 The list after removing first K elements : [3, 5, 8]
 

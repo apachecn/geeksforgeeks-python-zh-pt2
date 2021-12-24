@@ -18,7 +18,7 @@ Python 提供了这么多开发 GUI 应用程序的选项，PyQt5 就是其中�
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

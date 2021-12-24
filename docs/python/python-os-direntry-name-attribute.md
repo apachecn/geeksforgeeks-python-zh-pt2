@@ -18,7 +18,7 @@
 
 **代码#1:** 使用`***os.DirEntry.name***`属性
 
-```
+```py
 # Python program to explain os.DirEntry.name attribute 
 
 # importing os module  
@@ -45,7 +45,7 @@ with os.scandir(path) as itr:
 
 输出:
 
-```
+```py
 Base filename of all directory entry in '/home/ihritik':
 Public 
 Desktop
@@ -67,7 +67,7 @@ Documents
 
 **代码#2:** 使用`***os.DirEntry.name()***`属性
 
-```
+```py
 # Python program to explain os.DirEntry.name attribute 
 
 # importing os module  
@@ -94,7 +94,7 @@ with os.scandir(path) as itr:
 
 输出:
 
-```
+```py
 All files and directory whose name starts with letter 'D' in '/home/ihritik':
 Desktop
 Documents

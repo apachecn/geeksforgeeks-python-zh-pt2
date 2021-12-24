@@ -6,7 +6,7 @@
 
 我们可以创建一个绘图窗口，并在下面给出的命令的帮助下在上面创建线条
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -26,7 +26,7 @@ line = plt.plot(x, y, pen='g', symbol='x', symbolPen='g', symbolBrush=0.2, name=
 
 下面是实现
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import * import sys
 

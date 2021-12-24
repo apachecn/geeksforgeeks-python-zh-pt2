@@ -14,7 +14,7 @@
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 
@@ -73,7 +73,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.QRect(200, 150, 100, 40)
 ```
 

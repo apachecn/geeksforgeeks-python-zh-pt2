@@ -6,7 +6,7 @@
 
 考虑以下示例…
 
-```
+```py
 # Python program to demonstrate
 # traceback
 
@@ -16,7 +16,7 @@ print(mylist[10])
 
 在这个例子中，我们试图访问列表的第 10 个元素。列表中只有 3 个元素，它会给出运行时错误。当这个程序被执行时，你会得到如下的回溯。
 
-```
+```py
 Traceback (most recent call last):
   File "", line 2, in 
 print(mylist[10])
@@ -58,7 +58,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         number = 1 
 
         # since no numb variable is
@@ -68,7 +68,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **输出:**
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 5, in 
             print(numb)  
@@ -80,7 +80,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         mylist = [1, 2, 3]
 
         # Accessing the index out
@@ -90,7 +90,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **输出:**
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 5, in 
             print(mylist[10])
@@ -102,7 +102,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         DICT ={ "a" :25, "b" :65 }
 
         # A is not mapped in dict
@@ -112,7 +112,7 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **输出:**
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 5, in 
             print(DICT["A"])
@@ -124,14 +124,14 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         c = 'b'+3
         print(c)
         ```
 
         **输出:**
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 1, in 
             c = 'b'+3
@@ -143,11 +143,11 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         print(int('xyz'))
         ```
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 1, in 
             print(int('xyz'))
@@ -159,12 +159,12 @@ Python 回溯包含许多关于引发什么异常的有用信息。逐行浏览�
 
         **示例:**
 
-        ```
+        ```py
         import module_does_not_exist
 
         ```
 
-        ```
+        ```py
         Traceback (most recent call last):
           File "gfg.py", line 1, in 
             import module_does_not_exist

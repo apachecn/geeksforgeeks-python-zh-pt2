@@ -9,7 +9,7 @@
 
 *   必须安装库“请求”、“bs4”和“texttable”–
 
-```
+```py
 pip install bs4
 pip install requests
 pip install texttable
@@ -20,7 +20,7 @@ pip install texttable
 
 ## 蟒蛇 3
 
-```
+```py
 # importing modules
 import requests
 from bs4 import BeautifulSoup

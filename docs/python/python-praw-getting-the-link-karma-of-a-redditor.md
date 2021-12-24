@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("The link karma of " + redditor_name + " is : " +
 
 **输出:**
 
-```
+```py
 The link karma of spez is : 130856
 
 ```
@@ -49,7 +49,7 @@ The link karma of spez is : 130856
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -79,7 +79,7 @@ print("The link karma of " + redditor_name + " is : " +
 
 **输出:**
 
-```
+```py
 The link karma of AutoModerator is : 10815
 
 ```

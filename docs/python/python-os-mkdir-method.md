@@ -22,7 +22,7 @@ Python 中的`***os.mkdir()***`方法用于创建指定数值模式的名为 pat
 
 **Code #1:** Use of os.mkdir() method to create directory/file
 
-```
+```py
 # Python program to explain os.mkdir() method 
 
 # importing os module 
@@ -65,7 +65,7 @@ print("Directory '%s' created" %directory)
 
 **Output:**
 
-```
+```py
 Directory 'GeeksForGeeks' created
 Directory 'ihritik' created
 
@@ -73,7 +73,7 @@ Directory 'ihritik' created
 
 **Code #2:** Errors while using os.mkdir() method
 
-```
+```py
 # Python program to explain os.mkdir() method 
 
 # importing os module 
@@ -106,7 +106,7 @@ print("Directory '%s' created" %directory)
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "osmkdir.py", line 17, in 
     os.mkdir(path)
@@ -116,7 +116,7 @@ FileExistsError: [Errno 17] File exists: '/home/User/Documents/GeeksForGeeks'
 
 **Code #3:** Handling error while using os.mkdir() method
 
-```
+```py
 # Python program to explain os.mkdir() method 
 
 # importing os module 
@@ -136,7 +136,7 @@ except OSError as error:
 
 **Output:**
 
-```
+```py
 [Errno 17] File exists: '/home/User/Documents/GeeksForGeeks'
 
 ```

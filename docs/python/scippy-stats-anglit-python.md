@@ -18,7 +18,7 @@
 
 **代码#1:创建一个连续的随机变量**
 
-```
+```py
 # import scipy
 from scipy.stats import anglit
 
@@ -31,14 +31,14 @@ print ("RV : \n", rv)
 
 **输出:**
 
-```
+```py
 RV :  
 <scipy.stats._distn_infrastructure.rv_frozen object at 0x0000029484AA02E8>
 ```
 
 **代码#2:英国随机变量和概率分布函数。**
 
-```
+```py
 import numpy as np
 quantile = np.arange (0.01, 1, 0.1)
 
@@ -53,7 +53,7 @@ print ("\nProbability Distribution : \n", R)
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [-0.73702502 -1.38273136  0.39618481 -0.48434091 -0.85635192 -0.36402882
  -0.21016273  0.53857078  0.96918022 -0.84314795]
@@ -66,7 +66,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -78,7 +78,7 @@ plot = plt.plot(distribution, rv.pdf(distribution))
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.01602853 0.03205707 0.0480856  0.06411414 0.08014267
  0.0961712  0.11219974 0.12822827 0.14425681 0.16028534 0.17631387
@@ -95,7 +95,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt
 import numpy as np
 

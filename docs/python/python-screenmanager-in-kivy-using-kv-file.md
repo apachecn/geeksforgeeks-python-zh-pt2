@@ -10,13 +10,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 屏幕管理器和屏幕类被导入。屏幕管理器将用于根，如:
 
-```
+```py
 from kivy.uix.screenmanager import ScreenManager, Screen
 ```
 
 **注意:**默认的 ScreenManager.transition 是一个带有方向和持续时间选项的 SlideTransition。
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -32,7 +32,7 @@ Basic Approach:
 
 **下面是 `.py`文件中带有`.kv`文件的代码的实现。**
 
-```
+```py
 # Program to Show how to create a switch 
 # import kivy module    
 import kivy  
@@ -169,11 +169,11 @@ sample_app.run()
 
 您可以通过更改屏幕管理器轻松切换过渡。过渡属性:
 
-```
+```py
 sm = ScreenManager(transition=FadeTransition())
 ```
 
-```
+```py
 # Program to Show how to create a switch 
 # import kivy module    
 import kivy  

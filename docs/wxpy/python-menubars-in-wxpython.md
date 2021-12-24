@@ -6,14 +6,14 @@
 
 > **菜单栏()构造函数的语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar(style=0)
 > 
 > ```
 > 
 > **Append()函数的语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.Append(self, menu, title)
 > 
 > ```
@@ -27,7 +27,7 @@
 
 **代码示例:**
 
-```
+```py
 # import wxPython 
 import wx
 

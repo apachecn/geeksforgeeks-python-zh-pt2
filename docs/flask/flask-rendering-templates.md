@@ -8,7 +8,7 @@ Flask 是一个基于 Python 编程语言的后端网络框架。它基本上允
 
 **设置虚拟环境:**要设置虚拟环境，可以利用 Python Package manager“pip”安装“virtualenv”包。
 
-```
+```py
 pip install virtualenv
 ```
 
@@ -16,7 +16,7 @@ pip install virtualenv
 
 **创建虚拟环境:**软件包安装完成后，我们需要在项目文件夹中创建一个虚拟环境。因此，您可以在想要创建 Flask 应用程序的位置找到一个空文件夹，或者在您想要的路径中创建一个空文件夹。要创建环境，我们只需使用以下命令。
 
-```
+```py
 virtualenv venv
 ```
 
@@ -28,13 +28,13 @@ virtualenv venv
 
 **对于窗户:**
 
-```
+```py
 venv\Scripts\activate
 ```
 
 **对于 Linux/macOS:**
 
-```
+```py
 source venv/bin/activate
 ```
 
@@ -48,7 +48,7 @@ source venv/bin/activate
 
 **安装 Flask:** 虚拟环境设置好之后，我们只需要用下面的命令就可以安装 Flask 了:
 
-```
+```py
 pip install flask
 ```
 
@@ -58,7 +58,7 @@ pip install flask
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask
 
 app = Flask(__name__)
@@ -73,13 +73,13 @@ if __name__ == "__main__":
 
 **对于窗户:**
 
-```
+```py
 set FLASK_APP=server
 ```
 
 **对于 Linux/macOS:**
 
-```
+```py
 export FLASK_APP=server
 ```
 
@@ -87,7 +87,7 @@ export FLASK_APP=server
 
 **要运行服务器，输入命令:**
 
-```
+```py
 flask run
 ```
 
@@ -103,7 +103,7 @@ flask run
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -126,7 +126,7 @@ flask run
 
 ## 计算机编程语言
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -157,7 +157,7 @@ def index():
 
 ## 计算机编程语言
 
-```
+```py
 @app.route("/<name>")
 def welcome(name):
     return render_template("welcome.html", name=name)
@@ -169,7 +169,7 @@ def welcome(name):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -199,7 +199,7 @@ def welcome(name):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -229,7 +229,7 @@ def welcome(name):
 
 ## 超文本标记语言
 
-```
+```py
 {% include 'index.html' %}
 
 <p> This is a home page</p>
@@ -241,7 +241,7 @@ def welcome(name):
 
 ## 计算机编程语言
 
-```
+```py
 @app.route("/home")
 def home():
     return render_template("home.html")
@@ -261,7 +261,7 @@ def home():
 
 ## 计算机编程语言
 
-```
+```py
 @app.route("/about")
 def about():
     sites=['twitter', 'facebook', 'instagram', 'whatsapp']
@@ -274,7 +274,7 @@ def about():
 
 ## 超文本标记语言
 
-```
+```py
 {% include 'index.html' %}
 
 <ul>
@@ -290,7 +290,7 @@ def about():
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -328,7 +328,7 @@ def about():
 
 ## 计算机编程语言
 
-```
+```py
 @app.route("/contact/<role>")
 def contact(role):
     return render_template("contact.html", person=role)
@@ -340,7 +340,7 @@ def contact(role):
 
 ## 超文本标记语言
 
-```
+```py
 {% include 'index.html' %}
 
 {% if person == "admin" %}

@@ -14,23 +14,23 @@ Django 是一个基于 Python 的网络框架，允许您快速创建高效的�
 
 安装 Django
 
-```
+```py
 pip install django
 ```
 
 然后安装另一个库来使用 mysql 数据库
 
-```
+```py
 pip install mysqlclient
 ```
 
 创建新项目
 
-```
+```py
 django-admin startproject MyDB
 ```
 
-```
+```py
 cd MyDB
 ```
 
@@ -38,7 +38,7 @@ cd MyDB
 
 ## 蟒蛇 3
 
-```
+```py
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
@@ -53,7 +53,7 @@ DATABASES = {
 
 在数据库变量中打开 settings.py 配置 mysql 数据库值，并添加数据库值。
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -61,7 +61,7 @@ python manage.py migrate
 
 然后创建新应用程序
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -69,7 +69,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -79,7 +79,7 @@ class PublishedArticle(models.Model):
     date = models.DateField(auto_now=True)
 ```
 
-```
+```py
 python manage.py migrate
 ```
 

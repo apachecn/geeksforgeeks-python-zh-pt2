@@ -7,7 +7,7 @@
 **方法#1:使用 max() +字典理解**
 以上功能的组合可用于执行此任务。在这种情况下，我们首先使用字典收集每个字符的频率，然后使用 max()来计算具有最多唯一字符的字符串。
 
-```
+```py
 # Python3 code to demonstrate 
 # String with most unique characters
 # using max() + dictionary comprehension
@@ -29,7 +29,7 @@ print ("The string with most unique characters is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeksc']
 The string with most unique characters is : geeksc
 

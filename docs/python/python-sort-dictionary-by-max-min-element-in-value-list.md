@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionary by max / min element in value list
 # Using sorted() + max() + dictionary comprehension + reverse + lambda
@@ -41,7 +41,7 @@ print("Reverse Sorted dictionary on basis of max values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 4], 'is': [10, 3], 'best': [8, 4], 'for': [7, 13], 'geeks': [15, 5]}
 Reverse Sorted dictionary on basis of max values : {'geeks': [15, 5], 'for': [7, 13], 'is': [10, 3], 'best': [8, 4], 'Gfg': [6, 4]}
 
@@ -53,7 +53,7 @@ Reverse Sorted dictionary on basis of max values : {'geeks': [15, 5], 'for': [7,
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionary by max / min element in value list
 # Using sorted() + min() + dictionary comprehension + reverse + lambda
@@ -76,7 +76,7 @@ print("Reverse Sorted dictionary on basis of min values : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 4], 'is': [10, 3], 'best': [8, 4], 'for': [7, 13], 'geeks': [15, 5]}
 Reverse Sorted dictionary on basis of min values : {'for': [7, 13], 'geeks': [15, 5], 'Gfg': [6, 4], 'best': [8, 4], 'is': [10, 3]}
 

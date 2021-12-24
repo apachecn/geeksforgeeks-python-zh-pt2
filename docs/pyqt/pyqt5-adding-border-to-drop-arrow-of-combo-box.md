@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须改变与组合框相关的样式表，下面是样式表代码
 
-```
+```py
 QComboBox::drop-arrow
 {
 border : 2px solid green;
@@ -19,7 +19,7 @@ border : 2px solid green;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```py
 Input: str = "geeks"
 Output: geeks is not a keyword
 
@@ -20,7 +20,7 @@ Output: for is a keyword
 
 我们总是可以在关键字模块中使用`kwlist` 方法得到当前 Python 版本的关键字列表。
 
-```
+```py
 # import keyword library
 import keyword
 
@@ -38,7 +38,7 @@ print(keyword_list)
 
 下面是检查给定字符串是否为关键字的 Python 代码:
 
-```
+```py
 # include keyword library in this program
 import keyword
 
@@ -68,7 +68,7 @@ if __name__ == "__main__" :
 
 **Output:**
 
-```
+```py
 No
 Yes
 

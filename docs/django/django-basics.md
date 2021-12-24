@@ -38,13 +38,13 @@ MVT 结构由以下三部分组成
 
 *   **安装 pip-** 打开命令提示符，输入以下命令-
 
-    ```
+    ```py
     python -m pip install -U pip
     ```
 
 *   **安装虚拟环境-** 在 cmd 中输入以下命令-
 
-    ```
+    ```py
     pip install virtualenv
     ```
 
@@ -52,29 +52,29 @@ MVT 结构由以下三部分组成
     按照以下步骤设置虚拟环境-
     1.  通过在 cmd 中给出以下命令来创建虚拟环境-
 
-        ```
+        ```py
         virtualenv env_site
         ```
 
     2.  通过此命令将目录更改为 env _ site-
 
-        ```
+        ```py
         cd env_site
         ```
 
     3.  转到 env_site 内的脚本目录，激活虚拟环境-
 
-        ```
+        ```py
         cd Script
         ```
 
-        ```
+        ```py
         activate
         ```
 
 *   **Install Django-** Install django by giving following command-
 
-    ```
+    ```py
     pip install django
     ```
 
@@ -86,19 +86,19 @@ MVT 结构由以下三部分组成
 
     *   要在您的电脑上启动姜戈项目，打开终端并输入以下命令
 
-        ```
+        ```py
         django-admin startproject projectName
         ```
 
     *   A New Folder with name projectName will be created. To enter in the project using terminal enter command
 
-        ```
+        ```py
         cd projectName
         ```
 
         现在快跑，
 
-        ```
+        ```py
         Python manage.py runserver
         ```
 
@@ -111,7 +111,7 @@ MVT 结构由以下三部分组成
 
         *   To create a basic app in your Django project you need to go to directory containing `manage.py` and from there enter the command :
 
-            ```
+            ```py
             python manage.py startapp projectApp
             ```
 
@@ -123,13 +123,13 @@ MVT 结构由以下三部分组成
         *   So, we have finally created an app but to render the app using urls we need to include the app in our main project so that urls redirected to that app can be rendered. Let us explore it.
             Move to `projectName-> projectName -> urls.py` and add below code in the header
 
-            ```
+            ```py
             from django.urls import include 
             ```
 
             现在，在网址模式列表中，您需要指定应用名称来包含您的应用网址。这是它的代码
 
-            ```
+            ```py
             from django.contrib import admin
             from django.urls import path, include
 

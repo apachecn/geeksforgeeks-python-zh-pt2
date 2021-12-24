@@ -12,7 +12,7 @@ models.py
 
 运行以下命令–
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 ```
@@ -31,18 +31,18 @@ Python manage.py migrate
 
 默认情况下，管理员将按照模型中定义的顺序在详细视图中显示字段。但是我们可以通过对 admin.py 文件进行一些编辑来改变这一点，而无需转到 models.py 并更改不同字段的顺序。
 
-```
+```py
 <u>Movie model:</u>
 title
 length
 release_year
 ```
 
-```
+```py
 title=['release_year', 'title', 'length']
 ```
 
-```
+```py
 <u>Movie_Model:</u>
 release_year
 title
@@ -53,7 +53,7 @@ length
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from .models import Movie, Customer
 
@@ -72,13 +72,13 @@ admin.site.register(Customer)
 
 目前，我们的模型中只有几个条目，但是如果条目由于用户数量增加而增加到数百或数千呢？如果我们通过查看每个条目来获取特定条目的数据，这将变得乏味。因此，我们需要添加一个搜索栏或一个过滤器功能，以允许条目被轻松访问。
 
-```
+```py
 Search by the following elements:
 search_fields = ['title', 'length', 'release_year']
 search_fields = ['first_name', 'last_name', 'phone']
 ```
 
-```
+```py
 Filter by the following elements:
 list_filter = ['release_year']
 list_filter = ['last_name']
@@ -88,7 +88,7 @@ list_filter = ['last_name']
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from .models import Movie, Customer
 
@@ -120,7 +120,7 @@ admin.site.register(Customer, CustomerAdmin)
 
 在管理界面中，我们通常在列表视图中只看到模型的一个字段。我们可以使用 list_display 添加更多字段来查看。
 
-```
+```py
 list_display=['title', 'release_year']
 list_display=['first_name', 'last_name', 'phone']
 ```
@@ -129,7 +129,7 @@ list_display=['first_name', 'last_name', 'phone']
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from .models import Movie, Customer
 
@@ -155,7 +155,7 @@ admin.site.register(Customer, CustomerAdmin)
 
 您可以添加直接从列表视图编辑属性值的功能，而不是转到详细视图
 
-```
+```py
 editable_list = ['phone']
 ```
 
@@ -163,7 +163,7 @@ editable_list = ['phone']
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from .models import Movie, Customer
 
@@ -190,7 +190,7 @@ admin.site.register(Customer, CustomerAdmin)
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "admin/base.html" %}
 
 {% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %}
@@ -208,7 +208,7 @@ admin.site.register(Customer, CustomerAdmin)
 
 这里，由于添加了 html 文件，管理界面中的标题发生了变化。有时模板不会应用于界面，为了避免这种情况，请确保在 settings.py 文件中进行了正确的模板配置。
 
-```
+```py
 import os
 
 TEMPLATES=[

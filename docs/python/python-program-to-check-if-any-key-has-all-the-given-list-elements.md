@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract values of Particular Key in
 # Nested Values Using list comprehension
@@ -66,7 +66,7 @@ print("Is any value list superset ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract values of Particular Key in
 # Nested Values Using any() + issuperset()

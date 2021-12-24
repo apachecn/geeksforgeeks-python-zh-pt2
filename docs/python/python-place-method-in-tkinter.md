@@ -9,7 +9,7 @@
 
 **语法:**
 
-```
+```py
 widget.place(relx = 0.5, rely = 0.5, anchor = CENTER)
 
 ```
@@ -18,7 +18,7 @@ widget.place(relx = 0.5, rely = 0.5, anchor = CENTER)
 
 **代码#1:**
 
-```
+```py
 # Importing tkinter module
 from tkinter import * from tkinter.ttk import *
 
@@ -54,7 +54,7 @@ mainloop()
 
 **代码#2:**
 
-```
+```py
 # Importing tkinter module
 from tkinter import * from tkinter.ttk import *
 

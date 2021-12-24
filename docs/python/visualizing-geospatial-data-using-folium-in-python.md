@@ -12,7 +12,7 @@ leaf 是 Python 中一个强大的数据可视化库，主要是为了帮助人�
 
 如果未安装 leaf，只需使用以下任一命令即可安装:
 
-```
+```py
 $ pip install folium
 
 OR
@@ -34,7 +34,7 @@ $ conda install -c conda-forge folium
 
 ## 蟒蛇 3
 
-```
+```py
 # import the folium, pandas libraries
 import folium
 import pandas as pd
@@ -57,7 +57,7 @@ m.save('my_map.html')
 
 ## 蟒蛇 3
 
-```
+```py
 # getting the data
 url = (
     "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data"
@@ -90,7 +90,7 @@ state_data = pd.read_csv(state_unemployment)
 
 ## 蟒蛇 3
 
-```
+```py
 folium.Choropleth(
 
       # geographical locations

@@ -16,7 +16,7 @@ T3】imageops . grade()将图像转换为灰度。整个像素变成灰色，看
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image and ImageOps module from PIL package
 from PIL import Image, ImageOps
 

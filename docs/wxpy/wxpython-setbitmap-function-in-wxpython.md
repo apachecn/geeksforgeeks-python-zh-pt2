@@ -8,7 +8,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.SetBitmap
 > 
 > ```
@@ -22,7 +22,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def reverStringsInLine(s):
 
     sl = s.split(' ')
@@ -54,6 +54,6 @@ print(reverStringsInLine(s))
 
 **输出:**
 
-```
+```py
 erolagnaB si@#$!dekcol321 dekcol niaga ni 0202luj 
 ```

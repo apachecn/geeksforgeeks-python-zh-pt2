@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 left= 10, right = 17, list = [[0, 1.2, 3.4, 18.1, 10.1],
                               [10.3, 12.4, 15, 17, 16, 11],
@@ -24,7 +24,7 @@ Output: [[2, 4, 6, 7.2, 8.9]]
 
 **方法#1 :** 遍历每个子列表。
 
-```
+```py
 # Python code to remove all the 
 # sublist outside the given range
 
@@ -54,14 +54,14 @@ print(list)
 
 **Output:**
 
-```
+```py
 [[10.3, 12.4, 15, 17, 16, 11]]
 
 ```
 
 **方法 2:** 使用列表理解
 
-```
+```py
 # Python code to remove all the 
 # sublist outside the given range
 
@@ -83,7 +83,7 @@ print (Output)
 
 **Output:**
 
-```
+```py
 [[2, 4, 6, 7.2, 8.9]]
 
 ```

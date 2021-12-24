@@ -6,7 +6,7 @@
 
 **代码#1:配置文件**
 
-```
+```py
 abc.ini
 
 ; Sample configuration file
@@ -30,7 +30,7 @@ signature:
 
 **代码#2:读取文件并提取值。**
 
-```
+```py
 from configparser import ConfigParser
 
 configur = ConfigParser()
@@ -46,7 +46,7 @@ print ("Worker Server : ", configur.getint('server','nworkers'))
 
 **输出:**
 
-```
+```py
 ['config.ini']
 Sections : ['installation', 'debug', 'server']
 Installation Library : '/usr/local/lib'
@@ -60,7 +60,7 @@ Worker Server : 32
 
 **代码#3 :**
 
-```
+```py
 configur.set('server','port','9000')
 configur.set('debug','log_errors','False')
 
@@ -70,7 +70,7 @@ configur.write(sys.stdout)
 
 **输出:**
 
-```
+```py
 [installation]
 library = %(prefix)s/lib
 include = %(prefix)s/include
@@ -95,7 +95,7 @@ root = /www/root
 
 配置文件中使用的名称也不区分大小写，如下面的代码所示–
 
-```
+```py
 configur.get('installation','PREFIX')
 
 configur.get('installation','prefix')
@@ -103,14 +103,14 @@ configur.get('installation','prefix')
 
 **输出:**
 
-```
+```py
 '/usr/local'
 '/usr/local'
 ```
 
 解析值时，像 getboolean()这样的方法会寻找任何合理的值。例如，这些都是等价的。
 
-```
+```py
 log_errors = true
 log_errors = TRUE
 log_errors = Yes
@@ -119,7 +119,7 @@ log_errors = 1
 
 配置记录和 Python 代码之间最值得注意的对比是，与脚本相反，配置文件不是以自上而下的方式执行的。相反，文件被完全读取。变量替换极有可能在事后进行。例如，前缀变量被分配在碰巧使用它的不同变量之后并没有什么区别。
 
-```
+```py
 [installation]
 library = %(prefix)s/lib
 include = %(prefix)s/include
@@ -131,7 +131,7 @@ prefix = /usr/local
 
 示例–用户创建了自己的配置文件，看起来像。
 
-```
+```py
 ; ~/.config.ini
 [installation]
 prefix = /Users/beazley/test
@@ -143,7 +143,7 @@ log_errors = False
 
 **代码#4 :**
 
-```
+```py
 import os
 
 # Previously read configuration
@@ -159,7 +159,7 @@ print (configur.getboolean('debug', 'log_errors'))
 
 **输出:**
 
-```
+```py
 '/usr/local' 
 ['/Users/HP/.config.ini']
 '/Users/HP/test'

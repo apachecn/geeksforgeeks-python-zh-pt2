@@ -8,7 +8,7 @@
 
  **方法#1:使用***ast***T6】**
 
-```
+```py
 # Python code to merge all strings into a single list.
 
 # Importing
@@ -32,14 +32,14 @@ print(list)
 
 **Output:**
 
-```
+```py
 ['Geeks', 'for', 'Geeks', 'paras.j', 'jain.l', 'i', 'n', 'd', 'i', 'a']
 
 ```
 
  **方法 2:使用 ***eval*****
 
-```
+```py
 # Python code to merge all strings into a single list.
 
 # Initialization of strings
@@ -57,12 +57,12 @@ print(out)
 
 **Output:**
 
-```
+```py
 ['Geeks', 'for', 'Geeks', 'paras.j', 'jain.l', 'india']
 
 ```
 
-```
+```py
 # Python code to merge all strings into a single list.
 
 # Initialization of strings
@@ -80,7 +80,7 @@ print(list(out))
 
 **Output:**
 
-```
+```py
 ['Geeks', 'for', 'Geeks121', '142extend', 'India']
 
 ```

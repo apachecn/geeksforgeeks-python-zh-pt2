@@ -12,7 +12,7 @@ Python 被广泛用于分析数据，但是数据不一定总是需要的格式�
 
 **所需安装:**
 
-```
+```py
 pip3 install PIL
 pip3 install pytesseract
 pip3 install pdf2image
@@ -30,7 +30,7 @@ PDF 第 n 页- >第 _n.jpg 页
 
 **第 2 部分**处理从图像文件中识别文本并将其存储到文本文件中。这里，我们处理图像并将其转换为文本。一旦我们将文本作为字符串变量，我们就可以对文本进行任何处理。例如，在许多 pdf 中，当一行完成，但某个特定的单词不能完全写在同一行中时，会添加一个连字符(“-”)，该单词会在下一行继续。例如–
 
-```
+```py
 This is some sample text but this parti-
 
 cular word could not be written in the same line.
@@ -42,7 +42,7 @@ cular word could not be written in the same line.
 
 下面是实现:
 
-```
+```py
 # Import libraries
 from PIL import Image
 import pytesseract

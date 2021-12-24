@@ -14,7 +14,7 @@ ProgressBar 小部件用于可视化某些任务的进度。目前仅支持水�
 
 ## 蟒蛇 3
 
-```
+```py
 from kivy.uix.progressbar import ProgressBar
 pb = ProgressBar(max = 1000)
 
@@ -29,7 +29,7 @@ pb.value = 750
 1) **最大值:**值允许的最大值。它是一个数字属性，默认为 100。
 2) **值:**滑块的当前值
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -49,7 +49,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to Show how to create a Progressbar in .kv file
 
 # import kivy module   

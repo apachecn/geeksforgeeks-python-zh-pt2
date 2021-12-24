@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain records with N occurrences of K
 # Using count() + list comprehension
@@ -41,7 +41,7 @@ print("Filtered tuples : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5, 6, 4, 4), (4, 4, 3), (4, 4, 4), (3, 4, 9)]
 Filtered tuples : [(4, 5, 6, 4, 4), (4, 4, 4)]
 ```
@@ -51,7 +51,7 @@ Filtered tuples : [(4, 5, 6, 4, 4), (4, 4, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain records with N occurrences of K
 # Using list comprehension + sum()
@@ -78,7 +78,7 @@ print("Filtered tuples : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(4, 5, 6, 4, 4), (4, 4, 3), (4, 4, 4), (3, 4, 9)]
 Filtered tuples : [(4, 5, 6, 4, 4), (4, 4, 4)]
 ```

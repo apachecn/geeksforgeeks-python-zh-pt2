@@ -56,7 +56,7 @@ Python 的**烧瓶-角斗士**是一个提供以下功能的模块:
 
 ## 蟒蛇 3
 
-```
+```py
 import gladiator as gl
 
 # input test data
@@ -93,7 +93,7 @@ print("Is data valid ? : " + str(bool(result)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Using regex, gt and length validators
 import gladiator as gl
 

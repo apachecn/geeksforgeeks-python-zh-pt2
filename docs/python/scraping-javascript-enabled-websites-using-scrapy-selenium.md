@@ -15,7 +15,7 @@ Scrapy-selenium 是一个用于网页抓取的中间件。scrapy 不支持抓取
         ![](img/2a16ccae08f8bd2e1d77dad56ea8520b.png)
     *   **要运行的项目:**
 
-        ```
+        ```py
         command- scrapy crawl spidername (scrapy crawl integratedspider in this project)
 
         ```
@@ -30,7 +30,7 @@ Scrapy-selenium 是一个用于网页抓取的中间件。scrapy 不支持抓取
     *   **wait _ time-**Scrapy 不会在请求之间等待固定的时间。但是通过这个字段，我们可以在回调时分配它。
 *   **刮痧硒蜘蛛的一般结构:**
 
-    ```
+    ```py
     import scrapy
     from scrapy_selenium import SeleniumRequest
 
@@ -57,7 +57,7 @@ Scrapy-selenium 是一个用于网页抓取的中间件。scrapy 不支持抓取
 
     **从极客们中删除课程数据的代码–**
 
-    ```
+    ```py
     import scrapy
     from scrapy_selenium import SeleniumRequest
 
@@ -100,13 +100,13 @@ Scrapy-selenium 是一个用于网页抓取的中间件。scrapy 不支持抓取
 *   报废安装
 *   运行
 
-    ```
+    ```py
     scrapy startproject projectname  (projectname is name of project)
     ```
 
 *   Now, let’s Run,
 
-    ```
+    ```py
     scrapy genspider spidername example.com
     ```
 

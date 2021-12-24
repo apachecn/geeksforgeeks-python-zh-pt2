@@ -6,13 +6,13 @@
 
 Paginator 类位于 django/core/paginator.py。所以要使用分页器类，我们首先需要从 **django.core.paginator** 导入
 
-```
+```py
 from django.core.paginator import Paginator
 ```
 
 **语法:**
 
-```
+```py
 p = Paginator(list_of_objects, no_of_objects_per_page)
 ```
 
@@ -31,7 +31,7 @@ p = Paginator(list_of_objects, no_of_objects_per_page)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .models import Post
 from django.core.paginator import Paginator
@@ -61,7 +61,7 @@ def index(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -132,7 +132,7 @@ def index(request):
 
 **语法**:
 
-```
+```py
 page = Page( object_list , number, paginator)
 ```
 

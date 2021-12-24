@@ -20,7 +20,7 @@ Django REST 框架是默认 Django 框架的包装器，主要用于创建各种
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -39,7 +39,7 @@ INSTALLED_APPS = [
 现在，让我们使用命令
 创建一个应用程序
 
-```
+```py
 python manage.py startapp apis
 ```
 
@@ -48,7 +48,7 @@ python manage.py startapp apis
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -68,7 +68,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 # include necessary libraries
 from django.urls import path, include
@@ -86,7 +86,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class GeeksModel(models.Model):
@@ -105,7 +105,7 @@ class GeeksModel(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -126,7 +126,7 @@ class GeeksSerializer(serializers.HyperlinkedModelSerializer):
 
 ## 蟒蛇 3
 
-```
+```py
 # import viewsets
 from rest_framework import viewsets
 
@@ -149,7 +149,7 @@ class GeeksViewSet(viewsets.ModelViewSet):
 
 ## 蟒蛇 3
 
-```
+```py
 # basic URL Configurations
 from django.urls import include, path
 # import routers
@@ -177,7 +177,7 @@ urlpatterns = [
 
 运行以下命令创建数据库，并运行服务器，
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver

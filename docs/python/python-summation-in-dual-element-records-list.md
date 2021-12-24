@@ -7,7 +7,7 @@
 **方法一:利用列表理解**
 这是解决这个问题的方法之一。在这种情况下，我们对列表中的二元组进行求和，并在理解的列表中进行迭代。
 
-```
+```py
 # Python3 code to demonstrate 
 # Summation in Dual element Records List
 # using list comprehension
@@ -28,7 +28,7 @@ print ("Summation pairs in tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(6, 7), (2, 4), (8, 9), (6, 2)]
 Summation pairs in tuple list : [13, 6, 17, 8]
 

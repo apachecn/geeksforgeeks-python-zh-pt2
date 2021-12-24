@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 llist = ['first', 'second', 'third']
 print(llist)
 
@@ -59,7 +59,7 @@ print()
 
 ## 蟒蛇 3
 
-```
+```py
 stack = ['first', 'second', 'third']
 print(stack)
 
@@ -101,7 +101,7 @@ print(stack)
 
 ## 蟒蛇 3
 
-```
+```py
 queue = ['first', 'second', 'third']
 print(queue)
 
@@ -148,7 +148,7 @@ print(queue)
 
 ## 蟒蛇 3
 
-```
+```py
 class node:
     def __init__(self, ele):
         self.ele = ele
@@ -185,7 +185,7 @@ A [图](https://www.geeksforgeeks.org/graph-data-structure-and-algorithms/)是�
 
 ## 蟒蛇 3
 
-```
+```py
 class adjnode:
     def __init__(self, val):
         self.val = val
@@ -247,7 +247,7 @@ g.__repr__()
 
 ## 蟒蛇 3
 
-```
+```py
 def printdict(d):
     for key in d:
         print(key, "->", d[key])

@@ -41,7 +41,7 @@
 
 3.  Now the most important and the best part, *writing the code*. Delete the entire boilerplate code and paste the following code
 
-    ```
+    ```py
     import gspread
     from oauth2client.service_account import ServiceAccountCredentials
     from datetime import datetime

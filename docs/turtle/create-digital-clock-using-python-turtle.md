@@ -6,7 +6,7 @@
 [**海龟**](https://www.geeksforgeeks.org/turtle-programming-python/) 是 Python 的一个特色。使用海龟，我们可以很容易地在画板上画画。首先，我们导入海龟模块。然后创建一个窗口，接下来我们创建一个海龟对象，并使用海龟方法，我们可以在画板中绘制。
 **安装:**要安装该模块，请在终端中键入以下命令。
 
-```
+```py
 pip install turtle
 ```
 
@@ -16,7 +16,7 @@ pip install turtle
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 import datetime as dt
 import turtle

@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -37,7 +37,7 @@ print(tag)
 
 **输出:**
 
-```
+```py
 <h2> Heading 1 </h2>
 
 ```
@@ -46,7 +46,7 @@ print(tag)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -70,7 +70,7 @@ print(attribute)
 
 **输出:**
 
-```
+```py
 {'class': ['hello']}
 
 ```

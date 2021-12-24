@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [1, 2, 3]
         list2 = ['a', 'b', 'c']
 Output : [(1, 'a'), (2, 'b'), (3, 'c')]
@@ -20,7 +20,7 @@ Output : [(1, 1), (2, 4), (3, 9), (4, '')]
 **方法#1 :** 天真
 使用 for 循环将两个列表合并成一个元组列表。但是缺点是两个列表需要有相同的长度。
 
-```
+```py
 def merge(list1, list2):
 
     merged_list = [(list1[i], list2[i]) for i in range(0, len(list1))]
@@ -34,7 +34,7 @@ print(merge(list1, list2))
 
 **Output:**
 
-```
+```py
 [(1, 'a'), (2, 'b'), (3, 'c')]
 
 ```
@@ -42,7 +42,7 @@ print(merge(list1, list2))
 **方法#2 :** 简单但更有效的
 这种方法消除了上面给出的缺点，在两个列表长度不均匀的情况下也能很好地工作。它还为索引错误提供了尝试捕获错误。
 
-```
+```py
 def merge(list1, list2):
 
     merged_list = []
@@ -72,7 +72,7 @@ print(merge(list1, list2))
 
 **Output:**
 
-```
+```py
 [(1, 'a'), (2, 'b'), (3, 'c')]
 
 ```
@@ -80,7 +80,7 @@ print(merge(list1, list2))
 **方法#3 :** 使用`zip()`
 使用 zip()方法合并两个列表元素，然后类型转换为元组。
 
-```
+```py
 def merge(list1, list2):
 
     merged_list = tuple(zip(list1, list2)) 
@@ -94,7 +94,7 @@ print(merge(list1, list2))
 
 **Output:**
 
-```
+```py
 ((1, 'a'), (2, 'b'), (3, 'c'))
 
 ```
@@ -103,7 +103,7 @@ print(merge(list1, list2))
 
 此方法使用两个 for 循环来枚举列表并合并这两个列表。
 
-```
+```py
 def merge(list1, list2):
 
     merged_list = [(p1, p2) for idx1, p1 in enumerate(list1) 
@@ -118,14 +118,14 @@ print(merge(list1, list2))
 
 **Output:**
 
-```
+```py
 [(1, 'a'), (2, 'b'), (3, 'c')]
 
 ```
 
 **使用`map()`和`lambda`接近#5:** 。
 
-```
+```py
 # Using map() and lambda
 def listOfTuples(l1, l2):
     return list(map(lambda x, y:(x,y), l1, l2))
@@ -139,7 +139,7 @@ print(listOfTuples(list1, list2))
 
 **Output:**
 
-```
+```py
 [(1, 'a'), (2, 'b'), (3, 'c')]
 
 ```

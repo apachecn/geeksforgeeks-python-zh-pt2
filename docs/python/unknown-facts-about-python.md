@@ -13,14 +13,14 @@ Python 是一种广泛使用的通用高级编程语言。它主要是为了强�
 7.  ****The Zen of Python
     Tim Peters, a major contributor to the Python community, wrote `this` poem to highlight the philosophies of Python which can be read by just writing import this in the interpreter.
 
-    ```
+    ```py
     # Try to guess the result before you actually run it 
     import this 
     ```
 
     输出:
 
-    ```
+    ```py
     The Zen of Python, by Tim Peters
 
     Beautiful is better than ugly.

@@ -7,7 +7,7 @@
 **方法#1:使用*运算符+ len()**
 这是我们可以执行此任务的方式之一。在这种情况下，我们计算重复字符串的长度，然后划分列表以获得根，并使用*运算符构建新的列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Split by repeating substring
 # Using * operator + len()
@@ -32,7 +32,7 @@ print("The split string is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfggfggfggfggfggfggfggfg
 The split string is : ['gfg', 'gfg', 'gfg', 'gfg', 'gfg', 'gfg', 'gfg', 'gfg']
 

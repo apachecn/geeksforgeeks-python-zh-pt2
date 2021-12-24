@@ -5,7 +5,7 @@
 给定 Python 中的一个列表并提供元素的位置，编写一个程序来交换列表中的两个元素。
 **例:**
 
-```
+```py
 Input : List = [23, 65, 19, 90], pos1 = 1, pos2 = 3
 Output : [19, 65, 23, 90]
 
@@ -18,7 +18,7 @@ Output : [1, 5, 3, 4, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap elements
 # at given positions
 
@@ -37,7 +37,7 @@ print(swapPositions(List, pos1-1, pos2-1))
 
 **输出:**
 
-```
+```py
 [19, 65, 23, 90]
 ```
 
@@ -46,7 +46,7 @@ print(swapPositions(List, pos1-1, pos2-1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap elements
 # at given positions
 
@@ -72,7 +72,7 @@ print(swapPositions(List, pos1-1, pos2-1))
 
 **输出:**
 
-```
+```py
 [19, 65, 23, 90]
 ```
 
@@ -81,7 +81,7 @@ print(swapPositions(List, pos1-1, pos2-1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to swap elements at
 # given positions
 
@@ -106,6 +106,6 @@ print(swapPositions(List, pos1-1, pos2-1))
 
 **输出:**
 
-```
+```py
 [19, 65, 23, 90]
 ```

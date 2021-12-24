@@ -12,7 +12,7 @@ Scrapy 是一个用 Python 框架构建的开源工具。它为我们提供了�
 
 使用这些命令启动剪贴簿模板文件夹。
 
-```
+```py
 scrapy startproject <project_name>
 ```
 
@@ -40,13 +40,13 @@ settings.py 文件看起来像这样。我们将此作为默认设置。
 
 浏览器的常见格式:
 
-```
+```py
 User-Agent: <browser>/<version> (<system-info>) <platform> (<platform-details>) <extensions>
 ```
 
 例如:
 
-```
+```py
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)'
 ```
@@ -69,7 +69,7 @@ robots.txt 文件基本上告诉搜索引擎的爬虫它可以从网站请求哪
 
 这意味着在丢弃数据的同时，每次响应最多可以并行处理多少个并发项目。它默认为 100，这也是一个很好的值。
 
-```
+```py
 custom_settings = {
    'CONCURRENT_REQUESTS' = 30,
    'CONCURRENT_ITEMS' = 80,
@@ -84,7 +84,7 @@ custom_settings = {
 
 这意味着在废弃数据的同时，对于任何单个 IP 地址，可以并发执行的现有请求的最大数量是多少。它默认为值“0”。
 
-```
+```py
 custom_settings = {
     'CONCURRENT_REQUESTS_PER_DOMAIN' = 8,
     'CONCURRENT_REQUESTS_PER_IP' = 2
@@ -97,7 +97,7 @@ custom_settings = {
 
 例如:
 
-```
+```py
 DOWNLOAD_DELAY = 0.25    # 250 ms of delay
 ```
 
@@ -127,7 +127,7 @@ DOWNLOAD_DELAY = 0.25    # 250 ms of delay
 
 默认标题值由下式给出:
 
-```
+```py
 {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
     'Accept-Language': 'en',
@@ -140,7 +140,7 @@ DOWNLOAD_DELAY = 0.25    # 250 ms of delay
 
 例如，这些设置可以像下面的 Python 代码一样在代码中应用:
 
-```
+```py
 class exampleSpider(scrapy.Spider):
   name = 'example'
   custom_settings = {
@@ -238,7 +238,7 @@ class exampleSpider(scrapy.Spider):
 
 如果您想生成一个报废的日志文件，请使用以下命令。
 
-```
+```py
 scrapy crawl myspider -s LOG_FILE=scrapy.log
 ```
 

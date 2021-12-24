@@ -28,7 +28,7 @@
 
 **类定义语法:**
 
-```
+```py
 class ClassName:
    # Statement-1
    .
@@ -41,7 +41,7 @@ class ClassName:
 
 ## 计算机编程语言
 
-```
+```py
 # Python3 program to
 # demonstrate defining
 # a class
@@ -72,7 +72,7 @@ class Dog:
 
 ## 蟒蛇 3
 
-```
+```py
 obj = Dog()
 ```
 
@@ -98,7 +98,7 @@ obj = Dog()
 
 ## 蟒蛇 3
 
-```
+```py
 class Dog:
 
     # class attribute
@@ -124,7 +124,7 @@ print("My name is {}".format(Tommy.name))
 
 **Output**
 
-```
+```py
 Rodger is a mammal
 Tommy is also a mammal
 My name is Rodger
@@ -136,7 +136,7 @@ My name is Tommy
 
 ## 蟒蛇 3
 
-```
+```py
 class Dog:
 
     # class attribute
@@ -161,7 +161,7 @@ Tommy.speak()
 
 **Output**
 
-```
+```py
 My name is Rodger
 My name is Tommy
 
@@ -181,7 +181,7 @@ My name is Tommy
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate how parent constructors
 # are called.
 
@@ -226,7 +226,7 @@ a.details()
 
 **Output**
 
-```
+```py
 Rahul
 886012
 My name is Rahul
@@ -246,7 +246,7 @@ Post: Intern
 
 ## 蟒蛇 3
 
-```
+```py
 class Bird:
 
     def intro(self):
@@ -281,7 +281,7 @@ obj_ost.flight()
 
 **Output**
 
-```
+```py
 There are many types of birds.
 Most of the birds can fly but some cannot.
 There are many types of birds.
@@ -305,7 +305,7 @@ Ostriches cannot fly.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate private members
 
@@ -340,7 +340,7 @@ print(obj1.a)
 
 **Output**
 
-```
+```py
 GeeksforGeeks
 ```
 

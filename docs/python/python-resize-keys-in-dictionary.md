@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Resize Keys in dictionary
 # Using slicing + loop
@@ -54,7 +54,7 @@ print("The required result : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Resize Keys in dictionary
 # Using dictionary comprehension + slicing

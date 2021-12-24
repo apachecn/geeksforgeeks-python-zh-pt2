@@ -10,13 +10,13 @@
 
 首先创建一个虚拟环境，以便使用该命令进行第一次安装 **virtualenv**
 
-```
+```py
 pip install virtualenv
 ```
 
 然后我们将使用创建一个名为 **gfg** 的 virtualenv
 
-```
+```py
 virtualenv gfg
 ```
 
@@ -26,25 +26,25 @@ virtualenv gfg
 
 现在我们将在这里安装 Django，所以我使用的是 Django 2.2
 
-```
+```py
 pip install django==2.2.*
 ```
 
 要让 Python 使用 Postgres，您需要安装“psycopg2”模块。
 
-```
+```py
 pip install psycopg2
 ```
 
 现在让我们创建一个名为**极客**的 django 项目
 
-```
+```py
 django-admin startproject geeks
 ```
 
 检查你的 django 是否运行顺利
 
-```
+```py
 python manage.py runserver
 ```
 
@@ -60,7 +60,7 @@ python manage.py runserver
 
 现在用这个模板代码更改数据库设置
 
-```
+```py
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
@@ -75,7 +75,7 @@ DATABASES = {
 
 运行这些命令
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -84,7 +84,7 @@ python manage.py migrate
 
 现在让我们创建默认超级用户:
 
-```
+```py
  python manage.py createsuperuser
 ```
 
@@ -92,13 +92,13 @@ python manage.py migrate
 
 现在再次运行您的服务器
 
-```
+```py
 python manage.py runserver
 ```
 
 转到此路径并添加您在创建超级用户时所做的凭据
 
-```
+```py
 http://127.0.0.1:8000/admin/
 ```
 

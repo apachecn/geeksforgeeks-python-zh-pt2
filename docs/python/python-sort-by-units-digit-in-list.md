@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Units Digit in List
 # Using sort() + str()
@@ -45,7 +45,7 @@ print("The unit sorted list : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [76, 434, 23, 22342]
 The unit sorted list : [22342, 23, 434, 76]
 
@@ -57,7 +57,7 @@ The unit sorted list : [22342, 23, 434, 76]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Units Digit in List
 # Using sorted() + lambda + str()
@@ -77,7 +77,7 @@ print("The unit sorted list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [76, 434, 23, 22342]
 The unit sorted list : [22342, 23, 434, 76] 
 

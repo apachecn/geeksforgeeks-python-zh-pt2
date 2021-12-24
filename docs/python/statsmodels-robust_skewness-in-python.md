@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以看到，通过使用`statsmodels.robust_skewness()`方法，我们能够使用该方法获得四个偏斜度度量的值。
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import robust_skewness
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import robust_skewness

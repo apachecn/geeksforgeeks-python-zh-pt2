@@ -13,7 +13,7 @@
 **方法#1:使用列表理解(对于单个嵌套)**
 这是可以执行该任务的方式之一。我们迭代每个内部列表，并将每个元素转换为单独的元组。这只适合单一的筑巢。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested List to 1 value Tuple
 # Using list comprehension
@@ -34,7 +34,7 @@ print("The converted container : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6], [4, 7, 10], [12], [9, 11]]
 The converted container : [(5, ), (6, ), (4, ), (7, ), (10, ), (12, ), (9, ), (11, )]
 
@@ -43,7 +43,7 @@ The converted container : [(5, ), (6, ), (4, ), (7, ), (10, ), (12, ), (9, ), (1
 **方法 2:使用`isinstance()` +递归**
 以上函数的组合可以解决这个问题。在本文中，我们使用 isinstance()和递归来执行展平和转换任务，以适应随机嵌套的情况。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Convert Nested List to 1 value Tuple
 # Using isinstance() + recursion
@@ -74,7 +74,7 @@ print("The converted container : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[5, [6]], [4, 7, [10, 45]], [12], [9, 11]]
 The converted container : [(5, ), (6, ), (4, ), (7, ), (10, ), (45, ), (12, ), (9, ), (11, )]
 

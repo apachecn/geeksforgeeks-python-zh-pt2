@@ -6,7 +6,7 @@
 
 **示例 1 :** 显示 scrolledText 小部件的 Python 代码。
 
-```
+```py
 # Python program demonstrating
 # ScrolledText widget in tkinter
 
@@ -47,7 +47,7 @@ win.mainloop()
 
 **示例 2 :** 将 tkinter 文本设为只读的 ScrolledText 小部件。
 
-```
+```py
 # Importing required modules
 
 import tkinter as tk

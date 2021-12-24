@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : 100klh564abc365bg
 Output : 564
 Maximum numeric value among 100, 564 
@@ -22,7 +22,7 @@ Output : 0
 1.  Use the [re. find all (expression, string)](https://www.geeksforgeeks.org/regular-expressions-python-set-1-search-match-find/) method to find a list of all integers separated by lowercase characters in the string.
 2.  Convert each number in the form of a string into a decimal number, and then find its maximum value.
 
-```
+```py
 # Function to extract maximum numeric value from 
 # a given string
 import re
@@ -52,7 +52,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 564
 
 ```

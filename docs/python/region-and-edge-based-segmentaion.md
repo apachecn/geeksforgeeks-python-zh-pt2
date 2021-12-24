@@ -89,7 +89,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import matplotlib.pyplot as plt

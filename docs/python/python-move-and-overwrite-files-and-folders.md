@@ -24,7 +24,7 @@
 
 ****文件夹层次结构:****
 
-```
+```py
 **Desktop
      |_folder_
               |_Geeks folder
@@ -33,7 +33,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing os module
 import os
 
@@ -85,7 +85,7 @@ print("Destination path:", dest)**
 
 ****文件夹层次结构:****
 
-```
+```py
 **Desktop
      |_folder_
               |_Geeks folder_test folder_gfg.txt
@@ -94,7 +94,7 @@ print("Destination path:", dest)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing os module
 import os
 

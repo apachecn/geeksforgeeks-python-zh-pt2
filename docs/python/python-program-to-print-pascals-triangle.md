@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: N = 5
 Output:
       1
@@ -20,7 +20,7 @@ Output:
 
 使用 nCr 公式后，图示变为:
 
-```
+```py
           0C0
        1C0   1C1
     2C0   2C1   2C2
@@ -43,7 +43,7 @@ Output:
 
 ## 蟒 3
 
-```
+```py
 # Print Pascal's Triangle in Python
 from math import factorial
 
@@ -66,7 +66,7 @@ for i in range(n):
 
 **输出:**
 
-```
+```py
       1
      1 1
     1 2 1
@@ -78,7 +78,7 @@ for i in range(n):
 
 **方法 2:** 我们可以通过以下二项式系数的概念来优化上述代码，行号*行*中的第 I 个条目是二项式系数 *C(行，i)* ，所有行都以值 1 开始。思路是用 *C(线，i-1)* 计算 *C(线，i)* 。
 
-```
+```py
 C(line, i) = C(line, i-1) * (line - i + 1) / i
 ```
 
@@ -86,7 +86,7 @@ C(line, i) = C(line, i-1) * (line - i + 1) / i
 
 ## 蟒 3
 
-```
+```py
 # Print Pascal's Triangle in Python
 
 # input n
@@ -110,7 +110,7 @@ for i in range(1, n+1):
 
 **输出:**
 
-```
+```py
       1
      1 1
     1 2 1
@@ -122,7 +122,7 @@ for i in range(1, n+1):
 
 **方法 3:** 这是打印帕斯卡三角形最优化的方法，这种方法基于 11 的幂。
 
-```
+```py
 11**0 = 1
 11**1 = 11
 11**2 = 121
@@ -133,7 +133,7 @@ for i in range(1, n+1):
 
 ## 蟒 3
 
-```
+```py
 # Print Pascal's Triangle in Python
 
 # input n
@@ -150,7 +150,7 @@ for i in range(n):
 
 **输出:**
 
-```
+```py
       1
      1 1
     1 2 1

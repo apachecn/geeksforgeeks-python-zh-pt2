@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find middle of 
 # the linked list
 # Node class 
@@ -92,7 +92,7 @@ if __name__=='__main__': 
 
 **输出:**
 
-```
+```py
 5->NULL
 The middle element is [5]
 
@@ -115,7 +115,7 @@ The middle element is [3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement
 # the above approach
 
@@ -193,7 +193,7 @@ if __name__=='__main__': 
 
 **输出:**
 
-```
+```py
 5->NULL
 The middle element is [5]
 

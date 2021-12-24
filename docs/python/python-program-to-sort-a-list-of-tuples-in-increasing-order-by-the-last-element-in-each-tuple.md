@@ -4,7 +4,7 @@
 
 任务是编写一个 Python 程序，按照每个元组中最后一个元素的递增顺序对元组列表进行排序。
 
-```
+```py
 Input: [(1, 3), (3, 2), (2, 1)]
 Output: [(2, 1), (3, 2), (1, 3)]
 Explanation: sort tuple based on the last digit of each tuple.
@@ -24,7 +24,7 @@ Sorted()方法对列表进行排序，并且总是以排序的方式返回包含
 
 ## 蟒蛇 3
 
-```
+```py
 def last(n):
     return n[-1]  
 
@@ -38,7 +38,7 @@ print(sort(a))
 
 **输出:**
 
-```
+```py
 Sorted:
 [(2, 1), (3, 2), (1, 3)]
 
@@ -50,7 +50,7 @@ Sorted:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort 
 # a list of tuples by the second Item 
 
@@ -77,7 +77,7 @@ print(Sort_Tuple(tup))
 
 **输出:**
 
-```
+```py
 [(2, 1), (3, 2), (1, 3)]
 
 ```
@@ -88,7 +88,7 @@ sort()方法以特定的升序或降序对给定列表的元素进行排序。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to sort a list of 
 # tuples by the second Item using sort()  
 
@@ -110,7 +110,7 @@ print(Sort_Tuple(tup))  
 
 **输出:**
 
-```
+```py
 [(2, 1), (3, 2), (1, 3)]
 
 ```

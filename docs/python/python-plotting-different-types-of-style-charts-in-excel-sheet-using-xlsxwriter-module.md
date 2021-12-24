@@ -12,7 +12,7 @@
 
 要在 excel 工作表中绘制不同类型的样式图表，请使用具有相应样式 id 的图表对象的`use set_style()`方法。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter
 

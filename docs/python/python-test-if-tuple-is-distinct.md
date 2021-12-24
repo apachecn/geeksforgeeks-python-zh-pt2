@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的蛮力方式。在这种情况下，我们只需遍历所有元组元素，如果它是第一次出现，就将其放入集合中。在子序列发生期间，我们签入集合，如果它存在，我们返回 False。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if tuple is distinct
 # Using loop
@@ -34,7 +34,7 @@ print("Is tuple distinct ? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple is : (1, 4, 5, 6, 1, 4)
 Is tuple distinct ? : False
 

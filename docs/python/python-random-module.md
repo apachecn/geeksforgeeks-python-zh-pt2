@@ -8,7 +8,7 @@ Python **随机模块**是 Python 的内置模块，用于生成随机数。这�
 
 ## 蟒蛇 3
 
-```
+```py
 # import random
 import random
 
@@ -19,7 +19,7 @@ print(random.choice(list1))
 
 **输出:**
 
-```
+```py
 2
 ```
 
@@ -29,7 +29,7 @@ print(random.choice(list1))
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 random.seed(5)
@@ -40,7 +40,7 @@ print(random.random())
 
 **输出:**
 
-```
+```py
 0.6229016948897019
 0.7417869892607294
 ```
@@ -55,7 +55,7 @@ print(random.random())
 
 **语法:**
 
-```
+```py
 randint(start, end)
 ```
 
@@ -63,7 +63,7 @@ randint(start, end)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program explaining work
 # of randint() function
 
@@ -83,7 +83,7 @@ print("Random number between -10 and -2 is % d" % (r2))
 
 **输出:**
 
-```
+```py
 Random number between 5 and 15 is 7
 Random number between -10 and -2 is -9
 ```
@@ -94,7 +94,7 @@ Random number between -10 and -2 is -9
 
 **语法:**
 
-```
+```py
 random.random()
 ```
 
@@ -102,7 +102,7 @@ random.random()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # the use of random() function .
 
@@ -115,7 +115,7 @@ print(random())
 
 **输出:**
 
-```
+```py
 0.3717933555623072
 ```
 
@@ -125,7 +125,7 @@ print(random())
 
 **语法:**
 
-```
+```py
 random.choice(sequence)
 ```
 
@@ -133,7 +133,7 @@ random.choice(sequence)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of
 # choice() method
 
@@ -155,7 +155,7 @@ print(random.choice(tuple1))
 
 **输出:**
 
-```
+```py
 2
 k
 5
@@ -167,7 +167,7 @@ k
 
 **语法:**
 
-```
+```py
 random.shuffle(sequence, function)
 ```
 
@@ -175,7 +175,7 @@ random.shuffle(sequence, function)
 
 ## 蟒蛇 3
 
-```
+```py
 # import the random module
 import random
 
@@ -198,7 +198,7 @@ print(sample_list)
 
 **输出:**
 
-```
+```py
 Original list : 
 [1, 2, 3, 4, 5]
 

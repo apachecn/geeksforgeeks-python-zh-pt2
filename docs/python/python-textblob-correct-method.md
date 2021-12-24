@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 
@@ -26,7 +26,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 GFG is a good company and always value their employed. 
 
 ```
@@ -35,7 +35,7 @@ GFG is a good company and always value their employed. 
 
 ## 蟒蛇 3
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 
@@ -49,7 +49,7 @@ print(gfg)
 
 **输出:**
 
-```
+```py
 I am good at spelling mistake. 
 
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace vowels by next vowel
 # Using list comprehension + zip()
@@ -42,7 +42,7 @@ print("The replaced string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks
 The replaced string : giikfurgiiks
 
@@ -54,7 +54,7 @@ The replaced string : giikfurgiiks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace vowels by next vowel
 # Using list comprehension + dictionary comprehension
@@ -78,7 +78,7 @@ print("The replaced string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks
 The replaced string : giikfurgiiks
 

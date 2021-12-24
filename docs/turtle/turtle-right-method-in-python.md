@@ -10,7 +10,7 @@ turtle.right()方法用于根据所取参数的值来改变 turtle 的方向。�
 
 **语法:**
 
-```
+```py
 turtle.right(angle)
 
 ```
@@ -23,7 +23,7 @@ turtle.right(angle)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -50,7 +50,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

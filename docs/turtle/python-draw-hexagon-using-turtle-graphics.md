@@ -28,7 +28,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the turtle modules
 import turtle
 

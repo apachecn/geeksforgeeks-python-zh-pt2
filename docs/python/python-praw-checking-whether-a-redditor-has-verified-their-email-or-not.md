@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("Has " + redditor_name + " verified their email? : " +
 
 **输出:**
 
-```
+```py
 Has prez verified their email? : True
 
 ```
@@ -49,7 +49,7 @@ Has prez verified their email? : True
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -79,7 +79,7 @@ print("Has " + redditor_name + " verified their email? : " +
 
 **输出:**
 
-```
+```py
 Has AutoModerator verified their email? : True
 
 ```

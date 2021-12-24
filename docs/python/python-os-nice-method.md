@@ -23,7 +23,7 @@ Python 中的`***os.nice()***`方法用于将进程的精确性增加指定的�
 
 **Code #1:** Use of os.nice() method to increase the process’s niceness
 
-```
+```py
 # Python program to explain os.nice() method 
 
 # importing os module 
@@ -75,7 +75,7 @@ print("\nCurrent nice value of the process:", niceValue)
 
 **Output:**
 
-```
+```py
 Current nice value of the process: 0
 
 Niceness of the process increased
@@ -94,7 +94,7 @@ Current nice value of the process: 19
 
 **Code #2:** Use of os.nice() method to decrease the process’s niceness
 
-```
+```py
 # Python program to explain os.nice() method 
 
 # importing os module 
@@ -152,7 +152,7 @@ print("\nCurrent nice value of the process:", niceValue)
 
 **Output:**
 
-```
+```py
 Current nice value of the process: 0
 
 Niceness of the process decreased

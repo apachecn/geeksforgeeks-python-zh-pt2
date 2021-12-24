@@ -12,7 +12,7 @@ MongoDB 是一个跨平台的面向文档的数据库程序，也是最流行的
 
 **语法:**
 
-```
+```py
 sort(fieldname, direction)
 ```
 
@@ -24,7 +24,7 @@ sort(fieldname, direction)
 
 ![python-mongodb-db](img/435ef42df941a646d7375922803191df.png)
 
-```
+```py
 # python code to sort elements
 # alphabetically in ascending order
 
@@ -53,7 +53,7 @@ for x in mydoc:
 
 **例 2:** 降序排序
 
-```
+```py
 import pymongo
 
 # establishing connection 

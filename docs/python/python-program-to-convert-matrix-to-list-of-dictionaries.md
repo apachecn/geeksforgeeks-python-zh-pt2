@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [["Gfg", [1, 2, 3]],
              ["is", [6, 5, 4]], ["best", [9, 10, 11]]]

@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.clone()
 
 ```
@@ -21,7 +21,7 @@ turtle.clone()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -50,7 +50,7 @@ tur2.circle(-50)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

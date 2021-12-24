@@ -16,7 +16,7 @@ Python 提供了一个标准的图形用户界面框架 Tkinter，用于开发�
 
 测验的数据在 **data.json** 中定义，json 数据是名称/值对，包含一组值。我们已经为测验定义了示例数据，如下所示:
 
-```
+```py
 {
   "question": [
     "Q1\. What Indian city is the capital of two states?",
@@ -70,7 +70,7 @@ Python 提供了一个标准的图形用户界面框架 Tkinter，用于开发�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to create a simple GUI
 # Simple Quiz using Tkinter
 

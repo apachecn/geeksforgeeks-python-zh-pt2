@@ -4,7 +4,7 @@
 
 **透视**是扭曲函数中的另一种扭曲方法。它代表基于参数的透视图像。透视扭曲需要 4 对点，总共是 16 对。参数的顺序是成组的源&目标坐标对。
 
-```
+```py
 src1x, src1y, dst1x, dst1y,
 src2x, src2y, dst2x, dst2y,
 src3x, src3y, dst3x, dst3y,
@@ -13,7 +13,7 @@ src4x, src4y, dst4x, dst4y
 
 **语法:**
 
-```
+```py
 wand.image.distort('perspective', arguments')
 ```
 
@@ -25,7 +25,7 @@ wand.image.distort('perspective', arguments')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module
@@ -53,7 +53,7 @@ with Image(filename ='gog.png') as img:
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import chain
 # Import Color from wand.color module
 from wand.color import Color

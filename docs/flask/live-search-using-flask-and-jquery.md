@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install flask
 ```
 
@@ -16,7 +16,7 @@ pip install flask
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,render_template
 
 app = Flask(__name__)
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -95,7 +95,7 @@ var searchTerm = $(this).val().toLowerCase();
 
 要运行此应用程序，请在同一目录中打开 cmd 或终端，并键入以下命令。
 
-```
+```py
 python app.py
 ```
 

@@ -7,7 +7,7 @@
 在本文中，我们将学习如何根据主列表中子列表的第二个元素对任何列表进行排序。我们将看到两种方法。我们将学习执行这种排序的三种方法。一种是使用冒泡排序，第二种是使用 Sort()方法，最后一种是使用 sorted()方法。在这个程序中，我们已经按照升序对列表进行了排序。
 示例:
 
-```
+```py
 Input : [['rishav', 10], ['akash', 5], ['ram', 20], ['gaurav', 15]]
 Output : [['akash', 5], ['rishav', 10], ['gaurav', 15], ['ram', 20]]
 
@@ -19,7 +19,7 @@ Output : [['256', 5], ['452', 10], ['135', 15], ['100', 20]]
 **方法 1:使用冒泡排序技术**
 这里我们使用了[冒泡排序](https://www.geeksforgeeks.org/bubble-sort/)的技术来执行排序。我们已经尝试使用嵌套循环访问子列表的第二个元素。这将执行就地排序方法。时间复杂度类似于冒泡排序(即 O(n^2)
 
-```
+```py
 # Python code to sort the lists using the second element of sublists
 # Inplace way to sort, use of third variable
 def Sort(sub_li):
@@ -39,7 +39,7 @@ print(Sort(sub_li))
 
 输出:
 
-```
+```py
 [['akash', 5], ['rishav', 10], ['gaurav', 15], ['ram', 20]]
 
 ```
@@ -47,7 +47,7 @@ print(Sort(sub_li))
 **方法 2:使用 sort()方法进行排序**
 通过这种方法进行排序时，元组的实际内容会发生变化，就像前面的方法一样，会执行就地排序的方法。
 
-```
+```py
 # Python code to sort the tuples using second element 
 # of sublist Inplace way to sort using sort()
 def Sort(sub_li):
@@ -65,7 +65,7 @@ print(Sort(sub_li))
 
 输出:
 
-```
+```py
 [['akash', 5], ['rishav', 10], ['gaurav', 15], ['ram', 20]]
 
 ```
@@ -77,7 +77,7 @@ Sorted()对列表进行排序，并且总是以排序的方式返回包含元素
 2.  键(可选) :作为键或排序比较基础的函数。
 3.  反向(可选) :要按升序排序，我们可以忽略第三个参数，我们在这个程序中就这样做了。如果设置为 true，则可迭代将按相反(降序)顺序排序，默认情况下设置为 false。
 
-```
+```py
 # Python code to sort the tuples using second element 
 # of sublist Function to sort using sorted()
 def Sort(sub_li):
@@ -94,7 +94,7 @@ print(Sort(sub_li))
 
 输出:
 
-```
+```py
 [['akash', 5], ['rishav', 10], ['gaurav', 15], ['ram', 20]]
 
 ```

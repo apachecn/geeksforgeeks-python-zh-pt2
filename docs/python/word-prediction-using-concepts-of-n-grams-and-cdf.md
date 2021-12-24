@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 Input  :  is 
 Output :  is it simply makes sure that there are never
 
@@ -29,7 +29,7 @@ Output : the exact same position. There will be some.
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 from collections import Counter
 

@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 这是可以执行这个任务的方式之一。在本文中，我们迭代每个字符串元素，并使用索引元素构造行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # String List to Column Character Matrix
 # Using list comprehension
@@ -28,7 +28,7 @@ print("The Character Matrix : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['123', '456', '789']
 The Character Matrix : [['1', '4', '7'], ['2', '5', '8'], ['3', '6', '9']]
 

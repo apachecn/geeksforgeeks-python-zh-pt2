@@ -16,7 +16,7 @@ Python 中的`***os.waitid()***`方法被一个进程用来等待一个或多个
 
 **代码#1:** 使用`***os.waitid()***`方法
 
-```
+```py
 # Python program to explain os.waitid() method 
 
 # importing os module  
@@ -61,7 +61,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process-
 Process ID: 10309
 Hello! Geeks
@@ -75,7 +75,7 @@ posix.waitid_result(si_pid=10309, si_uid=1000, si_signo=17, si_status=0, si_code
 
 **代码#2:** 使用`***os.waitid()***`方法
 
-```
+```py
 # Python program to explain os.waitid() method 
 
 # importing os module  
@@ -135,7 +135,7 @@ else :
 
 **Output:**
 
-```
+```py
 In First Child process-
 Process ID: 11524
 Hello! Geeks

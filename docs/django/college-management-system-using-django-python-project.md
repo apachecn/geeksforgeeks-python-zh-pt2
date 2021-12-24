@@ -53,13 +53,13 @@ HOD 接口
 
 **步骤 3:** 打开终端，使用下面的命令创建一个新项目“CMS_project”。
 
-```
+```py
 django-admin startproject CMS_project
 ```
 
 **第四步:**进入 *CMS* 文件夹，创建 app“*CMS _ app*”。
 
-```
+```py
 python manage.py startapp CMS_app
 ```
 
@@ -67,7 +67,7 @@ python manage.py startapp CMS_app
 
 **第六步:**转到 *CMS_project* 的 urls.py，在 ***urlpatterns*** 中添加以下路径。
 
-```
+```py
 path('', include('student_management_app.urls'))
 ```
 
@@ -75,7 +75,7 @@ path('', include('student_management_app.urls'))
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, HttpResponse, redirect, HttpResponseRedirect
 from django.contrib.auth import logout, authenticate, login
 from .models import CustomUser, Staffs, Students, AdminHOD
@@ -209,7 +209,7 @@ def get_user_type_from_email(email_id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from . import views
@@ -312,7 +312,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib import messages
@@ -519,7 +519,7 @@ def student_view_result(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.contrib import messages
@@ -887,7 +887,7 @@ def staff_add_result_save(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, HttpResponseRedirect, JsonResponse
 from django.contrib import messages
@@ -1646,7 +1646,7 @@ def student_profile(requtest):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.db.models.signals import post_save
@@ -1841,7 +1841,7 @@ def save_user_profile(sender, instance, **kwargs):
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from .models import Courses, SessionYearModel
 
@@ -1969,7 +1969,7 @@ class EditStudentForm(forms.Form):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.contrib.auth.admin import UserAdmin
 from .models import CustomUser, AdminHOD, Staffs, Courses, Subjects, Students, Attendance, AttendanceReport, LeaveReportStudent, LeaveReportStaff, FeedBackStudent, FeedBackStaffs, NotificationStudent, NotificationStaffs
@@ -2001,7 +2001,7 @@ admin.site.register(NotificationStaffs)
 
 ## 超文本标记语言
 
-```
+```py
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}Home{% endblock title %}
@@ -2098,7 +2098,7 @@ body {background-color: coral;}
 
 ## 超文本标记语言
 
-```
+```py
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}
@@ -2246,7 +2246,7 @@ body {background-color: coral;}
 
 ## 超文本标记语言
 
-```
+```py
 {% extends 'base.html' %}
 {% load static %}
 {% block content %}

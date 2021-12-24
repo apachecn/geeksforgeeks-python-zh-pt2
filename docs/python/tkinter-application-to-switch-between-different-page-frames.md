@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tkinter as tk
 from tkinter import ttk
 

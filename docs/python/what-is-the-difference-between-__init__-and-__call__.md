@@ -13,7 +13,7 @@ Python 中的 Dunder 或 magic 方法是在方法名中有两个前缀和后缀�
 
 **示例:**
 
-```
+```py
 class A:
     def __init__(self, x):
         print("inside __init__()")
@@ -39,7 +39,7 @@ b.__str__()
 
 **输出:**
 
-```
+```py
 inside __init__()
 inside __str__()
 ('value of y:', '3')
@@ -58,7 +58,7 @@ inside __str__()
 
 **示例:**
 
-```
+```py
 class A:
     def __init__(self, x):
         print("inside __init__()")
@@ -99,7 +99,7 @@ print(r)
 
 **输出:**
 
-```
+```py
 inside __init__()
 inside __str__()
 ('value of y:', '3')

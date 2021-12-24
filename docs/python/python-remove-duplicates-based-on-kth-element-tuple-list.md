@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一个蛮力方法来执行这个特定的任务。在这种情况下，我们检查元组的 Kth 索引，并添加到一个集合中以保持记录。如果该值已经在内存集中，我们将从结果中丢弃它，因为它是重复的。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove duplicates based on Kth element tuple list
 # Using loop

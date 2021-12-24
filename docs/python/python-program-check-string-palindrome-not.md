@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : malayalam
 Output : Yes
 
@@ -21,7 +21,7 @@ Output : No
 
 ## 计算机编程语言
 
-```
+```py
 # function which return reverse of a string
 
 def isPalindrome(s):
@@ -39,7 +39,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
@@ -49,7 +49,7 @@ Yes
 
 ## 计算机编程语言
 
-```
+```py
 # function to check string is
 # palindrome or not
 def isPalindrome(str):
@@ -72,7 +72,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
@@ -82,7 +82,7 @@ Yes
 
 ## 计算机编程语言
 
-```
+```py
 # function to check string is
 # palindrome or not
 def isPalindrome(s):
@@ -109,7 +109,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
@@ -117,7 +117,7 @@ Yes
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to check
 # if a string is palindrome
 # or not
@@ -137,7 +137,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
@@ -145,7 +145,7 @@ Yes
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to check
 # if a string is palindrome
 # or not
@@ -166,7 +166,7 @@ else:
 
 **输出:**
 
-```
+```py
 Yes
 ```
 
@@ -176,7 +176,7 @@ Yes
 
 ## 蟒蛇 3
 
-```
+```py
 # Recursive function to check if a
 # string is palindrome
 
@@ -213,7 +213,7 @@ else:
 
 **Output**
 
-```
+```py
 Yes
 ```
 

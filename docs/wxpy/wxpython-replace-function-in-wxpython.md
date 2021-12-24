@@ -8,7 +8,7 @@ wx 中的另一个函数。菜单栏类是`Replace()`功能。如果我们想替
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.Replace(self, pos, menu, title)
 > 
 > ```
@@ -28,7 +28,7 @@ wx 中的另一个函数。菜单栏类是`Replace()`功能。如果我们想替
 
 **代码:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
 **替换代码:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

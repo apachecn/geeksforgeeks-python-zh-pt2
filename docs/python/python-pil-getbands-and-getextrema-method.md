@@ -11,7 +11,7 @@ Python PIL 库包含图像模块，其中定义了各种函数。 **PIL。此方
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -34,7 +34,7 @@ print("Single band image", im3)
 
 **输出:**
 
-```
+```py
 Multiband image ('R', 'G', 'B')
 Single band image ('P', )
 ```
@@ -50,7 +50,7 @@ Single band image ('P', )
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Image module from PIL package
 from  PIL import Image
 
@@ -75,7 +75,7 @@ print("Single band image ", im3)
 
 **输出:**
 
-```
+```py
 Multi band image  ((73, 255), (0, 255), (0, 255))
 Single band image  (0, 123)
 ```

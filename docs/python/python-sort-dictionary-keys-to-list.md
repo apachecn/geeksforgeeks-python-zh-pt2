@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + sorted() + items()`+λ**
 上述功能的组合可用于执行该特定任务。在这种情况下，我们首先使用`sorted()`按照所需的顺序按键对字典进行排序，然后通过`items()` 函数提取键和值，这些键和值由 lambda 函数成对返回。sum 函数执行填充元组的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort dictionary keys to list 
 # Using sum() + sorted() + items() + lambda
@@ -28,7 +28,7 @@ print("List after conversion from dictionary : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Geeks': 2, 'for': 1, 'CS': 3}
 List after conversion from dictionary : ['for', 1, 'Geeks', 2, 'CS', 3]
 

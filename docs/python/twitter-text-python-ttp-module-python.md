@@ -12,7 +12,7 @@
 
 **例 1 :**
 
-```
+```py
 # import the twitter-text-python module
 from ttp import ttp
 
@@ -61,7 +61,7 @@ print(result.html)
 
 **例 2 :** 我们也可以通过做`include_spans = True`找到弦(POS)的位置。
 
-```
+```py
 # import the twitter-text-python module
 from ttp import ttp
 

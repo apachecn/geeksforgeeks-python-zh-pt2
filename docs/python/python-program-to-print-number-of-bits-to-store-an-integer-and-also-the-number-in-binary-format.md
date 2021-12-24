@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = []
 num = 10
 
@@ -72,7 +72,7 @@ for i in reversed(list1):
 
 ## 蟒蛇 3
 
-```
+```py
 def decimalToBinary(n, x):
 
     if n > 1:
@@ -131,7 +131,7 @@ Python 带有内置的复杂函数，只需几行就可以完成相同的任务�
 
 ## 蟒蛇 3
 
-```
+```py
 num = 120
 
 s = bin(120)
@@ -145,7 +145,7 @@ print(s)
 
 **Output**
 
-```
+```py
 Number of bits required to store 120: 7
 Binary Representation 0b1111000
 

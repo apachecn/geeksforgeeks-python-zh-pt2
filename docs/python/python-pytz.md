@@ -10,19 +10,19 @@ Python pytz 模块可以按照给定的方式安装。
 
 *   使用命令行:
 
-```
+```py
 pip install pytz
 ```
 
 *   使用 tarball，以管理用户身份运行以下命令:
 
-```
+```py
 python setup.py install
 ```
 
 *   使用 setuptools，将从 Python 包索引中为您下载最新版本:
 
-```
+```py
 easy_install --upgrade pytz
 ```
 
@@ -40,7 +40,7 @@ easy_install --upgrade pytz
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 from pytz import timezone
 
@@ -71,7 +71,7 @@ pytz 模块中有一些属性可以帮助我们找到支持的时区字符串。
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 print('the supported timezones by the pytz module:',
@@ -90,7 +90,7 @@ print('the supported timezones by the pytz module:',
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 print('all the supported timezones set:',
@@ -109,7 +109,7 @@ print('all the supported timezones set:',
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 print('Commonly used time-zones:', 
@@ -129,7 +129,7 @@ print('Commonly used time-zones-set:',
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 print('country_names =')
@@ -153,7 +153,7 @@ print('equivalent country name to the input code: =',
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 
 print('country_timezones =')
@@ -179,7 +179,7 @@ print('Time-zones supported by Antartica =', pytz.country_timezones['AQ'])
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import pytz
 import datetime
@@ -204,7 +204,7 @@ print('IST Time =', datetime.now(tz=kiev_tz))
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import pytz
 import datetime
@@ -236,7 +236,7 @@ localize()是用于创建具有初始固定日期时间值的日期时间感知�
 
 ## 蟒蛇 3
 
-```
+```py
 import pytz
 import datetime
 from datetime import datetime
@@ -261,7 +261,7 @@ print('Wrong UTC Current Time =', utc.localize(
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 from pytz import timezone
 

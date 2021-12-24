@@ -20,7 +20,7 @@ Python String **lower()** 方法将字符串中的所有大写字符转换为小
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the
 # working of lower() function
 text = 'GeEks FOR geeKS'
@@ -36,7 +36,7 @@ print(text.lower())
 
 **输出:**
 
-```
+```py
 Original String:
 GeEks FOR geeKS
 
@@ -48,7 +48,7 @@ geeks for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the
 # working of lower() function
 text = 'G3Ek5 F0R gE3K5'
@@ -64,7 +64,7 @@ print(text.lower())
 
 **输出:**
 
-```
+```py
 Original String:
 G3Ek5 F0R gE3K5
 
@@ -78,7 +78,7 @@ lower()方法的一个常见应用是检查两个字符串是否相同。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the
 # working of lower() function
 text1 = 'GEEKS For GEEKS'
@@ -95,6 +95,6 @@ else:
 
 **输出:**
 
-```
+```py
 Strings are same
 ```

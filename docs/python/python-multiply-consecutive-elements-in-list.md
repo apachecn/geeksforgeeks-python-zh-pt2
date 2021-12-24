@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 天真的方法可以用来执行，但是由于本文讨论了这个特定问题的一个线性解决方案，我们从列表理解作为执行这个任务的方法开始。
 
-```
+```py
 # Python3 code to demonstrate 
 # Consecutive Product list
 # using list comprehension
@@ -28,7 +28,7 @@ print ("The computed successive product list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 5, 3, 6]
 The computed successive product list is : [4, 20, 15, 18]
 

@@ -21,7 +21,7 @@ Python String **center()** 方法创建并返回一个用指定字符填充的�
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # string center() in python
 string = "geeks for geeks"
@@ -34,7 +34,7 @@ print "After padding String is: ", new_string
 
 **输出:**
 
-```
+```py
 After padding String is:      geeks for geeks
 ```
 
@@ -42,7 +42,7 @@ After padding String is:      geeks for geeks
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate
 # string center() in python
 string = "geeks for geeks"
@@ -55,6 +55,6 @@ print "After padding String is:", new_string
 
 **输出:**
 
-```
+```py
 After padding String is: ####geeks for geeks#####
 ```

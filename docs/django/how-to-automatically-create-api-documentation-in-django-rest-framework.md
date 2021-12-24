@@ -8,7 +8,7 @@
 
 我不知道你怎么样，但是对我来说，姜戈是网络开发的未来框架，所以我将向你展示如何在姜戈做到这一点。因此，在我们开始之前，您需要安装 **Django** 和 **Django REST 框架**。我想你已经有了。接下来，你需要安装 **drf-yasg** 。为此，只需在终端中键入以下内容。
 
-```
+```py
 pip install drf-yasg
 ```
 
@@ -18,7 +18,7 @@ pip install drf-yasg
 
 接下来，转到**设置. py** 并将 **drf_yasg** 添加到 **INSTALLED_APPS**
 
-```
+```py
 INSTALLED_APPS = [
    ...
    'drf_yasg',
@@ -30,7 +30,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import permissions
 from drf_yasg.views import get_schema_view
 from drf_yasg import openapi
@@ -65,7 +65,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import status, permissions, serializers
 from rest_framework.response import Response

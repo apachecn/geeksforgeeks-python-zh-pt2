@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 New character set : qwertyuiopasdfghjklzxcvbnm
 Input : "utta"
 Output : geek
@@ -21,7 +21,7 @@ Output : code
 1.  Create a dictionary data structure, and we will map the original English character set to the new given character set. **zip (new charset, origcharset)** has done it for us. It maps each character sequence of the original character set to each given character of the new character set, and returns a list of tuple pairs. Now we use **dict ()** to convert it into a dictionary.
 2.  Now traverse the original string and convert it into a new string.
 
-```
+```py
 # Function to change string to a new character
 
 def newString(charSet,input):
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 geek
 
 ```

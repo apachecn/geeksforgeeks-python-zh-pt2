@@ -15,7 +15,7 @@ Seed 函数用于保存随机函数的状态，这样它就可以在同一台机
 
 **例 1:**
 
-```
+```py
 # random module is imported
 import random 
 for i in range(5):
@@ -30,7 +30,7 @@ for i in range(5):
 
 **Output:**
 
-```
+```py
 865
 865
 865
@@ -41,7 +41,7 @@ for i in range(5):
 
 **例 2:**
 
-```
+```py
 # importing random module
 import random
 
@@ -62,7 +62,7 @@ print(random.randint(1, 1000))
 
 **Output:**
 
-```
+```py
 244
 244
 607

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to String
 # Using list comprehension + join()
@@ -57,7 +57,7 @@ print("Conversion to String : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to String
 # Using map() + join()

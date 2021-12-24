@@ -20,7 +20,7 @@
 以下是上述方法的实现，并附有一些示例:
 **示例 1 :**
 
-```
+```py
 # import package
 import turtle
 
@@ -41,7 +41,7 @@ turtle.forward(80)
 
 **例 2 :**
 
-```
+```py
 # import package
 import turtle 
 

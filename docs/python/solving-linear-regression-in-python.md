@@ -17,7 +17,7 @@
 
 计算斜率和截距的数学公式如下
 
-```
+```py
 Slope = Sxy/Sxx   
 where Sxy and Sxx are sample covariance and sample variance respectively.
 
@@ -33,7 +33,7 @@ Intercept = ymean – slope* xmean
 截距= 14.6–2.8 * 3 = 6.2**
 因此，
 
-```
+```py
 The desired equation of the regression model is y = 2.8 x + 6.2
 ```
 
@@ -45,7 +45,7 @@ The desired equation of the regression model is y = 2.8 x + 6.2
 平方误差=10.8，即均方误差= **3.28**
 测定系数(R<sup>2</sup>)= 1-10.8/89.2 =**0.878**
 
-```
+```py
  Low value of error and high value of R<sup>2</sup> signify that the 
 linear regression fits data well
 ```
@@ -54,7 +54,7 @@ linear regression fits data well
 
 **代码 1:导入所有必需的库。**
 
-```
+```py
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -65,7 +65,7 @@ import statsmodels.api as sm
 
 **代码 2:生成数据。计算 x <sub>均值</sub>、y <sub>均值</sub>、Sxx、Sxy 求回归线斜率和截距的值。**
 
-```
+```py
 x = np.array([1,2,3,4,5]) 
 y = np.array([7,14,15,18,19])
 n = np.size(x)
@@ -89,14 +89,14 @@ plt.ylabel('Dependent variable y')
 
 **输出:**
 
-```
+```py
 slope b1 is 2.8
 intercept b0 is 6.200000000000001
 ```
 
 **代码 3:绘制给定数据点，拟合回归线。**
 
-```
+```py
 y_pred = b1 * x + b0
 
 plt.scatter(x, y, color = 'red')
@@ -110,7 +110,7 @@ plt.ylabel('y')
 
 **Code 4: Analyze the performance of the model by calculating mean squared error and R<sup>2</sup>**
 
-```
+```py
 error = y - y_pred
 se = np.sum(error**2)
 print('squared error is', se)
@@ -128,7 +128,7 @@ print('R square is', R2)
 
 **输出:**
 
-```
+```py
 squared error is 10.800000000000004
 mean squared error is 2.160000000000001
 root mean square error is 1.4696938456699071
@@ -137,7 +137,7 @@ R square is 0.8789237668161435
 
 **代码 5:使用 scikit 库确认上述步骤。**
 
-```
+```py
 x = x.reshape(-1,1)
 regression_model = LinearRegression()
 
@@ -163,7 +163,7 @@ print('R2 score: ', r2)
 
 **输出:**
 
-```
+```py
 Slope: [2.8]
 Intercept: 6.199999999999999
 MSE: 2.160000000000001

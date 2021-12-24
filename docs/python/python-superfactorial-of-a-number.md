@@ -4,7 +4,7 @@
 
 给定一个数，任务是找到一个数的超级工厂。前 n 个阶乘的乘积相乘的结果称为一个数的**超因子**。
 
-```
+```py
 Superfactorial(n)= 1 ^ n * 2 ^ (n-1) * 3 ^ (n-2) * . . . . . * n ^ 1
 ```
 
@@ -20,7 +20,7 @@ Superfactorial(n)= 1 ^ n * 2 ^ (n-1) * 3 ^ (n-2) * . . . . . * n ^ 1
 
 一种有效的方法是迭代计算所有阶乘直到 n，然后计算所有阶乘的乘积直到 n。
 
-```
+```py
 # Python3 program to find the
 # Superfactorial of a number
 
@@ -51,7 +51,7 @@ print(arr[-1])
 
 **Output:**
 
-```
+```py
 34560
 
 ```

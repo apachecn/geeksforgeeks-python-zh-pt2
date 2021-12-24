@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install texttable
 
 ```
@@ -17,7 +17,7 @@ pip install texttable
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import texttable
 ```
@@ -26,7 +26,7 @@ import texttable
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating object
 tableObj = texttable.Texttable(self,max width)
 
@@ -39,7 +39,7 @@ tableObj = texttable.Texttable(self,max width)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating columns
 tableObj.set_cols_align(["l", "l", "r", "c"])
 
@@ -53,7 +53,7 @@ tableObj.set_cols_align(["l", "l", "r", "c"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Set datatype
 tableObj.set_cols_dtype(["t", "i", "f", "a"])
 
@@ -69,7 +69,7 @@ tableObj.set_cols_dtype(["t", "i", "f", "a"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Adjust Columns
 tableObj.set_cols_valign(["t", "t", "m", "b"])
 
@@ -84,7 +84,7 @@ tableObj.set_cols_valign(["t", "t", "m", "b"])
 
 ## 蟒蛇 3
 
-```
+```py
 # Adding rows
 table.add_rows([
         ["Text_Heading", "Int_Heading", "Float_Heading", "Auto_Heading"],
@@ -102,7 +102,7 @@ table.add_rows([
 
 ## 蟒蛇 3
 
-```
+```py
 print(tableObj.draw())
 ```
 
@@ -114,7 +114,7 @@ print(tableObj.draw())
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required module
 import texttable
 

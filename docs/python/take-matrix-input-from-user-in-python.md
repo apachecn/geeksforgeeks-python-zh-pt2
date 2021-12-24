@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 // 3 x 4 matrix
      1 2 3 4
 M =  4 5 6 7
@@ -26,7 +26,7 @@ B = ( [ 1.0, 3.5, 5.4, 7.9 ],
 
 **代码#1:**
 
-```
+```py
 # A basic code for matrix input from user
 
 R = int(input("Enter the number of rows:"))
@@ -52,7 +52,7 @@ for i in range(R):
 
 **输出:**
 
-```
+```py
 Enter the number of rows:2
 Enter the number of columns:3
 Enter the entries rowwise:
@@ -70,7 +70,7 @@ Enter the entries rowwise:
 
 一个内胆:
 
-```
+```py
 # one-liner logic to take input for rows and columns
 mat = [[int(input()) for x in range (C)] for y in range(R)]
 ```
@@ -79,7 +79,7 @@ mat = [[int(input()) for x in range (C)] for y in range(R)]
 
 在 Python 中，有一个流行的库叫做***【NumPy】***。这个库是任何科学计算的基础库。它也用于多维数组，因为我们知道矩阵是一个矩形数组，我们将使用这个库为用户输入矩阵。
 
-```
+```py
 import numpy as np
 
 R = int(input("Enter the number of rows:"))
@@ -98,7 +98,7 @@ print(matrix)
 
 **输出:**
 
-```
+```py
 Enter the number of rows:2
 Enter the number of columns:2
 Enter the entries in a single line separated by space: 1 2 3 1 

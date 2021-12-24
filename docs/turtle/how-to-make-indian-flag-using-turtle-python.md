@@ -24,13 +24,13 @@
 
 1.导入海龟模块。
 
-```
+```py
 import turtle
 ```
 
 2.找个屏幕来画画。
 
-```
+```py
 screen = turtle.Screen()
 ```
 
@@ -63,7 +63,7 @@ screen = turtle.Screen()
 
 ## 计算机编程语言
 
-```
+```py
 import turtle
 from turtle import*
 

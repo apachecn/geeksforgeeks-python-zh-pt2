@@ -11,7 +11,7 @@
 
 为了从维基百科中提取数据，我们必须首先安装 Python 维基百科库，它包装了维基百科的官方 API。这可以通过在命令提示符或终端中输入以下命令来完成:
 
-```
+```py
 pip install wikipedia
 ```
 
@@ -31,7 +31,7 @@ pip install wikipedia
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import wikipedia
 
@@ -61,7 +61,7 @@ print(result)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import wikipedia
 
@@ -74,7 +74,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 ['Geek', 'Geek!', 'Freaks and Geeks', 'The Geek', 'Geek show']
 ```
 
@@ -90,7 +90,7 @@ page()方法用于获取维基百科页面的内容、类别、坐标、图像�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import wikipedia
 
@@ -125,7 +125,7 @@ print(page_object.links[0:10])
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import wikipedia
 

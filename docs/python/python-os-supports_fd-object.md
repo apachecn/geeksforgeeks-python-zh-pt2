@@ -10,7 +10,7 @@
 **例如:**
 下面的表达式检查 [os.stat()](https://www.geeksforgeeks.org/python-os-stat-method/) 方法是否允许在本地平台上调用时将其路径参数指定为打开的文件描述符。*
 
-```
+```py
 os.stat in os.supports_fd
 
 ```
@@ -23,7 +23,7 @@ os.stat in os.supports_fd
 
 **Code #1:** Use of os.supports_fd object
 
-```
+```py
 # Python program to explain os.supports_fd object  
 
 # importing os module 
@@ -41,7 +41,7 @@ print(methodList)
 
 **Output:**
 
-```
+```py
 {<built-in function execve>, <built-in function stat>, <built-in function truncate>,
 <built-in function statvfs>, <built-in function chown>, <built-in function listdir>,
 <built-in function chmod>, <built-in function utime>, <built-in function pathconf>,
@@ -51,7 +51,7 @@ print(methodList)
 
 **Code #2:** Use of os.supports_fd object to check if a particular method permits specifying their path parameter as an open file descriptor or not.
 
-```
+```py
 # Python program to explain os.supports_fd object  
 
 # importing os module 
@@ -76,7 +76,7 @@ print(support)
 
 **Output:**
 
-```
+```py
 True
 False
 

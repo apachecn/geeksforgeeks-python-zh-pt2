@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by Maximum Row element
 # Using sort() + max()
@@ -52,7 +52,7 @@ print("The maximum sorted Matrix : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by Maximum Row element
 # Using sorted() + lambda + max()

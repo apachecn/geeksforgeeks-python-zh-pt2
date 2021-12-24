@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是执行该任务的一种方式。在这种情况下，我们使用蛮力来执行这项任务。在本文中，我们迭代每个字符串元素并测试元音。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Vowel indices in String
 # Using loop
@@ -31,7 +31,7 @@ print("The vowel indices are : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The vowel indices are : [1, 2, 6, 9, 10]
 

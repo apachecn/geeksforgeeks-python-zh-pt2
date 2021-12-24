@@ -36,7 +36,7 @@ Python 中的 SQLite Cursor 对象/类，它包含执行 SQL 查询以执行操�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the sqlite3 module
 import sqlite3
 
@@ -66,7 +66,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Database Created Successfully!
 ```
 
@@ -84,7 +84,7 @@ Database Created Successfully!
 
 ## 蟒蛇 3
 
-```
+```py
 # import the sqlite3 module
 import sqlite3
 
@@ -111,7 +111,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Database Inserted!
 ```
 
@@ -125,7 +125,7 @@ Database Inserted!
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 connection = sqlite3.connect('geekforgeeks_student.db')
@@ -151,7 +151,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 connection = sqlite3.connect('geekforgeeks_student.db')
@@ -177,7 +177,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 connection = sqlite3.connect('geekforgeeks_student.db')
@@ -210,7 +210,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 connection = sqlite3.connect('geekforgeeks_student.db')

@@ -13,7 +13,7 @@
 
 **语法:**用于创建线编辑并设置其对齐方式
 
-```
+```py
 # getting the line edit of combo box
 line_edit = self.combo_box.lineEdit()
 
@@ -24,7 +24,7 @@ line_edit.setAlignment(Qt.AlignCenter)
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

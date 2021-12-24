@@ -28,7 +28,7 @@ Python `sys`模块提供了一些强大的功能，但是理解起来很复杂�
 
 让我们用`line, function and call`事件创建自己的本地跟踪函数。这些事件在下面给出的代码中突出显示。
 
-```
+```py
 # program to display the functioning of
 # settrace()
 from sys import settrace
@@ -68,7 +68,7 @@ check()
 
 **输出:**
 
-```
+```py
 A call encountered in check() at line number 30 
 A line encountered in check() at line number 31 
 A call encountered in fun() at line number 24 

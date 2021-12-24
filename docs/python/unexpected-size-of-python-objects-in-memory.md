@@ -8,7 +8,7 @@ Python 对象包括列表、元组、字典等，它们有不同的内存大小�
 
 **语法**:
 
-```
+```py
 sys.getsizeof(object)
 ```
 
@@ -26,7 +26,7 @@ sys.getsizeof(object)
 
 ## 蟒蛇 3
 
-```
+```py
 # import sys module
 import sys
 
@@ -48,7 +48,7 @@ print(sys.getsizeof('geeks'))
 
 **输出**:
 
-```
+```py
 50
 51
 52
@@ -62,7 +62,7 @@ print(sys.getsizeof('geeks'))
 
 ## 蟒蛇 3
 
-```
+```py
 # import sys module
 import sys
 
@@ -75,7 +75,7 @@ print(sys.getsizeof(21))
 
 **输出:**
 
-```
+```py
 28
 28
 ```
@@ -92,7 +92,7 @@ print(sys.getsizeof(21))
 
 ## 蟒蛇 3
 
-```
+```py
 # import sys module
 import sys
 
@@ -108,7 +108,7 @@ print(sys.getsizeof([22, 33]))
 
 **输出**:
 
-```
+```py
 72
 80
 88
@@ -120,7 +120,7 @@ print(sys.getsizeof([22, 33]))
 
 ## 蟒蛇 3
 
-```
+```py
 # import sys module
 import sys
 
@@ -136,7 +136,7 @@ print(sys.getsizeof({'k': 2, 'h': 45}))
 
 **输出**:
 
-```
+```py
 248
 248
 248

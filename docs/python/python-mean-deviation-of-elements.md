@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mean deviation of Elements
 # Using loop + mean() + abs()
@@ -56,7 +56,7 @@ print("Mean deviations : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mean deviation of Elements
 # Using list comprehension + mean()

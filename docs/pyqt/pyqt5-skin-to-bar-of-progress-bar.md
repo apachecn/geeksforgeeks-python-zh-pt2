@@ -8,7 +8,7 @@
 
 为了做到这一点，我们必须改变进度条的 CSS 样式表代码，它与 set 样式表方法一起使用，下面是样式表代码。
 
-```
+```py
 QProgressBar
 {
 border :1px solid black;
@@ -22,7 +22,7 @@ border-image : url(skin.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 # Python program for Creating 
 # an event scheduler
 
@@ -33,7 +33,7 @@ scheduler = sched.scheduler(time.time, 
 
     **示例:**
 
-    ```
+    ```py
     import sched
     import time
 
@@ -65,7 +65,7 @@ scheduler = sched.scheduler(time.time, 
 
     **输出:**
 
-    ```
+    ```py
     START: 1580389814.152131
     EVENT: 1580389815.1548214 1 st
     EVENT: 1580389816.1533117  2nd
@@ -85,7 +85,7 @@ scheduler = sched.scheduler(time.time, 
 
     **示例:**
 
-    ```
+    ```py
     # library imported
     import sched
     import time
@@ -114,7 +114,7 @@ scheduler = sched.scheduler(time.time, 
 
     **输出:**
 
-    ```
+    ```py
     START: 1580389960.5845037
     EVENT: 1580389961.5875661 Event X
 
@@ -127,7 +127,7 @@ scheduler = sched.scheduler(time.time, 
     > **参数:**
     > **事件:**应该移除的事件。
 
-    ```
+    ```py
     import sched
     import time
 
@@ -165,7 +165,7 @@ scheduler = sched.scheduler(time.time, 
 
     **输出:**
 
-    ```
+    ```py
     START: 1580390119.54074
     EVENT: 1580390121.5439944  2nd
 
@@ -175,7 +175,7 @@ scheduler = sched.scheduler(time.time, 
 
     **示例:**
 
-    ```
+    ```py
     import sched
     import time
 
@@ -210,7 +210,7 @@ scheduler = sched.scheduler(time.time, 
 
     **输出:**
 
-    ```
+    ```py
     START: 1580390318.1343799
     True
     False
@@ -220,7 +220,7 @@ scheduler = sched.scheduler(time.time, 
 
 *   **scheduler.queue** Read-only attribute returning a list of upcoming events in the order they will be run. Each event is shown as a named tuple with the following fields: time, priority, action, argument, kwargs.
 
-    ```
+    ```py
     # library imported
     import sched
     import time

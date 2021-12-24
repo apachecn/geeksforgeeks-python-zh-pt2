@@ -24,7 +24,7 @@ Python 中没有跟踪变量的内置方法。但是 tkinter 支持创建变量�
 2.  **trace _ info():**
     trace _ info()方法已经取代了 trace_vinfo()方法和 trace()方法。它返回回调的名称。这通常用于查找要删除的回调的名称。除了 tkinter 变量本身，此方法不接受任何参数。
 
-```
+```py
 Syntax : trace_info(self) 
 ```
 
@@ -32,7 +32,7 @@ Syntax : trace_info(self)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to trace
 # variable in tkinter
 

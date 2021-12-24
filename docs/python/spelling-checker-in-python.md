@@ -8,7 +8,7 @@
 
 首先需要在命令提示符下使用 pip 安装库 **textblob** 。
 
-```
+```py
 pip install textblob
 
 ```
@@ -17,7 +17,7 @@ pip install textblob
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 !{sys.executable} - m pip install textblob
 ```
@@ -26,7 +26,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 from textblob import TextBlob
 
 a = "cmputr"           # incorrect spelling
@@ -40,7 +40,7 @@ print("corrected text: "+str(b.correct()))
 
 **输出:**
 
-```
+```py
 original text: cmputr
 corrected text: computer
 
@@ -50,7 +50,7 @@ corrected text: computer
 
 您可以使用 pip: 如下所示安装此库:
 
-```
+```py
 pip install pyspellchecker 
 ```
 
@@ -58,7 +58,7 @@ pip install pyspellchecker
 
 ## **蟒蛇 3**
 
-```
+```py
 import sys
 !{sys.executable} - m pip install pyspellchecker
 ```
@@ -67,7 +67,7 @@ import sys
 
 ## **蟒蛇 3**
 
-```
+```py
 from spellchecker import SpellChecker
 
 spell = SpellChecker()
@@ -85,7 +85,7 @@ for word in misspelled:
 
 ****输出:**** 
 
-```
+```py
 computer
 {'caput', 'caputs', 'compute', 'computor', 'impute', 'computer'}
 water
@@ -100,14 +100,14 @@ write
 
 **1)安装开关 3**
 
-```
+```py
 apt-get install swig3.0   # for linux
 brew install swig@3       # for mac 
 ```
 
 **2)安装 jamspell**
 
-```
+```py
 pip install jamspell 
 ```
 
@@ -115,7 +115,7 @@ pip install jamspell
 
 ## **蟒蛇 3**
 
-```
+```py
 # Create a corrector
 corrector = jamspell.TSpellCorrector()
 
@@ -135,7 +135,7 @@ print(corrector.GetCandidates(['i', 'am', 'the', 'begt', 'spell', 'cherken'], 5)
 
 ****输出:****
 
-```
+```py
 u'I am the best spell checker!'
 (u'best', u'beat', u'belt', u'bet', u'bent')
 (u'checker', u'chicken', u'checked', u'wherein', u'coherent', ...) 

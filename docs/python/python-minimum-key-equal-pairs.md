@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该特定任务。在本文中，我们首先使用 groupby()和 itemgetter()对相似的有值元素进行分组，然后使用 min()提取其中的最小值，并使用列表理解在列表中累加结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum key equal pairs
 # using min() + groupby() + itemgetter() + list comprehension
@@ -31,7 +31,7 @@ print("Minimum key equal pairs : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(4, 3), (2, 3), (3, 10), (5, 10), (5, 6)]
 Minimum key equal pairs : [(2, 3), (3, 10), (5, 6)]
 
@@ -41,7 +41,7 @@ Minimum key equal pairs : [(2, 3), (3, 10), (5, 6)]
 
 以上功能的组合也可以实现这个任务。在本例中，我们将列表元组键值对转换为字典，并使用 setdefault()指定默认值。使用列表理解计算最终结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum key equal pairs
 # using setdefault() + items() + loop + list comprehension
@@ -66,7 +66,7 @@ print("Minimum key equal pairs : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(4, 3), (2, 3), (3, 10), (5, 10), (5, 6)]
 Minimum key equal pairs : [(2, 3), (3, 10), (5, 6)]
 

@@ -8,7 +8,7 @@
 
 这个函数可以用来执行这个特殊的任务，添加一个参数(16)这个函数可以将十六进制的字符串数字转换为十六进制，同时将其转换为整数。
 
-```
+```py
 # Python3 code to demonstrate
 # converting hexadecimal string to decimal
 # Using int()
@@ -29,7 +29,7 @@ print("The decimal number of hexadecimal string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : A
 The decimal number of hexadecimal string : 10
 
@@ -39,7 +39,7 @@ The decimal number of hexadecimal string : 10
 
 我们可以通过使用预测基数并将数字字符串转换为十进制数字格式的文字求值函数来执行这个特定的函数。
 
-```
+```py
 # Python3 code to demonstrate
 # converting hexadecimal string to decimal
 # Using ast.literal_eval()
@@ -61,7 +61,7 @@ print("The decimal number of hexadecimal string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : A
 The decimal number of hexadecimal string : 10
 

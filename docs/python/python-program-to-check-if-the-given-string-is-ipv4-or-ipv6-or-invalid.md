@@ -26,7 +26,7 @@
 
 下面是实现。
 
-```
+```py
 from ipaddress import ip_address, IPv4Address
 
 def validIPAddress(IP: str) -> str:
@@ -53,7 +53,7 @@ if __name__ == '__main__' :  
 
 **输出:**
 
-```
+```py
 IPv4
 IPv6
 Invalid

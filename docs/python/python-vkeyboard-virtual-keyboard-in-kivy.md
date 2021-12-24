@@ -19,7 +19,7 @@ VKeyboard 是 Kivy 的屏幕键盘。其操作对用户来说是透明的。不�
 
 在该调用过程中，在散点之上实现的虚拟键盘将改变散点的行为，并将键盘定位在目标附近(如果设置了目标和停靠模式)。
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -34,7 +34,7 @@ Basic Approach:
 
 **#实施方法:**
 
-```
+```py
 # import kivy module  
 import kivy  
 

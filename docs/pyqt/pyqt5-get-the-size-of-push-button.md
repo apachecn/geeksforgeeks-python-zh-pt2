@@ -16,7 +16,7 @@
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 
@@ -67,7 +67,7 @@ window = Window()
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.QSize(150, 40)
 ```
 
@@ -77,7 +77,7 @@ PyQt5.QtCore.QSize(150, 40)
 
 > **语法:**
 > 
-> ```
+> ```py
 > button.geometry()
 > button.rect()
 > 
@@ -89,7 +89,7 @@ PyQt5.QtCore.QSize(150, 40)
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 
@@ -141,7 +141,7 @@ window = Window()
 
 **输出:**
 
-```
+```py
 PyQt5.QtCore.QRect(200, 150, 150, 40)
 PyQt5.QtCore.QRect(0, 0, 150, 40)
 

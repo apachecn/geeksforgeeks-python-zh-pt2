@@ -8,7 +8,7 @@
 
 turtle.forward()方法用于根据接受的参数值向前移动乌龟。它给出了移动到另一个位置或方向的路线。
 
-```
+```py
 turtle.forward(distance)
 
 ```
@@ -21,7 +21,7 @@ turtle.forward(distance)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing packages
 import turtle
 
@@ -38,7 +38,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

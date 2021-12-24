@@ -19,7 +19,7 @@
 
 1.  **Urllib2 :** `Urllib2` is a python module used for fetching URL’s. It offers a very simple interface, in the form of urlopen function, which is capable of fetching URL’s using different protocols like HTTP, FTP etc.
 
-    ```
+    ```py
     # Using urllib2 module
     from urllib.request import urlopen
 
@@ -35,11 +35,11 @@
 
     安装请求可以使用 pip 完成。
 
-    ```
+    ```py
     pip install requests
     ```
 
-    ```
+    ```py
     # Using requests module
     import requests
 
@@ -61,11 +61,11 @@
 
     `pip` 可用于安装美化套件:
 
-    ```
+    ```py
     pip install beautifulsoup4
     ```
 
-    ```
+    ```py
     # importing BeautifulSoup form
     # bs4 module
     from bs4 import BeautifulSoup
@@ -90,11 +90,11 @@
 
     您可以通过使用`pip` 工具将其安装为 python 包来开始使用 lxml:
 
-    ```
+    ```py
     pip install lxml
     ```
 
-    ```
+    ```py
     # importing etree from lxml module
     from lxml import etree
 
@@ -113,11 +113,11 @@
 
     `pip` 包装用于安装硒:
 
-    ```
+    ```py
     pip install selenium
     ```
 
-    ```
+    ```py
     # importing webdriver from selenium module
     from selenium import webdriver
 
@@ -138,11 +138,11 @@
 
     可以使用以下命令安装机械汤:
 
-    ```
+    ```py
     pip install MechanicalSoup
     ```
 
-    ```
+    ```py
     # importing mechanicalsoup
     import mechanicalsoup
 
@@ -166,17 +166,17 @@
 
     1.  使用 pip :
 
-        ```
+        ```py
         pip install scrapy
         ```
 
     2.  使用蟒蛇:首先安装**蟒蛇**或**迷你蟒蛇**，然后使用以下命令安装 scrapy :
 
-        ```
+        ```py
         conda install -c conda-forge scrapy
         ```
 
-    ```
+    ```py
     # importing scrapy module
     import scrapy
 
@@ -196,7 +196,7 @@
 
     使用以下命令运行一个报废代码:
 
-    ```
+    ```py
     scrapy runspider samplescapy.py
     ```
 

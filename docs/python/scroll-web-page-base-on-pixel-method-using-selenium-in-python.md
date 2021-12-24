@@ -17,7 +17,7 @@ Selenium 是通过程序控制网络浏览器和执行浏览器自动化的强�
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
@@ -30,7 +30,7 @@ driver=webdriver.Chrome(ChromeDriverManager().install())
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager
@@ -46,7 +46,7 @@ driver.get("https://www.countries-ofthe-world.com/flags-of-the-world.html")
 
 ## 蟒蛇 3
 
-```
+```py
 driver.maximize_window()
 ```
 
@@ -54,7 +54,7 @@ driver.maximize_window()
 
 ## 蟒蛇 3
 
-```
+```py
 driver.execute_script("window.scrollBy(0,2000)","")
 ```
 
@@ -62,7 +62,7 @@ driver.execute_script("window.scrollBy(0,2000)","")
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 import time
 from webdriver_manager.chrome import ChromeDriverManager

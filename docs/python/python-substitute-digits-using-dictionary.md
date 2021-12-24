@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮方法。在这种情况下，我们遍历列表中的每个元素，并在将数字转换为字符串后使用映射值重新创建它。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substitute digits using Dictionary
 # Using loop 
@@ -48,7 +48,7 @@ print("List after Digit Substitution : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [45, 32, 87, 34, 21, 91]
 List after Digit Substitution : [27, 86, 95, 82, 64, 34]
 
@@ -57,7 +57,7 @@ List after Digit Substitution : [27, 86, 95, 82, 64, 34]
 **方法 2:使用`join() + list comprehension + str() + int()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 str()和 int()执行相互转换的任务，连接和列表理解用于以速记的形式绑定逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substitute digits using Dictionary
 # Using join() + list comprehension + str() + int()
@@ -81,7 +81,7 @@ print("List after Digit Substitution : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [45, 32, 87, 34, 21, 91]
 List after Digit Substitution : [27, 86, 95, 82, 64, 34]
 

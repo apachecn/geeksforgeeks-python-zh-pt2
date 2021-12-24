@@ -10,7 +10,7 @@ Python 中的字符串可以使用单引号、双引号甚至三引号来创建�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for
 # Creation of String
 
@@ -43,7 +43,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 String with the use of Single Quotes: 
 Welcome to the Geeks World
 
@@ -69,7 +69,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Access
 # characters of String
 
@@ -88,7 +88,7 @@ print(String1[-1])
 
 **输出:**
 
-```
+```py
 Initial String: 
 GeeksForGeeks
 
@@ -105,7 +105,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to
 # demonstrate String slicing
 
@@ -127,7 +127,7 @@ print(String1[3:-2])
 
 **输出:**
 
-```
+```py
 Initial String: 
 GeeksForGeeks
 
@@ -146,7 +146,7 @@ ksForGee
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Update
 # character of a String
 
@@ -172,7 +172,7 @@ print(String1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Update
 # entire String
 
@@ -188,7 +188,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Initial String: 
 Hello, I'm a Geek
 
@@ -200,7 +200,7 @@ Welcome to the Geek World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Delete
 # characters from a String
 
@@ -228,7 +228,7 @@ print(String1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Delete
 # entire String
 
@@ -258,7 +258,7 @@ print(String1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for
 # Escape Sequencing
 # of String
@@ -287,7 +287,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Initial String with use of Triple Quotes: 
 I'm a "Geek"
 
@@ -305,7 +305,7 @@ C:\Python\Geeks\
 
 ## 蟒蛇 3
 
-```
+```py
 # Printing Geeks in HEX
 String1 = "This is \x47\x65\x65\x6b\x73 in \x48\x45\x58"
 print("\nPrinting in HEX with the use of Escape Sequences: ")
@@ -320,7 +320,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Printing in HEX with the use of Escape Sequences: 
 This is Geeks in HEX
 
@@ -334,7 +334,7 @@ Python 中的字符串可以使用 [format()](https://www.geeksforgeeks.org/pyth
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for
 # Formatting of Strings
 
@@ -356,7 +356,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Print String in default order: 
 Geeks For Life
 
@@ -371,7 +371,7 @@ Life For Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Formatting of Integers
 String1 = "{0:b}".format(16)
 print("\nBinary representation of 16 is ")
@@ -390,7 +390,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Binary representation of 16 is 
 10000
 
@@ -405,7 +405,7 @@ one-sixth is :
 
 ## 蟒蛇 3
 
-```
+```py
 # String alignment
 String1 = "|{:<10}|{:^10}|{:>10}|".format('Geeks', 'for', 'Geeks')
 print("\nLeft, center and right alignment with Formatting: ")
@@ -418,7 +418,7 @@ print(String1)
 
 **输出:**
 
-```
+```py
 Left, center and right alignment with Formatting: 
 |Geeks     |   for    |     Geeks|
 
@@ -429,7 +429,7 @@ Left, center and right alignment with Formatting:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program for
 # Old Style Formatting
 # of Integers
@@ -443,7 +443,7 @@ print('The value of Integer1 is %3.4f' % Integer1)
 
 **输出:**
 
-```
+```py
 Formatting in 3.2f format: 
 The value of Integer1 is 12.35
 

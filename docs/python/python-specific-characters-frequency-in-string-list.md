@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Specific Characters Frequency in String List
 # Using join() + Counter()
@@ -42,7 +42,7 @@ print("Specific Characters Frequencies : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeksforgeeks is best for geeks']
 Specific Characters Frequencies : {'g': 3, 'e': 7, 'b': 1}
 
@@ -54,7 +54,7 @@ Specific Characters Frequencies : {'g': 3, 'e': 7, 'b': 1}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Specific Characters Frequency in String List
 # Using chain.from_iterable() + Counter() + dictionary comprehension
@@ -80,7 +80,7 @@ print("Specific Characters Frequencies : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['geeksforgeeks is best for geeks']
 Specific Characters Frequencies : {'g': 3, 'e': 7, 'b': 1}
 

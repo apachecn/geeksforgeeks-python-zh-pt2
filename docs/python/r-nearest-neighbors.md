@@ -28,7 +28,7 @@ r-最近邻是[k-最近邻](https://www.geeksforgeeks.org/k-nearest-neighbours/)
 
 ## C/C++
 
-```
+```py
 // C++ program to implement the
 // r nearest neighbours algorithm.
 #include <bits/stdc++.h>
@@ -132,7 +132,7 @@ int main()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to implement the 
 # r nearest neighbours algorithm. 
 import math 
@@ -191,7 +191,7 @@ if __name__ == '__main__': 
 
 **Output:**
 
-```
+```py
 The value classified to query point is: 1.
 
 ```

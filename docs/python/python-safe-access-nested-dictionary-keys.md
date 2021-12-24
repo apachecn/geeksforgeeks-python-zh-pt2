@@ -8,7 +8,7 @@
 
 这个方法就是用来解决这个特定的问题，我们只是利用`get()`的功能性，在没有值的情况下进行检查和赋值来实现这个特定的任务。如果没有任何键，只返回无错误。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Safe access nested dictionary key
 # Using nested get()
@@ -29,7 +29,7 @@ print("The nested safely accessed value is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': {'is': 'best'}}
 The nested safely accessed value is :  best
 
@@ -39,7 +39,7 @@ The nested safely accessed value is :  best
 
 上述功能的组合可用于执行该特定任务。它只是使用 lambda 函数检查可用的键。这个方法的优点是一次可以查询 1 个以上的键，即更多的嵌套级别键，但缺点是它只适用于 Python2。
 
-```
+```py
 # Python code to demonstrate working of
 # Safe access nested dictionary key
 # Using reduce() + lambda
@@ -61,7 +61,7 @@ print("The nested safely accessed value is :  " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'Gfg': {'is': 'best'}}
 The nested safely accessed value is :  best
 

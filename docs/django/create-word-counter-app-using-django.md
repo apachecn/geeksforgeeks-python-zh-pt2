@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # defining function for wordcounter
@@ -63,7 +63,7 @@ def counter(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from . import views
 from django.conf import settings
@@ -82,7 +82,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% if i %}
 <div class="mb-2" style="border-style: groove;border-radius: 10px;">
   <div class="card-header">

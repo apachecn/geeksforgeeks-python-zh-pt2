@@ -13,7 +13,7 @@
 **方法:使用 loop + `set() + intersection()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们对所有元素进行迭代，然后对嵌套循环中在此之后出现的所有元素进行迭代。执行元素的交集，如果发现任何元素相似，即大小> = 0，则元组被合并到相似链中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Paired elements grouping
 # Using loop + set() + intersection()
@@ -42,7 +42,7 @@ print("The grouped list : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(1, 3), (4, 5), (1, 7), (3, 4), (7, 8)]
 The grouped list : [{1, 3, 7}, {1, 3, 4}, {3, 4, 5}, {8, 1, 7}]
 

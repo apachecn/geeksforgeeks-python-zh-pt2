@@ -36,7 +36,7 @@
 
 上述方法已用于以下程序中的`convertToSparseMatrix()`功能:
 
-```
+```py
 # Python program to convert a
 # matrix to sparse matrix
 
@@ -99,7 +99,7 @@ convertToSparseMatrix(normalMatrix)       
 
 **输出:**
 
-```
+```py
 0 1 0 0 
 0 0 2 0 
 0 3 0 0 

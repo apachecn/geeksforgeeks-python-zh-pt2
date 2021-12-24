@@ -6,7 +6,7 @@
 
 **代码:初始化 1D-Python 列表**
 
-```
+```py
 # Python code to initialize 1D-list  
 
 # Initialize using star operator
@@ -25,7 +25,7 @@ print("list2 : ", list2)
 
 **输出:**
 
-```
+```py
 list1 :  [0, 0, 0, 0, 0]
 list2 :  [0, 0, 0, 0, 0]
 

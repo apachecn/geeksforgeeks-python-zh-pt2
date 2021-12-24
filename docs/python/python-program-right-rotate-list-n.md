@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : n = 2 
          List_1 = [1, 2, 3, 4, 5, 6]
 Output : List_1 = [5, 6, 1, 2, 3, 4]
@@ -22,7 +22,7 @@ Output : List_1 = [4, 2, 3, 3, 0, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to right rotate a list by n
 
 # Returns the rotated list
@@ -50,7 +50,7 @@ print(rightRotate(list_1, rotate_num))
 
 **输出:**
 
-```
+```py
 [4, 5, 6, 1, 2, 3]
 ```
 
@@ -60,7 +60,7 @@ print(rightRotate(list_1, rotate_num))
 
 ## 蟒 3
 
-```
+```py
 # Python program to right rotate
 # a list by n using list slicing
 n = 3
@@ -73,7 +73,7 @@ print(list_1)
 
 **输出:**
 
-```
+```py
 [4, 5, 6, 1, 2, 3]
 ```
 
@@ -81,7 +81,7 @@ print(list_1)
 
 ## 蟒蛇
 
-```
+```py
 # Right Rotating a list to n positions
 n = 8
 
@@ -95,7 +95,7 @@ print(list_1)
 
 **输出:**
 
-```
+```py
 [4, 5, 6, 1, 2, 3]
 ```
 

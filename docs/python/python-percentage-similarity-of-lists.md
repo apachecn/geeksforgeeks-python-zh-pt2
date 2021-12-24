@@ -7,7 +7,7 @@
 **方法:使用`"|" operator + "&" operator + set()`**
 形式上应用于计算列表间相似度的方法是找出不同的元素和共同的元素，并计算其商。然后将结果乘以 100，得到百分比。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Percentage similarity of lists
 # using "|" operator + "&" operator + set()
@@ -30,7 +30,7 @@ print("Percentage similarity among lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 4, 6, 8, 9, 10, 7]
 The original list 2 is : [7, 11, 12, 8, 9]
 Percentage similarity among lists is : 33.33333333333333

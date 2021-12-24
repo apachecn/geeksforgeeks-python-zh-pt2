@@ -26,7 +26,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = [54, 67, 12, 45, 98, 76, 9]
 
@@ -54,7 +54,7 @@ print("List after palindromic removals ? : " + str(res))*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = [54, 67, 12, 45, 98, 76, 9]
 

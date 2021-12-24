@@ -8,7 +8,7 @@
 
 这个问题可以通过上述两个函数的组合来解决，其中我们使用列表理解来将逻辑扩展到每个元素，使用求和函数来获得和，使用切片来获得和，直到特定的索引。
 
-```
+```py
 # Python3 code to demonstrate
 # prefix sum list
 # using list comprehension + sum() + list slicing 
@@ -29,7 +29,7 @@ print("The prefix sum list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The prefix sum list is : [3, 7, 8, 15, 24, 25]
 
@@ -37,7 +37,7 @@ The prefix sum list is : [3, 7, 8, 15, 24, 25]
 
 **方法#2:** 使用`accumulate(iterable)`方法。
 
-```
+```py
 # function to find cumulative sum of list
 from itertools import accumulate 
 
@@ -52,6 +52,6 @@ if __name__ == "__main__": 
 
 **输出:**
 
-```
+```py
 [3, 7, 8, 15, 24, 25]
 ```

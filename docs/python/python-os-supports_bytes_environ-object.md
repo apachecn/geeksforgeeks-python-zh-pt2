@@ -14,7 +14,7 @@ Python 中的`***os.supports_bytes_environ***`检查环境的本机操作系统�
 
 **Code:** Use of os.supports_bytes_environ to check whether native OS type of the environment is bytes or not.
 
-```
+```py
 # Python program to explain os.supports_bytes_environ object 
 
 # importing os module 
@@ -31,7 +31,7 @@ print(isBytes)
 
 **Output:**
 
-```
+```py
 True
 
 ```

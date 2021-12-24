@@ -20,7 +20,7 @@ Python 会立即将解释器中最后一个表达式的值保存在这个唯一�
 
 ## 蟒蛇 3
 
-```
+```py
 # Storing value in _
 _ = 2 + 8
 
@@ -29,7 +29,7 @@ print(_)
 
 **输出:**
 
-```
+```py
 10
 ```
 
@@ -41,7 +41,7 @@ print(_)
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating tuple
 Tuple = (50, 40, 30)
 
@@ -52,7 +52,7 @@ for _ in range(3):
 
 **输出:**
 
-```
+```py
 50
 40
 30
@@ -62,7 +62,7 @@ for _ in range(3):
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating list
 List = ['Geeks', 4, 'Geeks!']
 
@@ -73,7 +73,7 @@ for _ in List:
 
 **输出:**
 
-```
+```py
 Geeks
 4
 Geeks!
@@ -87,7 +87,7 @@ Geeks!
 
 ## 蟒蛇 3
 
-```
+```py
 # Using _ to ignore values
 p, _, r = 'Geeks', 4, 'Geeks!'
 
@@ -96,7 +96,7 @@ print(p, r)
 
 **输出:**
 
-```
+```py
 Geeks Geeks!
 ```
 
@@ -104,7 +104,7 @@ Geeks Geeks!
 
 ## 蟒蛇 3
 
-```
+```py
 # Using _ to ignore multiple values
 p, q, *_, r = 'Geeks', 4, 'randomText', 1234, '3.14', "Geeks!"
 
@@ -115,7 +115,7 @@ print(_)
 
 **输出:**
 
-```
+```py
 Geeks 4 Geeks!
 ['randomText', 1234, '3.14']
 ```
@@ -126,7 +126,7 @@ Geeks 4 Geeks!
 
 ## 蟒蛇 3
 
-```
+```py
 # Using _ to separate digits
 Crore = 10_00_000
 
@@ -135,7 +135,7 @@ print(Crore)
 
 **输出:**
 
-```
+```py
 1000000
 ```
 
@@ -147,7 +147,7 @@ print(Crore)
 
 ## 蟒蛇 3
 
-```
+```py
 class Gfg:
     a = None
     _b = None
@@ -186,7 +186,7 @@ Obj.accessPrivateMethod()
 
 **输出:**
 
-```
+```py
 Geeks
 4
 Geeks!

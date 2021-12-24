@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Mirror Image of String
 # Using Mirror Image of String
@@ -49,7 +49,7 @@ print("The mirror string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : void
 The mirror string : voib
 

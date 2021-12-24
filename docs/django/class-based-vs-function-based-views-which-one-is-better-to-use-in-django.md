@@ -40,7 +40,7 @@ cons:t1]
 
 ## 蟒蛇 3
 
-```
+```py
 def example_create_view(request, pk):
   template_name = 'form.html'
   form_class = FormExample

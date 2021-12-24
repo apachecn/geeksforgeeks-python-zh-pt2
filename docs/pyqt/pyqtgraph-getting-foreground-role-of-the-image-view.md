@@ -21,7 +21,7 @@ PyQtGraph 是一个图形和用户界面 Python 库，用于设计和科学应�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

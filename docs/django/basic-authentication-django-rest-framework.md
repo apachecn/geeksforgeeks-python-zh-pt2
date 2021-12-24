@@ -17,7 +17,7 @@ Django REST 框架中的基本认证使用 HTTP 基本认证。它通常适用�
 
 ## 蟒蛇 3
 
-```
+```py
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
@@ -35,7 +35,7 @@ REST_FRAMEWORK = {
 
 ## 蟒蛇 3
 
-```
+```py
 @api_view(['GET'])
 @authentication_classes([BasicAuthentication])
 @permission_classes([IsAuthenticated])
@@ -57,7 +57,7 @@ def function_based_view(request, format=None):
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework.authentication import SessionAuthentication, BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
@@ -93,7 +93,7 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
         )
 }
-```
+```py
 
 **注意:**你可以参考[文章中使用的模型、序列化程序和项目视图的可浏览 API 部分](https://www.geeksforgeeks.org/browsable-api-in-django-rest-framework/)
 
@@ -101,7 +101,7 @@ REST_FRAMEWORK = {
 
 ```
 from rest_framework.permissions import IsAuthenticated
-```
+```py
 
 现在，让我们将 RobotDetail 和 RobotList 类的权限类设置为“已验证”。代码如下:
 
@@ -119,7 +119,7 @@ class RobotList(generics.ListCreateAPIView):
     queryset = Robot.objects.all()
     serializer_class = RobotSerializer
     name = 'robot-list'
-```
+```py
 
 让我们尝试在不提供任何凭据的情况下检索机器人。HTTPie 命令是
 

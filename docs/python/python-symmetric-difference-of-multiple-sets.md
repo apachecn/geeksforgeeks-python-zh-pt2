@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Symmetric Difference of Multiple sets
 # Using Counter() + chain.from_iterable() 
@@ -61,7 +61,7 @@ print("Symmetric difference of multiple list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Symmetric Difference of Multiple sets
 # Using Counter() + chain.from_iterable() + items()

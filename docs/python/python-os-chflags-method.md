@@ -27,7 +27,7 @@
 > 
 > **返回:**不返回值
 
-```
+```py
 # Python3 program to change directory 
 # of file using os.chflags() method
 
@@ -48,6 +48,6 @@ print("Operation successful, returning value: %s" %val)
 
 输出:
 
-```
+```py
 Operation successful, returning value: None
 ```

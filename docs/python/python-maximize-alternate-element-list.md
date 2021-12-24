@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片+ `max()`**
 使用列表理解的列表切片可以用来执行这个特定的任务。我们可以通过列表理解来获得运行逻辑，列表切片可以通过最大化函数来分割出可选字符。
 
-```
+```py
 # Python3 code to demonstrate
 # Maximize alternate element List
 # using list comprehension + list slicing + max()
@@ -28,7 +28,7 @@ print("The alternate elements maximum list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [2, 1, 5, 6, 8, 10]
 The alternate elements maximum list : [8, 10]
 

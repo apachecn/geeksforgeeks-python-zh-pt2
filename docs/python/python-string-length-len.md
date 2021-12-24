@@ -22,7 +22,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the use of
 # len() method 
 
@@ -41,7 +41,7 @@ print(len(l))
 
 **输出:**
 
-```
+```py
 5
 3
 4
@@ -51,13 +51,13 @@ print(len(l))
 
 ## 蟒蛇 3
 
-```
+```py
 print(len(True))
 ```
 
 **输出:**
 
-```
+```py
 TypeError: object of type 'bool' has no len()
 ```
 
@@ -65,7 +65,7 @@ TypeError: object of type 'bool' has no len()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate the use of
 # len() method 
 
@@ -78,7 +78,7 @@ print(len(s))
 
 **输出:**
 
-```
+```py
 2
 4
 ```
@@ -87,7 +87,7 @@ print(len(s))
 
 ## 蟒蛇 3
 
-```
+```py
 class Public:
     def __init__(self, number):
         self.number = number
@@ -100,6 +100,6 @@ print(len(obj))
 
 **输出:**
 
-```
+```py
 12
 ```

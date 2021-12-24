@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # list frequency of elements
 # using Counter() + set() + list comprehension
@@ -33,7 +33,7 @@ print("The list frequency of elements is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [[3, 5, 4], [6, 2, 4], [1, 3, 6]]
 The list frequency of elements is : {1: 1, 2: 1, 3: 2, 4: 2, 5: 1, 6: 2}
 ```

@@ -38,7 +38,7 @@ S <sub>6</sub>
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import networkx as nx
 
@@ -62,7 +62,7 @@ nx.draw(G, node_color = 'green',
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import networkx as nx
 

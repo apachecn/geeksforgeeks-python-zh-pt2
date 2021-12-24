@@ -8,7 +8,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # simple display function
 def func(num):
 
@@ -24,7 +24,7 @@ print(a)
 
 ****输出:****
 
-```
+```py
 NameError: name 'a' is not defined 
 ```
 
@@ -42,7 +42,7 @@ NameError: name 'a' is not defined
 
 ## **计算机编程语言**
 
-```
+```py
 # unused function
 def my_func():
 
@@ -59,7 +59,7 @@ for i in range(0, 5):
 
 ****Output**
 
-```
+```py
 0
 1
 2
@@ -78,7 +78,7 @@ for i in range(0, 5):
 
 ## **计算机编程语言**
 
-```
+```py
 # unused function
 def my_func():
 
@@ -95,7 +95,7 @@ for i in range(0, 5):
 
 ****Output**
 
-```
+```py
 0
 1
 2
@@ -116,7 +116,7 @@ for i in range(0, 5):
 
 ## **蟒蛇 3**
 
-```
+```py
 # unused function
 def my_func():
 

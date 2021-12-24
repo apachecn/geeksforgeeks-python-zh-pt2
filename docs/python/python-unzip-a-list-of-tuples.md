@@ -10,7 +10,7 @@ zipping 技术，即从两个不同的列表中分配键值或配对，已经在
 
 使用列表理解是执行解压缩任务的最天真的方法，通常不用于执行此任务，但这是一个很好的方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # Unzip a list of tuples
 # using list comprehension
@@ -32,7 +32,7 @@ print ("Modified list is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list is : [('Akshat', 1), ('Bro', 2), ('is', 3), ('Placed', 4)]
 Modified list is : [['Akshat', 'Bro', 'is', 'Placed'], [1, 2, 3, 4]]
 
@@ -42,7 +42,7 @@ Modified list is : [['Akshat', 'Bro', 'is', 'Placed'], [1, 2, 3, 4]]
 
 最常用的解压方法，也是最推荐的方法。这种方法一般被各地的程序员用来执行这个任务。*运算符将元组解压到独立的列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # Unzip a list of tuples
 # using zip() and * operator
@@ -63,7 +63,7 @@ print ("Modified list is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list is : [('Akshat', 1), ('Bro', 2), ('is', 3), ('Placed', 4)]
 Modified list is : [('Akshat', 'Bro', 'is', 'Placed'), (1, 2, 3, 4)]
 
@@ -72,7 +72,7 @@ Modified list is : [('Akshat', 'Bro', 'is', 'Placed'), (1, 2, 3, 4)]
 **方法#3 :** 使用`map()`
 这是另一种可以用来执行解压任务的方法，这种方法不太为人所知，但确实是实现该任务的一种方法。这也使用*运算符来执行列表的基本解包。Python > = 3 个版本不推荐使用该功能。
 
-```
+```py
 # Python code to demonstrate 
 # Unzip a list of tuples
 # using map()
@@ -93,7 +93,7 @@ print ("Modified list is : " + str(res))
 
 **输出:**
 
-```
+```py
 Original list is : [('Akshat', 1), ('Bro', 2), ('is', 3), ('Placed', 4)]
 Modified list is : [('Akshat', 'Bro', 'is', 'Placed'), (1, 2, 3, 4)]
 

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.Frame.CreateStatusBar(self, number=1, style=STB_DEFAULT_STYLE,
 >                                      id=0, name=StatusBarNameStr)
 > 
@@ -24,7 +24,7 @@
 
 **代码示例:**
 
-```
+```py
 # import wxython
 import wx
 

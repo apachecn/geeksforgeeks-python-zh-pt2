@@ -10,7 +10,7 @@
 
 **安装时，在您的终端中运行以下命令:**
 
-```
+```py
 pip install bs4
 ```
 
@@ -27,7 +27,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 from bs4 import BeautifulSoup
 
@@ -39,7 +39,7 @@ text = "<html> <head><title> Welcome </title></head><body><h1>This is a test pag
 
 ## 蟒蛇 3
 
-```
+```py
 # creating a soup
 soup = BeautifulSoup(text,"html.parser")
 
@@ -55,7 +55,7 @@ print(f"Content of h1 tag is: {soup.h1}")
 
 ## 蟒蛇 3
 
-```
+```py
 # clearing the content of the tag
 soup.h1.clear()
 
@@ -69,7 +69,7 @@ print(f"Content of h1 tag after clearing: {soup.h1}")
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 from bs4 import BeautifulSoup
 

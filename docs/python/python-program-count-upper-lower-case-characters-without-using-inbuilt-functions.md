@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : Introduction to Python
 Output : Lower Case characters : 18 Upper case characters : 2
 
@@ -19,7 +19,7 @@ Output : Lower Case characters : 19  Upper case characters: 3
 
 以下是上述思路的实现:
 
-```
+```py
 # Python3 program to count upper and
 # lower case characters without using
 # inbuilt functions
@@ -50,14 +50,14 @@ upperlower(string)
 
 **Output:**
 
-```
+```py
 Lower case characters = 27 Upper case characters = 3
 
 ```
 
 **替代方法:-**
 
-```
+```py
 s = "The Geek King"
 l,u = 0,0
 for i in s:
@@ -76,7 +76,7 @@ print('Upper case characters: ',u)
 
 **Output:**
 
-```
+```py
 Lower case characters:  8
 Upper case characters:  3
 

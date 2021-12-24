@@ -14,7 +14,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain sys.getswitchinterval() method 
 
 # Importing sys module 
@@ -31,7 +31,7 @@ print(interval) 
 
 **Output:**
 
-```
+```py
 0.005
 
 ```

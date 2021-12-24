@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # getting product
 def prod(sub):
     res = 1
@@ -65,7 +65,7 @@ print("Computed Products : " + str(res))
 
 ## **蟒蛇 3**
 
-```
+```py
 **from functools import reduce
 from operator import mul
 

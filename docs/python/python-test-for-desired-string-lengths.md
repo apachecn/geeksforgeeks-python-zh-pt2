@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for desired String Lengths
 # Using loop
@@ -46,7 +46,7 @@ print("Are all strings of required lengths : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best', 'for', 'geeks']
 Are all strings of required lengths : True
 
@@ -58,7 +58,7 @@ Are all strings of required lengths : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for desired String Lengths
 # Using all()
@@ -82,7 +82,7 @@ print("Are all strings of required lengths : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best', 'for', 'geeks']
 Are all strings of required lengths : True
 

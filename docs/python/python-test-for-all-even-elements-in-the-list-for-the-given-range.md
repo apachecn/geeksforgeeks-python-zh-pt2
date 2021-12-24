@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for all Even elements in List Range
 # Using loop
@@ -46,7 +46,7 @@ print("Are all elements even in range : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 1, 4, 6, 8, 10, 1, 9]
 Are all elements even in range : True
 
@@ -58,7 +58,7 @@ Are all elements even in range : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for all Even elements in List Range
 # Using all() + list comprehension
@@ -81,7 +81,7 @@ print("Are all elements even in range : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 1, 4, 6, 8, 10, 1, 9]
 Are all elements even in range : True
 

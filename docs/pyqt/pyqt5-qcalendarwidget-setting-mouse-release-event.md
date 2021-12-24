@@ -6,7 +6,7 @@
 
 下面是日历类代码
 
-```
+```py
 # QCalendarWidget Class
 class Calendar(QCalendarWidget):
 
@@ -29,7 +29,7 @@ class Calendar(QCalendarWidget):
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -96,7 +96,7 @@ sys.exit(App.exec())
 
 <video class="wp-video-shortcode" id="video-432472-1" width="656" height="404" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200613004623/Python-2020-06-13-00-46-07.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200613004623/Python-2020-06-13-00-46-07.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200613004623/Python-2020-06-13-00-46-07.mp4)</video>
 
-```
+```py
 Mouse Press Event
 Mouse Release Event
 Mouse Press Event

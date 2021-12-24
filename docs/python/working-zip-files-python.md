@@ -17,7 +17,7 @@ ZIP 是一种支持无损数据压缩的归档文件格式。无损压缩是指�
 
 **1。提取压缩文件**
 
-```
+```py
 # importing required modules
 from zipfile import ZipFile
 
@@ -42,32 +42,32 @@ with ZipFile(file_name, 'r') as zip:
 
 让我们试着理解上面的代码:
 
-*   ```
+*   ```py
     from zipfile import ZipFile
     ```
 
     ZipFile 是一类用于读写 zip 文件的 zipfile 模块。这里我们只从 ZipFile 模块导入类 zipfile。
 
-*   ```
+*   ```py
     with ZipFile(file_name, 'r') as zip:
     ```
 
     这里，通过调用接受 zip 文件名和模式参数的 ZipFile 构造函数来创建一个 ZipFile 对象。我们在 **READ** 模式下创建一个 ZipFile 对象，并将其命名为 **zip** 。
 
-*   ```
+*   ```py
     zip.printdir()
     ```
 
     **printdir()** 方法打印归档的目录。
 
-*   ```
+*   ```py
     zip.extractall()
     ```
 
     **extractall()** 方法将 zip 文件的所有内容提取到当前工作目录。您也可以调用 **extract()** 方法，通过在 zip 文件中指定路径来提取任何文件。
     例如:
 
-    ```
+    ```py
     zip.extract('python_files/python_wiki.txt')
     ```
 
@@ -75,7 +75,7 @@ with ZipFile(file_name, 'r') as zip:
 
     如果你想读一些特定的文件，你可以这样走:
 
-    ```
+    ```py
     data = zip.read(name_of_file_to_read)
     ```
 
@@ -88,7 +88,7 @@ with ZipFile(file_name, 'r') as zip:
 在这里，我们需要对整个目录及其子目录进行爬网，以便在将它们写入 zip 文件之前获得所有文件路径的列表。
 下面的程序通过抓取要压缩的目录来实现这一点:
 
-```
+```py
 # importing required modules
 from zipfile import ZipFile
 import os
@@ -138,7 +138,7 @@ if __name__ == "__main__":
 
 让我们试着把上面的代码分成几个片段来理解:
 
-*   ```
+*   ```py
     def get_all_file_paths(directory):
         file_paths = []
 
@@ -153,19 +153,19 @@ if __name__ == "__main__":
     首先，为了获取我们目录中的所有文件路径，我们创建了这个使用 **os.walk()** 方法的函数。在每次迭代中，该目录中的所有文件都被追加到一个名为**文件路径**的列表中。
     最后，我们返回所有的文件路径。
 
-*   ```
+*   ```py
     file_paths = get_all_file_paths(directory)
     ```
 
     这里我们把要压缩的目录传递给**get _ all _ file _ path()**函数，得到一个包含所有文件路径的列表。
 
-*   ```
+*   ```py
     with ZipFile('my_python_files.zip','w') as zip:
     ```
 
     这里，我们这次在 WRITE 模式下创建一个 ZipFile 对象。
 
-*   ```
+*   ```py
     for file in file_paths:
                 zip.write(file)
     ```
@@ -174,7 +174,7 @@ if __name__ == "__main__":
 
 **3。获取关于 zip 文件的所有信息**
 
-```
+```py
 # importing required modules
 from zipfile import ZipFile
 import datetime
@@ -197,7 +197,7 @@ with ZipFile(file_name, 'r') as zip:
 
 ![](img/0a42f8fa8a623273293094d119d9874b.png)
 
-```
+```py
 for info in zip.infolist():
 ```
 

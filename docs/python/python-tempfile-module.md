@@ -23,7 +23,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.TemporaryFile()
@@ -34,7 +34,7 @@ temp.close()
 
 **输出:**
 
-```
+```py
 temp: <_io.BufferedRandom name=6>
 temp.name: 6
 ```
@@ -52,7 +52,7 @@ temp.name: 6
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.TemporaryFile()
@@ -68,7 +68,7 @@ finally:
 
 **输出:**
 
-```
+```py
 b'Hello world!'
 ```
 
@@ -76,7 +76,7 @@ b'Hello world!'
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 f = tempfile.TemporaryFile()
@@ -92,7 +92,7 @@ finally:
 
 **输出:**
 
-```
+```py
 b'Welcome to geeksforgeeks'
 ```
 
@@ -108,7 +108,7 @@ b'Welcome to geeksforgeeks'
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 print("Creating a named temporary file..")
@@ -121,7 +121,7 @@ temp.close()
 
 **输出:**
 
-```
+```py
 Creating a named temporary file..
 Created file is: <tempfile._TemporaryFileWrapper object at 0x7ff135ed1710>
 Name of the file is: /tmp/tmpg8efl258
@@ -131,7 +131,7 @@ Name of the file is: /tmp/tmpg8efl258
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 fo = tempfile.NamedTemporaryFile()
@@ -142,7 +142,7 @@ fo.close()
 
 **输出:**
 
-```
+```py
 /tmp/tmp6nxmoagy
 ```
 
@@ -158,7 +158,7 @@ fo.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp = tempfile.NamedTemporaryFile(prefix="demoPrefix_",
@@ -171,7 +171,7 @@ temp.close()
 
 **输出:**
 
-```
+```py
 Created file is: <tempfile._TemporaryFileWrapper object at 0x7fbf5d39b6d8>
 Name of the file is: /tmp/demoPrefix_t_inxb7v_demoSuffix
 ```
@@ -180,7 +180,7 @@ Name of the file is: /tmp/demoPrefix_t_inxb7v_demoSuffix
 
 ## 蟒蛇 3
 
-```
+```py
 import tempfile
 
 temp=tempfile.NamedTemporaryFile(suffix='_greeks',
@@ -190,6 +190,6 @@ print(temp.name)
 
 **输出:**
 
-```
+```py
 /tmp/forgreeks_4sigabye_greeks
 ```

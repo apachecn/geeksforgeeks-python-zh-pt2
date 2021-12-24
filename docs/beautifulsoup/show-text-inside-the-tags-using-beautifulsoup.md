@@ -13,13 +13,13 @@
 
 **请求**库是 Python 的一个组成部分，用于向指定的网址发出 HTTP 请求。无论是 REST APIs 还是 Web 报废，都必须了解请求，以便进一步使用这些技术。当一个人向 URI 提出请求时，它会返回一个响应。Python 请求提供了管理请求和响应的内置功能。
 
-```
+```py
 pip install requests
 ```
 
 **美汤**是一个 Python 库，专为像刮屏这样的快速周转项目而设计。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -27,7 +27,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 import requests 
 from bs4 import BeautifulSoup
@@ -48,7 +48,7 @@ print(tag.text)
 
 **输出:**
 
-```
+```py
 Skip to content
 ```
 
@@ -56,7 +56,7 @@ Skip to content
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 import requests 
 from bs4 import BeautifulSoup
@@ -77,7 +77,7 @@ print(tag.get_text())
 
 **输出:**
 
-```
+```py
 February 1, 2021
 ```
 
@@ -85,7 +85,7 @@ February 1, 2021
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Required Module
 import requests 
 from bs4 import BeautifulSoup
@@ -106,6 +106,6 @@ print(tag.string)
 
 **输出:**
 
-```
+```py
 February 1, 2021
 ```

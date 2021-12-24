@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: [1,2,[3]]
 Output: 6
 
@@ -25,7 +25,7 @@ Output: 28
 
 T2T4
 
-```
+```py
 # Python Program to find sum
 # of nested list using Recursion
 
@@ -57,6 +57,6 @@ T5
 
 **输出:**
 
-```
+```py
 144
 ```

@@ -16,7 +16,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 我们使用 RelativeLayout 需要做的第一件事就是导入它。
 
-```
+```py
 from kivy.uix.relativelayout import RelativeLayout
 ```
 
@@ -29,7 +29,7 @@ from kivy.uix.relativelayout import RelativeLayout
 **注意:**
 Floatlayout 和 RelativeLayout 都支持绝对和相对定位，具体取决于使用的是 pos_hint 还是 pos。但是如果你想要绝对定位，使用浮动布局。
 
-```
+```py
 Basic Approach to create Relative Layout:
 1) import kivy
 2) import kivy App
@@ -47,7 +47,7 @@ Basic Approach to create Relative Layout:
 
 **主. py 文件**
 
-```
+```py
 ## Sample Python application demonstrating the 
 ## working of RelativeLayout in Kivy using .kv file 
 
@@ -90,7 +90,7 @@ if __name__ == "__main__": 
 
 **[。kv 文件](https://www.geeksforgeeks.org/python-kivy-kv-file/)执行:**
 
-```
+```py
 #.kv file implementation of RelativeLayout 
 
 # creating button feature 

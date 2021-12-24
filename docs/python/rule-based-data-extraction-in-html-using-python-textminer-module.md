@@ -14,7 +14,7 @@
 
 使用以下命令安装 Python textminer:
 
-```
+```py
 pip install textminer
 ```
 
@@ -24,7 +24,7 @@ pip install textminer
 
 **语法:**
 
-```
+```py
 extract(html, rule) 
 ```
 
@@ -35,7 +35,7 @@ extract(html, rule) 
 
 **语法:**
 
-```
+```py
 extract_from_url(url, rule)  
 ```
 
@@ -50,7 +50,7 @@ extract_from_url(url, rule)
 
 ## 蟒蛇 3
 
-```
+```py
 import textminer
 
 # input html
@@ -84,7 +84,7 @@ div 之间提取的数据
 
 ## 蟒蛇 3
 
-```
+```py
 import textminer
 
 # input html
@@ -126,7 +126,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 import textminer
 
 # input html
@@ -170,7 +170,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 import textminer
 
 # required url

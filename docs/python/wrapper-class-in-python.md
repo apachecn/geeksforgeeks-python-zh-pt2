@@ -9,7 +9,7 @@
 **语法:**
 在语法上，类修饰词就出现在类语句之前。
 
-```
+```py
 @decorator
 class Class_Name:       
       ...
@@ -30,7 +30,7 @@ inst = Class_Name(50);
 
 **示例:**
 
-```
+```py
 # decorator accepts a class as 
 # a parameter
 def decorator(cls):
@@ -61,7 +61,7 @@ print(x.get_name())   
 
 **输出:**
 
-```
+```py
 Geeks
 
 ```

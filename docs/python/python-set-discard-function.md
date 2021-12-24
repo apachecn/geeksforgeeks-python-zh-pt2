@@ -6,7 +6,7 @@ discard()是从集合中移除元素的内置方法。discard()方法只接受�
 
 **语法:**
 
-```
+```py
 set.discard(element)
 ```
 
@@ -16,7 +16,7 @@ set.discard(element)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 print(numbers)
@@ -38,7 +38,7 @@ print(numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 print(numbers)
@@ -62,7 +62,7 @@ print("\nresultant set : ", numbers)
 
 ## 蟒蛇 3
 
-```
+```py
 myset = {'a', 1, "geek", 2, 'b', 'abc', "geeksforgeeks", 8}
 
 print(myset)
@@ -84,7 +84,7 @@ print(myset)
 
 ## 蟒蛇 3
 
-```
+```py
 myset = {'a', 1, "geek", 2, 'b', 'abc', "geeksforgeeks", 8}
 
 print(myset)

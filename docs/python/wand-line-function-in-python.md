@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.drawing.line(start, end)
 > ```
 > 
@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing
@@ -58,7 +58,7 @@ with Drawing() as draw:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing

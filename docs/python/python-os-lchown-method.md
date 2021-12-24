@@ -21,7 +21,7 @@ Python 中的`***os.lchown()***`方法用于将指定文件路径的*所有者*�
 
 **Code #1:** Use of os.lchown() method
 
-```
+```py
 # Python program to explain os.lchown() method 
 
 # importing os module 
@@ -61,7 +61,7 @@ print("Group id of the file:", os.stat(path).st_gid) 
 
 **Code #2:** Use of os.lchown() method to set any one id and leave other unchanged.
 
-```
+```py
 # Python program to explain os.lchown() method 
 
 # importing os module 
@@ -104,7 +104,7 @@ print("Group id of the file:", os.stat(path).st_gid) 
 
 **Code #3:** If the specified path is a symlink
 
-```
+```py
 # Python program to explain os.lchown() method 
 
 # importing os module 

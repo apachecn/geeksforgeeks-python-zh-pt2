@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 import numpy as np
 
@@ -36,6 +36,6 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df.shape
 ```

@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `items()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 items()检查字典的所有项，并使用循环来迭代字典键和测试是否相等。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test Kth index in Dictionary value list
 # Using  items() + loop
@@ -43,7 +43,7 @@ print("Are all Kth index equal to N : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'is': [8, 4, 2], 'best': [7, 4, 9], 'Gfg': [1, 4, 8]}
 Are all Kth index equal to N : True
 
@@ -52,7 +52,7 @@ Are all Kth index equal to N : True
 **方法 2:使用`all()` +生成器表达式**
 以上功能的组合也可以用来解决这个问题。在本文中，我们使用 all()来测试所有元素与 n 的相等性。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test Kth index in Dictionary value list
 # Using all() + generator expression
@@ -79,7 +79,7 @@ print("Are all Kth index equal to N : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary : {'is': [8, 4, 2], 'best': [7, 4, 9], 'Gfg': [1, 4, 8]}
 Are all Kth index equal to N : True
 

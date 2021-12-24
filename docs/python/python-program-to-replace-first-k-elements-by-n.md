@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # initializing list
 test_list = [3, 4, 6, 8, 4, 2, 6, 9]
 
@@ -42,7 +42,7 @@ print("Elements after replacement : " + str(test_list))
 
 ****Output**
 
-```
+```py
 The original list is : [3, 4, 6, 8, 4, 2, 6, 9]
 Elements after replacement : [6, 6, 6, 6, 6, 2, 6, 9]
 
@@ -54,7 +54,7 @@ Elements after replacement : [6, 6, 6, 6, 6, 2, 6, 9]
 
 ## **蟒蛇 3**
 
-```
+```py
 # initializing list
 test_list = [3, 4, 6, 8, 4, 2, 6, 9]
 
@@ -76,7 +76,7 @@ print("Elements after replacement : " + str(test_list))
 
 ****Output**
 
-```
+```py
 The original list is : [3, 4, 6, 8, 4, 2, 6, 9]
 Elements after replacement : [6, 6, 6, 6, 6, 2, 6, 9]
 

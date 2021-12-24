@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 HTML Document:
 <html>
 <head>
@@ -29,7 +29,7 @@ Output:
     确保您的系统上安装了 [pip](https://www.geeksforgeeks.org/download-and-install-pip-latest-version/) 。
     在终端运行以下命令安装该库-
 
-```
+```py
 pip install bs4
 or
 pip install beautifulsoup4
@@ -50,7 +50,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -90,7 +90,7 @@ find_tags_from_class(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -139,7 +139,7 @@ find_tags_from_class(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 import re
@@ -189,7 +189,7 @@ find_tags_from_class(HTML_DOC)
 
 **说明:**
 
-```
+```py
 <td class="table-row"> This is row 2 </td>
 <td class="table-row"> This is row 4 </td>
 ```
@@ -200,7 +200,7 @@ find_tags_from_class(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 
@@ -255,7 +255,7 @@ find_tags_from_class(HTML_DOC)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 from bs4 import BeautifulSoup
 import requests

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove keys with Values Greater than K ( Including mixed values )
 # Using loop + isinstance()
@@ -46,7 +46,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 7, 'best': 10, 'for': 6, 'geeks': 'CS'}
 The constructed dictionary : {'Gfg': 3, 'for': 6, 'geeks': 'CS'}
 
@@ -58,7 +58,7 @@ The constructed dictionary : {'Gfg': 3, 'for': 6, 'geeks': 'CS'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove keys with Values Greater than K ( Including mixed values )
 # Using dictionary comprehension + isinstance()
@@ -81,7 +81,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 3, 'is': 7, 'best': 10, 'for': 6, 'geeks': 'CS'}
 The constructed dictionary : {'Gfg': 3, 'for': 6, 'geeks': 'CS'}
 

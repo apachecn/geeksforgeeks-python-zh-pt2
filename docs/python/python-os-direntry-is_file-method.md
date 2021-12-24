@@ -19,7 +19,7 @@
 
 **代码#1:** 使用`***os.DirEntry.is_file()***`方法
 
-```
+```py
 # Python program to explain os.DirEntry.is_file() method 
 
 # importing os module  
@@ -46,7 +46,7 @@ with os.scandir(path) as itr:
 
 **Output:**
 
-```
+```py
 List of all files in path '/home/ihritik':
 file.txt
 tree.cpp
@@ -57,7 +57,7 @@ abc.txt
 
 **代码#2:** 使用`***os.DirEntry.is_file()***`方法
 
-```
+```py
 # Python program to explain os.DirEntry.is_file() method 
 
 # importing os module  
@@ -88,7 +88,7 @@ with os.scandir(path) as itr:
 
 **Output:**
 
-```
+```py
 graph.cpp
 
 ```

@@ -18,7 +18,7 @@ SetBitmap()函数取 wx。位图对象作为参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

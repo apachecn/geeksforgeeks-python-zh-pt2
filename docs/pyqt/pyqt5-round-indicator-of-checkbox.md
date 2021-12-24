@@ -16,7 +16,7 @@
 
 **样式表代码–**
 
-```
+```py
 QCheckBox::indicator
 {
 border : 2px solid black;
@@ -29,7 +29,7 @@ border-radius : 22px;
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

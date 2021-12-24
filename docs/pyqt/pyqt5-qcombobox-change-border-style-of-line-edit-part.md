@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 # creating line edit object
 line_edit = QLineEdit()
 
@@ -36,7 +36,7 @@ self.combo_box.setLineEdit(line_edit)
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

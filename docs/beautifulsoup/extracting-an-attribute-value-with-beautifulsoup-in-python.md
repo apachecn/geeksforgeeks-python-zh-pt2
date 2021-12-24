@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 tag.attrs
 
 ```
@@ -18,7 +18,7 @@ tag.attrs
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -42,7 +42,7 @@ print(attribute)
 
 **输出:**
 
-```
+```py
 {'class': ['hello']}
 
 ```
@@ -51,7 +51,7 @@ print(attribute)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -75,7 +75,7 @@ print(attribute)
 
 **输出:**
 
-```
+```py
 ['hello']
 
 ```
@@ -84,7 +84,7 @@ print(attribute)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -108,7 +108,7 @@ print(attribute)
 
 **输出:**
 
-```
+```py
 ['first', 'second', 'third']
 
 ```

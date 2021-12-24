@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [100, 20, 30, 400]
         list2 = [400, 2, 30]
 Output:
@@ -25,7 +25,7 @@ Output:
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python code to create pair of element 
 # from two list such that element 
 # in pairs are not equal.
@@ -48,7 +48,7 @@ print(output)
 
 **方法 2:使用迭代工具和迭代**
 
-```
+```py
 # Python code to create pair of element 
 # from two list such that element 
 # in pairs are not equal.

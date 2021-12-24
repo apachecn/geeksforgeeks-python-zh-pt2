@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements with K digit
 # Using list comprehension + str()
@@ -42,7 +42,7 @@ print("Elements with digit K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [56, 72, 875, 9, 173]
 Elements with digit K : [72, 875, 173]
 ```
@@ -53,7 +53,7 @@ Elements with digit K : [72, 875, 173]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Elements with K digit
 # Using filter() + lambda + str()
@@ -77,7 +77,7 @@ print("Elements with digit K : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [56, 72, 875, 9, 173]
 Elements with digit K : [72, 875, 173]
 ```

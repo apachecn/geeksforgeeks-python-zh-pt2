@@ -18,7 +18,7 @@ Python 中的`***os.path.isabs()***`方法用于检查指定路径是否为绝�
 
 **代码#1:** 使用`***os.path.isabs()***`方法(在 Unix 平台上)
 
-```
+```py
 # Python program to explain os.path.isabs() method 
 
 # importing os.path module 
@@ -54,7 +54,7 @@ print(isabs)
 
 **Output:**
 
-```
+```py
 True
 False
 False
@@ -63,7 +63,7 @@ False
 
 **代码#2:** 使用`***os.path.isabs()***`方法(在窗口上)
 
-```
+```py
 # Python program to explain os.path.isabs() method 
 
 # importing os.path module 
@@ -99,7 +99,7 @@ print(isabs)
 
 **Output:**
 
-```
+```py
 True
 True
 False

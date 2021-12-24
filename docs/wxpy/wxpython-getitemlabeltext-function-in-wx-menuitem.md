@@ -7,28 +7,28 @@ getitemlatext()函数不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetItemLabelText(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required by GetItemLabelText() function
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > string
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -68,7 +68,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Check
 
 ```

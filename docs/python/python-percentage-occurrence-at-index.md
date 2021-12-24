@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表理解**
 我们可以对每个列表索引使用循环来执行这个特定的任务，为此，我们可以使用列表理解逻辑来计算元素的出现百分比。
 
-```
+```py
 # Python3 code to demonstrate
 # index percentage calculation of element
 # using loop + list comprehension
@@ -30,7 +30,7 @@ print("The percentage of 4 each index is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 4, 5], [2, 4, 6], [3, 5, 4]]
 The percentage of 4 each index is : [0.0, 0.6666666666666666, 0.3333333333333333]
 

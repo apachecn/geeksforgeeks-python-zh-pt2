@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: 3
 Output: 1
         2
@@ -38,7 +38,7 @@ Output: 1
 
 ## python 3
 
-```
+```py
 # Python program to print the octal value of the
 # numbers from 1 to N
 
@@ -63,7 +63,7 @@ octal_in_range(11)
 
 **输出:**
 
-```
+```py
 Input: 3
 1
 2

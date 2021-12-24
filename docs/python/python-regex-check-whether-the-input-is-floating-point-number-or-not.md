@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input:  1.20
 Output: Floating point number
 
@@ -29,7 +29,7 @@ Output: Not a Floating point number
 
 让我们看看 Python 程序:
 
-```
+```py
 # Python program to check input is
 # Floating point number or not
 
@@ -76,7 +76,7 @@ if __name__ == '__main__' : 
 
 **Output:**
 
-```
+```py
 Floating point number
 Floating point number
 Floating point number

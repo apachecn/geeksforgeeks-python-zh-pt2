@@ -8,25 +8,25 @@
 
 这是一种生成有效网址的方法，通常使用已经获得的数据。例如，使用文章的标题来生成网址。让我们假设我们的博客有一个标题为“极客的姜戈书”的帖子，主键 id= 2。我们可以参考这篇文章
 
-```
+```py
 www.geeksforgeeks.org/posts/2\. 
 ```
 
 或者，我们可以参考标题
 
-```
+```py
  www.geeksforgeeks.org/posts/The Django book by Geeksforgeeks. 
 ```
 
 但问题是 URL 中的空格是无效的，需要用 *%20* 替换，很难看，变成了下面这样
 
-```
+```py
 www.geeksforgeeks.org/posts/The%20Django%20book%20by%20geeksforgeeks 
 ```
 
 但这不是解决有意义的网址。另一个选择是
 
-```
+```py
  www.geeksforgeeks.org/posts/the-django-book-by-geeksforgeeks
 ```
 
@@ -36,7 +36,7 @@ www.geeksforgeeks.org/posts/The%20Django%20book%20by%20geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 STATUS_CHOICES = (
    ('draft', 'Draft'),
    ('published', 'Published'),
@@ -67,7 +67,7 @@ class Post(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 import string, random
 from django.db.models.signals import pre_save
 from django.dispatch import receiver
@@ -101,7 +101,7 @@ def unique_slug_generator(instance, new_slug = None):
 
 ## 蟒蛇 3
 
-```
+```py
 @receiver(pre_save, sender=Post)
 def pre_save_receiver(sender, instance, *args, **kwargs):
    if not instance.slug:
@@ -115,7 +115,7 @@ def pre_save_receiver(sender, instance, *args, **kwargs):
 
 ## 蟒蛇 3
 
-```
+```py
 def detail(request, slug):
     q = Post.objects.filter(slug__iexact = slug)
    if q.exists():

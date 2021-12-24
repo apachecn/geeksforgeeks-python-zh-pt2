@@ -20,7 +20,7 @@ readlines()用于一次读取所有行，然后将它们作为列表中的每一
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to
 # demonstrate readlines()
 
@@ -44,7 +44,7 @@ for line in Lines:
 
 **输出:**
 
-```
+```py
 Line1: Geeks
 Line2: for
 Line3: Geeks
@@ -58,7 +58,7 @@ readline()函数读取文件的一行，并以字符串的形式返回。它采�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate readline()
 
@@ -90,7 +90,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Line1 Geeks
 Line2 for
 Line3 Geeks
@@ -104,7 +104,7 @@ Line3 Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate reading files
 # using for loop
@@ -132,7 +132,7 @@ file1.close()
 
 **输出:**
 
-```
+```py
 Using for loop
 Line1: Geeks
 Line2: for
@@ -147,7 +147,7 @@ Line3: Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # demonstrate with
 # statement
@@ -193,7 +193,7 @@ with open("myfile.txt") as fp:
 
 **输出:**
 
-```
+```py
 Using readlines()
 Line1: Geeks
 Line2: for

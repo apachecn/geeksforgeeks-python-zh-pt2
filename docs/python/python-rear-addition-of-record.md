@@ -7,7 +7,7 @@
 **方法#1:使用`insert()`**
 这是可以将元素一字排开添加到后方的方式之一。它用于添加列表后面的任何元素。元组的行为也一样。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rear Addition of Record
 # using insert()
@@ -31,7 +31,7 @@ print("The tuple after adding is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [('is', 2), ('best', 3)]
 The tuple after adding is : [('is', 2), ('best', 3), ('gfg', 1)]
 

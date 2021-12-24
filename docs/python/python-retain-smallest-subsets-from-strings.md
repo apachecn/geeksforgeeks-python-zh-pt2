@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain smallest subsets from string
 # Using sorted() + any() + string slicing
@@ -49,7 +49,7 @@ print("Required extracted strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original set is : {'cba', 'abcx', 'bdb', 'bdbab', 'cbabca'}
 Required extracted strings : {'abcx', 'cba', 'bdb'}
 ```

@@ -6,7 +6,7 @@
 
 ### **安装:**
 
-```
+```py
 pip install PyQt5
 ```
 
@@ -25,7 +25,7 @@ pip install PyQt5
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtGui import QMovie

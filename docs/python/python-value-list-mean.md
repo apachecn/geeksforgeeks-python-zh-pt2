@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `sum() + len()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sum()计算所有值的总和，使用 len()计算所有值列表长度的总和。迭代使用循环完成。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value list mean
 # Using loop + sum() + len()
@@ -42,7 +42,7 @@ print("The dictionary average is : " + str(res)) 
 **方法 2:使用字典理解**
 这是执行这项任务的另一种方式。这是速记，在它的帮助下，这个任务可以以类似于上述方法的方式执行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value list mean
 # Using dictionary comprehension

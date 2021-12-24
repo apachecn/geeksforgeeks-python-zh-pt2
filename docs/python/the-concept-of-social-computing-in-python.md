@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # social computing
 
@@ -47,6 +47,6 @@ print(mean(Estimates))
 
 **输出:**
 
-```
+```py
 1758.5
 ```

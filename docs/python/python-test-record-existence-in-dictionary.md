@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test Record existence in Dictionary
 # Using any() + generator expression
@@ -43,7 +43,7 @@ print("Does key value contain in dictionary list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test Record existence in Dictionary
 # Using filter() + lambda

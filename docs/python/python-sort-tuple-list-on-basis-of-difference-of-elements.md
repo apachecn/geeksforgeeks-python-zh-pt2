@@ -7,7 +7,7 @@
 **方法一:使用`sorted()`+λ**
 以上功能的组合可以用来解决这个问题。在这种情况下，排序由`sorted()`执行，并且λ函数作为键被馈送以执行期望的排序。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort tuple list on basis of difference of elements
 # using sorted() + lambda
@@ -28,7 +28,7 @@ print("List after sorting by difference : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 4), (6, 5), (8, 10)]
 List after sorting by difference : [(6, 5), (8, 10), (1, 4)]
 

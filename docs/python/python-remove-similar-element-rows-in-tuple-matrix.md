@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `all()`**
 该任务可以使用以上功能的组合来执行。在这种情况下，我们使用列表理解遍历所有行，并在`all()`的帮助下移除行列中与初始元素匹配的所有元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove similar element rows in tuple Matrix
 # using list comprehension + all()
@@ -29,7 +29,7 @@ print("The tuple after removal of like-element rows : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : ((1, 3, 5), (2, 2, 2), (9, 10, 10), (4, 4, 4))
 The tuple after removal of like-element rows : ((1, 3, 5), (9, 10, 10))
 

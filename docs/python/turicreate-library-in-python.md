@@ -30,7 +30,7 @@
 
 **代码:如何使用 SFrame 加载数据:**
 
-```
+```py
 import turicreate as tc
 from turicreate import SFrame
 

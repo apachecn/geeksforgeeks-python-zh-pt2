@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test K in Range
 # Using any()
@@ -45,7 +45,7 @@ print("Are all elements in range K ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 4, 4, 4, 4, 6, 7, 8, 2]
 Are all elements in range K ? : True
 
@@ -57,7 +57,7 @@ Are all elements in range K ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test K in Range
 # Using all() 
@@ -83,7 +83,7 @@ print("Are all elements in range K ? : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 3, 4, 4, 4, 4, 6, 7, 8, 2]
 Are all elements in range K ? : True
 

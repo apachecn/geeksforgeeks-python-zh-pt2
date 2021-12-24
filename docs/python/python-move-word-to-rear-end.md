@@ -7,7 +7,7 @@
 **方法#1:使用`replace() + "+" operator`**
 上述功能的组合可用于执行该任务。在这种情况下，我们用空字符串替换元素，并将工作附加到字符串的末尾来执行这个任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Move Word to Rear end
 # Using replace() + "+" operator
@@ -31,7 +31,7 @@ print("The string after word removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Geeksforgeeks is best for geeks 
 The string after word removal : Geeksforgeeks is  for geeks best
 

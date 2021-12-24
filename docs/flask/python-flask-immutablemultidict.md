@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 from werkzeug.datastructures import MultiDict
 
 orders = MultiDict([(1, 'GFG'), (1, 'Geeks')])

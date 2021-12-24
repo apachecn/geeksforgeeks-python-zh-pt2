@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rows with K string in Matrix
 # Using loop
@@ -57,7 +57,7 @@ print("Rows with K : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rows with K string in Matrix
 # Using list comprehension

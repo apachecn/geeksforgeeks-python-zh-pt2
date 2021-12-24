@@ -22,7 +22,7 @@ Python 中的`***os.fchdir()***`方法用于将当前工作目录更改为给定
 
 **Code #1:** Use of os.fchdir() method to change the current working directory
 
-```
+```py
 # Python program to explain os.fchdir() method 
 
 # importing os module 
@@ -53,7 +53,7 @@ print("Current working directory:", os.getcwd()) 
 
 **Output:**
 
-```
+```py
 Current working directory: /home/ihritik
 Current working directory changed
 Current working directory: /home/ihritik/Documents
@@ -62,7 +62,7 @@ Current working directory: /home/ihritik/Documents
 
 **Code #2:** Possible errors while using of os.fchdir() method
 
-```
+```py
 # Python program to explain os.fchdir() method 
 
 # importing os module 
@@ -94,7 +94,7 @@ print("Current working directory:", os.getcwd()) 
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "changeDir.py", line 24, in 
     os.fchdir(fd)
@@ -104,7 +104,7 @@ NotADirectoryError: [Errno 20] Not a directory
 
 **Code #3:** Handling possible errors while using of os.fchdir() method
 
-```
+```py
 # Python program to explain os.fchdir() method 
 
 # importing os module 
@@ -150,7 +150,7 @@ except PermissionError:
 
 **Output:**
 
-```
+```py
 The given file descriptor does not represent a directory
 
 ```

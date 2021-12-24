@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : Geeks$For$Geeks
 Output : String is not accepted.
 
@@ -21,7 +21,7 @@ Output : String is accepted
 
 ## C++
 
-```
+```py
 // C++ program to check if a string 
 // contains any special character
 
@@ -64,7 +64,7 @@ int main() 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to check if a string
 # contains any special character
 
@@ -99,7 +99,7 @@ if __name__ == '__main__' :
 
 ## 服务器端编程语言（Professional Hypertext Preprocessor 的缩写）
 
-```
+```py
 <?Php
 // PHP program to check if a string 
 // contains any special character 
@@ -131,6 +131,6 @@ run($string);
 
 **输出:**
 
-```
+```py
 String is not accepted.
 ```

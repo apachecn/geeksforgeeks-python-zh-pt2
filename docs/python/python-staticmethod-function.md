@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class demoClass:
 
     def greet(msg):
@@ -34,7 +34,7 @@ print(demoClass.greet("hai"))
 
 **输出:**
 
-```
+```py
 hai
 ```
 
@@ -44,7 +44,7 @@ hai
 
 ## 蟒蛇 3
 
-```
+```py
 class demoClass:
 
     def __init__(self, a, b):
@@ -72,7 +72,7 @@ print(Object.diff())
 
 **输出:**
 
-```
+```py
 3
 -1
 ```

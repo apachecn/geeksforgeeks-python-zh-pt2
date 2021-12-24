@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string interpolation
 
@@ -31,7 +31,7 @@ print("% s ! This is % s." % (n1, n2))
 
 **Output**
 
-```
+```py
 Welcome to GeeksforGeeks
 Hello ! This is GeeksforGeeks.
 ```
@@ -48,7 +48,7 @@ Hello ! This is GeeksforGeeks.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string interpolation
 
@@ -61,7 +61,7 @@ print('{}, {}'.format(n1, n2))
 
 **Output**
 
-```
+```py
 Hello, GeeksforGeeks
 ```
 
@@ -71,7 +71,7 @@ Hello, GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 n1 = "Hello"
 n2 = "GeeksForGeeks"
 
@@ -88,7 +88,7 @@ print("{b2}! This is {b1}.".format(b1=n1, b2=n2))
 
 **Output**
 
-```
+```py
 Hello! This is GeeksForGeeks.
 GeeksForGeeks! This is Hello.
 ```
@@ -105,7 +105,7 @@ PEP 498 引入了一种新的字符串格式化机制，称为文字字符串插
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string interpolation
 
@@ -119,7 +119,7 @@ print(f"{n1}! This is {n2}")
 
 **Output**
 
-```
+```py
 Hello! This is GeeksforGeeks
 (2 * 3)-10 = -4
 ```
@@ -130,7 +130,7 @@ Hello! This is GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 a = 2
 b = 3
 c = 10
@@ -140,7 +140,7 @@ print(f"({a} * {b})-{c} = {(2 * 3)-10}")
 
 **Output**
 
-```
+```py
 (2 * 3)-10 = -4
 ```
 
@@ -154,7 +154,7 @@ print(f"({a} * {b})-{c} = {(2 * 3)-10}")
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string interpolation
 
@@ -174,7 +174,7 @@ print(n.substitute(n3=n1, n4=n2))
 
 **Output**
 
-```
+```py
 Hello ! This is GeeksforGeeks.
 ```
 

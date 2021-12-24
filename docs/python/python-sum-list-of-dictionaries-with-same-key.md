@@ -8,7 +8,7 @@
 
 **方法#1:使用`reduce() + operator`**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of dictionary
 # with same keys in list of dictionary
@@ -37,7 +37,7 @@ print("resultant dictionary : ", str(result))
 
 **方法 2:使用计数器**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of dictionary
 # with same keys in list of dictionary
@@ -69,7 +69,7 @@ print("resultant dictionary : ", str(counter))
 
 **方法#3:天真法**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of dictionary
 # with same keys in list of dictionary

@@ -10,19 +10,19 @@ Python 提供了这么多开发 GUI 应用程序的选项，PyQt5 就是其中�
 
 首先，我们需要安装 PyQt5 库。为此，请在终端或命令提示符下键入以下命令:
 
-```
+```py
 pip install pyqt5
 ```
 
 如果安装成功，可以通过运行代码进行验证:
 
-```
+```py
 >>>import PyQt5
 ```
 
 PyQt5 提供了很多工具，QtDesigner 就是其中之一。为此，运行以下命令:
 
-```
+```py
 pip install PyQt5-tools
 ```
 
@@ -34,7 +34,7 @@ pip install PyQt5-tools
     – QtDesigner is present at ‘site-packages/pyqt5_tools’
     – For finding the location of site-packages write the following python code using any editor of your choice and then run:
 
-    ```
+    ```py
     >>> import site
 
     >>> site.getsitepackages()
@@ -63,7 +63,7 @@ pip install PyQt5-tools
 
 *   Finally we will add signals and slot in the python code to make it fully functional.
 
-    ```
+    ```py
     widget.signal.connect(slot)
     ```
 
@@ -75,7 +75,7 @@ pip install PyQt5-tools
 
 以下是代码–
 
-```
+```py
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets
 

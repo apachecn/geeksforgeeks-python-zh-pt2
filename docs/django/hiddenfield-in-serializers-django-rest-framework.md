@@ -11,14 +11,14 @@ HiddenField 是一个字段类，它不根据用户输入取值，而是从默�
 
 **语法–**
 
-```
+```py
 field_name = serializers.HiddenField(*args, **kwargs)
 ```
 
 **示例–**
 例如，要将始终提供当前时间的字段作为序列化程序验证数据的一部分，您可以使用以下内容:
 
-```
+```py
 modified = serializers.HiddenField(default=timezone.now)
 ```
 
@@ -29,7 +29,7 @@ modified = serializers.HiddenField(default=timezone.now)
 为了解释 HiddenField 的用法，让我们从–[开始使用相同的项目设置如何使用 Django Rest 框架创建一个基本的 API？](https://geeksforgeeks.org/how-to-create-a-basic-api-using-django-rest-framework/)。
 现在您的项目中有了一个名为 serializer 的文件，让我们创建一个以 HiddenField 作为字段的序列化程序。
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -48,13 +48,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -78,7 +78,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 HiddenField 只验证隐藏对象的数据。让我们检查一下这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add values
 >>> data = {}
 >>> data['name'] = "Naveen"

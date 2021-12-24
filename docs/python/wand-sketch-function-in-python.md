@@ -8,7 +8,7 @@
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > wand.image.sketch( radius, sigma, angle)
 > # radius should always be greater than sigma(standard deviation)
 > ```

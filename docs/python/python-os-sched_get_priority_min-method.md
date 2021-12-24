@@ -26,7 +26,7 @@
 
 **Code:** Use of os.sched_get_priority_min() method
 
-```
+```py
 # Python program to explain os.sched_get_priority_min() method  
 
 # importing os module 
@@ -80,7 +80,7 @@ print("Scheduling policy for CPU-intensive processes:", priority_min)
 
 **Output:**
 
-```
+```py
 Below are the minimum priority value for different scheduling policy
 First In First Out scheduling policy: 1
 Round-robin scheduling policy: 1

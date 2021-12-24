@@ -10,7 +10,7 @@
 
 第一步是在`settings.py`文件中添加下面的代码。
 
-```
+```py
 MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 ```
@@ -20,7 +20,7 @@ MEDIA_URL = '/media/'
 
 在`urls.py`中，我们应该这样编辑配置
 
-```
+```py
 from django.conf import settings
 from django.conf.urls.static import static
 if settings.DEBUG:
@@ -32,7 +32,7 @@ if settings.DEBUG:
 一个样本`models.py`应该是这样的，因为我们已经创建了一个**酒店模型**，它由酒店名称和它的形象组成。
 在本项目中，我们从酒店预订网站的用户处获取酒店名称及其图像。
 
-```
+```py
 # models.py
  class Hotel(models.Model):
     name = models.CharField(max_length=50)
@@ -43,7 +43,7 @@ if settings.DEBUG:
 
 我们必须在`image_app`下创建一个`forms.py`文件，这里我们处理的是**模型表单**让内容更容易理解。
 
-```
+```py
 # forms.py
 from django import forms
 from .models import *
@@ -60,7 +60,7 @@ Django 将隐式处理表单验证，并在脚本中显式声明，它将根据�
 
 现在在`image_app`下创建一个**模板**目录，因为我们必须创建一个 html 文件来上传图像。HTML 文件应该是这样的。
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -85,7 +85,7 @@ Django 将隐式处理表单验证，并在脚本中显式声明，它将根据�
 
 在`image_app`下的`views.py`中，我们必须编写一个视图来接受用户的请求，并返回一些 html 页面。
 
-```
+```py
 from django.http import HttpResponse
 from django.shortcuts import render, redirect
 from .forms import *
@@ -111,7 +111,7 @@ def success(request):
 
 `urls.py`会是这样的–
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from django.conf import settings
@@ -145,7 +145,7 @@ if settings.DEBUG:
 
 现在我们可以编写一个视图来访问这些图像，为了简单起见，让我们以一个图像为例，它也适用于许多图像。
 
-```
+```py
 # Python program to view 
 # for displaying images
 
@@ -161,7 +161,7 @@ def display_hotel_images(request):
 
 用于显示图像的示例 html 文件模板。
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -190,7 +190,7 @@ def display_hotel_images(request):
 
 在 urls.py 文件中插入 url 路径
 
-```
+```py
 # urls.py
 path('hotel_images', display_hotel_images, name = 'hotel_images'),
 

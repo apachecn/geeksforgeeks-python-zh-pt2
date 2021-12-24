@@ -14,7 +14,7 @@
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 
@@ -69,6 +69,6 @@ sys.exit(App.exec())
 ![](img/10ec81261db5429b25e2c94a4119f290.png)
 当我们点击按钮时。
 
-```
+```py
 pressed
 ```

@@ -26,7 +26,7 @@
         凭证有两种类型: **API 密钥**和 **OAuth** 。OAuth 以. json 文件的形式为您提供客户端标识和密钥。OAuth 通常用于需要授权的地方，比如检索用户喜欢的视频。因此，对于不需要授权的其他情况，如使用关键字搜索视频或搜索相关视频等，我们将使用应用编程接口密钥。
 2.  **安装:**python 的谷歌 API 客户端可以使用简单的 **pip** 命令:
 
-    ```
+    ```py
     pip install --upgrade google-api-python-client
     ```
 
@@ -38,7 +38,7 @@
 
 **按关键词搜索功能:**这将根据搜索查询返回视频、频道和播放列表列表。默认情况下，如果跳过**类型参数**，方法将显示视频、频道和播放列表。**最大结果**参数默认值为 5。本示例检索与关键字“极客”相关联的结果。
 
-```
+```py
 from apiclient.discovery import build
 
 # Arguments that need to passed to the build function
@@ -102,7 +102,7 @@ if __name__ == "__main__":
 
 **按位置搜索功能:**本示例检索与关键字“极客”(Geeksforgeeks)相关联的结果。该请求检索由位置参数值指定的点的 100 公里(由`locationRadius` 参数值指定)内的前 5 个结果。
 
-```
+```py
 from apiclient.discovery import build
 
 # Arguments that need to passed to the build function

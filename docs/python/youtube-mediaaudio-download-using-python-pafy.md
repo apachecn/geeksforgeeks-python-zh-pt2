@@ -15,7 +15,7 @@
 
 **安装**
 
-```
+```py
 virtualenv venv
 pip install pafy
 
@@ -23,14 +23,14 @@ pip install pafy
 
 **库导入**
 
-```
+```py
  import pafy
 ```
 
 **示例 1:**
 检索诸如浏览量、持续时间、评级、作者、描述等元数据。
 
-```
+```py
 import pafy
 
 # url of video
@@ -57,7 +57,7 @@ print(video.duration, video.likes, video.dislikes, video.description)
 
 输出:
 
-```
+```py
 Dynamic Programming | Set 3 (Longest Increasing Subsequence) | GeeksforGeeks
 4.30275249481
 57739
@@ -69,7 +69,7 @@ GeeksforGeeks 396
 **示例 2:**
 下载最佳分辨率视频，不考虑扩展名
 
-```
+```py
 import pafy
 
 url = "https://www.youtube.com/watch?v=eACohWVwTOc"
@@ -90,7 +90,7 @@ best.download()
 
 输出:
 
-```
+```py
 normal:3gp@176x144
 normal:3gp@320x180
 normal:webm@640x360
@@ -104,7 +104,7 @@ normal:mp4@1280x720
 **示例 3:**
 下载指定特定格式的视频(比如. 3gp)
 
-```
+```py
 import pafy
 
 url = "https://www.youtube.com/watch?v=eACohWVwTOc"
@@ -123,7 +123,7 @@ best.download()
 
 输出:
 
-```
+```py
 normal:3gp@176x144
 normal:3gp@320x180
 normal:webm@640x360
@@ -136,7 +136,7 @@ normal:mp4@1280x720
 **示例 4:**
 下载特定格式的音频。
 
-```
+```py
 import pafy 
 
 url = "https://www.youtube.com/watch?v =eACohWVwTOc"
@@ -151,7 +151,7 @@ audiostreams[3].download()
 
 输出:
 
-```
+```py
 160k webm 1365668
 160k webm 1811815
 160k m4a 3470205
@@ -163,7 +163,7 @@ audiostreams[3].download()
 **示例 5:**
 下载最佳音频
 
-```
+```py
 import pafy 
 
 url = "https://www.youtube.com/watch?v=eACohWVwTOc"

@@ -6,7 +6,7 @@
 
 **方法#1:使用`splitlines()`**
 
-```
+```py
 # Python code to demonstrate 
 # to split strings
 # on newline delimiter
@@ -26,7 +26,7 @@ print("Resultant prefix", str(res_list))
 
 **Output:**
 
-```
+```py
 Initial String Geeks
 For
 Geeks
@@ -37,7 +37,7 @@ Resultant prefix ['Geeks', 'For', 'Geeks']
 
 **方法 2:使用`split()`方法**
 
-```
+```py
 # Python code to demonstrate 
 # to split strings
 # on newline delimiter
@@ -57,7 +57,7 @@ print("Resultant prefix", str(res_list))
 
 **Output:**
 
-```
+```py
 Initial String Geeks
 For
 Geeks

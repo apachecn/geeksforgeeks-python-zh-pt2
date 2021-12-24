@@ -8,7 +8,7 @@
 
 在这个方法中，我们遍历第二个列表，并继续在第一个列表中追加元素，这样第一个列表将拥有两个列表中的所有元素，因此将执行追加。
 
-```
+```py
 # Python3 code to demonstrate list
 # concatenation using naive method 
 
@@ -27,7 +27,7 @@ print ("Concatenated list using naive method : " 
 
 **Output:**
 
-```
+```py
 Concatenated list using naive method : [1, 4, 5, 6, 5, 3, 5, 7, 2, 5]
 
 ```
@@ -36,7 +36,7 @@ Concatenated list using naive method : [1, 4, 5, 6, 5, 3, 5, 7, 2, 5]
 
 执行列表连接的最传统的方法是使用“+”运算符，它可以轻松地将一个列表的整体添加到另一个列表的后面，从而执行连接。
 
-```
+```py
 # Python 3 code to demonstrate list
 # concatenation using + operator 
 
@@ -54,7 +54,7 @@ print ("Concatenated list using + : "
 
 **Output:**
 
-```
+```py
 Concatenated list using + : [1, 4, 5, 6, 5, 3, 5, 7, 2, 5]
 
 ```
@@ -63,7 +63,7 @@ Concatenated list using + : [1, 4, 5, 6, 5, 3, 5, 7, 2, 5]
 
 列表理解也可以完成这个列表连接的任务。在这种情况下，会创建一个新的列表，但是这个方法是上面讨论的循环方法的一个线性替代方法。
 
-```
+```py
 # Python3 code to demonstrate list
 # concatenation using list comprehension 
 
@@ -81,7 +81,7 @@ print ("Concatenated list using list comprehension: "
 
 **Output:**
 
-```
+```py
 Concatenated list using list comprehension: [1, 4, 5, 6, 5, 3, 5, 7, 2, 5]
 
 ```

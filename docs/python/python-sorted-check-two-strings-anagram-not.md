@@ -7,7 +7,7 @@
 给定两个字符串 s1 和 s2，检查这两个字符串是否是彼此的[字谜](https://www.geeksforgeeks.org/check-whether-two-strings-are-anagram-of-each-other/)。
 例子:
 
-```
+```py
 Input : s1 = "listen"
         s2 = "silent"
 Output : The strings are anagrams.
@@ -26,7 +26,7 @@ Python 提供了一个内置函数 [sorted()](https://www.geeksforgeeks.org/sort
 
 ## 计算机编程语言
 
-```
+```py
 # function to check if two strings are
 # anagram or not
 def check(s1, s2):
@@ -45,7 +45,7 @@ check(s1, s2)
 
 **Output**
 
-```
+```py
 The strings are anagrams.
 ```
 
@@ -56,7 +56,7 @@ The strings are anagrams.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for the above approach
 from collections import Counter
 
@@ -78,7 +78,7 @@ check(s1, s2)
 
 **Output**
 
-```
+```py
 The strings are anagrams.
 ```
 
@@ -91,7 +91,7 @@ The strings are anagrams.
 
 ## 蟒蛇 3
 
-```
+```py
 '''\
 Python3 program for implementation of checking string is anagram or not
 using set function.
@@ -119,6 +119,6 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 The strings are anagrams.
 ```

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtract K from each digit
 # Using str() and - operator
@@ -63,7 +63,7 @@ print("Elements after subtracting K from each digit : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtract K from each digit
 # Using list comprehension

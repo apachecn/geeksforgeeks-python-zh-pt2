@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : n = 14
 Output : 3
 The binary representation of 14 is 1110.
@@ -24,7 +24,7 @@ The binary representation of 222 is 11011110.
 3.  Use the **split ()** method of strings to separate all substrings of consecutive 1s separated by zeros.
 4.  The maximum length of the split substring of 1.
 
-```
+```py
 # Function to find Length of the Longest Consecutive
 # 1's in Binary Representation
 
@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 4
 
 ```

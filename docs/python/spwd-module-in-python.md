@@ -39,7 +39,7 @@ Python 中的`***spwd module***`定义了以下两种方法:
 
 **代码:**使用 `spwd.getspnam()`方法
 
-```
+```py
 # Python program to explain spwd.getspnam() method
 
 # importing spwd module 
@@ -87,7 +87,7 @@ print(entry)
 
 **代码:**使用`spwd.getspall()`方法
 
-```
+```py
 # Python program to explain spwd.getspall() method
 
 # importing spwd module 
@@ -106,7 +106,7 @@ for row in entries:
 
 **Output:**
 
-```
+```py
 Shadow password database entries:
 spwd.struct_spwd(sp_namp=’root’, sp_pwdp=’!’, sp_lstchg=17677, sp_min=0, sp_max=99999, sp_warn=7, sp_inact=-1, sp_expire=-1, sp_flag=-1)
 spwd.struct_spwd(sp_namp=’daemon’, sp_pwdp=’*’, sp_lstchg=17536, sp_min=0, sp_max=99999, sp_warn=7, sp_inact=-1, sp_expire=-1, sp_flag=-1)

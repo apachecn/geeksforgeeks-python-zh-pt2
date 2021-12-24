@@ -7,7 +7,7 @@
 每个元组中的第一个元素是要在模型上设置的实际值，第二个元素是人类可读的名称。
 例如，
 
-```
+```py
 SEMESTER_CHOICES = (
     ("1", "1"),
     ("2", "2"),
@@ -23,7 +23,7 @@ SEMESTER_CHOICES = (
 
 让我们在 django 项目中创建一个选择域，名为 geeksforgeeks。
 
-```
+```py
 from django.db import models
 
 # specifying choices
@@ -53,7 +53,7 @@ class Student(models.Model):
 ![django-field-choices](img/d189135240e6bfc27a62a57f1bfe6b02.png)
 你还可以将你的可用选择收集到命名的群组中，这些群组可用于组织目的:
 
-```
+```py
 MEDIA_CHOICES = [
     ('Audio', (
             ('vinyl', 'Vinyl'),

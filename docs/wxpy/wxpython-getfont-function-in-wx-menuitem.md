@@ -7,19 +7,19 @@ GetFont()函数不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetFont(self)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > no parameters are required in GetFont() function.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Font 
 > ```
 
@@ -27,7 +27,7 @@ GetFont()函数不需要参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -65,7 +65,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 <built-in method GetFamily of Font object at 0x000000AD0C9A4430>
 ```
 

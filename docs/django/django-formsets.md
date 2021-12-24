@@ -4,7 +4,7 @@
 
 Django 中的表单集是一种在单个网页上处理多个表单的高级方式。换句话说，表单集是姜戈的一组表单。例如，您可能希望在单个页面上初始化多个表单，所有这些表单都可能涉及多个 POST 请求
 
-```
+```py
 from django import forms
 class GeeksForm(forms.Form):
     title = forms.CharField()
@@ -14,7 +14,7 @@ class GeeksForm(forms.Form):
 
 现在，人们可能希望允许用户一次创建文章，因此，如果以传统方式思考，人们会使用多个表单和每个表单的不同名称来处理单个页面上的数据，但这将使代码和功能变得复杂。表单集是一个抽象层，用于处理同一页面上的多个表单。最好将其与数据网格进行比较。现在来创建一个表单集**极客表单**，
 
-```
+```py
 from django.forms import formset_factory
 GeeksFormSet = formset_factory(GeeksForm)
 
@@ -32,7 +32,7 @@ GeeksFormSet = formset_factory(GeeksForm)
 在你的极客应用程序中，创建一个名为 forms.py 的新文件，你可以在其中创建所有的表单。要创建姜戈表单，您需要使用[姜戈表单类](https://docs.djangoproject.com/en/2.2/topics/forms/#the-django-form-class)。让我们演示一下如何在您的 `forms.py`中，
 输入以下内容:
 
-```
+```py
 from django import forms
 
 # create a form
@@ -44,13 +44,13 @@ class GeeksForm(forms.Form):
 让我们解释一下到底发生了什么，左边表示字段的名称，右边对应地定义输入字段的各种功能。字段的语法表示为
 **语法:**
 
-```
+```py
 Field_name = forms.FieldType(attributes)
 ```
 
 现在要创建这个表单的一个简单的表单集，移动到 views.py 并创建一个`formset_view`，如下所示。
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -73,7 +73,7 @@ def formset_view(request):
 
 要通过 html 呈现表单集，请创建一个 HTML 文件“home.html”。现在我们来编辑`templates > home.html`
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ formset.as_p }}
@@ -89,7 +89,7 @@ def formset_view(request):
 
 Django 表单集用于处理表单的多个实例。使用姜戈表单集的`extra`属性可以轻松创建多个表单。在**极客/观点. py** 中，
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -118,7 +118,7 @@ def formset_view(request):
 创建表单比在后端处理输入这些字段的数据容易得多。让我们尝试演示如何在视图中轻松使用表单集的数据。当试图处理表单集时，Django 表单集需要一个额外的参数**{ { formset . management _ data } }**。要了解更多管理数据，请访问[了解管理表单](https://docs.djangoproject.com/en/3.0/topics/forms/formsets/#understanding-the-managementform)。
 在`templates/home.html`中，
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Management data of formset -->
@@ -136,7 +136,7 @@ def formset_view(request):
 
 现在要检查数据的呈现方式和类型，请编辑 **formset_view** 来打印数据。在`geeks/view.py`中，
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms

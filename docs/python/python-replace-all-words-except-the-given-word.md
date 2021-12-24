@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace all words not K
 # Using join() + split() + loop
@@ -64,7 +64,7 @@ print("The resultant string : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace all words not K
 # Using list comprehension

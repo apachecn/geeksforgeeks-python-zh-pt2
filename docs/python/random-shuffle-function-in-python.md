@@ -16,7 +16,7 @@
 
 **示例 1 :** 重排列表
 
-```
+```py
 # import the random module
 import random
 
@@ -39,7 +39,7 @@ print(sample_list)
 
 **输出:**
 
-```
+```py
 Original list : 
 ['A', 'B', 'C', 'D', 'E']
 
@@ -54,7 +54,7 @@ After the second shuffle :
 
 **例 2:**
 
-```
+```py
 # import the random module
 import random
 
@@ -82,7 +82,7 @@ print(sample_list)
 
 **输出:**
 
-```
+```py
 Original list : 
 ['A', 'B', 'C', 'D', 'E']
 

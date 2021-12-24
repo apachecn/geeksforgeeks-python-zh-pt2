@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["all", "love", "and", "get", "educated", "by", "gfg"]
 
@@ -52,7 +52,7 @@ print("The extracted words : " + str(res))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = ["all", "love", "and", "get", "educated", "by", "gfg"]
 

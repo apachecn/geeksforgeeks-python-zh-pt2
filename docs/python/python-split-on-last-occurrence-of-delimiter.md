@@ -7,7 +7,7 @@
 **方法#1:使用 `rsplit(str, 1)`**
 正常的字符串拆分可以从前端执行拆分，但是 Python 也提供了另一种方法，可以从后端执行这个任务，因此增加了应用程序的通用性。
 
-```
+```py
 # Python3 code to demonstrate
 # Split on last occurrence of delimiter
 # using rsplit()
@@ -28,7 +28,7 @@ print("The splitted list at the last comma : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : gfg, is, good, better, and best
 The splitted list at the last comma : ['gfg, is, good, better', 'and best']
 

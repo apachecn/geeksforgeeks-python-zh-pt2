@@ -8,7 +8,7 @@
 
 为了给中间状态的指示器添加背景色，我们必须更改中间状态指示器的样式表。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:indeterminate
 {
 background-color : blue;
@@ -20,7 +20,7 @@ background-color : blue;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

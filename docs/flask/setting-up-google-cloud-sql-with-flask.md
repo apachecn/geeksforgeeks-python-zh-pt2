@@ -26,7 +26,7 @@
 显然，您将需要 Python。在本教程中，我们目前使用的是最新的 python 版本，即 3.8
 您还需要安装 flask、flask-sqlalchemy 和 mysqlclient。要安装这些，只需在您的终端上运行以下命令。
 
-```
+```py
 pip3 install Flask Flask-SQLAlchemy mysqlclient
 ```
 
@@ -37,7 +37,7 @@ pip3 install Flask Flask-SQLAlchemy mysqlclient
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 from flask import Flask, request, make_response
 from flask_sqlalchemy import SQLAlchemy
@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from app import db
 db.create_all()
 ```

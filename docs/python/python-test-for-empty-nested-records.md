@@ -14,7 +14,7 @@
 **方法#1:使用递归+ `all() + isinstance()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 all()检查所有嵌套，并使用 isinstance()测试字典或列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for empty Nested Records
 # Using recursion + all() + isinstance

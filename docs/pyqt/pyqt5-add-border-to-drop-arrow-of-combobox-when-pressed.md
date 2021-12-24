@@ -5,7 +5,7 @@
 在这篇文章中，我们将看到当组合框的下拉箭头被按下时，我们如何与它接壤。下拉箭头基本上是一个按钮，按下时会打开列表视图。这个自定义边框只有在下拉箭头被按下时才会出现。
 为了做到这一点，我们必须更改与组合框关联的样式表，下面是样式表代码
 
-```
+```py
 QComboBox::drop-arrow:pressed
 {
 border : 2px solid green;
@@ -16,7 +16,7 @@ border : 2px solid green;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

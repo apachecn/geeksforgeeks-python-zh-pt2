@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -46,7 +46,7 @@ print(state)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -54,7 +54,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import re
 
@@ -67,7 +67,7 @@ print(bool(re.match("^[A-Za-z0-9_-]*{content}quot;, 
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -88,7 +88,7 @@ Set 是 Python 中内置的数据类型。我们正在使用集合的**[**issubs
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# create a set of allowed characters
 allowed_chars = set(("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-"))
 
@@ -108,7 +108,7 @@ else:
 
 ******输出:******
 
-```
+```py
 **False**
 ```
 
@@ -116,7 +116,7 @@ else:
 
 ## ****蟒蛇 3****
 
-```
+```py
 **allowed_chars = set("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-")
 
 string = "__Val1d__"
@@ -132,6 +132,6 @@ else:
 
 ******输出:******
 
-```
+```py
 **True**
 ```

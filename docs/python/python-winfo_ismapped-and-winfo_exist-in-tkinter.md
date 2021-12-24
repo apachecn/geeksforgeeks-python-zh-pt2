@@ -16,7 +16,7 @@ Tkinter 提供了许多通用的小部件方法或基本的小部件方法，这
 
 ## 大蟒
 
-```
+```py
 # Imports tkinter and ttk module
 from tkinter import * 
 from tkinter.ttk import * 
@@ -66,7 +66,7 @@ mainloop()
 
 ## 计算机编程语言
 
-```
+```py
 # Imports tkinter and ttk module
 from tkinter import * 
 from tkinter.ttk import *

@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `count() + re.findall()`**
 以上方法的组合构成了执行此任务的蛮力法。在本例中，我们使用 count()执行计数任务，并使用 findall()搜索字符。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Successive Characters Frequency
 # Using count() + loop + re.findall()
@@ -42,7 +42,7 @@ print("The Characters Frequency is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks. A geek should take interest.
 The Characters Frequency is : {'s': 3, ' ': 1}
 
@@ -51,7 +51,7 @@ The Characters Frequency is : {'s': 3, ' ': 1}
 **方法 2:使用`Counter() + list comprehension + re.findall()`**
 上述功能的组合用于执行以下任务。在本文中，我们使用 Counter()代替 count()来解决这个问题。适用于较新版本的 Python。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Successive Characters Frequency
 # Using Counter() + list comprehension + re.findall()
@@ -78,7 +78,7 @@ print("The Characters Frequency is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks. A geek should take interest.
 The Characters Frequency is : {'s': 3, ' ': 1}
 

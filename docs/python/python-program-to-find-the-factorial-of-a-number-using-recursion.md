@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```py
 Input: 5
 Output: 120
 
@@ -29,7 +29,7 @@ Output: 720
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 program to find  
 # factorial of given number 
 def factorial(n): 
@@ -55,7 +55,7 @@ print("Factorial : ",factorial(num))
 
 **输出:**
 
-```
+```py
 Number :  5
 Factorial :  120
 

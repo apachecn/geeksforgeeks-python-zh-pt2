@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 string.rpartition(separator)
 ```
 
 **参数:**
 
-```
+```py
 separator -  separates the string at the first occurrence of it.
 ```
 
@@ -23,7 +23,7 @@ separator -  separates the string at the first occurrence of it.
 
 **例外:**
 
-```
+```py
 If separator argument is not supplied, it will throw TypeError.
 ```
 
@@ -31,7 +31,7 @@ If separator argument is not supplied, it will throw TypeError.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code explaining rpartition()
 
 # String need to split
@@ -48,7 +48,7 @@ print(string2.rpartition('is'))
 
 **输出:**
 
-```
+```py
 ('Geeks@for@Geeks@is@for', '@', 'geeks')
 ('Ram is not eating but Mohan ', 'is', ' eating')
 ```
@@ -57,7 +57,7 @@ print(string2.rpartition('is'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code explaining rpartition()
 
 # String need to split
@@ -70,7 +70,7 @@ print(string.rpartition('not'))
 
 **输出:**
 
-```
+```py
 ('', '', 'Sita is going to school')
 ```
 
@@ -78,7 +78,7 @@ print(string.rpartition('not'))
 
 ## python 3
 
-```
+```py
 # Python3 code explaining TypeError
 # in rpartition()
 
@@ -90,7 +90,7 @@ print(str.rpartition())
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/e207c003f42055cf9697001645999d69.py", line 7, in 
     print(str.rpartition())
@@ -101,7 +101,7 @@ TypeError: rpartition() takes exactly one argument (0 given)
 
 ## python 3
 
-```
+```py
 # Python3 code explaining ValueError
 # in rpartition()
 
@@ -113,7 +113,7 @@ print(str.rpartition(""))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/c8d9719625793f2c8948542159719007.py", line 7, in 
     print(str.rpartition(""))

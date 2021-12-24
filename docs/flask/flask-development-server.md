@@ -18,7 +18,7 @@
 
 **模块安装:**要使用 pip(python 的包安装程序)安装烧瓶，请运行以下命令:
 
-```
+```py
 pip install flask
 ```
 
@@ -26,7 +26,7 @@ pip install flask
 
 ## app . py
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -44,19 +44,19 @@ if __name__ == '__main__':
 
 **启动开发服务器:**使用以下命令启动烧瓶中的开发服务器。
 
-```
+```py
 pyhton <name>.py
 ```
 
 这里<name>是已经创建了 flask 应用程序实例并且存在 *app.run()* 函数的文件的名称。按照惯例，这个文件大部分被命名为 app，因此命令将显示如下。</name>
 
-```
+```py
 python app.py
 ```
 
 开发服务器将在***http://127 . 0 . 0 . 1:5000/***上打开，您将在浏览器屏幕上看到以下输出。
 
-```
+```py
 Greetings from GeeksforGeeks
 ```
 
@@ -64,7 +64,7 @@ Greetings from GeeksforGeeks
 
 要激活延迟加载，您可以修改命令如下:
 
-```
+```py
 python app.py --lazy-loading
 ```
 
@@ -72,7 +72,7 @@ python app.py --lazy-loading
 
 要激活快速加载，您可以修改命令如下:
 
-```
+```py
 python app.py --eager-loading
 ```
 

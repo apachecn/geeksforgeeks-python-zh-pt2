@@ -8,7 +8,7 @@
 该任务可以使用上述功能的组合来执行。其中`zip()`执行元组构建任务，条件匹配和迭代的迎合由列表理解处理。
  **代码:**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Preceding Tuple elements in list
 # using zip() + list comprehension
@@ -32,7 +32,7 @@ print("Tuple list with desired Preceding elements " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 'gfg', 7, 8, 'gfg', 9, 'gfg']
 Tuple list with desired Preceding elements [(4, 'gfg'), (8, 'gfg'), (9, 'gfg')]
 

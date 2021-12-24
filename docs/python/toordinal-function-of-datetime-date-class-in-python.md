@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting the proleptic Gregorian
 # ordinal of a datetime instance
@@ -39,7 +39,7 @@ print("Proleptic Ordinal for today's date: %s"%date);
 
 **输出:**
 
-```
+```py
 Proleptic Ordinal for today's date: 737998
 ```
 
@@ -47,7 +47,7 @@ Proleptic Ordinal for today's date: 737998
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting the proleptic Gregorian
 # ordinal of a datetime instance
@@ -70,7 +70,7 @@ print("Proleptic Ordinal for today's date and time: %s"%DateTime);
 
 **输出:**
 
-```
+```py
 Proleptic Ordinal for today's date and time: 737998
 ```
 
@@ -78,7 +78,7 @@ Proleptic Ordinal for today's date and time: 737998
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Getting the proleptic Gregorian
 # ordinal of a datetime instance
@@ -101,6 +101,6 @@ print("Proleptic Ordinal for today's date and time: %s"%Date_Time);
 
 **输出:**
 
-```
+```py
 Proleptic Ordinal for today's date and time: 495858
 ```

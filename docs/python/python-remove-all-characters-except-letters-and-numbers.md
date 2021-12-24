@@ -8,7 +8,7 @@
 
 **方法一:使用 [`re.sub`](https://www.geeksforgeeks.org/regular-expression-python-examples-set-1/)**
 
-```
+```py
 # Python code to demonstrate
 # to remove all the characters
 # except numbers and alphabets
@@ -32,7 +32,7 @@ print ("final string", result)
 
 **Output:**
 
-```
+```py
 initial string :  123abcjw:, .@! eiw
 final string 123abcjweiw
 
@@ -40,7 +40,7 @@ final string 123abcjweiw
 
 **方法 2:使用[伊萨法()](https://www.geeksforgeeks.org/python-string-isalpha-application/)和[伊斯默里克()](https://www.geeksforgeeks.org/python-string-isnumeric-application/)**
 
-```
+```py
 # Python code to demonstrate
 # to remove all the characters
 # except numbers and alphabets
@@ -66,7 +66,7 @@ print ("final string", result)
 
 **Output:**
 
-```
+```py
 initial string :  123abcjw:, .@! eiw
 final string 123abcjweiw
 
@@ -74,7 +74,7 @@ final string 123abcjweiw
 
 **方法三:使用`[alnum()](https://www.geeksforgeeks.org/python-string-isalnum/)`**
 
-```
+```py
 # Python code to demonstrate
 # to remove all the characters
 # except numbers and alphabets
@@ -96,7 +96,7 @@ print ("final string", result)
 
 **Output:**
 
-```
+```py
 initial string :  123abcjw:, .@! eiw
 final string 123abcjweiw
 

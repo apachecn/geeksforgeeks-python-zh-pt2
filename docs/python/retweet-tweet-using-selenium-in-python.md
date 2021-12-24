@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from selenium.webdriver.support.ui import WebDriverWait
@@ -35,7 +35,7 @@ import getpass
 
 ## 蟒蛇 3
 
-```
+```py
 driver = webdriver.Chrome(executable_path='/usr/lib/chromium-browser/chromedriver')
 ```
 
@@ -43,7 +43,7 @@ driver = webdriver.Chrome(executable_path='/usr/lib/chromium-browser/chromedrive
 
 ## 蟒蛇 3
 
-```
+```py
 driver.get('https://twitter.com/login')
 driver.maximize_window()
 ```

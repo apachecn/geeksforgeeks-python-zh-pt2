@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Strings by K length Suffix
 # Using try/except + loop
@@ -62,7 +62,7 @@ print("The grouped suffix Strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group Strings by K length Suffix
 # Using defaultdict() + loop

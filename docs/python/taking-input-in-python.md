@@ -8,7 +8,7 @@
 
 **input ( ) :** 该函数首先从用户处获取输入，然后对表达式求值，这意味着 Python 会自动识别用户输入的是字符串还是数字或列表。如果提供的输入不正确，那么 python 会引发语法错误或异常。例如–
 
-```
+```py
 # Python program showing 
 # a use of input()
 
@@ -27,7 +27,7 @@ print(val)
 
 **代码:**
 
-```
+```py
 # Program to check input 
 # type in Python
 
@@ -46,7 +46,7 @@ print ("type of name", type(name1))
 
 **raw_input ( ) :** 这个函数在旧版本(比如 Python 2.x)中工作。这个函数将从键盘上输入的内容转换成字符串，然后返回到我们想要存储的变量中。例如–
 
-```
+```py
 # Python program showing 
 # a use of raw_input()
 

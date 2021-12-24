@@ -8,7 +8,7 @@
 对于*奇数*元素集，中间值为中间值。
 对于*甚至*的元素集合，中值是两个中间元素的平均值。
 
-```
+```py
 Median can be represented by the following formula :
 
 ```
@@ -23,7 +23,7 @@ Median can be represented by the following formula :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the 
 # working of median() function.
 
@@ -41,7 +41,7 @@ print("Median of data-set is : % s "
 
 **输出:**
 
-```
+```py
 Median of data-set is : 3.5 
 ```
 
@@ -49,7 +49,7 @@ Median of data-set is : 3.5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of median() on various
 # range of data-sets
@@ -87,7 +87,7 @@ print("Median of data-set 5 is % s" % (median(data5)))
 
 **输出:**
 
-```
+```py
 Median of data-set 1 is 5
 Median of data-set 2 is 5.9
 Median of data-set 3 is 2
@@ -99,7 +99,7 @@ Median of data-set 5 is 0.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # StatisticsError of median()
 
@@ -115,7 +115,7 @@ print(median(empty))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/3c98774036f97845ee9f65f6d3571e49.py", line 12, in 
     print(median(empty))

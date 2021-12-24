@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Draw a Panda using Turtle Graphics
 # Import turtle package
 import turtle

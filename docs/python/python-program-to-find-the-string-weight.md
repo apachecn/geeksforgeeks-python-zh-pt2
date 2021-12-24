@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String Weight
 # Using loop
@@ -44,7 +44,7 @@ print("The weighted sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GeeksforGeeks
 The weighted sum : 81
 ```
@@ -55,7 +55,7 @@ The weighted sum : 81
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # String Weight
 # Using sum()
@@ -79,7 +79,7 @@ print("The weighted sum : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GeeksforGeeks
 The weighted sum : 81
 ```

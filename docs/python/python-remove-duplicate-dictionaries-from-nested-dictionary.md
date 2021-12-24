@@ -6,7 +6,7 @@
 
 **方法#1:使用朴素方法**
 
-```
+```py
 # Python code to demonstrate
 # for removing duplicate values from dictionary
 

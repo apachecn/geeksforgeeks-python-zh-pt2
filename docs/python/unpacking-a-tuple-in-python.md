@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to understand about
 # packing and unpacking in Python
 
@@ -34,7 +34,7 @@ print(type_ofcollege)
 
 **Output:** 
 
-```
+```py
 MNNIT Allahabad
 5000
 Engineering
@@ -47,7 +47,7 @@ Python 使用特殊语法传递可选参数(*args)进行元组解包。这意味
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to study about
 # unpacking python tuple using *
 
@@ -70,7 +70,7 @@ print(z)
 
 **Output:** 
 
-```
+```py
 10
 ['Geeks ', ' for ', 'Geeks ']
 50
@@ -85,7 +85,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to study about
 # unpacking python tuple using function
 
@@ -107,7 +107,7 @@ print (result(*z))
 
 **Output:** 
 
-```
+```py
 1000
 1000
 ```

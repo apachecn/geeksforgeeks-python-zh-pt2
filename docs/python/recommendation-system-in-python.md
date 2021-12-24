@@ -113,7 +113,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import pandas as pd
@@ -221,7 +221,7 @@ for i in similar_ids:
 
 **输出:**
 
-```
+```py
 Number of ratings: 100836
 Number of unique movieId's: 9724
 Number of unique users: 610

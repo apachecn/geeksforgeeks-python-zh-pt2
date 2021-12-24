@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [{'Gfg': 1}, {'Gfg': 1, 'is': 5, 'best': 4}, {'Gfg': 2, 'best': 9}]
 
@@ -60,7 +60,7 @@ print("Dictionary with maximum keys  : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [{'Gfg': 1}, {'Gfg': 1, 'is': 5, 'best': 4},
              {'Gfg': 2, 'best': 9, "book": 1}]

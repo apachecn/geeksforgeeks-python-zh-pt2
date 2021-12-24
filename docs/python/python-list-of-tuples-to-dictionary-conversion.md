@@ -10,7 +10,7 @@
 
 这个问题可以通过使用字典理解的速记来解决，这种速记在字典中执行单行循环的经典朴素方法。
 
-```
+```py
 # Python3 code to demonstrate
 # List of tuple to dictionary conversion
 # using list comprehension
@@ -38,7 +38,7 @@ print("The dictionary after conversion : " + str(res))
 
 执行类似于上述方法的任务，只是不同之处在于创建字典的方式。在上面的方法中，使用理解创建字典，这里`dict` 功能用于创建字典。
 
-```
+```py
 # Python3 code to demonstrate
 # List of tuple to dictionary conversion
 # using dict() + dictionary comprehension

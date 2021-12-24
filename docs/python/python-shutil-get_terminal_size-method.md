@@ -14,7 +14,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain
 # shutil.get_terminal_size() method 
 
@@ -30,14 +30,14 @@ print(terminal_size) 
 
 **输出:**
 
-```
+```py
 os.terminal_size(columns=80, lines=24)
 
 ```
 
 **例 2 :**
 
-```
+```py
 # Python program to explain
 # shutil.get_terminal_size() method 
 
@@ -53,7 +53,7 @@ print(terminal_size) 
 
 **输出:**
 
-```
+```py
 os.terminal_size(columns=40, lines=20)
 
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionaries by Values Sum
 # Using sort() + sum() + values()
@@ -52,7 +52,7 @@ print("Sorted Dictionaries List : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionaries by Values Sum
 # Using sorted() + lambda + sum() + values()

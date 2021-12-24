@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if all Values are Same in Dictionary 
 # Using loop
@@ -46,7 +46,7 @@ print("Are all values similar in dictionary? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 5, 'Best': 5}
 Are all values similar in dictionary? : True
 
@@ -58,7 +58,7 @@ Are all values similar in dictionary? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if all Values are Same in Dictionary 
 # Using set() + values() + len()
@@ -78,7 +78,7 @@ print("Are all values similar in dictionary? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 5, 'Best': 5}
 Are all values similar in dictionary? : True
 

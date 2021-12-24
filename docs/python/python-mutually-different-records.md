@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 可以选择列表理解作为在一行中执行该任务的方法，而不是运行循环来寻找公共元素。在这种情况下，我们只是迭代单个列表，并检查是否有任何元素出现在其他列表中。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mutually different Records
 # Using list comprehension
@@ -33,7 +33,7 @@ print("The unmatched data records are : " + str(rest))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [('gfg', 1), ('is', 2), ('best', 3)]
 The original list 2 is : [('i', 3), ('love', 4), ('gfg', 1)]
 The unmatched data records are : [('i', 3), ('love', 4), ('is', 2), ('best', 3)]

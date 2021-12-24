@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `max() + set()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 max()计算最大出现元素，并使用 set()将逻辑简化为唯一性。
 
-```
+```py
 # Python3 code to demonstrate 
 # List with most unique elements
 # using list comprehension + max() + set()
@@ -33,7 +33,7 @@ print ("List with Most unique values : " + str(list(res)))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [1, 3, 4, 4, 4, 3, 3, 2, 2, 1]
 The original list 2 is : [1, 3, 4, 6, 7]
 The original list 3 is : [4, 5, 4, 3, 6, 7, 8]

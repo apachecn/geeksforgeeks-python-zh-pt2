@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [12, 15, 3, 10]
 Output: Remove = [12, 3], New_List = [15, 10]
 
@@ -20,7 +20,7 @@ Output: Remove = [1:5], New_list = [11, 50]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to remove multiple
 # elements from a list
 
@@ -39,7 +39,7 @@ print("New list after removing all even numbers: ", list1)
 
 **输出:**
 
-```
+```py
 New list after removing all even numbers:  [11, 5, 17, 23]
 ```
 
@@ -48,7 +48,7 @@ New list after removing all even numbers:  [11, 5, 17, 23]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to remove multiple
 # elements from a list
 
@@ -64,7 +64,7 @@ print(*list1)
 
 **输出:**
 
-```
+```py
 11 5 17 23
 ```
 
@@ -73,7 +73,7 @@ print(*list1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to remove multiple
 # elements from a list
 
@@ -89,7 +89,7 @@ print(*list1)
 
 **输出:**
 
-```
+```py
 11 50
 ```
 
@@ -98,7 +98,7 @@ print(*list1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to remove multiple
 # elements from a list
 
@@ -116,7 +116,7 @@ print("New list after removing unwanted numbers: ", list1)
 
 **输出:**
 
-```
+```py
 New list after removing unwanted numbers:  [17, 18, 23, 50]
 ```
 
@@ -125,7 +125,7 @@ New list after removing unwanted numbers:  [17, 18, 23, 50]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to remove multiple
 # elements from a list
 
@@ -145,6 +145,6 @@ print (*list1)
 
 **输出:**
 
-```
+```py
 5 17 50
 ```

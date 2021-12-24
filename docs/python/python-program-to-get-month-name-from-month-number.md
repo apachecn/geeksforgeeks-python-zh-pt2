@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Month Name from Month Number
 # Using strftime() + %B
@@ -47,7 +47,7 @@ print("Month Name from Date : " + str(res))
 
 **输出:**
 
-```
+```py
 The original date is : 2020-04-08 00:00:00
 Month Name from Date : April
 ```
@@ -58,7 +58,7 @@ Month Name from Date : April
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get Month Name from Month Number
 # Using calendar library and month number
@@ -79,7 +79,7 @@ print("Month Name from Number : " + str(res))
 
 **输出:**
 
-```
+```py
 The original month number is : 5
 Month Name from Number : May
 ```

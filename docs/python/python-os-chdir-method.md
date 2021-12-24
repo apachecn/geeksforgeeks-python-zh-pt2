@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to change the
 # directory of file using os.chdir() method
 
@@ -30,7 +30,7 @@ print("Directory changed")
 
 **输出:**
 
-```
+```py
 Directory changed
 ```
 
@@ -39,7 +39,7 @@ Directory changed
 
 ## 蟒蛇 3
 
-```
+```py
 # import os module
 import os
 
@@ -56,7 +56,7 @@ print("Current working directory is:", cwd)
 
 **输出:**
 
-```
+```py
 Current working directory is: c:\\gfg_dir
 ```
 
@@ -64,7 +64,7 @@ Current working directory is: c:\\gfg_dir
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all necessary libraries
 import sys, os
 
@@ -93,7 +93,7 @@ finally:
 
 **输出:**
 
-```
+```py
 Inserting inside- c:\gfg_dir\gfg
 Something wrong with specified directory. Exception- 
 Restoring the path

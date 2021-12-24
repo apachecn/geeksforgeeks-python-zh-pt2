@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python code shows the working of
 # .endswith() function
 
@@ -48,7 +48,7 @@ print (result)
 
 **输出:**
 
-```
+```py
 False
 True
 True
@@ -59,7 +59,7 @@ True
 
 ## 计算机编程语言
 
-```
+```py
 # Python code shows the working of
 # .endswith() function
 
@@ -82,7 +82,7 @@ print result
 
 **输出:**
 
-```
+```py
 True
 True
 False 

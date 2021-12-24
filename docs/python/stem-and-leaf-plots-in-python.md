@@ -8,7 +8,7 @@
 
 **解释:**
 
-```
+```py
 "17" is split into "1" (stem) and "7" (leaf)
 "69" is split into "6" (stem) and "9" (leaf)
 ```
@@ -25,13 +25,13 @@
 假设极客网站有 10 个技术内容作者。他们每人提交了 100 篇文章
 在现场发表。在 100 篇文章中，每 10 位内容作者的错误文章数量如下
 
-```
+```py
 16, 25, 47, 56, 23, 45, 19, 55, 44, 27
 ```
 
 **茎叶图将为–**
 
-```
+```py
 1 | 69
 2 | 357
 4 | 457
@@ -41,7 +41,7 @@
 **用 Python 绘制树干图模块–**
 要用 Python 绘制茎叶图，我们需要安装< `strong>stemgraphic module`。您可以从 Jupyter 笔记本安装 stemgraphic 模块，如下所示–
 
-```
+```py
 import sys
 !{sys.executable} -m pip install stemgraphic
 
@@ -49,7 +49,7 @@ import sys
 
 以下是代码–
 
-```
+```py
 # importing the module
 import stemgraphic
 
@@ -68,14 +68,14 @@ stemgraphic.stem_graphic(data, scale = 10)
 
 **注意:**你可以从 Jupyter 笔记本安装这个 **matplotlib** 库，如下–
 
-```
+```py
 import sys
 !{sys.executable} -m pip install matplotlib
 ```
 
 **使用`matplotlib.pyplot.stem`–**
 
-```
+```py
 # import matplotlib.pyplot library
 import matplotlib.pyplot as plt
 

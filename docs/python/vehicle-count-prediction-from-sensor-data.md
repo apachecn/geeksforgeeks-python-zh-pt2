@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the pandas module for
 # data frame
 import pandas as pd
@@ -57,7 +57,7 @@ train.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # function to get all data from time stamp
 
 # get date

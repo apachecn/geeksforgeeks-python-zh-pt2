@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the ImageSequence module:
 from PIL import Image, ImageSequence
 
@@ -52,7 +52,7 @@ for fr in ImageSequence.Iterator(im):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the ImageSequence module:
 from PIL import Image, ImageSequence
 
@@ -85,7 +85,7 @@ app[35].show()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the ImageSequence module:
 from PIL import Image, ImageSequence
 
@@ -114,6 +114,6 @@ app[36].show()
 
 **输出:**
 
-```
+```py
 IndexError: list index out of range
 ```

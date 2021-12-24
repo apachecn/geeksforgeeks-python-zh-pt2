@@ -7,7 +7,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.SetBitmaps(self, checked, unchecked=NullBitmap)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

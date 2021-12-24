@@ -7,7 +7,7 @@
 **方法#1:使用循环+字符串切片**
 以上方法的结合可以解决这个问题。在这种情况下，我们使用循环搜索最后一次出现，并将索引保存到后面的切片中。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Slice from Last Occurrence of K
 # Using string slicing and loop
@@ -35,7 +35,7 @@ print("Sliced String is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks-is-best-for-geeks
 Sliced String is : geeksforgeeks-is-best-for
 

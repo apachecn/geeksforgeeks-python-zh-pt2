@@ -8,7 +8,7 @@ Python 是一种多用途语言，人们可以用它做任何事情。Python 也
 
 **示例:**
 
-```
+```py
 Input: erwta
 Output: water
 
@@ -23,7 +23,7 @@ Output: geeks
 
 **使用内置功能:**
 
-```
+```py
 choice() method randomly choose any word from the list.
 sample() method shuffling the characters of the word.
 ```
@@ -40,7 +40,7 @@ sample() method shuffling the characters of the word.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for jumbled words game.
 
 # import random module
@@ -201,7 +201,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 player 1, Please enter your name :Ankit
 Player 2 , Please enter your name: John
 jumbled word is : abiwrno

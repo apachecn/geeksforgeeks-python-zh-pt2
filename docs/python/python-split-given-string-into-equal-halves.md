@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+字符串切片**
 这是执行这个特定任务的幼稚方法。在这种情况下，我们只使用强力除法和切片来分离字符串的第一部分和最后一部分。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Splitting string into equal halves
 # Using list comprehension + string slicing
@@ -31,7 +31,7 @@ print("The second part of string : " + res_second)
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The first part of string : Geeksf
 The second part of string : rGeeks

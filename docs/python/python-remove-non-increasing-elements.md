@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove non-increasing elements
 # Using loop
@@ -56,7 +56,7 @@ print("The list after removing non-increasing elements : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove non-increasing elements
 # Using list comprehension + max + zip() + accumulate

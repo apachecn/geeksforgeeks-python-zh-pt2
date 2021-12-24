@@ -24,7 +24,7 @@ Django 表单域有几个内置方法来简化开发人员的工作，但是有�
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 # creating a form 
@@ -41,7 +41,7 @@ class InputForm(forms.Form):
 让我们解释一下到底发生了什么，左边表示字段的名称，右边对应地定义输入字段的各种功能。字段的语法表示为
 **语法:**
 
-```
+```py
 Field_name = forms.FieldType(attributes)
 ```
 
@@ -49,7 +49,7 @@ Field_name = forms.FieldType(attributes)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import InputForm
 
@@ -65,7 +65,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form action = "" method = "post">
     {% csrf_token %}
     {{form }}
@@ -80,7 +80,7 @@ def home_view(request):
 。
 表单工作正常，但视觉效果令人失望，我们可以手动渲染这些字段来改善一些视觉效果。每个字段都可以使用{{ form.name_of_field }}作为表单的属性，并且在 Django 模板中，将适当地呈现。例如:
 
-```
+```py
 {{ form.non_field_errors }}
 <div class="fieldWrapper">
     {{ form.subject.errors }}
@@ -94,7 +94,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 
 <head>
@@ -151,7 +151,7 @@ def home_view(request):
 *   **{{ field.label_tag }}**
     字段的标签包装在适当的 HTML 标签中。这包括表单的 label _ 后缀。例如，默认的 label _ 后缀是冒号:
 
-```
+```py
 <label for="id_email">Email address:</label>
 ```
 
@@ -168,7 +168,7 @@ def home_view(request):
 *   **{{ field.is_hidden }}**
     如果表单域是隐藏域，则该属性为真，否则为假。它作为模板变量并不是特别有用，但是在条件测试中可能会有用，例如:
 
-    ```
+    ```py
     {% if field.is_hidden %}
        {# Do something special #}
     {% endif %}

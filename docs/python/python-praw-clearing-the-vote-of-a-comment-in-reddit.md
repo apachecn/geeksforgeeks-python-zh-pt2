@@ -15,7 +15,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -49,7 +49,7 @@ print("Score after clearing the vote :" + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before upvoting : 25
 Score after upvoting : 25
 
@@ -60,7 +60,7 @@ Score after upvoting : 25
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -94,7 +94,7 @@ print("Score after clearing the vote :" + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before upvoting : 4
 Score after upvoting : 3
 

@@ -8,7 +8,7 @@
 
 下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:unchecked:pressed
 {
 background-image : url(image.png);
@@ -18,7 +18,7 @@ background-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

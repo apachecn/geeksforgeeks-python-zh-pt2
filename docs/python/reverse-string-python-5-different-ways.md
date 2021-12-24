@@ -6,7 +6,7 @@ Python 字符串库不像 list 这样的其他 python 容器那样支持内置�
 
 **Using loop**
 
-```
+```py
 # Python code to reverse a string 
 # using loop
 
@@ -27,7 +27,7 @@ print (reverse(s))
 
 输出:
 
-```
+```py
 The original string  is : Geeksforgeeks
 The reversed string(using loops) is : skeegrofskeeG
 
@@ -37,7 +37,7 @@ The reversed string(using loops) is : skeegrofskeeG
 
 **Using recursion**
 
-```
+```py
 # Python code to reverse a string 
 # using recursion
 
@@ -58,7 +58,7 @@ print (reverse(s))
 
 输出:
 
-```
+```py
 The original string  is : Geeksforgeeks
 The reversed string(using recursion) is : skeegrofskeeG
 
@@ -68,7 +68,7 @@ The reversed string(using recursion) is : skeegrofskeeG
 
 **Using stack**
 
-```
+```py
 # Python code to reverse a string 
 # using stack
 
@@ -130,7 +130,7 @@ print (reverse(s))
 
 输出:
 
-```
+```py
 The original string  is : Geeksforgeeks
 The reversed string(using stack) is : skeegrofskeeG
 
@@ -141,7 +141,7 @@ The reversed string(using stack) is : skeegrofskeeG
 
 **Using extended slice syntax**
 
-```
+```py
 # Python code to reverse a string 
 # using extended slice syntax
 
@@ -161,7 +161,7 @@ print (reverse(s))
 
 输出:
 
-```
+```py
 The original string  is : Geeksforgeeks
 The reversed string(using extended slice syntax) is : skeegrofskeeG
 
@@ -171,7 +171,7 @@ The reversed string(using extended slice syntax) is : skeegrofskeeG
 
 **Using reversed**
 
-```
+```py
 # Python code to reverse a string 
 # using reversed()
 
@@ -191,7 +191,7 @@ print (reverse(s))
 
 输出:
 
-```
+```py
 The original string  is : Geeksforgeeks
 The reversed string(using reversed) is : skeegrofskeeG
 

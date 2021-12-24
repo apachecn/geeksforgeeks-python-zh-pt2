@@ -8,7 +8,7 @@
 
 **方法 1:** 使用列表理解和`join()`
 
-```
+```py
 # Python code to convert list of tuple into list
 # by joining elements of tuple
 
@@ -24,14 +24,14 @@ print(Output)
 
 **Output:**
 
-```
+```py
 ['Hello_There', 'Namastey_India', 'Incredible_India']
 
 ```
 
 **方法二:**使用地图和`join()`
 
-```
+```py
 # Python code to convert list of tuple into list
 # by joining elements of tuple
 
@@ -47,7 +47,7 @@ print(Output)
 
 **Output:**
 
-```
+```py
 ['Hello_There', 'Namastey_India', 'Incredible_India']
 
 ```

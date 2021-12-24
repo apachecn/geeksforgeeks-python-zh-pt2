@@ -14,26 +14,26 @@
 
 首先，以只读模式打开文件，使用**readline()**方法逐行读取文件，并将其存储在变量中。
 
-```
+```py
 with open('example.txt','r',encoding='utf-8') as file:
     data = file.readlines()
 ```
 
 变量将包含一个行列表，打印它将显示列表中的所有行。
 
-```
+```py
 print(data)
 ```
 
 对特定行进行必要的更改。*(这里我修改了第二行)*
 
-```
+```py
 data[1] = "Here is my modified Line 2\n"
 ```
 
 在只写模式下再次打开文件，使用 **writelines()** 方法写入修改后的数据。
 
-```
+```py
 With open('example.txt', 'w', encoding='utf-8') as file:
     file.writelines(data)
 ```
@@ -42,7 +42,7 @@ With open('example.txt', 'w', encoding='utf-8') as file:
 
 ## 蟒蛇 3
 
-```
+```py
 with open('example.txt', 'r', encoding='utf-8') as file:
     data = file.readlines()
 
@@ -55,7 +55,7 @@ with open('example.txt', 'w', encoding='utf-8') as file:
 
 **输出:**
 
-```
+```py
 ['Line 1\n', 'Here is my modified Line 2\n', 'Line 3']
 ```
 

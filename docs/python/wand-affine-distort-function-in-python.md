@@ -4,7 +4,7 @@
 
 **仿射**畸变法对图像进行剪切操作。论点类似透视变形法，但只需要一对 3 点 12 实数，方式如下:
 
-```
+```py
 src1x, src1y, dst1x, dst1y,
 src2x, src2y, dst2x, dst2y,
 src3x, src3y, dst3x, dst3y
@@ -20,7 +20,7 @@ src3x, src3y, dst3x, dst3y
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module
@@ -49,7 +49,7 @@ with Image(filename ='gog.png') as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Color from wand.color module
 from wand.color import Color
 # Import Image from wand.image module

@@ -16,7 +16,7 @@
 
 *   **assoc(d, key, value[, factory]) –** Returns a new dict with new key value pair. It does not modify the initial dictionary.
 
-    ```
+    ```py
     import toolz
 
     d = toolz.dicttoolz.assoc({'Geeks':0}, 'forGeeks', 1)
@@ -25,14 +25,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'Geeks': 0, 'forGeeks': 1}
 
     ```
 
 *   **assoc_in(d, keys, value[, factory]) –** Returns a new dict with new, potentially nested, key value pair
 
-    ```
+    ```py
     import toolz
 
     d = toolz.dicttoolz.assoc_in({'Geeks':0}, 'forGeeks', 1)
@@ -45,7 +45,7 @@
 
 *   **dissoc(d, *keys) –** Returns a new dict with the given key(s) removed. It does not modify the initial dictionary.
 
-    ```
+    ```py
     import toolz
 
     d = toolz.dicttoolz.dissoc({'g':0, 'e':1, 
@@ -56,14 +56,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'g': 0, 's': 3}
 
     ```
 
 *   **get_in(keys, ds[, default, no_default]) –** Returns ds[I0][I1]…[IX] where [I0, I1, …, IX] are keys and ds is a nested dictionary. If ds[I0][I1]…[IX] cannot be found, it returns “default”.
 
-    ```
+    ```py
     import toolz
 
     nested_dict ={'d1':{'k1':'v1', 'k2':'v2'}, 
@@ -79,7 +79,7 @@
 
     **输出–**
 
-    ```
+    ```py
     {'k1': 'v1', 'k2': 'v2'}
     {'k4': 'v4'}
 
@@ -87,7 +87,7 @@
 
 *   **itemfilter(predicate, d[, factory]) –** It filters items in dictionary by item.
 
-    ```
+    ```py
     import toolz
 
     def func(item):
@@ -102,14 +102,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {0: 'A', 1: 'B', 5: 'F'}
 
     ```
 
 *   **itemmap(func, d[, factory]) –** Applies function to items of dictionary.
 
-    ```
+    ```py
     import toolz
 
     d = {0:'A', 1:'B', 3:'C', 5:'F'}
@@ -118,14 +118,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'A': 0, 'B': 1, 'C': 3, 'F': 5}
 
     ```
 
 *   **keyfilter(predicate, d[, factory]) –** It filters items in dictionary by key.
 
-    ```
+    ```py
     import toolz
 
     def func(key):
@@ -137,14 +137,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'python': 0, 'julia': 1}
 
     ```
 
 *   **keymap(func, d[, factory] –** Applies function to keys of dictionary .
 
-    ```
+    ```py
     import toolz
 
     def func(key):
@@ -156,14 +156,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'nohtyp': 0, 'ailuj': 1, 'avaj': 3, 'tpircsavaj': 5}
 
     ```
 
 *   **merge(*dicts, **kwargs) –** It merges a collection of dictionaries.
 
-    ```
+    ```py
     import toolz
 
     dict1 = {1:1, 2:4}
@@ -173,14 +173,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {1: 1, 2: 8, 3: 9, 4: 16}
 
     ```
 
 *   **merge_with(func, *dicts, **kwargs) –** Merges dictionaries and applies function to combined values.
 
-    ```
+    ```py
     import toolz
 
     dict1 = {1:1, 2:4}
@@ -190,14 +190,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {1: 2, 2: 12, 3: 9}
 
     ```
 
 *   **update_in(d, keys, func[, default, factory]) –**Updates value in a nested dictionary. If keys = [k0, .., kX] and d[k0, …, kX] = value, update_in returns a copy of the original dictionary with ‘value’ replaced by func(value).
 
-    ```
+    ```py
     import toolz
 
     def func(value):
@@ -210,14 +210,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {1: {11: 55}, 2: {22: 222}}
 
     ```
 
 *   **valfilter(predicate, d[, factory]) –** Filter items in dictionary by value.
 
-    ```
+    ```py
     import toolz
 
     def func(value):
@@ -229,14 +229,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {0: 'python', 1: 'julia'}
 
     ```
 
 *   **valmap(func, d[, factory]) –** Apply function to values of dictionary.
 
-    ```
+    ```py
     import toolz
 
     def func(value):
@@ -248,7 +248,7 @@
 
     **输出–**
 
-    ```
+    ```py
     {0: 'nohtyp', 1: 'ailuj', 3: 'avaj', 5: 'tpircsavaj'}
 
     ```
@@ -259,7 +259,7 @@
 
 *   **apply(*func_and_args, **kwargs) –** It simply applies a function and returns the result.
 
-    ```
+    ```py
     import toolz
 
     def double(n):
@@ -270,14 +270,14 @@
 
     **输出–**
 
-    ```
+    ```py
     4
 
     ```
 
 *   **complement(func) –** As its name suggests, it converts returns the logical complement of the input provided.
 
-    ```
+    ```py
     import toolz
 
     def is_mulitple_of_5(n):
@@ -291,7 +291,7 @@
 
     **输出–**
 
-    ```
+    ```py
     True
     False
 
@@ -299,7 +299,7 @@
 
 *   **compose(*funcs) –** It returns a function that applies other functions in sequence. Functions are applied from right to left. If no arguments are provided, the identity function (f(x) = x) is returned.
 
-    ```
+    ```py
     import toolz
 
     def func(n):
@@ -314,14 +314,14 @@
 
     **输出–**
 
-    ```
+    ```py
     18
 
     ```
 
 *   **compose_left(*funcs) –** It returns a function that applies other functions in sequence. Functions are applied from left to right. If no arguments are provided, the identity function (f(x) = x) is returned.
 
-    ```
+    ```py
     import toolz
 
     def func(n):
@@ -336,14 +336,14 @@
 
     **输出–**
 
-    ```
+    ```py
     36
 
     ```
 
 *   **flip –** Call the function with the arguments in reverse order.
 
-    ```
+    ```py
     import toolz
 
     def mod(a, b):
@@ -354,14 +354,14 @@
 
     **输出–**
 
-    ```
+    ```py
     7 % 3 : 1
 
     ```
 
 *   **identity(x) –** Identity function, simply returns x.
 
-    ```
+    ```py
     import toolz
 
     print(toolz.functoolz.identity(6))
@@ -369,14 +369,14 @@
 
     **输出–**
 
-    ```
+    ```py
     6
 
     ```
 
 *   **pipe(data, *funcs) –** Pipe a value through a sequence of functions. It is equivalent to compose_left(*funcs)
 
-    ```
+    ```py
     import toolz
 
     print(toolz.functoolz.pipe(3, double, square))
@@ -384,14 +384,14 @@
 
     **输出–**
 
-    ```
+    ```py
     36
 
     ```
 
 *   **thread_first(val, *forms) –** Thread value through a sequence of functions/forms.
 
-    ```
+    ```py
     import toolz
 
     def mod(a, b):
@@ -405,14 +405,14 @@
 
     **输出–**
 
-    ```
+    ```py
     2
 
     ```
 
 *   **thread_last(val, *forms) –** Thread value through a sequence of functions/forms.
 
-    ```
+    ```py
     import toolz
 
     def mod(a, b):
@@ -426,7 +426,7 @@
 
     **输出–**
 
-    ```
+    ```py
     4
 
     ```
@@ -437,7 +437,7 @@
 
 *   **accumulate(binop, seq[, initial]) –** This is similar to ‘reduce’ function. It repeatedly applies a function to a sequence accumulating results.
 
-    ```
+    ```py
     import toolz
     from operator import add
 
@@ -446,14 +446,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [1, 3, 6, 10]
 
     ```
 
 *   **concat(seqs) –** It concatenates two or more iterables.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.concat([[1], 
@@ -463,14 +463,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [1, 'a', 2, 3, 4]
 
     ```
 
 *   **cons(item, seq) –** It adds ‘item’ in the beginning of sequence. It is equivalent to insert(0, item).
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.cons(1, ['a', 'b'])))
@@ -478,14 +478,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [1, 'a', 'b']
 
     ```
 
 *   **diff(*seqs, **kwargs) –** It compares the elements at every index in both iterables and returns the list of differing pairs.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.diff([1, 2, 3], [2, 2, 4])))
@@ -493,14 +493,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [(1, 2), (3, 4)]
 
     ```
 
 *   **drop(n, seq) –** It drops the first n elements of sequence and returns the new sequence.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.drop(3, [2, 3, 2, 6, 4, 7])))
@@ -508,14 +508,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [6, 4, 7]
 
     ```
 
 *   **frequencies(seq) –** It returns a dictionary with elements and their count in sequence. It is equivalent to collections.Counter.
 
-    ```
+    ```py
     import toolz
 
     print(toolz.itertoolz.frequencies(['c',
@@ -531,14 +531,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {'c': 2, 'b': 3, 'd': 1, 'e': 1, 'h': 2}
 
     ```
 
 *   **groupby(func, seq) –** It returns a dictionary after grouping the sequence elements according to func.
 
-    ```
+    ```py
     import toolz
 
     print(toolz.itertoolz.groupby(len, 
@@ -547,14 +547,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {5: ['geeks', 'geeks'], 3: ['for']}
 
     ```
 
 *   **isdistinct(seq) –** It returns True if all elements in the sequence are distinct, else False.
 
-    ```
+    ```py
     import toolz
 
     print(toolz.itertoolz.isdistinct('geeks'))
@@ -562,25 +562,25 @@
 
     **输出–**
 
-    ```
+    ```py
     False
 
     ```
 
 *   **不可改变的(x)–**如果 x 是可迭代的，则返回真，否则返回假。
 
-    ```
+    ```py
     print(toolz.itertoolz.isiterable([10]))
     ```
 
-    ```
+    ```py
     Output - True
 
     ```
 
 *   **interleave(seqs) –** It interleaves the sequences, i.e. concatenates the sequences index-wise.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.interleave([[10, 20], 
@@ -589,14 +589,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [10, 5, 20, 8, 11]
 
     ```
 
 *   **topk(k, seq[, key]) –** It returns the top k largest elements of the sequence.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.topk(2,
@@ -605,14 +605,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [20, 11]
 
     ```
 
 *   **unique(seq[, key]) –** It returns the distinct elements of sequence just like set(seq).
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.unique([10,
@@ -625,14 +625,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [10, 20, 5, 8]
 
     ```
 
 *   **merge_sorted(*seqs, **kwargs) –** It merges sorted iterables in such a way that the resulting collection is also sorted.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.merge_sorted([5, 10, 20], 
@@ -641,14 +641,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [4, 5, 10, 12, 20, 24]
 
     ```
 
 *   **mapcat(func, seqs) –** It applies func to each sequence and concatenates the results.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.mapcat(lambda iter: [e * 2 for e in iter], 
@@ -658,14 +658,14 @@
 
     **输出–**
 
-    ```
+    ```py
     [10, 20, 40, 8, 24, 48]
 
     ```
 
 *   **remove(predicate, seq) –** It returns those elements from sequence for which predicate is False. It is complement function of filter.
 
-    ```
+    ```py
     import toolz
 
     print(list(toolz.itertoolz.remove(lambda x: x % 2 == 0,
@@ -674,7 +674,7 @@
 
     **输出–**
 
-    ```
+    ```py
     [5, 21]
 
     ```
@@ -685,7 +685,7 @@
 
 *   **countby(key, seq) –** Count elements of a collection by a key function.
 
-    ```
+    ```py
     import toolz
 
     def iseven(n):
@@ -696,14 +696,14 @@
 
     **输出–**
 
-    ```
+    ```py
     {True: 2, False: 1}
 
     ```
 
 *   **partitionby(func, seq) –** Partition a sequence according to a given function.
 
-    ```
+    ```py
     import toolz
 
     def iseven(n):
@@ -716,7 +716,7 @@
 
     **输出–**
 
-    ```
+    ```py
     [(12, ), (123, 31), (1234, )]
 
     ```
@@ -727,7 +727,7 @@
 
 *   **parallel.fold(binop, seq[, default, map, …] –** Reduce without guarantee of ordered reduction.
 
-    ```
+    ```py
     import toolz
 
     def sum(a, b):
@@ -738,13 +738,13 @@
 
     **输出–**
 
-    ```
+    ```py
     10
     ```
 
 *   **core.unzip(seq) –** Inverse of zip.
 
-    ```
+    ```py
     import toolz
 
     l1, l2 = toolz.sandbox.core.unzip([(0, 1),
@@ -756,7 +756,7 @@
 
     **输出–**
 
-    ```
+    ```py
     [0, 1, 2] [1, 2, 3]
 
     ```

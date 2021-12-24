@@ -6,7 +6,7 @@
 
 **捕获组**:括号将它们之间的正则表达式分组，并将它们内部的正则表达式匹配的文本捕获到一个编号组**即[\w ]+)** 中，该编号组可以与一个编号的反向引用(即
 
-```
+```py
 \g<Group Number>
 ```
 
@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 Input  : Name (Date) 
 Output : Date - Name
 
@@ -35,14 +35,14 @@ Output : 1813 - Pride and Prejudice
 
 1.  上述模式中的括号将它们之间的正则表达式分组。([\w ]+)是第一个被
 
-    ```
+    ```py
     \g<1>
     ```
 
     反向引用的**名称**
 2.  (\d{4}) is the second group capturing **Date** which is back-referenced by
 
-    ```
+    ```py
     \g<2>
     ```
 
@@ -50,7 +50,7 @@ Output : 1813 - Pride and Prejudice
 
 3.  我们使用**。sub()** 用新的替换替换字符串中最左边不重叠的 regex_pattern。
 
-    ```
+    ```py
     .subl(\g<2> - \g<1>,string)
     ```
 
@@ -59,7 +59,7 @@ Output : 1813 - Pride and Prejudice
 
 **代码:Python3 使用 Regex** 为列表中的每个项目交换名称和日期的程序
 
-```
+```py
 # Python3 program to swap Name and Date for each item
 # in the list using Regex
 # sort the list after swapping to display the output
@@ -115,7 +115,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 1813 - Pride and Prejudice 
 1847 - Jane Eyre
 1925 - The Great Gatsby

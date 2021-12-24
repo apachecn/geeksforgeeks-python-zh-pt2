@@ -11,7 +11,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

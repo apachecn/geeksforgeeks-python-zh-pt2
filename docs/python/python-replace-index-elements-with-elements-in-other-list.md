@@ -7,7 +7,7 @@
 **方法一:利用列表理解**
 这是解决这个问题的一种方法。在这种情况下，我们只需遍历列表，并将索引值从一个列表分配给另一个列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Replace index elements with elements in Other List
 # using list comprehension

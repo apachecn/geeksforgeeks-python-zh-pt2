@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum occurring Substring from list
 # Using regex() + groupby() + max() + lambda
@@ -35,7 +35,7 @@ print("Maximum frequency substring : " + str(res[0]))
 
 **Output : **
 
-```
+```py
 The original string is : gfghsisbjknlmkesbestgfgsdcngfgcsdjnisdjnlbestdjsklgfgcdsbestbnjdsgfgdbhisbhsbestdkgfgb
 The original list is : ['gfg', 'is', 'best']
 Maximum frequency substring : gfg

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from math import sin
 from math import cos
 from math import radians

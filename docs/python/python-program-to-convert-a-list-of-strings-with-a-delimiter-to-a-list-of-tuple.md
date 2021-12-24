@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert K delim Strings to Integer Tuple List
 # Using list comprehension + split()
@@ -44,7 +44,7 @@ print("The converted tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['1-2', '3-4-8-9', '4-10-4']
 The converted tuple list : [(1, 2), (3, 4, 8, 9), (4, 10, 4)]
 
@@ -56,7 +56,7 @@ The converted tuple list : [(1, 2), (3, 4, 8, 9), (4, 10, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert K delim Strings to Integer Tuple List
 # Using map() + split() + list comprehension
@@ -80,7 +80,7 @@ print("The converted tuple list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['1-2', '3-4-8-9', '4-10-4']
 The converted tuple list : [(1, 2), (3, 4, 8, 9), (4, 10, 4)]
 

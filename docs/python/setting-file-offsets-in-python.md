@@ -30,7 +30,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # WRITING OPERATIONS
 # creates a file named emails.txt
 fhand = open("emails.txt", "w")
@@ -61,7 +61,7 @@ fhand.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # opening the file with reading permissions
 fhand = open("emails.txt", "r")
 

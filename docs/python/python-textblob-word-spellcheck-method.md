@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以说通过使用`TextBlob.Word.spellcheck()`方法，我们能够获得单词 weather 的准确性，它是否正确。
 
-```
+```py
 # import Word
 from textblob import Word
 
@@ -26,7 +26,7 @@ print(gfg.spellcheck())
 
 **例 2 :**
 
-```
+```py
 # import Word
 from textblob import Word
 

@@ -7,7 +7,7 @@
 *   It is guaranteed that no two element have the same frequency
     **Examples:**
 
-    ```
+    ```py
     Input :geek55of55geeks4abc3dr2 
     Output :55
 
@@ -20,7 +20,7 @@
 
     下面是上述方法的 Python 实现
 
-    ```
+    ```py
     # your code goes here# Python program to 
     # find the most occurring element 
     import re 
@@ -61,7 +61,7 @@
 
     **Output:**
 
-    ```
+    ```py
     55
 
     ```

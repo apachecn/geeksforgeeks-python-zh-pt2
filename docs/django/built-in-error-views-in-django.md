@@ -24,7 +24,7 @@
 
 假设你有一个电子商务网站，你只希望认证商家列出产品。买家和普通用户不能列出他们的产品。您可以在 Django 中添加这样的功能:
 
-```
+```py
 from django.core.exceptions import PermissionDenied
 
 def upload(request, pk):
@@ -47,7 +47,7 @@ def upload(request, pk):
 
 现在，让我们看看如何定制这些错误视图。首先你需要进入设置。复制并设置调试=假。
 
-```
+```py
 DEBUG = False
 ALLOWED_HOSTS =  ['localhost', '127.0.0.1']
 
@@ -55,14 +55,14 @@ ALLOWED_HOSTS =  ['localhost', '127.0.0.1']
 
 在项目中创建一个文件夹，给它命名，这里我给这个文件夹命名为“**模板**”。现在转到 settings.py 并设置模板目录。
 
-```
+```py
 TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 
 ```
 
 现在，在模板目录中，您可以创建 html 文件“404.html”、“500.html”、“403.html”、“400.html”等。创建这些页面后，展示你的 HTML 技能，并自己定制页面。将您的应用程序名称添加到 settings.py 中。
 
-```
+```py
 INSTALLED_APPS = [
 'django.contrib.admin',
 'django.contrib.auth',
@@ -78,7 +78,7 @@ INSTALLED_APPS = [
 
 将处理程序方法添加到**URL . py**
 
-```
+```py
 handler404 = 'myappname.views.error_404'
 handler500 = 'myappname.views.error_500'
 handler403 = 'myappname.views.error_403'
@@ -88,7 +88,7 @@ handler400 = 'myappname.views.error_400'
 
 现在设置逻辑以在**视图中显示这些页面**
 
-```
+```py
 from django.shortcuts import render
 
 def error_404(request, exception):
@@ -109,7 +109,7 @@ def error_400(request,  exception):
 
 现在，您已经准备好运行服务器并查看您创建的这些错误处理页面。
 
-```
+```py
 To run server: python manage.py runserver
 
 ```

@@ -8,13 +8,13 @@
 
 例如，如果在命令行中我们写
 
-```
+```py
 $ python filename URL1 URL2 URL3 
 ```
 
 那么输出将是:
 
-```
+```py
  ['shortened url1', 'shortened url2', 'shortened url3'] 
 ```
 
@@ -25,7 +25,7 @@ $ python filename URL1 URL2 URL3
 
 代码片段如下:
 
-```
+```py
 from __future__ import with_statement                                                        
 
 import contextlib
@@ -51,7 +51,7 @@ import sys
 
 代码片段如下:
 
-```
+```py
 def make_tiny(url):
     request_url = ('http://tinyurl.com/api-create.php?' + urlencode({'url':url}))   
     with contextlib.closing(urlopen(request_url)) as response:                      
@@ -64,7 +64,7 @@ def make_tiny(url):
 
 代码片段如下:
 
-```
+```py
 def main():                                                                
     for tinyurl in map(make_tiny, sys.argv[1:]):                    
         print(tinyurl)
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 **最后，完整代码如下:**
 
-```
+```py
 #!/usr/bin/env python 3
 from __future__ import with_statement                                                           
 

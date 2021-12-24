@@ -42,7 +42,7 @@ Python [Turtle](https://www.geeksforgeeks.org/turtle-programming-python/) 模块
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 from turtle import *
 
@@ -95,7 +95,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 from turtle import *
 

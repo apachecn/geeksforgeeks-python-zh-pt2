@@ -6,7 +6,7 @@
 
 **方法#1:** 使用`pop()`方法【移除首先找到的给定元素。】
 
-```
+```py
 # Python program to remove given element from the list
 list1 = [1, 9, 8, 4, 9, 2, 9] 
 
@@ -26,7 +26,7 @@ print ("List after element removal is : "  + str(list1)) 
 
 **输出:**
 
-```
+```py
 original list : [1, 9, 8, 4, 9, 2, 9]
 List after element removal is : [1, 8, 4, 9, 2, 9]
 

@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import cv2, matplotlib, numpy
 import cv2
 import matplotlib.pyplot as plt

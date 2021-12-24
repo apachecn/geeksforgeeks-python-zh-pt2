@@ -7,7 +7,7 @@
 
 **如何使用:**
 
-```
+```py
 -> import tkinter
 -> root = Tk()
 -> root.resizable(height = None, width = None)
@@ -21,7 +21,7 @@
 
 **代码#1:** 允许根窗口改变大小
 
-```
+```py
 # importing only  those functions
 # which are needed
 from tkinter import * 
@@ -49,7 +49,7 @@ mainloop()
 
 **代码#2:** 限制根窗口更改其大小(固定大小的窗口)。
 
-```
+```py
 # importing only  those functions
 # which are needed
 from tkinter import * 

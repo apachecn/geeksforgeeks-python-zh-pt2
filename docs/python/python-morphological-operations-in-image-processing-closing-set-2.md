@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Closing morphological operation
 # on an image

@@ -7,7 +7,7 @@
 **方法#1:使用嵌套循环**
 这是一种简单的方法，可以解决这个特定的问题，并使用外部循环来迭代每个元素，内部循环检查将对乘以结果的剩余差异。
 
-```
+```py
 # Python3 code to demonstrate
 # 3 element product
 # using nested loops
@@ -40,7 +40,7 @@ print("The 3 product element list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 1, 3, 2, 6, 12]
 The 3 product element list is : [(4, 1, 6), (4, 3, 2), (1, 2, 12)]
 

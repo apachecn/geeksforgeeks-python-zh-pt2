@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 import unittest
 import os
 import platform
@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 
 bash % python3 testsample.py -v
 test_0 (__main__.Tests) ... ok
@@ -61,7 +61,7 @@ OK (skipped = 2, expected failures = 1)
 
 **代码#2:应用装饰器跳过整个测试类的方法**
 
-```
+```py
 @unittest.skipUnless(platform.system() == 'Darwin', 'Mac specific tests')
 class DarwinTests(unittest.TestCase):
     ...

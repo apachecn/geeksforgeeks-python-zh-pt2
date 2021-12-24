@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input : 
 "ThisIsGeeksforGeeks!, 123" 
 
@@ -26,7 +26,7 @@ No. of special characters = 2
 
 下面是实现。
 
-```
+```py
 import re
 
 string = "ThisIsGeeksforGeeks !, 123"
@@ -46,7 +46,7 @@ print("The no. of special characters is", len(special_characters))
 
 **输出:**
 
-```
+```py
 The no. of uppercase characters is 4
 The no. of lowercase characters is 15
 The no. of numerical characters is 3

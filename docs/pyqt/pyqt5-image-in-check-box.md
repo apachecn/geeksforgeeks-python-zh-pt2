@@ -10,7 +10,7 @@
 
 为了做到这一点，我们必须在样式表中设置背景图像，下面是可以与复选框对象一起使用的样式表代码。
 
-```
+```py
 QCheckBox
 {
 background-image : url(image.png);
@@ -20,7 +20,7 @@ background-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -18,7 +18,7 @@ Python List ***追加()*** 方法用于在[列表](https://www.geeksforgeeks.org
 
 ## 计算机编程语言
 
-```
+```py
 # my_list
 my_list = ['geeks', 'for']
 
@@ -30,7 +30,7 @@ print my_list
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks']
 ```
 
@@ -38,7 +38,7 @@ print my_list
 
 ## 计算机编程语言
 
-```
+```py
 # my_list
 my_list = ['geeks', 'for', 'geeks']
 
@@ -53,7 +53,7 @@ print my_list
 
 **输出:**
 
-```
+```py
 ['geeks', 'for', 'geeks', [6, 0, 4, 1]]
 ```
 

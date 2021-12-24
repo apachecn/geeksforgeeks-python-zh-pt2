@@ -15,7 +15,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain os.urandom() method 
 
 # importing os module 
@@ -34,7 +34,7 @@ print(result) 
 
 **Output:**
 
-```
+```py
 b'\xe2\xaf\xbc:\xdd'
 
 ```

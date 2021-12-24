@@ -16,7 +16,7 @@ Python 中的`***os.getenv()***`方法返回环境变量键的值(如果存在�
 
 **代码#1:** 使用 os.getenv()方法
 
-```
+```py
 # Python program to explain os.getenv() method 
 
 # importing os module 
@@ -43,7 +43,7 @@ print("Value of 'JAVA_HOME' environment variable :", value) 
 
 **Output:**
 
-```
+```py
 Value of 'HOME' environment variable : /home/ihritik
 Value of 'JAVA_HOME' environment variable : /opt/jdk-10.0.1
 
@@ -51,7 +51,7 @@ Value of 'JAVA_HOME' environment variable : /opt/jdk-10.0.1
 
 **代码#2:** 如果密钥不存在
 
-```
+```py
 # Python program to explain os.getenv() method 
 
 # importing os module 
@@ -69,14 +69,14 @@ print("Value of 'home' environment variable :", value)
 
 **Output:**
 
-```
+```py
 Value of 'home' environment variable : None
 
 ```
 
 **代码#3:** 明确指定默认参数
 
-```
+```py
 # Python program to explain os.getenv() method 
 
 # importing os module 
@@ -94,7 +94,7 @@ print("Value of 'home' environment variable :", value) 
 
 **Output:**
 
-```
+```py
 Value of 'home' environment variable : value does not exist
 
 ```

@@ -7,7 +7,7 @@
 
 **示例:**
 
-```
+```py
 # initializing the list
 list = []
 
@@ -21,20 +21,20 @@ print(list)
 
 **输出:**
 
-```
+```py
  0 2 4 6 8 10
 ```
 
 现在，同样的输出可以从一行代码中得到。
 
-```
+```py
 list = [i for i in range(11) if i % 2 == 0]
 print(list)
 ```
 
 **输出:**
 
-```
+```py
  0 2 4 6 8 10
 ```
 
@@ -45,7 +45,7 @@ print(list)
 
 **句法差异:**括号代替方括号。
 
-```
+```py
 # List Comprehension
 list_comprehension = [i for i in range(11) if i % 2 == 0]
 
@@ -54,11 +54,11 @@ print(list_comprehension)
 
 **输出:**
 
-```
+```py
  0 2 4 6 8 10
 ```
 
-```
+```py
 # Generator Expression
 generator_expression = (i for i in range(11) if i % 2 == 0)
 
@@ -67,21 +67,21 @@ print(generator_expression)
 
 **输出:**
 
-```
+```py
 <generator object  at 0x000001452B1EEC50>
 
 ```
 
 在上面的例子中，如果我们想要打印生成器表达式的输出，我们可以简单地在生成器对象上迭代它。
 
-```
+```py
 for i in generator_expression:
     print(i, end=" ")
 ```
 
 **输出:**
 
-```
+```py
 0 2 4 6 8 10
 ```
 
@@ -89,7 +89,7 @@ for i in generator_expression:
 生成器一次生成一个项目，并且仅在需要时生成项目。然而，在列表理解中，Python 为整个列表保留内存。因此，我们可以说生成器表达式比列表更节省内存。
 我们可以在下面的例子中看到这一点。
 
-```
+```py
 # import getsizeof from sys module
 from sys import getsizeof
 
@@ -107,7 +107,7 @@ print("y = ", y)
 
 **输出:**
 
-```
+```py
 x =  87624
 y =  88
 
@@ -115,7 +115,7 @@ y =  88
 
 我们刚刚看到生成器表达式具有内存效率。但是，它们也有时间效率吗？让我们用一个例子来验证这一点。
 
-```
+```py
 #List Comprehension: 
 import timeit
 
@@ -124,11 +124,11 @@ print(timeit.timeit('''list_com = [i for i in range(100) if i % 2 == 0]''', numb
 
 **输出:**
 
-```
+```py
 8.118047142050102
 ```
 
-```
+```py
 #Generator Expression:
 import timeit
 
@@ -137,7 +137,7 @@ print(timeit.timeit('''gen_exp = (i for i in range(100) if i % 2 == 0)''', numbe
 
 **输出:**
 
-```
+```py
 0.7548244756850693
 ```
 

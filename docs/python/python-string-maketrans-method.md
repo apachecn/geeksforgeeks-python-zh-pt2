@@ -37,7 +37,7 @@ Python String maketrans()函数用于构造转换表，即指定需要在整个�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # translations using
 # maketrans() and translate()
@@ -70,7 +70,7 @@ print (trg.translate(table))
 
 **输出:**
 
-```
+```py
 The string before translating is : weeksyourweeks
 The string after translating is : geeksforgeeks
 ```

@@ -7,7 +7,7 @@
 **方法:使用列表理解+列表切片**
 这个问题可以通过上述两个函数的组合来解决，其中我们使用列表理解将逻辑扩展到每个元素，然后计算产品，切片用于获取产品，直到特定的索引。
 
-```
+```py
 # Python3 code to demonstrate
 # Product of Prefix in list
 # using list comprehension + list slicing 
@@ -35,7 +35,7 @@ print("The prefix prod list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The prefix prod list is : [3, 12, 12, 84, 756, 756]
 

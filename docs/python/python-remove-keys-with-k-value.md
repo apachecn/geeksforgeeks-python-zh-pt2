@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Keys with K value
 # Using dictionary comprehension
@@ -42,7 +42,7 @@ print("The filtered dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 6, 'geeks': 11}
 The filtered dictionary : {'is': 7, 'best': 9, 'geeks': 11}
 
@@ -54,7 +54,7 @@ The filtered dictionary : {'is': 7, 'best': 9, 'geeks': 11}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Keys with K value
 # Using dict() + filter() + lambda
@@ -78,7 +78,7 @@ print("The filtered dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 6, 'is': 7, 'best': 9, 'for': 6, 'geeks': 11}
 The filtered dictionary : {'is': 7, 'best': 9, 'geeks': 11}
 

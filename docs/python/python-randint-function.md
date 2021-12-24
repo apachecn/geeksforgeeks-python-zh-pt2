@@ -6,25 +6,25 @@
 
 **语法:**
 
-```
+```py
 randint(start, end)
 ```
 
 **参数:**
 
-```
+```py
 (start, end) : Both of them must be integer type values.
 ```
 
 **返回:**
 
-```
+```py
 A random integer in range [start, end] including the end points.
 ```
 
 **错误和异常:**
 
-```
+```py
 ValueError : Returns a ValueError when floating
              point values are passed as parameters.
 
@@ -34,7 +34,7 @@ TypeError : Returns a TypeError when anything other than
 
 **代码#1 :**
 
-```
+```py
 # Python3 program explaining work
 # of randint() function
 
@@ -59,7 +59,7 @@ print("Random number between -5 and 5 is % d" % (r3))
 
 **输出:**
 
-```
+```py
 Random number between 0 and 10 is 5
 Random number between -10 and -1 is -7
 Random number between -5 and 5 is 2
@@ -68,7 +68,7 @@ Random number between -5 and 5 is 2
 
 **代码#2 :** 程序演示值错误。
 
-```
+```py
 # imports random module
 import random
 
@@ -81,7 +81,7 @@ print(r1)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/f813370b9ea61dd5d55d7dadc8ed5171.py", line 6, in 
     r1=random.randint(1.23, 9.34)
@@ -95,7 +95,7 @@ ValueError: non-integer arg 1 for randrange()
 
 **代码#3 :** 演示类型错误的程序。
 
-```
+```py
 # imports random
 import random
 
@@ -108,7 +108,7 @@ print(r2)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fb805b21fea0e29c6a65f62b99998953.py", line 5, in 
     r2=random.randint('a', 'z')
@@ -124,7 +124,7 @@ randint()函数可用于模拟抽奖情况。
 
 假设用户参加了抽奖比赛。用户有三次机会猜测 1 到 10 之间的数字。如果猜测正确，用户获胜，否则输掉比赛。
 
-```
+```py
 # importing randint function
 # from random module
 from random import randint
@@ -197,7 +197,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Pick your number to enter the lucky draw
 8
 Wrong Guess!!

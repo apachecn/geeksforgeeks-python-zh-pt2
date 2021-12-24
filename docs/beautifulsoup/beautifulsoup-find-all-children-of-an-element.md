@@ -14,7 +14,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
  <head>
@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup as bs
 import os
 ```
@@ -49,7 +49,7 @@ import os
 
 ## 蟒蛇 3
 
-```
+```py
 base=os.path.dirname(os.path.abspath(#Name of your Python file))
 ```
 
@@ -57,7 +57,7 @@ base=os.path.dirname(os.path.abspath(#Name of your Python file))
 
 ## 蟒蛇 3
 
-```
+```py
 html=open(os.path.join(base, '#Name of HTML file'))
 ```
 
@@ -65,7 +65,7 @@ html=open(os.path.join(base, '#Name of HTML file'))
 
 ## 蟒蛇 3
 
-```
+```py
 soup=bs(html, 'html.parser')
 ```
 
@@ -73,7 +73,7 @@ soup=bs(html, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 unordered_list=soup.find("#Widget Name", 
       {"id":"#Id name of element of which you want to find children "})
 ```
@@ -82,7 +82,7 @@ unordered_list=soup.find("#Widget Name", 
 
 ## 蟒蛇 3
 
-```
+```py
 children = unordered_list.findChildren()
 ```
 
@@ -90,7 +90,7 @@ children = unordered_list.findChildren()
 
 ## 蟒蛇 3
 
-```
+```py
 for child in children:
     print (child)
 ```
@@ -99,7 +99,7 @@ for child in children:
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to find all the children
 # of an element using Beautiful Soup
 

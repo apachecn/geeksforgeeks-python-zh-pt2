@@ -14,7 +14,7 @@
 
 **示例:**
 
-```
+```py
 import itertools
 
 def product(str1, str2):
@@ -39,7 +39,7 @@ print(product("GfG", "GFG"))
 
     下面的示例显示了如何通过方法中的简单操作来执行解包。
 
-    ```
+    ```py
     import itertools
 
     def product(list_of_str):
@@ -65,7 +65,7 @@ print(product("GfG", "GFG"))
 
     为了克服上述缺点，使用“*”来解包列表中的列表。因此，上面的代码可以优化如下:
 
-    ```
+    ```py
     import itertools
 
     def product(lst):

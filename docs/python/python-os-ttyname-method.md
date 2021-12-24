@@ -20,7 +20,7 @@
 
 **Code #1:** Use of os.ttyname() method to get the terminal device associated with a file descriptor.
 
-```
+```py
 # Python program to explain os.ttyname() method  
 
 # importing os module 
@@ -52,7 +52,7 @@ print("Slave:", os.ttyname(slave))
 
 **Output:**
 
-```
+```py
 Terminal device associated with:
 Standard input: /dev/pts/0
 Standard output: /dev/pts/0
@@ -64,7 +64,7 @@ Slave: /dev/pts/1
 
 **代码#2:** 如果指定的文件描述符不与任何终端设备相关联
 
-```
+```py
 # Python program to explain os.ttyname() method  
 
 # importing os module 
@@ -88,7 +88,7 @@ print(os.ttyname(r)) 
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "getTerminalDevice.py", line 20, in 
     print(os.ttyname(r))
@@ -98,7 +98,7 @@ OSError: [Errno 25] Inappropriate ioctl for device
 
 **代码#3:** 处理上述异常的方法
 
-```
+```py
 # Python program to explain os.ttyname() method  
 
 # importing os module 
@@ -134,7 +134,7 @@ else :
 
 **Output:**
 
-```
+```py
 [Errno 25] Inappropriate ioctl for device
 File descriptor is not associated with any terminal device
 File descriptor is not associated with any terminal device

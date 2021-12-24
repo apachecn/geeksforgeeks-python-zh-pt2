@@ -10,7 +10,7 @@
 **示例#1 :**
 在这个示例中，我们可以说通过使用`TextBlob.word_counts()`方法，我们能够获得一个句子中的字数。
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 

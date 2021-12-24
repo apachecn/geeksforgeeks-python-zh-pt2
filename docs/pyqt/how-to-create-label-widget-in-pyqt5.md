@@ -8,7 +8,7 @@
 
 要在 PyQt5 中使用标签，我们必须从`PyQt5.QtWidgets` 导入`QLabel`，下面是这样做的语法。
 
-```
+```py
 from PyQt5.QtWidgets import QLabel
 ```
 
@@ -16,7 +16,7 @@ from PyQt5.QtWidgets import QLabel
 
 **语法:**
 
-```
+```py
 self.label_name = QLabel(Info, self)
 ```
 
@@ -24,7 +24,7 @@ self.label_name = QLabel(Info, self)
 
 下面是 Python 实现–
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import QLabel

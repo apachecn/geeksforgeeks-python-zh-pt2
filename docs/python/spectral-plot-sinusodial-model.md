@@ -35,7 +35,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # necessary imports
 import numpy as np
 import pandas as pd

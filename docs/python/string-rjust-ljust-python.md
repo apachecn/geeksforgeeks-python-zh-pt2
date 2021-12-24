@@ -19,7 +19,7 @@
 
 **例**
 
-```
+```py
 # Python program to demonstrate working of 
 # rjust()
 string = 'geeks'
@@ -32,13 +32,13 @@ print(string.rjust(length))
 
 输出:
 
-```
+```py
    geeks
 ```
 
 **例**
 
-```
+```py
 # example string
 string = 'geeks'
 length = 8
@@ -49,7 +49,7 @@ print(string.rjust(length, fillchar))
 
 输出:
 
-```
+```py
 ***geeks  
 
 ```
@@ -72,7 +72,7 @@ print(string.rjust(length, fillchar))
 
 **例 1**
 
-```
+```py
 # example string
 string = 'geeks'
 length = 8
@@ -84,14 +84,14 @@ print(string.ljust(length))
 
 输出:(极客后打印三个空格)
 
-```
+```py
 geeks   
 
 ```
 
 **例 2**
 
-```
+```py
 # example string
 string = 'geeks'
 length = 8
@@ -103,7 +103,7 @@ print(string.ljust(length, fillchar))
 
 输出:
 
-```
+```py
 geeks***  
 
 ```

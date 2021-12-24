@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # Python code to implement
 # the acos()function
 
@@ -33,14 +33,14 @@ print (math.acos(a))
 
 **输出:**
 
-```
+```py
 The value of arc cosine of pi / 6 is : 1.0197267436954502
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python code implementation of 
 # the acos() function
 import math 
@@ -67,7 +67,7 @@ plt.show() 
 
 **输出:**
 
-```
+```py
 Input_Array :  
 [-0.8975979  -0.80311391 -0.70862992 -0.61414593 -0.51966194 -0.42517795
  -0.33069396 -0.23620997 -0.14172598 -0.04724199  0.04724199  0.14172598

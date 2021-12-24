@@ -5,7 +5,7 @@
 给定一个数字列表，编写一个 Python 程序来查找列表中所有元素的总和。
 **例:**
 
-```
+```py
 Input: [12, 15, 3, 10]
 Output: 40
 
@@ -17,7 +17,7 @@ Output: 30
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find sum of elements in list
 total = 0
 
@@ -35,7 +35,7 @@ print("Sum of all elements in given list: ", total)
 
 **输出:**
 
-```
+```py
 Sum of all elements in given list:  74
 ```
 
@@ -43,7 +43,7 @@ Sum of all elements in given list:  74
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find sum of elements in list
 total = 0
 ele = 0
@@ -63,7 +63,7 @@ print("Sum of all elements in given list: ", total)
 
 **输出:**
 
-```
+```py
 Sum of all elements in given list:  74
 ```
 
@@ -71,7 +71,7 @@ Sum of all elements in given list:  74
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find sum of all
 # elements in list using recursion
 
@@ -93,7 +93,7 @@ print("Sum of all elements in given list: ", total)
 
 **输出:**
 
-```
+```py
 Sum of all elements in given list:  74
 ```
 
@@ -101,7 +101,7 @@ Sum of all elements in given list:  74
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find sum of elements in list
 
 # creating a list
@@ -116,6 +116,6 @@ print("Sum of all elements in given list: ", total)
 
 **输出:**
 
-```
+```py
 Sum of all elements in given list:  74
 ```

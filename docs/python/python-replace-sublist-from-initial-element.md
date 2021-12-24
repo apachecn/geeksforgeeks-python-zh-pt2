@@ -17,7 +17,7 @@
 ****方法:使用列表理解+列表切片**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们提取开始元素的索引，然后根据需求对列表进行适当的切片。**
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace substring from Initial element
 # Using list slicing + list comprehension
@@ -44,7 +44,7 @@ print("Substituted List : " + str(res))
 
 ****Output :**
 
-```
+```py
 The original list : [5, 2, 6, 4, 7, 1, 3]
 Substituted List : [5, 2, 6, 10, 18, 1, 3]
 

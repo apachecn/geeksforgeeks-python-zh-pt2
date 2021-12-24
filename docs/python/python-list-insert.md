@@ -29,7 +29,7 @@ Python List***insert()***方法是 Python 中的一个内置函数，它在列�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for use  
 # of insert() method 
 
@@ -48,7 +48,7 @@ print(list2)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 10, 5, 6, 7]
 ['z', 'a', 'b', 'c', 'd', 'e']
 ```
@@ -57,7 +57,7 @@ print(list2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for error  
 # of insert() method 
 
@@ -70,7 +70,7 @@ print(string)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/2fe54bd8723cd0ae89a17325da8b2eb5.py", line 7, in 
     string.insert(10, 1)
@@ -81,7 +81,7 @@ AttributeError: 'str' object has no attribute 'insert'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for Insertion in a list  
 # before any element using insert() method 
 
@@ -103,7 +103,7 @@ print(list1)
 
 **输出:**
 
-```
+```py
 [1, 2, 13, 3, 4, 5, 6]
 ```
 
@@ -111,7 +111,7 @@ print(list1)
 
 ## 蟒蛇 3
 
-```
+```py
 list1 = [ 1, 2, 3, 4, 5, 6 ]
 
 # tuple of numbers
@@ -125,6 +125,6 @@ print(list1)
 
 **输出:**
 
-```
+```py
 [1, 2, (4, 5, 6), 3, 4, 5, 6]
 ```

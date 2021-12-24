@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Range duplication in String
 # Using string slicing
@@ -34,7 +34,7 @@ print("The string after range duplication : " + res) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after range duplication : geeksfksforgeeks
 

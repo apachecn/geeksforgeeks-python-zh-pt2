@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Skew Nested Tuple Summation
 # Using infinite loop
@@ -42,7 +42,7 @@ print("Summation of 1st positions : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : (5, (6, (1, (9, (10, None)))))
 Summation of 1st positions : 31
 
@@ -54,7 +54,7 @@ Summation of 1st positions : 31
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Skew Nested Tuple Summation
 # Using recursion
@@ -83,7 +83,7 @@ print("Summation of 1st positions : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original tuple is : (5, (6, (1, (9, (10, None)))))
 Summation of 1st positions : 31
 

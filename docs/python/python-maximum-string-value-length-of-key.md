@@ -15,7 +15,7 @@
 **方法一:使用`max() + len()` +列表理解**
 以上功能的组合可以解决这个问题。在本文中，我们使用 max()和 len()计算最大字符串长度。与每一个的比较都受到列表理解的限制。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum String value length of Key
 # Using max() + len() + list comprehension
@@ -49,7 +49,7 @@ print("The maximum length key value : " + str(res)) 
 **方法 2:使用列表理解+ `len() + max()`(一个 liner)**
 类似的任务也可以组合在一行执行，进行紧凑求解。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum String value length of Key
 # Using max() + len() + list comprehension (one liner)

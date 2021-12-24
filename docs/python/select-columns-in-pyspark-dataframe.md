@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # select single and multiple columns
 from pyspark.sql.types import StructType, StructField, StringType, IntegerType, FloatType
 from pyspark.sql import SparkSession
@@ -67,7 +67,7 @@ spark.stop()
 
 ## 蟒蛇 3
 
-```
+```py
 from pyspark.sql.functions import col
 
 df.select(col("Name"),col("Marks")).show()

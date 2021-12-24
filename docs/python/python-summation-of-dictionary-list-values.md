@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +列表理解**
 这个任务可以使用求和函数来执行，求和函数可以用来得到求和，内部列表理解可以提供一个机制来将这个逻辑迭代到字典的所有键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of dictionary list values
 # using sum() + list comprehension
@@ -28,7 +28,7 @@ print("Summation of dictionary list values are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': [19, 31, 22], 'is': [10, 11], 'gfg': [5, 6, 7]}
 Summation of dictionary list values are : 8
 

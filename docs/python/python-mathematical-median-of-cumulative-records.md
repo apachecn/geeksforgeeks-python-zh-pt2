@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `"~" operator`**
 该任务可以使用上述功能的组合以暴力方式执行。在这种情况下，我们对列表和进行排序，通过使用“~”运算符的属性来执行否定，我们在扁平化后从前面和后面访问列表，执行找到中值所需的计算。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Mathematical Median of Cumulative Records
 # Using loop + "~" operator 
@@ -34,7 +34,7 @@ print("Median of Records is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : [(1, 4, 5), (7, 8), (2, 4, 10)]
 Median of Records is : 4.5
 

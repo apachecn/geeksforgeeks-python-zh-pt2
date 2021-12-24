@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to print sorted number by merging
 # all the elements in array function to print
 # sorted number
@@ -70,6 +70,6 @@ mergeArray(lis)
 
 **输出:**
 
-```
+```py
 4566789
 ```

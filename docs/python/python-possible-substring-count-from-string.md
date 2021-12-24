@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Possible Substring count from String
 # Using min() + list comprehension + count()
@@ -42,7 +42,7 @@ print("Possible substrings count : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gekseforgeeks
 Possible substrings count : 2
 ```
@@ -53,7 +53,7 @@ Possible substrings count : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Possible Substring count from String
 # Using Counter() + list comprehension
@@ -79,7 +79,7 @@ print("Possible substrings count : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gekseforgeeks
 Possible substrings count : 2
 ```

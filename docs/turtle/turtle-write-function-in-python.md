@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -46,7 +46,7 @@ turtle.write("GeeksForGeeks")
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -63,7 +63,7 @@ turtle.write("GeeksForGeeks", move=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -81,7 +81,7 @@ turtle.write("GeeksForGeeks", font=("Verdana",
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

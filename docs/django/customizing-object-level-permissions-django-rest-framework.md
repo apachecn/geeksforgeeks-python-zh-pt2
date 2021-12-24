@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import permissions
 
 class IsCurrentUserOwnerOrReadOnly(permissions.BasePermission):
@@ -36,7 +36,7 @@ class IsCurrentUserOwnerOrReadOnly(permissions.BasePermission):
 
 让我们将所有者字段添加到 robots/models.py 文件中。
 
-```
+```py
 owner = models.ForeignKey(
         'auth.User',
         related_name= 'robots',
@@ -48,7 +48,7 @@ owner = models.ForeignKey(
 
 ## 蟒蛇 3
 
-```
+```py
 class Robot(models.Model):
     CURRENCY_CHOICES = (
         ('INR', 'Indian Rupee'),
@@ -94,7 +94,7 @@ class Robot(models.Model):
 
 现在让我们将所有者字段添加到 RobotSerializer . py 文件中提到的 RobotSerializer 类中。您可以添加以下代码
 
-```
+```py
 owner = serializers.ReadOnlyField(source='owner.username')
 ```
 
@@ -102,7 +102,7 @@ owner = serializers.ReadOnlyField(source='owner.username')
 
 ## 蟒蛇 3
 
-```
+```py
 class RobotSerializer(serializers.HyperlinkedModelSerializer):
 
     robot_category = serializers.SlugRelatedField(
@@ -130,7 +130,7 @@ class RobotSerializer(serializers.HyperlinkedModelSerializer):
 
 ## 蟒蛇 3
 
-```
+```py
 class UserRobotSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Robot
@@ -158,7 +158,7 @@ UserRobotSerializer 类序列化与用户相关的无人机。这里我们没有
 
 ## 蟒蛇 3
 
-```
+```py
 class RobotList(generics.ListCreateAPIView):
 
     queryset = Robot.objects.all()
@@ -185,7 +185,7 @@ class RobotList(generics.ListCreateAPIView):
 
 您可以在 settings.py 文件中提到 BasicAuthentication 类。
 
-```
+```py
 REST_FRAMEWORK = {
 
     'DEFAULT_AUTHENTICATION_CLASSES':(
@@ -197,7 +197,7 @@ REST_FRAMEWORK = {
 
 现在，让我们为基于 RobotList 和 RobotDetail 类的视图配置权限策略。您应该导入权限和自定义权限。
 
-```
+```py
 from rest_framework import permissions
 from robots import custompermission
 ```
@@ -206,7 +206,7 @@ from robots import custompermission
 
 ## 蟒蛇 3
 
-```
+```py
 class RobotList(generics.ListCreateAPIView):
     permission_classes = (
         permissions.IsAuthenticatedOrReadOnly,
@@ -237,7 +237,7 @@ class RobotDetail(generics.RetrieveUpdateDestroyAPIView):
 
 输出如下:
 
-```
+```py
 HTTP/1.1 200 OK
 Allow: GET, POST, HEAD, OPTIONS
 Content-Language: en

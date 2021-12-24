@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `upper() + enumerate()`**
 这是可以执行此任务的方式之一。在本例中，我们对每个元素和比较字符串运行一个循环，如果发现相等，那么这些列表的情况不会改变，其余字符串的情况会改变。
 
-```
+```py
 # Python3 code to demonstrate 
 # Specific case change in String List
 # using loop + upper() + enumerate() 
@@ -33,7 +33,7 @@ print ("The string list after case change is : " + str(test_list1))
 
 **Output :**
 
-```
+```py
 The original list 1 is : ['GFG', 'IS', 'BEST', 'FOR', 'GEEKS']
 The original list 2 is : ['Gfg', 'Best']
 The string list after case change is : ['Gfg', 'IS', 'Best', 'FOR', 'GEEKS']

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove digits from Dictionary String Values List
 # Using loop + regex() + dictionary comprehension 
@@ -42,7 +42,7 @@ print("The filtered dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': ['G4G is Best 4', '4 ALL geeks'], 'is': ['5 6 Good'], 'best': ['Gfg Heaven', 'for 7 CS']}
 The filtered dictionary : {'Gfg': ['GG is Best ', ' ALL geeks'], 'is': ['  Good'], 'best': ['Gfg Heaven', 'for  CS']}
 

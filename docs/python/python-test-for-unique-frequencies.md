@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Unique Frequencies
 # Using loop + set()
@@ -46,7 +46,7 @@ print("Are element's Frequencies Unique ? : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 3, 2, 2, 3, 4, 4, 4, 1, 2]
 Are element's Frequencies Unique ? : True
 ```
@@ -56,7 +56,7 @@ Are element's Frequencies Unique ? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Unique Frequencies
 # Using setdefault() + values()
@@ -85,7 +85,7 @@ print("Are element's Frequencies Unique ? : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 3, 2, 2, 3, 4, 4, 4, 1, 2]
 Are element's Frequencies Unique ? : True
 ```

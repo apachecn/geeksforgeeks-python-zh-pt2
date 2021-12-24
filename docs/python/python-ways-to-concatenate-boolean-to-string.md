@@ -6,7 +6,7 @@
 
 **方法一:使用`format()`**
 
-```
+```py
 # Python code to demonstrate 
 # to concatenate boolean value
 # with string
@@ -24,7 +24,7 @@ print ("Resultant String : ", res)
 
 **输出:**
 
-```
+```py
 Resultant String :  Facts are True
 
 ```

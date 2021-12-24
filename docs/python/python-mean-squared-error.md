@@ -50,7 +50,7 @@
 
 **使用 scikit 的 MSE–学习:**
 
-```
+```py
 from sklearn.metrics import mean_squared_error
 
 # Given values
@@ -63,13 +63,13 @@ Y_pred = [0.6,1.29,1.99,2.69,3.4]  # Y_pred = Y'
 mean_squared_error(Y_true,Y_pred)
 ```
 
-```
+```py
 Output: 0.21606
 ```
 
 **使用 Numpy 模块的 MSE:**
 
-```
+```py
 import numpy as np
 
 # Given values
@@ -82,6 +82,6 @@ Y_pred = [0.6,1.29,1.99,2.69,3.4]  # Y_pred = Y'
 MSE = np.square(np.subtract(Y_true,Y_pred)).mean()
 ```
 
-```
+```py
 Output: 0.21606
 ```

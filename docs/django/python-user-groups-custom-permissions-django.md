@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary django classes
 from django.contrib.auth.models import AbstractUser
 from django.utils import timezone
@@ -60,7 +60,7 @@ class User(AbstractUser):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing group class from django
 from django.contrib.auth.models import Group, Permission
 from django.contrib.contenttypes.models import ContentType
@@ -89,7 +89,7 @@ new_group.permissions.add(permission)
 
 ## 计算机编程语言
 
-```
+```py
 @group_required('level0')
 def my_view(request):
     ...
@@ -102,7 +102,7 @@ def my_view(request):
 
 ## 计算机编程语言
 
-```
+```py
 class GroupRequiredMixin(object):
     ...............
     ....Class Definition.....

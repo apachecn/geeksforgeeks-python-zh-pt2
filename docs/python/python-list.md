@@ -33,7 +33,7 @@ Python 中的列表可以通过将序列放在方括号[]中来创建。与[设�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Creation of List
 
@@ -63,7 +63,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 Blank List: 
 []
 
@@ -84,7 +84,7 @@ Multi-Dimensional List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a List with
 # the use of Numbers
 # (Having duplicate values)
@@ -102,7 +102,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 List with the use of Numbers: 
 [1, 2, 4, 4, 3, 3, 3, 6, 5]
 
@@ -114,7 +114,7 @@ List with the use of Mixed Values:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a List
 List1 = []
 print(len(List1))
@@ -126,7 +126,7 @@ print(len(List2))
 
 **Output:** 
 
-```
+```py
 0
 3
 ```
@@ -139,7 +139,7 @@ print(len(List2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Addition of elements in a List
 
@@ -177,7 +177,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 Initial blank List: 
 []
 
@@ -200,7 +200,7 @@ append()方法仅适用于在列表末尾添加元素，对于在所需位置添
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Addition of elements in a List
 
@@ -220,7 +220,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 Initial List: 
 [1, 2, 3, 4]
 
@@ -235,7 +235,7 @@ List after performing Insert Operation:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Addition of elements in a List
 
@@ -254,7 +254,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 Initial List: 
 [1, 2, 3, 4]
 
@@ -268,7 +268,7 @@ List after performing Extend Operation:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # accessing of element from list
 
@@ -296,7 +296,7 @@ print(List[1][0])
 
 **Output:** 
 
-```
+```py
 Accessing a element from the list
 Geeks
 Geeks
@@ -311,7 +311,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 List = [1, 2, 'Geeks', 4, 'For', 6, 'Geeks']
 
 # accessing an element using
@@ -327,7 +327,7 @@ print(List[-3])
 
 **Output:** 
 
-```
+```py
 Accessing element using negative indexing
 Geeks
 For
@@ -343,7 +343,7 @@ For
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Removal of elements in a List
 
@@ -370,7 +370,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 Initial List: 
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
@@ -387,7 +387,7 @@ List after Removing a range of elements:
 
 ## 蟒蛇 3
 
-```
+```py
 List = [1,2,3,4,5]
 
 # Removing element from the
@@ -406,7 +406,7 @@ print(List)
 
 **Output:** 
 
-```
+```py
 List after popping an element: 
 [1, 2, 3, 4]
 
@@ -423,7 +423,7 @@ List after popping a specific element:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Removal of elements in a List
 
@@ -455,7 +455,7 @@ print(Sliced_List)
 
 **Output:** 
 
-```
+```py
 Initial List: 
 ['G', 'E', 'E', 'K', 'S', 'F', 'O', 'R', 'G', 'E', 'E', 'K', 'S']
 
@@ -473,7 +473,7 @@ Printing all elements using slice operation:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a List
 List = ['G','E','E','K','S','F',
         'O','R','G','E','E','K','S']
@@ -501,7 +501,7 @@ print(Sliced_List)
 
 **Output:** 
 
-```
+```py
 Initial List: 
 ['G', 'E', 'E', 'K', 'S', 'F', 'O', 'R', 'G', 'E', 'E', 'K', 'S']
 
@@ -528,7 +528,7 @@ Printing List in reverse:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate list
 # comprehension in Python
 
@@ -540,7 +540,7 @@ print (odd_square)
 
 **输出:**
 
-```
+```py
 [1, 9, 25, 49, 81]
 ```
 
@@ -548,7 +548,7 @@ print (odd_square)
 
 ## 蟒蛇 3
 
-```
+```py
 # for understanding, above generation is same as,
 odd_square = []
 
@@ -561,7 +561,7 @@ print (odd_square)
 
 **输出:**
 
-```
+```py
 [1, 9, 25, 49, 81]
 ```
 

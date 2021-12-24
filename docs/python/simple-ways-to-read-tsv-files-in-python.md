@@ -16,7 +16,7 @@
 
 **语法:**
 
-```
+```py
 data=pandas.read_csv('filename.tsv',sep='\t')
 ```
 
@@ -24,7 +24,7 @@ data=pandas.read_csv('filename.tsv',sep='\t')
 
 ## 蟒蛇 3
 
-```
+```py
 # Simple Way to Read TSV Files in Python using pandas
 # importing pandas library
 import pandas as pd
@@ -50,7 +50,7 @@ print(interviews_df)
 
 **语法:**
 
-```
+```py
 with open("filename.tsv") as file:
     tsv_file = csv.reader(file, delimiter="\t")
 ```
@@ -59,7 +59,7 @@ with open("filename.tsv") as file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Simple Way to Read TSV Files in Python using csv
 # importing csv library
 import csv
@@ -89,7 +89,7 @@ with open("GeekforGeeks.tsv") as file:
 
 **语法:**
 
-```
+```py
 with open("filename.tsv") as file:
   for line in file:
     l=line.split('\t')
@@ -99,7 +99,7 @@ with open("filename.tsv") as file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Simple Way to Read TSV Files in Python using split
 ans = []
 

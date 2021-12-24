@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -51,7 +51,7 @@ print(value)
 **输出:**
 ![](img/b9eb6c3bd27106a39edd9d3c440ac2fd.png)
 
-```
+```py
 Full Screen : 
 1
 
@@ -59,7 +59,7 @@ Full Screen :
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -93,7 +93,7 @@ print(value)
 **输出:**
 ![](img/adad80dcd4fb054e2f8093e65d2cb30f.png)
 
-```
+```py
 Full Screen : 
 0
 

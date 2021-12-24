@@ -17,7 +17,7 @@ SetTextCoour()函数中只需要一个颜色参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

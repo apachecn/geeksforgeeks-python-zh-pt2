@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random Replacement of Word in String
 # Using replace() + shuffle() + loop
@@ -49,7 +49,7 @@ print("String after random replacement : " + str(test_str)) 
 
 **Output**
 
-```
+```py
 The original string is : Gfg is val. Its also val for geeks
 String after random replacement : Gfg is Best. Its also Better for geeks
 
@@ -61,7 +61,7 @@ String after random replacement : Gfg is Best. Its also Better for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Random Replacement of Word in String
 # Using list comprehension + replace() + shuffle()

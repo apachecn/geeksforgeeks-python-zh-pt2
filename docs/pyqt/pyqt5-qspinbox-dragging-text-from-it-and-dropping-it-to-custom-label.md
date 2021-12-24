@@ -15,7 +15,7 @@
 
 **自定义标签类的语法**
 
-```
+```py
 class CustomLabel(QLabel):
     # constructor
     def __init__(self, title, parent):
@@ -46,7 +46,7 @@ class CustomLabel(QLabel):
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

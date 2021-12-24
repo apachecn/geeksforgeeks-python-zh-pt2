@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: N=2 , P=3
 Output: 8
 
@@ -23,7 +23,7 @@ Output: 25
 
 ## 蟒蛇
 
-```
+```py
 def power(N, P):
 
     # if power is 0 then return 1
@@ -47,7 +47,7 @@ print(power(N, P))
 
 **输出:**
 
-```
+```py
 25
 
 ```

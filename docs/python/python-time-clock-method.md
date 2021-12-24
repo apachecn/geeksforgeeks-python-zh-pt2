@@ -17,7 +17,7 @@ Python 中**时间模块**的`***time.clock()***`方法用于获取当前处理�
 
 **代码#1:** 使用`***time.clock()***`方法获取当前处理器时间
 
-```
+```py
 # Python program to explain time.clock() method
 
 # importing time module
@@ -34,14 +34,14 @@ print("Current processor time (in seconds):", pro_time)
 
 **Output:**
 
-```
+```py
 Current processor time (in seconds): 0.042379
 
 ```
 
 **代码#2:** 使用`***time.clock()***`方法获取当前处理器时间
 
-```
+```py
 # Python program to explain time.clock() method 
 
 # importing time module 
@@ -92,7 +92,7 @@ print("Time elapsed during the calculation:", end - start)     
 
 **Output:**
 
-```
+```py
 At the beginning of the calculation
 Processor time (in seconds): 0.03451 
 

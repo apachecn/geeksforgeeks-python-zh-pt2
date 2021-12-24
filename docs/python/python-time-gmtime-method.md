@@ -33,7 +33,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to explain time.gmtime() method
 
 # importing time module
@@ -56,7 +56,7 @@ print(obj)
 
 ****Output:** 
 
-```
+```py
 time.struct_time(tm_year=2019, tm_mon=8, tm_mday=22, tm_hour=3, tm_min=53,
 tm_sec=32, tm_wday=3, tm_yday=234, tm_isdst=0)
 ```** 
@@ -65,7 +65,7 @@ tm_sec=32, tm_wday=3, tm_yday=234, tm_isdst=0)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python program to explain time.gmtime() method
 
 # importing time module
@@ -108,7 +108,7 @@ print(obj)
 
 ****Output:** 
 
-```
+```py
 time.struct_time object for seconds = 40000
 time.struct_time(tm_year=1970, tm_mon=1, tm_mday=1, tm_hour=11, tm_min=6,
 tm_sec=40, tm_wday=3, tm_yday=1, tm_isdst=0)

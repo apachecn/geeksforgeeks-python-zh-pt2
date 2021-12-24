@@ -16,7 +16,7 @@ Where 子句帮助我们轻松处理数据库。正如我们所知，我们的�
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # establishing the connection

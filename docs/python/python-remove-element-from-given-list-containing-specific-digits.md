@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 15, 16]
        no_delete = ['2', '3', '4', '0']
 Output: [1, 5, 6, 7, 8, 9, 11, 15, 16]
@@ -27,7 +27,7 @@ from no_delete, therefore remove them.
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to remove all those elements 
 # from list which contains certain digits
 
@@ -60,7 +60,7 @@ print("List after removing elements is :", Output)
 
 **Output:**
 
-```
+```py
 Initial list is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 15, 16]
 Delete list : [1, 0]
 List after removing elements is : [2, 3, 4, 5, 6, 7, 8, 9]
@@ -69,7 +69,7 @@ List after removing elements is : [2, 3, 4, 5, 6, 7, 8, 9]
 
 **方法 2:使用列表理解和任意()函数**
 
-```
+```py
 # Python code to remove all those elements from list 
 # which contains certain digits
 
@@ -91,7 +91,7 @@ print("List after removing elements is :", Output)
 
 **Output:**
 
-```
+```py
 Initial list is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 15, 16]
 Delete list : ['2', '3', '4', '0']
 List after removing elements is : [1, 5, 6, 7, 8, 9, 11, 15, 16]
@@ -100,7 +100,7 @@ List after removing elements is : [1, 5, 6, 7, 8, 9, 11, 15, 16]
 
 **方法三:利用列表理解和集合()**
 
-```
+```py
 # Python code to remove all those elements from list 
 # which contains certain digits
 
@@ -122,7 +122,7 @@ print("List after removing elements is :", Output)
 
 **Output:**
 
-```
+```py
 Initial list is : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 13, 15, 16]
 Delete list : {'3', '4', '6', '5'}
 List after removing elements is : [1, 2, 7, 8, 9, 10, 11, 12]

@@ -10,7 +10,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 **语法:**
 
-```
+```py
 root.attributes('-alpha',transparency value)
 
 ```
@@ -23,7 +23,7 @@ root.attributes('-alpha',transparency value)
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Import module
 from tkinter import *
 
@@ -47,7 +47,7 @@ root.mainloop()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# Import module
 from tkinter import *
 

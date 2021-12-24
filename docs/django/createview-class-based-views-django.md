@@ -20,7 +20,7 @@
 
 在你有一个项目和一个应用程序后，让我们创建一个模型，我们将通过我们的视图创建实例。在`geeks/models.py`中，
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -40,7 +40,7 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 
@@ -48,7 +48,7 @@ Python manage.py migrate
 
 基于类的视图自动设置从 A 到 z 的所有内容。只需指定要为哪个模型和字段创建创建视图。然后基于类的 CreateView 会自动尝试在`app_name/modelname_form.html`中找到一个模板。在我们的例子中是`geeks/templates/geeks/geeksmodel_form.html`。让我们创建基于类的视图。在`geeks/views.py`中，
 
-```
+```py
 from django.views.generic.edit import CreateView
 from .models import GeeksModel
 
@@ -64,7 +64,7 @@ class GeeksCreate(CreateView):
 
 现在创建一个 url 路径来映射视图。在极客/URL . py 中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -76,7 +76,7 @@ urlpatterns = [
 
 在`templates/geeks/geeksmodel_form.html`创建模板，
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Security token -->

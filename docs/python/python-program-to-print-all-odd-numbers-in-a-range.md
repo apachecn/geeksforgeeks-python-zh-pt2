@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: start = 4, end = 15
 Output: 5, 7, 9, 11, 13, 15
 
@@ -18,7 +18,7 @@ Output: 3, 5, 7, 9, 11
 
 定义范围的开始和结束限制。使用 for 循环从开始迭代到列表中的范围，并检查 num % 2！= 0.如果条件满足，则只打印数字。
 
-```
+```py
 # Python program to print odd Numbers in given range
 
 start, end = 4, 19
@@ -33,13 +33,13 @@ for num in range(start, end + 1):
 
 **输出:**
 
-```
+```py
 5 7 9 11 13 15 17 19 
 ```
 
 **示例#2:** 从用户输入中获取范围限制
 
-```
+```py
 # Python program to print Even Numbers in given range
 
 start = int(input("Enter the start of range: "))
@@ -55,7 +55,7 @@ for num in range(start, end + 1):
 
 **输出:**
 
-```
+```py
 Enter the start of range: 3
 Enter the end of range: 11
 3 5 7 9 11 
@@ -63,7 +63,7 @@ Enter the end of range: 11
 
 **示例#3:** 从用户输入中获取范围限制
 
-```
+```py
 # Python program to print Even Numbers in given range
 
 start = int(input("Enter the start of range: "))
@@ -78,7 +78,7 @@ for num in even_list:
 
 **输出:**
 
-```
+```py
 Enter the start of range: 3
 Enter the end of range: 11
 3 5 7 9 11 

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: 11
 Output:
 
@@ -60,7 +60,7 @@ Output:
 
 ## 蟒 3
 
-```
+```py
 # determining the size of the heart
 size = 15
 
@@ -97,7 +97,7 @@ for a in range(size, int(size / 2) - 1 , -2):
 
 **输出:**
 
-```
+```py
               *
              ***
             *****

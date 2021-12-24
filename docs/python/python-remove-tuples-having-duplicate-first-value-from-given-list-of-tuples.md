@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:  [(12.121, 'Tuple1'), (12.121, 'Tuple2'), 
          (12.121, 'Tuple3'), (923232.2323, 'Tuple4')]
 Output:  [(12.121, 'Tuple1'), (923232.2323, 'Tuple4')]
@@ -20,7 +20,7 @@ Output:  [('Tuple1', 121), ('Tuple2', 125), ('Tuple4', 478)]
 
 **方法#1:使用迭代**
 
-```
+```py
 # Python code to remove tuples having 
 # duplicate first value from given
 # list of tuples
@@ -58,7 +58,7 @@ print("List of tuple after removing duplicates:\n ", Output)
 
 **方法二:使用列表理解**
 
-```
+```py
 # Python code to remove tuples having 
 # duplicate first value from given
 # list of tuples
@@ -90,7 +90,7 @@ print("\nList of tuple after removing duplicates \n", Output)
 
 **方法 3:使用迭代工具**
 
-```
+```py
 # Python code to remove tuples having 
 # duplicate first value from given
 # list of tuples
@@ -124,7 +124,7 @@ print("\nList of tuple after removing duplicates\n", Output)
 
 这是删除重复项最优雅的方法，即使用 OrderedDict。
 
-```
+```py
 # Python code to remove tuples having 
 # duplicate first value from given
 # list of tuples

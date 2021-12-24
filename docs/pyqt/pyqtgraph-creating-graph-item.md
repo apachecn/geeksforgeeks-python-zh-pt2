@@ -6,7 +6,7 @@
 
 我们可以借助下面给出的命令创建一个图形布局小部件
 
-```
+```py
 # creating graphics layout widget
 win = pg.GraphicsLayoutWidget()
 ```
@@ -24,7 +24,7 @@ win = pg.GraphicsLayoutWidget()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

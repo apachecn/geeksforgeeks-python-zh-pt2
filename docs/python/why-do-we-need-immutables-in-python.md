@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # string initialized
 var = 'Geeks'
 print(id(var))
@@ -32,7 +32,7 @@ print(var)
 
 **输出:**
 
-```
+```py
 139758810541392
 Geeks
 139758782345520
@@ -47,7 +47,7 @@ For Geeks
 
 ## 蟒 3
 
-```
+```py
 var1 = 'GFG' 
 var2 = 'GFG'
 var3 = 'GFG'

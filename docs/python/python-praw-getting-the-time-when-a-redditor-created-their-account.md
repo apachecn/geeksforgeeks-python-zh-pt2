@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 from datetime import datetime
@@ -47,7 +47,7 @@ print("The " + redditor_name + " account was created on : " +
 
 **输出:**
 
-```
+```py
 The spez account was created on Unix time : 1118030400.0
 The spez account was created on : 2005-06-06 09:30:00
 
@@ -58,7 +58,7 @@ The spez account was created on : 2005-06-06 09:30:00
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 from datetime import datetime
@@ -96,7 +96,7 @@ print("The " + redditor_name + " account was created on : " +
 
 **输出:**
 
-```
+```py
 The AutoModerator account was created on Unix time : 1325741068.0
 The AutoModerator account was created on : 2012-01-05 10:54:28
 

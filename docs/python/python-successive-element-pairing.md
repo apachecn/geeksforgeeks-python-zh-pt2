@@ -7,7 +7,7 @@
 **方法:使用`zip()` +列表理解**
 该任务可以使用上述功能的组合来执行。在这种情况下，zip()执行元组的构造任务，条件匹配和迭代的迎合由列表理解处理。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Successive element pairing
 # using zip() + list comprehension
@@ -31,7 +31,7 @@ print("Tuple list with desired Successive elements " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 4, 'gfg', 7, 8, 'gfg', 9, 'gfg', 10]
 Tuple list with desired Successive elements [('gfg', 7), ('gfg', 9), ('gfg', 10)]
 

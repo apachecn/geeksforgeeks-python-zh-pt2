@@ -21,7 +21,7 @@ Python 是一种多用途编程语言，广泛用于编写小型任务的脚本�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing libraries
 import bs4 as bs
 import sys

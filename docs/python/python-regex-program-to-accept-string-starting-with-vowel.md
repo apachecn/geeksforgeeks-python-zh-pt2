@@ -6,7 +6,7 @@
 给定一个字符串，编写 Python 程序检查给定的字符串是否以元音开头。
 **例:**
 
-```
+```py
 
 Input: animal
 Output: Accepted
@@ -21,7 +21,7 @@ Output: Not Accepted
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to accept string starting with a vowel
 
 # import re module
@@ -64,7 +64,7 @@ if __name__ == '__main__' :
 
 **Output:** 
 
-```
+```py
 Valid
 Invalid
 Invalid

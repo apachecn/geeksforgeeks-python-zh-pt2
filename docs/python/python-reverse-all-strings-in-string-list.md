@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 该方法在后台执行与循环构造相同的任务。这种特殊方法提供的优势是这是一个单一的线性，也提高了代码的可读性。
 
-```
+```py
 # Python3 code to demonstrate 
 # Reverse All Strings in String List
 # using list comprehension
@@ -28,7 +28,7 @@ print ("The reversed string list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['geeks', 'for', 'geeks', 'is', 'best']
 The reversed string list is : ['skeeg', 'rof', 'skeeg', 'si', 'tseb']
 

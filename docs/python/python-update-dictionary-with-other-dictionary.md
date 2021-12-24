@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的蛮力方式。在这种情况下，我们检查其他字典中的关键字，并在新字典中添加条目。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Update dictionary with other dictionary
 # Using loop

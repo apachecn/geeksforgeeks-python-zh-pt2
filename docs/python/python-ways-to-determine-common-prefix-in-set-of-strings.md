@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find common prefix
 # from set of strings
@@ -32,7 +32,7 @@ print("Resultant prefix", str(res))
 
 **Output:** 
 
-```
+```py
 Resultant prefix ak
 ```
 
@@ -40,7 +40,7 @@ Resultant prefix ak
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to find common prefix
 # from set of strings
@@ -60,6 +60,6 @@ print("Resultant prefix", str(res))
 
 **Output:** 
 
-```
+```py
 Resultant prefix ak
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Consecution without K in String
 # Using loop
@@ -52,7 +52,7 @@ print("Longest run : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 Longest run : 9
 
@@ -64,7 +64,7 @@ Longest run : 9
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Longest Consecution without K in String
 # Using filter() + lambda + zip() + list comprehension + max()
@@ -94,7 +94,7 @@ print("Longest run : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 Longest run : 9
 

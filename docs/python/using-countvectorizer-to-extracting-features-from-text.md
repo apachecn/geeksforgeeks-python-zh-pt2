@@ -34,7 +34,7 @@ This way of representation is known as a **Sparse Matrix**.
 
 **代码:CountVectorizer 的 Python 实现**
 
-```
+```py
 from sklearn.feature_extraction.text import CountVectorizer
 
 document = ["One Geek helps Two Geeks",
@@ -59,7 +59,7 @@ print(vector.toarray())
 
 **输出:**
 
-```
+```py
 Vocabulary:  {'one': 9, 'geek': 3, 'helps': 7, 'two': 11, 'geeks': 4, 'help': 6, 'four': 2, 'each': 1, 'many': 8, 'other': 10, 'at': 0, 'geeksforgeeks': 5}
 
 Encoded Document is:

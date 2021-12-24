@@ -8,31 +8,31 @@ Django 为其用户提供了我们的管理面板。因此，我们不需要担�
 
 要创建超级用户，首先到达与 **manage.py** 相同的目录，并运行以下命令:
 
-```
+```py
 python manage.py createsuperuser
 ```
 
 然后输入您选择的用户名，并按回车键。
 
-```
+```py
 Username: srishti
 ```
 
 然后输入电子邮件地址并按回车键。(可以留空)
 
-```
+```py
 Email address: example@gmail.com
 ```
 
 接下来，在密码字段前面输入密码，然后按回车键。请输入一个强密码，以确保安全。
 
-```
+```py
 Password: ******  
 ```
 
 然后再次输入相同的密码进行确认。
 
-```
+```py
 Password(again): ******
 ```
 

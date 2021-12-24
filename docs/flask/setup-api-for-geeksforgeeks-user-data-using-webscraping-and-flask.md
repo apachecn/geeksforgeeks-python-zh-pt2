@@ -20,7 +20,7 @@ T3】
 ![](img/f60a838755ec1d3d031d73b5ba0360ef.png)
 在下面的函数中找到这一切，这个函数以字典的形式返回所有的数据。
 
-```
+```py
 def get_profile_detail(user_handle):
 
     url = "https://auth.geeksforgeeks.org/user/{}/profile".format(user_handle)
@@ -60,7 +60,7 @@ def get_profile_detail(user_handle):
 如果你能发现 HTML 的各种元素，你也可以很容易地编写代码来抓取它。
 如果你做不到，这里有代码供你参考。
 
-```
+```py
 def get_articles_and_improvements(user_handle):
     articles_and_improvements = {}
 
@@ -108,7 +108,7 @@ def get_articles_and_improvements(user_handle):
 
 刮网代码完成。现在是时候设置我们的烧瓶服务器了。下面是 Flask 应用程序的设置，以及整个脚本所需的所有必要库。
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 from flask import Flask, jsonify, make_response
@@ -123,7 +123,7 @@ app.config['JSON_SORT_KEYS'] = False
 
 下面是一个端点的代码，它根据接收到的用户句柄为应用编程接口提供服务。记住，我们需要处理不当的用户句柄，我们的端点可以随时接收。
 
-```
+```py
 @app.route('/<user_handle>/')
 def home(user_handle):
 

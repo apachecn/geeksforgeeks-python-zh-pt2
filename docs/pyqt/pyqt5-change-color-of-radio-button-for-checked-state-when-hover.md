@@ -6,7 +6,7 @@
 
 为了给选中状态的单选按钮设置颜色，并将鼠标悬停在其上，我们必须更改选中状态的样式表，当鼠标悬停在单选按钮上时，下面是样式表代码。
 
-```
+```py
 QRadioButton::checked:hover
 {
 background-color : red;   
@@ -16,7 +16,7 @@ background-color : red;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

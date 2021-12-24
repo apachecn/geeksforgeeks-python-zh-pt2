@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings By Substring Range
 # Using sort() + slicing
@@ -57,7 +57,7 @@ print("Strings after sorting : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings By Substring Range
 # Using lambda function + sort() + slicing

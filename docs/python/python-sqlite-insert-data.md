@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -72,7 +72,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 

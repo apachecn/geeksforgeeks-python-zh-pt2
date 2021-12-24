@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `len()`**
 在该方法中，我们只需遍历列表，丢弃与构成记录所需的匹配长度不匹配的元组。长度的计算由`len()`完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Retain records of specific length
 # Using list comprehension + len()
@@ -31,7 +31,7 @@ print("The tuple list after removing uneven records: " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5, 6), (5, 6), (2, 3, 5), (5, 6, 8), (5, 9)]
 The tuple list after removing uneven records: [(4, 5, 6), (2, 3, 5), (5, 6, 8)]
 

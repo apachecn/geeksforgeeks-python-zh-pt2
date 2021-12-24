@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Similar other index element if K
 # Using list comprehension + enumerate()
@@ -48,7 +48,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 3, 2, 3, 8, 6]
 Extracted elements : [8, 7]
 
@@ -60,7 +60,7 @@ Extracted elements : [8, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Similar other index element if K
 # Using list comprehension + zip()
@@ -86,7 +86,7 @@ print("Extracted elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [5, 7, 3, 2, 3, 8, 6]
 Extracted elements : [8, 7]
 

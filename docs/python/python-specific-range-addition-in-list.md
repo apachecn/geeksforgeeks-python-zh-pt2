@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是一种可以执行该任务的暴力方式。在这种情况下，我们只需遍历必须执行编辑的指定范围。
 
-```
+```py
 # Python3 code to demonstrate 
 # Specific Range Addition in List
 # using loop
@@ -32,7 +32,7 @@ print ("List after range addition : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [4, 5, 6, 8, 10, 11]
 List after range addition : [4, 5, 9, 11, 13, 11]
 

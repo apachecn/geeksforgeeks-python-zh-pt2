@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from allauth.account.forms import SignupForm
 from django import forms
 
@@ -37,7 +37,7 @@ class CustomSignupForm(SignupForm):
 
 ## 蟒蛇 3
 
-```
+```py
 ACCOUNT_FORMS = {
 'signup': 'YourProject.forms.CustomSignupForm',
 }
@@ -56,7 +56,7 @@ ACCOUNT_FORMS = {
 
 ## 蟒蛇 3
 
-```
+```py
 from allauth.account.adapter import DefaultAccountAdapter
 from django.forms import ValidationError
 
@@ -71,7 +71,7 @@ class RestrictEmailAdapter(DefaultAccountAdapter):
 
 最后，将 settings.py 中的帐户适配器指向您的扩展类。
 
-```
+```py
 ACCOUNT_ADAPTER='YourProject.adapter.RestrictEmailAdapter'
 ```
 
@@ -83,7 +83,7 @@ ACCOUNT_ADAPTER='YourProject.adapter.RestrictEmailAdapter'
 
 ## 蟒蛇 3
 
-```
+```py
 from allauth.account.adapter import DefaultAccountAdapter
 from django.forms import ValidationError
 
@@ -99,7 +99,7 @@ class UsernameMaxAdapter(DefaultAccountAdapter):
 
 最后，指向设置中的子类
 
-```
+```py
 ACCOUNT_ADAPTER = 'YourProject.adapter.UsernameMaxAdapter'
 ```
 

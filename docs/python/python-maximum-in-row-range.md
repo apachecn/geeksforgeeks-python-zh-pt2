@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum in Rows Range
 # Using max() + slicing
@@ -54,7 +54,7 @@ print("The maximum element in row range ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum in Rows Range
 # Using max() + slicing + list comprehension

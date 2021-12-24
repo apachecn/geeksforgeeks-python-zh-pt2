@@ -7,7 +7,7 @@
 **方法#1:使用`set() + "&" operator`**
 该任务可以使用集合上异或运算符提供的对称差分功能来执行。到 set 的转换由 set()完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records Intersection
 # Using set() + "&" operator
@@ -30,7 +30,7 @@ print("The similar elements from tuples are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (3, 4, 5, 6)
 The original tuple 2 : (5, 7, 4, 10)
 The similar elements from tuples are : (4, 5)

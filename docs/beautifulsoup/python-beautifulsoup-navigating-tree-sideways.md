@@ -4,7 +4,7 @@
 
 在本文中，我们将看到如何横向浏览这个漂亮的解析树。横向导航意味着标签处于同一水平。请看下面的例子来获得一个更好的想法。
 
-```
+```py
 <a>
 <b></b>
 <c></c>
@@ -17,13 +17,13 @@
 
 **bs4:** 我们需要在机器中手动安装 BeautifulSoup 库，因为 Python 语言 Configuration 中默认不提供这个库。因此，让我们通过在系统中运行以下命令来安装它:
 
-```
+```py
 pip install bs4
 ```
 
 **lxml:** lxml 是 pythonic libxml2 和 libxlst 库之间的成熟绑定，借助 ElementTree API，它提供了对那些库的安全便捷的访问。
 
-```
+```py
 pip install lxml 
 ```
 
@@ -37,7 +37,7 @@ pip install lxml
 
 ## 蟒蛇 3
 
-```
+```py
 import bs4
 
 sibling_soup = bs4.BeautifulSoup("<a><b>Welcome to Geekforgeeks</b>\
@@ -47,7 +47,7 @@ print(sibling_soup.prettify())
 
 **输出:**
 
-```
+```py
 <a>
  <b>
   Welcome to Geekforgeeks
@@ -68,7 +68,7 @@ print(sibling_soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 # For importing BeautifulSoup
 import bs4
 
@@ -95,7 +95,7 @@ print(sibling_of_soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 import bs4
 
 sibling_of_soup = bs4.BeautifulSoup("<a><b>CPPSecrets</b><c><strong>\

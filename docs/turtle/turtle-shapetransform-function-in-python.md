@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -30,7 +30,7 @@ print(turtle.shapetransform())
 
 **输出:**
 
-```
+```py
 (1.0, 0.0, 0.0, 1.0)
 
 ```
@@ -39,7 +39,7 @@ print(turtle.shapetransform())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -58,7 +58,7 @@ turtle.shapetransform(2,0,2,0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

@@ -7,7 +7,7 @@
 **方法#1:使用生成器表达式**
 可以使用生成器表达式来执行该特定任务。在这种情况下，我们一次取一个键，并在所有字典中检查匹配的键。缺点是我们需要知道钥匙在哪里。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Segregating key's value in list of dictionaries
 # Using generator expression

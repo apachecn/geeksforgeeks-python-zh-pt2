@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # compute sum of digits in 
 # number.
@@ -36,7 +36,7 @@ print(getSum(n))
 
 **输出:**
 
-```
+```py
 15
 ```
 
@@ -46,7 +46,7 @@ print(getSum(n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # compute sum of digits in 
 # number.
@@ -64,7 +64,7 @@ print(getSum(n))
 
 **输出:**
 
-```
+```py
 15
 ```
 
@@ -81,7 +81,7 @@ print(getSum(n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 program to
 # compute sum of digits in 
 # number.
@@ -103,7 +103,7 @@ print(getSum(n))
 
 **输出:**
 
-```
+```py
 15
 ```
 
@@ -111,7 +111,7 @@ print(getSum(n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to compute
 # sum of digits in number.
 
@@ -125,6 +125,6 @@ print(sumDigits(n))
 
 **输出:**
 
-```
+```py
 15
 ```

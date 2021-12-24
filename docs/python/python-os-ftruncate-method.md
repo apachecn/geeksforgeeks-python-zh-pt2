@@ -16,7 +16,7 @@
 **示例#1 :**
 使用`os.ftruncate()`方法截断文件
 
-```
+```py
 # Python program to explain os.ftruncate() method 
 
 # importing os module 
@@ -60,7 +60,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'Geeks'
 
 ```
@@ -68,7 +68,7 @@ b'Geeks'
 **示例 2 :**
 使用`os.ftruncate()`方法截断文件
 
-```
+```py
 # Python program to explain os.ftruncate() method 
 
 # importing os module 
@@ -112,7 +112,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'GeeksforGe'
 
 ```

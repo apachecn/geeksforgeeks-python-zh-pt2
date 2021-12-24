@@ -8,7 +8,7 @@ Python 支持使用它的一个库创建随机笑话。让我们再深入探讨�
 
 您可以使用 pip 和以下命令简单地安装它:
 
-```
+```py
 pip install pyjokes
 ```
 
@@ -16,7 +16,7 @@ pip install pyjokes
 
 现在要使用它，我们需要使用以下命令在 python 脚本中导入已安装的库:
 
-```
+```py
 import pyjokes
 ```
 
@@ -28,7 +28,7 @@ import pyjokes
 
 **语法:**
 
-```
+```py
 get_joke(language,category)
 ```
 
@@ -38,7 +38,7 @@ get_joke(language,category)
 
 **语法:**
 
-```
+```py
 get_jokes(language,category)
 ```
 
@@ -79,7 +79,7 @@ get_jokes(language,category)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing installed library
 import pyjokes
 
@@ -99,7 +99,7 @@ print(My_joke)
 
 ## 蟒蛇 3
 
-```
+```py
 import pyjokes
 
 # using get_jokes() to generate a whole list of jokes

@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `zip()`**
 上述功能的组合可用于执行该特定任务。在本文中，我们使用列表理解来遍历列表，并在 zip()的帮助下执行跨列表的连接。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records List Concatenation
 # using list comprehension + zip()
@@ -30,7 +30,7 @@ print("The Concatenation across lists is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [('g', 'f'), ('g', 'is'), ('be', 'st')]
 The original list 2 : [('fg', 'g'), ('gf', 'best'), ('st', ' gfg')]
 The Concatenation across lists is : [('gfg', 'fg'), ('ggf', 'isbest'), ('best', 'st gfg')]

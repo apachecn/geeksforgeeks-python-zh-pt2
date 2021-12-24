@@ -4,7 +4,7 @@
 
 在 Python 中，数学模块包含许多数学运算，使用该模块可以轻松执行这些运算。`**math.ceil()**`函数返回大于该数的最小整数值。如果数字已经是整数，则返回相同的数字。
 
-```
+```py
 Syntax: math.ceil(x)
 
 Parameter:
@@ -15,7 +15,7 @@ Returns:  Smallest integer not less than x.
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of ceil()
 
 # importing "math" for mathematical operations 
@@ -30,14 +30,14 @@ print (math.ceil(x))
 
 **Output:**
 
-```
+```py
 The ceil of 33.7 is : 34
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate the working of ceil()
 
 # importing "math" for mathematical operations 
@@ -50,7 +50,7 @@ print ("math.ceil(101.96) : ", math.ceil(101.96))
 
 **Output:**
 
-```
+```py
 math.ceil(-13.1) :  -13
 math.ceil(101.96) :  102
 

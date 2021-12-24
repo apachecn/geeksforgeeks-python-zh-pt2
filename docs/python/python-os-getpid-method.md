@@ -14,7 +14,7 @@
 
 **代码#1:** 使用 os.getpid()方法
 
-```
+```py
 # Python program to explain os.getpid() method 
 
 # importing os module 
@@ -31,7 +31,7 @@ print(pid) 
 
 **Output:**
 
-```
+```py
 2699
 
 ```

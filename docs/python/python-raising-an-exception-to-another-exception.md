@@ -8,7 +8,7 @@
 
 **代码#1 :**
 
-```
+```py
 def example():
     try:
         int('N/A')
@@ -20,7 +20,7 @@ example()
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "", line 3, in example
 ValueError: invalid literal for int() with base 10: 'N/A'
@@ -29,7 +29,7 @@ ValueError: invalid literal for int() with base 10: 'N/A'
 
 该异常是以下异常的直接原因–
 
-```
+```py
 Traceback (most recent call last):
   File "", line 1, in <module>File "<stdin>", line 5, in example
 RuntimeError: A parsing error occurred</stdin></module> 
@@ -39,7 +39,7 @@ RuntimeError: A parsing error occurred</stdin></module>
 
 **代码#2 :**
 
-```
+```py
 try:
     example()
 except RuntimeError as e:
@@ -52,7 +52,7 @@ except RuntimeError as e:
 
 **代码#3 :**
 
-```
+```py
 def example2():
     try:
         int('N/A')
@@ -62,7 +62,7 @@ def example2():
 example2()
 ```
 
-```
+```py
 Traceback (most recent call last):
     File "", line 3, in example2
 ValueError: invalid literal for int() with base 10: 'N / A' 
@@ -70,7 +70,7 @@ ValueError: invalid literal for int() with base 10: 'N / A'
 
 在处理上述异常的过程中，又出现了一个异常:
 
-```
+```py
 Traceback (most recent call last):
     File "", line 1, in <module>File "<stdin>", line 5, in example2
 NameError: global name 'err' is not defined</stdin></module> 
@@ -80,7 +80,7 @@ NameError: global name 'err' is not defined</stdin></module>
 
 **代码#4:要抑制链接，使用从无开始提升**
 
-```
+```py
 def example3():
     try:
         int('N / A')
@@ -92,7 +92,7 @@ example3()
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
     File "", line 1, in 
     File "", line 5, in example3

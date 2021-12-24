@@ -13,7 +13,7 @@
 **方法一:使用词典理解+ `sorted()` +列表理解**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sorted()执行排序，并使用字典理解来复制到其他字典。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Synchronized Sorting 
 # Using dictionary comprehension + sorted() + list comprehension

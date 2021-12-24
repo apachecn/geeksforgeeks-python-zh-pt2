@@ -15,7 +15,7 @@ Python 中的`***os.WCOREDUMP()***`方法用于检查进程是否生成了核心
 
 **代码#1:** 使用`***os.WCOREDUMP()***`方法
 
-```
+```py
 # Python program to explain os.WCOREDUMP() method 
 
 # importing os module  
@@ -61,7 +61,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process
 Process ID: 15059
 Hello! Geeks
@@ -73,7 +73,7 @@ Was core dump generated? True
 
 **代码#2:** 使用`***os.WCOREDUMP()***`方法
 
-```
+```py
 # Python program to explain os.WCOREDUMP() method 
 
 # importing os module  
@@ -145,7 +145,7 @@ else :
 
 **Output:**
 
-```
+```py
 In first child process
 Process ID: 16289
 Hello! Geeks

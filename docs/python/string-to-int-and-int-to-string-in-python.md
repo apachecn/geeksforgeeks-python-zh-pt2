@@ -20,7 +20,7 @@ Python 定义了类型转换函数，直接将一种数据类型转换成另一�
 
 ## 蟒蛇 3
 
-```
+```py
 # string data
 n = '321'
 print('Type of num is :', type(n))
@@ -32,7 +32,7 @@ print('So Now, type of num is :', type(n))
 
 **输出:**
 
-```
+```py
 Type of num is : <class 'str'>
 So Now, type of num is : <class 'int'>
 ```
@@ -55,7 +55,7 @@ So Now, type of num is : <class 'int'>
 
 ## 蟒蛇 3
 
-```
+```py
 hdv = 0x1eff
 print('Type of hdv :', type(hdv))
 
@@ -66,7 +66,7 @@ print('Type of hdv now :', type(hdv))
 
 **输出:**
 
-```
+```py
 Type of hdv : <class 'int'>
 Type of hdv now : <class 'str'>
 ```

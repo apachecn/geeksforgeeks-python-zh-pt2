@@ -7,7 +7,7 @@
 
 **语法:**
 
-```
+```py
 string.ascii_letters
 ```
 
@@ -15,19 +15,19 @@ string.ascii_letters
 
 **参数:**
 
-```
+```py
  Doesn't take any parameter, since it's not a function. 
 ```
 
 **返回:**
 
-```
+```py
  Return all ASCII letters (both lower and upper case)
 ```
 
 **代码#1 :**
 
-```
+```py
 # import string library function
 import string
 
@@ -40,14 +40,14 @@ print(result)
 
 **输出:**
 
-```
+```py
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 ```
 
 **代码#2 :**
 给定的代码检查输入的字符串是否只有 ASCII 字符。
 
-```
+```py
 # importing string library function
 import string
 
@@ -76,7 +76,7 @@ print(input3, "--> ", check(input3))
 
 **输出:**
 
-```
+```py
 GeeksForGeeks -->  True
 Geeks for Geeks -->  False
 Geeks_for_geeks -->  False
@@ -88,7 +88,7 @@ Geeks_for_geeks -->  False
 
 **代码#1 :**
 
-```
+```py
 # Importing random to generate
 # random string sequence
 import random
@@ -114,7 +114,7 @@ print(password)
 
 **输出:**
 
-```
+```py
 oQjI5MOXQ3
 ```
 
@@ -123,7 +123,7 @@ oQjI5MOXQ3
 **代码#2 :**
 说如果要生成随机密码，但是要从给定的字符串集合中。让我们看看如何使用 ascii 字母来实现这一点:
 
-```
+```py
 # Importing random to generate
 # random string sequence
 import random
@@ -146,6 +146,6 @@ print(password)
 
 **输出:**
 
-```
+```py
 kg3g03keG3
 ```

@@ -4,7 +4,7 @@
 
 可以有一些与类相关的功能，但不需要任何实例来完成一些工作，在这种情况下可以使用静态方法。静态方法是绑定到类而不是类的对象的方法。它不能访问或修改类状态。它存在于类中，因为方法存在于类中是有意义的。静态方法不接收隐式的第一个参数。
 
-```
+```py
 Syntax:
 
 class C(object):
@@ -20,7 +20,7 @@ Returns: a static method for function fun.
 
 **示例#1:**
 
-```
+```py
 # Python program to 
 # demonstrate static methods
 
@@ -41,14 +41,14 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 The result is 3
 
 ```
 
 **例 2:**
 
-```
+```py
 # Python program to
 # demonstrate static methods
 
@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Is person adult: False
 
 Is person adult: True

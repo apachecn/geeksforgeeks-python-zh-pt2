@@ -30,7 +30,7 @@ Python 中的`***os.statvfs()***`方法用于获取包含给定路径的已挂�
 
 **Code:** Use of os.statvfs() method to get information about the file system containing the given path.
 
-```
+```py
 # Python program to explain os.statvfs() method 
 
 # importing os module 
@@ -58,7 +58,7 @@ print("Number of free blocks:", info.f_bfree)
 
 **Output:**
 
-```
+```py
 os.statvfs_result(f_bsize=4096, f_frsize=4096, f_blocks=59798433, f_bfree=56521834,
 f_bavail=53466807, f_files=15261696, f_ffree=14933520, f_favail=14933520, f_flag=4096,
 f_namemax=255)

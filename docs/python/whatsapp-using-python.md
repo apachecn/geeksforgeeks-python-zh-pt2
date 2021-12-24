@@ -8,7 +8,7 @@
 
 1) **硒的 Python 绑定(浏览器自动化软件)**
 
-```
+```py
 pip install selenium
 ```
 
@@ -20,7 +20,7 @@ pip install selenium
 
 3) **铬浏览器(**开源**版铬浏览器)**
 
-```
+```py
 sudo apt-get install chromium-browser
 ```
 
@@ -30,7 +30,7 @@ sudo apt-get install chromium-browser
 
 ## 计算机编程语言
 
-```
+```py
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

@@ -6,13 +6,13 @@
 
 python 中最短的 quine 只是一行代码！
 
-```
+```py
 _='_=%r;print _%%_';print _%_
 ```
 
 在 Python3.x 的情况下
 
-```
+```py
 _='_=%r;print (_%%_)';print (_%_)
 ```
 
@@ -21,7 +21,7 @@ _='_=%r;print (_%%_)';print (_%_)
 
 但是你可能会说下面的代码是最小的，对吧！
 
-```
+```py
 print open(__file__).read()
 ```
 

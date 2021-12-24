@@ -15,7 +15,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing
@@ -54,7 +54,7 @@ with Drawing() as draw:
 **输入图像:**
 ![](img/75df7ee97da650a12f67d7ec06786013.png)
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing

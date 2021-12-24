@@ -6,7 +6,7 @@
 
 **方法#1:使用排序**
 
-```
+```py
 # Python code to demonstrate
 # sort list of list
 # on the basis of size of sublist

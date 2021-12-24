@@ -12,7 +12,7 @@
 
 **在`urls.py`–**中进行以下更改
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 

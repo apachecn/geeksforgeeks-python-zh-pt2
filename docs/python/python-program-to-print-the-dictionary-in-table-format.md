@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Define the dictionary
 dict ={}
 
@@ -40,7 +40,7 @@ for key, value in dict1.items():
 
 **输出:**
 
-```
+```py
 NAME       AGE        COURSE    
 Samuel     21         Data Structures
 Richie     20         Machine Learning
@@ -51,7 +51,7 @@ Lauren     21         OOPS with java
 
 ## 蟒蛇 3
 
-```
+```py
 # define the dictionary
 dict1 = {}
 
@@ -76,7 +76,7 @@ for i in range(3):
 
 **输出:**
 
-```
+```py
  NAME   AGE    COURSE 
 Samuel   21   Data structures   
 Richie   20   Machine Learning   
@@ -87,7 +87,7 @@ Lauren   21   OOPS with Java
 
 ## 蟒蛇 3
 
-```
+```py
 # define the dictionary
 dict1 = {}
 
@@ -105,7 +105,7 @@ for each_row in zip(*([i] + (j)
 
 **输出:**
 
-```
+```py
 NAME  AGE COURSE  
 Samuel 21 Data Structures  
 Richie 20 Machine Learning  

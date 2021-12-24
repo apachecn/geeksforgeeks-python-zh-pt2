@@ -11,12 +11,12 @@ Django 是一个用于构建网络应用程序的 MVT 网络框架。它健壮�
 
 **Requirements.txt 文件:**在与您的 manage.py 相同的目录中创建 Requirements.txt 文件。在激活虚拟环境的情况下，在控制台中运行以下命令:
 
-```
+```py
  (myvenv) $ pip install dj-database-url gunicorn whitenoise
 
 ```
 
-```
+```py
  (myvenv) $ pip freeze > requirements.txt
 
 ```
@@ -25,7 +25,7 @@ Django 是一个用于构建网络应用程序的 MVT 网络框架。它健壮�
 
 **Procfile:** 在与 manage.py 相同的目录下创建一个名为 Procfile 的文件，你会看到 Heroku 标志作为 Procfile 的图标。添加以下一行:
 
-```
+```py
 web: gunicorn <project_name>.wsgi --log-file -
 
 ```
@@ -34,7 +34,7 @@ web: gunicorn <project_name>.wsgi --log-file -
 
 **Runtime.txt 文件:**在与你的 manage.py 相同的目录中创建 Runtime.txt 文件。添加你想要用于你的 web 应用程序的 python 版本:
 
-```
+```py
 python-3.7.1 
 
 ```
@@ -43,21 +43,21 @@ python-3.7.1
 
 1.将调试设置为假。
 
-```
+```py
 DEBUG = False
 
 ```
 
 2.修改允许的主机。
 
-```
+```py
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
 ```
 
 3.要禁用 Django 的静态文件处理并允许白化接管，请将“nostatic”添加到“INSTALLED_APPS”列表的顶部。
 
-```
+```py
 INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
@@ -68,7 +68,7 @@ INSTALLED_APPS = [
 
 4.将白色添加到中间件列表中。白化中间件应该直接放在 Django SecurityMiddleware 之后(如果您正在使用它)，并且放在所有其他中间件之前:
 
-```
+```py
 MIDDLEWARE = [
  'django.middleware.security.SecurityMiddleware',
  'whitenoise.middleware.WhiteNoiseMiddleware',
@@ -79,7 +79,7 @@ MIDDLEWARE = [
 
 5.更新您的数据库设置。
 
-```
+```py
 import dj_database_url
 
 DATABASES = {
@@ -100,21 +100,21 @@ DATABASES['default'].update(db_from_env)
 
 6.直接从文件的原始位置(通常在 STATICFILES_DIRS 或 app 静态子目录中)提供文件，而不需要通过 collectstatic 命令将其收集到 STATIC_ROOT 中；将“白化 _ 使用 _ 查找器”设置为“真”。
 
-```
+```py
 WHITENOISE_USE_FINDERS = True
 
 ```
 
 7.白化瓦兹附带了一个存储后端，自动负责压缩您的文件，并为每个版本创建唯一的名称，以便它们可以安全地永远缓存。要使用它，只需将它添加到您的设置中。py:
 
-```
+```py
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 ```
 
 **设置的最终修改内容。py:**
 
-```
+```py
 import dj_database_url
 
 ...
@@ -167,7 +167,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 2.通过在 cmd 或 gitbash 中运行以下命令来验证您的 Heroku 帐户
 
-```
+```py
 $heroku login
 
 ```
@@ -180,7 +180,7 @@ $heroku login
 
 3.在部署之前提交对 git 的任何更改。
 
-```
+```py
 $ git status
 $ git add -A .
 $ git commit -m "additional files and changes for Heroku"
@@ -189,7 +189,7 @@ $ git commit -m "additional files and changes for Heroku"
 
 4.选择您的应用程序名称，该名称将显示在域名–**【您的应用程序名称】. herokupapp . com**上，并使用以下命令创建应用程序:
 
-```
+```py
 $ heroku create <your_app's_name>
 
 ```
@@ -198,7 +198,7 @@ $ heroku create <your_app's_name>
 
 5.**调试:**如果收集静态在构建过程中失败，则会提供一个有助于诊断问题的回溯。如果需要运行 collectstatic 的环境的其他信息，请使用 DEBUG_COLLECTSTATIC 配置。
 
-```
+```py
 $ heroku config:set DEBUG_COLLECTSTATIC=1
 
 ```
@@ -207,7 +207,7 @@ $ heroku config:set DEBUG_COLLECTSTATIC=1
 
 6.**禁用 Collectstatic:** 有时，您可能不希望 Heroku 代表您运行 Collectstatic。您可以使用 DISABLE _ COLLECTSTATIC 配置禁用 COLECTSTATIC 构建步骤:
 
-```
+```py
 $heroku config:set DISABLE_COLLECTSTATIC=1
 
 ```
@@ -216,7 +216,7 @@ $heroku config:set DISABLE_COLLECTSTATIC=1
 
 7.最后，做一个简单的 git 推送来部署我们的应用程序:
 
-```
+```py
 $ git push heroku master
 
 ```
@@ -225,14 +225,14 @@ $ git push heroku master
 
 8.当我们部署到 Heroku 时，我们创建了一个新的数据库，它是空的。我们需要运行迁移并创建超级用户命令。
 
-```
+```py
 $ heroku run python manage.py migrate
 
 ```
 
 ![](img/421734113b2b4e70185f2881dd239fbe.png)
 
-```
+```py
 $ heroku run python manage.py createsuperuser
 
 ```
@@ -243,7 +243,7 @@ $ heroku run python manage.py createsuperuser
 
 9.要打开您的站点运行:
 
-```
+```py
 $ heroku open
 
 ```
@@ -252,7 +252,7 @@ $ heroku open
 
 如果您在网站上看到应用程序错误，请运行:
 
-```
+```py
 $heroku logs --tail
 
 ```

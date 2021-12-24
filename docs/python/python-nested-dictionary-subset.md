@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nested Dictionary Subset Python
 # Using all() + any() + isinstance() + recursion

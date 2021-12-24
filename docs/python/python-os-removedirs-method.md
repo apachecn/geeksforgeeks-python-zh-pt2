@@ -9,7 +9,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 Python 中的`***os.removedirs()***`方法用于递归移除目录。如果成功删除指定路径中的叶目录，则`***os.removedirs()***`会尝试连续删除路径中提到的每个父目录，直到出现错误。引发的错误被忽略，因为通常错误是因为要删除的目录不为空而引发的。
 例如，考虑以下路径:
 
-```
+```py
 '/home/User/Documents/foo/bar/baz'
 
 ```
@@ -25,7 +25,7 @@ Python 中的`***os.removedirs()***`方法用于递归移除目录。如果成�
 
 **Code #1:** Use of os.removedirs() method to remove an empty directory tree
 
-```
+```py
 # Python program to explain os.removedirs() method 
 
 # importing os module 
@@ -53,14 +53,14 @@ print("Directory '%s' has been removed successfully" %directory)
 
 **Output:**
 
-```
+```py
 Directory 'baz' has been removed successfully
 
 ```
 
 **Code #2:** Possible errors while using os.removedirs() method
 
-```
+```py
 # Python program to explain os.removedirs() method 
 
 # importing os module 
@@ -96,7 +96,7 @@ os.removedirs(path) 
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "removedirs.py", line 33, in 
     os.removedirs(path)
@@ -108,7 +108,7 @@ NotADirectoryError: [Errno 20] Not a directory: '/home/User/Documents/ihritik/fi
 
 **Code #3:** Handling errors while using os.removedirs() method
 
-```
+```py
 # Python program to explain os.removedirs() method 
 
 # importing os module 
@@ -140,7 +140,7 @@ except OSError as error:
 
 **Output:**
 
-```
+```py
 Specified path is not a directory.
 
 ```

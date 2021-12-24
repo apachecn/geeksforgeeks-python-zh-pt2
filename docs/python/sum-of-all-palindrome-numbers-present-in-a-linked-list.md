@@ -15,7 +15,7 @@
 
 ## C++
 
-```
+```py
 // C++ program to calculate
 // the sum of all palindromic
 // numbers in a linked list
@@ -119,7 +119,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 // Java program to calculate
 // the sum of all palindromes
 // in a linked list
@@ -222,7 +222,7 @@ class GFG {
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to
 # calculate the sum of all
 # palindromes present in
@@ -311,7 +311,7 @@ print(sumOfpal(head1))
 
 ## C#
 
-```
+```py
 // C# program to calculate
 // the sum of all palindromes
 // in a linked list
@@ -424,7 +424,7 @@ public static void Main(String []args)
 
 ## java 描述语言
 
-```
+```py
 <script>
       // JavaScript program to calculate
       // the sum of all palindromes
@@ -522,6 +522,6 @@ public static void Main(String []args)
 
 **Output:** 
 
-```
+```py
 285
 ```

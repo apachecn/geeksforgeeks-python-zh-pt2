@@ -23,7 +23,7 @@ Python 中的`***os.sendfile()***`方法用于从指定的偏移量开始，将�
 
 **Code:** Use of `***os.sendfile()***` method
 
-```
+```py
 # Python program to explain os.sendfile() method 
 
 # importing os module 
@@ -66,7 +66,7 @@ os.close(dest_fd)
 
 **Output:**
 
-```
+```py
 100 bytes sent/copied successfully.
 b'Python is a widely used general-purpose, high level programming language.
 It was initially designed '

@@ -29,7 +29,7 @@
 
 **代码:**使用`***time.get_clock_info()***`方法
 
-```
+```py
 # Python program to explain time.get_clock_info() method
 
 # importing time module
@@ -69,7 +69,7 @@ print(clock_info) 
 
 **Output:**
 
-```
+```py
 Information on 'clock':
 namespace(adjustable=False, implementation='clock()',
 monotonic=True, resolution=1e-06)

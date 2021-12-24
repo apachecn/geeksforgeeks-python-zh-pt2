@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
  tag.descendants 
 
 ```
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -36,7 +36,7 @@ for descendant in tag.descendants:
 
 **输出:**
 
-```
+```py
 <b> Hello world </b>
  Hello world 
 <body></body>
@@ -47,7 +47,7 @@ for descendant in tag.descendants:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -67,7 +67,7 @@ for descendant in tag.descendants:
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.Tag'>
 <class 'bs4.element.NavigableString'>
 <class 'bs4.element.Tag'>

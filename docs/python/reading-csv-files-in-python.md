@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # opening the CSV file
@@ -37,7 +37,7 @@ with open('Giants.csv', mode ='r')as file:
 
 **输出:**
 
-```
+```py
 ['Organization', 'CEO', 'Established']
 ['Alphabet', 'Sundar Pichai', '02-Oct-15']
 ['Microsoft', 'Satya Nadella', '04-Apr-75']
@@ -50,7 +50,7 @@ with open('Giants.csv', mode ='r')as file:
 
 ## 蟒蛇 3
 
-```
+```py
 import csv
 
 # opening the CSV file
@@ -74,7 +74,7 @@ with open('Giants.csv', mode ='r') as file:   
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas
 
 # reading the CSV file
@@ -86,7 +86,7 @@ print(csvFile)
 
 **输出:**
 
-```
+```py
 Organization            CEO Established
 0   Alphabet  Sundar Pichai   02-Oct-15
 1   Microsoft  Satya Nadella   04-Apr-75

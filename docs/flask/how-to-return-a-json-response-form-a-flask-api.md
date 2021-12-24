@@ -19,13 +19,13 @@ REST 代表表示状态转移，是现代网络开发中使用的一种架构风
 
 *   使用以下命令安装 python *烧瓶*库:
 
-```
+```py
 pip install Flask
 ```
 
 *   使用以下命令安装*烧瓶式*库:
 
-```
+```py
 pip install Flask-RESTful
 ```
 
@@ -35,14 +35,14 @@ pip install Flask-RESTful
 *   从烧瓶框架中导入烧瓶、jsonify 和请求。
 *   使用以下语法将 web 应用注册到应用变量中。
 
-```
+```py
 app = Flask(__name__)
 ```
 
 *   创建一个名为“ReturnJSON”的新函数。这个函数将返回样本 JSON 响应。
 *   使用以下语法将“ReturnJSON”函数路由到所需的网址。
 
-```
+```py
 @app.route('/path_of_the_response', methods = ['GET'])
 def ReturnJSON():
   pass
@@ -52,7 +52,7 @@ def ReturnJSON():
 *   jsonify python 字典并返回它。
 *   使用以下命令构建烧瓶应用程序。
 
-```
+```py
 if __name__=='__main__':
     app.run(debug=True)
 ```
@@ -63,7 +63,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,jsonify,request
 
 app =   Flask(__name__)
@@ -93,13 +93,13 @@ if __name__=='__main__':
 *   从“烧瓶 _restful”库中导入应用编程接口和资源。
 *   使用以下语法将 web 应用注册到应用变量中。
 
-```
+```py
 app = Flask(__name__)
 ```
 
 *   使用“flask_restful”库的 API 方法将 app 变量注册为 API 对象。
 
-```
+```py
 api = Api(app)
 ```
 
@@ -109,7 +109,7 @@ api = Api(app)
 *   使用 add_resource 方法将资源类添加到 API 中。
 *   使用以下命令构建烧瓶应用程序。
 
-```
+```py
 if __name__=='__main__':
     app.run(debug=True)
 ```
@@ -120,7 +120,7 @@ if __name__=='__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_restful import Api, Resource
 

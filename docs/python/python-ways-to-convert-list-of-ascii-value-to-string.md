@@ -6,7 +6,7 @@
 
 **方法#1:使用朴素方法**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of list of ascii values
 # to string
@@ -34,7 +34,7 @@ print ("Resultant string", str(res))
 
 **方法 2:使用 map()**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of list of ascii values
 # to string
@@ -60,7 +60,7 @@ print ("Resultant string", str(res))
 
 **方法 3:使用连接和列表理解**
 
-```
+```py
 # Python code to demonstrate 
 # conversion of a list of ascii values
 # to string

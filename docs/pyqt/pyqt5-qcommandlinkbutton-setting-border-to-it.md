@@ -7,7 +7,7 @@
 
 为了做到这一点，我们将为它设置样式表代码，我们使用`setStyleSheet`方法和命令链接按钮对象，下面是样式表代码
 
-```
+```py
 QCommandLinkButton
 {
 border : 2px solid black;
@@ -17,7 +17,7 @@ border : 2px solid black;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

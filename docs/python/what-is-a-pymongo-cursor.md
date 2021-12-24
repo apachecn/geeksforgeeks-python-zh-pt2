@@ -20,7 +20,7 @@
 
 ![python-mongodb-sample-database6](img/15bc9a92c9034b8e4826d8bc9dd11c35.png)
 
-```
+```py
 from pymongo import MongoClient
 
 # Connecting to mongodb    
@@ -45,13 +45,13 @@ with client:
 
 在这种情况下，find()方法返回光标对象。
 
-```
+```py
 lectures = db.lecture.find()
 ```
 
 使用 next()方法，我们得到集合中的下一个文档。
 
-```
+```py
 lectures.next()
 ```
 

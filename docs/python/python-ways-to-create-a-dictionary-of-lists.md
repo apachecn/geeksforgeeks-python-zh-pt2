@@ -6,7 +6,7 @@
 
 请注意，Python 字典中对键的限制是只有不可变的数据类型才能用作键，这意味着我们不能将列表字典用作`key`。
 
-```
+```py
 # Creating a dictionary
 myDict = {[1, 2]: 'Geeks'}
 
@@ -15,7 +15,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 TypeError: unhashable type: 'list'
 ```
 
@@ -23,7 +23,7 @@ TypeError: unhashable type: 'list'
 
 **方法#1:** 使用下标
 
-```
+```py
 # Creating an empty dictionary
 myDict = {}
 
@@ -36,7 +36,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {'key2': ['Geeks', 'For', 'Geeks'], 'key1': [1, 2]}
 ```
 
@@ -44,7 +44,7 @@ print(myDict)
 
 创建一个新列表，我们可以简单地将该列表附加到值中。
 
-```
+```py
 # Creating an empty dictionary
 myDict = {}
 
@@ -62,7 +62,7 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {'key1': [1, 2, ['Geeks', 'For', 'Geeks']]}
 ```
 
@@ -70,7 +70,7 @@ print(myDict)
 
 使用`setdefault()`方法迭代列表并继续添加元素直到给定范围。
 
-```
+```py
 # Creating an empty dict
 myDict = dict()
 
@@ -87,13 +87,13 @@ print(myDict)
 
 **输出:**
 
-```
+```py
 {1: ['1'], 2: ['1', '2'], 3: ['2', '3'], 4: ['3']}
 ```
 
 **方法#4:** 使用列表理解
 
-```
+```py
 # Creating a dictionary of lists
 # using list comprehension
 d = dict((val, range(int(val), int(val) + 2))
@@ -104,7 +104,7 @@ print(d)
 
 **输出:**
 
-```
+```py
 {'1': [1, 2], '3': [3, 4], '2': [2, 3]}
 ```
 
@@ -112,7 +112,7 @@ print(d)
 
 请注意，同样的事情也可以用简单的字典来完成，但是使用`defaultdict` 在这种情况下更有效。
 
-```
+```py
 # Importing defaultdict
 from collections import defaultdict
 
@@ -128,7 +128,7 @@ print(orDict)
 
 **输出:**
 
-```
+```py
 defaultdict(, {'For': [2], 'Geeks': [1, 3]})
 ```
 
@@ -136,7 +136,7 @@ defaultdict(, {'For': [2], 'Geeks': [1, 3]})
 
 **方法 6:** 使用 Json
 
-```
+```py
 #importing json
 import json
 
@@ -160,6 +160,6 @@ print(dict)
 
 **输出:**
 
-```
+```py
 {'[["Geeks", 1], ["For", 2], ["Geeks", 3]]': 'converted'}
 ```

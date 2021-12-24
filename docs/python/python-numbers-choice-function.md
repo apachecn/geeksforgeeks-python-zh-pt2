@@ -6,7 +6,7 @@ choice()是 Python 编程语言中的一个内置函数，它从列表、元组�
 
 **语法:**
 
-```
+```py
 random.choice(sequence)
 Parameters: 
 sequence is a mandatory parameter that
@@ -19,7 +19,7 @@ The choice() returns a random item.
 
 下面是上述方法的 Python3 实现:
 
-```
+```py
 # Python3 program to demonstrate the use of
 # choice() method 
 
@@ -38,7 +38,7 @@ print(random.choice(string))  
 每次的输出都会有所不同，因为系统会随机返回一个项目。
 **输出:**
 
-```
+```py
 5
 s
 
@@ -47,7 +47,7 @@ s
 **实际应用:**
 从给定列表中打印任意随机数 5 次。
 
-```
+```py
 # Python3 program to demonstrate the practical application
 # choice() 
 
@@ -63,7 +63,7 @@ for x in range(5):
 每次使用 choice()函数时，输出都会改变。
 输出:
 
-```
+```py
 1
 4
 1

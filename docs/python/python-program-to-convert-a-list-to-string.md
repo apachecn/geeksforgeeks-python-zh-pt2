@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: ['Geeks', 'for', 'Geeks']
 Output: Geeks for Geeks
 
@@ -21,7 +21,7 @@ Output: I want 4 apples and 18 bananas
 **方法#1:**
 遍历列表，并在某个空字符串中不断为每个索引添加元素。
 
-```
+```py
 # Python program to convert a list to string
 
 # Function to convert  
@@ -44,14 +44,14 @@ print(listToString(s)) 
 
 **Output:**
 
-```
+```py
 GeeksforGeeks
 
 ```
 
 **方法 2:使用。join()方法**
 
-```
+```py
 # Python program to convert a list
 # to string using join() function
 
@@ -71,7 +71,7 @@ print(listToString(s)) 
 
 **Output:**
 
-```
+```py
 Geeks for Geeks
 
 ```
@@ -80,7 +80,7 @@ Geeks for Geeks
 
 **方法三:使用列表理解**
 
-```
+```py
 # Python program to convert a list
 # to string using list comprehension
 
@@ -94,7 +94,7 @@ print(listToStr) 
 
 **Output:**
 
-```
+```py
 I want 4 apples and 18 bananas
 
 ```
@@ -102,7 +102,7 @@ I want 4 apples and 18 bananas
 **方法#4:使用 map()**
 使用 map()方法将字符串(用于将列表中的元素转换为字符串)与给定的迭代器、列表进行映射。
 
-```
+```py
 # Python program to convert a list
 # to string using list comprehension
 
@@ -116,7 +116,7 @@ print(listToStr) 
 
 **Output:**
 
-```
+```py
 I want 4 apples and 18 bananas
 
 ```

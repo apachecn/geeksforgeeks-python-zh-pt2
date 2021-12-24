@@ -12,7 +12,7 @@
 
 在终端执行以下命令，创建一个剪贴簿项目–
 
-```
+```py
 scrapy startproject gfg_friendshipquotes 
 ```
 
@@ -40,7 +40,7 @@ scrapy startproject gfg_friendshipquotes
 
 ## 计算机编程语言
 
-```
+```py
 # Import the required library
 import scrapy
 
@@ -98,7 +98,7 @@ class GfgFriendquotesSpider(scrapy.Spider):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required libraries
 import scrapy
 
@@ -147,7 +147,7 @@ Scrapy 允许提取的数据以 JSON、CSV、XML 等格式存储。本教程展�
 
 为了将数据存储在 JSON 文件中，可以遵循下面提到的任何方法:
 
-```
+```py
 scrapy crawl gfg_friendquotes -o friendshipquotes.json
 ```
 
@@ -155,7 +155,7 @@ scrapy crawl gfg_friendquotes -o friendshipquotes.json
 
 ## 计算机编程语言
 
-```
+```py
 BOT_NAME = 'gfg_friendshipquotes'
 
 SPIDER_MODULES = ['gfg_friendshipquotes.spiders']
@@ -194,7 +194,7 @@ FEED_URI = "friendshipfeed.json"
 
 **在** **终端写下以下命令:**
 
-```
+```py
 scrapy crawl gfg_friendquotes -o friendshipquotes.csv
 ```
 
@@ -202,7 +202,7 @@ scrapy crawl gfg_friendquotes -o friendshipquotes.csv
 
 ## 计算机编程语言
 
-```
+```py
 BOT_NAME = 'gfg_friendshipquotes'
 
 SPIDER_MODULES = ['gfg_friendshipquotes.spiders']

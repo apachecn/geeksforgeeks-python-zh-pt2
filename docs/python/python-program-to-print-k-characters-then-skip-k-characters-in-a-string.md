@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate K Length characters
 # Using loop + slicing 
@@ -45,7 +45,7 @@ print("Transformed String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeksgeeksisbestforgeeks
 Transformed String : geekksisforg
 
@@ -57,7 +57,7 @@ Transformed String : geekksisforg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate K Length characters
 # Using list comprehension + join()
@@ -80,7 +80,7 @@ print("Transformed String : " + str(res)) 
 
 **输出:**
 
-```
+```py
 The original string is : geeksgeeksisbestforgeeks
 Transformed String : geekksisforg
 

@@ -26,7 +26,7 @@
 
 **重组第一次**
 
-```
+```py
 ******************************
 This is example of rst on GFG
 ******************************
@@ -46,7 +46,7 @@ This is example of rst on GFG
 
 以下是转换*的 Python 代码。rst* 文件转换为 HTML 文件。`docutils` 是安装 Python 时下载的预定义库。`publish_file` 方法通过传递文件名作为参数，将 *rst* 转换为 html。
 
-```
+```py
 import docutils.core
 
 docutils.core.publish_file(

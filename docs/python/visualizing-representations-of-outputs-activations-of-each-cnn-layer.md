@@ -5,7 +5,7 @@
 卷积神经网络在图像分类和识别任务中非常强大。CNN 模型学习训练图像的特征，在每一层应用不同的过滤器。在每个卷积层学习到的特征差异很大。观察到的事实是，初始层主要捕获边缘、图像的方向和图像中的颜色，这些是低级特征。随着层数的增加，美国有线电视新闻网捕捉高级特征，帮助区分不同类别的图像。
 为了理解卷积神经网络是如何学习图像的空间和时间相关性的，在每一层捕获的不同特征可以用以下方式可视化。
 
-```
+```py
 To visualize the features at each layer, Keras Model class is used. 
 It allows the model to have multiple outputs.
 It maps given a list of input tensors to list of output tensors. 
@@ -25,7 +25,7 @@ outputs: Output/ List of outputs.
 使用`Keras ImageDataGenerator`将训练图像和验证图像加载到数据生成器中。
 类模式被认为是“二进制”，批处理大小被认为是 20。图像的目标大小固定为(150，150)。
 
-```
+```py
 from keras.preprocessing.image import ImageDataGenerator
 train_datagen = ImageDataGenerator(rescale = 1./255)
 test_datagen = ImageDataGenerator(rescale = 1./255)
@@ -40,7 +40,7 @@ validation_generator = test_datagen.flow_from_directory(val_img_path, target_siz
 **第二步:模型的架构**
 增加了二维卷积层和最大池层的组合，在此基础上还增加了一个密集的分类层。对于最终的密集层，使用 Sigmoid 激活函数，因为它是一个两类分类问题。
 
-```
+```py
 from keras import models
 from keras import layers
 
@@ -68,7 +68,7 @@ model.summary()
 
 **输出:车型总结**
 
-```
+```py
 Model: "sequential_1"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -106,7 +106,7 @@ Non-trainable params: 0
 优化器:RMSprop
 度量:准确性
 
-```
+```py
 from keras import optimizers
 
 model.compile(loss ="binary_crossentropy", optimizer = optimizers.RMSprop(lr = 1e-4),
@@ -120,7 +120,7 @@ validation_data = validation_generator, validation_steps = 50)
 
 考虑不用于训练的图像，即来自测试数据的图像，将图像的路径存储在变量‘image _ path’中。
 
-```
+```py
 from keras.preprocessing import image
 import numpy as np
 
@@ -141,7 +141,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 Tensor shape:
 (1, 150, 150, 3)
 
@@ -152,7 +152,7 @@ Input image:
 
 **代码:使用 Keras 模型类获取各层输出**
 
-```
+```py
 # Outputs of the 8 layers, which include conv2D and max pooling layers
 layer_outputs = [layer.output for layer in model.layers[:8]]
 activation_model = models.Model(inputs = model.input, outputs = layer_outputs)
@@ -173,7 +173,7 @@ plt.matshow(first_layer_activation[0, :, :, 15], cmap ='viridis')
 
 **输出:**
 
-```
+```py
 First layer activation shape:
 (1, 148, 148, 32)
 
@@ -189,7 +189,7 @@ Fifteenth channel of first layer activation:
 
 **代码:我们模型中八层的名称**
 
-```
+```py
 layer_names = []
 
 for layer in model.layers[:8]:
@@ -199,7 +199,7 @@ print(layer_names)
 
 **输出:**
 
-```
+```py
 Layer names:
 
 ['conv2d_1',

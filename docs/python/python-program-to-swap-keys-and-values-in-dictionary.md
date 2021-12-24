@@ -13,7 +13,7 @@
 > **输入:**{“A”:67，“B”:23，“C”:45，“D”:56，“E”:12，“F”:69，“G”:67，“H”:23 }
 > **输出:**{ 67:“G”，69:“F”，23:“H”，56:“D”，12:“E”，45:“C”}
 
-```
+```py
 # Python3 code to demonstrate  
 # swap of key and value 
 
@@ -37,7 +37,7 @@ for i in new_dict:
 
 **输出**
 
-```
+```py
 Original dictionary is : 
 {'D': 56, 'E': 12, 'C': 45, 'A': 67, 'F': 69, 'H': 23, 'B': 23, 'G': 67}
 
@@ -66,7 +66,7 @@ keys: values
 > **输入:** {'A': 67，' B': 23，' C': 45，' E': 12，' F': 69，' G': 67，' H': 23}
 > **输出:** {45: ['C']，67: ['A '，' G']，12: ['E']，69: ['F']，23: ['B '，' H']
 
-```
+```py
 # Python3 code to demonstrate  
 # swap of key and value 
 
@@ -95,7 +95,7 @@ for i in new_dict:
 
 **输出**
 
-```
+```py
 Original dictionary is : 
 {'F': 69, 'G': 67, 'H': 23, 'A': 67, 'C': 45, 'B': 23, 'E': 12}
 

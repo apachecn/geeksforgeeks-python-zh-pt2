@@ -6,7 +6,7 @@
 
 **所需模块及安装:**
 
-```
+```py
 pip install bs4
 ```
 
@@ -22,7 +22,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from bs4 import BeautifulSoup
 import requests
@@ -34,7 +34,7 @@ import requests
 
 ## 蟒蛇 3
 
-```
+```py
 # set the url to perform the get request
 URL = 'https://www.geeksforgeeks.org/how-to-scrape-all-pdf-files-in-a-website/'
 page = requests.get(URL)
@@ -53,7 +53,7 @@ soup = BeautifulSoup(text, "html.parser")
 
 ## 蟒蛇 3
 
-```
+```py
 # open the file in w mode
 # set encoding to UTF-8
 with open("output.html", "w", encoding = 'utf-8') as file:
@@ -66,7 +66,7 @@ with open("output.html", "w", encoding = 'utf-8') as file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries
 from bs4 import BeautifulSoup
 import requests

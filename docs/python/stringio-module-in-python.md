@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -49,7 +49,7 @@ print('The string after writing is:', file.read())
 
 **语法:**
 
-```
+```py
 File_name.getvalue()
 ```
 
@@ -57,7 +57,7 @@ File_name.getvalue()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -74,7 +74,7 @@ print(file.getvalue())
 
 **输出:**
 
-```
+```py
 'Hello and welcome to GeeksForGeeks.'
 ```
 
@@ -88,7 +88,7 @@ print(file.getvalue())
 
 **语法:**
 
-```
+```py
 File_name.isatty()
 File_name.readable()
 File_name.writable()
@@ -100,7 +100,7 @@ File_name.closed
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -134,7 +134,7 @@ print("Is the file closed?", file.closed)
 
 **输出:**
 
-```
+```py
 Is the file stream interactive? False
 Is the file stream readable? True
 Is the file stream writable? True
@@ -146,7 +146,7 @@ Is the file closed? False
 
 **语法:**
 
-```
+```py
 File_name.seek(argument) 
 # Here the argument is passed to tell the 
 # function  where to set the cursor position. 
@@ -156,7 +156,7 @@ File_name.seek(argument)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -192,7 +192,7 @@ print(file.read())
 
 **输出:**
 
-```
+```py
 Hello and welcome to GeeksForGeeks.
 Hello and welcome to GeeksForGeeks.
 ```
@@ -201,7 +201,7 @@ Hello and welcome to GeeksForGeeks.
 
 **语法:**
 
-```
+```py
 File_name.truncate(size = None)
 # We can provide the size from where 
 # to truncate the file.
@@ -211,7 +211,7 @@ File_name.truncate(size = None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -238,7 +238,7 @@ print(file.read())
 
 **输出:**
 
-```
+```py
 Hello and welcome to GeeksForGeeks.
 Hello and welcome 
 ```
@@ -247,7 +247,7 @@ Hello and welcome
 
 **语法:**
 
-```
+```py
 File_name.tell()
 ```
 
@@ -255,7 +255,7 @@ File_name.tell()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -278,7 +278,7 @@ print(file.tell())
 
 **输出:**
 
-```
+```py
 0
 20
 ```
@@ -287,7 +287,7 @@ print(file.tell())
 
 **语法:**
 
-```
+```py
 File_name.close()
 ```
 
@@ -295,7 +295,7 @@ File_name.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the StringIO module.
 from io import StringIO 
 
@@ -322,7 +322,7 @@ print("Is the file closed?", file.closed)
 
 **输出:**
 
-```
+```py
 Hello and welcome to GeeksForGeeks.
 Is the file closed? True
 ```

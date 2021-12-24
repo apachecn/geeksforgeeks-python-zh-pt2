@@ -7,7 +7,7 @@
 
 **语法–**
 
-```
+```py
 field_name = models.Field(validators = [function 1, function 2]) 
 ```
 
@@ -24,7 +24,7 @@ field_name = models.Field(validators = [function 1, function 2])
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -39,7 +39,7 @@ class GeeksModel(Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 # importing validationerror
 from django.core.exceptions import ValidationError
@@ -60,7 +60,7 @@ class GeeksModel(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 # importing validationerror
 from django.core.exceptions import ValidationError

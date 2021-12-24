@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [4, 7, 3, 2, 9, 2, 1]
 
@@ -35,7 +35,7 @@ print("The Consecutive overlapping Summation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 3, 2, 9, 2, 1]
 The Consecutive overlapping Summation : [11, 10, 5, 11, 11, 3, 5]
 
@@ -47,7 +47,7 @@ The Consecutive overlapping Summation : [11, 10, 5, 11, 11, 3, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Consecutive overlapping Summation
 # Using sum() + list comprehension + zip()
@@ -68,7 +68,7 @@ print("The Consecutive overlapping Summation : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 7, 3, 2, 9, 2, 1]
 The Consecutive overlapping Summation : [11, 10, 5, 11, 11, 3, 5]
 

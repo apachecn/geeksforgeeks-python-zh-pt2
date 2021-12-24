@@ -21,7 +21,7 @@ Django 视图是用户界面的一部分——它们通常将模板文件中的 
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.http import HttpResponse
 # get datetime
@@ -48,7 +48,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -84,7 +84,7 @@ Django 的观点分为两大类
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -104,20 +104,20 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 ```
 
 现在让我们使用 shell 创建这个模型的一些实例，运行 form bash，
 
-```
+```py
 Python manage.py shell
 ```
 
 输入以下命令
 
-```
+```py
 >>> from geeks.models import GeeksModel
 >>> GeeksModel.objects.create(
                        title="title1",
@@ -135,7 +135,7 @@ Python manage.py shell
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from .models import GeeksModel
 # Register your models here.
@@ -150,7 +150,7 @@ admin.site.register(GeeksModel)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -171,7 +171,7 @@ def list_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
 
     {% for data in dataset %}.
@@ -207,7 +207,7 @@ def list_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.list import ListView
 from .models import GeeksModel
 
@@ -221,7 +221,7 @@ class GeeksList(ListView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -235,7 +235,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <ul>
     <!-- Iterate over object_list -->
     {% for object in object_list %}

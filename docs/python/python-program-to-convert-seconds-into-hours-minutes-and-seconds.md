@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : 12345
 Output : 3:25:45
 
@@ -19,7 +19,7 @@ Output : 1:00:00
 
 这种方法只是一种通过简单的数学计算来获得小时、分钟和秒的幼稚方法。
 
-```
+```py
 # Python Program to Convert seconds
 # into hours, minutes and seconds
 
@@ -39,7 +39,7 @@ print(convert(n))
 
 **Output:**
 
-```
+```py
 3:25:45
 
 ```
@@ -48,7 +48,7 @@ print(convert(n))
 
 通过使用`divmod()`函数，它只进行一次除法来产生商和余数，只需两次数学运算，就可以很快得到结果。
 
-```
+```py
 # Python Program to Convert seconds
 # into hours, minutes and seconds
 
@@ -64,7 +64,7 @@ print(convert(n))
 
 **Output:**
 
-```
+```py
 3:25:45
 
 ```
@@ -73,7 +73,7 @@ print(convert(n))
 
 日期时间模块提供*时间增量*对象，该对象表示一个持续时间，即两个日期或时间之间的差值。`datetime.timedelta`可以用秒表示成小时、分钟和秒的格式。
 
-```
+```py
 # Python Program to Convert seconds
 # into hours, minutes and seconds
 import datetime
@@ -88,7 +88,7 @@ print(convert(n))
 
 **Output:**
 
-```
+```py
 3:25:45
 
 ```
@@ -97,7 +97,7 @@ print(convert(n))
 
 `time.strftime()`对格式进行更多控制。格式和`time.gmtime()`作为参数传递。 *gmtime* 用于将秒转换为`strftime()`要求的特殊元组格式。
 
-```
+```py
 # Python Program to Convert seconds
 # into hours, minutes and seconds
 
@@ -113,7 +113,7 @@ print(convert(n))
 
 **Output:**
 
-```
+```py
 03:25:45
 
 ```

@@ -11,7 +11,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 > **图像 2**–第二个图像。**必须与第一张图像具有相同的模式和大小。**
 > **遮罩**–一个遮罩图像。该图像可以有模式“1”、“L”或“RGBA”，并且**必须与其他两张图像具有相同的大小。**
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -24,7 +24,7 @@ im1.show()
 显示图像 1:
 ![](img/429331fb727f95658720233266f4c843.png)
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -36,7 +36,7 @@ im2.show()
 显示图像 2:
 ![](img/48745951a0cbcc513c3c225a3df047d7.png)
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 
@@ -48,7 +48,7 @@ mask.show()
 显示蒙版图像:
 ![](img/7ed8ffb8198df212ed45124c22f1dcb0.png)
 
-```
+```py
 # Importing Image module from PIL package
 from PIL import Image
 

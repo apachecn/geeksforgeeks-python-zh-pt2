@@ -37,7 +37,7 @@ OAuth 代表开放授权，是为了实现在线服务之间的连接而实现�
 
 要安装所需的依赖项，请在终端中键入以下命令。
 
-```
+```py
 pip install -U Flask Authlib requests
 ```
 
@@ -57,7 +57,7 @@ pip install -U Flask Authlib requests
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -96,7 +96,7 @@ pip install -U Flask Authlib requests
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -130,7 +130,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 from authlib.integrations.flask_client import OAuth
 
@@ -163,7 +163,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # The user details get print in the console.
 # so you can do whatever you want to do instead
 # of printing it
@@ -231,7 +231,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # The user details get print in the console.
 # so you can do whatever you want to do instead
 # of printing it
@@ -327,7 +327,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 # The user details get print in the console.
 # so you can do whatever you want to do instead
 # of printing it
@@ -452,13 +452,13 @@ if __name__ == "__main__":
 
 启动服务器:
 
-```
+```py
 python app.py
 ```
 
 然后访问:
 
-```
+```py
 http://localhost:5000/
 ```
 

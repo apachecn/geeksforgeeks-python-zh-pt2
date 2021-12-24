@@ -21,7 +21,7 @@ Python 中的`***os.truncate()***`方法用于将指定路径指示的文件截�
 
 **Code #1:** Use of os.truncate() method
 
-```
+```py
 # Python program to explain os.truncate() method 
 
 # importing os module 
@@ -53,7 +53,7 @@ print("File size (in bytes):", os.path.getsize(path))
 
 **Output:**
 
-```
+```py
 File size (in bytes): 409
 Content of file Python_intro.txt:
 Python is a widely used general-purpose, high level programming language
@@ -67,7 +67,7 @@ File size (in bytes): 72
 
 **Code #2:** If the specified length exceeds the file size
 
-```
+```py
 # Python program to explain os.truncate() method 
 
 # importing os module 
@@ -99,7 +99,7 @@ print("File size (in bytes):", os.path.getsize(path))
 
 **Output:**
 
-```
+```py
 File size (in bytes): 72
 Content of file Python_intro.txt:
 Python is a widely used general-purpose, high level programming language
@@ -114,7 +114,7 @@ File size (in bytes): 100
 
 **Code #3:** Deleting a file content using os.truncate() method
 
-```
+```py
 # Python program to explain os.truncate() method 
 
 # importing os module 
@@ -148,7 +148,7 @@ print("File size (in bytes):", os.path.getsize(path))
 
 **Output:**
 
-```
+```py
 File size (in bytes): 100
 Content of file Python_intro.txt:
 

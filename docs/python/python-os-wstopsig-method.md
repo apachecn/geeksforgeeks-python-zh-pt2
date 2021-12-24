@@ -15,7 +15,7 @@
 
 **代码:**使用`***os.WSTOPSIG()***`方法
 
-```
+```py
 # Python program to explain os.WSTOPSIG() method 
 
 # importing os and signal module  
@@ -65,7 +65,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process
 
 In parent process

@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 var1 = 4
 var2 = 8
 var3 = 2
@@ -40,7 +40,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 8
 ```
 
@@ -50,7 +50,7 @@ print(max_val)
 
 ## 蟒蛇 3
 
-```
+```py
 var1 = "geeks"
 var2 = "for"
 var3 = "geek"
@@ -61,7 +61,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 for
 ```
 
@@ -71,7 +71,7 @@ for
 
 ## 蟒蛇 3
 
-```
+```py
 var1 = "geeks"
 var2 = "for"
 var3 = "geek"
@@ -83,7 +83,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 geeks
 ```
 
@@ -93,7 +93,7 @@ geeks
 
 ## 蟒蛇 3
 
-```
+```py
 integer = 5
 string = "geek"
 
@@ -103,7 +103,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 TypeError: '>' not supported between instances of 'str' and 'int'
 ```
 
@@ -111,7 +111,7 @@ TypeError: '>' not supported between instances of 'str' and 'int'
 
 ## 蟒蛇 3
 
-```
+```py
 list = [1.2, 1.3, 0.1]
 max_value = max(list)
 print(max_value)
@@ -119,7 +119,7 @@ print(max_value)
 
 **输出:**
 
-```
+```py
 1.3
 ```
 
@@ -127,7 +127,7 @@ print(max_value)
 
 ## 蟒蛇 3
 
-```
+```py
 # function to find minimum and maximum position in list
 def minimum(a, n):
 
@@ -144,7 +144,7 @@ minimum(a, len(a))
 
 **输出:**
 
-```
+```py
 The maximum is at position 6
 ```
 
@@ -166,7 +166,7 @@ The maximum is at position 6
 
 ## 蟒蛇 3
 
-```
+```py
 string = "GeeksforGeeks"
 
 max_val = max(string)
@@ -175,7 +175,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 s
 ```
 
@@ -183,7 +183,7 @@ s
 
 ## 蟒蛇 3
 
-```
+```py
 string_list = ["Geeks", "for", "Geeks"]
 
 max_val = max(string_list)
@@ -192,7 +192,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 for
 ```
 
@@ -200,7 +200,7 @@ for
 
 ## 蟒蛇 3
 
-```
+```py
 string_list = ["Geeks", "for", "Geek"]
 
 max_val = max(string_list, key=len)
@@ -209,7 +209,7 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 Geeks
 ```
 
@@ -217,7 +217,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 dictionary = {}
 
 max_val = max(dictionary,
@@ -227,6 +227,6 @@ print(max_val)
 
 **输出:**
 
-```
+```py
 {1: 'Geek'}
 ```

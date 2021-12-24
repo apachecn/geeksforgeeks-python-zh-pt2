@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `enumerate()` +列表切片**
 以上方法的结合可以解决这个问题。在这种情况下，我们提取空间的索引，并根据空间索引执行切片。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Phrase extraction in String
 # Using list comprehension + enumerate() + list slicing
@@ -32,7 +32,7 @@ print("String after phrase removal : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Geeksforgeeks is best for geeks and CS
 String after phrase removal : best for geeks and
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是解决这个特殊问题的幼稚而蛮力的方法借助循环，我们可以形成一个新的列表来检查每 N 个元素之后元素的 K 次出现。
 
-```
+```py
 # Python3 code to demonstrate
 # Getting K elements after N values
 # using loops
@@ -35,7 +35,7 @@ print("The list after selective slicing : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, 2, 7, 8, 4, 10, 9, 11, 13]
 The list after selective slicing : [4, 5, 2, 4, 10, 9]
 

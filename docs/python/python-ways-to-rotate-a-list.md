@@ -9,7 +9,7 @@
 **方法#1:使用切片**
 这种特殊的方法是通用方法，主要用于完成这一任务，在许多文章中也有讨论。它的工作原理是，在给定旋转数的情况下，只需将后来切片的零件与最初切片的零件连接起来。
 
-```
+```py
 # Python3 code to demonstrate 
 # rotation of list 
 # using slice 
@@ -37,7 +37,7 @@ print ("List after right rotate by 3(back to original) : "
 
 **Output:**
 
-```
+```py
 Original list : [1, 4, 6, 7, 2]
 List after left rotate by 3 : [7, 2, 1, 4, 6]
 List after right rotate by 3 ( back to original) : [1, 4, 6, 7, 2]
@@ -47,7 +47,7 @@ List after right rotate by 3 ( back to original) : [1, 4, 6, 7, 2]
 **方法#2:使用列表理解**
 这个问题也可以用朴素的方法解决，但是它更短的实现需要借助列表理解。在这种方法中，我们只需在旋转后将每个值的索引重新分配到特定位置。
 
-```
+```py
 # Python3 code to demonstrate 
 # rotation of list 
 # using list comprehension
@@ -77,7 +77,7 @@ print ("List after right rotate by 3(back to original) : " 
 
 **Output:**
 
-```
+```py
 Original list : [1, 4, 6, 7, 2]
 List after left rotate by 3 : [7, 2, 1, 4, 6]
 List after right rotate by 3(back to original) : [1, 4, 6, 7, 2]
@@ -87,7 +87,7 @@ List after right rotate by 3(back to original) : [1, 4, 6, 7, 2]
 **方法 3:使用`collections.deque.rotate()`**
 集合模块有一个提供`rotate()`的 deque 类，它是允许旋转的内置函数。这是一个不太为人所知的功能，但有更大的效用。
 
-```
+```py
 # Python3 code to demonstrate 
 # rotation of list 
 # using rotate()
@@ -120,7 +120,7 @@ print ("List after right rotate by 3(back to original) : "
 
 **Output:**
 
-```
+```py
 Original list : [1, 4, 6, 7, 2]
 List after left rotate by 3 : [7, 2, 1, 4, 6]
 List after right rotate by 3(back to original) : [1, 4, 6, 7, 2]

@@ -7,7 +7,7 @@
 **方法一:使用`max() + abs() + zip()` +列表理解**
 这个特殊问题也可以通过以上 4 个操作的组合来解决。这里，zip 函数完成了配对列表和配对相似索引的双重任务，通过`abs` 函数计算差异，然后使用`max` 函数找到最大值，所有这些都受列表理解的限制。
 
-```
+```py
 # Python3 code to demonstrate
 # Maximum absolute difference list of list
 # using max() + abs() + zip() + list comprehension
@@ -29,7 +29,7 @@ print("The maximum difference sublist : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 4, 5], [4, 6, 8], [1, 9, 2], [3, 7, 10]]
 The maximum difference sublist : [3, 6, 8]
 

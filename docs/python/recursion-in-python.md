@@ -20,7 +20,7 @@
 
 **语法:**
 
-```
+```py
 def func(): **例 1: ** 
 斐波那契数列是 0，1，1，2，3，5，8 的整数序列....
 
@@ -43,7 +43,7 @@ else:
    print("Fibonacci series:")
    for i in range(n_terms):
        print(recursive_fibonacci(i))
-```
+```py
 
 **输出:**
 
@@ -60,7 +60,7 @@ Fibonacci series:
 21
 34
 
-```
+```py
 
 **例 2:**
 6 的阶乘表示为 6！= 1*2*3*4*5*6 = 720.
@@ -86,13 +86,13 @@ elif num == 0:  
    print("Factorial of number 0 is 1")  
 else:  
    print("Factorial of number", num, "=", recursive_factorial(num)) 
-```
+```py
 
 **输出:**
 
 ```
 Factorial of number 6 = 720
-```
+```py
 
 什么是尾递归？一种独特的递归类型，其中函数的最后一个过程是递归调用。递归可以通过在当前堆栈帧中执行请求并返回输出而不是生成新的堆栈帧来自动完成。尾部递归可以被编译器优化，这使得它比非尾部递归函数更好。**利用尾部递归函数代替非尾部递归函数优化程序是否可能？** 
 考虑下面给出的函数，为了计算 n 的阶乘，我们可以观察到这个函数起初看起来像一个尾部递归的函数，但是它是一个非尾部递归的函数。如果我们仔细观察，可以看到 recury _ factor(n-1)返回的值用在 recury _ factor(n)中，所以对 recury _ factor(n-1)的调用并不是 recury _ factor(n)做的最后一件事。
@@ -111,13 +111,13 @@ def Recur_facto(n): 
 
 # print the result
 print(Recur_facto(6))
-```
+```py
 
 **输出:**
 
 ```
 720
-```
+```py
 
 我们可以把给定的函数 Recur _ facto 写成尾部递归函数。我们的想法是再使用一个参数，在第二个参数中，我们容纳阶乘的值。当 n 达到 0 时，返回所需数字的阶乘的最终值。
 
@@ -135,13 +135,13 @@ def Recur_facto(n, a = 1): 
 
 # print the result
 print(Recur_facto(6))
-```
+```py
 
 **输出:**
 
 ```
 720
-```
+```py
 
 -->
 ```

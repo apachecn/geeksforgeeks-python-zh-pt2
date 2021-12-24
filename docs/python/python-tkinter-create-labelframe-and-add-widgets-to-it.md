@@ -6,20 +6,20 @@
 
 标签框架可以如下创建:
 
-```
+```py
 -> import tkinter
 -> create root
 -> create LabelFrame as child of root
 
 ```
 
-```
+```py
 label_frame = ttk.LabelFrame(parent, value = options, ...)
 ```
 
 **代码#1:** 创建标签框架并向其添加消息。
 
-```
+```py
 # Import only those methods
 # which are mentioned below, this way of
 # importing methods is efficient
@@ -56,7 +56,7 @@ mainloop()
 
 **代码#2:** 在标签框架内添加[按钮](https://www.geeksforgeeks.org/python-creating-a-button-in-tkinter/)和[检查按钮](https://www.geeksforgeeks.org/python-tkinter-ttk-checkbutton-and-comparison-with-simple-checkbutton/)小部件。
 
-```
+```py
 # Import only those methods
 # which are mentioned below, this way of
 # importing methods is efficient

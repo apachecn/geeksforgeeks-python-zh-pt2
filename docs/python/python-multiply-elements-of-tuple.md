@@ -17,7 +17,7 @@
 **#方法 1:** 使用迭代
 这是解决这个任务最幼稚的方法。在这种情况下，我们迭代整个元组列表，并将每个元组中的元素相乘，以获得元素列表。
 
-```
+```py
 # Python code to convert list of tuple into list of elements
 # formed by multiplying elements of tuple.
 
@@ -43,7 +43,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 The original list of tuple is 
 [(2, 3), (4, 5), (6, 7), (2, 8)]
 
@@ -55,7 +55,7 @@ The answer is
 **#方法 2:** 使用列表理解
 这是实现这个任务的解决方案的一条线的方法。
 
-```
+```py
 # Python code to convert list of tuple into list of elements
 # formed by multiplying elements of tuple.
 
@@ -76,7 +76,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 The original list of tuple is 
 [(2, 3), (4, 5), (6, 7), (2, 8)]
 

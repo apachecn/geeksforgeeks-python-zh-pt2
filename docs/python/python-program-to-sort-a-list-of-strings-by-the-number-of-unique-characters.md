@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings by Unique characters
 # Using sort() + len() + set()
@@ -46,7 +46,7 @@ print("Sorted List : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'best', 'for', 'geeks']
 Sorted List : ['gfg', 'for', 'best', 'geeks']
 
@@ -58,7 +58,7 @@ Sorted List : ['gfg', 'for', 'best', 'geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Strings by Unique characters
 # Using sorted() + len() + set() + lambda
@@ -78,7 +78,7 @@ print("Sorted List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'best', 'for', 'geeks']
 Sorted List : ['gfg', 'for', 'best', 'geeks']
 

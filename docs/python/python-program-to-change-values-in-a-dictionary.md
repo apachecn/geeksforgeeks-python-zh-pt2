@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: {'hari': 1, 'dita': 2}
 Output: {'hari': 1, 'dita': 4}
 
@@ -24,7 +24,7 @@ Output: {'hari': 3, 'dita': 5}
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring dictionary
 dict = {'hari': 1, 'dita': 2}
 
@@ -52,7 +52,7 @@ print("dictionary after modification-", dict)
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring dictionary
 dict1 = {'hari': 1, 'dita': 2}
 

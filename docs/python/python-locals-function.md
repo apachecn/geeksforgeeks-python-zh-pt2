@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand about locals
 # here no local variable is present
 
@@ -38,7 +38,7 @@ demo2()
 
 **输出；**
 
-```
+```py
 Here no local variable  is present :  {}
 Here local variables are present :  {'name': 'Ankit'}
 ```
@@ -49,7 +49,7 @@ Here local variables are present :  {'name': 'Ankit'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand about locals
 # here no local variable is present
 
@@ -74,7 +74,7 @@ demo2()
 
 **输出:**
 
-```
+```py
 Here no local variable  is present :  {}
 Here local variables are present :  {'name': 'Ankit'}
 Before updating name is  :  Ankit
@@ -87,7 +87,7 @@ after updating name is :  Ankit
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to understand about locals
 
 # data using locals
@@ -105,7 +105,7 @@ print("This is using globals() : ", globals())
 
 python 中的 python globals()函数返回当前全局符号表的字典。
 
-```
+```py
 Syntax: globals()
 
 Parameters: No parameters required.
@@ -113,7 +113,7 @@ Parameters: No parameters required.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate global() function
 
 # global variable
@@ -133,7 +133,7 @@ func()
 
 **输出:**
 
-```
+```py
 15
 ```
 
@@ -141,7 +141,7 @@ Python 中的 Python locals()函数返回当前本地符号表的字典。
 
 ## 蟒蛇 3
 
-```
+```py
 locals()
 ```
 

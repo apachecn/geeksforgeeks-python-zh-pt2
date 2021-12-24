@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # import string library function 
 import string 
 
@@ -27,13 +27,13 @@ print(result) 
 
 **输出:**
 
-```
+```py
 01234567
 ```
 
 **代码#2 :** 给定代码检查输入的字符串是否只有十八位数字字母
 
-```
+```py
 # importing string library function 
 import string 
 
@@ -68,7 +68,7 @@ print(input3, "--> ", check(input5)) 
 
 **输出:**
 
-```
+```py
 01234567 -->  True
 abcdefABCDEF -->  False
 abcdefghGEEK -->  False
@@ -81,7 +81,7 @@ abcdefghGEEK -->  True
 
 弦常数**八位数**可以在很多实际应用中使用。让我们看一个代码，解释如何使用数字生成给定大小的强随机密码。
 
-```
+```py
 # Importing random to generate 
 # random string sequence 
 import random 
@@ -105,7 +105,7 @@ print(password)   
 
 **输出:**
 
-```
+```py
 5077306643
 
 ```

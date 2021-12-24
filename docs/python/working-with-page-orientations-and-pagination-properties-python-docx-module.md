@@ -6,7 +6,7 @@
 
 Word 文档包含包装在三个对象级别中的格式化文本。最低级别的运行对象、中等级别的段落对象和最高级别的文档对象。因此，我们不能使用普通的文本编辑器来处理这些文档。但是，我们可以使用 python-docx 模块在 python 中操作这些 word 文档。安装该模块的 Pip 命令是:
 
-```
+```py
 pip install python-docx
 ```
 
@@ -18,7 +18,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 **语法:**
 
-```
+```py
 section.orientation = WD_ORIENT.[Orientation Type]
 ```
 
@@ -56,7 +56,7 @@ section.orientation = WD_ORIENT.[Orientation Type]
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -72,7 +72,7 @@ print("Default Orientation:", section.orientation)
 
 **输出:**
 
-```
+```py
 Default Orientation: PORTRAIT (0)
 ```
 
@@ -80,7 +80,7 @@ Default Orientation: PORTRAIT (0)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.enum.section import WD_ORIENT
@@ -105,7 +105,7 @@ print("New Orientation:",
 
 **输出:**
 
-```
+```py
 Default Orientation: PORTRAIT (0)
 New Orientation: LANDSCAPE (1)
 ```
@@ -116,7 +116,7 @@ New Orientation: LANDSCAPE (1)
 
 **语法:**
 
-```
+```py
 doc.add_paragraph(String s, style=None)
 ```
 
@@ -156,7 +156,7 @@ doc.add_paragraph(String s, style=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -184,7 +184,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -212,7 +212,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -240,7 +240,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 

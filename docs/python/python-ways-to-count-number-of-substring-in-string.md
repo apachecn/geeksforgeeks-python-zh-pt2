@@ -6,7 +6,7 @@
 
 **方法一:使用`re.findall()`**
 
-```
+```py
 # Python code to demonstrate 
 # to count total number
 # of substring in string
@@ -25,7 +25,7 @@ print("Number of substrings", res)
 
 **输出:**
 
-```
+```py
 Number of substrings 0
 
 ```

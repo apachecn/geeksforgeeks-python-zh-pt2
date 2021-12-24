@@ -24,7 +24,7 @@
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
@@ -38,7 +38,7 @@ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 
 下面是代码:
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -178,7 +178,7 @@ if __name__ == '__main__':
 
 **删除视频的代码:**这个例子展示了如何从授权用户的账户中删除视频。必须提供 id 参数。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

@@ -10,7 +10,7 @@ Walrus-operator 是赋值表达式的另一个名称。根据官方文档，这�
 
 **代码:**
 
-```
+```py
 a = [1, 2, 3, 4]
 if (n := len(a)) > 3:
     print(f"List is too long ({n} elements, expected <= 3)")
@@ -25,7 +25,7 @@ if (n := len(a)) > 3:
 
 让我们借助一个使用 Python 3.7 和 Python 3.8 的例子来更清楚地理解赋值表达式。这里我们有一个名为“sample_data”的字典列表，其中包含了 userId、name 和一个名为 completed 的布尔值。
 
-```
+```py
 sample_data = [
     {"userId": 1,  "name": "rahul", "completed": False},
     {"userId": 1, "name": "rohit", "completed": False},

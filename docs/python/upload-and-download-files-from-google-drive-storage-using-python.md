@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the required libraries
 from __future__ import print_function
 import pickle

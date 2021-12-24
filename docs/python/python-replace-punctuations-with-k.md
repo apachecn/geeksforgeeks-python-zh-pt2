@@ -7,7 +7,7 @@
 **方法#1:使用`string.punctuation + replace()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用标点符号提取所有标点符号，并使用 replace()执行所需字符的替换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace punctuations with K
 # Using string.punctuation + replace()
@@ -33,7 +33,7 @@ print("The strings after replacement : " + test_str) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks, is : best for ; geeks!!
 The strings after replacement : geeksforgeeks* is * best for * geeks**
 

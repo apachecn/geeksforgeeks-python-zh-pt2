@@ -4,19 +4,19 @@
 
 在编写代码或即兴发挥编程技能时，您肯定遇到过许多场景，您希望使用 Python 中的 **`.split()`** 不要一次只拆分一个字符，而是拆分多个字符。以此为例:
 
-```
+```py
 "GeeksforGeeks, is an-awesome! website"
 ```
 
 在上面使用 **`.split()`** 会导致
 
-```
+```py
 ['GeeksforGeeks, ', 'is', 'an-awesome!', 'website']
 ```
 
 而期望的结果应该是
 
-```
+```py
 ['GeeksforGeeks', 'is', 'an', 'awesome', 'website']
 ```
 
@@ -26,7 +26,7 @@
 
 这是一次拆分多个字符最有效、最常用的方法。为此，它使用正则表达式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Splitting operators in String 
 # Using re.split() 
@@ -56,13 +56,13 @@ print("The list after performing split functionality : " + str(res)) 
 
 正则表达式中有一些符号被视为特殊符号，具有不同的功能。如果您希望在这样的符号上拆分，您需要使用“ **\** ”(反斜杠)来转义它。使用前需要转义的特殊字符列表:
 
-```
+```py
 . \ + * ? [ ^ ] $ ( ) { } = !  | : -
 ```
 
 **例如:**
 
-```
+```py
 import re
 newData = "GeeksforGeeks, is_an-awesome ! app + too"
 
@@ -72,7 +72,7 @@ print(re.split(', |_|-|!|\+', newData))
 
 **输出:**
 
-```
+```py
 ['GeeksforGeeks', ' is', 'an', 'awesome', ' app', 'too']
 ```
 
@@ -82,7 +82,7 @@ print(re.split(', |_|-|!|\+', newData))
 
 这是一个有点神秘的形式，但节省时间。它也使用了像上面这样的正则表达式，但是它没有使用 **`.split()`** 方法，而是使用了一种叫做 **`.findall()`** 的方法。此方法查找所有匹配的实例，并在列表中返回每个实例。当您不知道要拆分的确切字符时，最好使用这种拆分方式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Splitting operators in String 
 # Using re.findall() 
@@ -111,7 +111,7 @@ print("The list after performing split functionality : " + str(res)) 
 **注意:** `[\w']+`在搜索字母和下划线时不会被下划线( **_** )分割。
 **例如:**
 
-```
+```py
 import re
 testData = "This, is - underscored _ example?!"
 print(re.findall(r"[\w']+", testData))
@@ -119,7 +119,7 @@ print(re.findall(r"[\w']+", testData))
 
 **输出:**
 
-```
+```py
 ['This', 'is', 'underscored', '_', 'example']
 ```
 
@@ -127,7 +127,7 @@ print(re.findall(r"[\w']+", testData))
 
 这是一种非常新颖的拆分方式。它没有使用正则表达式，效率很低，但仍然值得一试。如果你知道你想拆分的角色，就用空格代替，然后用 **`.split()`** :
 
-```
+```py
 # Python code to demonstrate  
 # to split strings 
 

@@ -8,7 +8,7 @@
 该应用程序可以生成随机密码，由字母、数字和特殊字符组合而成。可以根据需要提及密码的长度，也可以选择密码的强度。
 **所需模块:**
 
-```
+```py
 import random
 import pyperclip
 from tkinter import * from tkinter.ttk import *
@@ -18,7 +18,7 @@ from tkinter import * from tkinter.ttk import *
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to generate random
 # password using Tkinter module
 import random

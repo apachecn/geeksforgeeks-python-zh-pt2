@@ -8,7 +8,7 @@
 
 ## 蟒 3
 
-```
+```py
 # importing the library
 from bs4 import BeautifulSoup
 

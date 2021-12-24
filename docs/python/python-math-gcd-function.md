@@ -16,7 +16,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of gcd()
 
 # importing "math" for mathematical operations 
@@ -29,14 +29,14 @@ print (math.gcd(60, 48)) 
 
 **Output:**
 
-```
+```py
 The gcd of 60 and 48 is : 12
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python code to demonstrate the working of gcd()
 
 # importing "math" for mathematical operations 
@@ -49,7 +49,7 @@ print ("math.gcd(69, 23) : ", math.gcd(65, 45))
 
 **Output:**
 
-```
+```py
 math.gcd(44, 12) :  4
 math.gcd(69, 23) :  5
 
@@ -57,7 +57,7 @@ math.gcd(69, 23) :  5
 
 **代码#3:** 解释异常。
 
-```
+```py
 # Python code to demonstrate gcd() 
 # method exceptions 
 import math 
@@ -73,7 +73,7 @@ print (math.gcd('a', 13)) 
 
 **输出:**
 
-```
+```py
 The gcd of 0 and 0 is : 0
 
 The gcd of a and 13 is : 

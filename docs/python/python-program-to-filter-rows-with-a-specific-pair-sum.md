@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # get pair sum
 def pair_sum(x, k):
 
@@ -56,7 +56,7 @@ print("Filtered Rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # get pair sum
 def pair_sum(x, k):
 

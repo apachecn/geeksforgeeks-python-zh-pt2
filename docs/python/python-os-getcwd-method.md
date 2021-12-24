@@ -16,7 +16,7 @@
 
 使用`os.getcwd()`方法获取当前工作目录
 
-```
+```py
 # Python program to explain os.getcwd() method 
 
 # importing os module 
@@ -33,7 +33,7 @@ print("Current working directory:", cwd) 
 
 **Output:**
 
-```
+```py
 Current working directory: C:\Users\Rajnish\AppData\Local\Programs\Python\Python37
 
 ```
@@ -41,7 +41,7 @@ Current working directory: C:\Users\Rajnish\AppData\Local\Programs\Python\Python
 **例 2 :**
 使用`os.getcwd()`方法获取 GeeksforGeeks 的当前工作目录，即**根**
 
-```
+```py
 # Python program to explain os.getcwd() method 
 
 # importing os module 
@@ -59,7 +59,7 @@ print("Current working directory:", cwd) 
 
 **Output:**
 
-```
+```py
 Current working directory: /
 
 ```

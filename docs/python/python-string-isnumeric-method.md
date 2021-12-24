@@ -25,7 +25,7 @@ Python String **isnumeric()** 方法是用于字符串处理的内置方法。�
 
 ### 例 1:
 
-```
+```py
 Input : string = '1889345'
 Output : True
 
@@ -38,7 +38,7 @@ Output : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for implementation of isnumeric()
 
 # checking for numeric characters
@@ -51,7 +51,7 @@ print( string.isnumeric())
 
 **输出:**
 
-```
+```py
 False
 True
 ```
@@ -60,7 +60,7 @@ True
 
 **应用:**在 python 中给定一个字符串，统计该字符串中数字字符的个数并从字符串中删除，然后打印该字符串。
 
-```
+```py
 Input : string = '123geeks456for789geeks'
 Output : 9
          geeksforgeeks
@@ -79,7 +79,7 @@ Output : 6
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to count numeric characters
 # in a string and print non numeric characters
 # Given string
@@ -115,7 +115,7 @@ print(newstring2)
 
 **输出:**
 
-```
+```py
 9
 geeksforgeeks
 6

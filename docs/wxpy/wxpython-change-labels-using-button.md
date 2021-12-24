@@ -13,7 +13,7 @@
 
 **代码:**
 
-```
+```py
 # import wxPython
 import wx
 

@@ -12,7 +12,7 @@ T0T6】
 
 **输出:**
 
-```
+```py
 7
 
 ```
@@ -21,7 +21,7 @@ T0T6】
 
 T2T4
 
-```
+```py
 number = 0
 if number:
   print(number)
@@ -31,7 +31,7 @@ T5
 
 **输出:**
 
-```
+```py
 There is no Output
 
 ```
@@ -95,7 +95,7 @@ There is no Output
 
 ## 蟒 3
 
-```
+```py
 bool(7)
 # True
 
@@ -132,7 +132,7 @@ bool([1,2,3,4])
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -153,7 +153,7 @@ True
 
 ## 蟒 3
 
-```
+```py
 # define a function for checking
 # number is even or odd
 def even_odd(number):
@@ -183,7 +183,7 @@ print(result2) 
 
 **输出:**
 
-```
+```py
 odd number
 even number
 

@@ -10,7 +10,7 @@
 **例#1 :**
 在这个例子中我们可以看到，通过使用`statsmodels.medcouple()`方法，我们能够通过使用这个方法来获得 medcouple 统计量的值。
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import medcouple
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import medcouple

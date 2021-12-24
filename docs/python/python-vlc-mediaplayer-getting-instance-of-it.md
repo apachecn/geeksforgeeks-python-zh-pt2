@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing time module
 import time
 
@@ -36,14 +36,14 @@ print("Media player Instance : " + str(inst))
 **输出:**
 ![](img/33c5fe6e13ea1c939ea793883a04f9c7.png)
 
-```
+```py
 Media player Instance : <vlc.Instance object at 0x000001DE3184EE08
 
 ```
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -60,7 +60,7 @@ print("Media player Instance : " + str(inst))
 
 **输出:**
 
-```
+```py
 Media player Instance : <vlc.Instance object at 0x000001AD5452ED48
 
 ```

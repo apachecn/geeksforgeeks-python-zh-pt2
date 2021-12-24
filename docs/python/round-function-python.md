@@ -26,7 +26,7 @@ int 值为 10 的最接近倍数的次方减去 ndigits，其中 ndigits 为小�
 
 ## 蟒蛇 3
 
-```
+```py
 # for integers
 print(round(15))
 
@@ -38,7 +38,7 @@ print(round(51.4))
 
 **输出:**
 
-```
+```py
 15
 52
 52
@@ -53,7 +53,7 @@ print(round(51.4))
 
 ## 蟒蛇 3
 
-```
+```py
 # when the (ndigit+1)th digit is =5
 print(round(2.665, 2))
 
@@ -66,7 +66,7 @@ print(round(2.673, 2))
 
 **输出:**
 
-```
+```py
 2.67
 2.68
 2.67
@@ -76,14 +76,14 @@ print(round(2.673, 2))
 
 ## 蟒蛇 3
 
-```
+```py
 print(round(12))
 print(round(12.7))
 ```
 
 **输出:**
 
-```
+```py
 12
 13
 ```
@@ -92,7 +92,7 @@ print(round(12.7))
 
 ## 蟒蛇 3
 
-```
+```py
 print(round(12))
 print(round(12.1))
 print(round(12.4))
@@ -101,7 +101,7 @@ print(round(12.5))
 
 **输出:**
 
-```
+```py
 12
 12
 12
@@ -114,13 +114,13 @@ print(round(12.5))
 
 ## 蟒蛇 3
 
-```
+```py
 print(round("a", 2))
 ```
 
 **输出:**
 
-```
+```py
 Runtime Errors:
 Traceback (most recent call last):
   File "/home/ccdcfc451ab046030492e0e758d42461.py", line 1, in 
@@ -136,7 +136,7 @@ TypeError: type str doesn't define __round__ method
 
 ## 蟒蛇 3
 
-```
+```py
 # practical application
 b = 1/3
 print(b)
@@ -145,7 +145,7 @@ print(round(b, 2))
 
 **输出:**
 
-```
+```py
 0.3333333333333333
 0.33
 ```

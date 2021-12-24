@@ -18,7 +18,7 @@ PIL 使用自己的字体文件格式来存储位图字体。您可以使用:命
 > 
 > **返回:**一个字体对象。
 
-```
+```py
 
 from PIL import Image, ImageFont, ImageDraw
 
@@ -41,7 +41,7 @@ im.save("geeks3.png")
 
 **另一个例子:**这里改变文本，加载一个“总比没有好”的默认字体。
 
-```
+```py
 
 from PIL import Image, ImageFont, ImageDraw
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的蛮力方式。在这种情况下，我们遍历嵌套字典，对值求和并分配给相应的键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nested record values summation
 # Using loop
@@ -35,7 +35,7 @@ print("The dictionary after keys summation is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'best': {'a': 10, 'c': 12, 'b': 2}, 'is': {'a': 2, 'c': 10, 'b': 9}, 'gfg': {'a': 4, 'c': 6, 'b': 5}}
 The dictionary after keys summation is : {'best': 24, 'is': 21, 'gfg': 15}
 

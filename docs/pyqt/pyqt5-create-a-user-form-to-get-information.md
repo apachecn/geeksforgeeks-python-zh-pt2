@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 import sys
@@ -128,7 +128,7 @@ if __name__ == '__main__':
 
 <video class="wp-video-shortcode" id="video-420538-1" width="640" height="360" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200529015612/Python-2020-05-29-01-55-35.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200529015612/Python-2020-05-29-01-55-35.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200529015612/Python-2020-05-29-01-55-35.mp4)</video>
 
-```
+```py
 Person Name : Geek
 Degree : BTech
 Age : 20

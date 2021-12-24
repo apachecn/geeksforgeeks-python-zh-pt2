@@ -7,13 +7,13 @@
 Selenium WebDriver 是一款自动化测试工具。当我说自动化时，它意味着自动化用 Selenium 编写的测试脚本。
 **网络驱动安装**
 
-```
+```py
 Chrome:    https://sites.google.com/a/chromium.org/chromedriver/downloads
 ```
 
 **库导入**
 
-```
+```py
 from selenium import webdriver
 import time
 ```
@@ -30,7 +30,7 @@ import time
 
 ## 计算机编程语言
 
-```
+```py
 #!/usr / bin / env python
 from selenium import webdriver
 import time
@@ -58,7 +58,7 @@ while True:
 
 ## 计算机编程语言
 
-```
+```py
 from selenium import webdriver
 # For using sleep function because selenium
 # works only when all the elements of the
@@ -106,7 +106,7 @@ browser.close()
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 # sleep() function is required because
 # selenium needs a page to be fully loaded first

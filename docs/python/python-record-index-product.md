@@ -7,7 +7,7 @@
 **方法#1:使用循环+列表理解+ `zip()`**
 该任务可以使用上述功能的组合来执行。在本文中，我们使用 zip()对相似的索引元素(即列)进行模拟，然后使用列表理解对它们进行迭代，并使用显式函数执行乘积运算。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Record Index Product
 # using list comprehension + loop + zip()
@@ -35,7 +35,7 @@ print("The Cummulative column product is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cummulative column product is : [6, 84, 144]
 

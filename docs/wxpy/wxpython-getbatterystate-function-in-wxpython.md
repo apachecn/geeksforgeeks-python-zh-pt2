@@ -16,7 +16,7 @@ BATTERY_UNKNOWN_STATE 也是未实现此功能的平台上的默认设置(目前
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 1
 
 ```

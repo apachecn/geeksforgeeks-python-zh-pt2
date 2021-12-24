@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.bgcolor(*args)
 
 ```
@@ -32,7 +32,7 @@ turtle.bgcolor(*args)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -52,7 +52,7 @@ turtle.forward(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

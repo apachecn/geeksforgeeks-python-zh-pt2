@@ -18,13 +18,13 @@
 
 要开始一个新的 Django 项目，您的本地计算机应该满足上面给出的先决条件。用户可以使用下面的命令启动一个新项目。
 
-```
+```py
 django-admin startproject newslatter
 ```
 
 接下来，转到项目目录。
 
-```
+```py
 cd newslatter
 ```
 
@@ -32,13 +32,13 @@ cd newslatter
 
 要在简讯项目中启动新应用程序，请在项目目录中运行以下命令。
 
-```
+```py
 django-admin startapp appnewslatter
 ```
 
 现在，在时事通讯项目 settings.py 的 installed_apps 部分中添加“appnewslatter”。
 
-```
+```py
 path: newslatter/settings.py
 ```
 
@@ -46,7 +46,7 @@ path: newslatter/settings.py
 
 接下来，编辑简讯文件夹内的*URL . py*，并添加以下代码。*T3】*
 
-```
+```py
 Path: newslatter/urls.py
 ```
 
@@ -54,7 +54,7 @@ Path: newslatter/urls.py
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 

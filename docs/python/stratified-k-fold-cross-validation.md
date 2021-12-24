@@ -31,7 +31,7 @@ train _ test _ split()通过随机抽样将数据集拆分为 training_test 和 
 
 ## 蟒蛇 3
 
-```
+```py
 # This code may not be run on GFG IDE 
 # as required packages are not found. 
 
@@ -82,7 +82,7 @@ print('\nStandard Deviation is:', stdev(lst_accu_stratified))
 
 **输出:**
 
-```
+```py
 List of possible accuracy: [0.9298245614035088, 0.9649122807017544, 0.9824561403508771, 1.0, 0.9649122807017544, 0.9649122807017544, 0.9824561403508771, 0.9473684210526315, 0.9473684210526315, 0.9821428571428571]
 
 Maximum Accuracy That can be obtained from this model is: 100.0 %

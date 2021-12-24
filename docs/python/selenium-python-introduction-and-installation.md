@@ -24,14 +24,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 **第一种方法**
 打开终端/Cmd，写下如下命令
 
-```
+```py
 python -m pip install selenium
 ```
 
 **第二种方法**
 或者，你可以在这里下载源码发布[，将其取消归档，运行下面的命令:](https://pypi.python.org/pypi/selenium)
 
-```
+```py
 python setup.py install
 ```
 
@@ -48,25 +48,25 @@ python setup.py install
 1。转到[壁虎释放页面](https://github.com/mozilla/geckodriver/releases)。为您的平台找到最新版本的驱动程序并下载。
 例如:
 
-```
+```py
 wget https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-linux64.tar.gz
 ```
 
 2.使用以下命令提取文件:
 
-```
+```py
 tar -xvzf geckodriver*
 ```
 
 3.使其可执行:
 
-```
+```py
 chmod +x geckodriver
 ```
 
 4.将文件移动到 usr/local/bin
 
-```
+```py
 sudo mv geckodriver /usr/local/bin/
 ```
 
@@ -74,13 +74,13 @@ sudo mv geckodriver /usr/local/bin/
 1。与 Linux 中的步骤 1 相同下载[壁虎河](https://github.com/mozilla/geckodriver/releases)T5【2】。使用 WinRar 或您可能拥有的任何应用程序提取它。
 3。使用命令提示符将其添加到路径中
 
-```
+```py
 setx path "%path%;GeckoDriver Path"
 ```
 
 例如:-
 
-```
+```py
 setx path "%path%;c:/user/eliote/Desktop/geckodriver-v0.26.0-win64/geckodriver.exe"
 ```
 
@@ -88,7 +88,7 @@ setx path "%path%;c:/user/eliote/Desktop/geckodriver-v0.26.0-win64/geckodriver.e
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # selenium
 

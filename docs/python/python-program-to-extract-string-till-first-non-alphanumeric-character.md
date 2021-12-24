@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract string till first Non-Alphanumeric character
 # Using regex + search()
@@ -40,7 +40,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks4g!!!eeks
 The resultant string : geeks4g
 
@@ -52,7 +52,7 @@ The resultant string : geeks4g
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Extract string till first Non-Alphanumeric character
 # Using findall()
@@ -74,7 +74,7 @@ print("The resultant string : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks4g!!!eeks
 The resultant string : geeks4g
 

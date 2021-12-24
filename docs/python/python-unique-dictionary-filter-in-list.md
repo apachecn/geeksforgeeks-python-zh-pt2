@@ -8,7 +8,7 @@
 
 在这个方法中，我们只是组合函数来执行这个任务。`map`功能执行将逻辑扩展到所有元素的任务。`set`功能对`items()`访问的对进行实际过滤。设置需要`sorted`功能来删除重复。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unique dictionary filter in list
 # Using map() + set() + items() + sorted() + tuple()

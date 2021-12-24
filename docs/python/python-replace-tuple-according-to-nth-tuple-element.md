@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `enumerate()`**
 这个任务可以使用循环和枚举函数的组合来执行，这有助于访问第 n 个元素，然后在条件满足时进行检查和替换。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace tuple according to Nth tuple element
 # Using loops + enumerate()
@@ -37,7 +37,7 @@ print("The tuple after replacement is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [('gfg', 1), ('was', 2), ('best', 3)]
 The tuple after replacement is : [('gfg', 1), ('is', 2), ('best', 3)]
 

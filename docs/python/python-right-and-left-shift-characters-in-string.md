@@ -7,7 +7,7 @@
 **方法#1:使用字符串乘法+字符串切片**
 以上功能的组合可以用来执行这个任务。在这种情况下，我们三次多重字符串，执行连接和选择性切片字符串，以获得所需的结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Right and Left Shift characters in String
 # Using String multiplication + string slicing
@@ -35,7 +35,7 @@ print("The string after rotation is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after rotation is : sforgeeksgeek
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 
 First linked list: 1->2->3->4->6
 Second linked list be 2->4->6->8, 
@@ -32,7 +32,7 @@ intersection list.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement
 # the above approach
 # Link list node 
@@ -128,7 +128,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 Linked list containing common items of a & b 
 2 4 6 
 ```

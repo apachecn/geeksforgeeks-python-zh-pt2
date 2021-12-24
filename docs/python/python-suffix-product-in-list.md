@@ -7,7 +7,7 @@
 **方法:使用列表理解+循环+列表切片**
 这个问题可以通过以上两个函数的组合来解决，其中我们使用列表理解来将逻辑扩展到每个元素，使用显式乘积函数来获得乘积，使用切片来获得乘积直到特定的索引。
 
-```
+```py
 # Python3 code to demonstrate 
 # Suffix List Product 
 # using list comprehension + loop + list slicing 
@@ -36,7 +36,7 @@ print("The suffix product list is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The suffix product list is : [1, 9, 63, 63, 252, 756]
 

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 ```
@@ -21,7 +21,7 @@ import requests
 
 ## 蟒蛇 3
 
-```
+```py
 # Assign URL
 url = "https://www.geeksforgeeks.org/"
 
@@ -33,7 +33,7 @@ html_content = requests.get(url).text
 
 ## 蟒蛇 3
 
-```
+```py
 # Parse the html content using any parser 
 soup = BeautifulSoup(html_content,"html.parser")
 ```
@@ -42,7 +42,7 @@ soup = BeautifulSoup(html_content,"html.parser")
 
 ## 蟒蛇 3
 
-```
+```py
 [tag.name for tag in soup.find_all()]
 ```
 
@@ -50,7 +50,7 @@ soup = BeautifulSoup(html_content,"html.parser")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import modules
 from bs4 import BeautifulSoup
 import requests
@@ -70,7 +70,7 @@ soup = BeautifulSoup(html_content, "html.parser")
 
 **输出:**
 
-```
+```py
 ['html',
  'head',
  'meta',

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def hierjoin(test_list):
     res = []
     temp = []
@@ -76,7 +76,7 @@ print("The joined strings : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 from itertools import groupby
 
 def hierjoin(test_list):

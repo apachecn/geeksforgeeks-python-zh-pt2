@@ -13,7 +13,7 @@
 **方法#1:使用 loop + `items()`**
 以上方法的组合可以用来解决这个问题。在本文中，我们使用循环对列表中的值进行迭代，并使用 items()提取所有字典项，并使用蛮力方法执行新字典的创建。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unnest single Key Nested Dictionary List
 # Using loop + items()
@@ -46,7 +46,7 @@ print("The constructed Dictionary list : " + str(res)) 
 **方法 2:使用列表理解**
 这是另一种可以执行该任务的方式。在这种情况下，我们使用类似的方法来执行解决方案，但使用列表理解的速记方式。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unnest single Key Nested Dictionary List
 # Using list comprehension

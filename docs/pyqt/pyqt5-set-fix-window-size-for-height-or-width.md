@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.setFixedWidth(width)
 > self.setFixedHeight(height)
 > 
@@ -20,7 +20,7 @@
 
 **固定宽度代码–**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -70,7 +70,7 @@ sys.exit(App.exec())
 
 **固定高度的代码–**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

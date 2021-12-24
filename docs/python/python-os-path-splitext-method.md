@@ -9,7 +9,7 @@ Python 中的`***os.path.splitext()***`方法用于将路径名拆分成一对*�
 
 例如，考虑以下路径名:
 
-```
+```py
       path name                          root                        ext
 /home/User/Desktop/file.txt    /home/User/Desktop/file              .txt
 /home/User/Desktop             /home/User/Desktop                  {empty}
@@ -27,7 +27,7 @@ file.py                               file                          .py
 
 **Code:** Use of os.path.splitext() method
 
-```
+```py
 # Python program to explain os.path.splitext() method 
 
 # importing os module 
@@ -60,7 +60,7 @@ print("ext part of '% s':" % path, root_ext[1])
 
 **Output:**
 
-```
+```py
 root part of '/home/User/Desktop/file.txt': /home/User/Desktop/file
 ext part of '/home/User/Desktop/file.txt': .txt 
 

@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `join() + isdigit()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 isdigit()执行提取整数的任务，使用列表理解进行迭代，使用 join()对过滤后的数字进行连接。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain Numbers in String
 # Using list comprehension + join() + isdigit()
@@ -34,7 +34,7 @@ print("String after integer retention : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : G4g is No. 1 for Geeks 7
 String after integer retention : 417
 
@@ -43,7 +43,7 @@ String after integer retention : 417
 **方法 2:使用`regex()`**
 使用正则表达式也可以找到问题的解决方案。在这种情况下，我们制定适当的正则表达式来从字符串中只过滤数字。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Retain Numbers in String
 # Using regex()
@@ -65,7 +65,7 @@ print("String after integer retention : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : G4g is No. 1 for Geeks 7
 String after integer retention : 417
 

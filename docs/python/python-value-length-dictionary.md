@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `len()`**
 这是可以执行此任务的方式之一。在这种情况下，我们提取字典的值，并用 len()计算的长度映射它。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value length dictionary
 # Using loop + len()
@@ -30,7 +30,7 @@ print("The value-size mapped dictionary is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original dictionary is : {1: 'gfg', 2: 'is', 3: 'best'}
 The value-size mapped dictionary is : {'is': 2, 'best': 4, 'gfg': 3}
 

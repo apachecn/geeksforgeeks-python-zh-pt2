@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = ["a", "b", "c", "d", "e", "f", "g", "h", "i"]
         list2 = [ 0,   1,   1,    0,   1,   2,   2,   0,   1]
 
@@ -31,7 +31,7 @@ zip()的目的是映射多个容器的相似索引，以便它们可以作为单
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to sort
 # one list using
 # the other list
@@ -58,7 +58,7 @@ print(sort_list(x, y))
 
 **输出:**
 
-```
+```py
 ['a', 'd', 'h', 'b', 'c', 'e', 'i', 'f', 'g']
 ['g', 'k', 'r', 'e', 'e', 'g', 's', 'f', 'o']
 
@@ -66,7 +66,7 @@ print(sort_list(x, y))
 
 在上面的代码中，我们有两个列表，第一个列表根据第二个列表的值进行排序。
 
-```
+```py
 y = [ 0,   1,   1,    0,   1,   2,   2,   0,   1]
 
 ```
@@ -77,7 +77,7 @@ y = [ 0,   1,   1,    0,   1,   2,   2,   0,   1]
 
 ## 蟒蛇 3
 
-```
+```py
 def sorting_of_element(list1,list2):
 
     # initializing blank dictionary
@@ -105,7 +105,7 @@ sorting_of_element(list1,list2)
 
 **输出:**
 
-```
+```py
 ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i']
 
 ```

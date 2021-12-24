@@ -29,7 +29,7 @@
 
 使用 **pip** 命令安装附加库:
 
-```
+```py
 pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 ```
 
@@ -52,7 +52,7 @@ pip install --upgrade google-auth google-auth-oauthlib google-auth-httplib2
 
 ## 蟒蛇 3
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

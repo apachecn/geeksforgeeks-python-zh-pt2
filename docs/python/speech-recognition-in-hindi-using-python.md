@@ -8,25 +8,25 @@
 
 *   **语音识别模块:**它是一个库，借助于这个库 Python 可以识别给定的命令。我们必须使用画中画进行语音识别。
 
-```
+```py
 pip install SpeechRecognition
 
 ```
 
 *   **PyAudio Module:** 它是一组针对 *PortAudio* 的 Python 绑定，这是一个与音频驱动接口的跨平台 C++库。我们还需要安装 *Pyaudio* ，因为语音识别模块依赖于它。
 
-```
+```py
 pip install PyAudio
 
 ```
 
 如果上述命令在 windows 中不起作用，请在 windows 命令提示符下使用以下命令:
 
-```
+```py
 pip install pipwin
 ```
 
-```
+```py
 pipwin install pyaudio
 ```
 
@@ -36,7 +36,7 @@ pipwin install pyaudio
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 import speech_recognition as sr
 

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.emboss(radius=*radius*, sigma=*std. deviation*)
 > 
 > ```
@@ -25,7 +25,7 @@ Standard deviation used
 
 **Example #1:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -48,7 +48,7 @@ with Image(filename ="frameman.jpeg") as img:
 **例 2:**
 增加半径和σ值。
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

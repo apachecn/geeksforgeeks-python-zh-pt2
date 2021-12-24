@@ -68,19 +68,19 @@
 
 使用以下命令创建一个 Django 项目:
 
-```
+```py
 $ django-admin startproject imageupload
 ```
 
 让我们验证一下你的姜戈项目是否有效。如果您还没有进入外部*我的网站*目录，运行以下命令:
 
-```
+```py
 $ python manage.py runserver
 ```
 
 您将在命令行上看到以下输出:
 
-```
+```py
 Performing system checks...
 System check identified no issues (0 silenced).
 You have unapplied migrations; your app may not work properly until they are applied.
@@ -95,7 +95,7 @@ Quit the server with CONTROL-C.
 
 现在，我们希望您已经在姜戈创建了一个项目。如果没有，那么参考[如何在姜戈使用 MVT 创建一个基础项目？](https://www.geeksforgeeks.org/how-to-create-a-basic-project-using-mvt-in-django/)由于我们使用 firebase 作为数据库，我们需要安装**。为此，在终端中键入以下命令:**
 
-```
+```py
 $pip install pyrebase4
 ```
 
@@ -105,7 +105,7 @@ $pip install pyrebase4
 
 ## **计算机编程语言**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from . import views
@@ -120,7 +120,7 @@ urlpatterns = [
 
 ## **计算机编程语言**
 
-```
+```py
 from django.shortcuts import render
 import pyrebase
 
@@ -132,7 +132,7 @@ def check(request):
 
 ## **超文本标记语言**
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -227,7 +227,7 @@ def check(request):
 
 **现在转到您的项目目录，并使用给定的命令运行我们的项目:**
 
-```
+```py
 python manage.py runserver
 ```
 

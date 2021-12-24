@@ -8,7 +8,7 @@
 
 这个任务可以使用循环的强力方式来执行。我们只需遍历列表中的每个元素，测试它的后续元素是否为非零值，一旦找到下一个为零的值，就执行求和，并将其附加到结果列表中。
 
-```
+```py
 # Python3 code to demonstrate
 # summation of non-zero groups
 # Using loops
@@ -37,7 +37,7 @@ print("The non-zero group summation of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 9, 0, 0, 3, 4, 5, 0, 0, 4, 0]
 The non-zero group summation of list is : [13, 12, 4]
 
@@ -47,7 +47,7 @@ The non-zero group summation of list is : [13, 12, 4]
 
 也可以使用 groupby 函数对所有非零值进行分组，并使用 sum 函数对它们求和，从而执行该特定任务。
 
-```
+```py
 # Python3 code to demonstrate
 # summation of non-zero groups
 # Using itertools.groupby() + sum()
@@ -70,7 +70,7 @@ print("The non-zero group summation of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 9, 0, 0, 3, 4, 5, 0, 0, 4, 0]
 The non-zero group summation of list is : [13, 12, 4]
 

@@ -28,7 +28,7 @@ datetime.date 类函数的 **weekday()** 用于返回一周中指定一天对应
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # integer value corresponding
 # to the specified day of the week
@@ -56,7 +56,7 @@ print(dayOfTheWeek3)
 
 **输出:**
 
-```
+```py
 6
 0
 1
@@ -66,7 +66,7 @@ print(dayOfTheWeek3)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code for getting
 # integer value corresponding
 # to the specified day of the week.
@@ -161,7 +161,7 @@ print("{} is for {}".format(nextDay, dayOfTheWeek))
 
 **输出:**
 
-```
+```py
 2021-08-02 00:00:00 is for Monday
 2021-08-03 00:00:00 is for Tuesday
 2021-08-04 00:00:00 is for Wednesday

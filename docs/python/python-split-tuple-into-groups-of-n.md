@@ -6,7 +6,7 @@
 
 **方法#1:使用枚举和范围功能**
 
-```
+```py
 # Python code to demonstrate
 # how to split tuple
 # into the group of k-tuples
@@ -34,7 +34,7 @@ print ("resultant tuples", str(res))
 
 **方法 2:使用枚举和 *mod* 运算符**
 
-```
+```py
 # Python code to demonstrate
 # how to split tuple
 # into the group of k-tuples
@@ -62,7 +62,7 @@ print ("resultant tuples", str(res))
 
 **方法 3:使用 ITER tools recipes**
 
-```
+```py
 # Python code to demonstrate
 # how to split tuple
 # into the group of k-tuples

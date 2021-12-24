@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Word Ranges in String
 # Using list comprehension + regex + finditer()
@@ -41,7 +41,7 @@ print("Word Ranges are : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is :  Geekforgeeks   is Best    for  geeks
 Word Ranges are : [(1, 12), (16, 17), (19, 22), (27, 29), (32, 36)]
 

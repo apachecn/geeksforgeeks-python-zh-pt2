@@ -6,7 +6,7 @@
 给定一个 3D 列表，任务是将其转换为 2D 列表。这些类型的问题是在从事项目工作或参与开源时遇到的。
 下面是一些实现上述任务的方法。
 
-```
+```py
 Input:
 [[[3], [4]], [[5], [6]], [[7], [8]]]
 Output:
@@ -16,7 +16,7 @@ Output:
 
 **方法#1:** **使用简单迭代**将 3D 列表转换为 2D 列表。
 
-```
+```py
 # Python code to convert a 3D list into a 2D list
 
 # Input list initialization
@@ -39,7 +39,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Initial 3d list is
 [[[3], [4]], [[5], [6]], [[7], [8]]]
 Converted 2d list is
@@ -49,7 +49,7 @@ Converted 2d list is
 
 **方法 2:使用列表理解**将 3D 列表转换为 2D 列表
 
-```
+```py
 # Python code to convert a 3D list into a 2D list
 
 # Input list initialization
@@ -67,7 +67,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Initial 3d list is
 [[[1, 1], [2, 7]], [[3], [4]], [[6, 5], [6]]]
 Converted 2d list is

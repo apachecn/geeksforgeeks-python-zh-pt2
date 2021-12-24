@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +列表理解**
 这个问题可以通过使用列表理解来解决，该列表理解可以执行列乘积逻辑，并且 zip 函数用于绑定元素作为结果，并且在垂直乘积时也是如此。
 
-```
+```py
 # Python3 code to demonstrate
 # Matrix Tuple pair Column product
 # using list comprehension + zip()
@@ -35,7 +35,7 @@ print("The product of columns of tuple list : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[(1, 4), (2, 3), (5, 2)], [(3, 7), (1, 9), (10, 5)]]
 The product of columns of tuple list : [(3, 28), (2, 27), (50, 10)]
 

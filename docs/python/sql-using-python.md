@@ -14,19 +14,19 @@
 
 *   要使用 SQLite，必须导入 **sqlite3** 。
 
-```
+```py
 import sqlite3
 ```
 
 *   然后使用 [connect()](https://www.geeksforgeeks.org/python-sqlite-connecting-to-database/) 方法创建一个连接，并传递您想要访问的数据库的名称。如果有一个同名的文件，它将打开该文件。否则，Python 将用给定的名称创建一个文件。
 
-```
+```py
 sqliteConnection = sqlite3.connect('gfg.db')
 ```
 
 *   此后，调用一个游标对象，以便能够向 SQL 发送命令。
 
-```
+```py
 cursor = sqliteConnection.cursor()
 ```
 
@@ -34,7 +34,7 @@ cursor = sqliteConnection.cursor()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # connecting to the database
@@ -53,7 +53,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Connected to the database
 ```
 
@@ -79,7 +79,7 @@ Connected to the database
 
 ## 计算机编程语言
 
-```
+```py
 import sqlite3
 
 # connecting to the database
@@ -115,7 +115,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate table creation and
 # insertions with SQL
 
@@ -154,7 +154,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import sqlite3
 
@@ -204,7 +204,7 @@ connection.close()
 
 ## 计算机编程语言
 
-```
+```py
 # importing the module
 import sqlite3
 
@@ -238,7 +238,7 @@ for i in ans:
 
 对于更新 SQLite3 表中的数据，我们将使用 UPDATE 语句。根据我们的要求，我们可以使用 update 语句更新单个列和多个列。
 
-```
+```py
 UPDATE table_name SET column1 = value1, column2 = value2,…  
 WHERE condition; 
 ```
@@ -249,7 +249,7 @@ WHERE condition;
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -278,7 +278,7 @@ conn.close()
 
 对于从 SQLite3 表中删除数据，我们可以使用删除命令。
 
-```
+```py
 DELETE FROM table_name [WHERE Clause]
 ```
 
@@ -286,7 +286,7 @@ DELETE FROM table_name [WHERE Clause]
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -317,7 +317,7 @@ DROP 用于删除整个数据库或一个表。它删除了表中的两条记录
 
 **语法:**
 
-```
+```py
 DROP TABLE TABLE_NAME;
 ```
 
@@ -331,7 +331,7 @@ DROP TABLE TABLE_NAME;
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 import sqlite3
 

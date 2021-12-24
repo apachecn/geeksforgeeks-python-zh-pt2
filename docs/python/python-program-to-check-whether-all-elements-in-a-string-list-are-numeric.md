@@ -24,7 +24,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = ["434", "823", "98", "74"]
 
@@ -52,7 +52,7 @@ print("Are all strings digits ? : " + str(res))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = ["434", "823", "98", "74"]
 

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of gcd()
 # importing "math" for mathematical operations
 import math
@@ -34,7 +34,7 @@ print(math.gcd(60, 48))
 
 **Output**
 
-```
+```py
 The gcd of 60 and 48 is : 12
 
 ```
@@ -43,7 +43,7 @@ The gcd of 60 and 48 is : 12
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate naive
 # method to compute gcd ( recursion )
 
@@ -63,7 +63,7 @@ print(hcf(60, 48))
 
 **Output**
 
-```
+```py
 The gcd of 60 and 48 is : 12
 
 ```
@@ -83,7 +83,7 @@ The gcd of 60 and 48 is : 12
 
 ## 蟒蛇 3
 
-```
+```py
 # Recursive function to return gcd of a and b
 def gcd(a, b):
 
@@ -113,7 +113,7 @@ else:
 
 **Output**
 
-```
+```py
 GCD of 98 and 56 is 14
 
 ```

@@ -8,7 +8,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
@@ -18,7 +18,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 ht_doc = """
 
 <html><head><title>Geeks For Geeks</title></head>
@@ -71,7 +71,7 @@ class="prog" id="link5">Ruby</a>
 
 ## 蟒蛇 3
 
-```
+```py
 soup = BeautifulSoup(ht_doc, 'html.parser')
 print(soup.head)
 print(soup.title)
@@ -79,7 +79,7 @@ print(soup.title)
 
 **输出:**
 
-```
+```py
 <head><title>Geeks For Geeks</title></head>
 <title>Geeks For Geeks</title>
 ```
@@ -102,7 +102,7 @@ print(soup.title)
 
 ## 蟒蛇 3
 
-```
+```py
 soup = BeautifulSoup(ht_doc, 'html.parser')
 
 # retrieving b tag element
@@ -141,7 +141,7 @@ print(soup.find_all("a"))
 
 ## 蟒蛇 3
 
-```
+```py
 soup = BeautifulSoup(ht_doc, 'html.parser')
 
 # assigning head tag of BeautifulSoup variable
@@ -154,7 +154,7 @@ print(hTag.contents)
 
 **输出:**
 
-```
+```py
 <head><title>Geeks For Geeks</title></head>
 [<title>Geeks For Geeks</title>]
 ```
@@ -169,7 +169,7 @@ print(hTag.contents)
 
 ## 蟒蛇 3
 
-```
+```py
 # embedding html document inyto BeautifulSoup variable
 soup = BeautifulSoup(ht_doc, 'html.parser')
 
@@ -183,7 +183,7 @@ for child in htag.descendants:
 
 **输出:**
 
-```
+```py
 <title>Geeks For Geeks</title>
 Geeks For Geeks
 ```
@@ -196,7 +196,7 @@ Geeks For Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 soup = BeautifulSoup(ht_doc, 'html.parser')
 htag = soup.head
 print(htag.string)
@@ -204,7 +204,7 @@ print(htag.string)
 
 **输出:**
 
-```
+```py
 Geeks For Geeks
 ```
 
@@ -214,7 +214,7 @@ Geeks For Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 soup = BeautifulSoup(ht_doc, 'html.parser')
 for string in soup.strings :
     print(repr(string))

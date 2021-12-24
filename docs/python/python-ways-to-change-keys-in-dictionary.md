@@ -6,7 +6,7 @@
 
 **方法#1:使用幼稚的方法**
 
-```
+```py
 # Python code to demonstrate
 # changing keys of dictionary
 # using naive method

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:  1111
 Output: F
 
@@ -21,19 +21,19 @@ Output: 10F
 
 **第一步:**输入二进制数。
 
-```
+```py
 Input: 111101111011
 ```
 
 **第二步:**将你的二进制数分成四组，从右开始。
 
-```
+```py
 111101111011 = (1111)(0111)(1011)
 ```
 
 **第三步:**将一组 4 位二进制数转换为一个十六进制数。
 
-```
+```py
 (1111)(0111)(1011) = F7B
 ```
 
@@ -41,7 +41,7 @@ Input: 111101111011
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to convert binary number
 # into hexadecimal number
 
@@ -110,7 +110,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Hexadecimal equivalent of 1111:  F
 Hexadecimal equivalent of 110101:  35
 Hexadecimal equivalent of 100001111:  10F
@@ -121,19 +121,19 @@ Hexadecimal equivalent of 111101111011:  F7B
 
 **第一步:**输入二进制数。
 
-```
+```py
 Input: 111101111011 = (111101111011)2
 ```
 
 **第二步:**将二进制数转换为十进制数。
 
-```
+```py
 (111101111011)2 = (3963)10
 ```
 
 **第三步:**将上述十进制数转换为十六进制数。
 
-```
+```py
 (3963)10 = (F7B)16
 ```
 
@@ -141,7 +141,7 @@ Input: 111101111011 = (111101111011)2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert binary number
 # into hexadecimal number
 
@@ -214,7 +214,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Hexadecimal equivalent of 1111: 
 F
 Hexadecimal equivalent of 110101: 
@@ -233,7 +233,7 @@ F7B
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to convert from Binary
 # to Hexadecimal using int() and hex()
 def binToHexa(n):
@@ -255,7 +255,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 0xf
 0x35
 0x10f
@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to convert from Binary
 # to hexadecimal using format()
 def binToHexa(n):
@@ -290,7 +290,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 f
 35
 10f

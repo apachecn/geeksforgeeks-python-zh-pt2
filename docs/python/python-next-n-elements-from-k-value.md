@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next N elements of K value
 # Using list comprehension + slicing
@@ -51,7 +51,7 @@ print("Constructed Result List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 4, 6, 7, 8, 4, 7, 2, 1, 8, 4, 2, 3, 9]
 Constructed Result List : [6, 7, 7, 2, 2, 3]
 
@@ -63,7 +63,7 @@ Constructed Result List : [6, 7, 7, 2, 2, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Next N elements of K value
 # Using filter() + lambda + loop
@@ -97,7 +97,7 @@ print("Constructed Result List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [3, 4, 6, 7, 8, 4, 7, 2, 1, 8, 4, 2, 3, 9]
 Constructed Result List : [6, 7, 7, 2, 2, 3]
 

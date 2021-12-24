@@ -5,7 +5,7 @@
 目的:编程计算两个矩阵的和，然后用 Python 打印出来。
 示例:
 
-```
+```py
 Input :
  X= [[1,2,3],
     [4 ,5,6],
@@ -27,7 +27,7 @@ Output :
 
 ## 计算机编程语言
 
-```
+```py
 # Program to add two matrices using nested loop
 
 X = [[1,2,3],
@@ -54,7 +54,7 @@ for r in result:
 
 **输出:**
 
-```
+```py
 [10, 10, 10]
 [10, 10, 10]
 [10, 10, 10]
@@ -72,7 +72,7 @@ for r in result:
 
 ## 计算机编程语言
 
-```
+```py
 # Program to add two matrices
 # using list comprehension
 
@@ -93,7 +93,7 @@ for r in result:
 
 **输出:**
 
-```
+```py
 [10, 10, 10]
 [10, 10, 10]
 [10, 10, 10]
@@ -107,7 +107,7 @@ for r in result:
 
 ## 计算机编程语言
 
-```
+```py
 # Program to add two matrices
 # using zip()
 
@@ -126,7 +126,7 @@ print(result)
 
 **输出:**
 
-```
+```py
 [[10, 10, 10], [10, 10, 10], [10, 10, 10]]
 ```
 

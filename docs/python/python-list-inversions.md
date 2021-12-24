@@ -7,7 +7,7 @@
 **方法#1:使用`map() + lambda + "~" operator`**
 以上功能可以组合执行此任务。我们可以使用 map()来累加 lambda 函数指定的反转逻辑的结果。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List Inversions
 # Using map() + lambda + "~" operator
@@ -28,7 +28,7 @@ print("The Bitwise Inversions of list elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [7, 8, 9, 1, 10, 7]
 The Bitwise Inversions of list elements are : [-8, -9, -10, -2, -11, -8]
 

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: CList = 6->5->4->3->2, find = 3
 Output: Element is present
 
@@ -31,7 +31,7 @@ Output: Element is not present
 
 ## 蟒 3
 
-```
+```py
 # Python program to Search an Element
 # in a Circular Linked List
 
@@ -148,7 +148,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 element is present
 element is not present
 ```

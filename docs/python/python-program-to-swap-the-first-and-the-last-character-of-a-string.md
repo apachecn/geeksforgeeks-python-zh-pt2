@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: GeeksForGeeks
 Output: seeksForGeekG
 
@@ -25,7 +25,7 @@ Python 字符串是不可变的，这意味着我们不能直接修改它。但�
 
 T2T4
 
-```
+```py
 def swap(string):
 
     # storing the first character
@@ -46,7 +46,7 @@ T5
 
 **输出:**
 
-```
+```py
 seeksforGeekG
 nythoP
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :  [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
 Output : 3
 
@@ -17,7 +17,7 @@ Output : 4
 
 **方法#1 :** 使用 *len()*
 
-```
+```py
 # Python3 program to Count number 
 # of lists in a list of lists
 
@@ -31,7 +31,7 @@ print(countList(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
@@ -40,7 +40,7 @@ print(countList(lst))
 
 在每次迭代中使用 for 循环来检查当前项的类型是否是列表，并相应地增加“计数”变量。这种方法比方法#1 有好处，因为它适用于异构元素列表。
 
-```
+```py
 # Python3 program to Count number 
 # of lists in a list of lists
 
@@ -59,21 +59,21 @@ print(countList(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```
 
 上述代码的单行替代方法如下所示:
 
-```
+```py
 def countList(lst):
     return sum(type(el)== type([]) for el in lst)
 ```
 
 **方法#3 :** 使用*方法*
 
-```
+```py
 # Python3 program to Count number 
 # of lists in a list of lists
 
@@ -87,7 +87,7 @@ print(countList(lst))
 
 **Output:**
 
-```
+```py
 3
 
 ```

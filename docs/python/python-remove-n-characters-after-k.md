@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove N characters after K
 # Using re.sub()
@@ -45,7 +45,7 @@ print("The String after removal : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksfor@123geeks is best@212 for cs
 The String after removal : geeksforgeeks is best for cs
 
@@ -57,7 +57,7 @@ The String after removal : geeksforgeeks is best for cs
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove N characters after K
 # Using re.sub() + occurrence option
@@ -86,7 +86,7 @@ print("The String after removal : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksfor@123geeks is best@212 for cs
 The String after removal : geeksforgeeks is best@212 for cs
 

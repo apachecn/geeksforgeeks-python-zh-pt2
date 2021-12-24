@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of consecutive elements power
 # Using loop
@@ -51,7 +51,7 @@ print("Computed summation of powers : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
 Computed summation of powers : 110
 ```
@@ -62,7 +62,7 @@ Computed summation of powers : 110
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of consecutive elements power
 # Using defaultdict() + loop + sum()
@@ -90,7 +90,7 @@ print("Computed summation of powers : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [2, 2, 2, 3, 3, 3, 3, 4, 4, 5]
 Computed summation of powers : 110
 ```

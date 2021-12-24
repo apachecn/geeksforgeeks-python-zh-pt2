@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate the
 # working of harmonic_mean() function
 
@@ -39,7 +39,7 @@ print("Harmonic Mean is % s " % (statistics.harmonic_mean(data)))
 
 **输出:**
 
-```
+```py
 Harmonic Mean is 2.797513321492007 
 ```
 
@@ -47,7 +47,7 @@ Harmonic Mean is 2.797513321492007
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate harmonic_mean()
 # function from the statistics module
 
@@ -87,7 +87,7 @@ print("Harmonic Mean of data set 4 is % s"
 
 **输出:**
 
-```
+```py
 Harmonic Mean of data set 1 is 4.299197943900386
 Harmonic Mean of data set 2 is 4.574783168721765
 Harmonic Mean of data set 4 is 55/56
@@ -98,7 +98,7 @@ Harmonic Mean of data set 5 is 1.6363636363636365
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate StatisticsError
 # while using harmonic_mean()
 
@@ -117,7 +117,7 @@ print(statistics.harmonic_mean(dat1))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Users/Souveek/PycharmProjects/Test.py", line 12, in 
     print(statistics.harmonic_mean((1, -1)))

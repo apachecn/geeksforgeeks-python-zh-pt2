@@ -24,7 +24,7 @@ Django 是一个基于 Python 的 web 框架，它允许您快速创建 web 应�
 
 ## 蟒蛇 3
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -44,7 +44,7 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 ```
@@ -54,7 +54,7 @@ Python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from .models import GeeksModel
 
@@ -80,7 +80,7 @@ class GeeksForm(forms.ModelForm):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -105,7 +105,7 @@ def create_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Security token -->
@@ -135,7 +135,7 @@ def create_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -156,7 +156,7 @@ def list_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
 
     {% for data in dataset %}.
@@ -183,7 +183,7 @@ def list_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -198,7 +198,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -220,7 +220,7 @@ def detail_view(request, id):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
 
     <!-- Specify fields to be displayed -->
@@ -243,7 +243,7 @@ def detail_view(request, id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import (get_object_or_404,
                               render,
                               HttpResponseRedirect)
@@ -292,7 +292,7 @@ def update_view(request, id):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
     <!-- Create a Form -->
     <form method="POST">
@@ -312,7 +312,7 @@ def update_view(request, id):
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
     <!-- Display attributes of instance -->
     {{ data.title }} <br/>
@@ -333,7 +333,7 @@ def update_view(request, id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import (get_object_or_404,
                               render,
                               HttpResponseRedirect)
@@ -364,7 +364,7 @@ def delete_view(request, id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -378,7 +378,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 <div class="main">
     <!-- Create a Form -->
     <form method="POST">

@@ -21,7 +21,7 @@
 
 要直接从 apt 存储库中下载 SWIG，请键入以下命令–
 
-```
+```py
 sudo apt-get update
 sudo apt-get install swig
 
@@ -31,7 +31,7 @@ sudo apt-get install swig
 
 考虑这段 C 代码，它有两个函数和一个全局变量
 
-```
+```py
 /* file : gfg.c */
 
 #include <stdio.h>
@@ -61,7 +61,7 @@ int my_mod(int n, int m)
 
 这是我们的头文件*gfg . h*–
 
-```
+```py
 long long int fact(long long int n);
 int my_mod(int n, int m);
 ```
@@ -72,7 +72,7 @@ int my_mod(int n, int m);
 *   **% { 0..%** }块提供了一个位置，可以将附加代码(如 C 头文件或附加 C 声明)插入到生成的包装代码中。
 *   **%include** 指令让我们包含头文件之类的附加文件。
 
-```
+```py
 /* file : gfg.i */
 
 /* name of module to use*/
@@ -100,7 +100,7 @@ int my_mod(int m, int n);
 
 现在我们将使用类似*$ swig-target _ language _ interface _ file . I*的命令创建包装代码
 
-```
+```py
 $ swig -python gfg.i
 
 ```
@@ -109,7 +109,7 @@ $ swig -python gfg.i
 
 之后，我们必须通过使用以下命令编译**“gfg _ wrap . c”**和**“gfg . c”**来生成将在共享库中使用的位置无关代码–
 
-```
+```py
 $ gcc -c -fpic gfg_wrap.c gfg.c -I/use/include/python2.7
 
 ```
@@ -126,14 +126,14 @@ $ gcc -c -fpic gfg_wrap.c gfg.c -I/use/include/python2.7
 
 要获得“Python.h ”,您必须使用以下命令安装**Python-dev**—
 
-```
+```py
 $ sudo apt-get install python-dev
 
 ```
 
 要找到“Python.h”的正确路径，请执行以下命令–
 
-```
+```py
 $ python-config --cflags
 
 ```
@@ -144,14 +144,14 @@ $ python-config --cflags
 
 现在，最后，我们必须将生成的对象文件链接在一起，以创建一个类似于 windows 中 **dll** 文件的共享对象。使用以下命令，这将生成一个**“_ gfg . so”**共享对象文件–
 
-```
+```py
 $ gcc -shared gfg.o gfg_wrap.o -o _gfg.so
 
 ```
 
 现在，我们准备通过导入 python 包装器来测试它。确保您在包含此包装文件的目录中。
 
-```
+```py
 >>> import gfg
 >>> res = fact(5)
 >>> res
@@ -170,7 +170,7 @@ $ gcc -shared gfg.o gfg_wrap.o -o _gfg.so
 
 我们可以使用 distutils 自动完成，而不是键入命令并弄清楚编译文件需要哪些编译选项。如下所示创建*设置*
 
-```
+```py
 # File : setup.py
 
 from distutils.core import setup, Extension
@@ -191,7 +191,7 @@ setup(name=name,
 
 现在编写以下命令来编译和安装模块–
 
-```
+```py
 $ python setup.py build_ext --inplace
 
 ```

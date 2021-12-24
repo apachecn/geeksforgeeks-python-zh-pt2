@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list = [1, 2, 4], n = 3
 Output : list = [1, 2, 3, 4]
 
@@ -18,7 +18,7 @@ Output : list = ['a', 'b', 'c', 'd', 'e']
 **方法#1 :**
 这种方法就是蛮力法。由于列表已经排序，我们从循环开始，检查列表元素是否大于给定元素。如果是，需要在这个位置插入给定的元素。
 
-```
+```py
 # Python3 program to insert
 # an element into sorted list
 
@@ -49,7 +49,7 @@ print(insert(list, n))
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4]
 
 ```
@@ -57,7 +57,7 @@ print(insert(list, n))
 **方法#2 :**
 Python 附带了一个 *[等分模块](https://www.geeksforgeeks.org/bisect-algorithm-functions-in-python/)* ，其目的是在列表中找到需要插入元素的位置，以保持列表有序。因此，我们使用这个模块来解决给定的问题。
 
-```
+```py
 # Python3 program to insert 
 # an element into sorted list
 import bisect 
@@ -75,7 +75,7 @@ print(insert(list, n))
 
 **Output:**
 
-```
+```py
 [1, 2, 3, 4]
 
 ```

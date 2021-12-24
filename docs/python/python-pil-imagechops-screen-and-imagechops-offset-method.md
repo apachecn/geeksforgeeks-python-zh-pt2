@@ -8,7 +8,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。
 
 这种方法用于将两个倒置的图像叠加在一起。
 
-```
+```py
 Syntax: ImageChops.screen(image1, image2)
 
 Parameters:
@@ -20,7 +20,7 @@ Return Value: An Image
 
 ## 蟒蛇 3
 
-```
+```py
 # This will import Image and ImageChops modules
 from PIL import Image, ImageChops
 
@@ -52,7 +52,7 @@ im3.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # This will import Image and ImageChops modules
 from PIL import Image, ImageChops
 

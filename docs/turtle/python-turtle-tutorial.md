@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 # moves the pen in the 

@@ -25,7 +25,7 @@
 
 考虑一个示例数据集，它将学习小时数与考试结果进行了映射。结果只能取两个值，即通过(1)或失败(0):
 
-```
+```py
 Hours(x)
 0.50
 0.75
@@ -180,7 +180,7 @@ Pass(y)
 
 ## 计算机编程语言
 
-```
+```py
 import csv
 import numpy as np
 import matplotlib.pyplot as plt
@@ -311,7 +311,7 @@ if __name__ == "__main__":
     plot_reg(X, y, beta)
 ```
 
-```
+```py
 Estimated regression coefficients: [[  1.70474504  15.04062212 -20.47216021]]
 No. of iterations: 2612
 Correctly predicted labels: 100
@@ -343,7 +343,7 @@ Correctly predicted labels: 100
 
 ## 计算机编程语言
 
-```
+```py
 from sklearn import datasets, linear_model, metrics
 
 # load the digit dataset
@@ -372,7 +372,7 @@ print("Logistic Regression model accuracy(in %):",
 metrics.accuracy_score(y_test, y_pred)*100)
 ```
 
-```
+```py
  Logistic Regression model accuracy(in %): 95.6884561892
 ```
 

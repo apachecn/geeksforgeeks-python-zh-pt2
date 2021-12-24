@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration  
 # of list index() method
 
@@ -43,7 +43,7 @@ print(list2.index('cat'))
 
 **输出:**
 
-```
+```py
 3
 0
 ```
@@ -52,7 +52,7 @@ print(list2.index('cat'))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration 
 # of index() method
 
@@ -76,7 +76,7 @@ print(list2.index('cat', 2, 6 ))
 
 **输出:**
 
-```
+```py
 7
 4
 3
@@ -86,7 +86,7 @@ print(list2.index('cat', 2, 6 ))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration 
 # of list index() method
 
@@ -103,7 +103,7 @@ print(list1.index(('cat', 'bat')))
 
 **输出:**
 
-```
+```py
 3
 4
 ```
@@ -112,7 +112,7 @@ print(list1.index(('cat', 'bat')))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration
 # of index() method error
 
@@ -124,7 +124,7 @@ print(list1.index(10))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/b910d8dcbc0f4f4b61499668654450d2.py", line 8, in 
     print(list1.index(10))
@@ -135,13 +135,13 @@ ValueError: 10 is not in list
 
 当在索引函数中传递两个参数时，第一个参数被视为要搜索的元素，第二个参数是搜索开始的索引。
 
-```
+```py
 list_name.index(element, start)
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration 
 # of index() method
 
@@ -154,7 +154,7 @@ print(list1.index(6 , 1))
 
 **输出:**
 
-```
+```py
 3
 ```
 
@@ -164,7 +164,7 @@ print(list1.index(6 , 1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration 
 # of index() method
 
@@ -177,7 +177,7 @@ print(list1.index(9, 1, 4))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/3cbe5b7d0595ab3f8564f16af7a15172.py", line 9, in <module>
     print(list1.index(9 , 1 , 4))
@@ -188,7 +188,7 @@ ValueError: 9 is not in list
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for demonstration 
 # of index() method
 
@@ -201,6 +201,6 @@ print(list1.index(9, 1, 5))
 
 **输出:**
 
-```
+```py
 4
 ```

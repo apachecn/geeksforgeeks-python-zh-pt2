@@ -16,25 +16,25 @@
 
 *   为我们的代码创建并导航到一个名为 users 的专用目录
 
-```
+```py
 $ cd ~/Desktop$ mkdir code && cd code
 ```
 
 *   安装 Django
 
-```
+```py
 $ pipenv install django
 ```
 
 创建一个名为 login 的新 Django 项目
 
-```
+```py
 $ django-admin startproject login
 ```
 
 *   制作一个新的应用程序接口，安装 rest 框架
 
-```
+```py
 $ python manage.py startapp api
 $ pipenv install rest_framework
 ```
@@ -43,7 +43,7 @@ $ pipenv install rest_framework
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
   'django.contrib.admin',
   'django.contrib.auth',
@@ -76,7 +76,7 @@ REST_FRAMEWORK = {
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.utils.translation import ugettext_lazy as _
@@ -97,7 +97,7 @@ class User(AbstractUser):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.utils.translation import ugettext_lazy as _
 from django.contrib.auth.admin import UserAdmin as BaseUserAdmin
@@ -130,7 +130,7 @@ admin.site.register(User, UserAdmin)
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import serializers
 from api.models import  User
 class UserSerializer(serializers.ModelSerializer):
@@ -143,7 +143,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
@@ -156,7 +156,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 
@@ -168,14 +168,14 @@ urlpatterns = [
 
 *   我们都设置了自定义用户模型。现在将这些更改保存到您的项目中，并通过 CLI 进行迁移
 
-```
+```py
 $ python manage.py makemigrations users
 $ python manage.py migrate
 ```
 
 *   现在创建一个超级用户
 
-```
+```py
 $ python manage.py createsuperuser
 
 Email address: test@test.com
@@ -189,6 +189,6 @@ Superuser created successfully.
 
 *   现在使用运行服务器。
 
-```
+```py
 $ python manage.py runserver
 ```

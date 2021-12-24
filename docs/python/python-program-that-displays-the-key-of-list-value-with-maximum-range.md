@@ -4,7 +4,7 @@
 
 给定一个具有列表中的键和值的字典，下面的程序显示其范围最大的值的键。
 
-```
+```py
 Range = Maximum number-Minimum number
 
 ```
@@ -20,7 +20,7 @@ Range = Maximum number-Minimum number
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {"Gfg" : [6, 2, 4, 1], "is" : [4, 7, 3, 3, 8], "Best" : [1, 0, 9, 3]}
 
@@ -51,7 +51,7 @@ print("The maximum element key : " + str(res)) 
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing dictionary
 test_dict = {"Gfg" : [6, 2, 4, 1], "is" : [4, 7, 3, 3, 8], "Best" : [1, 0, 9, 3]}
 

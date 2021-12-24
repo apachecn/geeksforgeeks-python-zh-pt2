@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -56,7 +56,7 @@ print(value)
 **输出:**
 ![](img/57ccffa8c486070958f67ed1dd7ef62e.png)
 
-```
+```py
 [{'name': b'adummy', 'description': b'Dummy audio output'}, {'name': b'afile', 'description': b'File audio output'}, {'name': b'amem', 'description': b'Audio memory output'}, {'name': b'directsound', 'description': b'DirectX audio output'}, {'name': b'mmdevice', 'description': b'Windows Multimedia Device output'}, {'name': b'waveout', 'description': b'WaveOut audio output'}]
 
 ```
@@ -64,7 +64,7 @@ print(value)
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -106,7 +106,7 @@ print(value)
 **输出:**
 ![](img/1182bf29ec1fe0d0a2c3ce2234f329d4.png)
 
-```
+```py
 [{'name': b'adummy', 'description': b'Dummy audio output'}, {'name': b'afile', 'description': b'File audio output'}, {'name': b'amem', 'description': b'Audio memory output'}, {'name': b'directsound', 'description': b'DirectX audio output'}, {'name': b'mmdevice', 'description': b'Windows Multimedia Device output'}, {'name': b'waveout', 'description': b'WaveOut audio output'}]
 
 ```

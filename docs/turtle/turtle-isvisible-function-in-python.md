@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.isvisible()
 
 ```
@@ -21,7 +21,7 @@ turtle.isvisible()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -56,7 +56,7 @@ print(turtle.isvisible())
 
 ![](img/d7dc3940cb9a496b3f2fa84ad0229cd4.png)
 
-```
+```py
 True
 False
 True

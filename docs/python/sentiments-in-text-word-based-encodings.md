@@ -18,7 +18,7 @@
 
 下面是实现。
 
-```
+```py
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras.preprocessing.text import Tokenizer
@@ -37,6 +37,6 @@ print(word_index)
 
 **输出:**
 
-```
+```py
 {'i': 1, 'love': 2, 'my': 3, 'lunch': 4, 'cat': 5}
 ```

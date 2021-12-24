@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test for Incrementing Dictionary
 # Using extend() + list comprehension
@@ -48,7 +48,7 @@ print("Is dictionary incrementing : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {1: 2, 3: 4, 5: 6, 7: 8}
 Is dictionary incrementing : True
 ```

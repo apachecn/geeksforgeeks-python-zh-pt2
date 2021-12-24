@@ -5,7 +5,7 @@
 给定两个变量 n1 和 n2。任务是在不使用第三个变量的情况下交换两个变量的值。
 **例:**
 
-```
+```py
 X : 10
 Y : 20
 
@@ -16,7 +16,7 @@ Y : 10
 
 ```
 
-```
+```py
  A : 'Hello'
  B : 'World'
 
@@ -29,7 +29,7 @@ After swapping A and B, we get :
 
 **方法 1 :-使用简单的内置方法**
 
-```
+```py
 left , right = right , left 
 
 ```
@@ -38,7 +38,7 @@ left , right = right , left
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to swap two numbers
 # without using another variable
 
@@ -57,7 +57,7 @@ print("Value of x : ", x, " and y : ", y)
 
 **输出:**
 
-```
+```py
 Before swapping: 
 Value of x :  5  and y :  7
 After swapping: 
@@ -67,7 +67,7 @@ Value of x :  7  and y :  5
 
 **方法 2 :-使用逐位异或运算符**
 
-```
+```py
 x ^= y
 y ^= x
 x ^= y
@@ -78,7 +78,7 @@ x ^= y
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to swap two numbers
 # using Bitwise XOR method
 
@@ -99,7 +99,7 @@ print("Value of x : ", x, " and y : ", y)
 
 **输出:**
 
-```
+```py
 Before swapping: 
 Value of x :  5  and y :  10
 After swapping: 
@@ -109,7 +109,7 @@ Value of x :  10  and y :  5
 
 **方法 3 :-使用加减法运算符**
 
-```
+```py
 x = x + y 
 y = x - y
 x = x - y
@@ -120,7 +120,7 @@ x = x - y
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to swap two numbers
 # using + and - operators
 
@@ -141,7 +141,7 @@ print("Value of x : ", x, " and y : ", y)
 
 **输出:**
 
-```
+```py
 Before swapping: 
 Value of x :  5.4  and y :  10.3
 After swapping: 
@@ -151,7 +151,7 @@ Value of x :  10.3  and y :  5.4
 
 **方法 4 :-使用除法和乘法运算符**
 
-```
+```py
 x = x * y
 y = x / y
 x = x / y
@@ -162,7 +162,7 @@ x = x / y
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to swap two numbers
 # using / and * operators
 
@@ -183,7 +183,7 @@ print("Value of x : ", x, " and y : ", y)
 
 **输出:**
 
-```
+```py
 Before swapping: 
 Value of x :  5.4  and y :  10.3
 After swapping: 
@@ -195,7 +195,7 @@ Value of x :  10.3  and y :  5.4
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to swap two numbers
 # using bitwise addition for swapping
 
@@ -222,7 +222,7 @@ print("Value of x : ", x, " and y : ", y)
 
 **输出:**
 
-```
+```py
 Before swapping: 
 Value of x :  5  and y :  10
 After swapping: 

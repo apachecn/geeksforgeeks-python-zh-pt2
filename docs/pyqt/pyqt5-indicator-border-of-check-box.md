@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须借助`setStyleSheet`方法更改样式表代码，下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator
 {
 border : 3px solid red;
@@ -16,7 +16,7 @@ border : 3px solid red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

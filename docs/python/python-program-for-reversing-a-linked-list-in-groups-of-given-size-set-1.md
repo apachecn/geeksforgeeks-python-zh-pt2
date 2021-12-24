@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to reverse a 
 # linked list in group of given size
 
@@ -107,7 +107,7 @@ llist.printList()
 
 **输出:**
 
-```
+```py
 Given Linked List
 1 2 3 4 5 6 7 8 9 
 Reversed list

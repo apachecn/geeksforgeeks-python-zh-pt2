@@ -17,7 +17,7 @@
 
 **滚动标签类语法**
 
-```
+```py
 class ScrollLabel(QScrollArea):
 
     # constructor
@@ -56,7 +56,7 @@ class ScrollLabel(QScrollArea):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

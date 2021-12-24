@@ -26,7 +26,7 @@ PIL 是 python 图像库，为 Python 解释器提供图像编辑功能。`Image
 
 ****代码:ImageDraw 示例。Draw.multiline_text()****
 
-```
+```py
 
 # Importing Image and ImageFont, ImageDraw module from PIL package 
 from PIL import Image, ImageFont, ImageDraw 
@@ -60,7 +60,7 @@ image.show() 
 
 ****代码:ImageDraw 示例。Draw.multiline_text()****
 
-```
+```py
 
 # Importing Image and ImageFont, ImageDraw module from PIL package 
 from PIL import Image, ImageFont, ImageDraw 

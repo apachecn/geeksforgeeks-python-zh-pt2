@@ -21,13 +21,13 @@ Python 中的`***os.pwrite()***`方法用于将指定的字节串写入指定位
 
 将以下文本视为名为 *file.txt* 的文件内容。
 
-```
+```py
 C, C++, Java, C#, PHP
 ```
 
 **Code:** Use of os.pwrite() method
 
-```
+```py
 # Python program to explain os.pwrite() method
 
 # Importing os module
@@ -115,7 +115,7 @@ with open(filename) as f:
 
 **Output:**
 
-```
+```py
 Number of bytes actually written: 8
 Python, Java, C#, PHP
 

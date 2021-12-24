@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.kuwahara(radius=*radius*, sigma= *std.deviation*)
 > ```
 > 
@@ -22,7 +22,7 @@
 
 **示例#1:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -39,7 +39,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **示例#2:** 增加半径和σ
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 # getting view part of combo box
 view = self.combo_box.view()
 
@@ -31,7 +31,7 @@ get_tip = view.toolTip()
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

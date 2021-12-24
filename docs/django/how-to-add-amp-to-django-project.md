@@ -14,7 +14,7 @@ AMP(加速移动页面)是由 AMP 开源项目开发的开源 HTML 框架。它�
 
 ## 超文本标记语言
 
-```
+```py
 {% load ampimg %}
 <!doctype html>
 <html amp lang="en">
@@ -145,7 +145,7 @@ margin: 0 auto; }
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 from django import template
 
@@ -173,7 +173,7 @@ def ampimg(content):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing models and libraries
 from django.shortcuts import render
 from .models import posts
@@ -193,7 +193,7 @@ class postdetailamp(generic.DetailView):
 
 ## 蟒蛇 3
 
-```
+```py
 urlpatterns = [
   .....
 # amp route

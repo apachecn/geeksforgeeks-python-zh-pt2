@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  str = 'ABC'
 Output : ABC 
          ACB 
@@ -18,7 +18,7 @@ Output : ABC
 
 我们已经有了这个问题的解决方案，请参考使用 STL 链接给定字符串的[排列。我们也可以使用内置函数](https://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)[置换(可迭代)](https://www.geeksforgeeks.org/permutation-and-combination-in-python/)在 python 中解决这个问题。
 
-```
+```py
 # Function to find permutations of a given string
 from itertools import permutations
 
@@ -39,7 +39,7 @@ if __name__ == "__main__":
 
 **Output:**
 
-```
+```py
 ABC
 ACB
 BAC
@@ -54,7 +54,7 @@ CBA
 **给定字符串与重复字符的排列**
 这个想法是使用字典来避免重复打印。
 
-```
+```py
 from itertools import permutations
 import string
 
@@ -74,7 +74,7 @@ for i in list(p):
 
 **Output:**
 
-```
+```py
 GEEK
 GEKE
 GKEE

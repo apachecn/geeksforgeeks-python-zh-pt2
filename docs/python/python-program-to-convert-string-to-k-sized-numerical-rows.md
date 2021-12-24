@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geeksforgeekscse'
 
@@ -62,7 +62,7 @@ print("Grouped and Converted String : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 from math import ceil
 
 # initializing string

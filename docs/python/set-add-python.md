@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 set.add(elem)
 The add() method doesn't add an element to the
 set if it's already present in it otherwise it 
@@ -19,7 +19,7 @@ The add() method doesn't return any value.
 
 ```
 
-```
+```py
 # set of letters
 GEEK = {'g', 'e', 'k'}
 
@@ -34,7 +34,7 @@ print('Letters are:', GEEK)
 
 输出:
 
-```
+```py
 ('Letters are:', set(['k', 'e', 's', 'g']))
 ('Letters are:', set(['k', 'e', 's', 'g'])
 
@@ -42,12 +42,12 @@ print('Letters are:', GEEK)
 
 **应用:**
 
-```
+```py
 It is used to add a new element to the set. 
 
 ```
 
-```
+```py
 # set of letters
 GEEK = {6, 0, 4}
 
@@ -62,7 +62,7 @@ print('Letters are:', GEEK)
 
 输出:
 
-```
+```py
 ('Letters are:', set([0, 1, 4, 6]))
 ('Letters are:', set([0, 1, 4, 6]))
 
@@ -70,7 +70,7 @@ print('Letters are:', GEEK)
 
  **向集合添加元组:**
 
-```
+```py
 # Python code to demonstrate addition of tuple to a set.
 s = {'g', 'e', 'e', 'k', 's'}
 t = ('f', 'o')
@@ -83,7 +83,7 @@ print(s)
 
 输出:
 
-```
+```py
 {'k', 's', 'e', 'g', ('f', 'o')}
 
 ```

@@ -10,7 +10,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > label.setStyleSheet("border :3px solid black;"
 >                     "padding-top : 20px;"
 >                     "padding-left:30px;"
@@ -25,7 +25,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

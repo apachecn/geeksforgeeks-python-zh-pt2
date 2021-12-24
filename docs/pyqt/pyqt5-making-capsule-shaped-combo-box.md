@@ -6,7 +6,7 @@
 
 为了使组合框循环，我们必须更改与组合框关联的样式表，下面是样式表代码
 
-```
+```py
 QComboBox
 {
 border : 1px solid black;
@@ -21,7 +21,7 @@ border-radius : 20px;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

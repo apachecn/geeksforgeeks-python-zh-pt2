@@ -22,7 +22,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import wx 
 
 class MyTree(wx.TreeCtrl): 
@@ -84,7 +84,7 @@ if __name__ == '__main__': 
 
 ## 计算机编程语言
 
-```
+```py
 import wx 
 
 class MyTree(wx.TreeCtrl): 

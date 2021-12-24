@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # first import the module
 import webbrowser
 
@@ -51,7 +51,7 @@ webbrowser.open(url)
 
 ## 蟒蛇 3
 
-```
+```py
 # first import the module
 import webbrowser
 
@@ -78,7 +78,7 @@ webbrowser.get('chrome').open(url)
 
 ## 蟒蛇 3
 
-```
+```py
 # first import the module
 import webbrowser
 

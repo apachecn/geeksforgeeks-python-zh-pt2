@@ -33,7 +33,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys

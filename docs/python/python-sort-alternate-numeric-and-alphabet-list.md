@@ -7,7 +7,7 @@
 **方法#1:使用`isalpha() + isnumeric() + zip_longest()`**
 以上方法的组合可以用来执行此任务。在本文中，我们将数字和字母分开，然后分别对它们执行排序，并使用 zip _ longest()进行连接。
 
-```
+```py
 # Python3 code to demonstrate 
 # Sort alternate numeric and alphabet list
 # using isalpha() + isnumeric() + zip_longest()
@@ -34,7 +34,7 @@ print ("List after performing sorting : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['3', 'B', '2', 'A', 'C', '1']
 List after performing sorting : ['1', 'A', '2', 'B', '3', 'C']
 

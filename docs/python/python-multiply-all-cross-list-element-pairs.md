@@ -7,7 +7,7 @@
 **方法一:使用列表理解**
 这是执行这个任务最直接的方法。在这种情况下，我们迭代列表，执行每个元素与其他元素的乘法，并将结果存储在新列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # Multiply all cross list element pairs
 # using list comprehension
@@ -30,7 +30,7 @@ print ("The multiplication list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [4, 5, 6]
 The original list 2 is : [6, 4, 2]
 The multiplication list is : [24, 16, 8, 30, 20, 10, 36, 24, 12]

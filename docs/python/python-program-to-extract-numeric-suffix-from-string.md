@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Suffix numbers
 # Using loop + isdigit() + slicing 
@@ -54,7 +54,7 @@ print("Suffix number : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GFG04
 Suffix number : 04
 ```
@@ -65,7 +65,7 @@ Suffix number : 04
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Suffix numbers
 # Using regex
@@ -86,7 +86,7 @@ print("Suffix number : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : GFG04
 Suffix number : 04
 ```

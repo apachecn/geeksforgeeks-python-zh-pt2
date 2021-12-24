@@ -12,7 +12,7 @@
 
 **代码#1 :** 打印活动工作表标题名称的程序
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -34,13 +34,13 @@ print("active sheet title: " + sheet_title)
 
 **输出:**
 
-```
+```py
 active sheet title: Sheet
 ```
 
 **代码#2 :** 程序更改标题名称
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -60,13 +60,13 @@ print("sheet name is renamed as: " + sheet.title)
 
 **输出:**
 
-```
+```py
 sheet name is renamed as: sheet1
 ```
 
 **代码#3 :** 编写 Excel 表格的程序
 
-```
+```py
 # import openpyxl module
 import openpyxl
 
@@ -115,7 +115,7 @@ wb.save("C:\\Users\\user\\Desktop\\demo.xlsx")
 
 **代码#4 :** 在工作簿中添加工作表的程序
 
-```
+```py
 # import openpyxl module
 import openpyxl
 

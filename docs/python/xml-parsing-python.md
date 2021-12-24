@@ -16,7 +16,7 @@
 
 **实施:**
 
-```
+```py
 #Python code to illustrate parsing of XML files
 # importing the required modules
 import csv
@@ -110,7 +110,7 @@ if __name__ == "__main__":
 
 *   **Loading and saving RSS feed**
 
-    ```
+    ```py
     def loadRSS():
         # url of rss feed
         url = 'http://www.hindustantimes.com/rss/topnews/rssfeed.xml'
@@ -133,19 +133,19 @@ if __name__ == "__main__":
 
     好了，现在让我们来看看 **parseXML()** 函数:
 
-    ```
+    ```py
     tree = ET.parse(xmlfile)
     ```
 
     这里，我们通过解析传递的**XML 文件来创建一个**元素树**对象。**
 
-    ```
+    ```py
     root = tree.getroot()
     ```
 
     **getroot()** 函数返回**树**的根作为**元素**对象。
 
-    ```
+    ```py
     for item in root.findall('./channel/item'):
     ```
 
@@ -153,7 +153,7 @@ if __name__ == "__main__":
     **。/channel/item** 实际上是 [XPath](https://www.w3.org/TR/xpath/) 语法(XPath 是一种用于寻址 XML 文档各部分的语言)。在这里，我们要找到**通道**的所有**项**子级**根**的子级(用“.”表示))元素。
     您可以在这里阅读更多关于支持的 XPath 语法[的信息。](https://docs.python.org/2/library/xml.etree.elementtree.html#supported-xpath-syntax)
 
-    ```
+    ```py
     for item in root.findall('./channel/item'):
 
             # empty news dictionary
@@ -174,7 +174,7 @@ if __name__ == "__main__":
 
     现在，我们知道我们正在迭代**项**元素，其中每个**项**元素包含一条新闻。因此，我们创建了一个空的**新闻**字典，我们将在其中存储关于新闻条目的所有可用数据。要遍历元素的每个子元素，我们只需遍历它，如下所示:
 
-    ```
+    ```py
     for child in item:
     ```
 
@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
     我们将不得不单独处理名称空间标签，因为它们在解析时会扩展到它们的原始值。所以，我们这样做:
 
-    ```
+    ```py
     if child.tag == '{http://search.yahoo.com/mrss/}content':
                     news['media'] = child.attrib['url']
     ```
@@ -191,13 +191,13 @@ if __name__ == "__main__":
     **child.attrib** 是与元素相关的所有属性的字典。这里，我们对**媒体:内容**命名空间标签的 **url** 属性感兴趣。
     现在，对于所有其他孩子，我们只需做:
 
-    ```
+    ```py
     news[child.tag] = child.text.encode('utf8')
     ```
 
     **child.tag** 包含子元素的名称。 **child.text** 存储该子元素中的所有文本。最后，一个示例项元素被转换为字典，如下所示:
 
-    ```
+    ```py
     {'description': 'Ignis has a tough competition already, from Hyun.... ,
      'guid': 'http://www.hindustantimes.com/autos/maruti-ignis-launch.... ,
      'link': 'http://www.hindustantimes.com/autos/maruti-ignis-launch.... ,

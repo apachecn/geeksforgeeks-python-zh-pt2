@@ -17,7 +17,7 @@
 
 **语法:**
 
-```
+```py
 wx.ToolBar.CreateTool(self, control, label)
 ```
 
@@ -25,7 +25,7 @@ wx.ToolBar.CreateTool(self, control, label)
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

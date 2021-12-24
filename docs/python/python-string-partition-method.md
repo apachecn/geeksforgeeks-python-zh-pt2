@@ -20,7 +20,7 @@ Python String partition()方法在第一次出现分隔符时拆分字符串，�
 
 ## 蟒蛇 3
 
-```
+```py
 string = "pawan is a good"
 
 # 'is' separator is found
@@ -37,7 +37,7 @@ print(string.partition('is'))
 
 **输出:**
 
-```
+```py
 ('pawan ', 'is ', 'a good')
 ('pawan is a good', '', '')
 ('pawan ', 'is', " a good, isn't it")
@@ -47,7 +47,7 @@ print(string.partition('is'))
 
 ## 蟒蛇 3
 
-```
+```py
 string = "geeks is a good"
 
 # 'is' separator is found
@@ -64,7 +64,7 @@ print(string.partition('is'))
 
 **输出:**
 
-```
+```py
 ('geeks ', 'is ', 'a good')
 ('geeks is a good', '', '')
 ('geeks ', 'is', " a good, isn't it")

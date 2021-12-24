@@ -15,7 +15,7 @@ Python 中的`***os.abort()***`方法用于向当前进程生成一个 *SIGABRT*
 
 **代码#1:** 使用`***os.abort()***`方法
 
-```
+```py
 # Python program to explain os.abort() method 
 
 # importing os module  
@@ -40,7 +40,7 @@ print("This will not be printed")
 
 **Output:**
 
-```
+```py
 Hello! Geeks
 Aborted (core dumped)
 
@@ -48,7 +48,7 @@ Aborted (core dumped)
 
 **代码#2:** 使用`***os.abort()***`方法
 
-```
+```py
 # Python program to explain os.abort() method 
 
 # importing os module  
@@ -89,7 +89,7 @@ else :
 
 **Output:**
 
-```
+```py
 In child process
 Process ID: 13914
 Hello! Geeks

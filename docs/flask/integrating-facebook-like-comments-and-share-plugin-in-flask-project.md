@@ -6,7 +6,7 @@ Flask 是一个 Python 框架，它允许我们构建网络应用程序。它是
 
 **安装**
 
-```
+```py
 pip install flask
 ```
 
@@ -16,7 +16,7 @@ pip install flask
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,render_template
 
 app = Flask(__name__)
@@ -41,7 +41,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -90,7 +90,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask,render_template
 
 app = Flask(__name__)
@@ -109,7 +109,7 @@ if __name__ == '__main__':
 
 要运行此应用程序，请打开终端或 cmd
 
-```
+```py
 python app.py
 ```
 
@@ -127,7 +127,7 @@ python app.py
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -150,7 +150,7 @@ python app.py
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route("/likeandshare")
 def likeandshare():
     return render_template("Likeandshare.html")
@@ -158,7 +158,7 @@ def likeandshare():
 
 然后再次使用命令运行应用程序
 
-```
+```py
 python3 app.py
 ```
 

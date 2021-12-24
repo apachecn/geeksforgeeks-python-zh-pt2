@@ -6,7 +6,7 @@
 
 在终端中使用以下命令安装 TextBlob:
 
-```
+```py
 pip install -U textblob
 python -m textblob.download_corpora
 
@@ -22,7 +22,7 @@ python -m textblob.download_corpora
 
 **所以基本上标记化包括从正文中拆分句子和单词。**
 
-```
+```py
 # from textblob lib. import TextBlob method
 from textblob import TextBlob
 

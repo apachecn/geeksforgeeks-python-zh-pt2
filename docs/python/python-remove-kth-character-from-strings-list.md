@@ -7,7 +7,7 @@
 **方法一:使用列表理解+列表切片**
 这是可以用来执行这个任务的简写。在本文中，我们只是使用切片重新创建所需的字符串，并使用列表理解将逻辑扩展到列表中的每个字符串元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Kth character from strings list
 # using list comprehension + list slicing
@@ -31,7 +31,7 @@ print("List after removal of Kth character of each string : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['akash', 'nikhil', 'manjeet', 'akshat']
 List after removal of Kth character of each string : ['akah', 'nikil', 'maneet', 'aksat']
 

@@ -17,7 +17,7 @@
 
 **代码#1:创建梯形连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import trapz 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D843A9C8
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:梯形连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [0.5830132  0.67200586 0.84671038 0.9469406  0.18545607 0.33055857
  0.39509654 0.28159699 0.85689182 0.86438509]
@@ -68,7 +68,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -80,7 +80,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.02040816 0.04081633 0.06122449 0.08163265 0.10204082
  0.12244898 0.14285714 0.16326531 0.18367347 0.20408163 0.2244898

@@ -6,13 +6,13 @@
 
 **语法:**
 
-```
+```py
 modf(number) 
 ```
 
 **参数:**
 
-```
+```py
 There is only one mandatory parameter which is the number. 
 ```
 
@@ -21,7 +21,7 @@ There is only one mandatory parameter which is the number.
 
 例外:
 
-```
+```py
 TypeError:  If anything other then a float number is passed, it returns a type error. 
 ```
 
@@ -29,7 +29,7 @@ TypeError:  If anything other then a float number is passed, it returns a type e
 
 **代码#1**
 
-```
+```py
 # Python3 program to demonstrate the function modf()
 
 # This will import math module
@@ -46,7 +46,7 @@ print("math.modf(2) : ", math.modf(2)) 
 
 **输出:**
 
-```
+```py
 math.modf(100.12) :  (0.12000000000000455, 100.0)
 math.modf(-100.72) :  (-0.7199999999999989, -100.0)
 math.modf(2) :  (0.0, 2.0)
@@ -55,7 +55,7 @@ math.modf(2) :  (0.0, 2.0)
 
 **代码#2 : <font color="red">类型错误</font>T3】**
 
-```
+```py
 # Python3 program to demonstrate the  
 # error in function modf()
 
@@ -68,7 +68,7 @@ print("math.modf(100.12) : ", math.modf("100.12"))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fa6d7643de17bafe9a0e0693458e4bdb.py", line 9, in 
     print("math.modf(100.12) : ", math.modf("100.12"))
@@ -78,7 +78,7 @@ TypeError: a float is required
 
 **代码#3** :
 
-```
+```py
 # Python3 program to demonstrate the 
 # error in function modf()
 
@@ -99,7 +99,7 @@ print("modf() on Fourth tuple element : ", modf(tpl[3]))
 
 输出:
 
-```
+```py
 modf() on First list element :  (0.1200000000000001, 3.0)
 modf() on third list element :  (0.25, 13.0)
 modf() on Second tuple element :  (-0.25, -15.0)
@@ -112,7 +112,7 @@ modf() on Fourth tuple element :  (-0.1999999999999993, -31.0)
 
 **代码#4 :**
 
-```
+```py
 # Python3 program to demonstrate the 
 # application of function modf()
 
@@ -130,7 +130,7 @@ print(a[0]*b[0])
 
 输出:
 
-```
+```py
 0.05999999999999993
 
 ```

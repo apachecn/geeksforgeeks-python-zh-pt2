@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if tuple list has Single element
 # Using loop 
@@ -49,7 +49,7 @@ print("Are all elements equal : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(3, 3, 3), (3, 3), (3, 3, 3), (3, 3)]
 Are all elements equal : True
 ```
@@ -60,7 +60,7 @@ Are all elements equal : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if tuple list has Single element
 # Using all() + list comprehension
@@ -80,7 +80,7 @@ print("Are all elements equal : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [(3, 3, 3), (3, 3), (3, 3, 3), (3, 3)]
 Are all elements equal : True
 ```

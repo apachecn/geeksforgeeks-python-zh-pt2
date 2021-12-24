@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 
@@ -58,7 +58,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 Table dropped !
 ```
 
@@ -72,7 +72,7 @@ Table dropped !
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 
@@ -104,7 +104,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 Table dropped !
 ```
 

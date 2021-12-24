@@ -5,7 +5,7 @@
 给定两个矩阵，任务是我们必须用 python 创建一个乘法两个矩阵的程序。
 示例:
 
-```
+```py
 Input : X = [[1, 7, 3],
              [3, 5, 6],
              [6, 8, 9]]
@@ -23,7 +23,7 @@ Output : [55, 65, 49, 5]
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to multiply two matrices using nested loops
 
 # take a 3x3 matrix
@@ -56,7 +56,7 @@ for r in result:
 
 输出:
 
-```
+```py
 [114, 160, 60, 27]
 [74, 97, 73, 14]
 [119, 157, 112, 23]
@@ -66,7 +66,7 @@ for r in result:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to multiply two matrices using list comprehension
 
 # take a 3x3 matrix
@@ -90,7 +90,7 @@ for r in result:
 
 输出:
 
-```
+```py
 [114, 160, 60, 27]
 [74, 97, 73, 14]
 [119, 157, 112, 23]
@@ -100,7 +100,7 @@ for r in result:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to multiply two matrices (vectorized implementation)
 
 # Program to multiply two matrices (vectorized implementation)
@@ -129,7 +129,7 @@ for r in result:
 
 输出:
 
-```
+```py
 [114, 160, 60, 27]
 [74, 97, 73, 14]
 [119, 157, 112, 23]

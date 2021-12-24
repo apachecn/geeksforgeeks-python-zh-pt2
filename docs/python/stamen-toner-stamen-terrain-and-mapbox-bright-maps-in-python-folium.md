@@ -18,7 +18,7 @@ leaf library 是 Python 中一个强大的数据可视化库，人们使用它�
 
 **例 1:** **以孟买为中心的世界地图**
 
-```
+```py
 import numpy as np  
 import pandas as pd
 import folium
@@ -40,7 +40,7 @@ world_map
 
 **例 2:** **以孟买为中心的世界雄蕊地形图**
 
-```
+```py
 import numpy as np  
 import pandas as pd
 import folium
@@ -64,7 +64,7 @@ world_map
 
 **例 3:** **以孟买为中心的世界地图**
 
-```
+```py
 import numpy as np  
 import pandas as pd
 import folium

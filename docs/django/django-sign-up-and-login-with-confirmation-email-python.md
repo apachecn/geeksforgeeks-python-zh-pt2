@@ -9,39 +9,39 @@ Django 默认提供一个*认证系统配置*。**用户**对象是认证系统�
 *   姜戈:[姜戈安装](https://www.geeksforgeeks.org/django-introduction-and-installation/)
 *   脆皮形式:
 
-```
+```py
 pip install --upgrade django-crispy-forms
 ```
 
 **基本设置:**
 通过以下命令启动项目–
 
-```
+```py
  django-admin startproject project
 ```
 
 将目录更改为项目–
 
-```
+```py
  cd project
 ```
 
 启动服务器-通过在终端中键入以下命令启动服务器–
 
-```
+```py
  python manage.py runserver
 ```
 
 要检查服务器是否正在运行，请转到网络浏览器，输入 *http://127.0.0.1:8000/* 作为网址。
 现在按停止服务器
 
-```
+```py
 ctrl-c
 ```
 
 **我们现在创建一个名为“用户”的应用。**
 
-```
+```py
 python manage.py startapp user
 ```
 
@@ -55,7 +55,7 @@ python manage.py startapp user
 
 现在在 settings.py 的 todo_site 中添加“用户”应用程序和“脆皮表单”,然后添加
 
-```
+```py
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ```
 
@@ -74,7 +74,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 from user import views as user_view
@@ -97,7 +97,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path, include
 from django.conf import settings
 from . import views
@@ -112,7 +112,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
@@ -176,7 +176,7 @@ def Login(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
@@ -200,14 +200,14 @@ class UserRegisterForm(UserCreationForm):
 
 **进行迁移并迁移。**
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
 
 **现在你可以运行服务器查看你的应用了。**
 
-```
+```py
 python manage.py runserver
 ```
 

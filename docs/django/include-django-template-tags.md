@@ -7,14 +7,14 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 句法
 
-```
+```py
 {% include "template_name.html" %}
 
 ```
 
 ###### 例子
 
-```
+```py
 {% include "foo/bar.html" %}
 ```
 
@@ -32,7 +32,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 现在创建一个视图，我们将通过它访问模板，
 在`geeks/views.py`中，
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -45,7 +45,7 @@ def geeks_view(request):
 
 创建 url 路径以映射到此视图。在`geeks/urls.py`中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -58,7 +58,7 @@ urlpatterns = [
 
 现在我们将创建三个模板来演示**包括标签**。在`geeks.html`中创建基础模板，
 
-```
+```py
 <html>
     <!-- Include header -->
     {% include "component1.html" %}
@@ -72,14 +72,14 @@ urlpatterns = [
 
 在模板/组件 1.html 中创建两个组件
 
-```
+```py
 <!-- component1.html -->
 <h2> Header Here </h2>>
 ```
 
 和模板/组件 2.html
 
-```
+```py
 <!-- component2.html -->
 <h4>Footer here</h4>
 ```
@@ -92,6 +92,6 @@ urlpatterns = [
 
 可以使用关键字参数向模板传递额外的上下文:
 
-```
+```py
 {% include "name_snippet.html" with person="Jane" greeting="Hello" %}
 ```

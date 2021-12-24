@@ -26,7 +26,7 @@
 
 首先，让我们看一下 Java 语法来添加两个数字…
 
-```
+```py
 class AddNums
 ()
 {
@@ -42,7 +42,7 @@ class AddNums
 
 现在让我们看看如何用 Python 编写相同的代码…
 
-```
+```py
 first = 1
 second = 2
 sum = first + second

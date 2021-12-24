@@ -5,7 +5,7 @@
 套接字编程是连接网络上两个节点相互通信的一种方式。一个套接字(节点)监听某个 IP 的特定端口，而另一个套接字则与另一个套接字建立连接。服务器形成侦听器套接字，而客户端则连接到服务器。
 socket 编程是通过导入 Socket 库，制作一个简单的 Socket 开始的。
 
-```
+```py
 import socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 ```
@@ -18,7 +18,7 @@ Server 是一个为网络或互联网上的其他计算机提供服务的程序�
 
 ## 蟒蛇 3
 
-```
+```py
 import socket
 
 # take the server name and port name

@@ -7,14 +7,14 @@
 BLOB 代表二进制大对象。blob 是一种可以存储二进制数据的数据类型。这不同于数据库中使用的大多数其他数据类型，如整数、浮点数、字符和字符串，它们存储字母和数字。BLOB 是存储在数据库中的二进制数据的大型复杂集合。基本上，BLOB 用于存储媒体文件，如图像、视频和音频文件。由于它能够存储多媒体文件，因此需要巨大的磁盘空间。BLOB 的长度也可以达到 2，147，483，647 个字符。BLOB 提供快速的多媒体传输。
 **从图像中获取斑点文件:**
 
-```
+```py
      with open('*image_path*') as f:
     image_blob = f.read()
 ```
 
 **从魔杖中的斑点读取图像:**
 
-```
+```py
 with Image(blob=image_binary) as img:
     \\other code
 ```
@@ -27,7 +27,7 @@ with Image(blob=image_binary) as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # import required libraries
 from __future__ import print_function
 
@@ -52,7 +52,7 @@ with Image(blob = image_binary) as img:
 
 **输出:**
 
-```
+```py
 height = 300
 width = 400
 ```

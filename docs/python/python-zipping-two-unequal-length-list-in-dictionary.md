@@ -8,7 +8,7 @@
 
 **方法#1:使用`itertools()`**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of a dictionary
 # with same keys in the list of dictionary
@@ -28,14 +28,14 @@ print("resultant dictionary : ", str(result))
 
 **Output:**
 
-```
+```py
 resultant dictionary :  {'b': 2, 'd': 1, 'c': 3, 'e': 2, 'a': 1}
 
 ```
 
 **方法 2:使用字典理解**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of dictionary
 # with same keys in list of dictionary
@@ -55,14 +55,14 @@ print("resultant dictionary : ", str(result))
 
 **Output:**
 
-```
+```py
 resultant dictionary :  {'d': 1, 'c': 3, 'e': 2, 'b': 2, 'a': 1}
 
 ```
 
 **方法三:用得克()**
 
-```
+```py
 # Python code to demonstrate
 # return the sum of values of dictionary
 # with same keys in list of dictionary
@@ -85,7 +85,7 @@ print("resultant dictionary : ", str(result))
 
 **Output:**
 
-```
+```py
 resultant dictionary :  {'c': 3, 'd': 1, 'b': 2, 'e': 2, 'a': 1}
 
 ```

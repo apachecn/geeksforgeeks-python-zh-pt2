@@ -46,7 +46,7 @@
 
 **安装:**
 
-```
+```py
 pip install virtualenv
 python -m pip install selenium
 python -m pip install requests
@@ -70,13 +70,13 @@ python -m pip install urllib3
 
 **代码穿越:**
 
-```
+```py
 URL: https://en.wikipedia.org/wiki/Main_Page
 ```
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import requests
 
@@ -111,7 +111,7 @@ print(page.content)
 *   Python 模块
 *   美丽的汤库
 
-```
+```py
 pip install bs4
 ```
 
@@ -119,7 +119,7 @@ pip install bs4
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from bs4 import BeautifulSoup
 import requests
@@ -158,7 +158,7 @@ print(soup.prettify())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from bs4 import BeautifulSoup
 import requests
@@ -202,7 +202,7 @@ print(soup.find_all('p')[0].get_text())
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from bs4 import BeautifulSoup
 import requests

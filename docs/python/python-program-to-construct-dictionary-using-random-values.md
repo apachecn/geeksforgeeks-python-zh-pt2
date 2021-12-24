@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_list = ["Gfg", "is", "Best"], i, j = 2, 9
 Output : {'Gfg': 3, 'is': 9, 'Best': 4}
 Explanation : Random values assigned between 2 and 9.
@@ -22,7 +22,7 @@ Explanation : Random values assigned between 2 and 10.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct dictionary using random values
 # Using randint() + loop
@@ -59,7 +59,7 @@ print("Random range initialized dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct dictionary using random values
 # Using randint() + loop

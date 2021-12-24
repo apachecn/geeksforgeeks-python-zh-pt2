@@ -15,7 +15,7 @@ fabs()是 Python 2 和 Python 3 中数学库中指定的方法。
 
 **代码#1 :** 代码演示晶圆厂()工作
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of fabs()
 
@@ -46,7 +46,7 @@ print(type(math.fabs(y)))
 
 输出:
 
-```
+```py
 The magnitude of integer is : 2.0
 The type of output is : 
 
@@ -60,7 +60,7 @@ The type of output is :
 
 **代码#2 :** 代码演示晶圆厂的异常()
 
-```
+```py
 # Python3 code to demonstrate 
 # the exception of fabs()
 
@@ -95,7 +95,7 @@ except Exception as e:
 
 输出:
 
-```
+```py
 The absolute value of string is :
 Error !! The error on passing string is :
 a float is required

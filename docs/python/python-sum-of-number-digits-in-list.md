@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Sum of number digits in List
 # using loop + str()
@@ -35,7 +35,7 @@ print ("List Integer Summation : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [12, 67, 98, 34]
 List Integer Summation : [3, 13, 17, 7]
 ```

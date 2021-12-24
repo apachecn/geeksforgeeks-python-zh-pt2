@@ -23,7 +23,7 @@ MongoDB 是一个跨平台的面向文档的数据库程序，也是最流行的
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # find_one()
 
@@ -56,7 +56,7 @@ print(x)
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 # establishing connection
@@ -86,7 +86,7 @@ find()方法的第二个参数是您可以指定要包含在结果中的字段�
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 # establishing connection

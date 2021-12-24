@@ -23,7 +23,7 @@ Python 中的`***os.makedev()***`方法用于从给定的 *>主*和*次*设备�
 
 **Code:** Use of os.makedev() method to create a raw device number using major and minor device numbers
 
-```
+```py
 # Python program to explain os.makedev() method  
 
 # importing os module 
@@ -62,7 +62,7 @@ print("Composed raw device number(major = % d, minor = % d):"\
 
 **Output:**
 
-```
+```py
 Composed raw device number(major = 8, minor = 8): 2056
 Composed raw device number(major = 103, minor = 0): 26368
 

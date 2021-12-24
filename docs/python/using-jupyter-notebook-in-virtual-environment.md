@@ -8,7 +8,7 @@
 
 打开要创建项目的目录。打开 cmd/powershell 并导航到同一目录，然后运行以下命令来创建虚拟环境。
 
-```
+```py
 python -m venv venv
 ```
 
@@ -18,7 +18,7 @@ python -m venv venv
 
 现在我们有了虚拟环境，让我们激活它。
 
-```
+```py
 venv\Scripts\activate
 ```
 
@@ -28,7 +28,7 @@ venv\Scripts\activate
 
 运行以下命令将创建一个内核，该内核可用于在虚拟环境中运行 jupyter notebook 命令。
 
-```
+```py
 ipython kernel install --user --name=venv
 ```
 
@@ -42,7 +42,7 @@ ipython kernel install --user --name=venv
 
 您可以看到，现在内核列表中有了内核，并且 jupyter 笔记本也有了独立的依赖项，更加有条理。完成项目并且不再需要内核后，可以通过运行以下代码来卸载它:
 
-```
+```py
 jupyter-kernelspec uninstall venv
 ```
 

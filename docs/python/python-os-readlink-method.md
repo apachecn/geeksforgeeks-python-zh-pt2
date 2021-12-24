@@ -21,7 +21,7 @@ Python 中的`***os.readlink()***`方法用于解析符号链接。此方法返�
 
 **Code:** Use of os.readlink() method to resolve a symbolic link
 
-```
+```py
 # Python program to explain os.readlink() method 
 
 # importing os module 
@@ -53,7 +53,7 @@ print("Symbolic link points to", originalPath)
 
 **Output:**
 
-```
+```py
 Symbolic link points to /home/ihritik/Documents/file.txt
 
 ```

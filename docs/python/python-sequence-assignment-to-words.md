@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sequence Assignment to Words
 # Using split() + enumerate() + dict()
@@ -38,7 +38,7 @@ print("The Assigned Sequence : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Assigned Sequence : {0: 'geekforgeeks', 1: 'is', 2: 'best', 3: 'for', 4: 'geeks'}
 
@@ -50,7 +50,7 @@ The Assigned Sequence : {0: 'geekforgeeks', 1: 'is', 2: 'best', 3: 'for', 4: 'ge
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sequence Assignment to Words
 # Using zip() + count() + dict()
@@ -72,7 +72,7 @@ print("The Assigned Sequence : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks is best for geeks
 The Assigned Sequence : {0: 'geekforgeeks', 1: 'is', 2: 'best', 3: 'for', 4: 'geeks'}
 

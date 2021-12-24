@@ -17,7 +17,7 @@
 **方法一:使用`max() + split()` +列表理解**
 以上功能的组合用于解决这个问题。在这种情况下，我们对列表中特定范围内的每个字符串元素执行拆分，然后使用 max()在每个列表中查找该范围内的最大元素。首先，在子列表中最大，然后在其他索引中最大。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Ranged Maximum Element in String Matrix
 # Using max() + split() + list comprehension
@@ -50,7 +50,7 @@ print("The maximum ranged element : " + str(res)) 
 **方法 2:使用生成器表达式+ `max()`**
 上述功能的组合可以用来解决这个问题。在本文中，我们使用 single max()函数最大限度地提取所有元素，并使用嵌套生成器表达式一次性提取字符串的所有元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Ranged Maximum Element in String Matrix
 # Using generator expression + max()

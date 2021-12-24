@@ -16,7 +16,7 @@
 
 ****例 1:****
 
-```
+```py
 # Python code to implement
 # the acosh()function
 
@@ -35,7 +35,7 @@ print (math.acosh(1))
 
 ****输出:****
 
-```
+```py
 2.6339157938496336
 4.718419142372879
 1.5447131178707394
@@ -44,7 +44,7 @@ print (math.acosh(1))
 
 ****例 2:****
 
-```
+```py
 # Python code implementation of 
 # the acosh() function
 import math 
@@ -71,7 +71,7 @@ plt.show() 
 
 ****输出:****
 
-```
+```py
 Input_Array : 
  [1\.         1.30584843 1.61169686 1.91754528 2.22339371 2.52924214
  2.83509057 3.14093899 3.44678742 3.75263585 4.05848428 4.3643327

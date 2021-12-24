@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 import time
@@ -29,14 +29,14 @@ print(type(media_player))
 
 **输出:**
 
-```
+```py
 class 'vlc.MediaPlayer'
 
 ```
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 import time

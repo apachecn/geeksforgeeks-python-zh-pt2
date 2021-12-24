@@ -22,7 +22,7 @@ Python 提供了[**【wxpython】**](https://www.geeksforgeeks.org/python-wxpyth
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing wx library
 import wx
 

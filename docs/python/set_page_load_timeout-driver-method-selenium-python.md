@@ -6,14 +6,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 本文围绕 Selenium 中的 set_page_load_timeout 驱动方法展开。set_page_load_timeout 方法设置在引发错误之前等待页面加载完成的时间。
 **语法–**
 
-```
+```py
 driver.set_page_load_timeout(time_To_wait)
 ```
 
 **示例–**
 现在可以使用 set_page_load_timeout 方法作为驱动程序方法，如下所示–
 
-```
+```py
 driver.get("https://www.geeksforgeeks.org/")
 driver.set_page_load_timeout(30)
 ```
@@ -25,7 +25,7 @@ driver.set_page_load_timeout(30)
 
 ## 蟒蛇 3
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

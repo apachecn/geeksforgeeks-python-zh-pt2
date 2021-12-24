@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum value key assignment
 # Using dictionary comprehension + min() + items()
@@ -46,7 +46,7 @@ print("The minimum value keys : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary 1 is : {'gfg': 1, 'is': 7, 'best': 8}
 The original dictionary 2 is : {'gfg': 2, 'is': 2, 'best': 10}
 The minimum value keys : {'gfg': 1, 'is': 2, 'best': 8}
@@ -58,7 +58,7 @@ The minimum value keys : {'gfg': 1, 'is': 2, 'best': 8}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Minimum value key assignment
 # Using dict() + min() + zip()
@@ -81,7 +81,7 @@ print("The minimum value keys : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary 1 is : {'gfg': 1, 'is': 7, 'best': 8}
 The original dictionary 2 is : {'gfg': 2, 'is': 2, 'best': 10}
 The minimum value keys : {'gfg': 1, 'is': 2, 'best': 8}

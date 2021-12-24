@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Elements in K distance with N
 # Using list comprehension
@@ -44,7 +44,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 9, 1, 10, 6, 13]
 Filtered elements : [9, 1, 10, 13]
 
@@ -56,7 +56,7 @@ Filtered elements : [9, 1, 10, 13]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Elements in K distance with N
 # Using filter() + lambda
@@ -82,7 +82,7 @@ print("Filtered elements : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4, 5, 9, 1, 10, 6, 13]
 Filtered elements : [9, 1, 10, 13]
 

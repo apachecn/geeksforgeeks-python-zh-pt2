@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiple Column Sort in Tuples
 # Using sorted() + lambda
@@ -36,7 +36,7 @@ print("The sorted records : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(6, 7), (6, 5), (1, 4), (8, 10)]
 The sorted records : [(8, 10), (6, 5), (6, 7), (1, 4)]
 ```
@@ -46,7 +46,7 @@ The sorted records : [(8, 10), (6, 5), (6, 7), (1, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Multiple Column Sort in Tuples
 # Using itemgetter() + sorted()
@@ -69,7 +69,7 @@ print("The sorted records : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [(6, 7), (6, 5), (1, 4), (8, 10)]
 The sorted records : [(8, 10), (6, 5), (6, 7), (1, 4)]
 ```

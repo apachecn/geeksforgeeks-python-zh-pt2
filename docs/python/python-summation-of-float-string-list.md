@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + float()` +生成器**
 这个问题可以使用和函数来解决，在和函数中，我们首先将字符串转换为 float，然后将这个逻辑传递给各自和函数中的函数。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Summation of float string list
 # using sum() + float() + generator
@@ -28,7 +28,7 @@ print("The summation of float string list : " + str(res_sum))
 
 **Output :**
 
-```
+```py
 The original list is : ['4.5', '7.8', '9.8', '10.3']
 The summation of float string list : 32.400000000000006
 

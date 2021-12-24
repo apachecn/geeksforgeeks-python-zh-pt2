@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `startswith()`**
 以上两种方法的结合可以用来执行这个特定的任务。在这种情况下，词典理解完成词典构建的基本任务，`startswith()`执行从特定前缀开始检查关键字的实用任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Prefix key match in dictionary
 # Using dictionary comprehension + startswith()

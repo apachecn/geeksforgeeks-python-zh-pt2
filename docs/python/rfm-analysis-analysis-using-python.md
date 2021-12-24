@@ -24,7 +24,7 @@ RFM 代表最近，频率，货币价值。在业务分析中，我们经常使�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing necessary libraries
 import pandas as pd
 import datetime as dt
@@ -43,7 +43,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df_recency = df.groupby(by='Customer Name',
                         as_index=False)['Order Date'].max()
 df_recency.columns = ['CustomerName', 'LastPurchaseDate']
@@ -61,7 +61,7 @@ df_recency.head()
 
 ## 蟒蛇 3
 
-```
+```py
 frequency_df = df.drop_duplicates().groupby(
     by=['Customer Name'], as_index=False)['Order Date'].count()
 frequency_df.columns = ['CustomerName', 'Frequency']
@@ -76,7 +76,7 @@ frequency_df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df['Total'] = df['Sales']*df['Quantity']
 monetary_df = df.groupby(by='Customer Name', as_index=False)['Total'].sum()
 monetary_df.columns = ['CustomerName', 'Monetary']
@@ -91,7 +91,7 @@ monetary_df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 rf_df = df_recency.merge(frequency_df, on='CustomerName')
 rfm_df = rf_df.merge(monetary_df, on='CustomerName').drop(
     columns='LastPurchaseDate')
@@ -106,7 +106,7 @@ rfm_df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 rfm_df['R_rank'] = rfm_df['Recency'].rank(ascending=False)
 rfm_df['F_rank'] = rfm_df['Frequency'].rank(ascending=True)
 rfm_df['M_rank'] = rfm_df['Monetary'].rank(ascending=True)

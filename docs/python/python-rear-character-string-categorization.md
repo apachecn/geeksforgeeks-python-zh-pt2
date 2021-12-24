@@ -7,7 +7,7 @@
 **方法#1:使用`next() + lambda + loop`**
 以上 3 个函数的组合就是用朴素的方法来解决这个特殊的问题。lambda 函数执行查找类似后置字符的任务，next 函数有助于向前迭代。
 
-```
+```py
 # Python3 code to demonstrate 
 # Rear character String categorization
 # using next() + lambda + loop 
@@ -34,7 +34,7 @@ print("The list after Categorization : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : ['an', 'apple', 'geek', 'for', 'greek', 'free']
 The list after Categorization : [['an'], ['apple', 'free'], ['geek', 'greek'], ['for']]
 

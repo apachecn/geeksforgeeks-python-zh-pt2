@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install openpyxl
 ```
 
@@ -30,7 +30,7 @@ pip install openpyxl
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to read an excel file 
 
 # import openpyxl module 

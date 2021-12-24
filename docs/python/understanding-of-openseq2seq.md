@@ -10,7 +10,7 @@
 
 OpenSeq2Seq 是一个基于开源 TensorFlow 的工具包，具有多 GPU 和混合精度训练的特点，可以显著减少各种 NLP 模型的训练时间。例如，
 
-```
+```py
 1\. Natural Language Translation: GNMT, Transformer, ConvS2S
 2\. Speech Recognition: Wave2Letter, DeepSpeech2
 3\. Speech Synthesis: Tacotron 2
@@ -41,7 +41,7 @@ OpenSeq2Seq 是一个基于开源 TensorFlow 的工具包，具有多 GPU 和混
 
 </center>
 
-```
+```py
 where, 
 ht = hidden state
 ht-1 = previous hidden state
@@ -101,7 +101,7 @@ OpenSeq2Seq 工具包提供了各种类，用户可以从中继承自己的模�
     *   正规化
     *   批次大小等。
 
-```
+```py
 For example, an OpenSeq2Seq model for Machine Translation would look like :
 
 Encoder - GNMTLikeEncoderWithEmbedding
@@ -163,7 +163,7 @@ Hyperparameters -
 > *   有了溢出，它就学会了垃圾。
 > *   对于混合精度训练，我们遵循一个包含以下 2 个步骤的算法:
 
-```
+```py
 Step 1 - Maintain float32 master copy of weights for weights update while using the float16 
      weights for forward and back propagation.     
 Step 2 - Apply loss scaling while computing gradients to prevent underflow during backpropagation.
@@ -190,7 +190,7 @@ OpenSeq2Seq 模型的混合精度训练涉及三件事:
 
 </center>
 
-```
+```py
 Working of Mixed Precision Wrapper (Step by Step)
 
 Each Iteration
@@ -208,7 +208,7 @@ Each Iteration
 
 如前所述，使用 F-16 的风险包括数值上溢/下溢。混合精度正则化确保这种情况不会在训练期间发生。因此，为了克服这些问题，我们采取了以下步骤:
 
-```
+```py
 Step 1 - All regularizers should be defined during variable creation.
 
 Step 2 - The regularizer function should be wrapped with the 'Mixed Precision Wrapper*'*. This takes care of 2 things:

@@ -8,7 +8,7 @@ Python 全局解释器锁(GIL)是一种进程锁，python 在处理进程时会�
 
 Python 有其他语言没有的东西，那就是引用计数器。在引用计数器的帮助下，我们可以计算 python 内部为数据对象赋值的引用总数。由于这个计数器，我们可以计数引用，当这个计数达到零时，变量或数据对象将自动释放。例如
 
-```
+```py
 # Python program showing
 # use of reference counter
 import sys
@@ -22,7 +22,7 @@ print(sys.getrefcount(string_gfg))
 
 **输出:**
 
-```
+```py
 4
 5
 
@@ -37,7 +37,7 @@ Python 在后端支持 C 语言，Python 拥有的所有相关库大部分都是
 当用户编写 Python 程序或任何计算机程序时，那些性能受 CPU 限制的程序和那些受 I/O 限制的程序是有区别的。中央处理器通过同时执行许多操作将程序推到极限，而输入/输出程序必须花时间等待输入/输出。例如
 **代码 1:执行简单倒计时的 CPU 绑定程序**
 
-```
+```py
 # Python program showing
 # CPU bound program
 
@@ -59,14 +59,14 @@ print('Time taken in seconds -', end - start)
 
 **输出:**
 
-```
+```py
 Time taken in seconds - 2.5236213207244873
 
 ```
 
 **代码 2:两个线程并行运行**
 
-```
+```py
 # Python program showing
 # two threads running parallel
 
@@ -94,7 +94,7 @@ print('Time taken in seconds -', end - start)
 
 **输出:**
 
-```
+```py
 Time taken in seconds - 2.183610439300537
 
 ```
@@ -109,7 +109,7 @@ GIL 到目前为止还没有改进，因为 python 2 有 GIL 实现，如果我�
 
 大多数时候，我们使用多重处理来防止程序来自 GIL。在这个实现中，python 为每个要运行的进程提供了不同的解释器，因此在这种情况下，单个线程被提供给多处理中的每个进程。
 
-```
+```py
 # Python program showing 
 # multiprocessing
 
@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 Time taken in seconds - 2.5148496627807617
 
 ```

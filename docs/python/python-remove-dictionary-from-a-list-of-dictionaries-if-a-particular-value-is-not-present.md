@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove dictionary if K value not present
 # Using loop + values()
@@ -59,7 +59,7 @@ print("Filtered dictionaries : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove dictionary if K value not present
 # Using list comprehension

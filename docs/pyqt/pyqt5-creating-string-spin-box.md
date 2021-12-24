@@ -6,7 +6,7 @@
 
 为了创建一个字符串旋转框，我们创建了一个继承了 QSpinBox 类的自定义类，下面是字符串旋转框类语法
 
-```
+```py
 # custom class for String Spin Box
 class StringBox(QSpinBox):
 
@@ -49,7 +49,7 @@ class StringBox(QSpinBox):
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

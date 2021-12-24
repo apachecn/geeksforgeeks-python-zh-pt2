@@ -8,7 +8,7 @@
 
 **代码#1:使用表格`char *, int`** 中提供的字节
 
-```
+```py
 void print_chars(char *s, int len)
 {
     int n = 0;
@@ -23,7 +23,7 @@ void print_chars(char *s, int len)
 
 **代码#2:使用宽字符形式`wchar_t *, int`**
 
-```
+```py
 void print_wchars(wchar_t *s, int len)
 {
     int n = 0;
@@ -40,7 +40,7 @@ void print_wchars(wchar_t *s, int len)
 
 **代码#3 :**
 
-```
+```py
 static PyObject *py_print_chars(PyObject *self, PyObject *args)
 {
     char *s;
@@ -58,7 +58,7 @@ static PyObject *py_print_chars(PyObject *self, PyObject *args)
 
 **代码#4 :**
 
-```
+```py
 static PyObject * py_print_wchars(PyObject * self, PyObject * args)
 {
     wchar_t * s;
@@ -78,7 +78,7 @@ static PyObject * py_print_wchars(PyObject * self, PyObject * args)
 
 **代码#5 :**
 
-```
+```py
 s = 'Spicy Jalape\u00f1o'
 print (print_chars(s))
 
@@ -87,7 +87,7 @@ print ("\n", print_wchars(s))
 
 **输出:**
 
-```
+```py
 53 70 69 63 79 20 4a 61 6c 61 70 65 c3 b1 6f
 
 53 70 69 63 79 20 4a 61 6c 61 70 65 f1 6f
@@ -98,7 +98,7 @@ print ("\n", print_wchars(s))
 
 **代码#6 :**
 
-```
+```py
 static PyObject *py_print_chars(PyObject *self, PyObject *args)
 {
     char *s;
@@ -120,7 +120,7 @@ static PyObject *py_print_chars(PyObject *self, PyObject *args)
 
 **代码#7 :**
 
-```
+```py
 import sys
 
 s = 'Spicy Jalape\u00f1o'
@@ -137,7 +137,7 @@ print ("\nSize : ", sys.getsizeof(s))
 
 **输出:**
 
-```
+```py
 Size : 87
 
 53 70 69 63 79 20 4a 61 6c 61 70 65 c3 b1 6f

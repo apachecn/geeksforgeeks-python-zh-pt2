@@ -15,7 +15,7 @@
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272771459249844224。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -48,7 +48,7 @@ print("The language of the status is : " + lang)
 
 **输出:**
 
-```
+```py
 The language of the status is : en
 
 ```
@@ -58,7 +58,7 @@ The language of the status is : en
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1273220141417816064。
 
-```
+```py
 # the ID of the status
 id = 1273220141417816064
 
@@ -73,7 +73,7 @@ print("The language of the status is : " + lang)
 
 **输出:**
 
-```
+```py
 The language of the status is : hi
 
 ```

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing how to use
 # string modulo operator(%) to print
 # fancier output
@@ -35,7 +35,7 @@ print("%10.3E" % (356.08977))
 
 **输出:**
 
-```
+```py
 Geeks :  1, Portal : 5.33
 Total students : 240, Boys : 120
 031
@@ -46,7 +46,7 @@ Total students : 240, Boys : 120
 
 在我们的示例中有两个:“%2d”和“%5.2f”。格式占位符的一般语法是:
 
-```
+```py
  %[flags][width][.precision]type 
 ```
 
@@ -63,7 +63,7 @@ Total students : 240, Boys : 120
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # use of format() method
 
@@ -88,7 +88,7 @@ print(f"{'Geeks'} and {'Portal'}")
 
 **输出:**
 
-```
+```py
 I love Geeks for "Geeks!"
 Geeks and Portal
 Portal and Geeks
@@ -100,7 +100,7 @@ Portal and Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # a use of format() method
 
@@ -122,7 +122,7 @@ print("Geeks: {a:5d},  Portal: {p:8.2f}".
 
 **输出:**
 
-```
+```py
 Number one portal is Geeks, For, and Geeks.
 Geeks :12, Portal :    0.55
 Second argument:  11, first one:   47.42
@@ -137,7 +137,7 @@ Geeks:   453, Portal:    59.06
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # show format () is
 # used in dictionary
@@ -156,7 +156,7 @@ print("I love {fun} computer {adj}".format(**data))
 
 **输出:**
 
-```
+```py
 Geeks: 4127; For: 4098; Geeks: 8637678
 I love GeeksForGeeks computer Portal
 ```
@@ -166,7 +166,7 @@ I love GeeksForGeeks computer Portal
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to
 # format a output using
 # string() method
@@ -191,7 +191,7 @@ print (cstr.rjust(40, '-'))
 
 **输出:**
 
-```
+```py
 Center aligned string with fillchr: 
 ##########I love geeksforgeeks##########
 

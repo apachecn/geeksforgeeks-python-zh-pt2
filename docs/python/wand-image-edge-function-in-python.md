@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.edge(radius=*radius*)** 
 > ```
 > 
@@ -21,7 +21,7 @@
 
 **Example #1:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -40,7 +40,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **示例#:** 增加半径值。
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :  191
 Output : aia sa
 Explanation: 
@@ -26,7 +26,7 @@ Output : aaai aas aki kai ks
 *   将整数转换成字母。
 *   按字典顺序排序。
 
-```
+```py
 # Python program to print all string
 # combination from given numbers
 
@@ -83,7 +83,7 @@ Number_to_String("1191")
 
 **Output:**
 
-```
+```py
 aia sa
 aiia sia
 aecb ocb

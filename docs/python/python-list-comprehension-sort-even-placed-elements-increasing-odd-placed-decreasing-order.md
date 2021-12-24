@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input:  arr[] = {0, 1, 2, 3, 4, 5, 6, 7}
 Output: arr[] = {0, 2, 4, 6, 7, 5, 3, 1}
 Even-place elements : 0, 2, 4, 6
@@ -34,7 +34,7 @@ Odd-Place elements in decreasing order :
 1.  将原始列表分成两部分，一部分包含所有偶数索引元素，一部分包含所有奇数索引元素。
 2.  现在按升序对包含所有偶数索引元素的列表进行排序，按降序对包含所有奇数索引元素的列表进行排序。现在将它们连接起来。
 
-```
+```py
 # Function to Sort even-placed elements 
 # in increasing and odd-placed in decreasing
 # order
@@ -57,7 +57,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [0, 2, 4, 6, 7, 5, 3, 1]
 
 ```

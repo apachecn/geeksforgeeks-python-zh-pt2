@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `sum()`**
 可以使用列表理解来执行这个特定的任务，以过滤出连续的组，并且可以使用求和函数来获得过滤后的解的总和。
 
-```
+```py
 # Python3 code to demonstrate
 # Sectional subset sum in list 
 # using list comprehension + sum()
@@ -29,7 +29,7 @@ print("The grouped summation list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [4, 7, 8, 10, 12, 15, 13, 17, 14]
 The grouped summation list is : [19, 37, 44]
 

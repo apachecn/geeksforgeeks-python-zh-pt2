@@ -22,7 +22,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import all required libraries
 import numpy as np
 import plotly
@@ -57,7 +57,7 @@ fig.show()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import all required libraries
 import numpy as np
 import plotly
@@ -109,7 +109,7 @@ fig.show()*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required libraries
 import dash
 import dash_core_components as dcc

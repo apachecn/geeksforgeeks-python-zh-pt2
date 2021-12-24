@@ -7,7 +7,7 @@
 **方法#1:使用 zip() +生成器表达式**
 以上函数的组合可以用来执行这个任务。在本例中，我们使用生成器表达式执行乘法任务，每个元组的映射索引由 zip()完成。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Tuple multiplication
 # using zip() + generator expression
@@ -30,7 +30,7 @@ print("The multiplied tuple : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (10, 4, 5, 6)
 The original tuple 2 : (5, 6, 7, 5)
 The multiplied tuple : (50, 24, 35, 30)

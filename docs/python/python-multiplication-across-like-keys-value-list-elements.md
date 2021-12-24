@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Multiplication across Like Keys Value list elements
 # Using dictionary comprehension + zip()
@@ -42,7 +42,7 @@ print("The constructed dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary 1 is : {'Gfg': [4, 6, 7], 'Best': [8, 6, 4], 'is': [9, 3, 4]}
 The original dictionary 2 is : {'Gfg': [8, 4, 3], 'Best': [6, 3, 1], 'is': [9, 8, 2]}
 The constructed dictionary : {'Gfg': [32, 24, 21], 'Best': [48, 18, 4], 'is': [81, 24, 8]}

@@ -6,7 +6,7 @@ Python 中的 num2words 模块，它将数字(如 34)转换为单词(如 34)。�
 
 **安装**T3】使用画中画可以轻松安装`num2words`。
 
-```
+```py
 pip install num2words
 
 ```
@@ -20,7 +20,7 @@ pip install num2words
 
 以下是该工具的使用示例。
 
-```
+```py
 from num2words import num2words
 
 # Most common usage.
@@ -38,7 +38,7 @@ print(num2words(36, lang ='es'))
 
 **输出:**
 
-```
+```py
 thirty-six
 thirty-sixth
 36th

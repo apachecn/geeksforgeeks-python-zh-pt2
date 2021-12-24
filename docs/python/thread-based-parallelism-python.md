@@ -19,7 +19,7 @@ python 中的线程模块提供了用于创建新线程的函数调用。__init_
 2.  重写线程类的 __init__ 函数。此方法将初始化特定于线程的日期。
 3.  重写 run 方法以定义线程的行为。
 
-```
+```py
 # Python program to demonstrate
 # initializing a new thread
 import threading
@@ -43,7 +43,7 @@ print("Exit")
 
 **输出:**
 
-```
+```py
 GFG 1000
 GeeksforGeeks 2000
 Exit
@@ -58,56 +58,56 @@ python 中的线程模块为线程提供了强大的高级支持。
 1.  **active_count():** 返回当前活动的线程对象数。返回的计数等于枚举()返回的列表长度。
     **语法:**
 
-    ```
+    ```py
     threading.active_count()
     ```
 
 2.  **current_thread():** 返回当前 thread 对象，对应调用者的控制线程。如果调用方的控制线程不是通过线程模块创建的，则会返回一个功能有限的伪线程对象。
     **语法:**
 
-```
+```py
 threading.current_thread()
 ```
 
 *   **get_ident():** 返回当前线程的‘线程标识符’。这是一个非零整数。它的价值没有直接意义；它旨在作为一个神奇的 cookie，例如用于索引线程特定数据的字典。当一个线程退出并创建另一个线程时，可以回收线程标识符。
     **语法:**
 
-    ```
+    ```py
     threading.get_ident()
     ```
 
     *   **枚举():**返回当前所有线程对象的列表。该列表包括后台线程、由 current_thread()创建的虚拟线程对象和主线程。它不包括已终止的线程和尚未启动的线程。
     **语法:**
 
-    ```
+    ```py
     threading.enumerate()
     ```
 
     *   **main_thread():** 返回主 thread 对象。在正常情况下，主线程是启动 Python 解释器的线程。
     **语法:**
 
-    ```
+    ```py
     threading.main_thread()
     ```
 
     *   **settrace(func):** 为从线程模块启动的所有线程设置一个跟踪函数。在调用函数的 run()方法之前，该函数将被传递给每个线程的 sys.settrace()。
     **语法:**
 
-    ```
+    ```py
     threading.settrace(func)
     ```
 
     *   **设置配置文件(功能):**为从线程模块启动的所有线程设置配置文件功能。在调用其 run()方法之前，该函数将被传递给每个线程的 sys.setprofile()。
     **语法:**
 
-    ```
+    ```py
     threading.setprofile(func)
     ```
 
     *   **stack_size([size]):** Return the thread stack size used when creating new threads.
     **Syntax:**
 
-    ```
+    ```py
     threading.stack_size([size])
     ```
 
@@ -116,11 +116,11 @@ threading.current_thread()
     *   **超时 _ 最大值:**阻塞函数(锁定.获取()、锁定.获取()、条件.等待()等超时参数允许的最大值。).指定大于该值的超时将引发 OverflowError。
         **语法:**
 
-        ```
+        ```py
         threading.TIMEOUT_MAX
         ```
 
-    ```
+    ```py
     # Python program to demonstrate
     # threading module
     import threading
@@ -157,7 +157,7 @@ threading.current_thread()
 
     **输出:**
 
-    ```
+    ```py
     Name of main thread: MainThread
     Identity of main thread: 139964150720320
     Stack size = 0

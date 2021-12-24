@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove double quotes from dictionary keys
 # Using dictionary comprehension + replace()
@@ -39,7 +39,7 @@ print("The dictionary after removal of double quotes : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'"Geeks"': 3, '"is" for': 5, '"g"eeks': 9}
 The dictionary after removal of double quotes : {'Geeks': 3, 'is for': 5, 'geeks': 9}
 ```
@@ -50,7 +50,7 @@ The dictionary after removal of double quotes : {'Geeks': 3, 'is for': 5, 'geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove double quotes from dictionary keys
 # Using re.sub() + dictionary comprehension
@@ -71,7 +71,7 @@ print("The dictionary after removal of double quotes : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'"Geeks"': 3, '"is" for': 5, '"g"eeks': 9}
 The dictionary after removal of double quotes : {'Geeks': 3, 'is for': 5, 'geeks': 9}
 ```

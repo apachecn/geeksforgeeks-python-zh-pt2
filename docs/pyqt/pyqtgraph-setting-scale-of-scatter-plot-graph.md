@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQtGraph 模块中设置散点图中的数据比例。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).散点图(又称散点图，散点图)使用点来表示两个不同数值变量的值。这是一种使用笛卡尔坐标来显示一组数据的两个变量的值的绘图或数学图表。水平轴和垂直轴上每个点的位置表示单个数据点的值。比例用于以一定的比例增加或减少数值。
 我们可以在下面给出的命令的帮助下，创建一个绘图窗口并在其上创建散点图
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -23,7 +23,7 @@ scatter = pg.ScatterPlotItem(size=10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

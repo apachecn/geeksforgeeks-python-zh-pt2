@@ -6,7 +6,7 @@
 
 **安装:**运行以下 pip 命令:
 
-```
+```py
 pip install isbntools
 ```
 
@@ -14,7 +14,7 @@ pip install isbntools
 
 ## 蟒蛇 3
 
-```
+```py
 from isbntools.app import *
 ```
 
@@ -28,14 +28,14 @@ from isbntools.app import *
 
 ## 蟒蛇 3
 
-```
+```py
 get_isbn = isbn_from_words("Half Girlfriend")
 print(get_isbn)
 ```
 
 **输出:**
 
-```
+```py
 9788129135728
 ```
 
@@ -51,7 +51,7 @@ print(get_isbn)
 
 ## 蟒蛇 3
 
-```
+```py
 print(registry.bibformatters['labels'](meta("9788129135728")))
 ```
 
@@ -63,7 +63,7 @@ print(registry.bibformatters['labels'](meta("9788129135728")))
 
 ## 蟒蛇 3
 
-```
+```py
 print(registry.bibformatters)
 ```
 
@@ -75,6 +75,6 @@ print(registry.bibformatters)
 
 ## 蟒蛇 3
 
-```
+```py
 print(registry.bibformatters['json'](meta("9788129135728")))
 ```

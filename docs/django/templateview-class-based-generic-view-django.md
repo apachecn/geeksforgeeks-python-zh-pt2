@@ -28,7 +28,7 @@ TemplateView 最适合以下情况:
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.base import View
 from django.shortcuts import render
 
@@ -42,7 +42,7 @@ class AboutUs(View):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +58,7 @@ class AboutUs(View):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from geeks.views import AboutUs
@@ -71,7 +71,7 @@ urlpatterns = [
 
 *   运行以下三个命令查看输出。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 Python manage.py runserver
@@ -81,7 +81,7 @@ Python manage.py runserver
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.base import TemplateView
 
 class AboutUs(TemplateView):

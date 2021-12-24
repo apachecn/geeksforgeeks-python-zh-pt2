@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # String till Substring
 # using partition()
@@ -37,7 +37,7 @@ print("String before the substring occurrence : " + res)
 
 **Output : **
 
-```
+```py
 The original string : GeeksforGeeks is best for geeks
 The split string : best
 String before the substring occurrence : GeeksforGeeks is
@@ -50,7 +50,7 @@ String before the substring occurrence : GeeksforGeeks is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # String till Substring
 # using split()
@@ -77,7 +77,7 @@ print("String before the substring occurrence : " + res)
 
 **Output : **
 
-```
+```py
 The original string : GeeksforGeeks is best for geeks
 The split string : best
 String before the substring occurrence : GeeksforGeeks is

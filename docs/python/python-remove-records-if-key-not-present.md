@@ -13,7 +13,7 @@
 **方法#1:使用列表理解**
 这是执行这个任务的方法之一。在本文中，我们使用列表理解和条件语句来迭代和测试关键存在。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove records if Key not present
 # Using list comprehension
@@ -39,7 +39,7 @@ print("List after filteration : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [{'Gfg': 1, 'Best': 3}, {'Gfg': 3, 'Best': 5}, {'Best': 3}]
 List after filteration : [{'Gfg': 1, 'Best': 3}, {'Gfg': 3, 'Best': 5}]
 
@@ -48,7 +48,7 @@ List after filteration : [{'Gfg': 1, 'Best': 3}, {'Gfg': 3, 'Best': 5}]
 **方法 2:使用列表理解+ `keys()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 key()执行提取所有键的任务，减少了检入项的开销。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove records if Key not present
 # Using list comprehension + keys()
@@ -74,7 +74,7 @@ print("List after filteration : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [{'Gfg': 1, 'Best': 3}, {'Gfg': 3, 'Best': 5}, {'Best': 3}]
 List after filteration : [{'Gfg': 1, 'Best': 3}, {'Gfg': 3, 'Best': 5}]
 

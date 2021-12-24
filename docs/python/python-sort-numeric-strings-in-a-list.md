@@ -7,7 +7,7 @@
 **方法#1:天真方法**
 在天真方法中需要将列表中的所有元素类型转换为整数通过循环迭代。之后，使用通用排序函数来执行任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # numeric string sorting
 # using naive method 
@@ -30,7 +30,7 @@ print ("The resultant sorted list  : " +  str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : ['4', '6', '7', '2', '1']
 The resultant sorted list  : [1, 2, 4, 6, 7]
 

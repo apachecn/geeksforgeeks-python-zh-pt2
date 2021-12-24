@@ -7,7 +7,7 @@
 **方法#1:使用`next() + enumerate()`**
 下一个函数可用于遍历列表，并与其一起枚举，检查列表中的数字是否为 False 元素，并返回 False 值(即零值)之前的 true 数。
 
-```
+```py
 # Python3 code to demonstrate 
 # Values till False element
 # using next() and enumerate()
@@ -28,7 +28,7 @@ print ("The values till first False value : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 5, 0, 0, 6]
 The values till first False value : 2
 

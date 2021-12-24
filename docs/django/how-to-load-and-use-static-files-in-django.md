@@ -8,7 +8,7 @@
 
 让我们先创建一个新项目，首先创建一个虚拟环境。如果您还没有下载软件包，请下载它
 
-```
+```py
 pip install virtualenv
 virtualenv geeks
 geeks\Scripts\Activate
@@ -20,13 +20,13 @@ geeks\Scripts\Activate
 
 现在安装 Django
 
-```
+```py
 pip install django
 ```
 
 现在我们将创建名为“**check static”**的 django 项目
 
-```
+```py
 //django-admin startproject projectname (template code)
 django-admin startproject  checkstatic
 ```
@@ -37,7 +37,7 @@ django-admin startproject  checkstatic
 
 现在我们将为该项目创建一个新的应用程序名称“**showstatic”**
 
-```
+```py
 //python3 manage.py startapp appname (template code)
 python3 manage.py startapp showstatic
 ```
@@ -46,7 +46,7 @@ python3 manage.py startapp showstatic
 
 我们要做的第一件事是设置。py 在第 32 行添加您的应用程序，如下所示添加(您将从应用程序的 apps.py 文件中看到这一点)
 
-```
+```py
 INSTALLED_APPS = [
 'showstatic.apps.ShowstaticConfig',
 'django.contrib.admin',
@@ -60,7 +60,7 @@ INSTALLED_APPS = [
 
 现在尝试**运行服务器**一次，确认一切正常
 
-```
+```py
 python3 manage.py runserver
 ```
 
@@ -78,13 +78,13 @@ python3 manage.py runserver
 
 **在第 121 行**下方*T3【STATIC _ URL = '/STATIC/'T5】*
 
-```
+```py
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 ```
 
 现在告诉 django 在哪里查找您添加的静态文件在上面写下这个*<u>STATIC _ URL = '/STATIC/'</u>*
 
-```
+```py
 STATICFILES_DIRS = [
    os.path.join(BASE_DIR, 'checkstatic/static/')
 ]
@@ -92,7 +92,7 @@ STATICFILES_DIRS = [
 
 现在，我们将编写一个命令，从我们的项目中获取/收集所有静态文件，并将其保存到一个文件夹中
 
-```
+```py
 python manage.py collectstatic
 ```
 
@@ -108,7 +108,7 @@ python manage.py collectstatic
 
 现在要检查的只是在 showstatic 中创建“**模板”文件夹**，并创建一个**文件**名称**home.html**来查看我们的静态文件
 
-```
+```py
 {% load static %}
 <img src = "{% static 'logo.png' %}" height="200" width="200" class="d-inline-block align-top">
 <br>
@@ -117,7 +117,7 @@ python manage.py collectstatic
 
 现在要查看这个页面，我们需要给它一个路线，所以现在只需在**的网址. py 中添加这个**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from showstatic import views
@@ -129,14 +129,14 @@ urlpatterns = [
 
 在显示的视图中添加这个
 
-```
+```py
 def home(request):
    return render(request,'home.html')
 ```
 
 现在**运行服务器**看看
 
-```
+```py
 python3 manage.py runserver
 ```
 

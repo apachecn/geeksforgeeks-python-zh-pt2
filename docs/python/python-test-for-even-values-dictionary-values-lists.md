@@ -18,7 +18,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Python3 code to demonstrate working of 
 # Test for Even values dictionary values lists
 # Using loop
@@ -49,7 +49,7 @@ print("The computed dictionary : " + str(res)) **
 
 ******Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 7, 3], 'is': [8, 10, 12, 16], 'Best': [10, 16, 14, 6]}
 The computed dictionary : {'Gfg': False, 'is': True, 'Best': True}
 
@@ -61,7 +61,7 @@ The computed dictionary : {'Gfg': False, 'is': True, 'Best': True}
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Python3 code to demonstrate working of 
 # Test for Even values dictionary values lists
 # Using all() + dictionary comprehension
@@ -83,7 +83,7 @@ print("The computed dictionary : " + str(res)) **
 
 ******Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 7, 3], 'is': [8, 10, 12, 16], 'Best': [10, 16, 14, 6]}
 The computed dictionary : {'Gfg': False, 'is': True, 'Best': True}
 

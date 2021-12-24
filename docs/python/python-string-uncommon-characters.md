@@ -7,7 +7,7 @@
 **方法一:使用 python 中的`set() + symmetric_difference()`**
 Set 通常可以执行执行集合对称差等集合运算的任务。这个工具集也可以用来执行这个任务。首先，使用 set()将两个字符串转换为集合，然后使用 symmetric_difference()执行对称差分。返回排序后的集合。
 
-```
+```py
 # Python 3 code to demonstrate 
 # String uncommon characters
 # using set() + symmetric_difference()
@@ -30,7 +30,7 @@ print ("The string uncommon elements are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string 1 is : GeeksforGeeks
 The original string 2 is : Codefreaks
 The string uncommon elements are : {'C', 'd', 'a', 'G'}

@@ -31,7 +31,7 @@
         凭证有两种类型: **API 密钥**和 **OAuth** 。OAuth 以`.json`文件的形式为您提供客户端 Id 和密钥。OAuth 通常用于需要授权的地方，比如检索用户喜欢的视频。因此，对于不需要授权的其他情况，如使用关键字搜索视频或搜索相关视频等，我们将使用应用编程接口密钥。
 2.  **安装:**python 的谷歌 API 客户端可以使用简单的 **pip** 命令:
 
-    ```
+    ```py
     pip install --upgrade google-api-python-client
     ```
 
@@ -41,7 +41,7 @@
 
 1.  **List video by Video Id:** Below example shows how to retrieve details about a specific video identified by the video Id mentioned in the parameter list.
 
-    ```
+    ```py
     # import libraries
     from googleapiclient.discovery import build
     import pprint
@@ -92,7 +92,7 @@
 
 2.  **List videos by Multiple Video Ids:** Below example shows how to retrieve information about multiple videos, identified by the multiple video Ids mentioned in the parameter list.
 
-    ```
+    ```py
     # import libraries
     from googleapiclient.discovery import build
     import pprint

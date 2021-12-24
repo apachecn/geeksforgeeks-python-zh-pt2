@@ -30,7 +30,7 @@
 
 **示例#1:**
 
-```
+```py
 from wand.image import Image, COMPOSITE_OPERATORS
 from wand.drawing import Drawing
 from wand.display import display
@@ -54,7 +54,7 @@ with Drawing() as draw:
 
 **示例#1:**
 
-```
+```py
 from wand.image import Image, COMPOSITE_OPERATORS
 from wand.drawing import Drawing
 from wand.display import display

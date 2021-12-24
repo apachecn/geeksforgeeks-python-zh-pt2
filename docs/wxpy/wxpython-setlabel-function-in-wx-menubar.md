@@ -6,7 +6,7 @@ wx 中的另一个重要功能。菜单栏是 wx 中的 SetLabel()函数。wxPyt
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar(self, id, label)
 > 
 > ```
@@ -20,7 +20,7 @@ wx 中的另一个重要功能。菜单栏是 wx 中的 SetLabel()函数。wxPyt
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

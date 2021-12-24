@@ -12,7 +12,7 @@
 
 **步骤 1:** 我们首先在一个名为 GFGScrapy 的文件夹中创建一个虚拟环境，并在那里激活该虚拟环境。
 
-```
+```py
 # To create a folder named GFGScrapy
 mkdir GFGScrapy
 cd GFGScrapy
@@ -34,13 +34,13 @@ cd..
 
 **第二步:**现在是时候创建一个剪贴簿项目了。为此，请确保系统中是否安装了 scrapy。如果没有安装，请使用下面给出的命令进行安装。
 
-```
+```py
 pip install scrapy
 ```
 
 现在要创建一个剪贴簿项目，使用下面给出的命令，并创建一个蜘蛛。
 
-```
+```py
 # projEct name is scrapytutorial
 scrapy startproject scrapytutorial
 cd scrapytutorial
@@ -116,7 +116,7 @@ spider_to_crawl.py
 
 ## **蟒蛇 3**
 
-```
+```py
 # Define here the models for your scraped items
 import scrapy
 

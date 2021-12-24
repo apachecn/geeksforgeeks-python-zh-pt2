@@ -21,7 +21,7 @@
 
 ## *蟒蛇 3*
 
-```
+```py
 *# get sliced summation
 def get_sliced_sum(row):
     return sum(row[i:j])
@@ -57,7 +57,7 @@ print("Sorted List : " + str(test_list))*
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [[1, 4, 3, 1, 3], [3, 4, 5, 2, 4],
              [23, 5, 5, 3], [2, 3, 5, 1, 6]]
@@ -92,7 +92,7 @@ print("Sorted List : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# get sliced summation
 def get_sliced_sum(row):
     return sum(row[i:j])
@@ -139,7 +139,7 @@ print("Sorted List Columnwise : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [[1, 4, 3, 1], [3, 4, 5, 2], 
              [23, 5, 5, 3], [2, 3, 5, 1]]

@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% cycle 'value_1' 'value_2' %}
 ```
 
@@ -16,7 +16,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 {% for o in some_list %}
     <tr class="{% cycle 'row1' 'row2' %}">
         ...
@@ -39,7 +39,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -57,7 +57,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -72,7 +72,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% for i in data %}
     <div class="{% cycle 'row1' 'row2' %}">
         {{ i }}
@@ -94,7 +94,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% for o in some_list %}
     <tr class="{% cycle rowvalue1 rowvalue2 %}">
         ...

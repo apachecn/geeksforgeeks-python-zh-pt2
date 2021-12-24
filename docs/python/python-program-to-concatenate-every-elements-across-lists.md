@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All elements concatenation across lists
 # Using list comprehension
@@ -53,7 +53,7 @@ print("The paired combinations : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # All elements concatenation across lists
 # Using product() + list comprehension

@@ -20,7 +20,7 @@ Python 列表 ***pop()*** 是 Python 中的一个内置函数，它从[列表](h
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for pop() method
 
 list1 = [ 1, 2, 3, 4, 5, 6 ]
@@ -44,7 +44,7 @@ print("New List after pop : ", list2, "\n")
 
 **输出:**
 
-```
+```py
 6
 New List after pop :  [1, 2, 3, 4, 5] 
 
@@ -58,7 +58,7 @@ New List after pop :  [1, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program showing pop() method
 # and remaining list after each pop
 
@@ -75,7 +75,7 @@ print(list1.pop(0), list1)
 
 **输出:**
 
-```
+```py
 6 [1, 2, 3, 4, 5]
 1 [2, 3, 4, 5]
 ```
@@ -84,7 +84,7 @@ print(list1.pop(0), list1)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program for error in pop() method
 
 list1 = [ 1, 2, 3, 4, 5, 6 ]
@@ -93,7 +93,7 @@ print(list1.pop(8))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/1875538d94d5aecde6edea47b57a2212.py", line 5, in 
     print(list1.pop(8))
@@ -106,7 +106,7 @@ IndexError: pop index out of range
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program demonstrating
 # practical use of list pop()
 
@@ -128,7 +128,7 @@ print(possible)
 
 **输出:**
 
-```
+```py
 [['Orange', 'Fruit', 'Juice'], ['Orange', 'Fruit', 'Eat'],
  ['Banana', 'Fruit', 'Juice'], ['Banana', 'Fruit', 'Eat'],
  ['Mango', 'Fruit', 'Juice'], ['Mango', 'Fruit', 'Eat']]

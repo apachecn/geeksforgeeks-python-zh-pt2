@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [345, 893, 1948, 34, 2346]
 
@@ -59,7 +59,7 @@ print("Modified List : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [345, 893, 1948, 34, 2346]
 

@@ -8,7 +8,7 @@
 
 让我们导入必要的库。
 
-```
+```py
 # import the necessary libraries
 import nltk
 import string
@@ -19,7 +19,7 @@ import re
 
 词性解释了一个词在句子中的用法。在一个句子中，一个单词可以有不同的上下文和语义。像单词包这样的基本自然语言处理模型无法识别单词之间的这些关系。因此，我们使用词性标注来根据单词在数据中的上下文将单词标记到其词性标注中。它也用于提取单词之间的关系。
 
-```
+```py
 from nltk.tokenize import word_tokenize
 from nltk import pos_tag
 
@@ -39,7 +39,7 @@ pos_tagging('You just gave me a scare')
 
 在给定的例子中，PRP 代表人称代词，RB 代表副词，VBD 代表动词过去式，DT 代表限定词，NN 代表名词。我们可以使用佩恩树库标记集获得所有词性标记的细节。
 
-```
+```py
 # download the tagset 
 nltk.download('tagsets')
 
@@ -59,7 +59,7 @@ nltk.help.upenn_tagset('NN')
 
 组块是从非结构化文本中提取短语并赋予其更多结构的过程。它也被称为浅层解析。它是在词性标注的基础上完成的。它把单词分成“组块”，主要是名词短语。分块是使用正则表达式完成的。
 
-```
+```py
 from nltk.tokenize import word_tokenize 
 from nltk import pos_tag
 
@@ -109,7 +109,7 @@ chunking(sentence, grammar)
 
 命名实体识别用于从非结构化文本中提取信息。它用于将文本中存在的实体分类，如个人、组织、事件、地点等。它给了我们关于文本和不同实体之间关系的详细知识。
 
-```
+```py
 from nltk.tokenize import word_tokenize
 from nltk import pos_tag, ne_chunk
 

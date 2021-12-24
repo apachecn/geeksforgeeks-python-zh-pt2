@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing list
 l = [1, 2, 3, 4]
 
@@ -47,7 +47,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing list
 l = [1, 2, 3, 4]
 
@@ -72,7 +72,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing list
 l = [1, 2, 3, 4]
 
@@ -95,7 +95,7 @@ print(res)
 
 ## 蟒蛇 3
 
-```
+```py
 # Initializing list
 l = [1, 2, 3, 4]
 

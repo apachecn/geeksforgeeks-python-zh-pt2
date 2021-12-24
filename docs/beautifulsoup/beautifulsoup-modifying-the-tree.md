@@ -48,7 +48,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -117,7 +117,7 @@ print()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -160,7 +160,7 @@ print(soup.b)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from bs4 import BeautifulSoup
 
@@ -214,7 +214,7 @@ print(soup)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing BeautifulSoup Module
 from bs4 import BeautifulSoup
 

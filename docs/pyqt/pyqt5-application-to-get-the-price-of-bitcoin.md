@@ -8,19 +8,19 @@
 
 **PyQt5 :** PyQt 是跨平台 GUI 工具包 Qt 的 Python 绑定，实现为 Python 插件。PyQt 是由英国河岸计算公司开发的自由软件。
 
-```
+```py
 pip install PyQt5
 ```
 
 **请求:** Requests 可以让你极其轻松地发送 HTTP/1.1 请求。没有必要手动添加查询字符串到你的网址。
 
-```
+```py
 pip install requests
 ```
 
 **美人汤:**美人汤是一个库，可以方便的从网页上刮取信息。它位于 HTML 或 XML 解析器之上，为迭代、搜索和修改解析树提供了 Pythonic 习惯用法。
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -36,7 +36,7 @@ pip install beautifulsoup4
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from bs4 import BeautifulSoup as BS
 import requests

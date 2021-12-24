@@ -10,7 +10,7 @@ Python 程序，用于根据分隔符拆分字符串，并使用另一个分隔�
 
 示例:
 
-```
+```py
 Split the string into list of strings
 
 Input : Geeks for Geeks
@@ -25,7 +25,7 @@ Output : Geeks-for-Geeks
 
 下面是基于分隔符拆分和连接字符串的 Python 代码:
 
-```
+```py
 # Python program to split a string and  
 # join it using different delimiter
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 输出:
 
-```
+```py
 ['Geeks', 'for', 'Geeks']
 Geeks-for-Geeks
 

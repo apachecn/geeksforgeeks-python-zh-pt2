@@ -15,7 +15,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install Flask-Navigation
 ```
 
@@ -30,7 +30,7 @@ pip install Flask-Navigation
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 from flask_navigation import Navigation
 
@@ -42,7 +42,7 @@ nav = Navigation(app)
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Navigations
 nav.Bar('top', [
     nav.Item('Home', 'index'),
@@ -54,7 +54,7 @@ nav.Bar('top', [
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route('/')
 def index():
     return render_template('index.html')

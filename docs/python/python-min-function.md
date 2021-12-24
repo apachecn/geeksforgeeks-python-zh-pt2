@@ -23,7 +23,7 @@ Python min()函数返回 iterable 中作为其参数传递的值或最小项中�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the 
 # working of min()
 
@@ -38,7 +38,7 @@ print(min('a', 'b', 'c', 'd', 'e'))
 
 **输出:**
 
-```
+```py
 4
 a
 
@@ -52,7 +52,7 @@ a
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the 
 # working of min()  
 
@@ -64,7 +64,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 GfG
 
 ```
@@ -77,7 +77,7 @@ min()函数在比较冲突数据类型时抛出**类型错误**。
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # Exception of min() 
 
@@ -88,7 +88,7 @@ print(min(4, 12, 43.3, 19, "GeeksforGeeks"))
 
 **输出:**
 
-```
+```py
 TypeError: unorderable types: str() < int()
 
 ```
@@ -111,7 +111,7 @@ TypeError: unorderable types: str() < int()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of min() 
 
@@ -127,7 +127,7 @@ print(min(("A", "a", "C")))
 
 **输出:**
 
-```
+```py
 4
 G
 A
@@ -142,7 +142,7 @@ A
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of min() 
 
@@ -159,7 +159,7 @@ print(min(d, key = lambda k: d[k]))
 
 **输出:**
 
-```
+```py
 1
 3
 
@@ -173,7 +173,7 @@ print(min(d, key = lambda k: d[k]))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # Exception of min() 
 
@@ -185,7 +185,7 @@ print(min(L))
 
 **输出:**
 
-```
+```py
 ValueError: min() arg is an empty sequence
 
 ```

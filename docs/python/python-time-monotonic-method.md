@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain time.monotonic() method
 
 # importing time module
@@ -36,7 +36,7 @@ print("Value of the monotonic clock (in fractional seconds):", value)
 
 **输出:**
 
-```
+```py
 Value of the monotonic clock (in fractional seconds): 216444.515
 ```
 
@@ -44,7 +44,7 @@ Value of the monotonic clock (in fractional seconds): 216444.515
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain time.monotonic() method
 
 # importing time module
@@ -85,7 +85,7 @@ print("Time elapsed during the process:", end - start)
 
 **输出:**
 
-```
+```py
 At the beginning of the process
 Value of the monotonic clock (in fractional seconds): 216491.25
 1

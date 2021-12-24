@@ -7,7 +7,7 @@
 **方法#1:使用字典理解+ `keys()`**
 以上两者的结合可以用来执行这个特定的任务。这只是较长循环方法的简写，可以用来在一行中执行此任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Keys Product
 # Using dictionary comprehension + keys()
@@ -31,7 +31,7 @@ print("The product dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary 1 : {'best': 7, 'is': 4, 'gfg': 6}
 The original dictionary 2 : {'best': 10, 'is': 6, 'gfg': 10}
 The product dictionary is : {'best': 70, 'is': 24, 'gfg': 60}

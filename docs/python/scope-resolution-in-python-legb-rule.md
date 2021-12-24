@@ -6,7 +6,7 @@
 
 **作用域:**作用域定义了为了获得*名称到对象*(变量)的映射而必须搜索名称空间的层次顺序。这是一个变量存在和被引用的环境。它定义了变量的可访问性和生存期。让我们举一个简单的例子，如下所示:
 
-```
+```py
 pi = 'outer pi variable'
 
 def print_pi():
@@ -19,7 +19,7 @@ print(pi)
 
 **输出:**
 
-```
+```py
 inner pi variable
 outer pi variable
 
@@ -43,7 +43,7 @@ outer pi variable
 **局部范围:**
 局部范围是指当前函数中定义的变量。函数总是首先在其局部范围内查找变量名。只有当它在那里找不到时，才会检查外部范围。
 
-```
+```py
 # Local Scope
 
 pi = 'global pi variable'
@@ -56,7 +56,7 @@ inner()
 
 **输出:**
 
-```
+```py
 inner pi variable
 
 ```
@@ -66,7 +66,7 @@ inner pi variable
 **局部和全局作用域:**
 如果一个变量没有在局部作用域中定义，那么，它将在更高的作用域中被检查，在这种情况下，是在全局作用域中。
 
-```
+```py
 # Global Scope
 
 pi = 'global pi variable'
@@ -80,7 +80,7 @@ print(pi)
 
 **输出:**
 
-```
+```py
 inner pi variable
 global pi variable
 
@@ -91,7 +91,7 @@ global pi variable
 **局部、封闭和全局作用域:**
 对于封闭的作用域，我们需要定义一个包围内部函数的外部函数，注释掉内部函数的局部 *pi* 变量，使用*非局部*关键字引用 *pi* 。
 
-```
+```py
 # Enclosed Scope
 
 pi = 'global pi variable'
@@ -110,7 +110,7 @@ print(pi)
 
 **输出:**
 
-```
+```py
 outer pi variable
 global pi variable
 
@@ -121,7 +121,7 @@ global pi variable
 **局部、封闭、全局和内置范围:**
 最终检查可以通过从*数学*模块导入 *pi* 并注释全局、封闭和局部 *pi* 变量来完成，如下所示:
 
-```
+```py
 # Built-in Scope
 from math import pi
 
@@ -139,7 +139,7 @@ outer()
 
 **输出:**
 
-```
+```py
 3.141592653589793
 
 ```

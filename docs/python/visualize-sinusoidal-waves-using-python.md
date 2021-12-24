@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pygame
 from pygame.locals import *

@@ -6,7 +6,7 @@
 
 **方法一:使用`built-in functions`**
 
-```
+```py
 # Python code to demonstrate
 # to split dictionary
 # into keys and values
@@ -28,7 +28,7 @@ print ("values : ", str(values))
 
 **输出:**
 
-```
+```py
 intial_dictionary {'a': 'akshat', 'b': 'bhuvan', 'c': 'chandan'}
 keys :  dict_keys(['a', 'b', 'c'])
 values :  dict_values(['akshat', 'bhuvan', 'chandan'])

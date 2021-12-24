@@ -10,13 +10,13 @@ Python 是一种非常有趣的语言，有非常好的文档。在本文中，�
 
 ## 蟒蛇 3
 
-```
+```py
 import __hello__ 
 ```
 
 **输出:**
 
-```
+```py
 Hello world!
 ```
 
@@ -28,7 +28,7 @@ https://xkcd.com/353/是一个网络漫画家。
 
 ## 蟒蛇 3
 
-```
+```py
 # redirects you to https://xkcd.com/353/
 import antigravity
 ```
@@ -41,7 +41,7 @@ import antigravity
 
 ## 蟒蛇 3
 
-```
+```py
 import this
 ```
 
@@ -73,7 +73,7 @@ import this
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import barry_as_FLUFL
 
 1 <> 2
@@ -82,7 +82,7 @@ from __future__ import barry_as_FLUFL
 
 **输出:**
 
-```
+```py
 True
 SyntaxError: with Barry as BDFL, use '<>' instead of '!='
 ```
@@ -93,13 +93,13 @@ SyntaxError: with Barry as BDFL, use '<>' instead of '!='
 
 ## 蟒蛇 3
 
-```
+```py
 from __future__ import braces
 ```
 
 **输出:**
 
-```
+```py
 File "<stdin>", line 1
 SyntaxError: not a chance
 ```

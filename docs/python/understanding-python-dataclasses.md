@@ -10,7 +10,7 @@
 
 **安装** **数据类模块:**
 
-```
+```py
 pip install dataclasses
 ```
 
@@ -29,7 +29,7 @@ DataClass 模块提供了一种使类不那么冗长的简便方法。让我们�
 
 T3】蟒 3T5
 
-```
+```py
 # creating a employee class
 class employee:
 
@@ -78,7 +78,7 @@ T6T8**输出**T1
 
 ## 蟒 3
 
-```
+```py
 # A basic Data Class
 # importing dataclass module
 from dataclasses import dataclass

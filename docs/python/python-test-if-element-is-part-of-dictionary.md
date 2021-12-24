@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if element is part of dictionary
 # Using any() + generator expression + items()
@@ -41,7 +41,7 @@ print("Is K present in dictionary? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 3, 'Best': 2}
 Is K present in dictionary? : True
 
@@ -53,7 +53,7 @@ Is K present in dictionary? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if element is part of dictionary
 # Using chain.from_iterables() + items()
@@ -78,7 +78,7 @@ print("Is K present in dictionary? : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'is': 3, 'Best': 2}
 Is K present in dictionary? : True
 

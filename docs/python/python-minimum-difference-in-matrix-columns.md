@@ -7,7 +7,7 @@
 **方法#1:使用`min() + abs() + zip()` +列表理解**
 这个特殊问题也可以通过以上 4 个操作的组合来解决。在这里，zip 函数完成了配对列表的双重任务，还配对了相似的差异指数，由 abs 函数计算，然后使用 min 函数找到最小值，所有这些都受列表理解的限制。
 
-```
+```py
 # Python3 code to demonstrate
 # Minimum Difference in Matrix Columns
 # using min() + abs() + zip() + list comprehension
@@ -28,7 +28,7 @@ print("The minimum difference sublist : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 4, 5], [4, 6, 8], [1, 9, 2], [3, 7, 10]]
 The minimum difference sublist : [1, 3, 2]
 

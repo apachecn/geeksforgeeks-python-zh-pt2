@@ -7,7 +7,7 @@
 **方法#1:使用循环+字符串切片**
 这是解决这个问题的蛮力方式。在这种情况下，我们在字符串上运行一个循环，跟踪出现次数，并在出现次数高于 K 时执行替换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace characters after K occurrences
 # Using loop + string slices
@@ -36,7 +36,7 @@ print("The string after performing replace : " + test_str) 
 
 **Output :**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks
 The string after performing replace : geeksforg**ks i* b**t*for******
 

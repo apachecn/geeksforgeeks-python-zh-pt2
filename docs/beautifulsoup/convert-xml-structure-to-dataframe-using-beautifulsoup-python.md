@@ -4,7 +4,7 @@
 
 在这里，我们将使用 Python 的漂亮的输出包将 XML 结构转换成数据帧。这是一个用于抓取网页的 python 库。要安装这个库，命令是
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -12,13 +12,13 @@ pip install beautifulsoup4
 
 **熊猫库:**是一个 python 库，用于数据操作和分析。要安装此库，命令是
 
-```
+```py
 pip install pandas
 ```
 
 注意:如果它要求你安装一个解析器库，使用命令
 
-```
+```py
 pip install et_xmlfile
 ```
 
@@ -28,7 +28,7 @@ pip install et_xmlfile
 
 ## 蟒 3
 
-```
+```py
 from bs4 import BeautifulSoup  
 import pandas as pd
 ```
@@ -39,7 +39,7 @@ import pandas as pd
 
 ## 蟒 3
 
-```
+```py
 file = open("gfg.xml",'r')
 contents = file.read()
 ```
@@ -50,7 +50,7 @@ contents = file.read()
 
 ## 蟒 3
 
-```
+```py
 soup = BeautifulSoup(contents,'xml')
 ```
 
@@ -62,7 +62,7 @@ soup = BeautifulSoup(contents,'xml')
 
 ## 蟒 3
 
-```
+```py
 authors = soup.find_all('author')
 titles = soup.find_all('title')
 prices = soup.find_all('price')
@@ -73,7 +73,7 @@ des = soup.find_all('description')
 
 示例:
 
-```
+```py
 authors = soup.find_all('author')
 ```
 
@@ -83,7 +83,7 @@ authors = soup.find_all('author')
 
 ## 蟒 3
 
-```
+```py
 data = []
 for i in range(0,len(authors)):
    rows = [authors[i].get_text(),titles[i].get_text(),

@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 # Importing removeaccents function  
 # From removeaccents Library  
 from removeaccents import removeaccents
@@ -35,7 +35,7 @@ print(str_output)
 
 **输出:**
 
-```
+```py
 It looked cool and casual, but not provocative .
 
 For more articles visit GeeksforGeeks .

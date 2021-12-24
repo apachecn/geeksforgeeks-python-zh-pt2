@@ -66,7 +66,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
  <head>
@@ -87,7 +87,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to obtain value after button click
 
 # Import the libraries BeautifulSoup, tkinter and os

@@ -32,7 +32,7 @@
 
 **代码:**使用 **`os.lchflags()`** 方法
 
-```
+```py
 # Python3 program to explain os.lchflags() method
 
 # importing os library
@@ -54,7 +54,7 @@ print("Flag changed successfully")
 
 **Output:**
 
-```
+```py
 Flag changed successfully
 
 ```

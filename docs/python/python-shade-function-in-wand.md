@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.shade(gray, azimuth, elevation);
 > ```
 > 
@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -53,7 +53,7 @@ with Image(filename ="koala.jpeg") as img:
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image module
 
 from wand.image import Image

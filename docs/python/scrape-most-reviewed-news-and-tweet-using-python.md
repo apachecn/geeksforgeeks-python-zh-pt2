@@ -8,19 +8,19 @@
 
 *   **Tweepy:** Tweepy 是官方推特 API 的 Python 客户端。使用以下 pip 命令进行安装:
 
-    ```
+    ```py
     pip install tweepy
     ```
 
 *   **MongoClient:**MongoClient 类使人们能够用您的代码成功地建立 MongoDB 服务器连接。使用以下 pip 命令进行安装:
 
-    ```
+    ```py
     pip install pymongo
     ```
 
 *   **pyshortners:**pyshortners 用于以编程方式缩短、标记、共享或检索链接中的数据。通过以下方式安装
 
-    ```
+    ```py
     pip install pyshorteners
     ```
 
@@ -36,7 +36,7 @@
 
 下面是实现。
 
-```
+```py
 # Python program to get top 3 trendy news item 
 
 import tweepy

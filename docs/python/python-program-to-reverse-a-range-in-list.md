@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reversing a range
 # Using reverse() + loop
@@ -50,7 +50,7 @@ print("Range reversed range list : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 3, 1, 8, 9, 2, 10, 12, 7, 4, 11]
 Range reversed range list : [6, 3, 1, 7, 12, 10, 2, 9, 8, 4, 11]
 ```
@@ -61,7 +61,7 @@ Range reversed range list : [6, 3, 1, 7, 12, 10, 2, 9, 8, 4, 11]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reversing a range
 # Using list split + slicing
@@ -84,7 +84,7 @@ print("Range reversed range list : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [6, 3, 1, 8, 9, 2, 10, 12, 7, 4, 11]
 Range reversed range list : [6, 3, 1, 7, 12, 10, 2, 9, 8, 4, 11]
 ```

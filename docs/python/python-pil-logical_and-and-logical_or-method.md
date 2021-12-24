@@ -12,7 +12,7 @@ PIL is the Python Imaging Library which provides the python interpreter with ima
 图片 2:
 ![](img/06a49f4ddb7b8ca9692f4eee60572aa0.png)
 
-```
+```py
 Syntax: PIL.ImageChops.logical_and(image1, image2)
 
 Parameters: 
@@ -23,7 +23,7 @@ Return Type: Image
 
 ```
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 
@@ -44,7 +44,7 @@ im3.show() 
 
 `**PIL.ImageChops.logical_or()**`方法在两幅图像之间应用逻辑或。至少有一个图像必须具有模式“1”。
 
-```
+```py
 Syntax: PIL.ImageChops.logical_or(image1, image2)
 
 Parameters: 
@@ -55,7 +55,7 @@ Return Type: Image
 
 ```
 
-```
+```py
 # Importing Image and ImageChops module from PIL package  
 from PIL import Image, ImageChops 
 

@@ -8,19 +8,19 @@ Python 有许多开发图形用户界面应用程序的框架，如 PyQT、Kivy�
 
 1.  **导入 tkinter module**
 
-```
+```py
 import tkinter
 ```
 
 *   **导入 tkinter 子模块**
 
-    ```
+    ```py
     from tkinter import *
     ```
 
     *   **Creating the parent widget**
 
-    ```
+    ```py
     root = Tk()
     ```
 
@@ -31,7 +31,7 @@ import tkinter
 
     *   **Creating Labels for the entry widgets and positioning the labels in the parent widget**
 
-    ```
+    ```py
     L1 = Label(root, text="User Name")
     L1.grid(row=0, column=0)
     L2 = Label(root, text="Password")
@@ -57,7 +57,7 @@ import tkinter
 
     *   **Creating a Tkinter variable for the Entry widget**
 
-    ```
+    ```py
     mystr = StringVar()
     ```
 
@@ -68,7 +68,7 @@ import tkinter
 
     *   **设置字符串值**
 
-```
+```py
 mystr.set('username@xyz.com')
 ```
 
@@ -97,7 +97,7 @@ T3】参数:
 
     *   **Run the application**
 
-    ```
+    ```py
     mainloop()
     ```
 
@@ -107,7 +107,7 @@ T3】参数:
 
     **完成程序**
 
-    ```
+    ```py
     import tkinter
     from tkinter import *
 

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def repeat(word, m, n):
 
     # if number of characters greater than length of word.
@@ -38,7 +38,7 @@ repeat("geeks", 2, 3)
 
 **输出:**
 
-```
+```py
 gegege
 ```
 
@@ -52,7 +52,7 @@ gegege
 
 ## 蟒蛇 3
 
-```
+```py
 def repeat(word, m, n):
 
     # if number of characters greater than length of word.
@@ -69,6 +69,6 @@ repeat("geeks", 2, 3)
 
 **输出:**
 
-```
+```py
 gegege
 ```

@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 句法
 
-```
+```py
 {% lorem [count] [method] [random] %}
 
 ```
@@ -37,7 +37,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 现在创建一个视图，我们将通过它访问模板，
 在`geeks/views.py`中，
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -50,7 +50,7 @@ def geeks_view(request):
 
 创建 url 路径以映射到此视图。在`geeks/urls.py`中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -63,7 +63,7 @@ urlpatterns = [
 
 现在我们将创建 s 模板来演示 **lorem 标签**。在`geeks.html`中创建基础模板，
 
-```
+```py
 <html>
     {% lorem %}
 </html>

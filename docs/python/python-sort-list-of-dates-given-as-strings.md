@@ -20,13 +20,13 @@
 
 **语法:**
 
-```
+```py
 datetime.strptime(date, format)
 ```
 
 解决此问题所需的格式如下:
 
-```
+```py
 %d ---> for Day
 %b ---> for Month
 %Y ---> for Year
@@ -37,7 +37,7 @@ datetime.strptime(date, format)
 
 下面是上述方法的实现:
 
-```
+```py
 # Python3 program to sort the list of dates
 # given in string format
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":  
 
 **Output:**
 
-```
+```py
 01 Jan 2007
 10 Jul 2016
 2 Dec 2017

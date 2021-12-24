@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import urllib.parse
 
@@ -46,7 +46,7 @@ print("The parsed URL Params : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 # initializing string

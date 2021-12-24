@@ -8,7 +8,7 @@
 
 **1。安装总结说明–**
 
-```
+```py
 # installing wysiwyg editor
 pip3 install django-summernote
 ```
@@ -17,7 +17,7 @@ pip3 install django-summernote
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -33,7 +33,7 @@ INSTALLED_APPS = [
 
 **3。迁移项目**
 
-```
+```py
 # migrate django summernote
 python3 manage.py migrate
 ```
@@ -44,7 +44,7 @@ python3 manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 # importing admin and posts model
 from django.contrib import admin
 from .models import posts
@@ -70,7 +70,7 @@ admin.site.register(posts, blogadmin)
 
 ## 蟒蛇 3
 
-```
+```py
 # add it in settings.py
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
@@ -83,7 +83,7 @@ X_FRAME_OPTIONS = 'SAMEORIGIN'
 
 ## 蟒蛇 3
 
-```
+```py
 # add condition in django urls file
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
@@ -95,7 +95,7 @@ Django 还提供了自定义管理页面的选项，我们将进行最小化的�
 
 ## 蟒蛇 3
 
-```
+```py
 # customizing admin interface
 admin.site.site_header = 'GeeksForGeeks'
 admin.site.site_title = 'GeeksForGeeks'

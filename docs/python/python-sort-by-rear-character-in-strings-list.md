@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Rear Character in Strings List
 # Using sort()
@@ -43,7 +43,7 @@ print("Sorted List : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Sorted List : ['gfg', 'for', 'is', 'geeks', 'best']
 ```
@@ -54,7 +54,7 @@ Sorted List : ['gfg', 'for', 'is', 'geeks', 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Rear Character in Strings List
 # Using sorted() + lambda
@@ -75,7 +75,7 @@ print("Sorted List : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 Sorted List : ['gfg', 'for', 'is', 'geeks', 'best']
 ```

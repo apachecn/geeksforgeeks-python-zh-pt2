@@ -17,7 +17,7 @@
 
 它会提示输入登录详细信息，如果之前没有创建登录 id，则可以使用下面给出的命令创建新的超级用户:
 
-```
+```py
 python manage.py createsuperuser
 
 ```
@@ -26,7 +26,7 @@ python manage.py createsuperuser
 
 现在，在启动开发服务器后访问管理登录页面，这可以通过使用下面给出的命令来完成。
 
-```
+```py
 python manage.py runserver
 
 ```

@@ -19,7 +19,7 @@
 
 **Code #1:** Use of `***os.rename()***` method
 
-```
+```py
 # Python program to explain os.rename() method 
 
 # importing os module 
@@ -40,14 +40,14 @@ print("Source path renamed to destination path successfully.")
 
 **Output:**
 
-```
+```py
 Source path renamed to destination path successfully.
 
 ```
 
 **Code #2:** Handling possible errors
 
-```
+```py
 # Python program to explain os.rename() method 
 
 # importing os module 
@@ -88,7 +88,7 @@ except OSError as error:
 
 **Output:**
 
-```
+```py
 Source is a file but destination is a directory.
 
 ```

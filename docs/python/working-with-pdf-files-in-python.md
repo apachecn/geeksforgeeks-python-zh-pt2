@@ -32,7 +32,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 import PyPDF2
 
@@ -57,7 +57,7 @@ pdfFileObj.close()
 
 以上程序输出如下:
 
-```
+```py
 20
 PythonBasics
 S.R.Doty
@@ -74,37 +74,37 @@ Contents
 
 让我们试着分块理解上面的代码:
 
-```
+```py
 pdfFileObj = open('example.pdf', 'rb')
 ```
 
 *   我们以二进制模式打开了**example.pdf**。并将文件对象保存为 **pdfFileObj** 。
 
-```
+```py
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 ```
 
 *   在这里，我们创建一个 PyPDF2 模块的**PDF reader**类的对象，并通过 pdf 文件对象&得到一个 pdf reader 对象。
 
-```
+```py
 print(pdfReader.numPages)
 ```
 
 *   **numPages** 属性给出 pdf 文件的页数。例如，在我们的例子中，它是 20(见输出的第一行)。
 
-```
+```py
 pageObj = pdfReader.getPage(0)
 ```
 
 *   现在，我们创建一个 PyPDF2 模块的**页面对象**类的对象。pdf 阅读器对象有一个函数 **getPage()** ，它以页码(从索引 0 开始)为参数，返回 Page 对象。
 
-```
+```py
 print(pageObj.extractText())
 ```
 
 *   Page 对象有功能 **extractText()** 从 pdf 页面提取文本。
 
-```
+```py
 pdfFileObj.close()
 ```
 
@@ -115,7 +115,7 @@ T3】2。旋转 PDF 页面
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required modules
 import PyPDF2
 
@@ -179,13 +179,13 @@ if __name__ == "__main__":
 
 *   对于旋转，我们首先创建原始 pdf 的 pdf 阅读器对象。
 
-```
+```py
 pdfWriter = PyPDF2.PdfFileWriter()
 ```
 
 *   旋转的页面将被写入新的 pdf。为了写入 PDF，我们使用 PyPDF2 模块的 **PdfFileWriter** 类的对象。
 
-```
+```py
 for page in range(pdfReader.numPages):
         pageObj = pdfReader.getPage(page)
         pageObj.rotateClockwise(rotation)
@@ -194,7 +194,7 @@ for page in range(pdfReader.numPages):
 
 *   现在，我们迭代原始 pdf 的每一页。我们通过 pdf 阅读器类的 **getPage()** 方法获取页面对象。现在，我们通过页面对象类的**rotatelockwise()**方法来旋转页面。然后，我们通过传递旋转后的页面对象，使用 pdf writer 类的 **addPage()** 方法向 pdf writer 对象添加页面。
 
-```
+```py
 newFile = open(newFileName, 'wb')
 pdfWriter.write(newFile)
 pdfFileObj.close()
@@ -207,7 +207,7 @@ newFile.close()
 
 ## 计算机编程语言
 
-```
+```py
 # importing required modules
 import PyPDF2
 
@@ -241,21 +241,21 @@ if __name__ == "__main__":
 上述程序的输出是一个组合的 pdf，**组合的 _example.pdf** 通过合并**example.pdf**和**旋转的 _example.pdf** 得到。
 让我们来看看这个节目的重要方面:
 
-```
+```py
 pdfMerger = PyPDF2.PdfFileMerger()
 ```
 
 *   为了合并，我们使用了一个预构建的类，PyPDF2 模块的 **PdfFileMerger** 。
     这里，我们创建一个 pdf 合并类的对象 **pdfMerger**
 
-```
+```py
 for pdf in pdfs:
         pdfmerger.append(open(focus, "rb"))
 ```
 
 *   现在，我们使用 **append()** 方法将每个 pdf 的文件对象追加到 pdf 合并对象中。
 
-```
+```py
 with open(output, 'wb') as f:
         pdfMerger.write(f)
 ```
@@ -266,7 +266,7 @@ with open(output, 'wb') as f:
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required modules
 import PyPDF2
 
@@ -331,7 +331,7 @@ if __name__ == "__main__":
 
 ## 计算机编程语言
 
-```
+```py
 # importing the required modules
 import PyPDF2
 
@@ -400,14 +400,14 @@ if __name__ == "__main__":
 
 *   所有过程与页面旋转示例相同。唯一不同的是:
 
-```
+```py
 wmpageObj = add_watermark(mywatermark, pdfReader.getPage(page))
 ```
 
 *   使用 **add_watermark()** 函数将页面对象转换为带水印的页面对象。
 *   让我们试着理解 **add_watermark()** 功能:
 
-```
+```py
 wmFileObj = open(wmFile, 'rb')
 pdfReader = PyPDF2.PdfFileReader(wmFileObj) 
 pageObj.mergePage(pdfReader.getPage(0))

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 fig = go.Figure(data=[go.Sankey(
     node = dict(
       thickness = 5,
@@ -39,7 +39,7 @@ fig.show()
 
 ## 蟒蛇 3
 
-```
+```py
 fig = go.Figure(data=[go.Sankey(
     node = dict(
       thickness = 5,

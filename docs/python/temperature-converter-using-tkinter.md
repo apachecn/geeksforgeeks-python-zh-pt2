@@ -16,7 +16,7 @@ Python Tkinter 是一个 GUI 编程包或内置库。Tkinter 为 Tk GUI 工具�
 
 下面是实现。
 
-```
+```py
 import tkinter as tk
 from tkinter import messagebox
 from functools import partial

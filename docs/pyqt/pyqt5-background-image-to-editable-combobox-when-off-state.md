@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须更改与组合框关联的样式表，下面是样式表代码
 
-```
+```py
 QComboBox::editable:!on
 {
 background-image : url(image.png);
@@ -17,7 +17,7 @@ border : 2px solid black;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

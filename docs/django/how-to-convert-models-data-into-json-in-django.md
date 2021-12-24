@@ -8,17 +8,17 @@ Django 是一个基于 Python 的高级网络框架，允许快速开发和干�
 
 首先创建新项目
 
-```
+```py
 django-admin startproject tryJson
 ```
 
-```
+```py
 cd tryJson
 ```
 
 然后在项目中创建新的应用程序
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -30,7 +30,7 @@ python manage.py startapp main
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Student(models.Model):
@@ -47,11 +47,11 @@ class Student(models.Model):
 
 然后，为了创建模型，我们必须在 cmd 或终端中编写以下命令
 
-```
+```py
 python manage.py makemigrations
 ```
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -67,7 +67,7 @@ python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from .  import *
 
@@ -82,7 +82,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.http import JsonResponse
 from .models import Students
 
@@ -96,7 +96,7 @@ def jsondata(request):
 
 然后打开 cmd 或终端运行此应用程序
 
-```
+```py
 python manage.py runserver
 ```
 

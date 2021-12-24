@@ -18,7 +18,7 @@
 **示例#1 :**
 使用`shutil.copytree()`方法将文件从源复制到目标
 
-```
+```py
 # Python program to explain shutil.copytree() method 
 
 # importing os module 
@@ -57,7 +57,7 @@ print("Destination path:", destination)
 
 **Output:**
 
-```
+```py
 Before copying file:
 ['source']
 After copying file:
@@ -69,7 +69,7 @@ Destination path: C:/Users/Rajnish/Desktop/GeeksforGeeks/destination
 **例 2 :**
 使用`shutil.copytree()`方法通过使用`shutil.copy()`方法复制文件。
 
-```
+```py
 # Python program to explain shutil.copytree() method 
 
 # importing os module 
@@ -109,7 +109,7 @@ print("Destination path:", destination)
 
 **Output:**
 
-```
+```py
 Before copying file:
 ['source']
 After copying file:

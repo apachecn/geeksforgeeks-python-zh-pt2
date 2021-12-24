@@ -23,7 +23,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import requests
 
 url = "https://www.fast2sms.com/dev/bulkV2"
@@ -51,7 +51,7 @@ except:
 
 **输出:**
 
-```
+```py
 SMS Successfully Sent
 ```
 

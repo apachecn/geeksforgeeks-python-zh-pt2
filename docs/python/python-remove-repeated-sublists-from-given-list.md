@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [[1], [1, 2], [3, 4, 5], [2, 1]]
 Output : [[1], [1, 2], [3, 4, 5]]
 
@@ -19,7 +19,7 @@ Output : [['a'], ['x', 'y', 'z'], ['m', 'n']]
 
 我们的第一种方法是用*排序的*元组来设置理解。在列表的每次迭代中，我们将当前的子列表转换为一个排序的元组，并返回所有这些元组的集合，这又消除了子列表的所有重复出现，从而移除了所有重复的重新排列的子列表。
 
-```
+```py
 # Python3 program to Remove repeated 
 # unordered sublists from list
 
@@ -33,14 +33,14 @@ print(Remove(lst))
 
 **Output:**
 
-```
+```py
 [[1, 2], [3, 4, 5], [1]]
 
 ```
 
 **逼近#2 :** 使用*映射()*带*集*和*排序的*元组。
 
-```
+```py
 # Python3 program to Remove repeated 
 # unordered sublists from list
 
@@ -54,7 +54,7 @@ print(Remove(lst))
 
 **Output:**
 
-```
+```py
 [[1, 2], [3, 4, 5], [1]]
 
 ```
@@ -65,7 +65,7 @@ print(Remove(lst))
 
 首先，我们将一个空列表初始化为“res”，将一个集合初始化为“check”。现在，对于列表中的每个子列表，将子列表转换为排序元组，并将其保存在“hsh”中。然后检查检查中是否存在 hsh。如果没有，则将当前子列表追加到“”。“res”和“hsh”改为“check”。这样更容易维护子列表的顺序。
 
-```
+```py
 # Python3 program to Remove repeated 
 # unordered sublists from list
 
@@ -88,7 +88,7 @@ print(Remove(lst))
 
 **Output:**
 
-```
+```py
 [[1], [1, 2], [3, 4, 5]]
 
 ```

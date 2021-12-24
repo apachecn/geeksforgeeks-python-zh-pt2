@@ -10,7 +10,7 @@
 
 对于我们的例子，代码看起来像这样。
 
-```
+```py
 from django.db import models
 
 class Item(models.Model):
@@ -37,7 +37,7 @@ class Purchase(models.Model):
 
 现在让我们看看如何创建我们的采购模型的实例。
 
-```
+```py
 i = Item.objects.create(name = "Water Bottle", price = 100)
 c = Customer.objects.create(name = "Abhishek", age = 21)
 p = Purchase(item = i, customer = c, 
@@ -47,18 +47,18 @@ p = Purchase(item = i, customer = c, 
 p.save()
 ```
 
-```
+```py
 c.items_purchased.all()
 ```
 
-```
+```py
 <QuerySet [<Item: Water Bottle>]>
 ```
 
-```
+```py
 i.customer_set.all()
 ```
 
-```
+```py
 <QuerySet [<Customer: Abhishek>]>
 ```

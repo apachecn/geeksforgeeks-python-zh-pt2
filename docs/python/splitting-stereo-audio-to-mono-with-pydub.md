@@ -8,7 +8,7 @@
 
 使用 pip 进行 Pydub 安装:
 
-```
+```py
 pip install pydub
 ```
 
@@ -39,7 +39,7 @@ pip install pydub
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to illustrate
 # splitting stereo audio to mono
 # using pydub

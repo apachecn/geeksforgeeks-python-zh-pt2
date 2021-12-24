@@ -8,7 +8,7 @@
 > 
 > ## 蟒蛇 3
 > 
-> ```
+> ```py
 > wand.image.selective_blur(radius= radius_value, sigma= sigma_value,
 >                           threshold= thrshold_value,
 >                           channel = "optional_channel_value")

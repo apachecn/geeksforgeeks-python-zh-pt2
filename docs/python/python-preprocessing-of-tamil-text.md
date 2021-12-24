@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing python string function
 import string     
 # Printing Inbuilt punctuation function
@@ -30,7 +30,7 @@ print(string.punctuation)   
 
 ## 蟒 3
 
-```
+```py
 # Function for removing punctuation
 def punctuation_remove(text_data): 
     # Appending non punctuated words
@@ -52,7 +52,7 @@ print(punctuation_removed)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing python regular expression module
 import re    
 
@@ -83,7 +83,7 @@ print(tokenized_text)
 
 ## python 3
 
-```
+```py
 # Importing Natural Language Toolkit python library
 import nltk
 

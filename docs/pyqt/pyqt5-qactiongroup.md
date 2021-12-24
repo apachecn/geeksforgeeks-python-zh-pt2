@@ -9,14 +9,14 @@
 
 语法:
 
-```
+```py
 action_group = QActionGroup()
 
 ```
 
 这个 action_group 是通过添加那些应该在同一个组中的 QAction 来使用的，它们可以借助`addAction`方法来添加。下面是一些经常与 QAction 一起使用的命令
 
-```
+```py
 addAction : To add QAction to it
 
 setEnabled : To make QActionGroup enable or disable
@@ -34,7 +34,7 @@ actions : It returns the list of QAction group is having
 **示例:**
 在这里我们将创建一个菜单栏，它将有一个菜单，并有多个可检查的动作，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys
@@ -126,7 +126,7 @@ sys.exit(App.exec())
 **另一个例子**
 在这里我们将创建一个有多个动作的工具栏，这些动作由两个动作组组成，下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys

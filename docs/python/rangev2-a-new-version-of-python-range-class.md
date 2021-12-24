@@ -8,7 +8,7 @@
 
 这个模块没有内置 python，所以可以通过在终端中键入下面的命令来安装。
 
-```
+```py
 pip install rangev2
 
 ```
@@ -22,7 +22,7 @@ pip install rangev2
 
 **示例#1:**
 
-```
+```py
 # Python Program to  
 # show rangev2 basics
 
@@ -46,7 +46,7 @@ for i in r2.new_range(100,1,'//3'):
 
 **输出:**
 
-```
+```py
 2 4 8 16 32 64
 2 4 16 256
 100 33 11 3
@@ -55,7 +55,7 @@ for i in r2.new_range(100,1,'//3'):
 
 **例 2:**
 
-```
+```py
 # Python program to produce Geometric progression using rangev2
 
 import rangev2 as r2
@@ -69,6 +69,6 @@ print(r2.new_range(int(a),int(c),'*' + b).list)
 
 **输出:**
 
-```
+```py
 [2,4,8,16,32,64]
 ```

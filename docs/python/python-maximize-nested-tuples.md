@@ -7,7 +7,7 @@
 **方法#1:使用 `zip() + max()` +嵌套生成器表达式**
 以上功能的组合可以用来执行任务。在本文中，我们使用 zip()组合元组中的元素。迭代和最大化逻辑由生成器表达式提供。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximizing Nested Tuples
 # using zip() + nested generator expression + max()
@@ -31,7 +31,7 @@ print("The resultant tuple after maximization : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : ((1, 3), (4, 5), (2, 9), (1, 10))
 The original tuple 2 : ((6, 7), (3, 9), (1, 1), (7, 3))
 The resultant tuple after maximization : ((6, 7), (4, 9), (2, 9), (7, 10))

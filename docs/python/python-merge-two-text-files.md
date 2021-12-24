@@ -8,7 +8,7 @@
 
 为了完成这个任务，我们必须导入`shutil` & `pathlib`库。您可以使用以下命令安装库–
 
-```
+```py
 pip install shutil
 pip install pathlib
 ```
@@ -23,7 +23,7 @@ pip install pathlib
 
 下面是 Python 实现–
 
-```
+```py
 import shutil
 from pathlib import Path
 

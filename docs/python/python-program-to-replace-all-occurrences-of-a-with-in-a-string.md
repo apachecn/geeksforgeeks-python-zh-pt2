@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: Ali has all aces
 Output: $li h$s $ll $ces
 
@@ -18,7 +18,7 @@ Output: $ll Ex$ms $re Over
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring a string variable
 str = "Amdani athani kharcha rupaiya."
 
@@ -41,14 +41,14 @@ print(modified_str)
 
 **输出:**
 
-```
+```py
 Modified string :
 $md$ni $th$ni kh$rch$ rup$iy$.
 ```
 
 第二种方法**使用内置方法 replace()用新的指定字符替换字符串中特定字符的所有出现。该方法具有以下语法:**
 
-```
+```py
 replace( oldchar , newchar)
 ```
 
@@ -56,7 +56,7 @@ replace( oldchar , newchar)
 
 ## **蟒蛇 3**
 
-```
+```py
 # declaring a string variable
 str = "An apple A day keeps doctor Away."
 
@@ -68,7 +68,7 @@ print(str)
 
 ****输出:****
 
-```
+```py
 Modified string :
 $n $pple $ d$y keeps doctor $w$y.
 ```

@@ -6,7 +6,7 @@
 
 首先，我们需要安装一些库。在终端中执行以下命令。
 
-```
+```py
 pip install selenium 
 pip install beautifulsoup4
 ```
@@ -30,7 +30,7 @@ pip install beautifulsoup4
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time
@@ -90,7 +90,7 @@ driver.find_element_by_xpath("//button[@type='submit']").click()
 
 ## 蟒蛇 3
 
-```
+```py
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import time

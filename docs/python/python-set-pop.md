@@ -8,7 +8,7 @@ Python 的这个内置功能有助于**从集合中弹出元素**，就像在实
 
 **语法:**
 
-```
+```py
 # Pops a First element from S
 # and returns it.
 S.pop()
@@ -18,7 +18,7 @@ S.pop()
 
 **示例:**
 
-```
+```py
 Input : 
 sets = {1, 2, 3, 4, 5}
 Output : 
@@ -34,7 +34,7 @@ Updated set is {'ram', 'rishav', 'ajay', 'aakash'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate pop() method
 
 S = {"ram", "rahim", "ajay", "rishav", "aakash"}
@@ -54,7 +54,7 @@ print("Updated set is", S)
 
 **输出:**
 
-```
+```py
 rishav
 ram
 rahim
@@ -65,7 +65,7 @@ Updated set is {'aakash', 'ajay'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to illustrate pop() method
 # on an empty set
 S = {}
@@ -79,7 +79,7 @@ print("Updated set is", S)
 
 **错误:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/7c5b1d5728eb9aa0e63b1d70ee5c410e.py", line 6, in 
     print(S.pop())

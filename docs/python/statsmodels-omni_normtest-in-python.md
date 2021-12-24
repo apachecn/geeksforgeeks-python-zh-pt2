@@ -12,7 +12,7 @@
 **例#1 :**
 在本例中我们可以看到，通过使用`statsmodels.omni_normtest()`方法，我们能够使用该方法中的 chi^2 分数来计算正态性的综合检验。
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import omni_normtest
@@ -30,7 +30,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import numpy and statsmodels
 import numpy as np
 from statsmodels.stats.stattools import omni_normtest

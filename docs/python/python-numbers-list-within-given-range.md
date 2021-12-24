@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : [10, 20, 30, 40, 50, 40, 40, 60, 70] range: 40-80
 Output : 6
 
@@ -22,7 +22,7 @@ Output : 4
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to count the
 # number of numbers in a given range
 # using traversal and multiple line code
@@ -45,14 +45,14 @@ print count(list1, l, r)
 
 **输出:**
 
-```
+```py
 6
 ```
 
 **单线法:**
 我们可以写一条单线一起遍历和检查条件:
 
-```
+```py
 x for x in list1 if l <= x <= r
 ```
 
@@ -61,7 +61,7 @@ x for x in list1 if l <= x <= r
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to count the
 # number of numbers in a given range
 
@@ -83,6 +83,6 @@ print count(list1, l, r)
 
 **输出:**
 
-```
+```py
 6 
 ```

@@ -19,7 +19,7 @@
 
 ## 蟒 3
 
-```
+```py
 from pymongo import MongoClient 
 
 # creation of MongoClient 
@@ -54,7 +54,7 @@ for i in agg_result:
 
 **输出:**
 
-```
+```py
 {'_id': 'Cody', 'num_tutorial': 1}
 {'_id': 'Drew', 'num_tutorial': 2}
 {'_id': 'Amit', 'num_tutorial': 2}
@@ -67,7 +67,7 @@ for i in agg_result:
 
 ## 蟒 3
 
-```
+```py
 from pymongo import MongoClient 
 
 # creation of MongoClient 
@@ -102,7 +102,7 @@ for i in agg_result:
 
 **输出:**
 
-```
+```py
 {'_id': 'MongoDB', 'total': 2}
 {'_id': 'C++', 'total': 1}
 {'_id': 'JavaScript', 'total': 1}

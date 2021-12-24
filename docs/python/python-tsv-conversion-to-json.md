@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 def tsv2json(input_file,output_file):

@@ -14,7 +14,7 @@ Python 中的一个[字典](https://www.geeksforgeeks.org/python-dictionary/)的
 
 考虑下面给出的员工记录:
 
-```
+```py
 Employees
 emp1:
      name:Lisa
@@ -29,7 +29,7 @@ emp2:
 
 在这里， ***员工*** 就是外字典。 ***emp1、emp2*** 是以另一个字典作为值的键。上述信息的字典结构如下所示:
 
-```
+```py
 employees:
 {
  emp1:
@@ -50,7 +50,7 @@ emp2:
 
 考虑一下像 **`d={'a':1, 'b':2, 'c':3}`** 这样的简单字典。如果要将 **'b'** 的值更新为 **7** ，可以写成`**d['b']=7**`。然而，同样的方法不能应用于嵌套的方法。这将创建一个新的关键字，因为外部字典中的关键字只会在您尝试更新时被搜索。例如，请参见下面的代码:
 
-```
+```py
 # an employee record
 Employee = { 
     'emp1': {
@@ -78,7 +78,7 @@ print(Employee)
 
 在输出外观中，添加了“name”:“Kate”作为新的键值对，这不是我们想要的输出。让我们考虑一下，我们需要将第一个员工的姓名更新为“凯特”。让我们把字典看作一个 2D 数组。这将有助于我们轻松更新信息。上述字典的 2D 数组视图如下所示:
 
-```
+```py
 *Employee*     name        age      Designation
 emp1         Lisa         29       Programmer
 emp2         Steve        45       HR
@@ -87,7 +87,7 @@ emp2         Steve        45       HR
 
 现在我们必须将第一个员工的名字更新为“凯特”。因此，我们必须更新员工[' EMP 1 ']['姓名']。修改后的代码如下:
 
-```
+```py
 # an employee record
 Employee = { 
     'emp1': {
@@ -114,7 +114,7 @@ print(Employee)
 
 如果字典中有所提及的关键字，上述方法会更新该关键字的值。否则，它会创建一个新条目。例如，如果您想为第一个员工添加一个新的属性**‘薪资’**，那么您可以将上面的代码写成:
 
-```
+```py
 # an employee record
 Employee = { 
     'emp1': {
@@ -146,7 +146,7 @@ print(Employee)
 
 以上方法都是静态的。现在，为了让它与用户交互，我们可以稍微修改下面给出的代码:
 
-```
+```py
 # an employee record
 Employee = { 
     'emp1': {
@@ -181,7 +181,7 @@ print(Employee)
 
 **Input:**
 
-```
+```py
 Employee id :emp1
 Attribute to be updated :name
 New value :Kate
@@ -198,7 +198,7 @@ New value :Kate
 
 这个想法是先展平嵌套字典，然后更新它，再取消它。为了使它更清楚，考虑下面的字典作为一个例子:
 
-```
+```py
 dict1={
        'a':{
             'b':1
@@ -213,14 +213,14 @@ dict1={
 
 展平嵌套字典只不过是使用适当的分隔符将父键附加到实键上。分隔符可以是任何符号。它可以是逗号(，)、连字符(-)、下划线(_)或句点(。)，甚至只是一个空格()。在这里，用下划线作为分隔符进行展平后，本词典将如下所示:
 
-```
+```py
 dict1={'a_b':1, 'c_d':2, 'c_e':5}
 
 ```
 
 使用 Python 中**包`flatten-dict`** 提供的内置方法可以轻松完成展平。它提供了展平字典类对象和取消它们的方法。使用 pip 命令安装软件包，如下所示:
 
-```
+```py
 pip install flatten-dict
 ```
 
@@ -247,7 +247,7 @@ pip install flatten-dict
 
 *让我们考虑我们在上面尝试的同一个员工示例。代码如下:*
 
-```
+```py
 *from flatten_dict import flatten
 from flatten_dict import unflatten
 

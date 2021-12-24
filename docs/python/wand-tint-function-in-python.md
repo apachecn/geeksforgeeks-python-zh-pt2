@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.tint(color, alpha)
 > 
 > ```
@@ -25,7 +25,7 @@
 
 **例 1:**
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ="koala.jpeg") as img:
 
 **例 2:** 增加金额值
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

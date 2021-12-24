@@ -9,7 +9,7 @@ Main 函数就像程序的入口点。然而，Python 解释器从第一行就�
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # main() function
 
@@ -27,7 +27,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 Hello
 hey there
 
@@ -41,7 +41,7 @@ hey there
 
 **示例:**我们来考虑一下有两个文件(File1.py 和 File2.py)。文件 1 如下。
 
-```
+```py
 # File1.py 
 
 print("File1 __name__ = %s" %__name__)
@@ -54,7 +54,7 @@ else: 
 
 **输出:**
 
-```
+```py
 File1 __name__ = __main__
 File1 is being run directly
 
@@ -62,7 +62,7 @@ File1 is being run directly
 
 现在，当文件 1.py 被导入文件 2.py 时，__name__ 的值会发生变化。
 
-```
+```py
 # File2.py 
 
 import File1 
@@ -77,7 +77,7 @@ else: 
 
 **输出:**
 
-```
+```py
 File1 __name__ = File1
 File1 is being imported
 File2 __name__ = __main__

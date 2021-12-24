@@ -6,7 +6,7 @@
 
 ****beauty sup**是一个 Python Web 报废库，用于拉出数据，解析 HTML 和 XML 文件。要安装美观的套件，请在终端中键入以下命令。**
 
-```
+```py
 pip install BeautifulSoup4
 ```
 
@@ -41,7 +41,7 @@ bookto 将所有产品放在第一页的搜索网站**
 
 ## **蟒蛇 3**
 
-```
+```py
 # import web grabbing client and
 # HTML parser
 from urllib.request import urlopen as uReq
@@ -106,13 +106,13 @@ f.close()
 *   **现在我们有了所有的书，我们需要选择我们必须从每本书中提取的特定信息，那就是**书名**和**价格**。** 
 *   **上图可以看到，每本书的书名都在 **< h3 >标签**下，而后者在**T6【a】>标签**下有‘书名’。所以上面的函数用来提取每本书的书名。**
 
-```
+```py
 book_title = books.h3.a["title"]
 ```
 
 *   **对于价格我们可以看到是在**T6【p】T7**标签下在类:**【price _ color】**所以我们用 **findAll()****
 
-```
+```py
 book_price = books.findAll("p", {"class" : "price_color"})
 price = book_price[0].text.strip()
 ```

@@ -32,7 +32,7 @@ runs 测试的第一步是统计数据序列中的运行次数。有几种方法
 
 *   计算测试统计，Z 为:
 
-```
+```py
 
 Where, 
 R = The number of observed runs
@@ -50,7 +50,7 @@ negative values in the series
 
 ## 蟒蛇 3
 
-```
+```py
 # simple code to implement Runs 
 # test of randomnes
 
@@ -100,6 +100,6 @@ print('Z-statistic= ', Z)
 
 **输出:**
 
-```
+```py
 Z-statistic=  1.809160364503323
 ```

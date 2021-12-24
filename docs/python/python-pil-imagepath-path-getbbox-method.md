@@ -14,7 +14,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。 **
 > 
 > **返回:** (x0，y0，x1，y1)
 
-```
+```py
 
 # importing image class from PIL package
 import math
@@ -29,7 +29,7 @@ print(getbox)
 
 **输出:**
 
-```
+```py
 (2.0, 14.0, 12.0, 24.0)
 [(2, 14), (7, 19), (12, 24)]
 
@@ -37,7 +37,7 @@ print(getbox)
 
 **另一个例子:**改变参数。
 
-```
+```py
 
 # importing image class from PIL package
 import math
@@ -52,7 +52,7 @@ print(getbox)
 
 **输出:**
 
-```
+```py
 (3.0, 11.0, 8.0, 21.0)
 [(3, 11), (4, 13), (5, 15), (6, 17), (7, 19), (8, 21)]
 

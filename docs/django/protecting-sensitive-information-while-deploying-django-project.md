@@ -12,7 +12,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install python-decouple
 ```
 
@@ -34,7 +34,7 @@ pip install python-decouple
 
 ## 蟒蛇 3
 
-```
+```py
 from decouple import config
 ```
 
@@ -42,7 +42,7 @@ from decouple import config
 
 ## 蟒蛇 3
 
-```
+```py
 SECRET_KEY = config('SECRET_KEY')
 ```
 
@@ -50,6 +50,6 @@ SECRET_KEY = config('SECRET_KEY')
 
 ## 蟒蛇 3
 
-```
+```py
 DEBUG = config('DEBUG')
 ```

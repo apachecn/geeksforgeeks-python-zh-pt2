@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_str = 'geeksforgeeks'
 Output : GeeksfORgeeks
 
@@ -24,7 +24,7 @@ Explanation : Random elements are converted to Upper case characters.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random uppercase in Strings
 # Using join() + choice() + upper() + lower()
@@ -45,7 +45,7 @@ print("Random Uppercased Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 Random Uppercased Strings : gEEkSFoRgEeKS
 ```
@@ -56,7 +56,7 @@ Random Uppercased Strings : gEEkSFoRgEeKS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random uppercase in Strings
 # Using map() + choice() + zip()
@@ -78,7 +78,7 @@ print("Random Uppercased Strings : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 Random Uppercased Strings : geEkSFORgEEKS
 ```

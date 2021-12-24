@@ -31,7 +31,7 @@ Python 中存在的子进程模块(2.x 和 3.x)用于通过创建新的进程，
 
 **C 程序:**
 
-```
+```py
 #include<stdio.h>
 int main()
 {
@@ -46,7 +46,7 @@ int main()
 
 **C++程序:**
 
-```
+```py
 #include <iostream>
 using namespace std;
 int main()
@@ -60,7 +60,7 @@ int main()
 
 **Java 程序:**
 
-```
+```py
 class HelloWorld {
     public static void main(String args[])
     {
@@ -71,7 +71,7 @@ class HelloWorld {
 
 **Python 3 code to execute the above programs:**
 
-```
+```py
 # Python 3 program to demonstrate subprocess 
 # module
 
@@ -117,7 +117,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 Hello World from C, return code 0
 Hello World from C++. Values are:5 10
 Hello World from Java.

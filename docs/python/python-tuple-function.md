@@ -8,7 +8,7 @@ tuple()函数是 Python 中的内置函数，可用于创建元组。
 
 **语法:**
 
-```
+```py
 tuple(iterable)  
 
 ```
@@ -22,7 +22,7 @@ tuple(iterable)
 下面的程序说明了 Python 中的 tuple()函数:
 **程序 1:** 演示 tuple()函数使用的程序
 
-```
+```py
 # Python3 program demonstrating
 # the use of tuple() function
 
@@ -48,7 +48,7 @@ print(tuple4)
 
 输出:
 
-```
+```py
 ()
 (1, 2, 3, 4)
 (1, 2)
@@ -58,7 +58,7 @@ print(tuple4)
 
 **程序 2:** 演示类型错误的程序
 
-```
+```py
 # Python3 program demonstrating 
 # the TypeError in tuple() function
 
@@ -69,7 +69,7 @@ print(tuple1)
 
 输出:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/eaf759787ade3942e8b9b436d6c60ab3.py", line 5, in 
     tuple1=tuple(1) 

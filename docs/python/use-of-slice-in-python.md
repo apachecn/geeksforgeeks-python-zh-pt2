@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 L = [('Student A', 9876543210, 'Address of A', 99, 82, 97, 78, 69),
      ('Student B', 9999999999, 'Address of B', 90, 83, 87, 72, 67),
      ('Student C', 8888888888, 'Address of C', 88, 41, 56, 61, 93)]
@@ -25,7 +25,7 @@ print(sum_of_marks / 3)
 
 **输出:**
 
-```
+```py
 ('Student A', 9876543210, 'Address of A') Marks: 85.0
 ('Student B', 9999999999, 'Address of B') Marks: 79.8
 ('Student C', 8888888888, 'Address of C') Marks: 67.8
@@ -53,7 +53,7 @@ print(sum_of_marks / 3)
 
 ## 蟒蛇 3
 
-```
+```py
 l = [('Student A', 9876543210, 'Address of A', 99, 82, 97, 78, 69),
      ('Student B', 9999999999, 'Address of B', 90, 83, 87, 72, 67),
      ('Student C', 8888888888, 'Address of C', 88, 41, 56, 61, 93)]
@@ -75,7 +75,7 @@ print(sum_of_marks / 3)
 
 **输出:**
 
-```
+```py
 ('Student A', 9876543210, 'Address of A') MArks: 85.0
 ('Student B', 9999999999, 'Address of B') MArks: 79.8
 ('Student C', 8888888888, 'Address of C') MArks: 67.8

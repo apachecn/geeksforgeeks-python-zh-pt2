@@ -19,7 +19,7 @@
 **方法#1:使用列表理解+ `get()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用列表理解执行遍历每个字典的任务，get()用于获取字典值并处理非当前值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values from custom List in Records
 # Using list comprehension + get()
@@ -45,7 +45,7 @@ print("All extracted values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [{'name': 'Gfg', 'id': 1, 'Score': 3}, {'name': 'is', 'id': 4, 'Score': 10}, {'name': 'Best', 'Score': 12}]
 All extracted values : [['Gfg', 1], ['is', 4], ['Best', None]]
 
@@ -54,7 +54,7 @@ All extracted values : [['Gfg', 1], ['is', 4], ['Best', None]]
 **方法 2:使用列表理解+ `itemgetter() + intersection()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 itemgetter()和交集()来获取检查目标列表和参数列表的值。无法处理不存在的钥匙。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Values from custom List in Records
 # Using list comprehension + itemgetter() + intersection()
@@ -80,7 +80,7 @@ print("All extracted values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [{'name': 'Gfg', 'id': 1, 'Score': 3}, {'name': 'is', 'id': 4, 'Score': 10}]
 All extracted values : [[1, 'Gfg'], [4, 'is']]
 

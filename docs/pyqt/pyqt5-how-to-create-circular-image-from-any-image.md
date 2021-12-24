@@ -18,7 +18,7 @@
 下图为原图:
 ![](img/1033b9bf8b17433f9a70a3d42b6ad79d.png)
 
-```
+```py
 # importing libraries
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 

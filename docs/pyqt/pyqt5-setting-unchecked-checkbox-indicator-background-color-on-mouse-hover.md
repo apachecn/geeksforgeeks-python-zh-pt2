@@ -6,7 +6,7 @@
 
 下面是与复选框对象一起使用的样式表代码。
 
-```
+```py
 QCheckBox::indicator:unchecked:hover
 {
 background-color : yellow;
@@ -16,7 +16,7 @@ background-color : yellow;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

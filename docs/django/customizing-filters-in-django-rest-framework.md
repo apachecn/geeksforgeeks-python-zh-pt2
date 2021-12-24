@@ -10,7 +10,7 @@ Django 过滤器便于过滤 queryset，以便根据分配给过滤器字段的�
 
 ## 蟒蛇 3
 
-```
+```py
 from django_filters import FilterSet, AllValuesFilter
 from django_filters import DateTimeFilter, NumberFilter
 ```
@@ -19,7 +19,7 @@ from django_filters import DateTimeFilter, NumberFilter
 
 ## 蟒蛇 3
 
-```
+```py
 class RobotFilter(FilterSet):
     from_manufacturing_date = DateTimeFilter(field_name='manufacturing_date',
                                              lookup_expr='gte')
@@ -71,7 +71,7 @@ class RobotFilter(FilterSet):
 
 ## 蟒蛇 3
 
-```
+```py
 class RobotList(generics.ListCreateAPIView):
     queryset = Robot.objects.all()
     serializer_class = RobotSerializer

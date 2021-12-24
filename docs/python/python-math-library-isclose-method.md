@@ -18,7 +18,7 @@
 
 **代码#1:**
 
-```
+```py
 # Importing Math module
 import math
 
@@ -30,7 +30,7 @@ print(math.isclose(2.006, 2.005))
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -39,7 +39,7 @@ False
 
 **代码#2:**
 
-```
+```py
 # Importing Math module
 import math
 
@@ -51,7 +51,7 @@ print(math.isclose(2.0214, 2.00214, abs_tol = 0.02))
 
 **输出:**
 
-```
+```py
 True
 False
 True

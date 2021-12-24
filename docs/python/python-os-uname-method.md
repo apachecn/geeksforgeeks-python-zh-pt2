@@ -18,7 +18,7 @@
 
 **代码#1:** 使用 os.uname()方法
 
-```
+```py
 # Python program to explain os.uname() method 
 
 # importing os module 
@@ -34,7 +34,7 @@ print(os_info) 
 
 **Output:**
 
-```
+```py
 posix.uname_result(sysname='Linux', nodename='pppContainer', release='4.4.0-1075-aws', 
 version='#85-Ubuntu SMP Thu Jan 17 17:15:12 UTC 2019', machine='x86_64')
 

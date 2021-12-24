@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # An iterative Java program to check if 
 # two linked lists are identical or not 
 
@@ -88,7 +88,7 @@ else:
 
 **输出:**
 
-```
+```py
 Identical
 ```
 
@@ -97,7 +97,7 @@ Identical
 
 ## 蟒蛇 3
 
-```
+```py
 # A recursive Python3 function to check 
 # if two linked lists are identical 
 # or not 

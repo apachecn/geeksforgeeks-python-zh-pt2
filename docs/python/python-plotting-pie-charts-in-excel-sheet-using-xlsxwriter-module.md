@@ -14,7 +14,7 @@
 
 要在 excel 工作表中绘制简单的饼图，请使用带有工作簿对象的“饼图”关键字参数的`add_chart()`方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -87,7 +87,7 @@ workbook.close() 
 
 要在 excel 表上绘制带有用户定义的线段颜色的饼图，请使用图表对象的 points 关键字参数的`add_series()`方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -163,7 +163,7 @@ workbook.close()
 
 若要在 excel 工作表中绘制带旋转线段的饼图，请使用图表对象的 set_rotation()方法和确定角度参数。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

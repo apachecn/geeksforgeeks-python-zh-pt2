@@ -10,7 +10,7 @@ Pygal 是一个 Python 模块，主要用于构建 SVG(标量矢量图形)图形
 
 **语法:**
 
-```
+```py
 gauge = pygal.SolidGauge()
 
 ```
@@ -19,7 +19,7 @@ gauge = pygal.SolidGauge()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 
@@ -45,7 +45,7 @@ Solid_Gauge
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 

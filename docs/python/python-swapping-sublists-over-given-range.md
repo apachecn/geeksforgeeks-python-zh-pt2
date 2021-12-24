@@ -7,7 +7,7 @@
 **方法#1:使用列表切片和交换**
 列表的交换方式与 python 中变量的交换方式相同，但不同的是，我们传递的不是变量，而是要交换的切片列表。
 
-```
+```py
 # Python3 code to demonstrate
 # swapping sublist
 # using list swapping and slicing
@@ -28,7 +28,7 @@ print ("The list after sublist swapping : " + str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 8, 3, 10, 6, 7, 11, 14, 15, 2]
 The list after sublist swapping : [1, 6, 7, 8, 3, 10, 4, 5, 11, 14, 15, 2]
 
@@ -37,7 +37,7 @@ The list after sublist swapping : [1, 6, 7, 8, 3, 10, 4, 5, 11, 14, 15, 2]
 **方法 2:使用`slice() + itertools.chain.from_iterable()`**
 切片函数可以执行切片功能，从列表中提取子列表，from_iterable 函数有助于执行交换功能。
 
-```
+```py
 # Python3 code to demonstrate swapping 
 # sublist using slice() + itertools.chain.from_iterable()
 import itertools
@@ -64,7 +64,7 @@ print ("The list after sublist swapping : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 8, 3, 10, 6, 7, 11, 14, 15, 2]
 The list after sublist swapping : [1, 6, 7, 8, 3, 10, 4, 5, 11, 14, 15, 2]
 

@@ -14,7 +14,7 @@
 
 下面是这个方法的实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -84,7 +84,7 @@ sys.exit(App.exec())
 
 **输出:**
 
-```
+```py
 format of bar 1 : %p%
 format of bar 2 : Geeks
 

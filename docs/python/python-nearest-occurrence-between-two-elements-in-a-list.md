@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Nearest occurrence of x from y in List
 # Using list comprehension + loop + index()

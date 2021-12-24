@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -41,7 +41,7 @@ print("The name of the subreddit is : " + subreddit.display_name)
 
 **输出:**
 
-```
+```py
 The name of the subreddit is : aww
 
 ```
@@ -51,7 +51,7 @@ The name of the subreddit is : aww
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -83,7 +83,7 @@ print("The name of the subreddit is : " + subreddit.display_name)
 
 **输出:**
 
-```
+```py
 The name of the subreddit is : redditdev
 
 ```

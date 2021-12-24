@@ -24,7 +24,7 @@
 
 无状态问题方法
 
-```
+```py
 """State class: Base State class"""
 class State:
 
@@ -105,7 +105,7 @@ if __name__ == "__main__":
 
 ### 输出
 
-```
+```py
 Visiting... Station is 89.1 FM
 Visiting... Station is 103.9 FM
 Visiting... Station is 81.3 FM

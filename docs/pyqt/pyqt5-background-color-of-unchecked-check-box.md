@@ -8,7 +8,7 @@
 
 为了设置未选中状态的背景颜色，我们必须在未选中状态下更改标签部分的样式表。下面是样式表代码。
 
-```
+```py
 QCheckBox::unchecked
 {
 background-color : pink;
@@ -18,7 +18,7 @@ background-color : pink;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

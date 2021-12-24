@@ -7,7 +7,7 @@
 **方法#1:使用循环+ `split()`**
 上述功能的组合可用于执行该任务。在本文中，我们遍历每个列表字符串并执行手动拆分，然后使用 extend()和 loop 将新元素添加到该列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # Split String of list on K character
 # using loop + split()
@@ -33,7 +33,7 @@ print ("The extended list after split strings : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg is best', 'for Geeks', 'Preparing']
 The extended list after split strings : ['Gfg', 'is', 'best', 'for', 'Geeks', 'Preparing']
 

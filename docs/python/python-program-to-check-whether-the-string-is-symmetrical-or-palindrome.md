@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: khokho
 Output: 
 The entered string is symmetrical
@@ -24,7 +24,7 @@ The entered string is palindrome
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # symmetry and palindrome of the
 # string
@@ -105,7 +105,7 @@ symmetry(string)
 
 **Output**
 
-```
+```py
 The entered string is palindrome
 The entered string is symmetrical
 
@@ -117,7 +117,7 @@ The entered string is symmetrical
 
 ## 蟒蛇 3
 
-```
+```py
 string = 'amaama'
 half = int(len(string) / 2)
 
@@ -143,7 +143,7 @@ else:
 
 **Output**
 
-```
+```py
 amaama string is symmertical
 amaama string is palindrome
 

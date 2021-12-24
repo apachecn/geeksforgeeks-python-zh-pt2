@@ -20,7 +20,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 
 **代码:**使用 OS . getgroups()方法
 
-```
+```py
 # Python program to explain os.getgroups() method 
 
 # importing os module 

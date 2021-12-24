@@ -13,7 +13,7 @@
 **方法#1:使用列表理解+ `zip() + sum()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 sum()执行 sum 任务，zip()用于执行所有元素的列式配对。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple Matrix Columns Summation
 # Using list comprehension + zip() + sum()
@@ -34,7 +34,7 @@ print("Tuple matrix columns summation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]
 Tuple matrix columns summation : [(9, 9), (11, 13)]
 
@@ -43,7 +43,7 @@ Tuple matrix columns summation : [(9, 9), (11, 13)]
 **方法 2:使用`map() + list comprehension + zip()`**
 以上功能的组合可以用来解决这个问题。在本例中，我们使用 map()执行 sum()的扩展任务，其余功能的执行与上述方法类似。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple Matrix Columns Summation
 # Using map() + list comprehension + zip()
@@ -64,7 +64,7 @@ print("Tuple matrix columns summation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[(4, 5), (3, 2)], [(2, 2), (4, 6)], [(3, 2), (4, 5)]]
 Tuple matrix columns summation : [(9, 9), (11, 13)]
 

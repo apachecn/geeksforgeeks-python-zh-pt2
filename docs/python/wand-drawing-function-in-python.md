@@ -10,7 +10,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import important objects from wand library
 from wand.image import Image
 from wand.drawing import Drawing
@@ -32,7 +32,7 @@ with Drawing() as draw:
 
 **例 2:**
 
-```
+```py
 # Import important objects from wand library
 from wand.image import Image
 from wand.drawing import Drawing

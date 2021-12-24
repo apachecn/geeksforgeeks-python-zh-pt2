@@ -9,7 +9,7 @@
 
 为此，我们必须更改与单选按钮相关联的样式表。
 
-```
+```py
 QRadioButton
 {
 border : 2px green;
@@ -20,7 +20,7 @@ border-style :dotted;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

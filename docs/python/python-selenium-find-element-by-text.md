@@ -15,7 +15,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html> 
 <body> 
@@ -34,7 +34,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from selenium import webdriver
 from time import sleep
 ```
@@ -43,7 +43,7 @@ from time import sleep
 
 ## 蟒蛇 3
 
-```
+```py
 driver = webdriver.Chrome(
     executable_path="#path where you have installed webdriver")
 ```

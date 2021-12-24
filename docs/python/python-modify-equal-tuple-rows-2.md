@@ -18,7 +18,7 @@
 **方法#1:使用 loop + `enumerate()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们应用蛮力来执行检查相等性和执行所需修改的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Modify Equal Tuple Rows
 # Using loop + enumerate()
@@ -49,7 +49,7 @@ print("List after modification : " + str(test_list)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[(12, 5), (13, 6)], [(12, 2), (13, 2)]]
 List after modification : [[(12, 5), (13, 6)], [(12, 8), (13, 8)]]
 
@@ -58,7 +58,7 @@ List after modification : [[(12, 5), (13, 6)], [(12, 8), (13, 8)]]
 **方法 2:使用列表理解**
 这是另一种可以执行该任务的方式。在这种情况下，我们使用列表理解以类似于上述方法的单行方式执行任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Modify Equal Tuple Rows
 # Using list comprehension
@@ -83,7 +83,7 @@ print("List after modification : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[(12, 5), (13, 6)], [(12, 2), (13, 2)]]
 List after modification : [[(12, 5), (13, 6)], [(12, 8), (13, 8)]]
 

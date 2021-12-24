@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import ctypes
 
 # list object which is referenced by
@@ -28,7 +28,7 @@ print(f"Reference count for my_list is: {ref_count}")
 
 **输出:**
 
-```
+```py
 Reference count for my_list is: 1
 ```
 
@@ -66,7 +66,7 @@ Reference count for my_list is: 1
 
 ## 蟒蛇 3
 
-```
+```py
 # importing weakref module
 import weakref
 
@@ -112,7 +112,7 @@ for objects in [normal_list, weak_list_obj, proxy_list]:
 
 ## 蟒蛇 3
 
-```
+```py
 # import weakref module
 import weakref
 
@@ -148,7 +148,7 @@ del weak_dict
 
 **输出:**
 
-```
+```py
 Weak reference count is: 1
 ```
 

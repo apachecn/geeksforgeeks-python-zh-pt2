@@ -7,7 +7,7 @@
 **方法#1:使用 loop + `zip()`**
 这个任务可以使用以上功能的组合来解决。在这种情况下，我们在 zip()中传递列表，以访问所有列并循环获取列的乘积。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Nth column Matrix Product 
 # using loop + zip() 
@@ -39,7 +39,7 @@ print("Product of Nth column is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[5, 6, 7], [9, 10, 2], [10, 3, 4]]
 Product of Nth column is : 56
 

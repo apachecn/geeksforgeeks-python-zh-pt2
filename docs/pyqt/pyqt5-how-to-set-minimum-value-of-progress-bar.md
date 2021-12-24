@@ -6,7 +6,7 @@
 
 如果我们改变最小值，百分比也会相应改变
 
-```
+```py
 percentage = ((value_passed - minimum_value)/(maximum_value - minimum_value))*100
 ```
 
@@ -20,7 +20,7 @@ percentage = ((value_passed - minimum_value)/(maximum_value - minimum_value))*10
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

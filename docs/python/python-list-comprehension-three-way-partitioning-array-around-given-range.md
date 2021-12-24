@@ -10,7 +10,7 @@
 
 示例:
 
-```
+```py
 Input: arr = [1, 14, 5, 20, 4, 2, 54, 20, 87, 98, 3, 1, 32]  
         lowVal = 14, highVal = 20
 Output: arr = [1, 5, 4, 2, 3, 1, 14, 20, 20, 54, 87, 98, 32]
@@ -26,7 +26,7 @@ Output: arr = [1, 14, 5, 4, 2, 3, 1, 20, 20, 54, 87, 98, 32]
 1.  将列表分为三部分，第一部分包含小于 **lowVal** 的元素，第二部分包含介于 **lowVal** 和 **highVal** 之间的元素，第三部分包含大于 **highVal** 的元素。
 2.  将所有三个部分连接在一起。
 
-```
+```py
 # Function for Three way partitioning of an
 # array around a given range
 
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [1, 5, 4, 2, 3, 1, 14, 20, 20, 54, 87, 98, 32]
 
 ```

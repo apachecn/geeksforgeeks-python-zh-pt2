@@ -7,7 +7,7 @@
 **方法#1:使用`count()` +循环**
 上述功能的组合可用于执行该任务。在本例中，我们使用 count()计算频率，迭代任务在循环中执行。
 
-```
+```py
 # Python3 code to demonstrate 
 # List Strings frequency in Matrix
 # using count() + loop
@@ -32,7 +32,7 @@ print ("Frequency of strings in Matrix : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [['Gfg', 'is', 'best'], ['Gfg', 'is', 'for', 'CS'], ['Gfg', 'is', 'for', 'Geeks']]
 The original list 2 is : ['Gfg', 'is', 'best']
 Frequency of strings in Matrix : [[1, 1, 1], [1, 1, 0], [1, 1, 0]]

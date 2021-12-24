@@ -17,7 +17,7 @@
 
 让我们看看它的代码是什么样的:
 
-```
+```py
 # importing necessary modules
 import numpy as np
 from PIL import Image

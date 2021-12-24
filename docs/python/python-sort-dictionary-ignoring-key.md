@@ -13,7 +13,7 @@
 **方法:使用`next() + sorted() + insert()`**
 以上方法的结合，可以用来解决这个问题。在这种情况下，我们使用 sorted()执行排序，insert()用于在其位置插入杂散元素，next()用于在初始杂散键的情况下按顺序获取下一个键。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary ignoring Key
 # Using next() + sorted() + insert()

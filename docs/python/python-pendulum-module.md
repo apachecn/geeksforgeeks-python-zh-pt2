@@ -8,7 +8,7 @@
 
 **要安装该模块，请在您的终端中运行以下命令:**
 
-```
+```py
 pip install pendulum
 ```
 
@@ -20,7 +20,7 @@ pip install pendulum
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import pendulum
 dt = pendulum.datetime(2020, 11, 27)
@@ -34,7 +34,7 @@ print(local.timezone.name)
 
 **输出:**
 
-```
+```py
 2020-11-27T00:00:00+00:00
 2020-11-27T00:00:00+05:30
 Asia/Calcutta
@@ -50,7 +50,7 @@ Asia/Calcutta
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing library
 import pendulum
 
@@ -73,7 +73,7 @@ print('Current Date Time in Sydney =', sydney_time)
 
 **输出:**
 
-```
+```py
 Current Date Time in Kolkata = 2020-11-27T15:16:36.985136+05:30
 Current Date Time in Sydney = 2020-11-27T20:46:36.985136+11:00
 ```
@@ -86,7 +86,7 @@ Current Date Time in Sydney = 2020-11-27T20:46:36.985136+11:00
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the library
 import pendulum
 # creating datetime instance
@@ -112,7 +112,7 @@ print(dt)
 
 **输出:**
 
-```
+```py
 2020-11-27T00:00:00+00:00
 2025-11-27T00:00:00+00:00
 2025-10-27T00:00:00+00:00
@@ -135,7 +135,7 @@ print(dt)
 
 ## 蟒蛇 3
 
-```
+```py
 import pendulum
 # Creating new DateTime instance
 dt = pendulum.datetime(2020, 11, 27, 12, 30, 15)
@@ -152,7 +152,7 @@ print(new_str)
 
 **输出:**
 
-```
+```py
 2020-11-27T12:30:15+00:00
 Friday 27th of November 2020 12:30:15 PM
 2020-11-27 12:30:15 UTC+0000
@@ -164,7 +164,7 @@ parse()函数用于将具有常用格式的字符串解析为 datetime 对象。
 
 ## 蟒蛇 3
 
-```
+```py
 import pendulum
 dt = pendulum.parse('1997-11-21T22:00:00',
                     tz = 'Asia/Calcutta')
@@ -179,7 +179,7 @@ print(dt)
 
 **输出:**
 
-```
+```py
 1997-11-21T22:00:00+05:30
 2020-11-21T00:00:00+00:00
 ```
@@ -192,7 +192,7 @@ print(dt)
 
 ## 蟒蛇 3
 
-```
+```py
 import pendulum
 time_delta = pendulum.duration(days = 2,
                                hours = 10,

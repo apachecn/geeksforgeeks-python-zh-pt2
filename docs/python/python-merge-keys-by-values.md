@@ -20,7 +20,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Merge keys by values
 # Using defaultdict() + loop

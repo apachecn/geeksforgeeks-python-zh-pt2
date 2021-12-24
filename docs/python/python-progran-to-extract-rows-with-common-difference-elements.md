@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract rows with common difference elements
 # Using loop
@@ -59,7 +59,7 @@ print("Filtered Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # all() + list comprehension
 # Using list comprehension + all()

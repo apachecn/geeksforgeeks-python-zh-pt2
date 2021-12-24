@@ -8,7 +8,7 @@
 
 为此我们改变了 CSS 样式表中每个边框的颜色，下面是边框样式表的代码。
 
-```
+```py
 QProgressBar
 {
 border :5px solid ;
@@ -22,7 +22,7 @@ border-bottom-color : blue;
 
 这个样式表是和`setStyleSheet`方法一起使用的，下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

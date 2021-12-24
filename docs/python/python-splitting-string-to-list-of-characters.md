@@ -9,7 +9,7 @@
 **方法#1:使用列表切片**
 列表切片可以用于此特定目的，其中我们使用切片操作为列表的每个索引元素分配字符串的下一个出现的字符。
 
-```
+```py
 # Python3 code to demonstrate 
 # splitting string to list of characters.
 # using list slicing
@@ -37,7 +37,7 @@ print ("The resultant list of characters : " +  str(res))
 **方法二:使用`list()`**
 最简洁易读的拆分方式是将案例串键入列表，列表的拆分在内部自动处理。这是执行此特定任务的推荐方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # splitting string to list of characters.
 # using list()
@@ -64,7 +64,7 @@ print ("The resultant list of characters : " +  str(res))
 **方法 3:使用`map() + lambda`**
 这是执行这个特殊任务的另一种方式。虽然不推荐，但可以在某些情况下使用。但缺点是牺牲了代码的可读性。
 
-```
+```py
 # Python3 code to demonstrate 
 # splitting string to list of characters.
 # using map() + lambda

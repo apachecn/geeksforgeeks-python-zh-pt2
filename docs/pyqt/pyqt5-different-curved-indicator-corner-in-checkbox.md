@@ -11,7 +11,7 @@
 
 为此，我们必须更改指示器的样式表代码，并添加不同的曲线。
 
-```
+```py
 QCheckBox::indicator
 {
 border : 2px solid black; 
@@ -27,7 +27,7 @@ border-bottom-right-radius : 11px
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

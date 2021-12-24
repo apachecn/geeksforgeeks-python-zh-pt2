@@ -10,19 +10,19 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Syntax –**
 
-```
+```py
 element.screenshot('foo.png')
 ```
 
 **示例–**
 
-```
+```py
 <input type="text" name="passwd" id="passwd-id" />
 ```
 
 要找到一个元素，需要使用一种定位策略，例如，
 
-```
+```py
 element = driver.find_element_by_id("passwd-id")
 element = driver.find_element_by_name("passwd")
 element = driver.find_element_by_xpath("//input[@id='passwd-id']")
@@ -30,13 +30,13 @@ element = driver.find_element_by_xpath("//input[@id='passwd-id']")
 
 此外，要找到多个元素，我们可以使用–
 
-```
+```py
 elements = driver.find_elements_by_name("passwd")
 ```
 
 现在你可以点击这个字段的截图
 
-```
+```py
 element.screenshot('foo.png')
 ```
 
@@ -45,7 +45,7 @@ element.screenshot('foo.png')
 让我们尝试获取 geeksforgeeks 的标题，然后点击它的截图。
 **节目–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

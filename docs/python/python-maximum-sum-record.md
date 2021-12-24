@@ -7,7 +7,7 @@
 **方法#1:使用`max()` +列表理解**
 该功能的组合可用于执行该任务。在这种情况下，我们计算所有对的和，然后使用 max()返回它的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum Sum Record
 # Using list comprehension + max()
@@ -29,7 +29,7 @@ print("Maximum sum among pairs : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 5), (1, 7), (10, 3), (1, 2)]
 Maximum sum among pairs : 13
 

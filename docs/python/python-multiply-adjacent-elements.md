@@ -7,7 +7,7 @@
 **方法#1:使用`zip()` +生成器表达式+ `tuple()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用生成器表达式来提供乘法逻辑，同时元素配对由`zip()`完成。使用`tuple()`将结果转换为元组形式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Adjacent element multiplication
 # using zip() + generator expression + tuple
@@ -28,7 +28,7 @@ print("Resultant tuple after multiplication : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, 8, 10)
 Resultant tuple after multiplication : (5, 35, 56, 80)
 

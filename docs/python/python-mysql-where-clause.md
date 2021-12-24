@@ -28,7 +28,7 @@
 2.  现在，使用`cursor()` 方法在上面创建的连接对象上创建一个光标对象。数据库游标是一种控制结构，可以遍历数据库中的记录。
 3.  然后，通过`execute()`方法执行 where 子句语句。
 
-```
+```py
 import mysql.connector
 
 #Establishing connection

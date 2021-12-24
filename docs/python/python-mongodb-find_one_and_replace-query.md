@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 # establishing connection
@@ -52,7 +52,7 @@ for x in col.find({}, {"_id":0, "coursename": 1, "price": 1 }):
 
 ## 蟒蛇 3
 
-```
+```py
 import pymongo
 
 # establishing connection

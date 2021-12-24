@@ -6,7 +6,7 @@
 
 **方法#1:使用λ**
 
-```
+```py
 # Python code to demonstrate
 # to remove the tuples
 # if certain criteria met
@@ -33,7 +33,7 @@ print ("Resultant tuple list: ", str(result))
 
 **方法 2:使用滤镜+λ**
 
-```
+```py
 # Python code to demonstrate
 # to remove the tuples
 # if certain criteria met
@@ -59,7 +59,7 @@ print ("Resultant tuple list: ", str(result))
 
 **方法#3:使用天真方法**
 
-```
+```py
 # Python code to demonstrate
 # to remove the tuples
 # if certain criteria met

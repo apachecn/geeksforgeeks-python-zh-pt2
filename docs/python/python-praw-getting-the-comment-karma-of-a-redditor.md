@@ -9,7 +9,7 @@
 
 redditor 的用户名是:spez。
 
-```
+```py
 # importing the module
 import praw
 
@@ -39,7 +39,7 @@ print("The comment karma of " + redditor_name + " is : " +
 
 **输出:**
 
-```
+```py
 The comment karma of spez is : 737457
 
 ```
@@ -49,7 +49,7 @@ The comment karma of spez is : 737457
 
 redditor 的用户名是:自动编码器
 
-```
+```py
 # importing the module
 import praw
 
@@ -79,7 +79,7 @@ print("The comment karma of " + redditor_name + " is : " +
 
 **输出:**
 
-```
+```py
 The comment karma of AutoModerator is : 454624
 
 ```

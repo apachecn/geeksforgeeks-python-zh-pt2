@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Tuple key detection from value list
 # using List comprehension
@@ -32,7 +32,7 @@ print ("The required key of list values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [('Gfg', [1, 3, 4]), ('is', [5, 8, 10]), ('best', [11, 9, 2])]
 The required key of list values : ['Gfg']
 ```
@@ -42,7 +42,7 @@ The required key of list values : ['Gfg']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Tuple key detection from value list
 # using filter() + lambda
@@ -66,7 +66,7 @@ print ("The required key of list values : " + str(res[0][0]))
 
 **Output : **
 
-```
+```py
 The original list is : [('Gfg', [1, 3, 4]), ('is', [5, 8, 10]), ('best', [11, 9, 2])]
 The required key of list values : Gfg
 ```

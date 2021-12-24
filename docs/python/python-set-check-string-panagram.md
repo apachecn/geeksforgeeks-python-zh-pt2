@@ -5,7 +5,7 @@
 给定一个字符串，检查给定的字符串是否是 pangram。
 示例:
 
-```
+```py
 Input : The quick brown fox jumps over the lazy dog
 Output : The string is a pangram
 
@@ -18,7 +18,7 @@ Output : The string is not pangram
 
 ## 计算机编程语言
 
-```
+```py
 # import from string all ascii_lowercase and asc_lower
 from string import ascii_lowercase as asc_lower
 
@@ -36,6 +36,6 @@ else:
 
 输出:
 
-```
+```py
 The string is a pangram
 ```

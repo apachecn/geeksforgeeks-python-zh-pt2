@@ -15,7 +15,7 @@
 **多线程模块:**
 A*_ 线程模块&线程模块*用于 python 中的多线程，这些模块有助于同步，并为正在使用的线程提供锁。
 
-```
+```py
 from _thread import *
 import threading
 
@@ -23,7 +23,7 @@ import threading
 
 锁对象由->创建
 
-```
+```py
 print_lock = threading.Lock()
 
 ```
@@ -37,7 +37,7 @@ print_lock = threading.Lock()
 
 **多线程服务器代码**
 
-```
+```py
 # import socket programming library
 import socket
 
@@ -102,7 +102,7 @@ if __name__ == '__main__':
     Main()
 ```
 
-```
+```py
 Console Window:
 socket binded to port 12345
 socket is listening
@@ -113,7 +113,7 @@ Bye
 
 **客户端代码**
 
-```
+```py
 # Import socket module
 import socket
 
@@ -156,7 +156,7 @@ if __name__ == '__main__':
     Main()
 ```
 
-```
+```py
 Console Window:
 Received from the server : skeegrofskeeg syas ayruahs
 

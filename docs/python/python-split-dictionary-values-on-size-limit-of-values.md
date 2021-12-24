@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split Dictionary values on size limit
 # Using dictionary comprehension + enumerate() +  list slicing

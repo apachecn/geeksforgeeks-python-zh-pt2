@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > shadow(alpha, sigma, x, y)
 > ```
 > 
@@ -23,7 +23,7 @@
 ![](img/2d3a0fdbc25c0bbb46c47454d1b0acc7.png)
 **例 1:**
 
-```
+```py
 # Import library from Image 
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ='../geeksforgeeks.png') as image:
 
 **例 2:**
 
-```
+```py
 # Import libraries from the wand  
 from wand.image import Image
 from wand.drawing import Drawing

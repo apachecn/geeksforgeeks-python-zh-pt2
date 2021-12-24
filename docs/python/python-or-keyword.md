@@ -32,7 +32,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing variable
 a = 55
 b = 33
@@ -48,7 +48,7 @@ else:
 
 **输出:**
 
-```
+```py
 a is greater than b
 ```
 
@@ -60,7 +60,7 @@ a is greater than b
 
 ## 蟒蛇 3
 
-```
+```py
 # break the loop as soon it sees 'e'
 # or 's'
 i = 0
@@ -77,7 +77,7 @@ while i < len(a):
 
 **输出:**
 
-```
+```py
 Current Letter : g
 ```
 

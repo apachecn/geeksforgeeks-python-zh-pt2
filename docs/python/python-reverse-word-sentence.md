@@ -5,7 +5,7 @@
 给定一个长句子，在句子本身中分别颠倒句子的每个单词。
 示例:
 
-```
+```py
 Input : Geeks For Geeks is good to learn
 Output : skeeG roF skeeG si doog ot nrael
 
@@ -27,7 +27,7 @@ Output : tilpS esreveR nioJ
 
 **下面是上面思路的实现。**
 
-```
+```py
 # Python code to Reverse each word
 # of a Sentence individually
 
@@ -57,14 +57,14 @@ print(reverseWordSentence(Sentence))
 
 输出:
 
-```
+```py
 skeeGrofskeeG si doog ot nrael
 
 ```
 
 Python 以其短代码而闻名。我们将做同样的任务，但代码较少。
 
-```
+```py
 # Python code to Reverse each word
 # of a Sentence individually
 
@@ -81,7 +81,7 @@ print(reverseWordSentence(Sentence))    
 
 输出:
 
-```
+```py
 skeeG rof skeeG
 
 ```

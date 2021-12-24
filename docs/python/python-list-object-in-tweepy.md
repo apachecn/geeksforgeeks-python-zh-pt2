@@ -26,7 +26,7 @@ Tweepy 模块中的**列表**对象包含关于列表的信息。
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -68,7 +68,7 @@ print("The screen name of the owner of the list is : " + list.user.screen_name)
 
 **输出:**
 
-```
+```py
 The id is : 4343
 The id_str is : 4343
 The name is : Thought Leaders

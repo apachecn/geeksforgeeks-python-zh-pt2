@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 # Positive lookbehind
 (?<=<lookbehind_regex>)
 
@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing regex
 import re
 
@@ -35,7 +35,7 @@ print("Pattern found from index", 
 
 **输出:**
 
-```
+```py
 f
 Pattern found from index 5 6
 ```
@@ -46,7 +46,7 @@ Pattern found from index 5 6
 
 ## 蟒蛇 3
 
-```
+```py
 # importing regex
 import re
 
@@ -58,7 +58,7 @@ print(example)
 
 **输出:**
 
-```
+```py
 None
 ```
 
@@ -70,7 +70,7 @@ lookback 部分不是搜索字符串的一部分。当您不想让输出返回�
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 # Using lookbehind
@@ -86,7 +86,7 @@ print(example2.group())
 
 **输出:**
 
-```
+```py
 1
 s1
 ```
@@ -99,7 +99,7 @@ s1
 
 **语法:**
 
-```
+```py
 (?<!<lookbehind_regex>) 
 Negative Lookbehind
 ```
@@ -108,7 +108,7 @@ Negative Lookbehind
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 # Lookbehind
@@ -127,7 +127,7 @@ print(example2)
 
 **输出:**
 
-```
+```py
 geeks
 None
 ```

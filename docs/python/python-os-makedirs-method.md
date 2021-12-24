@@ -7,7 +7,7 @@
 ***OS . make dirs()***方法在 Python 中用于递归创建目录。也就是说，在制作叶目录的时候，如果缺少任何一个中级目录，***OS . make dirs()***方法会全部创建。
 例如，考虑以下路径:
 
-```
+```py
 /home/User/Documents/GeeksForGeeks/Authors/ihritik
 ```
 
@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -80,7 +80,7 @@ print("Directory '%s' created" %directory)
 
 **输出:**
 
-```
+```py
 Directory 'ihritik' created
 Directory 'c' created
 ```
@@ -89,7 +89,7 @@ Directory 'c' created
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -116,7 +116,7 @@ print("Directory '%s' created" %directory)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "makedirs.py", line 21, in 
     os.makedirs(path)
@@ -129,7 +129,7 @@ FileExistsError: [Errno 17] File exists: '/home/User/Documents/GeeksForGeeks/ihr
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.makedirs() method
 
 # importing os module
@@ -169,7 +169,7 @@ except OSError as error:
 
 **输出:**
 
-```
+```py
 Directory 'ihritik' created successfully
 ```
 

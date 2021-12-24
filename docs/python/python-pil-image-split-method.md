@@ -16,7 +16,7 @@ Image.split()方法用于将图像分割成单独的波段。此方法从图像�
 
 **代码#1:**
 
-```
+```py
 # importing Image class from PIL package
 from PIL import Image
 
@@ -43,7 +43,7 @@ im1[2].show()
 
 **代码#2:**
 
-```
+```py
 # importing Image class from PIL package
 from PIL import Image
 

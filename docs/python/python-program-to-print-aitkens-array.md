@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 5
 Output:
 [1]
@@ -36,7 +36,7 @@ Output:
 
 下面是实现。
 
-```
+```py
 # Python program to print
 # Aitken's array
 
@@ -69,7 +69,7 @@ rec(7)
 
 **输出:**
 
-```
+```py
 [1]
 [1, 2]
 [2, 3, 5]

@@ -10,7 +10,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # import required module
 import requests
 import json
@@ -20,7 +20,7 @@ import json
 
  **## 巨蟒
 
-```
+```py
 # mention url
 url = "https://www.fast2sms.com/dev/bulk"
 
@@ -52,7 +52,7 @@ headers = {
 
  **## 蟒 3
 
-```
+```py
 # make a post request
 response = requests.request("POST",
                             url,
@@ -68,7 +68,7 @@ print(returned_msg['message'])
 
 ****输出:****
 
-```
+```py
 ['Message sent successfully to NonDND numbers']
 ```
 
@@ -78,6 +78,6 @@ print(returned_msg['message'])
 
 ****例如**，如果您的 API 密钥被更改或您输入了错误的 API 密钥，将打印以下错误信息。**
 
-```
+```py
 Invalid Authentication, Check Authorization Key
 ```

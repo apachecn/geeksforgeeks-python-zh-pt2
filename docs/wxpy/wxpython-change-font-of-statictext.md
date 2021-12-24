@@ -15,7 +15,7 @@ SetFont()函数取一个 sing wx。字体类型参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

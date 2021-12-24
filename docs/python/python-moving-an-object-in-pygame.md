@@ -8,7 +8,7 @@ Pygame 是一组跨平台的 Python 模块，旨在编写视频游戏。它包�
 
 这样做的主要概念是通过改变物体的坐标和刷新屏幕。当屏幕每次刷新时，窗口颜色会被原始颜色填充，新的矩形会形成，因此当按下箭头键时，坐标会发生变化，对象似乎在移动。
 
-```
+```py
 Change in Co-ordinates for respective keys pressed :
 
 Left arrow key: Decrement in x co-ordinate
@@ -20,7 +20,7 @@ Down arrow key: Increment in y co-ordinate
 
 下面是实现。
 
-```
+```py
 # import pygame module in this program 
 import pygame
 

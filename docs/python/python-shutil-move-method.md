@@ -18,7 +18,7 @@
 
 使用`shutil.move()`方法将文件从源移动到目标
 
-```
+```py
 # Python program to explain shutil.move() method 
 
 # importing os module 
@@ -57,7 +57,7 @@ print("Destination path:", dest) 
 
 **Output:**
 
-```
+```py
 Before moving file:
 ['source']
 After moving file:
@@ -69,7 +69,7 @@ Destination path: C:/Users/Rajnish/Desktop/GeeksforGeeks/destination
 **示例 2 :**
 使用`shutil.move()`方法通过使用`shutil.copytree()`方法移动文件，并且目标目录已经存在。
 
-```
+```py
 # Python program to explain shutil.move() method 
 
 # importing os module 
@@ -109,7 +109,7 @@ print("Destination path:", dest) 
 
 **Output:**
 
-```
+```py
 Before moving file:
 ['destination', 'source']
 After moving file:

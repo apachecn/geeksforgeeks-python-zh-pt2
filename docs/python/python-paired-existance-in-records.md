@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Paired Existence in Records
 # Using generator expression
@@ -54,7 +54,7 @@ print("The resultant records : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Paired Existence in Records
 # Using XNOR
@@ -83,7 +83,7 @@ print("The resultant records : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [('Gfg', 'is', 'Best'), ('Gfg', 'is', 'good'), ('CS', 'is', 'good')]
 The resultant records : [('Gfg', 'is', 'Best'), ('CS', 'is', 'good')]
 ```

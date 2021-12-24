@@ -14,7 +14,7 @@
 
 ## 巨蟒
 
-```
+```py
 FILE = os.path.join(os.getcwd(), "networkinfo.log")
 ```
 
@@ -30,7 +30,7 @@ FILE = os.path.join(os.getcwd(), "networkinfo.log")
 
 ## 蟒蛇
 
-```
+```py
 def ping():
 
     # to ping a particular PORT at an IP
@@ -82,7 +82,7 @@ def ping():
 
 T5
 
-```
+```py
 def calculate_time(start, stop):
 
     # to calculate unavailability time

@@ -21,7 +21,7 @@
 
 **实施**
 
-```
+```py
 # import testmod for testing our function
 from doctest import testmod
 
@@ -47,7 +47,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Trying:
     factorial(3)
 Expecting:
@@ -70,7 +70,7 @@ Test passed.
 
 现在，测试失败。如果我们的逻辑错了呢？
 
-```
+```py
 # import testmod for testing our function
 from doctest import testmod
 
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Trying:
     factorial(3)
 Expecting:

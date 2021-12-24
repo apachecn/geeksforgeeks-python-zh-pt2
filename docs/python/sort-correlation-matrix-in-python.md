@@ -45,7 +45,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np
@@ -81,7 +81,7 @@ print(sorted_mat)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import pandas as pd
 import numpy as np

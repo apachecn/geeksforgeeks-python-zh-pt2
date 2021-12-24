@@ -6,7 +6,7 @@
 
 因此，为了打开 Excel 应用程序和工作簿，我们将使用 pywin32 模块。您可以使用以下代码安装该模块:
 
-```
+```py
 pip install pywin32
 ```
 
@@ -28,7 +28,7 @@ pip install pywin32
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the pywin32 module
 import win32com.client
 

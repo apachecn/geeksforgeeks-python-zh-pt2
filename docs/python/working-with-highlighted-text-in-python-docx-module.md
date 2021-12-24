@@ -6,7 +6,7 @@
 
 Word 文档包含包装在三个对象级别中的格式化文本。最低层运行对象、中层段落对象和最高层文档对象。因此，我们不能使用普通的文本编辑器来处理这些文档。但是，我们可以使用 python-docx 模块在 python 中操作这些 word 文档。安装该模块的 Pip 命令是:
 
-```
+```py
 pip install python-docx
 ```
 
@@ -18,7 +18,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 通过将 WD_COLOR_INDEX 的一个成员分配给 Font.highlight_color 来突出显示文本。为了使用 WD_COLOR_INDEX，我们首先使用下面的导入语句导入它。
 
-```
+```py
 from docx.enum.text import WD_COLOR_INDEX
 ```
 
@@ -32,7 +32,7 @@ from docx.enum.text import WD_COLOR_INDEX
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.enum.text import WD_COLOR_INDEX
@@ -61,7 +61,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.enum.text import WD_COLOR_INDEX
@@ -138,7 +138,7 @@ WD_COLOR_INDEX 中的颜色名称
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.enum.text import WD_COLOR_INDEX

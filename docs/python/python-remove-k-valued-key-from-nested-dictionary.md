@@ -13,7 +13,7 @@
 **方法#1:使用 loop + isinstance() + `filter()`**
 以上函数的组合可以用来解决这个问题。在本例中，我们使用 filter()执行 K 值任务，并使用 isinstance()测试嵌套字典。字典的构造是使用循环完成的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K valued key from Nested Dictionary
 # Using loop + isinstance() + filter()
@@ -55,7 +55,7 @@ print("Dictionary after removal : " + str(res)) 
 **方法 2:使用字典理解+ `isinstance()` + lamda**
 上述功能的组合可用于使用 lambda 函数在一行中执行该任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K valued key from Nested Dictionary
 # Using dictionary comprehension + isinstance() + lamda

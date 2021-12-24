@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace dictionary value from other dictionary
 # Using loop
@@ -55,7 +55,7 @@ print("The updated dictionary: " + str(test_dict)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace dictionary value from other dictionary
 # Using dictionary comprehension

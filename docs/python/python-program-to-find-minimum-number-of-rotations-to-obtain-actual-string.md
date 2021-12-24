@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : eeksg, geeks
 Output: 1 
 Explanation: g is rotated left to obtain geeks.
@@ -28,7 +28,7 @@ Explanation : e and g are left rotated to obtain geeks.
 
 下面是实现:
 
-```
+```py
 def findRotations(str1, str2):
 
     # To count left rotations 
@@ -87,7 +87,7 @@ findRotations('sgeek', 'geeks')
 
 **Output:**
 
-```
+```py
 1
 
 ```

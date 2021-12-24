@@ -27,7 +27,7 @@ Python String **isalpha()** 方法是用于字符串处理的内置方法。如�
 
 ### 例子
 
-```
+```py
 Input : string = 'Ayush'
 Output : True
 
@@ -42,7 +42,7 @@ Output : False
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code for implementation of isalpha()
 
 # checking for alphabets
@@ -59,7 +59,7 @@ print( string.isalpha())
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -69,7 +69,7 @@ False
 
 在 python 中给定一个字符串，计算字符串中字母的数量并打印字母。
 
-```
+```py
 Input : string = 'Ayush Saxena'
 Output : 11
          AyushSaxena
@@ -88,7 +88,7 @@ Output : 5
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # counting number of alphabets 
 # using isalpha()
@@ -124,7 +124,7 @@ print(newstring2)
 
 **输出:**
 
-```
+```py
 11
 AyushSaxena
 5

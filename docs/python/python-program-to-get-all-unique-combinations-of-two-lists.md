@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 List_1 = ["a","b"]
 List_2 = [1,2]
 Unique_combination = [[('a',1),('b',2)],[('a',2),('b',1)]] 
@@ -26,7 +26,7 @@ Unique_combination = [[('a',1),('b',2)],[('a',2),('b',1)]]
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to demonstrate
 # unique combination of two lists
 # using zip() and permutation of itertools
@@ -74,7 +74,7 @@ print(unique_combinations)
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to demonstrate
 # unique combination of two lists
 # using zip() and product() of itertools

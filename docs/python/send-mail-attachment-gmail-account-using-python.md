@@ -25,7 +25,7 @@
 
 完成这些步骤后，按照[上一篇文章](https://www.geeksforgeeks.org/send-mail-gmail-account-using-python/)中描述的说明创建一个会话，保护它并检查真实性，然后在发送邮件后终止会话。
 
-```
+```py
 # Python code to illustrate Sending mail with attachments
 # from your Gmail account 
 

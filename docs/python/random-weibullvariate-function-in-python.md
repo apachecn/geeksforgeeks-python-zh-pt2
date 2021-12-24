@@ -18,7 +18,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -32,13 +32,13 @@ print(random.weibullvariate(alpha, beta))
 
 **输出:**
 
-```
+```py
 0.7231214446591137
 ```
 
 **例 2:** 我们可以多次生成这个数，并绘制一个图来观察威布尔分布。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 
@@ -62,7 +62,7 @@ plt.show()
 ![](img/abd0e3f6541da9c165e0512784b498ee.png)
 **例 3:** 我们可以创建一个直方图来观察威布尔分布的密度。
 
-```
+```py
 # import the required libraries 
 import random 
 import matplotlib.pyplot as plt 

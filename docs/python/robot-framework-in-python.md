@@ -28,7 +28,7 @@
 
 检查您的系统上是否安装了 Python。
 
-```
+```py
 python --version
 pip --version
 ```
@@ -37,7 +37,7 @@ pip --version
 
 在 Python 上安装机器人框架的建议路线是使用 pip。我们可以使用下面提到的命令来安装框架。
 
-```
+```py
 pip install robotframework
 ```
 
@@ -47,7 +47,7 @@ pip install robotframework
 
 在良好的安装之后，我们应该能够看到使用–version 选项的解释器和机器人框架版本。
 
-```
+```py
 robot --version
 rebot --version
 ```
@@ -56,7 +56,7 @@ rebot --version
 
 **步骤 4:** 检查机器人框架安装是否正确
 
-```
+```py
 pip show robotframework
 ```
 
@@ -125,7 +125,7 @@ pip show robotframework
 
 **机器人的简单测试:**
 
-```
+```py
 *** Test Cases ***
 MyFirstTest
     Log     Hello World!!!

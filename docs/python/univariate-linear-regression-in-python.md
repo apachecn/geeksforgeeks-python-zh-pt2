@@ -30,7 +30,7 @@
 2.  **成本函数:**
     成本函数用回归系数的当前值计算误差百分比。它定量地定义了模型与实际回归系数之间的距离，实际回归系数的误差率最低。
 
-    ```
+    ```py
     def cost(x, y, b0, b1):
         # y is a list of expected value
         errors = []
@@ -60,7 +60,7 @@
 
     **代码:**
 
-    ```
+    ```py
     def cost_derivative(x, y, b0, b1, i):
         return sum([
                       2*(predict(xi, b0, b1)-yi)*1
@@ -79,7 +79,7 @@
 
     Python 函数的相同之处如下:
 
-    ```
+    ```py
     def update_coeff(x, y, b0, b1, i, alpha):
         bi -= alpha * cost_derivative(x, y, b0, b1, i)
         return bi
@@ -97,7 +97,7 @@
 
 **代码:**
 
-```
+```py
 x, y is the given data.
 (b0, b1) <-- (0, 0)
 i = 0
@@ -111,7 +111,7 @@ while True:
 
 **最终 Oop 实现:**
 
-```
+```py
 class LinearRegressor:
     def __init__(self, x, y, alpha = 0.01, b0 = 0, b1 = 0):
         """ 

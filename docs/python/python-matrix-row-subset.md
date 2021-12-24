@@ -13,7 +13,7 @@
 **方法#1:使用`any() + all()` +列表理解**
 以上功能的组合提供了一种解决这个问题的方法。在这种情况下，我们使用 all()检查行中所有元素的出现，any()用于匹配矩阵的任何行。列表理解是用来把逻辑联系在一起的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Row subset
 # Using any() + all() + list comprehension
@@ -38,7 +38,7 @@ print("Matrix row subsets : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 7], [2, 3, 4], [9, 8, 0]]
 Matrix row subsets : [[2, 3], [9, 0]]
 
@@ -47,7 +47,7 @@ Matrix row subsets : [[2, 3], [9, 0]]
 **方法二:使用`product() + set()` +列表理解**
 以上功能组合可用于此任务。在本文中，我们使用 product()和 set()转换执行嵌套循环的任务是检查一个容器的子集是否在另一个之上。列表理解是用来把所有的联系在一起的。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Matrix Row subset
 # Using product() + set() + list comprehension
@@ -73,7 +73,7 @@ print("Matrix row subsets : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 7], [2, 3, 4], [9, 8, 0]]
 Matrix row subsets : [[2, 3], [9, 0]]
 

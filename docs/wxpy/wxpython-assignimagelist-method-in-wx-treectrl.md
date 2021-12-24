@@ -20,7 +20,7 @@ AssignImageList()取 wx。ImageList 参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class MainFrame(wx.Frame):

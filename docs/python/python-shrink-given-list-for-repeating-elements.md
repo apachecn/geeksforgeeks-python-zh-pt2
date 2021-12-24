@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [1, 1, 1, 2, 3, 3, 3, 4, 4, 4, 4]
 Output : [(1, 3), (2, 1), (3, 3), (4, 4)]
 
@@ -18,7 +18,7 @@ Output : [('alice', 2), ('bob', 1)]
 **方法#1 :** 蛮力
 为了缩小列表，这是一个幼稚的方法。它需要另一个列表，比如“tup_list”。将索引初始化为 0，并使用循环来检查列表中每个唯一元素的重复次数。找到元素及其重复计数后，以元组的形式将其追加到列表中。
 
-```
+```py
 # Python3 program to Shrink list 
 # for repeating elements
 
@@ -42,7 +42,7 @@ print(shrinkList(lst))
 
 **Output:**
 
-```
+```py
 [(1, 3), (2, 2), (3, 2), (4, 1)]
 
 ```
@@ -50,7 +50,7 @@ print(shrinkList(lst))
 **方法#2 :** 交替蛮力
 这是另一种蛮力方法，用于循环遍历列表。它使用变量“prev_element”来存储前一个元素。首先，它检查这是否是第一个唯一的元素，如果是，它递增计数器并将该元素存储到 prev_element。如果元素重复，只需增加计数器。如果所有这些情况都不成立，那么只需将 prev_element 作为元组添加到 tup_list 中。
 
-```
+```py
 # Python3 program to Shrink list 
 # for repeating elements
 
@@ -82,7 +82,7 @@ print(shrinkList(lst))
 
 **Output:**
 
-```
+```py
 [(1, 3), (2, 2), (3, 2), (4, 1)]
 
 ```
@@ -90,7 +90,7 @@ print(shrinkList(lst))
 **方法#3 :** 使用 Itertools.groupby()
 这是一种解决给定问题的更精确的方法。`itertools.groupby()`做一个迭代器，从可迭代中返回连续的键和组。它将相似的元素分组，并将元素及其计数作为元组列表返回。
 
-```
+```py
 # Python3 program to Shrink list 
 # for repeating elements
 from itertools import groupby
@@ -106,7 +106,7 @@ print(shrinkList(lst))
 
 **Output:**
 
-```
+```py
 [(1, 3), (2, 2), (3, 2), (4, 1)]
 
 ```

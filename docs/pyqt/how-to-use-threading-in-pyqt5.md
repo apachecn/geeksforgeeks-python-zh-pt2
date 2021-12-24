@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import sys
 from PyQt5.QtWidgets import *
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Module
 import sys
 from PyQt5.QtWidgets import *

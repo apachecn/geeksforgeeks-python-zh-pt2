@@ -7,7 +7,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.drawing.path_elliptic_arc(to, radius, rotation, large_arc, clockwise, relative)
 > ```
 > 
@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from wand.image import Image
 from wand.drawing import Drawing
 from wand.color import Color

@@ -8,7 +8,7 @@
 
 在开始我们的项目之前，我们需要做一些准备工作。我们将在我们的项目中使用虚拟环境。
 
-```
+```py
 pip install virtualenv
 virtualenv urlShort
 source urlShort/bin/activate
@@ -21,7 +21,7 @@ source urlShort/bin/activate
 
 我们需要在手之前安装一些软件包，
 
-```
+```py
 pip install django
 
 ```
@@ -30,7 +30,7 @@ pip install django
 
 首先，我们需要创建我们的项目，
 
-```
+```py
 django-admin startproject urlShort
 cd urlShort
 
@@ -38,14 +38,14 @@ cd urlShort
 
 上面的命令，创建一个姜戈项目，然后光盘到该目录。之后，我们还需要在我们的项目中创建一个应用程序。应用程序是一种容器，我们将在其中存储我们的代码。一个项目可以有多个应用程序，它们可以相互连接
 
-```
+```py
 python manage.py startapp url
 
 ```
 
 上面的命令在我们的项目中创建一个名为网址的应用程序。我们现在的文件结构将是——
 
-```
+```py
 urlShort
 ├── manage.py
 ├── url
@@ -73,14 +73,14 @@ urlShort
 
 您可以通过在命令行中键入以下命令来检查是否一切正常。但是 cd 进入主文件夹，这里是 urlShort。
 
-```
+```py
 python manage.py runserver
 
 ```
 
 *runserver* 会运行一个本地服务器，我们的网站会加载到这个服务器上。移动到 url
 
-```
+```py
 https://localhost:8000
 
 ```
@@ -91,7 +91,7 @@ https://localhost:8000
 
 开始编码时，请系好安全带。首先我们来玩*view . py*。*view . py*基本上是用来连接我们的数据库，api 和我们的 Frontend。打开*视图并键入*
 
-```
+```py
 from django.http import HttpResponse
 
 def index(request):
@@ -100,7 +100,7 @@ def index(request):
 
 保存它并打开 localhost，检查它是否更改。它不会改变，因为我们没有把它映射到任何路线。基本上，如果你在*view . py*里面写了什么函数，它不起作用，但是我们需要把它映射到*URL . p*y 里面，所以，在 *url* 文件夹里面创建一个*URL . py*。
 
-```
+```py
 from django.urls import path
 from . import views
 app_name = "url"
@@ -117,7 +117,7 @@ urlpatterns = [
 
 *车型. py*
 
-```
+```py
 from django.db import models
 class UrlData(models.Model):
     url = models.CharField(max_length=200)
@@ -131,7 +131,7 @@ def __str__(self):
 
 ***例如***
 
-```
+```py
 *Original URL* — https://medium.com/satyam-kulkarni/
 *Shorten Form* — https://localhost:8000/sEqlKdsIUL
 ```
@@ -144,7 +144,7 @@ def __str__(self):
 
 fo *rms.py*
 
-```
+```py
 from django import forms
 class Url(forms.Form):
     url = forms.CharField(label="URL")
@@ -161,7 +161,7 @@ class Url(forms.Form):
 
 *views.py urlShort()*
 
-```
+```py
 def urlShort(request):
     if request.method == 'POST':
         form = Url(request.POST)
@@ -188,7 +188,7 @@ def urlShort(request):
 
 *views . py URL 重定向()*
 
-```
+```py
 def urlRedirect(request, slugs):
     data = UrlData.objects.get(slug=slugs)
     return redirect(data.url)
@@ -201,7 +201,7 @@ def urlRedirect(request, slugs):
 
 ・T 0️ urls.py ・T 1️
 
-```
+```py
 from django.urls import path
 from . import views
 app_name = "url"
@@ -216,7 +216,7 @@ urlpatterns = [
 
 在主项目目录中打开控制台。
 
-```
+```py
 python manage.py runserver
 
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用`sorted()`+λ**
 以上功能的组合可以用来执行此任务。sorted 函数执行转换为字符串的列表索引的排序，lambda 函数处理转换和迭代操作。
 
-```
+```py
 # Python code to demonstrate 
 # Smallest number from list
 # using sorted() + lambda
@@ -32,7 +32,7 @@ print ("The smallest possible number : " + "".join(map(str, res)))
 
 **Output :**
 
-```
+```py
 The original list is : [23, 65, 98, 3, 4]
 The smallest possible number : 23346598
 

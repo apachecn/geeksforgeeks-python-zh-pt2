@@ -22,7 +22,7 @@ Binascii 帮助在二进制和各种 ascii 编码的二进制表示之间进行�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of ASCII to Binary
 
@@ -42,7 +42,7 @@ print(Binary)
 
 **输出:**
 
-```
+```py
 b'GFG is a CS Portal'
 ```
 
@@ -54,7 +54,7 @@ b'GFG is a CS Portal'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate the
 # conversion of ASCII to Binary
 
@@ -77,6 +77,6 @@ print(binary_string)
 
 **输出:**
 
-```
+```py
 0b10001110100011001000111
 ```

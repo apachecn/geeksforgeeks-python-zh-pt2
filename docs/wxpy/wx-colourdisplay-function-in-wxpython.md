@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import wx
 
@@ -66,6 +66,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Display is Colour Display
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Maximum String Length
 # Using sort() + len() + max()
@@ -53,7 +53,7 @@ print("Sorted Matrix : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by Maximum String Length
 # Using sorted() + lambda + max() + len()

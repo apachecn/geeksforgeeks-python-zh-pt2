@@ -30,7 +30,7 @@
 
 **示例#1:**
 
-```
+```py
 # Python program to demonstrate
 # logical and operator
 
@@ -49,7 +49,7 @@ else:
 
 **输出:**
 
-```
+```py
 The numbers are greater than 0
 Atleast one number is not greater than 0
 
@@ -57,7 +57,7 @@ Atleast one number is not greater than 0
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # logical and operator
 
@@ -73,7 +73,7 @@ else:
 
 **输出:**
 
-```
+```py
 Atleast one number has boolean value as False
 
 ```
@@ -88,7 +88,7 @@ Atleast one number has boolean value as False
 
 **示例#1:**
 
-```
+```py
 # Python program to demonstrate
 # logical or operator
 
@@ -109,7 +109,7 @@ else:
 
 **输出:**
 
-```
+```py
 Either of the number is greater than 0
 No number is greater than 0
 
@@ -117,7 +117,7 @@ No number is greater than 0
 
 **例 2:**
 
-```
+```py
 # Python program to demonstrate
 # logical and operator
 
@@ -133,7 +133,7 @@ else:
 
 **输出:**
 
-```
+```py
 Atleast one number has boolean value as True
 
 ```
@@ -148,7 +148,7 @@ Atleast one number has boolean value as True
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # logical not operator
 
@@ -165,7 +165,7 @@ else:
 
 **输出:**
 
-```
+```py
 10 is divisible by either 3 or 5
 
 ```
@@ -176,7 +176,7 @@ else:
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # order of evaluation of logical 
 # operators
@@ -195,7 +195,7 @@ if a(-1) or b(5) or c(10):
 
 **输出:**
 
-```
+```py
 Method called for value: -1
 Method called for value: 5
 Atleast one of the number is positive

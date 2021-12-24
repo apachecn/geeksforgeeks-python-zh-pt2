@@ -11,7 +11,7 @@
 
 借助`hide`方法，我们可以隐藏进度条。下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -70,7 +70,7 @@ sys.exit(App.exec())
 
 借助`SetVisible`方法，我们可以隐藏进度条。下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

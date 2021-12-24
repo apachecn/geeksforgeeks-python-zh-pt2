@@ -38,7 +38,7 @@ Geoplot 是一个地理空间数据可视化库，面向希望快速完成工作
 
 **语法:**
 
-```
+```py
 conda install geopandas
 conda install geoplot
 ```
@@ -47,7 +47,7 @@ conda install geoplot
 
 **语法:**
 
-```
+```py
 conda install --channel conda-forge geopandas
 conda install geoplot -c conda-forge
 ```
@@ -56,7 +56,7 @@ conda install geoplot -c conda-forge
 
 **语法:**
 
-```
+```py
 pip install geopandas
 pip install geoplot
 ```
@@ -65,7 +65,7 @@ pip install geoplot
 
 **语法:**
 
-```
+```py
 git clone https://github.com/geopandas/geopandas.git
 cd geopandas
 pip install
@@ -75,7 +75,7 @@ pip install
 
 **语法:**
 
-```
+```py
 pip install git+git://github.com/geopandas/geopandas.git
 ```
 
@@ -99,7 +99,7 @@ pip install git+git://github.com/geopandas/geopandas.git
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -122,7 +122,7 @@ world_data
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -147,7 +147,7 @@ world_data.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -166,7 +166,7 @@ world_data = world_data[['NAME', 'geometry']]
 
 **语法:**
 
-```
+```py
 GeoSeries.area
 ```
 
@@ -176,7 +176,7 @@ GeoSeries.area
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -204,7 +204,7 @@ world_data['area'] = world_data.area
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -236,7 +236,7 @@ world_data.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 import matplotlib.pyplot as plt 
 from mpl_toolkits.axes_grid1 import make_axes_locatable 
@@ -279,7 +279,7 @@ to_crs()方法将几何图形转换为新的坐标参考系统。将活动几何
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -312,7 +312,7 @@ world.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -353,7 +353,7 @@ world_data.plot(column='NAME', cmap='hsv')
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 
 # Reading the world shapefile
@@ -409,7 +409,7 @@ axes _ divider . make _ axes _ locate able 函数获取一个现有的轴，将�
 
 ## 蟒蛇 3
 
-```
+```py
 import geopandas as gpd
 import matplotlib.pyplot as plt
 from mpl_toolkits.axes_grid1 import make_axes_locatable
@@ -488,13 +488,13 @@ world_data.plot(column='area', cmap='hsv', legend=True,
 
 **语法:**
 
-```
+```py
 geoplot.datasets.get_path(str)
 ```
 
 **绘图语法:**
 
-```
+```py
 geoplot.polyplot(var)
 geoplot.pointplot(var)
 ```
@@ -503,7 +503,7 @@ geoplot.pointplot(var)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 
@@ -555,7 +555,7 @@ gplt.pointplot(melbourne_schools)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 
@@ -596,7 +596,7 @@ gplt.pointplot(melbourne_schools, ax=ax)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 import geoplot.crs as gcrs
@@ -627,7 +627,7 @@ choropleth 获取在某个有意义的多边形级别(例如，人口普查区�
 
 **语法:**
 
-```
+```py
 geoplot.choropleth(var)
 ```
 
@@ -635,7 +635,7 @@ geoplot.choropleth(var)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 import geoplot.crs as gcrs
@@ -670,7 +670,7 @@ gplt.choropleth(boroughs, hue='Shape_Area', 
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 import geoplot.crs as gcrs
@@ -702,7 +702,7 @@ gplt.choropleth(
 
 **语法:**
 
-```
+```py
 geoplot.kdeplot(var)
 ```
 
@@ -710,7 +710,7 @@ geoplot.kdeplot(var)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 import geoplot.crs as gcrs
@@ -735,7 +735,7 @@ gplt.kdeplot(collisions, ax=ax)
 
 **语法；**
 
-```
+```py
 geoplot.sankey(var)
 ```
 
@@ -743,7 +743,7 @@ geoplot.sankey(var)
 
 ## 蟒蛇 3
 
-```
+```py
 import geoplot as gplt
 import geopandas as gpd
 import geoplot.crs as gcrs

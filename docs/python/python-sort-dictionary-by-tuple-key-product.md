@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionary by Tuple Key Product
 # Using dictionary comprehension + sorted() + lambda
@@ -39,7 +39,7 @@ print("The sorted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {(5, 6): 3, (2, 3): 9, (8, 4): 10, (6, 4): 12}
 The sorted dictionary : {(2, 3): 9, (6, 4): 12, (5, 6): 3, (8, 4): 10}
 
@@ -51,7 +51,7 @@ The sorted dictionary : {(2, 3): 9, (6, 4): 12, (5, 6): 3, (8, 4): 10}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort dictionary by Tuple Key Product
 # Using dict() + sorted() + lambda
@@ -72,7 +72,7 @@ print("The sorted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {(5, 6): 3, (2, 3): 9, (8, 4): 10, (6, 4): 12}
 The sorted dictionary : {(2, 3): 9, (6, 4): 12, (5, 6): 3, (8, 4): 10}
 

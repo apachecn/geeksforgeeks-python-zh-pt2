@@ -26,7 +26,7 @@ Python String rindex()方法返回字符串内部子字符串的最高索引(如
 
 ### **例 1**
 
-```
+```py
 input: text = 'geeks for geeks'
        result = text.rindex('geeks')
 output: 10
@@ -38,7 +38,7 @@ output: 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of rindex()
 text = 'geeks for geeks'
 
@@ -48,7 +48,7 @@ print("Substring 'geeks':", result)
 
 **输出:**
 
-```
+```py
 Substring 'geeks': 10
 ```
 
@@ -56,7 +56,7 @@ Substring 'geeks': 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate error by rindex()
 text = 'geeks for geeks'
 
@@ -66,7 +66,7 @@ print("Substring 'pawan':", result)
 
 **错误:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/dadc555d90806cae90a29998ea5d6266.py", line 6, in 
     result = text.rindex('pawan')
@@ -77,7 +77,7 @@ ValueError: substring not found
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate working of rindex()
 # with range provided
 quote = 'geeks for geeks'
@@ -91,7 +91,7 @@ print(quote.rindex('geeks', 0, 10))
 
 **输出:**
 
-```
+```py
 10
 0
 ```

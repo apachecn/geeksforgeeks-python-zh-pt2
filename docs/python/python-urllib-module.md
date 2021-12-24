@@ -13,7 +13,7 @@ Urllib 是一个包，它收集了几个用于处理 URL 的模块，例如:
 
 如果 urllib 不在您的环境中，请执行下面的代码来安装它。
 
-```
+```py
 pip install urllib
 
 ```
@@ -26,13 +26,13 @@ pip install urllib
 *URL lib . request . URL open(URL)*
 我们可以在一个示例中看到这一点:
 
-```
+```py
 import urllib.request
 request_url = urllib.request.urlopen('https://www.geeksforgeeks.org/')
 print(request_url.read())
 ```
 
-```
+```py
 The source code of the URL i.e. Geeksforgeeks.
 
 ```
@@ -44,7 +44,7 @@ The source code of the URL i.e. Geeksforgeeks.
 这个模块有助于定义函数来操作网址及其组成部分，建立或破坏它们。它通常侧重于将一个网址拆分成小组件；或者将不同的网址组件连接到网址字符串中。
 我们可以从下面的代码中看到这一点:
 
-```
+```py
 from urllib.parse import * parse_url = urlparse('https://www.geeksforgeeks.org / python-langtons-ant/')
 print(parse_url)
 print("\n")
@@ -52,7 +52,7 @@ unparse_url = urlunparse(parse_url)
 print(unparse_url)
 ```
 
-```
+```py
 ParseResult(scheme='https', netloc='www.geeksforgeeks.org', path='/python-langtons-ant/', params='', query='', fragment='')
 
 https://www.geeksforgeeks.org/python-langtons-ant/
@@ -80,7 +80,7 @@ urllib.parse 的其他不同功能有:
 
 我们可以在以下示例中看到这一点:
 
-```
+```py
 # URL Error
 
 import urllib.request
@@ -96,12 +96,12 @@ except Exception as e :
     print(str(e))
 ```
 
-```
+```py
 URL Error: urlopen error [Errno 11001] getaddrinfo failed
 
 ```
 
-```
+```py
 # HTTP Error
 
 import urllib.request
@@ -117,7 +117,7 @@ except Exception as e :
     print(str(e))
 ```
 
-```
+```py
 HTTP Error 403: Forbidden
 
 ```
@@ -126,7 +126,7 @@ HTTP Error 403: Forbidden
 这个模块包含一个单独的类，RobotFileParser。这个类回答了特定用户是否可以获取发布 robot.txt 文件的 URL 的问题。 *Robots.txt 是站长创建的一个文本文件，用来指导网络机器人如何在自己的网站上抓取页面。*robot . txt 文件告诉网页抓取器不应该访问服务器的哪些部分。
 例如:
 
-```
+```py
 # importing robot parser class
 import urllib.robotparser as rb
 
@@ -149,7 +149,7 @@ w = bot.can_fetch('*', 'https://www.geeksforgeeks.org / wp-admin/')
 print(w)
 ```
 
-```
+```py
 None
 None
 True

@@ -7,7 +7,7 @@
 **方法:使用`defaultdict()` +循环**
 我们可以使用 defaultdict()执行这个任务，并通过仔细分配和递增元素的顺序来循环。
 
-```
+```py
 # Python3 code to demonstrate working of
 # List Element Count Order
 # using defaultdict() + loop
@@ -33,7 +33,7 @@ print("List elements with their order count : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 4, 1, 5, 4, 1, 5]
 List elements with their order count : [(1, 1), (4, 1), (1, 2), (5, 1), (4, 2), (1, 3), (5, 2)]
 

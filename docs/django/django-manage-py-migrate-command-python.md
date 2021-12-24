@@ -6,7 +6,7 @@
 
 对于 Django 项目，通过以下命令运行 migrate。
 
-```
+```py
  Python manage.py migrate 
 ```
 
@@ -20,7 +20,7 @@ migrate 执行数据库文件中的那些 SQL 命令。因此，执行迁移后�
 
 例如，如果我们制作一个模型类-
 
-```
+```py
 from django.db import models
 
 class Person(models.Model):
@@ -30,7 +30,7 @@ class Person(models.Model):
 
 使用 makemigrations 后，相应的 sql 命令将是
 
-```
+```py
 CREATE TABLE myapp_person (
 "id" serial NOT NULL PRIMARY KEY,
 "first_name" varchar(30) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE myapp_person (
 迁移命令将在下一篇文章中介绍。
 现在表单终端运行以下命令将在数据库中为此模型创建表格
 
-```
+```py
  Python manage.py migrate
 ```
 

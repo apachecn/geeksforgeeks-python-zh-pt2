@@ -18,7 +18,7 @@
 
 **示例 1:** 假设我们只需要从 pdf 中读取第一页并将其转换为。png 格式。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -41,7 +41,7 @@ from wand.image import Image
 **输入:**
 ![](img/0341f9f3e3deb2b926b2e31b79476566.png)
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -60,7 +60,7 @@ with Image(filename='sample.gif[0-5]') as f:
 
 ![](img/a1d5dabac07efe8de363e0c440a198d8.png)
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 
@@ -77,7 +77,7 @@ with Image(filename ='initial.jpg[400x300]') as resized_image:
 
 **示例 4:** 在本例中，我们将执行读取裁剪，然后以另一种格式保存。
 
-```
+```py
 # Import Image from wand.image module
 from wand.image import Image
 

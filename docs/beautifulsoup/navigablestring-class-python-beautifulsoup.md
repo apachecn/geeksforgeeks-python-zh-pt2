@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 <tag> String here </tag>
 
 ```
@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -40,7 +40,7 @@ print(type(string))
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.NavigableString'>
 
 ```
@@ -49,7 +49,7 @@ print(type(string))
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -74,7 +74,7 @@ print(type(string))
 
 **输出:**
 
-```
+```py
 <type 'str'>
 
 ```

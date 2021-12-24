@@ -14,7 +14,7 @@
 
 将 statictext 的标签设置为菜单项的总数。
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

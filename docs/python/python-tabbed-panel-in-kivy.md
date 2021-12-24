@@ -15,7 +15,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 > 要使用它，必须从 kivy . uix . TabbedPanel 导入:
 > 导入 tabbebanel
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivy App
@@ -36,7 +36,7 @@ Basic Approach:
 
 **。py 文件**
 
-```
+```py
 # Program to explain how to create tabbed panel App in kivy  
 
 # import kivy module     
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 **。kv 文件**
 
-```
+```py
 # .kv file of tabbed panel
 
 <Tab>:

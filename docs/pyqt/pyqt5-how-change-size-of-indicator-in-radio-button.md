@@ -8,7 +8,7 @@
 
 为了改变单选按钮中指示器的大小，我们必须改变与单选按钮对象相关的样式表代码。下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 width : 20px;
@@ -19,7 +19,7 @@ height : 20px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

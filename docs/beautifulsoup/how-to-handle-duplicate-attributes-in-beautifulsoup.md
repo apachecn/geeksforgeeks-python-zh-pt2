@@ -42,7 +42,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
  <head>
@@ -67,7 +67,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Import the libraries beautifulsoup and os
 from bs4 import BeautifulSoup as bs
 import os

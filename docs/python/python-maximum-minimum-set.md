@@ -5,7 +5,7 @@
 在本文中，我们将学习如何使用 Python 的内置函数在 Python 中获取集合中的最大和最小元素。
 示例:
 
-```
+```py
 Input : set = ([8, 16, 24, 1, 25, 3, 10, 65, 55])
 Output : max is 65
 
@@ -18,7 +18,7 @@ Output : min is 4
 
 Python 中的内置函数 max()用于获取集合中所有元素的最大值。
 
-```
+```py
 # Python code to get the maximum element from a set
 def MAX(sets):
     return (max(sets))
@@ -30,14 +30,14 @@ print(MAX(sets))
 
 输出:
 
-```
+```py
 65
 
 ```
 
 **一组中的最小()**
 
-```
+```py
 # Python code to get the minimum element from a set
 def MIN(sets):
     return (min(sets))
@@ -49,7 +49,7 @@ print(MIN(sets))
 
 输出:
 
-```
+```py
 4
 
 ```

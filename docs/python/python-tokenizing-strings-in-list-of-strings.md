@@ -8,7 +8,7 @@
 
 我们可以通过使用列表理解来遍历字符串列表中的每个字符串来实现这个特殊的任务，而 split 函数执行标记化的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Tokenizing strings in list of strings
 # using list comprehension + split()
@@ -35,7 +35,7 @@ print("The list after split of strings is : " + str(res))
 **方法 2:使用`map() + split()`**
 这是另一种可以解决这个特殊任务的方法。在这个方法中，我们只是执行与上面类似的任务，只是我们使用 map 函数将拆分逻辑绑定到整个列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Tokenizing strings in list of strings
 # using map() + split()

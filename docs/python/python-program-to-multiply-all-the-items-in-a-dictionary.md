@@ -25,7 +25,7 @@ Python 程序举例说明将[字典](https://www.geeksforgeeks.org/python-dictio
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 d = {
     'value1': 5,
@@ -48,7 +48,7 @@ print(answer)
 
 **Output**
 
-```
+```py
 120
 
 ```
@@ -57,7 +57,7 @@ print(answer)
 
 ## 蟒蛇 3
 
-```
+```py
 # create a dictionary
 d = {
     'a': 10,
@@ -78,7 +78,7 @@ print(answer)
 
 **Output**
 
-```
+```py
 140
 
 ```

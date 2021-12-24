@@ -13,7 +13,7 @@ spaCy 被认为是 Python 中速度最快的 NLP 框架，它实现的每个 NLP
 
 **安装:**
 
-```
+```py
 pip install spacy
 python -m spacy download en_core_web_sm
 
@@ -21,7 +21,7 @@ python -m spacy download en_core_web_sm
 
 **使用 spaCy 对 NER 进行编码。**
 
-```
+```py
 import spacy
 
 nlp = spacy.load('en_core_web_sm')
@@ -36,7 +36,7 @@ for ent in doc.ents:
 
 **输出**
 
-```
+```py
 Apple 0 5 ORG
 U.K. 27 31 GPE
 $1 billion 44 54 MONEY
@@ -47,7 +47,7 @@ $1 billion 44 54 MONEY
 
 此外，有趣的是，spaCy 的 NER 模型使用大写字母作为识别命名实体的线索之一。同一个例子，当稍加修改测试时，会产生不同的结果。
 
-```
+```py
 import spacy
 
 nlp = spacy.load('en_core_web_sm')
@@ -62,7 +62,7 @@ for ent in doc.ents:
 
 **输出**
 
-```
+```py
 U.K. 27 31 GPE
 $1 billion 44 54 MONEY
 
@@ -72,7 +72,7 @@ $1 billion 44 54 MONEY
 
 人们也可以用自己的例子来训练和修改 spaCy 的内置 NER 模型。有几种方法可以做到这一点。下面的代码展示了一种简单的方法来引入新的实例并更新模型。
 
-```
+```py
 import spacy
 from spacy.gold import GoldParse
 from spacy.language import EntityRecognizer

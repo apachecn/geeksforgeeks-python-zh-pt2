@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # working of object()
 
@@ -48,7 +48,7 @@ print(dir(obj))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 code to demonstrate
 # properties of object()
 
@@ -65,13 +65,13 @@ obj1.name = "GeeksforGeeks"
 
 **输出:**
 
-```
+```py
 Is obj1 equal to obj2 : False
 ```
 
 例外:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/46b67ee266145958c7cc22d9ee0ae759.py", line 12, in 
     obj1.name = "GeeksforGeeks"

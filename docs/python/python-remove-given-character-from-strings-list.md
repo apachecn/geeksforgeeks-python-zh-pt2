@@ -7,7 +7,7 @@
 **方法#1:使用`replace() + enumerate()` +循环**
 这是解决这个问题的蛮力方式。在这种情况下，我们遍历每个字符串并用空字符串替换指定的字符来执行删除。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove character from Strings list
 # using loop + replace() + enumerate()
@@ -32,7 +32,7 @@ print("The list after removal of character : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 The list after removal of character : ['gfg', 'i', 'bet', 'for', 'geek']
 

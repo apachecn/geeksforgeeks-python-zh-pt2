@@ -15,7 +15,7 @@
 **示例#1 :**
 使用`shutil.which()`方法获取**蟒**的位置
 
-```
+```py
 # Python program to explain shutil.which() method 
 
 # importing os module 
@@ -36,7 +36,7 @@ print(locate)
 
 **Output:**
 
-```
+```py
 /usr/bin/python
 
 ```
@@ -44,7 +44,7 @@ print(locate)
 **示例 2 :**
 使用`shutil.which()`方法获取 **C++** 的位置
 
-```
+```py
 # Python program to explain shutil.which() method 
 
 # importing os module 
@@ -65,7 +65,7 @@ print(locate)
 
 **Output:**
 
-```
+```py
 /usr/bin/c++
 
 ```

@@ -7,7 +7,7 @@
 **方法#1:使用`enumerate()` +循环**
 这是我们使用蛮力方法完成这个特殊任务的方式。在这个过程中，我们循环元组，当一个变得比另一个大时，我们循环元素，从头开始。
 
-```
+```py
 # Python3 code to demonstrate 
 # Zip Uneven Tuple
 # using enumerate() + loop
@@ -32,7 +32,7 @@ print ("The zipped tuple is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 is : (7, 8, 4, 5, 9, 10)
 The original tuple 2 is : (1, 5, 6)
 The zipped tuple is : [(7, 1), (8, 5), (4, 6), (5, 1), (9, 5), (10, 6)]

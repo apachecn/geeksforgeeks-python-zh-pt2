@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing wand
 from wand.image import Image
 from wand.drawing import Drawing

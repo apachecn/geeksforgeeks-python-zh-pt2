@@ -37,7 +37,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required module
 import networkx as nx
 

@@ -21,7 +21,7 @@ AddTool()是 wx 中的另一个函数。wxPython 的工具栏类。AddTool()函�
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

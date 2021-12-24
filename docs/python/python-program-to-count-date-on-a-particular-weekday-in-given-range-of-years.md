@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Count date on weekday in Year Range
 # Using loop + weekday()
@@ -57,7 +57,7 @@ print("Total dates with same weekday : " + str(res))
 
 **输出:**
 
-```
+```py
 The date, weekday : 13 5
 Total dates with same weekday : 120
 ```
@@ -68,7 +68,7 @@ Total dates with same weekday : 120
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Count date on weekday in Year Range
 # Using sum() + generator expression
@@ -96,7 +96,7 @@ print("Total dates with same weekday : " + str(res))
 
 **输出:**
 
-```
+```py
 The date, weekday : 13 5
 Total dates with same weekday : 120
 ```

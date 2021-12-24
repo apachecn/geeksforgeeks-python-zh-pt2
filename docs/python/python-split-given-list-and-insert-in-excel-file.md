@@ -8,7 +8,7 @@
 
 下面是实现:
 
-```
+```py
 # Python code to split the list two element 
 # at a time and insert it into excel.
 

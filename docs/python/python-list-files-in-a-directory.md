@@ -14,7 +14,7 @@
 
 ****语法**:**
 
-```
+```py
 os.listdir(path)
 ```
 
@@ -28,7 +28,7 @@ os.listdir(path)
 
 ## **计算机编程语言**
 
-```
+```py
 # import OS module
 import os
 
@@ -50,7 +50,7 @@ print(dir_list)
 
 ## **蟒蛇 3**
 
-```
+```py
 #import OS
 import os
 
@@ -68,7 +68,7 @@ for x in os.listdir():
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# import OS module
 import os
 

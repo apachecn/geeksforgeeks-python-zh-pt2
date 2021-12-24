@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Set from dictionary values
 # Using generator expression + {}
@@ -54,7 +54,7 @@ print("The converted set : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Set from dictionary values
 # Using values() + set()

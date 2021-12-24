@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove duplicate lists in tuples(Preserving Order)
 # Using list comprehension + set()
@@ -30,7 +30,7 @@ print("The unique lists tuple is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : ([4, 7, 8], [1, 2, 3], [4, 7, 8], [9, 10, 11], [1, 2, 3])
 The unique lists tuple is : [[4, 7, 8], [1, 2, 3], [9, 10, 11]]
 ```
@@ -40,7 +40,7 @@ The unique lists tuple is : [[4, 7, 8], [1, 2, 3], [9, 10, 11]]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove duplicate lists in tuples(Preserving Order)
 # Using OrderedDict() + tuple()
@@ -62,7 +62,7 @@ print("The unique lists tuple is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : ([4, 7, 8], [1, 2, 3], [4, 7, 8], [9, 10, 11], [1, 2, 3])
 The unique lists tuple is : [[4, 7, 8], [1, 2, 3], [9, 10, 11]]
 ```

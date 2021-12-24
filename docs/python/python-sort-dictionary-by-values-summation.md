@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Values Summation
 # Using dictionary comprehension + sum() + sorted()
@@ -45,7 +45,7 @@ print("The sorted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 7, 4], 'is': [4, 3, 2], 'best': [7, 6, 5]}
 The sorted dictionary : {'is': 9, 'Gfg': 17, 'best': 18}
 
@@ -57,7 +57,7 @@ The sorted dictionary : {'is': 9, 'Gfg': 17, 'best': 18}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Values Summation
 # Using map() + dictionary comprehension + sorted() + sum()
@@ -79,7 +79,7 @@ print("The sorted dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': [6, 7, 4], 'is': [4, 3, 2], 'best': [7, 6, 5]}
 The sorted dictionary : {'is': 9, 'Gfg': 17, 'best': 18}
 

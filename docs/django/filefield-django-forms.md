@@ -11,7 +11,7 @@ Django 表单中的文件字段是上传文件的输入字段。该输入的默�
 
 **语法**
 
-```
+```py
 field_name = forms.FileField(**options)
 ```
 
@@ -26,7 +26,7 @@ field_name = forms.FileField(**options)
 
 将以下代码输入**极客** app 的`forms.py`文件。
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -36,7 +36,7 @@ class GeeksForm(forms.Form):
 
 将极客应用添加到`INSTALLED_APPS`
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -52,7 +52,7 @@ INSTALLED_APPS = [
 
 现在要将这个表单呈现为一个视图，我们需要一个视图和一个映射到该 URL 的 URL。让我们首先在极客应用的 `views.py`中创建一个视图，
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -66,7 +66,7 @@ def home_view(request):
 这里，我们从 forms.py 导入该特定表单，并在视图中创建它的一个对象，以便它可以在模板中呈现。
 现在，要创建一个姜戈表单，你需要创建一个 home.html，在那里你可以按照他们喜欢的方式设计东西。让我们在`home.html`中创建一个表单。
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_p }}
@@ -76,7 +76,7 @@ def home_view(request):
 
 最后，在 urls.py 中映射到此视图的 URL
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -89,7 +89,7 @@ urlpatterns = [
 
 让我们运行服务器并检查实际发生了什么，运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -103,7 +103,7 @@ Python manage.py runserver
 FileField 不同于其他字段，需要妥善处理。如上所述，从文件字段获取的数据将存储在**请求中。文件**对象。
 在 views.py 中，
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 

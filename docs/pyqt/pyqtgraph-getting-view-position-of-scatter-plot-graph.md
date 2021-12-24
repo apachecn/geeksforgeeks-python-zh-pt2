@@ -5,7 +5,7 @@
 在本文中，我们将了解如何获得 PyQtGraph 模块散点图的视图位置。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).散点图(又称散点图，散点图)使用点来表示两个不同数值变量的值。这是一种使用笛卡尔坐标来显示一组数据的两个变量的值的绘图或数学图表。水平轴和垂直轴上每个点的位置表示单个数据点的值。散点图的视图位置是图表在用户级别可见的位置值。
 我们可以借助下面给出的命令创建一个绘图窗口，并在其上创建散点图。
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -22,7 +22,7 @@ scatter = pg.ScatterPlotItem(size=10)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

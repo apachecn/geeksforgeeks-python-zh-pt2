@@ -8,7 +8,7 @@
 
 本模块未预装 Python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pillow
 ```
 
@@ -61,7 +61,7 @@ pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style
@@ -98,7 +98,7 @@ img.save("results.jpeg")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style
@@ -135,7 +135,7 @@ img.save("results.jpeg")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style
@@ -170,7 +170,7 @@ img.save("results.jpeg")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style
@@ -205,7 +205,7 @@ img.save("results.jpeg")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style
@@ -240,7 +240,7 @@ img.save("results.jpeg")
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Image for basic functionalities like open, save, show
 # Import ImageDraw to convert image into editable format
 # Import ImageFont to choose the font style

@@ -7,7 +7,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.resize(width=None, height=None, filter='undefined', blur=1)
 > ```
 > 
@@ -31,7 +31,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import Image from wand.image
 from wand.image import Image
 
@@ -54,7 +54,7 @@ with Image(filename = 'gog.png') as img:
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import required libraries
 import urllib3
 from cStringIO import StringIO

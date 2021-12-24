@@ -6,7 +6,7 @@
 
 **使用该命令进行安装:**
 
-```
+```py
 pip install pyttsx3
 ```
 
@@ -27,7 +27,7 @@ T1】
 
 **代码#1:** 说文字
 
-```
+```py
 # importing the pyttsx library
 import pyttsx3
 
@@ -42,7 +42,7 @@ engine.runAndWait()
 
 **代码#2:** 监听事件
 
-```
+```py
 import pyttsx3
 
 def onStart():

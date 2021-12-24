@@ -11,7 +11,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 **创建按钮时要遵循的基本方法:**
 
-```
+```py
 -> import kivy
 -> import kivy App
 -> import button
@@ -25,7 +25,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -69,7 +69,7 @@ root.run()
 
 ## 蟒蛇 3
 
-```
+```py
 def build(self):
         # use a (r, g, b, a) tuple
         btn = Button(text ="Push Me !",
@@ -99,7 +99,7 @@ def build(self):
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -169,7 +169,7 @@ MDRectangleFlatButton 有以下参数:
 
 ## 蟒蛇 3
 
-```
+```py
 from kivymd.app import MDApp
 from kivymd.uix.screen import Screen
 from kivymd.uix.button import MDRectangleFlatButton

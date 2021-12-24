@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Dictionaries with given Key
 # Using list comprehension + keys()
@@ -58,7 +58,7 @@ print("The filtered Dictionaries : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Extract Dictionaries with given Key
 # Using filter() + lambda

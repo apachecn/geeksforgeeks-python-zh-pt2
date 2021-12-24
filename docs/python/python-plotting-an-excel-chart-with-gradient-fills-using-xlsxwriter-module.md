@@ -11,7 +11,7 @@
 **代码#1 :** 绘制带渐变填充列的图表。
 要在 excel 表上绘制这种类型的图表，请使用带有图表对象的`'gradient'`关键字参数的`add_series()`方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -106,7 +106,7 @@ workbook.close()
 **代码#2 :** 在绘图区域绘制带有渐变填充的图表。
 在 excel 表上绘制这种类型的图表时，使用带有图表对象的`'gradient'`关键字参数的`set_plotarea()`方法。
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

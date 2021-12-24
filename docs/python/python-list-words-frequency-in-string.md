@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Divide String into Equal K chunks
 # Using list comprehension
@@ -46,7 +46,7 @@ print("The list words frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks and best for CS
 The list words frequency : [2, 1, 0, 0, 2, 1]
 ```
@@ -57,7 +57,7 @@ The list words frequency : [2, 1, 0, 0, 2, 1]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Divide String into Equal K chunks
 # Using list comprehension
@@ -84,7 +84,7 @@ print("The list words frequency : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks is best for geeks and best for CS
 The list words frequency : [2, 1, 0, 0, 2, 1]
 ```

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing Matrix
 test_list = ["gfg", "best", "for", "geeks"]
 

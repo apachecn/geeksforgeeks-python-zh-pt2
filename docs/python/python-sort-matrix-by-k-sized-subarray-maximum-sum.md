@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by K Sized Subarray Maximum Sum
 # Using max() + sum() + slicing + sort()
@@ -57,7 +57,7 @@ print("The sorted result : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by K Sized Subarray Maximum Sum
 # Using sorted() + lambda + max() + sum() + slicing

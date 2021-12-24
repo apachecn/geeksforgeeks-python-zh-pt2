@@ -15,7 +15,7 @@
 **方法#1:使用列表理解+ `enumerate()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用一个线性列表理解来执行检查更大值的任务，并且 enumerate()用于在嵌套迭代时处理索引。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if greater than preceding element in Tuple List
 # Using list comprehension + enumerate()
@@ -38,7 +38,7 @@ print("Filtered values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 5, 1), (7, 4, 9), (1, 3, 5)]
 Filtered values : [[False, True, False], [False, False, True], [False, True, True]]
 
@@ -47,7 +47,7 @@ Filtered values : [[False, True, False], [False, False, True], [False, True, Tru
 **方法二:使用`tee() + zip()` +列表理解**
 这是可以执行这个任务的方式之一。在本例中，我们使用 tee()提取元素并以大小= 2 的元组呈现它们。列表理解和 zip()用于构建期望的结果。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if greater than preceding element in Tuple List
 # Using tee() + zip() + list comprehension
@@ -81,7 +81,7 @@ print("Filtered values : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 5, 1), (7, 4, 9), (1, 3, 5)]
 Filtered values : [[False, True, False], [False, False, True], [False, True, True]]
 

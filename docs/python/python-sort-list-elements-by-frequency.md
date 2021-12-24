@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # sort list by frequency
 # of elements
@@ -31,7 +31,7 @@ print("final list", str(result))
 
 **输出:**
 
-```
+```py
 initial list [1, 2, 3, 4, 4, 5, 5, 5, 5, 7, 1, 1, 2, 4, 7, 8, 9, 6, 6, 6]
 final list [5, 5, 5, 5, 1, 1, 1, 4, 4, 4, 6, 6, 6, 2, 2, 7, 7, 3, 8, 9]
 ```
@@ -41,7 +41,7 @@ final list [5, 5, 5, 5, 1, 1, 1, 4, 4, 4, 6, 6, 6, 2, 2, 7, 7, 3, 8, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # sort list by frequency
 # of elements
@@ -65,7 +65,7 @@ print("final list", str(result))
 
 **输出:**
 
-```
+```py
 initial list [1, 2, 3, 4, 4, 5, 5, 5, 5, 7, 1, 1, 2, 4, 7, 8, 9, 6, 6, 6]
 final list [5, 5, 5, 5, 1, 1, 1, 4, 4, 4, 6, 6, 6, 2, 2, 7, 7, 3, 8, 9]
 ```
@@ -75,7 +75,7 @@ final list [5, 5, 5, 5, 1, 1, 1, 4, 4, 4, 6, 6, 6, 2, 2, 7, 7, 3, 8, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # sort list by frequency
 # of elements
@@ -96,7 +96,7 @@ print("final list", str(result))
 
 **输出:**
 
-```
+```py
 initial list [1, 1, 2, 2, 2, 3, 3, 3, 3, 3, 5, 5, 5, 4, 4, 4, 4, 4, 4]
 final list [4, 4, 4, 4, 4, 4, 3, 3, 3, 3, 3, 2, 2, 2, 5, 5, 5, 1, 1]
 ```

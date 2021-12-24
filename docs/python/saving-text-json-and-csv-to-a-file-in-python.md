@@ -10,7 +10,7 @@ Python 允许用户处理文件(读取、写入、保存和删除文件等等)�
 
 **语法:**
 
-```
+```py
 File_object = open("File_Name", "Access_Mode")
 
 ```
@@ -29,7 +29,7 @@ File_object = open("File_Name", "Access_Mode")
 
 **注意:**默认情况下，Python 假定访问模式为 read(即“r”)
 
-```
+```py
 # Python program to demonstrate 
 # opening a file 
 
@@ -53,19 +53,19 @@ file1.close() 
 
 *   **write():** 将字符串 str1 插入文本文件中的一行。
 
-    ```
+    ```py
     File_object.write(str1)
     ```
 
 *   **writeline():**对于字符串元素的列表，每个字符串都被插入到文本文件中。用于一次插入多个字符串。
 
-    ```
+    ```py
     File_object.writelines(L) for L = [str1, str2, str3] 
     ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # saving a text file
 
@@ -84,14 +84,14 @@ file.close()
 
 **语法:**
 
-```
+```py
 with open filename as file:
      statement(s)
 ```
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate
 # saving a text file
 
@@ -126,7 +126,7 @@ CSV 是逗号分隔值文件，最广泛用于放置表格数据。CSV 文件以
 
 **示例:**
 
-```
+```py
 # Python program to demonstrate 
 # writing to CSV 
 
@@ -170,7 +170,7 @@ JSON 的完整形式是 JavaScript 对象符号。这意味着由编程语言中
 
 这个模块提供了一个名为`[dump()](https://www.geeksforgeeks.org/json-dump-in-python/)`的方法，将 Python 对象转换成合适的 json 对象。
 
-```
+```py
 import json 
 
 # python object(dictionary) to be dumped 

@@ -8,7 +8,7 @@ Order By 子句默认用于对 SELECT 子句返回的表的记录进行升序排
 
 **语法:**
 
-```
+```py
 SELECT
     column1, column2, ....
 FROM
@@ -27,7 +27,7 @@ ORDER BY
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 
@@ -83,7 +83,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2 module
 import psycopg2
 

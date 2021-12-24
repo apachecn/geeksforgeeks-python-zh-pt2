@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[3, 4, 5, 6], [1, 4, 6], [199], [2, 3, 4, 5, 6], [7, 3, 1]]
 
@@ -47,7 +47,7 @@ print("The filtered rows : " + str(res))
 
 ## **蟒蛇 3**
 
-```
+```py
 **# row sum util.
 def row_sum(row):
     return sum(row)

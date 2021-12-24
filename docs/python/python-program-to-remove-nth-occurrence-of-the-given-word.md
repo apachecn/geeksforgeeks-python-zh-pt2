@@ -5,7 +5,7 @@
 给定 Python 中的单词列表，任务是移除列表中给定单词的第 N 个<sup>出现。
 **例:**</sup> 
 
-```
+```py
 Input: list - ["geeks", "for", "geeks"]
        word = geeks, N = 2
 Output: list - ["geeks", "for"]
@@ -20,7 +20,7 @@ Output: list - ["you",  "can", "a", "can" "?"]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove Nth
 # occurrence of the given word
 
@@ -57,7 +57,7 @@ RemoveIthWord(list, word, N)
 
 **输出:**
 
-```
+```py
 Updated list is:  ['geeks', 'for']
 ```
 
@@ -66,7 +66,7 @@ Updated list is:  ['geeks', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove Nth
 # occurrence of the given word
 
@@ -99,7 +99,7 @@ else:
 
 **输出:**
 
-```
+```py
 Updated list is:  ['geeks', 'for']
 ```
 
@@ -109,7 +109,7 @@ Updated list is:  ['geeks', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove Nth
 # occurrence of the given word
 
@@ -146,6 +146,6 @@ print("new list is :",omit(list1,word,n1))
 
 **输出:**
 
-```
+```py
 new list is : ['he', 'is', 'ankit', 'is', 'raj', 'ankit raj']
 ```

@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All Keys Maximum in Dictionary List
 # Using items() + loop + max()
@@ -60,7 +60,7 @@ print("All keys maximum : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # All Keys Maximum in Dictionary List
 # Using defaultdict()

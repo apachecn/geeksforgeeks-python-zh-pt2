@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace words from Dictionary
 # Using split() + join() + get()
@@ -48,7 +48,7 @@ print("Replaced Strings : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks best for geeks
 Replaced Strings : geekforgeeks good and better for all CS aspirants
 
@@ -60,7 +60,7 @@ Replaced Strings : geekforgeeks good and better for all CS aspirants
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace words from Dictionary
 # Using list comprehension + join()
@@ -83,7 +83,7 @@ print("Replaced Strings : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geekforgeeks best for geeks
 Replaced Strings : geekforgeeks good and better for all CS aspirants
 

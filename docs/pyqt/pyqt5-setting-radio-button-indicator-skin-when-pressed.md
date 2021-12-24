@@ -6,7 +6,7 @@
 
 为了做到这一点，我们必须改变单选按钮的样式表，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator:pressed
 {
 border-image : url(image.png);
@@ -16,7 +16,7 @@ border-image : url(image.png);
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

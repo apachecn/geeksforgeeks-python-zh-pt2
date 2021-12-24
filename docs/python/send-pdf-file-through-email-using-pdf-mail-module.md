@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install pdf-mail
 ```
 
@@ -25,13 +25,13 @@ pip install pdf-mail
 *   Note that **address _ of _ file** must contain a forward slash (/).
 *   You want to update the settings of Google account for sending email.
 
-    ```
+    ```py
     account.google.com -> less secure apps -> Turn on access .
     ```
 
 下面是实现。
 
-```
+```py
 # Importing sendpdf function  
 # From pdf_mail Library   
 from pdf_mail import sendpdf

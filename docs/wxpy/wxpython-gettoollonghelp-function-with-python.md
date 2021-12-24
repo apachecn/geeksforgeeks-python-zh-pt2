@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.GetToolLongHelp(self, toolid)
 > 
 > ```
@@ -19,14 +19,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > string
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,14 +69,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Long help associated with simple tool 1
 
 ```
 
 **代码示例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -119,7 +119,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Long help associated with simple tool 2
 
 ```

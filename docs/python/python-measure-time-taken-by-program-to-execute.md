@@ -15,7 +15,7 @@
 
 **代码#1 :**
 
-```
+```py
 # Code to Measure time taken by program to execute.
 import time
 
@@ -38,7 +38,7 @@ print(f"Total runtime of the program is {end - begin}")
 
 **Output:**
 
-```
+```py
 GeeksForGeeks
 GeeksForGeeks
 GeeksForGeeks
@@ -50,7 +50,7 @@ Total runtime of the program is 1.0010437965393066
 
 **方法 2 :** 使用`Timeit`模块
 
-```
+```py
 # importing the required module 
 import timeit 
 
@@ -73,7 +73,7 @@ print timeit.timeit(setup = mysetup, 
 
 **输出:**
 
-```
+```py
 0.00119590759277
 ```
 

@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of sin()
 
 # importing "math" for mathematical operations 
@@ -28,14 +28,14 @@ print (math.sin(a)) 
 
 **Output:**
 
-```
+```py
 The value of sine of pi/6 is : 0.49999999999999994
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program showing 
 # Graphical representation of 
 # sin() function 

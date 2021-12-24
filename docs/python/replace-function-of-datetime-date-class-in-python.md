@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import date
 
@@ -34,7 +34,7 @@ print("After Modify the year:", New_date)
 
 **Output**
 
-```
+```py
 Original date :  2010-02-12
 After Modify the year: 2021-02-12
 
@@ -44,7 +44,7 @@ After Modify the year: 2021-02-12
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import date
 
@@ -60,7 +60,7 @@ print("After Modify the month:", New_date)
 
 **Output**
 
-```
+```py
 Original date :  2010-02-12
 After Modify the month: 2010-05-12
 
@@ -70,7 +70,7 @@ After Modify the month: 2010-05-12
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 from datetime import date
 
@@ -86,7 +86,7 @@ print("After Modify the day:", New_date)
 
 **Output**
 
-```
+```py
 Original date :  2010-02-12
 After Modify the day: 2010-02-21
 
@@ -96,7 +96,7 @@ After Modify the day: 2010-02-21
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 Date = datetime(2010, 2, 12, 8, 50, 23)
@@ -110,7 +110,7 @@ print("After modify date and time : ", New_date)
 
 **Output**
 
-```
+```py
 Original date and time :  2010-02-12 08:50:23
 After modify date and time :  2010-02-12 01:03:12
 

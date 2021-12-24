@@ -8,25 +8,25 @@ Django 是一个基于 Python 的网络框架，允许您快速创建高效的�
 
 首先，我们必须安装 Django。打开 cmd 或终端
 
-```
+```py
 pip install django
 ```
 
 创建一个新的姜戈项目
 
-```
+```py
 django-admin startproject fbcomm
 ```
 
 然后写命令–
 
-```
+```py
 cd fbcomm
 ```
 
 创建新应用程序–
 
-```
+```py
 python manage.py startapp main
 ```
 
@@ -42,7 +42,7 @@ fbcomm/**URL . py**:-
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 

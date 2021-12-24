@@ -9,7 +9,7 @@
 
 **使用的模块:**
 
-```
+```py
 msvcrt : Used to get keystroke as input for race
 time : Used to calculate time taken to complete the race
 ```
@@ -20,7 +20,7 @@ time : Used to calculate time taken to complete the race
 
 ## 蟒蛇 3
 
-```
+```py
 import msvcrt
 import time
 

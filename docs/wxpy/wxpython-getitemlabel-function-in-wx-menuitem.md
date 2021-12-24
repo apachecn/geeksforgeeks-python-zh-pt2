@@ -7,19 +7,19 @@ GetItemLabel()函数不取参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetItemLabel(self)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No Parameters are required in wx.MenuItem.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > string
 > ```
 
@@ -27,7 +27,7 @@ GetItemLabel()函数不取参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -69,7 +69,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 &Check
 ```
 

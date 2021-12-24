@@ -10,7 +10,7 @@
 
 以下是代码–
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

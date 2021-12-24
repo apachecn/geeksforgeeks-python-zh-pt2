@@ -9,7 +9,7 @@
 2。图像归一化/背景减法
 我们可以借助下面给出的命令创建一个图像视图:
 
-```
+```py
 # creating a pyqtgraph image view object
 img = pg.ImageView()
 ```
@@ -28,7 +28,7 @@ img = pg.ImageView()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 from PyQt5.QtWidgets import *
 import sys

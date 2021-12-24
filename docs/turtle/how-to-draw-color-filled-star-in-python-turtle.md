@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 
@@ -66,7 +66,7 @@ colored_star()
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 from random import randint
 

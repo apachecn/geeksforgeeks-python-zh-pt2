@@ -10,7 +10,7 @@
 **例 1 :**
 在这个例子中，我们可以说通过使用`TextBlob.sentiment()`方法，我们能够获得一个句子的情感。
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 
@@ -28,7 +28,7 @@ print(gfg)
 
 **例 2 :**
 
-```
+```py
 # import TextBlob
 from textblob import TextBlob
 

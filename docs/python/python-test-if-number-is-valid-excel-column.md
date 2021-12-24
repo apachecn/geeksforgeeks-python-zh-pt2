@@ -7,7 +7,7 @@
 **方法:使用`re.match() + group()`**
 以上功能的组合可以用来执行此任务。在这种情况下，我们执行 regex match()来匹配具有 A-XDF 的可能更新的 excel 版本，并以 0-9 开头，后跟不超过 1048576 的 0-6 个字符。groupby()用于在此基础上对元素进行分组。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if number is valid Excel column
 # Using re.match() + groupby()
@@ -30,7 +30,7 @@ print("Is string valid excel column : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : C101
 Is string valid excel column : True
 

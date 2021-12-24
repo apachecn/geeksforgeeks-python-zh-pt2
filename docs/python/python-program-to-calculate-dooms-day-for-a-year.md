@@ -21,7 +21,7 @@
 这里[ ]是最大整数函数。
 锚日在 100 年后发生变化，每 400 年后以下列方式重复–
 
-```
+```py
 0-99 yrs --> Tuesday
 100-199 yrs --> Sunday
 200-299 yrs --> Friday
@@ -31,7 +31,7 @@
 在此之后，上面的锚日重复文章开头提到的内容。
 **例:**
 
-```
+```py
 Input :  2005
 Output : Doomsday in the year 2005 = Monday
 
@@ -43,7 +43,7 @@ Output : Doomsday in the year 1800 = Friday
 
 ## C++14
 
-```
+```py
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -105,7 +105,7 @@ int main()
 
 ## Java 语言(一种计算机语言，尤用于创建网站)
 
-```
+```py
 import java.util.*;
 
 class GFG{
@@ -169,7 +169,7 @@ public static void main(String[] args)
 
 ## 蟒蛇 3
 
-```
+```py
 def dooms_day(year):
 
     # dictionary to store days
@@ -214,7 +214,7 @@ print("Doomsday in the year % s = % s"%(year,
 
 ## C#
 
-```
+```py
 using System;
 using System.Collections.Generic;  
 class GFG
@@ -279,7 +279,7 @@ class GFG
 
 ## java 描述语言
 
-```
+```py
 <script>
       function dooms_day(year) {
 
@@ -331,6 +331,6 @@ class GFG
 
 **Output:** 
 
-```
+```py
 Doomsday in the year 1966 = Monday
 ```

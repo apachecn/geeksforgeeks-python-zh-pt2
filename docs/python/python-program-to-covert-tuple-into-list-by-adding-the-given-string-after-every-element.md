@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_tup = (5, 6, 7), K = "Gfg" 
 Output : [5, 'Gfg', 6, 'Gfg', 7, 'Gfg'] 
 Explanation : Added "Gfg" as succeeding element.
@@ -22,7 +22,7 @@ Explanation : Added "Gfg" as succeeding element.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple to List with succeeding element
 # Using list comprehension
@@ -54,7 +54,7 @@ print("Converted Tuple with K : ", res)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert tuple to List with succeeding element
 # Using chain.from_iterable() + list() + generator expression

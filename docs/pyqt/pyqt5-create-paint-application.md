@@ -50,7 +50,7 @@ Python 提供了这么多开发 GUI 应用程序的选项，PyQt5 就是其中�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *

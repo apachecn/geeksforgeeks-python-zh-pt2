@@ -15,7 +15,7 @@
 **方法#1:使用`map() + next()` +λ**
 以上功能的组合可以解决这个问题。在本文中，我们扩展了使用 lambda 函数和 next()，使用 map()提取唯一元素的逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Kth index tuples
 # Using map() + next() + lambda
@@ -40,7 +40,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 8), (4, 2, 7), (1, 2, 3), (9, 6, 5)]
 The extracted elements : [(4, 2, 7), (5, 6, 8)]
 
@@ -49,7 +49,7 @@ The extracted elements : [(4, 2, 7), (5, 6, 8)]
 **方法 2:使用`next() + groupby() + lambda`**
 以上功能的组合也可以用来解决这个问题。在这种情况下，我们使用 groupby()以更紧凑的方式执行上面的 map()任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Kth index tuples
 # Using next() + groupby() + lambda
@@ -75,7 +75,7 @@ print("The extracted elements : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 8), (4, 2, 7), (1, 2, 3), (9, 6, 5)]
 The extracted elements : [(4, 2, 7), (5, 6, 8)]
 

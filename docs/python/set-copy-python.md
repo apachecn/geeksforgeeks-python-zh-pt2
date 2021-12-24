@@ -6,7 +6,7 @@ copy()方法返回 python 中集合的浅拷贝。如果我们使用 **"="** 将
 
 **语法:**
 
-```
+```py
 *set_name*.copy()
 
 set_name: Name of the set whose copy
@@ -20,7 +20,7 @@ set_name: Name of the set whose copy
 
 下面是上述功能的实现:
 
-```
+```py
 # Python3 program to demonstrate the use
 # of join() function 
 
@@ -35,14 +35,14 @@ print(set2)       
 
 输出:
 
-```
+```py
 {1, 2, 3, 4} 
 
 ```
 
 **浅复制示例:**
 
-```
+```py
 # Python program to demonstrate that copy 
 # created using set copy is shallow
 first = {'g', 'e', 'e', 'k', 's'}
@@ -65,7 +65,7 @@ print 'second: ', second 
 
 输出:
 
-```
+```py
 before adding: 
 first:  set(['s', 'e', 'k', 'g'])
 second:  set(['s', 'e', 'k', 'g'])

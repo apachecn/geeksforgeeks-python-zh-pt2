@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 name = [ "Manjeet", "Nikhil", "Shambhavi", "Astha" ]
 roll_no = [ 4, 1, 3, 2 ]
 
@@ -30,7 +30,7 @@ print(set(mapped))
 
 **输出:**
 
-```
+```py
 {('Shambhavi', 3), ('Nikhil', 1), ('Astha', 2), ('Manjeet', 4)}
 ```
 
@@ -38,7 +38,7 @@ print(set(mapped))
 
 ## 蟒蛇 3
 
-```
+```py
 names = ['Mukesh', 'Roni', 'Chari']
 ages = [24, 50, 18]
 
@@ -48,7 +48,7 @@ for i, (name, age) in enumerate(zip(names, ages)):
 
 **输出:**
 
-```
+```py
 0 Mukesh 24
 1 Roni 50
 2 Chari 18
@@ -58,7 +58,7 @@ for i, (name, age) in enumerate(zip(names, ages)):
 
 ## 蟒蛇 3
 
-```
+```py
 stocks = ['reliance', 'infosys', 'tcs']
 prices = [2175, 1127, 2750]
 
@@ -69,7 +69,7 @@ print(new_dict)
 
 **输出:**
 
-```
+```py
 {'reliance': 2175, 'infosys': 1127, 'tcs': 2750}
 ```
 
@@ -79,7 +79,7 @@ print(new_dict)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # unzip
 
@@ -118,7 +118,7 @@ print(marksz)
 
 **输出:**
 
-```
+```py
 The zipped result is : [('Manjeet', 4, 40), ('Nikhil', 1, 50), 
 ('Shambhavi', 3, 60), ('Astha', 2, 70)]
 
@@ -134,7 +134,7 @@ The marks list is : (40, 50, 60, 70)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the application of
 # zip()
 
@@ -151,7 +151,7 @@ for pl, sc in zip(players, scores):
 
 **输出:**
 
-```
+```py
 Player :  Sachin     Score : 100
 Player :  Sehwag     Score : 15
 Player :  Gambhir     Score : 17

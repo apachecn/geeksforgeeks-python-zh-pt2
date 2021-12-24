@@ -7,7 +7,7 @@
 **示例 1:**
 创建一个 CSV 文件，并使用`writer`类向其中逐行写入数据。
 
-```
+```py
 # Importing library
 import csv
 
@@ -28,7 +28,7 @@ with file:    
 **示例 2:**
 使用`DictWriter`类将数据逐行写入现有 CSV 文件。
 
-```
+```py
 # importing library
 import csv
 
@@ -59,7 +59,7 @@ with file:
 **示例 3:**
 使用`writer`类将数据逐行追加到现有 CSV 文件中。
 
-```
+```py
 # Importing library
 import csv
 

@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records Maxima in List of Tuples
 # using list comprehension + max() + zip()
@@ -30,7 +30,7 @@ print("The Cumulative column maximum is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column maximum is : [6, 7, 8]
 ```
@@ -40,7 +40,7 @@ The Cumulative column maximum is : [6, 7, 8]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records Maxima in List of Tuples
 # using zip() + map() + max()
@@ -61,7 +61,7 @@ print("The Cumulative column maximum is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list : [(1, 2, 3), (6, 7, 6), (1, 6, 8)]
 The Cumulative column maximum is : [6, 7, 8]
 ```

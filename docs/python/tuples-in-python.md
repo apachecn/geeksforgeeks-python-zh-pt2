@@ -6,7 +6,7 @@
 
 **创建元组**
 
-```
+```py
 # An empty tuple
 empty_tuple = ()
 print (empty_tuple)
@@ -14,11 +14,11 @@ print (empty_tuple)
 
 输出:
 
-```
+```py
  ()
 ```
 
-```
+```py
 # Creating non-empty tuples
 
 # One way of creation
@@ -32,7 +32,7 @@ print(tup)
 
 输出
 
-```
+```py
 ('python', 'geeks')
 ('python', 'geeks')
 ```
@@ -41,7 +41,7 @@ print(tup)
 
 **元组的串联**
 
-```
+```py
 # Code for concatenating 2 tuples
 
 tuple1 = (0, 1, 2, 3)
@@ -53,13 +53,13 @@ print(tuple1 + tuple2)
 
 输出:
 
-```
+```py
 (0, 1, 2, 3, 'python', 'geek')
 ```
 
 **元组的嵌套**
 
-```
+```py
 # Code for creating nested tuples
 
 tuple1 = (0, 1, 2, 3)
@@ -70,13 +70,13 @@ print(tuple3)
 
 输出:
 
-```
+```py
 ((0, 1, 2, 3), ('python', 'geek'))
 ```
 
 **元组中的重复**
 
-```
+```py
 # Code to create a tuple with repetition
 
 tuple3 = ('python',)*3
@@ -85,7 +85,7 @@ print(tuple3)
 
 输出
 
-```
+```py
  ('python', 'python', 'python')
 ```
 
@@ -93,7 +93,7 @@ print(tuple3)
 
 **不可变元组**
 
-```
+```py
 #code to test that tuples are immutable
 
 tuple1 = (0, 1, 2, 3)
@@ -103,7 +103,7 @@ print(tuple1)
 
 输出
 
-```
+```py
 Traceback (most recent call last):
   File "e0eaddff843a8695575daec34506f126.py", line 3, in
     tuple1[0]=4
@@ -112,7 +112,7 @@ TypeError: 'tuple' object does not support item assignment
 
 **元组切片**
 
-```
+```py
 # code to test slicing
 
 tuple1 = (0 ,1, 2, 3)
@@ -123,7 +123,7 @@ print(tuple1[2:4])
 
 输出
 
-```
+```py
 (1, 2, 3)
 (3, 2, 1, 0)
 (2, 3)
@@ -131,7 +131,7 @@ print(tuple1[2:4])
 
 **删除元组**
 
-```
+```py
 # Code for deleting a tuple
 
 tuple3 = ( 0, 1)
@@ -141,7 +141,7 @@ print(tuple3)
 
 错误:
 
-```
+```py
 Traceback (most recent call last):
   File "d92694727db1dc9118a5250bf04dafbd.py", line 6, in <module>
     print(tuple3)
@@ -150,13 +150,13 @@ NameError: name 'tuple3' is not defined
 
 输出:
 
-```
+```py
 (0, 1)
 ```
 
 **查找元组长度**
 
-```
+```py
 # Code for printing the length of a tuple
 
 tuple2 = ('python', 'geek')
@@ -165,13 +165,13 @@ print(len(tuple2))
 
 输出
 
-```
+```py
  2
 ```
 
 **将列表转换为元组**
 
-```
+```py
 # Code for converting a list and a string into a tuple
 
 list1 = [0, 1, 2]
@@ -181,7 +181,7 @@ print(tuple('python')) # string 'python'
 
 输出
 
-```
+```py
 (0, 1, 2)
 ('p', 'y', 't', 'h', 'o', 'n')
 ```
@@ -190,7 +190,7 @@ print(tuple('python')) # string 'python'
 
 **循环中的元组**
 
-```
+```py
 #python code for creating tuples in a loop
 
 tup = ('geek',)
@@ -202,7 +202,7 @@ for i in range(int(n)):
 
 输出:
 
-```
+```py
 (('geek',),)
 ((('geek',),),)
 (((('geek',),),),)
@@ -213,7 +213,7 @@ for i in range(int(n)):
 
 **使用 cmp()、max()、min()**
 
-```
+```py
 # A python program to demonstrate the use of 
 # cmp(), max(), min()
 
@@ -236,7 +236,7 @@ print ('Minimum element in tuples 1,2: ' + 
 
 输出
 
-```
+```py
 Not the same
 Maximum element in tuples 1,2: python,coder
 Minimum element in tuples 1,2: geek,1

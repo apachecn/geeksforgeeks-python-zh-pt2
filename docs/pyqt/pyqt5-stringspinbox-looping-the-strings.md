@@ -6,7 +6,7 @@
 
 下面是自定义 StringSpinBox 类的代码
 
-```
+```py
 # custom class for String Spin Box
 class StringBox(QSpinBox):
 
@@ -78,7 +78,7 @@ class StringBox(QSpinBox):
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

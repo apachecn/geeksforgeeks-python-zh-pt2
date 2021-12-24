@@ -12,7 +12,7 @@
 
 **示例:**
 
-```
+```py
 Input : 10011011 
 
 Output :
@@ -36,7 +36,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 bytestr = bytes(b'abc') 
 
 # initializing a string with b
@@ -49,7 +49,7 @@ bytestr[0] = 97
 
 **输出:**
 
-```
+```py
 b'abc'
 97
 Traceback (most recent call last):
@@ -61,14 +61,14 @@ TypeError: 'bytes' object does not support item assignment
 
 字节串就是它所说的简单的字节串，例如？?'在“utf-8”中是
 
-```
+```py
 b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'
 
 ```
 
 这就出现了另一个问题，我们需要知道一个二进制字符串的编码，因为同一字符串在另一个编码(latin-1)中看起来是不同的。
 
-```
+```py
 Â© ð â
 
 ```
@@ -77,7 +77,7 @@ b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'
 
 ## 蟒蛇 3
 
-```
+```py
 print(b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'.decode('utf-8'))
 print(b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'.decode('latin-1'))
 ```
@@ -92,7 +92,7 @@ print(b'\xC2\xA9\x20\xF0\x9D\x8C\x86\x20\xE2\x98\x83'.decode('latin-1'))
 
 ## 蟒蛇 3
 
-```
+```py
 bytesArr = bytearray(b'\x00\x0F')
 
 # Bytearray allows modification
@@ -103,7 +103,7 @@ print(bytesArr)
 
 **输出:**
 
-```
+```py
 bytearray(b'\xff\x0f\xff')
 ```
 
@@ -117,7 +117,7 @@ bytearray(b'\xff\x0f\xff')
 
 ## 蟒蛇 3
 
-```
+```py
 # Code to demonstrate bitwise operations
 # Some bytes to play with
 byte1 = int('11110000', 2)  # 240
@@ -156,7 +156,7 @@ print(bit_mask & byte2)
 
 **输出:**
 
-```
+```py
 -241
 0
 255
@@ -183,7 +183,7 @@ print(bit_mask & byte2)
 
 ## 蟒蛇 3
 
-```
+```py
 with open('GFG.txt', 'rb') as file1, open('log.txt', 'rb') as file2:
     data1 = file1.read()
     data2 = file2.read()
@@ -196,7 +196,7 @@ else:
 
 **输出:**
 
-```
+```py
 Files do not match.
 ```
 
@@ -208,7 +208,7 @@ Files do not match.
 
 ## 蟒蛇 3
 
-```
+```py
 import binascii
 
 jpeg_signatures = [
@@ -228,6 +228,6 @@ with open('food.jpeg', 'rb') as file:
 
 **输出:**
 
-```
+```py
 JPEG detected.
 ```

@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -44,7 +44,7 @@ else:
 
 **输出:**
 
-```
+```py
 The comment is not stickied.
 
 ```
@@ -54,7 +54,7 @@ The comment is not stickied.
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -89,7 +89,7 @@ else:
 
 **输出:**
 
-```
+```py
 The comment is not stickied.
 
 ```

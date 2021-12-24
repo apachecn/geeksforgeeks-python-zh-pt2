@@ -53,7 +53,7 @@
 经典的 **Hello World 程序**展示了一个 Java 程序和 Python 程序
 **Java 代码**的**相对冗长度**
 
-```
+```py
 public class HelloWorld
 {
    public static void main (String[] args)
@@ -65,7 +65,7 @@ public class HelloWorld
 
 **Python 代码**
 
-```
+```py
 print("Hello, world!")
 ```
 

@@ -22,7 +22,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain os.getrandom() method 
 
 # importing os module 
@@ -42,14 +42,14 @@ print(result) 
 
 **Output:**
 
-```
+```py
 b'5\n\xe0\x98\x15'
 
 ```
 
 **例 2 :**
 
-```
+```py
 # Python program to explain os.getrandom() method 
 
 # importing os module 
@@ -69,7 +69,7 @@ print(result) 
 
 **Output:**
 
-```
+```py
 b'\xce\xc8\xf3\x95%'
 
 ```

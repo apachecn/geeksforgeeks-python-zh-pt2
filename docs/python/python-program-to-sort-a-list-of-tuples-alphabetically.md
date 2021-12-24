@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: [("Amana", 28), ("Zenat", 30), ("Abhishek", 29), ("Nikhil", 21), ("B", "C")]
 Output: [('Amana', 28), ('Abhishek', 29), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 
@@ -17,7 +17,7 @@ Output: [('aa', 30), ('aaaa', 28), ('bab', 29), ('bb', 21), ('csa', 'C')]
 
 **方法 1:** 使用[冒泡排序](https://www.geeksforgeeks.org/bubble-sort/)T5】使用冒泡排序的技巧来进行排序。请注意，每个元组都是给定列表中的一个元素。使用嵌套循环访问每个元组的第一个元素。这将执行就地排序方法。时间复杂度类似于冒泡排序，即`O(n^2)`。
 
-```
+```py
 # Python program to sort a
 # list of tuples alphabetically
 
@@ -48,7 +48,7 @@ print(SortTuple(tup))
 
 **输出:**
 
-```
+```py
 [('Abhishek', 29), ('Amana', 28), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 
 ```
@@ -56,7 +56,7 @@ print(SortTuple(tup))
 **方法 2:** 使用 [sort()方法](https://www.geeksforgeeks.org/sort-in-python/)
 通过该方法进行排序时，元组的实际内容会发生变化，就像前面的方法一样，会执行排序的就地方法。
 
-```
+```py
 # Python program to sort a list of 
 # tuples using sort()  
 
@@ -79,7 +79,7 @@ print(SortTuple(tup))
 
 **输出:**
 
-```
+```py
 [('Abhishek', 29), ('Amana', 28), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 
 ```
@@ -88,7 +88,7 @@ print(SortTuple(tup))
 
 `sorted()`方法是 list 类的一种方法，返回排序后的列表，不对原列表做任何改动。
 
-```
+```py
 # Python program to sort a list of 
 # tuples using sorted()  
 
@@ -110,7 +110,7 @@ print(Sort_Tuple(tup)) 
 
 **输出:**
 
-```
+```py
 [('Abhishek', 29), ('Amana', 28), ('B', 'C'), ('Nikhil', 21), ('Zenat', 30)]
 
 ```

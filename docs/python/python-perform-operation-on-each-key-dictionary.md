@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行这个任务的天真方法。在这种情况下，我们只需运行一个循环来遍历字典中的每个键，并执行所需的操作。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Perform operation on each key dictionary
 # Using loop

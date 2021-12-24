@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #Creating an empty Tuple
 Tuple1 = ()
 print("Initial empty Tuple: ")
@@ -43,7 +43,7 @@ print(Tuple1)
 
 **输出:**
 
-```
+```py
 Initial empty Tuple: 
 ()
 
@@ -63,7 +63,7 @@ Tuple with the use of function:
 
 ## 蟒蛇 3
 
-```
+```py
 #Creating a Tuple
 #with Mixed Datatype
 Tuple1 = (5, 'Welcome', 7, 'Geeks')
@@ -96,7 +96,7 @@ for i in range(int(n)):
 
 **输出:**
 
-```
+```py
 Tuple with Mixed Datatypes: 
 (5, 'Welcome', 7, 'Geeks')
 
@@ -122,7 +122,7 @@ Tuple with a loop
 
 ## 蟒蛇 3
 
-```
+```py
 #Accessing Tuple
 #with Indexing
 Tuple1 = tuple("Geeks")
@@ -143,7 +143,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 First element of Tuple:
 e
 
@@ -162,7 +162,7 @@ Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Concatenation of tuples
 Tuple1 = (0, 1, 2, 3)
 Tuple2 = ('Geeks', 'For', 'Geeks')
@@ -184,7 +184,7 @@ print(Tuple3)
 
 **输出:**
 
-```
+```py
 Tuple 1: 
 (0, 1, 2, 3)
 
@@ -204,7 +204,7 @@ Tuples after Concatenation:
 
 ## 蟒蛇 3
 
-```
+```py
 # Slicing of a Tuple
 
 # Slicing of a Tuple
@@ -226,7 +226,7 @@ print(Tuple1[4:9])
 
 **输出:**
 
-```
+```py
 Removal of First Element: 
 ('E', 'E', 'K', 'S', 'F', 'O', 'R', 'G', 'E', 'E', 'K', 'S')
 
@@ -245,7 +245,7 @@ Printing elements between Range 4-9:
 
 ## 计算机编程语言
 
-```
+```py
 # Deleting a Tuple
 
 Tuple1 = (0, 1, 2, 3, 4)

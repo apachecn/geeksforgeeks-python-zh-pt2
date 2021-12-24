@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 SELECT column_list
 FROM table_name
 ORDER BY column_name ASC|DESC;
@@ -27,7 +27,7 @@ ORDER BY column_name ASC|DESC;
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -66,7 +66,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object
@@ -94,7 +94,7 @@ conn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import pymysql
 
 # Create a connection object

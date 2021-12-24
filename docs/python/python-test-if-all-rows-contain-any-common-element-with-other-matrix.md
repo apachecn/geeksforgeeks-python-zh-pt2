@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all rows contain any common element with other Matrix
 # Using loop "+" in operator
@@ -53,7 +53,7 @@ print("All row contain common elements with other Matrix : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [[5, 6, 1], [2, 4], [9, 3, 5]]
 The original list 2 is : [[9, 1, 2], [9, 8, 2], [3, 7, 10]]
 All row contain common elements with other Matrix : True
@@ -65,7 +65,7 @@ All row contain common elements with other Matrix : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all rows contain any common element with other Matrix
 # Using loop any() "+" loop
@@ -95,7 +95,7 @@ print("All row contain common elements with other Matrix : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [[5, 6, 1], [2, 4], [9, 3, 5]]
 The original list 2 is : [[9, 1, 2], [9, 8, 2], [3, 7, 10]]
 All row contain common elements with other Matrix : True

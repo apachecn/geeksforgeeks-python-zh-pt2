@@ -8,7 +8,7 @@
 
 您可以使用 pip 安装此库:
 
-```
+```py
 pip install html-table-parser-python3
 ```
 
@@ -16,7 +16,7 @@ pip install html-table-parser-python3
 
 **步骤 1:** 导入任务所需的必要库
 
-```
+```py
 # Library for opening url and creating 
 # requests
 import urllib.request
@@ -35,7 +35,7 @@ import pandas as pd
 
 **第二步:**定义一个获取网站内容的功能
 
-```
+```py
 # Opens a website and read its
 # binary contents (HTTP Response Body)
 def url_get_contents(url):
@@ -57,7 +57,7 @@ def url_get_contents(url):
 
 **步骤 3 :** 解析表格
 
-```
+```py
 # defining the html contents of a URL.
 xhtml = url_get_contents('Link').decode('utf-8')
 
@@ -79,7 +79,7 @@ pprint(p.tables[1])
 
 ## 蟒蛇 3
 
-```
+```py
 # Library for opening url and creating
 # requests
 import urllib.request

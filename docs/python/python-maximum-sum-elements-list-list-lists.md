@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  [[1, 2, 3], [4, 5, 6], [10, 11, 12], [7, 8, 9]]
 Output : 33 
 Explanation: sum of all lists in the given list of lists are:
@@ -22,7 +22,7 @@ Output : 12
 
 我们可以遍历列表中的列表，并对给定列表中的所有元素求和，通过 **max 函数**得到列表中所有元素的最大和。
 
-```
+```py
 # Python program to find the 
 # list in a list of lists whose 
 # sum of elements is the highest
@@ -48,7 +48,7 @@ print maximumSum(list1)
 
 **输出:**
 
-```
+```py
 33
 
 ```
@@ -57,7 +57,7 @@ print maximumSum(list1)
 
 只在外部列表中遍历，使用 [sum()](https://www.geeksforgeeks.org/sum-function-python/) 函数对内部列表中的所有元素求和，求所有列表的和，得到所有计算的和的最大值。
 
-```
+```py
 # Python program to find the 
 # list in a list of lists whose 
 # sum of elements is the highest
@@ -78,20 +78,20 @@ print maximumSum(list1)
 
 **输出:**
 
-```
+```py
 33
 
 ```
 
 **方法三:求和最大函数**
 
-```
+```py
 sum(max(list1, key=sum))
 ```
 
 max()函数的上述语法允许我们使用**键=sum** 在列表中找到列表的和。 **max(list1，key=sum)** ，这将找到元素总和最大的列表，然后 **sum(max(list1，key = sum)】**将该列表的总和返回给我们。
 
-```
+```py
 # Python program to find the 
 # list in a list of lists whose 
 # sum of elements is the highest
@@ -107,7 +107,7 @@ print maximumSum(list1)
 
 **输出:**
 
-```
+```py
 33
 
 ```

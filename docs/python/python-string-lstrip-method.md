@@ -20,7 +20,7 @@ Python String **lstrip()** 方法返回去掉前导字符的字符串副本(基�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of  
 # lstrip() method using default parameter
 
@@ -33,7 +33,7 @@ print(string.lstrip())
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```
 
@@ -41,7 +41,7 @@ geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of  
 # lstrip() method using optional parameters
 
@@ -54,7 +54,7 @@ print(string.lstrip("+.!*xyz"))
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 ```
 
@@ -62,7 +62,7 @@ geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # string which is to be stripped 
 string = "geeks for geeks"
 
@@ -73,7 +73,7 @@ print(string.lstrip('ge'))
 
 **输出:**
 
-```
+```py
 ks for geeks
 ```
 
@@ -83,7 +83,7 @@ ks for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of 
 # strip() method error 
 
@@ -96,7 +96,7 @@ print(list.lstrip())
 
 **输出:**
 
-```
+```py
 print(list.lstrip()) 
 AttributeError: 'list' object has no attribute 'lstrip'
 ```

@@ -12,7 +12,7 @@ Python Tinter–消息框小部件用于显示 python 应用程序中的消息�
 
 **语法:**
 
-```
+```py
 messagebox.Function_Name(title, message [, options]) 
 ```
 
@@ -39,7 +39,7 @@ messagebox.Function_Name(title, message [, options])
 
 **示例:**
 
-```
+```py
 from tkinter import * 
 from tkinter import messagebox
 

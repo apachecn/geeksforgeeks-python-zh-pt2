@@ -6,7 +6,7 @@
 让我们讨论几个方法来反转字典的映射。
 **方法 1:** 使用字典理解。
 
-```
+```py
 # Python code to demonstrate
 # how to invert mapping 
 # using dict comprehension
@@ -26,7 +26,7 @@ print("inverse mapped dictionary : ", str(inv_dict))
 
 **Output:**
 
-```
+```py
 initial dictionary :  {201: 'ball', 101: 'akshat'}
 inverse mapped dictionary :  {'ball': 201, 'akshat': 101}
 
@@ -34,7 +34,7 @@ inverse mapped dictionary :  {'ball': 201, 'akshat': 101}
 
 **方法 2:** 使用`dict.keys()`和`dict.values()`
 
-```
+```py
 # Python code to demonstrate
 # how to invert mapping 
 # using zip and dict functions
@@ -54,7 +54,7 @@ print("inverse mapped dictionary : ", str(inv_dict))
 
 **Output:**
 
-```
+```py
 initial dictionary :  {201: 'ball', 101: 'akshat'}
 inverse mapped dictionary :  {'ball': 201, 'akshat': 101}
 
@@ -62,7 +62,7 @@ inverse mapped dictionary :  {'ball': 201, 'akshat': 101}
 
 **方法 3:** 使用 `map()`并反转
 
-```
+```py
 # Python code to demonstrate
 # how to invert mapping 
 # using map and reversed
@@ -82,7 +82,7 @@ print("inverse mapped dictionary : ", str(inv_dict))
 
 **Output:**
 
-```
+```py
 initial dictionary :  {201: 'ball', 101: 'akshat'}
 inverse mapped dictionary :  {'akshat': 101, 'ball': 201}
 
@@ -90,7 +90,7 @@ inverse mapped dictionary :  {'akshat': 101, 'ball': 201}
 
 **方法#4:** 使用λ
 
-```
+```py
 # Python code to demonstrate
 # how to invert mapping 
 # using lambda
@@ -110,7 +110,7 @@ print("inverse mapped dictionary : ", str(ini_dict))
 
 **Output:**
 
-```
+```py
 initial dictionary :  {201: 'ball', 101: 'akshat'}
 inverse mapped dictionary :  {201: 'ball', 101: 'akshat'}
 

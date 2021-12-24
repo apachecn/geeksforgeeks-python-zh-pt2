@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 Input : getrandbits(4)
 Output : 14
 (the binary equivalent of 14 is 1110 which has 4 bits)
@@ -24,7 +24,7 @@ which has 16 bits)
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -37,14 +37,14 @@ print(random.getrandbits(16))
 
 **输出:**
 
-```
+```py
 10
 49195
 ```
 
 **例 2:**
 
-```
+```py
 # import the random module
 import random
 
@@ -55,7 +55,7 @@ for i in range(4):
 
 **输出:**
 
-```
+```py
 10
 0
 1

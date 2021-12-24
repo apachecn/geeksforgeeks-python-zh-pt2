@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to sort according to other list
 # using list comprehension
@@ -36,7 +36,7 @@ print ("The sorted list is : " + str(res))
 
 **Output:** 
 
-```
+```py
 The original list is : [('a', 1), ('b', 2), ('c', 3), ('d', 4)]
 The sort order list is : ['d', 'c', 'a', 'b']
 The sorted list is : [('d', 4), ('c', 3), ('a', 1), ('b', 2)]
@@ -47,7 +47,7 @@ The sorted list is : [('d', 4), ('c', 3), ('a', 1), ('b', 2)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to sort according to other list
 # using sort() + lambda + index()
@@ -75,7 +75,7 @@ print ("The sorted list is : " + str(test_list))
 
 **Output:** 
 
-```
+```py
 The original list is : [('a', 1), ('b', 2), ('c', 3), ('d', 4)]
 The sort order list is : ['d', 'c', 'a', 'b']
 The sorted list is : [('d', 4), ('c', 3), ('a', 1), ('b', 2)]

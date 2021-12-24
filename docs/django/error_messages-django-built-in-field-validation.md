@@ -6,7 +6,7 @@ Django 模型中的内置字段验证是预定义给所有 Django 字段的验�
 例如，您可以将“此字段为必填项”消息改写为您自己的消息。它允许您覆盖该字段将引发的默认消息。传入一个字典，其关键字与您想要覆盖的错误消息相匹配。错误信息键包括**空**、**空**、**无效**、**无效 _ 选择**、**唯一**、**唯一 _for_date** 。
 **语法–**
 
-```
+```py
 field_name = models.Field(error_messages = {"key": "message"})
 ```
 
@@ -23,7 +23,7 @@ field_name = models.Field(error_messages = {"key": "message"})
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -43,7 +43,7 @@ class GeeksModel(Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wand.image.adaptive_sharpen(radius, sigma, channel)
 > 
 > ```
@@ -24,7 +24,7 @@
 
 **Example 1:**
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -42,7 +42,7 @@ with Image(filename ="koala.jpeg") as img:
 **例 2:**
 半径和σ的增加值
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 

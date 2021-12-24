@@ -7,7 +7,7 @@
 **方法#1:使用`index()`和列表切片**
 列表切片可用于从本地列表中获取子列表，索引函数可用于检查可能充当分隔符的空字符串。这样做的缺点是，它只适用于单个拆分，即只能将一个列表分成两个子列表。
 
-```
+```py
 # Python3 code to demonstrate
 # divide list to siblist on deliminator
 # using index() + list slicing 

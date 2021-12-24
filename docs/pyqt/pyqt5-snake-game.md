@@ -19,7 +19,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtCore import * 
 from PyQt5.QtWidgets import * 

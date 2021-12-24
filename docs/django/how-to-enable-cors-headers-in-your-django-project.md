@@ -8,7 +8,7 @@
 
 1.使用画中画安装 django-CORS-header:
 
-```
+```py
 pip install django-cors-headers 
 ```
 
@@ -16,7 +16,7 @@ pip install django-cors-headers
 
 2.在 settings.py 文件的“已安装的应用程序”部分添加 corsheaders:
 
-```
+```py
 INSTALLED_APPS = [
 
    ...
@@ -32,7 +32,7 @@ INSTALLED_APPS = [
 
 3.在 settings.py 文件的中间件部分添加 corsheaders . middleware . corsmidleware:
 
-```
+```py
 MIDDLEWARE = [
   'django.middleware.security.SecurityMiddleware',
   ...
@@ -45,7 +45,7 @@ MIDDLEWARE = [
 
 4.如果要允许所有域的访问，请在设置文件中将以下变量设置为真:
 
-```
+```py
 CORS_ORIGIN_ALLOW_ALL = True
 ```
 
@@ -53,7 +53,7 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 或者，您可以通过在 settings.py 文件中执行以下操作来指定要授予访问权限的域:
 
-```
+```py
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:8000',

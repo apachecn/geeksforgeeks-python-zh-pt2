@@ -22,7 +22,7 @@
 
 我们的设置非常简单。只需创建一个文件夹，并安装美丽的汤&请求。要创建文件夹并安装库，请键入以下命令。我假设您已经安装了 Python 3.x
 
-```
+```py
 mkdir scraper
 pip install beautifulsoup4
 pip install requests
@@ -32,7 +32,7 @@ pip install requests
 
 首先，你要注册这个[刮网工具](https://www.scrapingdog.com/)。它将为您提供 1000 个免费学分。然后只需在您的文件中导入美丽的汤&请求。像这样。
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 ```
@@ -45,7 +45,7 @@ import requests
 
 现在这一页上有 16 本书。我们将从 Scrapingdog API 中提取 HTML，然后我们将使用 Beautifulsoup 生成 JSON 响应。现在在一条线上，我们就能刮到亚马逊。对于请求应用编程接口，我将使用请求。
 
-```
+```py
 r = requests.get("https://api.scrapingdog.com/scrape?api_key=<your-api-key>&url=https://www.amazon.com/s?k=python+books&ref=nb_sb_noss_2&dynamic=true").text
 ```
 
@@ -53,7 +53,7 @@ r = requests.get("https://api.scrapingdog.com/scrape?api_key=<your-api-key>&url=
 
 现在，你必须使用漂亮的输出来解析 HTML。
 
-```
+```py
 soup = BeautifulSoup(r, ’html.parser’)
 ```
 
@@ -63,13 +63,13 @@ soup = BeautifulSoup(r, ’html.parser’)
 
 首先，我们将使用变量汤找出所有这些标签。
 
-```
+```py
 allbooks = soup.find_all(“h2”, {“class”:”a-size-mini a-spacing-none a-color-base s-line-clamp-2"})
 ```
 
 然后，我们将开始一个循环，使用变量“allbooks”的长度到达该页上每本书的所有标题。
 
-```
+```py
 l ={}
 u = list()
 for i in range(0, len(allbooks)):
@@ -83,7 +83,7 @@ print({"Titles":u})
 
 **输出-**
 
-```
+```py
 {
  “Titles”: [
  {

@@ -6,7 +6,7 @@
 
 导航至`brand/views.py`并将以下代码添加至`brand/views.py`
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse
 
@@ -32,7 +32,7 @@ def homepage(request):
 
 在我们的主页功能中，我们使用了没有第三个参数的渲染功能。在运行服务器之前，通过添加以下代码行，确保您已经在`geeks_site/settings.py`中配置了 url。
 
-```
+```py
 from brand.views import ViewDemo, homepage
 urlpatterns = [
     path('', homepage),
@@ -48,7 +48,7 @@ urlpatterns = [
 
 #### 模板/主页. html–
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -6,7 +6,7 @@
 
 **方法#1:使用天真法**【低效】
 
-```
+```py
 # Python code to demonstrate 
 # to check whether string contains
 # all characters same or not
@@ -32,7 +32,7 @@ for i in ini_list:
 
 **输出:**
 
-```
+```py
 Initial Strings list ['aaaaaaaaaaa', 'aaaaaaabaa']
 String aaaaaaaaaaa don't have all characters same
 String aaaaaaabaa don't have all characters same

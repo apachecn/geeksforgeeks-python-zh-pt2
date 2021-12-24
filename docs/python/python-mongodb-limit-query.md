@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 coll.find().limit(n)
 ```
 
@@ -25,7 +25,7 @@ coll.find().limit(n)
 
 ![python-mongodb-sample-database2](img/b39556ad7651c12cbf7e4f73f7267c4e.png)
 
-```
+```py
 from pymongo import MongoClient
 
 # Create a pymongo client
@@ -56,7 +56,7 @@ for doc1 in doc.find().limit(3):
 
 **例 2:**
 
-```
+```py
 from pymongo import MongoClient
 
 # Create a pymongo client
@@ -83,7 +83,7 @@ for doc1 in doc.find({'Branch': 'CSE'}).limit(1):
 
 **例 3:**
 
-```
+```py
 from pymongo import MongoClient
 
 # Create a pymongo client

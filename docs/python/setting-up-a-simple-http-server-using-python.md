@@ -8,14 +8,14 @@
 
 在终端上运行以下语句:
 
-```
+```py
 python3 -m http.server
 
 ```
 
 或者
 
-```
+```py
 python -m http.server
 
 ```
@@ -40,14 +40,14 @@ localhost 页面
 
 在 Windows 命令提示符下，执行以下语句:
 
-```
+```py
 ipconfig
 
 ```
 
 在 Linux、Unix 或 macOS 终端上，执行以下语句:
 
-```
+```py
 ifconfig
 
 ```

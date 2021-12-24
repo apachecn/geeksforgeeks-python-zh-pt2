@@ -15,7 +15,7 @@ SetToolTip()函数将用作工具提示的字符串作为参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 APP_EXIT = 1

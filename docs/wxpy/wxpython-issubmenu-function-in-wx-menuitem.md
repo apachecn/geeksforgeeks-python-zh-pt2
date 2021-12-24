@@ -7,28 +7,28 @@ IsSubMenu()函数不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.IsSubMenu(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required by IsSubMenu() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > bool
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Item is SubMenu Item.
 
 ```

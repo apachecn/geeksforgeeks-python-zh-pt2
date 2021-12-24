@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `map()`**
 我们可以通过将元素转换为字符串，然后测试字符串的结束元素来解决这个问题，如果它们相等，我们可以返回 true，然后转换为 set 并测试结果的大小是否为 1。转换是通过映射完成的，set 函数将字符串的最后一个元素转换为 set 并列出理解检查。
 
-```
+```py
 # Python3 code to demonstrate
 # Test rear digit match
 # using list comprehension + map()
@@ -28,7 +28,7 @@ print("Does each element end with same digit ? " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [45, 545, 2345, 8765]
 Does each element end with same digit ? True
 

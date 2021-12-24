@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 l= ["ab", "abc", "abd", "b"]
 
 l1="abc"
@@ -41,7 +41,7 @@ print(min(l1))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code explaining min() and max()
 l = ["ab", "abc", "bc", "c"]
 
@@ -51,7 +51,7 @@ print(min(l, key = len))
 
 **Output:** 
 
-```
+```py
 abc
 c
 ```
@@ -65,7 +65,7 @@ c
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code explaining min() and max()
 def fun(element):
     return(len(element))
@@ -79,7 +79,7 @@ print(max(l, key = lambda element:len(element)))
 
 **Output:** 
 
-```
+```py
 abc
 abc
 ```
@@ -88,7 +88,7 @@ abc
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code explaining min() and max()
 l = [{'name':'ramu', 'score':90, 'age':24},
      {'name':'golu', 'score':70, 'age':19}]
@@ -99,7 +99,7 @@ print(max(l, key = lambda item:item.get('age')))
 
 **Output:** 
 
-```
+```py
 {'age': 24, 'score': 90, 'name': 'ramu'}
 ```
 

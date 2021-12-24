@@ -15,7 +15,7 @@ python 中有两种分发类型:
 
 **制作基本的 setup.py 文件。**
 
-```
+```py
 # import setup function from 
 # python distribution utilities
 from distutils.core import setup 
@@ -47,7 +47,7 @@ setup(
 
 让我们创建一个 addition.py 文件，其中包含两个数字相加的代码。在记事本中创建此文件，并将其保存为 addition.py。
 
-```
+```py
 def addition():
     n = 5
     print("addition of two numbers")
@@ -73,7 +73,7 @@ def addition():
 创建源代码分发时，可以使用`--format`选项指定许多格式。
 例如:
 
-```
+```py
 python setup.py sdist --formats=gztar,zip
 
 ```
@@ -102,7 +102,7 @@ python setup.py sdist --formats=gztar,zip
 创建构建的分发时，可以使用`--format`选项指定许多格式。
 例如:
 
-```
+```py
 python setup.py bdist --format=zip
 
 ```

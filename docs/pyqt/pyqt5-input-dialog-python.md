@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from PyQt5 import QtCore, QtGui, QtWidgets
 import sys
 

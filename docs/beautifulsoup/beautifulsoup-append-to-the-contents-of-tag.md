@@ -26,7 +26,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -49,7 +49,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to append to the contents of tag
 
 # Importing library

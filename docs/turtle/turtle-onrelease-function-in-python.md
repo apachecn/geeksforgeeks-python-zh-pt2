@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.onrelease(fun, btn=1, add=None)
 
 ```
@@ -30,7 +30,7 @@ turtle.onrelease(fun, btn=1, add=None)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

@@ -12,7 +12,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from . import views
@@ -31,7 +31,7 @@ urlpatterns = [
 
 ## 计算机编程语言
 
-```
+```py
 from django.shortcuts import render
 from django.views.decorators.http import require_http_methods
 from django.views.decorators.csrf import csrf_exempt
@@ -114,7 +114,7 @@ def searchusers(request):
 
 ## 超文本标记语言
 
-```
+```py
 {% load static %}
 <html lang="en">
    <head>
@@ -152,7 +152,7 @@ def searchusers(request):
 
 ## 超文本标记语言
 
-```
+```py
 {% load static %}
 <html lang="en">
    <head>

@@ -17,14 +17,14 @@
 
 **语法–**
 
-```
+```py
 field_name = serializers.ListField(*args, **kwargs)
 ```
 
 **示例–**
 例如，要验证整数列表，可以使用类似如下的内容:
 
-```
+```py
 scores = serializers.ListField(
    child=serializers.IntegerField(min_value=0, max_value=100)
 )
@@ -37,7 +37,7 @@ scores = serializers.ListField(
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -55,13 +55,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行，–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -84,7 +84,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如列表字段只验证要列出的数据。让我们检查这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data = {}
 >>> data['integers'] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

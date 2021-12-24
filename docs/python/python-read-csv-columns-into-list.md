@@ -21,7 +21,7 @@ CSV 文件以纯文本形式存储表格数据(数字和文本)。文件的每�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 from pandas import *
 
@@ -52,7 +52,7 @@ print('Shampoo:', sh)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 import csv
 

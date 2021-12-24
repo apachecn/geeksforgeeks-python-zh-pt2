@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Arithmetic Operator
 a = 9
 b = 4
@@ -63,7 +63,7 @@ print(p)
 
 **Output**
 
-```
+```py
 13
 5
 36
@@ -95,7 +95,7 @@ print(p)
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Relational Operators
 a = 13
 b = 33
@@ -121,7 +121,7 @@ print(a <= b)
 
 **Output**
 
-```
+```py
 False
 True
 False
@@ -148,7 +148,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Logical Operator
 a = True
 b = False
@@ -165,7 +165,7 @@ print(not a)
 
 **Output**
 
-```
+```py
 False
 True
 False
@@ -190,7 +190,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Bitwise operators
 a = 10
 b = 4
@@ -216,7 +216,7 @@ print(a << 2)
 
 **Output**
 
-```
+```py
 0
 14
 -11
@@ -250,7 +250,7 @@ print(a << 2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Assignment Operators
 a = 10
 
@@ -277,7 +277,7 @@ print(b)
 
 **Output**
 
-```
+```py
 10
 20
 10
@@ -289,7 +289,7 @@ print(b)
 
 **是****不是**是[身份运算符](https://www.geeksforgeeks.org/python-membership-identity-operators-not-not/)两者都用于检查两个值是否位于内存的同一部分。两个相等的变量并不意味着它们是相同的。
 
-```
+```py
 is          True if the operands are identical 
 is not      True if the operands are not identical 
 ```
@@ -298,7 +298,7 @@ is not      True if the operands are not identical
 
 ## 蟒蛇 3
 
-```
+```py
 a = 10
 b = 20
 c = a
@@ -309,7 +309,7 @@ print(a is c)
 
 **Output**
 
-```
+```py
 True
 True
 ```
@@ -318,7 +318,7 @@ True
 
 的**和不在**的**是会员运营商；用于测试值或变量是否在序列中。**
 
-```
+```py
 **in**            True if value is found in the sequence
 **not in**        True if value is not found in the sequence
 ```
@@ -327,7 +327,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # not 'in' operator
 x = 24
@@ -347,7 +347,7 @@ else:
 
 **Output**
 
-```
+```py
 x is NOT present in given list
 y is present in given list
 ```
@@ -364,7 +364,7 @@ y is present in given list
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Operator Precedence
 
 # Precedence of '+' & '*'
@@ -383,7 +383,7 @@ else:
 
 **Output**
 
-```
+```py
 610
 Hello! Welcome.
 ```
@@ -396,7 +396,7 @@ Hello! Welcome.
 
 ## 蟒蛇 3
 
-```
+```py
 # Examples of Operator Associativity
 
 # Left-right associativity
@@ -423,7 +423,7 @@ print(2 ** 3 ** 2)
 
 **Output**
 
-```
+```py
 100.0
 6
 0

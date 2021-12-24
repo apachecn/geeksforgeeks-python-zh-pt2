@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {'gfg': ['gfg', 'is', 'best'],
              'best': ['gfg'],

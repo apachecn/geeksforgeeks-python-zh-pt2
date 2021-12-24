@@ -5,7 +5,7 @@
 给定三个数字 a、b 和 c，任务是我们必须在给定的数字中找到最大的元素
 例子:
 
-```
+```py
 Input : a = 2, b = 4, c = 3
 Output : 4 
 
@@ -16,7 +16,7 @@ Output : 6
 
 **方法 1(简单)**
 
-```
+```py
 # Python program to find the largest
 # number among the three numbers
 
@@ -41,7 +41,7 @@ print(maximum(a, b, c))
 
 输出:
 
-```
+```py
 14
 
 ```
@@ -52,7 +52,7 @@ print(maximum(a, b, c))
 **。**利用 max()函数求最大数 max(lst)。
 **。**最后我们将打印最大数量
 
-```
+```py
 # Python program to find the largest number 
 # among the  three numbers using library function 
 
@@ -69,14 +69,14 @@ print(maximum(a, b, c))
 
 输出:
 
-```
+```py
 14
 
 ```
 
 **方法 3(使用最大功能)**
 
-```
+```py
 # Python program to find the largest number 
 # among the  three numbers using library function 
 
@@ -89,7 +89,7 @@ print(max(a, b, c))
 
 输出:
 
-```
+```py
 14
 
 ```

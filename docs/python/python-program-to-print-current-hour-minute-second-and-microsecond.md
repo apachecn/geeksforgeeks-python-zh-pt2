@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 from datetime import datetime 
 
@@ -50,7 +50,7 @@ print("Current microsecond ", myobj.microsecond)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing datetime module
 from datetime import datetime 
 

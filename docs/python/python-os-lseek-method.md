@@ -6,7 +6,7 @@
 
 `os.lseek()`方法将文件描述符 **fd** 的当前位置设置为给定位置 pos，该位置 pos 由 **how** 修改。
 
-```
+```py
 Syntax: os.lseek(fd, pos, how)
 
 Parameters: 
@@ -62,12 +62,12 @@ print(s)
 
 # Close the file descriptor  
 os.close(fd) 
-```
+```py
 
    **输出:**  
 ```
 
-```
+```py
 b'GeeksforGeeks'
 
 ```
@@ -76,7 +76,7 @@ b'GeeksforGeeks'
 
 使用`os.lseek()`方法来从特定位置
 
-```
+```py
 # Python program to explain os.lseek() method 
 
 # importing os module 
@@ -117,7 +117,7 @@ os.close(fd)
 
 **中寻找文件输出:**
 
-```
+```py
 b'eksforGeeks'
 
 ```

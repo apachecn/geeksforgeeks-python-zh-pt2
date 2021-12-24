@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 from datetime import datetime 
@@ -47,7 +47,7 @@ print("The comment was posted on : " +
 
 **输出:**
 
-```
+```py
 The comment was posted on Unix time : 1592712950.0
 The comment was posted on : 2020-06-21 09:45:50
 
@@ -58,7 +58,7 @@ The comment was posted on : 2020-06-21 09:45:50
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 from datetime import datetime 
@@ -96,7 +96,7 @@ print("The comment was posted on : " +
 
 **输出:**
 
-```
+```py
 The comment was posted on Unix time : 1592513850.0
 The comment was posted on : 2020-06-19 02:27:30
 

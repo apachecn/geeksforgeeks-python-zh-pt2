@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -105,7 +105,7 @@ workbook.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 
@@ -199,7 +199,7 @@ workbook.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import xlsxwriter module
 import xlsxwriter
 

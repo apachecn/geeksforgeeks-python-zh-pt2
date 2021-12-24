@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if Kth character is digit in String
 # Using in operator
@@ -42,7 +42,7 @@ print("Is Kth element String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks
 Is Kth element String : True
 ```
@@ -53,7 +53,7 @@ Is Kth element String : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if Kth character is digit in String
 # Using isdigit()
@@ -76,7 +76,7 @@ print("Is Kth element String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks4geeks
 Is Kth element String : True
 ```

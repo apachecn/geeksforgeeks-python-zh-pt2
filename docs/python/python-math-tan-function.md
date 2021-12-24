@@ -13,7 +13,7 @@
 
 **代码#1:**
 
-```
+```py
 # Python code to demonstrate the working of tan()
 
 # importing "math" for mathematical operations 
@@ -28,7 +28,7 @@ print (math.tan(a)) 
 
 **代码#2:**
 
-```
+```py
 # Python program showing 
 # Graphical representation of 
 # tan() function 

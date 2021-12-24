@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : 2010
 Output :Friday
 
@@ -17,7 +17,7 @@ Output :Tuesday
 
 下面是实现:
 
-```
+```py
 # Python program to find the first day of given year
 
 # import datetime library
@@ -42,7 +42,7 @@ Startingday(year)
 
 **输出:**
 
-```
+```py
 Starting day of year  2010  is  Friday
 
 ```

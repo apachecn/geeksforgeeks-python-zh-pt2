@@ -16,7 +16,7 @@
 
 ### 下面是上述堆栈操作在 Python 中使用双链接列表的实现:
 
-```
+```py
 # A complete working Python program to demonstrate all 
 # stack operations using a doubly linked list 
 
@@ -140,7 +140,7 @@ if __name__=='__main__': 
 
 **Output:**
 
-```
+```py
 Stack operations using Doubly LinkedList
 stack elements are:
 7->6->5->4->

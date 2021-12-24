@@ -6,7 +6,7 @@
 
 Python pickle 模块用于序列化和反序列化 Python 对象结构。Python 中的任何对象都可以被腌制，以便保存在磁盘上。pickle 所做的是在将对象写入文件之前先“序列化”对象。酸洗是一种转换 python 对象(列表、字典等)的方法。)转换成字符流。想法是这个字符流包含在另一个 python 脚本中重建对象所需的所有信息。
 
-```
+```py
 # Python3 program to illustrate store 
 # efficiently using pickle module 
 # Module translates an in-memory Python object 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 omkarpathak-Inspiron-3542:~/Documents/Python-Programs{content}#xA0;python P60_PickleModule.py
 Omkar => {'age': 21,  'name': 'Omkar Pathak',  'key': 'Omkar',  'pay': 40000}
 Jagdish => {'age': 50,  'name': 'Jagdish Pathak',  'key': 'Jagdish',  'pay': 50000}
@@ -58,7 +58,7 @@ Jagdish => {'age': 50,  'name': 'Jagdish Pathak',  'key': 'Jagdish',  '
 
 **腌制无档**
 
-```
+```py
 # initializing data to be stored in db
 Omkar = {'key' : 'Omkar', 'name' : 'Omkar Pathak', 
 'age' : 21, 'pay' : 40000}

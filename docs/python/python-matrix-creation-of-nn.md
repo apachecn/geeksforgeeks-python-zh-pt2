@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 通过对需要连续构建的每个列表使用范围函数，可以使用列表理解来完成这个特定的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # matrix creation of n * n
 # using list comprehension
@@ -29,7 +29,7 @@ print("The created matrix of N * N: " + str(res))
 
 **Output :**
 
-```
+```py
 The dimension : 4
 The created matrix of N*N: [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
 

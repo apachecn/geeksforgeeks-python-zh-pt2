@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 import sys
 from PyQt5.QtWidgets import * 
 

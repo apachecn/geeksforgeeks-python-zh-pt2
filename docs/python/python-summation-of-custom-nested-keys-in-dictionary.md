@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Summation of Custom nested keys in Dictionary
 # Using loop
@@ -56,7 +56,7 @@ print("The required summation : " + str(sum)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Summation of Custom nested keys in Dictionary
 # Using list comprehension + sum()

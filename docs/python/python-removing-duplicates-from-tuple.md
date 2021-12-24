@@ -7,7 +7,7 @@
 **方法一:使用`set() + tuple()`**
 这是去除重复项最直接的方法。在这种情况下，我们将元组转换为集合，移除重复项，然后使用`tuple()`将其再次转换回来。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing duplicates from tuple 
 # using tuple() + set()
@@ -28,7 +28,7 @@ print("The tuple after removing duplicates : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple is : (1, 3, 5, 2, 3, 5, 1, 1, 3)
 The tuple after removing duplicates : (1, 2, 3, 5)
 

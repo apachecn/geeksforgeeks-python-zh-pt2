@@ -22,7 +22,7 @@ OptionMenu 基本上是一个下拉菜单或弹出菜单，通过点击或键盘
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the tkinter module
 import tkinter
 

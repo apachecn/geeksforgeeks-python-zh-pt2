@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: 5
 Output: 111110
 result has 5 ones followed by a 0 
@@ -27,7 +27,7 @@ result has 1 one followed by a 0
 
 ## 蟒蛇 3
 
-```
+```py
 # Unary code encoding
 N = 8
 A = []
@@ -47,7 +47,7 @@ print("Unary code for", N,
 
 **输出:**
 
-```
+```py
 Unary code for 8 is 111111110
 ```
 
@@ -55,7 +55,7 @@ Unary code for 8 is 111111110
 
 ## 蟒蛇 3
 
-```
+```py
 # Unary code decoding
 
 code =  "111111110"
@@ -70,6 +70,6 @@ print("decoded number is :", count)
 
 **输出:**
 
-```
+```py
 decoded number is : 8
 ```

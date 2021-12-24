@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split Strings ignoring Space characters
 # Using re.split()
@@ -39,7 +39,7 @@ print("The split string : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 
 is        best
@@ -53,7 +53,7 @@ The split string : ['geeksforgeeks', 'is', 'best', 'for', 'geeks']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Split Strings ignoring Space characters
 # Using split()
@@ -70,7 +70,7 @@ print("The split string : " + str(test_str.split()))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks
 
 is        best

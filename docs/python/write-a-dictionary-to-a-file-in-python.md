@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import json
 
 details = {'Name': "Bob",
@@ -44,7 +44,7 @@ with open('convert.txt', 'w') as convert_file:
 
 ## 蟒蛇 3
 
-```
+```py
 details={'Name' : "Alice",
          'Age' : 21,
          'Degree' : "Bachelor Cse",

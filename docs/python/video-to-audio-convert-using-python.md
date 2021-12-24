@@ -12,7 +12,7 @@ MoviePy 可以读写所有最常见的音频和视频格式，包括 GIF，并�
 
 要安装**电影编辑器**库，打开终端并编写:
 
-```
+```py
 pip install moviepy
 
 ```
@@ -28,7 +28,7 @@ pip install moviepy
 *   以管理权限打开 cmd
 *   运行以下命令来设置环境变量。
 
-    ```
+    ```py
     setx /M PATH "path\to\ffmpeg\bin;%PATH%"
     ```
 
@@ -36,7 +36,7 @@ pip install moviepy
 
 在终端中写下以下命令。
 
-```
+```py
 sudo add-apt-repository ppa:mc3man/trusty-media  
 sudo apt-get update  
 sudo apt-get install ffmpeg  
@@ -45,7 +45,7 @@ sudo apt-get install frei0r-plugins
 
 **实施**
 
-```
+```py
 # Python code to convert video to audio
 import moviepy.editor as mp
 

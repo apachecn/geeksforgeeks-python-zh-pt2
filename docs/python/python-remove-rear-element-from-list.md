@@ -7,7 +7,7 @@
 **方法#1:使用`pop(-1)`**
 此方法弹出，即从列表中移除并打印第 I 个元素。此方法主要用于执行此任务的其他可用选项中。这将更改原始列表。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Remove rear element
 # using pop(-1)
@@ -28,7 +28,7 @@ print ("Modified list is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 Original list is : [1, 4, 3, 6, 7]
 Modified list is : [1, 4, 3, 6]
 

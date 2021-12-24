@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 tag.children 
 
 ```
@@ -16,7 +16,7 @@ tag.children
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -36,7 +36,7 @@ for child in tag.children:
 
 **输出:**
 
-```
+```py
 <b> Hello world </b>
 <body></body>
 
@@ -46,7 +46,7 @@ for child in tag.children:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import Beautiful Soup
 from bs4 import BeautifulSoup
 
@@ -66,7 +66,7 @@ for child in tag.children:
 
 **输出:**
 
-```
+```py
 <class 'bs4.element.Tag'>
 <class 'bs4.element.Tag'>
 

@@ -15,7 +15,7 @@
 
 **代码:**使用`***os.WEXITSTATUS()***`方法
 
-```
+```py
 # Python program to explain os.WEXITSTATUS() method 
 
 # importing os module  
@@ -102,7 +102,7 @@ else :
 
 **Output:**
 
-```
+```py
 In first child process
 Process ID: 11614
 Hello! Geeks

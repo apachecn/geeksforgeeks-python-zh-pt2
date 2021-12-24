@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 # An integer assignment
@@ -38,7 +38,7 @@ print(name)
 
 **输出:**
 
-```
+```py
 45
 1456.8
 John
@@ -51,7 +51,7 @@ John
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring the var
 Number = 100
 
@@ -61,7 +61,7 @@ print( Number)
 
 **输出:**
 
-```
+```py
 100
 
 ```
@@ -72,7 +72,7 @@ print( Number)
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring the var
 Number = 100
 
@@ -87,7 +87,7 @@ print("After re-declare:", Number)
 
 **输出:**
 
-```
+```py
 Before declare:  100
 After re-declare: 120.3
 
@@ -100,7 +100,7 @@ After re-declare: 120.3
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 a = b = c = 10
@@ -112,7 +112,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 10
 10
 10
@@ -124,7 +124,7 @@ Python 允许用“，”运算符在一行中添加不同的值。
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 a, b, c = 1, 20.2, "GeeksforGeeks"
@@ -136,7 +136,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 1
 20.2
 GeeksforGeeks
@@ -148,7 +148,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 a = 10
@@ -159,7 +159,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 GeeksforGeeks
 ```
 
@@ -167,7 +167,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 a = 10
@@ -181,7 +181,7 @@ print(a+b)
 
 **Output**
 
-```
+```py
 30
 GeeksforGeeks
 
@@ -193,7 +193,7 @@ GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr / bin / python
 
 a = 10
@@ -203,7 +203,7 @@ print(a+b)
 
 **输出:**
 
-```
+```py
 TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ```
@@ -214,7 +214,7 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ## 蟒蛇 3
 
-```
+```py
 # This function uses global variable s
 def f():
     s = "Welcome geeks"
@@ -225,7 +225,7 @@ f()
 
 **输出:**
 
-```
+```py
 Welcome geeks
 
 ```
@@ -234,7 +234,7 @@ Welcome geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # This function has a variable with
 # name same as s.
 def f():
@@ -247,7 +247,7 @@ f()
 
 **输出:**
 
-```
+```py
 I love Geeksforgeeks
 
 ```
@@ -267,7 +267,7 @@ Global 关键字是允许用户修改当前范围之外的变量的关键字。�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to modify a global
 # value inside a function
 
@@ -288,7 +288,7 @@ print("Value of x outside a function :", x)
 
 **输出:**
 
-```
+```py
 Value of x inside a function : 20
 Value of x outside a function : 20
 
@@ -310,7 +310,7 @@ Value of x outside a function : 20
 
 ## 蟒蛇 3
 
-```
+```py
 # numberic
 var = 123
 print("Numbric data : ", var)
@@ -339,7 +339,7 @@ print(Dict)
 
 **输出:**
 
-```
+```py
 Numbric data :  123
 String with the use of Single Quotes: 
 Welcome to the Geeks World
@@ -360,7 +360,7 @@ Dictionary with the use of Integer Keys:
 
 ## 蟒蛇 3
 
-```
+```py
 x = 5
 y = x
 ```
@@ -370,7 +370,7 @@ y = x
 
 ## 蟒蛇 3
 
-```
+```py
 x = 'Geeks'
 ```
 
@@ -382,7 +382,7 @@ x = 'Geeks'
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show that the variables with a value 
 # assigned in class declaration, are class variables and
 # variables inside methods and constructors are instance
@@ -415,7 +415,7 @@ print(CSStudent.stream) # prints "cse"    
 
 **Output**
 
-```
+```py
 cse
 cse
 101

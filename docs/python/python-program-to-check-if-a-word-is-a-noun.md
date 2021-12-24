@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: India
 Output: India is noun.
 
@@ -20,7 +20,7 @@ Output: Writing is not a noun.
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import nltk
 nltk.download('averaged_perceptron_tagger')
@@ -41,7 +41,7 @@ else:
 
 **输出:**
 
-```
+```py
 India is a noun.
 ```
 
@@ -49,7 +49,7 @@ India is a noun.
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import spacy
 nlp = spacy.load("en_core_web_sm")
@@ -69,6 +69,6 @@ else:
 
 **输出:**
 
-```
+```py
 Writing is not a noun.
 ```

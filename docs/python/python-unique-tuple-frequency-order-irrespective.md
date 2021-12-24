@@ -15,7 +15,7 @@
 **方法#1:使用`tuple() + generator expression + sorted() + len()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sorted()执行排序任务，以消除顺序限制。len()用于计算大小。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Tuple Frequency [ Order Irrespective ]
 # Using tuple() + list comprehension + sorted() + len()
@@ -36,7 +36,7 @@ print("Unique tuples Frequency : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (1, 2), (4, 3), (5, 6)]
 Unique tuples Frequency : 3
 
@@ -45,7 +45,7 @@ Unique tuples Frequency : 3
 **方法 2:使用`map() + sorted() + tuple() + set() + len()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 map()执行扩展排序逻辑和元组转换的任务，set()用于消除重复，len()用于查找容器的长度。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unique Tuple Frequency [ Order Irrespective ]
 # Using map() + sorted() + tuple() + set() + len()
@@ -67,7 +67,7 @@ print("Unique tuples Frequency : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(3, 4), (1, 2), (4, 3), (5, 6)]
 Unique tuples Frequency : 3
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list = [1, 2, 3, 4, 5, 6, 7], k = 3, n =10
 Output: 
 [1, 2, 3]
@@ -34,7 +34,7 @@ Output:
 
 **示例#1:**
 
-```
+```py
 # Python code to print element in group
 # of 5 till 9 iteration in circular range.
 
@@ -57,7 +57,7 @@ for index, *ans in zip(range(n), *[cycle(List)] * k):
 
 **Output:**
 
-```
+```py
 [90, 99, 192, 0, 43]
 [55, 90, 99, 192, 0]
 [43, 55, 90, 99, 192]
@@ -72,7 +72,7 @@ for index, *ans in zip(range(n), *[cycle(List)] * k):
 
 **例 2:**
 
-```
+```py
 # Python code to print element in group
 # of 6 till 4 iteration in circular range.
 
@@ -95,7 +95,7 @@ for index, *ans in zip(range(n), *[cycle(List)] * k):
 
 **Output:**
 
-```
+```py
 ['Geeks', 'for', 'geeks', 'is', 'portal', 'Geeks']
 ['for', 'geeks', 'is', 'portal', 'Geeks', 'for']
 ['geeks', 'is', 'portal', 'Geeks', 'for', 'geeks']

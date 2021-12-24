@@ -16,20 +16,20 @@ Rasa 是一个 python 模块，用于创建定制的 AI 聊天机器人。您可
 
 要安装 rasa 模块，请在终端中键入以下命令(需要 Python 3.6、3.7 或 3.8)。
 
-```
+```py
 pip3 install -U pip
 pip3 install rasa
 ```
 
 要使用示例训练数据创建新项目，请在终端中键入以下命令。
 
-```
+```py
 rasa init
 ```
 
 现在你的 rasa 聊天机器人准备好了。您可以使用下面的命令与聊天机器人交谈。
 
-```
+```py
 rasa shell
 ```
 
@@ -43,7 +43,7 @@ rasa shell
 
 这里我们需要两个新的名字和电子邮件 id 的意图。在 nlu.yml 文件中添加以下行。
 
-```
+```py
 - intent: email_id
   examples: |
     - [abc@gmail.com](email)
@@ -71,7 +71,7 @@ rasa shell
 
 为此，在 domain.yml 文件的响应部分添加以下几行。
 
-```
+```py
 utter_askname:
 - text: Please enter your name.
 
@@ -85,7 +85,7 @@ utter_askemail:
 
 现在我们必须在 stories.yml 文件中添加一些相关的故事，所以删除该文件中的所有故事，并添加下面的行(您可以根据需要添加更多的故事)。
 
-```
+```py
 - story: GeekforGeek story 
   steps:
   - intent: greet
@@ -104,7 +104,7 @@ utter_askemail:
 
 这里“action_email”不存在，所以我们必须创建此操作来发送电子邮件，但在此之前，请转到 endpoints.yml 文件并取消对以下行的注释。
 
-```
+```py
 action_endpoint:
   url: "http://localhost:5055/webhook"
 ```
@@ -117,7 +117,7 @@ action_endpoint:
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing required modules
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker
@@ -183,7 +183,7 @@ class ActionEmail(Action):
 
 **之后，在 domain.yml 文件中添加以下行:**
 
-```
+```py
 actions:
 - action_email
 ```
@@ -192,7 +192,7 @@ actions:
 
 **现在一切都准备好了，我们只需要训练我们的聊天机器人。对于这种类型，终端中有以下命令:**
 
-```
+```py
 rasa train
 ```
 
@@ -200,7 +200,7 @@ rasa train
 
 **训练完成后，您可以通过在终端中键入以下命令与聊天机器人交谈。运行动作服务器:**
 
-```
+```py
 rasa run actions
 ```
 
@@ -208,7 +208,7 @@ rasa run actions
 
 **运行训练好的模型:**
 
-```
+```py
 rasa shell
 ```
 

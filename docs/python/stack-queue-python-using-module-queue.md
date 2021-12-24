@@ -8,7 +8,7 @@
 
 **1。创建先进先出队列**
 
-```
+```py
 // Initialize queue
 Syntax: queue.Queue(maxsize)
 
@@ -22,7 +22,7 @@ Syntax: Queue.get()
 
 将变量初始化为最大大小 maxsize。最大大小为零“0”意味着无限队列。该队列遵循先进先出规则。这个模块还有一个后进先出队列，基本上是一个堆栈。使用 put()和 end 将数据插入队列。get()从队列的前面取出数据。请注意，put()和 get()都需要另外两个参数，可选标志、阻塞和超时。
 
-```
+```py
 import queue
 
 # From class queue, Queue is
@@ -50,7 +50,7 @@ print(L.get())
 
 输出:
 
-```
+```py
 5
 9
 1
@@ -61,7 +61,7 @@ print(L.get())
 **2。下溢和上溢**
 当我们试图将数据添加到 maxsize 以上的队列中时，它被称为上溢(Queue Full)，当我们试图从空队列中移除一个元素时，它被称为下溢。put()和 get()在上溢和下溢时不会产生错误，而是进入无限循环。
 
-```
+```py
 import queue
 
 L = queue.Queue(maxsize=6)
@@ -105,7 +105,7 @@ print("Full: ", L.full())
 
 输出:
 
-```
+```py
 0
 Full:  False
 Full:  True
@@ -124,7 +124,7 @@ Full:  False
 **3。堆栈**
 这个模块队列还提供了后进先出队列，从技术上来说，这是一个堆栈。
 
-```
+```py
 import queue
 
 L = queue.LifoQueue(maxsize=6)
@@ -157,7 +157,7 @@ print("Empty: ", L.empty())
 
 输出:
 
-```
+```py
 0
 Full:  True
 Size: 6

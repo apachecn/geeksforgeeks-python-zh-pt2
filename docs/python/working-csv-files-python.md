@@ -10,7 +10,7 @@
 
 **读取 CSV 文件**
 
-```
+```py
 # importing csv module
 import csv
 
@@ -57,27 +57,27 @@ for row in rows[:5]:
 
 让我们试着理解这段代码。
 
-*   ```
+*   ```py
     with open(filename, 'r') as csvfile:
         csvreader = csv.reader(csvfile)
     ```
 
     这里，我们首先在 READ 模式下打开 CSV 文件。文件对象命名为 **csvfile** 。文件对象被转换为 csv.reader 对象。我们将 csv.reader 对象保存为 **csvreader** 。
 
-*   ```
+*   ```py
     fields = csvreader.next()
     ```
 
     **csvreader** 是可迭代对象。因此。next()方法返回当前行，并将迭代器前进到下一行。由于 csv 文件的第一行包含标题(或字段名)，我们将它们保存在名为**字段**的列表中。
 
-*   ```
+*   ```py
     for row in csvreader:
             rows.append(row)
     ```
 
     现在，我们使用 for 循环遍历剩余的行。每一行都被附加到一个名为**行**的列表中。如果您尝试打印每一行，您会发现该行只是一个包含所有字段值的列表。
 
-*   ```
+*   ```py
     print("Total no. of rows: %d"%(csvreader.line_num))
     ```
 
@@ -85,7 +85,7 @@ for row in rows[:5]:
 
 **写入 CSV 文件**
 
-```
+```py
 # importing the csv module
 import csv
 
@@ -118,20 +118,20 @@ with open(filename, 'w') as csvfile:
 让我们试着理解上面的代码。
 
 *   **字段**和**行**已经定义。字段是包含所有字段名称的列表。**行**是列表的列表。每一行都是包含该行字段值的列表。
-*   ```
+*   ```py
     with open(filename, 'w') as csvfile:
         csvwriter = csv.writer(csvfile)
     ```
 
     在这里，我们首先以 WRITE 模式打开 CSV 文件。文件对象命名为 **csvfile** 。文件对象被转换为 csv.writer 对象。我们将 csv.writer 对象保存为 **csvwriter** 。
 
-*   ```
+*   ```py
     csvwriter.writerow(fields)
     ```
 
     现在我们使用 **writerow** 方法来写第一行，它只不过是字段名。
 
-*   ```
+*   ```py
      csvwriter.writerows(rows)
     ```
 
@@ -139,7 +139,7 @@ with open(filename, 'w') as csvfile:
 
 **给 CSV 文件写字典**
 
-```
+```py
 # importing the csv module
 import csv
 
@@ -171,7 +171,7 @@ with open(filename, 'w') as csvfile:
 
 在这个例子中，我们编写了一个字典 **mydict** 到一个 CSV 文件。
 
-*   ```
+*   ```py
     with open(filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = fields)
     ```
@@ -179,13 +179,13 @@ with open(filename, 'w') as csvfile:
     这里，文件对象( **csvfile** )被转换为 DictWriter 对象。
     这里，我们指定**字段名**作为参数。
 
-*   ```
+*   ```py
      writer.writeheader()
     ```
 
     writeheader 方法只需使用预先指定的字段名写入 csv 文件的第一行。
 
-*   ```
+*   ```py
     writer.writerows(mydict)
     ```
 
@@ -200,7 +200,7 @@ with open(filename, 'w') as csvfile:
 *   在 csv 模块中，可以给出一个可选的*方言*参数，用于定义一组特定于特定 *CSV 格式*的参数。默认情况下，csv 模块使用 *excel* 方言，这使得它们与 excel 电子表格兼容。可以使用**语域 _ 方言**方法定义自己的方言。
     这里举个例子: 
 
-```
+```py
  csv.register_dialect(
     'mydialect',
     delimiter = ',',
@@ -214,7 +214,7 @@ with open(filename, 'w') as csvfile:
 现在，在定义 csv.reader 或 csv.writer 对象时，我们可以指定像
 这样的方言:
 
-```
+```py
 csvreader = csv.reader(csvfile, dialect='mydialect')
 ```
 
@@ -223,7 +223,7 @@ csvreader = csv.reader(csvfile, dialect='mydialect')
 
     我们注意到分隔符不是逗号，而是分号。此外，行由两行而不是一行隔开。在这种情况下，我们可以如下指定分隔符和行结束符:
 
-    ```
+    ```py
     csvreader = csv.reader(csvfile, delimiter = ';', lineterminator = '\n\n')
     ```
 

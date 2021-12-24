@@ -22,7 +22,7 @@ turtle.clearstamps()方法用于删除 turtle 的所有或第一个/最后 n 个
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle 
 
@@ -54,7 +54,7 @@ turtle.clearstamps()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle 
 

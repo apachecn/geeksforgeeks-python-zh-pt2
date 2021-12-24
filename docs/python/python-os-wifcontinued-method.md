@@ -15,7 +15,7 @@
 
 **代码:**使用`***os.WIFCONTINUED()***`方法
 
-```
+```py
 # Python program to explain os.WIFCONTINUED() method 
 
 # importing os and signal module  
@@ -73,7 +73,7 @@ else :
 
 **Output:**
 
-```
+```py
 In Child process
 Process ID: 12371
 Hello! Geeks

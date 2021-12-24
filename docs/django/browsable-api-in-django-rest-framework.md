@@ -63,7 +63,7 @@ Django REST 框架中的可浏览 API 特性为不同的资源生成 HTML 输出
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class RobotCategory(models.Model):
@@ -122,7 +122,7 @@ class Robot(models.Model):
 
 机器人类与机器人类别模型和制造商模型有多对一的关系。这种关系是通过使用 django.db.models.ForeignKey 类实现的。代码如下:
 
-```
+```py
     robot_category = models.ForeignKey(
         RobotCategory,
         related_name='robots',
@@ -147,7 +147,7 @@ related_name 参数创建一个反向关系。在这里，related_name 中的值
 
 ## 蟒蛇 3
 
-```
+```py
 from rest_framework import serializers
 from robots.models import RobotCategory, Manufacturer, Robot
 
@@ -197,7 +197,7 @@ RobotSerializer 类也是 HyperlinkedModelSerializer 类的子类。RobotSeriali
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 from rest_framework import generics
@@ -252,7 +252,7 @@ class RobotDetail(generics.RetrieveUpdateDestroyAPIView):
 
 你可以注意到一个 ApiRoot 类，它是*泛型的子类。*为我们的 web 服务的根创建一个端点。它通过可浏览的应用编程接口功能方便了资源的浏览。
 
-```
+```py
 class ApiRoot(generics.GenericAPIView):
     name = 'api-root'
     def get(self, request, *args, **kwargs):
@@ -271,7 +271,7 @@ get 方法返回一个 Response 对象(作为字符串的键/值对)，该对象
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from robots import views
 
@@ -304,7 +304,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path, include
 

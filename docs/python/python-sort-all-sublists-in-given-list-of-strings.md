@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:
 lst = [['Machine', 'London', 'Canada', 'France'],
        ['Spain', 'Munich'],
@@ -23,7 +23,7 @@ flist = [['Canada', 'France', 'London', 'Machine'],
 
 **方法#1:使用地图**
 
-```
+```py
 # Python code  to sort all sublists 
 # in given list of strings
 
@@ -45,7 +45,7 @@ print(Output)
 
 **方法 2:使用λ并排序**
 
-```
+```py
 # Python code  to sort all sublists
 # in given list of strings
 
@@ -67,7 +67,7 @@ print(Output)
 
 **方法#3:使用迭代和排序**
 
-```
+```py
 # Python code  to sort all sublists
 # in given list of strings
 

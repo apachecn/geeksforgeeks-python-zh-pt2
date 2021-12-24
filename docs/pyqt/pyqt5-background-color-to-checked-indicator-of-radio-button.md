@@ -6,7 +6,7 @@
 
 为了给选中状态的指示器添加背景色，我们必须更改单选按钮的样式表，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator:checked
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -27,7 +27,7 @@ ULP 代表“最后的单位”。math.ulp()是 python 3.9.0 版本中引入的�
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to explain
 # math.ulp(x) for different values of x
 import math
@@ -63,7 +63,7 @@ print(math.ulp(x))
 
 **输出:**
 
-```
+```py
 nan
 inf
 inf

@@ -4,7 +4,7 @@
 
 生成随机数一直是一个重要的应用，在日常生活中有很多用途。Python 提供了一个功能，可以从指定的范围生成随机数，还允许包含步骤的房间，在**随机**模块中称为**随机范围()**。本文将进一步讨论这个函数。
 
-```
+```py
 Syntax : 
 random.randrange(start(opt),stop,step(opt))
 Parameters :
@@ -22,7 +22,7 @@ Raises ValueError if stop <= start and number is non- integral.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # randrange()
 
@@ -44,7 +44,7 @@ print (random.randrange(50,100,5))
 
 输出:
 
-```
+```py
 Random number from 0-100 is : 26
 Random number from 50-100 is : 58
 Random number from 50-100 skip 5 is : 90
@@ -57,7 +57,7 @@ Random number from 50-100 skip 5 is : 90
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the Exception of
 # randrange(), ValueError, Float value
 
@@ -71,14 +71,14 @@ print (random.randrange(14.5,100))
 
 输出:
 
-```
+```py
 Random number from 14.5-100 is : 
 
 ```
 
 运行时错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/5e40f42505a6926d0c75a09bec1279d9.py", line 9, in 
     print (random.randrange(14.5,100))
@@ -92,7 +92,7 @@ ValueError: non-integer arg 1 for randrange()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the Exception of
 # randrange(), ValueError, start >= start
 
@@ -106,14 +106,14 @@ print (random.randrange(500,100))
 
 输出:
 
-```
+```py
 Random number from 500-100 is : 
 
 ```
 
 运行时错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/ea327cf3f1dd801a66a185d101c5cb13.py", line 9, in 
     print (random.randrange(500,100))
@@ -129,7 +129,7 @@ ValueError: empty range for randrange() (500,100, -400)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the Application of
 # randrange()
 
@@ -172,7 +172,7 @@ else :
 
 **Output**
 
-```
+```py
 Total score of Player 1 after turn 1 is :  8 
 Total score of Player 2 after turn 1 is :  4
 Total score of Player 1 after turn 2 is :  13 

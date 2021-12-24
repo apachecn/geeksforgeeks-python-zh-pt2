@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该任务。在这种情况下，我们检查目标键的每个键内的每个元素。any()用于检入字典的任何键。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if key exists in tuple keys dictionary
 # using any() + generator expression
@@ -32,7 +32,7 @@ print("Does key exists in dictionary? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {(4, 5): '1', (8, 9): '2', (10, 11): '3'}
 Does key exists in dictionary? : True
 
@@ -42,7 +42,7 @@ Does key exists in dictionary? : True
 
 也可以使用该功能执行该任务。在这种情况下，我们将键展平，然后检查是否存在。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if key exists in tuple keys dictionary
 # using from_iterable()
@@ -67,7 +67,7 @@ print("Does key exists in dictionary? : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary : {(4, 5): '1', (8, 9): '2', (10, 11): '3'}
 Does key exists in dictionary? : True
 

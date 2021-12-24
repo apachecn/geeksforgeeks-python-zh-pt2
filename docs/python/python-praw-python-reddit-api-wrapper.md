@@ -12,7 +12,7 @@
 
 要安装 PRAW，我们在终端/命令提示符下运行以下 pip 脚本。
 
-```
+```py
 pip install praw
 ```
 
@@ -20,7 +20,7 @@ pip install praw
 
 ## 蟒蛇 3
 
-```
+```py
 import praw
 ```
 
@@ -33,7 +33,7 @@ import praw
 
 ## 蟒蛇 3
 
-```
+```py
 reddit = praw.Reddit(client_id ='my client id',
                      client_secret ='my client secret',
                      user_agent ='my user agent')
@@ -44,7 +44,7 @@ print(reddit.read_only)
 
 输出:
 
-```
+```py
 True
 ```
 
@@ -52,7 +52,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 reddit = praw.Reddit(client_id ='my client id',
                      client_secret ='my client secret',
                      user_agent ='my user agent',
@@ -65,7 +65,7 @@ print(reddit.read_only)
 
 输出:
 
-```
+```py
 False
 ```
 
@@ -73,7 +73,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 reddit.read_only = True
 ```
 
@@ -83,7 +83,7 @@ reddit.read_only = True
 
 ## 蟒蛇 3
 
-```
+```py
 subreddit = reddit.subreddit('GRE')
 
 # display the subreddit name
@@ -98,7 +98,7 @@ print(subreddit.description)
 
 *   输出:
 
-```
+```py
 GRE
 GRE
 #/r/GRE  
@@ -126,7 +126,7 @@ https://www.reddit.com/r/gre/about/rules
 
 ## 蟒蛇 3
 
-```
+```py
 # let the redditor be "AutoModerator"
 redditor = reddit.redditor('AutoModerator')
 
@@ -136,6 +136,6 @@ print(redditor.link_karma)
 
 *   输出:
 
-```
+```py
 6554
 ```

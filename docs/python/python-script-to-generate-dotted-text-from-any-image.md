@@ -10,13 +10,13 @@
 
 *   首先创建一个新的 python 脚本并安装[打开 CV](https://pypi.org/project/opencv-python/) 。
 
-```
+```py
 python3 -m pip install opencv-python --user
 ```
 
 *   现在导入 cv2 并加载您想要转换的图像。这里的图像名是“mic.jpg”，它在同一个目录中。我们需要在灰度模式下使用图像，所以给一个额外的参数在灰度模式下加载。
 
-```
+```py
 # import the required modules
 import cv2
 
@@ -26,14 +26,14 @@ img = cv2.imread('mic.jpg',0)
 
 *   我们可以降低图像中的噪声，从而平滑地检测出圆角和边缘。我们可以用 cv2 的 medianblur()方法来实现。
 
-```
+```py
 # Apply median blur
 img = cv2.medianBlur(img,5)
 ```
 
 *   为了检测边缘，我们在 openCV 中有各种各样的阈值函数。但是在这种情况下，最兼容的是 ADAPTIVE_THRESH_MEAN_C。此外，我们还可以检查其他阈值函数。
 
-```
+```py
 # Apply MEAN thresholding to get refined edges
 image = cv2.adaptiveThreshold(img,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINARY,11,2)
 ```
@@ -44,7 +44,7 @@ image = cv2.adaptiveThreshold(img,255,cv2.ADAPTIVE_THRESH_MEAN_C,cv2.THRESH_BINA
 
 ## 蟒蛇 3
 
-```
+```py
 # Python script to convert the given image
 # into a dotted text using opencv
 

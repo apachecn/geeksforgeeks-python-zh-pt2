@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Swap ith and jth key's value in dictionary
 # Using loop + values()
@@ -59,7 +59,7 @@ print("Required dictionary : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Swap ith and jth key's value in dictionary
 # Using values() + dictionary comprehension

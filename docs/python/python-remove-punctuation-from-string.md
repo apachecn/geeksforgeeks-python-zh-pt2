@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing punctuations in string
 # Using loop + punctuation string
@@ -36,7 +36,7 @@ print("The string after punctuation filter : " + test_str)
 
 **Output : **
 
-```
+```py
 The original string is : Gfg, is best : for ! Geeks ;
 The string after punctuation filter : Gfg is best  for  Geeks 
 ```
@@ -47,7 +47,7 @@ The string after punctuation filter : Gfg is best  for  Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Removing punctuations in string
 # Using regex
@@ -69,7 +69,7 @@ print("The string after punctuation filter : " + res)
 
 **Output : **
 
-```
+```py
 The original string is : Gfg, is best : for ! Geeks ;
 The string after punctuation filter : Gfg is best  for  Geeks 
 ```

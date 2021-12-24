@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list1 = [2, 7, 5, 64, 14]
 Output: [7, 5]
 
@@ -16,7 +16,7 @@ Output: [95, 3, 73]
 
 1.  **[Using for loop :](https://www.geeksforgeeks.org/loops-in-python/)** Iterate each element in the list using for loop and check if num % 2 != 0\. If the condition satisfies, then only print the number.
 
-    ```
+    ```py
     # Python program to print odd Numbers in a List
 
     # list of numbers
@@ -32,13 +32,13 @@ Output: [95, 3, 73]
 
     **输出:**
 
-    ```
+    ```py
     21 45 93 
     ```
 
 2.  **[Using while loop](https://www.geeksforgeeks.org/loops-in-python/) :**
 
-    ```
+    ```py
     # Python program to print odd Numbers in a List
 
     # list of numbers
@@ -59,13 +59,13 @@ Output: [95, 3, 73]
 
     **输出:**
 
-    ```
+    ```py
     21 45 93 
     ```
 
 3.  **[Using list comprehension](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/) :**
 
-    ```
+    ```py
     # Python program to print odd Numbers in a List
 
     # list of numbers
@@ -78,13 +78,13 @@ Output: [95, 3, 73]
 
     **输出:**
 
-    ```
+    ```py
     21 45 93 
     ```
 
 4.  **[Using lambda expressions :](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)**
 
-    ```
+    ```py
     # Python program to print odd numbers in a List
 
     # list of numbers 
@@ -98,6 +98,6 @@ Output: [95, 3, 73]
 
     **输出:**
 
-    ```
+    ```py
     Odd numbers in the list:  [21, 45, 93, 11]
     ```

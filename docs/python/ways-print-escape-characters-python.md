@@ -6,13 +6,13 @@
 
 示例:
 
-```
+```py
 '\n'  -->  Leaves a line
 '\t'  -->  Leaves a space 
 
 ```
 
-```
+```py
 # Python code to demonstrate escape character
 # string 
 
@@ -24,7 +24,7 @@ print (ch)
 
 输出:
 
-```
+```py
 The string after resolving escape character is : 
 I
 Love    Geeksforgeeks
@@ -38,7 +38,7 @@ Love    Geeksforgeeks
 
 该函数以可打印格式返回一个字符串，即不解析转义序列。
 
-```
+```py
 # Python code to demonstrate printing 
 # escape characters from repr()
 
@@ -56,7 +56,7 @@ print (repr(ch))
 
 输出:
 
-```
+```py
 The string without repr() is : 
 I
 Love    Geeksforgeeks
@@ -70,7 +70,7 @@ The string after using repr() is :
 
 向目标字符串添加“R”或“R”会在内部触发对字符串的 repr()，并停止解析转义字符。
 
-```
+```py
 # Python code to demonstrate printing 
 # escape characters from "r" or "R"
 
@@ -99,7 +99,7 @@ print (ch2)
 
 输出:
 
-```
+```py
 The string without r/R is : 
 I
 Love    Geeksforgeeks

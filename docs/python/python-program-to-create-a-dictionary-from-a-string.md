@@ -8,7 +8,7 @@
 如果我们得到一个完全像字典对象的字符串输入**(如果字符串看起来像 python 中的字典)，那么我们可以很容易地使用 Python 中的
 [eval()](https://contribute.geeksforgeeks.org/eval-in-python/) 将其转换为字典。**
 
-```
+```py
 # Python3 code to convert 
 # a string to a dictionary
 
@@ -24,7 +24,7 @@ print(Dict['C'])
 
 **Output:**
 
-```
+```py
 {'C': 15, 'B': 14, 'A': 13}
 13
 15
@@ -34,7 +34,7 @@ print(Dict['C'])
 **方法 2:** 使用 python 中的[生成器表达式](https://contribute.geeksforgeeks.org/python-list-comprehensions-vs-generator-expressions/)
 如果我们得到的字符串输入不完全类似于字典对象，那么我们可以使用生成器表达式将其转换为字典。
 
-```
+```py
 # Python3 code to convert 
 # a string to a dictionary
 
@@ -53,7 +53,7 @@ print(Dict['C'])
 
 **Output:**
 
-```
+```py
 {'C': '15', 'A': '13', 'B': '14'}
 13
 15
@@ -64,7 +64,7 @@ print(Dict['C'])
 
 如果**整数键存在**，那么第 8 行就可以了
 
-```
+```py
 string = "11 - 13, 12 - 14, 13 - 15"
 
 Dict = dict((x.strip(), int(y.strip())) 
@@ -76,7 +76,7 @@ print(Dict)
 
 **Output:**
 
-```
+```py
 {'13': 15, '12': 14, '11': 13}
 
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : a = 1
         b = 2.1
         str = 'GeeksForGeeks'
@@ -19,7 +19,7 @@ Output : 3
 
 **代码#1:**
 
-```
+```py
 # Implementation of above approach
 
 # A function containing 3 variables 
@@ -33,14 +33,14 @@ print(fun.__code__.co_nlocals)
 
 **Output:**
 
-```
+```py
 2
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python program to find number of
 # local variables in a function
 
@@ -60,7 +60,7 @@ print(fun.__code__.co_nlocals)
 
 **Output:**
 
-```
+```py
 0
 4
 

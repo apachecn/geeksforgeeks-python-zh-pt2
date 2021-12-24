@@ -8,7 +8,7 @@
 
 为了给单选按钮的指示器添加虚线边框，我们必须更改与单选按钮相关联的指示器的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 border : 2px blue;
@@ -21,7 +21,7 @@ border-style : dotted;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

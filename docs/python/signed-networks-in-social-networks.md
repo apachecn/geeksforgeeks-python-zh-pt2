@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
@@ -192,7 +192,7 @@ plt.show()
 
 **输出:**
 
-```
+```py
 ['G', 'B', 'C', 'H']
 ['A', 'D', 'E', 'F']
 

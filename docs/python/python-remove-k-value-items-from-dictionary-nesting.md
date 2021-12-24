@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K value items from dictionary nestings
 # Using dictionary comprehension + loop
@@ -59,7 +59,7 @@ print("The dictionary after value removal : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K value items from dictionary nestings
 # Using recursion + loop (For multiple nesting)

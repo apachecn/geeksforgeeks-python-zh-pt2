@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #importing module
 from bs4 import BeautifulSoup
 
@@ -40,7 +40,7 @@ print(div_bs4.string)
 
 **输出:**
 
-```
+```py
 Div Content
 ```
 
@@ -48,7 +48,7 @@ Div Content
 
 ## 蟒蛇 3
 
-```
+```py
 #importing module
 from bs4 import BeautifulSoup
 
@@ -82,6 +82,6 @@ print(div_bs4.string)
 
 **输出:**
 
-```
+```py
  Div with id second
 ```

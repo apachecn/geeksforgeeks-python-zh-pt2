@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [1, 2, 4, 2, 6, 7, 8, 3]
 
@@ -45,7 +45,7 @@ print("Peaks and Valleys count : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [1, 2, 4, 2, 6, 7, 8, 3]
 

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = "geeksforgeeks is best for all geeks"
 
@@ -66,7 +66,7 @@ print("String after replacement : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = "geeksforgeeks is best for all geeks"
 

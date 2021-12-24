@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [345, 893, 1948, 34, 2346]
 
@@ -59,7 +59,7 @@ print("Even digit sum : " + str(even_sum))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [345, 893, 1948, 34, 2346]
 

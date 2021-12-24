@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Validate String date format
 # Using strptime()
@@ -54,7 +54,7 @@ print("Does date match format? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : 04-01-1997
 Does date match format? : True
 ```
@@ -65,7 +65,7 @@ Does date match format? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Validate String date format
 # Using dateutil.parser.parse
@@ -95,7 +95,7 @@ print("Does date match format? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : 04-01-1997
 Does date match format? : True
 ```

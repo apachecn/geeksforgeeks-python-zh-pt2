@@ -7,7 +7,7 @@
 **方法:使用`map() + str.strip()`**
 结合以上两个功能可以帮助我们完成这个特殊的任务。在这种情况下，我们使用 `strip()`，它能够从字符串列表中删除末尾和前面的特殊不需要的字符。`map()`用于将逻辑扩展到列表中的每个元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove trailing / leading special characters from strings list
 # Using map() + str.strip()
@@ -28,7 +28,7 @@ print("List after removal of special characters : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : ['\rgfg\t\n', 'is\n', '\t\tbest\r']
 List after removal of special characters : ['gfg', 'is', 'best']

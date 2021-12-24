@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rows intersection with K
 # Using sum() + generator expression
@@ -43,7 +43,7 @@ print("The matched rows : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : [[5, 6, 7], [7, 6, 6], [5, 7, 10]]
 The original list 2 is : [[5, 6, 7], [7, 6, 8], [5, 7, 10]]
 The matched rows : 2
@@ -54,7 +54,7 @@ The matched rows : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Rows intersection with K
 # Using Counter() + sum() + list comprehension
@@ -82,7 +82,7 @@ print("The matched rows : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : [[5, 6, 7], [7, 6, 6], [5, 7, 10]]
 The original list 2 is : [[5, 6, 7], [7, 6, 8], [5, 7, 10]]
 The matched rows : 2

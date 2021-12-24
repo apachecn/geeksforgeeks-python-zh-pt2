@@ -8,21 +8,21 @@
 
 如果您使用的是 Kali Linux 机器，那么这个工具已经安装在其中了，只需键入命令
 
-```
+```py
 theharvester
 
 ```
 
 或者
 
-```
+```py
 theHarvester
 
 ```
 
 它将生成一个帮助菜单并列出所有可用选项，如下所示:
 
-```
+```py
 root@kali:~# theharvester
 
 *******************************************************************
@@ -67,14 +67,14 @@ Examples:
 
 要在其他 Linux 操作系统中安装它，您可以使用命令
 
-```
+```py
  sudo apt-get theharvester
 
 ```
 
 如果这不起作用，您可以克隆 Git 中心存储库，并使用命令来使用它
 
-```
+```py
 git clone https://github.com/laramies/theHarvester.git
 cd theHarvester
 sudo python ./theHarvester.py
@@ -84,7 +84,7 @@ sudo python ./theHarvester.py
 
 从域名 kali.org 搜索电子邮件地址，结果为 200，使用 **Bing** 作为数据源。
 
-```
+```py
 theharvester -d kali.org -l 200 -b bing
 ```
 

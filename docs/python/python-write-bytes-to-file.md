@@ -16,7 +16,7 @@ Python 在磁盘上以字节的形式存储文件。因此，当一个文件以�
 
 ## 蟒蛇 3
 
-```
+```py
 some_bytes = b'\xC3\xA9'
 
 # Open in "wb" mode to
@@ -40,7 +40,7 @@ my_file.txt
 
 ## 蟒蛇 3
 
-```
+```py
 some_bytes = b'\x21'
 
 # Open file in binary write mode
@@ -63,7 +63,7 @@ my_file.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # Create bytearray 
 # (sequence of values in 
 # the range 0-255 in binary form)

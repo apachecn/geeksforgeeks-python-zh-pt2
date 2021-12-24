@@ -15,7 +15,7 @@ Collapse()方法取一个 wx。TreeItemId 参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class MyTree(wx.TreeCtrl):

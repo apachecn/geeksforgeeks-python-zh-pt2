@@ -9,7 +9,7 @@ Python Set 的这个内置函数帮助我们得到两个集合之间的对称差
 
 如果有集合 A 和集合 B，那么它们之间的对称差将等于集合 A 和集合 B 的并集，两者之间没有交集。
 
-```
+```py
 // Takes a single parameter that has to be 
 // a set and returns a new set which is the 
 // symmetric difference between the two sets.
@@ -18,7 +18,7 @@ set_A.symmetric_difference(set_B)
 
 示例:
 
-```
+```py
 Input: set_A = {1, 2, 3, 4, 5}
        set_B = {6, 7, 3, 9, 4}
 Output :  {1, 2, 5, 6, 7, 9}
@@ -36,7 +36,7 @@ Explanation: The common elements {"ram", "ajay",
 
 在本程序中，我们将尝试找出两组之间的对称差异:
 
-```
+```py
 # Python code to find the symmetric_difference
 # Use of symmetric_difference() method
 
@@ -47,14 +47,14 @@ print(set_A.symmetric_difference(set_B))
 
 输出:
 
-```
+```py
 {1, 2, 5, 6, 7, 9}
 ```
 
 还有另一种方法，通过使用运算符“ **^** ”来获得两个集合之间的对称差。
 例:
 
-```
+```py
 # Python code to find the Symmetric difference
 # using ^ operator.
 
@@ -66,11 +66,11 @@ print(set_A ^ set_B)
 
 输出:
 
-```
+```py
 {'shyam', 'ravi', 'rahim', 'rishav'}
 ```
 
-```
+```py
 # One more example Python code to find 
 # the symmetric_difference use of 
 # symmetric_difference() method
@@ -90,7 +90,7 @@ print(B.symmetric_difference(C))
 
 **输出:**
 
-```
+```py
 set(['e', 'o', 'p', 'r', 'w'])
 set(['e', 'o', 'p', 'r', 'w'])
 set(['a', 'p', 'w', 'n'])

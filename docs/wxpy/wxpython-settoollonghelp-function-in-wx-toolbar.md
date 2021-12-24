@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.SetToolLongHelp(self, toolId, helpString)
 > 
 > ```
@@ -20,7 +20,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -67,7 +67,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 This is new Long Help String.
 
 ```

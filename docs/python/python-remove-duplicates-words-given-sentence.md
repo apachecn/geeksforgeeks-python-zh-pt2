@@ -5,7 +5,7 @@
 给定一个包含 n 个单词/字符串的句子。删除所有彼此相似的重复单词/字符串。
 示例:
 
-```
+```py
 Input : Geeks for Geeks
 Output : Geeks for
 
@@ -21,7 +21,7 @@ Output : is also Java Python and great
 
 ## 计算机编程语言
 
-```
+```py
 from collections import Counter
 
 def remov_duplicates(input):
@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
 **Output**
 
-```
+```py
 and great Java Python is also
 
 ```
@@ -59,7 +59,7 @@ and great Java Python is also
 
 ## 计算机编程语言
 
-```
+```py
 # Program without using any external library
 s = "Python is great and Java is also great"
 l = s.split()
@@ -75,7 +75,7 @@ print(' '.join(k))
 
 **Output**
 
-```
+```py
 Python is great and Java also
 
 ```
@@ -84,7 +84,7 @@ Python is great and Java also
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program
 
 string = 'Python is great and Java is also great'
@@ -94,7 +94,7 @@ print(' '.join(dict.fromkeys(string.split())))
 
 **Output**
 
-```
+```py
 Python is great and Java also
 
 ```

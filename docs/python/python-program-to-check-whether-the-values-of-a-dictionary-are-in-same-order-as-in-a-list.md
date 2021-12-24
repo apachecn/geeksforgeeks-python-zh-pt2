@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for Ordered values from List
 # Using loop
@@ -57,7 +57,7 @@ print("Are values in order : " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test for Ordered values from List
 # Using values() + comparison operators

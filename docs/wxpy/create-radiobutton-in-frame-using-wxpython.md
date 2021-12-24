@@ -28,7 +28,7 @@
 
 **代码示例:**
 
-```
+```py
 # importing the module
 import wx
 

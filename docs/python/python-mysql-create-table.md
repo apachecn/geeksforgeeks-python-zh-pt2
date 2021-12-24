@@ -8,7 +8,7 @@ MySQL 是一个关系数据库管理系统(RDBMS)，而结构化查询语言(SQL
 1.  **使用命令提示符导航到 python 脚本目录。**
 2.  **执行命令** 
 
-```
+```py
 pip install mysql-connector
 ```
 
@@ -29,7 +29,7 @@ pip install mysql-connector
 **数据库是由多个表构成的信息组织。数据库的组织方式使得数据操作变得容易，即创建、插入、更新和删除等。
 **创建数据库的 SQL 命令:**** 
 
-```
+```py
 CREATE DATABASE ;
 ```
 
@@ -38,7 +38,7 @@ CREATE DATABASE ;
 
 ## **大蟒**
 
-```
+```py
 # Python code for creating Database
 # Host: It is the server name. It will be
 # "localhost" if you are using localhost database
@@ -60,7 +60,7 @@ print("College Data base is created")
 
 ****输出:**** 
 
-```
+```py
 College Data base is created
 ```
 
@@ -74,7 +74,7 @@ College Data base is created
 
 ****创建表的 SQL 命令:**** 
 
-```
+```py
 CREATE TABLE
 (
      column_name_1 column_Data_type, 
@@ -101,7 +101,7 @@ CREATE TABLE
 
 ## **大蟒**
 
-```
+```py
 # Python code for creating Table in the Database
 # Host: It is the server name. It will be "localhost"
 # if you are using localhost database
@@ -140,6 +140,6 @@ CreateTable()
 
 ****输出:**** 
 
-```
+```py
 Student Table is Created in the Database
 ```

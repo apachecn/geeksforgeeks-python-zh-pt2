@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # removal of bad_chars
 # using replace()
@@ -33,7 +33,7 @@ print ("Resultant list is : " + str(test_string))
 
 **输出:**
 
-```
+```py
 Original String : Ge;ek*s:fo!r;Ge*e*k:s!
 Resultant list is : GeeksforGeeks
 
@@ -44,7 +44,7 @@ Resultant list is : GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # removal of bad_chars
 # using join() + generator
@@ -68,7 +68,7 @@ print ("Resultant list is : " + str(test_string))
 
 **输出:**
 
-```
+```py
 Original String : Ge;ek*s:fo!r;Ge*e*k:s!
 Resultant list is : GeeksforGeeks
 
@@ -79,7 +79,7 @@ Resultant list is : GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # removal of bad_chars
 # using translate()
@@ -106,7 +106,7 @@ print ("Resultant list is : " + str(test_string))
 
 **输出:**
 
-```
+```py
 Original String : Ge;ek*s:fo!r;Ge*e*k:s!
 Resultant list is : GeeksforGeeks
 
@@ -117,7 +117,7 @@ Resultant list is : GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # removal of bad_chars
 # using filter()
@@ -140,7 +140,7 @@ print("Resultant list is : " + str(test_string))
 
 **输出:**
 
-```
+```py
 Original String : Ge;ek*s:fo!r;Ge*e*k:s!
 Resultant list is : GeeksforGeeks
 

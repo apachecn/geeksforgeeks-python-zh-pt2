@@ -6,7 +6,7 @@
 
 **首先创建一个数据库，我们在其上执行 update_one()操作:**
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -81,7 +81,7 @@ for record in cursor: 
 
 **例 1:** 在本例中，我们将风扇数量从 10 个更新为 25 个。
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -120,7 +120,7 @@ for record in cursor: 
 
 **示例 2:** 在本例中，我们使用 update_one()将电视公司名称从“三星”更改为“索尼”:
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 

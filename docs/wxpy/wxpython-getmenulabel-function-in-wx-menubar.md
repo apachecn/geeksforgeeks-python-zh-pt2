@@ -6,7 +6,7 @@ GetMenuLabel()函数是 wx 中存在的另一个函数。wxPython 的菜单栏�
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuBar.GetMenuLabel(self, menuindex)
 > ```
 > 
@@ -26,7 +26,7 @@ GetMenuLabel()函数是 wx 中存在的另一个函数。wxPython 的菜单栏�
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Dictionary by key-value Summation
 # Using sorted() + lambda + items()
@@ -41,7 +41,7 @@ print("The sorted result : " + str(res))
 
 **输出:**
 
-```
+```py
 The original dictionary is : {3: 5, 1: 3, 4: 6, 2: 7, 8: 1}
 The sorted result : {1: 3, 3: 5, 2: 7, 8: 1, 4: 6}
 ```

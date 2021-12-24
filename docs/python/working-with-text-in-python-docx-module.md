@@ -6,7 +6,7 @@
 
 Word 文档包含包装在三个对象级别中的格式化文本。最低级别的运行对象、中等级别的段落对象和最高级别的文档对象。因此，我们不能使用普通的文本编辑器来处理这些文档。但是，我们可以使用 python-docx 模块在 python 中操作这些 word 文档。安装该模块的 Pip 命令是:
 
-```
+```py
 pip install python-docx
 ```
 
@@ -28,7 +28,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Pt
@@ -77,7 +77,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import RGBColor
@@ -121,7 +121,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -155,13 +155,13 @@ doc.save('gfg.docx')
 
 要将文本设置为粗体，您必须将其设置为 true。
 
-```
+```py
 doc.bold = True
 ```
 
 要突出显示某个特定单词，粗体需要与其 add_run()语句一起设置为 True。
 
-```
+```py
 add_run(" text ").bold=True
 ```
 
@@ -169,7 +169,7 @@ add_run(" text ").bold=True
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -203,7 +203,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -238,13 +238,13 @@ doc.save('gfg.docx')
 
 要将文本设置为斜体，您必须将其设置为真。
 
-```
+```py
 doc.italic = True
 ```
 
 要使某些特定的单词变成斜体，需要将它及其 add_run()语句设置为 True。
 
-```
+```py
 add_run(" text ").italic=True
 ```
 
@@ -252,7 +252,7 @@ add_run(" text ").italic=True
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -286,7 +286,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -321,13 +321,13 @@ doc.save('gfg.docx')
 
 要对文本应用下划线，必须将其设置为真。
 
-```
+```py
 doc.underline = True
 ```
 
 要给特定部分加下划线，下划线需要设置为“真”以及它的 add_run()函数
 
-```
+```py
 add_run("text").underline=True
 ```
 
@@ -335,7 +335,7 @@ add_run("text").underline=True
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -369,7 +369,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 

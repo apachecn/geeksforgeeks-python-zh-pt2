@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Define some variables of various types
 # that are not starting with '__'
 var2 = "Welcome to geeksforgeeks"
@@ -68,7 +68,7 @@ for name in all_variables:
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a new variable and store all
 # built-in functions within it using dir( ).
 not_my_data = set(dir())
@@ -126,7 +126,7 @@ Locals()是一个内置函数，它返回该特定范围内所有局部变量的
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a list of all global variables using
 # globals( ) function, To store the built-in
 # global variables.

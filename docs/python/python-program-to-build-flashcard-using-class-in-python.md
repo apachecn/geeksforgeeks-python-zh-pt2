@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 class flashcard:
     def __init__(self, word, meaning):
         self.word = word
@@ -67,7 +67,7 @@ for i in flash:
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 class flashcard:

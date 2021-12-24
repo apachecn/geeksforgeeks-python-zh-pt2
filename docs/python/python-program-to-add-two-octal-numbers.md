@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: a = "123", b = "456"
 Output: 601
 
@@ -24,7 +24,7 @@ Output: 1175
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two hexadecimal numbers.
 
 # Driver code
@@ -41,7 +41,7 @@ print(sum[2:])
 
 **输出:**
 
-```
+```py
 601
 ```
 
@@ -49,7 +49,7 @@ print(sum[2:])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two hexadecimal numbers.
 
 # Driver code
@@ -66,6 +66,6 @@ print(sum[2:])
 
 **输出:**
 
-```
+```py
 1175
 ```

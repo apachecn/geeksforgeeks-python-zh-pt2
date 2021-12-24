@@ -9,7 +9,7 @@
 
 **示例:**
 
-```
+```py
 Input : BruceWayneIsBatman
 Output : bruce wayne is batman
 
@@ -28,7 +28,7 @@ Output :  geeks for geeks
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 def putSpace(input):
@@ -52,6 +52,6 @@ if __name__ == "__main__":
 
 **输出:**
 
-```
+```py
 bruce wayne is batman
 ```

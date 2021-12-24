@@ -17,13 +17,13 @@ Tkinter 是一个非常强大和用户友好的工具包，因为它为用户提
 
 *   **pytessert 库:**pytessert 是一个基于 ICR(智能字符识别)和 OCR(光学字符识别)的工具包，在 python 中可用。它是谷歌的一个包装工具，可以*【提取】**【读取】*任何图像中嵌入的文本。首先，在您的系统上安装并运行 Pytesseract，使用的是可用的 tesseract 设置 [**，这里是**](https://github.com/UB-Mannheim/tesseract/wiki) 。从上面的 Github 链接安装应用程序后，在外壳上安装 pytesseract
 
-```
+```py
 pip install pytesseract
 ```
 
 *   **枕头套库:**它是一个免费的开源库，可用 Python 进行图像处理(操作、打开和关闭各种文件格式，即 jpeg/png)。
 
-```
+```py
 pip install Pillow
 ```
 
@@ -42,7 +42,7 @@ pip install Pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # Visiting Card scanner GUI
 
 # imported tkinter library

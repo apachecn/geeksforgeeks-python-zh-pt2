@@ -15,7 +15,7 @@
 
 现在当我们准备好项目后，在`geeks/models.py`中创建一个模型，
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -36,7 +36,7 @@ class GeeksModel(models.Model):
 
 现在，运行以下命令来创建模型，
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 
@@ -47,7 +47,7 @@ Python manage.py migrate
 
 要直接为此模型创建表单，请进入`geeks/forms.py`并输入以下代码:
 
-```
+```py
 # import form class from django
 from django import forms
 
@@ -68,7 +68,7 @@ class GeeksForm(forms.ModelForm):
 *   **排除–**将模型表单内部元类的排除属性设置为要从表单中排除的字段列表。
     例如:
 
-    ```
+    ```py
     class PartialAuthorForm(ModelForm):
         class Meta:
             model = Author
@@ -78,7 +78,7 @@ class GeeksForm(forms.ModelForm):
 
 最后，为了完成我们的 MVT 结构，创建一个视图来呈现表单，并将其直接保存到数据库中。在**极客/观点. py，**
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 

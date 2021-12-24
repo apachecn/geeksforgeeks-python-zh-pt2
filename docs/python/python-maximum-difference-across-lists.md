@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum difference across lists
 # Using list comprehension + max()
@@ -47,7 +47,7 @@ print("Maximum difference among lists : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [3, 4, 2, 1, 7]
 The original list 2 is : [6, 2, 1, 9, 1]
 Maximum difference among lists : 8
@@ -59,7 +59,7 @@ Maximum difference among lists : 8
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum difference across lists
 # Using zip() + max()
@@ -82,7 +82,7 @@ print("Maximum difference among lists : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list 1 is : [3, 4, 2, 1, 7]
 The original list 2 is : [6, 2, 1, 9, 1]
 Maximum difference among lists : 8

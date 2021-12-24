@@ -5,7 +5,7 @@
 **VLC 媒体播放器**是 VideoLAN 项目开发的免费开源的便携式跨平台媒体播放器软件和流媒体服务器。VLC 适用于桌面操作系统和移动平台，如安卓、iOS、iPadOS、蒂森、Windows 10 Mobile 和 Windows Phone。
 我们也可以在 python 的帮助下使用 vlc 媒体播放器，为了在 python 中安装 VLC 模块，我们将使用下面给出的命令
 
-```
+```py
 pip install python-vlc
 ```
 
@@ -14,7 +14,7 @@ pip install python-vlc
 **导入 VLC 模块:**
 要导入 VLC 模块，请使用以下命令
 
-```
+```py
 import vlc
 ```
 
@@ -28,7 +28,7 @@ import vlc
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -47,7 +47,7 @@ media.play()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time and vlc
 import time, vlc
 
@@ -84,6 +84,6 @@ video("your_video.mp4")
 
 **输出:**
 
-```
+```py
 Duration : 5006
 ```

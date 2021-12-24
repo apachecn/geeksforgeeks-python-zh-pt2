@@ -9,7 +9,7 @@ Flask 是一个轻量级的 WSGI web 应用框架。它旨在使入门变得快�
 
 我们将创建一个简单的 HTML 表单，非常简单的登录表单
 
-```
+```py
 <form action="{{ url_for("gfg")}}" method="post">
 <label for="firstname">First Name:</label>
 <input type="text" id="firstname" name="fname" placeholder="firstname">
@@ -24,7 +24,7 @@ Flask 是一个轻量级的 WSGI web 应用框架。它旨在使入门变得快�
 
 启动您的虚拟环境
 
-```
+```py
 pip install virtualenv
 python3 -m venv env
 pip install flask
@@ -33,7 +33,7 @@ pip install flask
 
 现在我们将创建烧瓶后端，它将从 HTML 表单获得用户输入
 
-```
+```py
 # importing Flask and other modules
 from flask import Flask, request, render_template 
 

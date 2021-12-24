@@ -7,7 +7,7 @@
 **方法一:使用`all()` +列表理解**
 以上方法的组合可以用来执行此任务。在这种情况下，我们只需在每个列表中使用 all()检查所有列表字符，并过滤掉包含任何一个字符的字符串。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove words containing list characters
 # using list comprehension + all()
@@ -35,7 +35,7 @@ print ("The filtered strings are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best', 'for', 'geeks']
 The character list is : ['g', 'o']
 The filtered strings are : ['is', 'best']

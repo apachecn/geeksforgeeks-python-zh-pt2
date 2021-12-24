@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : str = "Geeksforgeeks", n = 3
 Output : ['Gee', 'ksf', 'oor', 'gee', 'ks']
 
@@ -16,7 +16,7 @@ Output : [1234, 5678, 9123, 4567]
 
 **方法一:使用列表理解**
 
-```
+```py
 # Python code to split string
 # by every 3rd number
 
@@ -35,14 +35,14 @@ print(out)
 
 **Output:**
 
-```
+```py
 ['Gee', 'ksf', 'org', 'eek', 's']
 
 ```
 
 **方法 2:使用`zip_longest`**
 
-```
+```py
 # Python code to split string of number
 # and character into every 4th number
 
@@ -76,7 +76,7 @@ print(out_no)
 
 **Output:**
 
-```
+```py
 ['123G', 'eeks', 'ForG', 'eeks', '4567']
 
 ```

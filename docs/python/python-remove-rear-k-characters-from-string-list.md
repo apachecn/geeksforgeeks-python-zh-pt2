@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+列表切片**
 这个任务可以通过使用列表切片移除字符的能力来执行，并且列表理解有助于将该逻辑扩展到整个列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Remove Rear K characters from String List
 # using list comprehension + list slicing
@@ -31,7 +31,7 @@ print("The list after removing last characters : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['Manjeets', 'Akashs', 'Akshats', 'Nikhils']
 The list after removing last characters : ['Manj', 'Ak', 'Aks', 'Nik']
 

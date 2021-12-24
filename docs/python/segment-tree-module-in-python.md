@@ -10,7 +10,7 @@
 
 **安装库:**
 
-```
+```py
 pip install segment-tree
 ```
 
@@ -19,14 +19,14 @@ pip install segment-tree
 *   **查询:**是段树的主要功能，执行在一个范围内查找**最大数**、在一个范围内查找**最小数**、查找给定范围的**和**等操作。它采用 3 个参数作为输入，它们是 start_index(即范围将从哪里开始)、End_index(即直到哪个索引范围结束)和要执行的操作。
     **语法:**
 
-```
+```py
 obj.query(Start_index, End_index, operation_name)
 ```
 
 *   **更新:**段树的第二个主要功能是更新，它将**更新**范围内特定指标的值。它将用新值替换该索引中的现有值。
     **语法:**
 
-```
+```py
 obj.update(index, value)
 ```
 
@@ -34,7 +34,7 @@ obj.update(index, value)
 
 ## 蟒蛇 3
 
-```
+```py
 from segment_tree import SegmentTree
 
 # an array with some elements
@@ -74,7 +74,7 @@ print("The updated array is : ", arr)
 
 **输出:**
 
-```
+```py
 The maximum value of this range is :  10
 The minimum value of this range is :  3
 The sum of this range is :  33
@@ -85,7 +85,7 @@ The updated array is :  [1, 2, 25, 4, 5, 6, 7, 8, 9, 10, 11]
 
 ## 蟒蛇 3
 
-```
+```py
 from segment_tree import SegmentTree
 
 # an array with some elements
@@ -132,7 +132,7 @@ print("The updated array is : ", arr)
 
 **输出:**
 
-```
+```py
 The maximum value of this range is :  200
 The minimum value of this range is :  4
 The sum of this range is :  655

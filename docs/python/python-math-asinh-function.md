@@ -16,7 +16,7 @@
 
 **例 1:**
 
-```
+```py
 # Python code to implement
 # the asinh()function
 
@@ -33,7 +33,7 @@ print (math.asinh(-3445))
 
 **输出:**
 
-```
+```py
 3.5272244561999657
 2.4237920435875173
 6.194409556009931
@@ -43,7 +43,7 @@ print (math.asinh(-3445))
 
 **例 2:**
 
-```
+```py
 # Python code to implement
 # the aasinh()function
 import math 
@@ -70,7 +70,7 @@ plt.show()  
 
 **输出:**
 
-```
+```py
 Input_Array : 
  [-0.14159265, -0.57039399, -0.28559933, 0.28559933, 0.57039399, 0.94159265]
 

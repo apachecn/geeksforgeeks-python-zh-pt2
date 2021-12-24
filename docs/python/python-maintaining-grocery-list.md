@@ -8,7 +8,7 @@
 验证是必须的。
 **例:**
 
-```
+```py
 User GO with following question 
 Enter Your budget : 500 
 1.Add an item
@@ -80,7 +80,7 @@ xyz             1 kg         50
 
 ## 蟒蛇 3
 
-```
+```py
 # This loop will go on until the budget is integer or float
 while True:
     try:

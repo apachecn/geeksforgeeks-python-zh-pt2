@@ -42,7 +42,7 @@
 
 **插入订阅的代码:**此示例显示如何在由参数列表中提供的频道 Id 标识的 Youtube 频道中插入订阅。您可以通过更改**sniper . resourceid . channelid**属性来更改订阅。本示例添加了对德里克·巴纳斯频道的订阅。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow
@@ -163,7 +163,7 @@ if __name__ == '__main__':
 
 **删除订阅的代码:**此示例显示如何删除订阅。 **id** 参数是订阅 id，即您可以在插入订阅时从命令提示符下记下，或者您可以运行代码列出所有订阅并记下所需订阅的订阅 id。在这个例子中，我删除了我在上面讨论的代码中添加的订阅。
 
-```
+```py
 import os
 import google.oauth2.credentials
 import google_auth_oauthlib.flow

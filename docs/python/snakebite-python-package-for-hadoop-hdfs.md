@@ -14,7 +14,7 @@
 
 蛇咬库可以通过[**【pip】**](https://www.geeksforgeeks.org/python-pip/)**轻松安装。**
 
-```
+```py
 # Make sure you have pip for python version 2 otherwise you will face error while importing module
 pip install snakebite
 
@@ -34,7 +34,7 @@ pip install snakebite
 
 **步骤 1:** 在系统中您想要的位置创建一个名为 **list_down_root_dir.py** 的 python 文件。
 
-```
+```py
 cd Documents/        # Changing directory to Documents(You can choose as per your requirement)
 
 touchlist_down_root_dir.py    # touch command is used to create file in linux enviournment. 
@@ -47,7 +47,7 @@ touchlist_down_root_dir.py    # touch command is used to create file in linux en
 
 ## 计算机编程语言
 
-```
+```py
 # importing the package
 from snakebite.client import Client
 # the below line create client connection to the HDFS NameNode
@@ -76,7 +76,7 @@ Client()方法可以接受下面列出的所有参数:
 
 **步骤 3:** 使用下面的命令**启动 Hadoop 守护程序。**
 
-```
+```py
 start-dfs.sh  // start your namenode datanode and secondary namenode
 
 start-yarn.sh  // start resourcemanager and nodemanager
@@ -87,7 +87,7 @@ start-yarn.sh  // start resourcemanager and nodemanager
 
 **步骤 4:** 运行 **list_down_root_dir.py** 文件，观察结果。
 
-```
+```py
 python list_down_root_dir.py
 
 ```

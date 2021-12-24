@@ -10,7 +10,7 @@
 IPAddressField 是确保输入是有效的 IPv4 或 IPv6 字符串的字段。与[genericipaddresfield–Django 表单](https://www.geeksforgeeks.org/genericipaddressfield-django-forms/)相同。
 **语法–**
 
-```
+```py
 field_name = serializers.IPAddressField(*args, **kwargs)
 ```
 
@@ -21,7 +21,7 @@ field_name = serializers.IPAddressField(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -37,13 +37,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行，–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -66,7 +66,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 IPAddressField 只验证 IP 地址的数据。让我们检查这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data={}
 >>> data['ip']="invalid_ip"

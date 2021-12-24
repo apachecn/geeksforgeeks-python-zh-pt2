@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : test_dict = {3 : 4, 9 : 10, 15 : 10, 5 : 7} 
 Output : 32 
 Explanation : 3 + 9 + 15 + 5 = 32, sum of keys.
@@ -22,7 +22,7 @@ Explanation : 3 + 9 + 15 = 27, sum of keys.
 
 T3】蟒 3T5
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Keys Summation
 # Using loop
@@ -51,7 +51,7 @@ T6T8**输出**T1
 
 ## python 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Keys Summation
 # Using keys() + sum()
@@ -71,7 +71,7 @@ print("The dictionary keys summation : " + str(res))
 
 **输出**
 
-```
+```py
 The original dictionary is : {3: 4, 9: 10, 15: 10, 5: 7, 6: 7}
 The dictionary keys summation : 38
 

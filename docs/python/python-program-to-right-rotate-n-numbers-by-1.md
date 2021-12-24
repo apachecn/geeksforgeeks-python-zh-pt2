@@ -5,7 +5,7 @@
 给定一个数字 n。任务是打印 n 个整数 n 次(从 1 开始)，并在每次迭代后向右旋转整数。
 **例:**
 
-```
+```py
 Input : 6
 Output :
 1 2 3 4 5 6
@@ -27,7 +27,7 @@ Output :
 
 ## 蟒蛇 3
 
-```
+```py
 def print_pattern(n):
     for i in range(1, n+1, 1):
         for j in range(1, n+1, 1):
@@ -54,7 +54,7 @@ print_pattern(3)
 
 **输出:**
 
-```
+```py
 1 2 3 
 2 3 1 
 3 1 2 

@@ -21,7 +21,7 @@ xrange()返回–**xrange()**对象。
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate range() vs xrange()
 # on  basis of return type
 
@@ -42,7 +42,7 @@ print (type(x))
 
 **输出:**
 
-```
+```py
 The return type of range() is : 
 <type 'list'>
 The return type of xrange() is : 
@@ -55,7 +55,7 @@ The return type of xrange() is :
 
 ## 计算机编程语言
 
-```
+```py
 # Python code to demonstrate range() vs xrange()
 # on  basis of memory
 
@@ -80,7 +80,7 @@ print (sys.getsizeof(x))
 
 **输出:**
 
-```
+```py
 The size allotted using range() is : 
 80064
 The size allotted using xrange() is : 
@@ -93,7 +93,7 @@ The size allotted using xrange() is :
 
 ## **计算机编程语言**
 
-```
+```py
 # Python code to demonstrate range() vs xrange()
 # on  basis of operations usage
 
@@ -116,7 +116,7 @@ print (x[2:5])
 
 ****错误:****
 
-```
+```py
 Traceback (most recent call last):
   File "1f2d94c59aea6aed795b05a19e44474d.py", line 18, in 
     print (x[2:5])
@@ -125,7 +125,7 @@ TypeError: sequence index must be integer, not 'slice'
 
 ****输出:****
 
-```
+```py
 The list after slicing using range is : 
 [3, 4, 5]
 The list after slicing using xrange is : 

@@ -13,7 +13,7 @@
 
 要在 excel 工作表中绘制简单的散点图，请使用 add_chart()方法，并在工作簿对象中键入“散点图”关键字参数。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -109,7 +109,7 @@ workbook.close() 
 
 若要在 excel 工作表中绘制这种类型的图表，请使用 add_chart()方法，该方法带有工作簿对象的“散布”类型和子类型“直带标记”关键字参数。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -202,7 +202,7 @@ workbook.close() 
 
 若要在 excel 工作表中绘制这种类型的图表，请将 add_chart()方法与工作簿对象的类型“散点”和子类型“直线”关键字参数一起使用。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -295,7 +295,7 @@ workbook.close() 
 
 若要在 excel 工作表中绘制这种类型的图表，请使用 add_chart()方法，该方法带有工作簿对象的“散布”类型和子类型“smooth_with_markers”关键字参数。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 
@@ -388,7 +388,7 @@ workbook.close() 
 
 若要在 excel 工作表中绘制这种类型的图表，请将 add_chart()方法与工作簿对象的“散布”类型和“平滑”子类型关键字参数一起使用。
 
-```
+```py
 # import xlsxwriter module 
 import xlsxwriter 
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:  a = "11", b = "1"
 Output: "100"
 
@@ -26,7 +26,7 @@ Output: 10001
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two binary numbers.
 
 # Driver code
@@ -61,7 +61,7 @@ print(result.zfill(max_len))
 
 **输出:**
 
-```
+```py
 10001
 
 ```
@@ -72,7 +72,7 @@ print(result.zfill(max_len))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to add two binary numbers.
 
 # Driver code
@@ -89,7 +89,7 @@ print(sum[2:])
 
 **输出:**
 
-```
+```py
 10001
 
 ```

@@ -16,7 +16,7 @@ CSV 为我们提供了一种不用数据库程序就能组织数据的简单好�
 
 ## 蟒蛇 3
 
-```
+```py
 import pandas as pd
 ```
 
@@ -26,7 +26,7 @@ csv 文件“data.csv”是使用熊猫库中的 read_csv 方法加载的，并�
 
 ## 蟒蛇 3
 
-```
+```py
 data = pd.read_csv('data.csv')
 ```
 
@@ -36,7 +36,7 @@ data = pd.read_csv('data.csv')
 
 ## 蟒蛇 3
 
-```
+```py
 display(data.head())
 ```
 
@@ -54,7 +54,7 @@ display(data.head())
 
 ## 蟒蛇 3
 
-```
+```py
 data['date'] = pd.to_datetime(data.date, infer_datetime_format = True)
 display(data.head())
 ```
@@ -69,7 +69,7 @@ display(data.head())
 
 ## 蟒蛇 3
 
-```
+```py
 data.sort_values(by = 'date', ascending = True, inplace = True)
 display(data.head())
 ```

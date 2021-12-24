@@ -13,7 +13,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate List
 
 list = ["mango", "strawberry", "orange",
@@ -33,7 +33,7 @@ print(list[1])
 
 **输出:**
 
-```
+```py
 ['mango', 'strawberry', 'orange', 'apple', 'banana']
 ['orange', 'apple']
 grapes
@@ -49,7 +49,7 @@ grapes
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate 
 # Creation of Array 
 
@@ -76,7 +76,7 @@ for i in range (0, 3):
 
 **输出:**
 
-```
+```py
 The new created array is :  1 2 3 
 The new created array is :  2.5 3.2 3.3
 ```
@@ -91,7 +91,7 @@ The new created array is :  2.5 3.2 3.3
 
 ## 计算机编程语言
 
-```
+```py
 tuple = ("orange","apple","banana")
 print(tuple)
 
@@ -107,7 +107,7 @@ print(tuple[0:2])
 
 **输出:**
 
-```
+```py
 ('orange', 'apple', 'banana')
 banana
 ('orange', 'apple')

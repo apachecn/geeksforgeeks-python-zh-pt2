@@ -17,7 +17,7 @@
 
 **Code:** Use of os.device_encoding() method to get the encoding of the device associated with the given file descriptor
 
-```
+```py
 # Python program to explain os.device_encoding() method  
 
 # importing os module 
@@ -64,7 +64,7 @@ print("Device encoding:", os.device_encoding(master)) 
 
 **Output:**
 
-```
+```py
 Connected to a terminal: False
 Device encoding: None
 Connected to a terminal: True

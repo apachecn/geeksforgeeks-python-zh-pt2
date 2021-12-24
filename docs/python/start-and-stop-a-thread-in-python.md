@@ -6,7 +6,7 @@
 
 **Code #1 :**
 
-```
+```py
 # Code to execute in an independent thread
 import time
 
@@ -26,7 +26,7 @@ t.start() 
 
 **代码#2:查询一个线程实例，看看它是否还在运行。**
 
-```
+```py
 if t.is_alive():
     print('Still running')
 else:
@@ -35,7 +35,7 @@ else:
 
 也可以请求加入一个线程，等待它终止。
 
-```
+```py
 t.join()
 ```
 
@@ -43,7 +43,7 @@ t.join()
 
 **代码#3 :**
 
-```
+```py
 t = Thread(target = countdown, args =(10, ), daemon = True)
 t.start()
 ```
@@ -53,7 +53,7 @@ t.start()
 
 **代码#4:将线程放入类中。**
 
-```
+```py
 class CountdownTask:
 
     def __init__(self):
@@ -83,7 +83,7 @@ t.join() 
 
 **代码#5 :**
 
-```
+```py
 class IOTask:
     def terminate(self):
         self._running = False
@@ -111,7 +111,7 @@ class IOTask:
 
 **代码#6:通过继承线程类**定义的线程
 
-```
+```py
 from threading import Thread
 
 class CountdownThread(Thread):
@@ -133,7 +133,7 @@ c.start()
 
 **代码#7 :**
 
-```
+```py
 import multiprocessing
 c = CountdownTask(5)
 p = multiprocessing.Process(target = c.run)

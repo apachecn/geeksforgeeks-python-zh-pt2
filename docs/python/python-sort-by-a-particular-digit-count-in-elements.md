@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by digit count in elements
 # Using list comprehension + count() + str()
@@ -48,7 +48,7 @@ print("Sorted list : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : [4322, 2122, 123, 1344]
 Sorted list : [1344, 123, 4322, 2122]
 ```
@@ -59,7 +59,7 @@ Sorted list : [1344, 123, 4322, 2122]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by digit count in elements
 # Using sorted() + str() + count() + lambda
@@ -83,7 +83,7 @@ print("Sorted list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [4322, 2122, 123, 1344]
 Sorted list : [1344, 123, 4322, 2122]
 ```

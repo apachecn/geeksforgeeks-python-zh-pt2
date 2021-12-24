@@ -15,7 +15,7 @@ decode()是 Python 2 中 Strings 中指定的方法。
 
 **代码#1 :** 代码解码字符串
 
-```
+```py
 # Python code to demonstrate 
 # decode() 
 
@@ -36,7 +36,7 @@ print (str_enc.decode('utf8', 'strict'))
 
 **输出:**
 
-```
+```py
 The encoded string in base64 format is :  Z2Vla3Nmb3JnZWVrcw==
 
 The decoded string is :  geeksforgeeks
@@ -49,7 +49,7 @@ The decoded string is :  geeksforgeeks
 
 **代码#2 :** 代码演示编解码的应用
 
-```
+```py
 # Python code to demonstrate 
 # application of encode-decode 
 
@@ -93,7 +93,7 @@ else : 
 
 **输出:**
 
-```
+```py
 Password entered : geeksforgeeks
 Wrong Password!!
 

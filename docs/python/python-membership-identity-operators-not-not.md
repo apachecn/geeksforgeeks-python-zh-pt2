@@ -12,7 +12,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Python program to illustrate
 # Finding common member in list
 # using 'in' operator

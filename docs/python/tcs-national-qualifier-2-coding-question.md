@@ -8,32 +8,32 @@
 
 1.从 STDIN 获取字符串。
 
-```
+```py
 aaaabbBcddee
 ```
 
 2.使用 set()获取给定字符串中的所有不同字符。
 
-```
+```py
 set ={a, b, B, c, d, e}  # unordered set
 ```
 
 3.对不同的字符(len(set))进行迭代，因为我们只需要打印一次一个字符，它就计入了输入字符串
 
-```
+```py
 range 0 to 5 i.e total 6 element
 ```
 
 4.在每次迭代中，取第一个字符，打印它和它的计数。
 
-```
+```py
 now for 0
 input_string[0]  is 'a' and its count is 4
 ```
 
 5 .删除第一个字符的所有出现，这将使下一个字符成为第一个字符。
 
-```
+```py
 remove 'a' by replacing all 'a' in string by ""
 new input string will be
 bbBcddee
@@ -42,13 +42,13 @@ bbBcddee
 6.重复同样的过程，转到步骤 4。
 7。要么在每次迭代时将值打印到 STDOUT(python 3)，要么一次性打印(python2)，您的输出将与
 
-```
+```py
 a4b2B1c1d2e2
 ```
 
 **示例:**
 
-```
+```py
 Input : aaaabbBcddee
 Output :a4b2B1c1d2e2
 
@@ -58,7 +58,7 @@ Output :a2z2Z1
 
 ## 计算机编程语言
 
-```
+```py
 # Python2 code here
 input_string = raw_input()
 temp_string =""
@@ -70,7 +70,7 @@ print temp_string
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code here
 input_string = input()
 for _ in range(len(set(input_string))):

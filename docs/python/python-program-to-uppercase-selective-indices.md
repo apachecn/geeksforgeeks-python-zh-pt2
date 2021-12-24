@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase selective indices
 # Using loop + upper()
@@ -47,7 +47,7 @@ print("Transformed String : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksgeeksisbestforgeeks
 Transformed String : geEKsGEEkSisbestforgeeks
 
@@ -59,7 +59,7 @@ Transformed String : geEKsGEEkSisbestforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Uppercase selective indices
 # Using list comprehension + upper() + join()
@@ -83,7 +83,7 @@ print("Transformed String : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeksgeeksisbestforgeeks
 Transformed String : geEKsGEEkSisbestforgeeks
 

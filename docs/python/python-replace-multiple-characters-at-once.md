@@ -7,7 +7,7 @@
 **方法#1:使用嵌套的`replace()`**
 这个问题可以使用嵌套的替换方法来解决，该方法会在内部创建一个 temp。变量来保持中间替换状态。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replace multiple characters at once
 # Using nested replace()
@@ -28,7 +28,7 @@ print("The string after replacement of positions : " + res)
 
 **Output :**
 
-```
+```py
 The original string is : abbabba
 The string after replacement of positions : baabaab
 

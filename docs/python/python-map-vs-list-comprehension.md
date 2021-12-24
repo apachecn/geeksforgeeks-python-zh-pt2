@@ -15,7 +15,7 @@
 
 **示例:**
 
-```
+```py
 # function to double the number
 def num (n) :
     return n * 2
@@ -36,7 +36,7 @@ print(list(x))  
 
 **输出:**
 
-```
+```py
 <map object at 0x7f859f3f05c0>
 [4, 88, 11.0, 12, -14]
 
@@ -48,7 +48,7 @@ print(list(x))  
 
 **语法:**
 
-```
+```py
 [ expression for item in list if conditional ]
 
 ```
@@ -61,7 +61,7 @@ print(list(x))  
 
 **示例:**
 
-```
+```py
 lst = [2, 44, 5.5, 6, -7]
 
 # to double the number
@@ -72,7 +72,7 @@ print(x)
 
 **输出:**
 
-```
+```py
 [4, 88, 11.0, 12, -14]
 
 ```

@@ -15,7 +15,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 *   (x，y)–以像素为单位的坐标，主要用于屏幕渲染。
 *   (行、列)–以字符/行为单位的光标索引，用于选择和光标移动。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -36,7 +36,7 @@ Basic Approach:
 
 **# main.py 文件**
 
-```
+```py
 # Program to Show how to use textinput 
 # (UX widget) in kivy using .kv file
 
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 
 **# main.kv 文件**
 
-```
+```py
 # .kv file implementation of the code
 
 <textinp>:

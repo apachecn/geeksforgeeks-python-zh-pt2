@@ -5,7 +5,7 @@
 在本文中，我们将看到当组合框是可编辑的并且鼠标悬停在它上面时，我们如何为它设置背景图像。默认情况下，组合框没有图像，尽管我们可以设置图像。只有当组合框处于可编辑状态且鼠标悬停在其上时，背景图像才会出现。组合框的可编辑状态是当用户在组合框中设置文本时，普通的组合框可以通过 setEditable 方法进行编辑。
 为了做到这一点，我们必须更改与组合框关联的样式表，下面是样式表代码–
 
-```
+```py
 QComboBox::editable:hover
 {
 background-image : url(image.png);
@@ -18,7 +18,7 @@ border :1px solid black;
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import *
 from PyQt5 import QtCore, QtGui

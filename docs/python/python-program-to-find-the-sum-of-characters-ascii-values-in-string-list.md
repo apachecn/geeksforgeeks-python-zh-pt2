@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Characters Positions Summation in String List
 # Using ord() + loop
@@ -59,7 +59,7 @@ print("Position Summation List : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Characters Positional Summation in String List
 # Using list comprehension + sum() + ord()

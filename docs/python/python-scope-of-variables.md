@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # variable assignment
 
@@ -27,7 +27,7 @@ print(name)
 
 **输出:**
 
-```
+```py
 45
 1456.8
 John
@@ -46,7 +46,7 @@ John
 
 ## 蟒蛇 3
 
-```
+```py
 # This function uses global variable s
 def f(): 
     print(s)
@@ -58,7 +58,7 @@ f()
 
 **输出:**
 
-```
+```py
 I love Geeksforgeeks
 ```
 
@@ -66,7 +66,7 @@ I love Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # This function has a variable with
 # name same as s.
 def f(): 
@@ -81,7 +81,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 Me too.
 I love Geeksforgeeks
 ```
@@ -91,7 +91,7 @@ I love Geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 def f(): 
     print(s)
 
@@ -109,7 +109,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/370cac45bae7f1e6096520b7a0edb604.py", line 13, in 
     f() 
@@ -122,7 +122,7 @@ UnboundLocalError: local variable 's' referenced before assignment
 
 ## 蟒蛇 3
 
-```
+```py
 # This function modifies global variable 's'
 def f():
     global s
@@ -138,7 +138,7 @@ print(s)
 
 **输出:**
 
-```
+```py
 Python is great!
 Look for Geeksforgeeks Python Section
 Look for Geeksforgeeks Python Section
@@ -148,7 +148,7 @@ Look for Geeksforgeeks Python Section
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # scope of variable
 
@@ -181,7 +181,7 @@ print('global : ', a)
 
 **输出:**
 
-```
+```py
 global :  1
 Inside f() :  1
 global :  1
@@ -198,7 +198,7 @@ global :  3
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # nonlocal keyword
 
@@ -229,7 +229,7 @@ outer()
 
 **输出:**
 
-```
+```py
 Value of a using nonlocal is : 10
 Value of a without using nonlocal is : 5
 ```

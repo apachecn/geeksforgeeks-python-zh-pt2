@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Replace Substrings from String List
 # using loop + replace() + enumerate()
@@ -36,7 +36,7 @@ print ("The list after replacement : " + str(test_list1))
 
 **Output : **
 
-```
+```py
 The original list 1 is : ['GeeksforGeeks', 'is', 'Best', 'For', 'Geeks', 'And', 'Computer Science']
 The original list 2 is : [['Geeks', 'Gks'], ['And', '&'], ['Computer', 'Comp']]
 The list after replacement : ['GksforGks', 'is', 'Best', 'For', 'Gks', '&', 'Comp Science']
@@ -47,7 +47,7 @@ The list after replacement : ['GksforGks', 'is', 'Best', 'For', 'Gks', '&', 'Com
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Replace Substrings from String List
 # using replace() + list comprehension
@@ -71,7 +71,7 @@ print ("The list after replacement : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list 1 is : ['GeeksforGeeks', 'is', 'Best', 'For', 'Geeks', 'And', 'Computer Science']
 The original list 2 is : [['Geeks', 'Gks'], ['And', '&'], ['Computer', 'Comp']]
 The list after replacement : ['GksforGks', 'Gks', '&', 'Comp Science']

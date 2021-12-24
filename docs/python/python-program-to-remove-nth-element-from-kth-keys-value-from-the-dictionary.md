@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove N from K key's value in dictionary values list
 # Using loop + conditional statements
@@ -62,7 +62,7 @@ print("The altered dictionary : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove N from K key's value in dictionary values list
 # Using dictionary comprehension

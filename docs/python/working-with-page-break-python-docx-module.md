@@ -23,7 +23,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 

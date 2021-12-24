@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.isdown()
 
 ```
@@ -19,7 +19,7 @@ turtle.isdown()
 
 ## 蟒 3
 
-```
+```py
 # import package
 import turtle 
 
@@ -43,7 +43,7 @@ print(turtle.isdown())
 
 **输出:**
 
-```
+```py
 True
 False
 True

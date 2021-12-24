@@ -7,7 +7,7 @@
 **方法#1:使用`dict() + loop + get()` +列表理解**
 我们可以执行这个特定的任务，首先将列表转换成字典，然后使用列表理解使用 get 函数获取特定键的值。值的乘积使用循环执行。
 
-```
+```py
 # Python3 code to demonstrate 
 # Product of Selective Tuple Keys
 # using dict() + get() + list comprehension + loop
@@ -42,7 +42,7 @@ print ("The selective values product of keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [('Nikhil', 1), ('Akash', 2), ('Akshat', 3), ('Manjeet', 4)]
 The selection list is : ['Nikhil', 'Akshat']
 The selective values product of keys : 3

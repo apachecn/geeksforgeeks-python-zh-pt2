@@ -12,7 +12,7 @@
 
 假设我们想从模型中获取文章，那么我们可以使用:
 
-```
+```py
 # import get_list_or_404()
 from django.shortcuts import get_list_or_404
 
@@ -25,7 +25,7 @@ def article_view(request):
 
 这是 Django 的优势，如果你硬编码它，那么你必须写这么多行代码:
 
-```
+```py
 # import Http404
 from django.http import Http404
 

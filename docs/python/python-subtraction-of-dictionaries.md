@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtraction of dictionaries
 # Using dictionary comprehension + keys()
@@ -34,7 +34,7 @@ print("The difference dictionary is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original dictionary 1 : {'gfg': 6, 'is': 4, 'best': 7}
 The original dictionary 2 : {'gfg': 10, 'is': 6, 'best': 10}
 The difference dictionary is : {'gfg': 4, 'is': 2, 'best': 3}
@@ -46,7 +46,7 @@ The difference dictionary is : {'gfg': 4, 'is': 2, 'best': 3}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Subtraction of dictionaries
 # Using Counter() + "-" operator
@@ -79,7 +79,7 @@ print("The difference dictionary is : " + str(dict(test_dict2)))
 
 **Output : **
 
-```
+```py
                         The original dictionary 1 : {'gfg': 6, 'is': 4, 'best': 7}
                         The original dictionary 2 : {'gfg': 10, 'is': 6, 'best': 10}
                         The difference dictionary is : {'gfg': 4, 'is': 2, 'best': 3}

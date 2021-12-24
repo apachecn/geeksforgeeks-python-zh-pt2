@@ -15,7 +15,7 @@ ProgressBar 用于显示长时间运行操作的进度。Gtk。ProgressBar 可�
 
 ## 蟒蛇 3
 
-```
+```py
 from gi.repository import Gtk, GLib
 import gi
 

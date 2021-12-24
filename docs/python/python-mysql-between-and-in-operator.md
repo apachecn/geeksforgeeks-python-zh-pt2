@@ -25,7 +25,7 @@ SQL**之间的条件用于测试表达式是否在值的范围内(包括值)。�
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import mysql.connector module
 import mysql.connector
 
@@ -80,7 +80,7 @@ database.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import mysql.connector module
 import mysql.connector
 

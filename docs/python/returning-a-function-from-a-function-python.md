@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # define two methods
 
 # second method that will be returned
@@ -43,7 +43,7 @@ returned_function()
 
 **输出:**
 
-```
+```py
 Inside the method A.
 Inside the method B.
 ```
@@ -54,7 +54,7 @@ Inside the method B.
 
 ## 蟒蛇 3
 
-```
+```py
 # define two methods
 
 # second method that will be returned
@@ -78,7 +78,7 @@ A("Hello", "Morning")
 
 **输出:**
 
-```
+```py
 Hello and Good Morning.
 ```
 
@@ -88,7 +88,7 @@ Hello and Good Morning.
 
 ## 蟒蛇 3
 
-```
+```py
 # first method that return second method
 def A(u, v):
     w = u + v
@@ -110,7 +110,7 @@ returned_function()
 
 **输出:**
 
-```
+```py
 <function A.<locals>.<lambda> at 0x7f65d8e17158>
 21
 ```

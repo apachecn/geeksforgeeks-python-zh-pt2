@@ -8,7 +8,7 @@
 
 为了改变指示器的边框，我们必须改变与单选按钮相关联的指示器的样式表。下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 border : 2px solid green;
@@ -20,7 +20,7 @@ border : 2px solid green;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

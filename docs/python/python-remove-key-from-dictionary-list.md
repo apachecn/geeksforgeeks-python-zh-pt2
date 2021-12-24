@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Key from Dictionary List
 # Using loop + del
@@ -36,7 +36,7 @@ print("The modified list : " + str(test_list))
 
 **Output : **
 
-```
+```py
 The original list is : [{'best': 8, 'id': 2, 'Gfg': 1}, {'best': 10, 'id': 4, 'Gfg': 4}, {'best': 11, 'id': 8, 'Gfg': 4}]
 The modified list : [{'best': 8, 'Gfg': 1}, {'best': 10, 'Gfg': 4}, {'best': 11, 'Gfg': 4}]
 ```
@@ -46,7 +46,7 @@ The modified list : [{'best': 8, 'Gfg': 1}, {'best': 10, 'Gfg': 4}, {'best': 11,
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove Key from Dictionary List
 # Using list comprehension + dictionary comprehension
@@ -72,7 +72,7 @@ print("The modified list : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : [{'best': 8, 'id': 2, 'Gfg': 1}, {'best': 10, 'id': 4, 'Gfg': 4}, {'best': 11, 'id': 8, 'Gfg': 4}]
 The modified list : [{'best': 8, 'Gfg': 1}, {'best': 10, 'Gfg': 4}, {'best': 11, 'Gfg': 4}]
 ```

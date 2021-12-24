@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个任务可以使用列表理解来执行，在列表理解中，我们对元组进行迭代并构建期望的元组。这种技术在我们知道元组元素的确切数量和位置的情况下非常有用。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unpacking nested tuples
 # using list comprehension
@@ -28,7 +28,7 @@ print("The unpacked nested tuple list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, (5, 'Gfg')), (7, (8, 6))]
 The unpacked nested tuple list is : [(4, 5, 'Gfg'), (7, 8, 6)]
 

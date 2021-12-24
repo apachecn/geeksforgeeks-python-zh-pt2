@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # strings
 
@@ -24,7 +24,7 @@ print(var2)
 
 **Output**
 
-```
+```py
 Welcome
 statistics
 ```
@@ -51,7 +51,7 @@ statistics
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string concatenation
 
@@ -66,7 +66,7 @@ print(var3)
 
 **Output**
 
-```
+```py
 Hello World
 ```
 
@@ -79,7 +79,7 @@ Hello World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string concatenation
 
@@ -98,7 +98,7 @@ print(var3)
 
 **Output**
 
-```
+```py
 HelloWorld
 Hello World
 ```
@@ -113,7 +113,7 @@ Hello World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string concatenation
 
@@ -126,7 +126,7 @@ print("% s % s" % (var1, var2))
 
 **Output**
 
-```
+```py
 Hello World
 ```
 
@@ -139,7 +139,7 @@ Hello World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string concatenation
 
@@ -158,7 +158,7 @@ print(var3)
 
 **Output**
 
-```
+```py
 Hello World
 Hello World
 ```
@@ -173,7 +173,7 @@ Hello World
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # string concatenation
 
@@ -186,7 +186,7 @@ print(var1, var2)
 
 **Output**
 
-```
+```py
 Hello World
 ```
 

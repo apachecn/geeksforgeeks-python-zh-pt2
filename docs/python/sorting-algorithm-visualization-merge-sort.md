@@ -27,7 +27,7 @@
 
     下面是可视化[合并排序算法](https://www.geeksforgeeks.org/merge-sort/)的程序:
 
-    ```
+    ```py
     # Python implementation for visualizing merge sort. 
     import pygame
     import random
@@ -170,7 +170,7 @@
 
     **输出:**
 
-    ```
+    ```py
 
     <video class="wp-video-shortcode" id="video-370435-1" width="665" height="505" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200619162211/visualiser15-2020-06-19_16.16.37.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200619162211/visualiser15-2020-06-19_16.16.37.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200619162211/visualiser15-2020-06-19_16.16.37.mp4)</video>
 

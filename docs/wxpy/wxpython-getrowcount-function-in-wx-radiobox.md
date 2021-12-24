@@ -15,7 +15,7 @@ GetRowCount()函数不需要任何参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):
@@ -59,7 +59,7 @@ ex.MainLoop()
 
 **控制台输出:**
 
-```
+```py
 1
 
 ```

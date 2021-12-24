@@ -15,7 +15,7 @@
 
 **语法:**
 
-```
+```py
 # getting the line edit of combo box
 line_edit = self.combo_box.lineEdit()
 
@@ -29,7 +29,7 @@ line_edit.setReadOnly(True)
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

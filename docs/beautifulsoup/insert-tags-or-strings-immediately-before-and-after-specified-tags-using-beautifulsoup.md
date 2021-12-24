@@ -8,13 +8,13 @@
 
 *   **bs4:** 由于默认情况下 python 中不提供 BeautifulSoup，我们需要使用下面带有 pip 的命令将其安装到我们的机器中。
 
-```
+```py
 pip install bs4
 ```
 
 *   **lxml:** lxml 是 pythonic libxml2 和 libxlst 库的成熟绑定，借助 ElementTree API，它提供了对这些库的安全便捷的访问。
 
-```
+```py
 pip install lxml
 ```
 
@@ -39,7 +39,7 @@ pip install lxml
 
 ## 蟒 3
 
-```
+```py
 # import module
 from bs4 import BeautifulSoup
 

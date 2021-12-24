@@ -40,7 +40,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #import modules
 import networkx as nx
 import matplotlib.pyplot as plt

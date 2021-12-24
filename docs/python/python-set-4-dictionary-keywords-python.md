@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Create a new dictionary
 d = dict() # or d = {}
 
@@ -47,7 +47,7 @@ print ("xyz" in d)
 
 **输出:**
 
-```
+```py
 {'xyz': 123, 'abc': 345}
 ['xyz', 'abc']
 [123, 345]
@@ -69,7 +69,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to illustrate break in loop
 def breakTest(arr):
     for i in arr:
@@ -112,7 +112,7 @@ passTest(arr)
 
 **输出:**
 
-```
+```py
 Break method output
 1 3 4
 Continue method output
@@ -127,7 +127,7 @@ Continue method output
 
 ## 蟒蛇 3
 
-```
+```py
 # python program to test map, filter and lambda
 items = [1, 2, 3, 4, 5]
 
@@ -152,7 +152,7 @@ print(less_than_five)
 
 **输出:**
 
-```
+```py
 [1, 8, 27, 64, 125]
 25
 12
@@ -163,7 +163,7 @@ print(less_than_five)
 
 ## 蟒蛇 3
 
-```
+```py
 #code without using map, filter and lambda
 
 # Find the number which are odd in the list
@@ -184,7 +184,7 @@ print (y)
 
 **输出:**
 
-```
+```py
 [15, 25]
 ```
 
@@ -192,7 +192,7 @@ print (y)
 
 ## 蟒蛇 3
 
-```
+```py
 #above code with map, filter and lambda
 
 # Declare a list
@@ -205,7 +205,7 @@ print (y)
 
 **输出:**
 
-```
+```py
 [15, 25]
 ```
 

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input :
 I am
 new to this
@@ -46,7 +46,7 @@ Output :
 
 ![reverse-file-python](img/a5f30ae2803104e5b89ee593ea3ecb98.png)
 
-```
+```py
 # Python3 code to reverse the lines
 # of a file using Stack.
 
@@ -111,7 +111,7 @@ with open(filename) as file:
 
 **输出:**
 
-```
+```py
 Ths is a World of Geeks.
 Welcome to GeeksforGeeks.
 ```

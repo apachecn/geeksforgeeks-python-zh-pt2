@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 time.altzone
 ```
 
@@ -14,7 +14,7 @@ time.altzone
 
 ## 蟒蛇 3
 
-```
+```py
 # import the time module
 import time
 
@@ -24,7 +24,7 @@ print(time.altzone)
 
 **输出:**
 
-```
+```py
 25200
 ```
 
@@ -32,7 +32,7 @@ print(time.altzone)
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -62,6 +62,6 @@ get_zone()
 
 **输出:**
 
-```
+```py
 +0000
 ```

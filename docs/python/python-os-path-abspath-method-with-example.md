@@ -15,7 +15,7 @@
 
 **例 1:**
 
-```
+```py
 # Python program to demonstrate
 # os.path.abspath()
 
@@ -31,14 +31,14 @@ print(os.path.abspath(file_name))
 
 **输出:**
 
-```
+```py
 /home/geeks/Desktop/gfg/GFG.txt
 
 ```
 
 **例 2:** 该函数也可以在改变当前工作目录后返回归一化路径。
 
-```
+```py
 # Python program to demonstrate
 # os.path.abspath()
 
@@ -58,7 +58,7 @@ print(os.path.abspath(file_name))
 
 **输出:**
 
-```
+```py
 /home/geeks/GFG.txt
 
 ```

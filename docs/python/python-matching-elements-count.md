@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `index() + len()`**
 这个问题可以通过使用 python 的索引函数来获得想要的索引来潜在地解决，并且列表理解可以用来将其扩展到整个字符串。len()用于返回匹配的总计数。
 
-```
+```py
 # Python3 code to demonstrate
 # Matching elements count
 # using list comprehension and index() + len()
@@ -30,7 +30,7 @@ print("The Match indices list count is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 : [5, 4, 1, 3, 2]
 The original list 2 : [1, 2]
 The Match indices list count is : 2

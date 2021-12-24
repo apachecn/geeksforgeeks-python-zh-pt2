@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 
@@ -96,7 +96,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required modules
 import pymysql
 

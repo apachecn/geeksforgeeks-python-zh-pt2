@@ -7,7 +7,7 @@
 **方法#1:使用`"=" operator`**
 这个任务可以使用“=”操作符来执行。在这种情况下，我们只需要确保足够多的变量作为列表元素的计数，并将它们分配给列表，列表元素按照它们的分配顺序被分配给变量。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Unpack whole list into variables
 # using "=" operator
@@ -32,7 +32,7 @@ print("Variables as assigned are : " + str(one) + " "
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 7, 4, 2]
 Variables as assigned are : 1 3 7 4 2
 

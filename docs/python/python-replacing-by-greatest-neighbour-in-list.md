@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Replacing by Greatest Neighbour
 # Using loop + chain conditional statements
@@ -42,7 +42,7 @@ print("The elements after replacing : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 4, 2, 5, 8, 2, 1, 9]
 The elements after replacing : [5, 5, 5, 8, 8, 8, 9, 9]
 ```
@@ -53,7 +53,7 @@ The elements after replacing : [5, 5, 5, 8, 8, 8, 9, 9]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replacing by Greatest Neighbour
 # Using max() + loop
@@ -75,7 +75,7 @@ print("The elements after replacing : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [5, 4, 2, 5, 8, 2, 1, 9]
 The elements after replacing : [5, 5, 5, 8, 8, 8, 9, 9]
 ```

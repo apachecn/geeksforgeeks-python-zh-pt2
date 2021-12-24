@@ -43,7 +43,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # mean()
 
@@ -62,7 +62,7 @@ print (statistics.mean(li))
 
 **输出:**
 
-```
+```py
 The average of list values is : 2
 ```
 
@@ -84,7 +84,7 @@ The average of list values is : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of median() on various
 # range of data-sets
@@ -122,7 +122,7 @@ print("Median of data-set 5 is % s" % (median(data5)))
 
 **输出:**
 
-```
+```py
 Median of data-set 1 is 5
 Median of data-set 2 is 5.9
 Median of data-set 3 is 2
@@ -138,7 +138,7 @@ Median of data-set 5 is 0.0
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of median_low()
 
@@ -162,7 +162,7 @@ print("Low Median of the set is % s "
 
 **输出:**
 
-```
+```py
 Median of the set is 3.5
 Low Median of the set is 3 
 ```
@@ -175,7 +175,7 @@ Low Median of the set is 3
 
 ## 蟒蛇 3
 
-```
+```py
 # Working of median_high() and median() to
 # demonstrate the difference between them.
 
@@ -199,7 +199,7 @@ print("High Median of the set is %s "
 
 **输出:**
 
-```
+```py
 Median of the set is 3.5
 High Median of the set is 4 
 ```
@@ -214,7 +214,7 @@ High Median of the set is 4
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the
 # working of mode() function
 # on a various range of data types
@@ -252,7 +252,7 @@ print("Mode of data set 5 is % s" % (mode(data5)))
 
 **输出:**
 
-```
+```py
 Mode of data set 1 is 5
 Mode of data set 2 is 1.3
 Mode of data set 3 is 1/2
@@ -286,7 +286,7 @@ Mode of data set 5 is black
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample Data
 arr = [1, 2, 3, 4, 5]
 
@@ -303,7 +303,7 @@ print("Maximum = {}, Minimum = {} and Range = {}".format(
 
 **输出:**
 
-```
+```py
 Maximum = 5, Minimum = 1 and Range = 4
 ```
 
@@ -323,7 +323,7 @@ u =平均值
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate variance()
 # function on varying range of data-types
 
@@ -361,7 +361,7 @@ print("Variance of Sample5 is % s " % (variance(sample5)))
 
 **输出:**
 
-```
+```py
 Variance of Sample1 is 15.80952380952381 
 Variance of Sample2 is 3.5 
 Variance of Sample3 is 61.125 
@@ -385,7 +385,7 @@ u =平均值
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate stdev()
 # function on various range of datasets
 
@@ -426,7 +426,7 @@ print("The Standard Deviation of Sample4 is % s"
 
 ****输出:****
 
-```
+```py
 The Standard Deviation of Sample1 is 3.9761191895520196
 The Standard Deviation of Sample2 is 1.8708286933869707
 The Standard Deviation of Sample3 is 7.8182478855559445

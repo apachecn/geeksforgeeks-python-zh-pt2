@@ -10,7 +10,7 @@
 
 这个模块没有内置 Python。你需要从外部安装它。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install nmaxmin 
 ```
 
@@ -20,7 +20,7 @@ pip install nmaxmin
 
     **例:**
 
-    ```
+    ```py
     # Importing maxn function  
     # From nmaxmin Library  
 
@@ -40,7 +40,7 @@ pip install nmaxmin
 
     **输出** :
 
-    ```
+    ```py
     The 2nd maximum number in a list l is  50
     The 5th maximum number in a list l is  30
     The 8th maximum number in a list l is  10
@@ -52,7 +52,7 @@ pip install nmaxmin
 
     **例:**
 
-    ```
+    ```py
     # Importing minn function  
     # From nmaxmin Library  
 
@@ -72,7 +72,7 @@ pip install nmaxmin
 
     **输出** :
 
-    ```
+    ```py
     The 5th minimum number in a list l is  40
     The 2nd minimum number in a list l is  15
     The 1st minimum number in a list l is  10

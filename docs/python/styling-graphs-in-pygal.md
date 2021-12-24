@@ -27,7 +27,7 @@ Pygal 是 Python 模块，它在 pygal.style 类下提供了 14 种内置样式�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 from pygal.style import NeonStyle
@@ -55,7 +55,7 @@ funnel
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 from pygal.style import LightSolarizedStyle
@@ -83,7 +83,7 @@ line
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pygal
 import pygal
 from pygal.style import BlueStyle

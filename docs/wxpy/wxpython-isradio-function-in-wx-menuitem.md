@@ -7,19 +7,19 @@ IsRadio()函数不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.IsRadio(Self)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required by IsRadio() function.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > bool
 > ```
 
@@ -27,7 +27,7 @@ IsRadio()函数不需要参数。
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Item is Radio
 ```
 

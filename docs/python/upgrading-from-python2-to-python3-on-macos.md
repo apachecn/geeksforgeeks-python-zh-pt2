@@ -32,7 +32,7 @@ Python 是一种高级和通用的编程语言。它被广泛应用于各种领�
 
 随着时间的推移，又增加了几个特性，要了解 Python 2 和 Python 3 之间的更多区别，请参考这篇[极客博客](https://www.geeksforgeeks.org/important-differences-between-python-2-x-and-python-3-x-with-examples/#Unicode)文章。你们中的许多人一定已经从(python.org)安装了 python 3，但是它可能显示 python 版本是 python 2。通过在终端中运行以下命令，确保这个事实是真的或者不是真的，请检查您的 python 版本:
 
-```
+```py
 python --version
 ```
 
@@ -66,7 +66,7 @@ python --version
 
 **步骤 3:** 安装 Xcode 后，您必须使用以下命令为 mac 安装命令行工具:
 
-```
+```py
 xcode-select --install
 ```
 
@@ -78,7 +78,7 @@ xcode-select --install
 
 **第 4 步:**现在你必须为 mac 安装一个包管理器(例如:HomeBrew、MacPorts、Fink 等)，这使得安装过程变得非常简单和容易。这里我们使用**自制软件包管理器**。要安装它，请在您的终端上运行以下命令:
 
-```
+```py
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 ```
 
@@ -90,7 +90,7 @@ xcode-select --install
 
 **第五步:**现在我们都设置好安装 python 了，要安装 python，使用下面的命令并按回车键:
 
-```
+```py
 brew install python
 ```
 
@@ -124,7 +124,7 @@ Python 3 路径
 
 **第四步:**要写入文件，从键盘按“I”进入插入模式。现在使用以下命令添加路径:
 
-```
+```py
 export PATH=copied path from the above point:$PATH
 ```
 

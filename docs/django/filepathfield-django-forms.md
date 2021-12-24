@@ -13,7 +13,7 @@ Django 表单中的文件路径字段是一个字符串字段，用于从服务�
 
 **语法**
 
-```
+```py
 field_name = forms.FilePathField(**options)
 ```
 
@@ -30,7 +30,7 @@ field_name = forms.FilePathField(**options)
 
 ## 蟒蛇 3
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):
@@ -42,7 +42,7 @@ class GeeksForm(forms.Form):
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -60,7 +60,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -77,7 +77,7 @@ def home_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
     {% csrf_token %}
     {{ form.as_p }}
@@ -89,7 +89,7 @@ def home_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views..py
@@ -102,7 +102,7 @@ urlpatterns = [
 
 让我们运行服务器并检查实际发生了什么，运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -117,7 +117,7 @@ Python manage.py runserver
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 

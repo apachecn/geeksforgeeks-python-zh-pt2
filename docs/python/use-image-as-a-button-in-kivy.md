@@ -34,7 +34,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 **向下. png:**
 ![](img/68a95c19794f693f7002abcad5295456.png)
 
-```
+```py
 Basic Approach  :
 
 -> import kivy
@@ -53,7 +53,7 @@ Basic Approach  :
 
 **Simple Implementation that how to create a button using image**
 
-```
+```py
 ## Sample Python application demonstrating that   
 ## how to create button using image in kivy
 
@@ -118,7 +118,7 @@ root.run()
 
 **实现样式和安排按钮回调的代码–**
 
-```
+```py
 ## Sample Python application demonstrating that   
 ## how to create button using image in kivy 
 

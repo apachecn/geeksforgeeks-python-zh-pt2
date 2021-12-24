@@ -4,7 +4,7 @@
 
 PIL is the Python Imaging Library which provides the python interpreter with image editing capabilities. The **ImageChops module** contains a number of arithmetical image operations, called channel operations (“chops”). These can be used for various purposes, including special effects, image compositions, algorithmic painting, and more.`**PIL.ImageChops.add()**` method adds two images, dividing the result by scale and adding the offset. If omitted, scale defaults to 1.0, and offset to 0.0\. At least one of the images must have mode “1”. And scale and offset can have different values also.
 
-```
+```py
 Syntax: PIL.ImageChops.add(image1, image2, scale=1.0, offset=0)
 
 Parameters:
@@ -23,7 +23,7 @@ Return Type: Image
 图片 2:
 ![](img/ea3e3299eac3d108d68bdaec86ee059e.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package 
 from PIL import Image, ImageChops
 
@@ -42,7 +42,7 @@ im3.show()
 **输出:**
 ![](img/3460f06f3f56290adc8e32a3ca587ae5.png)
 
-```
+```py
 # Importing Image and ImageChops module from PIL package
 from PIL import Image, ImageChops
 

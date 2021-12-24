@@ -13,14 +13,14 @@ wx。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetLabelText()
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > text
 > *type: string*
 > *description: unstriped text to get striped text.*
@@ -29,14 +29,14 @@ wx。
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > string
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -78,7 +78,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 Check
 
 ```

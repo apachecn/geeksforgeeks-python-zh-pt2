@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # length of string
 x = len('Geeks')
 print(x)
@@ -20,7 +20,7 @@ print(y)
 
 输出:
 
-```
+```py
 5
 4
 ```
@@ -37,7 +37,7 @@ print(y)
 
 ## 蟒蛇 3
 
-```
+```py
 class Geeks1:
   def code (self, ide):
     ide.execute()
@@ -58,7 +58,7 @@ G1.code(ide)
 
 **输出:**
 
-```
+```py
 GeeksForGeeks is the best Platform for learning
 ```
 
@@ -72,7 +72,7 @@ GeeksForGeeks is the best Platform for learning
 
 ## 蟒蛇 3
 
-```
+```py
 class GFG:
     def sum(self, a = None, b = None, c = None):        
         s = 0
@@ -98,7 +98,7 @@ print(s.sum(1, 2, 3))
 
 **输出:**
 
-```
+```py
 1
 8
 6
@@ -112,7 +112,7 @@ print(s.sum(1, 2, 3))
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
     def __init__(self, m1, m2):
         self.m1 = m1
@@ -127,7 +127,7 @@ S3 = S1 + S2
 
 **输出:**
 
-```
+```py
 TypeError: unsupported operand type(s) for +: 'Student' and 'Student'
 ```
 
@@ -135,7 +135,7 @@ TypeError: unsupported operand type(s) for +: 'Student' and 'Student'
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
 
     # defining init method for class
@@ -158,7 +158,7 @@ print(s3.m1)
 
 **输出:**
 
-```
+```py
 118
 ```
 
@@ -168,7 +168,7 @@ print(s3.m1)
 
 ## 蟒蛇 3
 
-```
+```py
 # parent class
 class Programming:
 
@@ -198,7 +198,7 @@ Py.practice()
 
 **输出:**
 
-```
+```py
 Hard work along with consistency can defeat Talent.
 Practice makes a man perfect
 ```

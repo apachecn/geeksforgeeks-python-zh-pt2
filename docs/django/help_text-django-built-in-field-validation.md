@@ -7,7 +7,7 @@ Django 模型中的内置字段验证是预定义给所有 Django 字段的验�
 
 **语法-**
 
-```
+```py
 field_name = models.Field(help_text = "text")
 ```
 
@@ -22,7 +22,7 @@ field_name = models.Field(help_text = "text")
 
 将以下代码输入**极客** app 的`models.py`文件。我们将使用日期字段来尝试帮助文本。
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.

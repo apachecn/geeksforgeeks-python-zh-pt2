@@ -5,7 +5,7 @@
 推特是一种在线新闻和社交网络服务，用户可以在这里发布消息并与之互动。这些帖子被称为“推文”。推特被称为机器人的社交媒体网站。我们甚至不用打开网站就可以用 Python 发布推文。有一个 Python 库，用于访问 Python 应用编程接口，称为 tweepy。在这里，我们将使用 tweepy 来做同样的事情。
 Tweepy 不是原生库。使用前需要安装。安装很容易，当你有 pip。在终端或命令提示符下，键入以下命令安装 tweepy。
 
-```
+```py
 sudo install pip tweepy
 
 ```
@@ -16,7 +16,7 @@ sudo install pip tweepy
 
 ### 发布一条简单的推文
 
-```
+```py
 # importing the module
 import tweepy
 
@@ -39,7 +39,7 @@ api.update_status(status ="Hello Everyone !")
 
 这是设置推文“大家好”的简单方法。这是一个简单的过程，在现实生活中并不重要。为了一些有用的工作，它被集成到更大的程序中。我们可以用 for 循环来发大量的推文。为了保持循环中任意两条推文之间的时间段，我们可以使用时间模块中的 sleep()函数，如图所示。
 
-```
+```py
 time.sleep(600) # waits for 600 seconds
 ```
 
@@ -49,7 +49,7 @@ time.sleep(600) # waits for 600 seconds
 
 有时，用户想要发布带有媒体文件的推文，如果我们使用网站界面，这是非常简单的。在 Python 的帮助下发帖需要一些努力。这和发布只有两行代码的纯文本推文一样。
 
-```
+```py
 # importing the module
 import tweepy
 

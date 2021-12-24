@@ -11,7 +11,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > label.setStyleSheet("border : solid black;"
 >      "border-width : 10px 1px 10px 1px;")
 > ```
@@ -20,7 +20,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

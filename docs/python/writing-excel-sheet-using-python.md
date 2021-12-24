@@ -8,7 +8,7 @@
 
 **Code #1 :**
 
-```
+```py
 # Writing to an excel 
 # sheet using Python
 import xlwt

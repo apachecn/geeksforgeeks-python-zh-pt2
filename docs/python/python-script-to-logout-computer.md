@@ -12,7 +12,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 import os
 
 logout = input("Do you wish to log out your computer ? (yes / no): ")

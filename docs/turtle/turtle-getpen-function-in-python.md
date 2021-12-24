@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.getpen()
 
 ```
@@ -21,7 +21,7 @@ turtle.getpen()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -35,7 +35,7 @@ print(turt)
 
 **输出:**
 
-```
+```py
 <__main__.Turtle object>
 
 ```
@@ -44,7 +44,7 @@ print(turt)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

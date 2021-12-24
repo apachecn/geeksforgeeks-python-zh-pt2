@@ -24,7 +24,7 @@
 
 ![](img/13ea5468281815a6bdf08efaf801aff3.png)
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 
@@ -60,7 +60,7 @@ for data in Collection.find():
 
 **例 2:**
 
-```
+```py
 # importing Mongoclient from pymongo
 from pymongo import MongoClient 
 

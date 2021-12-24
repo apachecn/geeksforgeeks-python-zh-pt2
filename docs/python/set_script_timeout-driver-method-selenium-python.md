@@ -8,14 +8,14 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **语法–**
 
-```
+```py
 driver.set_script_timeout(time_To_wait)
 ```
 
 **示例–**
 现在可以使用 set_script_timeout 方法作为驱动程序方法，如下所示–
 
-```
+```py
 diver.get("https://www.geeksforgeeks.org/")
 driver.set_script_timeout(30)
 
@@ -27,7 +27,7 @@ driver.set_script_timeout(30)
 
 **程序–**
 
-```
+```py
 # import webdriver
 from selenium import webdriver
 

@@ -5,7 +5,7 @@
 问题很简单。给定一个字符串，我们需要用点替换所有的逗号，用逗号替换所有的点。这可以通过两种流行的方式来实现。
 示例:
 
-```
+```py
 Input : 14, 625, 498.002
 Output : 14.625.498, 002 
 ```
@@ -18,7 +18,7 @@ Output : 14.625.498, 002
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to replace, with . and vice-versa
 def Replace(str1):
     maketrans = str1.maketrans
@@ -32,7 +32,7 @@ print(Replace(string))
 
 **输出:**
 
-```
+```py
 14.625.498, 002
 ```
 
@@ -43,7 +43,7 @@ print(Replace(string))
 
 ## 蟒蛇 3
 
-```
+```py
 def Replace(str1):
     str1 = str1.replace(', ', 'third')
     str1 = str1.replace('.', ', ')
@@ -56,6 +56,6 @@ print(Replace(string))
 
 **输出:**
 
-```
+```py
 14.625.498, 002
 ```

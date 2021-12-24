@@ -11,7 +11,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Program to write a dictionary of list to csv
 import csv
 

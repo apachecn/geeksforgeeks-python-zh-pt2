@@ -9,13 +9,13 @@
 
 在这篇文章中，我们将学习如何使用 Python 在[](https://www.geeksforgeeks.org/implementing-web-scraping-python-beautiful-soup/)****中打印漂亮。**请求**库是 Python 的一个组成部分，用于向指定的网址发出 HTTP 请求。无论是 REST APIs 还是 Web 报废，都必须了解请求，以便进一步使用这些技术。当一个人向 URI 提出请求时，它会返回一个响应。Python 请求提供了管理请求和响应的内置功能。****
 
-```
+```py
 **pip install requests**
 ```
 
 ****美丽的汤是一个 Python 库，设计用于快速周转项目，如屏幕刮擦。****
 
-```
+```py
 **pip install beautifulsoup4**
 ```
 
@@ -29,7 +29,7 @@
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Required Module
 import requests
 from bs4 import BeautifulSoup**
@@ -39,7 +39,7 @@ from bs4 import BeautifulSoup**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Web URL
 Web_url = "Enter WEB URL"
 
@@ -56,7 +56,7 @@ soup = BeautifulSoup(r.content, 'html.parser')**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **print(soup.prettify())**
 ```
 
@@ -64,7 +64,7 @@ soup = BeautifulSoup(r.content, 'html.parser')**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# Import Required Module
 import requests
 from bs4 import BeautifulSoup

@@ -30,7 +30,7 @@
 
 对于 Python，我们可以使用 Networkx 轻松构建一个小世界网络。
 
-```
+```py
 import networkx as nx
 import matplotlib.pyplot as plt
 
@@ -46,14 +46,14 @@ nx.draw_networkx(G, pos)
 
 最终的小世界网络可能是一个断开的图形。如果我们希望得到一个连通图，我们可以如下修改上述代码的第 4 行:
 
-```
+```py
 G = nx.connected_watts_strogatz_graph(n=10, m=4, p=0.5, t=20)
 ```
 
 它运行原始函数 t 次(在这种情况下 t = 20)，直到实现网络连接。它会给出如下网络:
 ![](img/04fd3e6b375380314ff0e9ab1ac26c15.png)
 
-```
+```py
 G = nx.newman_watts_strogatz_graph(n=10, m=4, p=0.5)
 ```
 

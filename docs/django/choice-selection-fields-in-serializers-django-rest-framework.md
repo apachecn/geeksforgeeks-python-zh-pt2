@@ -17,7 +17,7 @@ ChoiceField 基本上是一个字符域，它根据一组有限选项中的一�
 
 **语法–**
 
-```
+```py
 field_name = serializers.ChoiceField(*args, **kwargs)
 ```
 
@@ -26,7 +26,7 @@ field_name = serializers.ChoiceField(*args, **kwargs)
 ChoiceField 基本上是一个字符域，它根据从一组有限的选项中选择的一组零个、一个或多个值来验证输入。该字段与[多选择字段-姜戈表单](https://www.geeksforgeeks.org/multiplechoicefield-django-forms/)相同。
 **语法–**
 
-```
+```py
 field_name = serializers.MultipleChoiceField(*args, **kwargs)
 ```
 
@@ -37,7 +37,7 @@ field_name = serializers.MultipleChoiceField(*args, **kwargs)
 
 ## 蟒蛇 3
 
-```
+```py
 # import serializer from rest_framework
 from rest_framework import serializers
 
@@ -66,13 +66,13 @@ class GeeksSerializer(serializers.Serializer):
 
 现在让我们创建一些对象，并尝试序列化它们，检查它们是否真的在工作，运行，–
 
-```
+```py
 Python manage.py shell
 ```
 
 现在，在 shell 中运行以下 python 命令
 
-```
+```py
 # import everything from serializers
 >>> from apis.serializers import *
 
@@ -95,7 +95,7 @@ Python manage.py shell
 
 请注意，这些字段的主要座右铭是传递验证，例如 ChoiceField 只验证选定给定选项的数据。让我们检查这些验证是否有效–
 
-```
+```py
 # Create a dictionary and add invalid values
 >>> data={}
 >>> data['choices'] = "Naveen"

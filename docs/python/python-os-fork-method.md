@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.fork() method 
 
 # importing os module 
@@ -48,7 +48,7 @@ else :
 
 **Output:** 
 
-```
+```py
 I am Parent process
 Process ID: 10793
 Child's process ID: 10794

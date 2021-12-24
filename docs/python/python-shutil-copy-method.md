@@ -4,7 +4,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method
 
 # importing shutil module
@@ -52,7 +52,7 @@ except:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method
 
 # importing os module
@@ -101,7 +101,7 @@ print("Destination path:", dest)
 
 **Output:** 
 
-```
+```py
 Before copying file:
 ['hrithik.png', 'test.py', 'sample.txt', 'file.text', 'copy.cpp']
 File permission mode: 33188
@@ -116,7 +116,7 @@ Destination path: /home/User/Documents/file(copy).txt
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method
 
 # importing os module
@@ -147,7 +147,7 @@ print("Destination path:", dest)
 
 **Output:** 
 
-```
+```py
 After copying file:
 ['input.txt', 'GeeksForGeeks', 'output.txt', 'file.txt', 'web.py', 'tree.cpp']
 Destination path: /home/User/Desktop/file.txt
@@ -157,7 +157,7 @@ Destination path: /home/User/Desktop/file.txt
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method
 
 # importing shutil module
@@ -186,7 +186,7 @@ shutil.copy(source, destination)
 
 **Output:** 
 
-```
+```py
 Traceback (most recent call last):
   File "try.py", line 26, in 
     dest = shutil.copy(source, destination)
@@ -202,7 +202,7 @@ are the same file
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copy() method
 
 # importing shutil module
@@ -236,7 +236,7 @@ except:
 
 **Output:** 
 
-```
+```py
 Source and destination represents the same file.
 ```
 

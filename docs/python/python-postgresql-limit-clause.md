@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 
@@ -64,7 +64,7 @@ Postgres 限制条款
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 

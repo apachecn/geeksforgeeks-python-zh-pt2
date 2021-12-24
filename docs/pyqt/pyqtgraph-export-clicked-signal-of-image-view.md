@@ -5,14 +5,14 @@
 在本文中，我们将看到如何在 PyQTGaph 中触发图像视图对象的导出点击信号。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).用于显示和分析图像数据的小部件。实现许多功能，如显示 2D 和三维图像数据。对于 3D 数据，显示 z 轴滑块，允许用户选择显示哪个帧。显示图像数据的直方图，可移动区域定义暗/亮级别，可编辑渐变提供颜色查找表，还可以使用左/右箭头键以及 pgup、pgdn、home 和 end 移动帧滑块。单击导出按钮时会发出此信号，用于存储图像视图的数据。
 我们可以借助下面给出的命令创建一个图像视图。
 
-```
+```py
 # creating a pyqtgraph image view object
 imv = pg.ImageView()
 ```
 
 为了触发这个信号，我们必须改变图像视图类，下面是这个类的语法
 
-```
+```py
 # Image View class
 class ImageView(pg.ImageView):
 
@@ -32,7 +32,7 @@ class ImageView(pg.ImageView):
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 
@@ -183,6 +183,6 @@ sys.exit(App.exec())
 
 ![](img/701044f620b719164ceffc4ea8328596.png)
 
-```
+```py
 Export Button Clicked
 ```

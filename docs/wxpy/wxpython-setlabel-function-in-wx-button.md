@@ -16,7 +16,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Mywin(wx.Frame):

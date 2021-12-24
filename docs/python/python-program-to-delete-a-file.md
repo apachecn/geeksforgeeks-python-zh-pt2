@@ -8,7 +8,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 import os
 print ("Enter 'quit' for exiting the program")
 filename = input('Enter the name of the file, that is to be deleted : ')

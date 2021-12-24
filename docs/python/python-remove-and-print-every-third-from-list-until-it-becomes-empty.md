@@ -17,7 +17,7 @@
 
 **接近**列表的索引从 0 开始，第一个第三个元素将位于位置 2。遍历直到列表变成空的，每次找到下一个第三个元素的索引并打印它的相应值。打印后减少列表的长度。
 
-```
+```py
 # Python program to remove to every third
 # element until list becomes empty
 def removeThirdNumber(int_list):
@@ -46,7 +46,7 @@ removeThirdNumber(nums)
 
 输出:
 
-```
+```py
 3
 2
 4

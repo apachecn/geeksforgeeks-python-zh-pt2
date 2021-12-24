@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% for i in list %}
 // Do this in non - empty condition
 {% empty %}
@@ -20,7 +20,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 <ul>
 {% for athlete in athlete_list %}
     <li>{{ athlete.name }}</li>
@@ -34,7 +34,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 <ul>
   {% if athlete_list %}
     {% for athlete in athlete_list %}
@@ -59,7 +59,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -77,7 +77,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -92,7 +92,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% for i in data %}
     <div class="row">
         {{ i }}
@@ -110,7 +110,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -128,7 +128,7 @@ def geeks_view(request):
 
 ## 超文本标记语言
 
-```
+```py
 {% for i in data %}
     <div class="row">
         {{ i }}

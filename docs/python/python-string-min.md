@@ -17,7 +17,7 @@ min()方法取一个字符串作为参数
 
 下面是方法 **min()** 的 Python 实现
 
-```
+```py
 # python program to demonstrate the use of 
 # min() function 
 
@@ -34,7 +34,7 @@ print(min(string))
 
 **输出:**
 
-```
+```py
 e
 a
 

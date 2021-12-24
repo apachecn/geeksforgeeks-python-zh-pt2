@@ -7,7 +7,7 @@
 **方法一:使用`reduce()` + lambda**
 以上两个功能可以帮助我们完成这个特定的任务。lambda 函数完成逻辑和迭代的任务，`reduce` 函数完成返回所需结果的任务。仅适用于 Python 2。
 
-```
+```py
 # Python code to demonstrate
 # maximum sum sublist 
 # using reduce() + lambda
@@ -32,7 +32,7 @@ print ("Maximum sum sublist is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original matrix is : [[1, 3, 1], [4, 5, 3], [1, 2, 4]]
 Maximum sum sublist is : [4, 5, 3]
 

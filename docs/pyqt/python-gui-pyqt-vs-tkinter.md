@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import sys for handle the 
 # exit status of the application.
 import sys
@@ -77,7 +77,7 @@ sys.exit(app.exec_())
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module tkinter
 import tkinter as tk
 

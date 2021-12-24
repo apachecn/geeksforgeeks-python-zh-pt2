@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 while expression:
     statement(s)
 ```
@@ -21,7 +21,7 @@ while expression:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # while loop
 count = 0
@@ -32,7 +32,7 @@ while (count < 3):
 
 **Output**
 
-```
+```py
 Hello Geek
 Hello Geek
 Hello Geek
@@ -44,7 +44,7 @@ Hello Geek
 
 ## 蟒蛇 3
 
-```
+```py
 # checks if list still
 # contains any element
 a = [1, 2, 3, 4]
@@ -55,7 +55,7 @@ while a:
 
 **Output**
 
-```
+```py
 4
 3
 2
@@ -70,7 +70,7 @@ while a:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to illustrate
 # Single statement while block
 count = 0
@@ -79,7 +79,7 @@ while (count < 5): count += 1; print("Hello Geek")
 
 **输出:**
 
-```
+```py
 Hello Geek
 Hello Geek
 Hello Geek
@@ -99,7 +99,7 @@ Python [Continue 语句](https://www.geeksforgeeks.org/python-continue-statement
 
 ## 蟒蛇 3
 
-```
+```py
 # Prints all letters except 'e' and 's'
 i = 0
 a = 'geeksforgeeks'
@@ -115,7 +115,7 @@ while i < len(a):
 
 **输出:**
 
-```
+```py
 Current Letter : g
 Current Letter : k
 Current Letter : f
@@ -133,7 +133,7 @@ Python [Break 语句](https://www.geeksforgeeks.org/python-break-statement/)将�
 
 ## 蟒蛇 3
 
-```
+```py
 # break the loop as soon it sees 'e'
 # or 's'
 i = 0
@@ -150,7 +150,7 @@ while i < len(a):
 
 **输出:**
 
-```
+```py
 Current Letter : g
 ```
 
@@ -162,7 +162,7 @@ Python [传递语句](https://www.geeksforgeeks.org/python-pass-statement/)来�
 
 ## 蟒蛇 3
 
-```
+```py
 # An empty loop
 a = 'geeksforgeeks'
 i = 0
@@ -176,7 +176,7 @@ print('Value of i :', i)
 
 **输出:**
 
-```
+```py
 Value of i : 13
 ```
 
@@ -188,7 +188,7 @@ Value of i : 13
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # while-else loop
 
@@ -210,7 +210,7 @@ else:  # Not executed as there is a break
 
 **输出:**
 
-```
+```py
 1
 2
 3
@@ -228,7 +228,7 @@ No Break
 
 ## 蟒蛇 3
 
-```
+```py
 a = int(input('Enter a number (-1 to quit): '))
 
 while a != -1:

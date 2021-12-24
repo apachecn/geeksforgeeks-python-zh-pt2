@@ -19,7 +19,7 @@ Python 中 **os 模块**的`***os.utime()***`方法用于设置指定路径的�
 
 **代码#1:** 使用`***os.utime()***`方法
 
-```
+```py
 # Python program to explain os.utime() method 
 
 # importing os module 
@@ -60,7 +60,7 @@ print("Current modification time:", os.stat(path).st_mtime)
 
 **Output:**
 
-```
+```py
 Current access time (in seconds): 1568930018.710342
 Current modification time (in seconds): 1568930018.610892
 
@@ -73,7 +73,7 @@ Current modification time (in seconds): 100000000.0
 
 **代码#2:** 如果指定了 ns 参数，
 
-```
+```py
 # Python program to explain os.utime() method 
 
 # importing os module 
@@ -115,7 +115,7 @@ print("Current modification time (in seconds):", os.stat(path).st_mtime)
 
 **Output:**
 
-```
+```py
 Current access time (in seconds): 1568930018.710342
 Current modification time (in seconds): 1568930018.610892
 
@@ -128,7 +128,7 @@ Current modification time (in seconds): 10000.000012345
 
 **代码#3:** 如果时间参数为无且 ns 参数未指定
 
-```
+```py
 # Python program to explain os.utime() method 
 
 # importing os module 
@@ -163,7 +163,7 @@ print("Current modification time (in seconds):", os.stat(path).st_mtime)
 
 **Output:**
 
-```
+```py
 Current access time (in seconds): 20000.000012345
 Current modification time (in seconds): 10000.000012345
 

@@ -8,7 +8,7 @@ Python 提供了多个库来简化我们的工作。这里我们将学习如何�
 
 在命令提示符下使用下面的命令安装软件包 pyscreenshot。
 
-```
+```py
 pip install pyscreenshot
 ```
 
@@ -18,7 +18,7 @@ pip install pyscreenshot
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to take screenshot
 
 import pyscreenshot
@@ -45,7 +45,7 @@ image.save("GeeksforGeeks.png")
 
 ## 蟒蛇 3
 
-```
+```py
 # Program for partial screenshot
 
 import pyscreenshot

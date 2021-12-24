@@ -15,7 +15,7 @@
 **方法#1:使用循环**
 这是解决这个问题的蛮法。在这种情况下，我们反转，然后执行迭代，以获得每个 Kth 多个元素。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rear Kth elements
 # Using loop
@@ -44,7 +44,7 @@ print("Rear Kth elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 5, 7, 9, 10, 2, 8, 6]
 Rear Kth elements : [6, 10, 5]
 
@@ -53,7 +53,7 @@ Rear Kth elements : [6, 10, 5]
 **方法 2:使用列表切片**
 这是这个问题的速记版解决方案。我们使用列表切片跳过的力量来跳过 Kth 元素，也可以反转它。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rear Kth elements
 # Using list slicing
@@ -77,7 +77,7 @@ print("Rear Kth elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [3, 5, 7, 9, 10, 2, 8, 6]
 Rear Kth elements : [6, 10, 5]
 

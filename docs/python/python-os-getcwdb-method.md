@@ -16,7 +16,7 @@ Python 中的`***os.getcwdb()***`方法是`***os.getcwd()***`方法的字节版�
 
 **Code:** Use of os.getcwdb() method to get current working directory
 
-```
+```py
 # Python program to explain os.getcwdb() method 
 
 # importing os module 
@@ -33,7 +33,7 @@ print("Current working directory:", cwd)
 
 **Output:**
 
-```
+```py
 Current working directory: b'/home/ihritik'
 
 ```

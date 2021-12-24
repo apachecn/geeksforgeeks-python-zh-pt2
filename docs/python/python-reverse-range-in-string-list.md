@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Common list elements and dictionary values 
 # Using set() and intersection()
@@ -44,7 +44,7 @@ print("Sliced strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Geeksforgeeks', 'Best', 'Geeks']
 Sliced strings : ['eek', 'est', 'eek']
 
@@ -56,7 +56,7 @@ Sliced strings : ['eek', 'est', 'eek']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Common list elements and dictionary values 
 # Using map() + slicing + lambda
@@ -79,7 +79,7 @@ print("Sliced strings : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : ['Geeksforgeeks', 'Best', 'Geeks']
 Sliced strings : ['eek', 'est', 'eek']
 

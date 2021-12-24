@@ -4,7 +4,7 @@
 
 给定嵌套列表，任务是移除该嵌套列表中的所有重复和置换。
 
-```
+```py
 Input:  [[-11, 0, 11], [-11, 11, 0], [-11, 0, 11], 
          [-11, 2, -11], [-11, 2, -11], [-11, -11, 2]]
 Output:  {(-11, 0, 11), (-11, -11, 2)}
@@ -16,7 +16,7 @@ Output:  {(1, 3, 5), (0, 3, 5), (-1, 3, 5)}
 
 **代码#1 :** 使用地图
 
-```
+```py
 # Python code to remove all duplicates
 # and permutations in nested list
 
@@ -33,14 +33,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 {(-11, 0, 11), (-11, -11, 2)}
 
 ```
 
 **代码#2 :**
 
-```
+```py
 # Python code to remove all duplicates
 # and permutations in nested list
 
@@ -57,7 +57,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 {(-11, 0, 11), (-11, -11, 2)}
 
 ```

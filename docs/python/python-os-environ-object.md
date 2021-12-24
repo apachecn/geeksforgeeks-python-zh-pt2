@@ -16,7 +16,7 @@ Python 中的`***os.environ***`是一个表示用户环境变量的映射对象�
 
 **代码#1:** 使用 os.environ 获取对环境变量的访问
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -35,7 +35,7 @@ pprint.pprint(dict(env_var), width = 1)
 
 **Output:**
 
-```
+```py
 {'CLUTTER_IM_MODULE': 'xim',
  'COLORTERM': 'truecolor',
  'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus',
@@ -96,7 +96,7 @@ pprint.pprint(dict(env_var), width = 1)
 
 **代码#2:** 访问特定的环境变量
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -122,7 +122,7 @@ print("JAVA_HOME:", java_home)
 
 **Output:**
 
-```
+```py
 HOME: /home/ihritik
 JAVA_HOME: /opt/jdk-10.0.1
 
@@ -130,7 +130,7 @@ JAVA_HOME: /opt/jdk-10.0.1
 
 **代码#3:** 修改环境变量
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -151,7 +151,7 @@ print("Modified JAVA_HOME:", os.environ['JAVA_HOME'])
 
 **Output:**
 
-```
+```py
 JAVA_HOME: /opt/jdk-10.0.1
 Modified JAVA_HOME: /home/ihritik/jdk-10.0.1
 
@@ -159,7 +159,7 @@ Modified JAVA_HOME: /home/ihritik/jdk-10.0.1
 
 **代码#4:** 添加新的环境变量
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -175,14 +175,14 @@ print("GeeksForGeeks:", os.environ['GeeksForGeeks'])
 
 **Output:**
 
-```
+```py
 GeeksForGeeks: www.geeksforgeeks.org
 
 ```
 
 **代码#5:** 访问不存在的环境变量
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -198,7 +198,7 @@ print("MY_HOME:", os.environ['MY_HOME']
 
 **Output:**
 
-```
+```py
 Traceback (most recent call last):
   File "osenviron.py", line 8, in 
     print("MY_HOME:", os.environ['MY_HOME'])
@@ -210,7 +210,7 @@ KeyError: 'MY_HOME'
 
 **代码#6:** 访问不存在的环境变量时处理错误
 
-```
+```py
 # Python program to explain os.environ object 
 
 # importing os module 
@@ -230,7 +230,7 @@ except KeyError: 
 
 **Output:**
 
-```
+```py
 MY_HOME: Environment variable does not exist
 Environment variable does not exist
 

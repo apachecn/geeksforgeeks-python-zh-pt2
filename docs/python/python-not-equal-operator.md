@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 A = 1
 B = 2
 C = 2
@@ -23,7 +23,7 @@ print(B!=C)
 
 **输出:**
 
-```
+```py
 True
 False
 ```
@@ -32,7 +32,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 A = 1
 B = 1.0
 C = "1"
@@ -44,7 +44,7 @@ print(A!=C)
 
 **输出:**
 
-```
+```py
 False
 True
 True
@@ -56,7 +56,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 class Student:
 
     def __init__(self, name):
@@ -84,7 +84,7 @@ print(s2 != s3)
 
 **输出:**
 
-```
+```py
 True
 True
 ```

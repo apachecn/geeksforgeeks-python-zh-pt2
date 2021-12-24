@@ -8,7 +8,7 @@ Python 中的`***os.path.split()***`方法用于将路径名拆分成一对*头*
 
 例如，考虑以下路径名:
 
-```
+```py
 path name = '/home/User/Desktop/file.txt'
 
 ```
@@ -17,7 +17,7 @@ path name = '/home/User/Desktop/file.txt'
 
 **例如:**
 
-```
+```py
      path                             head                 tail
 '/home/user/Desktop/file.txt'   '/home/user/Desktop/'   'file.txt'
 '/home/user/Desktop/'           '/home/user/Desktop/'    {empty}
@@ -34,7 +34,7 @@ path name = '/home/User/Desktop/file.txt'
 
 **Code #1:** Use of os.path.split() method
 
-```
+```py
 # Python program to explain os.path.split() method 
 
 # importing os module 
@@ -79,7 +79,7 @@ print("Tail of '% s:'" % path, head_tail[1])
 
 **Output:**
 
-```
+```py
 Head of '/home/User/Desktop/file.txt': /home/User/Desktop
 Tail of '/home/User/Desktop/file.txt': file.txt 
 
@@ -93,7 +93,7 @@ Tail of 'file.txt': file.txt
 
 **代码#2:** 如果路径为空
 
-```
+```py
 # Python program to explain os.path.split() method 
 
 # importing os module 
@@ -119,7 +119,7 @@ print("Tail of '% s':" % path, head_tail[1])
 
 **Output:**
 
-```
+```py
 Head of '': 
 Tail of '':
 

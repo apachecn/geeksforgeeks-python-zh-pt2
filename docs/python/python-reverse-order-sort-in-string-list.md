@@ -7,7 +7,7 @@
 **方法一:使用列表理解+ `sorted() + join() + reverse`**
 这是解决这个问题的一种方法。在本文中，我们使用 sorted()功能来执行排序操作，并使用 join()来重建字符串列表。通过将“reverse”作为 True 参数传递给 sorted()来实现反向逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Reverse Order Sort in String List
 # using list comprehension + sorted() + join() + reverse
@@ -28,7 +28,7 @@ print("List after string reverse sorting : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list : ['gfg', 'is', 'good']
 List after string reverse sorting : ['ggf', 'si', 'oogd']
 

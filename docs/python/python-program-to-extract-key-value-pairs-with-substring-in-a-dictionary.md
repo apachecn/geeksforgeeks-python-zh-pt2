@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionaries with Substring values
 # Using list comprehension
@@ -56,7 +56,7 @@ print("Dictionaries with particular substring values : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionaries with Substring values
 # Using map() + in operator

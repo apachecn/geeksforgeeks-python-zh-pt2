@@ -13,7 +13,7 @@ Python 在其语言中定义了一个处理与单词相关的某些操作的内�
 
 **下面是上述方法的 Python 代码实现。**
 
-```
+```py
 # importing libraries
 import keyword
 import enchant
@@ -64,7 +64,7 @@ while str_len > 1 :
 
 **输出:**
 
-```
+```py
 star is an English words
 tars is an English words
 arts is an English words

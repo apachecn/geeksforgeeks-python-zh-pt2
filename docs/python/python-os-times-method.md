@@ -22,7 +22,7 @@
 
 **代码:**使用 os.times()方法获取当前全局进程次数。
 
-```
+```py
 # Python program to explain os.times() method 
 
 # importing os module 
@@ -40,7 +40,7 @@ print(curr_gp_times)
 
 **Output:**
 
-```
+```py
 posix.times_result(user=0.03, system=0.01, children_user=0.0, children_system=0.0, elapsed=17370844.95)
 
 ```

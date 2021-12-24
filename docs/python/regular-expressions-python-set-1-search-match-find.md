@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working of re.match(). 
 import re 
 
@@ -53,7 +53,7 @@ else: 
 
 **输出:**
 
-```
+```py
 Match at index 14, 21
 Full match: June 24
 Month: June
@@ -64,7 +64,7 @@ Day: 24
 
 **re.match() :** 此函数尝试将模式与整个字符串进行匹配。re.match 函数成功时返回一个匹配对象，失败时返回无。
 
-```
+```py
 re.match(pattern, string, flags=0)
 
 pattern : Regular expression to be matched.
@@ -75,7 +75,7 @@ flags : We can specify different flags
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working
 # of re.match().
 import re
@@ -103,7 +103,7 @@ findMonthAndDate("I was born on June 24")
 
 **输出:**
 
-```
+```py
 Given Data: Jun 24
 Month: Jun
 Day: 24
@@ -117,7 +117,7 @@ Not a valid date
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working of
 # findall()
 import re
@@ -138,13 +138,13 @@ print(match)
 
 **输出:**
 
-```
+```py
 ['123456789', '987654321']
 ```
 
 正则表达式是一个广阔的话题。这是一个完整的图书馆。正则表达式可以做很多事情。您可以匹配、搜索、替换、提取大量数据。例如，下面的小代码非常强大，它可以从文本中提取电子邮件地址。因此，我们可以轻松地用 python 制作自己的网络爬虫和剪贴器。看看下面的正则表达式。
 
-```
+```py
 # extract all email addresses and add them into the resulting set
 new_emails = set(re.findall(r"[a-z0-9\.\-+_]+@[a-z0-9\.\-+_]+\.[a-z]+", 
                            text, re.I))

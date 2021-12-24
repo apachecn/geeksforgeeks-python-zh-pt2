@@ -17,7 +17,7 @@
 **方法一:使用列表理解**
 这是可以执行这个任务的方式之一。在本文中，我们使用列表理解来执行获取条件检查和重新创建新列表的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K from Records
 # Using list comprehension
@@ -41,7 +41,7 @@ print("The records after removing K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 7), (2, 5), (1, ), (7, 8), (9, 7, 2, 1)]
 The records after removing K : [(5, 6), (2, 5), (1, ), (8, ), (9, 2, 1)]
 
@@ -50,7 +50,7 @@ The records after removing K : [(5, 6), (2, 5), (1, ), (8, ), (9, 2, 1)]
 **方法 2:使用`filter()`+λ**
 以上功能的组合可以解决这个问题。在本例中，我们使用 filter()和 lambda 功能执行移除所有 Ks 的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove K from Records
 # Using filter() + lambda
@@ -74,7 +74,7 @@ print("The records after removing K : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : [(5, 6, 7), (2, 5), (1, ), (7, 8), (9, 7, 2, 1)]
 The records after removing K : [(5, 6), (2, 5), (1, ), (8, ), (9, 2, 1)]
 

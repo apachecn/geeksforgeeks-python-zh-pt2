@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # yield keyword
 
@@ -32,7 +32,7 @@ for j in print_even(test_list):
 
 **输出:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7]
 The even numbers in list are :  4 6 
 ```
@@ -41,7 +41,7 @@ The even numbers in list are :  4 6
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to generate squares from 1
 # to 100 using yield and therefore generator
 
@@ -65,7 +65,7 @@ for num in nextSquare():
 
 **输出:**
 
-```
+```py
 1
 4
 9
@@ -93,7 +93,7 @@ for num in nextSquare():
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate yield keyword
 
 # Checking number of occurrence of
@@ -122,6 +122,6 @@ print (count)
 
 **输出:**
 
-```
+```py
 The number of geeks in string is : 3
 ```

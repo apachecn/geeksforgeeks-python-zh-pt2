@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum and Minimum K elements in Tuple
 # Using sorted() + loop
@@ -44,7 +44,7 @@ print("The extracted values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : (5, 20, 3, 7, 6, 8)
 The extracted values : (3, 5, 8, 20)
 ```
@@ -54,7 +54,7 @@ The extracted values : (3, 5, 8, 20)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum and Minimum K elements in Tuple
 # Using slicing + sorted()
@@ -80,7 +80,7 @@ print("The extracted values : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple is : (5, 20, 3, 7, 6, 8)
 The extracted values : (3, 5, 8, 20)
 ```

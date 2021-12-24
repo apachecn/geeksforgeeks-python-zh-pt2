@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Tkinter module
 from tkinter import *
 # from tkinter.ttk import *
@@ -59,7 +59,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Tkinter module
 from tkinter import *
 from tkinter.ttk import *
@@ -103,7 +103,7 @@ mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing Tkinter module
 from tkinter import *
 from tkinter.ttk import *

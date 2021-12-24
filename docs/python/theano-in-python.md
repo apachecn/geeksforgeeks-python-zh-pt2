@@ -7,13 +7,13 @@
 
 **如何安装安诺:**
 
-```
+```py
 pip install theano
 ```
 
 我们需要使用的几个符号在安诺的**张量**子包中。我们经常用一个方便的名字导入这样的包，比如说，t。
 
-```
+```py
 from theano import *
 import theano.tensor as T
 ```
@@ -32,7 +32,7 @@ antao 是一个 Python 库，允许您高效地定义、优化和评估涉及多
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # subtraction of two scalars
 
@@ -59,7 +59,7 @@ assert 20.0 == func(30.5, 10.5)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # addition of two scalars
 
@@ -83,7 +83,7 @@ f(5, 7)
 
 **输出:**
 
-```
+```py
 array(12.0)
 ```
 
@@ -91,7 +91,7 @@ array(12.0)
 
 ## 计算机编程语言
 
-```
+```py
 # Python program showing
 # addition of two matrices
 
@@ -109,7 +109,7 @@ f([[30, 50], [2, 3]], [[60, 70], [3, 4]])
 
 **输出:**
 
-```
+```py
 array([[ 90.,  120.],
        [ 5.,  7.]])
 ```
@@ -124,7 +124,7 @@ array([[ 90.,  120.],
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to illustrate logistic
 # sigmoid function using theano
 # Load theano library
@@ -147,7 +147,7 @@ print(log([[0, 1], [-1, -2]]))
 
 **输出:**
 
-```
+```py
 [[0.5           0.73105858
 0.26894142      0.11920292]]
 ```

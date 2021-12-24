@@ -12,7 +12,7 @@
     (iii)占用空间较少。没有创建副本，因为它直接排序原始数组
     (iv)比排序(a)快
 
-```
+```py
 # Python code to sort an array in-place
 # using a.sort
 import numpy as np
@@ -30,7 +30,7 @@ print('Return type:', a.sort())
 print('Original array sorted->', a)
 ```
 
-```
+```py
 OUTPUT: For a.sort()
 Original array:
  [9 3 1 7 4 3 6]
@@ -45,7 +45,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     (iii)在创建原始数组的副本时占据更多的空间，然后进行排序
     (iv)比 a.sort()
 
-    ```
+    ```py
     # Python code to create a sorted copy using
     # sorted()
     import numpy as np
@@ -65,7 +65,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     print('Original array->', a)
     ```
 
-    ```
+    ```py
     OUTPUT:a.sorted()
     Original array:
      [9 3 1 7 4 3 6]
@@ -79,7 +79,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     (ii)返回类型为 numpy 数组
     (iii)在返回新的排序索引数组时占用空间
 
-    ```
+    ```py
     # Python code to demonstrate working of np.argsort
     import numpy as np
 
@@ -101,7 +101,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     print('Sorted array->', c)
     ```
 
-    ```
+    ```py
     OUTPUT:np.argsort(a)
     Original array:
      [9 3 1 7 4 3 6]
@@ -116,7 +116,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     (iii) Return type ndarray of ints Array of indices that sort the keys along the specified axis
     (iv) Occupies space as a new array of sorted indices pair wise is returned.
 
-    ```
+    ```py
     # Python code to demonstrate working of 
     # np.lexsort()
     import numpy as np
@@ -132,7 +132,7 @@ Original array sorted-> [1 3 3 4 6 7 9]
     print('Sorted indices->', ind)
     ```
 
-    ```
+    ```py
     OUTPUT:np.lexsort((b, a))
     column a, column b
     9   4

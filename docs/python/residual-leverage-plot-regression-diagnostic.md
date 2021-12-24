@@ -46,7 +46,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # imports
 import numpy as np
 import pandas as pd
@@ -108,7 +108,7 @@ plt.show()
 sm.graphics.influence_plot(results, criterion="cooks")
 ```
 
-```
+```py
 ------------
 # data
 No    X1    X2    X3    X4    X5    X6    Y

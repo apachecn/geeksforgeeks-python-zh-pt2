@@ -17,7 +17,7 @@
 
 **代码#1:创建冯·米塞斯连续随机变量**
 
-```
+```py
 # importing library
 
 from scipy.stats import vonmises 
@@ -31,7 +31,7 @@ print ("RV : \n", rv)  
 
 **输出:**
 
-```
+```py
 RV : 
  scipy.stats._distn_infrastructure.rv_frozen object at 0x000002A9D9D5D3C8
 
@@ -39,7 +39,7 @@ RV :
 
 **代码#2:冯·米塞斯连续变量和概率分布**
 
-```
+```py
 import numpy as np 
 quantile = np.arange (0.01, 1, 0.1) 
 
@@ -56,7 +56,7 @@ print ("\nProbability Distribution : \n", R) 
 
 **输出:**
 
-```
+```py
 Random Variates : 
  [-1.55704728  0.7897694   1.71204809  0.17694981  1.28641702 -0.89616709
   0.73042266 -0.96836691 -1.22798199  1.78334179]
@@ -69,7 +69,7 @@ Probability Distribution :
 
 **代码#3:图形表示。**
 
-```
+```py
 import numpy as np 
 import matplotlib.pyplot as plt 
 
@@ -81,7 +81,7 @@ plot = plt.plot(distribution, rv.pdf(distribution)) 
 
 **输出:**
 
-```
+```py
 Distribution : 
  [0\.         0.04081633 0.08163265 0.12244898 0.16326531 0.20408163
  0.24489796 0.28571429 0.32653061 0.36734694 0.40816327 0.44897959
@@ -99,7 +99,7 @@ Distribution :
 
 **代码#4:变化的位置参数**
 
-```
+```py
 import matplotlib.pyplot as plt 
 import numpy as np 
 

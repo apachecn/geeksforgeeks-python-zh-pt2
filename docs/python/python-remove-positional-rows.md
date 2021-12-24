@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: test_list = [[3, 5, 2], [1, 8, 9], 
                 [5, 3, 1], [0, 1, 6], 
             [9, 4, 1], [1, 2, 10], 
@@ -28,7 +28,7 @@ Explanation: 1st, 3rd and 5th rows are removed.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove positional rows
 # Using loop + pop() + back iteration
@@ -66,7 +66,7 @@ print("Matrix after removal: " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove positional rows
 # Using enumerate() + list comprehension

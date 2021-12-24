@@ -6,7 +6,7 @@
 
 **安装:**
 
-```
+```py
 pip install randfacts
 ```
 
@@ -14,7 +14,7 @@ pip install randfacts
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import randfacts
 
@@ -36,7 +36,7 @@ print(x)
 
 ## 蟒 3
 
-```
+```py
 # code
 import randfacts
 

@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # unpacking python tuple using _ 
 
 # first and last value will be ignored 
@@ -27,7 +27,7 @@ print(x) 
 
 **输出:**
 
-```
+```py
 love 
 ['Geeks ', 'for ', 'Geeks ']
 
@@ -41,7 +41,7 @@ love
 
 ## 蟒 3
 
-```
+```py
 # unpacking python tuple using _* 
 
 # first second and last value will be stored
@@ -57,7 +57,7 @@ print(c)
 
 **输出:**
 
-```
+```py
 I 
 love 
 3000
@@ -72,7 +72,7 @@ love
 
 ## 蟒 3
 
-```
+```py
 def arithmetic_operations(arr: list):
   MAX = max(arr)
   MIN = min(arr)
@@ -99,7 +99,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 CASE 1  88 12.571428571428571 50 1
 CASE 2  12.571428571428571 50
 CASE 3  88 1

@@ -7,13 +7,13 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ###### 句法
 
-```
+```py
 {% now "D M Y H T " %}
 ```
 
 ###### 例子
 
-```
+```py
 It is {% now "D d M Y" %}
 
 ```
@@ -32,7 +32,7 @@ It is {% now "D d M Y" %}
 现在创建一个视图，我们将通过它访问模板，
 在`geeks/views.py`中，
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -45,7 +45,7 @@ def geeks_view(request):
 
 创建 url 路径以映射到此视图。在`geeks/urls.py`中，
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -58,7 +58,7 @@ urlpatterns = [
 
 现在我们将创建一个模板来演示**现在标记**。在`geeks.html`中创建基础模板，
 
-```
+```py
 <html>
  It is the {% now "jS \o\f F" %}
 </html>
@@ -72,7 +72,7 @@ urlpatterns = [
 
 也可以使用语法`{% now "Y" as current_year %}`将输出`(as a string)`存储在变量中。如果您想在像 blocktrans 这样的模板标签中使用`{% now %}`，例如:
 
-```
+```py
 {% now "Y" as current_year %}
 {% blocktrans %} Copyright {{ current_year }}{% endblocktrans %}
 ```

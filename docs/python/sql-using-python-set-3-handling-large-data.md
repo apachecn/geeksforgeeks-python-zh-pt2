@@ -10,11 +10,11 @@
 *   **executescript()**
     This is a convenience method for executing multiple SQL statements at once. It executes the SQL script it gets as a parameter.
 
-    ```
+    ```py
     Syntax:sqlite3.connect.executescript(script)
     ```
 
-    ```
+    ```py
     import sqlite3
 
     # Connection with the DataBase
@@ -74,7 +74,7 @@
 
     **输出:**
 
-    ```
+    ```py
     [(1,)]
     [("Dan Clarke's GFG Detective Agency", 'Sean Simpsons', 1987)]
 
@@ -85,7 +85,7 @@
 *   **executemany()**
     It is often the case when, large amount of data has to be inserted into database from Data Files(for simpler case take Lists, arrays). It would be simple to iterate the code many a times than write every time, each line into database. But the use of loop would not be suitable in this case, the below example shows why. Syntax and use of executemany() is explained below and how it can be used like a loop.
 
-    ```
+    ```py
     import sqlite3
 
     # Connection with the DataBase
@@ -127,7 +127,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Traceback (most recent call last):
       File "C:/Users/GFG/Desktop/SQLITE3.py", line 16, in 
         List[2][3] =[['A', 'B', 2008], ['C', 'D', 2008], ['E', 'F', 2010]]
@@ -137,7 +137,7 @@
 
     executemany()的使用可以使这段代码发挥作用。
 
-    ```
+    ```py
     import sqlite3
 
     # Connection with the DataBase
@@ -177,7 +177,7 @@
 
     **输出:**
 
-    ```
+    ```py
     ('A', 'B', 2008)
     ('C', 'D', 2008)
     ('E', 'F', 2010)
@@ -186,7 +186,7 @@
 
 *   **Fetch Large Data**
 
-    ```
+    ```py
     import sqlite3
 
     # Connection created with the
@@ -244,7 +244,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Method-1
 
     (1007, 'Will', 'Olsen', 'M', '24-SEP-1865')

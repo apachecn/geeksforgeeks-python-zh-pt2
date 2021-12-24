@@ -24,7 +24,7 @@ PIL 是 python 图像库，为 Python 解释器提供图像编辑功能。**图�
 **所用图像:**
 ![](img/ec5f813a4361b5d7ce11a8203c3cc86d.png)
 
-```
+```py
 # Importing Image and ImageOps module from PIL package
 from PIL import Image, ImageOps
 

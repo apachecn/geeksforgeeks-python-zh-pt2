@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: s = "This is a python language"
 Output: This
         is
@@ -23,7 +23,7 @@ Output: am
 
 下面是 Python 实现上述方法:
 
-```
+```py
 # Python3 program to print 
 #  even length words in a string 
 
@@ -46,7 +46,7 @@ printWords(s) 
 
 **输出:**
 
-```
+```py
 am
 muskan
 

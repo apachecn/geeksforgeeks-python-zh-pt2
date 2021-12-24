@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: Geeksforgeeks is best Computer Science Portal
 Output:
 The number Of Words are : 6
@@ -21,7 +21,7 @@ The number of words in string are :  14
 
 使用 len()函数计算字符串中的字符数。您也可以使用 for 循环来计数字符
 
-```
+```py
 char=0
 for i in string:
     char=char+1
@@ -35,7 +35,7 @@ split 函数非常有用，通常是从列表中取出单词的通用方法，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # to count words in string
 # using split()
@@ -67,7 +67,7 @@ print("The number of words in string are : ", len(test_string))
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 test_string = "GeeksForGeeks is a learning platform"
 
@@ -94,7 +94,7 @@ print("The number of Characters in string are : ", len(test_string))
 
 ## 蟒蛇 3
 
-```
+```py
 import string
 
 test_string = "GeeksForGeeks is a learning platform"

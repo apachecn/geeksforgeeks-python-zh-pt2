@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove space between tuple elements
 # Using replace() + str()
@@ -35,7 +35,7 @@ print("The tuple after space removal : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (4, 5, 7, 6, 8)
 The tuple after space removal : (4, 5, 7, 6, 8)
 ```
@@ -45,7 +45,7 @@ The tuple after space removal : (4, 5, 7, 6, 8)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove space between tuple elements
 # Using join() + map()
@@ -66,7 +66,7 @@ print("The tuple after space removal : " + str(res))
 
 **Output : **
 
-```
+```py
 The original tuple : (4, 5, 7, 6, 8)
 The tuple after space removal : (4, 5, 7, 6, 8)
 ```

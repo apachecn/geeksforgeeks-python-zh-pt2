@@ -9,7 +9,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 > ？？？？？？？？ [Kivy 教程–通过示例学习 Kivy](https://www.geeksforgeeks.org/kivy-tutorial/)。
 
-```
+```py
 Basic Approach to make it is very simple:
 1) import kivy
 2) import kivyApp
@@ -30,7 +30,7 @@ Basic Approach to make it is very simple:
 
 ## 蟒蛇 3
 
-```
+```py
 # main.py to manipulate the window
 # color or screen colour in kivy
 
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Multiple_Slider.kv file of the main.py file.
 
 #.kv file to manipulate the window colour.

@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -41,7 +41,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -75,7 +75,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -104,7 +104,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 
@@ -133,7 +133,7 @@ connection.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing sqlite module
 import sqlite3
 

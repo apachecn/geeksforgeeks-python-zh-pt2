@@ -10,19 +10,19 @@
 
 **命令安装程序:**
 
-```
+```py
 pip install plotly 
 ```
 
 **安装袖扣的命令:**
 
-```
+```py
 pip install cufflink
 ```
 
 **代码#1:** 显示数据帧
 
-```
+```py
 # import all necessary libraries
 import pandas as pd
 import numpy as np
@@ -52,7 +52,7 @@ df2.head()
 
 **代码#2:** 正常绘图
 
-```
+```py
 # plotly function
 df.iplot()
 ```
@@ -62,7 +62,7 @@ df.iplot()
 
 **代码#3:** 散点图
 
-```
+```py
 # markers are made to point in the graph
 df.iplot(kind ='scatter', x ='A', y ='B', mode ='markers')
 ```
@@ -72,7 +72,7 @@ df.iplot(kind ='scatter', x ='A', y ='B', mode ='markers')
 
 **代码#4:** 方块图
 
-```
+```py
 # boxplot
 df.iplot(kind ='box')
 ```
@@ -82,7 +82,7 @@ df.iplot(kind ='box')
 
 **代码#5:** 绘制数据帧
 
-```
+```py
 # creating dataframe with three axes
 df3 = pd.DataFrame({'x':[1, 2, 3, 4, 5],
                     'y':[10, 20, 30, 20, 10],
@@ -94,7 +94,7 @@ df3 = pd.DataFrame({'x':[1, 2, 3, 4, 5],
 
 **代码#6:** 表面图
 
-```
+```py
 # surface plot
 # colorscale:red(rd), yellow(yl), blue(bu)
 df3.iplot(kind ='surface', colorscale ='rdylbu')

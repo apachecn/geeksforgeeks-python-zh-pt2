@@ -20,7 +20,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 
 **Code:** Use of os.setregid() method
 
-```
+```py
 # Python program to explain os.setregid() method 
 
 # importing os module 

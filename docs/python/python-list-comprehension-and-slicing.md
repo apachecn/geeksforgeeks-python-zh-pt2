@@ -11,7 +11,7 @@
 3.  一个表示输入序列成员的变量，并且
 4.  可选谓词部分。
 
-```
+```py
 For example :
 
 lst  =  [x ** 2  for x in range (1, 11)   if  x % 2 == 1] 
@@ -26,7 +26,7 @@ here, x ** 2 is output expression,
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate list comprehension in Python 
 
 # below list contains square of all odd numbers from 
@@ -71,7 +71,7 @@ for i in table: 
 
 **输出:**
 
-```
+```py
 [1, 9, 25, 49, 81]
 [1, 9, 25, 49, 81]
 [2, 4, 8, 16, 32, 64, 128, 256]
@@ -96,7 +96,7 @@ Multiplication Table
 
 在获得列表之后，我们可以使用 python 的切片操作符获得它的一部分，该操作符具有以下语法:
 
-```
+```py
 [start : stop : steps]  
 
 which means that slicing will start from index start
@@ -111,7 +111,7 @@ which means that slicing will start from index start
 
 ## 计算机编程语言
 
-```
+```py
 # Let us first create a list to demonstrate slicing
 # lst contains all number from 1 to 10
 lst =list(range(1, 11))
@@ -148,7 +148,7 @@ print (lst_rev_9_5_2)
 
 **输出:**
 
-```
+```py
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 [2, 3, 4, 5]
 [6, 7, 8]
@@ -165,7 +165,7 @@ print (lst_rev_9_5_2)
 
 ## 计算机编程语言
 
-```
+```py
 import functools
 
 #  filtering odd numbers
@@ -187,7 +187,7 @@ print (functools.reduce(lambda a,b: a if (a > b) else b, [7, 12, 45, 100, 15]))
 
 **输出:**
 
-```
+```py
 [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
 [25]
 [-5, -4, -3, -2, -1]

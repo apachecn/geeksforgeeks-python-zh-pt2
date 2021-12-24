@@ -8,7 +8,7 @@
 
 上述功能的组合可用于执行该任务。在本文中，我们使用生成器表达式来提供加法逻辑，同时元素配对由 zip()完成。使用元组()将结果转换为元组形式。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Pairwise Addition in Tuples
 # using zip() + generator expression + tuple
@@ -29,7 +29,7 @@ print("Resultant tuple after addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, 8, 10)
 Resultant tuple after addition : (6, 12, 15, 18)
 
@@ -39,7 +39,7 @@ Resultant tuple after addition : (6, 12, 15, 18)
 
 上述功能的组合也有助于执行此任务。在本文中，我们使用 lambda 函数执行加法和绑定逻辑。map()用于迭代每个元素，最终结果由 tuple()转换。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Pairwise Addition in Tuples
 # using tuple() + map() + lambda
@@ -60,7 +60,7 @@ print("Resultant tuple after addition : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple : (1, 5, 7, 8, 10)
 Resultant tuple after addition : (6, 12, 15, 18)
 

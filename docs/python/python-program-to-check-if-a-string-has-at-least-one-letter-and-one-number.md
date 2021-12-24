@@ -5,7 +5,7 @@
 给定 Python 中的一个字符串。任务是检查字符串是否至少有一个字母(字符)和一个数字。如果给定的字符串完全满足上述条件，则返回“真”，否则返回“假”(不带引号)。
 **例:**
 
-```
+```py
 Input: welcome2ourcountry34
 Output: True
 
@@ -18,7 +18,7 @@ Output: False
 
 ## 蟒蛇 3
 
-```
+```py
 def checkString(str):
 
     # initializing flag variable
@@ -48,7 +48,7 @@ print(checkString('geeksforgeeks'))
 
 **输出**:
 
-```
+```py
 True
 False
 ```

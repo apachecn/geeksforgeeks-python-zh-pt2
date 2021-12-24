@@ -12,7 +12,7 @@
 
 #### 命令:
 
-```
+```py
 pip install mysql-connector-python
 ```
 
@@ -20,7 +20,7 @@ pip install mysql-connector-python
 
 *   导入 MySQL 数据库模块
 
-```
+```py
 import mysql.connector
 ```
 
@@ -30,19 +30,19 @@ import mysql.connector
 
 *   现在，使用 cursor()方法创建一个游标对象，用于执行 SQL 查询并将结果保存在一个对象中。
 
-```
+```py
 cursor = connection.cursor()
 ```
 
 *   为了执行 SQL 查询，我们将使用一个游标对象。例如，
 
-```
+```py
 cursor.execute("select * from table_name")
 ```
 
 *   最后，一旦我们完成了我们的操作，我们就必须关闭资源。
 
-```
+```py
 cursor.close()
 con.close()
 ```
@@ -51,7 +51,7 @@ con.close()
 
 *   首先，我们需要使用下面的命令在 MySQL 中创建一个数据库。
 
-```
+```py
 create database geeksforgeeks;
 ```
 
@@ -63,7 +63,7 @@ create database geeksforgeeks;
 
 ## 蟒蛇 3
 
-```
+```py
 def convertData(filename):
 
     # Convert images or files data to binary format
@@ -77,7 +77,7 @@ def convertData(filename):
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 connection = mysql.connector.connect(
@@ -96,7 +96,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 import mysql.connector
 
 # Convert images or files data to binary format

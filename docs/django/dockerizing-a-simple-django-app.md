@@ -6,7 +6,7 @@ Docker 是一组平台即服务产品，使用操作系统级虚拟化在称为�
 
 要下载源代码，请使用
 
-```
+```py
 $ git clone https://github.com/itsvinayak/user_login_and_register.git
 ```
 
@@ -14,13 +14,13 @@ $ git clone https://github.com/itsvinayak/user_login_and_register.git
 
 下一步是向其中添加 Docker。因此，创建一个名为 Dockerfile 的空文件，并将这段代码放入其中
 
-```
+```py
 $ touch Dockerfile
 ```
 
 现在编辑它。
 
-```
+```py
 FROM python:3.6
 
 RUN apt-get update \
@@ -41,7 +41,7 @@ CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
 
 建立形象
 
-```
+```py
 $ sudo docker build -t image_name .
 ```
 
@@ -49,7 +49,7 @@ $ sudo docker build -t image_name .
 
 要查看图像是否退出使用，您可以查看所有图像。
 
-```
+```py
 $ sudo docker images
 ```
 
@@ -57,7 +57,7 @@ $ sudo docker images
 
 要运行 docker 应用程序，请使用
 
-```
+```py
 $ sudo docker run -p 8000:8000 image_name
 ```
 

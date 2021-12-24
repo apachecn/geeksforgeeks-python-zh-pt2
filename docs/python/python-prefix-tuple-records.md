@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Prefix tuple records
 # Using list comprehension + zip() + all()
@@ -42,7 +42,7 @@ print("The filtered tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Prefix tuple records
 # Using filter() + lambda + generator expression + all()

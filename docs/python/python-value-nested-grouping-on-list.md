@@ -7,7 +7,7 @@
 **方法:使用`defaultdict() + setdefault()` +循环**
 上述功能的组合可用于执行该任务。这是一种残忍的方式。在本文中，我们使用字典值初始化 defaultdict()，以形成嵌套记录，并使用 setdefault()和条件填充数据。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Value nested grouping on List
 # Using loop + setdefault() + defaultdict()

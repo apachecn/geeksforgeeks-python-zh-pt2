@@ -38,7 +38,7 @@
 
 现在，您需要在您的 Django 项目中配置 PostgreSQL 数据库。默认情况下，数据库配置有一个 SQLite 数据库引擎和数据库文件名。您可以检查 setting.py Python 文件，并用 PostgreSQL 数据库配置替换默认数据库配置。
 
-```
+```py
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
@@ -80,7 +80,7 @@ DATABASES = {
 
 ## Python 3
 
-```
+```py
 GENDER_CHOICES = (('M','Male'),
                       ('F','Female'),)
 
@@ -105,7 +105,7 @@ class Employee(models.Model):
 
 ## 蟒 3
 
-```
+```py
 class EmployeeTask(models.Model):
     task_name = models.CharField(max_length=150)
     employee = models.ForeignKey(Employee,
@@ -124,7 +124,7 @@ class EmployeeTask(models.Model):
 
 EmployeeTask 模型是 django.db.models.Model 类的子类，定义了属性和一个 Meta 内部类。它有一个排序属性，根据 task_name 以升序对结果进行排序。它有一个员工字段，与员工模型保持多对一的关系。
 
-```
+```py
 employee = models.ForeignKey(Employee,
                                   related_name='tasks',
                                   on_delete=models.CASCADE)
@@ -152,7 +152,7 @@ Django 视图便于处理 HTTP 请求和提供 HTTP 响应。在接收到一个 
 
 ## 蟒 3
 
-```
+```py
 from django.shortcuts import render
 from django.http import HttpResponse, JsonResponse
 from django.views.decorators.csrf import csrf_exempt

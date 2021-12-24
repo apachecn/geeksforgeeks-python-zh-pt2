@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 执行这个特定任务的天真方法，在这种情况下，我们只是提取密钥，然后在打包列表中以列表综合格式迭代它的值。这就解决了问题。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Updating value list in dictionary
 # Using list comprehension

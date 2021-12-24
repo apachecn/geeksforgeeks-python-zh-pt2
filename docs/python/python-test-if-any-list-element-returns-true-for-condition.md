@@ -9,7 +9,7 @@
 **方法:使用`any()` +列表理解**
 解决这个问题最简单的方式和速记就是结合内置`any()`和列表理解的功能进行渲染条件逻辑和列表迭代。如果列表元素中有任何一个符合条件，则`any()`返回真。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if any list element returns true for condition
 # Using any() + list comprehension
@@ -30,7 +30,7 @@ print("Does list contain any element divisible by 5? : " + str(res))
 
 **Output :**
 
-```
+```py
 
 The original list : [6, 4, 8, 9, 10]
 Does list contain any element divisible by 5? : True

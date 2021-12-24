@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst1 = [1, 2, 3]
         lst2 = ['a', 'b', 'c']
 Output : [1, 'a', 2, 'b', 3, 'c']
@@ -19,7 +19,7 @@ Output : ['name', 'marks', 'alice', 87, 'bob', 56]
 
 **方法一:**列表理解
 
-```
+```py
 # Python3 program to merge two lists 
 # alternatively
 
@@ -35,14 +35,14 @@ print(countList(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [1, 'a', 2, 'b', 3, 'c']
 
 ```
 
 还有一种使用列表理解的替代方法，如下所示
 
-```
+```py
 def countList(lst1, lst2):
     return [item for pair in zip(lst1, lst2 + [0])
                                  for item in pair]
@@ -50,7 +50,7 @@ def countList(lst1, lst2):
 
 **方法 2 :** 使用`itertools.cycle()`
 
-```
+```py
 # Python3 program to merge two lists 
 # alternatively
 from itertools import cycle
@@ -67,14 +67,14 @@ print(countList(lst1, lst2))
 
 **Output:**
 
-```
+```py
 [1, 'a', 2, 'b', 3, 'c']
 
 ```
 
 **方法 3 :** 使用`reduce()`
 
-```
+```py
 # Python3 program to merge two lists 
 # alternatively
 import operator
@@ -91,14 +91,14 @@ print(countList(lst1, lst2))
 
 **Output:**
 
-```
+```py
 (1, 'a', 2, 'b', 3, 'c')
 
 ```
 
 **方法#4 :** 使用`numpy`模块
 
-```
+```py
 # Python3 program to merge two lists 
 # alternatively
 import numpy as np
@@ -114,7 +114,7 @@ print(countList(lst1, lst2))
 
 **Output:**
 
-```
+```py
 ['1' 'a' '2' 'b' '3' 'c']
 
 ```

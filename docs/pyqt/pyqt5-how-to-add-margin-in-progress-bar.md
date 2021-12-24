@@ -8,7 +8,7 @@
 
 下面是样式表代码。
 
-```
+```py
 QProgressBar::chunk 
 {
 background-color: pink;
@@ -19,7 +19,7 @@ margin: 5px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

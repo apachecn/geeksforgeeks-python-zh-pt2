@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -56,7 +56,7 @@ player.log_unset()
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 

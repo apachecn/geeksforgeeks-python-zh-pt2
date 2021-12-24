@@ -12,7 +12,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > label.setStyleSheet("border :3px solid blue;"
 >                     "border-top-left-radius :35px;"
 >                     "border-top-right-radius : 20px; "
@@ -26,7 +26,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

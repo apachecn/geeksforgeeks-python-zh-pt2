@@ -16,7 +16,7 @@ SetForegroundColour()函数只是取 wx。前景的颜色参数。
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

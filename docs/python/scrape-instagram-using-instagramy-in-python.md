@@ -8,7 +8,7 @@
 
 python 包 **Instagramy** 用于快速轻松的刮除 Instagram。通过运行以下命令来安装此包。基于网络连接，它会为您抓取数据。
 
-```
+```py
 pip install instagramy
 ```
 
@@ -16,7 +16,7 @@ pip install instagramy
 
 ## 蟒蛇 3
 
-```
+```py
 from instagramy import Instagram
 
 # Connecting the profile
@@ -46,7 +46,7 @@ for post in posts:
 
 ## 蟒蛇 3
 
-```
+```py
 from instagramy import Instalysis
 
 # Instagram user_id of ipl teams

@@ -8,14 +8,14 @@
 
 **第一步:**为了进行抓取，我们需要导入美图偶模块，导入[请求](https://www.geeksforgeeks.org/python-requests-tutorial/)方法请求网站页面。
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 ```
 
 **第二步:**第二步将使用 HTML 解析器和美化输出功能创建网站或 HTML 页面的汤。
 
-```
+```py
 BeautifulSoup(sample_website, 'html.parser')
 ```
 
@@ -25,7 +25,7 @@ BeautifulSoup(sample_website, 'html.parser')
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -46,7 +46,7 @@ print(soup.find('th'))
 
 **输出:**
 
-```
+```py
 <th>S.No.</th>
 ```
 
@@ -54,7 +54,7 @@ print(soup.find('th'))
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -75,6 +75,6 @@ print(soup.find_all('th'))
 
 **输出:**
 
-```
+```py
 [<th>S.No.</th>, <th>ARTICLE</th>, <th>BLOG</th>]
 ```

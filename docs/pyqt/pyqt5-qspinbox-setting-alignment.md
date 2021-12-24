@@ -6,7 +6,7 @@
 
 下面是对齐标志列表
 
-```
+```py
 Qt.AlignLeft    
 Qt.AlignRight    
 Qt.AlignHCenter    
@@ -32,7 +32,7 @@ Qt.AlignTrailing
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

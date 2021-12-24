@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.confstr() method
 
 # importing os module 
@@ -74,7 +74,7 @@ print("Configuration value corresponding to % s :" % name, value)
 
 **Output:** 
 
-```
+```py
 CS_GNU_LIBC_VERSION : glibc 2.26
 CS_PATH : /bin:/usr/bin
 
@@ -86,7 +86,7 @@ Configuration value corresponding to 2 : glibc 2.26
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.confstr() method
 
 # importing os module 
@@ -112,7 +112,7 @@ print("% s:" % name, value)
 
 **Output:** 
 
-```
+```py
 Traceback (most recent call last):
   File "confstr.py", line 15, in 
     value = os.confstr(name)
@@ -123,7 +123,7 @@ ValueError: unrecognized configuration name
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.confstr() method
 
 # importing os module 
@@ -156,6 +156,6 @@ except OSError :
 
 **Output:** 
 
-```
+```py
 'cs_PATH' is not a configuration variable
 ```

@@ -8,7 +8,7 @@
 结合以上功能可以实现问题的解决。在这些中，我们需要首先使用 `enumerate()`和列表理解来排列用于索引值元组创建的元素。然后，我们使用 sort 函数使用 lambda 函数执行自定义排序。
  **代码:**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Relative sorted order in Matrix
 # using list comprehension + enumerate() + sort() + lambda
@@ -31,7 +31,7 @@ print("Sorted order of Matrix elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[1, 3, 1], [4, 6], [7, 8, 10]]
 Sorted order of Matrix elements : [(0, 0), (0, 2), (0, 1), (1, 0),
                                    (1, 1), (2, 0), (2, 1), (2, 2)]

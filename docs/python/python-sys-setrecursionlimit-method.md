@@ -17,7 +17,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain sys.setrecursionlimit() method 
 
 # Importing sys module 
@@ -47,7 +47,7 @@ print('After changing, limit of stack =', limit) 
 
 **Output:**
 
-```
+```py
 Before changing, limit of stack = 1000
 After changing, limit of stack = 500
 

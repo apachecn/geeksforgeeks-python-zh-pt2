@@ -7,7 +7,7 @@
 **方法一:使用`sorted()` + lambda + reverse**
 以上方法的组合可以用来执行此任务。在这种情况下，我们使用 lambda 函数和列表理解，按照特定的列，使用逆序对列表进行降序排序。
 
-```
+```py
 # Python3 code to demonstrate 
 # Reverse sort Matrix Row by Kth Column
 # using sorted() + lambda + reverse()

@@ -7,7 +7,7 @@
 **方法#1:使用`+ operator`**
 这是执行这个特殊任务最皮托尼克和推荐的方法。在这种情况下，我们添加两个元组并返回连接的元组。在此过程中，先前的元组不会改变。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Ways to concatenate tuples
 # using + operator
@@ -30,7 +30,7 @@ print("The tuple after concatenation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original tuple 1 : (1, 3, 5)
 The original tuple 2 : (4, 6)
 The tuple after concatenation is : (1, 3, 5, 4, 6)

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Half String
 # Using upper() + loop + len()
@@ -47,7 +47,7 @@ print("The resultant string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The resultant string : geeksfORGEEKS
 
@@ -59,7 +59,7 @@ The resultant string : geeksfORGEEKS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase Half String
 # Using list comprehension + join() + upper()
@@ -83,7 +83,7 @@ print("The resultant string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeksforgeeks
 The resultant string : geeksfORGEEKS
 

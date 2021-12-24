@@ -8,13 +8,13 @@ Flask 是一个用 Python 编写的微网络框架。它被归类为微框架，
 
 1)为了创建烧瓶应用程序，我们必须首先安装烧瓶。
 
-```
+```py
 pip install flask
 ```
 
 2)为了从维基百科中提取数据，我们必须首先安装 Python 维基百科库。
 
-```
+```py
 pip install wikipedia
 ```
 
@@ -36,7 +36,7 @@ pip install wikipedia
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 from flask import Flask, request, render_template
 import wikipedia
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>

@@ -17,7 +17,7 @@ Python 中的 assertFalse ()是一个[单元测试库](https://www.geeksforgeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # unit test case
 import unittest
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 F
 ======================================================================
 FAIL: test_negative (__main__.TestStringMethods)
@@ -57,7 +57,7 @@ FAILED (failures=1)
 
 ## 蟒蛇 3
 
-```
+```py
 # unit test case
 import unittest
 
@@ -76,7 +76,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 .
 ----------------------------------------------------------------------
 Ran 1 test in 0.000s

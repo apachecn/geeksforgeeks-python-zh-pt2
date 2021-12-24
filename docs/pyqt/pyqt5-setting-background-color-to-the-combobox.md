@@ -8,7 +8,7 @@
 
 为此，我们必须更改组合框的样式表代码，下面是样式表代码
 
-```
+```py
 QComboBox
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

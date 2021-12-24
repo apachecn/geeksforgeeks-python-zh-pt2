@@ -15,7 +15,7 @@
 
 **示例#1 :**
 
-```
+```py
 # Python program to explain sys.setswitchinterval() method 
 
 # Importing sys module 
@@ -45,7 +45,7 @@ print('After changing, switchinterval =', interval) 
 
 **Output:**
 
-```
+```py
 Before changing, switchinterval = 0.005
 After changing, switchinterval = 1.0
 

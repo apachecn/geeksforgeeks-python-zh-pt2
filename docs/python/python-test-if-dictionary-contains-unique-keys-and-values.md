@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 在执行这个特定任务的朴素方法中，我们可以检查每个值，并将每个值插入字典中的列表/散列中，当重复发生时，只需停止流程并返回 false。
 
-```
+```py
 # Python3 code to demonstrate
 # check for unique values
 # Using loops
@@ -35,7 +35,7 @@ print("Does dictionary contain repetition : " + str(flag))
 
 **Output :**
 
-```
+```py
 The original dictionary : {'Nikhil': 1, 'Akash': 2, 'Akshat': 3, 'Manjeet': 1}
 Does dictionary contain repetition : True
 

@@ -6,7 +6,7 @@
 
 **所需模块:**
 
-```
+```py
 pyttsx3 - pip install pyttsx3
 requests - pip install requests
 ```
@@ -17,7 +17,7 @@ requests - pip install requests
 
 **步骤#1:** 导入所需模块
 
-```
+```py
 import pyttsx3
 import requests
 import json
@@ -26,7 +26,7 @@ import time
 
 **第 2 步:**用 API 键设置 URL，把你的 API 键放在这里。
 
-```
+```py
 url = ('https://newsapi.org/v2/top-headlines?'
        'country = in&'
        'apiKey =')
@@ -36,13 +36,13 @@ url += 'your_api_key_here'
 
 **步骤#3:** 为 pyttsx3 设置阅读新闻的引擎。
 
-```
+```py
 engine = pyttsx3.init()
 ```
 
 **步骤#4:** 设置我们引擎的属性，意味着读取速率、音量和声音。
 
-```
+```py
 rate = engine.getProperty('rate')
 engine.setProperty('rate', rate + 10)
 
@@ -55,7 +55,7 @@ engine.setProperty('voice', 'sound[1].id')
 
 **第五步:**尝试发送请求获取消息。在这里， **engine.say()** 功能用于阅读新闻。
 
-```
+```py
 try:
     response = requests.get(url)
 except:
@@ -64,7 +64,7 @@ except:
 news = json.loads(response.text)
 ```
 
-```
+```py
 for new in news['articles']:
     print("##############################################################\n")
     print(str(new['title']), "\n\n")
@@ -84,7 +84,7 @@ for new in news['articles']:
 
 下面是完整的 Python 实现:
 
-```
+```py
 import pyttsx3
 import requests
 import json

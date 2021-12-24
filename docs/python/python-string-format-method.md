@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate
 # the str.format() method
 
@@ -37,7 +37,7 @@ print("Hello, I am {} years old !".format(18))
 
 **输出:**
 
-```
+```py
 GeeksforGeeks, A computer science portal for geeks.
 This article is written in Python
 Hello, I am  18 years old!
@@ -59,7 +59,7 @@ Hello, I am  18 years old!
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program demonstrating Index error
 
 # Number of placeholders are four but
@@ -73,7 +73,7 @@ print(my_string.format("GeeksforGeeks", "computer", "geeks"))
 
 **输出:**
 
-```
+```py
 IndexError: tuple index out of range
 ```
 
@@ -81,7 +81,7 @@ IndexError: tuple index out of range
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program using multiple place
 # holders to demonstrate str.format() method
 
@@ -101,7 +101,7 @@ print("This is {} {} {} {}"
 
 **输出:**
 
-```
+```py
 GeeksforGeeks, is a computer science portal for geeks
 Hi! My name is User and I am 19 years old
 This is one two three four
@@ -140,7 +140,7 @@ str.format()方法中存在的值本质上是**元组数据类型**，元组中�
 
 ## 蟒蛇 3
 
-```
+```py
 # To demonstrate the use of formatters
 # with positional key arguments.
 
@@ -190,7 +190,7 @@ print("{gfg} is a {0} science portal for {1}"
 
 ## 蟒蛇 3
 
-```
+```py
 print("%20s" % ('geeksforgeeks', ))
 print("%-20s" % ('Interngeeks', ))
 print("%.5s" % ('Interngeeks', ))
@@ -198,7 +198,7 @@ print("%.5s" % ('Interngeeks', ))
 
 **输出:**
 
-```
+```py
        geeksforgeeks
 Interngeeks         
 Inter
@@ -208,7 +208,7 @@ Inter
 
 ## 蟒蛇 3
 
-```
+```py
 type = 'bug'
 
 result = 'troubling'
@@ -226,7 +226,7 @@ it dawned on me it was a %s .' %
 
 ## 蟒蛇 3
 
-```
+```py
 match = 12000
 
 site = 'amazon'
@@ -260,7 +260,7 @@ up mobile and they had a nice one that cost %d rupees." % (site, match))
 
 ## 蟒蛇 3
 
-```
+```py
 # Demonstrate ValueError while
 # doing forced type-conversions
 
@@ -277,7 +277,7 @@ print("The temperature today is {0:d} degrees outside !"
 
 **输出:**
 
-```
+```py
 ValueError: Unknown format code 'd' for object of type 'float'
 ```
 
@@ -285,7 +285,7 @@ ValueError: Unknown format code 'd' for object of type 'float'
 
 ## 蟒蛇 3
 
-```
+```py
 # Convert base-10 decimal integers
 # to floating point numeric constants
 print("This site is {0:f}% securely {1}!!".
@@ -310,7 +310,7 @@ print("The {0} of 100 is {1:o}"
 
 **输出:**
 
-```
+```py
 This site is 100.000000% securely encrypted!!
 My average of this semester was 78.23%
 My average of this semester was 78%
@@ -324,7 +324,7 @@ The octal of 100 is 144
 
 默认情况下，字符串在字段中是左对齐的，数字是右对齐的。我们可以通过在冒号后面放置一个对齐代码来修改它。
 
-```
+```py
 <   :  left-align text in the field
 ^   :  center text in the field
 >   :  right-align text in the field
@@ -332,7 +332,7 @@ The octal of 100 is 144
 
 ## 蟒蛇 3
 
-```
+```py
 # To demonstrate spacing when
 # strings are passed as parameters
 print("{0:4}, is the computer science portal for {1:8}!"
@@ -357,7 +357,7 @@ print("{:*^20s}".format("Geeks"))
 
 **输出:**
 
-```
+```py
 GeeksforGeeks, is the computer science portal for geeks   !
 It is    40 degrees outside!
 GeeksforGeeks was founded in             2009!
@@ -373,7 +373,7 @@ GeeksforGeeks was founded in             2009!
 
 ## 蟒蛇 3
 
-```
+```py
 # which prints out i, i ^ 2, i ^ 3,
 #  i ^ 4 in the given range
 
@@ -412,7 +412,7 @@ organized(n1, n2)
 
 **输出:**
 
-```
+```py
 Enter lower range :-
 3
 Enter upper range :-
@@ -443,7 +443,7 @@ Enter upper range :-
 
 ## 蟒蛇 3
 
-```
+```py
 introduction = 'My name is {first_name} {middle_name} {last_name} AKA the {aka}.'
 full_name = {
     'first_name': 'Tony',
@@ -458,7 +458,7 @@ print(introduction.format(**full_name))
 
 **输出:**
 
-```
+```py
 My name is Tony Howard Stark AKA the Iron Man.
 ```
 
@@ -468,7 +468,7 @@ My name is Tony Howard Stark AKA the Iron Man.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to truncate float
 # values to 2 decimal digits.
 
@@ -484,6 +484,6 @@ print(Output)
 
 **输出:**
 
-```
+```py
 ['100.77', '17.23', '60.99', '300.84']
 ```

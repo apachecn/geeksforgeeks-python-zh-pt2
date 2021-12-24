@@ -7,7 +7,7 @@
 **方法#1:使用`zip() + map()`**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用 zip()和 map()对列表进行配对。矩阵的构建是从配对的列表开始的。
 
-```
+```py
 # Python3 code to demonstrate 
 # Similar index elements Matrix
 # using zip() + map()
@@ -33,7 +33,7 @@ print ("The matrix after cummulation is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list 1 is : [3, 4, 5]
 The original list 2 is : [1, 2, 6]
 The original list 3 is : [7, 9, 8]

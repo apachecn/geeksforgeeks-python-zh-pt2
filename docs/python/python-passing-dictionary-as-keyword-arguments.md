@@ -7,7 +7,7 @@
 **方法:使用 `**` ( splat)运算符**
 该运算符用于解包字典，在传入函数时，可以解包字典，并完成将键映射到参数及其值映射到参数值的所需任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Passing dictionary as keyword arguments
 # Using ** ( splat ) operator
@@ -37,7 +37,7 @@ test_func(**test_dict)
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'a': 1, 'b': 2}
 The default function call yields : 
 The value of a is : 4

@@ -8,13 +8,13 @@
 
 要安装库，请在命令提示符下运行以下命令。
 
-```
+```py
 python -m pip install pip
 ```
 
 或者
 
-```
+```py
 python -m pip install pillow
 ```
 
@@ -35,7 +35,7 @@ python -m pip install pillow
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the library
 from PIL import Image
 import matplotlib.pyplot as plt
@@ -46,7 +46,7 @@ import numpy as np
 
 ## 蟒蛇 3
 
-```
+```py
 image = Image.open("puppy.jpg")
 
 # this open the photo viewer
@@ -62,7 +62,7 @@ plt.imshow(image)
 
 ## 计算机编程语言
 
-```
+```py
 # text Watermark
 from PIL import ImageFont
 from PIL import ImageDraw
@@ -94,7 +94,7 @@ plt.imshow(watermark_image)
 
 ## 蟒蛇 3
 
-```
+```py
 # import all the libraries
 from PIL import Image
 from PIL import ImageFont

@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQtGraph 模块中获得错误条形图的形状。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).误差线是数据可变性的图形表示，用在图表上表示报告测量中的误差或不确定性。它们给出了测量精度的大致概念，或者相反，真实值可能与报告值有多远。形状基本上是一个油漆工对象，用于绘制误差条形图。
 我们可以借助下面给出的命令，创建一个绘图窗口，并在上面创建一个误差条形图。
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -23,7 +23,7 @@ error = pg.ErrorBarItem(x=x, y=y, top=top,
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

@@ -9,7 +9,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 **滑块:**
 要使用滑块，首先必须导入包含滑块所有特征和功能的模块，即
 
-```
+```py
 Module: kivy.uix.slider
 ```
 
@@ -32,7 +32,7 @@ Kivy 还支持根据归一化值(范围 0 到 1)而不是滑块支持的真实�
 
 ## 蟒蛇 3
 
-```
+```py
 # import kivy module
 import kivy
 
@@ -118,7 +118,7 @@ root.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring the slider and adding some effects to it
 # By default its orientation is horizontal
 # if want to change to vertical do like below

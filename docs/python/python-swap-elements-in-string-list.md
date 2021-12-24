@@ -7,7 +7,7 @@
 **方法#1:使用`replace()` +列表理解**
 上述功能的组合可用于执行该任务。在本文中，我们使用列表理解来遍历列表，并使用 replace()来执行交换任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Swap elements in String list
 # using replace() + list comprehension
@@ -28,7 +28,7 @@ print ("List after performing character swaps : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : ['Gfg', 'is', 'best', 'for', 'Geeks']
 List after performing character swaps : ['efg', 'is', 'bGst', 'for', 'eGGks']
 

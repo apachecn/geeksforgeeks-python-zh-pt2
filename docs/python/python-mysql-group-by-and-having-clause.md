@@ -22,7 +22,7 @@ GROUP BY 语句根据使用的聚合函数将具有相同值的行分组为单�
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector 
 
@@ -74,7 +74,7 @@ Having 子句基本上类似于 GROUP BY 子句的聚合函数。HAVING 子句�
 
 ## 蟒蛇 3
 
-```
+```py
 # Establish connection to MySQL database
 import mysql.connector 
 

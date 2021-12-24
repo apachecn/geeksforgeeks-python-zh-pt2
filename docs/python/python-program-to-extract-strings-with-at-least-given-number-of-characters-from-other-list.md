@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["Geeksforgeeks", "is", "best", "for", "geeks"]
 
@@ -60,7 +60,7 @@ print("Filtered Strings : " + str(res))
 
 ## *蟒蛇 3*
 
-```
+```py
 *# initializing list
 test_list = ["Geeksforgeeks", "is", "best", "for", "geeks"]
 

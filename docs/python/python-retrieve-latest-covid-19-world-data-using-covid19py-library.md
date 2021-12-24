@@ -8,7 +8,7 @@
 
 要安装库，请在系统命令行中执行以下命令:
 
-```
+```py
 pip install COVID19Py 
 
 ```
@@ -26,7 +26,7 @@ pip install COVID19Py
 
 ## 蟒蛇 3
 
-```
+```py
 # import given package
 import COVID19Py
 

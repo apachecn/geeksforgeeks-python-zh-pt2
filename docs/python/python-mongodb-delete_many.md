@@ -14,7 +14,7 @@
 
 **示例 1:** 删除名称以“A”开头的所有文档。
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -33,7 +33,7 @@ print(d.deleted_count, " documents deleted !!")
 
 **输出:**
 
-```
+```py
 2  documents deleted !!
 
 ```
@@ -44,7 +44,7 @@ print(d.deleted_count, " documents deleted !!")
 
 **例 2:**
 
-```
+```py
 import pymongo
 
 client = pymongo.MongoClient("mongodb://localhost:27017/")
@@ -63,7 +63,7 @@ print(d.deleted_count, " documents deleted !!")
 
 **输出:**
 
-```
+```py
 1  documents deleted !!
 
 ```

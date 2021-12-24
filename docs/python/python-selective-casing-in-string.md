@@ -7,7 +7,7 @@
 **方法#1:使用`enumerate() + loop + upper()`**
 这个问题可以使用上面的一组功能来解决。这是一种暴力的方式来执行这个任务，在这种情况下，我们遍历字符串中的每个元素，如果它出现在大小写改变列表中，就将其改为大写。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Selective casing in String
 # using loop + upper() + enumerate()
@@ -34,7 +34,7 @@ print("String after Selective casing : " + str(''.join(res)))
 
 **Output :**
 
-```
+```py
 The original string : gfg is best
 String after Selective casing : GFG iS beSt
 

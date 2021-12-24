@@ -9,7 +9,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to split the list
 # by some value into two lists.
 
@@ -31,7 +31,7 @@ print(second_list)
 
 **Output:** 
 
-```
+```py
 ['Geeks']
 ['is a', 'portal', 'for Geeks']
 ```
@@ -40,7 +40,7 @@ print(second_list)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to split the list
 # by some value into two lists.
 
@@ -71,7 +71,7 @@ print(second_list)
 
 **Output:** 
 
-```
+```py
 ['Geeks']
 ['is a', 'portal', 'for Geeks']
 ```

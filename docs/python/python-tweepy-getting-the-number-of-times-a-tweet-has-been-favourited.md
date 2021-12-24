@@ -20,7 +20,7 @@
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272771459249844224。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -53,7 +53,7 @@ print("The number of time the status has been favourited is : " + str(favorite_c
 
 **输出:**
 
-```
+```py
 The number of time the status has been favourited is : 17
 
 ```
@@ -63,7 +63,7 @@ The number of time the status has been favourited is : 17
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272479136133627905。
 
-```
+```py
 # the ID of the status
 id = 1272479136133627905
 
@@ -78,7 +78,7 @@ print("The number of time the status has been favourited is : " + str(favorite_c
 
 **输出:**
 
-```
+```py
 The number of time the status has been favorited is : 19
 
 ```

@@ -6,7 +6,7 @@
 
 这些功能是:
 
-```
+```py
 str.ljust(s, width[, fillchar])
 str.rjust(s, width[, fillchar])
 str.center(s, width[, fillchar])
@@ -29,7 +29,7 @@ str.center(s, width[, fillchar])
 > **返回值:**
 > 合成的中心对齐字符串扩展了给定的宽度。
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of center()
 
@@ -50,7 +50,7 @@ print (cstr.center(40, '#'))
 
 输出:
 
-```
+```py
 The original string is : 
  I love geeksforgeeks 
 
@@ -75,7 +75,7 @@ Center aligned string with fillchr:
 > **返回值:**
 > 结果左对齐字符串扩展给定宽度。
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of  ljust()
 
@@ -92,7 +92,7 @@ print (lstr.ljust(40, '-'))
 
 输出:
 
-```
+```py
 The original string is : 
  I love geeksforgeeks 
 
@@ -114,7 +114,7 @@ I love geeksforgeeks--------------------
 > **返回值:**
 > 结果右对齐字符串扩展给定宽度。
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of rjust()
 
@@ -131,7 +131,7 @@ print (rstr.rjust(40, '-'))
 
 输出:
 
-```
+```py
 The original string is : 
  I love geeksforgeeks 
 

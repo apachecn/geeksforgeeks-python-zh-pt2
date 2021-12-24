@@ -10,7 +10,7 @@ Python 列表通常的`append` 操作是在列表末尾添加新元素。但是�
 
 该方法通常在列表中的任何位置插入元素，并且还执行内部所需的必要转换，因此也可以用来执行这个任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add element at beginning
 # using insert()
@@ -31,7 +31,7 @@ print ("Resultant list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 5, 7]
 Resultant list is : [6, 1, 3, 4, 5, 7]
 
@@ -41,7 +41,7 @@ Resultant list is : [6, 1, 3, 4, 5, 7]
 
 这两个运算符可以组合起来执行此任务。我们将元素转换为列表，然后执行列表添加。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add element at beginning
 # using [] and +
@@ -62,7 +62,7 @@ print ("Resultant list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 5, 7]
 Resultant list is : [6, 1, 3, 4, 5, 7]
 
@@ -72,7 +72,7 @@ Resultant list is : [6, 1, 3, 4, 5, 7]
 
 列表切片也是执行这个特殊任务的另一种方法。我们只需将 0 切片列表分配给从元素转换而来的列表。这很管用，而且相当优雅。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add element at beginning
 # using slicing 
@@ -93,7 +93,7 @@ print ("Resultant list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 5, 7]
 Resultant list is : [6, 1, 3, 4, 5, 7]
 
@@ -103,7 +103,7 @@ Resultant list is : [6, 1, 3, 4, 5, 7]
 
 可以将列表转换为 deque，然后使用`appendleft()`从双端队列的前面执行类似推送的操作。
 
-```
+```py
 # Python3 code to demonstrate 
 # to add element at beginning
 # using collections.deque.pushleft()
@@ -128,7 +128,7 @@ print ("Resultant list is : " + str(test_list))
 
 **Output:**
 
-```
+```py
 Original list : [1, 3, 4, 5, 7]
 Resultant list is : [6, 1, 3, 4, 5, 7]
 

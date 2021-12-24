@@ -4,7 +4,7 @@
 
 在 simpy 模块中，我们可以使用 sympy.primerange()函数得到范围[a，b]内所有素数的 a 列表。
 
-```
+```py
 Syntax:  sympy.primerange()
 Parameter:  range a and b
 Return:  a list of all primes in given range
@@ -14,7 +14,7 @@ Return:  a list of all primes in given range
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get prime number range
 # using sympy.primerange() method
 
@@ -35,7 +35,7 @@ list(primerange(0, 100))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to get the range prime number
 # using sympy.primerange() method
 
@@ -48,6 +48,6 @@ list(nt.primerange(2, 31))
 
 输出:
 
-```
+```py
 [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]
 ```

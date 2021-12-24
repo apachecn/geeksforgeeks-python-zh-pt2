@@ -21,7 +21,7 @@
 
 **Code Example:**
 
-```
+```py
 import wx
 
 APP_EXIT = 1

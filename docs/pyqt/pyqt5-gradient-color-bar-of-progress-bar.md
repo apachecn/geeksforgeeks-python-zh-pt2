@@ -12,7 +12,7 @@
 
 **样式表代码:**
 
-```
+```py
 QProgressBar::chunk 
 {
 background: QLinearGradient( x1: 0, y1: 0,
@@ -25,7 +25,7 @@ background: QLinearGradient( x1: 0, y1: 0,
 
 这个样式表是借助`setStyleSheet`方法使用的。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

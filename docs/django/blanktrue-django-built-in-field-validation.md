@@ -5,7 +5,7 @@
 Django 模型中的内置字段验证是所有 Django 字段预定义的默认验证。每个字段都有来自姜戈[验证器](https://docs.djangoproject.com/en/2.2/ref/validators/)的内置验证。还可以添加更多的内置字段验证，以应用或删除特定字段的某些约束。空白=真将使字段接受**空白**值。它只是意味着字段可以是空的。
 **语法**
 
-```
+```py
 field_name = models.Field(blank = True)
 ```
 
@@ -22,7 +22,7 @@ field_name = models.Field(blank = True)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 from django.db.models import Model
 # Create your models here.
@@ -33,7 +33,7 @@ class GeeksModel(Model):
 
 在 Django 上运行 makemigrations 和 migration 并呈现上述模型之后，让我们尝试使用 Django shell 中的 None 创建一个实例。要启动 Django shell，输入命令
 
-```
+```py
 Python manage.py shell
 ```
 
@@ -41,7 +41,7 @@ Python manage.py shell
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required model
 from geeks.models import GeeksModel
 

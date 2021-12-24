@@ -7,7 +7,7 @@
 **方法#1:使用`pop()`**
 `pop` 功能可以重复多次，直到列表大小达到列表大小所需的阈值。这使用了一个完整的循环，因此比较繁琐。
 
-```
+```py
 # Python3 code to demonstrate 
 # to truncate list using pop()
 
@@ -32,7 +32,7 @@ print ("The truncated list is : " +  str(test_list))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 5, 6, 7, 3, 8, 9, 10]
 The truncated list is : [1, 4, 5, 6, 7]
 

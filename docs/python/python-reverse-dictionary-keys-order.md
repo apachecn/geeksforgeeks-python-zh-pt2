@@ -7,7 +7,7 @@
 **方法#1:使用`OrderedDict() + reversed() + items()`**
 这个方法是针对旧版 Python 的。旧版本不能保持字典中的顺序，因此必须转换为 OrderedDict 来执行此任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Reverse Dictionary Keys Order
 # Using OrderedDict() + reversed() + items()

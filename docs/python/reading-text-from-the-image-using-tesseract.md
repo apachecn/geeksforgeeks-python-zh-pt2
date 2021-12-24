@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # We import the necessary packages
 #import the needed packages
 import cv2
@@ -71,7 +71,7 @@ cv2.waitKey(0)
 
 执行以下命令查看输出。
 
-```
+```py
 python  tesseract.py --image Images/title.png
 
 ```
@@ -96,7 +96,7 @@ p
 
 执行以下命令查看输出。
 
-```
+```py
 python  tesseract.py --image Images/OCR.png
 
 ```

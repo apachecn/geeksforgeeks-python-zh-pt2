@@ -26,7 +26,7 @@
 
 ### 逻辑表达式:
 
-```
+```py
 Difference = A XOR B
 Borrow = Ā AND B
 ```
@@ -49,7 +49,7 @@ Borrow = Ā AND B
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement Half subtractor
 
 # Function to print Difference and Borrow
@@ -79,7 +79,7 @@ getResult(A, B)
 
 **输出:**
 
-```
+```py
 Difference: 1
 Borrow: 1
 ```

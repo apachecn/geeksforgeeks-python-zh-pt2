@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [[1], [2, 3], [4, 5, 6]]
         list2 = ['a', 'b', 'c', 'd', 'e', 'f']
 Output : [['a'], ['b', 'c'], ['d', 'e', 'f']]
@@ -21,7 +21,7 @@ Output : [['m', 'n', 'o'], ['p'], ['q', 'r', 's', 't']]
 
 一个简单而天真的方法是使用 for 循环和 Python 扩展切片将 list2 的每个子列表追加到变量“res”中。
 
-```
+```py
 # Python3 program to reshape a list 
 # according to multidimensional list
 
@@ -42,7 +42,7 @@ print(reshape(list1, list2))
 
 **Output:**
 
-```
+```py
 [['a'], ['b', 'c'], ['d', 'e', 'f']]
 
 ```
@@ -51,7 +51,7 @@ print(reshape(list1, list2))
 
 另一种方法是使用 *itertools* 模块中的 *islice* 功能。 *islice* 有选择地打印其可滴定容器中提到的数值。因此，我们根据列表 1 生成列表 2 的切片，并将其附加到变量“res”中。
 
-```
+```py
 # Python3 program to reshape a list 
 # according to multidimensional list
 from itertools import islice
@@ -77,7 +77,7 @@ print(reshape(list1, list2))
 
 **Output:**
 
-```
+```py
 [['a'], ['b', 'c'], ['d', 'e', 'f']]
 
 ```
@@ -86,7 +86,7 @@ print(reshape(list1, list2))
 
 *iter()* 方法返回列表 2 的迭代器，并将其保存在变量“迭代器”中。现在使用列表理解根据列表 1 重塑列表 2。
 
-```
+```py
 # Python3 program to reshape a list 
 # according to multidimensional list
 
@@ -103,7 +103,7 @@ print(reshape(list1, list2))
 
 **Output:**
 
-```
+```py
 [['a'], ['b', 'c'], ['d', 'e', 'f']]
 
 ```

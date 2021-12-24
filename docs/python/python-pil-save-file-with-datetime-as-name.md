@@ -8,13 +8,13 @@
 
 [**【PIL】**](https://www.geeksforgeeks.org/python-pil-image-open-method/):该库提供了广泛的文件格式支持、高效的内部表示以及相当强大的图像处理能力。
 
-```
+```py
 pip install Pillow
 ```
 
 [**【日期时间】**](https://www.geeksforgeeks.org/python-datetime-module/) :这个模块帮助我们在 Python 中处理日期和时间。
 
-```
+```py
 pip install datetime
 ```
 
@@ -24,31 +24,31 @@ pip install datetime
 
 **步骤 1:** 使用提供的路径，使用 ***图像*** 模块打开图像。
 
-```
+```py
 img = Image.open(path)
 ```
 
 **第二步:**使用[***DateTime . now()***](https://www.geeksforgeeks.org/python-now-function/)获取当前日期时间，使用**[***str time()***](https://www.geeksforgeeks.org/python-strftime-function/)格式化日期时间。**
 
-```
+```py
 curr_datetime = datetime.now().strftime('%Y-%m-%d %H-%M-%S')
 ```
 
 ****第三步:**使用 [***将路径分割成根和扩展。***](https://www.geeksforgeeks.org/python-os-path-basename-method/)**
 
-```
+```py
 splitted_path = os.path.splitext(picture_path)
 ```
 
 ****第 4 步:**在根和扩展之间添加当前日期时间，并将它们连接起来。**
 
-```
+```py
 modified_picture_path = splitted_path[0] + curr_datetime + splitted_path[1]
 ```
 
 ****步骤 5:** 使用 ***图像*** 模块保存修改后路径的图像。**
 
-```
+```py
 img.save(modified_picture_path)
 ```
 
@@ -56,7 +56,7 @@ img.save(modified_picture_path)
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import the required modules
 import os
 from PIL import Image

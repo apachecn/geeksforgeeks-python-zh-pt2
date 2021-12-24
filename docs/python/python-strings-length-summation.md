@@ -7,7 +7,7 @@
 **方法#1:使用`sum()` +列表理解**
 这两个功能的组合可以用来执行这个特定的功能。sum 函数用于查找列表的每个字符串的总和，列表理解执行迭代任务。
 
-```
+```py
 # Python3 code to demonstrate
 # string lengths summation 
 # using sum() + list comprehension
@@ -28,7 +28,7 @@ print ("The summation of strings is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : ['Geeks', 'for', 'Geeks']
 The summation of strings is : 13
 
@@ -37,7 +37,7 @@ The summation of strings is : 13
 **方法 2:使用`join() + len()`**
 python 的内置功能可以帮助执行这个特定的任务。join 函数可用于将所有字符串连接在一起，len 函数取它们的累积和。
 
-```
+```py
 # Python3 code to demonstrate
 # string lengths summation 
 # using sum() + list comprehension
@@ -58,7 +58,7 @@ print ("The summation of strings is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : ['Geeks', 'for', 'Geeks']
 The summation of strings is : 13
 

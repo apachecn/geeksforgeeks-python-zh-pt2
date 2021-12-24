@@ -12,7 +12,7 @@ PyQt5 中的进度条允许我们设置进度条的值范围。`maximum`方法�
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

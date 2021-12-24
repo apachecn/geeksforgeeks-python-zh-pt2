@@ -7,7 +7,7 @@
 **方法#1:使用天真法**
 天真法可以垂直 vis 打印列表。使用循环并连续打印每个列表的每个索引元素将有助于我们完成这项任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Vertical list print 
 # using naive method 
@@ -28,7 +28,7 @@ for i in range(len(test_list)):
 
 **输出:**
 
-```
+```py
 The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 1 4 8 
 4 6 3 
@@ -39,7 +39,7 @@ The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 **方法 2:使用`zip()`**
 使用 zip 函数，我们将各个索引处的元素相互映射，然后打印每个元素。这执行垂直打印的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Vertical list print 
 # using zip()
@@ -58,7 +58,7 @@ for x, y, z in zip(*test_list):
 
 **输出:**
 
-```
+```py
 The original list is : [[1, 4, 5], [4, 6, 8], [8, 3, 10]]
 1 4 8
 4 6 3

@@ -7,7 +7,7 @@
 **方法#1:使用`sum() + list comprehension + zip()`**
 需要结合以上方法来解决这个特殊问题。sum 函数用于获取所需的 sum 值，zip 函数提供相似索引的组合，然后使用列表理解创建列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Summation of each column in Matrix
 # using sum() + list comprehension + zip()
@@ -28,7 +28,7 @@ print("The Summation of each index list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [[3, 7, 6], [1, 3, 5], [9, 3, 2]]
 The Summation of each index list is : [13, 13, 13]
 

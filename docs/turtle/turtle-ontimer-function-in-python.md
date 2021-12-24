@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.ontimer(fun, t=0)
 
 ```
@@ -29,7 +29,7 @@ turtle.ontimer(fun, t=0)
 
 ## 蟒蛇 3
 
-```
+```py
 # import packages
 import turtle
 import random

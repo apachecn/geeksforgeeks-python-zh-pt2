@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [(4, 6), (1, 2), (9, 2), (2, 1), (5, 7), (6, 4), (9, 2)]
 
@@ -53,7 +53,7 @@ print("Tuples after removal : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **# initializing list
 test_list = [(4, 6), (1, 2), (9, 2), (2, 1), (5, 7), (6, 4), (9, 2)]
 

@@ -17,13 +17,13 @@
 
 **第二步:**设置虚拟环境。这里我们创造一个环境**。env**
 
-```
+```py
 python -m venv .env
 ```
 
 **第三步:**激活环境。
 
-```
+```py
 .env\Scripts\activate
 ```
 
@@ -33,7 +33,7 @@ python -m venv .env
 
 **第一步:**在 Python 中，我们有美人汤，这是一个从 HTML 文件中拉出数据的库。要安装美丽的汤，运行一个简单的命令；
 
-```
+```py
 pip install beautifulsoup4
 ```
 
@@ -41,7 +41,7 @@ pip install beautifulsoup4
 
 同样，安装 Python 的请求模块。
 
-```
+```py
 pip install requests
 ```
 
@@ -53,7 +53,7 @@ pip install requests
 
 为了将解析后的对象作为一个整体来表示，我们使用了美丽的输出对象，
 
-```
+```py
 soup = BeautifulSoup(html_text, "html.parser")
 ```
 
@@ -63,7 +63,7 @@ soup = BeautifulSoup(html_text, "html.parser")
 
 ## 计算机编程语言
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -76,7 +76,7 @@ print(soup)
 
 ## 计算机编程语言
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -97,7 +97,7 @@ link = "https://sports.ndtv.com/" + \
 
 ## 蟒蛇 3
 
-```
+```py
 from bs4 import BeautifulSoup
 import requests
 
@@ -158,7 +158,7 @@ except:
 
 我们将使用 [Flask](https://www.geeksforgeeks.org/flask-creating-first-simple-application/) ，这是一个用 Python 编写的微 web 框架。
 
-```
+```py
 pip install Flask
 ```
 
@@ -166,7 +166,7 @@ pip install Flask
 
 ## 蟒蛇 3
 
-```
+```py
 # We import the Flask Class, an instance of 
 # this class will be our WSGI application.
 from flask import Flask
@@ -209,7 +209,7 @@ jsonify 是 Flask 中的一个函数。它将数据序列化为 JavaScript 对�
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, jsonify
 
 app = Flask(__name__)
@@ -246,7 +246,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, jsonify
@@ -311,19 +311,19 @@ if __name__ == "__main__":
 
 **第 4 步:**登录你的 Heroku 账户
 
-```
+```py
 heroku login
 ```
 
 **第五步:**安装 gunicorn，这是一个用于 WSGI 应用的纯 Python HTTP 服务器。它允许您通过运行多个 Python 进程来同时运行任何 Python 应用程序。
 
-```
+```py
 pip install gunicorn
 ```
 
 **第 6 步:**我们需要创建一个概要文件，它是我们应用程序根目录中的一个文本文件，以明确声明应该执行什么命令来启动我们的应用程序。
 
-```
+```py
 web: gunicorn CricGFG:app
 ```
 
@@ -331,7 +331,7 @@ web: gunicorn CricGFG:app
 
 **第 7 步:**我们进一步创建一个 requirements.txt 文件，其中包含 Heroku 运行我们的 flask 应用程序所需的所有必要模块。
 
-```
+```py
 pip freeze >> requirements.txt
 ```
 
@@ -341,7 +341,7 @@ pip freeze >> requirements.txt
 
 **步骤 9:** 我们现在初始化一个 git 存储库，并将我们的文件添加到其中。
 
-```
+```py
 git init
 git add .
 git commit -m "Cricket API Completed"
@@ -351,13 +351,13 @@ git commit -m "Cricket API Completed"
 
 **第 10 步:**我们现在将引导 Heroku 前往我们的 git 存储库。
 
-```
+```py
 heroku git:remote -a cricgfg
 ```
 
 **第 11 步:**我们现在将在 Heroku 上推送我们的文件。
 
-```
+```py
 git push heroku master
 ```
 

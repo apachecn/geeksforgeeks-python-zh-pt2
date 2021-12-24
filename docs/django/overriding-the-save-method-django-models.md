@@ -18,7 +18,7 @@ save 方法是从模型继承的方法。为将实例保存到特定模型中而
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # importing slugify from django

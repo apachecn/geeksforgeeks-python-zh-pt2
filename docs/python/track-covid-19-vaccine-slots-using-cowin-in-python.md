@@ -8,7 +8,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install cowin
 ```
 
@@ -20,7 +20,7 @@ pip install cowin
 
 ## 蟒蛇 3
 
-```
+```py
 from cowin_api import CoWinAPI
 from pprint import pprint
 
@@ -43,7 +43,7 @@ print(states)
 
 ## 蟒蛇 3
 
-```
+```py
 from cowin_api import CoWinAPI
 from pprint import pprint
 
@@ -75,7 +75,7 @@ pprint(districts)
 
 ## 蟒蛇 3
 
-```
+```py
 from cowin_api import CoWinAPI
 from pprint import pprint
 cowin = CoWinAPI()
@@ -107,7 +107,7 @@ pprint(available_centers)
 
 ## 蟒蛇 3
 
-```
+```py
 from cowin_api import CoWinAPI
 from pprint import pprint
 cowin = CoWinAPI()

@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input: [('a', 'b', 'c'), (1,2,3), ('1','3','4')]
 Output: ['a', 'b', 'c'], [1, 2, 3], ('1', '3', '4')
 ```
@@ -17,7 +17,7 @@ Output: ['a', 'b', 'c'], [1, 2, 3], ('1', '3', '4')
 
 ## 蟒蛇 3
 
-```
+```py
 # list of tuple for student data
 # with both integer and strings
 a = [(1, 2,3,4,5),
@@ -67,7 +67,7 @@ for i in data:
 
 ## 蟒蛇 3
 
-```
+```py
 # list of tuple for student
 # data with both integer and strings
 a = [(1, 2,3,4,5), 
@@ -85,7 +85,7 @@ for i in data:
 
 **输出:**
 
-```
+```py
 [1, 'sravan', 96, 'kakumanu']
 [2, 'bobby', 89, 'kakumanu']
 [3, 'ojaswi', 78, 'hyd']

@@ -33,7 +33,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import pandas as pd
 
     lst = ['I', 'Love', 'Data', 'Science']
@@ -50,7 +50,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import numpy as np
 
     arr = np.array ([[1, 2, 3], [4, 6, 8]])
@@ -62,7 +62,7 @@
 
     **输出:**
 
-    ```
+    ```py
     Array is of type:  <class 'numpy.ndarray'>
     No. od dimensions: 2
     Shape of array:  (2, 3)
@@ -72,7 +72,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import numpy as np
     from scipy import misc
     import matplotlib.pyplot as plt
@@ -93,7 +93,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import matplotlib.pyplot as plt
 
     plt.plot([1, 2, 3, 4])
@@ -110,7 +110,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import seaborn as sns
 
     sns.set()
@@ -134,7 +134,7 @@
 
     **示例:**
 
-    ```
+    ```py
     from sklearn import datasets
 
     iris = datasets.load_iris( )
@@ -204,7 +204,7 @@
 
     **示例:**
 
-    ```
+    ```py
     import numpy as np
     import statsmodels.api as sm 
     import statsmodels.formula.api as smf 

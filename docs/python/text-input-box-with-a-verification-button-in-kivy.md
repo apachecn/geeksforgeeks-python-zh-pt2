@@ -12,12 +12,12 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用文本输入和按钮，您必须通过命令–
 
-```
+```py
 from kivy.uix.textinput import TextInput
 from kivy.uix.button import Button
 ```
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -37,7 +37,7 @@ Basic Approach:
 
 **主. py 文件**
 
-```
+```py
 ## Sample Python application demonstrating that   
 ## how to create Text Input with Button in kivy
 

@@ -16,7 +16,7 @@
 
 在你有一个项目和一个应用程序后，让我们创建一个模型，我们将通过我们的视图创建实例。在`geeks/models.py`中，
 
-```
+```py
 # import the standard Django Model
 # from built-in library
 from django.db import models
@@ -36,7 +36,7 @@ class GeeksModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 Python manage.py makemigrations
 Python manage.py migrate
 
@@ -44,7 +44,7 @@ Python manage.py migrate
 
 现在我们将为此模型创建一个 Django 模型表单。有关模型表单-[姜戈模型表单-从模型](https://geeksforgeeks.org/django-modelform-create-form-from-models/)创建表单的更多信息，请参考本文。在极客文件夹中创建一个文件`forms.py`，
 
-```
+```py
 from django import forms
 from .models import GeeksModel
 
@@ -65,7 +65,7 @@ class GeeksForm(forms.ModelForm):
 
 现在我们已经为后端做好了一切准备。让我们为其创建一个视图和模板。在`geeks/views.py`中，
 
-```
+```py
 from django.shortcuts import render
 
 # relative import of forms
@@ -88,7 +88,7 @@ def create_view(request):
 
 在`templates/create_view.html`创建模板，
 
-```
+```py
 <form method="POST" enctype="multipart/form-data">
 
     <!-- Security token -->

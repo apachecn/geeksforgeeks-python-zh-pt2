@@ -17,7 +17,7 @@
 
 1.  **接受**–该方法从用户那里获取两个不同主题的详细信息，如姓名、卷号和标记。
 
-    ```
+    ```py
     # Method to enter new student details
     def accept(self, Name, Rollno, marks1, marks2 ):
         # Creates a new class constructor
@@ -31,7 +31,7 @@
 
 2.  **显示**–此方法显示每个学生的详细信息。
 
-    ```
+    ```py
     # Function to display student details     
     def display(self, ob):
         print("Name   : ", ob.name)
@@ -45,7 +45,7 @@
 3.  **搜索**–该方法从学生列表中搜索特定的学生。
     该方法会向用户询问辊号，然后根据辊号
 
-    ```
+    ```py
     # Search Function    
     def search(self, rn):
         for i in range(ls.__len__()):
@@ -62,7 +62,7 @@
     进行搜索
 4.  **删除**–该方法删除具有匹配学号的特定学生的记录。
 
-    ```
+    ```py
     # Delete Function                                  
     def delete(self, rn):
         # Calls the search function 
@@ -75,7 +75,7 @@
 5.  **Update** – This method updates the roll number of the student.
     This method will ask for the old roll number and new roll number. It will replace the old roll number with new roll number.
 
-    ```
+    ```py
     # Update Function   
     def update(self, rn, No):
         # calling the search function
@@ -87,7 +87,7 @@
 
     下面是上述方法的实现:
 
-    ```
+    ```py
     # This is simplest Student data management program in python
     # Create class "Student"
     class Student:
@@ -177,7 +177,7 @@
 
     **Output:**
 
-    ```
+    ```py
     Operations used,
 
     1.Accept Student details

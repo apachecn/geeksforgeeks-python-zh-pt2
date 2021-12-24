@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate characters reverse in String 
 # Using loop + slicing + reversed()
@@ -48,7 +48,7 @@ print("Is alternate reversed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4rgeeks
 Is alternate reversed string : keekr4sgeegs
 
@@ -60,7 +60,7 @@ Is alternate reversed string : keekr4sgeegs
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Alternate characters reverse in String 
 # Using list comprehension
@@ -81,7 +81,7 @@ print("Is alternate reversed string : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : geeks4rgeeks
 Is alternate reversed string : keekr4sgeegs
 

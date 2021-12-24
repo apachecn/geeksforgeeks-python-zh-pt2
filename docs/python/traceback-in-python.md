@@ -6,7 +6,7 @@
 
 **异常堆栈跟踪的一般结构:**
 
-```
+```py
 Traceback for most recent call
 Location of the program 
 Line in the program where error was encountered
@@ -16,7 +16,7 @@ Name of the error: relevant information about the exception
 
 **示例:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Python27/hdg.py", line 5, in 
     value = A[5]
@@ -47,7 +47,7 @@ IndexError: list index out of range
 
 **示例:**打印异常堆栈跟踪的程序。
 
-```
+```py
 # importing module
 import traceback
 
@@ -69,7 +69,7 @@ print("end of program")
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "C:/Python27/van.py", line 8, in 
     value = A[5]
@@ -103,7 +103,7 @@ end of program
 
 **示例:**
 
-```
+```py
 # importing the modules
 import traceback
 import sys
@@ -120,13 +120,13 @@ except Exception as e:
 
 **输出:**
 
-```
+```py
 ZeroDivisonError: division by zero
 ```
 
 **堆栈摘要类:**这个类的对象代表一个准备格式化的调用堆栈。
 
-```
+```py
 class traceback.StackSummary
 ```
 
@@ -136,7 +136,7 @@ class traceback.StackSummary
 
 **示例:**
 
-```
+```py
 # importing the modules
 import traceback
 import sys
@@ -166,7 +166,7 @@ call1(f)
 
 **输出:**
 
-```
+```py
 File "main.py", line 19, in f
     summary = traceback.StackSummary.extract(
   File "main.py", line 14, in call2
@@ -180,7 +180,7 @@ File "main.py", line 19, in f
 **框架概要类:**
 `FrameSummary` 对象表示回溯中的单个框架。
 
-```
+```py
 class traceback.FrameSummary(filename, lineno, name, lookup_line = True, locals = None, line = None)
 ```
 
@@ -188,7 +188,7 @@ class traceback.FrameSummary(filename, lineno, name, lookup_line = True, locals 
 
 **示例:**
 
-```
+```py
 # importing the modules
 import traceback
 import sys
@@ -222,7 +222,7 @@ call1(f)
 
 **输出:**
 
-```
+```py
 main.py:21:f:
     summary = traceback.StackSummary.extract(
 main.py:13:call2:

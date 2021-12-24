@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Round Off Dictionary Values to K decimals
 # Using loop + round()
@@ -45,7 +45,7 @@ print("Values after round off : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 54.684034, 'is': 76.324334, 'Best': 28.43524}
 Values after round off : {'Gfg': 54.684, 'is': 76.324, 'Best': 28.435}
 
@@ -57,7 +57,7 @@ Values after round off : {'Gfg': 54.684, 'is': 76.324, 'Best': 28.435}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Round Off Dictionary Values to K decimals
 # Using dictionary comprehension + round()
@@ -80,7 +80,7 @@ print("Values after round off : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 54.684034, 'is': 76.324334, 'Best': 28.43524}
 Values after round off : {'Gfg': 54.684, 'is': 76.324, 'Best': 28.435}
 

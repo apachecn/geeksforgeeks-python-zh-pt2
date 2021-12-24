@@ -12,7 +12,7 @@ Python 中的 Time tzname()返回两个字符串的元组，其中第一个字�
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -22,7 +22,7 @@ print(time.tzname)
 
 **输出:**
 
-```
+```py
 ('UTC', 'UTC')
 ```
 
@@ -30,7 +30,7 @@ print(time.tzname)
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -43,7 +43,7 @@ print(time.tzname[1])
 
 **输出:**
 
-```
+```py
 UTC
 UTC
 ```

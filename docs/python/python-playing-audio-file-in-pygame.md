@@ -10,31 +10,31 @@
 
 *   **启动搅拌机**
 
-    ```
+    ```py
     mixer.init()
     ```
 
 *   **加载歌曲。**
 
-    ```
+    ```py
     mixer.music.load("song.mp3")
     ```
 
 *   **设置音量。**
 
-    ```
+    ```py
     mixer.music.set_volume(0.7)
     ```
 
 *   **开始播放歌曲。**
 
-    ```
+    ```py
     mixer.music.play()
     ```
 
 下面是实现。
 
-```
+```py
 from pygame import mixer
 
 # Starting the mixer

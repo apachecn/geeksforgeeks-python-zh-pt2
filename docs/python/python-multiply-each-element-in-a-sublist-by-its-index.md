@@ -8,7 +8,7 @@
 
 **方法#1:使用朴素方法**
 
-```
+```py
 # Python3 code to demonstrate
 # to multiply numbers with position
 # and add them to return num
@@ -37,7 +37,7 @@ print ("result", res)
 
 **Output:**
 
-```
+```py
 initial_list  [[3, 4, 7], [6, 7, 8], [10, 7, 5], [11, 12, 13]]
 result [18, 23, 17, 38]
 
@@ -45,7 +45,7 @@ result [18, 23, 17, 38]
 
 **方法 2:使用列表理解**
 
-```
+```py
 # Python3 code to demonstrate
 # to multiply numbers with position
 # and add them to return num
@@ -67,7 +67,7 @@ print ("result", res)
 
 **Output:**
 
-```
+```py
 initial_list  [[3, 4, 7], [6, 7, 8], [10, 7, 5], [11, 12, 13]]
 result [18, 23, 17, 38]
 
@@ -75,7 +75,7 @@ result [18, 23, 17, 38]
 
 **方法三:使用 numpy**
 
-```
+```py
 # Python3 code to demonstrate
 # to multiply numbers with position
 # and add them to return num
@@ -98,7 +98,7 @@ print ("result", res)
 
 **Output:**
 
-```
+```py
 initial_list  [[3, 4, 7], [6, 7, 8], [10, 7, 5], [11, 12, 13]]
 result [18, 23, 17, 38]
 

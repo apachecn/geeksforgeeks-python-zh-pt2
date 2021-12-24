@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.getshapes()
 
 ```
@@ -21,7 +21,7 @@ turtle.getshapes()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 print(turtle.getshapes())
@@ -29,7 +29,7 @@ print(turtle.getshapes())
 
 **输出:**
 
-```
+```py
 ['arrow', 'blank', 'circle', 'classic', 'square', 'triangle', 'turtle']
 
 ```
@@ -38,7 +38,7 @@ print(turtle.getshapes())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 shapes = turtle.getshapes()

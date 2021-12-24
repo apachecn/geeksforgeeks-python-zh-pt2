@@ -26,7 +26,7 @@
 
 正则表达式可以由元字符构建，模式可以使用 Python 中的库进行处理**正则表达式**被称为**“re”。**
 
-```
+```py
 import re  # used to import regular expressions
 ```
 
@@ -36,7 +36,7 @@ import re  # used to import regular expressions
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 '''

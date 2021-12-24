@@ -8,7 +8,7 @@ Python 3.9.0 中引入的 Python 模块 graphlib 给出了一个图的拓扑排�
 
 要安装此模块，请在您的终端上运行此命令。
 
-```
+```py
 pip install graphlib
 ```
 
@@ -28,7 +28,7 @@ pip install graphlib
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.9.0 program for
 # topological sorting using
 # graphlib module
@@ -50,7 +50,7 @@ print([*ts.static_order()])
 
 **输出:**
 
-```
+```py
 [2, 0, 1, 3]
 ```
 
@@ -58,7 +58,7 @@ print([*ts.static_order()])
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for topological sorting
 # through graphlib module
 
@@ -78,6 +78,6 @@ print([*ts.static_order()])
 
 **输出:**
 
-```
+```py
 [1, 0, 3, 4, 2, 5]
 ```

@@ -20,14 +20,14 @@
 
 **安装 virtualenv**
 
-```
+```py
 $ pip install virtualenv
 
 ```
 
 测试您的安装:
 
-```
+```py
 $ virtualenv --version
 
 ```
@@ -36,7 +36,7 @@ $ virtualenv --version
 
 您可以使用以下命令创建 virtualenv:
 
-```
+```py
 $ virtualenv my_name
 
 ```
@@ -44,21 +44,21 @@ $ virtualenv my_name
 运行此命令后，将创建一个名为 my_name 的目录。这个目录包含了使用 Python 项目所需的包的所有必要的可执行文件。这里将安装 Python 包。
 如果要指定自己选择的 Python 解释器，例如 Python 3，可以使用以下命令完成:
 
-```
+```py
 $ virtualenv -p /usr/bin/python3 virtualenv_name
 
 ```
 
 要创建 Python 2.7 虚拟环境，请使用以下命令:
 
-```
+```py
 $ virtualenv -p /usr/bin/python2.7 virtualenv_name
 
 ```
 
 现在创建虚拟环境后，您需要激活它。记得每次做项目的时候激活相关的虚拟环境。这可以使用以下命令来完成:
 
-```
+```py
 $ source virtualenv_name/bin/activate
 
 ```
@@ -70,7 +70,7 @@ $ source virtualenv_name/bin/activate
 
 ![](img/03af40c61198a8eefc3676097ee90985.png)
 
-```
+```py
 (virtualenv_name)$ pip install Django==1.9
 
 ```
@@ -78,7 +78,7 @@ $ source virtualenv_name/bin/activate
 Django 1.9 包将放在 virtualenv_name 文件夹中，并将与整个系统隔离。
 完成工作后，可以通过以下命令停用虚拟环境:
 
-```
+```py
 (virtualenv_name)$ deactivate
 
 ```

@@ -14,7 +14,7 @@
 
 为了创建进度条和进度条的圆形底部，下面是样式表代码。
 
-```
+```py
 QProgressBar
 {
 border: 1px solid black;
@@ -32,7 +32,7 @@ background : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

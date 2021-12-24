@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: Length in Meter: 245
        Length in Yard : 100
 
@@ -22,7 +22,7 @@ Output: 5 Meter in Yard = 5.4680
 
 **使用的公式–**
 
-```
+```py
 1 Meter = 1.09361 Yard
 ```
 
@@ -32,7 +32,7 @@ Output: 5 Meter in Yard = 5.4680
 
 T2T4
 
-```
+```py
 meter = 5  # Length in Meter
 yard = 20  # Length in Yard
 

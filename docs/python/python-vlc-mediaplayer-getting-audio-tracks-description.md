@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -48,7 +48,7 @@ print(value)
 **输出:**
 ![](img/33c5fe6e13ea1c939ea793883a04f9c7.png)
 
-```
+```py
 Audio Tracks Description
 [(-1, b'Disable'), (1, b'English - [English]'), (2, b'English Commentary - [English]')]
 
@@ -57,7 +57,7 @@ Audio Tracks Description
 下面是另一个例子
 的实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -91,7 +91,7 @@ print(value)
 **输出:**
 ![](img/adad80dcd4fb054e2f8093e65d2cb30f.png)
 
-```
+```py
 Audio Tracks Description
 []
 ```

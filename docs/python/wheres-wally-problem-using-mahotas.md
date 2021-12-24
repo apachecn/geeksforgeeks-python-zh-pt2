@@ -11,7 +11,7 @@
 为了做到这一点，我们将使用 **mahotas 库**。 **Mahotas** 是 Python 的计算机视觉和图像处理库。它包括许多用 C++实现的算法，以提高速度，同时在 numpy 数组中运行，并具有非常干净的 Python 界面。
 命令安装 maho tas–
 
-```
+```py
 pip install mahotas
 ```
 
@@ -19,7 +19,7 @@ pip install mahotas
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required libraries
 from pylab import imshow, show
 import mahotas

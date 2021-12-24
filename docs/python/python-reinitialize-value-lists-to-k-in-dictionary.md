@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reinitialize Value lists to K in Dictionary
 # Using recursion + type() + dictionary comprehension + items() + loop

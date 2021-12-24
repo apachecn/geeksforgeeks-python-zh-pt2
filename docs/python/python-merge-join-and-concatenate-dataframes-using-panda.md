@@ -10,7 +10,7 @@
 
 **所需模块:**
 
-```
+```py
 import numpy as np
 import pandas as pd
 
@@ -18,7 +18,7 @@ import pandas as pd
 
 **Code #1 :** DataFrames Concatenation**`concat()`** function does all of the heavy lifting of performing concatenation operations along an axis while performing optional set logic (union or intersection) of the indexes (if any) on the other axes.
 
-```
+```py
 # Python program to concatenate
 # dataframes using Panda
 
@@ -54,7 +54,7 @@ pd.concat([df1, df2, df3])
 **代码#2 :** 数据帧合并
 Pandas 提供了一个函数 Merge()，作为数据帧对象之间所有标准数据库连接操作的入口点。
 
-```
+```py
 # Python program to merge
 # dataframes using Panda
 
@@ -77,7 +77,7 @@ pd.merge(left, right, how ='inner', on ='Key')
 
 **代码#3 :** 数据框连接
 
-```
+```py
 # Python program to join
 # dataframes using Panda
 

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum tuple value key
 # Using max() + values() + next()
@@ -58,7 +58,7 @@ print("The maximum key : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum tuple value key
 # Using list comprehension + max() + values()

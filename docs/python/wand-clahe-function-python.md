@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > clahe(width, height, number_bins, clip_limit)
 > ```
 > 
@@ -27,7 +27,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import library from Image
 from wand.image import Image
 
@@ -49,7 +49,7 @@ with Image(filename ='../geeksforgeeks.png') as image:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import libraries from the wand 
 from wand.image import Image
 from wand.drawing import Drawing

@@ -12,7 +12,7 @@
 
 **2。MAXYEAR** :-显示可以用日期类表示的**最大年份**。
 
-```
+```py
 # Python code to demonstrate the working of
 # MINYEAR and MAXYEAR
 
@@ -31,7 +31,7 @@ print (datetime.MAXYEAR)
 
 输出:
 
-```
+```py
 Minimum representable year is : 1
 Maximum representable year is : 9999
 
@@ -41,7 +41,7 @@ Maximum representable year is : 9999
 
 **4。today()** :-以 yyyy-mm-dd 格式返回当前的**日期。**
 
-```
+```py
 # Python code to demonstrate the working of
 # date() and today()
 
@@ -60,7 +60,7 @@ print (date.today())
 
 输出:
 
-```
+```py
 The represented date is : 1997-04-01
 Present date is : 2016-08-02
 
@@ -72,7 +72,7 @@ Present date is : 2016-08-02
 
 **7。max()** :-返回**最大日期**，可以用日期类表示。
 
-```
+```py
 # Python code to demonstrate the working of
 # fromtimestamp(), min() and max()
 
@@ -95,7 +95,7 @@ print (date.max)
 
 输出:
 
-```
+```py
 The calculated date from seconds is : 1970-02-09
 Minimum representable date is : 0001-01-01
 Maximum representable date is : 9999-12-31

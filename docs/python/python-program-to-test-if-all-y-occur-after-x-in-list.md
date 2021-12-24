@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if y occurs after x in List
 # Using loop + index()
@@ -49,7 +49,7 @@ print("Do all y occur after x : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 2, 4, 5, 2, 9]
 Do all y occur after x : True
 ```
@@ -60,7 +60,7 @@ Do all y occur after x : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if y occurs after x in List
 # Using all() + index()
@@ -86,7 +86,7 @@ print("Do all y occur after x : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 5, 6, 2, 4, 5, 2, 9]
 Do all y occur after x : True
 ```

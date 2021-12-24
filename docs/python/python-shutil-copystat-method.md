@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copystat() method
 
 # importing os module
@@ -77,7 +77,7 @@ copied from source to destination successfully")
 
 **Output:** 
 
-```
+```py
 Before using shutil.copystat() method:
 Source metadata:
 Permission bits: 664

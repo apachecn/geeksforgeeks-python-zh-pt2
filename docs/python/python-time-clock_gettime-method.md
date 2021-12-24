@@ -24,7 +24,7 @@
 
 **代码#1:** 使用`***time.clock_gettime()***`方法
 
-```
+```py
 # Python program to explain time.clock_gettime() method
 
 # importing time module
@@ -68,7 +68,7 @@ print("Value of per-process timer from the CPU:", t5)  
 
 **Output:**
 
-```
+```py
 Value of system-wide real-time clock time: 1568586677.79805
 Value of monotonic clock time: 11754.867643594
 Value of monotonic (raw-hardware based) clock time: 11754.867644148
@@ -79,7 +79,7 @@ Value of per-process timer from the CPU: 0.035907437
 
 **代码#2:** 使用整数值作为`***time.clock_gettime()***`方法的参数
 
-```
+```py
 # Python program to explain time.clock_gettime() method
 
 # importing time module
@@ -108,7 +108,7 @@ print("Value of monotonic clock time:", t2)
 
 **Output:**
 
-```
+```py
 Value of system-wide real-time clock time: 1568587204.9810832
 Value of monotonic clock time: 12282.050676627
 

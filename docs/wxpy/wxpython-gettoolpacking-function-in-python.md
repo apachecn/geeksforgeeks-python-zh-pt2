@@ -6,19 +6,19 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolPacking(self, packing)
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > GetToolPacking() function takes no parameters.
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > int
 > ```
 
@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 7
 ```
 
@@ -71,7 +71,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -109,6 +109,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 12
 ```

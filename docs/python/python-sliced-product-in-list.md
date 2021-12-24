@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Sliced Product in List
 # using list slicing + loop
@@ -39,7 +39,7 @@ print("The first K elements product of list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The first K elements product of list is : 1680
 ```
@@ -49,7 +49,7 @@ The first K elements product of list is : 1680
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Sliced Product in List
 # using islice() + loop
@@ -82,7 +82,7 @@ print("The first K elements product of list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 5, 2, 6, 7, 8, 10]
 The first K elements product of list is : 1680
 ```

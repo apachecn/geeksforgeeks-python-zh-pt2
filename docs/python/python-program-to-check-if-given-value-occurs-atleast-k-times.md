@@ -8,7 +8,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 # Python program to check if given
 # value occurs atleast k times
 
@@ -37,7 +37,7 @@ print ("%d occur atleast %d times ? :" %(val, k) + str(res)) 
 
 **输出:**
 
-```
+```py
 The original list is : [1, 3, 5, 5, 4, 5]
 5 occur atleast 3 times ? :True
 

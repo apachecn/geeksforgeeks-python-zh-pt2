@@ -11,7 +11,7 @@
 
 在第一种情况下，当我们试图将其作为模块导入时`__init__.py`开始发挥作用。对于第二个场景，我们使用了一些类似于
 
-```
+```py
 def main ():
     pass
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
 
 文件树将如下所示
 
-```
+```py
 +---src
 |   |   circle.py
 |   |   rectangle.py
@@ -38,7 +38,7 @@ if __name__ == '__main__':
 
 现在，如果添加到 path 中，src 可以作为模块从任何其他 Python 程序中导入。但是如果我们想从命令行运行它呢？为此，我们将 src 文件夹存储在一个名为 say **area_finder** 的文件夹下，并添加一个名为 **__main__ 的文件。py** 在它下面。这棵树看起来像
 
-```
+```py
 area_finder
 |   readme.md
 |   __main__.py
@@ -54,7 +54,7 @@ area_finder
 
 **主要内容。py**
 
-```
+```py
 print("____-menu_____")
 print("1: to find area of square \n\
 2: to find area of rectangle\n\
@@ -84,7 +84,7 @@ if ch == 3:
 
 现在，当我们像这样从终端/命令提示符运行它们时
 
-```
+```py
 python area_finder
 
 ```

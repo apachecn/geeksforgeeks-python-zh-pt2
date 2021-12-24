@@ -10,7 +10,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 
 要使用 spinner，您必须导入:
 
-```
+```py
 from kivy.uix.spinner import Spinner
 ```
 
@@ -18,7 +18,7 @@ Spinner 是一个小部件，它提供了从集合中选择一个值的快速方
 像组合框一样，微调对象可以有多个值，并且可以选择其中一个值。
 回调可以附加到微调对象，以接收从微调对象选择值的通知。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -46,7 +46,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Sample spinner app in kivy using .kv file
 
 # to change the kivy default settings we use this module config
@@ -107,7 +107,7 @@ root.run()
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file implementation of the .py file
 
 # Creating the Layout i.e root of the Layout class

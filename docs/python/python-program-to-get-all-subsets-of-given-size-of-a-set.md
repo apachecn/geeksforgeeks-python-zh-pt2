@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : {1, 2, 3}, n = 2
 Output : [{1, 2}, {1, 3}, {2, 3}]
 
@@ -23,7 +23,7 @@ Python 有**ITER tools . combination(iterable，n)** ，它从输入 ITER able �
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Print
 # all subsets of given size of a set
 
@@ -41,7 +41,7 @@ print(findsubsets(s, n))
 
 **Output:** 
 
-```
+```py
 [(1, 2), (1, 3), (2, 3)]
 ```
 
@@ -50,7 +50,7 @@ print(findsubsets(s, n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Print
 # all subsets of given size of a set
 
@@ -69,7 +69,7 @@ print(findsubsets(s, n))
 
 **Output:** 
 
-```
+```py
 [{1, 2}, {1, 3}, {2, 3}]
 ```
 
@@ -78,7 +78,7 @@ print(findsubsets(s, n))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to Print
 # all subsets of given size of a set
 
@@ -96,7 +96,7 @@ print(findsubsets(s, n))
 
 **输出:**
 
-```
+```py
 [{1, 2, 3}, {1, 2, 4}, {1, 3, 4}, {2, 3, 4}]
 ```
 
@@ -106,7 +106,7 @@ print(findsubsets(s, n))
 
 ## 蟒蛇 3
 
-```
+```py
 def subsets(numbers):
     if numbers == []:
         return [[]]
@@ -125,6 +125,6 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 [[2, 3, 4], [1, 3, 4], [1, 2, 4], [1, 2, 3]]
 ```

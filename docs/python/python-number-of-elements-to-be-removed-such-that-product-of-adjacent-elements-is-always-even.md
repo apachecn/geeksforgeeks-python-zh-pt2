@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input  : arr[] = {1, 2, 3}
 Output : 0
 
@@ -28,7 +28,7 @@ Remove 1 and 3.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3 implementation of the 
 # above approach
 
@@ -70,7 +70,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 2
 ```
 

@@ -12,7 +12,7 @@ sys.stdout.write()与对象代表的目的相同，只是在交互模式下使�
 
 **语法:**
 
-```
+```py
 sys.stdout.write(<some string text here>)
 
 ```
@@ -21,7 +21,7 @@ sys.stdout.write(<some string text here>)
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 sys.stdout.write('gfg')
@@ -29,7 +29,7 @@ sys.stdout.write('gfg')
 
 **Output**
 
-```
+```py
 gfg
 ```
 
@@ -37,7 +37,7 @@ gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # script mode
 import sys
 
@@ -49,7 +49,7 @@ sys.stdout.write('for geeks')
 
 **Output**
 
-```
+```py
 gfggeeks
 for geeks
 ```
@@ -60,7 +60,7 @@ stdout 也可以用来打印多个元素。不仅如此，只要支持 write()�
 
 ## 蟒蛇 3
 
-```
+```py
 import sys
 
 # stdout assigned to a variable
@@ -78,7 +78,7 @@ for j in arr:
 
 **输出:**
 
-```
+```py
 geeksforgeeks
 geeks
 for

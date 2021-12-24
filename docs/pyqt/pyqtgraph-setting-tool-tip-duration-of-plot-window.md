@@ -6,7 +6,7 @@
 我们可以借助下面给出的命令
 创建一个绘图窗口
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 ```
@@ -20,7 +20,7 @@ window = pg.plot()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing QtGui to use QIcon
 from PyQt5.QtGui import *
 

@@ -24,7 +24,7 @@ Hashlib 提供以下常量属性:
 
 ## 蟒蛇 3
 
-```
+```py
 import hashlib
 
 print(hashlib.algorithms_guaranteed)
@@ -88,7 +88,7 @@ print(hashlib.algorithms_available)
 
 ## *蟒蛇 3*
 
-```
+```py
 *import sys
 import hashlib
 
@@ -113,7 +113,7 @@ print(s.hexdigest())*
 
 ***Output**
 
-```
+```py
 sha3_224
 28
 11c044e8080ed87b3cf0643bc5880a38ae62dd4562390700000b1191
@@ -123,7 +123,7 @@ sha3_224
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import the library module
 import sys
 import hashlib
@@ -152,7 +152,7 @@ print("\nSHA3-256 Hash: ", obj_sha3_256.hexdigest())*
 
 ## *蟒蛇 3*
 
-```
+```py
 *# import the library module
 import sys
 import hashlib
@@ -181,7 +181,7 @@ print("\nSHA3-384 Hash: ", obj_sha3_384.hexdigest())*
 
 ## **蟒蛇 3**
 
-```
+```py
 **import sys
 import hashlib
 

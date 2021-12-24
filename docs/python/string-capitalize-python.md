@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 *string_name*.capitalize() 
 
 string_name: It is the name of string of
@@ -20,7 +20,7 @@ string_name: It is the name of string of
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to demonstrate the
 # use of capitalize() function
 
@@ -41,7 +41,7 @@ print(name1.capitalize() + name2.capitalize()
 
 **输出:**
 
-```
+```py
 Geeks for geeks
 GeeksForGeeks
 ```

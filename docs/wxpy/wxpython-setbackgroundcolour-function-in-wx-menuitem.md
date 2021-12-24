@@ -7,28 +7,28 @@ setbackgroundcolor()函数中不需要参数。
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.SetBackgroundColour(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required in SetBackgroundColour() function.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.Colour
 > 
 > ```
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

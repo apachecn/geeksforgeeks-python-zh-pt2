@@ -8,7 +8,7 @@
 
 这个问题可以使用 Python 提供的排序功能来解决。我们可以构造自己的自定义比较器来完成混合排序的任务。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Mixed List
 # using sort() + comparator
@@ -37,7 +37,7 @@ print("List after mixed sorting : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list : [4, 'gfg', 2, 'best', 'is', 3]
 List after mixed sorting : [2, 3, 4, 'best', 'gfg', 'is']
 
@@ -47,7 +47,7 @@ List after mixed sorting : [2, 3, 4, 'best', 'gfg', 'is']
 
 上述功能的组合也可用于解决这个问题。在这种情况下，我们只是使用 sorted()对列表进行排序，使用 key 函数使用 lambda 函数使用 isdigit()对数字进行分隔。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Mixed List
 # using sorted() + key + lambda + isdigit()
@@ -69,7 +69,7 @@ print("List after mixed sorting : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : ['4', 'gfg', '2', 'best', 'is', '3']
 List after mixed sorting : ['2', '3', '4', 'best', 'gfg', 'is']
 

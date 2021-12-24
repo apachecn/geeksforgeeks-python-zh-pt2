@@ -8,7 +8,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.SetMarginWidth(self, width)
 > 
 > ```
@@ -21,7 +21,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -62,7 +62,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 15
 ```
 

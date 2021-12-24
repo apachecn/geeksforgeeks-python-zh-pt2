@@ -8,7 +8,7 @@
 
 **方法一:使用*排序*T3**
 
-```
+```py
 # Python code to demonstrate to sort list 
 # containing string by part of string
 
@@ -27,7 +27,7 @@ print ("result", str(ini_list))
 
 **Output:**
 
-```
+```py
 initial list ['GeeksForGeeks abc', 'manjeet xab', 'akshat bac']
 result ['GeeksForGeeks abc', 'akshat bac', 'manjeet xab']
 
@@ -35,7 +35,7 @@ result ['GeeksForGeeks abc', 'akshat bac', 'manjeet xab']
 
 **方法 2:使用*排序***
 
-```
+```py
 # Python code to demonstrate to sort list 
 # containing string by part of string
 
@@ -54,7 +54,7 @@ print ("result", res)
 
 **Output:**
 
-```
+```py
 initial list ['GeeksForGeeks abc', 'manjeet xab', 'akshat bac']
 result ['GeeksForGeeks abc', 'akshat bac', 'manjeet xab']
 

@@ -20,7 +20,7 @@ Python 字符串*****format _ map()***方法是 Python 中的一个内置函数�
 
 ## **蟒蛇 3**
 
-```
+```py
 # input stored in variable a.
 a = {'x':'John', 'y':'Wick'}
 
@@ -30,7 +30,7 @@ print("{x}'s last name is {y}".format_map(a))
 
 ****输出:****
 
-```
+```py
 John's last name is Wick
 ```
 
@@ -38,7 +38,7 @@ John's last name is Wick
 
 ## **蟒蛇 3**
 
-```
+```py
 # input stored in variable a.
 a = {'x':"geeksforgeeks", 'y':'b'}
 
@@ -48,7 +48,7 @@ print('{x} {y}'.format_map(a))
 
 ****输出:****
 
-```
+```py
 geeksforgeeks b
 ```
 
@@ -56,7 +56,7 @@ geeksforgeeks b
 
 ## **蟒蛇 3**
 
-```
+```py
 # Input dictionary
 profession = { 'name':['Barry', 'Bruce'],
                'profession':['Engineer', 'Doctor'],
@@ -72,7 +72,7 @@ print('{name[1]} is an {profession[1]} and he'
 
 ****输出:****
 
-```
+```py
 Barry is an Engineer and he is 30 years old.
 Bruce is an Doctor and he is 31 years old.
 ```
@@ -83,7 +83,7 @@ Bruce is an Doctor and he is 31 years old.
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code showing practical 
 # use of format_map() function
 def chk_msg(n):
@@ -99,6 +99,6 @@ chk_msg(10)
 
 ****输出:****
 
-```
+```py
 George has 10 new messages
 ```

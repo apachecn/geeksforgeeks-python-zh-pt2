@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input:  A = [1, 4, 5, 7, 9]
         B = [4, 5, 7, 9]
 Output: [1]
@@ -21,7 +21,7 @@ Output: [6]
 
 这个问题我们已经有了解决方案，请参考[从重复的数组中找到丢失的元素](https://www.geeksforgeeks.org/find-lost-element-from-a-duplicated-array/)。我们可以使用[设置差分逻辑](https://www.geeksforgeeks.org/sets-in-python/)在 python 中快速解决这个问题。方法很简单，只需在**中转换两个列表，设置**并执行 **A-B** 操作，其中 len(A) > len(B)。
 
-```
+```py
 # Function to find lost element from a duplicate
 # array
 
@@ -46,7 +46,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 [1]
 
 ```

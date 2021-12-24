@@ -19,7 +19,7 @@ Python 中的**统计**模块允许三个选项来处理数据集中的中值/�
 
 **代码#1 :** 工作
 
-```
+```py
 # Python code to demonstrate working of
 # median_high() on a data-set
 
@@ -36,14 +36,14 @@ print("High median of the data-set is %s " 
 
 **输出:**
 
-```
+```py
 High median of the data-set is 4 
 
 ```
 
 **代码#2 :** 中值 _ 高()和中值()的工作，演示它们之间的区别。
 
-```
+```py
 # Working of median_high() and median() to
 # demonstrate the difference between them.
 
@@ -67,7 +67,7 @@ print("High Median of the set is %s " 
 
 **输出:**
 
-```
+```py
 Median of the set is 3.5
 High Median of the set is 4 
 
@@ -75,7 +75,7 @@ High Median of the set is 4
 
 **代码#3 :** 对不同范围的数据值使用中值 _ 高()。
 
-```
+```py
 # Python code to demonstrate the
 # working of median_high()
 
@@ -112,7 +112,7 @@ print("High Median of data-set 5 is %s" % (median_high(data5)))
 
 **输出:**
 
-```
+```py
 High Median of data-set 1 is 5
 High Median of data-set 2 is 6.7
 High Median of data-set 3 is 10/3
@@ -123,7 +123,7 @@ High Median of data-set 5 is 1
 
 **代码#4 :** 统计误差演示
 
-```
+```py
 # Python code to demonstrate
 # StatisticsError of median_high()
 
@@ -139,7 +139,7 @@ print(median_high(empty))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fc2eae1616bfaa0987b261d9d40f4602.py", line 10, in 
     print(median_high(empty))

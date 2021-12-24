@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [(1, 'Paras'), (2, 'Jain'), (3, 'GFG'), (4, 'Cyware')]
 Output :   [(1), (2), (3), (4)]
 
@@ -17,7 +17,7 @@ Output : [(), (2, 225), (3,)]
 
 **方法#1:** 使用过滤器()方法
 
-```
+```py
 # Python code to remove all strings from a list of tuples
 
 # Check function to check isinstance
@@ -37,14 +37,14 @@ print(output)
 
 **Output:**
 
-```
+```py
 [(), (2,), (3,), (4,), (5,)]
 
 ```
 
 **方法 2:**
 
-```
+```py
 # Python code to remove all strings from a list of tuples
 
 # Creating list of tuples
@@ -60,7 +60,7 @@ print(output)
 
 **Output:**
 
-```
+```py
 [(), (2, 225), (3,), (4,), (5,)]
 
 ```

@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring a string variable
 name = "Geek"
 
@@ -22,7 +22,7 @@ print("Hey, %s!" % name)
 
 **输出**
 
-```
+```py
 Hey, Geek!
 ```
 
@@ -32,7 +32,7 @@ Hey, Geek!
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring a string variable
 var1 = "Geek!"
 var2 = "Geeks for Geeks"
@@ -51,7 +51,7 @@ print("Hello %s Are you enjoying being at %s for preparations." % (var1, var2))
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring string variables
 str1 = 'Understanding'
 str2 = '%s'
@@ -80,7 +80,7 @@ print(final_str)
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring string variables
 str1 = 'Understanding'
 str2 = '%s'
@@ -97,7 +97,7 @@ print(final_str)
 
 **输出**
 
-```
+```py
 Concatenating multiple strings using Python '%s' operator:
 
 Understanding %s at GeeksforGeeks
@@ -109,7 +109,7 @@ Understanding %s at GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring string variables with dictionary
 dct = {'str1': 'at',
        'str2': 'GeeksforGeeks',
@@ -126,7 +126,7 @@ print(final_str)
 
 **输出**
 
-```
+```py
 Concatenating multiple strings using Python '%s' operator:
 
 Understanding %s at GeeksforGeeks
@@ -138,7 +138,7 @@ Understanding %s at GeeksforGeeks
 
 ## 蟒蛇 3
 
-```
+```py
 # declaring string variables
 str1 = 'Understanding'
 str2 = 'integers'
@@ -158,7 +158,7 @@ print(final_str)
 
 **输出**
 
-```
+```py
 Concatenating multiple values using Python '%s' operator:
 
 Understanding integers at GeeksforGeeks =  [1, 2, 3]

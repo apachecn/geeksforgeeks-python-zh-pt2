@@ -75,7 +75,7 @@ type()函数可以在 python 中用来获取参数的类。在下面的程序中
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate SQLite3 datatypes
 # and corresponding Python3 types
 

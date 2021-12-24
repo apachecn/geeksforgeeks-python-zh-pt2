@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in 
@@ -58,7 +58,7 @@ print(details)
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 """We create a re.MatchObject and store it in 
@@ -85,7 +85,7 @@ print(match_object.groupdict())
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/fae2ec2e63d04a63d590c2e93802a002.py", line 21, in 
     print(match_object.groupdict())

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : list1 = [1, 2, 3, 4, 5] 
         list2 = [5, 6, 7, 8, 9]
 Output : {5}
@@ -27,7 +27,7 @@ elements in common in between them
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find the common elements
 # in two lists
 def common_member(a, b):
@@ -50,7 +50,7 @@ common_member(a, b)
 
 **输出:**
 
-```
+```py
 {5}
 No common elements
 ```
@@ -62,7 +62,7 @@ No common elements
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find common elements in
 # both sets using intersection function in
 # sets
@@ -89,7 +89,7 @@ print(common_member(a, b))
 
 **输出:**
 
-```
+```py
 {5}
 No common elements
 ```

@@ -8,7 +8,7 @@ Gtk。微调器显示图标大小的旋转动画。它经常被用作 GtkProgres
 
 ## 蟒蛇 3
 
-```
+```py
 import gi
 
 gi.require_version("Gtk", "3.0")

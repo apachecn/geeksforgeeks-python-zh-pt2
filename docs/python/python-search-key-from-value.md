@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Search Key from Value
 # Using naive method
@@ -34,7 +34,7 @@ print("The key corresponding to value : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'for': 2, 'CS': 3}
 The key corresponding to value : CS
 
@@ -45,7 +45,7 @@ The key corresponding to value : CS
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Search Key from Value
 # Using items() + list comprehension
@@ -69,7 +69,7 @@ print("The key corresponding to value : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 1, 'for': 2, 'CS': 3}
 The key corresponding to value : ['CS']
 

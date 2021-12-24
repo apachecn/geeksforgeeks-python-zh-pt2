@@ -15,7 +15,7 @@
 
 **代码#1:** 使用`***math.perm()***`方法
 
-```
+```py
 # Python Program to explain math.perm() method
 
 # Importing math module
@@ -42,7 +42,7 @@ print(nPk)
 
 **Output:**
 
-```
+```py
 90
 60
 
@@ -50,7 +50,7 @@ print(nPk)
 
 **代码#2:** 当 k > n
 
-```
+```py
 # Python Program to explain math.perm() method
 
 # Importing math module
@@ -70,14 +70,14 @@ print(nPk)
 
 **Output:**
 
-```
+```py
 0
 
 ```
 
 **代码#3:** 如果未指定 k
 
-```
+```py
 # Python Program to explain math.perm() method
 
 # Importing math module
@@ -93,7 +93,7 @@ print(nPk)
 
 **Output:**
 
-```
+```py
 120
 
 ```

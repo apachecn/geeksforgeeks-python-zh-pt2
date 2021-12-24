@@ -5,7 +5,7 @@
 给定一个数字 n，任务是生成一个长度为 n 的随机二进制字符串。
 **示例:**
 
-```
+```py
 Input: 7
 Output: Desired length random binary string is:  1000001
 
@@ -24,7 +24,7 @@ Output: Desired length random binary string is:  01001
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program for random
 # binary string generation
 
@@ -61,6 +61,6 @@ print("Desired length random binary string is: ", str1)
 
 **输出:**
 
-```
+```py
 Desired length random binary string is:  1000001
 ```

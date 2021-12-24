@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to check palindrome
 def checkPalindrome(string):
 
@@ -68,7 +68,7 @@ else:
 
 **输出:**
 
-```
+```py
 Palindrome
 ```
 
@@ -85,7 +85,7 @@ Palindrome
 
 ## 蟒蛇 3
 
-```
+```py
 # function to check palindrome
 def checkPalindrome(string):
 
@@ -130,6 +130,6 @@ else:
 
 **输出:**
 
-```
+```py
 Palindrome
 ```

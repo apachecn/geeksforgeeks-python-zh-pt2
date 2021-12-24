@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import threading
 from queue import Queue
 import time
@@ -80,7 +80,7 @@ q.join()
 
 **输出:**
 
-```
+```py
 port is close 2
 port is close port is close 4
 port is closeport is close 1

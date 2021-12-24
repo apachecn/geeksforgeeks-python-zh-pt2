@@ -10,14 +10,14 @@
 
 对于 Python2.x
 
-```
+```py
 reload(*module*)
 
 ```
 
 对于 2.x 以上和< =Python3.3
 
-```
+```py
 import imp
 imp.reload(*module*)
 
@@ -25,7 +25,7 @@ imp.reload(*module*)
 
 对于> =Python3.4
 
-```
+```py
 import importlib
 importlib.reload(*module*)
 

@@ -22,7 +22,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 def __init__(self):
     # Create a window
     window = Tk()
@@ -75,7 +75,7 @@ def __init__(self):
 
 ## 蟒蛇 3
 
-```
+```py
 def computePayment(self):
     # compute the total payment.
     monthlyPayment = self.getMonthlyPayment(float(self.loanAmountVar.get()),
@@ -100,7 +100,7 @@ def getMonthlyPayment(self, loanAmount, monthlyInterestRate, numberOfYears):
 
 ## 蟒蛇 3
 
-```
+```py
 # Import tkinter
 from tkinter import *
 class LoanCalculator:

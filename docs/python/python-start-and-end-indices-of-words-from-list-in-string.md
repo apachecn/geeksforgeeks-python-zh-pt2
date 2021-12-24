@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Start and End Indices of words from list in String
 # Using loop + index() + len()
@@ -62,7 +62,7 @@ print("Required extracted indices  : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Start and End Indices of words from list in String
 # Using dictionary comprehension + len() + index()

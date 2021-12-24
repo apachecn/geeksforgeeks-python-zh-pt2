@@ -10,7 +10,7 @@ Instagram 是一个很好的聊天平台，但是当涉及到向所有朋友发�
 
 **Instabot 库:**是 Instagram 的一个推广脚本和 API Python 包装器。
 
-```
+```py
 pip install instabot
 ```
 
@@ -20,7 +20,7 @@ pip install instabot
 
 ## 蟒 3
 
-```
+```py
 # importing Bot form instabot library.
 from instabot import Bot
 
@@ -31,7 +31,7 @@ bot = Bot()
 
 ## 蟒 3
 
-```
+```py
 # Login using bot
 bot.login(username="Your_username",
           password="Your_password")
@@ -41,7 +41,7 @@ bot.login(username="Your_username",
 
 ## 蟒 3
 
-```
+```py
 # Make a list of followers/friends
 urer_ids = ["username1", "username2", "....."]
 ```
@@ -54,7 +54,7 @@ T3
 
 T6T8】
 
-```
+```py
 # Message
 text = "I like GFG"
 ```

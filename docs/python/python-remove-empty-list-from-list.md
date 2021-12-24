@@ -7,7 +7,7 @@
 **方法一:利用列表理解**
 这是解决这个问题的方法之一。在这种情况下，我们遍历列表，不包括空的列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Remove empty List from List
 # using list comprehension
@@ -28,7 +28,7 @@ print ("List after empty list removal : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, [], 3, [], [], 9]
 List after empty list removal : [5, 6, 3, 9]
 

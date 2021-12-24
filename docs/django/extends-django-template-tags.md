@@ -7,14 +7,14 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% extends 'template_name.html' %} 
 ```
 
 **示例:**
 假设如下目录结构:
 
-```
+```py
 dir1/
     template.html
     base2.html
@@ -27,7 +27,7 @@ base1.html
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "./base2.html" %}
 {% extends "../base1.html" %}
 {% extends "./my/base3.html" %}
@@ -46,7 +46,7 @@ base1.html
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -61,7 +61,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -76,7 +76,7 @@ extends 总是与块标记一起使用，以便可以被继承和重写。在 te
 
 ## 超文本标记语言
 
-```
+```py
 <h1>Main Template</h1>
 
 {% block content %}
@@ -87,7 +87,7 @@ extends 总是与块标记一起使用，以便可以被继承和重写。在 te
 
 ## 超文本标记语言
 
-```
+```py
 {% extends "geeks.html" %}
 
 {% block content %}

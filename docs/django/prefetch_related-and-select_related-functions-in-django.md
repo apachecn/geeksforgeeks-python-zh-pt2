@@ -13,7 +13,7 @@
 
 上面的分类可能不太清楚，我们来看一个例子:
 
-```
+```py
 class A(models.Model):
    pass
 
@@ -33,7 +33,7 @@ select_related 通过多表连接关联查询一次获取所有数据，通过�
 
 `Models.py reads as follows:`
 
-```
+```py
 from django.db import models
 
 class Province(models.Model):
@@ -61,7 +61,7 @@ class Person(models.Model):
 
 我们使用了 select _ related()函数:
 
-```
+```py
 >>> citys = City.objects.select_related().all()
 >>> for c in citys:
 ...   print c.province
@@ -70,7 +70,7 @@ class Person(models.Model):
 
 只有一个 SQL 查询，这显然大大减少了 SQL 查询的数量:
 
-```
+```py
 SELECT `Optimize_city`.`id`, `Optimize_city`.`name`,
 `Optimize_city`.`province_id`, `Optimize_province`.`id`, `Optimize_province`.`name`
 FROM`Optimize_city`
@@ -82,7 +82,7 @@ INNER JOIN `Optimize_province` ON
 
 这里我们可以看到 Django 使用了 INNER JOIN。我想澄清一件事，优化是我们应用的一个名字。如果要获取湖北所有的城市名称，可以这样做:
 
-```
+```py
 > HB=Province.objects.prefetch_related('city_set').get(name__iexact=u"Hubei Province")
 >>> for city in hb.city_set.all():
 ...   city.name
@@ -91,7 +91,7 @@ INNER JOIN `Optimize_province` ON
 
 触发 SQL 查询:
 
-```
+```py
 SELECT `Optimize_province`.`id`, `Optimize_province`.`name`
 FROM `Optimize_province`
 WHERE `Optimize_province', `name `LIKE'Hubei Province';

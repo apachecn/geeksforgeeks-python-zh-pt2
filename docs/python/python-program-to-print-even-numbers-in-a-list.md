@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: list1 = [2, 7, 5, 64, 14]
 Output: [2, 64, 14]
 
@@ -20,7 +20,7 @@ Output: [12, 14]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print Even Numbers in a List
 
 # list of numbers
@@ -36,7 +36,7 @@ for num in list1:
 
 **输出:**
 
-```
+```py
 10, 4, 66
 ```
 
@@ -44,7 +44,7 @@ for num in list1:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print Even Numbers in a List
 
 # list of numbers
@@ -64,7 +64,7 @@ while(num < len(list1)):
 
 **输出:**
 
-```
+```py
 10, 4, 66
 ```
 
@@ -72,7 +72,7 @@ while(num < len(list1)):
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print even Numbers in a List
 
 # list of numbers
@@ -86,7 +86,7 @@ print("Even numbers in the list: ", even_nos)
 
 **输出:**
 
-```
+```py
 Even numbers in the list:  [10, 4, 66]
 ```
 
@@ -94,7 +94,7 @@ Even numbers in the list:  [10, 4, 66]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to print Even Numbers in a List
 
 # list of numbers
@@ -108,6 +108,6 @@ print("Even numbers in the list: ", even_nos)
 
 **输出:**
 
-```
+```py
 Even numbers in the list:  [10, 4, 66]
 ```

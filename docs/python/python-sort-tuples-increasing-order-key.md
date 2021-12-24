@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : tuple = [(2, 5), (1, 2), (4, 4), (2, 3)] 
             m = 0
 Output : [(1, 2), (2, 3), (2, 5), (4, 4)]
@@ -23,7 +23,7 @@ Explanation: Sorted using the 2nd index key
 
 *下面是上面方法的 Python 实现:*
 
-```
+```py
 # Python code to sort a list of tuples 
 # according to given key.
 
@@ -47,7 +47,7 @@ print(sort(a))
 
 输出:
 
-```
+```py
 Sorted: [(23, 45, 20), (89, 40, 23), (25, 44, 39)] 
 
 ```

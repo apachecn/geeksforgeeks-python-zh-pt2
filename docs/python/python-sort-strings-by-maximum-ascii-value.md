@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings by Maximum Character
 # Using sort() + max()
@@ -53,7 +53,7 @@ print("Sorted List : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Strings by Maximum Character
 # Using sorted() + lambda + max()

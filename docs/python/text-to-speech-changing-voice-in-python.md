@@ -8,14 +8,14 @@
 
 要安装`pyttsx3` API，打开终端并写入
 
-```
+```py
 pip install pyttsx3
 
 ```
 
 该库依赖于 win32，因此我们在执行程序时可能会遇到错误。为了避免这种情况，只需在您的环境中安装`pypiwin32` 。
 
-```
+```py
 pip install pypiwin32
 
 ```
@@ -30,7 +30,7 @@ pyttsx3 中的一些重要功能包括:
 
 现在我们都准备编写一个将文本转换为语音的示例程序。
 
-```
+```py
 # Python program to show
 # how to convert text to speech
 import pyttsx3
@@ -71,7 +71,7 @@ converter.runAndWait()
 
 要获取声音列表，请编写以下代码。
 
-```
+```py
 voices = converter.getProperty('voices')
 
 for voice in voices:
@@ -90,7 +90,7 @@ for voice in voices:
 要更改声音，请使用`setProperty()`方法设置声音。上面找到的语音标识用于设置语音。
 下面是变声器的实现。
 
-```
+```py
 voice_id = "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_EN-US_ZIRA_11.0"
 
 # Use female voice

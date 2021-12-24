@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `len()`**
 这个特殊的问题可以通过使用列表理解结合 len 函数来解决，在 len 函数中，我们使用 len 函数来找到列表的 len 作为元组属性，并使用列表理解来迭代列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Value list lengths
 # using list comprehension + len()
@@ -28,7 +28,7 @@ print("The list tuple attribute length is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [('key1', [3, 4, 5]), ('key2', [1, 4, 2]), ('key3', [9, 3])]
 The list tuple attribute length is : [('key1', 3), ('key2', 3), ('key3', 2)]
 

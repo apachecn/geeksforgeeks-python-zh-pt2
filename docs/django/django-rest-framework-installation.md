@@ -15,7 +15,7 @@ Django REST 框架可以通过类似 [Django 安装](https://www.geeksforgeeks.o
     要在 Windows、Linux 或任何操作系统上安装 Django REST 框架，需要 pip 包。要检查如何在您的操作系统上安装画中画，请检查-画中画安装-[窗口](https://www.geeksforgeeks.org/how-to-install-pip-on-windows/)|[Linux](https://www.geeksforgeeks.org/how-to-install-pip-in-linux/)。
     现在，运行一个简单的命令，
 
-    ```
+    ```py
     pip install djangorestframework
     ```
 
@@ -26,7 +26,7 @@ Django REST 框架可以通过类似 [Django 安装](https://www.geeksforgeeks.o
 
     可以直接使用源代码安装 Django REST 框架，先安装 git 命令行，然后
 
-    ```
+    ```py
     git clone https://github.com/encode/django-rest-framework
     ```
 
@@ -36,7 +36,7 @@ Django REST 框架可以通过类似 [Django 安装](https://www.geeksforgeeks.o
 
     为了让 Django REST 框架在 Django 之上工作，您需要在 INSTALLED_APPS 中的 settings.py 中添加 rest_framework。
 
-    ```
+    ```py
     INSTALLED_APPS = (
         'django.contrib.admin',
         'django.contrib.auth',

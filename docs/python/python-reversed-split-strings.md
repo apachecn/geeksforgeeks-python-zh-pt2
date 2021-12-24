@@ -8,7 +8,7 @@
 
 在这个特定的方法中，我们首先使用 split 函数获取元素单词，使用 reversed 函数执行它们的逆序，然后执行 join 将元素绑定在一起。
 
-```
+```py
 # Python3 code to demonstrate
 # Reverse string split
 # using join() + reversed() + split()
@@ -29,7 +29,7 @@ print("The string after reverse split : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : Gfg is best
 The string after reverse split : best, is, Gfg
 
@@ -39,7 +39,7 @@ The string after reverse split : best, is, Gfg
 
 这个方法类似于上面我们执行拆分和连接的方法，但是这个方法唯一的区别是我们使用列表切片来执行反转。
 
-```
+```py
 # Python3 code to demonstrate
 # Reverse string split
 # using join() + split() + list slicing
@@ -60,7 +60,7 @@ print("The string after reverse split : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : Gfg is best
 The string after reverse split : best, is, Gfg
 

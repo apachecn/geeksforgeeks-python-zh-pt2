@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input : test_list = ["gegek", "gfgk", "kingg"]
 Output : {'g': 2, 'k': 1}
 Explanation : g occurs twice in all Strings.
@@ -22,7 +22,7 @@ Explanation : f occurs once in all Strings.
 
 ## python 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Strings list intersection
 # Using reduce() + lambda + Counter()
@@ -45,7 +45,7 @@ print("String intersection and frequency : " + str(dict(res)))
 
 **输出**
 
-```
+```py
 The original list is : ['geek', 'gfgk', 'king']
 String intersection and frequency : {'g': 1, 'k': 1}
 ```

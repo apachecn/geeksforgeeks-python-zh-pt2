@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all strings are mutually disjoint
 # Using any() + intersection() + enumerate()
@@ -46,7 +46,7 @@ print("Are strings mutually disjoint? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['gfg', 'is', 'bet']
 Are strings mutually disjoint? : True
 ```
@@ -57,7 +57,7 @@ Are strings mutually disjoint? : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Test if all strings are mutually disjoint
 # Using 
@@ -79,7 +79,7 @@ print("Are strings mutually disjoint? : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['gfg', 'is', 'bet']
 Are strings mutually disjoint? : False
 ```

@@ -12,7 +12,7 @@ hdfs dfs 提供了多个命令，通过这些命令我们可以在 hdfs 上执�
 
 **第一步:**创建一个名为 **data.txt** 的文本文件，并在其中添加一些数据。
 
-```
+```py
 cd Documents/        # Changing directory to Documents(You can choose as per your requirement)
 
 touch data.txt         # touch command is used to create file in linux enviournment
@@ -29,21 +29,21 @@ cat data.txt         # to see the content of a file
 
 **语法:**
 
-```
+```py
 hdfs dfs -copyFromLocal /path 1 /path 2 .... /path n /destination
 
 ```
 
 使用命令发送 **data.txt** 到 HDFS 的根目录。
 
-```
+```py
 hdfs dfs -copyFromLocal /home/dikshant/Documents/data.txt / 
 
 ```
 
 现在，使用下面的命令检查文件是否到达 HDFS 的根目录。
 
-```
+```py
 hdfs dfs -ls /
 
 ```
@@ -58,7 +58,7 @@ hdfs dfs -ls /
 
 ## 计算机编程语言
 
-```
+```py
 # importing the library
 from snakebite.client import Client
 
@@ -84,7 +84,7 @@ Client()方法可以接受下面列出的所有参数:
 
 **第 4 步:**运行 **read_data.py** 文件，观察结果。
 
-```
+```py
 python read_data.py
 
 ```
@@ -97,7 +97,7 @@ python read_data.py
 
 ## 计算机编程语言
 
-```
+```py
 from snakebite.client import Client
 client = Client('localhost', 9000)
 for a in client.copyToLocal(['/data.txt'], '/home/dikshant/Desktop'):
@@ -108,7 +108,7 @@ for a in client.copyToLocal(['/data.txt'], '/home/dikshant/Desktop'):
 
 现在，运行这个 python 文件，您将看到下面的输出。
 
-```
+```py
 python fetch_file.py
 
 ```

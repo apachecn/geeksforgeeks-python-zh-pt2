@@ -24,7 +24,7 @@
 
 **Mac** 和 **Linux** 用户可以通过 pip 命令进行安装:
 
-```
+```py
  sudo pip install sortedcontainers 
 ```
 
@@ -44,7 +44,7 @@
 
 以下是实施–
 
-```
+```py
 # importing libraries
 from sortedcontainers import SortedList, SortedSet, SortedDict
 
@@ -93,7 +93,7 @@ print('list after removing all elements using clear: ', sorted_list)
 
 **输出:**
 
-```
+```py
 list after adding 5 elements:  SortedList([1, 2, 3, 4, 5], load=1000)
 
 list elements are: 1 2 3 4 5 
@@ -118,7 +118,7 @@ list after removing all elements using clear:  SortedList([], load=1000)
 > 
 > **丢弃(值)**:如果排序集是成员，则从排序集中移除值。如果 value 不是成员，则什么也不做。*运行时复杂度:* O(log(n))
 
-```
+```py
 # importing libraries
 from sortedcontainers import SortedList, SortedSet, SortedDict
 
@@ -161,7 +161,7 @@ print()
 
 **输出:**
 
-```
+```py
 set after adding elements:  SortedSet([1, 2, 3, 4, 5], key=None, load=1000)
 
 set after inserting duplicate element:  SortedSet([1, 2, 3, 4, 5], key=None, load=1000)
@@ -186,7 +186,7 @@ Sorted dict 是一个排序的可变映射，其中键以排序的顺序维护�
 > 
 > **get(key，默认)**:如果 key 在字典里，返回 key 的值，否则默认。
 
-```
+```py
 # importing libraries
 from sortedcontainers import SortedList, SortedSet, SortedDict
 
@@ -234,7 +234,7 @@ print('sorted dict after removing all elements: ', sorted_dict)
 
 **输出:**
 
-```
+```py
 sorted dict is:  SortedDict(None, 1000, {'a': 1, 'b': 3, 'c': 2})
 
 sorted dict after adding an element:  SortedDict(None, 1000, {'a': 1, 'b': 3, 'c': 2, 'd': 3})

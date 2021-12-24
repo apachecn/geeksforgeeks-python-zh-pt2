@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [3, 19, 4, 8, 10, 13]
 

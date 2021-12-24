@@ -7,7 +7,7 @@
 **方法#1:使用循环+排序()+反转**
 这个问题可以通过使用循环来循环每一行来解决。排序和反向可用于对行执行反向排序。
 
-```
+```py
 # Python3 code to demonstrate 
 # Reverse Row sort in Lists of List
 # using loop
@@ -29,7 +29,7 @@ print ("The reverse sorted Matrix is : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 1, 6], [7, 8], [4, 10, 8]]
 The reverse sorted Matrix is : [[6, 4, 1], [8, 7], [10, 8, 4]]
 

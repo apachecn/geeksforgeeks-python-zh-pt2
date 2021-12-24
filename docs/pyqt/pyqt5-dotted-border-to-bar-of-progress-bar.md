@@ -7,7 +7,7 @@
 
 为了做到这一点，我们必须改变 CSS 样式表中的边框样式，下面是样式表代码。
 
-```
+```py
 QProgressBar
 {
 border : 1px solid black;
@@ -22,7 +22,7 @@ border-style : dotted;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

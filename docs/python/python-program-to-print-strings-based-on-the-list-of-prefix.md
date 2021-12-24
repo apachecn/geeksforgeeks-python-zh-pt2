@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing List
 test_list = ["geeks", "peeks", "meeks", "leeks", "mean"]
 
@@ -47,7 +47,7 @@ print("The extracted prefix strings list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing List
 test_list = ["geeks", "peeks", "meeks", "leeks", "mean"]
 

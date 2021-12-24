@@ -32,7 +32,7 @@ Python 的 cmath 模块提供了对复数数学函数的访问。它包含几个
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to implement 
 # the polar()function 
 
@@ -47,7 +47,7 @@ print(num)
 
 **Output**
 
-```
+```py
 (1.0, 0.0)
 
 ```
@@ -56,7 +56,7 @@ print(num)
 
 ## 蟒蛇 3
 
-```
+```py
 import cmath
 
 x = -1.0
@@ -70,7 +70,7 @@ print (cmath.phase(z)) 
 
 **Output**
 
-```
+```py
 The phase of complex number is : 3.141592653589793
 
 ```
@@ -81,14 +81,14 @@ The phase of complex number is : 3.141592653589793
 
 ## 蟒蛇 3
 
-```
+```py
 num1 = 3 + 4j
 print('Absolute value of 3 + 4j is:', abs(num1))
 ```
 
 **Output**
 
-```
+```py
 Absolute value of 3 + 4j is: 5.0
 
 ```
@@ -99,7 +99,7 @@ Absolute value of 3 + 4j is: 5.0
 
 ## 蟒蛇 3
 
-```
+```py
 import cmath
 
 c = complex(1+5j)
@@ -108,7 +108,7 @@ print(abs(c))
 
 **Output**
 
-```
+```py
 5.0990195135927845
 
 ```

@@ -11,13 +11,13 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 “开关”小部件处于活动或非活动状态，作为一个机械灯光开关。用户可以向左/向右滑动来激活/停用它。开关表示的值为真或假。也就是说，开关可以处于*开*位置或*关*位置。
 要使用 Switch，您必须导入:
 
-```
+```py
 from kivy.uix.switch import Switch
 ```
 
 **注意:**如果你想用单触而不是扫动来控制状态，可以用 ToggleButton 来代替。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -36,7 +36,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to Show how to create a switch
 # import kivy module  
 import kivy
@@ -118,7 +118,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to Show how to attach a callback to switch
 
 # import kivy module  

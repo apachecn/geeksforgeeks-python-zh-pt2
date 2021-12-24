@@ -9,7 +9,7 @@
 
 在上述状态中，状态的文本为:
 
-```
+```py
 A programmer’s takeaway from the pandemic: Local variables over Global variables.
 
  What do you think?
@@ -34,7 +34,7 @@ A programmer’s takeaway from the pandemic: Local variables over Global variabl
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272771459249844224。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -67,7 +67,7 @@ print("The text of the status is : \n\n" + text)
 
 **输出:**
 
-```
+```py
 The text of the status is : 
 
 Which movie did you watch recently?
@@ -88,7 +88,7 @@ Reply us!
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272479136133627905。这次我们将获取状态的完整文本。使用`get_status()`方法时，也将`tweet_mode = "extended"`作为参数。然后使用 full_text 属性获取完整的文本。
 
-```
+```py
 # the ID of the status
 id = 1272479136133627905
 
@@ -103,7 +103,7 @@ print("The text of the status is : \n\n" + full_text)
 
 **输出:**
 
-```
+```py
 The text of the status is : 
 
 "I am thankful to programming for _______________."

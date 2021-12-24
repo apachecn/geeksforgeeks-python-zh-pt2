@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Unpacking Integer Keys in Strings
 # Using format() + * operator + values()
@@ -41,7 +41,7 @@ print("String after unpacking dictionary : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string is : First value is {} Second is {} Third {}
 String after unpacking dictionary : First value is Gfg Second is is Third Best
 

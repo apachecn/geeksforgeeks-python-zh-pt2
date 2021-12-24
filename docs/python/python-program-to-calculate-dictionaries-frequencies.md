@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [{'gfg': 1, 'is': 4, 'best': 9},
              {'gfg': 6, 'is': 3, 'best': 8},
@@ -81,7 +81,7 @@ print("Dictionaries frequencies : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 from collections import Counter
 
 # initializing list

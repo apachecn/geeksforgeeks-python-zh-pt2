@@ -17,7 +17,7 @@
 
 **例 1:**
 
-```
+```py
 # import the random module
 import random
 
@@ -32,13 +32,13 @@ print(random.triangular(low, high, mode))
 
 **输出:**
 
-```
+```py
 22.614510550239572
 ```
 
 **例 2:** 如果我们多次生成这个数，我们大概可以识别出偏差。
 
-```
+```py
 # import the random module
 import random
 
@@ -55,7 +55,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 58.645768016894735
 46.690692250503226
 33.57590419190895
@@ -70,7 +70,7 @@ for i in range(10):
 
 **示例 3:** 我们可以通过绘制图形来可视化**三角形**图案。
 
-```
+```py
 # import the required libraries
 import random
 import matplotlib.pyplot as plt

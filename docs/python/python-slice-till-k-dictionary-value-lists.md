@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Slice till K dictionary value lists
 # Using loop + list slicing 
@@ -55,7 +55,7 @@ print("The dictionary after conversion " + str(res)) 
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Slice till K dictionary value lists
 # Using dictionary comprehension + list slicing

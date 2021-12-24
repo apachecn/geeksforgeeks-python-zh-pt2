@@ -20,7 +20,7 @@ n*m 的约束将列表的大小严格限制为 n*m。实现这一点后，我们
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct n*m Matrix from List
 # Using loop
@@ -64,7 +64,7 @@ print("Constructed Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Construct n*m Matrix from List
 # Using loop

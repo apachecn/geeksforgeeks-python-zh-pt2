@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 import numpy as np      
 
@@ -65,7 +65,7 @@ img.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing ImageDraw for
 # using floodfill function
 from PIL import Image, ImageDraw

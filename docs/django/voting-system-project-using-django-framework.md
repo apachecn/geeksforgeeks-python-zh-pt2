@@ -20,29 +20,29 @@
 **步骤 1:** 在你的目录中创建一个空文件夹**民意测验专家 _ 项目**。
 **步骤 2:** 现在切换到您的文件夹，并使用以下命令在该文件夹中创建一个虚拟环境。
 
-```
+```py
 pip install pipenv
 ```
 
-```
+```py
 pipenv shell
 ```
 
 **步骤-3:** 将从上面的步骤在您的文件夹中创建一个**点文件**。现在使用以下命令在您的文件夹中安装 Django。
 
-```
+```py
 pipenv install django
 ```
 
 **步骤-4:** 现在我们需要建立 Django 项目。在您的文件夹中运行以下命令，并启动一个 Django 项目。
 
-```
+```py
 django-admin startproject pollster
 ```
 
 将创建一个名为**民意测验专家**的新文件夹。使用以下命令切换到 poller 文件夹。
 
-```
+```py
 cd pollster
 ```
 
@@ -52,13 +52,13 @@ cd pollster
 
 这里可以使用以下命令启动服务器，并在浏览器中使用 ur**http://127 . 0 . 0 . 1:8000/**检查应用程序是否在运行。
 
-```
+```py
 python manage.py runserver
 ```
 
 **步骤 5:** 使用以下命令创建一个应用程序“**投票**
 
-```
+```py
 python manage.py startapp polls
 ```
 
@@ -72,7 +72,7 @@ python manage.py startapp polls
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -97,7 +97,7 @@ class Choice(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     'django.contrib.admin',
@@ -111,13 +111,13 @@ INSTALLED_APPS = [
 
 **步骤-3:** 我们已经在数据库中进行了更改，并创建了一些表，但是为了反映这些更改，我们需要在这里创建迁移，然后 Django 应用程序将存储对我们模型的更改。运行下面给出的命令来创建迁移。
 
-```
+```py
 python manage.py makemigrations polls
 ```
 
 内部轮询->迁移将创建一个文件 **0001_initial.py** ，您可以在其中找到我们在 models.py 文件中创建的数据库表。现在要插入我们数据库中的所有表，运行下面给出的命令…
 
-```
+```py
 python manage.py migrate 
 ```
 
@@ -125,25 +125,25 @@ python manage.py migrate
 
 **步骤-1:** 运行下面给出的命令，创建一个可以登录到管理站点的用户。
 
-```
+```py
 python manage.py createsuperuser
 ```
 
 它会提示我们需要输入的用户名。
 
-```
+```py
 Username: geeks123
 ```
 
 现在它会提示一个电子邮件地址，我们需要再次在这里输入。
 
-```
+```py
 Email address: xyz@example.com
 ```
 
 最后一步是输入密码。我们需要输入两次密码，第二次作为第一次的确认。
 
-```
+```py
 Password: ******
 Password (again): ******
 Superuser created successfully.
@@ -157,7 +157,7 @@ Superuser created successfully.
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 # Register your models here.
 from .models import Question, Choice
@@ -193,7 +193,7 @@ admin.site.register(Question, QuestionAdmin)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.template import loader
 from django.http import HttpResponse, HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
@@ -249,7 +249,7 @@ def vote(request, question_id):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from . import views
 
@@ -278,7 +278,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 TEMPLATES = [
     {
         # make changes in DIRS[].
@@ -301,7 +301,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 {% extends 'base.html' %}
 {% block content %}
 <h1 class ="text-center mb-3">Poll Questions</h1>
@@ -328,7 +328,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 {% extends 'base.html' %}
 {% block content %}
 <a class ="btn btn-secondary btn-sm mb-3" href ="{% url 'polls:index' %}">Back To Polls</a>
@@ -359,7 +359,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 {% extends 'base.html' %}
 {% block content %}
 <h1 class ="mb-5 text-center">{{ question.question_text }}</h1>
@@ -382,7 +382,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 <nav class ="navbar navbar-dark bg-primary mb-4">
     <div class ="container">
         <a class ="navbar-brand" href ="/">Pollster</a>
@@ -394,7 +394,7 @@ TEMPLATES = [
 
 ## 蟒蛇 3
 
-```
+```py
 <! DOCTYPE html>
 <html lang ="en">
 <head>
@@ -424,7 +424,7 @@ TEMPLATES = [
 
 **步骤 1** 切换到顶级民意调查文件夹，运行下面给出的命令，创建一个应用程序“**页面**”。
 
-```
+```py
 python manage.py startapp pages
 ```
 
@@ -436,7 +436,7 @@ python manage.py startapp pages
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 
 # Create your views here.
@@ -449,7 +449,7 @@ def index(request):
 
 ## 蟒蛇 3
 
-```
+```py
 
 from django.urls import path
 
@@ -464,7 +464,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 {% extends 'base.html' %}
 {% block content %}
 
@@ -487,7 +487,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import include, path
 

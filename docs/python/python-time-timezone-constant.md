@@ -6,7 +6,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.timezone)
@@ -14,7 +14,7 @@ print(time.timezone)
 
 **输出:**
 
-```
+```py
 -19800
 ```
 
@@ -24,7 +24,7 @@ print(time.timezone)
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.tzname)
@@ -32,7 +32,7 @@ print(time.tzname)
 
 **输出:**
 
-```
+```py
 ('India Standard Time', 'India Summer Time')
 ```
 
@@ -42,7 +42,7 @@ print(time.tzname)
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.altzone)
@@ -50,7 +50,7 @@ print(time.altzone)
 
 **输出:**
 
-```
+```py
 -23400
 ```
 
@@ -60,7 +60,7 @@ print(time.altzone)
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.daylight)
@@ -68,6 +68,6 @@ print(time.daylight)
 
 **输出:**
 
-```
+```py
 0
 ```

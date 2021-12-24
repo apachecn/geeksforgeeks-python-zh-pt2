@@ -54,7 +54,7 @@ update _ multi()接受以下参数–
 
 ## 蟒蛇 3
 
-```
+```py
 from pymongo import MongoClient
 
 # Creating an instance of MongoClient 
@@ -83,7 +83,7 @@ collection.update_many(
 
 ## 计算机编程语言
 
-```
+```py
 from pymongo import MongoClient
 
 # Creating an instance of MongoClient 

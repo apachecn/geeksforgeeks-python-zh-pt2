@@ -7,7 +7,7 @@
 **方法:使用`str()` +列表切片**
 可以应用的速记，不需要访问列表的每个元素，就是将整个列表转换成字符串，然后使用列表切片剥离列表的首个和最后一个字符。如果列表包含字符串，这将不起作用。在这种情况下，可以使用`join()`连接每个元素，正如许多其他文章中所讨论的那样。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove square brackets from list
 # using str() + list slicing
@@ -28,7 +28,7 @@ print("List after removing square brackets : " + res)
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 8, 9, 10, 21]
 List after removing square brackets : 5, 6, 8, 9, 10, 21
 

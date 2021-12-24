@@ -36,7 +36,7 @@
 
 **代码:**使用`***os.DirEntry.stat()***`方法
 
-```
+```py
 # Python program to explain os.DirEntry.stat() method 
 
 # importing os module  
@@ -68,7 +68,7 @@ with os.scandir(path) as itr:
 
 **Output:**
 
-```
+```py
 Status of all files in path '/home/ihritik':
 Status of file.txt:
 os.stat_result(st_mode=33248, st_ino=801366, st_dev=2056, st_nlink=2, st_uid=1000,

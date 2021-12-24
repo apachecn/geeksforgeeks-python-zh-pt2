@@ -8,7 +8,7 @@
 
 **语法:**
 
-```
+```py
 tag.name
 ```
 
@@ -19,7 +19,7 @@ tag.name
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from bs4 import BeautifulSoup
 
@@ -42,7 +42,7 @@ print(name)
 
 **输出:**
 
-```
+```py
 name_of_tag
 
 ```
@@ -51,7 +51,7 @@ name_of_tag
 
 ## 蟒蛇 3
 
-```
+```py
 # Import module
 from bs4 import BeautifulSoup
 
@@ -75,6 +75,6 @@ print(name)
 
 **输出:**
 
-```
+```py
 h2
 ```

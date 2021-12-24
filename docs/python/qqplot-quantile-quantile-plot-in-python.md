@@ -21,7 +21,7 @@
 
 **分位数–使用 Python 中`statsmodel` 的分位数图–**
 
-```
+```py
 import numpy as np
 import statsmodels.api as sm
 import pylab as py

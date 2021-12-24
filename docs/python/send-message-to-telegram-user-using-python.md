@@ -25,13 +25,13 @@
 
 *   **telebot:** 要安装该模块，请在终端中键入以下命令。
 
-```
+```py
 pip install telebot
 ```
 
 *   **电传:**要安装该模块，在终端中键入以下命令。
 
-```
+```py
 pip install telethon
 ```
 
@@ -39,7 +39,7 @@ pip install telethon
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all required libraries
 import telebot
 from telethon.sync import TelegramClient

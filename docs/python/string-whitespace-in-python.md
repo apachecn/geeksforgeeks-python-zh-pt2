@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # import string library function 
 import string 
 
@@ -29,7 +29,7 @@ print("Geeksforgeeks")
 
 **Output:**
 
-```
+```py
 Hello
 
 Geeksforgeeks
@@ -38,7 +38,7 @@ Geeksforgeeks
 
 **代码#2 :** 给定空白值的代码测试。
 
-```
+```py
 # import string library function 
 import string 
 
@@ -56,7 +56,7 @@ for i in Sentence:
 
 **Output:**
 
-```
+```py
 printable Value is:  
 printable Value is:  
 printable Value is:  

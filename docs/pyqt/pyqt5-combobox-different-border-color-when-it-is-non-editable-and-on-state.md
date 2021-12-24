@@ -9,7 +9,7 @@
 为此，我们必须更改与组合框关联的样式表，下面是样式表代码。
 **代码 1**
 
-```
+```py
 QComboBox::!editable:on
 {
 border : 5px solid;
@@ -23,7 +23,7 @@ border-color-left : yellow;
 
 **代码 2**
 
-```
+```py
 QComboBox::!editable:on
 {
 border : 5px solid;
@@ -36,7 +36,7 @@ border-color : red green blue yellow
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

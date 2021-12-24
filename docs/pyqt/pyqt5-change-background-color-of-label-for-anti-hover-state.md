@@ -8,7 +8,7 @@
 
 以下是样式表代码–
 
-```
+```py
 QLabel::!hover
 {
 background-color : lightgreen;
@@ -18,7 +18,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

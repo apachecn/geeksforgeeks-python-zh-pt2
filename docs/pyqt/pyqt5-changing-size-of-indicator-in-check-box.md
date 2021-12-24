@@ -8,7 +8,7 @@
 
 为了改变指示器的大小，我们必须改变与复选框对象一起使用的指示器的样式表的高度和宽度。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator
 {
 width : 40px;
@@ -19,7 +19,7 @@ height : 40px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

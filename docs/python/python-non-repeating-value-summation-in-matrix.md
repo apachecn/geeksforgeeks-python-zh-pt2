@@ -7,7 +7,7 @@
 **方法#1:使用`set() + list comprehension + sum()`**
 set 函数可以将单个列表转换为不重复的元素列表，列表理解用于迭代每个列表。使用 sum()执行求和任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Non-Repeating value Summation in Matrix
 # set() + list comprehension + sum()
@@ -28,7 +28,7 @@ print ("Unique values summation in matrix are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original matrix is : [[1, 3, 1], [4, 5, 3], [1, 2, 4]]
 Unique values summation in matrix are : 15
 

@@ -10,7 +10,7 @@
 
 **代码#1 :** 使用`del`演示键值对删除
 
-```
+```py
 # Python code to demonstrate
 # removal of dict. pair 
 # using del
@@ -35,7 +35,7 @@ del test_dict['Manjeet']
 
 **输出:**
 
-```
+```py
 The dictionary before performing remove is : {'Anuradha': 21, 'Haritha': 21, 'Arushi': 22, 'Mani': 21}
 The dictionary after remove is : {'Anuradha': 21, 'Haritha': 21, 'Arushi': 22}
 
@@ -43,7 +43,7 @@ The dictionary after remove is : {'Anuradha': 21, 'Haritha': 21, 'Arushi': 22}
 
 例外:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/44db951e7011423359af4861d475458a.py", line 20, in 
     del test_dict['Manjeet']
@@ -58,7 +58,7 @@ KeyError: 'Manjeet'
 **代码#2 :** 使用`pop()`
 演示键值对删除
 
-```
+```py
 # Python code to demonstrate
 # removal of dict. pair 
 # using pop()
@@ -91,7 +91,7 @@ print ("The removed key's value is : " + str(removed_value))
 
 **输出:**
 
-```
+```py
 The dictionary before performing remove is : {'Arushi': 22, 'Anuradha': 21, 'Mani': 21, 'Haritha': 21}
 The dictionary after remove is : {'Arushi': 22, 'Anuradha': 21, 'Haritha': 21}
 The removed key's value is : 21
@@ -107,7 +107,7 @@ The removed key's value is : No Key found
 
 **代码#3 :** 使用`items()` +字典演示键值对删除。领悟
 
-```
+```py
 # Python code to demonstrate
 # removal of dict. pair 
 # using items() + dict comprehension
@@ -128,7 +128,7 @@ print ("The dictionary after remove is : " + str(new_dict))
 
 **输出:**
 
-```
+```py
 The dictionary before performing remove is : {'Anuradha': 21, 'Haritha': 21, 'Arushi': 22, 'Mani': 21}
 The dictionary after remove is : {'Anuradha': 21, 'Haritha': 21, 'Arushi': 22}
 

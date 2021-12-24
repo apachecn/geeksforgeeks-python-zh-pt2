@@ -18,7 +18,7 @@ Python 使得处理日期和时间变得非常容易，我们所要做的就是�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the module
 from datetime import date
 
@@ -39,7 +39,7 @@ print(f"Today's date: {today}")
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import date
 
 today = date.today()
@@ -56,7 +56,7 @@ print(f"Present Date:{today.day}")
 
 **输出:**
 
-```
+```py
 Present Year:2021
 Present Month:9
 Present Date:28
@@ -66,7 +66,7 @@ Present Date:28
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing date from Datetime module
 from datetime import date
 
@@ -86,7 +86,7 @@ print(f"Number of days left till graduation: {days_left}")
 
 **输出:**
 
-```
+```py
 Number of days left till graduation: 682 days, 0:00:00
 ```
 
@@ -98,7 +98,7 @@ Number of days left till graduation: 682 days, 0:00:00
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 # By using now(), We will get both current 
@@ -133,7 +133,7 @@ print(f"Time left till the graduation: {days_left}")
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime, timedelta
 
 # adding 9 hours
@@ -169,7 +169,7 @@ print(f"The date after adding 1 day: {dateAdded}")
 
 **语法:**
 
-```
+```py
 time.strftime(format, t)
 ```
 
@@ -182,7 +182,7 @@ time.strftime(format, t)
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 
 today = datetime.datetime(2021, 9, 10, 12, 30, 30)
@@ -192,7 +192,7 @@ print(today.strftime("%H:%M:%S %B %d %Y"))
 
 **输出:**
 
-```
+```py
 12:30:30 September 10 2021
 ```
 
@@ -206,7 +206,7 @@ print(today.strftime("%H:%M:%S %B %d %Y"))
 
 ## 蟒蛇 3
 
-```
+```py
 from datetime import datetime
 
 print(datetime.strptime('26/5/2020', '%d/%m/%Y'))
@@ -214,6 +214,6 @@ print(datetime.strptime('26/5/2020', '%d/%m/%Y'))
 
 **输出:**
 
-```
+```py
 2020-05-26 00:00:00
 ```

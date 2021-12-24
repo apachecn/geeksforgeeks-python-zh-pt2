@@ -7,7 +7,7 @@
 给定两个列表，如果第一个列表中的元素大于第二个列表中的元素，则减去它，否则只返回第一个列表中的元素。
 **例:**
 
-```
+```py
 Input:
 l1 = [10, 20, 30, 40, 50, 60]
 l2 = [60, 50, 40, 30, 20, 10]
@@ -25,7 +25,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to subtract if element in first
 # list is greater than element in second list,
 # else we output element of first list.
@@ -53,7 +53,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Original list are :
 [10, 20, 30, 40, 50, 60]
 [60, 50, 40, 30, 20, 10]
@@ -66,7 +66,7 @@ Output list is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to subtract if element in first
 # list is greater than element in second list,
 # else we output element of first list.
@@ -89,7 +89,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Original list are :
 [10, 20, 30, 40, 50, 60]
 [60, 50, 40, 30, 20, 10]
@@ -102,7 +102,7 @@ Output list is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to subtract if element in first
 # list is greater than element in second list,
 # else we output element of first list.
@@ -126,7 +126,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Original list are :
 [10, 20, 30, 40, 50, 60]
 [60, 50, 40, 30, 20, 10]
@@ -139,7 +139,7 @@ Output list is
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to subtract if element in first
 # list is greater than element in second list,
 # else we output element of first list.
@@ -164,7 +164,7 @@ print(Output)
 
 **输出:**
 
-```
+```py
 Original list are :
 [10 20 30 40 50 60]
 [60 50 40 30 20 10]

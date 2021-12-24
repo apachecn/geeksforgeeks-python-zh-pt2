@@ -38,7 +38,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # importing the modules
     import requests
     from bs4 import BeautifulSoup
@@ -76,7 +76,7 @@
 
     ## 蟒蛇 3
 
-    ```
+    ```py
     # importing the modules
     import requests
     from bs4 import BeautifulSoup

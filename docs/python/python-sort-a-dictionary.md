@@ -18,7 +18,7 @@ Python，给定一个字典，对键或值执行排序。[适用 Python >=3.6v ]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort a Dictionary
 # Sort by Keys
@@ -47,7 +47,7 @@ print("Result dictionary sorted by keys ( in reversed order ) : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 7, 'Best': 2, 'for': 9, 'geeks': 8}
 Result dictionary sorted by keys : {'Best': 2, 'Gfg': 5, 'for': 9, 'geeks': 8, 'is': 7}
 Result dictionary sorted by keys ( in reversed order ) : {'is': 7, 'geeks': 8, 'for': 9, 'Gfg': 5, 'Best': 2}
@@ -60,7 +60,7 @@ Result dictionary sorted by keys ( in reversed order ) : {'is': 7, 'geeks': 8, '
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort a Dictionary
 # Sort by Values 
@@ -91,7 +91,7 @@ print("Result dictionary sorted by values ( in reversed order ) : " + str(res))
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 7, 'Best': 2, 'for': 9, 'geeks': 8}
 Result dictionary sorted by values : {'Best': 2, 'Gfg': 5, 'is': 7, 'geeks': 8, 'for': 9}
 Result dictionary sorted by values ( in reversed order ) : {'for': 9, 'geeks': 8, 'is': 7, 'Gfg': 5, 'Best': 2}

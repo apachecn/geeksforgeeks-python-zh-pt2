@@ -16,7 +16,7 @@ find 方法用于找出具有指定名称或 id 的第一个标记，并返回 b
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -44,7 +44,7 @@ find 方法用于找出具有指定名称或 id 的第一个标记，并返回 b
 
 ## 计算机编程语言
 
-```
+```py
 # Find example
 
 # Import the libraries BeautifulSoup
@@ -93,7 +93,7 @@ find_all 方法用于找出具有指定标签名称或 id 的所有标签，并�
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -121,7 +121,7 @@ find_all 方法用于找出具有指定标签名称或 id 的所有标签，并�
 
 ## 计算机编程语言
 
-```
+```py
 # find_all example
 
 # Import the libraries BeautifulSoup

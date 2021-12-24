@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to count number of vowels,
 # newlines and character in textfile
 
@@ -64,7 +64,7 @@ counting('Myfile.txt')
 
 **输出:**
 
-```
+```py
 Number of vowels in  MyFile.txt  =  23    
 New Lines in  MyFile.txt  =  2
 Number of characters in  MyFile.txt  =  54

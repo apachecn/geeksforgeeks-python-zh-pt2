@@ -7,7 +7,7 @@ A [正则表达式](https://www.geeksforgeeks.org/regular-expression-python-exam
 模块*正则表达式(RE)* 指定与之匹配的一组字符串(模式)。为了理解 re 类比，元字符是有用的、重要的，并且将用于模块 RE 的函数中。
 共有 14 个元字符，将在它们进入函数时进行讨论:
 
-```
+```py
 \   Used to drop the special meaning of character
     following it (discussed below)
 []  Represent a character class
@@ -31,7 +31,7 @@ re.search()方法要么返回 None(如果模式不匹配)，要么返回 re。�
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working of re.match().
 import re
 
@@ -73,7 +73,7 @@ else:
 
 **输出:**
 
-```
+```py
 Match at index 14, 21
 Full match: June 24
 Month: June
@@ -87,7 +87,7 @@ Day: 24
 
 ## 蟒蛇 3
 
-```
+```py
 # A Python program to demonstrate working of
 # findall()
 import re
@@ -106,6 +106,6 @@ print(match)
 
 **输出:**
 
-```
+```py
 ['123456789', '987654321']
 ```

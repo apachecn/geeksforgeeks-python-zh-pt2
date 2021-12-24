@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input  : arr = [[1, 2, 3], 
                 [4, 5, 6], 
                 [2, 1, 2]]
@@ -16,7 +16,7 @@ Output : Sum = 26
 
 通过迭代整个矩阵，使用两个 for 循环可以很容易地解决这个问题，但是我们可以使用 map()函数在 python 中快速解决这个问题。
 
-```
+```py
 # Function to calculate sum of all elements in matrix
 # sum(arr) is a python inbuilt function which calculates
 # sum of each element in a iterable ( array, list etc ).
@@ -37,7 +37,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 26
 
 ```
@@ -45,7 +45,7 @@ if __name__ == "__main__":
 **map()是做什么的？**
 map()函数将一个给定的函数应用于一个可列表(列表、元组等)的每个项目。)并返回结果列表。例如见下面给出的例子:
 
-```
+```py
 # Python code to demonstrate working of map()
 
 # Function to calculate square of any number
@@ -68,7 +68,7 @@ print (result)
 
 输出:
 
-```
+```py
 [1, 4, 9, 16]
 ```
 

@@ -13,7 +13,7 @@ removeDuplicates()之外的函数只是创建一个链表并测试 remove duplic
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove duplicate
 # nodes from a sorted linked list 
 
@@ -118,7 +118,7 @@ llist.printList() 
 
 **输出:**
 
-```
+```py
 Linked list before duplicate removal  11 11 11 13 13 20
 Linked list after duplicate removal  11 13 20
 ```
@@ -129,7 +129,7 @@ Linked list after duplicate removal  11 13 20
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 Program to remove duplicates
 # from a sorted linked list 
 import math
@@ -232,7 +232,7 @@ if __name__=='__main__': 
 
 **输出:**
 
-```
+```py
 Linked list before duplicate removal  11 11 11 13 13 20
 Linked list after duplicate removal  11 13 20
 ```
@@ -243,7 +243,7 @@ Linked list after duplicate removal  11 13 20
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to remove duplicates 
 # from a sorted linked list  
 import math 
@@ -341,7 +341,7 @@ if __name__=='__main__':  
 
 **输出:**
 
-```
+```py
 List before removal of duplicates
 11 11 11 13 13 20 
 List after removal of elements

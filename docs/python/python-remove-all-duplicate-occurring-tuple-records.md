@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `set() + count()`**
 可以应用的初始方法是，我们可以迭代每个元组，并使用 count()检查它在列表中的计数，如果大于 1，我们可以移除它们，然后转换为 set。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Remove all Duplicate occurring records
 # Using list comprehension + set() + count()
@@ -28,7 +28,7 @@ print("All the non Duplicate from list are : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(3, 4), (4, 5), (3, 4), (3, 6), (4, 5), (6, 7)]
 All the non Duplicate from list are : [(6, 7), (3, 6)]
 

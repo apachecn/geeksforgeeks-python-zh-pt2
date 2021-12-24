@@ -10,7 +10,7 @@
 
 ## HTML
 
-```
+```py
 <!DOCTYPE html>
 <html>
    <head>

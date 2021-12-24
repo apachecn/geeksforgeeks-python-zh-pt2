@@ -7,7 +7,7 @@
 **方法#1:使用`groupby()` +列表理解**
 使用 groupby 函数，我们可以将一起出现的元素分组为一个，并可以连续移除所有重复的元素，只让一个元素在列表中。
 
-```
+```py
 # Python3 code to demonstrate 
 # removing consecutive duplicates
 # using groupby() + list comprehension
@@ -29,7 +29,7 @@ print ("The list after removing consecutive duplicates : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 4, 4, 5, 6, 7, 4, 3, 3, 9]
 The list after removing consecutive duplicates : [1, 4, 5, 6, 7, 4, 3, 9]
 
@@ -38,7 +38,7 @@ The list after removing consecutive duplicates : [1, 4, 5, 6, 7, 4, 3, 9]
 **方法二:使用`zip_longest()` +列表理解**
 这个功能可以使用切片的方式来保留元素，删除后续的元素。zip _ longest 函数的任务是将一个列表中的值集合在一起。
 
-```
+```py
 # Python3 code to demonstrate 
 # removing consecutive duplicates
 # using zip_longest()+ list comprehension
@@ -61,7 +61,7 @@ print ("List after removing consecutive duplicates : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [1, 4, 4, 4, 5, 6, 7, 4, 3, 3, 9]
 List after removing consecutive duplicates : [1, 4, 5, 6, 7, 4, 3, 9]
 

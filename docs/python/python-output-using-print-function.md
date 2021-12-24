@@ -29,13 +29,13 @@ python print 语句中的字符串文字主要用于格式化或设计使用 pri
 
 ## 蟒蛇 3
 
-```
+```py
 print("GeeksforGeeks \n is best for DSA Content.")
 ```
 
 **输出:**
 
-```
+```py
 GeeksforGeeks 
  is best for DSA Content.
 ```
@@ -48,7 +48,7 @@ end 关键字用于指定在 print()函数执行结束时要打印的内容。�
 
 ## 蟒蛇 3
 
-```
+```py
 # This line will automatically add a new line before the
 # next print statement
 print ("GeeksForGeeks is the best platform for DSA content")
@@ -60,7 +60,7 @@ print("Welcome to GFG")
 
 **输出:**
 
-```
+```py
 GeeksForGeeks is the best platform for DSA content
 GeeksForGeeks is the best platform for DSA content**Welcome to GFG
 ```
@@ -73,7 +73,7 @@ python 中的 I/o 通常是缓冲的，这意味着它们是以块的形式使�
 
 假设您正在构建一个倒计时计时器，它每秒钟将剩余时间追加到同一行。它看起来如下所示:
 
-```
+```py
 3>>>2>>>1>>>Start
 ```
 
@@ -81,7 +81,7 @@ python 中的 I/o 通常是缓冲的，这意味着它们是以块的形式使�
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 count_seconds = 3
@@ -101,7 +101,7 @@ for i in reversed(range(count_seconds + 1)):
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 count_seconds = 3
@@ -125,7 +125,7 @@ print()函数可以接受任意数量的位置参数。这些参数可以使用*
 
 ## 蟒蛇 3
 
-```
+```py
 b = "for"
 
 print("Geeks", b , "Geeks")
@@ -133,7 +133,7 @@ print("Geeks", b , "Geeks")
 
 **输出:**
 
-```
+```py
 Geeks for Geeks
 ```
 
@@ -145,7 +145,7 @@ Geeks for Geeks
 
 ## 蟒蛇 3
 
-```
+```py
 import io
 
 # declare a dummy file
@@ -160,7 +160,7 @@ dummy_file.getvalue()
 
 **输出:**
 
-```
+```py
 'Hello Geeks!!\n'
 ```
 
@@ -168,7 +168,7 @@ dummy_file.getvalue()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python 3.x program showing
 # how to print data on
 # a screen
@@ -190,7 +190,7 @@ print("GeeksforGeeks")
 
 **输出:**
 
-```
+```py
 GeeksForGeeks
 x = 5
 GFG

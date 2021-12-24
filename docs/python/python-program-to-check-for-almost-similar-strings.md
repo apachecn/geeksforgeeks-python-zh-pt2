@@ -24,7 +24,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 **from string import ascii_lowercase
 
 # function to compute frequencies
@@ -81,7 +81,7 @@ print("Are strings similar ? : " + str(res))**
 
 ## **蟒蛇 3**
 
-```
+```py
 **from collections import Counter
 
 # initializing strings

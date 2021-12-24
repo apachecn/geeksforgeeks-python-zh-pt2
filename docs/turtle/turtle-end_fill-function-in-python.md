@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.end_fill()
 ```
 
@@ -20,7 +20,7 @@ turtle.end_fill()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing package
 import turtle
 

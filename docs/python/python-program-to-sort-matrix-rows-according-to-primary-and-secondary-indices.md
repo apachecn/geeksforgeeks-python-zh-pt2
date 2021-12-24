@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[2, 5, 7, 4], [8, 1, 3, 10], [9, 1, 9, 4], [10, 1, 1, 4]]
 
@@ -55,7 +55,7 @@ print("Matrix after sorting : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 import operator
 
 # initializing list

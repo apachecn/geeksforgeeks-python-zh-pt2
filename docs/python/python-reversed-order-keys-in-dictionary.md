@@ -7,7 +7,7 @@
 **方法#1:使用`reversed() + sorted() + keys()` +循环**
 上述功能的组合可用于执行该特定任务。`sorted`功能用于对按键进行排序，`reversed`获取使用`keys()`提取的按键，按降序排列，并使用循环打印。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reversed Order keys in dictionary
 # Using sorted() + keys() + reversed() + loop
@@ -30,7 +30,7 @@ print("The reversed order of dictionary keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {1: 'Gfg', 2: 'best', 4: 'the', 5: 'is'}
 The reversed order of dictionary keys : [5, 4, 2, 1]
 

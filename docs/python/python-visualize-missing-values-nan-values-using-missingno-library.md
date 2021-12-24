@@ -8,7 +8,7 @@
 
 **安装库–**
 
-```
+```py
 pip install missingno
 
 ```
@@ -19,7 +19,7 @@ pip install missingno
 
 使用这个矩阵，您可以非常快速地找到数据集中缺失的模式。在我们的示例中，列`AAWhiteSt-4`和`SulphidityL-4`具有相似的缺失值模式，而 UCZAA 显示了不同的模式。
 
-```
+```py
 # Program to visualize missing values in dataset
 
 # Importing the libraries
@@ -40,7 +40,7 @@ msno.matrix(df)
 
 这个条形图让您了解每列中有多少缺失值。在我们的示例中，`AAWhiteSt-4`和`SulphidityL-4`包含的缺失值最多，其次是 UCZAA。
 
-```
+```py
 # Program to visualize missing values in dataset
 
 # Importing the libraries
@@ -66,7 +66,7 @@ msno.bar(df)
 > 接近 **0** 的值表示两个变量的缺失值之间不存在**相关性**。
 > 靠近 **1** 的值表示如果一个变量出现，那么另一个变量很可能是**现在的**。
 
-```
+```py
 # Program to visualize missing values in dataset
 
 # Importing the libraries

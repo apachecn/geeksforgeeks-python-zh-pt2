@@ -16,7 +16,7 @@
 
 ## 蟒 3
 
-```
+```py
 # import module
 from bs4 import BeautifulSoup
 
@@ -54,7 +54,7 @@ print(len(soup.find('h2').text))
 
 **输出:**
 
-```
+```py
 Length of the text of the first <h2> tag:
 59
 ```
@@ -67,7 +67,7 @@ Length of the text of the first <h2> tag:
 
 ## 蟒 3
 
-```
+```py
 # import module
 from bs4 import BeautifulSoup
 

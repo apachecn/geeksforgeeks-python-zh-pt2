@@ -6,7 +6,7 @@
 
 让我们看看下面的代码:
 
-```
+```py
 # Python3 program demonstrating working 
 # of flush during output  
 
@@ -20,7 +20,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 0
 1
 2
@@ -37,7 +37,7 @@ for i in range(10):
 
 现在让我们看看下面的代码:
 
-```
+```py
 # Python3 program demonstrating working 
 # of flush during output
 
@@ -51,7 +51,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9
 ```
 
@@ -59,7 +59,7 @@ for i in range(10):
 
 现在，看看下面的代码:
 
-```
+```py
 # Python3 program demonstrating working 
 # of flush during output and usage of
 # sys.stdout.flush() function
@@ -75,7 +75,7 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9
 ```
 
@@ -83,7 +83,7 @@ for i in range(10):
 
 实现上述相同功能的另一种方法是将 print 语句的 flush 参数设置为 true。
 
-```
+```py
 # Python3 program demonstrating working 
 # of flush during output and usage of
 # flush parameter of print statement
@@ -98,6 +98,6 @@ for i in range(10):
 
 **输出:**
 
-```
+```py
 0 1 2 3 4 5 6 7 8 9 
 ```

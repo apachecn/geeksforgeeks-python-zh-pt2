@@ -12,7 +12,7 @@
 
 ## Python 3
 
-```
+```py
 # Python program to print all
 # prime number in an interval
 # number should be greater than 1
@@ -30,7 +30,7 @@ for i in range(start, end+1):
 
 **输出:**
 
-```
+```py
 11
 13
 17

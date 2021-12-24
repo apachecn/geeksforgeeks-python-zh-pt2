@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: s = @geeksforgeeks%
        arr[] = {'o','e','%'}
 Output: [true,true,true]
@@ -22,7 +22,7 @@ Output: [false,true,false,true]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to check string
 # for specific characters
 
@@ -47,7 +47,7 @@ print(check(s, arr))
 
 **Output**
 
-```
+```py
 ['True', 'True', 'True', 'False']
 ```
 
@@ -55,7 +55,7 @@ print(check(s, arr))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python implementation to check string for
 # specific characters
 
@@ -74,6 +74,6 @@ print(check(s, arr))
 
 **Output**
 
-```
+```py
 [True, True, True, True, False]
 ```

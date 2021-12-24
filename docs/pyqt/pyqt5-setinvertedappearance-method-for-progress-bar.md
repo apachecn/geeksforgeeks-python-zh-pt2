@@ -14,7 +14,7 @@
 > 
 > **执行的动作:**将进度条设置为反转外观。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

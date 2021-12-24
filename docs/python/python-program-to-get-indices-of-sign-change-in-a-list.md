@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [7, 6, -3, -4, -7, 8, 3, -6, 7, 8]
 
@@ -56,7 +56,7 @@ print("Sign shift indices : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [7, 6, -3, -4, -7, 8, 3, -6, 7, 8]
 

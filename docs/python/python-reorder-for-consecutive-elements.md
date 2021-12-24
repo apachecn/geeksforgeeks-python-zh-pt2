@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Reorder for consecutive elements
 # Using Counter() + loop + items()
@@ -44,7 +44,7 @@ print("Reordered List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 7, 5, 4, 1, 4, 1, 6, 7, 5]
 Reordered List : [4, 4, 4, 7, 7, 5, 5, 1, 1, 6]
 
@@ -56,7 +56,7 @@ Reordered List : [4, 4, 4, 7, 7, 5, 5, 1, 1, 6]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Reorder for consecutive elements
 # Using Counter() + elements()
@@ -77,7 +77,7 @@ print("Reordered List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [4, 7, 5, 4, 1, 4, 1, 6, 7, 5]
 Reordered List : [4, 4, 4, 7, 7, 5, 5, 1, 1, 6]
 

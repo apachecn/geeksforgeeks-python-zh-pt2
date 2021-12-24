@@ -7,7 +7,7 @@
 **方法#1:使用`max()` +生成器表达式**
 这是实现解决这个任务最基本的方法。在本文中，我们使用生成器表达式迭代整个嵌套列表，并使用 max()获得最大元素。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Maximum element in tuple list
 # using max() + generator expression
@@ -28,7 +28,7 @@ print("The Maximum element of list is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [(2, 4), (6, 7), (5, 1), (6, 10), (8, 7)]
 The Maximum element of list is : 10
 

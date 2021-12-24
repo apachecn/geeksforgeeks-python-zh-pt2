@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to print longest consecutive list.
 
 # Input list initialization
@@ -58,7 +58,7 @@ print(ans)
 
 **输出:**
 
-```
+```py
 Initial List is
 [12, 13, 14, 17, 18, 23, 24, 25, 25, 26, 27]
 Longest Consecutive list is :
@@ -70,7 +70,7 @@ Longest Consecutive list is :
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to print longest consecutive list.
 
 # Importing
@@ -110,7 +110,7 @@ print(output)
 
 **输出:**
 
-```
+```py
 Initial list is 
 [1, 2, 3, 5, 6, 6, 7, 9, 10, 11, 13, 14, 15, 16, 16, 17, 18, 20, 21]
 Longest Consecutive list is:

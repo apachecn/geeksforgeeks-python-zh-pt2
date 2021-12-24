@@ -8,7 +8,7 @@
 
 为了改变指示器的颜色，我们在样式表中将背景颜色设置为指示器。下面是实现这一点的样式表代码。
 
-```
+```py
 QRadioButton
 {
 background-color : lightgreen;
@@ -20,7 +20,7 @@ background-color : lightgreen;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

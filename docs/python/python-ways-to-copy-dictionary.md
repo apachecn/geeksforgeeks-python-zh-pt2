@@ -8,7 +8,7 @@
 `copy()`方法返回字典的一个[浅拷贝](https://www.geeksforgeeks.org/copy-python-deep-copy-shallow-copy/)。
 不取任何参数，返回一个不引用初始词典的新词典。
 
-```
+```py
 # Python3 code to demonstrate
 # how to copy dictionary
 # using copy() function
@@ -31,7 +31,7 @@ print("updated dictionary = ", test2)
 
 **输出**
 
-```
+```py
 initial dictionary =  {'name1': 'manjeet', 'name2': 'vashu', 'name': 'akshat'}
 updated dictionary =  {'name1': 'nikhil', 'name': 'akshat', 'name2': 'vashu'}
 
@@ -40,7 +40,7 @@ updated dictionary =  {'name1': 'nikhil', 'name': 'akshat', 'name2': 'vashu'}
 **方法 2:使用`dict()`**
 `dict()`是一个用 Python 创建字典的构造器。
 
-```
+```py
 # Python3 code to demonstrate
 # how to copy dictionary
 # using dict()
@@ -63,7 +63,7 @@ print("updated dictionary = ", test2)
 
 **输出**
 
-```
+```py
 initial dictionary =  {'name2': 'vashu', 'name': 'akshat', 'name1': 'manjeet'}
 updated dictionary =  {'name2': 'vashu', 'name': 'akshat', 'name1': 'nikhil'}
 
@@ -71,7 +71,7 @@ updated dictionary =  {'name2': 'vashu', 'name': 'akshat', 'name1': 'nikhil'}
 
 **方法三:利用词典理解**
 
-```
+```py
 # Python3 code to demonstrate
 # how to copy dictionary
 # using dictionary comprehension
@@ -94,7 +94,7 @@ print("updated dictionary = ", test2)
 
 **输出**
 
-```
+```py
 initial dictionary =  {'name': 'akshat', 'name2': 'vashu', 'name1': 'manjeet'}
 updated dictionary =  {'name': 'akshat', 'name2': 'vashu', 'name1': 'ayush'}
 

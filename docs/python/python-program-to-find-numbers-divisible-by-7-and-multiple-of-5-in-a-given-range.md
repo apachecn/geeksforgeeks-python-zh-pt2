@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input:Enter minimum 100
 Enter maximum 200
 
@@ -26,7 +26,7 @@ Output:
 
 ## 蟒蛇 3
 
-```
+```py
 # enter the starting range number
 start_num = int(29)
 
@@ -49,7 +49,7 @@ while cnt <= end_num:
 
 **输出:**
 
-```
+```py
 35  is divisible by 7 and 5.
 ```
 
@@ -57,7 +57,7 @@ while cnt <= end_num:
 
 ## 蟒蛇 3
 
-```
+```py
 # enter the starting range number
 start_num = int(68)
 
@@ -80,7 +80,7 @@ while cnt <= end_num:
 
 **输出:**
 
-```
+```py
 70 is divisible by 7 and 5.
 105 is divisible by 7 and 5.
 140 is divisible by 7 and 5.

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if custom keys equal to K in dictionary
 # Using loop
@@ -54,7 +54,7 @@ print("Are all custom keys equal to K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 8, 'Best': 10, 'for': 8, 'Geeks': 8}
 Are all custom keys equal to K : True
 
@@ -66,7 +66,7 @@ Are all custom keys equal to K : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Test if custom keys equal to K in dictionary
 # Using all() + generator expression
@@ -92,7 +92,7 @@ print("Are all custom keys equal to K : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original dictionary is : {'Gfg': 5, 'is': 8, 'Best': 10, 'for': 8, 'Geeks': 8}
 Are all custom keys equal to K : True
 

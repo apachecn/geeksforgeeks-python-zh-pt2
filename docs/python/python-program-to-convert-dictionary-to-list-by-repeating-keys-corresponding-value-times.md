@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {'g': 2, 'f': 3, 'g': 1, 'b': 4, 'e': 1, 's': 4, 't': 3}
 
@@ -55,7 +55,7 @@ print("The constructed list : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing dictionary
 test_dict = {'g': 2, 'f': 3, 'g': 1, 'b': 4, 'e': 1, 's': 4, 't': 3}
 

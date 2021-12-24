@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by None frequency
 # Using sort()
@@ -54,7 +54,7 @@ print("List after sorting : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by None frequency
 # Using sorted() + lambda

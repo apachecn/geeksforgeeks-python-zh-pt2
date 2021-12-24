@@ -4,7 +4,7 @@
 
 在 Python 框架中，您可以随机访问密钥。为了在 python 框架中随机访问密钥，我们使用`open()`函数。这个函数的工作原理很像文件处理中的文件 [open()](https://www.geeksforgeeks.org/file-handling-python/) 函数。使用 Python 搁置打开文件的语法
 
-```
+```py
 shelve.open(filename, flag='c' , writeback=True)
 
 ```
@@ -18,7 +18,7 @@ shelve.open(filename, flag='c' , writeback=True)
 **存储 python 搁置数据:**
 为了存储 Python 搁置数据，我们必须创建一个充满数据集的文件，并用`open()`函数打开它们这个函数打开一个我们已经创建的文件。
 
-```
+```py
 # At first, we have to import the 'Shelve' module.
 import shelve
 
@@ -40,7 +40,7 @@ shfile.close()
 **检索 Python 搁置数据:**
 存储搁置数据后，我们必须从文件中检索一些数据，以便像在列表和许多其他数据类型中一样使用索引运算符[]。
 
-```
+```py
 # At first, we import the 'Shelve' module.
 import shelve
 
@@ -57,7 +57,7 @@ var.close()
 
 **输出:**
 
-```
+```py
 ['bared_to_you', 'The_fault_in_our_stars', 'The_boy_who_never_let_her_go']
 
 ```
@@ -67,7 +67,7 @@ var.close()
 **更新 python 搁置数据:**
 为了更新 Python 搁置数据，我们使用 append()函数，或者我们可以像在列表和其他数据类型中一样轻松更新。为了使我们的改变永久化，我们使用`sync()`功能。
 
-```
+```py
 # At first, we have to import the 'Shelve' module.
 import shelve
 
@@ -98,7 +98,7 @@ var.close()
 
 **输入:**
 
-```
+```py
  Enter the number of values 5
  Enter the value    Who moved my cheese?
  Enter the value    Our impossible love
@@ -109,7 +109,7 @@ var.close()
 
 **输出:**
 
-```
+```py
 ['bared_to_you', 'The_fault_in_our_stars', 'The_boy_who_never_let_her_go',
  'Who moved my cheese?', 'Our impossible love', 'Bourne Identity', 
  'Hush', 'Knock-Knock']

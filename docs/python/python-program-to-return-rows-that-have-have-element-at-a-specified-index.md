@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing lists
 test_list1 = [[1, 8, 3], [9, 2, 0], [6, 4, 4], [6, 4, 4]]
 test_list2 = [[1, 9, 3], [8, 2, 3], [5, 4, 6], [5, 4, 6]]
@@ -66,7 +66,7 @@ print("K index matching rows : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing lists
 test_list1 = [[1, 8, 3], [9, 2, 0], [6, 4, 4], [6, 4, 4]]
 test_list2 = [[1, 9, 3], [8, 2, 3], [5, 4, 6], [5, 4, 6]]

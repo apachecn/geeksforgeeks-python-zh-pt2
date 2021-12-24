@@ -16,7 +16,7 @@ ROS 代表机器人操作系统。ROS 是一组帮助构建机器人应用程序
 
 ## 蟒蛇 3
 
-```
+```py
 import rospy
 from geometry_msgs.msg import Twist
 import sys
@@ -26,7 +26,7 @@ import sys
 
 ## 蟒蛇 3
 
-```
+```py
 def turtle_circle(radius):
     rospy.init_node('turtlesim', anonymous=True)
     pub = rospy.Publisher('/turtle1/cmd_vel',
@@ -39,7 +39,7 @@ def turtle_circle(radius):
 
 ## 蟒蛇 3
 
-```
+```py
 rospy.loginfo("Radius = %f", radius)
 pub.publish(vel)
 rate.sleep()
@@ -49,7 +49,7 @@ rate.sleep()
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     try:
         turtle_circle(float(sys.argv[1]))
@@ -61,19 +61,19 @@ if __name__ == '__main__':
 
 使用以下命令在终端中启动 ROS:
 
-```
+```py
 $ roscore
 ```
 
 使用以下命令在新终端上启动 turtlesim 节点:
 
-```
+```py
 $ rosrun turtlesim turtlesim_node
 ```
 
 使用以下命令执行程序:
 
-```
+```py
 $ rosrun my_package turtlesim.py 2.0
 ```
 
@@ -81,7 +81,7 @@ $ rosrun my_package turtlesim.py 2.0
 
 ## 蟒蛇 3
 
-```
+```py
 #!/usr/bin/env python
 # @uthor : Sumanth Nethi
 import rospy

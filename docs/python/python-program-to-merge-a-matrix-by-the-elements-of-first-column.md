@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, "geeks"], [3, "Gfg"], [4, "CS"], 
              [4, "cs"], [3, "best"]]
@@ -50,7 +50,7 @@ print("Merged Matrix : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [[4, "geeks"], [3, "Gfg"], [4, "CS"],
              [4, "cs"], [3, "best"]]

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase custom characters
 # Using upper() + loop
@@ -47,7 +47,7 @@ print("String after reconstruction : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg is best for geeks
 String after reconstruction : GfG is BEst for GEEKs
 
@@ -59,7 +59,7 @@ String after reconstruction : GfG is BEst for GEEKs
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Uppercase custom characters
 # Using list comprehension
@@ -82,7 +82,7 @@ print("String after reconstruction : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : gfg is best for geeks
 String after reconstruction : GfG is BEst for GEEKs
 

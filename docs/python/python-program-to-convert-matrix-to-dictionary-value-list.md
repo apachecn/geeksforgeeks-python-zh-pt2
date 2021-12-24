@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to Dictionary Value List
 # Using dictionary comprehension + zip()
@@ -62,7 +62,7 @@ print("Converted Dictionary : " + str(dict(res)))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Convert Matrix to Dictionary Value List
 # Using dict() + list comprehension + zip()

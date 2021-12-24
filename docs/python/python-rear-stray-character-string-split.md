@@ -7,7 +7,7 @@
 **方法#1:使用`split() + rstrip()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们在 split()之前从字符串中移除杂散字符，以避免在 split 列表中出现空字符串。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rear stray character String split
 # Using split() + rstrip()
@@ -28,7 +28,7 @@ print("The evaluated result is : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : gfg, is, best,
 The evaluated result is : ['gfg', 'is', 'best']
 

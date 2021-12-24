@@ -10,13 +10,13 @@
 
 *   **bs4(美化程序):**它是 python 中的一个库，可以很容易地从网页中抓取信息，并有助于从 HTML 和 XML 文件中提取数据。这个库需要从外部下载，因为它没有 Python 包。要安装此库，请在终端中键入以下命令。
 
-```
+```py
 pip install bs4
 ```
 
 *   **请求:**这个库使得发送 HTTP 请求和获取网页内容变得非常容易。该库也需要从外部下载，因为它不容易与 Python 包一起提供。要安装此库，请在终端中键入以下命令。
 
-```
+```py
 pip install requests
 ```
 
@@ -33,7 +33,7 @@ pip install requests
 
 ## 蟒蛇 3
 
-```
+```py
 # import necessary libraries
 from bs4 import BeautifulSoup
 import requests

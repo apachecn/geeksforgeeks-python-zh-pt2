@@ -13,7 +13,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 要创建多行文本输入(输入键增加一行)。
 要创建单行文本输入，请将 TextInput.multiline 属性设置为 False。
 
-```
+```py
 TextInput(text='Hello world', multiline=False)
 ```
 
@@ -21,7 +21,7 @@ TextInput(text='Hello world', multiline=False)
 > 
 > 从 kiva . uix . textinput 汇入 textinput
 
-```
+```py
 Basic Approach:
 1) import kivy
 2) import kivyApp
@@ -39,7 +39,7 @@ Basic Approach:
 
 **现在实施的办法:**
 
-```
+```py
 # Program to Show how to use textinput (UX widget) in kivy 
 
 # import kivy module    

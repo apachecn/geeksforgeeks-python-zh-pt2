@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.InsertControl(self, pos, control, label="")
 > 
 > ```
@@ -21,14 +21,14 @@
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > wx.ToolBarToolBase
 > 
 > ```
 
 **代码示例 1:** 单击工具栏上的勾号工具时，会插入一个控件。
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
 **代码示例 2:** 单击工具栏上的勾号工具时，会插入一个控件。
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

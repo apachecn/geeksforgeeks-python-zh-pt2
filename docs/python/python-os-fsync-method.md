@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.fsync() method
 
 # importing os module
@@ -55,7 +55,7 @@ os.close(fd)
 
 **Output:** 
 
-```
+```py
 Force write of file committed successfully
 ```
 
@@ -63,7 +63,7 @@ Force write of file committed successfully
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.fsync() method
 
 # importing os module
@@ -99,6 +99,6 @@ f.close()
 
 **Output:** 
 
-```
+```py
 Force write of file committed successfully
 ```

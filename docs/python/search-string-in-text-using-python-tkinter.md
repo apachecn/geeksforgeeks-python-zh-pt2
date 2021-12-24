@@ -29,7 +29,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 #Python Program to search string in text using Tkinter
 
 from tkinter import *
@@ -109,7 +109,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 #Python Program to search string in text using Tkinter
 
 from tkinter import *

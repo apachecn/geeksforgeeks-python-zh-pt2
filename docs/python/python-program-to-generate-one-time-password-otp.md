@@ -15,7 +15,7 @@ random()函数可用于生成随机 OTP，该 OTP 是在随机库中预定义的
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import math, random
 
@@ -42,7 +42,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 OTP of 4 digits: 3211
 ```
 
@@ -50,7 +50,7 @@ OTP of 4 digits: 3211
 
 ## 蟒蛇 3
 
-```
+```py
 # import library
 import math, random
 
@@ -75,7 +75,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 OTP of length 6: pyelJl
 ```
 
@@ -83,7 +83,7 @@ OTP of length 6: pyelJl
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing random to generate
 # random string sequence
 import random
@@ -109,6 +109,6 @@ print(password)
 
 **输出:**
 
-```
+```py
 2R8gaoDKqn
 ```

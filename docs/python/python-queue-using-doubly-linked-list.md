@@ -6,7 +6,7 @@
 
 ### 队列操作:
 
-```
+```py
 1\. enqueue()     : Adds element to the back of Queue.
 2\. dequeue()     : Removes and returns the first element from the queue.
 3\. first()       : Returns the first element of the queue without removing it.
@@ -18,7 +18,7 @@
 
 ### 下面是使用 Python 中的双链接列表实现上述队列操作:
 
-```
+```py
 # A complete working Python program to demonstrate all 
 # Queue operations using doubly linked list 
 
@@ -138,7 +138,7 @@ if __name__=='__main__': 
 
 **Output:**
 
-```
+```py
 Queue operations using doubly linked list
 queue elements are:
 4->5->6->7->

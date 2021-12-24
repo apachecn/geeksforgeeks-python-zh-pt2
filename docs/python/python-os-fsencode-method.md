@@ -15,7 +15,7 @@ Python 中的`***os.fsencode()***`方法用于将指定的文件名编码到文�
 
 **代码:**使用 os.fsencode()方法
 
-```
+```py
 # Python program to explain os.fsencode() method 
 
 # importing os module 
@@ -40,7 +40,7 @@ print(os.fsdecode(encode))
 
 **Output:**
 
-```
+```py
 Encoded filename: b'/home/user/F\xc3\x8e\xe2\x95\x9a\xc3\x88.txt'
 /home/user/FÎ?È.txt
 

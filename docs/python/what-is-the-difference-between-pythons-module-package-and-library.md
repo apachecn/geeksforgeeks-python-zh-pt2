@@ -6,14 +6,14 @@
 
 **示例:**将代码保存在名为 demo_module.py 的文件中
 
-```
+```py
 def myModule(name):
     print("This is My Module : "+ name)
 ```
 
 导入名为 demo_module 的模块，并在其中调用 myModule 函数。
 
-```
+```py
 import demo_module
 
 demo_module.myModule("Math")
@@ -21,7 +21,7 @@ demo_module.myModule("Math")
 
 **输出:**
 
-```
+```py
 This is My Module : Math
 ```
 
@@ -29,7 +29,7 @@ This is My Module : Math
 
 **示例:**
 
-```
+```py
 Student(Package)
 | __init__.py (Constructor)
 | details.py (Module)
@@ -41,7 +41,7 @@ Student(Package)
 
 **例:**导入熊猫库，使用熊猫别名即 pd 调用 read_csv 方法。
 
-```
+```py
 import pandas as pd
 
 df = pd.read_csv("file_name.csv")

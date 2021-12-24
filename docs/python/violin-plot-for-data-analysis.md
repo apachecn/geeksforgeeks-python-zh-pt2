@@ -11,7 +11,7 @@
 
 **数据集的属性信息:**
 
-```
+```py
 Attribute Information:
    -> sepal length in cm
    -> sepal width in cm
@@ -37,7 +37,7 @@ Class Distribution: 33.3% for each of 3 classes.
 
 **加载库**
 
-```
+```py
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -47,7 +47,7 @@ import seaborn
 
 **加载数据**
 
-```
+```py
 data = pd.read_csv("Iris.csv")
 
 print (data.head(10))
@@ -58,7 +58,7 @@ print (data.head(10))
 
 **描述**
 
-```
+```py
 data.describe()
 ```
 
@@ -67,7 +67,7 @@ data.describe()
 
 **信息**
 
-```
+```py
 data.info()
 ```
 
@@ -76,13 +76,13 @@ data.info()
 
 **描述虹膜数据集的“分离长度”参数。**
 
-```
+```py
 data["SepalLengthCm"].describe()
 ```
 
 **输出:**
 
-```
+```py
 count    150.000000
 mean       5.843333
 std        0.828066
@@ -96,7 +96,7 @@ Name: SepalLengthCm, dtype: float64
 
 **代码#1:** 参数“分离长度”的小提琴图。
 
-```
+```py
 fig, ax = pyplot.subplots(figsize =(9, 7))
 sns.violinplot( ax = ax, y = data["SepalLengthCm"] )
 ```
@@ -107,7 +107,7 @@ sns.violinplot( ax = ax, y = data["SepalLengthCm"] )
 
 **代码#2:** 参数“分离宽度”的小提琴图。
 
-```
+```py
 fig, ax = pyplot.subplots(figsize =(9, 7))
 sns.violinplot(ax = ax,  y = data["SepalWidthCm"] )
 ```
@@ -119,7 +119,7 @@ sns.violinplot(ax = ax,  y = data["SepalWidthCm"] )
 
 **代码#3:** 小提琴图，比较“分离长度厘米”和“分离宽度厘米”。
 
-```
+```py
 fig, ax = pyplot.subplots(figsize =(9, 7))
 sns.violinplot(ax = ax, data = data.iloc[:, 1:3])
 ```
@@ -129,7 +129,7 @@ sns.violinplot(ax = ax, data = data.iloc[:, 1:3])
 
 **代码#4:** 小提琴图比较‘separangthcm’物种。
 
-```
+```py
 fig, ax = pyplot.subplots(figsize =(9, 7))
 sns.violinplot(ax = ax, x = data["Species"], 
                   y = data["SepalLengthCm"] )

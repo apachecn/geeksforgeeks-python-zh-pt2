@@ -56,7 +56,7 @@ Telnet 是一种遵循客户机-服务器模式的网络协议。它使用 TCP �
 
 ![](img/4eb1d5e3f2a119cce03f16009d1af414.png)
 
-```
+```py
 $ telnet localhost
 Trying ::1...
 Trying 127.0.0.1...
@@ -77,7 +77,7 @@ $
 
 ## 蟒蛇 3
 
-```
+```py
 import telnetlib
 import getpass
 
@@ -117,7 +117,7 @@ tn.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import telnetlib
 import getpass
 
@@ -158,7 +158,7 @@ tn.close()
 
 **输出:**
 
-```
+```py
 pvtejeswar@mx:~/Desktop/telnet
 $ python3 telnet.py
 USERNAME: pvtejeswar

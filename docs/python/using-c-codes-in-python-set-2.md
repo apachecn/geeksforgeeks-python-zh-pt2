@@ -8,7 +8,7 @@
 
 **代码#1:用 Python 访问 C 函数**
 
-```
+```py
 import work
 
 print ("GCD : ", work.gcd(35, 42))
@@ -24,7 +24,7 @@ print ("\ndistance : ", work.distance(p1, p2))
 
 **输出:**
 
-```
+```py
 GCD : 7
 
 divide : (5, 2)
@@ -42,7 +42,7 @@ T3】发行？
 
 **代码#2:路径示例**
 
-```
+```py
 from ctypes.util import find_library
 
 find_library('m')
@@ -54,7 +54,7 @@ find_library('sample')
 
 **输出:**
 
-```
+```py
 /usr/lib/libm.dylib
 
 /usr/lib/libpthread.dylib
@@ -65,6 +65,6 @@ find_library('sample')
 
 同样， **ctypes** 如果用 C 代码找不到库的话，根本不会工作。`ctypes.cdll.LoadLibrary()`用于加载 C 库，一旦知道了它的位置。
 
-```
+```py
 _mod = ctypes.cdll.LoadLibrary(_path)
 ```

@@ -13,7 +13,7 @@
 **方法#1:使用循环**
 这是我们执行这个任务的方式之一。以这种强力的方式，我们迭代所有的元素，并不断更新 max，只要正元素链被打破。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum length consecutive positive elements
 # Using loop
@@ -44,7 +44,7 @@ print("Maximum elements run length : " + str(max_score))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, -4, -1, -7, 2, 5, 6, -2, -9, -10]
 Maximum elements run length : 3
 
@@ -53,7 +53,7 @@ Maximum elements run length : 3
 **方法 2:使用`groupby() + defaultDict() + max()`**
 以上功能的组合可以用来解决这个问题。在这种情况下，我们使用 groupby()执行分组任务，我们可以通过将负最大值和正最大值按不同的键分组来执行查找它们的最大值的任务，并使用 max()在末尾查找列表的最大值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Maximum length consecutive positive elements
 # Using groupby() + defaultDict() + max()
@@ -82,7 +82,7 @@ print("Maximum negative elements run length : " + str(max(res[1])))
 
 **Output :**
 
-```
+```py
 The original list : [4, 5, -4, -1, -7, 2, 5, 6, -2, -9, -10]
 Maximum elements run length : 3
 Maximum negative elements run length : 3

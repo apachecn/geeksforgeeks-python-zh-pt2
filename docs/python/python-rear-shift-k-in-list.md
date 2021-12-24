@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+ `isinstance()`**
 在该方法中，我们分 2 步执行移位操作。在第一步中，我们得到了我们需要在前端得到的所有值，在末端我们只是把 K 推到末端。isinstance 方法用于过滤掉布尔假实体。
 
-```
+```py
 # Python3 code to demonstrate
 # Rear shift K in List
 # using list comprehension + isinstance()
@@ -32,7 +32,7 @@ print("The list after shifting K's to end : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [1, 4, None, 'Manjeet', False, 4, False, 4, 'Nikhil']
 The list after shifting K's to end : [1, None, 'Manjeet', False, False, 'Nikhil', 4, 4, 4]
 

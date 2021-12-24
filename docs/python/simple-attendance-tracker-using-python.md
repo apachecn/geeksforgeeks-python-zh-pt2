@@ -66,7 +66,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 def savefile():
 
     book.save(r'<your-path>\attendance.xlsx')
@@ -77,7 +77,7 @@ def savefile():
 
 ## 蟒蛇 3
 
-```
+```py
 def check(no_of_days, row_num, b):
 
   # to use the globally declared lists and strings
@@ -113,7 +113,7 @@ def check(no_of_days, row_num, b):
 
 ## 蟒蛇 3
 
-```
+```py
 # for students
 def mailstu(li, msg):
     from_id = 'cXXXXXXXXXs@gmail.com'
@@ -158,7 +158,7 @@ def mailstaff(mail_id, msg):
 
 ## 蟒蛇 3
 
-```
+```py
 import openpyxl
 import smtplib
 from email.mime.multipart import MIMEMultipart
@@ -348,7 +348,7 @@ while resp is 1:
 
 **输出:**
 
-```
+```py
 1--->CI
 2--->python
 3--->DM

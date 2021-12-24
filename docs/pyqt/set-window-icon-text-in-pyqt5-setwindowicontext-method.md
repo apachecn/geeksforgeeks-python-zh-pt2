@@ -14,7 +14,7 @@ PyQt5 允许我们使用 setWindowIcon()方法设置窗口的图标，另一方�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import *

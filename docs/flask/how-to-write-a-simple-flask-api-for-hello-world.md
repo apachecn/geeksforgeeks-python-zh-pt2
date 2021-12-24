@@ -15,13 +15,13 @@
 
 1.使用以下命令安装 python Flask 库。
 
-```
+```py
 pip install Flask
 ```
 
 2.使用以下命令安装烧瓶-restful 库。
 
-```
+```py
 pip install Flask-RESTful
 ```
 
@@ -33,7 +33,7 @@ pip install Flask-RESTful
 
 ## 蟒蛇 3
 
-```
+```py
 app =   Flask(__name__)
 ```
 
@@ -42,7 +42,7 @@ app =   Flask(__name__)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route('/path_of_the_response', methods=['GET'])
 def helloworld():
     pass
@@ -54,14 +54,14 @@ def helloworld():
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     app.run(debug=True)
 ```
 
 *   在终端或 IDE 中运行“main.py”文件，并在浏览器中键入以下网址。
 
-```
+```py
 http://127.0.0.1:5000/hello
 ```
 
@@ -69,7 +69,7 @@ http://127.0.0.1:5000/hello
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)
@@ -97,7 +97,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 app =   Flask(__name__)
 ```
 
@@ -105,7 +105,7 @@ app =   Flask(__name__)
 
 ## 蟒蛇 3
 
-```
+```py
 api =   Api(app)
 ```
 
@@ -117,14 +117,14 @@ api =   Api(app)
 
 ## 蟒蛇 3
 
-```
+```py
 if __name__ == '__main__':
     app.run(debug=True)
 ```
 
 *   在终端或 IDE 中运行“main.py”文件，并在浏览器中键入以下网址。
 
-```
+```py
 http://127.0.0.1:5000/hello
 ```
 
@@ -132,7 +132,7 @@ http://127.0.0.1:5000/hello
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_restful import Api, Resource
 

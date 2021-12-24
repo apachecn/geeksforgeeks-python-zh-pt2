@@ -8,7 +8,7 @@
 
 这个特殊的问题可以通过使用列表理解结合求和函数来解决，其中我们使用求和函数来找到列表作为元组属性的和，并且使用列表理解来迭代列表。
 
-```
+```py
 # Python3 code to demonstrate
 # Summation of list as tuple attribute
 # using list comprehension + sum()
@@ -35,7 +35,7 @@ print("The list tuple attribute summation is : " + str(res))
 **方法 2:使用 map + lambda + `sum()`**
 上述问题也可以通过使用 map 函数将逻辑扩展到整个列表来解决，sum 函数可以执行与上述方法类似的任务。
 
-```
+```py
 # Python3 code to demonstrate
 # Summation of list as tuple attribute
 # using map() + lambda + sum()

@@ -4,7 +4,7 @@
 
 给定大小 K 和值 N，任务是编写一个 Python 程序来计算 N 的幂直到 K 的列表
 
-```
+```py
 Input : N = 4, K = 6
 Output : [1, 4, 16, 64, 256, 1024]
 Explanation : 4^i is output till i = K. 
@@ -20,7 +20,7 @@ Explanation : 3^i is output till i = K.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get K initial powers of N
 # Using list comprehension + ** operator
@@ -43,7 +43,7 @@ print("Square values of N till K : " + str(res))
 
 **输出:**
 
-```
+```py
 The original N is : 4
 Square values of N till K : [1, 4, 16, 64, 256, 1024]
 ```
@@ -54,7 +54,7 @@ Square values of N till K : [1, 4, 16, 64, 256, 1024]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Get K initial powers of N
 # Using pow() + list comprehension 
@@ -79,7 +79,7 @@ print("Square values of N till K : " + str(res))
 
 **输出:**
 
-```
+```py
 The original N is : 4
 Square values of N till K : [1, 4, 16, 64, 256, 1024]
 ```

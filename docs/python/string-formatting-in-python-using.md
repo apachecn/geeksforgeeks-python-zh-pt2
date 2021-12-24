@@ -21,7 +21,7 @@
 
 下面的例子描述了在 Python 中使用%格式化的用法
 
-```
+```py
 # Python program to demonstrate the use of formatting using % 
 
 # Initialize variable as a string 
@@ -52,7 +52,7 @@ print ("Variable as octal = %o" %(variable)) 
 
 **输出:**
 
-```
+```py
 Variable as string = 15
 Variable as raw data = '15'
 Variable as integer = 15

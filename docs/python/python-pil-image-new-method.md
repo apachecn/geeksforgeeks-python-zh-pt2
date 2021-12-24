@@ -19,7 +19,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports PIL module
 import PIL
 
@@ -39,7 +39,7 @@ im.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # imports Pil module
 import PIL
 

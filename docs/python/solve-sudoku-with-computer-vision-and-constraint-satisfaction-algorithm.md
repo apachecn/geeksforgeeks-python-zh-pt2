@@ -20,7 +20,7 @@
 
 **代码:**
 
-```
+```py
 #/Preprocessing.py / import cv2
 import numpy as np
 import Functions
@@ -70,7 +70,7 @@ if __name__ == '__main__':    
 
 **代码:创建一个只有预处理和图像变换功能的库，称为“functions”。**
 
-```
+```py
 #/Functions.py / import cv2
 import numpy as np
 
@@ -118,7 +118,7 @@ def cropBorder(image):
 
 **代码:**
 
-```
+```py
 #/Transformation.py / import cv2
 import numpy as np
 import Functions
@@ -143,7 +143,7 @@ if __name__ == '__main__':
 
 **代码:**
 
-```
+```py
 #/Main.py / import numpy as np
 from matplotlib import pyplot as plt
 import matplotlib.patches as mpatches
@@ -374,7 +374,7 @@ archivo.close()
 提出了一种带回溯的约束满足算法来求解数独。
 T4【代码:
 
-```
+```py
 #/Solver.py / import numpy as np
 
 # Dictionary with grid numbers
@@ -503,7 +503,7 @@ if __name__ == '__main__':
 
 **代码:**
 
-```
+```py
 #/Interface.py / 
 import numpy as np
 import matplotlib.pyplot as plt

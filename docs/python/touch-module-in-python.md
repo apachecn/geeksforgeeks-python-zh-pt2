@@ -8,13 +8,13 @@
 
 这个模块没有内置 Python。要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install touch
 ```
 
 **示例 1:** 在本例中，我们将在同一个目录中创建一个文件。
 
-```
+```py
 import touch
 
 touch.touch("success.java")
@@ -26,7 +26,7 @@ touch.touch("success.java")
 
 **示例 2:** 在本例中，我们将在不同的目录中创建一个文件。这里我们在“testm”文件夹中创建一个文件。
 
-```
+```py
 import touch
 
 touch.touch("testm / success2.java")
@@ -38,7 +38,7 @@ touch.touch("testm / success2.java")
 
 **示例 3:** 在本例中，我们将同时创建一个多个文件。为此，我们需要在列表中传递文件名。
 
-```
+```py
 import touch
 
 touch.touch(["testm / success100.java", "success10.cpp"])

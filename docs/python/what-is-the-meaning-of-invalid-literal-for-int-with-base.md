@@ -6,7 +6,7 @@
 
 **示例 1 :** 基数为 10 的值错误。
 
-```
+```py
 # ValueError caused by conversion of 
 # String representation of float to int
 int('23.5')
@@ -14,7 +14,7 @@ int('23.5')
 
 输出:
 
-```
+```py
 ValueError: invalid literal for int() with base 10: '23.5'
 ```
 
@@ -22,36 +22,36 @@ ValueError: invalid literal for int() with base 10: '23.5'
 
 我们可以先用`float()`函数把 float 的字符串表示转换成 float，再用`int()`转换成整数。
 
-```
+```py
 print(int(float('23.5')))
 ```
 
 **输出:**
 
-```
+```py
 23
 ```
 
 **示例 2 :** 在`int()`中传递字母。
 
-```
+```py
 int('abc')
 ```
 
 **输出:**
 
-```
+```py
 invalid literal for int() with base 10: 'abc'
 ```
 
 字符 a、b、c、d、e 和 f 存在于 base =16 系统中，因此只有这些字符以及数字 0 到 9 可以从它们的字符串表示形式转换为十六进制形式的整数。我们必须传递一个值为 16 的参数`base`。
 
-```
+```py
 print(int('abc', base = 16))
 ```
 
 **输出:**
 
-```
+```py
 2748
 ```

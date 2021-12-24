@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [2, 3, 4, 5, 7, 8, 9, 11, 15, 16]
 Output : [[2, 5], [7, 11], [15, 16]]
 
@@ -19,7 +19,7 @@ Output : [[1, 3], [6, 10]]
 
 首先，我们使用蛮力方法将序列号列表转换为区间。开始一个循环，直到列表的长度。在每次迭代中，使用另一个循环来检查序列的连续性。一旦序列停止，得出每个区间的下限和上限。
 
-```
+```py
 # Python3 program to Convert list of 
 # sequential number into intervals
 
@@ -47,7 +47,7 @@ print( list(interval_extract(l)))
 
 **Output:**
 
-```
+```py
 [[2, 5], [7, 9], [11], [15, 16]]
 
 ```
@@ -55,7 +55,7 @@ print( list(interval_extract(l)))
 **方法 2 :** 皮托尼天真
 首先，对给定的列表进行排序。用第一个元素初始化*上一个 _ 编号*和*范围 _ 开始*。开始一个循环，检查下一个数字是否是前一个数字的加法，如果是，将这个数字初始化为前一个数字，否则产生以 *range_start* 开始，以 *previous_number* 结束的新间隔。
 
-```
+```py
 # Python3 program to Convert list of 
 # sequential number into intervals
 
@@ -78,7 +78,7 @@ print( list(interval_extract(l)))
 
 **Output:**
 
-```
+```py
 [[2, 5], [7, 9], [11, 11], [15, 16]]
 
 ```
@@ -86,7 +86,7 @@ print( list(interval_extract(l)))
 **方法#3 :** 使用 itertools
 另一种 Python 方法是使用 Python itertools。我们用`itertools.groupby()`。其中 enumerate(iterable)被认为是可迭代的，而*λt:t[1]–t[0])*被认为是寻找区间序列的关键函数。
 
-```
+```py
 # Python3 program to Convert list of 
 # sequential number into intervals
 import itertools
@@ -106,7 +106,7 @@ print( list(intervals_extract(l)))
 
 **Output:**
 
-```
+```py
 [[2, 5], [7, 9], [11, 11], [15, 16]]
 
 ```

@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Non-None with K
 # Using list comprehension
@@ -39,7 +39,7 @@ print("List after replacement : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [59, 236, None, 3, '']
 List after replacement : ['Gfg', 'Gfg', None, 'Gfg', '']
 
@@ -50,7 +50,7 @@ List after replacement : ['Gfg', 'Gfg', None, 'Gfg', '']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace Non-None with K
 # Using map() + lambda()
@@ -74,7 +74,7 @@ print("List after replacement : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [59, 236, None, 3, '']
 List after replacement : ['Gfg', 'Gfg', None, 'Gfg', '']
 

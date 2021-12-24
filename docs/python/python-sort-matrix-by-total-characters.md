@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Matrix by total characters
 # Using sort() + len() + sum()
@@ -53,7 +53,7 @@ print("Sorted results : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Matrix by total characters 
 # Using sorted() + lambda

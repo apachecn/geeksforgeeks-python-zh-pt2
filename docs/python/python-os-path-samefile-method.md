@@ -19,7 +19,7 @@ Python 中的`***os.path.samefile()***`方法用于检查给定的两个路径�
 
 **代码:**使用 os.path.samefile()方法检查给定的路径是否引用同一个文件或目录。
 
-```
+```py
 # Python program to explain os.path.samefile() method 
 
 # importing os module 
@@ -65,7 +65,7 @@ print(areSame)
 
 **Output:**
 
-```
+```py
 True
 True
 

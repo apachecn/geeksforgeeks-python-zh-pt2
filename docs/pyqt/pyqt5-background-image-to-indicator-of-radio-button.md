@@ -6,7 +6,7 @@
 
 为了给单选按钮的指示器添加背景图像，我们必须更改与之关联的样式表代码，下面是样式表代码。
 
-```
+```py
 QRadioButton::indicator
 {
 backgrpund-image : url(image.png)
@@ -18,7 +18,7 @@ backgrpund-image : url(image.png)
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

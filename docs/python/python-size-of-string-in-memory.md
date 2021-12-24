@@ -8,7 +8,7 @@
 
 想到的最简单和初始的方法是将字符串转换成字节格式，然后提取其大小。
 
-```
+```py
 # Python3 code to demonstrate
 # getting size of string in bytes
 # using encode() + len()
@@ -29,7 +29,7 @@ print("The length of string in bytes : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geekforgeeks
 The length of string in bytes : 12
 
@@ -39,7 +39,7 @@ The length of string in bytes : 12
 
 这个任务也可以通过一个系统调用来执行，由 Python 提供，就像在 sys 函数库中一样，`getsizeof` 函数可以得到我们想要的字符串的字节大小。
 
-```
+```py
 # Python3 code to demonstrate
 # getting size of string in bytes
 # using sys.getsizeof()
@@ -61,7 +61,7 @@ print("The length of string in bytes : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string : geekforgeeks
 The length of string in bytes : 12
 

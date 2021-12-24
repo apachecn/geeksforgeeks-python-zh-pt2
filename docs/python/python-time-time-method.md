@@ -16,7 +16,7 @@
 
 **代码#1:** 使用`***time.time()***`方法
 
-```
+```py
 # Python program to explain time.time() method
 
 # importing time module
@@ -37,7 +37,7 @@ print("Time in seconds since the epoch:", time_sec)
 
 **输出:**
 
-```
+```py
 epoch is: Thu Jan  1 00:00:00 1970
 Time in seconds since the epoch: 1566454995.8361387
 
@@ -45,7 +45,7 @@ Time in seconds since the epoch: 1566454995.8361387
 
 **代码#2:** 计算两个日期之间的秒数
 
-```
+```py
 # Python program to explain time.time() method
 
 # importing time module
@@ -81,7 +81,7 @@ print("Seconds between date 1 and date 2 is % f seconds" % seconds)
 
 **输出:**
 
-```
+```py
 Date 1: Sat Jan  1 00:00:00 2000
 Date 2: Thu Aug 22 00:00:00 2019
 Seconds between date 1 and date 2 is 619747200.000000 seconds

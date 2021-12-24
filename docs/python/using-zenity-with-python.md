@@ -6,14 +6,14 @@
 
 那么，让我们开始吧。首先，您需要在系统上安装 **Zenity** 。为此，只需打开您的终端并在其中键入以下内容
 
-```
+```py
 sudo apt-get update -y
 sudo apt-get install -y zenity
 ```
 
 现在您已经安装了 Zenity，让我们开始编写脚本。首先，创建一个新的项目目录，然后在项目目录中，创建一个名为 **run.sh** 的新文件，并在其中添加以下脚本。别担心，我将提供整个代码的详细演练。
 
-```
+```py
 #!/bin/sh
 
 zenity --forms --title="Contacts" \
@@ -40,7 +40,7 @@ python3 contacts.py
 
 ## 蟒蛇 3
 
-```
+```py
 # import the modules
 import os, csv
 

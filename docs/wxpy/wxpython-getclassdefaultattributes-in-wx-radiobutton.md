@@ -24,7 +24,7 @@ Python 提供了 [**wxpython 包**](https://www.geeksforgeeks.org/python-wxpytho
 
 ## 蟒蛇 3
 
-```
+```py
 # importing wx library
 import wx
 
@@ -87,7 +87,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 (0,0,255,255, 255)
 (255, 255, 255, 255)
 

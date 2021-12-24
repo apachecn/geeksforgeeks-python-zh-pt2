@@ -8,7 +8,7 @@
 
 为了给中间状态的指示器添加背景图像，我们必须改变中间状态指示器的样式表，当光标悬停在它上面时。下面是样式表代码。
 
-```
+```py
 QCheckBox::indicator:indeterminate:hover
 {
 background-image : url(image.png);
@@ -18,7 +18,7 @@ background-image : url(image.png);
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

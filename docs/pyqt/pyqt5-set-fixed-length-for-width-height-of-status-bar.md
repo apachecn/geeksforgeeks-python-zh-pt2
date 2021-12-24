@@ -10,7 +10,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > self.statusBar().setFixedHeight(height)
 > self.statusBar().setFixedWidth(width)
 > 
@@ -24,7 +24,7 @@
 
 **代码:**
 
-```
+```py
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
 from PyQt5.QtWidgets import * 

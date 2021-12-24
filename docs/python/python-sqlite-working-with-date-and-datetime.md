@@ -16,7 +16,7 @@
 
 首先，我们需要导入 datetime 模块并获取当前的时间和日期信息**现在可以使用()**函数。然后，他们将日期时间信息存储在一个变量中，这样它就可以用来在 SQLite 表中插入日期时间。为了在表中存储日期时间信息，我们需要使用列数据类型作为“时间戳”。
 
-```
+```py
 column_name TIMESTAMP
 ```
 
@@ -24,7 +24,7 @@ column_name TIMESTAMP
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import sqlite3
 
@@ -64,7 +64,7 @@ connection.close()
 
 **输出:**
 
-```
+```py
 Data Inserted Successfully !
 ```
 
@@ -78,7 +78,7 @@ Data Inserted Successfully !
 
 ## 蟒蛇 3
 
-```
+```py
 import datetime
 import sqlite3
 

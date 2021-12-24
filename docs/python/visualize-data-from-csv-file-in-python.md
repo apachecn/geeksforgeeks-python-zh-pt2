@@ -6,7 +6,7 @@ CSV 代表“**逗号分隔值**”。这意味着 CSV 文件中的数据(值)�
 
 要提取 CSV 文件中的数据，必须在我们的程序中导入 CSV 模块，如下所示:
 
-```
+```py
 import csv
 
 with open('file.csv') as File:  
@@ -34,7 +34,7 @@ with open('file.csv') as File:
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 
@@ -79,7 +79,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 
@@ -125,7 +125,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 
@@ -167,7 +167,7 @@ plt.show()
 
 ## 蟒蛇 3
 
-```
+```py
 import matplotlib.pyplot as plt
 import csv
 

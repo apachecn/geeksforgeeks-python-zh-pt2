@@ -34,7 +34,7 @@
 
 下面是实现。
 
-<gfg-tab role="tab" slot="tab" id="gfg-tab-0">Python3</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="python3">```
+<gfg-tab role="tab" slot="tab" id="gfg-tab-0">Python3</gfg-tab> <gfg-panel role="tabpanel" slot="panel" id="gfg-panel-0" data-code-lang="python3">```py
 # importing turtle for graphics
 import turtle
 

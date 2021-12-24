@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Group keys with similar values in Dictionary
 # Using loop + any() + len()

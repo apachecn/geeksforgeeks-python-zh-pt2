@@ -11,7 +11,7 @@
 
 下面是 Python 实现–
 
-```
+```py
 import os
 
 shutdown = input("Do you wish to shutdown your computer ? (yes / no): ")

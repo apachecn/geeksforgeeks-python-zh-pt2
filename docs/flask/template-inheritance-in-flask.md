@@ -10,7 +10,7 @@ T 模板继承是金佳模板的一个很好的特点。Jinja 是 Python 编程�
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 # Setting up the application
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
 **语法:**
 
-```
+```py
 {% block content %}
 {% endblock %}
 ```
@@ -42,7 +42,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,7 +63,7 @@ if __name__ == '__main__':
 
 **语法:**
 
-```
+```py
   {% extends "base.html" %}
         {% block content %}
           write code here for home page only 
@@ -72,7 +72,7 @@ if __name__ == '__main__':
 
 ## 超文本标记语言
 
-```
+```py
 {%extends "base.html" %}
 {%block content%}
 

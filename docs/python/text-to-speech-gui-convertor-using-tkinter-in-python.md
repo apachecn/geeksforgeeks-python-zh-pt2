@@ -19,7 +19,7 @@ python 中有很多库，其中之一是 gTTS(谷歌文本到语音)，这是一
 
 要安装 **gTTS** ，只需进入您的终端并键入:
 
-```
+```py
 pip install gTTS
 ```
 
@@ -27,7 +27,7 @@ pip install gTTS
 
 ## 蟒蛇 3
 
-```
+```py
 # importing required module
 from tkinter import *
 from gtts import gTTS

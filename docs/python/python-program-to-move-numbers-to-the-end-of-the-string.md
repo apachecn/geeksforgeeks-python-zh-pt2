@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geek2eeks4g1eek5sbest6forall9'
 
@@ -55,7 +55,7 @@ print("Strings after digits at end : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geek2eeks4g1eek5sbest6forall9'
 

@@ -15,7 +15,7 @@
 
 现在让我们在“极客/表单. py”中创建一个演示表单，
 
-```
+```py
 from django import forms
 
 // creating a django form
@@ -28,7 +28,7 @@ class GeeksForm(forms.Form):
 
 现在要呈现这个表单，我们需要创建视图和模板，用于向用户显示表单。在极客/视图. py 中，创建一个视图
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -42,7 +42,7 @@ def home_view(request):
 
 在模板/home.html 中，
 
-```
+```py
 <form method="POST">
     {% csrf_token %}
     {{ form.as_p }}
@@ -52,7 +52,7 @@ def home_view(request):
 
 现在让我们通过运行
 
-```
+```py
 Python manage.py runserver
 ```
 
@@ -63,7 +63,7 @@ Python manage.py runserver
 
 通过字典添加初始数据的第一种也是最常用的方法是在窗体初始化期间的 view.py。下面是`views.py`的代码，加上了一些数据。
 
-```
+```py
 from django.shortcuts import render
 from .forms import GeeksForm
 
@@ -94,7 +94,7 @@ T3】
 您可以使用表单中的字段添加初始数据。为此，有一个属性 **initial** 。
 在形式上，
 
-```
+```py
 from django import forms
 
 class GeeksForm(forms.Form):

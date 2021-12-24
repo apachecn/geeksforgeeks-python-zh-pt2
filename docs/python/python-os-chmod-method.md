@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 os.chmod(path, mode)
 ```
 
@@ -36,7 +36,7 @@ os.chmod(path, mode)
 
 **代码#1:**
 
-```
+```py
 # Python program to explain os.chmod() method
 
 # importing necessary libraries
@@ -53,7 +53,7 @@ print("File access changed, can be read by others now.")
 
 **输出:**
 
-```
+```py
 File can be read only by owner.
 File access changed, can be read by others now.
 
@@ -61,7 +61,7 @@ File access changed, can be read by others now.
 
 **代码#2:**
 
-```
+```py
 # Python program to explain os.chmod() method
 
 # importing necessary libraries
@@ -77,6 +77,6 @@ print("File can be written and executed only by owner.")
 
 **输出:**
 
-```
+```py
 File can be written and executed only by owner.
 ```

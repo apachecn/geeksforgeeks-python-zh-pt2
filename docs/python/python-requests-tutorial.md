@@ -33,20 +33,20 @@
 
     请求安装取决于 eis 使用的操作系统类型，任何地方的基本命令都是打开命令终端并运行，
 
-    ```
+    ```py
     pip install requests
     ```
 
     在任何操作系统上安装请求的基本方法是抓取基本文件并手动安装请求，而请求是在 GitHub 上主动开发的，代码总是可用的。代码–[请访问此处](https://github.com/psf/requests)。
     您可以克隆公共存储库:
 
-    ```
+    ```py
     git clone git://github.com/psf/requests.git
     ```
 
     一旦您有了源代码的副本，您就可以将其嵌入到您自己的 Python 包中，或者轻松地将其安装到您的站点包中:
 
-    ```
+    ```py
     cd requests
     pip install .
     ```
@@ -59,7 +59,7 @@
     GET 方法用于使用给定的 URI 从给定的服务器检索信息。GET 方法发送附加到页面请求的编码用户信息。页面和编码信息用“？”分隔性格。
     例如:
 
-    ```
+    ```py
     https://www.google.com/search?q=hello
     ```
 
@@ -69,7 +69,7 @@
 
     **语法–**
 
-    ```
+    ```py
     requests.get(url, params={key: value}, args)
 
     ```
@@ -78,7 +78,7 @@
 
     出于示例目的，让我们尝试向 github 的 API 发出请求。
 
-    ```
+    ```py
     import requests
 
     # Making a GET request
@@ -94,7 +94,7 @@
 
     将此文件保存为 request.py 并通过终端运行，
 
-    ```
+    ```py
     python request.py
     ```
 
@@ -121,7 +121,7 @@
 
     **Example :**
 
-    ```
+    ```py
     # import requests module
     import requests
 
@@ -137,7 +137,7 @@
 
     将此文件另存为 request.py，并使用以下命令运行
 
-    ```
+    ```py
     Python request.py
     ```
 
@@ -174,7 +174,7 @@
 
     **示例–**
 
-    ```
+    ```py
     # import requests module
     import requests
     from requests.auth import HTTPBasicAuth
@@ -199,7 +199,7 @@
 
     让我们尝试使用 Python 请求访问一个带有无效 SSL 证书的网站
 
-    ```
+    ```py
     # import requests module
     import requests
 
@@ -215,7 +215,7 @@
     该网站没有 SSL 设置，因此引发此错误。
     也可以仅通过 python 请求传递证书链接进行验证。
 
-    ```
+    ```py
     # import requests module
     import requests
 
@@ -237,7 +237,7 @@
 
     让我们通过将 cookie 设置为 url，然后再次请求检查 cookie 是否已设置来说明会话对象的使用。
 
-    ```
+    ```py
     # import requests module
     import requests
 

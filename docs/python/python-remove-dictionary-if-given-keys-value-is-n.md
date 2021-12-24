@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Dictionaries whose Key(K) is N
 # Using list comprehension
@@ -47,7 +47,7 @@ print("The extracted dictionaries : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2, 'Best': 9}, {'Gfg': 5, 'is': 4, 'Best': 10}, {'Gfg': 3, 'is': 6, 'Best': 8}]
 The extracted dictionaries : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2, 'Best': 9}, {'Gfg': 3, 'is': 6, 'Best': 8}]
 
@@ -59,7 +59,7 @@ The extracted dictionaries : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Dictionaries whose Key(K) is N
 # Using filter() + lambda
@@ -88,7 +88,7 @@ print("The extracted dictionaries : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2, 'Best': 9}, {'Gfg': 5, 'is': 4, 'Best': 10}, {'Gfg': 3, 'is': 6, 'Best': 8}]
 The extracted dictionaries : [{'Gfg': 3, 'is': 7, 'Best': 8}, {'Gfg': 9, 'is': 2, 'Best': 9}, {'Gfg': 3, 'is': 6, 'Best': 8}]
 

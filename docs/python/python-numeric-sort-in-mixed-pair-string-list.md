@@ -7,7 +7,7 @@
 **方法#1:使用`split() + sort()` +按键功能**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用外部函数执行排序，其中我们分割字符串并提取数字部分。
 
-```
+```py
 # Python3 code to demonstrate 
 # Numeric Sort in Mixed Pair String List
 # using split() + sort() + key function
@@ -33,7 +33,7 @@ print ("The reverse sorted numerics are : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : ['Manjeet 5', 'Akshat 7', 'Akash 6', 'Nikhil 10']
 The reverse sorted numerics are : ['Nikhil 10', 'Akshat 7', 'Akash 6', 'Manjeet 5']
 

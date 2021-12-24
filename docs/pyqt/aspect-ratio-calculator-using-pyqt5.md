@@ -9,27 +9,27 @@
 **PyQt5** 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。以下是安装 PyQt5
 的命令
 
-```
+```py
 pip install PyQt5
 ```
 
 **概念:**
 用户必须选择一个宽度和高度，计算器将为其找到对角线和长宽比值，下面是计算对角线的公式
 
-```
+```py
 diagonal = math.sqrt(width**2 + height**2)
 ```
 
 以下是长宽比的计算公式(x:1 格式)
 
-```
+```py
 x = width / height
 ```
 
 以下是长宽比(宽度:高度格式)
 的计算公式
 
-```
+```py
 w = width / gcd
 h = height / gcd
 ```
@@ -59,7 +59,7 @@ h = height / gcd
 
 ## 蟒蛇 3
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import math

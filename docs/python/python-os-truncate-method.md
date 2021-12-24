@@ -17,7 +17,7 @@
 
 使用`os.truncate()`方法使用文件的路径截断文件。
 
-```
+```py
 # Python program to explain os.truncate() method 
 
 # importing os module 
@@ -62,7 +62,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'GeeksforGe'
 
 ```
@@ -70,7 +70,7 @@ b'GeeksforGe'
 **示例#2 :**
 使用`os.truncate()`方法使用文件描述符截断文件
 
-```
+```py
 # Python program to explain os.truncate() method 
 
 # importing os module 
@@ -115,7 +115,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 b'Geek'
 
 ```

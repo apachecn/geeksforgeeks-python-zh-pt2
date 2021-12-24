@@ -18,7 +18,7 @@ Google Colab 提供了一个 VM(虚拟机)，所以我们不能像在本地机�
 
 2)在 google colab 中安装库
 
-```
+```py
 !pip install flask-ngrok
 ```
 
@@ -28,7 +28,7 @@ Flask 已经安装在谷歌 colab 上，所以你不需要再次安装它。
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_ngrok import run_with_ngrok
 app = Flask(__name__)

@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 map(fun, iter)
 
 ```
@@ -20,7 +20,7 @@ map(fun, iter)
 
 **返回:**
 
-```
+```py
 Returns a list of the results after applying the given function  
 to each item of a given iterable (list, tuple etc.) 
 
@@ -30,7 +30,7 @@ to each item of a given iterable (list, tuple etc.)
 
 **代码 1**
 
-```
+```py
 # Python program to demonstrate working
 # of map.
 
@@ -46,7 +46,7 @@ print(list(result))
 
 输出:
 
-```
+```py
 [2, 4, 6, 8]
 
 ```
@@ -54,7 +54,7 @@ print(list(result))
 **CODE 2**
 我们也可以用[λ表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)搭配地图来达到上面的效果。
 
-```
+```py
 # Double all numbers using map and lambda
 
 numbers = (1, 2, 3, 4)
@@ -64,14 +64,14 @@ print(list(result))
 
 输出:
 
-```
+```py
 [2, 4, 6, 8]
 
 ```
 
 **代码 3**
 
-```
+```py
 # Add two lists using map and lambda
 
 numbers1 = [1, 2, 3]
@@ -83,14 +83,14 @@ print(list(result))
 
 输出:
 
-```
+```py
 [5, 7, 9]
 
 ```
 
 **代码 4**
 
-```
+```py
 # List of strings
 l = ['sat', 'bat', 'cat', 'mat']
 
@@ -101,6 +101,6 @@ print(test)
 
 输出:
 
-```
+```py
 [['s', 'a', 't'], ['b', 'a', 't'], ['c', 'a', 't'], ['m', 'a', 't']]
 ```

@@ -41,7 +41,7 @@ Python 中的`***os.fstat()***`方法用于获取文件描述符的状态。
 
 **代码:**使用 os.fstat()方法获取文件描述符的状态
 
-```
+```py
 # Python program to explain os.fstat() method 
 
 # importing os module 
@@ -71,7 +71,7 @@ os.close(fd)
 
 **Output:**
 
-```
+```py
 os.stat_result(st_mode=33188, st_ino=801111, st_dev=2056, st_nlink=1, st_uid=1000,
 st_gid=1000, st_size=6550, st_atime=1560377051, st_mtime=1560377051, st_ctime=1560377051)
 

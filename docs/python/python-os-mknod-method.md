@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to explain os.mknod() method
 
 # importing os module
@@ -46,6 +46,6 @@ print("Filesystem node is created successfully")
 
 **Output:** 
 
-```
+```py
 File system node is created successfully
 ```

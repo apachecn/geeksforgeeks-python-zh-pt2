@@ -22,7 +22,7 @@
 
 对于该网络，如上所述，具有条目 G[i，j]的矩阵 G 将是:
 
-```
+```py
 [[0, 1, 999, 999],
  [1, 0, 2, 999],
  [999, 2, 0, 3],
@@ -34,7 +34,7 @@
 
 下面指定了 Python 中的实现。
 
-```
+```py
 # Driver Code for implementing Dijkstra's algorithm
 import socket
 import sys
@@ -140,7 +140,7 @@ finally:
 sock.close()
 ```
 
-```
+```py
 # Code for Router 1
 import socket
 import sys
@@ -178,7 +178,7 @@ for i in range(1) :
         socknext.close()
 ```
 
-```
+```py
 # Code for Router 2
 import socket
 import sys
@@ -219,7 +219,7 @@ for i in range(1) :
         socknext.close()
 ```
 
-```
+```py
 # Code for Router 3
 import socket
 import sys
@@ -257,7 +257,7 @@ for i in range(1) :
         socknext.close()
 ```
 
-```
+```py
 # Code for Router 4
 import socket
 import sys

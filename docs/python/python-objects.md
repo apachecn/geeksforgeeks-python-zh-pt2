@@ -30,7 +30,7 @@
 
 **示例:**
 
-```
+```py
 # Python program to 
 # demonstrate instantiating 
 # a class 
@@ -59,7 +59,7 @@ Rodger.fun() 
 
 **输出:**
 
-```
+```py
 mamal
 I'm a mamal
 I'm a dog

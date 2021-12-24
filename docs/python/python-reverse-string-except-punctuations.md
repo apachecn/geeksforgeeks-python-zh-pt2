@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse String except punctuations
 # Using loop + stack + punctuation + split()
@@ -56,7 +56,7 @@ print("The Reversed String ignoring punctuation : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks#for&%%gee)ks
 The Reversed String ignoring punctuation : skeeg#rof&%%ske)eg 
 ```
@@ -67,7 +67,7 @@ The Reversed String ignoring punctuation : skeeg#rof&%%ske)eg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Reverse String except punctuations
 # Using groupby() + isalnum() [ for substring specific reversal ]
@@ -98,7 +98,7 @@ print("The Reversed String ignoring punctuation [substring] : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : geeks#for&%%gee)ks
 The Reversed String ignoring punctuation [substring] : skeeg#rof&%%eeg)sk
 ```

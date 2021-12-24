@@ -15,7 +15,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -49,7 +49,7 @@ print("Score after downvoting : " + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before downvoting: 25
 Score after downvoting: 24
 
@@ -60,7 +60,7 @@ Score after downvoting: 24
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -94,7 +94,7 @@ print("Score after downvoting : " + str(comment.score))
 
 **输出:**
 
-```
+```py
 Score before downvoting : 4
 Score after downvoting : 2
 

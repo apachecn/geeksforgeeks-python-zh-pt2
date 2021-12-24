@@ -15,7 +15,7 @@
 
 下面是实现
 
-```
+```py
 from PyQt5.QtWidgets import QApplication, QComboBox, QMainWindow
 from PyQt5.QtWidgets import QWidget, QVBoxLayout
 from PyQt5.QtGui import QStandardItemModel

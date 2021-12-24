@@ -15,7 +15,7 @@ XGBoost 是一种构建监督回归模型的强大方法。这种说法的有效
 
 **Code:**
 
-```
+```py
 # Necessary imports
 import numpy as np
 import pandas as pd
@@ -48,14 +48,14 @@ print("RMSE : % f" %(rmse))
 
 **输出:**
 
-```
+```py
 129043.2314
 
 ```
 
 **代码:线性基础学习者**
 
-```
+```py
 # Necessary imports
 import numpy as np
 import pandas as pd
@@ -89,7 +89,7 @@ print("RMSE : % f" %(rmse))
 
 **输出:**
 
-```
+```py
  124326.24465
 
 ```
@@ -108,21 +108,21 @@ print("RMSE : % f" %(rmse))
 
 **第一步:**计算相似度得分，有助于树的生长。
 
-```
+```py
 Similarity Score = (Sum of residuals)^2 / Number of residuals + lambda
 
 ```
 
 **第二步:**计算增益，确定如何拆分数据。
 
-```
+```py
 Gain = Left tree (similarity score) + Right (similarity score) - Root (similarity score)
 
 ```
 
 **步骤 3:** 通过计算 Gain 和 gamma(用户定义的树复杂度参数)之间的差值来修剪树
 
-```
+```py
 Gain - gamma
 
 ```
@@ -131,7 +131,7 @@ Gain - gamma
 
 **步骤 4:** 计算剩余叶子的输出值
 
-```
+```py
 Output value = Sum of residuals / Number of residuals + lambda
 
 ```

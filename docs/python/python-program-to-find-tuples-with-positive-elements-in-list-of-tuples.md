@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Positive Tuples in List
 # Using list comprehension + all()
@@ -51,7 +51,7 @@ print("Positive elements Tuples : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Positive Tuples in List
 # Using filter() + lambda + all()

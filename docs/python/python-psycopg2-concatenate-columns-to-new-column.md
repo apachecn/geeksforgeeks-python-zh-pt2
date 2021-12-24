@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 conn = psycopg2.connect(
@@ -46,7 +46,7 @@ conn.close()
 
 **输出:**
 
-```
+```py
 ('1216755raj',)
 ('1216756sarah',)
 ('1216757rishi',)

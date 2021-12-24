@@ -20,14 +20,14 @@
 
 *   导入海龟模块。
 
-```
+```py
 import turtle
 
 ```
 
 *   找个屏幕来画画。
 
-```
+```py
 ws = turtle.Screen()
 
 ```
@@ -49,7 +49,7 @@ ws = turtle.Screen()
 
 ## 蟒蛇 3
 
-```
+```py
 import turtle
 
 # getting a Screen to work on

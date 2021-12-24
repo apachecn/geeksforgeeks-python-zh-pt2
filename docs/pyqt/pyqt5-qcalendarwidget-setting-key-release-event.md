@@ -13,7 +13,7 @@
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui
@@ -74,6 +74,6 @@ sys.exit(App.exec())
 
 <video class="wp-video-shortcode" id="video-429446-1" width="656" height="404" preload="metadata" controls=""><source type="video/mp4" src="https://media.geeksforgeeks.org/wp-content/uploads/20200611013345/Python-2020-06-11-01-33-16.mp4?_=1">[https://media.geeksforgeeks.org/wp-content/uploads/20200611013345/Python-2020-06-11-01-33-16.mp4](https://media.geeksforgeeks.org/wp-content/uploads/20200611013345/Python-2020-06-11-01-33-16.mp4)</video>
 
-```
+```py
 Escape key released Hide the calendar
 ```

@@ -16,7 +16,7 @@
 
 **代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -61,7 +61,7 @@ if __name__ == '__main__':
 
 **控制台输出:**
 
-```
+```py
 Hi I am Status Bar
 0
 0

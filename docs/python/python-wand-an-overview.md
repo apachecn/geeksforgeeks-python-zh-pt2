@@ -7,7 +7,7 @@
 **安装:**
 **由皮普:**
 
-```
+```py
 **$** pip install Wand
 ```
 
@@ -17,31 +17,31 @@
 
 *   **适用于 Ubuntu/Debian:**
 
-    ```
+    ```py
     **$** sudo apt-get install libmagickwand-dev
     ```
 
 *   **For Mac (By Brew Installer)**
 
-    ```
+    ```py
     **$** brew install imagemagick
     ```
 
     **安装电脑端口**
 
-    ```
+    ```py
     **$** sudo port install imagemagick
     ```
 
     **注意:**如果 Python 没有使用 MacPorts 安装，我们需要导出 MAGICK_HOME。
 
-    ```
+    ```py
     **$** export MAGICK_HOME=/opt/local
     ```
 
     **Example 1: Reading an Image:*****Input Image:*** geeksforgeeks.png![geeksforgeeks](img/e7e47360b64ac26b3962b0da3bec1fef.png)
 
-    ```
+    ```py
     # Import library from the wand
     from wand.image import Image
 
@@ -55,7 +55,7 @@
 
     **输出:**
 
-    ```
+    ```py
     ('Width of the image:', 667L)
     ('Height of the image:', 184L)
 
@@ -63,7 +63,7 @@
 
     **示例 2:模糊图像:**
 
-    ```
+    ```py
     # Import library from the wand 
     from wand.image import Image
 
@@ -82,7 +82,7 @@
 
     **示例 3:转换图像**
 
-    ```
+    ```py
     # Import library from the wand
     from wand.image import Image
 
@@ -103,7 +103,7 @@
 
     **例 4:图纸:**
 
-    ```
+    ```py
     # Import libraries from the wand  
     from wand.image import Image
     from wand.drawing import Drawing

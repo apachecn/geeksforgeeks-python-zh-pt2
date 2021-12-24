@@ -11,7 +11,7 @@
 
 **示例:**
 
-```
+```py
 import unicodedata
 
 print (unicodedata.lookup('LEFT CURLY BRACKET'))
@@ -25,7 +25,7 @@ print (unicodedata.lookup('ASTERISK'))
 
 **输出:**
 
-```
+```py
 {
 }
 *
@@ -37,7 +37,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **示例:**
 
-    ```
+    ```py
     import unicodedata
 
     print (unicodedata.name(u'/'))
@@ -47,7 +47,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **输出:**
 
-    ```
+    ```py
     SOLIDUS
     VERTICAL LINE
     COLON
@@ -59,7 +59,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **示例:**
 
-    ```
+    ```py
     import unicodedata
 
     print (unicodedata.decimal(u'9'))
@@ -68,7 +68,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **输出:**
 
-    ```
+    ```py
     9
     Traceback (most recent call last):
       File "7e736755dd176cd0169eeea6f5d32057.py", line 4, in 
@@ -82,7 +82,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **示例:**
 
-    ```
+    ```py
     import unicodedata
 
     print (unicodedata.decimal(u'9'))
@@ -91,7 +91,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **输出:**
 
-    ```
+    ```py
     9
     Traceback (most recent call last):
       File "ad47ae996380a777426cc1431ec4a8cd.py", line 4, in 
@@ -105,7 +105,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **示例:**
 
-    ```
+    ```py
     import unicodedata
 
     print (unicodedata.decimal(u'9'))
@@ -114,7 +114,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **输出:**
 
-    ```
+    ```py
     9
     Traceback (most recent call last):
       File "ad47ae996380a777426cc1431ec4a8cd.py", line 4, in 
@@ -128,7 +128,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **示例:**
 
-    ```
+    ```py
     import unicodedata
 
     print (unicodedata.category(u'A'))
@@ -137,7 +137,7 @@ print (unicodedata.lookup('ASTERISK'))
 
     **输出:**
 
-    ```
+    ```py
     Lu
     Ll
 
@@ -148,7 +148,7 @@ print (unicodedata.lookup('ASTERISK'))
 
 **示例:**
 
-```
+```py
 import unicodedata
 
 print (unicodedata.bidirectional(u'\u0660'))
@@ -156,7 +156,7 @@ print (unicodedata.bidirectional(u'\u0660'))
 
 **输出:**
 
-```
+```py
 AN
 
 ```
@@ -166,7 +166,7 @@ AN
 
     **示例:**
 
-    ```
+    ```py
     from unicodedata import normalize
 
     print ('%r' % normalize('NFD', u'\u00C7'))
@@ -176,7 +176,7 @@ AN
 
     **输出:**
 
-    ```
+    ```py
     u'C\u0327'
     u'\xc7'
     u'1'

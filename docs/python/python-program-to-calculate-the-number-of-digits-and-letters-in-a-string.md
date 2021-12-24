@@ -6,7 +6,7 @@
 
 给定一个包含数字和字母的字符串，任务是编写一个 Python 程序来计算字符串中数字和字母的数量。以下模块表达了其背后的基本思想:
 
-```
+```py
 Input: string = "geeks2for3geeks"
 Output: total digits = 2 and total letters = 13
 
@@ -25,7 +25,7 @@ Output: total digits = 4 and total letters = 9
 
 ## 蟒蛇 3
 
-```
+```py
 # define all digits as string
 all_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
@@ -57,7 +57,7 @@ print("Total digits found :-", total_digits)
 
 **输出:**
 
-```
+```py
 Total letters found :- 13
 Total digits found :- 2
 ```
@@ -73,7 +73,7 @@ Total digits found :- 2
 
 ## 蟒蛇 3
 
-```
+```py
 # define all digits as string
 all_digits = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
 
@@ -105,7 +105,7 @@ print("Total digits found :-", total_digits)
 
 **输出:**
 
-```
+```py
 Total letters found :- 13
 Total digits found :- 2
 ```
@@ -118,7 +118,7 @@ Total digits found :- 2
 
 ## 蟒蛇 3
 
-```
+```py
 # given string
 string = "python1234"
 
@@ -143,7 +143,7 @@ print("Total digits found :-", total_digits)
 
 **输出:**
 
-```
+```py
 Total letters found :- 6
 Total digits found :- 4
 ```

@@ -41,7 +41,7 @@
 
 ## 计算机编程语言
 
-```
+```py
 import os
 
 # To get directories as well as files present
@@ -64,7 +64,7 @@ print(list_2)
 
 **输出:**
 
-```
+```py
 ['documents', 'code', 'charter.xlsx', 'timeline.jpg']
 ['charter.xlsx', 'timeline.jpg']
 ```
@@ -73,7 +73,7 @@ print(list_2)
 
 ## 计算机编程语言
 
-```
+```py
 import os
 
 all_files = list()

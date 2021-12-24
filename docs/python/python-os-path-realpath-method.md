@@ -17,7 +17,7 @@ Python 中的`***os.path.realpath()***`方法用于通过消除路径中遇到�
 **创建软链接或符号链接**
 在 Unix 或 Linux 中，可以使用 ln 命令创建软链接或符号链接。以下是在 shell 提示符下创建符号链接的语法:
 
-```
+```py
 $ ln -s {source-filename} {symbolic-filename}
 
 ```
@@ -31,7 +31,7 @@ $ ln -s {source-filename} {symbolic-filename}
 
 **代码:**使用 os.path.realpath()方法获取规范路径并解析符号链接
 
-```
+```py
 # Python program to explain os.path.realpath() method 
 
 # importing os module 
@@ -90,7 +90,7 @@ print(real_path)
 
 **Output:**
 
-```
+```py
 /home/ihritik/Documents/file(original).txt
 /GeeksForGeeks/sample.py
 /home/ihritik/file.txt

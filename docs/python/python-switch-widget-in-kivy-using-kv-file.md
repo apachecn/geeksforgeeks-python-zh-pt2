@@ -12,7 +12,7 @@ Kivy 是 Python 中独立于平台的 GUI 工具。因为它可以在安卓、IO
 开关表示的值为真或假。也就是说，开关可以处于接通位置或断开位置。
 要使用交换机，您必须导入:
 
-```
+```py
 from kivy.uix.switch import Switch
 ```
 
@@ -24,7 +24,7 @@ from kivy.uix.switch import Switch
 *   默认情况下，小部件的表示是静态的。所需的最小尺寸是 83*32 像素。
 *   整个小部件都是活动的，而不仅仅是有图形的部分。只要你扫过小部件的边界框，它就会工作。
 
-```
+```py
 Basic Approach:
 
 1) import kivy
@@ -51,7 +51,7 @@ Basic Approach:
 
 ## 蟒蛇 3
 
-```
+```py
 # Program to explain how switch works
 
 # import kivy module  
@@ -114,7 +114,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # .kv file in which the whole functions of a switch
 # Along with labels are present
 

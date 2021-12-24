@@ -6,7 +6,7 @@
 
 **1。通过请求会话:**
 
-```
+```py
 # import the requests library
 import requests
 
@@ -26,7 +26,7 @@ print(session.cookies.get_dict())
 
 **2。通过向服务器请求 cookies 列表:**
 
-```
+```py
 import requests
 
 r = requests.get('http://google.com')

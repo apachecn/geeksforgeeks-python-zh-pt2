@@ -6,7 +6,7 @@ Python 提供了这么多开发 GUI 应用程序的选项，PyQt5 就是其中�
 
 **安装:**
 
-```
+```py
 pip install PyQt5
 ```
 
@@ -14,7 +14,7 @@ pip install PyQt5
 
 **代号:**
 
-```
+```py
 # importing the required libraries
 from PyQt5.QtWidgets import * 
 import sys

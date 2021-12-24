@@ -7,7 +7,7 @@
 **方法一:使用`all()` +词典理解**
 以上功能的组合可以用来解决这个问题。在这种情况下，使用 all()移除字典重新构造中不包含的所有无值的所有值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove None Nested Records
 # Using all() + dictionary comprehension

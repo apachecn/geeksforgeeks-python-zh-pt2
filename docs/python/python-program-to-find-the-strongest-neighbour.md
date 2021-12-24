@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 1 2 2 3 4 5
 Output: 2 2 3 4 5
 
@@ -27,7 +27,7 @@ Output: 5
 
 ## 蟒蛇 3
 
-```
+```py
 # define a function for finding
 # the maximum for adjacent
 # pairs in the array
@@ -66,7 +66,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 2 2 3 4 5
 
 ```

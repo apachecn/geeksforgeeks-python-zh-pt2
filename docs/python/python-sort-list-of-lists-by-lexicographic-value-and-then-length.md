@@ -7,7 +7,7 @@ python 列表中多次讨论了不同类型的排序。还讨论了 python 列�
 **方法一:两次使用`sort()`**
 想到的第一种方法是通用的方式，即两次使用排序函数，首先基于值，然后基于列表的大小。
 
-```
+```py
 # Python code to demonstrate
 # sort list of lists by value and length
 # using sort() twice 

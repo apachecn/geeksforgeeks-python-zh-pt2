@@ -9,7 +9,7 @@
 以下是样式表代码–
 **代码 1**
 
-```
+```py
 QListView::hover
 {
 border : solid black;
@@ -25,7 +25,7 @@ border-width-left : 3px;
 
 **代码 2**
 
-```
+```py
 QListView::hover
 {
 border : solid black;
@@ -36,7 +36,7 @@ border-width : 5px 1px 10px 3px;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

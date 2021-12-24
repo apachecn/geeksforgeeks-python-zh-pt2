@@ -8,7 +8,7 @@
 
 **代码#1:**
 
-```
+```py
 import ctypes
 lib = ctypes.cdll.LoadLibrary(None)
 
@@ -19,14 +19,14 @@ print ("addr : ", addr)
 
 **输出:**
 
-```
+```py
 addr : 140735505915760
 
 ```
 
 **代码#2:把地址变成可调用函数**
 
-```
+```py
 functype = ctypes.CFUNCTYPE(ctypes.c_double, ctypes.c_double)
 func = functype(addr)
 print ("Function : ", func)
@@ -34,14 +34,14 @@ print ("Function : ", func)
 
 **输出:**
 
-```
+```py
 Function : <CFunctionType object at 0x1006816d0>
 
 ```
 
 **代码#3:调用结果函数**
 
-```
+```py
 print ("func(2) : ", func(2))
 
 print ("func(0) : ", func(0))
@@ -49,7 +49,7 @@ print ("func(0) : ", func(0))
 
 **输出:**
 
-```
+```py
 func(2) : 0.9092974268256817
 
 func(0) : 0.0
@@ -63,7 +63,7 @@ func(0) : 0.0
 
 **代码#4 :**
 
-```
+```py
 from llvm.core import Module, Function, Type, Builder
 
 mod = Module.new('example')
@@ -82,14 +82,14 @@ builder.ret(r)
 
 **输出:**
 
-```
+```py
 <llvm.core.Instruction object at 0x10078e990>
 
 ```
 
 **代码#5 :**
 
-```
+```py
 from llvm.ee import ExecutionEngine
 
 engine = ExecutionEngine.new(mod)
@@ -99,14 +99,14 @@ ptr
 
 **输出:**
 
-```
+```py
 4325863440
 
 ```
 
 **代码#6:调用结果函数**
 
-```
+```py
 foo = ctypes.CFUNCTYPE(ctypes.c_double, 
                        ctypes.c_double, 
                        ctypes.c_double)(ptr)
@@ -120,7 +120,7 @@ print ("\n", foo(1, 2))
 
 **输出:**
 
-```
+```py
 13.0
 
 41.0

@@ -12,7 +12,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 
 **Code –**
 
-```
+```py
 # import all required frameworks
 import unittest
 from selenium import webdriver

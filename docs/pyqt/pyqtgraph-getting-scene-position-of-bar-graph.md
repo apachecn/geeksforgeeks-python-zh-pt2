@@ -6,7 +6,7 @@
 
 借助下面给出的命令，我们可以创建一个绘图窗口和条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 window = pg.plot()
 
@@ -25,7 +25,7 @@ bargraph = pg.BarGraphItem(x=x, height=y1, width=0.6, brush='g')
 
 下面是实现
 
-```
+```py
 # importing QtGui to use QIcon
 from PyQt5.QtGui import * from PyQt5.QtCore import Qt 
 
@@ -96,6 +96,6 @@ if __name__ == '__main__':
 **输出:**
 ![](img/03edcf0e7a00f6521e2e9c111f9f6f13.png)
 
-```
+```py
 scene Position : PyQt5.QtCore.QPointF(57.8830959623175, 458.9691668562489)
 ```

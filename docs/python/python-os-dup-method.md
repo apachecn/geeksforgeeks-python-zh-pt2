@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to explain os.dup() method
 
 # importing os module
@@ -69,7 +69,7 @@ print("File descriptor duplicated successfully")
 
 **Output:** 
 
-```
+```py
 Original file descriptor: 3
 Duplicated file descriptor: 4
 total 0

@@ -6,7 +6,7 @@
 
 我们可以借助`setStyleSheet`方法改变它们之间的距离，这个方法帮助我们为单选按钮设置样式表。下面是样式表代码。
 
-```
+```py
 QRadioButton
 {
 spacing : 20px;
@@ -16,7 +16,7 @@ spacing : 20px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Merge Consecutive digits Strings
 # using list comprehension + groupby() + isdigit()
@@ -30,7 +30,7 @@ print ("List after digit merge : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['gfg', '1', '2', 'is', '5', 'best', '6', '7']
 List after digit merge : ['gfg', '12', 'is', '5', 'best', '67']
 ```
@@ -40,7 +40,7 @@ List after digit merge : ['gfg', '12', 'is', '5', 'best', '67']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Merge Consecutive digits Strings
 # using regex() + join()
@@ -62,7 +62,7 @@ print ("List after digit merge : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list is : ['g', '1', '2', 'i', '5', 'b', '6', '7']
 List after digit merge : ['g', '12', 'i', '5', 'b', '67']
 ```

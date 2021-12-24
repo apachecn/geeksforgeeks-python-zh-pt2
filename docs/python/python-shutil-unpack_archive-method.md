@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.unpack_archive() method
 
 # importing shutil module
@@ -39,7 +39,7 @@ print("Archive file unpacked successfully.")
 
 **Output:** 
 
-```
+```py
 Archive file unpacked successfully.
 ```
 
@@ -47,7 +47,7 @@ Archive file unpacked successfully.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.unpack_archive() method
 
 # importing shutil module
@@ -73,6 +73,6 @@ print("Archive file unpacked successfully.")
 
 **Output:** 
 
-```
+```py
 Archive file unpacked successfully.
 ```

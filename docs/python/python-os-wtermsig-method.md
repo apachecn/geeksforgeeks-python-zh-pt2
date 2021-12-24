@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.WTERMSIG() method
 
 # importing os and signal module 
@@ -64,7 +64,7 @@ else :
 
 **Output:** 
 
-```
+```py
 In Child process
 Process ID: 3421
 Hello! Geeks
@@ -78,7 +78,7 @@ Signal name: SIGABRT
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.WTERMSIG() method
 
 # importing os and signal module 
@@ -158,7 +158,7 @@ else :
 
 **Output:** 
 
-```
+```py
 In First child process
 Process ID: 3752
 Hello! Geeks

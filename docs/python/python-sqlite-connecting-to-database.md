@@ -8,20 +8,20 @@
 
 连接到 SQLite 数据库可以使用 **connect()** 方法建立，传递要访问的数据库的名称作为参数。如果那个数据库不存在，那么它将被创建。
 
-```
+```py
 sqliteConnection = sqlite3.connect('sql.db')
 ```
 
 但是，如果您想在建立连接后执行一些查询，该怎么办呢？为此，必须在连接实例上使用 **cursor()** 方法创建一个游标，它将执行我们的 SQL 查询。
 
-```
+```py
 cursor = sqliteConnection.cursor()
 print('DB Init')
 ```
 
 要执行的 SQL 查询可以以字符串的形式编写，然后通过在游标对象上调用 **execute()** 方法来执行。然后，可以使用 **fetchall()** 方法从服务器获取结果，在本例中，该方法是 SQLite 版本号。
 
-```
+```py
 query = 'SQL query;'
 cursor.execute(query)
 result = cursor.fetchall()
@@ -34,7 +34,7 @@ print('SQLite Version is {}'.format(result))
 
 ## 计算机编程语言
 
-```
+```py
 import sqlite3
 
 try:

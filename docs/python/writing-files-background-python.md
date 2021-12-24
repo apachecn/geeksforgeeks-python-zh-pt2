@@ -8,7 +8,7 @@ Python 中如何在后台写文件？
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to write file in
 # background
 
@@ -59,7 +59,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 Enter a string to store: HelloWorld
 The program can continue while it writes in another thread
 100 + 400 = 500

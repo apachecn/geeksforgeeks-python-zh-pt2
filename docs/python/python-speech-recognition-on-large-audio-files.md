@@ -18,7 +18,7 @@
 
 ## 需要库
 
-```
+```py
 Pydub: sudo pip3 install pydub
 Speech recognition: sudo pip3 install SpeechRecognition
 
@@ -26,7 +26,7 @@ Speech recognition: sudo pip3 install SpeechRecognition
 
 **示例:**
 
-```
+```py
  Input: peacock.wav 
 
  Output: 
@@ -50,7 +50,7 @@ Processing chunk 6
 
 **代码:**
 
-```
+```py
 # importing libraries
 import speech_recognition as sr
 
@@ -160,7 +160,7 @@ if __name__ == '__main__':
 
  **输出:**
 
-```
+```py
 
 recognized.txt:
 

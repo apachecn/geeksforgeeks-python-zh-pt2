@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : geeks
 Output : ['g', 'e', 'e', 'k', 's']
 
@@ -19,7 +19,7 @@ Output : ['W', 'o', 'r', 'd']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Split string into characters
 def split(word):
     return [char for char in word]
@@ -31,7 +31,7 @@ print(split(word))
 
 **Output:** 
 
-```
+```py
 ['g', 'e', 'e', 'k', 's']
 ```
 
@@ -40,7 +40,7 @@ Python 提供了使用列表()将字符串直接类型转换为列表的功能�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to Split string into characters
 def split(word):
     return list(word)
@@ -52,6 +52,6 @@ print(split(word))
 
 **Output:** 
 
-```
+```py
 ['g', 'e', 'e', 'k', 's']
 ```

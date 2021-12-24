@@ -7,7 +7,7 @@
 **方法:使用`sorted() + lambda + abs()` +字典理解**
 以上功能的组合可以解决这个问题。在这种情况下，我们使用 sorted()执行排序任务，lambda 函数用于提供逻辑，abs()函数用于计算绝对差值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Dictionary by Value Difference
 # Using sorted() + lambda + abs() + dictionary comprehension

@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 
@@ -67,7 +67,7 @@ Where 子句在 SQL 中用作条件语句，是用来过滤记录的。
 
 ## 蟒蛇 3
 
-```
+```py
 # importing psycopg2
 import psycopg2
 

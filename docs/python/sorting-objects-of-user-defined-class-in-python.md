@@ -14,7 +14,7 @@
 
 ## python 3
 
-```
+```py
 print(sorted([1,26,3,9]))
 
 print(sorted("Geeks foR gEEks".split(), key=str.lower))
@@ -22,7 +22,7 @@ print(sorted("Geeks foR gEEks".split(), key=str.lower))
 
 **输出:**
 
-```
+```py
 [1, 3, 9, 26]
 ['foR', 'Geeks', 'gEEks']
 ```
@@ -37,7 +37,7 @@ print(sorted("Geeks foR gEEks".split(), key=str.lower))
 
 ## python 3
 
-```
+```py
 class GFG:
     def __init__(self, a, b):
         self.a = a

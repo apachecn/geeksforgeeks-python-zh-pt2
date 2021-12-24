@@ -10,14 +10,14 @@ Python 是一种广泛使用的高级通用语言。Python 可以用于许多任
 
 这个模块没有内置 Python。要安装它，请在终端中键入以下命令。
 
-```
+```py
 pip install speedtest-cli
 
 ```
 
 安装上述软件包后，可以通过版本检查来检查软件包是否安装正确。可以使用以下命令检查包的版本
 
-```
+```py
 speedtest-cli --version
 
 ```
@@ -28,7 +28,7 @@ speedtest-cli --version
 
 `Speedtest-cli`是命令行界面中使用的模块，用于使用 speedtest.net 测试互联网带宽。要获得兆位的速度，请在终端中键入以下命令。
 
-```
+```py
 speedtest-cli
 
 ```
@@ -37,7 +37,7 @@ speedtest-cli
 
 上述命令给出的速度测试结果是以兆位为单位的。要获得字节的结果，我们可以使用以下命令。
 
-```
+```py
 speedtest-cli --bytes
 
 ```
@@ -46,7 +46,7 @@ speedtest-cli --bytes
 
 还可以使用此模块检索速度测试结果的图片版本。要执行相同的操作，请在终端中键入以下命令。
 
-```
+```py
 speedtest-cli --share
 
 ```
@@ -59,7 +59,7 @@ speedtest-cli --share
 
 要打印仅包含 Ping 的速度测试结果的更简单版本，请下载并上传结果，而不是详细输出。
 
-```
+```py
 speedtest-cli --simple
 
 ```
@@ -68,7 +68,7 @@ speedtest-cli --simple
 
 **用 Python 脚本检查网速**
 
-```
+```py
 # Python program to test
 # internet speed
 
@@ -114,13 +114,13 @@ else:
 
 要获得所有可用选项的列表，请在终端中键入以下命令。
 
-*   ```
+*   ```py
     speedtest-cli -h
     ```
 
     ![speedtest-cli --h](img/572b3411c2dbe3d6d65d5261efea1aab.png)
 
-*   ```
+*   ```py
     speedtest-cli --help
     ```
 

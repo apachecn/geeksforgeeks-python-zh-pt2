@@ -12,7 +12,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。Ima
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Image module from PIL package
 from PIL import Image, ImageColor
 

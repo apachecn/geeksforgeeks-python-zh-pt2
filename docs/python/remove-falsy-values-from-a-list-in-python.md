@@ -8,7 +8,7 @@
 
 **示例:**
 
-```
+```py
 Input:  [10,20,30,0,False,40,0]
 Output:  [10,20,30,40]
 
@@ -25,7 +25,7 @@ Output: ["GeeksForGeeks",26,27]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to remove falsy values
 # from List
 
@@ -50,7 +50,7 @@ print("List3[] = ", Remove_Falsy(List3))
 
 **输出:**
 
-```
+```py
 List1[] =  [10, 20, 30, 40]
 List2[] =  [1, 2, 3, 'Geeks']
 List3[] =  ['GeeksForGeeks', 26, 27]
@@ -62,7 +62,7 @@ List3[] =  ['GeeksForGeeks', 26, 27]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to remove falsy values
 # from List
 
@@ -83,7 +83,7 @@ print("List3[] = ", Remove_Falsy(List3))
 
 **输出:**
 
-```
+```py
 List1[] =  [10, 20, 30, 40]
 List2[] =  [1, 2, 3, 'Geeks']
 List3[] =  ['GeeksForGeeks', 26, 27]

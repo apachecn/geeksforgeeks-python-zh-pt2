@@ -7,7 +7,7 @@
 **方法 1:朴素方法+ sum()**
 在朴素方法中，我们只需遍历列表，在新列表中追加元素的第一次出现，并忽略该特定元素的所有其他出现。求和的任务是使用 sum()执行的。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Summation of Unique elements
 # using naive methods + sum()
@@ -31,7 +31,7 @@ print ("The unique elements summation : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [1, 3, 5, 6, 3, 5, 6, 1]
 The unique elements summation : 15
 

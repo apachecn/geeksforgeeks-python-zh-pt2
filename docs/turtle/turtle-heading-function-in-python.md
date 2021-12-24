@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.heading()
 
 ```
@@ -21,7 +21,7 @@ turtle.heading()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -31,7 +31,7 @@ print(turtle.heading())
 
 **输出:**
 
-```
+```py
 0.0
 
 ```
@@ -40,7 +40,7 @@ print(turtle.heading())
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

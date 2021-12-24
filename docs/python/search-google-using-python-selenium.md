@@ -13,7 +13,7 @@ Selenium 的 Python 模块是为使用 Python 执行自动化测试而构建的�
 安装完 Selenium 后，创建一个名为 run . py as–
 **Program–**的文件
 
-```
+```py
 # Python program to demonstrate
 # selenium
 

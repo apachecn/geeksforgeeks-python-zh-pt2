@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort String list by K character frequency
 # Using sorted() + count() + lambda
@@ -40,7 +40,7 @@ print("Sorted String : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geekforgeeks', 'is', 'best', 'for', 'geeks']
 Sorted String : ['geekforgeeks', 'geeks', 'best', 'is', 'for']
 ```
@@ -51,7 +51,7 @@ Sorted String : ['geekforgeeks', 'geeks', 'best', 'is', 'for']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort String list by K character frequency
 # Using sort() + count() + lambda
@@ -75,7 +75,7 @@ print("Sorted String : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list is : ['geekforgeeks', 'is', 'best', 'for', 'geeks']
 Sorted String : ['geekforgeeks', 'geeks', 'best', 'is', 'for']
 ```

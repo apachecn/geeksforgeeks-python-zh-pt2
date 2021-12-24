@@ -14,7 +14,7 @@
 
 **例 1:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 
@@ -62,7 +62,7 @@ sys.exit(App.exec())
 
 **例 2:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

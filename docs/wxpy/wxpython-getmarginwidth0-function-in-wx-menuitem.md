@@ -6,28 +6,28 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.MenuItem.GetMarginWidth(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > No parameters are required in GetMarginWidth().
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > int
 > 
 > ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -66,14 +66,14 @@ if __name__ == '__main__':
 **输出:**
 默认边距宽度
 
-```
+```py
 3
 
 ```
 
 **代码示例 1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -112,7 +112,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 12
 
 ```

@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = [1, 2.0, 'have', 'a', 'geeky', 'day']
 
@@ -38,7 +38,7 @@ else:
 
 **输出:**
 
-```
+```py
 geeky is present in the list
 ```
 
@@ -50,7 +50,7 @@ geeky is present in the list
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = ['1', 1.0, 32, 'a', 'geeky', 'day']
 
@@ -66,7 +66,7 @@ else:
 
 **输出:**
 
-```
+```py
 prime is not present in the list
 ```
 
@@ -78,7 +78,7 @@ prime is not present in the list
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = ['hello', 'geek', 'have', 'a', 'geeky', 'day']
 
@@ -97,7 +97,7 @@ else:
 
 **输出:**
 
-```
+```py
 geeky is present in the list
 ```
 
@@ -109,7 +109,7 @@ geeky is present in the list
 
 ## 蟒蛇 3
 
-```
+```py
 # assign list
 l = ['hello', 'geek', 'have', 'a', 'geeky', 'day']
 
@@ -125,6 +125,6 @@ else:
 
 **输出:**
 
-```
+```py
 prime is not present in the list
 ```

@@ -8,7 +8,7 @@ PyQt5 为我们提供了为按钮设置帮助文本的功能，帮助文本是�
 
 > **语法:**
 > 
-> ```
+> ```py
 > button.setWhatsThis(help_text)
 > button.whatsThis()
 > 
@@ -24,7 +24,7 @@ PyQt5 为我们提供了为按钮设置帮助文本的功能，帮助文本是�
 
 **代码:**
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5.QtGui import * 

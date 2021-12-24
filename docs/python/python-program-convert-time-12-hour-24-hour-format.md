@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : 11:21:30 PM
 Output : 23:21:30
 
@@ -21,7 +21,7 @@ Output : 00:12:20
 
 下面是实现:
 
-```
+```py
 # Python program to convert time
 # from 12 hour to 24 hour format
 
@@ -53,6 +53,6 @@ print(convert24("08:05:45 PM"))
 
 **输出:**
 
-```
+```py
 20:05:45
 ```

@@ -6,7 +6,7 @@
 
 **例:**
 
-```
+```py
 Input: 5
 Output: Positive
 
@@ -23,7 +23,7 @@ Output: Negative
 
 T2T4
 
-```
+```py
 # Python program to check whether
 # the number is positive, negative
 # or equal to zero
@@ -53,7 +53,7 @@ T5
 
 **输出:**
 
-```
+```py
 Positive
 Equal to zero
 Negative

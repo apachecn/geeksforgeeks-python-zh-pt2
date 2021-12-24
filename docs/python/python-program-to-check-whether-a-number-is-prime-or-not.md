@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check if
 # given number is prime or not
 
@@ -48,7 +48,7 @@ else:
 
 **Output**
 
-```
+```py
 11 is a prime number
 ```
 
@@ -61,7 +61,7 @@ else:
 
 ## 蟒蛇 3
 
-```
+```py
 from math import sqrt
 # n is the number to be check whether it is prime or not
 n = 1
@@ -87,7 +87,7 @@ else:
 
 **Output**
 
-```
+```py
 false
 ```
 

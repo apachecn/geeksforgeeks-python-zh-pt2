@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing pyqtgraph as pg
 import pyqtgraph as pg
 
@@ -78,6 +78,6 @@ if __name__ == '__main__':
 
 ![](img/6f7b2ab7c93f2bc2a351590788c2d35f.png)
 
-```
+```py
 Plot Item : pyqtgraph.graphicsItems.PlotItem.PlotItem.PlotItem object at 0x000002AF5282B8B0
 ```

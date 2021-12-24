@@ -15,7 +15,7 @@
 
 **代码#1:** 使用`***math.dist()***`方法
 
-```
+```py
 # Python Program to explain math.dist() method
 
 # Importing math module
@@ -37,14 +37,14 @@ print(eDistance)
 
 **Output:**
 
-```
+```py
 11.0
 
 ```
 
 **代码#2:**
 
-```
+```py
 # Python Program to explain math.dist() method
 
 # Importing math module
@@ -81,7 +81,7 @@ print(eDistance)
 
 **Output:**
 
-```
+```py
 17.88854381999832
 12.688577540449518
 
@@ -89,7 +89,7 @@ print(eDistance)
 
 **代码#3:**
 
-```
+```py
 # Python Program to explain math.dist() method
 
 # Importing math module
@@ -114,7 +114,7 @@ print(eDistance)
 
 **Output:**
 
-```
+```py
 21.93171219946131
 
 ```

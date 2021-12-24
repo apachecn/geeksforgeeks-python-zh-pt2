@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.path.join() method
 
 # importing os module
@@ -70,7 +70,7 @@ print(os.path.join(path, "User/Public/", "Documents", ""))
 
 **Output:** 
 
-```
+```py
 /home/User/Desktop/file.txt
 /home/file.txt
 /home

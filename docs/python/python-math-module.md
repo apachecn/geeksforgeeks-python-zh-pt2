@@ -30,7 +30,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -40,7 +40,7 @@ print (math.e)
 
 **输出:**
 
-```
+```py
 2.718281828459045
 ```
 
@@ -56,7 +56,7 @@ print (math.e)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -66,7 +66,7 @@ print (math.pi)
 
 **输出:**
 
-```
+```py
 3.141592653589793
 ```
 
@@ -74,7 +74,7 @@ print (math.pi)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -90,7 +90,7 @@ print(pie * r * r)
 
 **输出:**
 
-```
+```py
 50.26548245743669
 ```
 
@@ -106,7 +106,7 @@ print(pie * r * r)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -116,7 +116,7 @@ print (math.tau)
 
 **输出:**
 
-```
+```py
 6.283185307179586
 ```
 
@@ -132,7 +132,7 @@ print (math.tau)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -145,7 +145,7 @@ print (-math.inf)
 
 **输出:**
 
-```
+```py
 inf
 -inf
 ```
@@ -154,7 +154,7 @@ inf
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -164,7 +164,7 @@ print (-math.inf < -10e108)
 
 **输出:**
 
-```
+```py
 True
 True
 ```
@@ -177,7 +177,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Import math Library
 import math
 
@@ -187,7 +187,7 @@ print (math.nan)
 
 **输出:**
 
-```
+```py
 nan
 ```
 
@@ -203,7 +203,7 @@ nan
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # ceil() and floor()
 
@@ -223,7 +223,7 @@ print (math.floor(a))
 
 **输出:**
 
-```
+```py
 The ceil of 2.3 is : 3
 The floor of 2.3 is : 2
 ```
@@ -236,7 +236,7 @@ The floor of 2.3 is : 2
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate the working of
 # factorial()
 
@@ -252,7 +252,7 @@ print(math.factorial(a))
 
 **输出:**
 
-```
+```py
 The factorial of 5 is : 120
 ```
 
@@ -264,7 +264,7 @@ The factorial of 5 is : 120
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate the working of
 # gcd()
 
@@ -281,7 +281,7 @@ print (math.gcd(b, a))
 
 ****输出:****
 
-```
+```py
 The gcd of 5 and 15 is : 5
 ```
 
@@ -293,7 +293,7 @@ The gcd of 5 and 15 is : 5
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate the working of
 # fabs()
 
@@ -309,7 +309,7 @@ print (math.fabs(a))
 
 ****输出:****
 
-```
+```py
 The absolute value of -10 is : 10.0
 ```
 
@@ -329,7 +329,7 @@ The absolute value of -10 is : 10.0
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate
 # the working of exp()
 import math
@@ -348,7 +348,7 @@ print (math.exp(test_float))
 
 ****输出:****
 
-```
+```py
 54.598150033144236
 0.049787068367863944
 1.0
@@ -362,7 +362,7 @@ print (math.exp(test_float))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate pow()
 # version 1
 
@@ -374,7 +374,7 @@ print (pow(3,4))
 
 ****输出:****
 
-```
+```py
 The value of 3**4 is : 81.0
 ```
 
@@ -386,7 +386,7 @@ The value of 3**4 is : 81.0
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate the working of
 # logarithm
 
@@ -408,7 +408,7 @@ print (math.log10(10000))
 
 ****输出:****
 
-```
+```py
 The value of log 2 with base 3 is : 0.6309297535714574
 The value of log2 of 16 is : 4.0
 The value of log10 of 10000 is : 4.0
@@ -422,7 +422,7 @@ The value of log10 of 10000 is : 4.0
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 program to demonstrate the
 # sqrt() method
 
@@ -441,7 +441,7 @@ print(math.sqrt(3.5))
 
 ****输出:****
 
-```
+```py
 0.0
 2.0
 1.8708286933869707
@@ -463,7 +463,7 @@ print(math.sqrt(3.5))
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate the working of
 # sin(), cos(), and tan()
 
@@ -487,7 +487,7 @@ print (math.tan(a))
 
 ****输出:****
 
-```
+```py
 The value of sine of pi/6 is : 0.49999999999999994
 The value of cosine of pi/6 is : 0.8660254037844387
 The value of tangent of pi/6 is : 0.5773502691896257
@@ -502,7 +502,7 @@ The value of tangent of pi/6 is : 0.5773502691896257
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate the working of
 # degrees() and radians()
 
@@ -523,7 +523,7 @@ print (math.radians(b))
 
 ****输出:****
 
-```
+```py
 The converted value from radians to degrees is : 29.999999999999996
 The converted value from degrees to radians is : 0.5235987755982988
 ```
@@ -544,7 +544,7 @@ The converted value from degrees to radians is : 0.5235987755982988
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python code to demonstrate
 # working of gamma()
 import math
@@ -559,7 +559,7 @@ print ("The gamma value of the given argument is : "
 
 ****输出:****
 
-```
+```py
 The gamma value of the given argument is : 120.0
 ```
 
@@ -571,7 +571,7 @@ The gamma value of the given argument is : 120.0
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate
 # the working of isnan()
 import math
@@ -587,7 +587,7 @@ print (math.isinf(float('inf')))
 
 ****输出:****
 
-```
+```py
 False
 False
 True
@@ -599,7 +599,7 @@ True
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate
 # the working of isnan()
 import math
@@ -615,7 +615,7 @@ print (math.isnan(float('nan')))
 
 ****输出:****
 
-```
+```py
 False
 False
 True

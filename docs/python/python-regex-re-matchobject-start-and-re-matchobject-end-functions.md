@@ -38,7 +38,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import re
 
 # getting the match of the the string
@@ -62,7 +62,7 @@ print(search_pattern.end())
 
 **输出:**
 
-```
+```py
 1234
 0
 4
@@ -76,7 +76,7 @@ print(search_pattern.end())
 
 ## **蟒蛇 3**
 
-```
+```py
 import re
 
 # getting the match of the the string
@@ -97,7 +97,7 @@ print(search_pattern.end())
 
 ****输出:****
 
-```
+```py
 Traceback (most recent call last):
   File "/home/4f904f4b53a786e10faa03122533f96b.py", line 13, in 
     print(search_pattern.start())

@@ -7,7 +7,7 @@
 要投入使用为了预测新的数据，我们必须通过互联网部署，这样外界才能使用。在本文中，我们将讨论如何训练机器学习模型，如何使用 Flask 在其上创建网络应用程序。
 我们必须安装许多将在这个模型中使用的必需库。使用 pip 命令安装所有库。
 
-```
+```py
 pip install pandas
 pip install numpy
 pip install sklearn
@@ -22,7 +22,7 @@ pip install sklearn
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the dataset
 import pandas
 import numpy
@@ -42,7 +42,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 df = df.drop(['fnlwgt', 'educational-num'], axis = 1)
 
 col_names = df.columns
@@ -59,7 +59,7 @@ df = df.apply(lambda x:x.fillna(x.value_counts().index[0]))
 
 ## 蟒蛇 3
 
-```
+```py
 df.replace(['Divorced', 'Married-AF-spouse',
               'Married-civ-spouse', 'Married-spouse-absent',
               'Never-married', 'Separated', 'Widowed'],
@@ -90,7 +90,7 @@ print(mapping_dict)
 
 ## 蟒蛇 3
 
-```
+```py
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
@@ -105,7 +105,7 @@ Y = df.values[:, 12]
 
 ## 蟒蛇 3
 
-```
+```py
 X_train, X_test, y_train, y_test = train_test_split(
            X, Y, test_size = 0.3, random_state = 100)
 
@@ -123,7 +123,7 @@ print ("Decision Tree using Gini Index\nAccuracy is ",
 
 **输出:**
 
-```
+```py
 Decision Tree using Gini Index
 Accuracy is  83.13031016480704
 ```
@@ -137,7 +137,7 @@ Flask 是一个基于 Python 的微框架，用于开发小规模网站。使用
 
 ## 超文本标记语言
 
-```
+```py
 <html>
 <body>
     <h3>Income Prediction Form</h3>
@@ -299,7 +299,7 @@ Flask 是一个基于 Python 的微框架，用于开发小规模网站。使用
 
 ## 蟒蛇 3
 
-```
+```py
 # prediction function
 def ValuePredictor(to_predict_list):
     to_predict = np.array(to_predict_list).reshape(1, 12)
@@ -327,25 +327,25 @@ def result():
 在开始编码部分之前，我们需要下载 Flask 和其他一些库。在这里，我们使用虚拟环境，所有的库都在虚拟环境中进行管理，这使得开发和部署工作变得更加容易。
 下面是使用虚拟环境运行代码的代码。
 
-```
+```py
 mkdir income-prediction
 cd income-prediction
 python3 -m venv venv
 ```
 
-```
+```py
 source venv/bin/activate
 ```
 
 现在让我们安装 Flask。
 
-```
+```py
 pip install flask
 ```
 
 让我们创建文件夹模板。在您的应用程序中，您将使用模板来呈现显示在用户浏览器中的 HTML。这个文件夹包含我们的 html 表单文件 index.html。
 
-```
+```py
 mkdir templates
 ```
 
@@ -354,7 +354,7 @@ mkdir templates
 
 让我们运行应用程序。
 
-```
+```py
 export FLASK_APP=script.py   #this line will work in linux
 set FLASK_APP=script.py      # this it the code  for windows.
 run flask
@@ -371,7 +371,7 @@ run flask
 
 ## 超文本标记语言
 
-```
+```py
 <!doctype html>
 <html>
    <body>

@@ -7,7 +7,7 @@
 **方法#1:使用`Counter() + sum() + map()`**
 以上方法的组合可以用来执行此任务。在本例中，我们使用 Counter()执行元素计数任务，并使用 sum()和 map()将逻辑扩展到每一行。
 
-```
+```py
 # Python3 code to demonstrate 
 # Matrix elements Frequencies Counter
 # using Counter() + sum() + map()
@@ -29,7 +29,7 @@ print ("The frequencies dictionary is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [[4, 5, 6], [2, 4, 5], [6, 7, 5]]
 The frequencies dictionary is : {2: 1, 4: 2, 5: 3, 6: 2, 7: 1}
 

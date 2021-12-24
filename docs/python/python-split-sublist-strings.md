@@ -8,7 +8,7 @@
 
 这个方法是较长循环版本的简写版本，人们可以选择它来解决这个特殊的问题。我们只是在使用 split 函数的列表理解中使用循环来分割获取子列表的字符串。
 
-```
+```py
 # Python3 code to demonstrate
 # Split Sublist Strings
 # using split() + list comprehension
@@ -36,7 +36,7 @@ print("The list after splitting strings : " + str(res))
 
 该任务也可以使用上述 3 个功能的组合来执行。map 函数将拆分逻辑绑定到使用 lambda 函数编写的每个元素，lambda 函数使用 split 函数来执行拆分。
 
-```
+```py
 # Python3 code to demonstrate
 # Split Sublist Strings
 # using map() + lambda + split()

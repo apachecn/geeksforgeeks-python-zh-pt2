@@ -19,7 +19,7 @@
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <head>
   <title>Scrapy-Selectors</title>
@@ -53,7 +53,7 @@
 
 *   非常基本的开始从选择 HTML 文件中的基本标签开始，例如标签、、等。所以下面给出的是使用 Scrapy 在 HTML 文件中选择任何标签的基本格式。
 
-```
+```py
 Shell Command : response.css('html').get()
 
 # Here response object calls CSS selector method to
@@ -67,7 +67,7 @@ Shell Command : response.css('html').get()
 
 *   因此，现在是时候修改我们的选择方式了，如果我们只想选择标签的内部文本，或者只想选择任何特定标签的属性，那么我们可以遵循下面给出的语法:
 
-```
+```py
 # To select the text inside the Tags 
 # excluding tags we have to use (::text) 
 # as our extension.
@@ -96,7 +96,7 @@ response.css('span').attrib['class']
 
 下面是可以用 XPATH 编写的附加税，用于选择，我们之前已经做过了。
 
-```
+```py
 # This is to select the text part of 
 # title tag using XPATH
 response.xpath('//title/text()')
@@ -114,7 +114,7 @@ XPATH 选择器。
 
 1.我们可以将选择器嵌套在一起。因为如果我们的 HTML 文件可以包含 div 标签中的元素，那么我们可以嵌套选择器来选择其中的特定元素。为了实现这一点，我们首先必须选择 div 标签中的所有元素，然后我们可以从中选择任何特定的元素。
 
-```
+```py
 div_tag = response.xpath('//div')
 div_tag.getall()
 
@@ -154,7 +154,7 @@ for tags in div_tag:
 
 ## 超文本标记语言
 
-```
+```py
 <html>
  <head>
   <title>Scrapy-Selectors</title>
@@ -184,7 +184,7 @@ for tags in div_tag:
 
 4.如果需要，我们可以使用合并在一起的两个选择器来增强选择的方式。
 
-```
+```py
 response.css('span').xpath('@class').get()
 # CSS is used to select tag and XPATH is 
 # used to select attribute

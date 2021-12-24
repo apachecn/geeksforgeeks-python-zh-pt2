@@ -7,7 +7,7 @@
 **方法一:使用`join() + split() + sorted()` +列表理解**
 以上功能的组合可以用来执行此任务。在本文中，我们使用 sorted()执行排序任务，使用 split()执行提取数字的任务。我们使用 join()执行重新连接已排序字符串的任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort Numerical Records in String
 # Using join() + split() + sorted() + list comprehension
@@ -31,7 +31,7 @@ print("The string after sorting records : " + res) 
 
 **Output :**
 
-```
+```py
 The original string is : Akshat 15 Nikhil 20 Akash 10
 The string after sorting records : Akash 10 Akshat 15 Nikhil 20
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort on basis of reverse Strings
 # Using reverse() + sort()
@@ -48,7 +48,7 @@ print("List after sorting on reversed strings : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 List after sorting on reversed strings : ['gfg', 'for', 'is', 'geeks', 'best']
 
@@ -60,7 +60,7 @@ List after sorting on reversed strings : ['gfg', 'for', 'is', 'geeks', 'best']
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort on basis of reverse Strings
 # Using list slicing + sort()
@@ -81,7 +81,7 @@ print("List after sorting on reversed strings : " + str(test_list))
 
 **Output**
 
-```
+```py
 The original list : ['gfg', 'is', 'best', 'for', 'geeks']
 List after sorting on reversed strings : ['gfg', 'for', 'is', 'geeks', 'best']
 

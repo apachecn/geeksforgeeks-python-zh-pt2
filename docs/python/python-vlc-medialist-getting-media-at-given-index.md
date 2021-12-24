@@ -14,7 +14,7 @@
 
 下面是实现
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -62,14 +62,14 @@ print(value)
 **输出:**
 ![](img/57ccffa8c486070958f67ed1dd7ef62e.png)
 
-```
+```py
 vlc.Media object at 0x00000248E1B42981
 
 ```
 
 另一个例子
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -117,7 +117,7 @@ print(value)
 **输出:**
 ![](img/1182bf29ec1fe0d0a2c3ce2234f329d4.png)
 
-```
+```py
 vlc.Media object at 0x00000248E1B42988
 
 ```

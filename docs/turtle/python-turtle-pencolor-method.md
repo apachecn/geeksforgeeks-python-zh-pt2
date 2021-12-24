@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing turtle package
 import turtle
 

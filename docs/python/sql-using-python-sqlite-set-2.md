@@ -12,7 +12,7 @@ Python 有一个用来访问 SQLite 数据库的库，称为 sqlite3，旨在与
 
 **更新和删除操作**
 
-```
+```py
 # code for update operation
 import sqlite3
 
@@ -34,7 +34,7 @@ conn.close()
 
 输出:
 
-```
+```py
 Total number of rows updated : 1
 (u'B113053', u'Geek', u'2017-01-11 13:53:39', 21.0), 
 (u'B113058', u'Saan', u'2017-01-11 13:53:39', 21.0), 
@@ -42,7 +42,7 @@ Total number of rows updated : 1
 
 ```
 
-```
+```py
 # code for delete operation
 import sqlite3
 
@@ -63,7 +63,7 @@ conn.close()
 
 输出:
 
-```
+```py
 Total number of rows deleted : 1
 (u'B113053', u'Geek', u'2017-01-11 13:53:39', 21.0),
  (u'B113059', u'Sam', u'2017-01-11 13:53:39', 22.0)
@@ -72,7 +72,7 @@ Total number of rows deleted : 1
 
 **用户输入的数据**
 
-```
+```py
 # code for executing query using input data
 import sqlite3
 
@@ -103,7 +103,7 @@ for i in range(n):
 
 输出:
 
-```
+```py
 (u'Navin', 34, 113053)
 (u'Basu', 42, 113058)
 (u'Firoz', 65, 113059)
@@ -114,7 +114,7 @@ for i in range(n):
 
 **用 SQLite 绘图**
 
-```
+```py
 # graph visualization using matplotlib library
 import matplotlib.pyplot as plt
 

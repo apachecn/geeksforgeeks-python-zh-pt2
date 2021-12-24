@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input : str = 'The quick brown fox jumps over 
                the lazy dog'
 Output : Yes
@@ -25,7 +25,7 @@ Output : No
 2.  现在将这句话传入 **Set(str)** 中，这样我们就可以得到给定字符串中所有唯一字符的列表。
 3.  现在分离出所有字母(a-z)的列表，如果列表长度为 26，表示所有字符都存在，句子为 **Pangram** ，否则不存在。
 
-```
+```py
 # function to check pangram
 
 def pangram(input):
@@ -54,7 +54,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 true
 
 ```

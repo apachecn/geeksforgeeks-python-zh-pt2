@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 我们脑海中出现的最普遍的方法是使用蛮力方法，运行一个循环直到 26，并在添加列表中的字母时递增它。
 
-```
+```py
 # Python3 code to demonstrate 
 # Filling alphabets
 # using naive method 
@@ -37,7 +37,7 @@ print ("List after insertion : " + str(test_list))
 **方法 2:使用列表理解**
 这是一种类似于上述方法的方法，但更像是天真方法的简写，因为它使用列表理解技术来完成任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Filling alphabets
 # using list comprehension
@@ -64,7 +64,7 @@ print ("List after insertion : " + str(test_list))
 **方法三:使用`map()`**
 使用`map()`是执行这个特殊任务的优雅方式。它将一个范围内的数字转换为特定的数据类型，在本例中为 char，并分配给列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Filling alphabets
 # using map()
@@ -91,7 +91,7 @@ print ("List after insertion : " + str(test_list))
 **方法#4:使用`string.ascii_lowercase`**
 这种最腐解和最新的方式来执行这个特殊的任务。使用这个新的内置函数将在内部处理编码部分，为用户提供有用的速记。
 
-```
+```py
 # Python3 code to demonstrate 
 # Filling alphabets
 # using string

@@ -18,7 +18,7 @@
 **使用 pip:**
 魔杖可以通过运行轻松安装
 
-```
+```py
 $ pip install Wand
 ```
 
@@ -27,13 +27,13 @@ $ pip install Wand
 **在 Linux 上安装:**
 我们可以通过运行下面的命令在 Linux 上安装 Wand
 
-```
+```py
 sudo apt-get install libmagickwand-dev
 ```
 
 如果我们需要 SVG、WMF、OpenEXR、DjVu 和 Graphviz 支持，我们还必须安装 libmagickcore5-extra，要安装 libmagickcore5-extra run，
 
-```
+```py
 sudo apt-get install libmagickcore5-extra
 ```
 
@@ -42,7 +42,7 @@ sudo apt-get install libmagickcore5-extra
 **在 Mac 上安装:**
 我们可以通过使用 *brew* 命令简单地安装魔杖，如下所示
 
-```
+```py
  brew install imagemagick
 ```
 
@@ -54,7 +54,7 @@ sudo apt-get install libmagickcore5-extra
 下面是 Wand 库的一个简单用例示例，我们编写 python 代码将图像从 jpeg 格式转换为 png
 **示例:**
 
-```
+```py
 from __future__ import print_function
 from wand.image import Image
 

@@ -8,7 +8,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.StaticText(self, parent, id=ID_ANY, label=””, pos=DefaultPosition,
 >                     size=DefaultSize, style=0, name=StaticTextNameStr)
 > 
@@ -28,7 +28,7 @@
 
 **示例#1:**
 
-```
+```py
 # import wxPython
 import wx
 
@@ -56,7 +56,7 @@ if __name__ == '__main__':
 
 **例 2:**
 
-```
+```py
 # import wxPython
 import wx
 

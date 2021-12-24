@@ -8,7 +8,7 @@
 
 举例说明如何使用 get_context_data 方法和 extra_context 变量将上下文传递到模板中。考虑一个名为 geeksforgeeks 的项目，它有一个名为 geeks 的应用程序。
 
-```
+```py
 Refer to the following articles to check how to create a project and an app in django.
 
        How to Create Basic Project using MVT in Django?
@@ -21,7 +21,7 @@ Refer to the following articles to check how to create a project and an app in d
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -34,7 +34,7 @@ class YourModel(models.Model):
 
 创建这个模型后，我们需要运行两个命令来为其创建数据库。
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 ```
@@ -43,7 +43,7 @@ python manage.py migrate
 
 ## 超文本标记语言
 
-```
+```py
 <!-- Intro.html -->
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -64,7 +64,7 @@ python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.base import TemplateView
 from .models import YourModel
 
@@ -80,7 +80,7 @@ class Intro(TemplateView):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from geeks.views import Intro
@@ -97,7 +97,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.views.generic.base import TemplateView
 from .models import YourModel
 
@@ -108,7 +108,7 @@ class Intro(TemplateView):
 
 通过这两种方法，您将看到相同的输出。我们来看看 [http://localhost:8000/](http://127.0.0.1:8000/) 上有什么，在做这个之前别忘了给你的模型加一些数据。
 
-```
+```py
 How to add data to your model
    Django ORM – Inserting, Updating & Deleting Data
 ```

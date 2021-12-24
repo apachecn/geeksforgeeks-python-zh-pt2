@@ -7,7 +7,7 @@
 **方法 1 : Naive 方法+ max()**
 在这个方法中，我们简单地遍历字符串，并在新出现的元素的字典中形成一个键，或者如果元素已经出现，我们将其值增加 1。我们通过对值使用 max()找到最大出现字符。
 
-```
+```py
 # Python 3 code to demonstrate 
 # Maximum frequency character in String
 # naive method 
@@ -34,7 +34,7 @@ print ("The maximum of all characters in GeeksforGeeks is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The maximum of all characters in GeeksforGeeks is : e
 

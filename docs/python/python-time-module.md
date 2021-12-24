@@ -10,7 +10,7 @@
 
 时间模块自带 Python 的标准实用程序模块，无需外部安装。我们可以简单的使用[导入语句](https://www.geeksforgeeks.org/import-module-python/)导入。
 
-```
+```py
 import time
 ```
 
@@ -22,7 +22,7 @@ import time
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 print(time.gmtime(0))
@@ -44,7 +44,7 @@ print(time.gmtime(0))
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 curr = time.time()
@@ -53,7 +53,7 @@ print("Current time in seconds since epoch =", curr)
 
 **Output**
 
-```
+```py
 Current time in seconds since epoch = 1627908387.764925
 ```
 
@@ -65,7 +65,7 @@ Current time in seconds since epoch = 1627908387.764925
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 # getting current time by passing
@@ -76,7 +76,7 @@ print("Current time:", curr)
 
 **Output**
 
-```
+```py
 Current time: Mon Aug  2 12:45:13 2021
 ```
 
@@ -88,7 +88,7 @@ Current time: Mon Aug  2 12:45:13 2021
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 for i in range(4):
@@ -100,7 +100,7 @@ for i in range(4):
 
 **Output**
 
-```
+```py
 0
 1
 2
@@ -137,7 +137,7 @@ Struct_time 类有助于访问本地时间，即非划时代的时间戳。它�
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time module
 import time
 
@@ -161,7 +161,7 @@ print(obj)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time module
 import time
 
@@ -179,7 +179,7 @@ print("Local time (in seconds):", time_sec)
 
 **Output**
 
-```
+```py
 Local time (in seconds): 1627987508.0
 ```
 
@@ -191,7 +191,7 @@ Local time (in seconds): 1627987508.0
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time module
 import time
 
@@ -216,7 +216,7 @@ print(obj)
 
 ## 蟒蛇 3
 
-```
+```py
 from time import gmtime, strftime
 
 # using simple format of showing time
@@ -227,7 +227,7 @@ print(s)
 
 **Output**
 
-```
+```py
 Tue, 03 Aug 2021 10:45:08
 ```
 
@@ -235,7 +235,7 @@ Tue, 03 Aug 2021 10:45:08
 
 [time . as time()](https://www.geeksforgeeks.org/python-time-asctime-method/)方法用于将 time.gmtime()或 time.localtime()方法返回的表示时间的元组或 time.struct_time 对象转换为以下形式的字符串:
 
-```
+```py
 Day Mon Date Hour:Min:Sec Year
 ```
 
@@ -243,7 +243,7 @@ Day Mon Date Hour:Min:Sec Year
 
 ## 蟒蛇 3
 
-```
+```py
 # importing time module
 import time
 
@@ -268,7 +268,7 @@ print(time_str)
 
 **Output**
 
-```
+```py
 Tue Aug  3 10:45:08 2021
 Tue Aug  3 10:45:08 2021
 ```
@@ -281,7 +281,7 @@ Tue Aug  3 10:45:08 2021
 
 ## 蟒蛇 3
 
-```
+```py
 import time
 
 string = "Tue, 03 Aug 2021 10:45:08"

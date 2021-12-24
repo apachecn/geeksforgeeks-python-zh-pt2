@@ -15,7 +15,7 @@ Python 有`**math**` 库，关于它有很多功能。其中一个功能就是`*
 
 **代码#1:**
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of isnan() 
 import math 
@@ -34,7 +34,7 @@ print (math.isnan(test_float))
 
 **Output:**
 
-```
+```py
 False
 False
 False
@@ -43,7 +43,7 @@ False
 
 **代码#2:**
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of isnan() 
 import math 
@@ -59,7 +59,7 @@ print (math.isnan(float('nan')))
 
 **Output:**
 
-```
+```py
 False
 False
 True

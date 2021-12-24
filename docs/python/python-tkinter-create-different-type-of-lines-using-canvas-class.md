@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 Canvas.create_line(x1, y1, x2, y2, ...., options = ...)
 ```
 
@@ -28,7 +28,7 @@ Canvas.create_line(x1, y1, x2, y2, ...., options = ...)
 
 ## 蟒蛇 3
 
-```
+```py
 # Imports each and every method and class
 # of module tkinter and tkinter.ttk
 from tkinter import *
@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from tkinter import *
 root=Tk()
 root.title("canvas line")

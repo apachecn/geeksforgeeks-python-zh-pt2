@@ -22,7 +22,7 @@
 
 下面是实现。
 
-```
+```py
 # required modules
 from turtle import * from random import randint
 

@@ -8,7 +8,7 @@
 
 示例:
 
-```
+```py
 Input : set = ([10, 20, 26, 41, 54, 20])
 Output : {41, 10, 26, 54}
 
@@ -22,7 +22,7 @@ Output : {'ram', 'prashant', 'kaushik', 'anand'}
 Python 中的内置方法 discard()仅在集合中存在元素时才从集合中移除该元素。如果元素不在集合中，则不会出现错误或异常，并且会打印原始集合。
 如果元素存在于集合中:
 
-```
+```py
 # Python program to remove random elements of choice
 # Function to remove elements using discard()
 def Remove(sets):
@@ -36,14 +36,14 @@ Remove(sets)
 
 输出:
 
-```
+```py
 {41, 10, 26, 54}
 
 ```
 
 如果元素不在集合中:
 
-```
+```py
 # Python program to remove random elements of choice
 # Function to remove elements using discard()
 def Remove(sets):
@@ -57,7 +57,7 @@ Remove(sets)
 
 输出:
 
-```
+```py
 {41, 10, 26, 20, 54}
 
 ```
@@ -67,7 +67,7 @@ Remove(sets)
 Python 中的内置方法 remove()只在元素存在于集合中时从集合中移除元素，就像 discard()方法一样，但是如果元素不存在于集合中，则会引发错误或异常。
 如果元素存在于集合中:
 
-```
+```py
 # Python program to remove random elements of choice
 # Function to remove elements using remove()
 def Remove(sets):
@@ -81,14 +81,14 @@ Remove(sets)
 
 输出:
 
-```
+```py
 {'ram', 'anand', 'prashant', 'kaushik'}
 
 ```
 
 如果元素不在集合中:
 
-```
+```py
 # Python program to remove random elements of choice
 # Function to remove elements using remove()
 def Remove(sets):
@@ -102,14 +102,14 @@ Remove(sets)
 
 输出:
 
-```
+```py
 No Output
 
 ```
 
 错误:
 
-```
+```py
 Traceback (most recent call last):
   File "/home/bf95b32da22ada77d72062a73d3e0980.py", line 9, in 
     Remove(sets)

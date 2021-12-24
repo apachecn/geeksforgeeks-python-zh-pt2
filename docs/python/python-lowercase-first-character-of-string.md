@@ -7,7 +7,7 @@
 **方法#1:使用字符串切片+ `lower()`**
 这个任务可以很容易地使用较低的方法来执行，该方法降低了提供给它的字符的大小，切片可以用来添加小写第一个字符后的剩余字符串。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Lowercase first character of String
 # Using lower() + string slicing
@@ -28,7 +28,7 @@ print("The string after lowercasing initial character : " + str(res))
 
 **Output :**
 
-```
+```py
 The original string is : GeeksforGeeks
 The string after lowercasing initial character : geeksforGeeks
 

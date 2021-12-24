@@ -15,7 +15,7 @@ Django 表单是一组高级的 HTML 表单，可以使用 python 创建，并�
 
 让我们创建一个示例 Django 表单来呈现它，并作为示例展示。在`geeks > forms.py`中，输入以下代码
 
-```
+```py
 from django import forms
 
 # creating a form 
@@ -31,7 +31,7 @@ class InputForm(forms.Form):
 
 现在我们需要一个视图来将这个表单呈现到一个模板中。让我们创建一个视图，
 
-```
+```py
 from django.shortcuts import render
 from .forms import InputForm
 
@@ -44,7 +44,7 @@ def home_view(request):
 
 最后，我们将创建需要放置表单的模板。在`templates > home.html`中，
 
-```
+```py
 <form action = "" method = "post">
     {% csrf_token %}
     {{form.as_p }}

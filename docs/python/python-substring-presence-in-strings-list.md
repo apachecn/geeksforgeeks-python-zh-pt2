@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substring presence in Strings List
 # Using loop
@@ -50,7 +50,7 @@ print("The match list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['Gfg', 'is', 'Best']
 The original list 2 : ['I love Gfg', 'Its Best for Geeks', 'Gfg means CS']
 The match list : [True, False, True]
@@ -63,7 +63,7 @@ The match list : [True, False, True]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Substring presence in Strings List
 # Using list comprehension + any()
@@ -86,7 +86,7 @@ print("The match list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list 1 : ['Gfg', 'is', 'Best']
 The original list 2 : ['I love Gfg', 'Its Best for Geeks', 'Gfg means CS']
 The match list : [True, False, True]

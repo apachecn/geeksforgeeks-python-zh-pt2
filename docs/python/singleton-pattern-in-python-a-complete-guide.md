@@ -20,14 +20,14 @@ python 中的 Singleton 模式是一种设计模式，允许您在程序的整�
 
 根据定义，所有模块都是单一的。让我们创建一个简单的模块级单例，其中数据在其他模块之间共享。这里我们将创建三个 python 文件——singleton.py、sample_module1.py 和 sample _ module 2 . py——其中其他示例模块共享 singleton . py 中的一个变量。
 
-```
+```py
 ## singleton.py
 shared_variable = "Shared Variable"
 ```
 
  singleton.py
 
-```
+```py
 ## samplemodule1.py
 import singleton
 print(singleton.shared_variable)
@@ -36,7 +36,7 @@ singleton.shared_variable += "(modified by samplemodule1)"
 
 samplemodule1.py
 
-```
+```py
 ##samplemodule2.py
 import singleton
 print(singleton.shared_variable)
@@ -56,7 +56,7 @@ samplemodule2.py
 
 ## 蟒蛇 3
 
-```
+```py
 class SingletonClass(object):
   def __new__(cls):
     if not hasattr(cls, 'instance'):
@@ -74,7 +74,7 @@ print(new_singleton.singl_variable)
 
 **Output**
 
-```
+```py
 True
 Singleton Variable
 ```
@@ -85,7 +85,7 @@ Singleton Variable
 
 ## 蟒蛇 3
 
-```
+```py
 class SingletonClass(object):
   def __new__(cls):
     if not hasattr(cls, 'instance'):
@@ -105,7 +105,7 @@ print(child.singl_variable)
 
 **Output**
 
-```
+```py
 True
 Singleton Variable
 ```
@@ -118,7 +118,7 @@ Borg singleton 是 Python 中的一种设计模式，允许不同实例的状态
 
 ## 蟒蛇 3
 
-```
+```py
 class BorgSingleton(object):
   _shared_borg_state = {}
 
@@ -140,7 +140,7 @@ print(childBorg.shared_variable)
 
 **Output**
 
-```
+```py
 False
 Shared Variable
 ```
@@ -151,7 +151,7 @@ Shared Variable
 
 ## 蟒蛇 3
 
-```
+```py
 class BorgSingleton(object):
   _shared_borg_state = {}
 
@@ -172,7 +172,7 @@ print(newChildBorg.shared_variable)
 
 这里，我们已经重置了共享状态，并尝试访问 shared_variable。让我们看看错误。
 
-```
+```py
 Traceback (most recent call last):
   File "/home/329d68500c5916767fbaf351710ebb13.py", line 16, in <module>
     print(newChildBorg.shared_variable)
@@ -205,7 +205,7 @@ AttributeError: 'NewChildBorg' object has no attribute 'shared_variable'
 
 ## 蟒蛇 3
 
-```
+```py
 import httplib2
 import os
 import re

@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input:
     mat = [[0, 1, 0, 0, 1],
              [1, 0, 1, 1, 0],
@@ -25,7 +25,7 @@ Output:
 2.  由于列表是集合的不可交换类型，因为它是可变的，这就是为什么我们首先将每一行(列表)转换成[元组](https://www.geeksforgeeks.org/tuples-in-python/)，然后将所有元组放入集合中。
 3.  结果集将只包含唯一值元组(行)。
 
-```
+```py
 # Python program to Print unique rows in a 
 # given boolean matrix using Set with tuples
 
@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 (1, 1, 1, 0, 0)
 (0, 1, 0, 0, 1)
 (1, 0, 1, 1, 0)

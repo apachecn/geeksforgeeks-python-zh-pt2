@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # Connecting to sqlite
@@ -64,7 +64,7 @@ connection_obj.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # Connecting to sqlite
@@ -90,7 +90,7 @@ connection_obj.close()
 
 ## 蟒蛇 3
 
-```
+```py
 import sqlite3
 
 # Connecting to sqlite

@@ -6,35 +6,35 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > wx.ToolBar.GetToolSeparation(self)
 > 
 > ```
 > 
 > **参数:**
 > 
-> ```
+> ```py
 > GetToolSeparation() function takes no arguments.
 > 
 > ```
 > 
 > **返回:**
 > 
-> ```
+> ```py
 > Returns the default separator size.
 > 
 > ```
 > 
 > **返回类型:**
 > 
-> ```
+> ```py
 > int
 > 
 > ```
 
 **示例#1:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -71,14 +71,14 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 0
 
 ```
 
 **例 2:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 
 **输出:**
 
-```
+```py
 12
 
 ```

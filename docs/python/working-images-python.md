@@ -8,13 +8,13 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Linux:** On linux terminal type the following:
 
-    ```
+    ```py
     pip install Pillow
     ```
 
     通过终端安装 pip:
 
-    ```
+    ```py
     sudo apt-get update
     sudo apt-get install python-pip
     ```
@@ -23,7 +23,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 我们将在这里使用图像模块，它提供了一个同名的类，并提供了许多处理图像的功能。要导入图像模块，我们的代码应该从下面一行开始:
 
-```
+```py
  from PIL import Image
 ```
 
@@ -31,7 +31,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **从路径打开特定图像:**
 
-    ```
+    ```py
     #img  = Image.open(path)     
     # On successful execution of this statement,
     # an object of Image type is returned and stored in img variable)
@@ -47,7 +47,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Retrieve size of image**: The instances of Image class that are created have many attributes, one of its useful attribute is size.
 
-    ```
+    ```py
     from PIL import Image
 
     filename = "image.png"
@@ -60,7 +60,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **保存图像中的更改:**要保存您对图像文件所做的任何更改，我们需要提供路径以及图像格式。
 
-    ```
+    ```py
     img.save(path, format)    
     # format is optional, if no format is specified, 
     #it is determined from the filename extension
@@ -68,7 +68,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Rotating an Image:** The image rotation needs angle as parameter to get the image rotated.
 
-    ```
+    ```py
     from PIL import Image
 
     def main():
@@ -94,7 +94,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Cropping an Image:** Image.crop(box) takes a 4-tuple (left, upper, right, lower) pixel coordinate, and returns a rectangular region from the used image.
 
-    ```
+    ```py
     from PIL import Image
 
     def main():
@@ -120,7 +120,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Resizing an Image:** Image.resize(size)- Here size is provided as a 2-tuple width and height.
 
-    ```
+    ```py
     from PIL import Image
 
     def main():
@@ -144,7 +144,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Pasting an image on another image:** The second argument can be a 2-tuple (specifying the top left corner), or a 4-tuple (left, upper, right, lower) – in this case the size of pasted image must match the size of this box region, or None which is equivalent to (0, 0).
 
-    ```
+    ```py
     from PIL import Image
 
     def main():
@@ -175,7 +175,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 *   **Getting a Histogram of an Image:** This will return a histogram of the image as a list of pixel counts, one for each pixel in the image. (A histogram of an image is a graphical representation of the tonal distribution in a digital image. It contains what all the brightness values contained in an image are. It plots the number of pixels for each brightness value. It helps in doing the exposure settings.)
     from PIL import Image
 
-    ```
+    ```py
     def main():
         try:
             #Relative Path
@@ -195,7 +195,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Transposing an Image:** This feature gives us the mirror image of an image
 
-    ```
+    ```py
         from PIL import Image
 
     def main():
@@ -219,7 +219,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 
 *   **Split an image into individual bands:** Splitting an image in RGB mode, creates three new images each containing a copy of the original individual bands.
 
-    ```
+    ```py
     from PIL import Image
 
     def main():
@@ -241,7 +241,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 *   **tobitmap:** Converting an image to an X11 bitmap (A plain text binary image format). It returns a string containing an X11 bitmap, it can only be used for mode “1” images, i.e. 1 bit pixel black and white images.
     from PIL import Image
 
-    ```
+    ```py
     def main():
         try:
             #Relative Path
@@ -265,7 +265,7 @@ PIL 是 python 图像库，它为 Python 解释器提供图像编辑功能。它
 *   **Creating a thumbnail:** This method creates a thumbnail of the image that is opened. It does not return a new image object, it makes in-place modification to the currently opened image object itself. If you do not want to change the original image object, create a copy and then apply this method. This method also evaluates the appropriate to maintain the aspect ratio of the image according to the size passed.
     from PIL import Image
 
-    ```
+    ```py
     def main():
         try:
             #Relative Path

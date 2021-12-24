@@ -18,7 +18,7 @@ Python 中的 ***os.scandir()*** 方法用来获取 *os 的迭代器。目录条
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain os.scandir() method
 
 # importing os module
@@ -59,7 +59,7 @@ obj.close()
 
 **Output:** 
 
-```
+```py
 Files and Directories in '/home':
 GeeksforGeeks
 Videos

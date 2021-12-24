@@ -10,19 +10,19 @@
 
 1.  **Python 语音识别模块:**
 
-    ```
+    ```py
      sudo pip install SpeechRecognition 
     ```
 
 2.  **PyAudio:** Use the following command for linux users
 
-    ```
+    ```py
     sudo apt-get install python-pyaudio python3-pyaudio
     ```
 
     如果存储库中的版本太旧，请使用以下命令安装 pyaudio
 
-    ```
+    ```py
     sudo apt-get install portaudio19-dev python-all-dev python3-all-dev && 
     sudo pip install pyaudio
     ```
@@ -30,7 +30,7 @@
     使用 pip3 代替 pip 3。
     Windows 用户可以通过在终端执行以下命令来安装 pyaudio
 
-    ```
+    ```py
     pip install pyaudio
     ```
 
@@ -39,7 +39,7 @@
 1.  **Configure Microphone (For external microphones):** It is advisable to specify the microphone during the program to avoid any glitches.
     Type **lsusb** in the terminal. A list of connected devices will show up. The microphone name would look like this
 
-    ```
+    ```py
     USB Device 0x46d:0x825: Audio (hw:1, 0)
     ```
 
@@ -53,7 +53,7 @@
 
     上述步骤已在以下实施:
 
-    ```
+    ```py
     #Python 2.x program for Speech Recognition
 
     import speech_recognition as sr
@@ -112,7 +112,7 @@
     为了方便起见，将音频文件和节目放在同一个文件夹中。这适用于 AIFF WAV 的 FLAC 文件。
     下面显示了一个实现
 
-    ```
+    ```py
     #Python 2.x program to transcribe an Audio file
     import speech_recognition as sr
 
@@ -145,13 +145,13 @@
 1.  **Muted Microphone:** This leads to input not being received. To check for this, you can use alsamixer.
     It can be installed using
 
-    ```
+    ```py
     sudo apt-get install libasound2 alsa-utils alsa-oss
     ```
 
     类型**混合**。输出看起来有点像这样
 
-    ```
+    ```py
     Simple mixer control 'Master', 0
       Capabilities: pvolume pswitch pswitch-joined
       Playback channels: Front Left - Front Right

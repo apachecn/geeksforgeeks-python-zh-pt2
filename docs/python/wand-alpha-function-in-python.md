@@ -26,7 +26,7 @@
 
 **示例#1:**
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing
@@ -50,7 +50,7 @@ with Drawing() as draw:
 **示例#2:**
 使用泛填充算法填充颜色。
 
-```
+```py
 # Import required objects from wand modules
 from wand.image import Image
 from wand.drawing import Drawing

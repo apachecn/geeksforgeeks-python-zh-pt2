@@ -52,7 +52,7 @@ T3】
 
 **第三步:**创建**【app . py】**文件夹，并写出下面给出的代码。
 
-```
+```py
 # Store this code in 'app.py' file
 
 from flask import Flask, render_template, request, redirect, url_for, session
@@ -129,7 +129,7 @@ def register():
 
 **步骤-5:** 打开**【log in . html】**文件，写出下面给出的代码。在“login.html”中，我们有两个字段，即用户名和密码。当用户输入正确的用户名和密码时，它会将您路由到索引页面，否则会显示“用户名/密码不正确”。
 
-```
+```py
 <!-- Store this code in 'login.html' file inside the 'templates' folder -->
 
 <html>
@@ -161,7 +161,7 @@ def register():
 
 **第 6 步:**打开**【register . html】**文件，写出下面给出的代码。在“register.html”中，我们有三个字段，即用户名、密码和电子邮件。当用户输入所有信息时，它将数据存储在数据库中，并显示“注册成功”。
 
-```
+```py
 <!-- Store this code in 'register.html' file inside the 'templates' folder -->
 
 <html>
@@ -194,7 +194,7 @@ def register():
 
 **第 7 步:**打开**【index . html】**文件，写出下面给出的代码。登录成功时会显示此页面，并且还会显示用户名。该页面还包括注销功能。当用户注销时，它会再次移动到新的登录页面。
 
-```
+```py
 <!-- Store this code in 'index.html' file inside the 'templates' folder-->
 
 <html>
@@ -221,7 +221,7 @@ def register():
 
 **第 8 步:**创建文件夹**【静态】**。在“静态”文件夹中创建文件**“style . css”**，并粘贴给定的 CSS 代码。
 
-```
+```py
 /* Store this code in 'style.css' file inside the 'static' folder*/
 
             .header{

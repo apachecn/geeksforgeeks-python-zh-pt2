@@ -20,7 +20,7 @@ SQL 中的 UPDATE 语句用于更新数据库中现有表的数据。根据我�
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -93,7 +93,7 @@ conn.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -164,7 +164,7 @@ conn.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -221,7 +221,7 @@ conn.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -278,7 +278,7 @@ conn.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 
@@ -333,7 +333,7 @@ conn.close()
 
 ## **蟒蛇 3**
 
-```
+```py
 # Import module
 import sqlite3
 

@@ -11,7 +11,7 @@ random()模块用于在 Python 中生成随机数。实际上不是随机的，�
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 # remember this state
@@ -30,7 +30,7 @@ print(random.sample(range(20), k = 5))
 
 **输出:**
 
-```
+```py
 [16, 1, 0, 11, 19, 3, 7, 5, 10, 13]
 [16, 1, 0, 11, 19]
 ```
@@ -39,7 +39,7 @@ print(random.sample(range(20), k = 5))
 
 ## 蟒蛇 3
 
-```
+```py
 import random
 
 list1 = [1, 2, 3, 4, 5, 6] 
@@ -60,7 +60,7 @@ print(random.choice(list1))
 
 **输出:**
 
-```
+```py
 3
 3
 ```

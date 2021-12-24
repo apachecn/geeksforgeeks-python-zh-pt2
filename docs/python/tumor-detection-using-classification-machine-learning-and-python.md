@@ -11,7 +11,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Checking for any warning
 import warnings
 warnings.filterwarnings('ignore')
@@ -23,7 +23,7 @@ warnings.filterwarnings('ignore')
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing dependencies
 import numpy as np
 import pandas as pd
@@ -38,7 +38,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/ingledarshan/AIML-B2/main/da
 
 ## 蟒蛇 3
 
-```
+```py
 df.head()
 ```
 
@@ -46,7 +46,7 @@ df.head()
 
 ## 蟒蛇 3
 
-```
+```py
 # Check the names of all columns
 df.columns
 ```

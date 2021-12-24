@@ -4,7 +4,7 @@
 
 给定一个有效的年份作为输入，编写一个 Python 程序来打印给定年份的日历。为了做到这一点，我们可以简单地使用 Python 中提供的日历模块。关于日历模块的更多详细信息，请参考[这篇文章](https://www.geeksforgeeks.org/python-calendar-module/)。
 
-```
+```py
 # Python program to print calendar for given year
 
 # importing calendar library
@@ -22,7 +22,7 @@ printcalendar(year)
 
 **输出:**
 
-```
+```py
 Calendar of 2019
 
       January                   February                   March

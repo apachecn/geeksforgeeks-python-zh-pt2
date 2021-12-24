@@ -6,7 +6,7 @@
 
 **代码#1:要编写接收文件名**
 
-```
+```py
 static PyObject* py_get_filename(PyObject* self, PyObject* args)
 {
     PyObject* bytes;
@@ -29,7 +29,7 @@ static PyObject* py_get_filename(PyObject* self, PyObject* args)
 
 **代码#2 :**
 
-```
+```py
 /* Object with the filename */
 PyObject* obj;
 PyObject* bytes;
@@ -50,7 +50,7 @@ PyBytes_AsStringAndSize(bytes, &filename, &len);
 
 **代码#3 :**
 
-```
+```py
 /* Turn a filename into a Python object */
 char* filename;
 int filename_len;
@@ -64,7 +64,7 @@ PyObject* obj = PyUnicode_DecodeFSDefaultAndSize(
 
 **代码#4:要将文件转换为整数文件描述符，请使用`PyFile_FromFd()`**
 
-```
+```py
 PyObject* fobj;
 int fd = PyObject_AsFileDescriptor(fobj);
 if (fd < 0) {
@@ -76,7 +76,7 @@ if (fd < 0) {
 
 **代码#5 :**
 
-```
+```py
 /* Existing file descriptor (already open) */
 int fd;
 

@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以执行该任务的蛮力方法。为此，我们只使用简单的检查，比较并附加特定关键字的值大于 k 的记录
 
-```
+```py
 # Python3 code to demonstrate working of
 # Records with Key's value greater than K
 # Using loop
@@ -36,7 +36,7 @@ print("The filtered dictionary records is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [{'best': 6, 'gfg': 2, 'is': 4}, {'best': 8, 'it': 5, 'is': 7}, {'best': 10, 'CS': 10, 'is': 8}]
 The filtered dictionary records is : [{'best': 8, 'it': 5, 'is': 7}, {'best': 10, 'CS': 10, 'is': 8}]
 

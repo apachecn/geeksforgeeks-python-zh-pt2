@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这是可以用来解决这个问题的方法之一。在这种情况下，我们预先设置所需的键，用空列表构造字典，并迭代添加值的对列表。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Paired Neighbours to Adjacency Dictionary
 # Using loop

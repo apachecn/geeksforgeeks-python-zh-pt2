@@ -6,7 +6,7 @@
 
 语法:
 
-```
+```py
 listWidget = QListWidget()
 
 ```
@@ -15,7 +15,7 @@ listWidget = QListWidget()
 
 1.  它们可以用列表小部件作为它们的父小部件来构建。
 
-    ```
+    ```py
     QListWidgetItem("Geeks", listWidget)
     QListWidgetItem("For", listWidget)
     QListWidgetItem("Geeks", listWidget)
@@ -24,7 +24,7 @@ listWidget = QListWidget()
 
 2.  它们可以在没有父小部件的情况下构建，并在以后添加到列表中。
 
-    ```
+    ```py
     listWidgetItem = QListWidgetItem("GeeksForGeeks")
     listWidget.addItem(listWidgetItem)
 
@@ -32,7 +32,7 @@ listWidget = QListWidget()
 
 QListWidget 中最常用的一些方法:
 
-```
+```py
 addItem() : To add QListWidgetItem object in list
 addItems() : To add multiple QListWidgetItem objects
 insertItem() : It adds item at specified position
@@ -42,7 +42,7 @@ count() : To count number of items present in the list
 
 以下是代码–
 
-```
+```py
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QListWidget, QVBoxLayout, QListWidgetItem
 

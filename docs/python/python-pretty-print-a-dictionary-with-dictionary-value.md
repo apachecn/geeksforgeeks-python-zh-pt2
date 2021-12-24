@@ -9,7 +9,7 @@
 **方法:使用循环**
 我们只是使用蛮力的循环方式循环遍历每个字典元素及其对应的值。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Pretty Print a dictionary with dictionary value
 # Using loops
@@ -30,7 +30,7 @@ for sub in test_dict:
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': {'remark': 'good', 'rate': 5}, 'cs': {'rate': 3}}
 The Pretty Print dictionary is : 
 gfg

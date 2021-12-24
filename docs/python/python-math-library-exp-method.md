@@ -14,7 +14,7 @@ Python 有数学库，有很多关于它的函数。其中一个功能是 **exp(
 
 **代码# 1:**
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of exp() 
 import math 
@@ -33,7 +33,7 @@ print (math.exp(test_float))
 
 **Output:**
 
-```
+```py
 54.598150033144236
 0.049787068367863944
 1.0
@@ -42,7 +42,7 @@ print (math.exp(test_float))
 
 **代码#2:**
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of exp() 
 import math 
@@ -55,7 +55,7 @@ print (math.exp(math.e))
 
 **Output:**
 
-```
+```py
 23.140692632779267
 15.154262241479262
 
@@ -63,7 +63,7 @@ print (math.exp(math.e))
 
 **代码#3:** 类型错误
 
-```
+```py
 # Python3 code to demonstrate 
 # the working of exp() 
 import math 
@@ -74,7 +74,7 @@ print (math.exp("25"))
 
 **输出:**
 
-```
+```py
 Traceback (most recent call last):
   File "/home/c7ae4f1bef0ed8c7756b3f55e7d2ce81.py", line 6, in 
     print (math.exp("25"))

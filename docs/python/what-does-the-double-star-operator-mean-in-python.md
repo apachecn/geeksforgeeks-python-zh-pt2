@@ -10,7 +10,7 @@
 
 **算术运算符在递减模式下的优先级顺序:**
 
-```
+```py
 ()   >>   **   >>   *  >>  /  >>  //  >>  %   >>   +   >>   -
 
 ```
@@ -25,7 +25,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Python code to Demonstrate the Exponential Operactor
 
 a = 2
@@ -42,7 +42,7 @@ print(z)
 
 **输出:**
 
-```
+```py
 32
 50
 ```
@@ -57,7 +57,7 @@ print(z)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to create a function to get a dictionary of names.
 # Here, we will start with a dictionary of three names
 
@@ -70,7 +70,7 @@ function(name_1="Shrey", name_2="Rohan", name_3="Ayush")
 
 **输出:**
 
-```
+```py
 The value of name_1 is Shrey
 The value of name_2 is Rohan
 The value of name_3 is Ayush
@@ -80,7 +80,7 @@ The value of name_3 is Ayush
 
 ## python 3
 
-```
+```py
 # Python Program to create a function to get a dictionary of as many names
 # you want to include in your Dictionary
 
@@ -99,7 +99,7 @@ function(
 
 **输出:**
 
-```
+```py
 The value of name_1 is Ayush
 The value of name_2 is Aman
 The value of name_3 is Harman

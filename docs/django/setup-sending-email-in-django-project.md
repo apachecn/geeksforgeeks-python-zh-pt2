@@ -11,7 +11,7 @@
 
 Django 电子邮件示例。考虑一个名为 geeksforgeeks 的项目，它有一个名为 geeks 的应用程序。参考[这个](https://www.geeksforgeeks.org/django-basics/)创建 Django 项目和应用。现在让我们在 geeksforgeeks 项目中演示一下。在“极客”应用的**设置. py** 文件中，输入以下内容:
 
-```
+```py
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
@@ -27,14 +27,14 @@ EMAIL_HOST_PASSWORD = #password associated with above email-id
 现在在我们的应用程序中使用它，移动到**视图。py** 并在顶部添加这些线，如下所示。
 T3】
 
-```
+```py
 from django.conf import settings
 from django.core.mail import send_mail
 ```
 
 一般邮件都是发给注册的用户，对吗？因此，在注册视图功能中，添加这些行。
 
-```
+```py
 subject = 'welcome to GFG world'
 message = f'Hi {user.username}, thank you for registering in geeksforgeeks.'
 email_from = settings.EMAIL_HOST_USER

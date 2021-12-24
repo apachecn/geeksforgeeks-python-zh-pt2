@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Relative Size Ordering 
 # Using set() + zip() + sorted() + dict() + list comprehension
@@ -46,7 +46,7 @@ print("Relative size ordered list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [8, 3, 5, 8, 1, 5, 4]
 Relative size ordered list : [4, 1, 3, 4, 0, 3, 2]
 ```
@@ -57,7 +57,7 @@ Relative size ordered list : [4, 1, 3, 4, 0, 3, 2]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Relative Size Ordering 
 # Using sorted() + set() + index() + list comprehension
@@ -80,7 +80,7 @@ print("Relative size ordered list : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [8, 3, 5, 8, 1, 5, 4]
 Relative size ordered list : [4, 1, 3, 4, 0, 3, 2]
 ```

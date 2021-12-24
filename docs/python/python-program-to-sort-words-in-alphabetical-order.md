@@ -22,7 +22,7 @@ sorted()是 Python 中的一个预定义函数，它返回任何特定序列的�
 
 **输出:**
 
-```
+```py
 brown dog fox jumps lazy over quick the the
 ```
 
@@ -34,6 +34,6 @@ Python list sort()函数可用于按升序、降序或用户定义的顺序对�
 
 **输出:**
 
-```
+```py
 for geeks geeks
 ```

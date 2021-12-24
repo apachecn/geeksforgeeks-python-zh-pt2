@@ -26,7 +26,7 @@
 关于端口转发的更多阅读:[链接](https://en.wikipedia.org/wiki/Port_forwarding)
 要运行脚本，只需从帖子底部指定的 GitHub 链接下载，保存在电脑上方便的位置即可。
 
-```
+```py
 /* Both the server and client script can then be run
    from the Command prompt (in Windows) or from bash 
    Terminal (Linux users) by simply typing 
@@ -40,7 +40,7 @@ python client.py 192.168.55.13 8081
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement server side of chat room.
 import socket
 import select
@@ -159,7 +159,7 @@ server.close()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to implement client side of chat room.
 import socket
 import select

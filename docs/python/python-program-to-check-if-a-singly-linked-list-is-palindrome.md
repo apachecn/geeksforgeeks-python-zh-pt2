@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to check if linked
 # list is palindrome using stack
 class Node:
@@ -101,7 +101,7 @@ print("isPalindrome:", result)
 
 **输出:**
 
-```
+```py
 isPalindrome: true
 ```
 
@@ -120,7 +120,7 @@ isPalindrome: true
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to check if
 # linked list is palindrome
 
@@ -295,7 +295,7 @@ if __name__ == '__main__':    
 
 **输出:**
 
-```
+```py
 a->NULL
 Is Palindrome
 

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Render Initials as Dictionary Key
 # Using loop
@@ -40,7 +40,7 @@ print("Constructed Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best']
 Constructed Dictionary : {'g': 'geeksforgeeks', 'i': 'is', 'b': 'best'}
 
@@ -52,7 +52,7 @@ Constructed Dictionary : {'g': 'geeksforgeeks', 'i': 'is', 'b': 'best'}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Render Initials as Dictionary Key
 # Using dictionary comprehension 
@@ -72,7 +72,7 @@ print("Constructed Dictionary : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : ['geeksforgeeks', 'is', 'best']
 Constructed Dictionary : {'g': 'geeksforgeeks', 'i': 'is', 'b': 'best'}
 

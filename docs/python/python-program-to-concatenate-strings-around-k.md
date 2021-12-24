@@ -18,7 +18,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 # Python3 code to demonstrate working of
 # Concatenate Strings on K String
 # Using loop
@@ -54,7 +54,7 @@ print("Strings after required concatenation : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : ['Gfg', '+', 'is', 'best', '+', 'love', 'gfg']
 Strings after required concatenation : ['Gfg+is', 'best+love', 'gfg']
 
@@ -66,7 +66,7 @@ Strings after required concatenation : ['Gfg+is', 'best+love', 'gfg']
 
 ## **蟒蛇 3**
 
-```
+```py
 # initializing list
 test_list = ["Gfg",  "+", "is", "best", "+", "love", "gfg"]
 
@@ -86,7 +86,7 @@ print("Strings after required concatenation : " + str(res))
 
 ****Output**
 
-```
+```py
 The original list is : ['Gfg', '+', 'is', 'best', '+', 'love', 'gfg']
 Strings after required concatenation : ['Gfg+is', 'best+love', 'gfg']
 

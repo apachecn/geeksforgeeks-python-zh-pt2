@@ -8,7 +8,7 @@ Django 是一个基于 python 的 web 应用程序框架，有助于构建各种
 
 为我们的博客创建一个目录，安装并激活虚拟环境。然后使用以下命令安装 Django
 
-```
+```py
 # creating directory for our project
 mkdir gfgblog && cd gfgblog
 
@@ -25,7 +25,7 @@ pip install django
 
 由于现在我们已经安装了 Django，我们现在将创建一个 Django 项目，它将建立一个基本的 Django 应用程序
 
-```
+```py
 django-admin startproject gfgblog
 cd gfgblog
 ```
@@ -39,7 +39,7 @@ cd gfgblog
 
 我们在 Django 网络应用目录中。现在，我们将为我们的数据库进行一些迁移，该数据库将是 SQLite3，它将设置一些默认表来运行我们数据库中的应用程序。然后我们将为我们的应用程序创建一个超级用户。
 
-```
+```py
 # migrating tables
 python3 manage.py makemigrations
 python3 manage.py migrate
@@ -54,7 +54,7 @@ python3 manage.py createsuperuser
 
 现在运行 Django 开发服务器，并在本地主机中打开端口 8000
 
-```
+```py
 # running python development server
 python3 manage.py runserver
 ```
@@ -73,7 +73,7 @@ django app 目录树结构
 
 现在我们将为它创建实际的博客应用程序和数据库。转到 gfgblog 项目目录。你可以看到我们的 SQLite3 数据库，gfgblog Django app。现在在这个目录中创建一个名为 blog 的新应用程序。下面的命令将为我们创建一个新的应用程序。
 
-```
+```py
 # creating an app named blog
 python3 manage.py startapp blog
 ```
@@ -91,7 +91,7 @@ python3 manage.py startapp blog
 
 ## 蟒蛇 3
 
-```
+```py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

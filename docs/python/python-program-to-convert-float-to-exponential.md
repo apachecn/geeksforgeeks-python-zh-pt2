@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: 19.0
 Output: 1.900000e+01
 
@@ -37,7 +37,7 @@ Output: 1.101020e+03
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert float to exponential
 
 # Declaring the float number
@@ -53,7 +53,7 @@ print("Exponent Number:",exp_number)
 
 **输出:**
 
-```
+```py
 Float Number: 1101.02
 Exponent Number: 1.101020e+03
 ```

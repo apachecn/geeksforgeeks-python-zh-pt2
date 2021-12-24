@@ -8,7 +8,7 @@
 
 **方法# 1:** 使用朴素方法
 
-```
+```py
 # Python code to demonstrate
 # sum of list of list
 # using naive method
@@ -35,7 +35,7 @@ print("final list - ", str(res))
 
 **Output:**
 
-```
+```py
 Initial List -  [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 final list -  [12, 15, 18]
 
@@ -44,7 +44,7 @@ final list -  [12, 15, 18]
 **方法 2:** 使用 numpy 数组
 [一个 numpy](https://www.geeksforgeeks.org/numpy-in-python-set-1-introduction/) 是一个通用数组处理包。它提供了一个高性能的多维数组对象，以及使用这些数组的工具。
 
-```
+```py
 # Python code to demonstrate
 # sum of list of list
 # using numpy array functions
@@ -67,7 +67,7 @@ print("final list - ", str(res))
 
 **Output:**
 
-```
+```py
 Initial List -  [[1 2 3]
                  [4 5 6]
                  [7 8 9]]
@@ -77,7 +77,7 @@ final list -  [12 15 18]
 
 **方法 3:** 使用`zip()`和列表理解
 
-```
+```py
 # Python code to demonstrate
 # sum of list of list using 
 # zip and list comprehension
@@ -99,7 +99,7 @@ print("final list - ", str(res))
 
 **Output:**
 
-```
+```py
 Initial List -  [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 final list -  [12, 15, 18]
 

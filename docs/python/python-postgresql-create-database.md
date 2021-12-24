@@ -12,7 +12,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import psycopg2
 
 # connection establishment
@@ -42,7 +42,7 @@ conn.close()
 
 **输出**
 
-```
+```py
 Database has been created successfully !!
 ```
 

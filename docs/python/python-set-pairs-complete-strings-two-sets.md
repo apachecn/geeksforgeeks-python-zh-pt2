@@ -7,7 +7,7 @@
 
 示例:
 
-```
+```py
 Input : set1[] = {"abcdefgh", "geeksforgeeks",
                  "lmnopqrst", "abc"}
         set2[] = {"ijklmnopqrstuvwxyz", 
@@ -30,7 +30,7 @@ The total complete pairs that are forming are:
 1.  考虑所有字符串对，逐个连接它们，并将其转换为集合。
 2.  现在一个接一个地将串联字符串中的所有字母添加到集合中。因为集合包含唯一的值，所以如果集合的长度等于 26，这意味着集合包含所有 26 个英文字母。
 
-```
+```py
 # Function to find pairs of complete strings
 # in two sets of strings
 
@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 7
 
 ```

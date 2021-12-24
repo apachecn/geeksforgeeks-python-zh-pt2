@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Dictionaries by Size
 # Using len() + sort()
@@ -54,7 +54,7 @@ print("Sorted List : " + str(test_list))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort Dictionaries by Size
 # Using sorted() + len() + lambda

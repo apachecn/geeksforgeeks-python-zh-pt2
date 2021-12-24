@@ -26,7 +26,7 @@
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1272771459249844224。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -59,7 +59,7 @@ print("The source of the status is : " + source)
 
 **输出:**
 
-```
+```py
 The source of the status is : Twitter for Android
 
 ```
@@ -69,7 +69,7 @@ The source of the status is : Twitter for Android
 
 我们将使用状态标识来获取状态。上述状态的状态标识为 1273112322773581824。
 
-```
+```py
 # the ID of the status
 id = 1273112322773581824
 
@@ -84,7 +84,7 @@ print("The source of the status is : " + source)
 
 **输出:**
 
-```
+```py
 The source of the status is : Twitter Web App
 
 ```

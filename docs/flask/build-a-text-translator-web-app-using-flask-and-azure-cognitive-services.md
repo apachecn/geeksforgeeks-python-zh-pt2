@@ -12,14 +12,14 @@
 
 **对于窗户:**
 
-```
+```py
 md FlaskAiApp
 cd FlaskAiApp
 ```
 
 **对于 mac 或 linux :**
 
-```
+```py
 mkdir FlaskAiApp
 cd FlaskAiApp
 ```
@@ -32,7 +32,7 @@ Python 的虚拟环境不一定像听起来那么复杂。不要创建虚拟机�
 
 **对于窗户:**
 
-```
+```py
 # Create the environment
 python -m venv venv
 
@@ -42,7 +42,7 @@ python -m venv venv
 
 **对于 macOS 和 Linux :**
 
-```
+```py
 # Create the environment
 python3 -m venv venv
 
@@ -60,7 +60,7 @@ source ./venv/bin/activate
 
 返回命令提示符或终端窗口，使用 pip 运行以下命令来执行安装
 
-```
+```py
 pip install -r requirements.txt
 ```
 
@@ -74,7 +74,7 @@ pip install -r requirements.txt
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -86,7 +86,7 @@ app = Flask(__name__)
 
 ## 蟒蛇 3
 
-```
+```py
 @app.route('/', methods=['GET'])
 def index():
     return render_template('index.html')
@@ -102,7 +102,7 @@ def index():
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en">
 
@@ -151,19 +151,19 @@ def index():
 
 **对于窗户:**
 
-```
+```py
 set FLASK_ENV=development
 ```
 
 **对于 macOS/Linux:**
 
-```
+```py
 export FLASK_ENV=development
 ```
 
 **运行应用程序:**
 
-```
+```py
 flask run
 ```
 
@@ -226,7 +226,7 @@ Azure 提供认知服务，包括计算机视觉服务、语音到文本、文�
 
 ## 蟒蛇 3
 
-```
+```py
 # Importing the required libraries
 import requests
 import os
@@ -240,7 +240,7 @@ load_dotenv()
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 @app.route('/', methods=['POST'])
 def index_post():

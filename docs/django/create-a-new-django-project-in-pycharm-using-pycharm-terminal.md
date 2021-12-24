@@ -24,7 +24,7 @@
 
 在位于左下角的 pycharm 终端中键入以下命令。：
 
-```
+```py
 python -m django --version
 ```
 
@@ -34,7 +34,7 @@ python -m django --version
 
 **第 4 步:**使用以下命令启动项目-
 
-```
+```py
 django-admin startproject firstproject
 ```
 
@@ -42,7 +42,7 @@ django-admin startproject firstproject
 
 **步骤 5:** 将目录更改为 firstproject。
 
-```
+```py
 cd firstproject
 ```
 
@@ -50,7 +50,7 @@ cd firstproject
 
 **步骤 6:** 在 **cmd** 中键入以下命令启动服务器–
 
-```
+```py
 python manage.py runserver
 ```
 

@@ -10,7 +10,7 @@
 
 **示例:**
 
-```
+```py
 1 -> 1
 10 -> 10
 100 -> 100
@@ -31,13 +31,13 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install numerize 
 ```
 
 **例 1:**
 
-```
+```py
 from numerize import numerize 
 
 a = numerize.numerize(100)
@@ -61,7 +61,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 100
 1k
 1.5k
@@ -73,7 +73,7 @@ print(a)
 
 **例 2:**
 
-```
+```py
 from numerize import numerize 
 
 # Here we can also get number upto 
@@ -90,7 +90,7 @@ print(a)
 
 **输出:**
 
-```
+```py
 1.23M
 1.2479M
 12.134K

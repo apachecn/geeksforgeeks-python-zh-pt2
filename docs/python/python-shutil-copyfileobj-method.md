@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to explain shutil.copyfileobj() method
 
 # importing shutil module
@@ -59,7 +59,7 @@ f2.close()
 
 **Output:** 
 
-```
+```py
 Contents of file object copied successfully
 ```
 

@@ -6,7 +6,7 @@
 
 > **语法:**
 > 
-> ```
+> ```py
 > # image manipulation code
 > wand.image.save(file = file_object or 
 >                 filename='filename.format')
@@ -24,7 +24,7 @@
 
 **示例#1:** 将图像保存到磁盘。
 
-```
+```py
 # import Image from wand.image module
 from wand.image import Image
 
@@ -39,7 +39,7 @@ with Image(filename ='koala.png') as img:
 
 **输出:**
 
-```
+```py
 In output an image named koala.png will be saved in disk
 ```
 
@@ -47,7 +47,7 @@ In output an image named koala.png will be saved in disk
 
 我们也可以使用 save()函数将图像保存到输出流中。例如，以下代码将 koala.jpg.gz 图像转换为 JPEG，gzips，然后保存到 koala.jpg.gz:
 
-```
+```py
 # import gzip
 import gzip
 
@@ -69,7 +69,7 @@ gz.close()
 
 **输出:**
 
-```
+```py
 A compressed file named koala.jpg.gz get saved in disk
 
 ```

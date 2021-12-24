@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most frequent word in Strings List
 # Using loop + max() + split() + defaultdict()
@@ -48,7 +48,7 @@ print("Word with maximum frequency : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['gfg is best for geeks', 'geeks love gfg', 'gfg is best']
 Word with maximum frequency : gfg
 ```
@@ -59,7 +59,7 @@ Word with maximum frequency : gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most frequent word in Strings List
 # Using list comprehension + mode()
@@ -83,7 +83,7 @@ print("Word with maximum frequency : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['gfg is best for geeks', 'geeks love gfg', 'gfg is best']
 Word with maximum frequency : gfg
 ```
@@ -97,7 +97,7 @@ Word with maximum frequency : gfg
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Most frequent word in Strings List
 
@@ -141,7 +141,7 @@ print("Word with maximum frequency : " + mostFrequentWord(words))
 
 **输出:**
 
-```
+```py
 The original list is : ['gfg is best for geeks', 'geeks love gfg', 'gfg is best']
 Word with maximum frequency : gfg
 ```

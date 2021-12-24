@@ -8,7 +8,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # 3 element sum
 # using nested loops
@@ -41,7 +41,7 @@ print("The 3 sum element list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 1, 3, 2, 6, 5]
 The 3 sum element list is : [(4, 3, 2), (1, 3, 5), (1, 2, 6)]
 ```
@@ -51,7 +51,7 @@ The 3 sum element list is : [(4, 3, 2), (1, 3, 5), (1, 2, 6)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # 3 element sum
 # using itertools.combination()
@@ -80,7 +80,7 @@ print("The 3 sum element list is : " + str(res))
 
 **Output : **
 
-```
+```py
 The original list : [4, 1, 3, 2, 6, 5]
 The 3 sum element list is : [(4, 3, 2), (1, 3, 5), (1, 2, 6)]
 ```
@@ -89,7 +89,7 @@ The 3 sum element list is : [(4, 3, 2), (1, 3, 5), (1, 2, 6)]
 
 ## 蟒蛇 3
 
-```
+```py
 import itertools
 
 def solve(nums, k):
@@ -238,7 +238,7 @@ print("-----------------------------------------")
 
 **输出:**
 
-```
+```py
 Test case :-
 k= 5  
 nums =  [4, 1, 3, 1]

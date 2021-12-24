@@ -6,13 +6,13 @@ Python 有数学库，并且有很多关于它的函数。 **`math.remainder()`*
 
 **语法:**
 
-```
+```py
 math.remainder(x, y)
 ```
 
 对于有限 x 和有限非零 y，这是差 x–n * y，其中 n 是与商 x / y 的精确值最接近的整数，如果 x / y 正好在两个连续整数的中间，则 n 使用最接近的偶数，因此余数`r = remainder(x, y)`始终满足 abs(r) < = 0.5 * abs(y)。
 
-```
+```py
 # Importing Math module
 import math
 
@@ -25,7 +25,7 @@ print(math.remainder(6, 2))
 
 **输出:**
 
-```
+```py
 1.0
 0.0
 -2.0
@@ -37,13 +37,13 @@ print(math.remainder(6, 2))
 
 **语法:**
 
-```
+```py
 math.isfinite(x)
 ```
 
 **`math.isfinite()`** 如果 **x** 既不是无穷大也不是 **NaN** ，则方法返回 **True** ，否则返回 **False** 。(注意 0.0 被认为是有限的。)
 
-```
+```py
 # Importing Math module
 import math
 
@@ -56,7 +56,7 @@ print(math.isfinite(0.0))
 
 **输出:**
 
-```
+```py
 True
 False
 True

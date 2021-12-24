@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Similar characters Strings comparison
 # Using split() + sorted()
@@ -43,7 +43,7 @@ print("Are strings similar : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : e:e:k:s:g
 The original string 2 is : g:e:e:k:s
 Are strings similar : True
@@ -56,7 +56,7 @@ Are strings similar : True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Similar characters Strings comparison
 # Using set() + split()
@@ -82,7 +82,7 @@ print("Are strings similar : " + str(res)) 
 
 **Output**
 
-```
+```py
 The original string 1 is : e:k:s:g
 The original string 2 is : g:e:k:s
 Are strings similar : True

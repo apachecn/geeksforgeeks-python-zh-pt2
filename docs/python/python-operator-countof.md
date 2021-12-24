@@ -13,7 +13,7 @@
 
 **示例#1:** 使用`Operator.countOf()`统计列表中给定值的出现次数。
 
-```
+```py
 # Python program showing
 # use of countOf() function
 # in a list
@@ -29,7 +29,7 @@ print("Number of occurrence of 3 in arr =", countOf(arr, 3))
 
 **输出:**
 
-```
+```py
 Number of occurrence of b in arr1 = 2
 Number of occurrence of e in arr1 = 0
 Number of occurrence of 3 in arr = 3
@@ -38,7 +38,7 @@ Number of occurrence of 3 in arr = 3
 
 **示例 2:** 使用`Operator.countOf()`统计字典中给定值的出现次数。
 
-```
+```py
 # Python program showing
 # use of countOf() function
 # in a dictionary
@@ -54,7 +54,7 @@ print("Number of occurrence of four in dict =",countOf(d.values(),4))
 
 **输出:**
 
-```
+```py
 Number of occurrence of three in dict = 3
 Number of occurrence of one in dict = 2
 Number of occurrence of four in dict = 0
@@ -63,7 +63,7 @@ Number of occurrence of four in dict = 0
 
 **示例#3:** 使用`Operator.countOf()`统计元组中给定值的出现次数。
 
-```
+```py
 # Python program showing
 # use of countOf() function
 # in a tuples
@@ -80,7 +80,7 @@ print("Number of occurrence of 3 in tuple =",countOf(tup,3))
 
 **输出:**
 
-```
+```py
 Number of occurrence of b in tuple1 = 2
 Number of occurrence of e in tuple1 = 0
 Number of occurrence of 3 in tuple = 3

@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [7, 4, 3, 2, 6, 8, 9, 1]
 
@@ -66,7 +66,7 @@ print("List after replacement ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = [7, 4, 3, 2, 6, 8, 9, 1]
 

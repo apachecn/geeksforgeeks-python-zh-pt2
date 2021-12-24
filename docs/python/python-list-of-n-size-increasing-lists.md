@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # List of N size increasing lists
 # Using loop
@@ -43,7 +43,7 @@ print("The constructed combinations : " + str(res)) 
 
 **Output**
 
-```
+```py
 The constructed combinations : [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
 
 ```
@@ -54,7 +54,7 @@ The constructed combinations : [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # List of N size increasing lists
 # Using combinations()
@@ -75,7 +75,7 @@ print("The constructed combinations : " + str(res)) 
 
 **Output**
 
-```
+```py
 The constructed combinations : [(1, 2), (1, 3), (1, 4), (2, 3), (2, 4), (3, 4)]
 
 ```

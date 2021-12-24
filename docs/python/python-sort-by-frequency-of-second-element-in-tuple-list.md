@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by Frequency of second element in Tuple List
 # Using sorted() + loop + defaultdict() + lambda
@@ -44,7 +44,7 @@ print("Sorted List of tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]
 Sorted List of tuples : [(2, 7), (8, 7), (3, 7), (6, 5), (2, 5), (9, 8)]
 
@@ -56,7 +56,7 @@ Sorted List of tuples : [(2, 7), (8, 7), (3, 7), (6, 5), (2, 5), (9, 8)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort by Frequency of second element in Tuple List
 # Using Counter() + lambda + sorted()
@@ -80,7 +80,7 @@ print("Sorted List of tuples : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [(6, 5), (2, 7), (2, 5), (8, 7), (9, 8), (3, 7)]
 Sorted List of tuples : [(2, 7), (8, 7), (3, 7), (6, 5), (2, 5), (9, 8)]
 

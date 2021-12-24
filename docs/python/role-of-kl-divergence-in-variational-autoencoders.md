@@ -83,7 +83,7 @@ KL 散度代表 Kullback Leibler 散度，它是两个分布之间散度的度�
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 import numpy as np
 import tensorflow as tf
@@ -97,7 +97,7 @@ import matplotlib.pyplot as plt
 
 ## 蟒蛇 3
 
-```
+```py
 # this sampling layer is the bottleneck layer of variational autoencoder,
 # it uses the output from two dense layers z_mean and z_log_var as input, 
 # convert them into normal distribution and pass them to the decoder layer
@@ -115,7 +115,7 @@ class Sampling(Layer):
 
 ## 蟒蛇 3
 
-```
+```py
 # Define Encoder Model
 latent_dim = 2
 
@@ -131,7 +131,7 @@ encoder = Model(encoder_inputs, [z_mean, z_log_var, z], name ="encoder")
 encoder.summary()
 ```
 
-```
+```py
 Model: "encoder"
 __________________________________________________________________________________________________
 Layer (type)                    Output Shape         Param #     Connected to                     
@@ -163,7 +163,7 @@ ________________________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # Define Decoder Architecture
 latent_inputs = keras.Input(shape =(latent_dim, ))
 x = Dense(7 * 7 * 64, activation ="relu")(latent_inputs)
@@ -175,7 +175,7 @@ decoder = Model(latent_inputs, decoder_outputs, name ="decoder")
 decoder.summary()
 ```
 
-```
+```py
 Model: "decoder"
 _________________________________________________________________
 Layer (type)                 Output Shape              Param #   
@@ -202,7 +202,7 @@ _________________________________________________________________
 
 ## 蟒蛇 3
 
-```
+```py
 # this class takes encoder and decoder models and
 # define the complete variational autoencoder architecture
 class VAE(keras.Model):
@@ -239,7 +239,7 @@ class VAE(keras.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 # load fashion mnist dataset  from  keras.dataset API
 (x_train, _), (x_test, _) = keras.datasets.fashion_mnist.load_data()
 fmnist_images = np.concatenate([x_train, x_test], axis = 0)
@@ -256,7 +256,7 @@ vae.fit(fmnist_images, epochs = 100, batch_size = 128)
 
 ## 蟒蛇 3
 
-```
+```py
 def plot_latent(encoder, decoder):
     # display a n * n 2D manifold of imagess
     n = 10
@@ -303,7 +303,7 @@ plot_latent(encoder, decoder)
 
 ## 蟒蛇 3
 
-```
+```py
 def plot_label_clusters(encoder, decoder, data, test_lab):
     z_mean, _, _ = encoder.predict(data)
     plt.figure(figsize =(12, 10))

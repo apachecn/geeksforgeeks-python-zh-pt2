@@ -8,7 +8,7 @@
 
 ### 语法:
 
-```
+```py
 print(len(soup.find_all("p")))
 ```
 
@@ -16,7 +16,7 @@ print(len(soup.find_all("p")))
 
 **步骤 1:** 首先，导入库、美化程序和操作系统。
 
-```
+```py
 from bs4 import BeautifulSoup as bs
 import os
 ```
@@ -31,19 +31,19 @@ import os
 
 **第四步:**此外，解析美化组中的 HTML 文件。
 
-```
+```py
 soup=bs(html, 'html.parser')
 ```
 
 **第五步:**接下来，如果想打印某一行。
 
-```
+```py
 print("Number of paragraph tags:")
 ```
 
 **第六步:**最后，计算并打印 HTML 文档中段落标签的数量。
 
-```
+```py
 print(len(soup.find_all("p")))
 ```
 
@@ -55,7 +55,7 @@ print(len(soup.find_all("p")))
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 
@@ -86,7 +86,7 @@ print(len(soup.find_all("p")))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get number of paragraph tags
 # of a given HTML document in Beautifulsoup
 
@@ -119,7 +119,7 @@ print(len(soup.find_all("p")))
 
 ## 计算机编程语言
 
-```
+```py
 # Python program to get number of paragraph tags
 # of a given Website in Beautifulsoup
 

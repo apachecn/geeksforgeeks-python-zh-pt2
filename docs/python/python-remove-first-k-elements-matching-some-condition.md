@@ -7,7 +7,7 @@
 **方法#1:天真的方法**
 我们可以在 *K* 元素出现后追加匹配条件的元素，从而执行类似于移除的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # to remove first K elements matching condition
 # using Naive Method 
@@ -35,7 +35,7 @@ print ("The filtered list is : " + str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9, 8, 5]
 The filtered list is : [6, 9, 8, 5]
 
@@ -44,7 +44,7 @@ The filtered list is : [6, 9, 8, 5]
 **方法 2:使用`itertools.filterfalse() + itertools.count()`**
 这是执行这个特殊任务的不同而优雅的方式。当计数器达到 K 并与条件匹配时，它会过滤掉所有大于 K 的数字。这是实现这一任务的一种线性和首选方法。
 
-```
+```py
 # Python3 code to demonstrate 
 # to remove first K elements matching condition
 # using itertools.filterfalse() + itertools.count()
@@ -68,7 +68,7 @@ print ("The filtered list is : " + str(list(res)))
 
 **Output:**
 
-```
+```py
 The original list is : [3, 5, 1, 6, 7, 9, 8, 5]
 The filtered list is : [6, 9, 8, 5]
 

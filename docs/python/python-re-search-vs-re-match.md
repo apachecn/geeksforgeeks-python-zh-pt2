@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import re module
 import re
 
@@ -39,7 +39,7 @@ print(re.match(Substring, String2, re.IGNORECASE))
 
 **输出:**
 
-```
+```py
 <re.Match object; span=(75, 81), match='string'>
 None
 <re.Match object; span=(0, 6), match='string'>

@@ -7,7 +7,7 @@ Python [列表切片](https://www.geeksforgeeks.org/python-list-comprehension-an
 **方法#1:使用无**
 在列表切片过程中，给出所需的第一个索引 K，并指定“无”作为切片中的第二个参数，内部工作方式是从列表中的 K 开始对所有元素进行切片，直到包含它的末尾。
 
-```
+```py
 # Python3 code to demonstrate 
 # list slicing from K to end
 # using None
@@ -31,7 +31,7 @@ print ("The sliced list is : " +  str(res))
 
 **Output:**
 
-```
+```py
 The original list is : [5, 6, 2, 3, 9]
 The sliced list is : [2, 3, 9]
 

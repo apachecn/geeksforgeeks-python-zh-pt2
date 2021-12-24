@@ -6,7 +6,7 @@
 
 1.  **Using OpenCV :** OpenCV (Open Source Computer Vision) is a computer vision library that contains various functions to perform operations on pictures or videos. It was originally developed by Intel but was later maintained by Willow Garage and is now maintained by Itseez. This library is cross-platform that is it is available on multiple programming languages such as Python, C++ etc.
 
-    ```
+    ```py
     # Python program to read image using OpenCV
 
     # importing OpenCV(cv2) module
@@ -33,7 +33,7 @@
 
 2.  **Using MatplotLib :** Matplotlib is an amazing visualization library in Python for 2D plots of arrays. Matplotlib is a multi-platform data visualization library built on NumPy arrays and designed to work with the broader SciPy stack. It was introduced by John Hunter in the year 2002\. Matplotlib comes with a wide variety of plots. Plots helps to understand trends, patterns, and to make correlations. They’re typically instruments for reasoning about quantitative information.
 
-    ```
+    ```py
     # Python program to read 
     # image using matplotlib
 
@@ -54,7 +54,7 @@
 
 3.  **Using PIL :** PIL is the Python Imaging Library which provides the python interpreter with image editing capabilities. It was developed by Fredrik Lundh and several other contributors. Pillow is the friendly PIL fork and an easy to use library developed by Alex Clark and other contributors.
 
-    ```
+    ```py
     # Python program to read
     # image using PIL module
 
@@ -76,7 +76,7 @@
 
     **输出:**
 
-    ```
+    ```py
 
     PNG
     RGBA

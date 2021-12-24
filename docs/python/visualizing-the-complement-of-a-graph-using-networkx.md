@@ -49,7 +49,7 @@ g 补码
 
 ## 蟒蛇 3
 
-```
+```py
 # importing networkx module
 import networkx as nx
 

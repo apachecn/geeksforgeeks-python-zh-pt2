@@ -21,7 +21,7 @@
 
 **语法:**
 
-```
+```py
 with open('filename', 'r', encoding='utf-8') as file:
     my_xml = file.read()
 ```
@@ -46,7 +46,7 @@ with open('filename', 'r', encoding='utf-8') as file:
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 import xmltodict
 import pprint
@@ -75,7 +75,7 @@ pprint.pprint(my_dict, indent=2)
 
 ## 蟒蛇 3
 
-```
+```py
 # Import the required modules
 import xmltodict
 import pprint

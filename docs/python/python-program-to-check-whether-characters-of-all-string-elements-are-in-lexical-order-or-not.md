@@ -26,7 +26,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["dent", "flop", "most", "cent"]
 
@@ -59,7 +59,7 @@ print("Are all strings ordered ? : " + str(res))
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing list
 test_list = ["dent", "flop", "most", "cent"]
 

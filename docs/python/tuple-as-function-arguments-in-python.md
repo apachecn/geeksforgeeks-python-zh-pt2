@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Tuple as function arguments
 
@@ -49,7 +49,7 @@ if __name__ == "__main__" :
 
 **输出:**
 
-```
+```py
 The result of Case 1 : 
 Value of a : 4
 Value of b : 7

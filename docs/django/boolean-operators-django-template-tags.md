@@ -7,7 +7,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 **语法:**
 
-```
+```py
 {% if variable boolean_operator value %}
 // statements
 {% endif %}
@@ -18,7 +18,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 超文本标记语言
 
-```
+```py
 {% if athlete_list and coach_list %}
     Both athletes and coaches are available.
 {% endif %}
@@ -55,7 +55,7 @@ Django 模板是使用 Django 模板语言标记的文本文档或 Python 字符
 
 ## 蟒蛇 3
 
-```
+```py
 # import Http Response from django
 from django.shortcuts import render
 
@@ -73,7 +73,7 @@ def geeks_view(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 
 # importing views from views.py
@@ -88,7 +88,7 @@ urlpatterns = [
 
 ## 超文本标记语言
 
-```
+```py
 {% if data == 99 %}
 Value in data is : - {{ data }}
 {% else %}
@@ -105,7 +105,7 @@ Data is empty
 **==运算者**
 平等。示例:
 
-```
+```py
 {% if somevar == "x" %}
   This appears if variable somevar equals the string "x"
 {% endif %}
@@ -114,7 +114,7 @@ Data is empty
 **！=运算符**
 不等式。示例:
 
-```
+```py
 {% if somevar != "x" %}
   This appears if variable somevar does not equal the string "x",
   or if somevar is not found in the context
@@ -124,7 +124,7 @@ Data is empty
 **<符**
 不到。示例:
 
-```
+```py
 {% if somevar < 100 %}
   This appears if variable somevar is less than 100.
 {% endif %}
@@ -133,7 +133,7 @@ Data is empty
 **>符**
 大过。示例:
 
-```
+```py
 {% if somevar > 0 %}
   This appears if variable somevar is greater than 0.
 {% endif %}
@@ -142,7 +142,7 @@ Data is empty
 **< =运算符**
 小于或等于。示例:
 
-```
+```py
 {% if somevar <= 100 %}
   This appears if variable somevar is less than 100 or equal to 100.
 {% endif %}
@@ -151,7 +151,7 @@ Data is empty
 **> =运算符**
 大于或等于。示例:
 
-```
+```py
 {% if somevar >= 1 %}
   This appears if variable somevar is greater than 1 or equal to 1.
 {% endif %}
@@ -160,20 +160,20 @@ Data is empty
 **在符**内
 所含。许多 Python 容器都支持这个操作符来测试给定值是否在容器中。以下是如何解释 y 中的 x 的一些示例:
 
-```
+```py
 {% if "bc" in "abcdef" %}
   This appears since "bc" is a substring of "abcdef"
 {% endif %}
 ```
 
-```
+```py
 {% if "hello" in greetings %}
   If greetings is a list or set, one element of which is the string
   "hello", this will appear.
 {% endif %}
 ```
 
-```
+```py
 {% if user in users %}
   If users is a QuerySet, this will appear if user is an
   instance that belongs to the QuerySet.
@@ -185,7 +185,7 @@ Data is empty
 **是符**
 的对象身份。测试两个值是否是同一个对象。示例:
 
-```
+```py
 {% if somevar is True %}
   This appears if and only if somevar is True.
 {% endif %}
@@ -198,7 +198,7 @@ Data is empty
 **不算符**
 否定对象身份。测试两个值是否不是同一个对象。这是对 is 运算符的否定。示例:
 
-```
+```py
 {% if somevar is not True %}
   This appears if somevar is not True, or if somevar is not found in the
   context.

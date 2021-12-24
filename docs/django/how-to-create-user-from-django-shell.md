@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib.auth.models import User
 
 user = User.objects.create_user('sonu','sonu@xyz.com','sn@pswrd')

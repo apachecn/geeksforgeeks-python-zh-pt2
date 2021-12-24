@@ -10,7 +10,7 @@
 **示例#1 :**
 在此示例中，我们可以看到，通过使用`zlib.adler32()`方法，我们能够使用此方法计算给定数据的无符号 32 位校验和。
 
-```
+```py
 # import zlib and adler32
 import zlib
 
@@ -28,7 +28,7 @@ print(t)
 
 **例 2 :**
 
-```
+```py
 # import zlib and adler32
 import zlib
 

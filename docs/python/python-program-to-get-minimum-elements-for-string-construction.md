@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Minimum elements for String construction
 # Using issubset() + set() + combinations()
@@ -58,7 +58,7 @@ print("The Minimum count elements for string : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : ['geek', 'ring', 'sfor', 'ok', 'woke']
 The Minimum count elements for string : 2
 ```

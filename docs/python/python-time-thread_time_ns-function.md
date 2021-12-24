@@ -6,7 +6,7 @@
 
 **语法:**
 
-```
+```py
 time.thread_time_ns()
 ```
 
@@ -18,7 +18,7 @@ time.thread_time_ns()
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -28,7 +28,7 @@ print(time.thread_time_ns())
 
 **输出**:
 
-```
+```py
 3633875824
 ```
 
@@ -36,7 +36,7 @@ print(time.thread_time_ns())
 
 ## 蟒蛇 3
 
-```
+```py
 # import time module
 import time
 
@@ -63,7 +63,7 @@ print(time.thread_time_ns())
 
 **输出:**
 
-```
+```py
 3616352715
 3616782418
 3617173584

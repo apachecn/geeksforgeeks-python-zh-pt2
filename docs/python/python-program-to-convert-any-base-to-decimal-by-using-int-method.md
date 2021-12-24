@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : '1011' 
 base = 2 
 Output : 11 
@@ -29,7 +29,7 @@ Output : 5349
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert any base
 # number to its corresponding decimal
 # number
@@ -58,6 +58,6 @@ if __name__ == '__main__' :
 
 **输出:**
 
-```
+```py
 26
 ```

@@ -17,7 +17,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geeksforgeeks best for geeks'
 
@@ -36,7 +36,7 @@ print("The K joined String is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks best for geeks
 The K joined String is : esre
 
@@ -48,7 +48,7 @@ The K joined String is : esre
 
 ## 蟒蛇 3
 
-```
+```py
 # initializing string
 test_str = 'geeksforgeeks best for geeks'
 
@@ -72,7 +72,7 @@ print("The K joined String is : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks best for geeks
 The K joined String is : esre
 

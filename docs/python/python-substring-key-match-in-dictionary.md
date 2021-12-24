@@ -7,7 +7,7 @@
 **方法#1:使用`items()` +列表理解**
 上述方法的组合可以用来执行这个特定的任务，在这个任务中，我们只是使用 items 函数访问键值对，列表理解有助于迭代和访问逻辑。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substring Key match in dictionary
 # Using items() + list comprehension
@@ -31,7 +31,7 @@ print("Values for substring keys : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'All': 1, 'food': 4, 'have': 2, 'good': 3}
 Values for substring keys : [4, 3]
 

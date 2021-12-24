@@ -25,7 +25,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # slice() operator
 
@@ -41,7 +41,7 @@ print(String[s2])
 
 **输出:**
 
-```
+```py
 String slicing
 Gee
 ek
@@ -51,7 +51,7 @@ ek
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # slice() operator
 
@@ -66,7 +66,7 @@ print(L[s2])
 
 **输出:**
 
-```
+```py
 List slicing
 [1, 2, 3]
 [2, 4]
@@ -76,7 +76,7 @@ List slicing
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # slice() operator
 
@@ -91,7 +91,7 @@ print(T[s2])
 
 **输出:**
 
-```
+```py
 Tuple slicing
 (1, 2, 3)
 (2, 4)
@@ -103,7 +103,7 @@ Tuple slicing
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # slice() operator
 
@@ -134,7 +134,7 @@ print(T[s2])
 
 **输出:**
 
-```
+```py
 String slicing
 GeeksforGe
 se

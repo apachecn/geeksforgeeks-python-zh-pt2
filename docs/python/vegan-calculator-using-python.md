@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # function to calculate the amount of
 # things saved by being vegan
 def vegan_calculator(m, y):
@@ -49,7 +49,7 @@ if __name__=="__main__":
 
 **输出:**
 
-```
+```py
 You have been vegan for 28 months.
 
 You have successfully saved :

@@ -8,17 +8,17 @@ Django 是一个高级 Python Web 框架，它鼓励快速开发和干净、实�
 
 要安装 django，请打开 cmd 或终端，并写下以下命令
 
-```
+```py
 pip3 install django
 ```
 
 然后创建新项目
 
-```
+```py
 django-admin startproject newproj
 ```
 
-```
+```py
 cd newproj
 ```
 
@@ -26,13 +26,13 @@ cd newproj
 
 Windows 操作系统
 
-```
+```py
 python manage.py startapp main
 ```
 
 人的本质
 
-```
+```py
 python3 manage.py startapp main
 ```
 
@@ -44,7 +44,7 @@ python3 manage.py startapp main
 
 运行此命令进行迁移
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -56,7 +56,7 @@ python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 # Create your models here.
@@ -67,11 +67,11 @@ class Todo(models.Model):
         return f"{self.task}"
 ```
 
-```
+```py
 python manage.py makemigrations
 ```
 
-```
+```py
 python manage.py migrate
 ```
 
@@ -79,7 +79,7 @@ python manage.py migrate
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from .models import *
 # Register your models here.
@@ -91,7 +91,7 @@ admin.site.register(Todo)
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <head>
@@ -134,7 +134,7 @@ admin.site.register(Todo)
 
 ## 蟒蛇 3
 
-```
+```py
 from django.shortcuts import render
 from .models import Todo
 # Create your views here.
@@ -151,7 +151,7 @@ def home(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.urls import path
 from .views import *
 
@@ -166,7 +166,7 @@ urlpatterns = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path,include
 
@@ -178,7 +178,7 @@ urlpatterns = [
 
 要运行应用程序写命令
 
-```
+```py
 python manage.py runserver
 ```
 

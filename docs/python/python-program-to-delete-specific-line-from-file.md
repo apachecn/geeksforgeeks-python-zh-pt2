@@ -16,7 +16,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # deleting a line
 # based on the position
 
@@ -47,7 +47,7 @@ except:
 
 **输出:**
 
-```
+```py
 Deleted
 ```
 
@@ -61,7 +61,7 @@ Deleted
 
 ## 蟒蛇 3
 
-```
+```py
 # deleting a line on the basis
 # of a matching text (exactly)
 

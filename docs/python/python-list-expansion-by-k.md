@@ -7,7 +7,7 @@
 **方法#1:使用列表理解**
 这个任务可以使用列表理解方法来执行，该方法只是通用循环方法的缩短版本，在该方法中，我们使用迭代将每个元素重复 K 次。
 
-```
+```py
 # Python3 code to demonstrate
 # List extension by K 
 # using list comprehension

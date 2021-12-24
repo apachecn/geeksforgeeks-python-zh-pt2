@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import wx
 
 class FrameUI(wx.Frame):
@@ -72,7 +72,7 @@ ex.MainLoop()
 
 **控制台输出:**
 
-```
+```py
 (247, 247, 247, 255)
 (61, 61, 61, 255)
 <wx._gdi.Font; proxy of  >

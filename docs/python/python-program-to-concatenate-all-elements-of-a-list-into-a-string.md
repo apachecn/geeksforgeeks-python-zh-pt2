@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input: ['hello', 'geek', 'have', 'a', 'geeky', 'day']
 Output: hello geek have a geeky day
 
@@ -18,7 +18,7 @@ Output: did u like my article ?
 
 ## 蟒蛇 3
 
-```
+```py
 # code
 l = ['hello', 'geek', 'have',
    'a', '1', 'day']
@@ -31,7 +31,7 @@ print(l)
 
 **输出:**
 
-```
+```py
 hello geek have a 1 day
 ```
 
@@ -39,7 +39,7 @@ hello geek have a 1 day
 
 ## 蟒蛇 3
 
-```
+```py
 l = [ 'hello', 'geek', 'have', 
      'a', 'geeky', 'day']
 
@@ -55,6 +55,6 @@ print(ans)
 
 **输出:**
 
-```
+```py
 hello geek have a geeky day
 ```

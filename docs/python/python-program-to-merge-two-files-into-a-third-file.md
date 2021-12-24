@@ -24,7 +24,7 @@
 
 下面是实现。
 
-```
+```py
 # Python program to
 # demonstrate merging
 # of two files
@@ -64,7 +64,7 @@ with open ('file3.txt', 'w') as fp:
 
 下面是实现。
 
-```
+```py
 # Python program to
 # demonstrate merging of
 # two files

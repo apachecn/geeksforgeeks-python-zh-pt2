@@ -8,7 +8,7 @@ As 时间模块提供各种与时间相关的功能。因此有必要导入时�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show time by perf_counter()
 from time import perf_counter
 
@@ -42,7 +42,7 @@ print("Elapsed time during the whole program in seconds:",
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to show time by
 # perf_counter_ns()
 from time import perf_counter_ns

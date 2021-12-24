@@ -18,7 +18,7 @@ not 关键字可能的实际应用有:
 
 ## 蟒蛇 3
 
-```
+```py
 # variable
 a = True
 print(not a)
@@ -26,7 +26,7 @@ print(not a)
 
 **输出:**
 
-```
+```py
 False
 ```
 
@@ -34,7 +34,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 # variable
 a = False
 print(not a)
@@ -42,7 +42,7 @@ print(not a)
 
 **输出:**
 
-```
+```py
 True
 ```
 
@@ -52,7 +52,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'not' keyword
 
@@ -84,7 +84,7 @@ geek_Func()
 
 **输出:**
 
-```
+```py
 Negation  of False :  True
 Negation of True :  False
 Negation of result of And operation :  True
@@ -96,7 +96,7 @@ Negation of result of And operation :  True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'not' keyword
 
@@ -132,7 +132,7 @@ geek_Func()
 
 **输出:**
 
-```
+```py
 Negation  of String :  False
 Negation of list :  False
 Negation of dictionary :  False
@@ -147,7 +147,7 @@ Negation of Empty Dictionary :  True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrait
 # 'not' keyword
 
@@ -176,7 +176,7 @@ geek_Func()
 
 **输出:**
 
-```
+```py
 Multiple is not in range
 10
 MUltiple is not in range

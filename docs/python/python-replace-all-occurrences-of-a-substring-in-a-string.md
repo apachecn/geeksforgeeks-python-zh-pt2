@@ -17,7 +17,7 @@
 
 我们使用 [maketrans()和 translate()](https://www.geeksforgeeks.org/python-maketrans-translate-functions/) 。这是执行此任务的一种内置方式。该函数在内部维护表，并执行交换任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Swap Binary substring
 # Using translate()
@@ -39,7 +39,7 @@ print("The string after swap : " + str(test_str)) 
 
 **Output:**
 
-```
+```py
 The original string is : geeksforgeeks
 The string after swap : accdsforaccds
 

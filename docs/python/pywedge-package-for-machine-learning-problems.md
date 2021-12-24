@@ -32,7 +32,7 @@ Pywedge 是一个开源的 python 包，可 pip 安装，由 **Venkatesh Rengara
 
 ## 蟒蛇 3
 
-```
+```py
 import numpy as np
 import pandas as pd
 import warnings
@@ -45,7 +45,7 @@ from sklearn.metrics import mean_squared_error
 
 ## Python
 
-```
+```py
 # Loading testing Data
 test_data = pd.read_csv("TEST.csv")
 # Loading training Data
@@ -54,7 +54,7 @@ data = pd.read_csv("TRAIN.csv")
 data.shape
 ```
 
-```
+```py
 (8000, 5)
 ```
 
@@ -62,6 +62,6 @@ data.shape
 
 ## 【Python】
 
-```
+```py
 data.head()
 ```

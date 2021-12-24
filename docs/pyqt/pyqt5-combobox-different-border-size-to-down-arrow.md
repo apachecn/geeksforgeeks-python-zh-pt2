@@ -7,7 +7,7 @@
 为此，我们必须更改与组合框关联的样式表，下面是样式表代码–
 **代码 1**
 
-```
+```py
 QComboBox::down-arrow
 {
 border : solid black;
@@ -21,7 +21,7 @@ border-width-left : 3px;
 
 **代码 2**
 
-```
+```py
 QComboBox::down-arrow
 {
 border : solid black;
@@ -34,7 +34,7 @@ border-width : 5px 1px 10px 3px;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

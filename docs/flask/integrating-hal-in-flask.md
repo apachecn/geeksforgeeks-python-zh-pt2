@@ -13,7 +13,7 @@
 
 要安装此模块，请在终端中键入以下命令。
 
-```
+```py
 pip install Flask-HAL
 ```
 
@@ -29,7 +29,7 @@ pip install Flask-HAL
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_hal import HAL, document, link
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
 ## 蟒蛇 3
 
-```
+```py
 from flask import Flask
 from flask_hal import HAL, document, link
 from flask_hal.document import Embedded

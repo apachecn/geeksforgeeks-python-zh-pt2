@@ -7,7 +7,7 @@ Python 是进行数据分析的优秀语言，主要是因为以数据为中心�
 
 要获取所用的数据集，请单击此处的。
 
-```
+```py
 s=read_csv("stock.csv", squeeze=True)
 #reading csv file and making series
 ```
@@ -38,7 +38,7 @@ s=read_csv("stock.csv", squeeze=True)
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas for reading csv file
 import pandas as pd
 
@@ -75,7 +75,7 @@ print(s.mode())
 
 **输出:**
 
-```
+```py
 3012
 1006942.0
 334.3100929614874
@@ -91,7 +91,7 @@ print(s.mode())
 
 ## 蟒蛇 3
 
-```
+```py
 # import pandas for reading csv file
 import pandas as pd
 
@@ -113,7 +113,7 @@ print(s.value_counts().head(3))
 
 **输出:**
 
-```
+```py
 dtype: float64
 count    3012.000000
 mean      334.310093

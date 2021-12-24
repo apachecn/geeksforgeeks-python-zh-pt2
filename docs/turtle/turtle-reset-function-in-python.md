@@ -10,7 +10,7 @@
 
 **语法:**
 
-```
+```py
 turtle.reset()
 
 ```
@@ -21,7 +21,7 @@ turtle.reset()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -42,7 +42,7 @@ turtle.reset()
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 

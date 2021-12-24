@@ -7,7 +7,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to sort list of
 # strings in case insensitive manner
@@ -39,7 +39,7 @@ print("Case-insensitive sorted list", str(res2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # to sort list of
 # strings in case insensitive manner

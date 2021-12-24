@@ -24,7 +24,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Life Path Number
 # Using loop
@@ -49,7 +49,7 @@ print("Life Path Number  : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : 19970314
 Life Path Number  : 7
 ```
@@ -60,7 +60,7 @@ Life Path Number  : 7
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Life Path Number
 # Using recursion
@@ -83,7 +83,7 @@ print("Life Path Number  : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : 19970314
 Life Path Number  : 7
 ```

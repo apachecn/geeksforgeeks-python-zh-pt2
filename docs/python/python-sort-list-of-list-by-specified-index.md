@@ -7,7 +7,7 @@
 **方法#1:使用 `sort()` + lambda**
 `sort()`可以通过传递一个函数作为关键字来执行这种变化的排序，该函数根据所需的内部列表索引执行排序。
 
-```
+```py
 # Python 3 code to demonstrate 
 # to sort list of list by given index 
 # using sort() + lambda
@@ -29,7 +29,7 @@ print ("List after sorting by 2nd element of lists : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [['Rash', 4, 28], ['Varsha', 2, 20], ['Nikhil', 1, 20], ['Akshat', 3, 21]]
 List after sorting by 2nd element of lists : [['Nikhil', 1, 20], ['Varsha', 2, 20], ['Akshat', 3, 21], ['Rash', 4, 28]]
 
@@ -38,7 +38,7 @@ List after sorting by 2nd element of lists : [['Nikhil', 1, 20], ['Varsha', 2, 2
 **方法 2:使用`sorted() + itemgetter()`**
 这也可以应用于执行这个特定的任务。它的优点是不修改原始列表。`itemgetter()`用于获取需要执行排序操作的索引元素。
 
-```
+```py
 # Python3 code to demonstrate 
 # to sort list of list by given index 
 # using sorted() + itemgetter()
@@ -61,7 +61,7 @@ print ("List after sorting by 2nd element of lists : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [['Rash', 4, 28], ['Varsha', 2, 20], ['Nikhil', 1, 20], ['Akshat', 3, 21]]
 List after sorting by 2nd element of lists : [['Nikhil', 1, 20], ['Varsha', 2, 20], ['Akshat', 3, 21], ['Rash', 4, 28]]
 

@@ -29,7 +29,7 @@
 从上面的列表中，我们可以看到品牌本身可以是数据库中不同的表。为了用户的舒适，Django 本身提供了 SQLite3 数据库，我们将在本系列中使用它。在部署期间，我们可以使用不同的数据库。要了解更多关于数据库的信息，请查看[数据库管理系统](https://www.geeksforgeeks.org/database-management-system-introduction-set-1/)。
 要为**品牌**创建应用程序，请在您的终端中运行以下命令
 
-```
+```py
 python manage.py startapp brand
 ```
 

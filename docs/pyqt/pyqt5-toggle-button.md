@@ -16,7 +16,7 @@
 
 下面是实现。
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

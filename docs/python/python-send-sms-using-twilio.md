@@ -18,7 +18,7 @@
 
 使用 pip 安装 *Twilio* 库。
 
-```
+```py
 pip install twilio
 ```
 
@@ -26,7 +26,7 @@ pip install twilio
 
 下面是 Python 实现:
 
-```
+```py
 # importing twilio
 from twilio.rest import Client
 

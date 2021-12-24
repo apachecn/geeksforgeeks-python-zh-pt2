@@ -12,7 +12,7 @@ Python 为开发图形用户界面提供了多个选项。在所有的 GUI 方�
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from tkinter import *
 ```
@@ -23,7 +23,7 @@ from tkinter import *
 
 **语法:**
 
-```
+```py
 widget.config(**options)
 ```
 
@@ -31,7 +31,7 @@ widget.config(**options)
 
 ## 蟒蛇 3
 
-```
+```py
 # function to change properties of button on hover
 def changeOnHover(button, colorOnHover, colorOnLeave):
 
@@ -49,7 +49,7 @@ def changeOnHover(button, colorOnHover, colorOnLeave):
 
 ## 蟒蛇 3
 
-```
+```py
 # Driver Code
 root = Tk()
 
@@ -72,7 +72,7 @@ root.mainloop()
 
 ## 蟒蛇 3
 
-```
+```py
 # import required module
 from tkinter import *
 

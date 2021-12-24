@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : lst1 = [[5, 9], [8, 2, 6], [3, 4]]
         lst2 = [[9, 5, 8], [2, 6], [3, 4, 1]]
 Output : [[9, 5], [8], [2, 6], [3, 4], [1]]
@@ -21,7 +21,7 @@ Output : [['b', 'c'], ['x'], ['y'], ['a']]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find Greatest common
 # intersection of two nested lists
 import itertools
@@ -48,7 +48,7 @@ print(GCI(lst1, lst2))
 
 **Output:** 
 
-```
+```py
 [[9, 5], [8], [2, 6], [3, 4], [1]]
 ```
 
@@ -57,7 +57,7 @@ print(GCI(lst1, lst2))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to find Greatest common
 # intersection of two nested lists
 import itertools
@@ -84,6 +84,6 @@ print(GCI(lst1, lst2))
 
 **Output:** 
 
-```
+```py
 [[9, 5], [8], [2, 6], [3, 4], [1]]
 ```

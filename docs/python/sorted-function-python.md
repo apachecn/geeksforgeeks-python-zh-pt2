@@ -20,7 +20,7 @@ Sorted()对任何序列(列表、元组)进行排序，并且总是以排序的�
 
 ## 蟒蛇 3
 
-```
+```py
 x = [2, 8, 1, 4, 6, 3, 7]
 
 print("Sorted List returned :"),
@@ -35,7 +35,7 @@ print(x)
 
 **输出:**
 
-```
+```py
 Sorted List returned : [1, 2, 3, 4, 6, 7, 8]
 
 Reverse sort : [8, 7, 6, 4, 3, 2, 1]
@@ -47,7 +47,7 @@ Original list not modified : [2, 8, 1, 4, 6, 3, 7]
 
 ## 蟒蛇 3
 
-```
+```py
 # List
 x = ['q', 'w', 'r', 'e', 't', 'y']
 print(sorted(x))
@@ -75,7 +75,7 @@ print(sorted(x))
 
 **输出:**
 
-```
+```py
 ['e', 'q', 'r', 't', 'w', 'y']
 ['e', 'q', 'r', 't', 'w', 'y']
 ['h', 'n', 'o', 'p', 't', 'y']
@@ -88,7 +88,7 @@ print(sorted(x))
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate
 # Reverse Sort a String
 # using join() + sorted() + reverse
@@ -109,7 +109,7 @@ print("String after reverse sorting : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string : geekforgeeks
 String after reverse sorting : srokkggfeeee
 ```
@@ -118,7 +118,7 @@ String after reverse sorting : srokkggfeeee
 
 ## 蟒蛇 3
 
-```
+```py
 # Python code to demonstrate
 # Reverse Sort a String
 # using sorted() + reduce() + lambda
@@ -139,7 +139,7 @@ print("String after reverse sorting : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string : geekforgeeks
 String after reverse sorting : srokkggfeeee
 ```
@@ -150,7 +150,7 @@ sorted()函数有一个名为“key”的可选参数，该参数将函数作为
 
 ## 蟒蛇 3
 
-```
+```py
 L = ["cccc", "b", "dd", "aaa"]
 
 print("Normal sort :", sorted(L))
@@ -160,7 +160,7 @@ print("Sort with len :", sorted(L, key=len))
 
 **输出:**
 
-```
+```py
 Normal sort : ['aaa', 'b', 'cccc', 'dd']
 Sort with len : ['b', 'dd', 'aaa', 'cccc']
 ```
@@ -169,7 +169,7 @@ Key 也可以把用户自定义函数作为其值进行排序的基础。
 
 ## 蟒蛇 3
 
-```
+```py
 # Sort a list of integers based on
 # their remainder on dividing from 7
 def func(x):
@@ -183,7 +183,7 @@ print("Sorted with key:", sorted(L, key=func))
 
 **输出:**
 
-```
+```py
 Normal sort : [3, 7, 11, 15]
 Sorted with key: [7, 15, 3, 11]
 ```

@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : test_list = [[4, 5, 5], [2, 7, 4], [8, 6, 3]]
 Output : 7
 Explanation : Random number extracted from Matrix.
@@ -22,7 +22,7 @@ Explanation : Random number extracted from 2nd row from Matrix.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random Matrix Element
 # Using chain.from_iterables() + random.choice()
@@ -44,7 +44,7 @@ print("Random number from Matrix : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 5, 5], [2, 7, 4], [8, 6, 3]]
 Random number from Matrix : 6
 
@@ -56,7 +56,7 @@ Random number from Matrix : 6
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Random Matrix Element
 # Using random.choice() [if row number given]
@@ -80,7 +80,7 @@ print("Random number from Matrix Row : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[4, 5, 5], [2, 7, 4], [8, 6, 3]]
 Random number from Matrix Row : 7
 

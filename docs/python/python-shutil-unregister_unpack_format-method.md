@@ -17,7 +17,7 @@
 
 **Code:** Use of shutil.unregister_unpack_format() method
 
-```
+```py
 # Python program to explain shutil.unregister_unpack_format() method  
 
 # importing shutil module 

@@ -17,7 +17,7 @@
 
 要安装此软件，请在终端中键入以下命令。
 
-```
+```py
 pip install flask2postman
 ```
 
@@ -45,7 +45,7 @@ pip install flask2postman
 
 ## python 3
 
-```
+```py
 from flask import Flask, render_template
 
 app = Flask(__name__)
@@ -55,7 +55,7 @@ app = Flask(__name__)
 
 ## python 3
 
-```
+```py
 # GET API
 @app.route('/')
 def index():

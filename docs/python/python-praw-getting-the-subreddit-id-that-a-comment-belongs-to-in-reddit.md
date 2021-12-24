@@ -9,7 +9,7 @@
 
 评论的 ID 是:fvib7aw
 
-```
+```py
 # importing the module
 import praw
 
@@ -41,7 +41,7 @@ print("The ID of the subreddit is : " + subreddit_id)
 
 **输出:**
 
-```
+```py
 The ID of the subreddit is : t5_2qh1o
 
 ```
@@ -51,7 +51,7 @@ The ID of the subreddit is : t5_2qh1o
 
 评论的 ID 是:fv9qvgo
 
-```
+```py
 # importing the module
 import praw
 
@@ -83,7 +83,7 @@ print("The ID of the subreddit is : " + subreddit_id)
 
 **输出:**
 
-```
+```py
 The ID of the subreddit is : t5_2qizd
 
 ```

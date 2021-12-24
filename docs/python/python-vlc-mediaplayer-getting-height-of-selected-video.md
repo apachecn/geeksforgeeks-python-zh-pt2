@@ -13,7 +13,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -48,7 +48,7 @@ print(value)
 
 ![](img/33c5fe6e13ea1c939ea793883a04f9c7.png)
 
-```
+```py
 Height at Index 0 : 
 720
 ```
@@ -59,7 +59,7 @@ Height at Index 0 :
 
 ## 蟒蛇 3
 
-```
+```py
 # importing vlc module
 import vlc
 
@@ -94,7 +94,7 @@ print(value)
 
 ![](img/adad80dcd4fb054e2f8093e65d2cb30f.png)
 
-```
+```py
 Height at Index 0 : 
 480
 ```

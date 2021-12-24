@@ -10,7 +10,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Here we import two modules, socket and time
 
 import socket
@@ -51,7 +51,7 @@ print(f'Time taken {end-start:.2f} seconds')
 
 **输出:**
 
-```
+```py
 What you want to scan?: localhost
 Starting scan on host: 127.0.0.1
 port 0 is closed
@@ -68,7 +68,7 @@ Time taken 8.12 seconds
 
 ## 蟒蛇 3
 
-```
+```py
 # importing the sockets module
 import socket
 
@@ -97,7 +97,7 @@ else:
 
 **输出:**
 
-```
+```py
 What you want to scan?: localhost
 Starting scan on host:  127.0.0.1
 Enter the port number to be scanned: 135

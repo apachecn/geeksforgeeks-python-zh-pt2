@@ -22,7 +22,7 @@ Python docx 模块允许用户通过操作现有文档或创建一个新的空�
 
 安装该模块的 Pip 命令是:
 
-```
+```py
 pip install python-docx
 ```
 
@@ -37,7 +37,7 @@ pip install python-docx
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 
@@ -65,7 +65,7 @@ doc.save('gfg.docx')
 
 ## 蟒蛇 3
 
-```
+```py
 # Import docx NOT python-docx
 import docx
 from docx.shared import Inches

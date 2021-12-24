@@ -20,7 +20,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # First character in each word is 
 # uppercase and remaining lowercases
 s = 'Geeks For Geeks'
@@ -47,7 +47,7 @@ print(s.istitle())
 
 **输出:**
 
-```
+```py
 True
 False
 False
@@ -59,7 +59,7 @@ False
 
 ## 蟒蛇 3
 
-```
+```py
 s = 'I Love Geeks For Geeks'
 
 if s.istitle() == True:
@@ -77,7 +77,7 @@ else:
 
 **输出:**
 
-```
+```py
 Titlecased String
 Not a Titlecased String
 ```

@@ -12,7 +12,7 @@ sklearn 在 **sklearn.utils.extmath** 中提供了一个随机化 _svd 的方法
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the working of
 # randomized PCA
 
@@ -45,7 +45,7 @@ print("Explained Variance using PCA with randomized svd_solver:", pca.explained_
 
 **输出:**
 
-```
+```py
 Matrix U of size m*m: [[ 0.21956688 -0.53396977]
  [ 0.35264795  0.45713538]
  [ 0.57221483 -0.07683439]
@@ -70,7 +70,7 @@ Scikit-Learn 为我们提供了一个名为 sklearn . declaration . incrementalp
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the working of
 # incremental PCA
 
@@ -100,7 +100,7 @@ print(final)
 
 **输出:**
 
-```
+```py
 [[-4.24264069e+00  7.07106781e-01]
  [-4.94974747e+00  1.41421356e+00]
  [-6.36396103e+00  1.41421356e+00]
@@ -117,7 +117,7 @@ Scikit-Learn 在 sklearn.decomposition 中提供了一个类 KernelPCA，可以�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to show the working of
 # Kernel PCA
 
@@ -140,7 +140,7 @@ print(final)
 
 **输出:**
 
-```
+```py
 [[-0.3149893  -0.17944928]
  [-0.46965347 -0.0475298 ]
  [-0.62541667  0.22697909]

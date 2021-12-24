@@ -15,7 +15,7 @@
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 
@@ -78,7 +78,7 @@ sys.exit(App.exec())
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtWidgets import * 

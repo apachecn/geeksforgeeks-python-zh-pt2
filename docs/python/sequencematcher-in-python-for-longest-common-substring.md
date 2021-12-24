@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input :  X = "GeeksforGeeks", 
          Y = "GeeksQuiz"
 Output : Geeks
@@ -23,7 +23,7 @@ Output : abcdez
 
 首先我们用两个输入字符串 str1 和 str2 初始化 **SequenceMatcher** 对象，**find _ long _ match(aLow，aHigh，bLow，bHigh)** 取 4 个参数 aLow，bLow 分别是第一个和第二个字符串的起始索引，aHigh，bHigh 分别是第一个和第二个字符串的长度。find _ longest _ match()返回命名元组(I，j，k)，使得 a[i:i+k]等于 b[j:j+k]，如果没有块匹配，则返回(aLow，bLow，0)。
 
-```
+```py
 # Function to find Longest Common Sub-string
 
 from difflib import SequenceMatcher
@@ -53,7 +53,7 @@ if __name__ == "__main__":
 
 输出:
 
-```
+```py
 Geeks
 
 ```

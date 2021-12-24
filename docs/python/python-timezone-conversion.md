@@ -14,62 +14,62 @@ Python 日期时间项目可能是幼稚的，也可能是谨慎的。如果日�
 
 **获取世界协调时 tzinfo 对象–通过调用`tz.tzutc()`**
 
-```
+```py
 from dateutil import tz
 tz.tzutc()
 ```
 
-```
+```py
 tzutc()
 ```
 
 **通过用世界协调时日期时间对象调用`utcoffset()`方法，偏移量为 0。**
 
-```
+```py
 import datetime
 tz.tzutc().utcoffset(datetime.datetime.utcnow())
 ```
 
-```
+```py
 datetime.timedelta(0)
 ```
 
 将时区文件路径传递给`gettz()`函数，以获取其他时区的 tzinfo 对象。
 
-```
+```py
 tz.gettz('US/Pacific')
 ```
 
-```
+```py
 tzfile('/usr/share/zoneinfo/US/Pacific')
 ```
 
-```
+```py
 tz.gettz('Europe / Paris')
 ```
 
-```
+```py
 tzfile('/usr/share/zoneinfo/Europe/Paris')
 ```
 
-```
+```py
 tz.gettz('US / Pacific').utcoffset(datetime.datetime.utcnow())
 ```
 
-```
+```py
 datetime.timedelta(-1, 61200)
 ```
 
 要将非世界协调时日期时间项目更改为世界协调时，必须注意时区。如果您试图将轻信的日期时间转换为世界协调时，您将获得值错误豁免。为了让天真的日期时间时区记住，你基本上用正确的 tzinfo 调用`replace()`策略。一旦日期时间项有了时间信息，就可以通过使用`tz.tzutc()`调用`astimezone()`技术来执行世界协调时的更改。
 
-```
+```py
 abc = tz.gettz('US/Pacific')
 dat = datetime.datetime(2010, 9, 25, 10, 36)
 dat.tzinfo
 dat.astimezone(tz.tzutc())
 ```
 
-```
+```py
 Traceback (most recent call last):
  File "/usr/lib/python2.6/doctest.py", line 1228, in __run
  compileflags, 1) in test.globs
@@ -78,11 +78,11 @@ Traceback (most recent call last):
 ValueError: astimezone() cannot be applied to a naive datetime
 ```
 
-```
+```py
 dat.replace(tzinfo = abc)
 ```
 
-```
+```py
 datetime.datetime(2010, 9, 25, 10, 36, tzinfo=tzfile(
 '/usr/share/zoneinfo/US/Pacific'))
 ```
@@ -97,22 +97,22 @@ datetime.datetime(2010, 9, 25, 10, 36, tzinfo=tzfile(
 
 **代码:**将 tzinfos 关键字参数传递到 dateutil 解析器中，以检测无法识别的时区
 
-```
+```py
 parser.parse('Wednesday, Aug 4, 2010 at 6:30 p.m. (CDT)',
              fuzzy = True)
 ```
 
-```
+```py
 datetime.datetime(2010, 8, 4, 18, 30)
 ```
 
-```
+```py
 tzinfos = {'CDT': tz.gettz('US/Central')}
 parser.parse('Wednesday, Aug 4, 2010 at 6:30 p.m. (CDT)',
 fuzzy = True, tzinfos = tzinfos)
 ```
 
-```
+```py
 datetime.datetime(2010, 8, 4, 18, 30, tzinfo=tzfile('
 /usr/share/zoneinfo/US/Central'))
 ```

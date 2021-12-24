@@ -7,7 +7,7 @@
 **方法#1:使用`join()` +列表切片**
 连接功能可以与列表切片耦合，列表切片可以执行连接列表切片功能选择的范围内的每个字符的任务。
 
-```
+```py
 # Python3 code to demonstrate 
 # Merge Range Characters in List
 # using join() + list slicing
@@ -31,7 +31,7 @@ print ("The list after merging elements : " + str(test_list))
 
 **Output :**
 
-```
+```py
 The original list is : ['I', 'L', 'O', 'V', 'E', 'G', 'F', 'G']
 The list after merging elements : ['I', 'L', 'O', 'VEGF', 'G']
 

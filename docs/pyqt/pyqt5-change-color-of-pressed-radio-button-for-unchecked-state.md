@@ -6,7 +6,7 @@
 
 为了在未选中状态下为按下的单选按钮设置颜色，我们必须为未选中状态更改样式表，当单选按钮被按下时，下面是样式表代码。
 
-```
+```py
 QRadioButton::unchecked:pressed
 {
 background-color : red;   
@@ -16,7 +16,7 @@ background-color : red;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

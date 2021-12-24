@@ -19,7 +19,7 @@ Python 中的`***os.path.expandvars()***`方法用于扩展给定路径中的环
 
 **代码#1:** 使用 os.path.expandvars()方法
 
-```
+```py
 # Python program to explain os.path.expandvars() method 
 
 # importing os.path module 
@@ -77,7 +77,7 @@ print(exp_var)
 
 **Output:**
 
-```
+```py
 /home/ihritik/file.txt
 /home/GeeksForGeeks/Documents/file.txt
 /home/ihritik/file.txt
@@ -86,7 +86,7 @@ print(exp_var)
 
 **代码#2:** 使用 os.path.expandvars()方法(在 Windows 上)
 
-```
+```py
 # Python program to explain os.path.expandvars() method 
 
 # importing os.path module 
@@ -127,7 +127,7 @@ print(exp_var3)
 
 **Output:**
 
-```
+```py
 \\Users\\Hritik\\\Directory\\file.txt
 C:\\Users\\Hritik\\\Directory\\file.txt
 C:\\Users\\Hritik\\AppData\\Local\\Temp\\file.txt
@@ -136,7 +136,7 @@ C:\\Users\\Hritik\\AppData\\Local\\Temp\\file.txt
 
 **代码#3:** 如果环境变量不存在
 
-```
+```py
 # Python program to explain os.path.expandvars() method 
 
 # importing os.path module 
@@ -168,7 +168,7 @@ print(exp_var)
 
 **Output:**
 
-```
+```py
 ${MYHOME}/Directory/file.txt
 
 ```

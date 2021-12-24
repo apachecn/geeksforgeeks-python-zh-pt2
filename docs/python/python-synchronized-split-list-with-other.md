@@ -15,7 +15,7 @@
 **方法#1:使用`map() + zip() + enumerate() + split()`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 split()执行拆分值的任务，并使用 zip()和 map()执行相应的元素映射。迭代使用枚举()进行。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Synchronized Split list with other
 # Using map() + zip() + enumerate() + split()
@@ -43,7 +43,7 @@ print("Mapped list elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 4]
 Mapped list elements : [5, 6, 6, 3, 3, 7, 4, 4]
 
@@ -52,7 +52,7 @@ Mapped list elements : [5, 6, 6, 3, 3, 7, 4, 4]
 **方法 2:使用`chain.from_iterables() + zip()`**
 这是可以执行该任务的另一种方式。在本例中，我们使用 chain.from_iterables()执行展平任务，zip()用于执行并行迭代。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Synchronized Split list with other
 # Using chain.from_iterables() + zip()
@@ -77,7 +77,7 @@ print("Mapped list elements : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [5, 6, 3, 7, 4]
 Mapped list elements : [5, 6, 6, 3, 3, 7, 4, 4]
 

@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substring substitutes frequency
 # Using regex() + defaultdict() + loop
@@ -48,7 +48,7 @@ print("Frequency of replacements : " + str(dict(res)))
 
 **Output**
 
-```
+```py
 The original string is : Gfg is good . Gfg is best . Gfg is better . Gfg is good .
 Frequency of replacements : {'good': 2, 'best': 1, 'better': 1}
 
@@ -60,7 +60,7 @@ Frequency of replacements : {'good': 2, 'best': 1, 'better': 1}
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Substring substitutes frequency
 # Using Counter() + regex()
@@ -88,7 +88,7 @@ print("Frequency of replacements : " + str(res))
 
 **Output**
 
-```
+```py
 The original string is : Gfg is good . Gfg is best . Gfg is better . Gfg is good .
 Frequency of replacements : {'good': 2, 'best': 1, 'better': 1}
 

@@ -21,7 +21,7 @@
 
 **Code:** Use of shutil.get_archive_formats() method
 
-```
+```py
 # Python program to explain shutil.get_archive_formats() method 
 
 # importing shutil module 
@@ -38,7 +38,7 @@ print("Supported archiving formats:\n", formats)
 
 **Output:**
 
-```
+```py
 Supported archiving formats:
 [('bztar', "bzip2'ed tar-file"), ('gztar', "gzip'ed tar-file"),
 ('tar', 'uncompressed tar file'), ('xztar', "xz'ed tar-file"), ('zip', 'ZIP file')]

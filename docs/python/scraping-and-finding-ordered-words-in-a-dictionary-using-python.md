@@ -12,7 +12,7 @@
 
 **要求:**
 
-```
+```py
 pip install requests
 ```
 
@@ -34,7 +34,7 @@ pip install requests
 3.  如果一对是无序的，则存储错误的结果
 4.  否则打印有序的单词
 
-```
+```py
 # Python program to find ordered words
 import requests
 
@@ -92,7 +92,7 @@ if __name__ == '__main__':
     isOrdered()
 ```
 
-```
+```py
 Output:
 aau: Word is ordered
 abbe: Word is ordered

@@ -11,7 +11,7 @@
 
 ## 大蟒
 
-```
+```py
 # A python program to create user-defined exception
 
 # class MyError is derived from super class Exception
@@ -35,7 +35,7 @@ except MyError as error:
 
 输出:
 
-```
+```py
 ('A New Exception occured: ', 6)
 ```
 
@@ -45,7 +45,7 @@ except MyError as error:
 
 ## 大蟒
 
-```
+```py
 help(Exception)
 ```
 
@@ -55,7 +55,7 @@ help(Exception)
 
 ## 大蟒
 
-```
+```py
 # class Error is derived from super class Exception
 class Error(Exception):
 
@@ -83,7 +83,7 @@ except TransitionError as error:
 
 输出:
 
-```
+```py
 ('Exception occured: ', 'Not Allowed')
 ```
 
@@ -92,7 +92,7 @@ except TransitionError as error:
 
 ## 大蟒
 
-```
+```py
 # NetworkError has base RuntimeError
 # and not Exception
 class Networkerror(RuntimeError):
@@ -108,7 +108,7 @@ except Networkerror as e:
 
 输出:
 
-```
+```py
 ('E', 'r', 'r', 'o', 'r')
 ```
 

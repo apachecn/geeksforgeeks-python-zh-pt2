@@ -19,7 +19,7 @@ REST 代表代表性的状态转移，是现代网络开发中使用的一种架
 
 `flask_restful` 可以通过 pip 命令安装:
 
-```
+```py
  sudo pip3 install flask-restful 
 ```
 
@@ -27,7 +27,7 @@ REST 代表代表性的状态转移，是现代网络开发中使用的一种架
 
 这里有两个函数:一个函数只是返回或打印通过 GET 或 POST 发送的数据，另一个函数计算通过 GET 请求发送的数字的平方并打印。
 
-```
+```py
 # Using flask to make an api
 # import necessary libraries and functions
 from flask import Flask, jsonify, request
@@ -72,7 +72,7 @@ Flask Restful 是 Flask 的扩展，它增加了对使用 Flask 作为后端在 
 
 在`flask_restful`中，主要构建块是资源。每个资源可以有几个相关联的方法，如 GET、POST、PUT、DELETE 等。例如，每当向某个资源发送 get 请求时，该资源都会计算一个数字的平方。每个资源都是一个继承自 flask_restful 的资源类的类。一旦创建并定义了资源，我们就可以将自定义资源添加到 api 中，并为相应的资源指定一个 URL 路径。
 
-```
+```py
 # using flask_restful
 from flask import Flask, jsonify, request
 from flask_restful import Resource, Api

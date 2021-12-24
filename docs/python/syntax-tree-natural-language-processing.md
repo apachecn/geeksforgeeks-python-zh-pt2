@@ -36,7 +36,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Import required libraries
 import nltk
 nltk.download('punkt')
@@ -74,7 +74,7 @@ print("After Extracting\n", output)
 
 ## 蟒蛇 3
 
-```
+```py
 # To draw the parse tree
 output.draw()
 ```

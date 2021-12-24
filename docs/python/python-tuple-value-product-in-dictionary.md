@@ -7,7 +7,7 @@
 **方法#1:使用`tuple() + loop + zip() + values()`**
 上述方法的组合可用于执行该特定任务。在这种情况下，我们只需使用 zip()将由 values()提取的等价索引值压缩在一起。然后使用各自的功能找到产品。最后，结果以元组的形式作为索引乘积返回。
 
-```
+```py
 # Python3 code to demonstrate working of
 # Dictionary Tuple Values Product
 # Using tuple() + loop + zip() + values()
@@ -35,7 +35,7 @@ print("The product from each index is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original dictionary is : {'gfg': (5, 6, 1), 'is': (8, 3, 2), 'best': (1, 4, 9)}
 The product from each index is : (40, 72, 18)
 

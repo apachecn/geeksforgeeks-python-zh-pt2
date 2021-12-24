@@ -12,7 +12,7 @@ Python 文件以扩展名保存”。py”。打开一个文本编辑器，保�
 
 ## 计算机编程语言
 
-```
+```py
 print "Hello World"
 # Notice that NO semi-colon is to be used
 ```
@@ -20,7 +20,7 @@ print "Hello World"
 **读取文件内容:**
 Linux 系统–使用“cd”命令从存储创建的文件(hello.py)的终端移动到目录，然后在终端中键入以下内容:
 
-```
+```py
 python hello.py
 ```
 
@@ -33,7 +33,7 @@ Windows 系统–打开命令提示符，使用“cd”命令移动到存储文�
 
 ## 计算机编程语言
 
-```
+```py
 a = 3
 A = 4
 print a
@@ -42,7 +42,7 @@ print A
 
 输出结果是:
 
-```
+```py
 3
 4
 ```
@@ -52,7 +52,7 @@ Python 中的算术运算可以通过使用算术运算符和一些内置函数�
 
 ## 计算机编程语言
 
-```
+```py
 a = 2
 b = 3
 c = a + b
@@ -63,7 +63,7 @@ print d
 
 输出结果是:
 
-```
+```py
 5
 6
 ```
@@ -73,7 +73,7 @@ Python 中的条件输出可以通过使用 if-else 和 elif (else if)语句获�
 
 ## 计算机编程语言
 
-```
+```py
 a = 3
 b = 9
 if b % a == 0 :
@@ -86,7 +86,7 @@ else:
 
 输出结果是:
 
-```
+```py
 b is divisible by a
 ```
 
@@ -95,7 +95,7 @@ Python 中的函数由函数名称前的关键字‘def’声明。函数的返�
 
 ## 计算机编程语言
 
-```
+```py
 # Function for checking the divisibility
 # Notice the indentation after function declaration
 # and if and else statements
@@ -110,7 +110,7 @@ checkDivisibility(4, 2)
 
 输出结果是:
 
-```
+```py
 a is divisible by b
 ```
 

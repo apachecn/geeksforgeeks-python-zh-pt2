@@ -19,7 +19,7 @@
 **在 view . py–**
 在 view 中，我们创建了一个名为 index 的视图，它接受一个请求并呈现一个 html 作为响应。首先，我们从 NewsApiClient 导入 newsapi。
 
-```
+```py
 # importing api
 from django.shortcuts import render
 from newsapi import NewsApiClient
@@ -49,7 +49,7 @@ def index(request):
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -86,7 +86,7 @@ def index(request):
 
 现在将视图映射到**URL . py**
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from newsapp import views

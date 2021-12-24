@@ -14,7 +14,7 @@
 ![](img/6132b5064bacde4339adf720ea88d2db.png)
 我们将使用用户 ID 来获取用户。上述配置文件的用户标识为 57741058。
 
-```
+```py
 # import the module
 import tweepy
 
@@ -47,7 +47,7 @@ print("The number of tweets the user has liked are : " + str(favourites_count))
 
 **输出:**
 
-```
+```py
 The number of tweets the user has liked are : 483
 
 ```
@@ -56,7 +56,7 @@ The number of tweets the user has liked are : 483
 ![](img/159935125f6fbd011d182156efb24f04.png)
 我们将使用屏幕名称来获取用户。上面提到的配置文件的屏幕名称是 PracticeGfG。
 
-```
+```py
 # the screen name of the user
 screen_name = "PracticeGfG"
 
@@ -71,7 +71,7 @@ print("The number of tweets the user has liked are : " + str(favourites_count))
 
 **输出:**
 
-```
+```py
 The number of tweets the user has liked are : 0
 
 ```

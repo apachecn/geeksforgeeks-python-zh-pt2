@@ -10,7 +10,7 @@ Django manager 是一个类，它充当 Django 模型与数据库交互的接口
 
 要使用 Django 默认管理器对象，您必须遵循以下语法–
 
-```
+```py
 model_name.objects.method
 ```
 
@@ -20,7 +20,7 @@ model_name.objects.method
 
 假设我们有一个名为**医院**的模型类–
 
-```
+```py
 class Hospital(models.Model):
     name = models.CharField(max_length=50)
     city = models.CharField(max_length=30)
@@ -30,7 +30,7 @@ class Hospital(models.Model):
 
 但是它还没有在数据库中创建任何对象。它只创建一个具有医院对象结构的空表。为了在数据库中创建这些对象，我们需要使用默认的 Django 管理器对象(因为我们不需要构建任何自定义管理器)-
 
-```
+```py
 Hospital.objects.create(name='AIIMS',city ='Delhi')
 ```
 
@@ -40,7 +40,7 @@ Hospital.objects.create(name='AIIMS',city ='Delhi')
 
 有时需要给默认管理器一个自定义名称。为此，您必须定义类型模型的类属性或字段。经理()。这里有一个例子
 
-```
+```py
 class Student(models.Model):
     ...
     students = models.Manager() //now the default manager is named as students
@@ -48,7 +48,7 @@ class Student(models.Model):
 
 此后，学生数据库表上的所有操作都必须使用“学生”管理器来完成–
 
-```
+```py
 Student.students.filter(...) // here students manager is used
 ```
 
@@ -73,7 +73,7 @@ Manager 对象有许多内置方法来简化数据库操作。这里描述了一
 
 以下示例使用 python 命令外壳。
 
-```
+```py
 >>> h1 = Hospital.objects.create(name="Calcutta Medical",city="kolkata")
 >>> h2 = Hospital.objects.create(name="dummy",city="Chennai")     #creating objects using create() and save all these new objects into database
 >>> h3 = Hospital.objects.create(name="TATA cancer Hospital",city="Mumbai")
@@ -99,7 +99,7 @@ Manager 对象有许多内置方法来简化数据库操作。这里描述了一
 
 ## 蟒蛇 3
 
-```
+```py
 class CustomManager(models.Manager):
   '''first we get all objects from the database by
   calling the get_queryset method of the inherited class
@@ -116,7 +116,7 @@ class CustomManager(models.Manager):
 
 ## 蟒蛇 3
 
-```
+```py
 class Hospital(models.Model):
   name = models.CharField(max_length=50)
   city = models.CharField(max_length=30)
@@ -130,7 +130,7 @@ class Hospital(models.Model):
 
 请注意，如果在同一个模型中使用多个管理器对象，则需要注意管理器对象的定义顺序。第一个定义的管理器对象将被视为默认管理器对象。例如–在上面的示例中，“对象”是默认管理器，因为它是首先定义的。Django 在一些内部流程中使用默认管理器。因此，在选择默认经理时要小心，否则你可能会得到一些意想不到的结果。如果您想将一个管理器设为默认，并且该管理器对象没有首先定义，那么您可以通过将元类的 default_manager_name 设置为等于该对象名称来将其定义为默认管理器。
 
-```
+```py
 class Hospital(models.Models):
     ...
     class Meta:

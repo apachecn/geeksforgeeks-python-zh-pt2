@@ -5,7 +5,7 @@
 给定一个十进制数作为输入，任务是编写一个 Python 程序，将给定的十进制数转换为等价的二进制数。
 **例:**
 
-```
+```py
 Input : 7                                                         
 Output :111
 
@@ -15,7 +15,7 @@ Output :1010
 
 **方法#1:** 递归求解
 
-```
+```py
 DecimalToBinary(num):
         if num >= 1:
             DecimalToBinary(num // 2)
@@ -28,7 +28,7 @@ DecimalToBinary(num):
 
 ## 蟒蛇 3
 
-```
+```py
 # Function to convert decimal number
 # to binary using recursion
 def DecimalToBinary(num):
@@ -49,7 +49,7 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 011000
 ```
 
@@ -57,7 +57,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert decimal to binary
 
 # Function to convert Decimal number
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 **Output**
 
-```
+```py
 1000
 10010
 111
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to convert decimal to binary
 
 # Function to convert Decimal number
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
 **输出**
 
-```
+```py
 1000
 10010
 111

@@ -7,7 +7,7 @@
 **方法#1:使用`sorted() + key + lambda`**
 以上功能的组合可以用来解决这个问题。在本文中，我们使用 sorted()执行排序任务。lambda 函数用于获取键值。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Sort List by Dictionary values
 # Using sorted() + key + lambda
@@ -34,7 +34,7 @@ print("The list after sorting : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original list is : ['gfg', 'is', 'best']
 The original dictionary is : {'best': 76, 'gfg': 56, 'is': 12}
 The list after sorting : ['is', 'gfg', 'best']

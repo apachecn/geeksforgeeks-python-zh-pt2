@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : The quick brown fox jumps over the lazy dog.
 Output : tHE QuiCK BrOWN fOX juMps over tHe lAzY dOG.
 
@@ -19,13 +19,13 @@ Output : This seNtENce is TO TeST THE funcTiON.
 
 **安装:**
 
-```
+```py
 pip install spongemock
 ```
 
 用法:
 
-```
+```py
 spongemock text
 ```
 

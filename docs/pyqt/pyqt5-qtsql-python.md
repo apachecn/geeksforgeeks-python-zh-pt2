@@ -11,14 +11,14 @@ PyQt 为我们提供了用户界面功能，这些功能在使用 PyQt 的所有
 
 要导入模块，请使用以下命令:
 
-```
+```py
  from PyQt5 import QtSql
 
 ```
 
 **用于连接数据库**
 
-```
+```py
 self.QSqlDatabase.addDatabase("QMYSQL")
 self.db.setHostName("geeksforgeeks")
 self.db.setDatabaseName("gfgdb")
@@ -31,7 +31,7 @@ self.db.setPassword("gfg")
 
 **执行 MySQL 查询**
 
-```
+```py
 self.qry = QString("SELECT * FROM employee")
 self.query = QSqlQuery()
 self.query.prepare(self.qry)
@@ -43,7 +43,7 @@ QSqlQuery 类提供 *exec()* 方法来执行查询。
 
 现在，为了以表格的形式**获取结果**，使用以下代码序列:
 
-```
+```py
 for row_number, row_data in enumerate(self.query.result()):
       for column_number, data in enumerate(row_data):
            self.tableWidget.setItem(row_number, column_number, QtWidgets.QTableWidgetItem(data)
@@ -56,7 +56,7 @@ for row_number, row_data in enumerate(self.query.result()):
 
 **示例:**
 
-```
+```py
 # Write Python3 code here
 import sys
 from PyQt5 import QtCore, QtGui, QtWidgets, QtSql

@@ -5,7 +5,7 @@
 在本文中，我们将看到如何在 PyQtGraph 模块中设置错误条形图的不透明度属性。PyQtGraph 是 Python 的图形和用户界面库，提供设计和科学应用程序通常需要的功能。它的主要目标是为显示数据(图表、视频等)提供快速的交互式图形。).误差线是数据可变性的图形表示，用在图表上表示报告测量中的误差或不确定性。它们给出了测量精度的大致概念，或者相反，真实值可能与报告值有多远。不透明度是对电磁或其他类型辐射，尤其是可见光不可透过性的度量。在辐射传输中，它描述了辐射在介质中的吸收和散射，如等离子体、电介质、屏蔽材料、玻璃等。
 我们可以在下面给出的命令的帮助下，创建一个绘图窗口，并在其上创建误差条形图
 
-```
+```py
 # creating a pyqtgraph plot window
 plt = pg.plot()
 
@@ -22,7 +22,7 @@ error = pg.ErrorBarItem(x=x, y=y, top=top, bottom=bottom, beam=0.5)
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

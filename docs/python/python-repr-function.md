@@ -6,19 +6,19 @@
 
 **语法:**
 
-```
+```py
 repr(object)
 ```
 
 **参数:**
 
-```
+```py
 object : The object whose printable representation is to be returned.
 ```
 
 **返回值:**
 
-```
+```py
 Returns a string.
 ```
 
@@ -28,7 +28,7 @@ Returns a string.
 
 ## 蟒蛇 3
 
-```
+```py
 strObj = 'geeksforgeeks'
 
 print(repr(strObj))
@@ -36,7 +36,7 @@ print(repr(strObj))
 
 **Output**
 
-```
+```py
 'geeksforgeeks'
 ```
 
@@ -44,7 +44,7 @@ print(repr(strObj))
 
 ## 蟒蛇 3
 
-```
+```py
 num = {1, 2, 3, 4, 5}
 
 # printable representation of the set
@@ -54,7 +54,7 @@ print(printable_num)
 
 **Output**
 
-```
+```py
 {1, 2, 3, 4, 5}
 ```
 
@@ -62,7 +62,7 @@ print(printable_num)
 
 ## 蟒蛇 3
 
-```
+```py
 class geek:
     def __init__(self, name):
         self.name = name
@@ -78,7 +78,7 @@ print(repr(geek1))
 
 **Output**
 
-```
+```py
 mohan
 ```
 

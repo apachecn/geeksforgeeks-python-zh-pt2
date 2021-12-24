@@ -22,7 +22,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mid occurrence of K in string
 # Using find() + max() + slice
@@ -48,7 +48,7 @@ print("Mid occurrence of K : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks is best for all geeks
 Mid occurrence of K : 10
 ```
@@ -59,7 +59,7 @@ Mid occurrence of K : 10
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Mid occurrence of K in string
 # Using finditer() + list comprehension + regex
@@ -87,7 +87,7 @@ print("Mid occurrence of K : " + str(res))
 
 **输出:**
 
-```
+```py
 The original string is : geeksforgeeks is best for all geeks
 Mid occurrence of K : 10
 ```

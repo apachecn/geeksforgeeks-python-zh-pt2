@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Tuples of Length K
 # Using list comprehension
@@ -43,7 +43,7 @@ print("Filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(4, 5), (4, ), (8, 6, 7), (1, ), (3, 4, 6, 7)]
 Filtered list : [(4, 5), (8, 6, 7), (3, 4, 6, 7)]
 
@@ -55,7 +55,7 @@ Filtered list : [(4, 5), (8, 6, 7), (3, 4, 6, 7)]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Tuples of Length K
 # Using filter() + lambda + len() 
@@ -78,7 +78,7 @@ print("Filtered list : " + str(res))
 
 **Output**
 
-```
+```py
 The original list : [(4, 5), (4, ), (8, 6, 7), (1, ), (3, 4, 6, 7)]
 Filtered list : [(4, 5), (8, 6, 7), (3, 4, 6, 7)]
 

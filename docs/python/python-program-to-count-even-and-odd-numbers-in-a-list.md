@@ -6,7 +6,7 @@
 
 示例:
 
-```
+```py
 Input: list1 = [2, 7, 5, 64, 14]
 Output: Even = 3, odd = 2
 
@@ -18,7 +18,7 @@ Output: Even = 2, odd = 2
 
 使用 for 循环迭代列表中的每个元素，并检查 num % 2 == 0，这是检查偶数的条件。如果条件满足，则增加偶数计数，否则增加奇数计数。
 
-```
+```py
 # Python program to count Even
 # and Odd numbers in a List
 
@@ -43,7 +43,7 @@ print("Odd numbers in the list: ", odd_count)
 
 **Output:**
 
-```
+```py
 Even numbers in the list:  3
 Odd numbers in the list:  4
 
@@ -51,7 +51,7 @@ Odd numbers in the list:  4
 
 示例 2:使用 while 循环
 
-```
+```py
 # Python program to count Even and Odd numbers in a List
 
 # list of numbers
@@ -78,7 +78,7 @@ print("Odd numbers in the list: ", odd_count)
 
 **Output:**
 
-```
+```py
 Even numbers in the list:  3
 Odd numbers in the list:  4
 
@@ -86,7 +86,7 @@ Odd numbers in the list:  4
 
 示例 3:使用 [Python Lambda 表达式](https://www.geeksforgeeks.org/python-lambda-anonymous-functions-filter-map-reduce/)
 
-```
+```py
 # list of numbers
 list1 = [10, 21, 4, 45, 66, 93, 11]
 
@@ -101,7 +101,7 @@ print("Odd numbers in the list: ", odd_count)
 
 **Output:**
 
-```
+```py
 Even numbers in the list:  3
 Odd numbers in the list:  4
 
@@ -109,7 +109,7 @@ Odd numbers in the list:  4
 
 示例 4:使用[列表理解](https://www.geeksforgeeks.org/python-list-comprehension-and-slicing/)
 
-```
+```py
 # Python program to print odd Numbers in a List
 
 # list of numbers
@@ -124,7 +124,7 @@ print("Odd numbers in the list: ", odd_count)
 
 **Output:**
 
-```
+```py
 Even numbers in the list:  3
 Odd numbers in the list:  4
 

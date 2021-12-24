@@ -10,7 +10,7 @@
 
 为此，我们将使用`pydrive`库。本模块未预装 python。要安装它，请在命令行中执行以下命令:
 
-```
+```py
 pip install pydrive
 
 ```
@@ -23,7 +23,7 @@ pip install pydrive
 
 **<font size="4">代号</font>**
 
-```
+```py
 from pydrive.drive import GoogleDrive
 from pydrive.auth import GoogleAuth
 

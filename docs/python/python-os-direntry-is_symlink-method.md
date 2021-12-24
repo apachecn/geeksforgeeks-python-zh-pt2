@@ -18,7 +18,7 @@
 
 **代码#1:使用`***os.DirEntry.is_symlink()***`方法**
 
-```
+```py
 # Python program to explain os.DirEntry.is_symlink() method 
 
 # importing os module  
@@ -51,7 +51,7 @@ for entry in obj :
 
 **输出:**
 
-```
+```py
 Symbolic links in the path '/home/ihritik':
 /home/ihritik/file.txt
 /home/ihritik/sample.py
@@ -60,7 +60,7 @@ Symbolic links in the path '/home/ihritik':
 
 **代码:使用`***os.DirEntry.is_symlink()***`方法**
 
-```
+```py
 # Python program to explain os.DirEntry.is_symlink() method 
 
 # importing os module  
@@ -94,7 +94,7 @@ print("Count of symbolic links in the path '% s':" % path, count)
 
 **输出:**
 
-```
+```py
 Count of symbolic links in the path '/home/ihritik': 2
 
 ```

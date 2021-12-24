@@ -19,13 +19,13 @@ Django 中的 Manage.py 是一个命令行实用程序，其工作方式类似�
 
 **步骤 1:** 通过以下命令初始化项目
 
-```
+```py
 django-admin startproject geeks_site
 ```
 
 **第二步:**创建一个名为 blog 的应用
 
-```
+```py
 python manage.py startapp blog
 ```
 
@@ -35,7 +35,7 @@ python manage.py startapp blog
 
 ## 蟒蛇 3
 
-```
+```py
 # Application definition
 
 INSTALLED_APPS = [
@@ -69,7 +69,7 @@ INSTALLED_APPS = [
 
 ## 蟒蛇 3
 
-```
+```py
 from django.db import models
 
 class Article(models.Model):
@@ -89,7 +89,7 @@ class Comment(models.Model):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin 
 from .models import Article, Comment
 
@@ -99,7 +99,7 @@ admin.site.register(Comment)
 
 **步骤 6:** 现在，要迁移所有更改并启动服务器，请在终端中运行以下命令
 
-```
+```py
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
@@ -107,7 +107,7 @@ python manage.py runserver
 
 创建超级用户帐户以登录到管理面板
 
-```
+```py
 python manage.py createsuperuser
 ```
 
@@ -136,7 +136,7 @@ python manage.py createsuperuser
 
 ## 蟒蛇 3
 
-```
+```py
 from django.core.management.base import BaseCommand
 from django.db.models import Count
 from blog.models import Article, Comment
@@ -173,7 +173,7 @@ class Command(BaseCommand):
 
 **1) help:** 它告诉命令实际做什么。运行以下命令并查看帮助
 
-```
+```py
 python manage.py stats --help
 ```
 
@@ -190,7 +190,7 @@ python manage.py stats --help
 
 现在，在您的终端中运行以下命令:
 
-```
+```py
 python manage.py stats
 ```
 
@@ -204,7 +204,7 @@ Django 使用 [argparse](https://www.geeksforgeeks.org/command-line-option-and-a
 
 ## 蟒蛇 3
 
-```
+```py
 from django.core.management.base import BaseCommand
 from django.db.models import Count
 from app.models import Article, Comment

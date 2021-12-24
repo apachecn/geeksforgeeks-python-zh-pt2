@@ -7,7 +7,7 @@
 **方法#1:使用`split() + enumerate()` +循环**
 上述功能的组合可用于执行该任务。在这种情况下，我们使用拆分来分隔单词。在这种情况下，我们记住 set 中的第一次出现，并检查该值是否在已经出现之前保存，然后被替换。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace duplicate Occurrence in String
 # Using split() + enumerate() + loop

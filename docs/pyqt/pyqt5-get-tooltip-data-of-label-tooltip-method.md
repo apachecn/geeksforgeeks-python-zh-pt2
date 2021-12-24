@@ -12,7 +12,7 @@ PyQt5 提供用户使用`setToolTip()`方法创建工具提示。在本文中，
 
 **代码:**
 
-```
+```py
 # importing the required libraries
 
 from PyQt5.QtCore import * 

@@ -6,7 +6,7 @@
 
 在相当抽象的层次上，`super()`提供了对超类(父类)的那些方法的访问，这些方法已经在继承自它的子类(子类)中被覆盖。考虑下面给出的代码示例，这里我们有一个名为`Square`的类和一个名为`Cube`的继承了类`Square`的类。
 
-```
+```py
 class Square:
      def __init__(self, side):
          self.side = side
@@ -29,7 +29,7 @@ class Cube(Square):
 考虑这个例子，我们知道立方体的每个面都是正方形，因此立方体的`face_area`代表正方形的`area`。现在，使用类`Square`的`area()`方法评估`face_area`而不是手动计算它是有意义的，这不仅可以避免我们重写代码，还可以从一个地方改变`area()`逻辑。但是由于我们已经覆盖了`Cube`中的`area()`方法，我们不能使用`self.area()`调用`Square`的`area()`方法。
 现在，这是 **`super()`** 出手相救的情况。`super()`返回父类的代理对象，然后在该代理对象上调用您选择的方法，这样，我们就可以使用`super()` as、 **`super().area()`** 调用`Square class`的`area()`方法。以下是`class Cube`的修改定义。
 
-```
+```py
 class Cube(Square):
      def area(self):
          return super().area() * 6
@@ -47,7 +47,7 @@ class Cube(Square):
 现在，立方体只是一种特殊类型的方形棱镜，其高度等于其底部的边长，因此立方体更像方形棱镜，而不是正方形。因此，在本例中`class Cube`将继承`class SquarePrism`，而`class
 SquarePrism`将继承`class Square`。对于类`Square`，我们将使用上一节中使用的相同定义。下面是我们新定义的类`SquarePrism`的定义。
 
-```
+```py
 class SquarePrism(Square):
      def __init__(self, side, height):
          self.side = side
@@ -68,7 +68,7 @@ class SquarePrism(Square):
 
 到目前为止，我们使用的`super()`没有任何参数，现在遵循新类`Cube`的定义，它将演示带参数的`super()`的使用。
 
-```
+```py
 class Cube(SquarePrism):
      def __init__(self, side)
          super().__init__(side = side, height = side)
@@ -91,7 +91,7 @@ class Cube(SquarePrism):
 
 尝试下面的代码片段，并观察输出以澄清上述观点。
 
-```
+```py
 class Square:
     def __init__(self):
         pass

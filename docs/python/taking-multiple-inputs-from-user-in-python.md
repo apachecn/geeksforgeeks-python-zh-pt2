@@ -12,7 +12,7 @@
 
 **语法:**
 
-```
+```py
 input().split(separator, maxsplit)
 ```
 
@@ -20,7 +20,7 @@ input().split(separator, maxsplit)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing how to
 # multiple input using split
 
@@ -59,7 +59,7 @@ print("List of students: ", x)
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program showing
 # how to take multiple input
 # using List comprehension
@@ -95,7 +95,7 @@ print("Number of list is: ", x)
 
 ## 蟒蛇 3
 
-```
+```py
 # taking multiple inputs at a time separated by comma
 x = [int(x) for x in input("Enter multiple value: ").split(",")]
 print("Number of list is: ", x)

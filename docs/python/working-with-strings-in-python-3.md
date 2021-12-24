@@ -10,7 +10,7 @@
 
 ## 蟒 3
 
-```
+```py
 # creating string
 # with single Quotes
 String = 'Hello Geek'
@@ -29,7 +29,7 @@ print("Creating String with triple quotes :", String)
 
 **输出**
 
-```
+```py
 Creating string with single quotes : Hello Geek
 Creating String with double quotes : yes, I am Geek
 Creating String with triple quotes : yes, I am Geek

@@ -14,7 +14,7 @@
 *   **利用熊猫。DataFrame.to_html():** 通过使用这个内置函数“ *to_html()* ”将 DataFrame 转换为 html 模板。使用这种方法后，整个数据框被转换成*“table”*html 元素，而每一列的名称被转换成表头的*“the”和*标签。而数据框的每一行都被转换为 HTML 模板页面中表格行元素的*【tr】*标记。
     **view . py**
 
-    ```
+    ```py
     from django.shortcuts import HttpResponse
     import pandas as pd
 
@@ -30,7 +30,7 @@
 
     t0️URLs . py t1️
 
-    ```
+    ```py
     """
     The `urlpatterns` list routes URLs to views. For more information please see:
         https://docs.djangoproject.com/en/3.0/topics/http/urls/Examples:
@@ -61,7 +61,7 @@
 
     **view . py**
 
-    ```
+    ```py
     # Write Python3 code here
     from django.shortcuts import render
     import pandas as pd
@@ -82,7 +82,7 @@
 
     **table . html('引导超文本标记语言模板)**
 
-    ```
+    ```py
     <!-- Write HTML code here -->
     <!DOCTYPE html>
     <html lang="en">

@@ -14,7 +14,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Creation of Set in Python
 
@@ -46,7 +46,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Initial blank Set: 
 set()
 
@@ -64,7 +64,7 @@ Set with the use of List:
 
 ## 蟒蛇 3
 
-```
+```py
 # Creating a Set with
 # a List of Numbers
 # (Having duplicate values)
@@ -82,7 +82,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Set with the use of Numbers: 
 {1, 2, 3, 4, 5, 6}
 
@@ -100,7 +100,7 @@ Set with the use of Mixed Values
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Addition of elements in a Set
 
@@ -126,7 +126,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Initial blank Set: 
 set()
 
@@ -143,7 +143,7 @@ Set after Addition of elements from 1-5:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Addition of elements in a Set
 
@@ -157,7 +157,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Set after Addition of elements using Update: 
 {10, 11, 4, 5, (6, 7)}
 
@@ -169,7 +169,7 @@ Set after Addition of elements using Update:
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Accessing of elements in a set
 
@@ -191,7 +191,7 @@ print("Geeks" in set1)
 
 **输出:**
 
-```
+```py
 Initial set: 
 {'Geeks', 'For'}
 
@@ -209,7 +209,7 @@ True
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Deletion of elements in a Set
 
@@ -243,7 +243,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Initial Set: 
 {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 
@@ -264,7 +264,7 @@ Pop()函数也可用于从集合中移除和返回元素，但它仅移除集合
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # Deletion of elements in a Set
 
@@ -283,7 +283,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Initial Set: 
 {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12}
 
@@ -297,7 +297,7 @@ Set after popping an element:
 
 ## 蟒蛇 3
 
-```
+```py
 #Creating a set
 set1 = set([1,2,3,4,5])
 print("\n Initial set: ")
@@ -312,7 +312,7 @@ print(set1)
 
 **输出:**
 
-```
+```py
 Initial set:
 {1, 2, 3, 4, 5}
 
@@ -326,7 +326,7 @@ set()
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate
 # working of a FrozenSet
 

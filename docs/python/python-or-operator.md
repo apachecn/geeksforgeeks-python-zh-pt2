@@ -29,7 +29,7 @@ Python OR 运算符在任何一个传递的布尔表达式为真时返回真。
 
 ## 蟒蛇 3
 
-```
+```py
 bool1 = 2>3
 bool2 = 2<3
 
@@ -43,7 +43,7 @@ print("OR operator:", OR)
 
 **Output**
 
-```
+```py
 bool1: False
 bool2: True
 OR operator: True
@@ -57,7 +57,7 @@ OR operator: True
 
 ## 蟒蛇 3
 
-```
+```py
 # or operator with if
 def fun(a):
     if a >= 5 or a <= 15:
@@ -73,7 +73,7 @@ fun(5)
 
 **Output**
 
-```
+```py
 a lies between 5 and 15
 a lies between 5 and 15
 a lies between 5 and 15
@@ -89,7 +89,7 @@ Python Or 运算符总是对表达式求值，直到它找到一个真，一旦�
 
 ## 蟒蛇 3
 
-```
+```py
 # short circuit in Python or operator
 def true():
     print("Inside True")
@@ -121,7 +121,7 @@ print(case4)
 
 **Output**
 
-```
+```py
 Inside True
 Case 1
 True

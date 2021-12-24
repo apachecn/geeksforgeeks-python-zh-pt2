@@ -13,7 +13,7 @@
 **方法 1:使用循环**
 这是执行该任务的方式之一。在这种情况下，我们执行字典键的迭代，检查是否存在任何需要的键，并相应地执行删除。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Disjoint Tuple keys from Dictionary
 # Using loop
@@ -46,7 +46,7 @@ print("Dictionary after removal : " + str(res)) 
 **方法 2:使用`set() + dictionary comprehension + isdisjoint()`**
 以上功能的组合也可以用来解决这个问题。在本文中，我们使用 isdisjoint()执行比较任务。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Remove Disjoint Tuple keys from Dictionary
 # Using set() + dictionary comprehension + isdisjoint()

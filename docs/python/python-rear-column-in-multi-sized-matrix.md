@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rear column in Multisized Matrix
 # Using loop
@@ -41,7 +41,7 @@ print("Filtered column : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[3, 4, 5], [7], [8, 4, 6, 1], [10, 3]]
 Filtered column : [5, 7, 1, 3]
 
@@ -53,7 +53,7 @@ Filtered column : [5, 7, 1, 3]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Rear column in Multisized Matrix
 # Using list comprehension
@@ -73,7 +73,7 @@ print("Filtered column : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [[3, 4, 5], [7], [8, 4, 6, 1], [10, 3]]
 Filtered column : [5, 7, 1, 3]
 

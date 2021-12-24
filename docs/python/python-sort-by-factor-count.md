@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Factor count
 # Using sort() + len() + list comprehension
@@ -43,7 +43,7 @@ print("Sorted List : " + str(test_list))
 
 **输出:**
 
-```
+```py
 The original list is : [12, 100, 360, 22, 200]
 Sorted List : [22, 12, 100, 200, 360]
 
@@ -55,7 +55,7 @@ Sorted List : [22, 12, 100, 200, 360]
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of
 # Sort by Factor count
 # Using lambda + sorted() + len()
@@ -76,7 +76,7 @@ print("Sorted List : " + str(res))
 
 **输出:**
 
-```
+```py
 The original list is : [12, 100, 360, 22, 200]
 Sorted List : [22, 12, 100, 200, 360] 
 

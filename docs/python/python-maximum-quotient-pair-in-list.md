@@ -7,7 +7,7 @@
 **方法#1:使用列表理解+`max() + combination()`+λ**
 这个特定的任务可以使用上述函数的组合来执行，其中我们使用列表理解来绑定所有的功能和 max 函数来获得最大商，组合函数在内部找到所有的商，λ函数用于计算商。
 
-```
+```py
 # Python3 code to demonstrate
 # Maximum Quotient Pair in List
 # using list comprehension + max() + combinations() + lambda
@@ -29,7 +29,7 @@ print("The maximum quotient pair is : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list : [3, 4, 1, 7, 9, 1]
 The maximum quotient pair is : (9, 1)
 

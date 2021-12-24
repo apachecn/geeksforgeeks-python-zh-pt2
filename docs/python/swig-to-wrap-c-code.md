@@ -10,7 +10,7 @@ Swig 通过解析 C 头文件和自动创建扩展代码来操作。首先需要
 
 **代码#1 : `work.h`**
 
-```
+```py
 // work.h
 
 # include <math.h>
@@ -31,7 +31,7 @@ extern double distance(Point * p1, Point * p2);
 
 **代码#2 : `work.i`**
 
-```
+```py
 // work.i - Swig interface % module work %
 {
 # include "work.h"
@@ -52,7 +52,7 @@ extern double distance(Point * p1, Point * p2);
 
 **代码#3:映射**
 
-```
+```py
 // Map int * remainder as an output argument
 %include typemaps.i 
 %apply int * OUTPUT { int * remainder };
@@ -89,7 +89,7 @@ extern double distance(Point * p1, Point * p2);
 
 **代码#4 :**
 
-```
+```py
 bash % swig -python -py3 work.i
 bash %
 ```
@@ -98,7 +98,7 @@ swig 的输出是两个文件–**`work_wrap.c`**和 **`work.py`** 。 *work.py*
 
 **代码#5 :**
 
-```
+```py
 # setup.py
 from distutils.core import setup, Extension
 setup(name='sample', 
@@ -115,7 +115,7 @@ setup(name='sample', 
 
 **代码#6:编译并测试，在 *setup.py*** 上运行 python3
 
-```
+```py
 bash % python3 setup.py build_ext --inplace
 running build_ext
 building '_sample' extension
@@ -138,7 +138,7 @@ bash %
 
 **代码#7 :**
 
-```
+```py
 import work
 print ("GCD : ", work.gcd(12,8))
 
@@ -160,7 +160,7 @@ print ("\nAverage : ", work.avg(arr))
 
 **输出:**
 
-```
+```py
 GCD : 4
 
 Divide : [5, 2]

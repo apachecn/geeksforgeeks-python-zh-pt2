@@ -23,7 +23,7 @@ os 模块中的所有函数在文件名和路径无效或不可访问的情况�
 
 **Code:** Use of os.setreuid() method
 
-```
+```py
 # Python program to explain os.setreuid() method 
 
 # importing os module 
@@ -65,7 +65,7 @@ print("Effective user id of the current process:", euid)
 
 **Output:**
 
-```
+```py
 Real user id of the current process: 0
 Effective user id of the current process: 0
 

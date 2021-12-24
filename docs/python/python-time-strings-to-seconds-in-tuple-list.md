@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Time Strings to Seconds in Tuple List
 # Using loop + split()
@@ -48,7 +48,7 @@ print("The corresponding seconds : " + str(res))
 
 **Output**
 
-```
+```py
 The original list is : [('5:12', '9:45'), ('12:34', '4:50'), ('10:40', )]
 The corresponding seconds : [(312, 585), (754, 290), (640, )]
 

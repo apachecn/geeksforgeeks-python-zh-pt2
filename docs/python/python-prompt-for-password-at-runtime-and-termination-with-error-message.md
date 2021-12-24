@@ -8,7 +8,7 @@ Python 的 **getpass 模块**正是做了它需要做的事情。它将允许用
 
 **代码#1:是怎么做到的？**
 
-```
+```py
 import getpass
 user = getpass.getuser()
 passwd = getpass.getpass()
@@ -24,7 +24,7 @@ else:
 
 为了明确提示用户输入用户名，这可能更可靠，使用了内置的输入功能。
 
-```
+```py
 user = input('Enter your username: ')
 ```
 
@@ -34,7 +34,7 @@ user = input('Enter your username: ')
 
 **代码#2:使用`subprocess.check_output()`功能**
 
-```
+```py
 import subprocess
 out_bytes = subprocess.check_output(['netstat', '-a'])
 ```
@@ -43,7 +43,7 @@ out_bytes = subprocess.check_output(['netstat', '-a'])
 
 **代码#3 :**
 
-```
+```py
 out_text = out_bytes.decode('utf-8')
 ```
 
@@ -51,7 +51,7 @@ out_text = out_bytes.decode('utf-8')
 
 **代码#4:捕捉错误并获得与退出代码一起创建的输出**
 
-```
+```py
 try:
     out_bytes = subprocess.check_output(['cmd', 'arg1', 'arg2'])
 
@@ -66,14 +66,14 @@ except subprocess.CalledProcessError as e:    
 
 **代码#5:使用 stderr 参数获取标准输出和错误收集**
 
-```
+```py
 out_bytes = subprocess.check_output(
         ['cmd', 'arg1', 'arg2'], stderr = subprocess.STDOUT)
 ```
 
 **代码#6:使用超时参数()执行一个带超时的命令。**
 
-```
+```py
 try:
     out_bytes = subprocess.check_output(['cmd', 'arg1', 'arg2'], timeout = 5)
 except subprocess.TimeoutExpired as e:
@@ -83,7 +83,7 @@ except subprocess.TimeoutExpired as e:
 通常，命令是在没有底层外壳(如 sh、bash 等)的帮助下执行的。).相反，所提供的字符串列表被提供给一个低级系统命令，如 os.execve()。对于要由 shell 解释的命令，请使用简单的字符串提供它，并给 shell=True 参数。如果试图让 Python 执行涉及管道、I/O 重定向和其他功能的复杂 shell 命令，这有时会很有用，如下所示–
 **代码#7 :**
 
-```
+```py
 out_bytes = subprocess.check_output(
         'grep python | wc > out', shell = True)
 ```

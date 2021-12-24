@@ -21,7 +21,7 @@
 
 ## **蟒蛇 3**
 
-```
+```py
 import time
 import os
 

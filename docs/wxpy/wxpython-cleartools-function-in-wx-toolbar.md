@@ -10,7 +10,7 @@
 
 **创建工具栏的代码示例:**
 
-```
+```py
 import wx
 
 class Example(wx.Frame):

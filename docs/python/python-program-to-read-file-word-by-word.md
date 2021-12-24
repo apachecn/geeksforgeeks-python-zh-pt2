@@ -43,7 +43,7 @@
 
 ![read-word-by-word-python](img/07ad9938dd1c9d24083f7336910bf62b.png)
 
-```
+```py
 # Python program to read 
 # file word by word
 
@@ -62,7 +62,7 @@ with open('GFG.txt','r') as file:
 
 **输出:**
 
-```
+```py
 Geeks
 4
 geeks
@@ -74,7 +74,7 @@ geeks
 
 ![python-read-word-by-word](img/86d5a4f5219f26e2b1e7eec717a51e5e.png)
 
-```
+```py
 # Python program to read 
 # file word by word
 
@@ -93,7 +93,7 @@ with open('GFG.txt','r') as file:
 
 **输出:**
 
-```
+```py
 Geeks
 4
 Geeks

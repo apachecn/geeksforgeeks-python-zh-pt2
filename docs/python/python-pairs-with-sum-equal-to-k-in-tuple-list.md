@@ -7,7 +7,7 @@
 **方法#1:使用循环**
 这个可以使用循环来解决。这是执行这项任务的粗暴方式。在这种情况下，我们迭代对求和的列表并保留其和为 k 的列表。
 
-```
+```py
 # Python3 code to demonstrate 
 # Pairs with Sum equal to K in tuple list
 # using loop
@@ -34,7 +34,7 @@ print ("List after extracting pairs equal to K : " + str(res))
 
 **Output :**
 
-```
+```py
 The original list is : [(4, 5), (6, 7), (3, 6), (1, 2), (1, 8)]
 List after extracting pairs equal to K : [(4, 5), (3, 6), (1, 8)]
 

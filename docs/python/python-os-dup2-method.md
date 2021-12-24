@@ -24,7 +24,7 @@ Python 中的 ***os.dup2()*** 方法用于将文件描述符 fd 复制到给定�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to explain os.dup2() method
 
 # importing os module
@@ -72,7 +72,7 @@ print("File descriptor duplicated successfully")
 
 **Output:** 
 
-```
+```py
 Original file descriptor: 3
 Duplicated file descriptor: 7
 total 0

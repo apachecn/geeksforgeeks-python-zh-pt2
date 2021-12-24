@@ -21,7 +21,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import the module
 import tweepy
 
@@ -54,7 +54,7 @@ print("The location of the user is : " + location)
 
 **输出:**
 
-```
+```py
 The location of the user is : India
 
 ```
@@ -65,7 +65,7 @@ The location of the user is : India
 
 ## 蟒蛇 3
 
-```
+```py
 # the screen name of the user
 screen_name = "PracticeGfG"
 
@@ -83,7 +83,7 @@ else:
 
 **输出:**
 
-```
+```py
 The user has not mentioned their location.
 
 ```

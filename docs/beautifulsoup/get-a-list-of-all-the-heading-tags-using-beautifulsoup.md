@@ -23,7 +23,7 @@
 
 ## 蟒 3
 
-```
+```py
 # Python program to print all heading tags
 import requests
 from bs4 import BeautifulSoup
@@ -42,7 +42,7 @@ for tags in Soup.find_all(heading_tags):
 
 **输出:**
 
-```
+```py
 h2 -> Related Articles
 h2 -> Python3
 h2 -> Python3

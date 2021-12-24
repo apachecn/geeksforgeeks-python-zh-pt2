@@ -5,7 +5,7 @@
 **strip()** 是 Python 编程语言中的一个内置函数，它返回一个字符串的副本，并删除前导和尾随字符(基于传递的字符串参数)。
 **语法:**
 
-```
+```py
 string.strip([chars])
 Parameter: 
 There is only one optional parameter in it:
@@ -20,7 +20,7 @@ Returns a copy of the string with both leading and trailing characters removed.
 
 ## 蟒蛇 3
 
-```
+```py
 # Python3 program to demonstrate the use of
 # strip() method 
 
@@ -38,7 +38,7 @@ print(string.strip(' geeks'))
 
 **Output:** 
 
-```
+```py
     geeks for geeks     
 geeks for geeks
 for
@@ -46,7 +46,7 @@ for
 
 ## 蟒蛇 3
 
-```
+```py
 # Python Program to demonstrate use of strip() method
 
 str1 = 'geeks for geeks'
@@ -63,7 +63,7 @@ print(str1.strip(str2))
 
 **Output:** 
 
-```
+```py
 geeks for geeks
  for
 ```

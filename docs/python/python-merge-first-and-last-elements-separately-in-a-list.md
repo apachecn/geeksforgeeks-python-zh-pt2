@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : [['x', 'y'], ['a', 'b'], ['m', 'n']]
 Output : [['x', 'a', 'm'], ['y', 'b', 'n']]
 
@@ -17,7 +17,7 @@ Output : [[1, 3, 5, 7], [2, 4, 6, 8]]
 
 **方法#1 :** 列表理解和`zip`
 
-```
+```py
 # Python3 program to Merge first and last
 # elements separately in a list of lists
 
@@ -32,7 +32,7 @@ print(merge(lst))
 
 **Output:**
 
-```
+```py
 [['x', 'a', 'm'], ['y', 'b', 'n']]
 
 ```
@@ -41,7 +41,7 @@ print(merge(lst))
 
 首先将给定列表转换为 *numpy* 数组，然后返回该数组的转置，最后将该数组转换为列表。
 
-```
+```py
 # Python3 program to Merge first and last
 # elements separately in a list of lists
 import numpy as np
@@ -57,7 +57,7 @@ print(merge(lst))
 
 **Output:**
 
-```
+```py
 [['x', 'a', 'm'], ['y', 'b', 'n']]
 
 ```

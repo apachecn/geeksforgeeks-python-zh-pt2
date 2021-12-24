@@ -9,7 +9,7 @@
 **方法一:使用`[remove()](https://www.geeksforgeeks.org/python-list-remove/)`**
 `**remove()**`可以执行列表元素的移除任务。它的拆除是就地进行的，不需要额外的空间。但它面临的缺点是，它只是从列表中删除了第一个匹配项。所有其他事件不会被删除，因此只有当列表不包含重复项时才有用。
 
-```
+```py
 # Python code to demonstrate
 # element removal in list
 # using remove() method
@@ -32,7 +32,7 @@ print ("The list after element removal is : "
 
 输出:
 
-```
+```py
 The list before element removal is : [1, 3, 4, 6, 3]
 The list after element removal is : [1, 4, 6, 3]
 ```
@@ -40,7 +40,7 @@ The list after element removal is : [1, 4, 6, 3]
 **方法 2:使用`[set.disard()](https://www.geeksforgeeks.org/python-remove-discard-sets/)`**
 `**set.disard()**`可以执行列表元素的移除任务。它的拆除是就地进行的，不需要额外的空间。列表首先被转换为集合，因此其他副本被删除，列表排序也被牺牲。因此，当我们需要保留订单或需要保留副本时，这不是一个好主意。
 
-```
+```py
 # Python code to demonstrate
 # element removal in list
 # using discard() method
@@ -66,7 +66,7 @@ print ("The list after element removal is : " 
 
 **输出:**
 
-```
+```py
 The list before element removal is : [1, 4, 5, 4, 5]
 The list after element removal is : [1, 5]
 ```
@@ -74,7 +74,7 @@ The list after element removal is : [1, 5]
 **方法#3:使用 Lambda 函数+ `filter()`**
 Lambda 函数一直是一个有用的工具，因此只需 1 行就可以完成艰巨的任务。这些也可以执行这个特殊的任务。缺点是它们不在原位，需要额外的空间或需要覆盖。它实际上构建了一个新的列表，并过滤掉了所有必需的元素。它删除元素的所有出现。
 
-```
+```py
 # Python code to demonstrate
 # element removal in list
 # using filter() + Lambda function
@@ -97,7 +97,7 @@ print ("The list after element removal is : " 
 
 **输出:**
 
-```
+```py
 The list before element removal is : [1, 3, 4, 6, 3]
 The list after element removal is : [1, 4, 6]
 ```
@@ -105,7 +105,7 @@ The list after element removal is : [1, 4, 6]
 **方法#4:使用列表理解**
 列表理解是执行类似于 lambda 函数执行的任务的更简单的方法。它有同样的缺点，不在现场，也需要额外的空间或覆盖。最好是不要求 `filter()`去执行。它删除元素的所有出现。
 
-```
+```py
 # Python code to demonstrate
 # element removal in list
 # using List Comprehension
@@ -128,7 +128,7 @@ print ("The list after element removal is : " 
 
 **输出:**
 
-```
+```py
 The list before element removal is : [1, 4, 5, 4, 5]
 The list after element removal is : [1, 5, 5]
 
@@ -137,7 +137,7 @@ The list after element removal is : [1, 5, 5]
 **方法 5:使用 pop()**
 使用带列表索引的 pop 方法将元素弹出列表
 
-```
+```py
 # Python code to demonstrate
 # element removal in list
 # using pop() method
@@ -164,7 +164,7 @@ print ("The list after element removal is : " 
 
 **输出:**
 
-```
+```py
 The list before element removal is : [1, 3, 4, 6, 3]
 The list after element removal is : [1, 3, 6, 3]
 

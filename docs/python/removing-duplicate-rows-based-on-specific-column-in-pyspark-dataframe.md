@@ -15,7 +15,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # importing module
 import pyspark
 
@@ -49,7 +49,7 @@ dataframe.show()
 
 ## 蟒蛇 3
 
-```
+```py
 # remove duplicate rows based on college 
 # column
 dataframe.dropDuplicates(['college']).show()
@@ -63,7 +63,7 @@ dataframe.dropDuplicates(['college']).show()
 
 ## 蟒蛇 3
 
-```
+```py
 # remove duplicate rows based on college 
 # and ID column
 dataframe.dropDuplicates(['college', 'student ID']).show()

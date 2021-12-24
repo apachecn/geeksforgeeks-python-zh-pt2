@@ -19,7 +19,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 # import package
 import turtle
 
@@ -59,7 +59,7 @@ draw(100)
 
 ## 蟒蛇 3
 
-```
+```py
 # import package and making object
 import turtle
 screen = turtle.Screen()

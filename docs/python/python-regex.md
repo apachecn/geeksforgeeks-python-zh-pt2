@@ -16,7 +16,7 @@
 
 ## python 3
 
-```
+```py
 import re
 
 match = re.search(r'portal', 'GeeksforGeeks: A computer science \
@@ -30,7 +30,7 @@ print('End Index:', match.end())
 
 **输出**
 
-```
+```py
 <_sre.SRE_Match object; span=(52, 58), match='portal'>
 portal
 Start Index: 52

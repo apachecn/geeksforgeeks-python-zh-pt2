@@ -7,7 +7,7 @@
 **方法一:使用`join() + split()` +列表理解**
 以上功能的组合可以用来执行此任务。在这种情况下，我们将字符串拆分成单词，使用连接和列表理解来检查和替换列表单词。
 
-```
+```py
 # Python3 code to demonstrate working of 
 # Replace multiple words with K
 # Using join() + split() + list comprehension
@@ -34,7 +34,7 @@ print("String after multiple replace : " + str(res)) 
 
 **Output :**
 
-```
+```py
 The original string is : Geeksforgeeks is best for geeks and CS
 String after multiple replace : Geeksforgeeks is gfg gfg geeks and gfg
 

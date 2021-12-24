@@ -14,7 +14,7 @@
 
 **代码#1 :**
 
-```
+```py
 # import string library function 
 import string 
 
@@ -27,14 +27,14 @@ print(result) 
 
 **输出:**
 
-```
+```py
 !"#$%&'()*+, -./:;<=>?@[\]^_`{|}~
 
 ```
 
 **代码#2 :** 给出标点符号的代码测试。
 
-```
+```py
 # import string library function 
 import string 
 
@@ -53,7 +53,7 @@ for i in Sentence:
 
 **输出:**
 
-```
+```py
 Punctuation:,
 Punctuation: !
 Punctuation:,

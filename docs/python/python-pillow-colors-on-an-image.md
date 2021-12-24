@@ -32,7 +32,7 @@ ImageColor 模块，包含各种表示颜色的格式。这些格式如下:
 
 ## 蟒蛇 3
 
-```
+```py
 from PIL import Image
 
 # color --> "red" or (255,0,0) or #ff0000
@@ -58,7 +58,7 @@ img.show()
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing module
 from PIL import ImageColor
 
@@ -73,7 +73,7 @@ print(img2)**
 
 ******输出:******
 
-```
+```py
 **(255, 255, 0)
 (255, 0, 0)**
 ```
@@ -92,7 +92,7 @@ print(img2)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **# importing module
 from PIL import ImageColor
 
@@ -107,7 +107,7 @@ print(img2)**
 
 ******输出:******
 
-```
+```py
 **226
 76**
 ```
@@ -122,7 +122,7 @@ print(img2)**
 
 ## ****蟒蛇 3****
 
-```
+```py
 **from PIL import Image
 
 img = Image.open("flower.jpg")

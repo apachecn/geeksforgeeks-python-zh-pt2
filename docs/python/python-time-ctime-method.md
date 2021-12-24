@@ -16,7 +16,7 @@ Python **time.ctime()** 方法将纪元后的时间(秒)转换为本地时间的
 
 ## 蟒蛇 3
 
-```
+```py
 # import module
 import time
 
@@ -26,7 +26,7 @@ print(time.ctime())
 
 **输出:**
 
-```
+```py
 Thu Mar 18 11:00:19 2021
 ```
 
@@ -38,7 +38,7 @@ Thu Mar 18 11:00:19 2021
 
 ## 蟒蛇 3
 
-```
+```py
 # import time
 import time
 

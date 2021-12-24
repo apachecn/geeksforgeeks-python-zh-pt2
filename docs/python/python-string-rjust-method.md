@@ -21,7 +21,7 @@ Python String rjust()方法在替换原始字符串左侧的给定字符后，�
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to demonstrate working of
 # rjust()
 string = 'geeks'
@@ -34,7 +34,7 @@ print(string.rjust(length))
 
 **输出:**
 
-```
+```py
    geeks 
 ```
 
@@ -42,7 +42,7 @@ print(string.rjust(length))
 
 ## 蟒蛇 3
 
-```
+```py
 # example string
 string = 'geeks'
 length = 8
@@ -53,6 +53,6 @@ print(string.rjust(length, fillchar))
 
 **输出:**
 
-```
+```py
 ***geeks  
 ```

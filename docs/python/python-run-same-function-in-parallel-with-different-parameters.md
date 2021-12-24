@@ -18,7 +18,7 @@
 
 ## 蟒蛇 3
 
-```
+```py
 import multiprocessing
 import time
 
@@ -58,7 +58,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 import multiprocessing
 import time
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 
 ## 蟒蛇 3
 
-```
+```py
 from multiprocessing import Pool
 
 def print_range(range):

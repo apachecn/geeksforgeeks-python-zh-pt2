@@ -11,7 +11,7 @@
 
 在这里，我们将使用 Django 作为后端以及 pytube 模块来创建这个工具。我们可以通过在终端中键入下面的命令来安装 pytube 模块。
 
-```
+```py
 pip install pytube
 ```
 
@@ -19,13 +19,13 @@ pip install pytube
 
 首先，我们将创建一个 HTML 设计(表单)，用户可以在其中输入他/她想要下载的视频的网址。我们将使用 Django 的 **POST** 方法来获取该 URL(因为它是安全的)。如果使用 POST 方法，我们还需要使用 csrf 令牌。csrf 令牌的语法为:
 
-```
+```py
 {% csrf_token %}
 ```
 
 ## 超文本标记语言
 
-```
+```py
 <!DOCTYPE html>
 <html>
 <body>
@@ -50,7 +50,7 @@ pip install pytube
 
 ## 蟒蛇 3
 
-```
+```py
 # importing all the required modules
 from django.shortcuts import render, redirect
 from pytube import *
@@ -80,7 +80,7 @@ def youtube(request):
 
 ## 蟒蛇 3
 
-```
+```py
 from django.contrib import admin
 from django.urls import path
 from . import views

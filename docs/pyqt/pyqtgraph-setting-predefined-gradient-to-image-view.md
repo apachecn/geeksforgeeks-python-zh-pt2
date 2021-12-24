@@ -10,7 +10,7 @@
 
 我们可以在下面给出的命令的帮助下创建一个图像视图
 
-```
+```py
 # creating a pyqtgraph image view object
 imv = pg.ImageView()
 ```
@@ -24,7 +24,7 @@ imv = pg.ImageView()
 
 ## 蟒蛇 3
 
-```
+```py
 # importing Qt widgets
 from PyQt5.QtWidgets import *
 

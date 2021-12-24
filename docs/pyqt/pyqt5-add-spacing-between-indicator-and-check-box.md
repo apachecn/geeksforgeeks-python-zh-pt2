@@ -10,7 +10,7 @@
 
 这可以通过更改复选框样式表中的间距大小来实现，下面是与复选框对象一起使用的样式表代码。
 
-```
+```py
 QCheckBox
 {
 spacing : 20px;
@@ -20,7 +20,7 @@ spacing : 20px;
 
 下面是实现。
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

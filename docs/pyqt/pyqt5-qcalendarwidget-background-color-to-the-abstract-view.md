@@ -6,7 +6,7 @@
 
 为此，我们将对 QCalendarWidget 对象使用`setStyleSheet`方法，下面是样式表代码
 
-```
+```py
 QCalendarWidget QAbstractItemView
 {
 background-color : lightgreen;
@@ -16,7 +16,7 @@ background-color : lightgreen;
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * 
 from PyQt5 import QtCore, QtGui

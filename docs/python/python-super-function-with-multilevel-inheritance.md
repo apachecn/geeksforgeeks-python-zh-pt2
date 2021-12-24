@@ -11,7 +11,7 @@ Python 超级函数为我们提供了进行单级或多级继承的灵活性，�
 
 下面是如何在 Python3 中调用超级函数的一个例子:
 
-```
+```py
 # parent class also sometime called the super class
 class Parentclass():
     def __init__(self):
@@ -32,7 +32,7 @@ class subclass(Parentclass):
 
 下面是解释多重继承的例子。
 
-```
+```py
 # Program to define the use of super()
 # function in multiple inheritance
 class GFG1:
@@ -75,7 +75,7 @@ if __name__ == '__main__':
 
 **Output:**
 
-```
+```py
 HEY !!!!!! GfG I am initialised(Class GEG3)
 HEY !!!!!! GfG I am initialised(Class GEG2)
 HEY !!!!!! GfG I am initialised(Class GEG1)

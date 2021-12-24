@@ -5,7 +5,7 @@
 给定一个数字列表，任务是编写一个 Python 程序来查找给定列表中的第二大数字。
 **例:**
 
-```
+```py
 Input: list1 = [10, 20, 4]
 Output: 10
 
@@ -17,7 +17,7 @@ Output: 70
 
 ## 蟒蛇 3
 
-```
+```py
 # Python program to find second largest
 # number in a list
 
@@ -42,6 +42,6 @@ print("Second highest number is : ",\
 
 **Output**
 
-```
+```py
 Second highest number is :  45
 ```

@@ -6,7 +6,7 @@
 
 **代码#1 :**
 
-```
+```py
 typedef struct Point
 {
     double x, y;
@@ -19,7 +19,7 @@ extern double distance(Point *p1, Point *p2);
 
 **代码#2 :** 给出的代码是一个扩展代码，使用胶囊包装*点*结构和`distance()`功能。
 
-```
+```py
 /* Destructor function for points */
 static void del_Point(PyObject * obj)
 {
@@ -75,7 +75,7 @@ static PyObject * py_distance(PyObject * self, PyObject * args)
 
 **代码#3:使用 Python 中的上述函数**
 
-```
+```py
 import sample
 
 pt1 = sample.Point(2, 3)
@@ -89,7 +89,7 @@ print ("Distance : ", sample.distance(p1, p2))
 
 **输出:**
 
-```
+```py
 pt1 : <capsule object "Point" at 0x1004ea330>
 
 pt2 : <capsule object "Point" at 0x1005d1db0>

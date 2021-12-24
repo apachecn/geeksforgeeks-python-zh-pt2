@@ -6,7 +6,7 @@
 
 **示例:**
 
-```
+```py
 Input : pat = "asbcklfdmegnot", str = "eksge" 
 Output : str = "geeks"
 (after sorting, str becomes "skeeg" and return its reverse)
@@ -19,7 +19,7 @@ Output : str = "coding"
 其思想是首先根据 Pattern 中提供的索引维护一个字典，然后将 lambda 函数(使用字典的效用)传递给 sort 函数。
 下面是上面思路的实现。
 
-```
+```py
 # Python program to sort a string and return
 # its reverse string according to pattern string
 
@@ -53,7 +53,7 @@ if __name__=='__main__':
 
 **输出:**
 
-```
+```py
 geeks
 ```
 

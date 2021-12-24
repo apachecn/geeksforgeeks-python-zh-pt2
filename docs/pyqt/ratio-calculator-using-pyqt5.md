@@ -8,14 +8,14 @@
 
 **PyQt5** 是跨平台的 GUI 工具包，一套针对 Qt v5 的 python 绑定。由于该库提供的工具和简单性，人们可以非常容易地开发交互式桌面应用程序。下面是安装 PyQt5 的命令
 
-```
+```py
 pip install PyQt5
 ```
 
 **概念:**
 用户必须选择一个比率，然后输入另一个数字，计算器会找到相应的比率值，下面是使用的公式
 
-```
+```py
 A / B = C / X
 
 ```
@@ -40,7 +40,7 @@ A / B = C / X
 
 下面是实现
 
-```
+```py
 # importing libraries
 from PyQt5.QtWidgets import * from PyQt5 import QtCore, QtGui
 from PyQt5.QtGui import * from PyQt5.QtCore import * import sys
